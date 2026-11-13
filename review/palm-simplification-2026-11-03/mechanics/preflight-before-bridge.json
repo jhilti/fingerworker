@@ -1,0 +1,80 @@
+{
+  "status": "PASS_LOCAL_CONTINUOUS_PALM",
+  "baseline_native_step_sha256": "b2c076642b22f99a251b8e2a6ac20da9f251696e892448a2651ee8b636f32021",
+  "baseline_source_sha256": "730cd21ea3aafbe43bf8eb38007b20d9cd0272659430d8a2b3b6245f33f62455",
+  "candidate_source_sha256": "648192f9983926f7762f266bfbac16e465589c79efbc1bd53c24c48b99d3e60d",
+  "generator_sha256": "39b7d6623482a26845f800d7ff6be8e8e60cae37cc81b6e6ca0c98ca6d3de86d",
+  "checks": [
+    {
+      "name": "Valid single P01 solid",
+      "status": "PASS",
+      "solids": 1
+    },
+    {
+      "name": "No R12 frame material removed",
+      "status": "PASS",
+      "removed_mm3": 0.0
+    },
+    {
+      "name": "Added material behind functional interfaces and above lid",
+      "status": "PASS",
+      "bounds_mm": [
+        [
+          -37.2500001,
+          -58.0000001,
+          9.5
+        ],
+        [
+          -17.1,
+          58.0000001,
+          30.0000001
+        ]
+      ],
+      "added_volume_mm3": 14888.902285235954
+    },
+    {
+      "name": "No new intersection with P08",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Unchanged electronics clearance volume below Z9.5",
+      "status": "PASS",
+      "difference_mm3": 0.0
+    },
+    {
+      "name": "Unchanged negative tray catch landing",
+      "status": "PASS",
+      "difference_mm3": 0.0
+    },
+    {
+      "name": "Unchanged positive tray catch landing",
+      "status": "PASS",
+      "difference_mm3": 0.0
+    },
+    {
+      "name": "Unchanged sensor functional front region",
+      "status": "PASS",
+      "difference_mm3": 0.0
+    },
+    {
+      "name": "Optional M2 pilot remains open 0",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Optional M2 pilot remains open 1",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "No new H18 lateral service obstruction -1",
+      "status": "PASS"
+    },
+    {
+      "name": "No new H18 lateral service obstruction 1",
+      "status": "PASS"
+    }
+  ],
+  "limitations": "Offline geometry candidate only. Native CAD export, full service/motion and actual slice must be rechecked. New undersides over small gaps may create new support and require slicing review."
+}

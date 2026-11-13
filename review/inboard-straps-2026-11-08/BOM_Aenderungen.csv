@@ -1,0 +1,11 @@
+Ref,Menge R14 Geraet,Menge R15 Geraet,Stuecke aktuelles Druckpaket,Aenderung
+P01,1,1,1,"Vier aeussere Laschen entfallen; vier27 x4 mm-Gurtschlitze innen; Hauptboden132 mm, P01-Aussenmass132,4 mm; R14-Handballenauflage erhalten."
+P04/P05/P06/P11,4,4,4,Native Geometrie exakt erhalten; vorhandene Drucke verwenden. Neue Projektvariante ohne Brims.
+P08/P09,2,2,0,Elektronikaufnahme unveraendert; im mechanischen Druckauftrag weggelassen.
+H040/H041,2,2,0,Echte Fuehrungsstangen vorhanden; nicht drucken.
+Q01,Passhilfe,Passhilfe,1,Unveraendert und nur federfrei verwenden.
+G01/G02,2,2,0,"Zwei25 mm-Gurte, max2 mm Dicke, beide Enden sicher rueckfaltbar; Laenge nach Umfang. Nicht drucken."
+Druckteile Geraet,7,7,5,Keine neuen kleinen Teile.
+Druckstuecke aktuelles Paket,,,6,Fuenf Geraeteteile und eine Passhilfe.
+Zusaetzliche Kaufteile,0,0,0,Keine zusaetzlichen Kaufteile gegenueber R14; zwei Gurte bleiben erforderlich.
+Native CAD-Koerper,93,93,,P01 geaendert;92 andere Koerper exakt erhalten.

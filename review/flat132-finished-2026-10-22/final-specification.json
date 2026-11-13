@@ -1,0 +1,85 @@
+{
+  "revision": "Flat132 R1",
+  "date": "2026-10-22",
+  "status": "NOMINAL_GEOMETRY_CHECKS_PASS",
+  "manufacturing_release": false,
+  "source_sha256": "041056629440056626b2f2f88a0db216693e48fff178687174478cb1f34227ef",
+  "onshape_version_id": "4c39034c17201905fdfbb1d6",
+  "dimensions_mm": {
+    "frame_width": 132,
+    "clear_finger_opening": 72,
+    "maximum_height": 35,
+    "travel": 30,
+    "preload_min": 0,
+    "preload_max": 2
+  },
+  "sensor": {
+    "part": "TE FX1901-0001-0200-L",
+    "revision": "F",
+    "manufacturer_shape_modified": false,
+    "neutral_apex_mm": [
+      -1.9,
+      0,
+      18
+    ],
+    "housing_diameter_mm": 25,
+    "axial_envelope_mm": 7.95
+  },
+  "changed_metal_parts": {
+    "H12": {
+      "material": "S355 steel",
+      "backing_plate_mm": [
+        30,
+        30,
+        2.15
+      ],
+      "M3_pilot_diameter_mm": 2.5,
+      "M3_finished_thread": "M3x0.5",
+      "M3_engagement_mm": 2,
+      "M3_runout_mm": 1.1,
+      "M2_pilot_diameter_mm": 1.7,
+      "M2_finished_thread": "M2x0.4"
+    },
+    "H23": {
+      "material": "stainless sheet; grade to be specified",
+      "thickness_mm": 0.5,
+      "nominal_sensor_rim_gap_mm": 0.5
+    },
+    "H24": {
+      "quantity": 4,
+      "material": "steel",
+      "OD_mm": 4,
+      "ID_mm": 2.2,
+      "length_mm": 8.45
+    },
+    "H19": {
+      "quantity": 2,
+      "material": "steel",
+      "OD_mm": 4,
+      "ID_mm": 3.2,
+      "length_mm": 6
+    },
+    "H25": {
+      "quantity": 4,
+      "standard": "M2x12 panhead",
+      "maximum_head_diameter_mm": 4,
+      "maximum_head_height_mm": 1.6
+    }
+  },
+  "guide_closed_end_wall_mm": 2.3,
+  "thread_model": "Tap pilots and screw envelopes; finished helical threads are fabrication callouts",
+  "hand_reference": {
+    "user_confirmed_approximate": true,
+    "opening_retained_mm": 72,
+    "scan_modified": false,
+    "physical_fit_validated": false
+  },
+  "qualification_pending": [
+    "manufacturing tolerances and drawings",
+    "printed strength and creep",
+    "loaded backing stiffness and fatigue",
+    "full flexible lead routing and strain relief",
+    "spring-free hand fit and comfort",
+    "sensor calibration and loaded behaviour"
+  ]
+}

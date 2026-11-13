@@ -1,0 +1,200 @@
+[
+  {
+    "group": [
+      "P06",
+      15.8,
+      "Inner wall",
+      0.44999
+    ],
+    "missing_baseline_area": 0.0019804833572370016,
+    "missing_candidate_area": 0.0,
+    "baseline_centreline_gap_bounds": [
+      116.14687186032305,
+      1.41,
+      116.154,
+      1.4125293398853684
+    ],
+    "candidate_centreline_gap_bounds": [
+      115.0,
+      3.7279999999999998,
+      115.0,
+      3.7680000000000002
+    ]
+  },
+  {
+    "group": [
+      "P06",
+      16.0,
+      "Inner wall",
+      0.44999
+    ],
+    "missing_baseline_area": 0.0,
+    "missing_candidate_area": 0.0017695885851509384,
+    "baseline_centreline_gap_bounds": [
+      13.2,
+      3.848,
+      115.2,
+      3.8880000000000003
+    ],
+    "candidate_centreline_gap_bounds": [
+      14.318969414408832,
+      1.41,
+      116.354,
+      1.4113599722235388
+    ]
+  },
+  {
+    "group": [
+      "P06",
+      16.2,
+      "Inner wall",
+      0.44999
+    ],
+    "missing_baseline_area": 0.004210762676083947,
+    "missing_candidate_area": 0.0,
+    "baseline_centreline_gap_bounds": [
+      14.52296548182043,
+      1.41,
+      116.554,
+      1.412977375970084
+    ],
+    "candidate_centreline_gap_bounds": [
+      13.409414789150425,
+      3.8459757215846544,
+      115.40870667471815,
+      3.886020213937989
+    ]
+  },
+  {
+    "group": [
+      "P06",
+      16.4,
+      "Inner wall",
+      0.44999
+    ],
+    "missing_baseline_area": 0.0014573767486998337,
+    "missing_candidate_area": 0.0014573714746172993,
+    "baseline_centreline_gap_bounds": [
+      14.720965513000916,
+      1.41,
+      115.60489155099854,
+      3.7830076654633933
+    ],
+    "candidate_centreline_gap_bounds": [
+      13.604851120580536,
+      1.41,
+      116.754,
+      3.783007665463393
+    ]
+  },
+  {
+    "group": [
+      "P06",
+      16.6,
+      "Inner wall",
+      0.44999
+    ],
+    "missing_baseline_area": 0.0,
+    "missing_candidate_area": 0.004063207429139776,
+    "baseline_centreline_gap_bounds": [
+      13.8,
+      3.735,
+      13.8,
+      3.7750000000000004
+    ],
+    "candidate_centreline_gap_bounds": [
+      14.932939930542013,
+      1.41,
+      14.954,
+      1.4156313595690595
+    ]
+  },
+  {
+    "group": [
+      "P06",
+      16.8,
+      "Inner wall",
+      0.44999
+    ],
+    "missing_baseline_area": 0.0,
+    "missing_candidate_area": 0.000963779716937766,
+    "baseline_centreline_gap_bounds": [
+      116.0,
+      3.8459999999999996,
+      116.0,
+      3.886
+    ],
+    "candidate_centreline_gap_bounds": [
+      117.12100034189712,
+      1.41,
+      117.154,
+      1.4236688358519707
+    ]
+  },
+  {
+    "group": [
+      "P06",
+      17.0,
+      "Inner wall",
+      0.44999
+    ],
+    "missing_baseline_area": 0.0,
+    "missing_candidate_area": 0.004914672784027883,
+    "baseline_centreline_gap_bounds": [
+      116.2,
+      3.7399999999999998,
+      116.2,
+      3.7800000000000002
+    ],
+    "candidate_centreline_gap_bounds": [
+      117.33392837738344,
+      1.41,
+      117.354,
+      1.4185203364462906
+    ]
+  },
+  {
+    "group": [
+      "P06",
+      17.2,
+      "Inner wall",
+      0.44999
+    ],
+    "missing_baseline_area": 0.008318253441613483,
+    "missing_candidate_area": 0.0,
+    "baseline_centreline_gap_bounds": [
+      15.538198727150245,
+      1.41,
+      117.554,
+      1.416707593815062
+    ],
+    "candidate_centreline_gap_bounds": [
+      14.4,
+      3.7319999999999998,
+      116.4,
+      3.7720000000000002
+    ]
+  },
+  {
+    "group": [
+      "P06",
+      17.4,
+      "Inner wall",
+      0.44999
+    ],
+    "missing_baseline_area": 0.0,
+    "missing_candidate_area": 0.0022199381533278785,
+    "baseline_centreline_gap_bounds": [
+      14.6,
+      3.719,
+      14.6,
+      3.7590000000000003
+    ],
+    "candidate_centreline_gap_bounds": [
+      15.724856573476503,
+      1.41,
+      15.754,
+      1.422371286762491
+    ]
+  }
+]

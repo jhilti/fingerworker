@@ -1,0 +1,20 @@
+{
+  "status": "PASS_LOCAL_PROTOTYPE_VISUAL_REVIEW",
+  "source_sha256": "780dfdbaf9c6ab4bf4bbf3ab3de0dab3f9ac7dc5f8de49cf015c51ee95cc16e4",
+  "candidate_stl_sha256": "013f0e2d9d8fd8849594e4621b9ddfb632524e9178a7caf8028073159d97551a",
+  "files_sha256": {
+    "review/side-thumb-2026-11-12/mechanics/P01-prototype-full.png": "e8378c76c64a9fef0434c0edb866949a20a51038021f8b199792a3771c50d3ea",
+    "review/side-thumb-2026-11-12/mechanics/P01-prototype-thumb-detail.png": "5535538cf81be645ba26819c4eda60aa3a83797b48a5e4a3d07c7004c2624428"
+  },
+  "observations": [
+    "Uniform continuous side-thumb cavity has replaced the previous shoulder/socket step.",
+    "Concave contact wall, rounded mouth and floor are visible; existing rear thumb pocket remains separate.",
+    "Grey P05 is the unchanged native R16 floating yoke; the new side seat is in blue fixed P01.",
+    "Full frame and detail are camera views of complete solids; no cutaway or removed display geometry.",
+    "Both images explicitly identify a local prototype with native Onshape synchronization pending."
+  ],
+  "limitations": [
+    "Visual nominal CAD review only. Hand fit, actual retention, surface quality and strength require the physical prototype.",
+    "Source has not yet regenerated natively in Onshape."
+  ]
+}

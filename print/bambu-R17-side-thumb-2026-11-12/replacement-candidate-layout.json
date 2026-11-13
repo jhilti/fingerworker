@@ -1,0 +1,261 @@
+{
+  "status": "LOCAL_R17_P01_REPLACEMENT_CANDIDATE_PENDING_SLICE",
+  "CAD_source_path": "review/side-thumb-2026-11-12/fingerworker_R17_side_thumb.fs",
+  "CAD_source_sha256": "780dfdbaf9c6ab4bf4bbf3ab3de0dab3f9ac7dc5f8de49cf015c51ee95cc16e4",
+  "slicer_version": "02.08.02.61",
+  "printer": "H2D",
+  "nozzle_mm": 0.4,
+  "material": "PLA",
+  "bed": "Textured PEI Plate",
+  "plate_count": 1,
+  "object_count": 6,
+  "safe_shared_XY_mm": [
+    [
+      27,
+      3
+    ],
+    [
+      323,
+      317
+    ]
+  ],
+  "native_machine_macros_modified": false,
+  "no_printer_transmission": true,
+  "placements": [
+    {
+      "ref": "P01",
+      "source_path": "print/bambu-R17-side-thumb-2026-11-12/source-mm/P01.stl",
+      "source_sha256": "013f0e2d9d8fd8849594e4621b9ddfb632524e9178a7caf8028073159d97551a",
+      "source_geometry": "LOCAL_R17_CANDIDATE_STL",
+      "CAD_source_sha256": "780dfdbaf9c6ab4bf4bbf3ab3de0dab3f9ac7dc5f8de49cf015c51ee95cc16e4",
+      "material": "PLA",
+      "intent": "UPRIGHT PALM GRIP WITH OPEN SIDE THUMB RECESSES",
+      "orientation": "Base floor down; upright palm contact is an outer wall",
+      "rotation_3x3": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "plate": 1,
+      "plate_xy_mm": [
+        35,
+        22
+      ],
+      "brim_mm": 0,
+      "reserved_margin_mm": 7,
+      "normalization_translation_mm": [
+        46.099998474121094,
+        66.19999694824219,
+        2.0
+      ],
+      "size_oriented_mm": [
+        175.0999984741211,
+        132.39999389648438,
+        35.0
+      ],
+      "volume_mm3": 167742.35687876612,
+      "faces": 52876,
+      "units": "mm",
+      "scale": 1.0,
+      "reserved_bounds_xy_mm": [
+        28,
+        15,
+        217.0999984741211,
+        161.39999389648438
+      ]
+    }
+  ],
+  "object_settings": {
+    "P01": {
+      "brim_type": "no_brim",
+      "brim_width": "0",
+      "brim_object_gap": "0.1",
+      "enable_support": "1",
+      "support_type": "normal(auto)",
+      "support_on_build_plate_only": "1",
+      "support_top_z_distance": "0.25",
+      "support_threshold_angle": "30",
+      "bridge_angle": "0"
+    }
+  },
+  "P01_bridge_angle_degrees": 0,
+  "seed_path": "Fingerworker_R17_P01_Replacement_LOCAL_TEST_CANDIDATE_H2D_04mm_PLA_Basic_seed.3mf",
+  "seed_sha256": "6c54c8cffc9ec73dbc05123aec45ee4b3e60095da3003466c9cd5f225c34ea32",
+  "native_project": "Fingerworker_R17_P01_Replacement_LOCAL_TEST_CANDIDATE_H2D_04mm_PLA_Basic.3mf",
+  "candidate_orientation": null,
+  "date": "2026-11-12",
+  "baseline_project": "print/bambu-R16-upright-grip-2026-11-09/Fingerworker_R16_H2D_04mm_PLA_Basic_Print_Ready.3mf",
+  "baseline_project_sha256": "a9ebaf5ba9c9296c1e85b162689dab32d13a7bb1ae3a0f826b355328594b89a0",
+  "baseline_native_mesh_hashes": {
+    "3D/Objects/object_8.model": "2ee21356d3c6d43a6d4d3fadfc5cdc653f0089c120d8c9711bf6f18ec275d412",
+    "3D/Objects/object_9.model": "6f13085bb4399c7f0d095f3f8e6a1555466285affdefd84796cfc8557868a393",
+    "3D/Objects/object_10.model": "9f62262efc8750c39e5faaa7058cb6b384bc8f5e43ac1fcf1245640c263b2a8d",
+    "3D/Objects/object_3.model": "7bfa0727cdb1f47a4cc06d7f0f15456af3b035e300f5975da4d0e99d32559cc1",
+    "3D/Objects/object_1.model": "2b814830ee3f064697b0c0584a0de24708a9839bdf4473424a8e70e9509aa029",
+    "3D/Objects/object_2.model": "11b86fc711fd953333235cd4a5662abc99d1536d98389049bd63277976aa023f"
+  },
+  "changes": "Only P01 native geometry replaced. Other five meshes, placements, all process/material settings except preset label retained from connected R16 PLA Basic project. Manual left-nozzle mapping retained unchanged. Four strap infill modifiers retained in native coordinates.",
+  "print_sequence": "by layer",
+  "profile_changes": {},
+  "omitted": [
+    "P08",
+    "P09",
+    "H040",
+    "H041"
+  ],
+  "candidate_zero_area_facets_omitted": 0,
+  "candidate_zero_area_facet_vertices": [],
+  "local_density_modifiers": [
+    {
+      "name": "Inboard slot X28_Y-57.5 - local100% infill",
+      "native_bounds_mm": [
+        [
+          9.5,
+          -66,
+          -2
+        ],
+        [
+          46.5,
+          -52,
+          4
+        ]
+      ],
+      "sparse_infill_density": "100%",
+      "sparse_infill_pattern": "zig-zag",
+      "purpose": "Solid inboard slot bearing ligaments; does not add printed geometry"
+    },
+    {
+      "name": "Inboard slot X28_Y57.5 - local100% infill",
+      "native_bounds_mm": [
+        [
+          9.5,
+          52,
+          -2
+        ],
+        [
+          46.5,
+          66,
+          4
+        ]
+      ],
+      "sparse_infill_density": "100%",
+      "sparse_infill_pattern": "zig-zag",
+      "purpose": "Solid inboard slot bearing ligaments; does not add printed geometry"
+    },
+    {
+      "name": "Inboard slot X65_Y-57.5 - local100% infill",
+      "native_bounds_mm": [
+        [
+          46.5,
+          -66,
+          -2
+        ],
+        [
+          83.5,
+          -52,
+          4
+        ]
+      ],
+      "sparse_infill_density": "100%",
+      "sparse_infill_pattern": "zig-zag",
+      "purpose": "Solid inboard slot bearing ligaments; does not add printed geometry"
+    },
+    {
+      "name": "Inboard slot X65_Y57.5 - local100% infill",
+      "native_bounds_mm": [
+        [
+          46.5,
+          52,
+          -2
+        ],
+        [
+          83.5,
+          66,
+          4
+        ]
+      ],
+      "sparse_infill_density": "100%",
+      "sparse_infill_pattern": "zig-zag",
+      "purpose": "Solid inboard slot bearing ligaments; does not add printed geometry"
+    }
+  ],
+  "modifier_count": 4,
+  "brim_changes": {
+    "P01": {
+      "old_type": "outer_only",
+      "old_width_mm": 5.0,
+      "new_type": "no_brim",
+      "new_width_mm": 0
+    },
+    "P04": {
+      "old_type": "outer_only",
+      "old_width_mm": 5.0,
+      "new_type": "no_brim",
+      "new_width_mm": 0
+    },
+    "P05": {
+      "old_type": "outer_only",
+      "old_width_mm": 5.0,
+      "new_type": "no_brim",
+      "new_width_mm": 0
+    },
+    "P11": {
+      "old_type": "outer_only",
+      "old_width_mm": 2.0,
+      "new_type": "no_brim",
+      "new_width_mm": 0
+    },
+    "Q01": {
+      "old_type": "outer_only",
+      "old_width_mm": 3.0,
+      "new_type": "no_brim",
+      "new_width_mm": 0
+    },
+    "P06": {
+      "old_type": "outer_only",
+      "old_width_mm": 4.0,
+      "new_type": "no_brim",
+      "new_width_mm": 0
+    }
+  },
+  "strap_print_regions_path": "print/bambu-R17-side-thumb-2026-11-12/source/strap-print-regions.json",
+  "strap_print_regions_sha256": "affddeb34df173909f56e8a38bbf2f94c918569e248d94403ec4045caef98bee",
+  "mapping_change": {
+    "previous_mode": "Manual",
+    "new_mode": "Manual",
+    "logical_extruder": 1,
+    "filament_maps": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "reason": "Retain R16 manual left-nozzle assignment unchanged",
+    "primary_source": "https://raw.githubusercontent.com/bambulab/BambuStudio/v02.08.02.61/src/libslic3r/PrintConfig.cpp"
+  },
+  "native_STL_archive": null,
+  "native_STL_archive_sha256": null,
+  "native_P01_member": null,
+  "printer_transmission": false,
+  "native_R17_version": "LOCAL_TEST_PENDING_ONSHAPE",
+  "side_thumb_regions_path": "print/bambu-R17-side-thumb-2026-11-12/source/side-thumb-print-regions.json",
+  "side_thumb_regions_sha256": "6ca901f2b29479d1f41ae7a17c363698c237db9e9bca333539f7527e7916ce52",
+  "parent_six_part_project": "Fingerworker_R17_H2D_04mm_PLA_Basic_Print_Ready_LOCAL_TEST_CANDIDATE.3mf",
+  "parent_six_part_project_sha256": "894888acaf6f595d30ef70350fa64c1b96a76d1cd9cf3b6b1581286f07873c93",
+  "variant": "P01 replacement only",
+  "candidate": true
+}

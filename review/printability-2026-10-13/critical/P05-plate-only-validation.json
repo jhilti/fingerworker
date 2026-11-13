@@ -1,0 +1,26 @@
+[
+  {
+    "project": "orientation-study",
+    "support_inside_pusher_bore": 24,
+    "left_wing_interface_segments": 82,
+    "right_wing_interface_segments": 80,
+    "nuttrap_ceiling_bridge_segments": 37,
+    "nuttrap_ceiling_max_tagged_bridge_segment_mm": 8.768
+  },
+  {
+    "project": "orientation-study-blocker",
+    "support_inside_pusher_bore": 0,
+    "left_wing_interface_segments": 82,
+    "right_wing_interface_segments": 80,
+    "nuttrap_ceiling_bridge_segments": 37,
+    "nuttrap_ceiling_max_tagged_bridge_segment_mm": 8.768
+  },
+  {
+    "project": "P05-plate-only-study",
+    "support_inside_pusher_bore": 0,
+    "left_wing_interface_segments": 82,
+    "right_wing_interface_segments": 80,
+    "nuttrap_ceiling_bridge_segments": 37,
+    "nuttrap_ceiling_max_tagged_bridge_segment_mm": 8.768
+  }
+]

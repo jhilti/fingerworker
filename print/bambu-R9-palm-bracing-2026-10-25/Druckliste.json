@@ -1,0 +1,1009 @@
+[
+  {
+    "ref": "P01",
+    "source_path": "review/flat132-palm-bracing-2026-10-25/print-mm/P01.stl",
+    "source_sha256": "ba3e84042526aa6b4443a4aa7eda55991788fd81d2663abab948286b22cd0f48",
+    "source_geometry": "FROZEN_R9_NATIVE_STL",
+    "CAD_source_sha256": "16972ba9341f4cdf763a5570dad82a4fbd601f0935d0a7657be85813f97ff2b1",
+    "material": "PLA",
+    "intent": "R9 rigid printed part - unloaded fit study",
+    "orientation": "Base floor down",
+    "rotation_3x3": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "normalization_translation_mm": [
+      23.0,
+      66.0,
+      2.0
+    ],
+    "plate_xy_mm": [
+      33,
+      9
+    ],
+    "size_oriented_mm": [
+      152.0,
+      132.0,
+      35.0
+    ],
+    "brim_mm": 5,
+    "reserved_margin_mm": 6,
+    "reserved_bounds_xy_mm": [
+      27,
+      3,
+      191.0,
+      147.0
+    ],
+    "volume_mm3": 137310.68264108684,
+    "faces": 36836,
+    "units": "mm",
+    "scale": 1.0
+  },
+  {
+    "ref": "P02",
+    "source_path": "review/flat132-palm-bracing-2026-10-25/print-mm/P02.stl",
+    "source_sha256": "8154e49606a63ce4e08fe1a6d15bac2961a0e2d48b57f76758ab73f40d1aeb02",
+    "source_geometry": "FROZEN_R9_NATIVE_STL",
+    "CAD_source_sha256": "16972ba9341f4cdf763a5570dad82a4fbd601f0935d0a7657be85813f97ff2b1",
+    "material": "PLA",
+    "intent": "R9 rigid printed part - unloaded fit study",
+    "orientation": "Native Xmin wrist ledge down; brace bearing faces upward and lid-gap face vertical",
+    "rotation_3x3": [
+      [
+        0,
+        0,
+        -1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "normalization_translation_mm": [
+      30.0,
+      64.0,
+      46.10000228881836
+    ],
+    "plate_xy_mm": [
+      199,
+      9
+    ],
+    "size_oriented_mm": [
+      23.5,
+      128.0,
+      36.60000228881836
+    ],
+    "brim_mm": 5,
+    "reserved_margin_mm": 6,
+    "reserved_bounds_xy_mm": [
+      193,
+      3,
+      228.5,
+      143.0
+    ],
+    "volume_mm3": 27726.779415874782,
+    "faces": 27816,
+    "units": "mm",
+    "scale": 1.0
+  },
+  {
+    "ref": "P04",
+    "source_path": "review/flat132-palm-bracing-2026-10-25/print-mm/P04.stl",
+    "source_sha256": "fdb84301af40be4ca84b838ebc1847b18ac0b2854818e3bfe63c1085d6ff0b7c",
+    "source_geometry": "FROZEN_R9_NATIVE_STL",
+    "CAD_source_sha256": "16972ba9341f4cdf763a5570dad82a4fbd601f0935d0a7657be85813f97ff2b1",
+    "material": "PLA",
+    "intent": "R9 rigid printed part - unloaded fit study",
+    "orientation": "Native Xmax rear plane down",
+    "rotation_3x3": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        -1,
+        0,
+        0
+      ]
+    ],
+    "normalization_translation_mm": [
+      -5.0,
+      63.0,
+      119.0
+    ],
+    "plate_xy_mm": [
+      236.5,
+      9
+    ],
+    "size_oriented_mm": [
+      25.0,
+      126.0,
+      59.0
+    ],
+    "brim_mm": 5,
+    "reserved_margin_mm": 6,
+    "reserved_bounds_xy_mm": [
+      230.5,
+      3,
+      267.5,
+      141.0
+    ],
+    "volume_mm3": 76807.9095373969,
+    "faces": 51838,
+    "units": "mm",
+    "scale": 1.0
+  },
+  {
+    "ref": "P05",
+    "source_path": "review/flat132-palm-bracing-2026-10-25/print-mm/P05.stl",
+    "source_sha256": "708aa073c8b30dab19e3c7700ca2d05ff4264845293c3428a68df1c2ced52966",
+    "source_geometry": "FROZEN_R9_NATIVE_STL",
+    "CAD_source_sha256": "16972ba9341f4cdf763a5570dad82a4fbd601f0935d0a7657be85813f97ff2b1",
+    "material": "PLA",
+    "intent": "R9 rigid printed part - unloaded fit study",
+    "orientation": "Native Z up; integral stop undersides on bed",
+    "rotation_3x3": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "normalization_translation_mm": [
+      7.0,
+      63.0,
+      -7.0
+    ],
+    "plate_xy_mm": [
+      275.5,
+      9
+    ],
+    "size_oriented_mm": [
+      37.0,
+      126.0,
+      22.0
+    ],
+    "brim_mm": 5,
+    "reserved_margin_mm": 6,
+    "reserved_bounds_xy_mm": [
+      269.5,
+      3,
+      318.5,
+      141.0
+    ],
+    "volume_mm3": 50903.03981247484,
+    "faces": 15564,
+    "units": "mm",
+    "scale": 1.0
+  },
+  {
+    "ref": "P08",
+    "source_path": "review/flat132-palm-bracing-2026-10-25/print-mm/P08.stl",
+    "source_sha256": "11f47952a86814ce1c6a80ad25edde546f99b8664a610e397851ec8ae9fe8b2a",
+    "source_geometry": "FROZEN_R9_NATIVE_STL",
+    "CAD_source_sha256": "16972ba9341f4cdf763a5570dad82a4fbd601f0935d0a7657be85813f97ff2b1",
+    "material": "PLA",
+    "intent": "R9 rigid printed part - unloaded fit study",
+    "orientation": "Native Z up; rotated on bed",
+    "rotation_3x3": [
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "normalization_translation_mm": [
+      62.0,
+      46.10000228881836,
+      -0.0
+    ],
+    "plate_xy_mm": [
+      32,
+      154
+    ],
+    "size_oriented_mm": [
+      124.0,
+      22.500001907348633,
+      9.5
+    ],
+    "brim_mm": 3,
+    "reserved_margin_mm": 5,
+    "reserved_bounds_xy_mm": [
+      27,
+      149,
+      161.0,
+      181.50000190734863
+    ],
+    "volume_mm3": 4753.499367571646,
+    "faces": 8442,
+    "units": "mm",
+    "scale": 1.0
+  },
+  {
+    "ref": "P09",
+    "source_path": "review/flat132-palm-bracing-2026-10-25/print-mm/P09.stl",
+    "source_sha256": "2b809ab1f7cc350b96862cfd7d4878ac1907bda7cf793f78aa0e445e7264084a",
+    "source_geometry": "FROZEN_R9_NATIVE_STL",
+    "CAD_source_sha256": "16972ba9341f4cdf763a5570dad82a4fbd601f0935d0a7657be85813f97ff2b1",
+    "material": "PLA",
+    "intent": "R9 rigid printed part - unloaded fit study",
+    "orientation": "Outer lid face down",
+    "rotation_3x3": [
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ]
+    ],
+    "normalization_translation_mm": [
+      55.0,
+      46.10000228881836,
+      8.899999618530273
+    ],
+    "plate_xy_mm": [
+      166,
+      152
+    ],
+    "size_oriented_mm": [
+      110.0,
+      22.500001907348633,
+      6.749999523162842
+    ],
+    "brim_mm": 2,
+    "reserved_margin_mm": 3,
+    "reserved_bounds_xy_mm": [
+      163,
+      149,
+      279.0,
+      177.50000190734863
+    ],
+    "volume_mm3": 2247.0599680949167,
+    "faces": 2694,
+    "units": "mm",
+    "scale": 1.0
+  },
+  {
+    "ref": "H040",
+    "source_path": "review/flat132-palm-bracing-2026-10-25/assembly-mm/H040.stl",
+    "source_sha256": "ed73c2217009079342531d1dd16e68c206790ab2f2ca3b5e85f41e866079d427",
+    "source_geometry": "FROZEN_R9_NATIVE_STL",
+    "CAD_source_sha256": "16972ba9341f4cdf763a5570dad82a4fbd601f0935d0a7657be85813f97ff2b1",
+    "material": "PLA",
+    "intent": "RIGID PLA SHAPE PROXY - NO LOAD",
+    "orientation": "Horizontal native rod axis; rigid shape proxy only",
+    "rotation_3x3": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "normalization_translation_mm": [
+      16.0,
+      54.0,
+      -15.0
+    ],
+    "plate_xy_mm": [
+      30,
+      186.5
+    ],
+    "size_oriented_mm": [
+      141.0,
+      6.0,
+      6.0
+    ],
+    "brim_mm": 3,
+    "reserved_margin_mm": 3,
+    "reserved_bounds_xy_mm": [
+      27,
+      183.5,
+      174.0,
+      195.5
+    ],
+    "volume_mm3": 3985.4164653540956,
+    "faces": 576,
+    "units": "mm",
+    "scale": 1.0
+  },
+  {
+    "ref": "H041",
+    "source_path": "review/flat132-palm-bracing-2026-10-25/assembly-mm/H041.stl",
+    "source_sha256": "c3b51c917e3598d19a26ff32510401be6405293cc25d02f78f5a0891912a6a19",
+    "source_geometry": "FROZEN_R9_NATIVE_STL",
+    "CAD_source_sha256": "16972ba9341f4cdf763a5570dad82a4fbd601f0935d0a7657be85813f97ff2b1",
+    "material": "PLA",
+    "intent": "RIGID PLA SHAPE PROXY - NO LOAD",
+    "orientation": "Horizontal native rod axis; rigid shape proxy only",
+    "rotation_3x3": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "normalization_translation_mm": [
+      16.0,
+      -48.0,
+      -15.0
+    ],
+    "plate_xy_mm": [
+      179,
+      186.5
+    ],
+    "size_oriented_mm": [
+      141.0,
+      6.0,
+      6.0
+    ],
+    "brim_mm": 3,
+    "reserved_margin_mm": 3,
+    "reserved_bounds_xy_mm": [
+      176,
+      183.5,
+      323.0,
+      195.5
+    ],
+    "volume_mm3": 3985.4164653540956,
+    "faces": 576,
+    "units": "mm",
+    "scale": 1.0
+  },
+  {
+    "ref": "P060",
+    "source_path": "review/flat132-palm-bracing-2026-10-25/print-mm/P060.stl",
+    "source_sha256": "fb1337d8882240a0e3c49fcdb6e88d8d0fef58940405575e20dc9dcfb7179a0e",
+    "source_geometry": "FROZEN_R9_NATIVE_STL",
+    "CAD_source_sha256": "16972ba9341f4cdf763a5570dad82a4fbd601f0935d0a7657be85813f97ff2b1",
+    "material": "PLA",
+    "intent": "R9 rigid printed part - unloaded fit study",
+    "orientation": "Native Z up; no internal supports",
+    "rotation_3x3": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "normalization_translation_mm": [
+      -120.5,
+      65.0,
+      -4.5
+    ],
+    "plate_xy_mm": [
+      175,
+      203
+    ],
+    "size_oriented_mm": [
+      9.0,
+      28.0,
+      26.0
+    ],
+    "brim_mm": 3,
+    "reserved_margin_mm": 4,
+    "reserved_bounds_xy_mm": [
+      171,
+      199,
+      188.0,
+      235.0
+    ],
+    "volume_mm3": 2995.570545213326,
+    "faces": 5864,
+    "units": "mm",
+    "scale": 1.0
+  },
+  {
+    "ref": "P061",
+    "source_path": "review/flat132-palm-bracing-2026-10-25/print-mm/P061.stl",
+    "source_sha256": "b4517d1c0e1b163d4f0c6e9a42427e5075d584665d532118db72d9408874befa",
+    "source_geometry": "FROZEN_R9_NATIVE_STL",
+    "CAD_source_sha256": "16972ba9341f4cdf763a5570dad82a4fbd601f0935d0a7657be85813f97ff2b1",
+    "material": "PLA",
+    "intent": "R9 rigid printed part - unloaded fit study",
+    "orientation": "Native Z up; no internal supports",
+    "rotation_3x3": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "normalization_translation_mm": [
+      -120.5,
+      -37.0,
+      -4.5
+    ],
+    "plate_xy_mm": [
+      194,
+      203
+    ],
+    "size_oriented_mm": [
+      9.0,
+      28.0,
+      26.0
+    ],
+    "brim_mm": 3,
+    "reserved_margin_mm": 4,
+    "reserved_bounds_xy_mm": [
+      190,
+      199,
+      207.0,
+      235.0
+    ],
+    "volume_mm3": 2995.570545095057,
+    "faces": 5864,
+    "units": "mm",
+    "scale": 1.0
+  },
+  {
+    "ref": "P120",
+    "source_path": "review/flat132-palm-bracing-2026-10-25/print-mm/P120.stl",
+    "source_sha256": "4e96f14152f1d40821836566e3dca17ccba1471c34db20bb69ac68acd27a7e48",
+    "source_geometry": "FROZEN_R9_NATIVE_STL",
+    "CAD_source_sha256": "16972ba9341f4cdf763a5570dad82a4fbd601f0935d0a7657be85813f97ff2b1",
+    "material": "PLA",
+    "intent": "R9 rigid printed part - unloaded fit study",
+    "orientation": "Native Xmin shoe front down",
+    "rotation_3x3": [
+      [
+        0,
+        0,
+        -1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "normalization_translation_mm": [
+      26.5,
+      60.75,
+      -119.19999694824219
+    ],
+    "plate_xy_mm": [
+      213,
+      203
+    ],
+    "size_oriented_mm": [
+      23.200000047683716,
+      19.5,
+      9.400009155273438
+    ],
+    "brim_mm": 3,
+    "reserved_margin_mm": 4,
+    "reserved_bounds_xy_mm": [
+      209,
+      199,
+      240.20000004768372,
+      226.5
+    ],
+    "volume_mm3": 483.56569818386214,
+    "faces": 1846,
+    "units": "mm",
+    "scale": 1.0
+  },
+  {
+    "ref": "P121",
+    "source_path": "review/flat132-palm-bracing-2026-10-25/print-mm/P121.stl",
+    "source_sha256": "55e9ffd7d0a4a0ceceb5ddf663837882afb022c3a607406b8697d4972ff65905",
+    "source_geometry": "FROZEN_R9_NATIVE_STL",
+    "CAD_source_sha256": "16972ba9341f4cdf763a5570dad82a4fbd601f0935d0a7657be85813f97ff2b1",
+    "material": "PLA",
+    "intent": "R9 rigid printed part - unloaded fit study",
+    "orientation": "Native Xmin shoe front down",
+    "rotation_3x3": [
+      [
+        0,
+        0,
+        -1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "normalization_translation_mm": [
+      26.5,
+      -41.25,
+      -119.19999694824219
+    ],
+    "plate_xy_mm": [
+      246.2,
+      203
+    ],
+    "size_oriented_mm": [
+      23.200000047683716,
+      19.5,
+      9.400009155273438
+    ],
+    "brim_mm": 3,
+    "reserved_margin_mm": 4,
+    "reserved_bounds_xy_mm": [
+      242.2,
+      199,
+      273.4000000476837,
+      226.5
+    ],
+    "volume_mm3": 483.5656981838615,
+    "faces": 1846,
+    "units": "mm",
+    "scale": 1.0
+  },
+  {
+    "ref": "P11",
+    "source_path": "review/flat132-palm-bracing-2026-10-25/print-mm/P11.stl",
+    "source_sha256": "ee81507b31f348ae644d268f5525a825d5eecbd44f580824105b74e3a191d49b",
+    "source_geometry": "FROZEN_R9_NATIVE_STL",
+    "CAD_source_sha256": "16972ba9341f4cdf763a5570dad82a4fbd601f0935d0a7657be85813f97ff2b1",
+    "material": "PLA",
+    "intent": "R9 rigid printed part - unloaded fit study",
+    "orientation": "Native Zmax cam-shoe top down; blind pilot bridges without support",
+    "rotation_3x3": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ]
+    ],
+    "normalization_translation_mm": [
+      -62.5,
+      7.699999809265137,
+      19.0
+    ],
+    "plate_xy_mm": [
+      280,
+      201
+    ],
+    "size_oriented_mm": [
+      6.0,
+      8.399999797344208,
+      10.0
+    ],
+    "brim_mm": 2,
+    "reserved_margin_mm": 2,
+    "reserved_bounds_xy_mm": [
+      278,
+      199,
+      288.0,
+      211.3999997973442
+    ],
+    "volume_mm3": 388.75488460182754,
+    "faces": 598,
+    "units": "mm",
+    "scale": 1.0
+  },
+  {
+    "ref": "P10",
+    "source_path": "review/flat132-palm-bracing-2026-10-25/print-mm/P10.stl",
+    "source_sha256": "8ee66bba498b46d593a8d9c00581582cd76b35677312eb81d427f808df8b08d8",
+    "source_geometry": "FROZEN_R9_NATIVE_STL",
+    "CAD_source_sha256": "16972ba9341f4cdf763a5570dad82a4fbd601f0935d0a7657be85813f97ff2b1",
+    "material": "PLA",
+    "intent": "R9 rigid printed part - unloaded fit study",
+    "orientation": "Native broad face down",
+    "rotation_3x3": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "normalization_translation_mm": [
+      28.100000381469727,
+      -22.399999618530273,
+      -3.4000000953674316
+    ],
+    "plate_xy_mm": [
+      292,
+      201
+    ],
+    "size_oriented_mm": [
+      3.200000762939453,
+      10.200002670288086,
+      1.0
+    ],
+    "brim_mm": 2,
+    "reserved_margin_mm": 2,
+    "reserved_bounds_xy_mm": [
+      290,
+      199,
+      297.20000076293945,
+      213.2000026702881
+    ],
+    "volume_mm3": 27.552252488570957,
+    "faces": 1172,
+    "units": "mm",
+    "scale": 1.0
+  },
+  {
+    "ref": "P070a",
+    "source_path": "review/flat132-palm-bracing-2026-10-25/print-mm/P070a.stl",
+    "source_sha256": "b2043cb95741498d64262f3011a79d3a14eb64934d9a558602a9f71abf42bf74",
+    "source_geometry": "FROZEN_R9_NATIVE_STL",
+    "CAD_source_sha256": "16972ba9341f4cdf763a5570dad82a4fbd601f0935d0a7657be85813f97ff2b1",
+    "material": "PLA",
+    "intent": "RIGID PLA SHAPE PROXY - NO LOAD",
+    "orientation": "Native Xmin down; rigid PLA thickness proxy",
+    "rotation_3x3": [
+      [
+        0,
+        0,
+        -1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "normalization_translation_mm": [
+      20.0,
+      60.75,
+      -119.0
+    ],
+    "plate_xy_mm": [
+      280,
+      217.5
+    ],
+    "size_oriented_mm": [
+      6.0,
+      4.5,
+      1.5
+    ],
+    "brim_mm": 2,
+    "reserved_margin_mm": 2,
+    "reserved_bounds_xy_mm": [
+      278,
+      215.5,
+      288.0,
+      224.0
+    ],
+    "volume_mm3": 40.5,
+    "faces": 12,
+    "units": "mm",
+    "scale": 1.0
+  },
+  {
+    "ref": "P070b",
+    "source_path": "review/flat132-palm-bracing-2026-10-25/print-mm/P070b.stl",
+    "source_sha256": "c2e968a11b33abb1d58fb03ba6f4ba6ca14a53ecfafa3ef001bf03d2d10b881a",
+    "source_geometry": "FROZEN_R9_NATIVE_STL",
+    "CAD_source_sha256": "16972ba9341f4cdf763a5570dad82a4fbd601f0935d0a7657be85813f97ff2b1",
+    "material": "PLA",
+    "intent": "RIGID PLA SHAPE PROXY - NO LOAD",
+    "orientation": "Native Xmin down; rigid PLA thickness proxy",
+    "rotation_3x3": [
+      [
+        0,
+        0,
+        -1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "normalization_translation_mm": [
+      20.0,
+      45.75,
+      -119.0
+    ],
+    "plate_xy_mm": [
+      292,
+      217.5
+    ],
+    "size_oriented_mm": [
+      6.0,
+      4.5,
+      1.5
+    ],
+    "brim_mm": 2,
+    "reserved_margin_mm": 2,
+    "reserved_bounds_xy_mm": [
+      290,
+      215.5,
+      300.0,
+      224.0
+    ],
+    "volume_mm3": 40.5,
+    "faces": 12,
+    "units": "mm",
+    "scale": 1.0
+  },
+  {
+    "ref": "P071a",
+    "source_path": "review/flat132-palm-bracing-2026-10-25/print-mm/P071a.stl",
+    "source_sha256": "4cacdcfcc514e130026a3c5b37d03bb89e0f53cb780d221184c31b71bb5757f7",
+    "source_geometry": "FROZEN_R9_NATIVE_STL",
+    "CAD_source_sha256": "16972ba9341f4cdf763a5570dad82a4fbd601f0935d0a7657be85813f97ff2b1",
+    "material": "PLA",
+    "intent": "RIGID PLA SHAPE PROXY - NO LOAD",
+    "orientation": "Native Xmin down; rigid PLA thickness proxy",
+    "rotation_3x3": [
+      [
+        0,
+        0,
+        -1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "normalization_translation_mm": [
+      20.0,
+      -41.25,
+      -119.0
+    ],
+    "plate_xy_mm": [
+      280,
+      228
+    ],
+    "size_oriented_mm": [
+      6.0,
+      4.5,
+      1.5
+    ],
+    "brim_mm": 2,
+    "reserved_margin_mm": 2,
+    "reserved_bounds_xy_mm": [
+      278,
+      226,
+      288.0,
+      234.5
+    ],
+    "volume_mm3": 40.5,
+    "faces": 12,
+    "units": "mm",
+    "scale": 1.0
+  },
+  {
+    "ref": "P071b",
+    "source_path": "review/flat132-palm-bracing-2026-10-25/print-mm/P071b.stl",
+    "source_sha256": "50aa9ad8ee8fb500dc0e13b1ab8dd333ccaeab6f0fa7fe7625ba79d21ae3c29d",
+    "source_geometry": "FROZEN_R9_NATIVE_STL",
+    "CAD_source_sha256": "16972ba9341f4cdf763a5570dad82a4fbd601f0935d0a7657be85813f97ff2b1",
+    "material": "PLA",
+    "intent": "RIGID PLA SHAPE PROXY - NO LOAD",
+    "orientation": "Native Xmin down; rigid PLA thickness proxy",
+    "rotation_3x3": [
+      [
+        0,
+        0,
+        -1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "normalization_translation_mm": [
+      20.0,
+      -56.25,
+      -119.0
+    ],
+    "plate_xy_mm": [
+      292,
+      228
+    ],
+    "size_oriented_mm": [
+      6.0,
+      4.5,
+      1.5
+    ],
+    "brim_mm": 2,
+    "reserved_margin_mm": 2,
+    "reserved_bounds_xy_mm": [
+      290,
+      226,
+      300.0,
+      234.5
+    ],
+    "volume_mm3": 40.5,
+    "faces": 12,
+    "units": "mm",
+    "scale": 1.0
+  },
+  {
+    "ref": "Q01",
+    "source_path": "print/bambu-R9-palm-bracing-2026-10-25/fixture/Q01_UNLOADED_TEST_FIXTURE_print-mm.stl",
+    "source_sha256": "4a814328544c999013ab754d2d1c3f9a99e287e034066df127525cfe912a394b",
+    "source_geometry": "SEPARATE_Q01_FIXTURE_PRINT_STL",
+    "CAD_source_sha256": null,
+    "material": "PLA",
+    "intent": "UNLOADED TEST FIXTURE - NOT A PRODUCTION PART",
+    "orientation": "UNLOADED fixture square locator down; supplier print orientation",
+    "rotation_3x3": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "normalization_translation_mm": [
+      8.998221397399902,
+      9.0,
+      -0.0
+    ],
+    "plate_xy_mm": [
+      298,
+      240
+    ],
+    "size_oriented_mm": [
+      17.996442794799805,
+      18.0,
+      28.0
+    ],
+    "brim_mm": 3,
+    "reserved_margin_mm": 3,
+    "reserved_bounds_xy_mm": [
+      295,
+      237,
+      318.9964427947998,
+      261.0
+    ],
+    "volume_mm3": 1597.7201487952952,
+    "faces": 2540,
+    "units": "mm",
+    "scale": 1.0
+  }
+]

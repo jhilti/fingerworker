@@ -1,0 +1,1573 @@
+FeatureScript 3070;
+import(path : "onshape/std/geometry.fs", version : "3070.0");
+
+/**
+ * Fingerworker MVP - production-oriented layout for a first 3D printed test.
+ *
+ * X = pull direction, Y = finger-bar width, Z = height above the base.
+ * Purchased hardware is modeled at nominal catalogue size. Printed parts are
+ * separated bodies so they can be exported and printed individually.
+ * Revision 2026-09-04: clearance and contact-surface review.
+ * New geometry requires regeneration and motion verification in Onshape.
+ */
+
+function makeBox(context is Context, id is Id, corner1 is Vector, corner2 is Vector)
+{
+    fCuboid(context, id, { "corner1" : corner1, "corner2" : corner2 });
+}
+
+function makeCylinder(context is Context, id is Id, bottomCenter is Vector, topCenter is Vector, radius is ValueWithUnits)
+{
+    fCylinder(context, id, {
+                "bottomCenter" : bottomCenter,
+                "topCenter" : topCenter,
+                "radius" : radius
+            });
+}
+
+function nameBody(context is Context, query is Query, bodyName is string)
+{
+    setProperty(context, {
+                "entities" : query,
+                "propertyType" : PropertyType.NAME,
+                "value" : bodyName
+            });
+}
+
+function finishBody(context is Context, query is Query, appearance is Color)
+{
+    setProperty(context, {
+                "entities" : qUnion([query, qOwnedByBody(query, EntityType.FACE)]),
+                "propertyType" : PropertyType.APPEARANCE,
+                "value" : appearance
+            });
+}
+
+// Rearward tapered webs support the taller grip without narrowing the finger span.
+function makeGripRib(context is Context, id is Id, sideY is ValueWithUnits,
+                     width is ValueWithUnits, rootZ is ValueWithUnits,
+                     topZ is ValueWithUnits, centerX is ValueWithUnits)
+{
+    var sketch = newSketchOnPlane(context, id + "profile", {
+                "sketchPlane" : plane(vector(0 * millimeter, sideY, 0 * millimeter),
+                        vector(0, -1, 0), vector(1, 0, 0))
+            });
+    skPolyline(sketch, "web", {
+                "points" : [vector(centerX, rootZ - 0.2 * millimeter),
+                            vector(centerX + 16 * millimeter, rootZ - 0.2 * millimeter),
+                            vector(centerX + 6 * millimeter, topZ),
+                            vector(centerX, topZ),
+                            vector(centerX, rootZ - 0.2 * millimeter)]
+            });
+    skSolve(sketch);
+    opExtrude(context, id + "web", {
+                "entities" : qSketchRegion(id + "profile"),
+                "direction" : vector(0, 1, 0),
+                "endBound" : BoundingType.BLIND,
+                "endDepth" : width
+            });
+    opDeleteBodies(context, id + "cleanup", {
+                "entities" : qCreatedBy(id + "profile", EntityType.BODY)
+            });
+}
+
+function makeCompressionSpring(context is Context, id is Id, startX is ValueWithUnits,
+                                endX is ValueWithUnits, centerY is ValueWithUnits,
+                                centerZ is ValueWithUnits)
+{
+    const meanRadius = 6 * millimeter;
+    const wireRadius = 2 * millimeter;
+    const turns = 12;
+    const pitch = (endX - startX) / turns;
+    const startPoint = vector(startX, centerY + meanRadius, centerZ);
+
+    opHelix(context, id + "helix", {
+                "axisStart" : vector(startX, centerY, centerZ),
+                "direction" : vector(1, 0, 0),
+                "startPoint" : startPoint,
+                "interval" : [0, turns],
+                "clockwise" : false,
+                "helicalPitch" : pitch,
+                "spiralPitch" : 0 * millimeter
+            });
+
+    var profileSketch = newSketchOnPlane(context, id + "profile", {
+                "sketchPlane" : plane(startPoint, vector(1, 0, 0))
+            });
+    skCircle(profileSketch, "wire", {
+                "center" : vector(0, 0) * millimeter,
+                "radius" : wireRadius
+            });
+    skSolve(profileSketch);
+
+    opSweep(context, id + "sweep", {
+                "profiles" : qSketchRegion(id + "profile"),
+                "path" : qCreatedBy(id + "helix", EntityType.EDGE)
+            });
+}
+
+/**
+ * Hand reference helper block for Fingerworker. Paste above defineFeature in the
+ * existing Feature Studio (geometry.fs is already imported there).
+ *
+ * Call makeHandReference(context, id + "handReference", displacement);
+ * after positioning the machine, with displacement between 0 and 30 mm.
+ *
+ * Assumed interface: padded palm surface z = 63.5 mm; finger bar x = 137..147 mm
+ * at rest, center z = 78 mm, height 20 mm. The heel remains fixed while the
+ * fingers follow the bar toward -X. The pose is an illustrative adult-sized
+ * reference, not anthropometric data or a fit/force/clearance certification.
+ *
+ * Official APIs: https://cad.onshape.com/FsDoc/library.html#fEllipsoid-Context-Id-map
+ * https://cad.onshape.com/FsDoc/library.html#fCone-Context-Id-map
+ * https://cad.onshape.com/FsDoc/library.html#color-number-number-number-number
+ */
+
+// A rounded, tapered phalange chain. The conical sections meet the joint spheres
+// tangentially, avoiding flat ends and abrupt cylinder-to-ball steps.
+function makeHandCapsuleChain(context is Context, id is Id, points is array,
+                             radii is array) returns Query
+{
+    var bodies = [];
+    for (var i = 0; i < size(points); i += 1)
+    {
+        const jointId = id + ("joint" ~ i);
+        fEllipsoid(context, jointId, {
+                    "center" : points[i],
+                    "radius" : vector(radii[i], radii[i], radii[i])
+                });
+        bodies = append(bodies, qCreatedBy(jointId, EntityType.BODY));
+    }
+    for (var i = 0; i < size(points) - 1; i += 1)
+    {
+        const axis = normalize(points[i + 1] - points[i]);
+        const length = norm(points[i + 1] - points[i]);
+        const sine = (radii[i] - radii[i + 1]) / length;
+        const cosine = sqrt(1 - sine * sine);
+        const segmentId = id + ("segment" ~ i);
+        fCone(context, segmentId, {
+                    "bottomCenter" : points[i] + axis * radii[i] * sine,
+                    "topCenter" : points[i + 1] + axis * radii[i + 1] * sine,
+                    "bottomRadius" : radii[i] * cosine,
+                    "topRadius" : radii[i + 1] * cosine
+                });
+        bodies = append(bodies, qCreatedBy(segmentId, EntityType.BODY));
+    }
+    opBoolean(context, id + "join", {
+                "tools" : qUnion(bodies),
+                "operationType" : BooleanOperationType.UNION
+            });
+    return qUnion(bodies);
+}
+
+// Upper solution of a two-link planar finger chain. Bone lengths stay constant
+// during the 30 mm stroke, rather than stretching a translated finger mesh.
+function handProximalJoint(root is Vector, distalJoint is Vector,
+                           proximalLength is ValueWithUnits,
+                           intermediateLength is ValueWithUnits) returns Vector
+{
+    const delta = distalJoint - root;
+    const distance = norm(delta);
+    const along = (proximalLength * proximalLength -
+                   intermediateLength * intermediateLength +
+                   distance * distance) / (2 * distance);
+    const rise = sqrt(proximalLength * proximalLength - along * along);
+    const direction = delta / distance;
+    const up = vector(-direction[2], 0, direction[0]);
+    return root + direction * along + up * rise;
+}
+
+function makeHandReference(context is Context, id is Id,
+                           displacement is ValueWithUnits)
+{
+    // Bound only this visualization. The machine's own stroke limit remains
+    // the authority for its mechanical configuration.
+    const stroke = min(30 * millimeter, max(0 * millimeter, displacement));
+    var handBodies = [];
+
+    // An understated, continuous palm volume with a narrower wrist, a soft heel
+    // resting on the pad, and a wider metacarpal arch leading into four digits.
+    const palmVolumes = [
+        { "suffix" : "wrist", "center" : vector(-15, 0, 79.5),
+          "radius" : vector(39, 23, 12) },
+        { "suffix" : "heel", "center" : vector(25, 0, 78),
+          "radius" : vector(31, 29, 14.5) },
+        { "suffix" : "palm", "center" : vector(58, 0, 84),
+          "radius" : vector(45, 38, 15) },
+        { "suffix" : "thenar", "center" : vector(46, -25, 80),
+          "radius" : vector(27, 17, 13) }
+    ];
+    for (var volume in palmVolumes)
+    {
+        const volumeId = id + volume.suffix;
+        fEllipsoid(context, volumeId, {
+                    "center" : volume.center * millimeter,
+                    "radius" : volume.radius * millimeter
+                });
+        handBodies = append(handBodies, qCreatedBy(volumeId, EntityType.BODY));
+    }
+
+    // Separate finger silhouettes and a natural size hierarchy. The distal
+    // segment wraps down the far face of the raised bar. Near the top of the
+    // stroke the PIP joints rise as the fingers flex.
+    const fingers = [
+        { "name" : "index", "x" : 84, "y" : -28, "z" : 85,
+          "proximal" : 43, "middle" : 29, "radius" : 8.5 },
+        { "name" : "middle", "x" : 87, "y" : -8, "z" : 87,
+          "proximal" : 44, "middle" : 27, "radius" : 9.0 },
+        { "name" : "ring", "x" : 84, "y" : 13, "z" : 86,
+          "proximal" : 43, "middle" : 30, "radius" : 8.4 },
+        { "name" : "little", "x" : 79, "y" : 31, "z" : 84,
+          "proximal" : 43, "middle" : 33, "radius" : 7.2 }
+    ];
+    for (var finger in fingers)
+    {
+        const root = vector(finger.x, finger.y, finger.z) * millimeter;
+        const tipRadius = finger.radius * 0.74 * millimeter;
+        const contactX = 147.1 * millimeter + tipRadius - stroke;
+        const distalJointX = 147.1 * millimeter + finger.radius * 0.80 * millimeter - stroke;
+        const distalJoint = vector(distalJointX, finger.y * millimeter, 94 * millimeter);
+        const proximalJoint = handProximalJoint(root, distalJoint,
+                finger.proximal * millimeter, finger.middle * millimeter);
+        const tip = vector(contactX, finger.y * millimeter, 75 * millimeter);
+        const fingerBody = makeHandCapsuleChain(context, id + finger.name,
+                [root, proximalJoint, distalJoint, tip],
+                [finger.radius * millimeter,
+                 finger.radius * 0.90 * millimeter,
+                 finger.radius * 0.80 * millimeter,
+                 tipRadius]);
+        handBodies = append(handBodies, fingerBody);
+    }
+
+    // Thumb rests beside the housing, visibly separate from the four working
+    // fingers. It follows the fixed palm, so it cannot imply a moving brace.
+    const thumbBody = makeHandCapsuleChain(context, id + "thumb",
+            [vector(47, -30, 80) * millimeter,
+             vector(64, -49, 79) * millimeter,
+             vector(85, -57, 77) * millimeter,
+             vector(99, -49, 77) * millimeter],
+            [11 * millimeter, 9.6 * millimeter,
+             8.2 * millimeter, 7.1 * millimeter]);
+    handBodies = append(handBodies, thumbBody);
+
+    // One coherent body: reference geometry is isolated from every machine
+    // boolean and can be hidden with one part selection.
+    opBoolean(context, id + "joinHand", {
+                "tools" : qUnion(handBodies),
+                "operationType" : BooleanOperationType.UNION
+            });
+    const hand = qUnion(handBodies);
+    setProperty(context, {
+                "entities" : hand,
+                "propertyType" : PropertyType.NAME,
+                "value" : "REF Hand - illustrative grip pose"
+            });
+    setProperty(context, {
+                "entities" : hand,
+                "propertyType" : PropertyType.DESCRIPTION,
+                "value" : "Illustrative adult-sized hand. Not anthropometric validation, a physical clearance guarantee, or a manufactured component."
+            });
+    setProperty(context, {
+                "entities" : hand,
+                "propertyType" : PropertyType.APPEARANCE,
+                "value" : color(0.78, 0.72, 0.65)
+            });
+    setProperty(context, {
+                "entities" : hand,
+                "propertyType" : PropertyType.EXCLUDE_FROM_BOM,
+                "value" : true
+            });
+}
+
+
+/**
+ * Read-only solid collision audit; deliberately separate from the model.
+ *
+ * Import this helper or paste the functions (without the two header lines)
+ * above the model feature, then call after previewMotion and hand creation:
+ *
+ *     println(auditFingerworkerCollisions(context, id));
+ *
+ * Regenerate independently with previewTravel = 0, 15 and 30 mm and showHand
+ * enabled. The helper examines the exact currently generated solids; it does
+ * not synthesize poses, create geometry, or alter the machine.
+ *
+ * Official API documentation, checked 2026-09-04:
+ * https://cad.onshape.com/FsDoc/library.html#evCollision-Context-map
+ * https://cad.onshape.com/FsDoc/library.html#ClashType
+ * https://cad.onshape.com/FsDoc/library.html#evDistance-Context-map
+ *
+ * evCollision has no user-set distance/penetration tolerance. Do not pass a
+ * made-up tolerance field or use evDistance == 0 to infer overlap depth.
+ * INTERFERE and containment are failures. Exterior abutment is boundary contact
+ * and is allowed only for explicitly declared contact pairs. Interior abutment
+ * is treated conservatively as interference; unclassified abutment needs visual
+ * review. Counts below are collision records, not distinct body-pair counts.
+ */
+
+function auditSolidPair(context is Context, label is string,
+                        tools is Query, targets is Query,
+                        allowExteriorContact is boolean) returns map
+{
+    const solidTools = qBodyType(tools, BodyType.SOLID);
+    const solidTargets = qSubtraction(qBodyType(targets, BodyType.SOLID), solidTools);
+    const toolCount = size(evaluateQuery(context, solidTools));
+    const targetCount = size(evaluateQuery(context, solidTargets));
+    if (toolCount == 0 || targetCount == 0)
+    {
+        return { "pair" : label, "status" : "SKIPPED - missing solid query",
+                 "toolBodies" : toolCount, "targetBodies" : targetCount };
+    }
+
+    const collisions = evCollision(context, {
+                "tools" : solidTools,
+                "targets" : solidTargets
+            });
+    var interference = [];
+    var exteriorContact = [];
+    var needsReview = [];
+    for (var clash in collisions)
+    {
+        if (clash["type"] == ClashType.INTERFERE ||
+            clash["type"] == ClashType.TARGET_IN_TOOL ||
+            clash["type"] == ClashType.TOOL_IN_TARGET ||
+            clash["type"] == ClashType.ABUT_TOOL_IN_TARGET)
+        {
+            interference = append(interference, clash);
+        }
+        else if (clash["type"] == ClashType.ABUT_TOOL_OUT_TARGET)
+        {
+            exteriorContact = append(exteriorContact, clash);
+        }
+        else if (clash["type"] != ClashType.NONE)
+        {
+            // ABUT_NO_CLASS and any curve-only/unexpected result must not be
+            // silently converted to a clean pass for a solid collision audit.
+            needsReview = append(needsReview, clash);
+        }
+    }
+
+    var status = "CLEAR";
+    if (size(interference) > 0)
+        status = "INTERFERENCE";
+    else if (size(needsReview) > 0)
+        status = "REVIEW - unclassified contact";
+    else if (size(exteriorContact) > 0)
+        status = allowExteriorContact ? "EXPECTED CONTACT" : "UNEXPECTED CONTACT";
+
+    const separation = evDistance(context, {
+                "side0" : solidTools,
+                "side1" : solidTargets
+            }).distance;
+    return {
+        "pair" : label,
+        "status" : status,
+        "minimumSeparation" : separation,
+        "toolBodies" : toolCount,
+        "targetBodies" : targetCount,
+        "interferenceCount" : size(interference),
+        "exteriorContactCount" : size(exteriorContact),
+        "unclassifiedCount" : size(needsReview),
+        "interferenceRecords" : interference,
+        "exteriorContactRecords" : exteriorContact,
+        "unclassifiedRecords" : needsReview
+    };
+}
+
+export function auditFingerworkerCollisions(context is Context,
+                                            modelFeatureId is Id) returns array
+{
+    const carriage = qCreatedBy(modelFeatureId + "carriageBridge", EntityType.BODY);
+    const rods = qUnion([
+                qCreatedBy(modelFeatureId + "springGuideLong1", EntityType.BODY),
+                qCreatedBy(modelFeatureId + "springGuideLong2", EntityType.BODY)
+            ]);
+    const springs = qUnion([
+                qCreatedBy(modelFeatureId + "springLong1" + "sweep", EntityType.BODY),
+                qCreatedBy(modelFeatureId + "springLong2" + "sweep", EntityType.BODY)
+            ]);
+    const fixedHood = qCreatedBy(modelFeatureId + "fixedHood", EntityType.BODY);
+    const movingHood = qCreatedBy(modelFeatureId + "movingHood", EntityType.BODY);
+    const palmPad = qCreatedBy(modelFeatureId + "palmPad", EntityType.BODY);
+    const base = qCreatedBy(modelFeatureId + "base", EntityType.BODY);
+    const hand = qCreatedBy(modelFeatureId + "handReference", EntityType.BODY);
+    const cushion = qCreatedBy(modelFeatureId + "palmCushion", EntityType.BODY);
+    const remainingDevice = qSubtraction(
+            qBodyType(qCreatedBy(modelFeatureId, EntityType.BODY), BodyType.SOLID),
+            qUnion([hand, carriage, cushion]));
+
+    // The bar is fused to its carriage. Testing that exact body intentionally
+    // includes the support uprights and reinforcing ribs as well as the bar.
+    return [
+        auditSolidPair(context, "Carriage / guide rods", carriage, rods, false),
+        auditSolidPair(context, "Carriage / spring sweeps", carriage, springs, false),
+        auditSolidPair(context, "Fixed hood / moving hood", fixedHood, movingHood, false),
+        auditSolidPair(context, "Palm pad / integrated base", palmPad, base, true),
+        auditSolidPair(context, "Hand / bar and carriage", hand, carriage, true),
+        auditSolidPair(context, "Hand / palm cushion", hand, cushion, true),
+        auditSolidPair(context, "Hand / remaining device", hand, remainingDevice, false)
+    ];
+}
+
+annotation { "Feature Type Name" : "FingerworkerMVP", "Feature Name Template" : "Fingerworker MVP" }
+export const fingerworkerMVP = defineFeature(function(context is Context, id is Id, definition is map)
+    precondition
+    {
+        annotation { "Name" : "Base length" }
+        isLength(definition.baseLength, LENGTH_BOUNDS);
+
+        annotation { "Name" : "Base width" }
+        isLength(definition.baseWidth, LENGTH_BOUNDS);
+
+        annotation { "Name" : "Base thickness" }
+        isLength(definition.baseThickness, LENGTH_BOUNDS);
+
+        annotation { "Name" : "Working travel" }
+        isLength(definition.travel, LENGTH_BOUNDS);
+
+        annotation { "Name" : "Finger bar width" }
+        isLength(definition.handleWidth, LENGTH_BOUNDS);
+
+        annotation { "Name" : "Finger bar thickness" }
+        isLength(definition.handleThickness, LENGTH_BOUNDS);
+
+        annotation { "Name" : "Finger bar height" }
+        isLength(definition.handleHeight, LENGTH_BOUNDS);
+
+        annotation { "Name" : "Finger bar edge radius" }
+        isLength(definition.handleEdgeRadius, BLEND_BOUNDS);
+
+        annotation { "Name" : "Guide spacing" }
+        isLength(definition.guideSpacing, LENGTH_BOUNDS);
+
+        annotation { "Name" : "Guide rail width" }
+        isLength(definition.railWidth, LENGTH_BOUNDS);
+
+        annotation { "Name" : "Guide rail height" }
+        isLength(definition.railHeight, LENGTH_BOUNDS);
+
+        annotation { "Name" : "Preview displacement (0 to working travel)" }
+        isLength(definition.previewTravel, LENGTH_BOUNDS);
+
+        annotation { "Name" : "Show hand reference (exclude from manufacturing)" }
+        definition.showHand is boolean;
+    }
+    {
+        const baseLength = definition.baseLength;
+        const baseWidth = definition.baseWidth;
+        const baseThickness = definition.baseThickness;
+        const travel = definition.travel;
+        const handleWidth = definition.handleWidth;
+        const handleThickness = definition.handleThickness;
+        const handleHeight = definition.handleHeight;
+        const guideY = definition.guideSpacing / 2;
+        const railWidth = definition.railWidth;
+        const railHeight = definition.railHeight;
+        const previewTravel = definition.previewTravel;
+        if (previewTravel < 0 * millimeter || previewTravel > travel || travel > 30 * millimeter)
+            throw regenError("Preview must be within the working travel; this hardware layout supports up to 30 mm.", ["previewTravel", "travel"]);
+
+        const railStartX = 5 * millimeter;
+        const railEndX = railStartX + 200 * millimeter;
+        const blockStartX = 145 * millimeter;
+        const blockEndX = blockStartX + 45.4 * millimeter;
+        const bridgeStartX = 140 * millimeter;
+        const bridgeEndX = 194 * millimeter;
+        const bridgeBottomZ = baseThickness + railHeight + 5 * millimeter;
+        const bridgeTopZ = bridgeBottomZ + 18 * millimeter;
+        // With a 10 mm bar, x = 142 mm places its near face at x = 137 mm.
+        // The palm pad ends at x = 37 mm: 100 mm open and 70 mm after 30 mm travel.
+        const handleX = 142 * millimeter;
+        const handleZ = baseThickness + 66 * millimeter;
+        const springStartX = 65 * millimeter;
+        const springEndX = 166 * millimeter;
+        const springZ = baseThickness + 19 * millimeter;
+        const springY1 = -30 * millimeter;
+        const springY2 = 30 * millimeter;
+        const hardStopContactX = bridgeStartX - travel;
+        const hardStopY = 50 * millimeter;
+
+        // Main printed plate: 210 x 170 mm fits a 220 mm printer bed with margin.
+        makeBox(context, id + "base",
+                vector(0 * millimeter, -baseWidth / 2, 0 * millimeter),
+                vector(baseLength, baseWidth / 2, baseThickness));
+        nameBody(context, qCreatedBy(id + "base", EntityType.BODY), "P01 Base plate 210x170x12");
+
+        // Four M5 bench/clamp holes near the corners.
+        var baseMountTools = [];
+        var baseMountIndex = 0;
+        for (var mountX in [10 * millimeter, baseLength - 10 * millimeter])
+        {
+            for (var mountY in [-75 * millimeter, 75 * millimeter])
+            {
+                const mountId = id + ("baseMount" ~ baseMountIndex);
+                makeCylinder(context, mountId,
+                        vector(mountX, mountY, -1 * millimeter),
+                        vector(mountX, mountY, baseThickness + 1 * millimeter),
+                        2.75 * millimeter);
+                baseMountTools = append(baseMountTools, qCreatedBy(mountId, EntityType.BODY));
+                baseMountIndex += 1;
+            }
+        }
+        opBoolean(context, id + "cutBaseMounts", {
+                    "targets" : qCreatedBy(id + "base", EntityType.BODY),
+                    "tools" : qUnion(baseMountTools),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+
+        // Adjustable palm support: two feet leave a center tunnel for the load cell.
+        makeBox(context, id + "palmFootLeft",
+                vector(12 * millimeter, -62 * millimeter, baseThickness - 0.2 * millimeter),
+                vector(39 * millimeter, -40 * millimeter, baseThickness + 33 * millimeter));
+        makeBox(context, id + "palmFootRight",
+                vector(12 * millimeter, 40 * millimeter, baseThickness - 0.2 * millimeter),
+                vector(39 * millimeter, 62 * millimeter, baseThickness + 33 * millimeter));
+        nameBody(context, qCreatedBy(id + "palmFootLeft", EntityType.BODY), "P02 Palm stop left support");
+        nameBody(context, qCreatedBy(id + "palmFootRight", EntityType.BODY), "P03 Palm stop right support");
+
+        makeBox(context, id + "palmPad",
+                vector(10 * millimeter, -64 * millimeter, baseThickness + 33 * millimeter),
+                vector(37 * millimeter, 64 * millimeter, baseThickness + 49 * millimeter));
+        opFillet(context, id + "palmPadFillet", {
+                    "entities" : qCreatedBy(id + "palmPad", EntityType.EDGE),
+                    "radius" : 4 * millimeter,
+                    "tangentPropagation" : true
+                });
+        nameBody(context, qCreatedBy(id + "palmPad", EntityType.BODY), "P04 Raised palm saddle - 100 mm span datum");
+
+        // Four M4 heat-set inserts in the supports and matching counterbored
+        // clearance holes make the palm pad removable without hidden nuts.
+        var palmInsertTools = [];
+        var palmPadHoleTools = [];
+        var palmPadCounterboreTools = [];
+        var palmMountIndex = 0;
+        for (var palmX in [20 * millimeter, 32 * millimeter])
+        {
+            for (var palmY in [-51 * millimeter, 51 * millimeter])
+            {
+                const palmInsertId = id + ("palmInsert" ~ palmMountIndex);
+                makeCylinder(context, palmInsertId,
+                        vector(palmX, palmY, baseThickness + 26 * millimeter),
+                        vector(palmX, palmY, baseThickness + 34 * millimeter), 2.6 * millimeter);
+                palmInsertTools = append(palmInsertTools, qCreatedBy(palmInsertId, EntityType.BODY));
+
+                const palmHoleId = id + ("palmPadHole" ~ palmMountIndex);
+                makeCylinder(context, palmHoleId,
+                        vector(palmX, palmY, baseThickness + 32 * millimeter),
+                        vector(palmX, palmY, baseThickness + 51 * millimeter), 2.2 * millimeter);
+                palmPadHoleTools = append(palmPadHoleTools, qCreatedBy(palmHoleId, EntityType.BODY));
+
+                const palmCounterboreId = id + ("palmPadCounterbore" ~ palmMountIndex);
+                makeCylinder(context, palmCounterboreId,
+                        vector(palmX, palmY, baseThickness + 44.5 * millimeter),
+                        vector(palmX, palmY, baseThickness + 51 * millimeter), 4 * millimeter);
+                palmPadCounterboreTools = append(palmPadCounterboreTools, qCreatedBy(palmCounterboreId, EntityType.BODY));
+                palmMountIndex += 1;
+            }
+        }
+        opBoolean(context, id + "cutPalmInserts", {
+                    "targets" : qUnion([
+                                qCreatedBy(id + "palmFootLeft", EntityType.BODY),
+                                qCreatedBy(id + "palmFootRight", EntityType.BODY)
+                            ]),
+                    "tools" : qUnion(palmInsertTools),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+        opBoolean(context, id + "cutPalmPadMounts", {
+                    "targets" : qCreatedBy(id + "palmPad", EntityType.BODY),
+                    "tools" : qUnion(palmPadHoleTools),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+        opBoolean(context, id + "cutPalmPadCounterbores", {
+                    "targets" : qCreatedBy(id + "palmPad", EntityType.BODY),
+                    "tools" : qUnion(palmPadCounterboreTools),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+
+        // Replaceable 2.5 mm elastomer contact strip, seated on the flat top.
+        // The screw heads at y=+/-51 remain accessible and outside the contact area.
+        makeBox(context, id + "palmCushion",
+                vector(14 * millimeter, -43 * millimeter, baseThickness + 49 * millimeter),
+                vector(33 * millimeter, 43 * millimeter, baseThickness + 51.5 * millimeter));
+        opFillet(context, id + "palmCushionRound", {
+                    "entities" : qCreatedBy(id + "palmCushion", EntityType.EDGE),
+                    "radius" : 1.2 * millimeter,
+                    "tangentPropagation" : true
+                });
+        nameBody(context, qCreatedBy(id + "palmCushion", EntityType.BODY), "P13 Replaceable 2.5 mm soft palm contact strip");
+
+        // Dold MGN12R rails, nominal 200 mm.
+        makeBox(context, id + "railLeft",
+                vector(railStartX, -guideY - railWidth / 2, baseThickness),
+                vector(railEndX, -guideY + railWidth / 2, baseThickness + railHeight));
+        makeBox(context, id + "railRight",
+                vector(railStartX, guideY - railWidth / 2, baseThickness),
+                vector(railEndX, guideY + railWidth / 2, baseThickness + railHeight));
+        nameBody(context, qCreatedBy(id + "railLeft", EntityType.BODY), "H01 Dold MGN12R-200 left");
+        nameBody(context, qCreatedBy(id + "railRight", EntityType.BODY), "H02 Dold MGN12R-200 right");
+
+        // Eight M3 rail holes at 25 mm pitch, 12.5 mm from each rail end.
+        var railThroughTools = [];
+        var railCounterboreTools = [];
+        var railInsertTools = [];
+        var railHoleCounter = 0;
+        for (var holeIndex = 0; holeIndex < 8; holeIndex += 1)
+        {
+            const holeX = railStartX + (12.5 + holeIndex * 25) * millimeter;
+            for (var railY in [-guideY, guideY])
+            {
+                const railHoleId = id + ("railHole" ~ railHoleCounter);
+                makeCylinder(context, railHoleId,
+                        vector(holeX, railY, -1 * millimeter),
+                        vector(holeX, railY, baseThickness + railHeight + 1 * millimeter),
+                        1.7 * millimeter);
+                railThroughTools = append(railThroughTools, qCreatedBy(railHoleId, EntityType.BODY));
+
+                const insertId = id + ("railInsert" ~ railHoleCounter);
+                makeCylinder(context, insertId,
+                        vector(holeX, railY, baseThickness - 6.5 * millimeter),
+                        vector(holeX, railY, baseThickness + 1 * millimeter),
+                        2.3 * millimeter);
+                railInsertTools = append(railInsertTools, qCreatedBy(insertId, EntityType.BODY));
+
+                const counterboreId = id + ("railCounterbore" ~ railHoleCounter);
+                makeCylinder(context, counterboreId,
+                        vector(holeX, railY, baseThickness + 3 * millimeter),
+                        vector(holeX, railY, baseThickness + railHeight + 1 * millimeter),
+                        3 * millimeter);
+                railCounterboreTools = append(railCounterboreTools, qCreatedBy(counterboreId, EntityType.BODY));
+                railHoleCounter += 1;
+            }
+        }
+        opBoolean(context, id + "cutRailThroughHoles", {
+                    "targets" : qUnion([
+                                qCreatedBy(id + "railLeft", EntityType.BODY),
+                                qCreatedBy(id + "railRight", EntityType.BODY)
+                            ]),
+                    "tools" : qUnion(railThroughTools),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+        opBoolean(context, id + "cutRailInsertPockets", {
+                    "targets" : qCreatedBy(id + "base", EntityType.BODY),
+                    "tools" : qUnion(railInsertTools),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+        opBoolean(context, id + "cutRailCounterbores", {
+                    "targets" : qUnion([
+                                qCreatedBy(id + "railLeft", EntityType.BODY),
+                                qCreatedBy(id + "railRight", EntityType.BODY)
+                            ]),
+                    "tools" : qUnion(railCounterboreTools),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+
+        // Two Dold MGN12H long blocks, 45.4 x 27 x 13 mm nominal envelope.
+        makeBox(context, id + "blockLeft",
+                vector(blockStartX, -guideY - 13.5 * millimeter, baseThickness + 3 * millimeter),
+                vector(blockEndX, -guideY + 13.5 * millimeter, baseThickness + 13 * millimeter));
+        makeBox(context, id + "blockRight",
+                vector(blockStartX, guideY - 13.5 * millimeter, baseThickness + 3 * millimeter),
+                vector(blockEndX, guideY + 13.5 * millimeter, baseThickness + 13 * millimeter));
+        nameBody(context, qCreatedBy(id + "blockLeft", EntityType.BODY), "H03 Dold MGN12H left");
+        nameBody(context, qCreatedBy(id + "blockRight", EntityType.BODY), "H04 Dold MGN12H right");
+
+        // Printed moving bridge with the MGN12H 20 x 20 mm mounting pattern.
+        makeBox(context, id + "carriageBridge",
+                vector(bridgeStartX, -82.5 * millimeter, bridgeBottomZ),
+                vector(bridgeEndX, 82.5 * millimeter, bridgeTopZ));
+        nameBody(context, qCreatedBy(id + "carriageBridge", EntityType.BODY), "P05 Carriage bridge for 2x MGN12H");
+
+        var bridgeHoleTools = [];
+        var bridgeCounterboreTools = [];
+        var bridgeHoleIndex = 0;
+        const blockCenterX = (blockStartX + blockEndX) / 2;
+        for (var blockCenterY in [-guideY, guideY])
+        {
+            for (var holeOffsetX in [-10 * millimeter, 10 * millimeter])
+            {
+                for (var holeOffsetY in [-10 * millimeter, 10 * millimeter])
+                {
+                    const bridgeHoleId = id + ("bridgeHole" ~ bridgeHoleIndex);
+                    makeCylinder(context, bridgeHoleId,
+                            vector(blockCenterX + holeOffsetX, blockCenterY + holeOffsetY, bridgeBottomZ - 1 * millimeter),
+                            vector(blockCenterX + holeOffsetX, blockCenterY + holeOffsetY, bridgeTopZ + 1 * millimeter),
+                            1.7 * millimeter);
+                    bridgeHoleTools = append(bridgeHoleTools, qCreatedBy(bridgeHoleId, EntityType.BODY));
+
+                    const bridgeCounterboreId = id + ("bridgeCounterbore" ~ bridgeHoleIndex);
+                    makeCylinder(context, bridgeCounterboreId,
+                            vector(blockCenterX + holeOffsetX, blockCenterY + holeOffsetY, bridgeBottomZ + 6 * millimeter),
+                            vector(blockCenterX + holeOffsetX, blockCenterY + holeOffsetY, bridgeTopZ + 1 * millimeter),
+                            3.2 * millimeter);
+                    bridgeCounterboreTools = append(bridgeCounterboreTools, qCreatedBy(bridgeCounterboreId, EntityType.BODY));
+                    bridgeHoleIndex += 1;
+                }
+            }
+        }
+        opBoolean(context, id + "cutBridgeHoles", {
+                    "targets" : qCreatedBy(id + "carriageBridge", EntityType.BODY),
+                    "tools" : qUnion(bridgeHoleTools),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+        opBoolean(context, id + "cutBridgeCounterbores", {
+                    "targets" : qCreatedBy(id + "carriageBridge", EntityType.BODY),
+                    "tools" : qUnion(bridgeCounterboreTools),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+
+        // Total-force path: floating spring anchor -> centered steel pusher ->
+        // TE Connectivity FX1901 200 lbf compression cell -> fixed wall.
+        // The 889.6 N full-scale range leaves useful headroom above the 500 N MVP limit.
+        const loadCellBackX = 41 * millimeter;
+        const loadCellFrontX = loadCellBackX + 5.45 * millimeter;
+        const loadCellCenterZ = baseThickness + 19 * millimeter;
+
+        makeBox(context, id + "loadCellWall",
+                vector(29 * millimeter, -27 * millimeter, baseThickness - 0.2 * millimeter),
+                vector(48.5 * millimeter, 27 * millimeter, baseThickness + 32 * millimeter));
+        makeBox(context, id + "loadCellGussetNeg",
+                vector(20 * millimeter, -29 * millimeter, baseThickness - 0.2 * millimeter),
+                vector(loadCellBackX, -18 * millimeter, baseThickness + 25 * millimeter));
+        makeBox(context, id + "loadCellGussetPos",
+                vector(20 * millimeter, 18 * millimeter, baseThickness - 0.2 * millimeter),
+                vector(loadCellBackX, 29 * millimeter, baseThickness + 25 * millimeter));
+
+        // Leave a compact 25 x 25 mm front boss on the wall, then form a
+        // Ø20.2 mm locating pocket with 0.225 mm nominal radial clearance.
+        makeBox(context, id + "loadCellTrimYNeg",
+                vector(loadCellBackX, -28 * millimeter, baseThickness - 1 * millimeter),
+                vector(49 * millimeter, -12.5 * millimeter, baseThickness + 40 * millimeter));
+        makeBox(context, id + "loadCellTrimYPos",
+                vector(loadCellBackX, 12.5 * millimeter, baseThickness - 1 * millimeter),
+                vector(49 * millimeter, 28 * millimeter, baseThickness + 40 * millimeter));
+        makeBox(context, id + "loadCellTrimZLow",
+                vector(loadCellBackX, -12.5 * millimeter, baseThickness - 1 * millimeter),
+                vector(49 * millimeter, 12.5 * millimeter, loadCellCenterZ - 12.5 * millimeter));
+        makeBox(context, id + "loadCellTrimZHigh",
+                vector(loadCellBackX, -12.5 * millimeter, loadCellCenterZ + 12.5 * millimeter),
+                vector(49 * millimeter, 12.5 * millimeter, baseThickness + 40 * millimeter));
+        opBoolean(context, id + "shapeLoadCellPocketBoss", {
+                    "targets" : qCreatedBy(id + "loadCellWall", EntityType.BODY),
+                    "tools" : qUnion([
+                                qCreatedBy(id + "loadCellTrimYNeg", EntityType.BODY),
+                                qCreatedBy(id + "loadCellTrimYPos", EntityType.BODY),
+                                qCreatedBy(id + "loadCellTrimZLow", EntityType.BODY),
+                                qCreatedBy(id + "loadCellTrimZHigh", EntityType.BODY)
+                            ]),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+        makeCylinder(context, id + "loadCellPocketCavity",
+                vector(loadCellBackX, 0 * millimeter, loadCellCenterZ),
+                vector(48.6 * millimeter, 0 * millimeter, loadCellCenterZ), 10.1 * millimeter);
+        makeBox(context, id + "loadCellCableNotch",
+                vector(loadCellBackX, 7.5 * millimeter, loadCellCenterZ - 3.5 * millimeter),
+                vector(48.6 * millimeter, 28 * millimeter, loadCellCenterZ + 3.5 * millimeter));
+        opBoolean(context, id + "cutLoadCellPocket", {
+                    "targets" : qCreatedBy(id + "loadCellWall", EntityType.BODY),
+                    "tools" : qUnion([
+                                qCreatedBy(id + "loadCellPocketCavity", EntityType.BODY),
+                                qCreatedBy(id + "loadCellCableNotch", EntityType.BODY)
+                            ]),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+
+        // TE specifies that the rear face may be supported only on the outer
+        // force-support rim. This relief keeps the four delicate rear bumps free.
+        makeCylinder(context, id + "loadCellBackRelief",
+                vector(loadCellBackX - 1.6 * millimeter, 0 * millimeter, loadCellCenterZ),
+                vector(loadCellBackX + 0.2 * millimeter, 0 * millimeter, loadCellCenterZ),
+                7.5 * millimeter);
+        opBoolean(context, id + "cutLoadCellBackRelief", {
+                    "targets" : qCreatedBy(id + "loadCellWall", EntityType.BODY),
+                    "tools" : qCreatedBy(id + "loadCellBackRelief", EntityType.BODY),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+        nameBody(context, qCreatedBy(id + "loadCellWall", EntityType.BODY), "P06 FX1901 reaction wall and locating pocket");
+
+        // Catalogue geometry of FX1901-0001-0200-L, including the central
+        // compression boss and a shortened representation of its 4-wire cable.
+        makeCylinder(context, id + "loadCell",
+                vector(loadCellBackX, 0 * millimeter, loadCellCenterZ),
+                vector(loadCellFrontX, 0 * millimeter, loadCellCenterZ), 9.875 * millimeter);
+        makeCylinder(context, id + "loadCellBoss",
+                vector(loadCellFrontX, 0 * millimeter, loadCellCenterZ),
+                vector(loadCellFrontX + 0.65 * millimeter, 0 * millimeter, loadCellCenterZ), 2.5 * millimeter);
+        makeBox(context, id + "loadCellOvermold",
+                vector(42 * millimeter, 8 * millimeter, loadCellCenterZ - 2.5 * millimeter),
+                vector(45.5 * millimeter, 14 * millimeter, loadCellCenterZ + 2.5 * millimeter));
+        makeCylinder(context, id + "loadCellCable",
+                vector(43.75 * millimeter, 8.5 * millimeter, loadCellCenterZ),
+                vector(43.75 * millimeter, 50 * millimeter, loadCellCenterZ), 1.2 * millimeter);
+        makeBox(context, id + "loadCellConnector",
+                vector(40.75 * millimeter, 47.5 * millimeter, loadCellCenterZ - 3 * millimeter),
+                vector(46.75 * millimeter, 55.5 * millimeter, loadCellCenterZ + 3 * millimeter));
+        nameBody(context, qCreatedBy(id + "loadCell", EntityType.BODY), "H05 TE FX1901-0001-0200-L 200 lbf load cell");
+        nameBody(context, qCreatedBy(id + "loadCellBoss", EntityType.BODY), "H05a FX1901 center force boss");
+        nameBody(context, qCreatedBy(id + "loadCellOvermold", EntityType.BODY), "H05b FX1901 cable overmold");
+        nameBody(context, qCreatedBy(id + "loadCellCable", EntityType.BODY), "H05c FX1901 four-wire cable");
+        nameBody(context, qCreatedBy(id + "loadCellConnector", EntityType.BODY), "H05d FX1901 Molex connector");
+
+        makeCylinder(context, id + "loadPusher",
+                vector(loadCellFrontX + 0.65 * millimeter, 0 * millimeter, loadCellCenterZ),
+                vector(55 * millimeter, 0 * millimeter, loadCellCenterZ), 2 * millimeter);
+        nameBody(context, qCreatedBy(id + "loadPusher", EntityType.BODY), "H06 Centered 4 mm steel load-cell pusher");
+
+        makeBox(context, id + "springAnchor",
+                vector(55 * millimeter, -48 * millimeter, baseThickness),
+                vector(springStartX, 48 * millimeter, baseThickness + 38 * millimeter));
+        nameBody(context, qCreatedBy(id + "springAnchor", EntityType.BODY), "P07 Shared spring anchor");
+
+        // Two norelem 26000-1608102 ISO 10243 springs: 1 mm preload plus 30 mm
+        // stroke at 7.8 N/mm each gives 483.6 N total (about 49.3 kgf).
+        makeCompressionSpring(context, id + "springLong1", springStartX, springEndX - previewTravel, springY1, springZ);
+        makeCompressionSpring(context, id + "springLong2", springStartX, springEndX - previewTravel, springY2, springZ);
+        nameBody(context, qCreatedBy(id + "springLong1" + "sweep", EntityType.BODY), "H07 norelem 26000-1608102 spring left");
+        nameBody(context, qCreatedBy(id + "springLong2" + "sweep", EntityType.BODY), "H08 norelem 26000-1608102 spring right");
+
+        // Readily available Ø6 mm steel mandrels prevent spring buckling without
+        // binding in the springs' nominal Ø8 mm bore. Ø6.6 mm printed bores give
+        // 0.3 mm radial FDM clearance through anchor, seats and bridge.
+        makeCylinder(context, id + "springGuideLong1",
+                vector(49 * millimeter, springY1, springZ),
+                vector(175 * millimeter, springY1, springZ), 3 * millimeter);
+        makeCylinder(context, id + "springGuideLong2",
+                vector(49 * millimeter, springY2, springZ),
+                vector(175 * millimeter, springY2, springZ), 3 * millimeter);
+        nameBody(context, qCreatedBy(id + "springGuideLong1", EntityType.BODY), "H09 Spring guide rod dia 6 x 126 left");
+        nameBody(context, qCreatedBy(id + "springGuideLong2", EntityType.BODY), "H10 Spring guide rod dia 6 x 126 right");
+
+        // Fixed printed rod sockets key into the base. The Ø6.2 mm bores provide
+        // a light reamed/adhesive fit. A 1.5 mm axial gap to the floating anchor
+        // prevents the sockets from bypassing the load-cell force path.
+        makeBox(context, id + "springGuideSocket1",
+                vector(48 * millimeter, springY1 - 8 * millimeter, baseThickness - 0.2 * millimeter),
+                vector(53.5 * millimeter, springY1 + 8 * millimeter, springZ + 8 * millimeter));
+        makeBox(context, id + "springGuideSocket2",
+                vector(48 * millimeter, springY2 - 8 * millimeter, baseThickness - 0.2 * millimeter),
+                vector(53.5 * millimeter, springY2 + 8 * millimeter, springZ + 8 * millimeter));
+        var springSocketBoreTools = [];
+        var springSocketBoreIndex = 0;
+        for (var socketY in [springY1, springY2])
+        {
+            const socketBoreId = id + ("springSocketBore" ~ springSocketBoreIndex);
+            makeCylinder(context, socketBoreId,
+                    vector(47 * millimeter, socketY, springZ),
+                    vector(54.5 * millimeter, socketY, springZ), 3.1 * millimeter);
+            springSocketBoreTools = append(springSocketBoreTools, qCreatedBy(socketBoreId, EntityType.BODY));
+            springSocketBoreIndex += 1;
+        }
+        opBoolean(context, id + "cutSpringSocketBores", {
+                    "targets" : qUnion([
+                                qCreatedBy(id + "springGuideSocket1", EntityType.BODY),
+                                qCreatedBy(id + "springGuideSocket2", EntityType.BODY)
+                            ]),
+                    "tools" : qUnion(springSocketBoreTools),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+
+        // Replaceable steel spring seats / large washers.
+        makeCylinder(context, id + "fixedSeat1", vector(62 * millimeter, springY1, springZ), vector(springStartX, springY1, springZ), 11 * millimeter);
+        makeCylinder(context, id + "fixedSeat2", vector(62 * millimeter, springY2, springZ), vector(springStartX, springY2, springZ), 11 * millimeter);
+        makeCylinder(context, id + "movingSeat1", vector(springEndX, springY1, springZ), vector(springEndX + 3 * millimeter, springY1, springZ), 11 * millimeter);
+        makeCylinder(context, id + "movingSeat2", vector(springEndX, springY2, springZ), vector(springEndX + 3 * millimeter, springY2, springZ), 11 * millimeter);
+        nameBody(context, qCreatedBy(id + "fixedSeat1", EntityType.BODY), "H11 Fixed spring seat left");
+        nameBody(context, qCreatedBy(id + "fixedSeat2", EntityType.BODY), "H12 Fixed spring seat right");
+        nameBody(context, qCreatedBy(id + "movingSeat1", EntityType.BODY), "H13 Moving spring seat left");
+        nameBody(context, qCreatedBy(id + "movingSeat2", EntityType.BODY), "H14 Moving spring seat right");
+
+        var fixedSeatPocketTools = [];
+        var movingSeatPocketTools = [];
+        var seatPocketIndex = 0;
+        for (var seatPocketY in [springY1, springY2])
+        {
+            const fixedPocketId = id + ("fixedSeatPocket" ~ seatPocketIndex);
+            makeCylinder(context, fixedPocketId,
+                    vector(61.8 * millimeter, seatPocketY, springZ),
+                    vector(65.2 * millimeter, seatPocketY, springZ), 11.2 * millimeter);
+            fixedSeatPocketTools = append(fixedSeatPocketTools, qCreatedBy(fixedPocketId, EntityType.BODY));
+
+            const movingPocketId = id + ("movingSeatPocket" ~ seatPocketIndex);
+            makeCylinder(context, movingPocketId,
+                    vector(springEndX - 0.2 * millimeter, seatPocketY, springZ),
+                    vector(springEndX + 3.2 * millimeter, seatPocketY, springZ), 11.2 * millimeter);
+            movingSeatPocketTools = append(movingSeatPocketTools, qCreatedBy(movingPocketId, EntityType.BODY));
+            seatPocketIndex += 1;
+        }
+        opBoolean(context, id + "cutFixedSeatPockets", {
+                    "targets" : qCreatedBy(id + "springAnchor", EntityType.BODY),
+                    "tools" : qUnion(fixedSeatPocketTools),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+        opBoolean(context, id + "cutMovingSeatPockets", {
+                    "targets" : qCreatedBy(id + "carriageBridge", EntityType.BODY),
+                    "tools" : qUnion(movingSeatPocketTools),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+
+        // Spring envelopes need clearance through the bridge BEFORE the seat.
+        // This forms two open-bottom tunnels; the rear shoulder still carries
+        // the steel seats. Ø17.2 gives 0.6 mm radial clearance to the Ø16 spring.
+        var springTunnelTools = [];
+        var springTunnelIndex = 0;
+        for (var tunnelY in [springY1, springY2])
+        {
+            const tunnelId = id + ("springTunnel" ~ springTunnelIndex);
+            makeCylinder(context, tunnelId,
+                    vector(bridgeStartX - 1 * millimeter, tunnelY, springZ),
+                    vector(springEndX + 0.2 * millimeter, tunnelY, springZ), 8.6 * millimeter);
+            springTunnelTools = append(springTunnelTools, qCreatedBy(tunnelId, EntityType.BODY));
+            springTunnelIndex += 1;
+        }
+        opBoolean(context, id + "cutSpringTunnels", {
+                    "targets" : qCreatedBy(id + "carriageBridge", EntityType.BODY),
+                    "tools" : qUnion(springTunnelTools),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+
+        var springGuideBoreTools = [];
+        var springGuideBoreIndex = 0;
+        for (var guideBoreY in [springY1, springY2])
+        {
+            const guideBoreId = id + ("springGuideBore" ~ springGuideBoreIndex);
+            makeCylinder(context, guideBoreId,
+                    vector(51 * millimeter, guideBoreY, springZ),
+                    vector(bridgeEndX + 1 * millimeter, guideBoreY, springZ), 3.3 * millimeter);
+            springGuideBoreTools = append(springGuideBoreTools, qCreatedBy(guideBoreId, EntityType.BODY));
+            springGuideBoreIndex += 1;
+        }
+        opBoolean(context, id + "cutSpringGuideBores", {
+                    "targets" : qUnion([
+                                qCreatedBy(id + "springAnchor", EntityType.BODY),
+                                qCreatedBy(id + "fixedSeat1", EntityType.BODY),
+                                qCreatedBy(id + "fixedSeat2", EntityType.BODY),
+                                qCreatedBy(id + "movingSeat1", EntityType.BODY),
+                                qCreatedBy(id + "movingSeat2", EntityType.BODY),
+                                qCreatedBy(id + "carriageBridge", EntityType.BODY)
+                            ]),
+                    "tools" : qUnion(springGuideBoreTools),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+
+        // Four low side cheeks retain the nominal open position without
+        // obstructing the rail or its last mounting screw. Replaceable 1 mm
+        // elastomer faces soften contact with the rear of each guide block.
+        var returnStopIndex = 0;
+        var returnStopBodies = [];
+        for (var returnRailY in [-guideY, guideY])
+        {
+            for (var returnOffsetY in [-10 * millimeter, 10 * millimeter])
+            {
+                const returnY = returnRailY + returnOffsetY;
+                const returnStopId = id + ("returnStopEar" ~ returnStopIndex);
+                makeBox(context, returnStopId,
+                        vector(blockEndX + 1 * millimeter, returnY - 3 * millimeter, baseThickness - 0.2 * millimeter),
+                        vector(204 * millimeter, returnY + 3 * millimeter, baseThickness + 12.5 * millimeter));
+
+                returnStopBodies = append(returnStopBodies, qCreatedBy(returnStopId, EntityType.BODY));
+                const returnBumperId = id + ("returnBumperPad" ~ returnStopIndex);
+                makeBox(context, returnBumperId,
+                        vector(blockEndX, returnY - 3 * millimeter, baseThickness + 3 * millimeter),
+                        vector(blockEndX + 1 * millimeter, returnY + 3 * millimeter, baseThickness + 12.5 * millimeter));
+                nameBody(context, qCreatedBy(returnBumperId, EntityType.BODY),
+                        "H22 Return-stop elastomer bumper " ~ (returnStopIndex + 1));
+                finishBody(context, qCreatedBy(returnBumperId, EntityType.BODY), color(0.18, 0.20, 0.21));
+                returnStopIndex += 1;
+            }
+        }
+
+        // Adjustable M6 hard stops define the 30 mm working stroke.
+        makeBox(context, id + "hardStopLeft",
+                vector(hardStopContactX - 15 * millimeter, -hardStopY - 8 * millimeter, baseThickness - 0.2 * millimeter),
+                vector(hardStopContactX - 5 * millimeter, -hardStopY + 8 * millimeter, baseThickness + 30 * millimeter));
+        makeBox(context, id + "hardStopRight",
+                vector(hardStopContactX - 15 * millimeter, hardStopY - 8 * millimeter, baseThickness - 0.2 * millimeter),
+                vector(hardStopContactX - 5 * millimeter, hardStopY + 8 * millimeter, baseThickness + 30 * millimeter));
+
+        var stopInsertTools = [];
+        var stopInsertIndex = 0;
+        for (var stopInsertY in [-hardStopY, hardStopY])
+        {
+            const stopInsertId = id + ("stopInsert" ~ stopInsertIndex);
+            makeCylinder(context, stopInsertId,
+                    vector(hardStopContactX - 16 * millimeter, stopInsertY, baseThickness + 20 * millimeter),
+                    vector(hardStopContactX - 4 * millimeter, stopInsertY, baseThickness + 20 * millimeter),
+                    4.2 * millimeter);
+            stopInsertTools = append(stopInsertTools, qCreatedBy(stopInsertId, EntityType.BODY));
+            stopInsertIndex += 1;
+        }
+        opBoolean(context, id + "cutStopInsertPockets", {
+                    "targets" : qUnion([
+                                qCreatedBy(id + "hardStopLeft", EntityType.BODY),
+                                qCreatedBy(id + "hardStopRight", EntityType.BODY)
+                            ]),
+                    "tools" : qUnion(stopInsertTools),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+        makeCylinder(context, id + "stopScrewLeft",
+                vector(hardStopContactX - 5 * millimeter, -hardStopY, baseThickness + 20 * millimeter),
+                vector(hardStopContactX, -hardStopY, baseThickness + 20 * millimeter), 3 * millimeter);
+        makeCylinder(context, id + "stopScrewRight",
+                vector(hardStopContactX - 5 * millimeter, hardStopY, baseThickness + 20 * millimeter),
+                vector(hardStopContactX, hardStopY, baseThickness + 20 * millimeter), 3 * millimeter);
+        nameBody(context, qCreatedBy(id + "hardStopLeft", EntityType.BODY), "P08 Left hard-stop bracket");
+        nameBody(context, qCreatedBy(id + "hardStopRight", EntityType.BODY), "P09 Right hard-stop bracket");
+        nameBody(context, qCreatedBy(id + "stopScrewLeft", EntityType.BODY), "H15 M6 adjustable stop left");
+        nameBody(context, qCreatedBy(id + "stopScrewRight", EntityType.BODY), "H16 M6 adjustable stop right");
+
+        // Two replaceable 2 mm steel strike plates protect the printed bridge.
+        makeBox(context, id + "strikePlateLeft",
+                vector(bridgeStartX, -hardStopY - 4 * millimeter, bridgeBottomZ),
+                vector(bridgeStartX + 2 * millimeter, -hardStopY + 4 * millimeter, bridgeBottomZ + 16 * millimeter));
+        makeBox(context, id + "strikePlateRight",
+                vector(bridgeStartX, hardStopY - 4 * millimeter, bridgeBottomZ),
+                vector(bridgeStartX + 2 * millimeter, hardStopY + 4 * millimeter, bridgeBottomZ + 16 * millimeter));
+        makeBox(context, id + "strikePocketLeft",
+                vector(bridgeStartX - 0.2 * millimeter, -hardStopY - 4.2 * millimeter, bridgeBottomZ - 0.2 * millimeter),
+                vector(bridgeStartX + 2.2 * millimeter, -hardStopY + 4.2 * millimeter, bridgeBottomZ + 16.2 * millimeter));
+        makeBox(context, id + "strikePocketRight",
+                vector(bridgeStartX - 0.2 * millimeter, hardStopY - 4.2 * millimeter, bridgeBottomZ - 0.2 * millimeter),
+                vector(bridgeStartX + 2.2 * millimeter, hardStopY + 4.2 * millimeter, bridgeBottomZ + 16.2 * millimeter));
+        opBoolean(context, id + "cutStrikePlatePockets", {
+                    "targets" : qCreatedBy(id + "carriageBridge", EntityType.BODY),
+                    "tools" : qUnion([
+                                qCreatedBy(id + "strikePocketLeft", EntityType.BODY),
+                                qCreatedBy(id + "strikePocketRight", EntityType.BODY)
+                            ]),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+        nameBody(context, qCreatedBy(id + "strikePlateLeft", EntityType.BODY), "H20 Steel strike plate left");
+        nameBody(context, qCreatedBy(id + "strikePlateRight", EntityType.BODY), "H21 Steel strike plate right");
+
+        // Omron SS-01GL2 micro-load roller-lever switch. Its envelope and 9.5 mm
+        // mounting pattern are identical to SS-5GL2, but its contacts are suited
+        // to an electronic input. Two M3 slots provide +/-2 mm click adjustment.
+        const switchBaseX = hardStopContactX - 13.5 * millimeter;
+        const switchCenterY = 0 * millimeter;
+        const switchBodyZ = baseThickness + 4 * millimeter;
+
+        // Printable right-angle bracket with exact M2.3 mounting-hole locations.
+        makeBox(context, id + "switchBracket",
+                vector(switchBaseX - 3 * millimeter, switchCenterY - 11 * millimeter, baseThickness),
+                vector(switchBaseX + 11.7 * millimeter, switchCenterY + 4 * millimeter, switchBodyZ + 22.5 * millimeter));
+        makeBox(context, id + "switchBracketCavity",
+                vector(switchBaseX - 4 * millimeter, switchCenterY - 3.5 * millimeter, baseThickness + 3.5 * millimeter),
+                vector(switchBaseX + 12.7 * millimeter, switchCenterY + 5 * millimeter, switchBodyZ + 23.5 * millimeter));
+        opBoolean(context, id + "shapeSwitchBracket", {
+                    "targets" : qCreatedBy(id + "switchBracket", EntityType.BODY),
+                    "tools" : qCreatedBy(id + "switchBracketCavity", EntityType.BODY),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+
+        // Accessible mounting foot: slots sit beside the switch, not underneath it.
+        makeBox(context, id + "switchAccessibleFoot",
+                vector(switchBaseX - 5.2 * millimeter, -11 * millimeter, baseThickness),
+                vector(switchBaseX + 17 * millimeter, 11 * millimeter, baseThickness + 3.5 * millimeter));
+        opBoolean(context, id + "joinSwitchAccessibleFoot", {
+                    "tools" : qUnion([qCreatedBy(id + "switchBracket", EntityType.BODY),
+                                      qCreatedBy(id + "switchAccessibleFoot", EntityType.BODY)]),
+                    "operationType" : BooleanOperationType.UNION
+                });
+        const switchMountY = switchCenterY + 7.5 * millimeter;
+
+        var switchBaseSlotTools = [];
+        var switchBaseInsertTools = [];
+        var switchBaseMountIndex = 0;
+        for (var switchBaseMountX in [switchBaseX + 1 * millimeter, switchBaseX + 9.5 * millimeter])
+        {
+            const slotLeftId = id + ("switchBaseSlotLeft" ~ switchBaseMountIndex);
+            const slotRightId = id + ("switchBaseSlotRight" ~ switchBaseMountIndex);
+            const slotBridgeId = id + ("switchBaseSlotBridge" ~ switchBaseMountIndex);
+            makeCylinder(context, slotLeftId,
+                    vector(switchBaseMountX - 2 * millimeter, switchMountY, baseThickness - 1 * millimeter),
+                    vector(switchBaseMountX - 2 * millimeter, switchMountY, baseThickness + 5 * millimeter), 1.8 * millimeter);
+            makeCylinder(context, slotRightId,
+                    vector(switchBaseMountX + 2 * millimeter, switchMountY, baseThickness - 1 * millimeter),
+                    vector(switchBaseMountX + 2 * millimeter, switchMountY, baseThickness + 5 * millimeter), 1.8 * millimeter);
+            makeBox(context, slotBridgeId,
+                    vector(switchBaseMountX - 2 * millimeter, switchMountY - 1.8 * millimeter, baseThickness - 1 * millimeter),
+                    vector(switchBaseMountX + 2 * millimeter, switchMountY + 1.8 * millimeter, baseThickness + 5 * millimeter));
+            switchBaseSlotTools = append(switchBaseSlotTools, qCreatedBy(slotLeftId, EntityType.BODY));
+            switchBaseSlotTools = append(switchBaseSlotTools, qCreatedBy(slotRightId, EntityType.BODY));
+            switchBaseSlotTools = append(switchBaseSlotTools, qCreatedBy(slotBridgeId, EntityType.BODY));
+
+            const baseInsertId = id + ("switchBaseInsert" ~ switchBaseMountIndex);
+            makeCylinder(context, baseInsertId,
+                    vector(switchBaseMountX, switchMountY, baseThickness - 6.5 * millimeter),
+                    vector(switchBaseMountX, switchMountY, baseThickness + 1 * millimeter), 2.3 * millimeter);
+            switchBaseInsertTools = append(switchBaseInsertTools, qCreatedBy(baseInsertId, EntityType.BODY));
+            switchBaseMountIndex += 1;
+        }
+        opBoolean(context, id + "cutSwitchBaseSlots", {
+                    "targets" : qCreatedBy(id + "switchBracket", EntityType.BODY),
+                    "tools" : qUnion(switchBaseSlotTools),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+        opBoolean(context, id + "cutSwitchBaseInserts", {
+                    "targets" : qCreatedBy(id + "base", EntityType.BODY),
+                    "tools" : qUnion(switchBaseInsertTools),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+
+        makeBox(context, id + "switchBody",
+                vector(switchBaseX, switchCenterY - 3.2 * millimeter, switchBodyZ),
+                vector(switchBaseX + 10.2 * millimeter, switchCenterY + 3.2 * millimeter, switchBodyZ + 19.8 * millimeter));
+
+        var switchBracketMountTools = [];
+        var switchBodyMountTools = [];
+        var switchMountIndex = 0;
+        for (var switchHoleZ in [switchBodyZ + 5.1 * millimeter, switchBodyZ + 14.6 * millimeter])
+        {
+            const switchBracketHoleId = id + ("switchBracketMountHole" ~ switchMountIndex);
+            makeCylinder(context, switchBracketHoleId,
+                    vector(switchBaseX + 2.5 * millimeter, switchCenterY - 12 * millimeter, switchHoleZ),
+                    vector(switchBaseX + 2.5 * millimeter, switchCenterY - 2.5 * millimeter, switchHoleZ), 1.25 * millimeter);
+            switchBracketMountTools = append(switchBracketMountTools, qCreatedBy(switchBracketHoleId, EntityType.BODY));
+
+            const switchBodyHoleId = id + ("switchBodyMountHole" ~ switchMountIndex);
+            makeCylinder(context, switchBodyHoleId,
+                    vector(switchBaseX + 2.5 * millimeter, switchCenterY - 4 * millimeter, switchHoleZ),
+                    vector(switchBaseX + 2.5 * millimeter, switchCenterY + 4 * millimeter, switchHoleZ), 1.175 * millimeter);
+            switchBodyMountTools = append(switchBodyMountTools, qCreatedBy(switchBodyHoleId, EntityType.BODY));
+            switchMountIndex += 1;
+        }
+        opBoolean(context, id + "cutSwitchBracketMounts", {
+                    "targets" : qCreatedBy(id + "switchBracket", EntityType.BODY),
+                    "tools" : qUnion(switchBracketMountTools),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+        opBoolean(context, id + "cutSwitchBodyMounts", {
+                    "targets" : qCreatedBy(id + "switchBody", EntityType.BODY),
+                    "tools" : qUnion(switchBodyMountTools),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+
+        makeCylinder(context, id + "switchLever",
+                vector(switchBaseX + 10.2 * millimeter, switchCenterY, switchBodyZ + 0.5 * millimeter),
+                vector(switchBaseX + 16.9 * millimeter, switchCenterY, switchBodyZ + 15 * millimeter), 0.45 * millimeter);
+        makeCylinder(context, id + "switchRoller",
+                vector(switchBaseX + 16.9 * millimeter, switchCenterY - 1.6 * millimeter, switchBodyZ + 15 * millimeter),
+                vector(switchBaseX + 16.9 * millimeter, switchCenterY + 1.6 * millimeter, switchBodyZ + 15 * millimeter), 2.4 * millimeter);
+        nameBody(context, qCreatedBy(id + "switchBracket", EntityType.BODY), "P10 Adjustable Omron SS-01GL2 mounting bracket");
+        nameBody(context, qCreatedBy(id + "switchBody", EntityType.BODY), "H17 Omron SS-01GL2 micro-load switch");
+        nameBody(context, qCreatedBy(id + "switchLever", EntityType.BODY), "H18 SS-01GL2 stainless roller lever");
+        nameBody(context, qCreatedBy(id + "switchRoller", EntityType.BODY), "H19 SS-01GL2 polyacetal roller");
+
+        // Two side uprights and the shared four-finger pull bar. Keeping the
+        // supports outside y = +/-55 mm leaves spring and strike-plate corridors unobstructed.
+        // These bodies are
+        // fused to the bridge at the end of the feature so the 500 N load never
+        // relies on glue or a face-only contact.
+        makeBox(context, id + "handleSupportLeft",
+                vector(handleX - 6 * millimeter, -handleWidth / 2, baseThickness + 24 * millimeter),
+                vector(handleX + 6 * millimeter, -55 * millimeter, handleZ + handleHeight / 2));
+        makeBox(context, id + "handleSupportRight",
+                vector(handleX - 6 * millimeter, 55 * millimeter, baseThickness + 24 * millimeter),
+                vector(handleX + 6 * millimeter, handleWidth / 2, handleZ + handleHeight / 2));
+        nameBody(context, qCreatedBy(id + "handleSupportLeft", EntityType.BODY), "P11 Left finger-bar support");
+        nameBody(context, qCreatedBy(id + "handleSupportRight", EntityType.BODY), "P11 Right finger-bar support");
+
+        makeGripRib(context, id + "gripRibLeft", -handleWidth / 2,
+                handleWidth / 2 - 55 * millimeter, bridgeTopZ, handleZ, handleX);
+        makeGripRib(context, id + "gripRibRight", 55 * millimeter,
+                handleWidth / 2 - 55 * millimeter, bridgeTopZ, handleZ, handleX);
+
+        makeBox(context, id + "fingerBar",
+                vector(handleX - handleThickness / 2, -handleWidth / 2, handleZ - handleHeight / 2),
+                vector(handleX + handleThickness / 2, handleWidth / 2, handleZ + handleHeight / 2));
+        opFillet(context, id + "fingerBarFillet", {
+                    "entities" : qCreatedBy(id + "fingerBar", EntityType.EDGE),
+                    "radius" : min(handleThickness / 2 - 0.25 * millimeter, max(definition.handleEdgeRadius, 4 * millimeter)),
+                    "tangentPropagation" : true
+                });
+        nameBody(context, qCreatedBy(id + "fingerBar", EntityType.BODY), "P12 Elevated four-finger bar - R4 comfort edges");
+
+        // --------------------------------------------------------------------
+        // Product enclosure. Three printable shells turn the exposed mechanism
+        // into a compact device while preserving access to palm pad and handle.
+
+        // Rounded lower tray: 0.6 mm per-side FDM assembly clearance around the
+        // printed base, 4 mm bottom and roughly 3 mm perimeter wall.
+        makeBox(context, id + "lowerShell",
+                vector(-3.6 * millimeter, -89.6 * millimeter, -4 * millimeter),
+                vector(baseLength + 3.6 * millimeter, 89.6 * millimeter, baseThickness + 1 * millimeter));
+        opFillet(context, id + "lowerShellFillet", {
+                    "entities" : qCreatedBy(id + "lowerShell", EntityType.EDGE),
+                    "radius" : 4 * millimeter,
+                    "tangentPropagation" : true
+                });
+        makeBox(context, id + "lowerShellCavity",
+                vector(-0.6 * millimeter, -85.6 * millimeter, -0.1 * millimeter),
+                vector(baseLength + 0.6 * millimeter, 85.6 * millimeter, baseThickness + 2 * millimeter));
+        opBoolean(context, id + "hollowLowerShell", {
+                    "targets" : qCreatedBy(id + "lowerShell", EntityType.BODY),
+                    "tools" : qCreatedBy(id + "lowerShellCavity", EntityType.BODY),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+
+        var trayHoleTools = [];
+        var trayHoleIndex = 0;
+        for (var trayX in [10 * millimeter, baseLength - 10 * millimeter])
+        {
+            for (var trayY in [-75 * millimeter, 75 * millimeter])
+            {
+                const trayHoleId = id + ("trayHole" ~ trayHoleIndex);
+                makeCylinder(context, trayHoleId,
+                        vector(trayX, trayY, -5 * millimeter),
+                        vector(trayX, trayY, 1 * millimeter), 2.75 * millimeter);
+                trayHoleTools = append(trayHoleTools, qCreatedBy(trayHoleId, EntityType.BODY));
+                trayHoleIndex += 1;
+            }
+        }
+        opBoolean(context, id + "cutTrayMounts", {
+                    "targets" : qCreatedBy(id + "lowerShell", EntityType.BODY),
+                    "tools" : qUnion(trayHoleTools),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+        nameBody(context, qCreatedBy(id + "lowerShell", EntityType.BODY), "C01 Rounded lower housing tray");
+
+        // Fixed inner hood over load cell and springs. It is open at the bottom
+        // and both X ends so the moving components can pass through it.
+        makeBox(context, id + "fixedHood",
+                vector(43 * millimeter, -58 * millimeter, baseThickness),
+                vector(105 * millimeter, 58 * millimeter, 56 * millimeter));
+        opFillet(context, id + "fixedHoodFillet", {
+                    "entities" : qCreatedBy(id + "fixedHood", EntityType.EDGE),
+                    "radius" : 7 * millimeter,
+                    "tangentPropagation" : true
+                });
+        makeBox(context, id + "fixedHoodCavity",
+                vector(42 * millimeter, -55 * millimeter, baseThickness - 1 * millimeter),
+                vector(108 * millimeter, 55 * millimeter, 53 * millimeter));
+        opBoolean(context, id + "hollowFixedHood", {
+                    "targets" : qCreatedBy(id + "fixedHood", EntityType.BODY),
+                    "tools" : qCreatedBy(id + "fixedHoodCavity", EntityType.BODY),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+
+        // Two-level window opening: a through opening plus a shallow 0.3 mm
+        // clearance recess leaves a positive ledge for a 1.5 mm clear panel.
+        makeBox(context, id + "fixedWindowThrough",
+                vector(52 * millimeter, -38 * millimeter, 52 * millimeter),
+                vector(96 * millimeter, 38 * millimeter, 58 * millimeter));
+        opFillet(context, id + "fixedWindowThroughFillet", {
+                    "entities" : qCreatedBy(id + "fixedWindowThrough", EntityType.EDGE),
+                    "radius" : 2.5 * millimeter,
+                    "tangentPropagation" : true
+                });
+        makeBox(context, id + "fixedWindowRecess",
+                vector(45.7 * millimeter, -46.3 * millimeter, 54.2 * millimeter),
+                vector(103.3 * millimeter, 46.3 * millimeter, 58 * millimeter));
+        opFillet(context, id + "fixedWindowRecessFillet", {
+                    "entities" : qCreatedBy(id + "fixedWindowRecess", EntityType.EDGE),
+                    "radius" : 1.5 * millimeter,
+                    "tangentPropagation" : true
+                });
+        opBoolean(context, id + "cutFixedWindowThrough", {
+                    "targets" : qCreatedBy(id + "fixedHood", EntityType.BODY),
+                    "tools" : qCreatedBy(id + "fixedWindowThrough", EntityType.BODY),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+        opBoolean(context, id + "cutFixedWindowRecess", {
+                    "targets" : qCreatedBy(id + "fixedHood", EntityType.BODY),
+                    "tools" : qCreatedBy(id + "fixedWindowRecess", EntityType.BODY),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+
+        // Side slot lets the FX1901's factory cable and Molex connector leave
+        // the sealed spring bay without being pinched by the fixed hood.
+        makeBox(context, id + "sensorCableSlot",
+                vector(39.5 * millimeter, 54 * millimeter, loadCellCenterZ - 4 * millimeter),
+                vector(48 * millimeter, 60 * millimeter, loadCellCenterZ + 4 * millimeter));
+        opBoolean(context, id + "cutSensorCableSlot", {
+                    "targets" : qCreatedBy(id + "fixedHood", EntityType.BODY),
+                    "tools" : qCreatedBy(id + "sensorCableSlot", EntityType.BODY),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+
+        // Local side openings clear the two inward-shifted hard-stop brackets.
+        // Their y = +/-50 mm positions sit between springs and linear rails.
+        makeBox(context, id + "hardStopHoodNotchNeg",
+                vector(hardStopContactX - 17 * millimeter, -60 * millimeter, baseThickness - 1 * millimeter),
+                vector(hardStopContactX + 2 * millimeter, -54 * millimeter, baseThickness + 34 * millimeter));
+        makeBox(context, id + "hardStopHoodNotchPos",
+                vector(hardStopContactX - 17 * millimeter, 54 * millimeter, baseThickness - 1 * millimeter),
+                vector(hardStopContactX + 2 * millimeter, 60 * millimeter, baseThickness + 34 * millimeter));
+        opBoolean(context, id + "cutHardStopHoodNotches", {
+                    "targets" : qCreatedBy(id + "fixedHood", EntityType.BODY),
+                    "tools" : qUnion([
+                                qCreatedBy(id + "hardStopHoodNotchNeg", EntityType.BODY),
+                                qCreatedBy(id + "hardStopHoodNotchPos", EntityType.BODY)
+                            ]),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+
+        makeBox(context, id + "springWindow",
+                vector(46 * millimeter, -46 * millimeter, 54.3 * millimeter),
+                vector(103 * millimeter, 46 * millimeter, 55.8 * millimeter));
+        opFillet(context, id + "springWindowFillet", {
+                    "entities" : qCreatedBy(id + "springWindow", EntityType.EDGE),
+                    "radius" : 0.5 * millimeter,
+                    "tangentPropagation" : true
+                });
+        nameBody(context, qCreatedBy(id + "springWindow", EntityType.BODY), "C03 Clear spring inspection window");
+
+        // Four integral side flanges overlap the shell wall and use M4 heat-set
+        // inserts in the base. The shell holes remain normal M4 clearance holes.
+        var fixedFlangeTools = [qCreatedBy(id + "fixedHood", EntityType.BODY)];
+        var fixedMountHoleTools = [];
+        var fixedBaseInsertTools = [];
+        var fixedMountIndex = 0;
+        for (var flangeX in [52.5 * millimeter, 82.5 * millimeter])
+        {
+            for (var flangeY in [-53 * millimeter, 53 * millimeter])
+            {
+                const flangeId = id + ("fixedFlange" ~ fixedMountIndex);
+                makeBox(context, flangeId,
+                        vector(flangeX - 7.5 * millimeter, flangeY - 5 * millimeter, baseThickness),
+                        vector(flangeX + 7.5 * millimeter, flangeY + 5 * millimeter, baseThickness + 4 * millimeter));
+                fixedFlangeTools = append(fixedFlangeTools, qCreatedBy(flangeId, EntityType.BODY));
+
+                const mountHoleId = id + ("fixedMountHole" ~ fixedMountIndex);
+                makeCylinder(context, mountHoleId,
+                        vector(flangeX, flangeY, baseThickness - 1 * millimeter),
+                        vector(flangeX, flangeY, baseThickness + 6 * millimeter), 2.25 * millimeter);
+                fixedMountHoleTools = append(fixedMountHoleTools, qCreatedBy(mountHoleId, EntityType.BODY));
+
+                const baseInsertId = id + ("fixedBaseInsert" ~ fixedMountIndex);
+                makeCylinder(context, baseInsertId,
+                        vector(flangeX, flangeY, baseThickness - 6.5 * millimeter),
+                        vector(flangeX, flangeY, baseThickness + 1 * millimeter), 2.8 * millimeter);
+                fixedBaseInsertTools = append(fixedBaseInsertTools, qCreatedBy(baseInsertId, EntityType.BODY));
+                fixedMountIndex += 1;
+            }
+        }
+        opBoolean(context, id + "joinFixedFlanges", {
+                    "tools" : qUnion(fixedFlangeTools),
+                    "operationType" : BooleanOperationType.UNION
+                });
+        opBoolean(context, id + "cutFixedMountHoles", {
+                    "targets" : qCreatedBy(id + "fixedHood", EntityType.BODY),
+                    "tools" : qUnion(fixedMountHoleTools),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+        opBoolean(context, id + "cutFixedBaseInserts", {
+                    "targets" : qCreatedBy(id + "base", EntityType.BODY),
+                    "tools" : qUnion(fixedBaseInsertTools),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+        nameBody(context, qCreatedBy(id + "fixedHood", EntityType.BODY), "C02 Fixed spring and sensor hood");
+
+        // Larger moving hood telescopes over the fixed hood. It is attached to
+        // the carriage, moves with the finger bar, and stays open at the left.
+        makeBox(context, id + "movingHood",
+                vector(96 * millimeter, -86 * millimeter, baseThickness + 1 * millimeter),
+                vector(198 * millimeter, 86 * millimeter, 60 * millimeter));
+        opFillet(context, id + "movingHoodFillet", {
+                    "entities" : qCreatedBy(id + "movingHood", EntityType.EDGE),
+                    "radius" : 8 * millimeter,
+                    "tangentPropagation" : true
+                });
+        makeBox(context, id + "movingHoodCavity",
+                vector(92 * millimeter, -83 * millimeter, baseThickness),
+                vector(195 * millimeter, 83 * millimeter, 57 * millimeter));
+        opBoolean(context, id + "hollowMovingHood", {
+                    "targets" : qCreatedBy(id + "movingHood", EntityType.BODY),
+                    "tools" : qCreatedBy(id + "movingHoodCavity", EntityType.BODY),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+
+        makeBox(context, id + "fingerAccessSlot",
+                vector(handleX - 15 * millimeter, -65 * millimeter, baseThickness + 22 * millimeter),
+                vector(handleX + 24 * millimeter, 65 * millimeter, handleZ + handleHeight / 2 + 2 * millimeter));
+        opBoolean(context, id + "cutFingerAccessSlot", {
+                    "targets" : qCreatedBy(id + "movingHood", EntityType.BODY),
+                    "tools" : qCreatedBy(id + "fingerAccessSlot", EntityType.BODY),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+
+        // At full 30 mm travel the fixed guide rods pass through the moving
+        // hood's rear wall. Two clearance holes prevent an otherwise hidden jam.
+        var movingGuideClearanceTools = [];
+        var movingGuideClearanceIndex = 0;
+        for (var movingGuideY in [springY1, springY2])
+        {
+            const movingGuideClearanceId = id + ("movingGuideClearance" ~ movingGuideClearanceIndex);
+            makeCylinder(context, movingGuideClearanceId,
+                    vector(190 * millimeter, movingGuideY, springZ),
+                    vector(201 * millimeter, movingGuideY, springZ), 3.6 * millimeter);
+            movingGuideClearanceTools = append(movingGuideClearanceTools, qCreatedBy(movingGuideClearanceId, EntityType.BODY));
+            movingGuideClearanceIndex += 1;
+        }
+        opBoolean(context, id + "cutMovingGuideClearances", {
+                    "targets" : qCreatedBy(id + "movingHood", EntityType.BODY),
+                    "tools" : qUnion(movingGuideClearanceTools),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+
+        // Bottom-open reliefs let the fixed return cheeks pass through the
+        // moving rear wall during the first part of the stroke.
+        var returnStopHoodTools = [];
+        var returnStopHoodIndex = 0;
+        for (var returnHoodY in [-guideY, guideY])
+        {
+            const returnHoodId = id + ("returnStopHoodNotch" ~ returnStopHoodIndex);
+            makeBox(context, returnHoodId,
+                    vector(190 * millimeter, returnHoodY - 14 * millimeter, baseThickness - 1 * millimeter),
+                    vector(201 * millimeter, returnHoodY + 14 * millimeter, baseThickness + 13.1 * millimeter));
+            returnStopHoodTools = append(returnStopHoodTools, qCreatedBy(returnHoodId, EntityType.BODY));
+            returnStopHoodIndex += 1;
+        }
+        opBoolean(context, id + "cutReturnStopHoodNotches", {
+                    "targets" : qCreatedBy(id + "movingHood", EntityType.BODY),
+                    "tools" : qUnion(returnStopHoodTools),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+
+        // Four internal bosses and M4 through holes secure the moving hood to the
+        // carriage bridge without glue. The 14 mm boss height clears the hardware.
+        var movingBossTools = [qCreatedBy(id + "movingHood", EntityType.BODY)];
+        var movingMountHoleTools = [];
+        var movingMountCounterboreTools = [];
+        var movingBridgeInsertTools = [];
+        var movingMountIndex = 0;
+        for (var bossX in [174 * millimeter, 188 * millimeter])
+        {
+            for (var bossY in [-45 * millimeter, 45 * millimeter])
+            {
+                const bossId = id + ("movingBoss" ~ movingMountIndex);
+                makeCylinder(context, bossId,
+                        vector(bossX, bossY, bridgeTopZ),
+                        vector(bossX, bossY, 60 * millimeter), 6 * millimeter);
+                movingBossTools = append(movingBossTools, qCreatedBy(bossId, EntityType.BODY));
+
+                const movingHoleId = id + ("movingMountHole" ~ movingMountIndex);
+                makeCylinder(context, movingHoleId,
+                        vector(bossX, bossY, bridgeTopZ - 1 * millimeter),
+                        vector(bossX, bossY, 61 * millimeter), 2.25 * millimeter);
+                movingMountHoleTools = append(movingMountHoleTools, qCreatedBy(movingHoleId, EntityType.BODY));
+
+                const movingCounterboreId = id + ("movingMountCounterbore" ~ movingMountIndex);
+                makeCylinder(context, movingCounterboreId,
+                        vector(bossX, bossY, 56 * millimeter),
+                        vector(bossX, bossY, 61 * millimeter), 4 * millimeter);
+                movingMountCounterboreTools = append(movingMountCounterboreTools, qCreatedBy(movingCounterboreId, EntityType.BODY));
+
+                const bridgeInsertId = id + ("movingBridgeInsert" ~ movingMountIndex);
+                makeCylinder(context, bridgeInsertId,
+                        vector(bossX, bossY, bridgeTopZ - 6.5 * millimeter),
+                        vector(bossX, bossY, bridgeTopZ + 1 * millimeter), 2.8 * millimeter);
+                movingBridgeInsertTools = append(movingBridgeInsertTools, qCreatedBy(bridgeInsertId, EntityType.BODY));
+                movingMountIndex += 1;
+            }
+        }
+        opBoolean(context, id + "joinMovingBosses", {
+                    "tools" : qUnion(movingBossTools),
+                    "operationType" : BooleanOperationType.UNION
+                });
+        opBoolean(context, id + "cutMovingMountHoles", {
+                    "targets" : qCreatedBy(id + "movingHood", EntityType.BODY),
+                    "tools" : qUnion(movingMountHoleTools),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+        opBoolean(context, id + "cutMovingMountCounterbores", {
+                    "targets" : qCreatedBy(id + "movingHood", EntityType.BODY),
+                    "tools" : qUnion(movingMountCounterboreTools),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+        opBoolean(context, id + "cutMovingBridgeInserts", {
+                    "targets" : qCreatedBy(id + "carriageBridge", EntityType.BODY),
+                    "tools" : qUnion(movingBridgeInsertTools),
+                    "operationType" : BooleanOperationType.SUBTRACTION
+                });
+        nameBody(context, qCreatedBy(id + "movingHood", EntityType.BODY), "C04 Telescoping moving carriage hood");
+
+        // Join every load-bearing printed body that must be a single FDM part.
+        // The palm pad, switch bracket and enclosure shells remain removable.
+        opBoolean(context, id + "joinBaseStructure", {
+                    "tools" : qUnion([
+                                qCreatedBy(id + "base", EntityType.BODY),
+                                qCreatedBy(id + "palmFootLeft", EntityType.BODY),
+                                qCreatedBy(id + "palmFootRight", EntityType.BODY),
+                                qCreatedBy(id + "loadCellWall", EntityType.BODY),
+                                qCreatedBy(id + "loadCellGussetNeg", EntityType.BODY),
+                                qCreatedBy(id + "loadCellGussetPos", EntityType.BODY),
+                                qCreatedBy(id + "springGuideSocket1", EntityType.BODY),
+                                qCreatedBy(id + "springGuideSocket2", EntityType.BODY),
+                                qUnion(returnStopBodies),
+                                qCreatedBy(id + "hardStopLeft", EntityType.BODY),
+                                qCreatedBy(id + "hardStopRight", EntityType.BODY)
+                            ]),
+                    "operationType" : BooleanOperationType.UNION
+                });
+        nameBody(context, qCreatedBy(id + "base", EntityType.BODY), "P01 Integrated structural base, palm supports and hard stops");
+
+        opBoolean(context, id + "joinCarriageAndHandle", {
+                    "tools" : qUnion([
+                                qCreatedBy(id + "carriageBridge", EntityType.BODY),
+                                qCreatedBy(id + "handleSupportLeft", EntityType.BODY),
+                                qCreatedBy(id + "handleSupportRight", EntityType.BODY),
+                                qCreatedBy(id + "gripRibLeft" + "web", EntityType.BODY),
+                                qCreatedBy(id + "gripRibRight" + "web", EntityType.BODY),
+                                qCreatedBy(id + "fingerBar", EntityType.BODY)
+                            ]),
+                    "operationType" : BooleanOperationType.UNION
+                });
+        nameBody(context, qCreatedBy(id + "carriageBridge", EntityType.BODY), "P05 Carriage with spring tunnels and elevated R4 finger bar");
+
+        // Coordinated presentation pose: springs shorten and every moving body
+        // follows the same displacement. This is a geometry preview, not an FEA.
+        if (previewTravel > 0 * millimeter)
+        {
+            opTransform(context, id + "previewMotion", {
+                        "bodies" : qUnion([
+                                    qCreatedBy(id + "blockLeft", EntityType.BODY),
+                                    qCreatedBy(id + "blockRight", EntityType.BODY),
+                                    qCreatedBy(id + "carriageBridge", EntityType.BODY),
+                                    qCreatedBy(id + "movingSeat1", EntityType.BODY),
+                                    qCreatedBy(id + "movingSeat2", EntityType.BODY),
+                                    qCreatedBy(id + "strikePlateLeft", EntityType.BODY),
+                                    qCreatedBy(id + "strikePlateRight", EntityType.BODY),
+                                    qCreatedBy(id + "movingHood", EntityType.BODY)
+                                ]),
+                        "transform" : transform(vector(-previewTravel, 0 * millimeter, 0 * millimeter))
+                    });
+        }
+
+        // Warm shell, dark olive touchpoints and quiet metal hardware.
+        finishBody(context, qCreatedBy(id + "base", EntityType.BODY), color(0.27, 0.30, 0.28));
+        finishBody(context, qCreatedBy(id + "lowerShell", EntityType.BODY), color(0.68, 0.65, 0.59));
+        finishBody(context, qCreatedBy(id + "fixedHood", EntityType.BODY), color(0.86, 0.83, 0.75));
+        finishBody(context, qCreatedBy(id + "movingHood", EntityType.BODY), color(0.86, 0.83, 0.75));
+        finishBody(context, qCreatedBy(id + "palmPad", EntityType.BODY), color(0.27, 0.32, 0.28));
+        finishBody(context, qCreatedBy(id + "palmCushion", EntityType.BODY), color(0.15, 0.20, 0.17));
+        finishBody(context, qCreatedBy(id + "carriageBridge", EntityType.BODY), color(0.28, 0.34, 0.29));
+        finishBody(context, qCreatedBy(id + "springWindow", EntityType.BODY), color(0.55, 0.68, 0.65, 0.3));
+        finishBody(context, qUnion([qCreatedBy(id + "springLong1" + "sweep", EntityType.BODY),
+                                    qCreatedBy(id + "springLong2" + "sweep", EntityType.BODY)]), color(0.14, 0.40, 0.27));
+
+        if (definition.showHand)
+            makeHandReference(context, id + "handReference", previewTravel);
+
+        // Exact-solid diagnostic for the current pose; results appear in
+        // FeatureScript notices. No warnings are hidden and no geometry is altered.
+        for (var check in auditFingerworkerCollisions(context, id))
+            println({ "pose" : previewTravel, "pair" : check.pair,
+                      "status" : check.status, "gap" : check.minimumSeparation,
+                      "interferences" : check.interferenceCount,
+                      "contacts" : check.exteriorContactCount,
+                      "unclassified" : check.unclassifiedCount });
+    }, {
+        "baseLength" : 210 * millimeter,
+        "baseWidth" : 170 * millimeter,
+        "baseThickness" : 12 * millimeter,
+        "travel" : 30 * millimeter,
+        "handleWidth" : 125 * millimeter,
+        "handleThickness" : 10 * millimeter,
+        "handleHeight" : 20 * millimeter,
+        "handleEdgeRadius" : 4 * millimeter,
+        "guideSpacing" : 130 * millimeter,
+        "railWidth" : 12 * millimeter,
+        "railHeight" : 8 * millimeter,
+        "previewTravel" : 0 * millimeter,
+        "showHand" : false
+    });

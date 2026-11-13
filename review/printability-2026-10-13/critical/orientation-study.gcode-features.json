@@ -1,0 +1,154 @@
+{
+  "Metadata/plate_3.gcode": [
+    {
+      "label": null,
+      "feature": "Support",
+      "segments": 2573,
+      "total_length_mm": 29803.63063846971,
+      "max_segment_mm": 176.502,
+      "z_min_mm": 0.2,
+      "z_max_mm": 9.54
+    },
+    {
+      "label": null,
+      "feature": "Support interface",
+      "segments": 352,
+      "total_length_mm": 7356.37862024158,
+      "max_segment_mm": 172.79500000000002,
+      "z_min_mm": 6.07,
+      "z_max_mm": 10.35
+    },
+    {
+      "label": null,
+      "feature": "Overhang wall",
+      "segments": 401,
+      "total_length_mm": 1491.8850056670271,
+      "max_segment_mm": 171.322,
+      "z_min_mm": 6.8,
+      "z_max_mm": 10.8
+    },
+    {
+      "label": null,
+      "feature": "Bridge",
+      "segments": 2405,
+      "total_length_mm": 13968.09034490379,
+      "max_segment_mm": 168.417,
+      "z_min_mm": 6.8,
+      "z_max_mm": 21.8
+    }
+  ],
+  "Metadata/plate_4.gcode": [
+    {
+      "label": null,
+      "feature": "Support",
+      "segments": 888,
+      "total_length_mm": 6416.798552903894,
+      "max_segment_mm": 65.47893201633637,
+      "z_min_mm": 0.2,
+      "z_max_mm": 14.0
+    },
+    {
+      "label": null,
+      "feature": "Overhang wall",
+      "segments": 215,
+      "total_length_mm": 187.71346187784752,
+      "max_segment_mm": 20.80400009613537,
+      "z_min_mm": 0.4,
+      "z_max_mm": 14.2
+    },
+    {
+      "label": null,
+      "feature": "Support interface",
+      "segments": 247,
+      "total_length_mm": 1862.3233218095475,
+      "max_segment_mm": 47.83099999999999,
+      "z_min_mm": 5.079,
+      "z_max_mm": 14.75
+    },
+    {
+      "label": null,
+      "feature": "Bridge",
+      "segments": 1368,
+      "total_length_mm": 9949.861743308695,
+      "max_segment_mm": 72.87004259639211,
+      "z_min_mm": 5.8,
+      "z_max_mm": 21.8
+    }
+  ],
+  "Metadata/plate_1.gcode": [
+    {
+      "label": null,
+      "feature": "Support interface",
+      "segments": 1191,
+      "total_length_mm": 10315.869379043608,
+      "max_segment_mm": 86.482,
+      "z_min_mm": 0.2,
+      "z_max_mm": 47.15
+    },
+    {
+      "label": null,
+      "feature": "Support",
+      "segments": 11204,
+      "total_length_mm": 82943.46042200082,
+      "max_segment_mm": 40.27901986146137,
+      "z_min_mm": 0.2,
+      "z_max_mm": 46.15
+    },
+    {
+      "label": null,
+      "feature": "Overhang wall",
+      "segments": 116,
+      "total_length_mm": 826.5953627029539,
+      "max_segment_mm": 79.13618045496005,
+      "z_min_mm": 0.4,
+      "z_max_mm": 47.6
+    },
+    {
+      "label": null,
+      "feature": "Bridge",
+      "segments": 1353,
+      "total_length_mm": 13677.704945826797,
+      "max_segment_mm": 85.23599999999999,
+      "z_min_mm": 7.2,
+      "z_max_mm": 58.2
+    }
+  ],
+  "Metadata/plate_2.gcode": [
+    {
+      "label": null,
+      "feature": "Support",
+      "segments": 22212,
+      "total_length_mm": 217182.02044410034,
+      "max_segment_mm": 34.525023171606975,
+      "z_min_mm": 0.2,
+      "z_max_mm": 50.938
+    },
+    {
+      "label": null,
+      "feature": "Support interface",
+      "segments": 2002,
+      "total_length_mm": 21619.134061272533,
+      "max_segment_mm": 121.008,
+      "z_min_mm": 0.475,
+      "z_max_mm": 51.75
+    },
+    {
+      "label": null,
+      "feature": "Overhang wall",
+      "segments": 373,
+      "total_length_mm": 2717.0535606085646,
+      "max_segment_mm": 114.95600001739797,
+      "z_min_mm": 1.2,
+      "z_max_mm": 52.2
+    },
+    {
+      "label": null,
+      "feature": "Bridge",
+      "segments": 1800,
+      "total_length_mm": 22036.5188754183,
+      "max_segment_mm": 113.65,
+      "z_min_mm": 1.2,
+      "z_max_mm": 59.2
+    }
+  ]
+}

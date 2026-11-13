@@ -1,0 +1,52 @@
+Reference,Qty,Value,Manufacturer part / specification,Package / constraints,Note,Source
+U1,1,XIAO nRF52840,Seeed 102010448,21 x 17.8 mm module; no headers,"Onboard USB, charger and USB/battery source selection. Check delivered board revision.",https://files.seeedstudio.com/wiki/XIAO-BLE/Res/260828_XIAO_nRF52840.pdf
+J1,1,LiPo socket,S2B-PH-SM4-TB(LF)(SN),JST PH; side-entry SMT,Design assigns pin 1 positive. Verify pad numbering against actual battery harness before routing.,https://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+BT1,1,Protected 100 mAh LiPo,Adafruit 1570,OFF BOARD; nominal 11.5 x 31 x 3.8 mm,"Connect through J1; symbol shows electrical relationship, not a second battery path.",https://cdn-shop.adafruit.com/product-files/1570/1570datasheet.pdf
+C1,1,10 uF,Specification controlled,0805; X5R/X7R; >=16 V; effective >=4.7 uF at 3.3 V,,
+R1,1,100 k,Specification controlled,0603; 1%; 0.1 W,,
+R2,1,100 k,Specification controlled,0603; 1%; 0.1 W,,
+C2,1,10 nF,Specification controlled,0603; X7R; >=16 V,,
+U2,1,Boost ~5.43 V,TPS61041DBVR,SOT-23-5 / DBV,,https://www.ti.com/lit/ds/symlink/tps61041.pdf
+L1,1,10 uH,XFL3012-103MEC,3 x 3 x 1.2 mm; shielded,,https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xfl/xfl3012/xfl3012-103/
+D1,1,Schottky 0.5 A / 20 V,MBR0520LT1G,SOD-123,,https://www.onsemi.com/pdf/datasheet/mbr0520lt1-d.pdf
+R3,1,680 k,Specification controlled,0603; 0.1%; >=0.1 W; thin film,,
+R4,1,200 k,Specification controlled,0603; 0.1%; >=0.1 W; thin film,,
+R5,1,100 k,Specification controlled,0603; 1%; 0.1 W,,
+C3,1,10 uF,Specification controlled,0805; X5R/X7R; >=16 V; effective >=4.7 uF at 3.3 V,,
+C4,1,22 uF,Specification controlled,0805; X5R/X7R; >=25 V; effective >=4.7 uF at 5.5 V,,
+C5,1,47 pF,Specification controlled,0603; C0G; 5%; >=25 V; tune after ripple test,,
+U3,1,Quiet 5 V / output discharge,TPS7A2050PDBVR,SOT-23-5 / DBV,,https://www.ti.com/lit/ds/symlink/tps7a20.pdf
+R6,1,100 k,Specification controlled,0603; 1%; 0.1 W,,
+C6,1,1 uF,Specification controlled,0603; X7R; >=16 V; adjacent to U3,,
+C7,1,22 uF,Specification controlled,0805; X5R/X7R; >=25 V; effective >=1 uF at 5 V,,
+U4,1,24-bit ADC / PGA,ADS1220IPWR,TSSOP-16 / PW; 5 x 6.4 mm including leads,,https://www.ti.com/lit/ds/symlink/ads1220.pdf
+J2,1,Force sensor landing,4 labelled solder pads,PCB pads + printed strain relief,4-wire connection; Internal net ties join pads 1/5 and 4/6; sense traces reach the excitation solder lands only. Wire colors per TE family sheet.,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocFormat=pdf&DocLang=English&DocNm=FX19&DocType=Data+Sheet&PartCntxt=FX1901-0001-0200-L
+H1,1,Force sensor 200 lbf,FX1901-0001-0200-L,EXISTING / OFF BOARD,,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocFormat=pdf&DocLang=English&DocNm=FX19&DocType=Data+Sheet&PartCntxt=FX1901-0001-0200-L
+R7,1,1 k,Specification controlled,0603; 0.1%; matched pair with R8,,
+R8,1,1 k,Specification controlled,0603; 0.1%; matched pair with R7,,
+C8,1,470 nF,Specification controlled,0603; X7R; 10%; >=16 V,,
+C9,1,4.7 nF,Specification controlled,0603; C0G; 5%; >=25 V,,
+C10,1,4.7 nF,Specification controlled,0603; C0G; 5%; >=25 V,,
+R9,1,100 R,Specification controlled,0603; 1%; 0.1 W,,
+R10,1,100 R,Specification controlled,0603; 1%; 0.1 W,,
+C11,1,100 nF,Specification controlled,0603; X7R; >=16 V,,
+C12,1,100 nF,Specification controlled,0603; X7R; >=16 V; at U4.12,,
+C13,1,1 uF,Specification controlled,0603; X7R; >=16 V; at U4.12,,
+C14,1,100 nF,Specification controlled,0603; X7R; >=16 V; at U4.13,,
+R11,1,33 R,Specification controlled,0603; 1%; 0.1 W,,
+R12,1,33 R,Specification controlled,0603; 1%; 0.1 W,,
+R13,1,33 R,Specification controlled,0603; 1%; 0.1 W,,
+R14,1,47 k,Specification controlled,0603; 1%; 0.1 W,,
+R15,1,100 k,Specification controlled,0603; 1%; 0.1 W,,
+R16,1,100 k,Specification controlled,0603; 1%; 0.1 W,,
+J3,1,End switch landing,2 labelled solder pads,PCB pads + printed strain relief,,
+SW1,1,Existing end switch,Omron SS-01GL2,OFF BOARD / solder terminals,,https://omronfs.omron.com/en_US/ecb/products/pdf/en-ss.pdf
+Q1,1,5 V to 3.3 V sense,"2N7002,215",Nexperia SOT-23,,https://assets.nexperia.com/documents/data-sheet/2N7002.pdf
+R17,1,4.7 k,Specification controlled,0603; 1%; 0.1 W,,
+R18,1,1 k,Specification controlled,0603; 1%; 0.1 W,,
+C15,1,100 nF,Specification controlled,0603; X7R; >=16 V,,
+R19,1,47 k,Specification controlled,0603; 1%; 0.1 W,,
+SW2,1,Wake / tare / sleep,Panasonic EVQPUC02K,4.7 x 4.5 x 1.65 mm; side push,Functional contact IDs; physical duplicate contacts and shell mapping to follow official footprint.,https://industry.panasonic.com/global/en/products/control/switch/light-touch/number/evqpuc02k
+R20,1,100 k,Specification controlled,0603; 1%; 0.1 W,,
+R21,1,1 k,Specification controlled,0603; 1%; 0.1 W,,
+C16,1,100 nF,Specification controlled,0603; X7R; >=16 V,,

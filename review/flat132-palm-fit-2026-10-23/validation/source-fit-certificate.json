@@ -1,0 +1,59 @@
+{
+  "status": "EXACT_SOURCE_LEVEL_DISJOINTNESS_CERTIFIED",
+  "scope": "Reviewed frozen parametric source set containment/plane partition with native mesh corroboration; not the separate exact native STEP Boolean",
+  "source_sha256": "4665c3ec4e983e478d34c6cfe923b3b60e6c8848f36b7c54b55b1989eaab6326",
+  "manifest_sha256": "b1287fece6ab49bab856923197d9f8704a7242b0f09d2030f2fcc33478023d1d",
+  "native_parts": {
+    "P02": {
+      "member": "Fingerworker MVP - P02 PRINT STUDY - plus7 mm wrist half-round palm, retained R2 keyed mounts.stl",
+      "sha256": "351ce5c23f8ec8ae2ae2eff2976c3c5edc977e37ee50504dab3d5068d5f1c3ea"
+    },
+    "P03": {
+      "member": "Fingerworker MVP - P03 TPU PRINT - plus7 mm half-round palm cap, two front returns.stl",
+      "sha256": "ddbdc07e170299b740d517541f01bd9a1f8b67aed4dd5b843a6ef8caa9ce410f"
+    }
+  },
+  "axis_mm": {
+    "X": -27.0,
+    "Z": 19.75,
+    "direction": "Y"
+  },
+  "nominal_shared_radius_mm": 7.75,
+  "shared_flat_plane_X_mm": -27.0,
+  "proof": [
+    "All P02 plate/ear/clamp stock is at Z<=14.5. Above that plane, P02 is contained in the radius7.75 cylinder about X-27/Z19.75; convex end fillets and cuts only shrink it.",
+    "The complete forward-half tool removes all P02 core material with X>-27. Its Y/Z bounds cover the entire uncut core.",
+    "The TPU annular part is cut by the full radius7.75 inner cylinder spanning Y[-44,44], outside the complete cap Y[-43,43] extent. It contains no interior points inside that cylinder.",
+    "Both forward-half and bottom tools leave the wrist annulus at X<=-27 and Z>=14.6. The complete remaining wrist half lies within the bottom tool X/Y coverage.",
+    "The only subsequently added TPU bodies are two front return boxes at X[-27,-24.5], Y[-43,-39] and[39,43], Z[14.6,30]. Their interiors are separated from the rigid half-core interior by the exact X=-27 plane.",
+    "Consequently the plate/ear/clamp stock is separated vertically from all TPU stock by0.1mm. Above it, the annulus excludes the cylinder that contains the rigid core, and the return bands lie on the opposite side of the core flat plane.",
+    "No positive-volume core/cap intersection exists in the exact source. Shared curved or planar boundary contact is the intended nominal fit."
+  ],
+  "native_corroboration": {
+    "P02_above_cap_bottom_maximum_vertex_radius_mm": 7.750003021820085,
+    "P02_above_cap_bottom_maximum_X_mm": -27.0,
+    "P03_wrist_half_minimum_original_vertex_radius_mm": 7.7499970535325735,
+    "P03_forward_return_vertices_within_declared_band_Y": true,
+    "P03_bounds_mm": [
+      [
+        -37.24916076660156,
+        -43.0,
+        14.600000381469727
+      ],
+      [
+        -24.5,
+        43.0,
+        30.0
+      ]
+    ],
+    "numeric_vertex_rounding_bound_mm": 1e-05
+  },
+  "native_mesh_artifact_intersection_mm3": 1.0642279680371334,
+  "step_roundtrip_status": "PASS_FROM_SEPARATE_NATIVE_BREP_REPORT",
+  "retention_scope": "Two return bands provide nominal geometric capture; TPU assembly flex, pull-off force, print tolerance, creep and retention durability are not qualified by this proof.",
+  "limitations": [
+    "Separately triangulated coincident curved surfaces can have finite chord overlap. Exact native STEP Boolean testing remains separate.",
+    "This proves nominal source non-intersection; it does not qualify real printed fit, friction, comfort or strength."
+  ],
+  "separate_step_roundtrip_report": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-palm-fit-2026-10-23/validation/validation.json"
+}

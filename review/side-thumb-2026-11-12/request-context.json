@@ -1,0 +1,28 @@
+{
+  "revision": "R17",
+  "date": "2026-11-12",
+  "request": "Additional rounded thumb recess matching the user-supplied photograph of the actual grip.",
+  "baseline_onshape_version": "d4421f391a091e249b08aeb1",
+  "baseline_source_sha256": "1f492dd841c35a14f488be418e4f4dd8dea8edb63f3d321a492dc2ec3c907ab4",
+  "scope": [
+    "Modify fixed P01 only",
+    "Preserve floating P05 and force sensing path",
+    "Preserve retained clip landings, rod bores, strap slots and service access",
+    "No new printed pieces",
+    "Mirror outside thumb recesses on both sides unless user chooses one side"
+  ],
+  "side_preference": "Mirrored both sides proposed; optional user question pending.",
+  "interpretation": "Photo shows thumb wrapping around lateral outside edge; exact contact height and pad dimensions cannot be measured from photograph.",
+  "print_preferences": {
+    "printer": "Bambu H2D",
+    "nozzle_mm": 0.4,
+    "filament": "PLA Basic",
+    "brim": false,
+    "projects": [
+      "six-part one-plate mechanical kit",
+      "P01-only replacement"
+    ]
+  },
+  "onshape_status": "Sign-in requested because session expired; no R17 cloud mutation yet.",
+  "baseline_archive": "overview/archive-r16-final-2026-11-12"
+}

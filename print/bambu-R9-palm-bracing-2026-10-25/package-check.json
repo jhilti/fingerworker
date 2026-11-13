@@ -1,0 +1,21 @@
+{
+  "status": "FINAL_R9_PLA_PACKAGE_PASS",
+  "zip": "Fingerworker_R9_H2D_04mm_PLA_Fit_Test_Package.zip",
+  "sha256": "a09bdb536b429768df577b2a8395f35e59872461120008223786dd2a8fc2e606",
+  "bytes": 7069774,
+  "members": 83,
+  "crc": "PASS",
+  "all_member_sha256": "PASS",
+  "print_oriented_STLs": 19,
+  "raw_source_STLs": 19,
+  "editable_full_native_project_sha256": "f6a5709a4446d1715a9850a2ef89fa467d6b5025f92f4fba790a3beb116744c4",
+  "editable_P02_only_project_sha256": "56cc572c803fa43d9c3e7d94e6e269fe2b0a6740837d5e4b87671338e80f311a",
+  "independent_QA_summary_sha256": "b16ba3d9df5a52372a30b516d769017c364d49dca7a090e2f6a73685e57ff7bf",
+  "excluded": [
+    "Initial orientation diagnostic projects",
+    "Local verification Gcode",
+    "Temporary runtime app/DMG",
+    "CLI logs"
+  ],
+  "no_printer_transmission": true
+}

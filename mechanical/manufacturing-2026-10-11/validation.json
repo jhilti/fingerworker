@@ -1,0 +1,1001 @@
+{
+  "status": "PASS",
+  "scope": "Exact BRep validity and nominal envelope intersections; hardware fitting and strength remain untested",
+  "parts": [
+    {
+      "part": "P08_Electronics_tray",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 4753.555685080541,
+      "bounds_mm": [
+        -46.1,
+        -62.0,
+        0.0,
+        -23.6,
+        62.0,
+        9.5
+      ]
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 2247.058531808959,
+      "bounds_mm": [
+        -46.1,
+        -55.0,
+        2.15,
+        -23.6,
+        55.0,
+        8.9
+      ]
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 27.550619901184586,
+      "bounds_mm": [
+        -28.1,
+        22.4,
+        3.4,
+        -24.9,
+        32.6,
+        4.4
+      ]
+    },
+    {
+      "part": "H02_Pusher",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 120.08737918346982,
+      "bounds_mm": [
+        -1.9,
+        -4.0,
+        14.0,
+        7.5,
+        4.0,
+        22.0
+      ]
+    },
+    {
+      "part": "H04_Guide_rod",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 4128.0527468169885,
+      "bounds_mm": [
+        0.0,
+        -3.0,
+        -3.0,
+        146.0,
+        3.0,
+        3.0
+      ]
+    },
+    {
+      "part": "H05_Fixed_spring_seat",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1037.7623012603165,
+      "bounds_mm": [
+        0.0,
+        -11.0,
+        -11.0,
+        3.0,
+        11.0,
+        11.0
+      ]
+    },
+    {
+      "part": "H06_Moving_spring_seat",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 989.6016858807849,
+      "bounds_mm": [
+        0.0,
+        -11.0,
+        -11.0,
+        3.0,
+        11.0,
+        11.0
+      ]
+    },
+    {
+      "part": "H11_Preload_nut",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 604.6446447509996,
+      "bounds_mm": [
+        -21.0,
+        -6.0,
+        12.0,
+        -16.0,
+        6.0,
+        24.0
+      ]
+    },
+    {
+      "part": "H12_Sensor_cassette",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 2062.844397431782,
+      "bounds_mm": [
+        -15.2,
+        -13.5,
+        7.5,
+        -8.0,
+        13.5,
+        28.5
+      ]
+    },
+    {
+      "part": "H13_Preload_adjuster",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1324.4954627534573,
+      "bounds_mm": [
+        -24.0,
+        -11.0,
+        7.0,
+        -12.0,
+        11.0,
+        29.0
+      ]
+    },
+    {
+      "part": "H15_Keeper",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1087.4698342608679,
+      "bounds_mm": [
+        -23.0,
+        -16.0,
+        9.0,
+        -20.99999999999999,
+        16.0,
+        28.0
+      ]
+    },
+    {
+      "part": "H19_Spacer",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 18.095573684677216,
+      "bounds_mm": [
+        0.0,
+        -2.0,
+        -2.0,
+        4.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "part": "H22_Brass_pad",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 4.908738521234052,
+      "bounds_mm": [
+        0.0,
+        -1.25,
+        -1.25,
+        1.0,
+        1.25,
+        1.25
+      ]
+    },
+    {
+      "part": "H14_Isometric_sleeve",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 12968.494474018666,
+      "bounds_mm": [
+        0.0,
+        -8.0,
+        -8.0,
+        86.0,
+        8.0,
+        8.0
+      ]
+    }
+  ],
+  "envelope_checks": [
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecCarrier",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecCarrier",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecCarrier",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartU1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartU1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartU1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartU2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartU2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartU2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartL1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartL1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartL1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartD1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartD1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartD1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartC3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartC3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartC3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartC4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartC4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartC4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartR3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartR3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartR3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartR4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartR4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartR4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartC5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartC5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartC5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartU3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartU3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartU3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartC7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartC7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartC7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartC6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartC6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartC6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartU4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartU4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartU4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartC14",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartC14",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartC14",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartC12",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartC12",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartC12",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartC13",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartC13",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartC13",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartSW2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartSW2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartSW2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartJ1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartJ1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartJ1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartJ2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartJ2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartJ2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartJ3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartJ3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartJ3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartR13",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartR13",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartR13",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartC8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartC8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartC8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartR7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartR7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartR7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartR8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartR8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartR8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartC9",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartC9",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartC9",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartC10",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartC10",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartC10",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartC11",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartC11",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartC11",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartR9",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartR9",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartR9",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartR10",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartR10",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartR10",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartC1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartC1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartC1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartQ1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartQ1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartQ1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartC15",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartC15",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartC15",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartC16",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartC16",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartC16",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartC2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartC2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartC2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartR1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartR1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartR1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartR11",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartR11",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartR11",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartR12",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartR12",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartR12",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartR14",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartR14",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartR14",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartR15",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartR15",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartR15",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartR16",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartR16",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartR16",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartR17",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartR17",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartR17",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartR18",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartR18",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartR18",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartR19",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartR19",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartR19",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartR2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartR2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartR2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartR20",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartR20",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartR20",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartR21",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartR21",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartR21",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartR5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartR5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartR5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecPartR6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecPartR6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecPartR6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecBattery",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecBattery",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecBattery",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecUsb",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecUsb",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecUsb",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P08_Electronics_tray",
+      "reference": "elecMate",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P09_Electronics_lid",
+      "reference": "elecMate",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "P10_Wire_clamp",
+      "reference": "elecMate",
+      "intersection_mm3": 0.0
+    }
+  ],
+  "enclosure_pair_checks": 3,
+  "pcb_keeper_corridor_y_mm": [
+    -27,
+    -25
+  ],
+  "mount_insert_centres_mm": [
+    [
+      -26.5,
+      -59,
+      9.5
+    ],
+    [
+      -26.5,
+      59,
+      9.5
+    ]
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "status": "PASS_FINAL_NATIVE_STEP_TRIM",
+  "native_step_sha256": "e2b588932fb73f5545baf87ffb91d98f69a29577517105ef169503693ca88b5d",
+  "checkpoint_step_sha256": "6933e2fd226f392b0165da1f7fdcda795f7ae3de7fab1c6852e061f8a1bdf33a",
+  "source_sha256": "1f492dd841c35a14f488be418e4f4dd8dea8edb63f3d321a492dc2ec3c907ab4",
+  "symmetric_difference_mm3": 0.0,
+  "selection": "Unique solid with frozen P01 bounds; final STL ZIP association follows in full audit."
+}

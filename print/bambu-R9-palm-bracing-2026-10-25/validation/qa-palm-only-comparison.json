@@ -1,0 +1,258 @@
+{
+  "status": "PASS_P02_ORIENTATION_COMPARISON",
+  "cases": [
+    {
+      "status": "PASS",
+      "project": "/Users/jonashilti/Documents/ChatGPT/fingerworker/print/bambu-R9-palm-bracing-2026-10-25/Fingerworker_R9_P02_only_H2D_04mm_PLA.3mf",
+      "project_sha256": "4db5b75b8ba78a3fe440e78e6de1fc932037972460c9f0a8586485f4680441c1",
+      "sliced_archive_sha256": "52bb80b6019d8ffb6a78de72dfe499e77119ca5f239d624dfb07c5bcef6069d9",
+      "source_stl_sha256": "8154e49606a63ce4e08fe1a6d15bac2961a0e2d48b57f76758ab73f40d1aeb02",
+      "source_to_print_rotation": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          0
+        ]
+      ],
+      "source_to_print_translation": [
+        156.75,
+        160.0,
+        -9.5
+      ],
+      "source_minimum_plane_contact_area_mm2": 176.0,
+      "faces": [
+        {
+          "side": "left",
+          "normal_z_print": -1.0,
+          "adjacent_support_segments": 44,
+          "top_surface_segments": 0,
+          "top_surface_native_x_range_mm": [
+            null,
+            null
+          ]
+        },
+        {
+          "side": "right",
+          "normal_z_print": -1.0,
+          "adjacent_support_segments": 44,
+          "top_surface_segments": 0,
+          "top_surface_native_x_range_mm": [
+            null,
+            null
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "name": "One whole1:1 native P02 mesh with proper rotation",
+          "status": "PASS",
+          "max_vertex_error_mm": 3.865585453281903e-06,
+          "triangles": 27816,
+          "determinant": 1.0
+        },
+        {
+          "name": "Both project archives CRC",
+          "status": "PASS"
+        },
+        {
+          "name": "Same official PLA/H2D global settings as full19",
+          "status": "PASS"
+        },
+        {
+          "name": "One editable object/plate",
+          "status": "PASS"
+        },
+        {
+          "name": "Same P02 per-object support/brim settings",
+          "status": "PASS"
+        },
+        {
+          "name": "Actual positive first-layer and complete-height model",
+          "status": "PASS",
+          "first_layer_model_path_mm": 358.55503194812127,
+          "last_model_z_mm": 36.6,
+          "model_segments": 81656
+        },
+        {
+          "name": "All P02-only positive path bounds inside shared bed",
+          "status": "PASS",
+          "centreline_bounds_mm": [
+            [
+              158.808,
+              94.766,
+              0.2
+            ],
+            [
+              191.324,
+              225.234,
+              36.6
+            ]
+          ],
+          "max_line_width_mm": 0.703824
+        },
+        {
+          "name": "Bearing-face actual strategy left",
+          "status": "PASS",
+          "side": "left",
+          "normal_z_print": -1.0,
+          "adjacent_support_segments": 44,
+          "top_surface_segments": 0,
+          "top_surface_native_x_range_mm": [
+            null,
+            null
+          ]
+        },
+        {
+          "name": "Bearing-face actual strategy right",
+          "status": "PASS",
+          "side": "right",
+          "normal_z_print": -1.0,
+          "adjacent_support_segments": 44,
+          "top_surface_segments": 0,
+          "top_surface_native_x_range_mm": [
+            null,
+            null
+          ]
+        }
+      ],
+      "header": "; HEADER_BLOCK_START\n; BambuStudio 02.08.02.61\n; model printing time: 1h 58m 41s; total estimated time: 2h 4m 8s\n; total layer number: 247\n; total filament length [mm] : 10910.97\n; total filament volume [cm^3] : 26243.95\n; total filament weight [g] : 32.54\n; filament_density: 1.24\n; filament_diameter: 1.75\n; max_z_height: 36.60\n; filament: 1\n; support_material_on_wipe_tower: 0\n; HEADER_BLOCK_END"
+    },
+    {
+      "status": "PASS",
+      "project": "/Users/jonashilti/Documents/ChatGPT/fingerworker/print/bambu-R9-palm-bracing-2026-10-25/Fingerworker_R9_P02_wrist_down_H2D_04mm_PLA.3mf",
+      "project_sha256": "56cc572c803fa43d9c3e7d94e6e269fe2b0a6740837d5e4b87671338e80f311a",
+      "sliced_archive_sha256": "1386af0ed4ca8a5b24de099676a5604db00e7256a3f24298598a3d550cd221ac",
+      "source_stl_sha256": "8154e49606a63ce4e08fe1a6d15bac2961a0e2d48b57f76758ab73f40d1aeb02",
+      "source_to_print_rotation": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "source_to_print_translation": [
+        193.25,
+        160.0,
+        46.10000228881836
+      ],
+      "source_minimum_plane_contact_area_mm2": 186.0,
+      "faces": [
+        {
+          "side": "left",
+          "normal_z_print": 1.0,
+          "adjacent_support_segments": 0,
+          "top_surface_segments": 33,
+          "top_surface_native_x_range_mm": [
+            -22.70000228881836,
+            -22.70000228881836
+          ]
+        },
+        {
+          "side": "right",
+          "normal_z_print": 1.0,
+          "adjacent_support_segments": 0,
+          "top_surface_segments": 33,
+          "top_surface_native_x_range_mm": [
+            -22.70000228881836,
+            -22.70000228881836
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "name": "One whole1:1 native P02 mesh with proper rotation",
+          "status": "PASS",
+          "max_vertex_error_mm": 4.264918404197464e-06,
+          "triangles": 27816,
+          "determinant": 1.0
+        },
+        {
+          "name": "Both project archives CRC",
+          "status": "PASS"
+        },
+        {
+          "name": "Same official PLA/H2D global settings as full19",
+          "status": "PASS"
+        },
+        {
+          "name": "One editable object/plate",
+          "status": "PASS"
+        },
+        {
+          "name": "Same P02 per-object support/brim settings",
+          "status": "PASS"
+        },
+        {
+          "name": "Actual positive first-layer and complete-height model",
+          "status": "PASS",
+          "first_layer_model_path_mm": 374.1971838971997,
+          "last_model_z_mm": 36.6,
+          "model_segments": 83801
+        },
+        {
+          "name": "All P02-only positive path bounds inside shared bed",
+          "status": "PASS",
+          "centreline_bounds_mm": [
+            [
+              163.46,
+              92.935,
+              0.2
+            ],
+            [
+              191.324,
+              227.065,
+              36.6
+            ]
+          ],
+          "max_line_width_mm": 0.703867
+        },
+        {
+          "name": "Bearing-face actual strategy left",
+          "status": "PASS",
+          "side": "left",
+          "normal_z_print": 1.0,
+          "adjacent_support_segments": 0,
+          "top_surface_segments": 33,
+          "top_surface_native_x_range_mm": [
+            -22.70000228881836,
+            -22.70000228881836
+          ]
+        },
+        {
+          "name": "Bearing-face actual strategy right",
+          "status": "PASS",
+          "side": "right",
+          "normal_z_print": 1.0,
+          "adjacent_support_segments": 0,
+          "top_surface_segments": 33,
+          "top_surface_native_x_range_mm": [
+            -22.70000228881836,
+            -22.70000228881836
+          ]
+        }
+      ],
+      "header": "; HEADER_BLOCK_START\n; BambuStudio 02.08.02.61\n; model printing time: 1h 49m 37s; total estimated time: 1h 55m 4s\n; total layer number: 269\n; total filament length [mm] : 9384.10\n; total filament volume [cm^3] : 22571.41\n; total filament weight [g] : 27.99\n; filament_density: 1.24\n; filament_diameter: 1.75\n; max_z_height: 36.60\n; filament: 1\n; support_material_on_wipe_tower: 0\n; HEADER_BLOCK_END"
+    }
+  ],
+  "recommendation": "Wrist-ledge Xmin down: bearing faces print upward with top skin and no adjacent support; lid-gap face remains vertical. Curved wrist skin may need gentle support cleanup/comfort finishing. Retain brim5 and normal plate supports; this is an unloaded fit print, not a load rating."
+}

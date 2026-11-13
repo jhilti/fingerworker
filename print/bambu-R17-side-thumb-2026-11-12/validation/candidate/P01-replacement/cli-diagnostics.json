@@ -1,0 +1,59 @@
+{
+  "status": "PASS_R17_OFFICIAL_H2D_DIAGNOSTICS",
+  "classification": "All warning/error/fatal lines compared against the frozen official R16 run. Only the declared process preset label is normalized. Retained vendor T1001/T65535/T65279 parser errors and preset/nozzle compatibility warnings remain explicitly recorded; this is not an error-free log.",
+  "warnings_and_errors": [
+    {
+      "severity": "error",
+      "message": "Invalid T command (T1001).",
+      "count": 1
+    },
+    {
+      "severity": "error",
+      "message": "Invalid T command (T65279).",
+      "count": 1
+    },
+    {
+      "severity": "error",
+      "message": "Invalid T command (T65535).",
+      "count": 1
+    },
+    {
+      "severity": "warning",
+      "message": "cli mode, Current BambuStudio Version 02.08.02.61",
+      "count": 1
+    },
+    {
+      "severity": "warning",
+      "message": "load_nozzle_infos_with_compatibility: building nozzle list from filament map and volume types",
+      "count": 1
+    },
+    {
+      "severity": "warning",
+      "message": "no filament colors found in projects",
+      "count": 1
+    },
+    {
+      "severity": "warning",
+      "message": "run:2873, can not find system preset file: /private/tmp/fingerworker-bambu-r8-runtime/BambuStudio.app/Contents/Resources/profiles/BBL/machine_full/Bambu Lab H2D 0.4 nozzle.json",
+      "count": 1
+    },
+    {
+      "severity": "warning",
+      "message": "run:2895, can not find system preset file: /private/tmp/fingerworker-bambu-r8-runtime/BambuStudio.app/Contents/Resources/profiles/BBL/process_full/Fingerworker R17 side thumb no brim 0.20mm.json",
+      "count": 1
+    }
+  ],
+  "unexpected_diagnostics": [],
+  "missing_expected_diagnostics": [],
+  "official_machine_macros_unchanged": true,
+  "cli_exit_code": 0,
+  "cli_version": "BambuStudio-02.08.02.61",
+  "cli_sha256": "1a79017b9f86fb6db92987f4a4c4a4834ac540cf36703d49c7c91ed1959c2026",
+  "log_sha256": "814a28f45d45ff3d7bcee6a9ba7d720b0a3ad9eaca4d57a3905437dd55ecaaef",
+  "baseline_log_sha256": "e979edcc0e37c2dd524e0a0d4f9558d6192baa21383a07e75c10d530debd5bdc",
+  "project_sha256": "197ee1b88a45c6d3b0daf596d285a607da25eab8247a3dabe76b0083d25d81d3",
+  "sliced_archive_sha256": "b688618de8095e6415c4a86580bfed92e359f0b646a4bcee77f34af6fb530dd0",
+  "layout_sha256": "57d2d1cb26733c6e7ad617facd09e1021c6b582682a0e25de3e4d0da9d52f67b",
+  "validator_sha256": "0980a485b18542bd0f21e5cbad55107815a5b926978de221941acd21333a9e38",
+  "printer_job_started": false
+}

@@ -1,0 +1,346 @@
+{
+  "baseline": {
+    "slicer_metrics": {
+      "index": "1",
+      "extruder_type": "0 0",
+      "nozzle_volume_type": "0 0",
+      "printer_model_id": "",
+      "nozzle_diameters": "0.4,0.4",
+      "timelapse_type": "0",
+      "prediction": "30009",
+      "weight": "133.55",
+      "pause_count": "0",
+      "first_layer_time": "0.000000",
+      "outside": "false",
+      "support_used": "true",
+      "label_object_enabled": "false",
+      "support_material_on_wipe_tower": "false",
+      "enable_filament_dynamic_map": "false",
+      "has_filament_switcher": "false",
+      "filament_maps": "2",
+      "limit_filament_maps": "0"
+    },
+    "regions": {
+      "new_roof_negative": {
+        "support_segments": 55,
+        "support_features": {
+          "Support": 51,
+          "Support transition": 2,
+          "Support interface": 2
+        },
+        "support_path_mm": 259.934,
+        "bridge_segments": 0,
+        "max_bridge_tagged_mm": 0,
+        "support_bounds": [
+          [
+            -22.57600228881836,
+            -66.17300457763672,
+            4.102
+          ],
+          [
+            -22.19800228881836,
+            -37.369004577636716,
+            9.35
+          ]
+        ]
+      },
+      "new_roof_positive": {
+        "support_segments": 72,
+        "support_features": {
+          "Support": 68,
+          "Support transition": 2,
+          "Support interface": 2
+        },
+        "support_path_mm": 306.8560000000002,
+        "bridge_segments": 0,
+        "max_bridge_tagged_mm": 0,
+        "support_bounds": [
+          [
+            -22.57600228881836,
+            37.36899542236327,
+            4.102
+          ],
+          [
+            -22.19800228881836,
+            66.34299542236329,
+            9.35
+          ]
+        ]
+      },
+      "new_roof_central": {
+        "support_segments": 189,
+        "support_features": {
+          "Support": 187,
+          "Support transition": 2
+        },
+        "support_path_mm": 455.4441768274065,
+        "bridge_segments": 10,
+        "max_bridge_tagged_mm": 7.506,
+        "support_bounds": [
+          [
+            -23.360002288818364,
+            -37.53800457763671,
+            4.102
+          ],
+          [
+            -22.199002288818363,
+            37.538995422363286,
+            8.798
+          ]
+        ],
+        "actual_free_spans": [
+          {
+            "native_top_z_mm": 9.8,
+            "prior_layer_model_segments": 21,
+            "longest_actual_unbacked_centerline_mm": 7.506
+          }
+        ]
+      },
+      "all_palm_below": {
+        "support_segments": 2629,
+        "support_features": {
+          "Support": 2510,
+          "Support transition": 51,
+          "Support interface": 68
+        },
+        "support_path_mm": 59836.3383138442,
+        "bridge_segments": 213,
+        "max_bridge_tagged_mm": 7.644999999999996,
+        "support_bounds": [
+          [
+            -47.739002288818355,
+            -67.70000457763672,
+            -1.8
+          ],
+          [
+            -21.488002288818365,
+            67.90599542236328,
+            9.35
+          ]
+        ]
+      },
+      "palm_skin": {
+        "support_segments": 27,
+        "support_features": {
+          "Support interface": 25,
+          "Support": 2
+        },
+        "support_path_mm": 3321.8566380568604,
+        "bridge_segments": 0,
+        "max_bridge_tagged_mm": 0,
+        "support_bounds": [
+          [
+            -45.38000228881836,
+            -66.17300457763672,
+            9.35
+          ],
+          [
+            -24.330002288818363,
+            66.17299542236327,
+            9.617
+          ]
+        ]
+      },
+      "inside_lid_gap": {
+        "support_segments": 50,
+        "support_features": {
+          "Support interface": 50
+        },
+        "support_path_mm": 6617.300000007556,
+        "bridge_segments": 0,
+        "max_bridge_tagged_mm": 0,
+        "support_bounds": [
+          [
+            -45.38000228881836,
+            -66.17300457763672,
+            9.074
+          ],
+          [
+            -24.330002288818363,
+            66.17299542236327,
+            9.35
+          ]
+        ]
+      }
+    }
+  },
+  "candidate": {
+    "slicer_metrics": {
+      "index": "1",
+      "extruder_type": "0 0",
+      "nozzle_volume_type": "0 0",
+      "printer_model_id": "",
+      "nozzle_diameters": "0.4,0.4",
+      "timelapse_type": "0",
+      "prediction": "30763",
+      "weight": "135.23",
+      "pause_count": "0",
+      "first_layer_time": "0.000000",
+      "outside": "false",
+      "support_used": "true",
+      "label_object_enabled": "false",
+      "support_material_on_wipe_tower": "false",
+      "enable_filament_dynamic_map": "false",
+      "has_filament_switcher": "false",
+      "filament_maps": "2",
+      "limit_filament_maps": "0"
+    },
+    "regions": {
+      "new_roof_negative": {
+        "support_segments": 55,
+        "support_features": {
+          "Support": 51,
+          "Support transition": 2,
+          "Support interface": 2
+        },
+        "support_path_mm": 259.93600000000004,
+        "bridge_segments": 23,
+        "max_bridge_tagged_mm": 20.703000000000003,
+        "support_bounds": [
+          [
+            -22.575998474121093,
+            -66.17299694824219,
+            4.102
+          ],
+          [
+            -22.197998474121093,
+            -37.368996948242184,
+            9.35
+          ]
+        ],
+        "actual_free_spans": [
+          {
+            "native_top_z_mm": 9.8,
+            "prior_layer_model_segments": 20,
+            "longest_actual_unbacked_centerline_mm": 19.254005
+          }
+        ]
+      },
+      "new_roof_positive": {
+        "support_segments": 72,
+        "support_features": {
+          "Support": 68,
+          "Support transition": 2,
+          "Support interface": 2
+        },
+        "support_path_mm": 306.8560000000002,
+        "bridge_segments": 21,
+        "max_bridge_tagged_mm": 20.890000000000015,
+        "support_bounds": [
+          [
+            -22.575998474121093,
+            37.3690030517578,
+            4.102
+          ],
+          [
+            -22.197998474121093,
+            66.34300305175782,
+            9.35
+          ]
+        ],
+        "actual_free_spans": [
+          {
+            "native_top_z_mm": 9.8,
+            "prior_layer_model_segments": 20,
+            "longest_actual_unbacked_centerline_mm": 19.254005
+          }
+        ]
+      },
+      "new_roof_central": {
+        "support_segments": 189,
+        "support_features": {
+          "Support": 187,
+          "Support transition": 2
+        },
+        "support_path_mm": 455.4441768274065,
+        "bridge_segments": 2,
+        "max_bridge_tagged_mm": 112.51199999999999,
+        "support_bounds": [
+          [
+            -23.3599984741211,
+            -37.53799694824218,
+            4.102
+          ],
+          [
+            -22.198998474121098,
+            37.53900305175782,
+            8.798
+          ]
+        ],
+        "actual_free_spans": [
+          {
+            "native_top_z_mm": 9.8,
+            "prior_layer_model_segments": 15,
+            "longest_actual_unbacked_centerline_mm": 112.51199999999999
+          }
+        ]
+      },
+      "all_palm_below": {
+        "support_segments": 2629,
+        "support_features": {
+          "Support": 2510,
+          "Support transition": 51,
+          "Support interface": 68
+        },
+        "support_path_mm": 59836.55831382899,
+        "bridge_segments": 206,
+        "max_bridge_tagged_mm": 7.644999999999996,
+        "support_bounds": [
+          [
+            -47.73899847412109,
+            -67.69999694824219,
+            -1.8
+          ],
+          [
+            -21.486998474121094,
+            67.9060030517578,
+            9.35
+          ]
+        ]
+      },
+      "palm_skin": {
+        "support_segments": 27,
+        "support_features": {
+          "Support interface": 25,
+          "Support": 2
+        },
+        "support_path_mm": 3321.8707709617715,
+        "bridge_segments": 0,
+        "max_bridge_tagged_mm": 0,
+        "support_bounds": [
+          [
+            -45.379998474121095,
+            -66.17299694824219,
+            9.35
+          ],
+          [
+            -24.329998474121098,
+            66.1730030517578,
+            9.617
+          ]
+        ]
+      },
+      "inside_lid_gap": {
+        "support_segments": 50,
+        "support_features": {
+          "Support interface": 50
+        },
+        "support_path_mm": 6617.3,
+        "bridge_segments": 0,
+        "max_bridge_tagged_mm": 0,
+        "support_bounds": [
+          [
+            -45.379998474121095,
+            -66.17299694824219,
+            9.074
+          ],
+          [
+            -24.329998474121098,
+            66.1730030517578,
+            9.35
+          ]
+        ]
+      }
+    }
+  }
+}

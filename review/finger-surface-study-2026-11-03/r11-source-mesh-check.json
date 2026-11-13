@@ -1,0 +1,110 @@
+{
+  "status": "PASS",
+  "scope": "Source and print-oriented meshes; native3MF awaiting import",
+  "objects": [
+    {
+      "part": "P01",
+      "faces": 63976,
+      "source_watertight": true,
+      "print_watertight": true,
+      "print_transform_max_error_mm": 8.533253749930039e-06,
+      "volume_mm3": 162200.9920199205
+    },
+    {
+      "part": "P04",
+      "faces": 51838,
+      "source_watertight": true,
+      "print_watertight": true,
+      "print_transform_max_error_mm": 3.932099938981686e-06,
+      "volume_mm3": 76807.9095373969
+    },
+    {
+      "part": "P05",
+      "faces": 15564,
+      "source_watertight": true,
+      "print_watertight": true,
+      "print_transform_max_error_mm": 3.844384073399806e-06,
+      "volume_mm3": 50903.03981247484
+    },
+    {
+      "part": "P08",
+      "faces": 8842,
+      "source_watertight": true,
+      "print_watertight": true,
+      "print_transform_max_error_mm": 7.62939453125e-06,
+      "volume_mm3": 5041.472306858582
+    },
+    {
+      "part": "P09",
+      "faces": 2900,
+      "source_watertight": true,
+      "print_watertight": true,
+      "print_transform_max_error_mm": 3.814697265625e-06,
+      "volume_mm3": 2658.907364453538
+    },
+    {
+      "part": "H040",
+      "faces": 576,
+      "source_watertight": true,
+      "print_watertight": true,
+      "print_transform_max_error_mm": 0.0,
+      "volume_mm3": 3985.4164653540956
+    },
+    {
+      "part": "H041",
+      "faces": 576,
+      "source_watertight": true,
+      "print_watertight": true,
+      "print_transform_max_error_mm": 0.0,
+      "volume_mm3": 3985.4164653540956
+    },
+    {
+      "part": "P060",
+      "faces": 5864,
+      "source_watertight": true,
+      "print_watertight": true,
+      "print_transform_max_error_mm": 0.0,
+      "volume_mm3": 2995.5705452133366
+    },
+    {
+      "part": "P061",
+      "faces": 5864,
+      "source_watertight": true,
+      "print_watertight": true,
+      "print_transform_max_error_mm": 0.0,
+      "volume_mm3": 2995.570545095048
+    },
+    {
+      "part": "P120",
+      "faces": 1870,
+      "source_watertight": true,
+      "print_watertight": true,
+      "print_transform_max_error_mm": 9.5367431640625e-07,
+      "volume_mm3": 564.5656981838596
+    },
+    {
+      "part": "P121",
+      "faces": 1870,
+      "source_watertight": true,
+      "print_watertight": true,
+      "print_transform_max_error_mm": 9.5367431640625e-07,
+      "volume_mm3": 564.5656981838596
+    },
+    {
+      "part": "P11",
+      "faces": 598,
+      "source_watertight": true,
+      "print_watertight": true,
+      "print_transform_max_error_mm": 2.384185791015625e-07,
+      "volume_mm3": 388.75488460182737
+    },
+    {
+      "part": "Q01",
+      "faces": 2540,
+      "source_watertight": true,
+      "print_watertight": true,
+      "print_transform_max_error_mm": 9.5367431640625e-07,
+      "volume_mm3": 1597.7201487952952
+    }
+  ]
+}

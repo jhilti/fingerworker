@@ -1,0 +1,14 @@
+{
+  "status": "PASS_BROWSER_R20_SMOKE",
+  "revision": "R20",
+  "ready": true,
+  "visible_parts": 94,
+  "inside_visible_parts": 92,
+  "inside_underside_visually_verified": true,
+  "desktop_horizontal_overflow": false,
+  "browser_errors": [],
+  "reset_verified": true,
+  "controls_mobile_layout": "Same viewer code checked at390x844 inR19; no horizontal overflow, rotate/zoom/reset passed. R20changes geometry/copy only.",
+  "screenshot": "share/r20-viewer/preview-desktop.png",
+  "print_setup_changed": false
+}

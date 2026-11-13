@@ -1,0 +1,95 @@
+{
+  "status": "PASS_ONE_PLATE_OFFICIAL_H2D_DIAGNOSTICS",
+  "classification": "All warning/error messages match the frozen R13 three-plate run. Only the documented per-plate messages are normalized from three occurrences to one: the T1001/T65535/T65279 parser errors and nozzle-list compatibility warning. These retained vendor parser diagnostics are explicitly recorded, not described as an error-free log.",
+  "plate_count": 1,
+  "baseline_plate_count": 3,
+  "warnings_and_errors": [
+    {
+      "severity": "error",
+      "message": "Invalid T command (T1001).",
+      "count": 1,
+      "baseline_count": 3,
+      "expected_count": 1,
+      "counting": "per plate"
+    },
+    {
+      "severity": "error",
+      "message": "Invalid T command (T65279).",
+      "count": 1,
+      "baseline_count": 3,
+      "expected_count": 1,
+      "counting": "per plate"
+    },
+    {
+      "severity": "error",
+      "message": "Invalid T command (T65535).",
+      "count": 1,
+      "baseline_count": 3,
+      "expected_count": 1,
+      "counting": "per plate"
+    },
+    {
+      "severity": "warning",
+      "message": "cli mode, Current BambuStudio Version 02.08.02.61",
+      "count": 1,
+      "baseline_count": 1,
+      "expected_count": 1,
+      "counting": "per run"
+    },
+    {
+      "severity": "warning",
+      "message": "load_nozzle_infos_with_compatibility: building nozzle list from filament map and volume types",
+      "count": 1,
+      "baseline_count": 3,
+      "expected_count": 1,
+      "counting": "per plate"
+    },
+    {
+      "severity": "warning",
+      "message": "no filament colors found in projects",
+      "count": 1,
+      "baseline_count": 1,
+      "expected_count": 1,
+      "counting": "per run"
+    },
+    {
+      "severity": "warning",
+      "message": "run:2873, can not find system preset file: /private/tmp/fingerworker-bambu-r8-runtime/BambuStudio.app/Contents/Resources/profiles/BBL/machine_full/Bambu Lab H2D 0.4 nozzle.json",
+      "count": 1,
+      "baseline_count": 1,
+      "expected_count": 1,
+      "counting": "per run"
+    },
+    {
+      "severity": "warning",
+      "message": "run:2895, can not find system preset file: /private/tmp/fingerworker-bambu-r8-runtime/BambuStudio.app/Contents/Resources/profiles/BBL/process_full/Fingerworker R10 integrated palm fit test 0.20mm.json",
+      "count": 1,
+      "baseline_count": 1,
+      "expected_count": 1,
+      "counting": "per run"
+    }
+  ],
+  "unexpected_diagnostics": [],
+  "missing_expected_diagnostics": [],
+  "official_machine_macros_identical_to_R13": true,
+  "machine_macro_hashes": {
+    "gcode_flavor": "0327681c6d43af1719a752a088e93f5192c8740abee2bc63353fe4eff7749287",
+    "machine_start_gcode": "4ec8b2713943115211e1609afa26387ddf8879a1734f2b394d0d69d419539ef5",
+    "machine_end_gcode": "ff2fab8336b6ad542da23462dfd10a184393e5b24c08b2fa3d9b7958b6f5da61",
+    "time_lapse_gcode": "2b9c04541ef0dadc85a85aa2dd5da4af0b7af97cbd0a044ec4bb10f37bba0987",
+    "wrapping_detection_gcode": "9fd5b89fad81b7e0630add42bb742c6974e2d757cbdfd2a69492e3e4a0842847",
+    "change_filament_gcode": "2153741c80f920455d8a9023fcff2f52aa1f2a17436785bde511702f5245d092",
+    "layer_change_gcode": "a99517bc5a923d244b820f64c6d67effd0dd71c5863301bbf7578463805a4641",
+    "machine_pause_gcode": "421d0316bd5e4954c4425af1b89603412254dde55fe6eaf70c90b5b4e620fb66"
+  },
+  "cli_exit_code": 0,
+  "baseline_cli_exit_code": 0,
+  "log_sha256": "3466b137a55213fb10599b8cf2b8f9c8190f388ac99d8c108f837b55d509b9ea",
+  "baseline_log_sha256": "bfd779e0ad3dae15ee2d54ed4319b2297666e723f3b091d51d6597e72dc53f4c",
+  "sliced_archive_sha256": "b0a0906fa8a1416f2f3496dffc5d94a4987f27c56dc75a54a1b79fb8ca16d926",
+  "baseline_sliced_archive_sha256": "5463d749a769ac93ddc487e230c0423284ad4a8a46419d368b97d1ed59010f69",
+  "CAD_source_sha256": "82b7d65708c46cd9d4b6ac271047eac2f638f0222451df99eae0780525edd851",
+  "layout_sha256": "44f0a185c5e1af6e83725e6399bbfb087733e67b517a40925fae97d03e2bf4ce",
+  "validator_sha256": "43e56c9a66384eea5754ba7621747e70e3d76063a72a60d76bb9b16931d36a36",
+  "scope": "Local slicer completion and diagnostic comparison. Editable-project validation separately checks exact settings/meshes and the complete one-plate slice. No printer job sent."
+}

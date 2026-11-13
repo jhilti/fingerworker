@@ -1,0 +1,52 @@
+{
+  "status": "PASS_NATIVE_R20_SOURCE_EXPORT_REPORT_BINDING",
+  "version_id": "0e06e3d98b9ecb574ee41402",
+  "version_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/0e06e3d98b9ecb574ee41402/e/d253eb87b70818ebde8215f0",
+  "source_sha256": "e547fac0af50cc7ea69f96f3ca2a0a7d6cefa1b63ae7e29d7f18e0f7815f3626",
+  "native_step_sha256": "b6ed578e66a00df5cc84b7e03d785c4235fa89457ac45a54cb75295b0806bec2",
+  "native_zip_sha256": "702d1e2194bd5fc3d1d3d6e260b4ac289ffd66ea0702c957cdb15a33745908c5",
+  "native_P01_stl_sha256": "f4ba48f92b2077346b71ec407a2993d9628f92dc398ebeb2f324b1f8d06bed82",
+  "native_changed_stls": {
+    "P01": {
+      "member": "Fingerworker MVP - P01 PRINT - Flat132 organic palm, thumb rims, rear locator pockets.stl",
+      "sha256": "f4ba48f92b2077346b71ec407a2993d9628f92dc398ebeb2f324b1f8d06bed82"
+    },
+    "P06L": {
+      "member": "Fingerworker MVP - P06L PRINT - rear rod block, integral locator, two M3 screws.stl",
+      "sha256": "2dcb4941fb48565f892012aadc3cecc9dc3a22066b249693a3af5d29d2beb9fa"
+    },
+    "P06R": {
+      "member": "Fingerworker MVP - P06R PRINT - rear rod block, integral locator, two M3 screws.stl",
+      "sha256": "b3695b589eee1ecc1b334570d3ea6eae522c66f614136f5ecb65e19671e6c316"
+    }
+  },
+  "native_parts": 94,
+  "unchanged_native_bodies": 91,
+  "source_readback_exact": true,
+  "native_version_snapshot": {
+    "path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/rear-locating-pegs-2026-11-13/validation/onshape-version-at-validation.json",
+    "sha256": "fd0587d3d8e0b9713d44fecf24e723ae9d460408ccf9aa4c92a31dcc82a9c215"
+  },
+  "reports": {
+    "native-locating-fit.json": {
+      "path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/rear-locating-pegs-2026-11-13/validation/native-locating-fit.json",
+      "status": "PASS_NATIVE_R20_LOCATING_FIT",
+      "sha256": "086dc3664edea7968aca0f6aa28e0074ad1cb9b3b1902eee047cbf6c201be779"
+    },
+    "native-fit-step.json": {
+      "path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/rear-locating-pegs-2026-11-13/validation/native-fit-step.json",
+      "status": "PASS_NATIVE_R20_STEP_FIT",
+      "sha256": "1933709752e453c7213b3dfaaa1cd5674547e1e20332725eaee28f80215ca592"
+    },
+    "local-locating-fit.json": {
+      "path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/rear-locating-pegs-2026-11-13/validation/local-locating-fit.json",
+      "status": "PASS_LOCAL_R20_LOCATING_FIT",
+      "sha256": "995d5600ce7f1d19eeafb445340ae7a2910074539e717b38c754ed3e9854b792"
+    }
+  },
+  "native_inventory_sha256": "b027afdd2e7d8069816dda14a21e437fe4fbaa0417d5a9abd817e930368a2326",
+  "baseline_native_release_binding_sha256": "a6c74eb45f10d05f749df06dc2c7a69020f89eea2ba8d6e152f35fe54afff56d",
+  "validator_sha256": "7ec476459ef3f912b04dc0bc2355dd0ad67d1483df324e2125efd69811cc7def",
+  "print_setup_status": "PRINT_SETUP_DEFERRED_BY_USER",
+  "scope": "Native CAD/source/export and nominal assembly proof only. No print setup, slicing or machine readiness is claimed. Rear-open locators preserve rod assembly but do not replace mandatory screws for spring-loaded operation."
+}

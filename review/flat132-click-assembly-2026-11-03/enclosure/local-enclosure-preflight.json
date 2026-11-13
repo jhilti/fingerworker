@@ -1,0 +1,1646 @@
+{
+  "status": "PASS",
+  "source_baseline": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-integrated-palm-2026-11-03/native/Flat132_R10_final_AP214.step",
+  "baseline_native_sha256": "f983a713a66b07a945b0aa4cd751846810d8538dd1b9a8f1ce64e569586081ec",
+  "checks": [
+    {
+      "name": "P08 valid single solid",
+      "status": "PASS",
+      "volume_mm3": 5041.528517054185,
+      "solid_count": 1,
+      "bounds_mm": [
+        [
+          -47.1,
+          -65.5,
+          0.0
+        ],
+        [
+          -23.599999999999998,
+          65.5,
+          16.2
+        ]
+      ]
+    },
+    {
+      "name": "P09 valid single solid",
+      "status": "PASS",
+      "volume_mm3": 2658.906531808959,
+      "solid_count": 1,
+      "bounds_mm": [
+        [
+          -48.6,
+          -55.0,
+          2.15
+        ],
+        [
+          -23.599999999999998,
+          55.0,
+          8.9000001
+        ]
+      ]
+    },
+    {
+      "name": "P08 no new seated interference E01",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference E05",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference E06",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference E07",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference E08",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference H01",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H02",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H030",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H031",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H040",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H041",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H050",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H051",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H060",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H061",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H09",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H09a",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H09b",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H10",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H11",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H12",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H13",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference H15",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H160",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H161",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H170",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H171",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H180",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H181",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H190",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H191",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H20",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H21",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H22",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H23",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H240",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H241",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H242",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H243",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H250",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H251",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H252",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H253",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H260",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H261",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H270",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H271",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H280",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H281",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H290",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H291",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H300a",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H300b",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H301a",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H301b",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H310",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H311",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H320",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference H321",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference P01",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference P04",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference P05",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference P060",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference P061",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference P070a",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference P070b",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference P071a",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference P071b",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference P11",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference P120",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference P121",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P08 no new seated interference PCB_C1",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_C10",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_C11",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_C12",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_C13",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_C14",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_C15",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_C16",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_C2",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_C3",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_C4",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_C5",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_C6",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_C7",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_C8",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_C9",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_D1",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_J1",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_J2",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_J3",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_L1",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_Q1",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_R1",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_R10",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_R11",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_R12",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_R13",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_R14",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_R15",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_R16",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_R17",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_R18",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_R19",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_R2",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_R20",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_R21",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_R3",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_R4",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_R5",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_R6",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_R7",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_R8",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_R9",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_SW2",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_U1",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_U2",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_U3",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 no new seated interference PCB_U4",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference E01",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference E05",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference E06",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference E07",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference E08",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference H01",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H02",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H030",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H031",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H040",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H041",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H050",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H051",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H060",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H061",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H09",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H09a",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H09b",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H10",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H11",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H12",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H13",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference H15",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H160",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H161",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H170",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H171",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H180",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H181",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H190",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H191",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H20",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H21",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H22",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H23",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H240",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H241",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H242",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H243",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H250",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H251",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H252",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H253",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H260",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H261",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H270",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H271",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H280",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H281",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H290",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H291",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H300a",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H300b",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H301a",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H301b",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H310",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H311",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H320",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference H321",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference P01",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference P04",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference P05",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference P060",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference P061",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference P070a",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference P070b",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference P071a",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference P071b",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference P11",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference P120",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference P121",
+      "status": "PASS",
+      "new_overlap_mm3": 0
+    },
+    {
+      "name": "P09 no new seated interference PCB_C1",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_C10",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_C11",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_C12",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_C13",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_C14",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_C15",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_C16",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_C2",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_C3",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_C4",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_C5",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_C6",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_C7",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_C8",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_C9",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_D1",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_J1",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_J2",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_J3",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_L1",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_Q1",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_R1",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_R10",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_R11",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_R12",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_R13",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_R14",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_R15",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_R16",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_R17",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_R18",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_R19",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_R2",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_R20",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_R21",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_R3",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_R4",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_R5",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_R6",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_R7",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_R8",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_R9",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_SW2",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_U1",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_U2",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_U3",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "P09 no new seated interference PCB_U4",
+      "status": "PASS",
+      "new_overlap_mm3": 0.0
+    },
+    {
+      "name": "New P08 and P09 have no solid overlap",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Main lid skin retains0.6mm P01 gap",
+      "status": "PASS",
+      "gap_mm": 0.5999999999999979
+    },
+    {
+      "name": "P08 / existing P01 palm end nominal strain <=0.5%",
+      "status": "PASS",
+      "connection": "P08 / existing P01 palm end",
+      "effective_length_mm": 15.5,
+      "thickness_mm": 1.2,
+      "max_tip_deflection_mm": 0.6,
+      "nominal_outer_fibre_strain": 0.004495317377731529
+    },
+    {
+      "name": "P09 / new P08 outside catch nominal strain <=0.5%",
+      "status": "PASS",
+      "connection": "P09 / new P08 outside catch",
+      "effective_length_mm": 20.0,
+      "thickness_mm": 1.2,
+      "max_tip_deflection_mm": 0.9,
+      "nominal_outer_fibre_strain": 0.00405
+    },
+    {
+      "name": "P08 flexed insertion/release \u00b1Y0.6 thenZ side-1",
+      "status": "PASS",
+      "maximum_sampled_overlap_mm3": 0,
+      "sampled_poses": 81,
+      "closed_hook_gap_mm": 0.1999999999999993
+    },
+    {
+      "name": "P08 seated hook positively retains before0.3mm withdrawal side-1",
+      "status": "PASS",
+      "restraining_intersection_mm3": 0.1360000000000014,
+      "nominal_axial_lash_mm": 0.2,
+      "nominal_lateral_hook_overlap_mm": 0.4
+    },
+    {
+      "name": "P08 flexed insertion/release \u00b1Y0.6 thenZ side1",
+      "status": "PASS",
+      "maximum_sampled_overlap_mm3": 0,
+      "sampled_poses": 81,
+      "closed_hook_gap_mm": 0.1999999999999993
+    },
+    {
+      "name": "P08 seated hook positively retains before0.3mm withdrawal side1",
+      "status": "PASS",
+      "restraining_intersection_mm3": 0.13600000000000198,
+      "nominal_axial_lash_mm": 0.2,
+      "nominal_lateral_hook_overlap_mm": 0.4
+    },
+    {
+      "name": "Complete CLOSED P08/P09 module with open palm hooks has20mm vertical assembly path",
+      "status": "PASS",
+      "maximum_sampled_overlap_mm3": 0,
+      "sampled_poses": 81,
+      "includes": "R10 P08, complete R11 P09, all added root/beam/catch geometry, both spread hook/post assemblies"
+    },
+    {
+      "name": "Continuous whole bending-beam assembly envelope side-1",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Continuous whole bending-beam assembly envelope side1",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service E01",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service E05",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service E07",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_C1",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_C10",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_C11",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_C12",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_C13",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_C14",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_C15",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_C16",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_C2",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_C3",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_C4",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_C5",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_C6",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_C7",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_C8",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_C9",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_D1",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_J1",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_J2",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_J3",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_L1",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_Q1",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_R1",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_R10",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_R11",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_R12",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_R13",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_R14",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_R15",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_R16",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_R17",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_R18",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_R19",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_R2",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_R20",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_R21",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_R3",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_R4",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_R5",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_R6",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_R7",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_R8",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_R9",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_SW2",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_U1",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_U2",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_U3",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service PCB_U4",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 rigid core/clamp vertical service P08",
+      "status": "PASS",
+      "max_sampled_interference_mm3": 0,
+      "sampled_poses": 31
+    },
+    {
+      "name": "P09 side arm outsideX0.9 vertical release 0",
+      "status": "PASS",
+      "maximum_sampled_overlap_mm3": 0,
+      "sampled_poses": 61
+    },
+    {
+      "name": "P09 hook positively retains before0.2mm withdrawal 0",
+      "status": "PASS",
+      "restraining_intersection_mm3": 0.2400000000000026,
+      "nominal_axial_lash_mm": 0.1,
+      "nominal_lateral_hook_overlap_mm": 0.8
+    },
+    {
+      "name": "P09 side arm outsideX0.9 vertical release 1",
+      "status": "PASS",
+      "maximum_sampled_overlap_mm3": 0,
+      "sampled_poses": 61
+    },
+    {
+      "name": "P09 hook positively retains before0.2mm withdrawal 1",
+      "status": "PASS",
+      "restraining_intersection_mm3": 0.24000000000000257,
+      "nominal_axial_lash_mm": 0.1,
+      "nominal_lateral_hook_overlap_mm": 0.8
+    }
+  ],
+  "failed": [],
+  "strain_model": "epsilon=1.5*t*delta/L^2 for elementary cantilever; no stress concentration, print defect, anisotropy, fatigue or strength claim."
+}

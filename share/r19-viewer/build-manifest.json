@@ -1,0 +1,11 @@
+{
+  "revision": "R19",
+  "objects": 94,
+  "source_payload_sha256": "1ce85f8fe1325c9c861a074ad997c7bc13af17b076751860985484f690c0e4d5",
+  "onshape_version": "21323818480a2406fe14f51f",
+  "html_bytes": 1806794,
+  "html_sha256": "1cd2da151709d9b7eed517f4580dfed1b4b53438f7b915a527fd25e321d23db3",
+  "zip_bytes": 1347990,
+  "self_contained": true,
+  "printing_setup_changed": false
+}

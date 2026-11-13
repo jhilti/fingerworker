@@ -1,0 +1,59 @@
+diff --git a/src/kicad_mcp_server/tools/netlist.py b/src/kicad_mcp_server/tools/netlist.py
+index 452ac0d..398c89c 100644
+--- a/src/kicad_mcp_server/tools/netlist.py
++++ b/src/kicad_mcp_server/tools/netlist.py
+@@ -190,14 +190,18 @@ async def trace_netlist_connection(
+             ]
+ 
+             for net_name, net_info in result['nets'].items():
++                # The parser preserves multiple component pins on each net.
++                # Render all entries instead of treating the list as a dict.
++                entries = net_info if isinstance(net_info, list) else [net_info]
++                connected_to = sorted({tuple(node) for entry in entries for node in entry['connected_to']})
+                 lines.append(f"### Net: {net_name}")
+-                lines.append(f"**Pin:** {net_info['pin']}")
++                lines.append(f"**Pins:** {', '.join(str(entry['pin']) for entry in entries)}")
+                 lines.append("")
+ 
+-                if net_info['connected_to']:
++                if connected_to:
+                     lines.append("| Reference | Pin |")
+                     lines.append("|-----------|-----|")
+-                    for ref, pin in net_info['connected_to']:
++                    for ref, pin in connected_to:
+                         lines.append(f"| {ref} | {pin} |")
+                 else:
+                     lines.append("No other components on this net.")
+diff --git a/src/kicad_mcp_server/tools/validation.py b/src/kicad_mcp_server/tools/validation.py
+index 5e1061d..b645dd1 100644
+--- a/src/kicad_mcp_server/tools/validation.py
++++ b/src/kicad_mcp_server/tools/validation.py
+@@ -45,9 +45,12 @@ def _parse_erc_report(report_path: Path) -> list[ERCError]:
+ 
+     try:
+         data = json.loads(content)
+-        # KiCad 9+ ERC JSON: violations are a top-level list (there is no
+-        # "sheets" key — reading data["sheets"] silently returned []).
+-        for v in data.get("violations", []):
++        # KiCad 10.0.6 emits ERC violations per sheet. Accept both schemas;
++        # ignoring sheets can otherwise report PASS while violations exist.
++        violations = list(data.get("violations", []))
++        for sheet in data.get("sheets", []):
++            violations.extend(sheet.get("violations", []))
++        for v in violations:
+             components = []
+             for item in v.get("items", []):
+                 desc = item.get("description", "")
+@@ -121,7 +124,11 @@ def _parse_drc_report(report_path: Path) -> list[DRCError]:
+         # KiCad 9+ DRC JSON: violations are a top-level list (no "sheets" key —
+         # reading data["sheets"] returned [] and made run_drc report PASS with
+         # every violation silently dropped).
+-        for v in data.get("violations", []):
++        violations = list(data.get("violations", []))
++        # Open connections and schematic parity are separate DRC collections.
++        violations.extend(data.get("unconnected_items", []))
++        violations.extend(data.get("schematic_parity", []))
++        for v in violations:
+             x, y = 0.0, 0.0
+             items = v.get("items", [])
+             if items:

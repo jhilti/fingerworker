@@ -1,0 +1,29 @@
+[
+  {
+    "name": "adjusted_rest_a2",
+    "archive": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-adjustable-rear-2026-10-23/native/Flat132_R7_adjusted_rest_a2_final.zip",
+    "u": 0,
+    "p": 0,
+    "a": 2,
+    "e": 0,
+    "isometric": false
+  },
+  {
+    "name": "maximum28_p2",
+    "archive": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-adjustable-rear-2026-10-23/native/Flat132_R7_max28_p2_heavy_final.zip",
+    "u": 28,
+    "p": 2,
+    "a": 0,
+    "e": 0,
+    "isometric": false
+  },
+  {
+    "name": "isometric13_p2_81",
+    "archive": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-adjustable-rear-2026-10-23/native/Flat132_R7_isometric13_p2_81_final.zip",
+    "u": 13,
+    "p": 2,
+    "a": 0,
+    "e": 0,
+    "isometric": true
+  }
+]

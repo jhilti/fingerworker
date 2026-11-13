@@ -1,0 +1,19 @@
+{
+  "status": "PASS: order ERC/DRC, strict pin and pad parity, BOM references",
+  "connected_pins_checked": 140,
+  "unused_pins_checked": 10,
+  "bom_groups": 26,
+  "bom_references": 46,
+  "sha256": {
+    "electronics/order/RevA-P1-JLC/source/Power.kicad_sch": "584c39ef5ccf9c6d96fe412e20759521a5b3ffaa44914eeb9d6b77addfcdbe5e",
+    "electronics/order/RevA-P1-JLC/source/Acquisition.kicad_sch": "e343540a7abfd4404d1f9d1f02d1b6e13c67dc5e095d0325d29bac97fbe61ce3",
+    "electronics/order/RevA-P1-JLC/source/Fingerworker_RevA.kicad_sch": "3c32593fe3110e86c8277045a4a98c8f045153ef764feafbaf49666bebe2944a",
+    "electronics/order/RevA-P1-JLC/source/Controls.kicad_sch": "af988d7ff61166b201d71b42e9e1430a1fb02bacc60849591e2d1ce345694e74",
+    "electronics/order/RevA-P1-JLC/source/Fingerworker_RevA.kicad_pro": "872702fd02d9aa717759bb6fdafb8b79ee693765e43b48dc4b3122562e7525f6",
+    "electronics/order/RevA-P1-JLC/source/Fingerworker_RevA.kicad_pcb": "d06ffcf88086ecab06c180ce38a43b68af18197fc25aa935c33a8fe4eebfabf6",
+    "electronics/order/RevA-P1-JLC/source/native_design.json": "40d12de04f409edbd7b5b8d52b034d5a0e2ca7d9ccd1b9400d3e3aaf18b75e24",
+    "electronics/order/RevA-P1-JLC/upload/BOM_JLC_portal.csv": "71b849489295f8ec18f3244c5e905980439bffdc1619368e2a11d0f467ac3f03",
+    "electronics/order/RevA-P1-JLC/upload/CPL_JLC_portal.csv": "46b8873e063840c223caf4bcb9b9d65af5aaecb40d5a24318f4c7272666f9de7"
+  },
+  "mismatches": []
+}

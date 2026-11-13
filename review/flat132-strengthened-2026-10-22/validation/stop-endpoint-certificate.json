@@ -1,0 +1,136 @@
+{
+  "source_sha256": "d5eca2f3d87bf4b9a47c1987ee91ba1d56e8c87003eca101677a148a2e605654",
+  "native_neutral_original_source_sha256": "6c877ec401051cdf840a93bb28dfeb9c3fb5a13f5324c93b567c8f87e0dfa2ad",
+  "native_archive_sha256": "bf4ab87c8474b12025746b6db75c96efecca79d6816202950baadf864aeb5992",
+  "validator_sha256": "23d9f1c4f568cc824d98767e6f53f161ee6e0a51b71451d42f54d7d8e0c3af32",
+  "result": {
+    "pair": [
+      "P04",
+      "P05"
+    ],
+    "relative_x_range_mm": [
+      -30.0,
+      0.0
+    ],
+    "partition_axis": 1,
+    "partition_edges_mm": [
+      -63.0,
+      -31.0,
+      -17.0,
+      17.0,
+      31.0,
+      63.0
+    ],
+    "method": "Complete union of exact transverse slabs; each slab uses the strict continuous relative-X certificate",
+    "status": "COMPLETE_TRANSVERSE_PARTITION_CONTINUOUS_CLEARANCE_CERTIFIED",
+    "slabs": [
+      {
+        "transverse_interval_mm": [
+          -63.0,
+          -31.0
+        ],
+        "relative_x_range_mm": [
+          -30.0,
+          0.0
+        ],
+        "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+        "certified_intervals": 1,
+        "intersections": [],
+        "unresolved_intervals": [],
+        "samples": [],
+        "method": "Swept AABB separation including permitted exterior boundary touch",
+        "maximum_sampled_volume_mm3": 0.0
+      },
+      {
+        "transverse_interval_mm": [
+          -31.0,
+          -17.0
+        ],
+        "relative_x_range_mm": [
+          -30.0,
+          0.0
+        ],
+        "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+        "certified_intervals": 1,
+        "intersections": [],
+        "unresolved_intervals": [],
+        "samples": [],
+        "method": "Swept AABB separation including permitted exterior boundary touch",
+        "maximum_sampled_volume_mm3": 0.0
+      },
+      {
+        "transverse_interval_mm": [
+          -17.0,
+          17.0
+        ],
+        "relative_x_range_mm": [
+          -30.0,
+          0.0
+        ],
+        "status": "CONTINUOUS_CLEARANCE_AT_NUMERICAL_VOLUME_TOLERANCE",
+        "certified_intervals": 1,
+        "intersections": [],
+        "unresolved_intervals": [],
+        "samples": [],
+        "method": "Conservative complete swept convex-hull intersection volume bounds every pose",
+        "complete_swept_envelope_intersection_upper_bound_mm3": 0.0,
+        "maximum_sampled_volume_mm3": 0.0
+      },
+      {
+        "transverse_interval_mm": [
+          17.0,
+          31.0
+        ],
+        "relative_x_range_mm": [
+          -30.0,
+          0.0
+        ],
+        "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+        "certified_intervals": 1,
+        "intersections": [],
+        "unresolved_intervals": [],
+        "samples": [],
+        "method": "Swept AABB separation including permitted exterior boundary touch",
+        "maximum_sampled_volume_mm3": 0.0
+      },
+      {
+        "transverse_interval_mm": [
+          31.0,
+          63.0
+        ],
+        "relative_x_range_mm": [
+          -30.0,
+          0.0
+        ],
+        "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+        "certified_intervals": 1,
+        "intersections": [],
+        "unresolved_intervals": [],
+        "samples": [],
+        "method": "Swept AABB separation including permitted exterior boundary touch",
+        "maximum_sampled_volume_mm3": 0.0
+      }
+    ],
+    "maximum_sampled_volume_mm3": 0.0,
+    "relative_x_coefficients_stroke_preload": [
+      -1.0,
+      -1.0
+    ]
+  },
+  "native_provenance": {
+    "workspace_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/w/3ee26cf6386f889ca7ae9519/e/d253eb87b70818ebde8215f0",
+    "feature_source_sha256": "d5eca2f3d87bf4b9a47c1987ee91ba1d56e8c87003eca101677a148a2e605654",
+    "association": "Operator-supplied native export/source association; original filenames and each member SHA256 are checked in report.",
+    "source_geometry_equivalence": {
+      "certificate": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-strengthened-2026-10-22/source-ui-guard-only-certificate.json",
+      "certificate_sha256": "d6665a350ed6a346a8e5a6df93f5e3e7dd17dfc725e3279f1dad8d8b4f119522",
+      "native_step_original_source_sha256": "6c877ec401051cdf840a93bb28dfeb9c3fb5a13f5324c93b567c8f87e0dfa2ad",
+      "native_neutral_original_source_sha256": "6c877ec401051cdf840a93bb28dfeb9c3fb5a13f5324c93b567c8f87e0dfa2ad",
+      "native_poses_original_source_sha256": "d5eca2f3d87bf4b9a47c1987ee91ba1d56e8c87003eca101677a148a2e605654",
+      "meaning": "The neutral ZIP and STEP were exported from the prior source. The exact single changed UI rejection condition leaves every geometry expression unchanged throughout the exact legal configuration domain. The maximum/isometric native pose ZIP exports are associated with the final guarded source; both neutral exports retain their exact prior source association."
+    },
+    "immutable_version_id": "9bdcf9c3c67638228b40378b",
+    "immutable_version_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/9bdcf9c3c67638228b40378b/e/d253eb87b70818ebde8215f0",
+    "version_binding_note": "Root verified the immutable R2 native version contains final source d5eca2f3d87bf4b9a47c1987ee91ba1d56e8c87003eca101677a148a2e605654 and 105 neutral solids at stroke0/preload0/light springs/isometricOFF/electronicsON/handOFF. Neutral ZIP and STEP originate from source6c877e; the independently checked exact single UI rejection-guard replacement preserves all geometry expressions on the exact legal configuration domain. MAX and ISO ZIPs originate from final sourced5eca2."
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "revision": "Flat132 R1",
+  "source_sha256": "041056629440056626b2f2f88a0db216693e48fff178687174478cb1f34227ef",
+  "native_neutral_sha256": "f22ebe6f8d2852a31c4345dff9062adc557274f2d94152d9459822a2bdd1683e",
+  "parts": [
+    {
+      "ref": "P01",
+      "label": "P01 PRINT STUDY - Flat132 fixed frame, keyed detachable palm feet, 6 mm floor",
+      "file": "P01.stl",
+      "sha256": "cddf593d50f9fef9acf7f8aa581f15303f321d1919493a4c9f54b86ae6d3b242",
+      "material_class": "rigid_print",
+      "units": "mm",
+      "orientation": "native assembly coordinates; orient for qualified print process"
+    },
+    {
+      "ref": "P02",
+      "label": "P02 PRINT STUDY - detachable keyed palm bolster, two M4 mounts",
+      "file": "P02.stl",
+      "sha256": "2daf25681bc7e8ff3b89aecabcb9278185f9688b46d41155800c45f6447d578f",
+      "material_class": "rigid_print",
+      "units": "mm",
+      "orientation": "native assembly coordinates; orient for qualified print process"
+    },
+    {
+      "ref": "P03",
+      "label": "P03 TPU PRINT - 2.5 mm palm sleeve",
+      "file": "P03.stl",
+      "sha256": "df92f24292d5597873a8518621e48b2dc29f817f9d484af08f4f3cbf4a133678",
+      "material_class": "TPU",
+      "units": "mm",
+      "orientation": "native assembly coordinates; orient for qualified print process"
+    },
+    {
+      "ref": "P04",
+      "label": "P04 PRINT STUDY - Flat132 72 mm clear pocket, R12 seat reliefs",
+      "file": "P04.stl",
+      "sha256": "d7034abc2ff0a89f4174ec2f61e733ef01935f068ff792de560162efb396bf4f",
+      "material_class": "rigid_print",
+      "units": "mm",
+      "orientation": "native assembly coordinates; orient for qualified print process"
+    },
+    {
+      "ref": "P05",
+      "label": "P05 PRINT STUDY - Flat132 reinforced floating spring yoke",
+      "file": "P05.stl",
+      "sha256": "31c1ff354daff7ff7c2c26121b463aea7b38b597e03cfec3da43696a1cc3a8d4",
+      "material_class": "rigid_print",
+      "units": "mm",
+      "orientation": "native assembly coordinates; orient for qualified print process"
+    },
+    {
+      "ref": "P060",
+      "label": "P060 PRINT - removable rear retainer - through holes RevC",
+      "file": "P060.stl",
+      "sha256": "cc94f09a0b2b30b210654174f9dcc4c84103249373f4cb76e35def56f6f7c361",
+      "material_class": "rigid_print",
+      "units": "mm",
+      "orientation": "native assembly coordinates; orient for qualified print process"
+    },
+    {
+      "ref": "P061",
+      "label": "P061 PRINT - removable rear retainer - through holes RevC",
+      "file": "P061.stl",
+      "sha256": "94e89b2a80c4b5237a77b7a0f1c211b89a4befbed4f50e0294c8c75e316c7f9a",
+      "material_class": "rigid_print",
+      "units": "mm",
+      "orientation": "native assembly coordinates; orient for qualified print process"
+    },
+    {
+      "ref": "P070a",
+      "label": "P070a TPU PRINT - return bumper",
+      "file": "P070a.stl",
+      "sha256": "238ebfde3626cbde9e99bf4a2d5a2636b34d169608dae53b4ab4cd9c22df9437",
+      "material_class": "TPU",
+      "units": "mm",
+      "orientation": "native assembly coordinates; orient for qualified print process"
+    },
+    {
+      "ref": "P070b",
+      "label": "P070b TPU PRINT - return bumper",
+      "file": "P070b.stl",
+      "sha256": "59cd6b3ebdc4603288f68586f4adf108bb431e03b1eca396e3e6fa27195c159f",
+      "material_class": "TPU",
+      "units": "mm",
+      "orientation": "native assembly coordinates; orient for qualified print process"
+    },
+    {
+      "ref": "P071a",
+      "label": "P071a TPU PRINT - return bumper",
+      "file": "P071a.stl",
+      "sha256": "cc069ac5fb2704c0571168890bc48558b8331f49b9b31b4842f36743d9b3eaec",
+      "material_class": "TPU",
+      "units": "mm",
+      "orientation": "native assembly coordinates; orient for qualified print process"
+    },
+    {
+      "ref": "P071b",
+      "label": "P071b TPU PRINT - return bumper",
+      "file": "P071b.stl",
+      "sha256": "897e3fe214f97a2ef1e1b77893571f57db57071111676d9f69fa5e06ab2059ae",
+      "material_class": "TPU",
+      "units": "mm",
+      "orientation": "native assembly coordinates; orient for qualified print process"
+    },
+    {
+      "ref": "P08",
+      "label": "P08 PRINT - Electronics tray",
+      "file": "P08.stl",
+      "sha256": "11f47952a86814ce1c6a80ad25edde546f99b8664a610e397851ec8ae9fe8b2a",
+      "material_class": "rigid_print",
+      "units": "mm",
+      "orientation": "native assembly coordinates; orient for qualified print process"
+    },
+    {
+      "ref": "P09",
+      "label": "P09 PRINT - Electronics lid",
+      "file": "P09.stl",
+      "sha256": "2b809ab1f7cc350b96862cfd7d4878ac1907bda7cf793f78aa0e445e7264084a",
+      "material_class": "rigid_print",
+      "units": "mm",
+      "orientation": "native assembly coordinates; orient for qualified print process"
+    },
+    {
+      "ref": "P10",
+      "label": "P10 PRINT - Wire clamp",
+      "file": "P10.stl",
+      "sha256": "8ee66bba498b46d593a8d9c00581582cd76b35677312eb81d427f808df8b08d8",
+      "material_class": "rigid_print",
+      "units": "mm",
+      "orientation": "native assembly coordinates; orient for qualified print process"
+    }
+  ],
+  "contains_reference_or_metal_parts": false,
+  "sliced_or_print_qualified": false
+}

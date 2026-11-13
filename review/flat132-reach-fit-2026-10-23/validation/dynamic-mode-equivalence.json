@@ -1,0 +1,83 @@
+{
+  "status": "PASS_EXACT_MODE_CONDITIONED_EQUIVALENCE",
+  "scope": "Only isometricLock=false. Original neutral/dynamic exports are not claimed to originate from the final ISO81 source. IsometricLock=true requires a new final-source native export.",
+  "certificate_generator_sha256": "c6804d2e378ed61c15905092a74c3c22cfa81d00b823c53c8de705f72c7880fb",
+  "final_source": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/fingerworker_flat132_reach_fit.fs",
+  "final_source_sha256": "d7f476fa34e862e2b0e1b5a5e91fff0f852b9308a589fafd11ce59e01269915a",
+  "prior_source_snapshot": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/fingerworker_flat132_reach_fit_ISO86_61885fd7.fs",
+  "prior_source_sha256": "61885fd717b30eaf1dfc39a1f7f65f017bfc1b4ac077c3e3493399ef3373a9a3",
+  "inverse_replacements": [
+    {
+      "label": "ISO81 header formulas",
+      "count": 1,
+      "old": " * Carriage absolute offset q=5+u; retained86 mm ISO sleeves use q=15-p\n * and user-relative approach u=10-p. ISO grip position is unchanged.",
+      "new": " * Carriage absolute offset q=5+u; selected81 mm ISO sleeves use q=20-p\n * and user-relative approach u=15-p. Dynamic and ISO grip are5 mm closer."
+    },
+    {
+      "label": "ISO81 inherited header sleeve statement",
+      "count": 1,
+      "old": " * has unqualified stiffness/strength. Palm contact geometry, 86 mm sleeve and\n * electronics enclosure are retained. Remove both M4 bolts and lift the palm",
+      "new": " * has unqualified stiffness/strength. Palm contact geometry and electronics\n * enclosure are retained; R5 uses81 mm ISO sleeves. Remove both M4 bolts and lift the palm"
+    },
+    {
+      "label": "ISO81 selector label",
+      "count": 1,
+      "old": "\"Isometric: BOTH existing86 mm sleeves; approach8-10 mm from closer rest\"",
+      "new": "\"Isometric: BOTH81 mm sleeves; approach13-15 mm from closer rest\""
+    },
+    {
+      "label": "ISO81 conditional position only",
+      "count": 1,
+      "old": "        // Retain the actual86 mm sleeves and their original absolute grip.\n        // They seat after u=10-preload, not15-preload from the new rest.\n        const stroke = definition.isometricLock ? 15 * mm - preload : restOffset+definition.previewTravel;",
+      "new": "        // Selected81 mm sleeves move ISO grip5 mm closer than R4.\n        // They seat after u=15-preload from the new closer rest.\n        const stroke = definition.isometricLock ? 20 * mm - preload : restOffset+definition.previewTravel;"
+    },
+    {
+      "label": "ISO81 purchased sleeve label",
+      "count": 1,
+      "old": "ISOMETRIC steel compression lock sleeve 16 x 8 x 86 mm",
+      "new": "ISOMETRIC steel compression lock sleeve 16 x 8 x 81 mm"
+    }
+  ],
+  "exact_inverse_source_sha256": "61885fd717b30eaf1dfc39a1f7f65f017bfc1b4ac077c3e3493399ef3373a9a3",
+  "only_coordinate_expression_delta": {
+    "old": "const stroke = definition.isometricLock ? 15 * mm - preload : restOffset+definition.previewTravel;",
+    "new": "const stroke = definition.isometricLock ? 20 * mm - preload : restOffset+definition.previewTravel;",
+    "unchanged_false_branch": "restOffset+definition.previewTravel"
+  },
+  "unchanged_mode": {
+    "isometricLock": false
+  },
+  "domain_extension": false,
+  "native_export_origins": {
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/native/Flat132_R5_neutral_final.zip": {
+      "sha256": "2f4a8634c42317d10dfe93a8e113a254ef4d5f05d70b8f6330f23a9f5866e7a5",
+      "original_source_sha256": "61885fd717b30eaf1dfc39a1f7f65f017bfc1b4ac077c3e3493399ef3373a9a3",
+      "isometricLock": false,
+      "geometry_equivalent_to_final_source": true
+    },
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/native/Flat132_R5_final_AP214.step": {
+      "sha256": "6308aae470551c220c91689f746cd7204d38ce6938aa907531423f2d78c2af40",
+      "original_source_sha256": "61885fd717b30eaf1dfc39a1f7f65f017bfc1b4ac077c3e3493399ef3373a9a3",
+      "isometricLock": false,
+      "geometry_equivalent_to_final_source": true
+    },
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/native/Flat132_R5_max28_p2_heavy_final.zip": {
+      "sha256": "7c36db8d0101dc8d445c6f2476dcb38a51721431dcb4a052c59b7f80b0a33fb7",
+      "original_source_sha256": "61885fd717b30eaf1dfc39a1f7f65f017bfc1b4ac077c3e3493399ef3373a9a3",
+      "isometricLock": false,
+      "geometry_equivalent_to_final_source": true
+    },
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/native/Flat132_R5_max28_p2_trimN08_final.zip": {
+      "sha256": "a0e5b8604e827dbb3b4ae781d30083c3fa2a4e21bd604050230a46248c48e64d",
+      "original_source_sha256": "61885fd717b30eaf1dfc39a1f7f65f017bfc1b4ac077c3e3493399ef3373a9a3",
+      "isometricLock": false,
+      "geometry_equivalent_to_final_source": true
+    },
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/native/Flat132_R5_max30_p0_trimP08_final.zip": {
+      "sha256": "10b8bd03c97ef529d8504d36c699356bc1598a9d528dcf62bd5be1a939e13a81",
+      "original_source_sha256": "61885fd717b30eaf1dfc39a1f7f65f017bfc1b4ac077c3e3493399ef3373a9a3",
+      "isometricLock": false,
+      "geometry_equivalent_to_final_source": true
+    }
+  }
+}

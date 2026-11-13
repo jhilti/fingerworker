@@ -1,0 +1,9 @@
+{
+  "version_id": "05c07284f9a5edf33d05f680",
+  "name": "Flat132 R14 - near palm and 25mm strap eyes - 2026-11-06",
+  "url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/05c07284f9a5edf33d05f680/e/d253eb87b70818ebde8215f0",
+  "source_sha256": "9286d5a51880dc79d1e9a07135e8c905f4022a1ed757801b8430f23f51a04829",
+  "step_sha256": "ad1fb9bda2a999a953399451585e821181082535fdc15fe30b0b43e90b2c6054",
+  "stl_zip_sha256": "c67db5e3b70d1e244d6cb95818e24c79e625508fc732d474314a3de74f94b3c8",
+  "evidence": "Created through native Chrome Onshape UI after final native geometry PASS120; opened visible version history row and read version URL from active tab. Source committed before the final strap-inclusive native exports; no geometry edits between export and version creation."
+}

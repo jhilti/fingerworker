@@ -1,0 +1,10 @@
+Ref,Menge Geraet,R20-Aenderung,Hardware / Hinweis
+P01,1,Zwei hinten offene Sacknuten fuer integrale Heckblockzapfen.,Nur mit R20-P06L/P06R kombinieren.
+P06L/P06R,2,Je ein integraler Durchmesser5 x2mm Positionierzapfen.,Keine separaten Zapfen; je2 M3x8 vor Federbelastung erforderlich.
+H30,4,"Unveraendert, fuer Federbetrieb zwingend.",4 M3x8 plus vorhandeneM3-Inserts; federfreie Passprobe ohne Schrauben moeglich.
+P04/P05/P11,3,Unveraendert.,Vorhandene Teile weiterverwenden.
+Q01,Passhilfe,Unveraendert.,Nur federfrei; vor Sensor-/Federbetrieb entfernen.
+P08/P09,2,R19-Ausfuehrung unveraendert; optional.,P08 mit2 M2x8 und vorhandenen M2-Inserts; P09 Klickdeckel.
+H040/H041,2,Unveraendert.,Vorhandene echteStahlstangen.
+G01/G02,2,Unveraendert.,Echte25mm-Gurte.
+NativeKoerper,94,91 unveraendert gegenueberR19.,Druckvorbereitung bleibt zurueckgestellt.

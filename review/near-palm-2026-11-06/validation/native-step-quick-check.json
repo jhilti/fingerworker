@@ -1,0 +1,36 @@
+{
+  "native_step_sha256": "593ec7c502ea887ad99392290fb61921b5bce689ac7515f0695c8bd64f863d6b",
+  "source_sha256": "0f3065e9a8bbd5146e2462dfc190158ccd321fbaf5b5b4d2e81527c08c4c6f0e",
+  "native_solid_count": 93,
+  "P01_candidate_index": 45,
+  "checks": [
+    {
+      "name": "expected_minus_native",
+      "valid": true,
+      "volume_mm3": 0.0,
+      "lower_valid": true,
+      "lower_volume_mm3": 0.0
+    },
+    {
+      "name": "native_minus_expected",
+      "valid": true,
+      "volume_mm3": 0.0,
+      "lower_valid": true,
+      "lower_volume_mm3": 0.0
+    },
+    {
+      "name": "old_minus_native",
+      "valid": true,
+      "volume_mm3": 15579.37808286293,
+      "lower_valid": true,
+      "lower_volume_mm3": 0.0
+    },
+    {
+      "name": "native_minus_old",
+      "valid": true,
+      "volume_mm3": 1297.3626751224228,
+      "lower_valid": true,
+      "lower_volume_mm3": 0.0
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "status": "PASS",
+  "scope": "Independent native 3MF raw XML, source-mesh comparison, plate counts and physical placement, material/nozzle, support settings, unchanged machine macros",
+  "project_sha256": "8f6cbdfe6967dfff52d5cd4c433c5d37583a0a1c57df82e08365510ab8f5bc44",
+  "object_count": 13,
+  "plate_counts": [
+    1,
+    11,
+    1
+  ],
+  "material": "PLA",
+  "nozzle_mm": 0.4,
+  "native_gcode_present": false,
+  "all_roundtrip_errors_below_mm": 0.0001,
+  "objects": [
+    {
+      "ref": "H040",
+      "plate": 2,
+      "roundtrip_max_vertex_error_mm": 5.995528696345619e-09,
+      "native_watertight": true,
+      "source_sha256": "ed73c2217009079342531d1dd16e68c206790ab2f2ca3b5e85f41e866079d427",
+      "native_volume_mm3": 3985.41646826804,
+      "bed_min_mm": [
+        40.0,
+        110.0,
+        0.0
+      ],
+      "reserved_bbox_xy_mm": [
+        37.0,
+        107.0,
+        184.0,
+        119.0
+      ]
+    },
+    {
+      "ref": "P09",
+      "plate": 2,
+      "roundtrip_max_vertex_error_mm": 3.8641326416520275e-06,
+      "native_watertight": true,
+      "source_sha256": "296eb851b02ae7f12a7f7f4f5218e5e7571881974583dbf5648ab356c11e0a05",
+      "native_volume_mm3": 2658.9074078715385,
+      "bed_min_mm": [
+        40.0,
+        65.0,
+        0.0
+      ],
+      "reserved_bbox_xy_mm": [
+        37.0,
+        62.0,
+        153.0,
+        92.999998
+      ]
+    },
+    {
+      "ref": "P08",
+      "plate": 2,
+      "roundtrip_max_vertex_error_mm": 7.67347723831074e-06,
+      "native_watertight": true,
+      "source_sha256": "29a034f53760f6cfaa3be2947f484f25bcba5884466165ec51f9fc0682762a3d",
+      "native_volume_mm3": 5041.472228193157,
+      "bed_min_mm": [
+        40.0,
+        20.0,
+        0.0
+      ],
+      "reserved_bbox_xy_mm": [
+        35.0,
+        15.0,
+        176.0,
+        48.499998000000005
+      ]
+    },
+    {
+      "ref": "P05",
+      "plate": 2,
+      "roundtrip_max_vertex_error_mm": 3.991207111411451e-06,
+      "native_watertight": true,
+      "source_sha256": "6083038072852dafc4bf786e39c2e6d9926e0092d3037399cb4943430b41310b",
+      "native_volume_mm3": 50903.03990514691,
+      "bed_min_mm": [
+        210.0,
+        20.0,
+        0.0
+      ],
+      "reserved_bbox_xy_mm": [
+        204.0,
+        14.0,
+        253.0,
+        152.0
+      ]
+    },
+    {
+      "ref": "P04",
+      "plate": 3,
+      "roundtrip_max_vertex_error_mm": 3.966040727462384e-06,
+      "native_watertight": true,
+      "source_sha256": "fdb84301af40be4ca84b838ebc1847b18ac0b2854818e3bfe63c1085d6ff0b7c",
+      "native_volume_mm3": 76807.90789265941,
+      "bed_min_mm": [
+        100.0,
+        80.0,
+        0.0
+      ],
+      "reserved_bbox_xy_mm": [
+        94.0,
+        74.0,
+        131.0,
+        212.0
+      ]
+    },
+    {
+      "ref": "P01",
+      "plate": 1,
+      "roundtrip_max_vertex_error_mm": 8.66729483308073e-06,
+      "native_watertight": true,
+      "source_sha256": "4e28906af6d80ebc87aa64fc7d022fdb659e7c2294ffd172016f16ea2236d545",
+      "native_volume_mm3": 162200.99790104173,
+      "bed_min_mm": [
+        69.9999999,
+        80.0,
+        0.0
+      ],
+      "reserved_bbox_xy_mm": [
+        63.999999900000006,
+        74.0,
+        251.1000061,
+        218.0
+      ]
+    },
+    {
+      "ref": "H041",
+      "plate": 2,
+      "roundtrip_max_vertex_error_mm": 5.995528696345619e-09,
+      "native_watertight": true,
+      "source_sha256": "c3b51c917e3598d19a26ff32510401be6405293cc25d02f78f5a0891912a6a19",
+      "native_volume_mm3": 3985.41646826804,
+      "bed_min_mm": [
+        40.0,
+        130.0,
+        0.0
+      ],
+      "reserved_bbox_xy_mm": [
+        37.0,
+        127.0,
+        184.0,
+        139.0
+      ]
+    },
+    {
+      "ref": "P060",
+      "plate": 2,
+      "roundtrip_max_vertex_error_mm": 5.245207037533761e-07,
+      "native_watertight": true,
+      "source_sha256": "a70fd69acfbbd9147e33debced9e0e9e9ccff51b61bcb932e3557b26bf1e1d9d",
+      "native_volume_mm3": 2995.5705479472276,
+      "bed_min_mm": [
+        40.0,
+        160.0,
+        0.0
+      ],
+      "reserved_bbox_xy_mm": [
+        36.0,
+        156.0,
+        53.0,
+        192.0
+      ]
+    },
+    {
+      "ref": "P061",
+      "plate": 2,
+      "roundtrip_max_vertex_error_mm": 5.245207037533761e-07,
+      "native_watertight": true,
+      "source_sha256": "ec10843f85cd2df5163e8cf8e75bab815baf713ae1f4d571f4c81d42f20bbced",
+      "native_volume_mm3": 2995.570547828216,
+      "bed_min_mm": [
+        80.0,
+        160.0,
+        0.0
+      ],
+      "reserved_bbox_xy_mm": [
+        76.0,
+        156.0,
+        93.0,
+        192.0
+      ]
+    },
+    {
+      "ref": "P120",
+      "plate": 2,
+      "roundtrip_max_vertex_error_mm": 9.761499649760552e-07,
+      "native_watertight": true,
+      "source_sha256": "d7d3f82932b6e2a04374b7f776c75559d2cf56402dd803f887ff8ffcd68165bb",
+      "native_volume_mm3": 564.5657137667208,
+      "bed_min_mm": [
+        119.99999994999996,
+        160.0,
+        0.0
+      ],
+      "reserved_bbox_xy_mm": [
+        115.99999994999996,
+        156.0,
+        133.60000604999996,
+        183.5
+      ]
+    },
+    {
+      "ref": "P121",
+      "plate": 2,
+      "roundtrip_max_vertex_error_mm": 9.761499649760552e-07,
+      "native_watertight": true,
+      "source_sha256": "10bd81cfa709e1d3ae60319b03f65c369fb6f202aa63739e600f547eeca86a32",
+      "native_volume_mm3": 564.5657137667204,
+      "bed_min_mm": [
+        164.99999994999996,
+        160.0,
+        0.0
+      ],
+      "reserved_bbox_xy_mm": [
+        160.99999994999996,
+        156.0,
+        178.60000604999996,
+        183.5
+      ]
+    },
+    {
+      "ref": "P11",
+      "plate": 2,
+      "roundtrip_max_vertex_error_mm": 2.4349086913418325e-07,
+      "native_watertight": true,
+      "source_sha256": "ee81507b31f348ae644d268f5525a825d5eecbd44f580824105b74e3a191d49b",
+      "native_volume_mm3": 388.75487506691246,
+      "bed_min_mm": [
+        220.0,
+        180.00000018999998,
+        0.0
+      ],
+      "reserved_bbox_xy_mm": [
+        218.0,
+        178.00000018999998,
+        228.0,
+        190.39999980999997
+      ]
+    },
+    {
+      "ref": "Q01",
+      "plate": 2,
+      "roundtrip_max_vertex_error_mm": 9.610743742997772e-07,
+      "native_watertight": true,
+      "source_sha256": "4a814328544c999013ab754d2d1c3f9a99e287e034066df127525cfe912a394b",
+      "native_volume_mm3": 1597.7201413092973,
+      "bed_min_mm": [
+        254.9999995999999,
+        180.0,
+        0.0
+      ],
+      "reserved_bbox_xy_mm": [
+        251.9999995999999,
+        177.0,
+        275.9964423999999,
+        201.0
+      ]
+    }
+  ]
+}

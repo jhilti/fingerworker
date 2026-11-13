@@ -1,0 +1,5238 @@
+{
+  "status": "PASS",
+  "scope": "Only changed P02 versus unchanged mechanism over full correlated R5 u/p/e domain, conservative spring occupancy and declared service paths. No broad unaffected R5 rerun.",
+  "source_sha256": "62fabee79cf36d0e0b6d4cd8430700519dbc529a5ea08f70018b14b0c3f2271f",
+  "native_stl_sha256": "9117c58e92696a45477bc13182cc19286337049539acdab56a1f1daeb5c45a5e",
+  "continuous_palm_pairs": [
+    {
+      "pair": [
+        "E01",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "E05",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "E06",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "E07",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 1.75,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": false,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "E08",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "H01",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_AT_NUMERICAL_VOLUME_TOLERANCE",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Conservative complete swept convex-hull intersection volume bounds every pose",
+      "complete_swept_envelope_intersection_upper_bound_mm3": 0.0,
+      "maximum_sampled_volume_mm3": 0.0,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "H02",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "H040",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "H041",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "H050",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "H051",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "H060",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        -30.0,
+        0.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0,
+      "relative_x_coefficients_stroke_preload": [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "H061",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        -30.0,
+        0.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0,
+      "relative_x_coefficients_stroke_preload": [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "H09",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "H09a",
+        "P02"
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "user_preload_trim_domain_vertices_mm": [
+        [
+          0.0,
+          0.0,
+          -0.8
+        ],
+        [
+          0.0,
+          0.0,
+          0.8
+        ],
+        [
+          30.0,
+          0.0,
+          -0.8
+        ],
+        [
+          30.0,
+          0.0,
+          0.8
+        ],
+        [
+          28.0,
+          2.0,
+          -0.8
+        ],
+        [
+          28.0,
+          2.0,
+          0.8
+        ],
+        [
+          0.0,
+          2.0,
+          -0.8
+        ],
+        [
+          0.0,
+          2.0,
+          0.8
+        ]
+      ],
+      "effective_actuator_Q_range_mm": [
+        -0.8,
+        30.8
+      ],
+      "model": "Q=u+p-e; fixed pivot29.5/-13.1/10.7; roller centerX=min37.4,61.6-Q; approximate source actuator only",
+      "certified_prisms": 2,
+      "intersections": [],
+      "unresolved_prisms": [],
+      "samples": [
+        {
+          "effective_Q_mm": 24.2,
+          "user_stroke_mm": 23.4,
+          "preload_mm": 0.0,
+          "trim_mm": -0.8,
+          "intersection_volume_mm3": 0.0,
+          "minimum_gap_mm": 0.01,
+          "gap_search_cap_mm": 0.01,
+          "gap_is_lower_bound": true,
+          "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+          "method": "AABB gap lower bound exceeds search cap"
+        },
+        {
+          "effective_Q_mm": 24.2,
+          "user_stroke_mm": 21.4,
+          "preload_mm": 2.0,
+          "trim_mm": -0.8,
+          "intersection_volume_mm3": 0.0,
+          "minimum_gap_mm": 0.01,
+          "gap_search_cap_mm": 0.01,
+          "gap_is_lower_bound": true,
+          "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+          "method": "AABB gap lower bound exceeds search cap"
+        },
+        {
+          "effective_Q_mm": 30.8,
+          "user_stroke_mm": 30.0,
+          "preload_mm": 0.0,
+          "trim_mm": -0.8,
+          "intersection_volume_mm3": 0.0,
+          "minimum_gap_mm": 0.01,
+          "gap_search_cap_mm": 0.01,
+          "gap_is_lower_bound": true,
+          "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+          "method": "AABB gap lower bound exceeds search cap"
+        },
+        {
+          "effective_Q_mm": 30.8,
+          "user_stroke_mm": 28.0,
+          "preload_mm": 2.0,
+          "trim_mm": -0.8,
+          "intersection_volume_mm3": 0.0,
+          "minimum_gap_mm": 0.01,
+          "gap_search_cap_mm": 0.01,
+          "gap_is_lower_bound": true,
+          "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+          "method": "AABB gap lower bound exceeds search cap"
+        },
+        {
+          "effective_Q_mm": 29.2,
+          "user_stroke_mm": 30.0,
+          "preload_mm": 0.0,
+          "trim_mm": 0.8,
+          "intersection_volume_mm3": 0.0,
+          "minimum_gap_mm": 0.01,
+          "gap_search_cap_mm": 0.01,
+          "gap_is_lower_bound": true,
+          "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+          "method": "AABB gap lower bound exceeds search cap"
+        },
+        {
+          "effective_Q_mm": 29.2,
+          "user_stroke_mm": 28.0,
+          "preload_mm": 2.0,
+          "trim_mm": 0.8,
+          "intersection_volume_mm3": 0.0,
+          "minimum_gap_mm": 0.01,
+          "gap_search_cap_mm": 0.01,
+          "gap_is_lower_bound": true,
+          "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+          "method": "AABB gap lower bound exceeds search cap"
+        },
+        {
+          "effective_Q_mm": 24.2,
+          "user_stroke_mm": 25.0,
+          "preload_mm": 0.0,
+          "trim_mm": 0.8,
+          "intersection_volume_mm3": 0.0,
+          "minimum_gap_mm": 0.01,
+          "gap_search_cap_mm": 0.01,
+          "gap_is_lower_bound": true,
+          "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+          "method": "AABB gap lower bound exceeds search cap"
+        },
+        {
+          "effective_Q_mm": 24.2,
+          "user_stroke_mm": 23.0,
+          "preload_mm": 2.0,
+          "trim_mm": 0.8,
+          "intersection_volume_mm3": 0.0,
+          "minimum_gap_mm": 0.01,
+          "gap_search_cap_mm": 0.01,
+          "gap_is_lower_bound": true,
+          "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+          "method": "AABB gap lower bound exceeds search cap"
+        }
+      ],
+      "stationary_actuator_domain_vertices_u_p_e_mm": [
+        [
+          0.0,
+          0.0,
+          -0.8
+        ],
+        [
+          0.0,
+          0.0,
+          0.8
+        ],
+        [
+          0.0,
+          2.0,
+          -0.8
+        ],
+        [
+          0.0,
+          2.0,
+          0.8
+        ],
+        [
+          21.4,
+          2.0,
+          -0.8
+        ],
+        [
+          21.756756756756754,
+          2.0,
+          -0.44324324324324316
+        ],
+        [
+          21.839999999999996,
+          1.5599999999999998,
+          -0.8
+        ],
+        [
+          22.151898734177216,
+          1.5822784810126582,
+          -0.46582278481012657
+        ],
+        [
+          22.696969696969695,
+          2.0,
+          0.49696969696969684
+        ],
+        [
+          22.928571428571427,
+          0.47142857142857153,
+          -0.8
+        ],
+        [
+          23.0,
+          2.0,
+          0.8
+        ],
+        [
+          23.070422535211268,
+          1.647887323943662,
+          0.5183098591549296
+        ],
+        [
+          23.31081081081081,
+          0.44594594594594605,
+          -0.44324324324324316
+        ],
+        [
+          23.333333333333336,
+          1.6666666666666667,
+          0.8
+        ],
+        [
+          23.4,
+          0.0,
+          -0.8
+        ],
+        [
+          23.734177215189874,
+          0.0,
+          -0.46582278481012657
+        ],
+        [
+          24.318181818181817,
+          0.3787878787878789,
+          0.49696969696969684
+        ],
+        [
+          24.642857142857142,
+          0.3571428571428572,
+          0.8
+        ],
+        [
+          24.718309859154928,
+          0.0,
+          0.5183098591549296
+        ],
+        [
+          25.0,
+          0.0,
+          0.8
+        ]
+      ],
+      "stationary_certificate": {
+        "relative_x_range_mm": [
+          0.0,
+          0.0
+        ],
+        "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+        "certified_intervals": 0,
+        "intersections": [],
+        "unresolved_intervals": [],
+        "samples": [],
+        "intersection_volume_mm3": 0.0,
+        "minimum_gap_mm": 2.0,
+        "gap_search_cap_mm": 2.0,
+        "gap_is_lower_bound": true,
+        "method": "AABB gap lower bound exceeds search cap"
+      },
+      "active_Q_e_polygon_mm": [
+        [
+          24.2,
+          -0.8
+        ],
+        [
+          30.8,
+          -0.8
+        ],
+        [
+          29.2,
+          0.8
+        ],
+        [
+          24.2,
+          0.8
+        ]
+      ],
+      "active_preload_range_mm": [
+        0.0,
+        2.0
+      ],
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "pair": [
+        "H09b",
+        "P02"
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "user_preload_trim_domain_vertices_mm": [
+        [
+          0.0,
+          0.0,
+          -0.8
+        ],
+        [
+          0.0,
+          0.0,
+          0.8
+        ],
+        [
+          30.0,
+          0.0,
+          -0.8
+        ],
+        [
+          30.0,
+          0.0,
+          0.8
+        ],
+        [
+          28.0,
+          2.0,
+          -0.8
+        ],
+        [
+          28.0,
+          2.0,
+          0.8
+        ],
+        [
+          0.0,
+          2.0,
+          -0.8
+        ],
+        [
+          0.0,
+          2.0,
+          0.8
+        ]
+      ],
+      "effective_actuator_Q_range_mm": [
+        -0.8,
+        30.8
+      ],
+      "model": "Q=u+p-e; fixed pivot29.5/-13.1/10.7; roller centerX=min37.4,61.6-Q; approximate source actuator only",
+      "certified_prisms": 2,
+      "intersections": [],
+      "unresolved_prisms": [],
+      "samples": [
+        {
+          "effective_Q_mm": 24.2,
+          "user_stroke_mm": 23.4,
+          "preload_mm": 0.0,
+          "trim_mm": -0.8,
+          "intersection_volume_mm3": 0.0,
+          "minimum_gap_mm": 0.01,
+          "gap_search_cap_mm": 0.01,
+          "gap_is_lower_bound": true,
+          "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+          "method": "AABB gap lower bound exceeds search cap"
+        },
+        {
+          "effective_Q_mm": 24.2,
+          "user_stroke_mm": 21.4,
+          "preload_mm": 2.0,
+          "trim_mm": -0.8,
+          "intersection_volume_mm3": 0.0,
+          "minimum_gap_mm": 0.01,
+          "gap_search_cap_mm": 0.01,
+          "gap_is_lower_bound": true,
+          "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+          "method": "AABB gap lower bound exceeds search cap"
+        },
+        {
+          "effective_Q_mm": 30.8,
+          "user_stroke_mm": 30.0,
+          "preload_mm": 0.0,
+          "trim_mm": -0.8,
+          "intersection_volume_mm3": 0.0,
+          "minimum_gap_mm": 0.01,
+          "gap_search_cap_mm": 0.01,
+          "gap_is_lower_bound": true,
+          "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+          "method": "AABB gap lower bound exceeds search cap"
+        },
+        {
+          "effective_Q_mm": 30.8,
+          "user_stroke_mm": 28.0,
+          "preload_mm": 2.0,
+          "trim_mm": -0.8,
+          "intersection_volume_mm3": 0.0,
+          "minimum_gap_mm": 0.01,
+          "gap_search_cap_mm": 0.01,
+          "gap_is_lower_bound": true,
+          "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+          "method": "AABB gap lower bound exceeds search cap"
+        },
+        {
+          "effective_Q_mm": 29.2,
+          "user_stroke_mm": 30.0,
+          "preload_mm": 0.0,
+          "trim_mm": 0.8,
+          "intersection_volume_mm3": 0.0,
+          "minimum_gap_mm": 0.01,
+          "gap_search_cap_mm": 0.01,
+          "gap_is_lower_bound": true,
+          "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+          "method": "AABB gap lower bound exceeds search cap"
+        },
+        {
+          "effective_Q_mm": 29.2,
+          "user_stroke_mm": 28.0,
+          "preload_mm": 2.0,
+          "trim_mm": 0.8,
+          "intersection_volume_mm3": 0.0,
+          "minimum_gap_mm": 0.01,
+          "gap_search_cap_mm": 0.01,
+          "gap_is_lower_bound": true,
+          "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+          "method": "AABB gap lower bound exceeds search cap"
+        },
+        {
+          "effective_Q_mm": 24.2,
+          "user_stroke_mm": 25.0,
+          "preload_mm": 0.0,
+          "trim_mm": 0.8,
+          "intersection_volume_mm3": 0.0,
+          "minimum_gap_mm": 0.01,
+          "gap_search_cap_mm": 0.01,
+          "gap_is_lower_bound": true,
+          "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+          "method": "AABB gap lower bound exceeds search cap"
+        },
+        {
+          "effective_Q_mm": 24.2,
+          "user_stroke_mm": 23.0,
+          "preload_mm": 2.0,
+          "trim_mm": 0.8,
+          "intersection_volume_mm3": 0.0,
+          "minimum_gap_mm": 0.01,
+          "gap_search_cap_mm": 0.01,
+          "gap_is_lower_bound": true,
+          "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+          "method": "AABB gap lower bound exceeds search cap"
+        }
+      ],
+      "stationary_actuator_domain_vertices_u_p_e_mm": [
+        [
+          0.0,
+          0.0,
+          -0.8
+        ],
+        [
+          0.0,
+          0.0,
+          0.8
+        ],
+        [
+          0.0,
+          2.0,
+          -0.8
+        ],
+        [
+          0.0,
+          2.0,
+          0.8
+        ],
+        [
+          21.4,
+          2.0,
+          -0.8
+        ],
+        [
+          21.756756756756754,
+          2.0,
+          -0.44324324324324316
+        ],
+        [
+          21.839999999999996,
+          1.5599999999999998,
+          -0.8
+        ],
+        [
+          22.151898734177216,
+          1.5822784810126582,
+          -0.46582278481012657
+        ],
+        [
+          22.696969696969695,
+          2.0,
+          0.49696969696969684
+        ],
+        [
+          22.928571428571427,
+          0.47142857142857153,
+          -0.8
+        ],
+        [
+          23.0,
+          2.0,
+          0.8
+        ],
+        [
+          23.070422535211268,
+          1.647887323943662,
+          0.5183098591549296
+        ],
+        [
+          23.31081081081081,
+          0.44594594594594605,
+          -0.44324324324324316
+        ],
+        [
+          23.333333333333336,
+          1.6666666666666667,
+          0.8
+        ],
+        [
+          23.4,
+          0.0,
+          -0.8
+        ],
+        [
+          23.734177215189874,
+          0.0,
+          -0.46582278481012657
+        ],
+        [
+          24.318181818181817,
+          0.3787878787878789,
+          0.49696969696969684
+        ],
+        [
+          24.642857142857142,
+          0.3571428571428572,
+          0.8
+        ],
+        [
+          24.718309859154928,
+          0.0,
+          0.5183098591549296
+        ],
+        [
+          25.0,
+          0.0,
+          0.8
+        ]
+      ],
+      "stationary_certificate": {
+        "relative_x_range_mm": [
+          0.0,
+          0.0
+        ],
+        "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+        "certified_intervals": 0,
+        "intersections": [],
+        "unresolved_intervals": [],
+        "samples": [],
+        "intersection_volume_mm3": 0.0,
+        "minimum_gap_mm": 2.0,
+        "gap_search_cap_mm": 2.0,
+        "gap_is_lower_bound": true,
+        "method": "AABB gap lower bound exceeds search cap"
+      },
+      "active_Q_e_polygon_mm": [
+        [
+          24.2,
+          -0.8
+        ],
+        [
+          30.8,
+          -0.8
+        ],
+        [
+          29.2,
+          0.8
+        ],
+        [
+          24.2,
+          0.8
+        ]
+      ],
+      "active_preload_range_mm": [
+        0.0,
+        2.0
+      ],
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "pair": [
+        "H10",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        -30.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0,
+      "relative_x_coefficients_stroke_preload": [
+        -1.0,
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "pair": [
+        "H11",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "H12",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_AT_NUMERICAL_VOLUME_TOLERANCE",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Conservative complete swept convex-hull intersection volume bounds every pose",
+      "complete_swept_envelope_intersection_upper_bound_mm3": 0.0,
+      "maximum_sampled_volume_mm3": 0.0,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "H13",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 3,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [
+        {
+          "relative_x_mm": 0.0,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.01,
+          "gap_search_cap_mm": 0.01
+        },
+        {
+          "relative_x_mm": 0.25,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.26,
+          "gap_search_cap_mm": 0.26
+        },
+        {
+          "relative_x_mm": 0.5,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 0.51
+        },
+        {
+          "relative_x_mm": 0.75,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.26,
+          "gap_search_cap_mm": 0.26
+        },
+        {
+          "relative_x_mm": 1.0,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5590169943749475,
+          "gap_search_cap_mm": 1.01
+        },
+        {
+          "relative_x_mm": 1.5,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.51,
+          "gap_search_cap_mm": 0.51
+        },
+        {
+          "relative_x_mm": 2.0,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.01,
+          "gap_search_cap_mm": 0.01
+        }
+      ],
+      "maximum_sampled_volume_mm3": 0.0,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "H15",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 0.25,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": false,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "H160",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "H161",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "H170",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "H171",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "H180",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_AT_NUMERICAL_VOLUME_TOLERANCE",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Conservative complete swept convex-hull intersection volume bounds every pose",
+      "complete_swept_envelope_intersection_upper_bound_mm3": 0.0,
+      "maximum_sampled_volume_mm3": 0.0,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "H181",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_AT_NUMERICAL_VOLUME_TOLERANCE",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Conservative complete swept convex-hull intersection volume bounds every pose",
+      "complete_swept_envelope_intersection_upper_bound_mm3": 0.0,
+      "maximum_sampled_volume_mm3": 0.0,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "H190",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_AT_NUMERICAL_VOLUME_TOLERANCE",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Conservative complete swept convex-hull intersection volume bounds every pose",
+      "complete_swept_envelope_intersection_upper_bound_mm3": 0.0,
+      "maximum_sampled_volume_mm3": 0.0,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "H191",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_AT_NUMERICAL_VOLUME_TOLERANCE",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Conservative complete swept convex-hull intersection volume bounds every pose",
+      "complete_swept_envelope_intersection_upper_bound_mm3": 0.0,
+      "maximum_sampled_volume_mm3": 0.0,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "H20",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "H21",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "H22",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "H23",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "H240",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_AT_NUMERICAL_VOLUME_TOLERANCE",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Conservative complete swept convex-hull intersection volume bounds every pose",
+      "complete_swept_envelope_intersection_upper_bound_mm3": 0.0,
+      "maximum_sampled_volume_mm3": 0.0,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "H241",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_AT_NUMERICAL_VOLUME_TOLERANCE",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Conservative complete swept convex-hull intersection volume bounds every pose",
+      "complete_swept_envelope_intersection_upper_bound_mm3": 0.0,
+      "maximum_sampled_volume_mm3": 0.0,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "H242",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_AT_NUMERICAL_VOLUME_TOLERANCE",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Conservative complete swept convex-hull intersection volume bounds every pose",
+      "complete_swept_envelope_intersection_upper_bound_mm3": 0.0,
+      "maximum_sampled_volume_mm3": 0.0,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "H243",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_AT_NUMERICAL_VOLUME_TOLERANCE",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Conservative complete swept convex-hull intersection volume bounds every pose",
+      "complete_swept_envelope_intersection_upper_bound_mm3": 0.0,
+      "maximum_sampled_volume_mm3": 0.0,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "H250",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_AT_NUMERICAL_VOLUME_TOLERANCE",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Conservative complete swept convex-hull intersection volume bounds every pose",
+      "complete_swept_envelope_intersection_upper_bound_mm3": 0.0,
+      "maximum_sampled_volume_mm3": 0.0,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "H251",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_AT_NUMERICAL_VOLUME_TOLERANCE",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Conservative complete swept convex-hull intersection volume bounds every pose",
+      "complete_swept_envelope_intersection_upper_bound_mm3": 0.0,
+      "maximum_sampled_volume_mm3": 0.0,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "H252",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_AT_NUMERICAL_VOLUME_TOLERANCE",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Conservative complete swept convex-hull intersection volume bounds every pose",
+      "complete_swept_envelope_intersection_upper_bound_mm3": 0.0,
+      "maximum_sampled_volume_mm3": 0.0,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "H253",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_AT_NUMERICAL_VOLUME_TOLERANCE",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Conservative complete swept convex-hull intersection volume bounds every pose",
+      "complete_swept_envelope_intersection_upper_bound_mm3": 0.0,
+      "maximum_sampled_volume_mm3": 0.0,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P01",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": -3.0878077872387166e-15,
+      "minimum_gap_mm": 0.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": false,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P04",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        -30.0,
+        -0.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0,
+      "relative_x_coefficients_stroke_preload": [
+        -1.0,
+        -0.0,
+        -0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "P05"
+      ],
+      "relative_x_range_mm": [
+        -2.0,
+        0.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "P060"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "P061"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "P070a"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "P070b"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "P071a"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "P071b"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "P08"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 5.945064165343953e-17,
+      "minimum_gap_mm": 0.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": false,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "P09"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 0.6000003814697266,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": false,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "P10"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P11",
+        "P02"
+      ],
+      "relative_x_range_mm": [
+        -30.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0,
+      "relative_x_coefficients_stroke_preload": [
+        -1.0,
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_C1"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_C10"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_C11"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_C12"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_C13"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_C14"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_C15"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_C16"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_C2"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_C3"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_C4"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_C5"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_C6"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_C7"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_C8"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_C9"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_D1"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_J1"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 1.75,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": false,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_J2"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_J3"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_L1"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_Q1"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_R1"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_R10"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_R11"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_R12"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_R13"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_R14"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_R15"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_R16"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_R17"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_R18"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_R19"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_R2"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_R20"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_R21"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_R3"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_R4"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_R5"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_R6"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_R7"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_R8"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_R9"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_SW2"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_U1"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_U2"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_U3"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pair": [
+        "P02",
+        "PCB_U4"
+      ],
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap",
+      "relative_x_coefficients_stroke_preload": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "continuous_palm_spring_envelopes": [
+    {
+      "side": -1,
+      "target": "P02",
+      "outer_radius_mm": 7.4,
+      "inner_radius_mm": 5.24,
+      "target_frame_axial_envelope_mm": [
+        12.0,
+        108.0
+      ],
+      "envelope_scope": "Conservative annular occupancy enclosing both nominal bought-spring source wires over full u/p/e domain; not coil-bind or fatigue proof",
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "side": 1,
+      "target": "P02",
+      "outer_radius_mm": 7.4,
+      "inner_radius_mm": 5.24,
+      "target_frame_axial_envelope_mm": [
+        12.0,
+        108.0
+      ],
+      "envelope_scope": "Conservative annular occupancy enclosing both nominal bought-spring source wires over full u/p/e domain; not coil-bind or fatigue proof",
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "method": "AABB gap lower bound exceeds search cap"
+    }
+  ],
+  "palm_related_service_paths": [
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H01"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H02"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H040"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Empty exact transverse slab",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H041"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Empty exact transverse slab",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H050"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H051"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H060"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H061"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H09"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H09a"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H09b"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H10"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H11"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Empty exact transverse slab",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H12"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Empty exact transverse slab",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H13"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Empty exact transverse slab",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H15"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Empty exact transverse slab",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H160"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Empty exact transverse slab",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H161"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Empty exact transverse slab",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H170"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Empty exact transverse slab",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H171"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Empty exact transverse slab",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H180"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Empty exact transverse slab",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H181"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Empty exact transverse slab",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H190"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Empty exact transverse slab",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H191"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Empty exact transverse slab",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H20"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H21"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Empty exact transverse slab",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H22"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Empty exact transverse slab",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H23"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H240"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H241"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H242"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H243"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H250"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Empty exact transverse slab",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H251"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Empty exact transverse slab",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H252"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Empty exact transverse slab",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "H253"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Empty exact transverse slab",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "P01"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 48,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [
+        {
+          "relative_x_mm": 0.0,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.001000000000000334,
+          "gap_search_cap_mm": 0.01
+        },
+        {
+          "relative_x_mm": 0.15625,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.15725000000000033,
+          "gap_search_cap_mm": 0.16625
+        },
+        {
+          "relative_x_mm": 0.3125,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.25,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 0.46875,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.16625,
+          "gap_search_cap_mm": 0.16625
+        },
+        {
+          "relative_x_mm": 0.625,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.25,
+          "gap_search_cap_mm": 0.635
+        },
+        {
+          "relative_x_mm": 0.78125,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.16625,
+          "gap_search_cap_mm": 0.16625
+        },
+        {
+          "relative_x_mm": 0.9375,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.25,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 1.09375,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.16625,
+          "gap_search_cap_mm": 0.16625
+        },
+        {
+          "relative_x_mm": 1.25,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.25,
+          "gap_search_cap_mm": 1.26
+        },
+        {
+          "relative_x_mm": 1.40625,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.16625,
+          "gap_search_cap_mm": 0.16625
+        },
+        {
+          "relative_x_mm": 1.5625,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.2579384616531628,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 1.71875,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.16625,
+          "gap_search_cap_mm": 0.16625
+        },
+        {
+          "relative_x_mm": 1.875,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.4515263004521452,
+          "gap_search_cap_mm": 0.635
+        },
+        {
+          "relative_x_mm": 2.1875,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 2.5,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 2.51
+        },
+        {
+          "relative_x_mm": 2.8125,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 3.125,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 0.635
+        },
+        {
+          "relative_x_mm": 3.4375,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 3.75,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 1.26
+        },
+        {
+          "relative_x_mm": 4.0625,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 4.375,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 0.635
+        },
+        {
+          "relative_x_mm": 4.6875,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 5.0,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 5.01
+        },
+        {
+          "relative_x_mm": 5.3125,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 5.625,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 0.635
+        },
+        {
+          "relative_x_mm": 5.9375,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 6.25,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 1.26
+        },
+        {
+          "relative_x_mm": 6.5625,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 6.875,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 0.635
+        },
+        {
+          "relative_x_mm": 7.1875,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 7.5,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 2.51
+        },
+        {
+          "relative_x_mm": 7.8125,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 8.125,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 0.635
+        },
+        {
+          "relative_x_mm": 8.4375,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 8.75,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 1.26
+        },
+        {
+          "relative_x_mm": 9.0625,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 9.375,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 0.635
+        },
+        {
+          "relative_x_mm": 9.6875,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 10.0,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 10.01
+        },
+        {
+          "relative_x_mm": 10.3125,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 10.625,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 0.635
+        },
+        {
+          "relative_x_mm": 10.9375,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 11.25,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 1.26
+        },
+        {
+          "relative_x_mm": 11.5625,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 11.875,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 0.635
+        },
+        {
+          "relative_x_mm": 12.1875,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 12.5,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 2.51
+        },
+        {
+          "relative_x_mm": 12.8125,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 13.125,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 0.635
+        },
+        {
+          "relative_x_mm": 13.4375,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 13.75,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 1.26
+        },
+        {
+          "relative_x_mm": 14.0625,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 14.375,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 0.635
+        },
+        {
+          "relative_x_mm": 14.6875,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 15.0,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 5.01
+        },
+        {
+          "relative_x_mm": 15.3125,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 15.625,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 0.635
+        },
+        {
+          "relative_x_mm": 15.9375,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 16.25,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 1.26
+        },
+        {
+          "relative_x_mm": 16.5625,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 16.875,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 0.635
+        },
+        {
+          "relative_x_mm": 17.1875,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 17.5,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 2.51
+        },
+        {
+          "relative_x_mm": 17.8125,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 18.125,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 0.635
+        },
+        {
+          "relative_x_mm": 18.4375,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 18.75,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 1.26
+        },
+        {
+          "relative_x_mm": 19.0625,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 19.375,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 0.635
+        },
+        {
+          "relative_x_mm": 19.6875,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 20.0,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 20.01
+        },
+        {
+          "relative_x_mm": 20.3125,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 20.625,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 0.635
+        },
+        {
+          "relative_x_mm": 20.9375,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 21.25,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 1.26
+        },
+        {
+          "relative_x_mm": 21.5625,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 21.875,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 0.635
+        },
+        {
+          "relative_x_mm": 22.1875,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 22.5,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 2.51
+        },
+        {
+          "relative_x_mm": 22.8125,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 23.125,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5,
+          "gap_search_cap_mm": 0.635
+        },
+        {
+          "relative_x_mm": 23.4375,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 23.75,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.5594649229397665,
+          "gap_search_cap_mm": 1.26
+        },
+        {
+          "relative_x_mm": 24.0625,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 24.375,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.6000003814697266,
+          "gap_search_cap_mm": 0.635
+        },
+        {
+          "relative_x_mm": 24.6875,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 25.0,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.6000003814697266,
+          "gap_search_cap_mm": 5.01
+        },
+        {
+          "relative_x_mm": 25.3125,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 25.625,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.6000003814697266,
+          "gap_search_cap_mm": 0.635
+        },
+        {
+          "relative_x_mm": 25.9375,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.3225,
+          "gap_search_cap_mm": 0.3225
+        },
+        {
+          "relative_x_mm": 26.25,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.6000003814697266,
+          "gap_search_cap_mm": 1.26
+        },
+        {
+          "relative_x_mm": 26.875,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.635,
+          "gap_search_cap_mm": 0.635
+        },
+        {
+          "relative_x_mm": 27.5,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 1.1670481814234632,
+          "gap_search_cap_mm": 2.51
+        },
+        {
+          "relative_x_mm": 30.0,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 3.5520418716231092,
+          "gap_search_cap_mm": 10.01
+        },
+        {
+          "relative_x_mm": 40.0,
+          "intersection_volume_mm3": 0.0,
+          "gap_mm": 0.01,
+          "gap_search_cap_mm": 0.01
+        }
+      ],
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "P04"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "P05"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "P060"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "P061"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "P070a"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "P070b"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "P071a"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "P071b"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Complete palm/electronics module upward release",
+      "pair": [
+        "P02",
+        "P11"
+      ],
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        40
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 2.0,
+      "relative_x_range_mm": [
+        0.0,
+        40.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Vertical cam clamp upward removal",
+      "pair": [
+        "H10",
+        "P02"
+      ],
+      "prerequisites": "Usertravel0/preload0/trim0; restrain/remove spring energy and unscrew H10 completely. Nominal rigid hardware envelope only.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        20
+      ],
+      "removed_refs": [],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        20.0
+      ],
+      "status": "COMPLETE_CONSERVATIVE_CONVEX_COVER_CONTINUOUS_CLEARANCE_CERTIFIED",
+      "method": "Complete conservative convex-cylinder cover, each swept against full target; all native triangles and full solid inclusion independently checked",
+      "uncovered_native_triangles": 0,
+      "uncovered_input_volume_mm3": 0.0,
+      "input_coverage_volume_tolerance_mm3": 1e-08,
+      "cover_specs": [
+        {
+          "type": "cylinder_z",
+          "x_mm": 65.5,
+          "y_mm": 3.5,
+          "start_z_mm": 25.0,
+          "end_z_mm": 28.0,
+          "radius_mm": 2.75001
+        },
+        {
+          "type": "cylinder_z",
+          "x_mm": 65.5,
+          "y_mm": 3.5,
+          "start_z_mm": 15.0,
+          "end_z_mm": 25.1,
+          "radius_mm": 1.50001
+        }
+      ],
+      "cover_sweeps": [
+        {
+          "relative_x_range_mm": [
+            0.0,
+            20.0
+          ],
+          "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+          "certified_intervals": 1,
+          "intersections": [],
+          "unresolved_intervals": [],
+          "samples": [],
+          "method": "Swept AABB separation including permitted exterior boundary touch",
+          "maximum_sampled_volume_mm3": 0.0
+        },
+        {
+          "relative_x_range_mm": [
+            0.0,
+            20.0
+          ],
+          "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+          "certified_intervals": 1,
+          "intersections": [],
+          "unresolved_intervals": [],
+          "samples": [],
+          "method": "Swept AABB separation including permitted exterior boundary touch",
+          "maximum_sampled_volume_mm3": 0.0
+        }
+      ],
+      "complete_cover_overlap_upper_bound_mm3": 0.0,
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Unclamped stepped shoe forward release",
+      "pair": [
+        "P11",
+        "P02"
+      ],
+      "prerequisites": "Usertravel0/preload0/trim0; spring energy removed, vertical H10 fully removed. Slide shoe9mm wristward through the open-front well; do not lift through the narrow roof slot.",
+      "direction": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "parameter_range_mm": [
+        0,
+        9
+      ],
+      "removed_refs": [
+        "H10"
+      ],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        9.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "name": "Stepped shoe upward removal after forward release",
+      "pair": [
+        "P11",
+        "P02"
+      ],
+      "prerequisites": "Same safe-unloaded neutral setup and H10 removal; shoe already slid9mm wristward and lies0.5mm outside the carriage front.",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "parameter_range_mm": [
+        0,
+        25
+      ],
+      "removed_refs": [
+        "H10"
+      ],
+      "native_start_stroke_mm": 0.0,
+      "native_start_preload_mm": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        25.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    }
+  ],
+  "failed_or_unresolved_rows": []
+}

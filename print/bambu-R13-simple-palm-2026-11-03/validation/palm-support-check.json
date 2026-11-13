@@ -1,0 +1,161 @@
+{
+  "status": "PASS_FINAL_R13_PALM_SUPPORTS",
+  "failed_count": 0,
+  "failures": [],
+  "checks": [
+    {
+      "name": "Default automatic bridge direction retained for P01",
+      "status": "PASS",
+      "actual_bridge_angle": "0"
+    },
+    {
+      "name": "Palm support contacts and structures remain within retained R12 envelopes",
+      "status": "PASS",
+      "new_outside_area_sum_mm2": 0,
+      "contact_coordinate_tolerance_mm": 0.02,
+      "bulk_coordinate_tolerance_mm": 0.05,
+      "new_support_segments": 4151,
+      "baseline_support_segments": 4152,
+      "new_regions": [],
+      "fine_bulk_deltas": [
+        {
+          "feature": "Support",
+          "top_z_mm": 11.75,
+          "outside_0_02mm_area_mm2": 0.015287728638436863,
+          "bounds_xy_mm": [
+            -27.652200480363863,
+            57.70270567152346,
+            -25.825040943453583,
+            59.82829703782857
+          ]
+        }
+      ],
+      "method": "Actual bead footprints compared separately by feature, top Z and layer height. Interface/transition contacts use0.02 mm tolerance; bulk roads use0.05 mm (one eighth of nozzle diameter) to account for tessellation and changed road endpoints. Full actual beads also undergo the independent exact added-stock removal sweep below; this comparison does not waive new contacts or new support layers."
+    },
+    {
+      "name": "New rounded palm contact rail stays support-free",
+      "status": "PASS",
+      "support_segments": 0
+    },
+    {
+      "name": "Tent underside closes with short actual bridge side-1",
+      "status": "PASS",
+      "model_segments": 763,
+      "bridge_segments": 92,
+      "longest_actual_unbacked_centerline_mm": 0.46016844613489194,
+      "layer_evidence": [
+        {
+          "native_top_z_mm": 12.2,
+          "prior_layer_model_segments": 53,
+          "longest_actual_unbacked_centerline_mm": 0.46016844613489194
+        }
+      ]
+    },
+    {
+      "name": "Functional front rod-socket roof bridge not lengthened side-1",
+      "status": "PASS",
+      "longest_actual_unbacked_centerline_mm": {
+        "R12": 2.1880100000000056,
+        "R13": 2.1880100000000056
+      },
+      "layer_evidence": {
+        "R12": [
+          {
+            "native_top_z_mm": 21.2,
+            "prior_layer_model_segments": 40,
+            "longest_actual_unbacked_centerline_mm": 2.1880100000000056
+          }
+        ],
+        "R13": [
+          {
+            "native_top_z_mm": 21.2,
+            "prior_layer_model_segments": 103,
+            "longest_actual_unbacked_centerline_mm": 2.1880100000000056
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tent underside closes with short actual bridge side1",
+      "status": "PASS",
+      "model_segments": 766,
+      "bridge_segments": 93,
+      "longest_actual_unbacked_centerline_mm": 0.4500108595838252,
+      "layer_evidence": [
+        {
+          "native_top_z_mm": 12.2,
+          "prior_layer_model_segments": 56,
+          "longest_actual_unbacked_centerline_mm": 0.4500108595838252
+        }
+      ]
+    },
+    {
+      "name": "Functional front rod-socket roof bridge not lengthened side1",
+      "status": "PASS",
+      "longest_actual_unbacked_centerline_mm": {
+        "R12": 2.1880100000000056,
+        "R13": 2.1880100000000056
+      },
+      "layer_evidence": {
+        "R12": [
+          {
+            "native_top_z_mm": 21.2,
+            "prior_layer_model_segments": 44,
+            "longest_actual_unbacked_centerline_mm": 2.1880100000000056
+          }
+        ],
+        "R13": [
+          {
+            "native_top_z_mm": 21.2,
+            "prior_layer_model_segments": 100,
+            "longest_actual_unbacked_centerline_mm": 2.1880100000000056
+          }
+        ]
+      }
+    },
+    {
+      "name": "Existing electronics underside below Z9.5 unchanged",
+      "status": "PASS",
+      "difference_mm3": 0.0
+    },
+    {
+      "name": "Added palm stock creates no new wristward support-removal obstruction",
+      "status": "PASS",
+      "actual_support_beads": 4151,
+      "exact_overlap_candidates": 36,
+      "maximum_intersection_mm3": 0.0,
+      "worst": null,
+      "method": "Conservative full-bead boxes including arc extrema swept toward X\u221260 and intersected with added CAD material only; demonstrates no new obstruction relative to R12, not physical break-away force."
+    },
+    {
+      "name": "Checked slice and layout stayed unchanged",
+      "status": "PASS"
+    }
+  ],
+  "metrics": {
+    "support_features": {
+      "R13": {
+        "Support": 3915,
+        "Support transition": 110,
+        "Support interface": 126
+      },
+      "R12": {
+        "Support": 3916,
+        "Support transition": 110,
+        "Support interface": 126
+      }
+    }
+  },
+  "CAD_source_sha256": "82b7d65708c46cd9d4b6ac271047eac2f638f0222451df99eae0780525edd851",
+  "layout_sha256": "38541a950ca2d57b2e9ee1ebc7a0a6ee5eec55eb72cd828e95c896429752d72f",
+  "sliced_archive_sha256": "5463d749a769ac93ddc487e230c0423284ad4a8a46419d368b97d1ed59010f69",
+  "native_step_sha256": "34503fabce855c834e2d495a33e8a4c834b651c52cc138e4d2d25ded66348530",
+  "baseline_native_step_sha256": "b2c076642b22f99a251b8e2a6ac20da9f251696e892448a2651ee8b636f32021",
+  "baseline_sliced_archive_sha256": "4944d6e090a8048ba8639c9e7c04fd672f24312208422febea1680ba05681e4e",
+  "validator_sha256": "cdaadea2121858aa77d07d7a85660f417368a2fe179e7b58db97eadee01179e5",
+  "scope": "New palm underside bridges, retained front socket bridges, actual support footprint changes and added-CAD obstruction of wristward cleanup.",
+  "limitations": [
+    "No physical surface, PLA fit, fatigue or strength qualification.",
+    "Support removal comparison preserves the R12 access assumption; no measured adhesive/break-away force."
+  ]
+}

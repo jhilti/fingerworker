@@ -1,0 +1,206 @@
+{
+  "status": "PASS_R14_NEAR_PALM_DELIVERY",
+  "date": "2026-11-06",
+  "cad_revision": "R14",
+  "CAD_source_sha256": "9286d5a51880dc79d1e9a07135e8c905f4022a1ed757801b8430f23f51a04829",
+  "onshape_version": "05c07284f9a5edf33d05f680",
+  "plate_count": 1,
+  "object_count": 6,
+  "device_parts": 5,
+  "unloaded_fixtures": 1,
+  "estimates": [
+    {
+      "plate": 1,
+      "seconds": 41544,
+      "grams": 242.34
+    }
+  ],
+  "estimated_seconds": 41544,
+  "estimated_grams": 242.34,
+  "verification": {
+    "print/bambu-R14-near-palm-2026-11-06/validation/native-project-check.json": {
+      "status": "PASS_NATIVE_R14_NEAR_PALM",
+      "sha256": "fe8dd331c57f5796b585c4c2b0726aff075c151387ab2c933150fd8bb5cdce19"
+    },
+    "print/bambu-R14-near-palm-2026-11-06/validation/toolpath-check.json": {
+      "status": "PASS_ACTUAL_R14_NEAR_PALM_TOOLPATHS",
+      "sha256": "8342bfbae0193d6f8fc8a83aa746f3ee56c7bcc8f24ce0630cf07f943dd4cd8b"
+    },
+    "print/bambu-R14-near-palm-2026-11-06/validation/print-feature-check.json": {
+      "status": "PASS_R14_PRINT_FEATURES",
+      "sha256": "d620cf8a88f71770c4bece092a13288d64130953910850c9b2c76c35a23e1e03"
+    },
+    "print/bambu-R14-near-palm-2026-11-06/validation/palm-support-check.json": {
+      "status": "PASS_R14_PALM_SUPPORTS",
+      "sha256": "441cbae94ac5bd914bc9ea66e31759c7425791b8c99a0ba909aafa71161dd69c"
+    },
+    "print/bambu-R14-near-palm-2026-11-06/validation/strap-slot-check.json": {
+      "status": "PASS_R14_STRAP_SLOT_PRINT_PATHS",
+      "sha256": "216aa487163bc33c14eba82958c409e153b8d4409aff6bc26d16f267a9f83a78"
+    },
+    "print/bambu-R14-near-palm-2026-11-06/validation/strap-routing-check.json": {
+      "status": "PASS_NATIVE_R14_STRAP_ROUTING",
+      "sha256": "59378b7c16c0fc7a5197b4b57cc2a1964807c3e8e37bafab48c115b0fed8813d"
+    },
+    "print/bambu-R14-near-palm-2026-11-06/validation/p04-surface-check.json": {
+      "status": "PASS",
+      "sha256": "70412f1628e23893814f17d9ac6b8292ad92e82046e2599e6df2dce0ed125184"
+    },
+    "print/bambu-R14-near-palm-2026-11-06/validation/cli-diagnostics.json": {
+      "status": "PASS_R14_OFFICIAL_H2D_DIAGNOSTICS",
+      "sha256": "e02292db5eb525668e0caf29a1ada43a6665ec141e908499c8a19643ff6c7c68"
+    },
+    "print/bambu-R14-near-palm-2026-11-06/validation/independent-profile-review.json": {
+      "status": "PASS_INDEPENDENT_PROFILE_REVIEW",
+      "sha256": "b2ff8ab314bcb4aa279ac5c54a2832470623c5a725a8965003dfbee7f8c20e2e"
+    }
+  },
+  "baseline_R13_specification_sha256": "204d9a9c321c00a0fe818b6b14307f36b5a0d6a4be19912739c68df55c0e3059",
+  "native_step_sha256": "ad1fb9bda2a999a953399451585e821181082535fdc15fe30b0b43e90b2c6054",
+  "native_zip_sha256": "c67db5e3b70d1e244d6cb95818e24c79e625508fc732d474314a3de74f94b3c8",
+  "files_sha256": {
+    "print/bambu-R14-near-palm-2026-11-06/Fingerworker_R14_H2D_04mm_PLA_Near_Palm.3mf": "62504e043e33255dd9de14eb83e0b5781f304bf02dd1950de56c2f67519e287c",
+    "print/bambu-R14-near-palm-2026-11-06/Fingerworker_R14_H2D_04mm_PLA_Near_Palm_Package.zip": "e97f8936dbeaf015cbcfe82aca8b85255e5b342c0fe27e12771e497f3f1f5d0d",
+    "print/bambu-R14-near-palm-2026-11-06/plate-layout.json": "5a1a4416cadcc2182cdd301965ffe738b909c1e5055679ead31b5a61b7cea8b7",
+    "print/bambu-R14-near-palm-2026-11-06/SHA256.json": "9eeacda3306ce350b758ebb877bdbfb5065e0679130672ab8558f0a37e98838d"
+  },
+  "geometry_changes": [
+    "P01"
+  ],
+  "connected_device_preview": null,
+  "gui_preview_limitation": {
+    "status": "NOT_COMPLETED_EXISTING_UNSAVED_USER_PROJECT",
+    "project_file": "print/bambu-R14-near-palm-2026-11-06/Fingerworker_R14_H2D_04mm_PLA_Near_Palm.3mf",
+    "project_sha256": "62504e043e33255dd9de14eb83e0b5781f304bf02dd1950de56c2f67519e287c",
+    "observations": [
+      "Connected Bambu Studio contains an unrelated unsaved project named * drag_4.",
+      "Device view shows an unrelated active Bubbler3DPrint_5_watersealed job.",
+      "Two File > New Window actions did not expose a separate empty window through the native UI. Existing unsaved project was preserved; R14 project was not substituted."
+    ],
+    "scope": "Native GUI reopen/slice only. Official Bambu CLI import, slicing and actual-toolpath audits are recorded separately.",
+    "print_started": false,
+    "existing_printer_job_modified": false
+  },
+  "profile_changes": {
+    "outer_wall_speed": 100,
+    "inner_wall_speed": 180,
+    "internal_solid_infill_speed": 160,
+    "sparse_infill_speed": 200,
+    "gap_infill_speed": 120,
+    "top_surface_speed": 60,
+    "support_speed": 100,
+    "default_acceleration": 6000,
+    "inner_wall_acceleration": 6000,
+    "outer_wall_acceleration": 1500,
+    "top_surface_acceleration": 1500,
+    "travel_acceleration": 8000,
+    "sparse_infill_density": "20%",
+    "enable_arc_fitting": "0"
+  },
+  "modifier_count": 4,
+  "local_density_modifiers": [
+    {
+      "name": "Strap eye X5 side-1 - local100% infill",
+      "native_bounds_mm": [
+        [
+          -17.5,
+          -78,
+          -2
+        ],
+        [
+          27.5,
+          -58,
+          4
+        ]
+      ],
+      "sparse_infill_density": "100%",
+      "sparse_infill_pattern": "zig-zag",
+      "purpose": "Solid ear and short base root; does not add printed geometry"
+    },
+    {
+      "name": "Strap eye X5 side1 - local100% infill",
+      "native_bounds_mm": [
+        [
+          -17.5,
+          58,
+          -2
+        ],
+        [
+          27.5,
+          78,
+          4
+        ]
+      ],
+      "sparse_infill_density": "100%",
+      "sparse_infill_pattern": "zig-zag",
+      "purpose": "Solid ear and short base root; does not add printed geometry"
+    },
+    {
+      "name": "Strap eye X80 side-1 - local100% infill",
+      "native_bounds_mm": [
+        [
+          57.5,
+          -78,
+          -2
+        ],
+        [
+          102.5,
+          -58,
+          4
+        ]
+      ],
+      "sparse_infill_density": "100%",
+      "sparse_infill_pattern": "zig-zag",
+      "purpose": "Solid ear and short base root; does not add printed geometry"
+    },
+    {
+      "name": "Strap eye X80 side1 - local100% infill",
+      "native_bounds_mm": [
+        [
+          57.5,
+          58,
+          -2
+        ],
+        [
+          102.5,
+          78,
+          4
+        ]
+      ],
+      "sparse_infill_density": "100%",
+      "sparse_infill_pattern": "zig-zag",
+      "purpose": "Solid ear and short base root; does not add printed geometry"
+    }
+  ],
+  "preview_provenance": {
+    "print/bambu-R14-near-palm-2026-11-06/validation/p04-preview-provenance.json": "9132275b8e4893504fc2dfd1bfd270563200cca7e509d54338fe265ac85a4b5e"
+  },
+  "omitted": [
+    "P08",
+    "P09",
+    "H040",
+    "H041"
+  ],
+  "CAD_verification": {
+    "review/near-palm-2026-11-06/validation/native-geometry.json": {
+      "status": "PASS_EXACT_NATIVE_R14",
+      "sha256": "c01dc7c6846d0185c18cfaa49eff2629003643e0194235fe7fafb725278886a9"
+    },
+    "review/near-palm-2026-11-06/validation/native-motion.json": {
+      "status": "PASS_NATIVE_FIXED_SUPPORT_AND_FULL_TRANSLATIONAL_MOTION",
+      "sha256": "f3dfa724250af0e262a786babed0b5f9897851d1ba82c6fb446606648e6f8fe7"
+    },
+    "review/near-palm-2026-11-06/validation/service-native.json": {
+      "status": "PASS_NATIVE_R14_SENSOR_SERVICE",
+      "sha256": "2cb010028c953500f05476487b46e943992739d32ae7b247041ea54b92b272c0"
+    },
+    "review/near-palm-2026-11-06/validation/fixture-q01-check.json": {
+      "status": "PASS_Q01_NATIVE_FIT",
+      "sha256": "6ed3a951b0bbfbeef8159b87e9acff2302b2cb4fbea7eb6da9a10906fc91a687"
+    }
+  },
+  "source_files_sha256": {
+    "review/near-palm-2026-11-06/fingerworker_R14_near_palm.fs": "9286d5a51880dc79d1e9a07135e8c905f4022a1ed757801b8430f23f51a04829",
+    "review/near-palm-2026-11-06/onshape-version.json": "7993e4ad0f088ced328af607986883f8070756696d780e59ce6236870b19d25c"
+  }
+}

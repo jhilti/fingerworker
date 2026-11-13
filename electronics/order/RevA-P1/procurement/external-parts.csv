@@ -1,0 +1,4 @@
+Designator,Quantity,Manufacturer,MPN,Value,Footprint,Description,Source,Purchase URL,Notes
+BT1,1,Adafruit,1570,Protected 100 mAh LiPo,,"Protected LiPo 3.7 V, 100 mAh; 31 x 11.5 x 3.8 mm nominal; JST-PH lead",https://cdn-shop.adafruit.com/product-files/1570/1570datasheet.pdf,https://www.adafruit.com/product/1570,Purchase separately. Verify actual connector polarity before plugging in. No battery in reflow/PCBA shipment.
+H1,1,TE Connectivity,FX1901-0001-0200-L,Force sensor 200 lbf,,"200 lbf compression bridge, FX1901; external, not a PCB component",https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocFormat=pdf&DocLang=English&DocNm=FX19&DocType=Data+Sheet&PartCntxt=FX1901-0001-0200-L,https://www.mouser.ch/c/?q=FX1901-0001-0200-L,
+SW1,1,Omron,SS-01GL2,Existing end switch,,"SS-01GL2 roller-lever microswitch; external; wire COM and NC, insulate NO",https://omronfs.omron.com/en_US/ecb/products/pdf/en-ss.pdf,https://www.mouser.ch/c/?q=SS-01GL2,

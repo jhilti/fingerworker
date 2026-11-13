@@ -1,0 +1,94 @@
+{
+  "study": "Routed PCB envelope study; NOT manufacturing release",
+  "cad_source_sha256": "0abd6f8573b17b37f4b42250eb3b14767007e4ff42b28e688b771df3c353c3d6",
+  "source_capture": "onshape-routed-electronics-audits.json",
+  "parameters": {
+    "lightSprings": true,
+    "isometricLock": false,
+    "preload_mm": 0,
+    "showHand": true,
+    "showElectronics": true
+  },
+  "part_count": 92,
+  "pose_results": [
+    {
+      "stroke_mm": 0,
+      "selected_pairs": 36,
+      "solid_interferences": 0,
+      "mechanical_contact_review_pairs": [
+        "Springs or lock sleeves / seats",
+        "Adjustment hardware / base",
+        "Sensor / translating cassette",
+        "Preload screw / cassette",
+        "Carriage / return pads",
+        "Spring seats / structure",
+        "Palm support / base",
+        "Palm sleeve / rigid support"
+      ],
+      "electronics_gaps_mm": {
+        "Electronics housing / mechanism": 0.10000000000000113,
+        "Electronics components / mechanism": 1.7499999999999998,
+        "Electronics components / housing": 0.29999999999999993,
+        "Battery / populated carrier and plug": 1.2999999999999992,
+        "USB approach / mechanism": 2.2000000000000006,
+        "USB approach / housing": 0.30000000000000077,
+        "Electronics study / hand": 5.400035222516293
+      }
+    },
+    {
+      "stroke_mm": 15,
+      "selected_pairs": 36,
+      "solid_interferences": 0,
+      "mechanical_contact_review_pairs": [
+        "Springs or lock sleeves / seats",
+        "Adjustment hardware / base",
+        "Sensor / translating cassette",
+        "Preload screw / cassette",
+        "Spring seats / structure",
+        "Palm support / base",
+        "Palm sleeve / rigid support"
+      ],
+      "electronics_gaps_mm": {
+        "Electronics housing / mechanism": 0.10000000000000113,
+        "Electronics components / mechanism": 1.7499999999999998,
+        "Electronics components / housing": 0.29999999999999993,
+        "Battery / populated carrier and plug": 1.2999999999999992,
+        "USB approach / mechanism": 2.2000000000000006,
+        "USB approach / housing": 0.30000000000000077,
+        "Electronics study / hand": 5.400035222516293
+      }
+    },
+    {
+      "stroke_mm": 30,
+      "selected_pairs": 36,
+      "solid_interferences": 0,
+      "mechanical_contact_review_pairs": [
+        "Springs or lock sleeves / seats",
+        "Adjustment hardware / base",
+        "Sensor / translating cassette",
+        "Preload screw / cassette",
+        "Carriage / full-travel screws",
+        "Adjustable cam / switch actuator",
+        "Spring seats / structure",
+        "Palm support / base",
+        "Palm sleeve / rigid support"
+      ],
+      "electronics_gaps_mm": {
+        "Electronics housing / mechanism": 0.10000000000000113,
+        "Electronics components / mechanism": 1.7499999999999998,
+        "Electronics components / housing": 0.29999999999999993,
+        "Battery / populated carrier and plug": 1.2999999999999992,
+        "USB approach / mechanism": 2.2000000000000006,
+        "USB approach / housing": 0.30000000000000077,
+        "Electronics study / hand": 5.400035222516293
+      }
+    }
+  ],
+  "limitations": [
+    "Three discrete positions; no continuous sweep, loaded deformation, or tolerance-stack validation.",
+    "Mechanical zero-gap contacts remain classified REVIEW; not general mechanical approval.",
+    "Housing/mechanism minimum 0.1 mm is insufficient as an unvalidated FDM tolerance allowance.",
+    "Component envelopes are not complete vendor STEP models; module/harness dimensions need physical checks.",
+    "No RF, thermal, battery swelling, cable bend, retention or electrical-function verification."
+  ]
+}

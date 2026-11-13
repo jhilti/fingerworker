@@ -1,0 +1,29 @@
+{
+  "status": "NATIVE_FOUNDATION_CHECKPOINT_NOT_FINAL",
+  "source": "review/organic-palm-2026-11-13/native-probe/R17_fixed_nested_id.fs",
+  "source_sha256": "98ae2cce0dd16401bd4aaa30de850711286ce56143b0259b5d858895de64e791",
+  "step": "review/organic-palm-2026-11-13/native-probe/Flat132_R18_thumb_foundation_AP214.step",
+  "step_sha256": "fa9a68d37e192b13045d6259a3f0eb8a9913f92805eab37982e691a60b19fa4c",
+  "workspace": "b4cdb9c00f1866c89fa345c0",
+  "baseline_version": "d4421f391a091e249b08aeb1",
+  "part_studio": "d253eb87b70818ebde8215f0",
+  "source_readback_match": true,
+  "visible_parts": 93,
+  "parameters": {
+    "previewTravel_mm": 0,
+    "camTrim_mm": 0,
+    "lightSprings": true,
+    "isometricLock": false,
+    "showHand": false,
+    "showElectronics": true
+  },
+  "export": {
+    "type": "STEP",
+    "schema": "AP214",
+    "preprocessing": "None",
+    "unique_parts": false,
+    "hidden_parts": true,
+    "Y_up": false
+  },
+  "purpose": "Native protected-interface reference before organic palm loft. This checkpoint does not contain the requested organic palm."
+}

@@ -1,0 +1,31 @@
+{
+  "status": "PASS_GUI_OPEN_AND_FRESH_SLICE",
+  "date": "2026-11-09",
+  "source_sha256": "1f492dd841c35a14f488be418e4f4dd8dea8edb63f3d321a492dc2ec3c907ab4",
+  "project_sha256": "a9ebaf5ba9c9296c1e85b162689dab32d13a7bb1ae3a0f826b355328594b89a0",
+  "onshape_version": "d4421f391a091e249b08aeb1",
+  "slicer": "Bambu Studio 2.8.2.61",
+  "opened_project": "print/bambu-R16-upright-grip-2026-11-09/Fingerworker_R16_H2D_04mm_PLA_Basic_Print_Ready.3mf",
+  "printer": "Bambu Lab H2D",
+  "nozzle_mm": 0.4,
+  "nozzle_flow": "Standard",
+  "active_nozzle": "left",
+  "filament_used": "1 PLA Basic",
+  "nozzle_grouping": "Manual / Benutzerdefiniert; only PLA 1 shown on left, right empty",
+  "plates": 1,
+  "objects": 6,
+  "gui_total_time": "10h59m",
+  "gui_grams": 238.18,
+  "gui_meters": 78.59,
+  "gui_layers": 675,
+  "gui_height_mm": 59.0,
+  "printer_job_started": false,
+  "send_dialog_opened": false,
+  "project_saved_from_gui": false,
+  "summary": "Finales R16-Projekt in Bambu Studio 2.8.2.61 geöffnet und frisch geslicet: eine H2D-Platte, sechs Teile, 0,4-mm-Standarddüse links, ausschließlich PLA 1. Vorschau zeigt 10 h 59 min und 238,18 g. Kein Druckauftrag gestartet.",
+  "observed_errors": [],
+  "limitations": [
+    "AMS slot mapping in the send dialog was not inspected.",
+    "Physical comfort, fit and load capacity remain to be checked on the print."
+  ]
+}

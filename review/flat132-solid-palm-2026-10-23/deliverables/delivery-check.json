@@ -1,0 +1,11 @@
+{
+  "path": "deliverables/Flat132_R6_Solid_Palm.zip",
+  "sha256": "08b93c48a5516ae8c867413af8ab6cf03c24ba9845856ce4456fc8fd731ef82b",
+  "bytes": 60584785,
+  "members": 118,
+  "crc_check": "PASS",
+  "member_sha256_checks": "PASS",
+  "print_STLs": 14,
+  "device_assembly_STLs": 52,
+  "ISO81_hardware_STLs": 2
+}

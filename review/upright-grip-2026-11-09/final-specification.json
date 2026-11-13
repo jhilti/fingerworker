@@ -1,0 +1,413 @@
+{
+  "revision": "Flat132 R16 upright integral palm grip",
+  "date": "2026-11-09",
+  "status": "PASS_NOMINAL_CAD_AND_PLA_PRINT",
+  "source_sha256": "1f492dd841c35a14f488be418e4f4dd8dea8edb63f3d321a492dc2ec3c907ab4",
+  "onshape_version": "d4421f391a091e249b08aeb1",
+  "onshape_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/d4421f391a091e249b08aeb1/e/d253eb87b70818ebde8215f0",
+  "changed": [
+    "P01"
+  ],
+  "new": [],
+  "removed": [],
+  "native_solids": 93,
+  "unchanged_exact_native_breps": 92,
+  "new_prints_required": [
+    "P01"
+  ],
+  "fit_test_pieces": 6,
+  "plates": 1,
+  "printed_device_bodies": 7,
+  "primary_printed_device_bodies": 5,
+  "primary_unloaded_fixtures": 1,
+  "omitted_from_primary_print": [
+    "P08",
+    "P09",
+    "H040",
+    "H041"
+  ],
+  "estimates": {
+    "seconds": 39569,
+    "filament_g": 238.18
+  },
+  "verification": {
+    "review/upright-grip-2026-11-09/validation/native-geometry.json": {
+      "status": "PASS_EXACT_NATIVE_R16",
+      "sha256": "c6982a4ae1e1c8174b8571bc7193f394bcbd21f180fed718ac4c336313e9fb23"
+    },
+    "review/upright-grip-2026-11-09/validation/native-motion.json": {
+      "status": "PASS_NATIVE_FIXED_SUPPORT_AND_FULL_TRANSLATIONAL_MOTION",
+      "sha256": "4675056744101f82131c24d64202d739bcf59b34b453962a14fac2d62bbe49ac"
+    },
+    "review/upright-grip-2026-11-09/validation/service-native.json": {
+      "status": "PASS_NATIVE_R16_SENSOR_SERVICE",
+      "sha256": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    "review/upright-grip-2026-11-09/validation/fixture-q01-check.json": {
+      "status": "PASS_Q01_NATIVE_FIT",
+      "sha256": "bae681861c65be2f9b44ba337a7118abe2d956bbb490f6fcc5343f1b03aebbca"
+    },
+    "review/upright-grip-2026-11-09/validation/native-stl-identity.json": {
+      "status": "PASS_92_UNCHANGED_NATIVE_STLS",
+      "sha256": "feac97a431072a6c6acc40eea434c3978314d78ececda974d0d1ad008955e325"
+    },
+    "review/upright-grip-2026-11-09/validation/native-step-trim-check.json": {
+      "status": "PASS_FINAL_NATIVE_STEP_TRIM",
+      "sha256": "844ac13fd13449ad44733aa51cb94d8b2e3e9449cf346ddd5bcde2021c5eeb81"
+    },
+    "review/upright-grip-2026-11-09/mechanics/preflight.json": {
+      "status": "PASS_LOCAL_UPRIGHT_GRIP",
+      "sha256": "935b1ec54e29a0dac49acb604b1a106c986c642cdcf6f8a4a778328fa14bf3a1"
+    },
+    "print/bambu-R16-upright-grip-2026-11-09/validation/native-project-check.json": {
+      "status": "PASS_NATIVE_R16_UPRIGHT_GRIP",
+      "sha256": "095089c28218c1554c58f754272016a95e76816b9aac173ad4750351c2f96564"
+    },
+    "print/bambu-R16-upright-grip-2026-11-09/validation/toolpath-check.json": {
+      "status": "PASS_ACTUAL_R16_UPRIGHT_GRIP_TOOLPATHS",
+      "sha256": "edcd1addefdcc80f895b14b20d8dd861e7fd2a9e4362a0405716672b5e95b1f4"
+    },
+    "print/bambu-R16-upright-grip-2026-11-09/validation/actual-path-check.json": {
+      "status": "PASS_R16_ACTUAL_PRINT_PATHS",
+      "sha256": "b2d6e59f7b469c5fdc8fedb70d8d45f0dd3e5a0e45dbb6cc70c2db0ed317cf6e"
+    },
+    "print/bambu-R16-upright-grip-2026-11-09/validation/connected-flow-check.json": {
+      "status": "PASS_CONNECTED_MATERIAL_FLOW",
+      "sha256": "eda121a08d4c3f27dc013862fc1bb9e246b0bca2a1464916febee69aae6a6f6e"
+    },
+    "print/bambu-R16-upright-grip-2026-11-09/validation/p04-surface-check.json": {
+      "status": "PASS",
+      "sha256": "9a852320f2fcb5e8e1c2f0b38e7374bb8c8be763192886a3ae79aafcf66c6f3e"
+    },
+    "print/bambu-R16-upright-grip-2026-11-09/validation/palm-contact-check.json": {
+      "status": "PASS_R16_PALM_CONTACT_SUPPORTS",
+      "sha256": "5aff1d05741cee51153ef2132c2082e80f1c1f762eadf90a13aec120591bd479"
+    },
+    "print/bambu-R16-upright-grip-2026-11-09/validation/cli-diagnostics.json": {
+      "status": "PASS_R16_OFFICIAL_H2D_DIAGNOSTICS",
+      "sha256": "3828a54665ffbde6627785ad153afffdd84bd5d64c0535d3659bab9b67165d23"
+    },
+    "print/bambu-R16-upright-grip-2026-11-09/validation/cad-R16-native-geometry.json": {
+      "status": "PASS_EXACT_NATIVE_R16",
+      "sha256": "c6982a4ae1e1c8174b8571bc7193f394bcbd21f180fed718ac4c336313e9fb23"
+    },
+    "print/bambu-R16-upright-grip-2026-11-09/validation/cad-R16-native-motion.json": {
+      "status": "PASS_NATIVE_FIXED_SUPPORT_AND_FULL_TRANSLATIONAL_MOTION",
+      "sha256": "4675056744101f82131c24d64202d739bcf59b34b453962a14fac2d62bbe49ac"
+    },
+    "print/bambu-R16-upright-grip-2026-11-09/validation/cad-R16-service-native.json": {
+      "status": "PASS_NATIVE_R16_SENSOR_SERVICE",
+      "sha256": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    "print/bambu-R16-upright-grip-2026-11-09/validation/cad-R16-fixture-q01-check.json": {
+      "status": "PASS_Q01_NATIVE_FIT",
+      "sha256": "bae681861c65be2f9b44ba337a7118abe2d956bbb490f6fcc5343f1b03aebbca"
+    },
+    "print/bambu-R16-upright-grip-2026-11-09/validation/cad-R16-native-stl-identity.json": {
+      "status": "PASS_92_UNCHANGED_NATIVE_STLS",
+      "sha256": "feac97a431072a6c6acc40eea434c3978314d78ececda974d0d1ad008955e325"
+    },
+    "print/bambu-R16-upright-grip-2026-11-09/validation/gui-check.json": {
+      "status": "PASS_GUI_OPEN_AND_FRESH_SLICE",
+      "sha256": "e86c17fe1620914bdccfee72de578a07ff6ec1c73f2ac6f9fa1cebc9b84cd598"
+    }
+  },
+  "upright_grip": {
+    "revision": "R16",
+    "source_sha256": "1f492dd841c35a14f488be418e4f4dd8dea8edb63f3d321a492dc2ec3c907ab4",
+    "baseline_source_sha256": "97e2010cc17d06eb8648cf278b9aae2fd85b6e909bd657b9b216f3b37748665f",
+    "baseline_native_step_sha256": "5964654c121d6d375011bfb24144b2e00678a7ccac430490e83349c44de5842e",
+    "changed": [
+      "P01"
+    ],
+    "new_parts": [],
+    "other_native_bodies_unchanged": 92,
+    "contact_width_mm": 126,
+    "contact_depth_mm": 13,
+    "shoulder_width_mm": 130,
+    "central_wrist_face_x_mm": -29,
+    "crown_z_mm": 33,
+    "central_top_radius_mm": 5,
+    "sensor_side_top_radius_mm": 3,
+    "rail_end_radius_mm": 3,
+    "shoulder_top_radius_mm": 4,
+    "shoulder_end_radius_mm": 2,
+    "thumb_return_centers_y_mm": [
+      -51,
+      51
+    ],
+    "thumb_return_depth_mm": 4,
+    "thumb_return_plan_radius_mm": 8,
+    "thumb_return_ceiling_degrees": 45,
+    "thumb_mouth_radius_mm": 0.8,
+    "contact_envelope_mm": [
+      [
+        -29.0,
+        -63.0,
+        14.4
+      ],
+      [
+        -15.999999999999993,
+        63.00000000000001,
+        33.0
+      ]
+    ],
+    "shoulder_envelopes_mm": [
+      [
+        [
+          -24.0,
+          -65.00000000000001,
+          24.0
+        ],
+        [
+          -7.999999999999998,
+          -37.0,
+          33.0
+        ]
+      ],
+      [
+        [
+          -24.0,
+          37.0,
+          24.0
+        ],
+        [
+          -7.999999999999998,
+          65.0,
+          33.0
+        ]
+      ]
+    ],
+    "added_mm3": 10945.019296099812,
+    "removed_mm3": 7693.914151294866,
+    "P01_volume_mm3": 167947.94183153423,
+    "baseline_P01_volume_mm3": 164696.8338207341,
+    "obsolete_step_removed_bounds_mm": [
+      [
+        -40,
+        -70,
+        11.5
+      ],
+      [
+        -29,
+        70,
+        14.5
+      ]
+    ],
+    "wristward_roof_thickness_mm": 2,
+    "preserved": "Original rod sockets, reaction/guide stock belowZ30, lower roof/floor outside declared obsolete step, continuous2mm wristward electronics roof, clips, strap slots and all non-P01 bodies.",
+    "limitations": "Local nominal geometry only; native regeneration, full service audits, sliced toolpaths and physical fit/load tests are separate.",
+    "strap_mount": {
+      "slot_count": 4,
+      "position_count": 2,
+      "position_x_mm": [
+        28,
+        65
+      ],
+      "position_spacing_mm": 37,
+      "slot_center_y_mm": [
+        -57.5,
+        57.5
+      ],
+      "slot_size_mm": [
+        27,
+        4
+      ],
+      "slot_plan_end_radius_mm": 2,
+      "slot_top_radius_mm": 0.8,
+      "slot_bottom_chamfer_mm": 0.8,
+      "slot_bottom_chamfer_degrees": 45,
+      "strap_width_mm": 25,
+      "strap_thickness_envelope_mm": 2,
+      "external_doubled_thickness_envelope_mm": 4,
+      "minimum_throat_chord_at_2mm_band_mm": 26.464101615137753,
+      "overall_width_mm": 132.4,
+      "main_floor_width_mm": 132,
+      "existing_latch_boss_width_mm": 132.4,
+      "eye_z_mm": [
+        -2,
+        4
+      ],
+      "original_floor_thickness_mm": 6,
+      "floor_recess_mm": 0,
+      "nominal_outer_bar_mm": 6.5,
+      "minimum_outer_bar_at_top_surface_mm": 4.2,
+      "nominal_inner_rail_mm": 17.5,
+      "slot_end_spacing_mm": 10,
+      "strap_quantity": 2,
+      "straps_printed": false,
+      "extra_printed_parts": 0,
+      "routing": "Each end rises through its inboard slot, turns over the outer bearing strip, descends outside and fastens back to itself. The free strap wraps under the chosen object; no across-top ribbon. Folded ends remain outside.",
+      "route_audit_extent_z_mm": [
+        -20,
+        8
+      ],
+      "route_audit_outer_y_mm": 70,
+      "intended_bearing_contacts": "Top of outer strip atZ4 and outside edge atY+/-66. Positive volume overlap prohibited; face contact intended.",
+      "station_selection": "X28/65 keeps the rear25mm ribbon span3.5mm before the exact native full-stroke rear-bridge startX81; front band beginsX15.5 after the fixedseat endX12. Source carriage is already advanced5mm in the native rest configuration; audit adds the full30mm stroke to that native pose. OriginalX80 rearstation would interfere with the moving bridge.",
+      "limitations": "Nominal25x2mm ribbon allowance. Physical strap fit, force capacity and creep require printed validation; smaller37mm station spacing gives less rotational restraint than R14."
+    }
+  },
+  "near_palm": {
+    "revision": "R16",
+    "source_sha256": "1f492dd841c35a14f488be418e4f4dd8dea8edb63f3d321a492dc2ec3c907ab4",
+    "baseline_source_sha256": "97e2010cc17d06eb8648cf278b9aae2fd85b6e909bd657b9b216f3b37748665f",
+    "baseline_native_step_sha256": "5964654c121d6d375011bfb24144b2e00678a7ccac430490e83349c44de5842e",
+    "changed": [
+      "P01"
+    ],
+    "new_parts": [],
+    "other_native_bodies_unchanged": 92,
+    "contact_width_mm": 126,
+    "contact_depth_mm": 13,
+    "shoulder_width_mm": 130,
+    "central_wrist_face_x_mm": -29,
+    "crown_z_mm": 33,
+    "central_top_radius_mm": 5,
+    "sensor_side_top_radius_mm": 3,
+    "rail_end_radius_mm": 3,
+    "shoulder_top_radius_mm": 4,
+    "shoulder_end_radius_mm": 2,
+    "thumb_return_centers_y_mm": [
+      -51,
+      51
+    ],
+    "thumb_return_depth_mm": 4,
+    "thumb_return_plan_radius_mm": 8,
+    "thumb_return_ceiling_degrees": 45,
+    "thumb_mouth_radius_mm": 0.8,
+    "contact_envelope_mm": [
+      [
+        -29.0,
+        -63.0,
+        14.4
+      ],
+      [
+        -15.999999999999993,
+        63.00000000000001,
+        33.0
+      ]
+    ],
+    "shoulder_envelopes_mm": [
+      [
+        [
+          -24.0,
+          -65.00000000000001,
+          24.0
+        ],
+        [
+          -7.999999999999998,
+          -37.0,
+          33.0
+        ]
+      ],
+      [
+        [
+          -24.0,
+          37.0,
+          24.0
+        ],
+        [
+          -7.999999999999998,
+          65.0,
+          33.0
+        ]
+      ]
+    ],
+    "added_mm3": 10945.019296099812,
+    "removed_mm3": 7693.914151294866,
+    "P01_volume_mm3": 167947.94183153423,
+    "baseline_P01_volume_mm3": 164696.8338207341,
+    "obsolete_step_removed_bounds_mm": [
+      [
+        -40,
+        -70,
+        11.5
+      ],
+      [
+        -29,
+        70,
+        14.5
+      ]
+    ],
+    "wristward_roof_thickness_mm": 2,
+    "preserved": "Original rod sockets, reaction/guide stock belowZ30, lower roof/floor outside declared obsolete step, continuous2mm wristward electronics roof, clips, strap slots and all non-P01 bodies.",
+    "limitations": "Local nominal geometry only; native regeneration, full service audits, sliced toolpaths and physical fit/load tests are separate.",
+    "strap_mount": {
+      "slot_count": 4,
+      "position_count": 2,
+      "position_x_mm": [
+        28,
+        65
+      ],
+      "position_spacing_mm": 37,
+      "slot_center_y_mm": [
+        -57.5,
+        57.5
+      ],
+      "slot_size_mm": [
+        27,
+        4
+      ],
+      "slot_plan_end_radius_mm": 2,
+      "slot_top_radius_mm": 0.8,
+      "slot_bottom_chamfer_mm": 0.8,
+      "slot_bottom_chamfer_degrees": 45,
+      "strap_width_mm": 25,
+      "strap_thickness_envelope_mm": 2,
+      "external_doubled_thickness_envelope_mm": 4,
+      "minimum_throat_chord_at_2mm_band_mm": 26.464101615137753,
+      "overall_width_mm": 132.4,
+      "main_floor_width_mm": 132,
+      "existing_latch_boss_width_mm": 132.4,
+      "eye_z_mm": [
+        -2,
+        4
+      ],
+      "original_floor_thickness_mm": 6,
+      "floor_recess_mm": 0,
+      "nominal_outer_bar_mm": 6.5,
+      "minimum_outer_bar_at_top_surface_mm": 4.2,
+      "nominal_inner_rail_mm": 17.5,
+      "slot_end_spacing_mm": 10,
+      "strap_quantity": 2,
+      "straps_printed": false,
+      "extra_printed_parts": 0,
+      "routing": "Each end rises through its inboard slot, turns over the outer bearing strip, descends outside and fastens back to itself. The free strap wraps under the chosen object; no across-top ribbon. Folded ends remain outside.",
+      "route_audit_extent_z_mm": [
+        -20,
+        8
+      ],
+      "route_audit_outer_y_mm": 70,
+      "intended_bearing_contacts": "Top of outer strip atZ4 and outside edge atY+/-66. Positive volume overlap prohibited; face contact intended.",
+      "station_selection": "X28/65 keeps the rear25mm ribbon span3.5mm before the exact native full-stroke rear-bridge startX81; front band beginsX15.5 after the fixedseat endX12. Source carriage is already advanced5mm in the native rest configuration; audit adds the full30mm stroke to that native pose. OriginalX80 rearstation would interfere with the moving bridge.",
+      "limitations": "Nominal25x2mm ribbon allowance. Physical strap fit, force capacity and creep require printed validation; smaller37mm station spacing gives less rotational restraint than R14."
+    }
+  },
+  "overview_assets": {
+    "cad_image": "review/upright-grip-2026-11-09/evidence/P01-final-native.png",
+    "cad_image_provenance": "review/upright-grip-2026-11-09/evidence/P01-final-native-provenance.json",
+    "strap_image": "review/upright-grip-2026-11-09/evidence/strap-routing.svg"
+  },
+  "project": "print/bambu-R16-upright-grip-2026-11-09/Fingerworker_R16_H2D_04mm_PLA_Basic_Print_Ready.3mf",
+  "package": "print/bambu-R16-upright-grip-2026-11-09/Fingerworker_R16_H2D_04mm_PLA_Basic_Print_Ready_Package.zip",
+  "brim_policy": "All six model objects: no_brim; necessary supports retained.",
+  "files_sha256": {
+    "review/upright-grip-2026-11-09/fingerworker_R16_upright_grip.fs": "1f492dd841c35a14f488be418e4f4dd8dea8edb63f3d321a492dc2ec3c907ab4",
+    "review/upright-grip-2026-11-09/native/Flat132_R16_final_AP214.step": "e2b588932fb73f5545baf87ffb91d98f69a29577517105ef169503693ca88b5d",
+    "review/upright-grip-2026-11-09/native/Flat132_R16_neutral_final.zip": "1c39421b42d505d75a42db45051ba13d5baec6d7568362cffcb85fc193ef9663",
+    "review/upright-grip-2026-11-09/evidence/P01-final-native.png": "d23e70e904f797027930727833c565ab509b54813e8a1ccbd5a808981b57d7a0",
+    "review/upright-grip-2026-11-09/evidence/P01-final-native-provenance.json": "f7b81c66becdc98920a816d863cc4ae90f8da399cd42ca509d780a1299615fbf",
+    "review/upright-grip-2026-11-09/evidence/strap-routing.svg": "6a169c3cd0be6107fcd2628d5c57913276f0633c9c84ffcd4a7e5f0d6cec6147",
+    "review/upright-grip-2026-11-09/evidence/strap-routing-provenance.json": "f29db9b2e6e48169ac6e9d2ef1106b43f22df4e6f49ce37bca3560ef683c928c",
+    "review/upright-grip-2026-11-09/mechanics/design-specification.json": "2d561268dc81f2eb65e4ff12beb320eecea0816550b26eefb0ab47577a1f318c",
+    "review/upright-grip-2026-11-09/README.md": "91324c167c2c642fa91f172b59d3af463a96a506cb1e04cac829d8eefd80006b",
+    "review/upright-grip-2026-11-09/MONTAGE.md": "0fcd19e5b0cc8fb62af6008fe1bdb43ed8e05de39d34d44237d39d4dcf28fc29",
+    "review/upright-grip-2026-11-09/parts-review.md": "90db79837cea223db6da377c5c6379044a028f0d22024f083e1428874b14441f",
+    "review/upright-grip-2026-11-09/BOM_Aenderungen.csv": "8494d00cf61a2cfb40129e70ff5f11f09b039146a7e10cb40477f4576abf8702",
+    "print/bambu-R16-upright-grip-2026-11-09/Fingerworker_R16_H2D_04mm_PLA_Basic_Print_Ready.3mf": "a9ebaf5ba9c9296c1e85b162689dab32d13a7bb1ae3a0f826b355328594b89a0",
+    "print/bambu-R16-upright-grip-2026-11-09/Fingerworker_R16_H2D_04mm_PLA_Basic_Print_Ready_Package.zip": "7f0b95f2f349361c055590f53a50e7ec0540fd96026aaf1af3a38476adfcc002",
+    "print/bambu-R16-upright-grip-2026-11-09/delivery-specification.json": "f0fde85f1a9115ed696b22ca0b741b3af53b60511b0e8ce4727e07a979a0777e"
+  },
+  "limitations": "Nominal CAD and computed print paths only; actual fit, comfort, retention, PLA load capacity and lifetime require physical evaluation."
+}

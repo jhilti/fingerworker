@@ -1,0 +1,1223 @@
+{
+  "status": "PASS",
+  "scope": "Added stock only versus full legal correlated dynamic domain. ISO positions are a subset throughu=15-p-a. Exact complete opposite swept boxes contain all CSG stock translations.",
+  "checks": [
+    {
+      "name": "Conservative two-box cover contains every new stock",
+      "status": "PASS",
+      "uncovered_stock_mm3": 0.0
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion E01",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion E05",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion E06",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion E07",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion E08",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H01",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H02",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Full spring/lever source envelope H030",
+      "status": "PASS",
+      "minimum_axial_clearance_mm": 34.75
+    },
+    {
+      "name": "Full spring/lever source envelope H031",
+      "status": "PASS",
+      "minimum_axial_clearance_mm": 34.75
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H040",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H041",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H050",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H051",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H060",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        -30.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H061",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        -30.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H09",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Full spring/lever source envelope H09a",
+      "status": "PASS",
+      "minimum_axial_clearance_mm": 51.8
+    },
+    {
+      "name": "Full spring/lever source envelope H09b",
+      "status": "PASS",
+      "minimum_axial_clearance_mm": 51.8
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H10",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        -30.8,
+        0.8
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H11",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H12",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H13",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H15",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H160",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H161",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H170",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H171",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H180",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H181",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H190",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H191",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H20",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H21",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H22",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H23",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H240",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H241",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H242",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H243",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H250",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H251",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H252",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H253",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H260",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        -2.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H261",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        -2.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H270",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H271",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H280",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H281",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H290",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H291",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H300a",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H300b",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H301a",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H301b",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H310",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H311",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H320",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion H321",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion P01",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": true
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion P04",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        -30.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion P05",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion P060",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion P061",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion P070a",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        -2.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion P070b",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        -2.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion P071a",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        -2.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion P071b",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        -2.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion P08",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion P09",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion P10",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion P11",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        -30.8,
+        0.8
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion P120",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        -2.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion P121",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        -2.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_C1",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_C10",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_C11",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_C12",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_C13",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_C14",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_C15",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_C16",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_C2",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_C3",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_C4",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_C5",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_C6",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_C7",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_C8",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_C9",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_D1",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_J1",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_J2",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_J3",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_L1",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_Q1",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_R1",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_R10",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_R11",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_R12",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_R13",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_R14",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_R15",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_R16",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_R17",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_R18",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_R19",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_R2",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_R20",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_R21",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_R3",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_R4",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_R5",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_R6",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_R7",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_R8",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_R9",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_SW2",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_U1",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_U2",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_U3",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete dynamic and ISO relative motion PCB_U4",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "intentional_contact": false
+    },
+    {
+      "name": "Complete ISO replacement sleeve source envelope H140",
+      "status": "PASS",
+      "minimum_axial_clearance_mm": 34.75,
+      "method": "Explicit unchanged source sleeve starts atX12+p, p>=0; all new palm stock hasX<=-22.75. Sleeves replace springs in ISO and are absent from neutral inventory."
+    },
+    {
+      "name": "Complete ISO replacement sleeve source envelope H141",
+      "status": "PASS",
+      "minimum_axial_clearance_mm": 34.75,
+      "method": "Explicit unchanged source sleeve starts atX12+p, p>=0; all new palm stock hasX<=-22.75. Sleeves replace springs in ISO and are absent from neutral inventory."
+    }
+  ]
+}

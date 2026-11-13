@@ -1,0 +1,11 @@
+Ref,Menge,Platte,Material,Kategorie,Hinweis,STL
+P01,1,1,PLA,Geräteteil,SMOOTH CONTINUOUS PALM RAIL AND FRAME - UNLOADED FIT STUDY,STL-print-oriented/P01.stl
+P04,1,1,PLA,Geräteteil,R13 PLA assembly study - unchanged device geometry from R12,STL-print-oriented/P04.stl
+P05,1,1,PLA,Geräteteil,R13 PLA assembly study - unchanged device geometry from R12,STL-print-oriented/P05.stl
+P08,1,1,PLA,Geräteteil,R13 PLA assembly study - unchanged device geometry from R12,STL-print-oriented/P08.stl
+P09,1,1,PLA,Geräteteil,R13 PLA assembly study - unchanged device geometry from R12,STL-print-oriented/P09.stl
+H040,1,1,PLA,Unbelastete Passhilfe,RIGID PLA SHAPE PROXY - NO LOAD,STL-print-oriented/H040.stl
+H041,1,1,PLA,Unbelastete Passhilfe,RIGID PLA SHAPE PROXY - NO LOAD,STL-print-oriented/H041.stl
+P11,1,1,PLA,Geräteteil,R13 PLA assembly study - unchanged device geometry from R12,STL-print-oriented/P11.stl
+Q01,1,1,PLA,Unbelastete Passhilfe,RETAINED R12 FIXED SUPPORT PROXY - UNLOADED ONLY,STL-print-oriented/Q01.stl
+P06,1,1,PLA,Geräteteil,R13 PLA assembly study - unchanged device geometry from R12,STL-print-oriented/P06.stl

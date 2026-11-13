@@ -1,0 +1,39 @@
+{
+  "status": "TWO_INSTANCE_SEED_AUTHORED",
+  "source": "review/flat132-softer-springs-2026-10-26/print/S01_spring_spacer_22mm.stl",
+  "source_sha256": "be2724e7fbf7a725786b7f9a52ae62f923ff82b8c44994e72d24cef2e4f2addd",
+  "seed_sha256": "0670d60a36a4d818dd5738e255700c30682e7563edcee960ab77b9e5f34cd166",
+  "pieces": 2,
+  "unique_meshes": 1,
+  "scale": 1,
+  "unit": "mm",
+  "rotation": "Identity: flat root Z0 down, pilot up",
+  "normalization_translation_mm": [
+    8.0,
+    7.998418807983398,
+    -0.0
+  ],
+  "XY_minima_mm": [
+    [
+      150,
+      152
+    ],
+    [
+      184,
+      152
+    ]
+  ],
+  "size_mm": [
+    16.0,
+    15.996837615966797,
+    24.0
+  ],
+  "volume_each_mm3": 3805.4133159610246,
+  "faces": 1896,
+  "no_geometry_repair": true,
+  "layer_height_mm": 0.2,
+  "walls": 4,
+  "infill_percent": 100,
+  "supports": false,
+  "no_printer_transmission": true
+}

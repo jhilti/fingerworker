@@ -1,0 +1,375 @@
+{
+  "source_sha256": "62fabee79cf36d0e0b6d4cd8430700519dbc529a5ea08f70018b14b0c3f2271f",
+  "native_zip": "native/Flat132_R6_neutral_final.zip",
+  "native_zip_sha256": "9117c58e92696a45477bc13182cc19286337049539acdab56a1f1daeb5c45a5e",
+  "units": "mm",
+  "orientation": "Original native neutral assembly coordinates; no scaling, recentering, repair, remesh or slicing",
+  "identity": "Every output STL byte-for-byte equals its named native R6 ZIP member",
+  "count": 52,
+  "parts": {
+    "H01": {
+      "native_member": "Fingerworker MVP - H01 ACTUAL TE FX1901-0001-0200-L manufacturer STEP rev F.stl",
+      "native_member_sha256": "fe791187db3b12e1867d0a6574e6d9606340dd0251f713ff8a9bb18cbb287a83",
+      "output": "assembly-mm/H01.stl",
+      "output_sha256": "fe791187db3b12e1867d0a6574e6d9606340dd0251f713ff8a9bb18cbb287a83",
+      "bytes": 4980084
+    },
+    "H02": {
+      "native_member": "Fingerworker MVP - H02 Retained steel pusher- dia4 tip x1.9, dia8 shoulder x1, M3 tail x6.5.stl",
+      "native_member_sha256": "62807ded66d818fd3b677dbaeb87af8e1e28240d3ab0db84032b8af45f0519f0",
+      "output": "assembly-mm/H02.stl",
+      "output_sha256": "62807ded66d818fd3b677dbaeb87af8e1e28240d3ab0db84032b8af45f0519f0",
+      "bytes": 86484
+    },
+    "H030": {
+      "native_member": "Fingerworker MVP - H030 Febrotec 0X-DF2194 14.8-10.8 x 102 mm, 3.307 N-mm - indicative coil.stl",
+      "native_member_sha256": "d9815c4b494012eba7139a5e8d0e2b4204fca861672d6efd61b9355ad7c09716",
+      "output": "assembly-mm/H030.stl",
+      "output_sha256": "d9815c4b494012eba7139a5e8d0e2b4204fca861672d6efd61b9355ad7c09716",
+      "bytes": 55110684
+    },
+    "H031": {
+      "native_member": "Fingerworker MVP - H031 Febrotec 0X-DF2194 14.8-10.8 x 102 mm, 3.307 N-mm - indicative coil.stl",
+      "native_member_sha256": "8eef6f84f9f4abd8e4ba015352205419adaf28b5e717ac7705c42ef2fca94ddd",
+      "output": "assembly-mm/H031.stl",
+      "output_sha256": "8eef6f84f9f4abd8e4ba015352205419adaf28b5e717ac7705c42ef2fca94ddd",
+      "bytes": 55110684
+    },
+    "H040": {
+      "native_member": "Fingerworker MVP - H040 Steel guide rod dia 6 x 146 mm.stl",
+      "native_member_sha256": "e1441ad76d3d79243c3a1b4ef8e1b39712b73ed525e254fcf83e846d845f1b1a",
+      "output": "assembly-mm/H040.stl",
+      "output_sha256": "e1441ad76d3d79243c3a1b4ef8e1b39712b73ed525e254fcf83e846d845f1b1a",
+      "bytes": 28884
+    },
+    "H041": {
+      "native_member": "Fingerworker MVP - H041 Steel guide rod dia 6 x 146 mm.stl",
+      "native_member_sha256": "87980fabfc5eeeee129418c6e3fdc486911782e9f29c3855f936a16c85406475",
+      "output": "assembly-mm/H041.stl",
+      "output_sha256": "87980fabfc5eeeee129418c6e3fdc486911782e9f29c3855f936a16c85406475",
+      "bytes": 28884
+    },
+    "H050": {
+      "native_member": "Fingerworker MVP - H050 Fixed steel spring seat 22 x 6.6 x 3 mm.stl",
+      "native_member_sha256": "b335142de9558ebc32d69e693b349c7115ed9b7ffddf7060116af23dd9f49182",
+      "output": "assembly-mm/H050.stl",
+      "output_sha256": "b335142de9558ebc32d69e693b349c7115ed9b7ffddf7060116af23dd9f49182",
+      "bytes": 57684
+    },
+    "H051": {
+      "native_member": "Fingerworker MVP - H051 Fixed steel spring seat 22 x 6.6 x 3 mm.stl",
+      "native_member_sha256": "a65b574f6c37747b5891f418c232ac46bbc6d5c7693bb054d5deafd4f37e803d",
+      "output": "assembly-mm/H051.stl",
+      "output_sha256": "a65b574f6c37747b5891f418c232ac46bbc6d5c7693bb054d5deafd4f37e803d",
+      "bytes": 57684
+    },
+    "H060": {
+      "native_member": "Fingerworker MVP - H060 Moving steel spring seat 22 x 8 x 3 mm.stl",
+      "native_member_sha256": "686597bee65da152c663343f31bce0d0718a76fc3cd65b8143412afdd536c0f3",
+      "output": "assembly-mm/H060.stl",
+      "output_sha256": "686597bee65da152c663343f31bce0d0718a76fc3cd65b8143412afdd536c0f3",
+      "bytes": 57684
+    },
+    "H061": {
+      "native_member": "Fingerworker MVP - H061 Moving steel spring seat 22 x 8 x 3 mm.stl",
+      "native_member_sha256": "b4483d3bd44de5d1c718ad600e936d9e97ca0e784f803df9245ef148c17f4e82",
+      "output": "assembly-mm/H061.stl",
+      "output_sha256": "b4483d3bd44de5d1c718ad600e936d9e97ca0e784f803df9245ef148c17f4e82",
+      "bytes": 57684
+    },
+    "H09": {
+      "native_member": "Fingerworker MVP - H09 Omron SS-01GL2 DRAWING REF - solder tabs and conservative lug envelope.stl",
+      "native_member_sha256": "9e73e39c1ceae512e651288eb634162424bb35012a93d721fce76ff6ece98a45",
+      "output": "assembly-mm/H09.stl",
+      "output_sha256": "9e73e39c1ceae512e651288eb634162424bb35012a93d721fce76ff6ece98a45",
+      "bytes": 61084
+    },
+    "H09a": {
+      "native_member": "Fingerworker MVP - H09a SS-01GL2 approximate lever motion - drawing reference.stl",
+      "native_member_sha256": "b28ed291cefe3473512cebc6c4c5019a91560ebcd16c3c7215d9e981171e9568",
+      "output": "assembly-mm/H09a.stl",
+      "output_sha256": "b28ed291cefe3473512cebc6c4c5019a91560ebcd16c3c7215d9e981171e9568",
+      "bytes": 28884
+    },
+    "H09b": {
+      "native_member": "Fingerworker MVP - H09b SS-01GL2 nominal roller - approximate motion.stl",
+      "native_member_sha256": "30a2dda8df33259f498c80db52dbfacda9f83dc0d7ba250e9f03139583fbebdb",
+      "output": "assembly-mm/H09b.stl",
+      "output_sha256": "30a2dda8df33259f498c80db52dbfacda9f83dc0d7ba250e9f03139583fbebdb",
+      "bytes": 28884
+    },
+    "H10": {
+      "native_member": "Fingerworker MVP - H10 M3 x10 vertical cam-shoe clamp - manual setup.stl",
+      "native_member_sha256": "37d49b7b9269d78c8f74e5dff8392edc2054728998ba77a852b156346c6048cd",
+      "output": "assembly-mm/H10.stl",
+      "output_sha256": "37d49b7b9269d78c8f74e5dff8392edc2054728998ba77a852b156346c6048cd",
+      "bytes": 57684
+    },
+    "H11": {
+      "native_member": "Fingerworker MVP - H11 Custom steel M6x1 square nut 12 x 12 x 5.stl",
+      "native_member_sha256": "461a255ecc0ac18072d640471887c08c4c7f4daccc28e5f0abd973e487488fdf",
+      "output": "assembly-mm/H11.stl",
+      "output_sha256": "461a255ecc0ac18072d640471887c08c4c7f4daccc28e5f0abd973e487488fdf",
+      "bytes": 62684
+    },
+    "H12": {
+      "native_member": "Fingerworker MVP - H12 S355 steel planar sensor backing plate 30 x30 x2.15 with locating collar.stl",
+      "native_member_sha256": "f8fb9caaf4aa1542c087ff3c4d80ac1d3fff8a07937e2d670cd5dfd8647f93ab",
+      "output": "assembly-mm/H12.stl",
+      "output_sha256": "f8fb9caaf4aa1542c087ff3c4d80ac1d3fff8a07937e2d670cd5dfd8647f93ab",
+      "bytes": 244584
+    },
+    "H13": {
+      "native_member": "Fingerworker MVP - H13 M6x1 flat-tip adjuster with 22 mm thumbwheel - 2 turns max.stl",
+      "native_member_sha256": "cb9f4424c2ad59c8655c45f851aec6cb2149b79f68d867732b8125702afe3b5e",
+      "output": "assembly-mm/H13.stl",
+      "output_sha256": "cb9f4424c2ad59c8655c45f851aec6cb2149b79f68d867732b8125702afe3b5e",
+      "bytes": 86484
+    },
+    "H15": {
+      "native_member": "Fingerworker MVP - H15 S355 steel keeper 32 x 19 x 2 - recessed and through bolted.stl",
+      "native_member_sha256": "b1b6072eb47e736095fe96259c43e4551e92550a1f6586acdb7526e56c692453",
+      "output": "assembly-mm/H15.stl",
+      "output_sha256": "b1b6072eb47e736095fe96259c43e4551e92550a1f6586acdb7526e56c692453",
+      "bytes": 124284
+    },
+    "H160": {
+      "native_member": "Fingerworker MVP - H160 M3 x 8 countersunk keeper screw - 90 deg max head diameter 6.stl",
+      "native_member_sha256": "9b7eb63eb6a2ad22ed13b3cdb9f5fbfd5e8a83fb7775ec5c95bae77e3519b1fc",
+      "output": "assembly-mm/H160.stl",
+      "output_sha256": "9b7eb63eb6a2ad22ed13b3cdb9f5fbfd5e8a83fb7775ec5c95bae77e3519b1fc",
+      "bytes": 43284
+    },
+    "H161": {
+      "native_member": "Fingerworker MVP - H161 M3 x 8 countersunk keeper screw - 90 deg max head diameter 6.stl",
+      "native_member_sha256": "02de5156b3eda90cfff1db9baf81f8b1a7c68794e98c7862f78f2dbbc9faed49",
+      "output": "assembly-mm/H161.stl",
+      "output_sha256": "02de5156b3eda90cfff1db9baf81f8b1a7c68794e98c7862f78f2dbbc9faed49",
+      "bytes": 43284
+    },
+    "H170": {
+      "native_member": "Fingerworker MVP - H170 M3 square nut 5.5 x 5.5 x 1.8.stl",
+      "native_member_sha256": "66fc54e22a50060ce0866e5abfe3b8ec4e27c8f325588f555bace2f436d88510",
+      "output": "assembly-mm/H170.stl",
+      "output_sha256": "66fc54e22a50060ce0866e5abfe3b8ec4e27c8f325588f555bace2f436d88510",
+      "bytes": 29684
+    },
+    "H171": {
+      "native_member": "Fingerworker MVP - H171 M3 square nut 5.5 x 5.5 x 1.8.stl",
+      "native_member_sha256": "4208d5c96f3dbe417f3099a90e8034a7217ac34fef93a50f1d2d01d9cbaab248",
+      "output": "assembly-mm/H171.stl",
+      "output_sha256": "4208d5c96f3dbe417f3099a90e8034a7217ac34fef93a50f1d2d01d9cbaab248",
+      "bytes": 29684
+    },
+    "H180": {
+      "native_member": "Fingerworker MVP - H180 M3 x 8 cassette retention screw.stl",
+      "native_member_sha256": "16de8ad77dc1ea27ead8a3e014fb9986172a558939244c1bf45f19a93e2345f7",
+      "output": "assembly-mm/H180.stl",
+      "output_sha256": "16de8ad77dc1ea27ead8a3e014fb9986172a558939244c1bf45f19a93e2345f7",
+      "bytes": 57684
+    },
+    "H181": {
+      "native_member": "Fingerworker MVP - H181 M3 x 8 cassette retention screw.stl",
+      "native_member_sha256": "9f63ada2dc79bb222bce4bf38cf24bbf7ac898039cc37a425700b6654c5442ec",
+      "output": "assembly-mm/H181.stl",
+      "output_sha256": "9f63ada2dc79bb222bce4bf38cf24bbf7ac898039cc37a425700b6654c5442ec",
+      "bytes": 57684
+    },
+    "H190": {
+      "native_member": "Fingerworker MVP - H190 Steel spacer 4 x 3.2 x 6 - preload travel limiter.stl",
+      "native_member_sha256": "d9ca4d2b2d0ce8d59e3a2a225209cadecdecc554f3d47b34c65cd427fc77cccb",
+      "output": "assembly-mm/H190.stl",
+      "output_sha256": "d9ca4d2b2d0ce8d59e3a2a225209cadecdecc554f3d47b34c65cd427fc77cccb",
+      "bytes": 57684
+    },
+    "H191": {
+      "native_member": "Fingerworker MVP - H191 Steel spacer 4 x 3.2 x 6 - preload travel limiter.stl",
+      "native_member_sha256": "a0196963403392e05e899fbcc5e4c288fe60c471908b99afdf996a6c88448d51",
+      "output": "assembly-mm/H191.stl",
+      "output_sha256": "a0196963403392e05e899fbcc5e4c288fe60c471908b99afdf996a6c88448d51",
+      "bytes": 57684
+    },
+    "H20": {
+      "native_member": "Fingerworker MVP - H20 M3 square nut - retains shouldered force pusher.stl",
+      "native_member_sha256": "2d2e5d39436a6cae0ea2cb5b6d89be35acd8e1f3d0c131def66010a875642fdd",
+      "output": "assembly-mm/H20.stl",
+      "output_sha256": "2d2e5d39436a6cae0ea2cb5b6d89be35acd8e1f3d0c131def66010a875642fdd",
+      "bytes": 29684
+    },
+    "H21": {
+      "native_member": "Fingerworker MVP - H21 M3 x 4 recessed preload locking screw.stl",
+      "native_member_sha256": "4d7664e52ada1aec19d02fa4125ed5369e1e68aed751c0f4f5dd5e420389363a",
+      "output": "assembly-mm/H21.stl",
+      "output_sha256": "4d7664e52ada1aec19d02fa4125ed5369e1e68aed751c0f4f5dd5e420389363a",
+      "bytes": 57684
+    },
+    "H22": {
+      "native_member": "Fingerworker MVP - H22 Brass preload lock pad dia2.5 x1.stl",
+      "native_member_sha256": "577081af439782a56d4a9786d36db932cbee12c84cbaa350e3f2d58995d86d96",
+      "output": "assembly-mm/H22.stl",
+      "output_sha256": "577081af439782a56d4a9786d36db932cbee12c84cbaa350e3f2d58995d86d96",
+      "bytes": 28884
+    },
+    "H23": {
+      "native_member": "Fingerworker MVP - H23 Stainless loose sensor keeper 0.5 mm - 0.5 mm housing gap.stl",
+      "native_member_sha256": "40f35aea28c9c81b1539d6a314af61abfee9715427b89d36eb5025c4b573faca",
+      "output": "assembly-mm/H23.stl",
+      "output_sha256": "40f35aea28c9c81b1539d6a314af61abfee9715427b89d36eb5025c4b573faca",
+      "bytes": 167284
+    },
+    "H240": {
+      "native_member": "Fingerworker MVP - H240 Steel sensor keeper spacer OD4 ID2.2 x8.45.stl",
+      "native_member_sha256": "47d548342890142bcb5ebcddf2f8f81d6d57192ee993316a09c4085a3388baa0",
+      "output": "assembly-mm/H240.stl",
+      "output_sha256": "47d548342890142bcb5ebcddf2f8f81d6d57192ee993316a09c4085a3388baa0",
+      "bytes": 57684
+    },
+    "H241": {
+      "native_member": "Fingerworker MVP - H241 Steel sensor keeper spacer OD4 ID2.2 x8.45.stl",
+      "native_member_sha256": "59e999301d79693c6fe5baab742acb2dcc06c0dde4d1129789692352b982b9f0",
+      "output": "assembly-mm/H241.stl",
+      "output_sha256": "59e999301d79693c6fe5baab742acb2dcc06c0dde4d1129789692352b982b9f0",
+      "bytes": 57684
+    },
+    "H242": {
+      "native_member": "Fingerworker MVP - H242 Steel sensor keeper spacer OD4 ID2.2 x8.45.stl",
+      "native_member_sha256": "12e6358627442c89d7c4464620392160f68366bf94d42300ddd30b3dd19b3343",
+      "output": "assembly-mm/H242.stl",
+      "output_sha256": "12e6358627442c89d7c4464620392160f68366bf94d42300ddd30b3dd19b3343",
+      "bytes": 57684
+    },
+    "H243": {
+      "native_member": "Fingerworker MVP - H243 Steel sensor keeper spacer OD4 ID2.2 x8.45.stl",
+      "native_member_sha256": "55e39fa4bb88debec70f690f59b21f7690b06083f0ec57fd41b96afc289a68bd",
+      "output": "assembly-mm/H243.stl",
+      "output_sha256": "55e39fa4bb88debec70f690f59b21f7690b06083f0ec57fd41b96afc289a68bd",
+      "bytes": 57684
+    },
+    "H250": {
+      "native_member": "Fingerworker MVP - H250 M2 x12 panhead sensor keeper screw - head height max1.6.stl",
+      "native_member_sha256": "f192f29b27a42bf98543f952e881033057252cf5d9cec44f028c823fb37714af",
+      "output": "assembly-mm/H250.stl",
+      "output_sha256": "f192f29b27a42bf98543f952e881033057252cf5d9cec44f028c823fb37714af",
+      "bytes": 57684
+    },
+    "H251": {
+      "native_member": "Fingerworker MVP - H251 M2 x12 panhead sensor keeper screw - head height max1.6.stl",
+      "native_member_sha256": "6225495e291ee18223b2df5bc71c96768e1fe0532345ae682f590104879e7c62",
+      "output": "assembly-mm/H251.stl",
+      "output_sha256": "6225495e291ee18223b2df5bc71c96768e1fe0532345ae682f590104879e7c62",
+      "bytes": 57684
+    },
+    "H252": {
+      "native_member": "Fingerworker MVP - H252 M2 x12 panhead sensor keeper screw - head height max1.6.stl",
+      "native_member_sha256": "6bb32be3a14bcb48e7446c85ec68b713e88608b2682e4db4376e28b109fb4d36",
+      "output": "assembly-mm/H252.stl",
+      "output_sha256": "6bb32be3a14bcb48e7446c85ec68b713e88608b2682e4db4376e28b109fb4d36",
+      "bytes": 57684
+    },
+    "H253": {
+      "native_member": "Fingerworker MVP - H253 M2 x12 panhead sensor keeper screw - head height max1.6.stl",
+      "native_member_sha256": "70ad37aea0489cf601c705d638dbf212b30f5fd4816130e7e65870b7973e3480",
+      "output": "assembly-mm/H253.stl",
+      "output_sha256": "70ad37aea0489cf601c705d638dbf212b30f5fd4816130e7e65870b7973e3480",
+      "bytes": 57684
+    },
+    "P01": {
+      "native_member": "Fingerworker MVP - P01 PRINT STUDY - Flat132 reinforced reaction portal, 5 mm cassette guides, 6 mm floor.stl",
+      "native_member_sha256": "853fc2ec64419ec1964f86476d6bf9b503912a54776864a308cbc5bc78bbd45c",
+      "output": "assembly-mm/P01.stl",
+      "output_sha256": "853fc2ec64419ec1964f86476d6bf9b503912a54776864a308cbc5bc78bbd45c",
+      "bytes": 1842984
+    },
+    "P02": {
+      "native_member": "Fingerworker MVP - P02 PRINT STUDY - one-piece rigid half-round palm block, retained keyed mounts.stl",
+      "native_member_sha256": "a74607b50a10278ec3b8445963475d03f1d66d60306abb761298a53a362fa705",
+      "output": "assembly-mm/P02.stl",
+      "output_sha256": "a74607b50a10278ec3b8445963475d03f1d66d60306abb761298a53a362fa705",
+      "bytes": 1053484
+    },
+    "P04": {
+      "native_member": "Fingerworker MVP - P04 PRINT STUDY - Flat132 72 mm clear pocket, R12 seat reliefs.stl",
+      "native_member_sha256": "fdb84301af40be4ca84b838ebc1847b18ac0b2854818e3bfe63c1085d6ff0b7c",
+      "output": "assembly-mm/P04.stl",
+      "output_sha256": "fdb84301af40be4ca84b838ebc1847b18ac0b2854818e3bfe63c1085d6ff0b7c",
+      "bytes": 2591984
+    },
+    "P05": {
+      "native_member": "Fingerworker MVP - P05 PRINT STUDY - Flat132 reinforced yoke with broad integral sensing stops.stl",
+      "native_member_sha256": "254f4e301f2a4754d6265bc9f261fe8e36a0e4f5a0062e008978d226d995ed1d",
+      "output": "assembly-mm/P05.stl",
+      "output_sha256": "254f4e301f2a4754d6265bc9f261fe8e36a0e4f5a0062e008978d226d995ed1d",
+      "bytes": 778284
+    },
+    "P060": {
+      "native_member": "Fingerworker MVP - P060 PRINT STUDY - rear retainer with5 mm rigid return bosses.stl",
+      "native_member_sha256": "c242653bc9c47fd8ed0977d2fe97b335aab3580fd75bcbcbe6ce920de5ae793e",
+      "output": "assembly-mm/P060.stl",
+      "output_sha256": "c242653bc9c47fd8ed0977d2fe97b335aab3580fd75bcbcbe6ce920de5ae793e",
+      "bytes": 146784
+    },
+    "P061": {
+      "native_member": "Fingerworker MVP - P061 PRINT STUDY - rear retainer with5 mm rigid return bosses.stl",
+      "native_member_sha256": "0195692ec82497b786c2d7f4dd0caddf852b573c1d92665d8d850b0a965b8902",
+      "output": "assembly-mm/P061.stl",
+      "output_sha256": "0195692ec82497b786c2d7f4dd0caddf852b573c1d92665d8d850b0a965b8902",
+      "bytes": 146784
+    },
+    "P070a": {
+      "native_member": "Fingerworker MVP - P070a TPU PRINT - return bumper.stl",
+      "native_member_sha256": "b2043cb95741498d64262f3011a79d3a14eb64934d9a558602a9f71abf42bf74",
+      "output": "assembly-mm/P070a.stl",
+      "output_sha256": "b2043cb95741498d64262f3011a79d3a14eb64934d9a558602a9f71abf42bf74",
+      "bytes": 684
+    },
+    "P070b": {
+      "native_member": "Fingerworker MVP - P070b TPU PRINT - return bumper.stl",
+      "native_member_sha256": "c2e968a11b33abb1d58fb03ba6f4ba6ca14a53ecfafa3ef001bf03d2d10b881a",
+      "output": "assembly-mm/P070b.stl",
+      "output_sha256": "c2e968a11b33abb1d58fb03ba6f4ba6ca14a53ecfafa3ef001bf03d2d10b881a",
+      "bytes": 684
+    },
+    "P071a": {
+      "native_member": "Fingerworker MVP - P071a TPU PRINT - return bumper.stl",
+      "native_member_sha256": "4cacdcfcc514e130026a3c5b37d03bb89e0f53cb780d221184c31b71bb5757f7",
+      "output": "assembly-mm/P071a.stl",
+      "output_sha256": "4cacdcfcc514e130026a3c5b37d03bb89e0f53cb780d221184c31b71bb5757f7",
+      "bytes": 684
+    },
+    "P071b": {
+      "native_member": "Fingerworker MVP - P071b TPU PRINT - return bumper.stl",
+      "native_member_sha256": "50aa9ad8ee8fb500dc0e13b1ab8dd333ccaeab6f0fa7fe7625ba79d21ae3c29d",
+      "output": "assembly-mm/P071b.stl",
+      "output_sha256": "50aa9ad8ee8fb500dc0e13b1ab8dd333ccaeab6f0fa7fe7625ba79d21ae3c29d",
+      "bytes": 684
+    },
+    "P08": {
+      "native_member": "Fingerworker MVP - P08 PRINT - Electronics tray.stl",
+      "native_member_sha256": "11f47952a86814ce1c6a80ad25edde546f99b8664a610e397851ec8ae9fe8b2a",
+      "output": "assembly-mm/P08.stl",
+      "output_sha256": "11f47952a86814ce1c6a80ad25edde546f99b8664a610e397851ec8ae9fe8b2a",
+      "bytes": 422184
+    },
+    "P09": {
+      "native_member": "Fingerworker MVP - P09 PRINT - Electronics lid.stl",
+      "native_member_sha256": "2b809ab1f7cc350b96862cfd7d4878ac1907bda7cf793f78aa0e445e7264084a",
+      "output": "assembly-mm/P09.stl",
+      "output_sha256": "2b809ab1f7cc350b96862cfd7d4878ac1907bda7cf793f78aa0e445e7264084a",
+      "bytes": 134784
+    },
+    "P10": {
+      "native_member": "Fingerworker MVP - P10 PRINT - Wire clamp.stl",
+      "native_member_sha256": "8ee66bba498b46d593a8d9c00581582cd76b35677312eb81d427f808df8b08d8",
+      "output": "assembly-mm/P10.stl",
+      "output_sha256": "8ee66bba498b46d593a8d9c00581582cd76b35677312eb81d427f808df8b08d8",
+      "bytes": 58684
+    },
+    "P11": {
+      "native_member": "Fingerworker MVP - P11 PRINT STUDY - guided stepped cam shoe, manually set trim minus preload.stl",
+      "native_member_sha256": "ee81507b31f348ae644d268f5525a825d5eecbd44f580824105b74e3a191d49b",
+      "output": "assembly-mm/P11.stl",
+      "output_sha256": "ee81507b31f348ae644d268f5525a825d5eecbd44f580824105b74e3a191d49b",
+      "bytes": 29984
+    }
+  }
+}

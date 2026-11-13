@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "source_sha256": "fdb84301af40be4ca84b838ebc1847b18ac0b2854818e3bfe63c1085d6ff0b7c",
+  "native_project_sha256": "7713941523b7ceb0374b0592b85812db56aa4b7912d69acb1919a0d2671f5821",
+  "native_project_vertex_roundtrip_max_error_mm": 3.966040727462384e-06,
+  "mesh_faces": 51838,
+  "mesh_watertight": true,
+  "rigid_rotation_only": true,
+  "geometry_or_assembly_datums_changed": false,
+  "P05_unchanged": true,
+  "support_settings": {
+    "support_type": "tree(auto)",
+    "support_style": "tree_slim",
+    "support_on_build_plate_only": "1",
+    "support_top_z_distance": "0.25",
+    "brim_width": "5"
+  },
+  "printer": "H2D",
+  "nozzle_mm": 0.4,
+  "material": "PLA",
+  "slicer_version": "02.08.02.61",
+  "native_slicer_exit_code": 0,
+  "plate_count": 1,
+  "gcode_in_user_project": false,
+  "no_printer_transmission": true,
+  "critical_support_contacts": {
+    "loaded_wall": 0,
+    "pocket_floor": 0,
+    "guide_cavity": 0,
+    "left_rod_bore": 0,
+    "right_rod_bore": 0,
+    "rolled_front_lip": 0,
+    "front_floor_fillet": 0,
+    "front_corner_walls": 0
+  },
+  "estimated_time": "4h 20m 33s",
+  "estimated_weight_g": 65.21,
+  "limitations": [
+    "Physical finish and support removal need print confirmation",
+    "The opposite pocket wall still has removable support marks",
+    "No loaded strength qualification from this geometry/toolpath review"
+  ]
+}

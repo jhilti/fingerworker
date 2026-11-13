@@ -1,0 +1,76 @@
+{
+  "status": "PASS_DOCUMENTATION_BOUND_TO_R14_EVIDENCE",
+  "source_sha256": "9286d5a51880dc79d1e9a07135e8c905f4022a1ed757801b8430f23f51a04829",
+  "onshape_version": "05c07284f9a5edf33d05f680",
+  "verification": {
+    "review/near-palm-2026-11-06/validation/native-geometry.json": {
+      "status": "PASS_EXACT_NATIVE_R14",
+      "sha256": "c01dc7c6846d0185c18cfaa49eff2629003643e0194235fe7fafb725278886a9"
+    },
+    "review/near-palm-2026-11-06/validation/native-motion.json": {
+      "status": "PASS_NATIVE_FIXED_SUPPORT_AND_FULL_TRANSLATIONAL_MOTION",
+      "sha256": "f3dfa724250af0e262a786babed0b5f9897851d1ba82c6fb446606648e6f8fe7"
+    },
+    "review/near-palm-2026-11-06/validation/service-native.json": {
+      "status": "PASS_NATIVE_R14_SENSOR_SERVICE",
+      "sha256": "2cb010028c953500f05476487b46e943992739d32ae7b247041ea54b92b272c0"
+    },
+    "review/near-palm-2026-11-06/validation/fixture-q01-check.json": {
+      "status": "PASS_Q01_NATIVE_FIT",
+      "sha256": "6ed3a951b0bbfbeef8159b87e9acff2302b2cb4fbea7eb6da9a10906fc91a687"
+    },
+    "review/near-palm-2026-11-06/mechanics/preflight.json": {
+      "status": "PASS_LOCAL_NEAR_PALM",
+      "sha256": "859544ec4d3da57cbb9bd93eaedeae76b7925e6cd72ab293f2a85d6cd01f0474"
+    },
+    "review/near-palm-2026-11-06/evidence/strap-routing-visual-check.json": {
+      "status": "PASS_RENDERED_STRAP_ROUTING_FIGURE",
+      "sha256": "259e2ed69f2fb43ade64e02cf62d8ca425245ddf0392d7fa4a2bf81a2c1a3226"
+    },
+    "print/bambu-R14-near-palm-2026-11-06/validation/native-project-check.json": {
+      "status": "PASS_NATIVE_R14_NEAR_PALM",
+      "sha256": "fe8dd331c57f5796b585c4c2b0726aff075c151387ab2c933150fd8bb5cdce19"
+    },
+    "print/bambu-R14-near-palm-2026-11-06/validation/toolpath-check.json": {
+      "status": "PASS_ACTUAL_R14_NEAR_PALM_TOOLPATHS",
+      "sha256": "8342bfbae0193d6f8fc8a83aa746f3ee56c7bcc8f24ce0630cf07f943dd4cd8b"
+    },
+    "print/bambu-R14-near-palm-2026-11-06/validation/print-feature-check.json": {
+      "status": "PASS_R14_PRINT_FEATURES",
+      "sha256": "d620cf8a88f71770c4bece092a13288d64130953910850c9b2c76c35a23e1e03"
+    },
+    "print/bambu-R14-near-palm-2026-11-06/validation/palm-support-check.json": {
+      "status": "PASS_R14_PALM_SUPPORTS",
+      "sha256": "441cbae94ac5bd914bc9ea66e31759c7425791b8c99a0ba909aafa71161dd69c"
+    },
+    "print/bambu-R14-near-palm-2026-11-06/validation/strap-slot-check.json": {
+      "status": "PASS_R14_STRAP_SLOT_PRINT_PATHS",
+      "sha256": "216aa487163bc33c14eba82958c409e153b8d4409aff6bc26d16f267a9f83a78"
+    },
+    "print/bambu-R14-near-palm-2026-11-06/validation/strap-routing-check.json": {
+      "status": "PASS_NATIVE_R14_STRAP_ROUTING",
+      "sha256": "59378b7c16c0fc7a5197b4b57cc2a1964807c3e8e37bafab48c115b0fed8813d"
+    },
+    "print/bambu-R14-near-palm-2026-11-06/validation/p04-surface-check.json": {
+      "status": "PASS",
+      "sha256": "70412f1628e23893814f17d9ac6b8292ad92e82046e2599e6df2dce0ed125184"
+    },
+    "print/bambu-R14-near-palm-2026-11-06/validation/cli-diagnostics.json": {
+      "status": "PASS_R14_OFFICIAL_H2D_DIAGNOSTICS",
+      "sha256": "e02292db5eb525668e0caf29a1ada43a6665ec141e908499c8a19643ff6c7c68"
+    },
+    "print/bambu-R14-near-palm-2026-11-06/validation/independent-profile-review.json": {
+      "status": "PASS_INDEPENDENT_PROFILE_REVIEW",
+      "sha256": "b2ff8ab314bcb4aa279ac5c54a2832470623c5a725a8965003dfbee7f8c20e2e"
+    }
+  },
+  "design_specification_sha256": "49d3ba23161c416d308b4ad64fdea807f5e8da22102002ce36139119fbb9e49a",
+  "files_sha256": {
+    "review/near-palm-2026-11-06/README.md": "78284362e4b703a55aa17f25ac961794d555315ea5459ceb4e345f22846ba160",
+    "review/near-palm-2026-11-06/MONTAGE.md": "d5ab0ea6067320187a039446e271e0f3c0b0df1cfa129e6eba99b7abbd1608dd",
+    "review/near-palm-2026-11-06/parts-review.md": "0967a48c50b2cd2b6afc1cc7caa96a1e3b30d37cd3e1c9b3fe768cd5d130d73b",
+    "review/near-palm-2026-11-06/BOM_Aenderungen.csv": "2ff623588e7ed8dac3a8dab820ae39a3f3925d8e025115aa6a5cb7e59bb506bc",
+    "review/near-palm-2026-11-06/evidence/strap-routing.svg": "c5f5a87aa2d2fe4920d637acc2f1650220614ee9558331d517f2cdd1b376bf16",
+    "review/near-palm-2026-11-06/evidence/strap-routing-provenance.json": "5f9355f6e73980f31a47584cab9725787988957597960bc53f2cb96e8e5e1422"
+  }
+}

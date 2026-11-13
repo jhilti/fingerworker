@@ -1,0 +1,108 @@
+{
+  "objects": 10,
+  "device_parts": 7,
+  "unloaded_fixtures": 3,
+  "identity": "Rigid rotations/translations of exact native meshes or separately validated unloaded fixtures; no repair or rescale.",
+  "parts": [
+    {
+      "ref": "P01",
+      "file": "P01.stl",
+      "sha256": "b4ea5645d06d58e1ac1a58298990c3a49e0412f861b85dd49e097a6a954ddf6f",
+      "plate": 1,
+      "units": "mm",
+      "scale": 1.0,
+      "category": "device",
+      "intent": "FRAME AND PALM WITH REAR LATCH CATCHES - UNLOADED FIT STUDY"
+    },
+    {
+      "ref": "P04",
+      "file": "P04.stl",
+      "sha256": "7474ebae367cf4871fb7ede782bad9c34bbfaa2c00e2cccca8fecaf3246e1381",
+      "plate": 3,
+      "units": "mm",
+      "scale": 1.0,
+      "category": "device",
+      "intent": "R12 PLA assembly study"
+    },
+    {
+      "ref": "P05",
+      "file": "P05.stl",
+      "sha256": "8ef67eea304109a9511183e1f5cc8a9e535797b07fb83081b13aad49f7894339",
+      "plate": 2,
+      "units": "mm",
+      "scale": 1.0,
+      "category": "device",
+      "intent": "R12 PLA assembly study"
+    },
+    {
+      "ref": "P08",
+      "file": "P08.stl",
+      "sha256": "d47b1ccf80766c35b5f55c1c27aae5f49041d417169156c7a62a19176f293aff",
+      "plate": 2,
+      "units": "mm",
+      "scale": 1.0,
+      "category": "device",
+      "intent": "R12 PLA assembly study"
+    },
+    {
+      "ref": "P09",
+      "file": "P09.stl",
+      "sha256": "a1a47bd3ea07df506cd44c40df5c3e5e99bed4e183f6be4170168ed0b931ae5b",
+      "plate": 2,
+      "units": "mm",
+      "scale": 1.0,
+      "category": "device",
+      "intent": "R12 PLA assembly study"
+    },
+    {
+      "ref": "H040",
+      "file": "H040.stl",
+      "sha256": "10332508645dadbeaa8dfc897062fefbaca9472e17559c5ed8f5e61a499d3c2d",
+      "plate": 2,
+      "units": "mm",
+      "scale": 1.0,
+      "category": "unloaded_fixture",
+      "intent": "RIGID PLA SHAPE PROXY - NO LOAD"
+    },
+    {
+      "ref": "H041",
+      "file": "H041.stl",
+      "sha256": "132a4dd8d69e29fe8687b059202d6d57ca4ce5eebd07c519864749a5ed460726",
+      "plate": 2,
+      "units": "mm",
+      "scale": 1.0,
+      "category": "unloaded_fixture",
+      "intent": "RIGID PLA SHAPE PROXY - NO LOAD"
+    },
+    {
+      "ref": "P11",
+      "file": "P11.stl",
+      "sha256": "0bed6889942d67e7bbad3634e4b5d817f7c78e0d4271af751420248f1f420f2b",
+      "plate": 2,
+      "units": "mm",
+      "scale": 1.0,
+      "category": "device",
+      "intent": "R12 PLA assembly study"
+    },
+    {
+      "ref": "Q01",
+      "file": "Q01.stl",
+      "sha256": "6c0a48443c6e589e1b6dd02424950680284d5f6d0c2f9200f5deb52b0b6e313e",
+      "plate": 2,
+      "units": "mm",
+      "scale": 1.0,
+      "category": "unloaded_fixture",
+      "intent": "NEW R12 FIXED SUPPORT PROXY - UNLOADED ONLY"
+    },
+    {
+      "ref": "P06",
+      "file": "P06.stl",
+      "sha256": "df12f2ecd6d06c0528e2db02be8843effcbf3351b16dace34fefa9bc59530fc1",
+      "plate": 2,
+      "units": "mm",
+      "scale": 1.0,
+      "category": "device",
+      "intent": "One-piece fixed rear gate with PLA clips; optional M3 securing screws"
+    }
+  ]
+}

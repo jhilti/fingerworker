@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-22",
+  "viewer_sha256": "37fb6f487f6a48dcaa22861dcaf1df89ccde5437326ab20fca56b713e1684f9e",
+  "browser": "Chrome via CUA",
+  "viewport": [
+    1161,
+    852
+  ],
+  "verified": {
+    "native_sensor_import_one_part": true,
+    "native_mechanism_actual_sensor_derived": true,
+    "native_proxy_replacement_100_parts_7_features": true,
+    "native_transparent_mount_context_and_sensor_zoom": true,
+    "viewer_installed_reference": true,
+    "viewer_actual_sensor_only_detailed": true,
+    "viewer_front_side_preset_controls": true,
+    "viewer_proxy_comparison": true,
+    "viewer_full_132mm_overview_after_closeup": true,
+    "viewer_focus_selected_component": true,
+    "viewer_cutaway_control_and_reset": true,
+    "download_targets_exist": true,
+    "all_56_display_source_hashes_match": true,
+    "source_guards_unchanged": true
+  },
+  "screenshots": [
+    "onshape-actual-sensor.png",
+    "onshape-actual-sensor-detail.png",
+    "actual-sensor-detail.png",
+    "actual-sensor-installed.png"
+  ],
+  "fit_status": "FAIL: real manufacturer body overlaps unchanged H12, P01 and P05. Mount redesign remains open.",
+  "limitations": [
+    "Manufacturer STEP has short wire stubs but no full flexible cable or connector.",
+    "Nominal fit audit is based on exact native component tessellations; no physical assembly test.",
+    "Hand registration is inherited and provisional."
+  ]
+}

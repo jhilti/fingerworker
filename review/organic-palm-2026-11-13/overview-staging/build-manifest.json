@@ -1,0 +1,33 @@
+{
+  "gui_verified": false,
+  "gui_status": "GUI_PENDING_MAC_LOCKED",
+  "primary_print_profile": "PLA_Basic",
+  "connected_ready_project_sha256": "85ad44bc0bc4b43c3e9ccd1258399cc5df1cf3a4b9b07cffae06cc02a027e85e",
+  "date": "2026-11-13",
+  "status": "BUILT_PENDING_BROWSER_QA",
+  "html": "Uebersicht.preview.html",
+  "html_bytes": 2145301,
+  "html_sha256": "cd7fdc0334c72990e7f555e8894e4d74715abc35f9e3ee2edea7174cf325c7d8",
+  "revision": "R18",
+  "primary_print_variant": "P01_replacement",
+  "native_onshape_version": "13e353d6762b6cc58530122b",
+  "source_sha256": "345b90327031276f8085e2c225c795946036d7faa4f2ac01b764101b9f4b3dd1",
+  "print_items": 6,
+  "hardware_rows": 25,
+  "personal_check_items": 10,
+  "inline_assets": true,
+  "external_runtime_requests": false,
+  "source_files": {
+    "review/organic-palm-2026-11-13/overview-staging/template.html": "e57c5145061c757d5e8d0d1a5ad2497367f06df2d51f12801f40c8d50c5997a1",
+    "review/organic-palm-2026-11-13/overview-staging/style.css": "e6b08dcf74dc64078e425854d571f423ccab3a57c52108a4596e98dddc906ffb",
+    "review/organic-palm-2026-11-13/overview-staging/app.js": "29621814c3b0ab9ef198d296deaf03beb9e09b8b60cbe8d0f18d8860238cb66a",
+    "review/organic-palm-2026-11-13/overview-staging/content.json": "b270facf2ab535092481c2581fb1929b6aefc4296ebdc9a200be97431f26d9a8",
+    "review/organic-palm-2026-11-13/overview-staging/model/component.html": "4b7fc6bc38e5217309a4e3f31384691f7c4364239bbc714d999e143b6ab4c63f",
+    "review/organic-palm-2026-11-13/overview-staging/model/manifest.json": "fe8df77d64553c9d7dbf55c68abb606c939479730e700fe12b5eade54eca89f5",
+    "review/organic-palm-2026-11-13/final-specification.json": "44cc0283b19d6378e7421b831401858b6fa717ecfae0bb357ed439c5634150e9",
+    "print/bambu-R18-organic-palm-2026-11-13/delivery-specification.json": "95d8fec1c79dd394f2e4b4c337ba753a85ffafaedef4da1f826360a4b3740050",
+    "print/bambu-R18-organic-palm-2026-11-13/plate-layout.json": "341aafaa8b88741d5987f7206088ab3f9e30efaaa75114377140643c8078bdab",
+    "review/organic-palm-2026-11-13/evidence/strap-routing.svg": "8b5c1035f9a8830df5efeccde696592669c1e1fe9203b0a61446e4ce35f1241a",
+    "review/organic-palm-2026-11-13/evidence/strap-routing-provenance.json": "a1e785aa025379a9ff851fd85acb4138bb5d2db49028f830a7fb7418d8bc8dce"
+  }
+}

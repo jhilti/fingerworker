@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "material": "PETG or PLA, rigid assessment only",
+  "inner_diameter_mm": 16.1,
+  "palm_core_diameter_mm": 15.5,
+  "radial_clearance_mm": 0.3,
+  "split_gap_mm": 0.3,
+  "parts": [
+    {
+      "file": "P03a_Palm_shell_left_PETG_MOCKUP.stl",
+      "sha256": "1887849c7029943fc487221f181153fcd5de5a5fb557b166d2c8431aff04c504",
+      "volume_mm3": 3714.295184875151,
+      "valid_single_solid": true
+    },
+    {
+      "file": "P03b_Palm_shell_right_PETG_MOCKUP.stl",
+      "sha256": "bd3d2855b433693b5e28251d524b4c2522813fa8c2e05c47b84c1146e7509622",
+      "volume_mm3": 3714.2950110758948,
+      "valid_single_solid": true
+    }
+  ]
+}

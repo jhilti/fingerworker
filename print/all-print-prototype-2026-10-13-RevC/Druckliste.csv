@@ -1,0 +1,25 @@
+Datei;Anzahl;Material;Bezeichnung;Abmessungen mm;Hinweis
+TPU/P03_palm_sleeve_TPU.stl;1;TPU 95A;P03_palm_sleeve_TPU;20.499 × 15.398 × 86.0;"Vorhandene geprüfte Druckorientierung; siehe Druckanleitung."
+PETG/P04_climbing_carriage.stl;1;PETG;P04_climbing_carriage;60.0 × 174.0 × 25.0;"Vorhandene geprüfte Druckorientierung; siehe Druckanleitung."
+PETG/P05_floating_yoke.stl;1;PETG;P05_floating_yoke;22.5 × 174.0 × 22.0;"Vorhandene geprüfte Druckorientierung; siehe Druckanleitung."
+TPU/P070a_return_pad_left_a_TPU.stl;1;TPU 95A;P070a_return_pad_left_a_TPU;6.0 × 4.5 × 1.5;"Vorhandene geprüfte Druckorientierung; siehe Druckanleitung."
+TPU/P070b_return_pad_left_b_TPU.stl;1;TPU 95A;P070b_return_pad_left_b_TPU;6.0 × 4.5 × 1.5;"Vorhandene geprüfte Druckorientierung; siehe Druckanleitung."
+TPU/P071a_return_pad_right_a_TPU.stl;1;TPU 95A;P071a_return_pad_right_a_TPU;6.0 × 4.5 × 1.5;"Vorhandene geprüfte Druckorientierung; siehe Druckanleitung."
+TPU/P071b_return_pad_right_b_TPU.stl;1;TPU 95A;P071b_return_pad_right_b_TPU;6.0 × 4.5 × 1.5;"Vorhandene geprüfte Druckorientierung; siehe Druckanleitung."
+PETG/P01_base_6mm_AssemblyClear_RevB_2026-10-13.stl;1;PETG;Grundplatte 6 mm, freier Einschub;156.0 × 180.0 × 31.0;"Live-Onshape 13.10.2026, Halter RevC; P01/P060/P061 gemeinsam ersetzen."
+PETG/P060_rear_retainer_left_RevC_2026-10-13.stl;1;PETG;Hinterer Halter links, tiefere Auflage;8.0 × 24.0 × 23.5;"Live-Onshape 13.10.2026, Halter RevC; P01/P060/P061 gemeinsam ersetzen."
+PETG/P061_rear_retainer_right_RevC_2026-10-13.stl;1;PETG;Hinterer Halter rechts, tiefere Auflage;8.0 × 24.0 × 23.5;"Live-Onshape 13.10.2026, Halter RevC; P01/P060/P061 gemeinsam ersetzen."
+PETG/P02_Palm_mount_RevA.stl;1;PETG;P02_Palm_mount_RevA;36.25 × 128.0 × 18.0;Aktuelle Gehäuserevision inklusive P02-Montagepiloten.
+PETG/P08_Electronics_tray.stl;1;PETG;P08_Electronics_tray;22.5 × 124.0 × 9.5;Aktuelle Gehäuserevision inklusive P02-Montagepiloten.
+PETG/P09_Electronics_lid.stl;1;PETG;P09_Electronics_lid;22.5 × 110.0 × 6.75;Aktuelle Gehäuserevision inklusive P02-Montagepiloten.
+PETG/P10_Wire_clamp.stl;1;PETG;P10_Wire_clamp;3.2 × 10.2 × 1.0;Aktuelle Gehäuserevision inklusive P02-Montagepiloten.
+PETG/H02_Pusher_PRINT_MOCKUP.stl;1;PETG;Druckstift, Anschauung ohne Gewindefunktion;9.4 × 7.999 × 8.0;"Metall-Nennform; Kernlöcher/glatte Gewindehüllform, keine gedruckten Gewinde. Liegend; lokale Stützen unter Rundung/Schulter und Haftungsrand."
+PETG/H04_Guide_rod_PRINT_MOCKUP.stl;2;PETG;Führungsstab Ø6 × 146, Anschauung;146.0 × 5.999 × 6.0;"Metall-Nennform; Kernlöcher/glatte Gewindehüllform, keine gedruckten Gewinde. Liegend; lokale Stützen unter Rundung/Schulter und Haftungsrand."
+PETG/H05_Fixed_spring_seat_PRINT_MOCKUP.stl;2;PETG;Fester Federsitz;22.0 × 21.998 × 3.0;"Metall-Nennform; Kernlöcher/glatte Gewindehüllform, keine gedruckten Gewinde. Flache Stirn-/Rückfläche unten; Stützen bei Bedarf."
+PETG/H06_Moving_spring_seat_PRINT_MOCKUP.stl;2;PETG;Beweglicher Federsitz;22.0 × 21.998 × 3.0;"Metall-Nennform; Kernlöcher/glatte Gewindehüllform, keine gedruckten Gewinde. Flache Stirn-/Rückfläche unten; Stützen bei Bedarf."
+PETG/H12_Sensor_cassette_PRINT_MOCKUP.stl;1;PETG;Sensorkassette;21.0 × 27.0 × 7.2;"Metall-Nennform; Kernlöcher/glatte Gewindehüllform, keine gedruckten Gewinde. Flache Stirn-/Rückfläche unten; Stützen bei Bedarf."
+PETG/H15_Keeper_PRINT_MOCKUP.stl;1;PETG;Halteplatte;19.0 × 32.0 × 2.0;"Metall-Nennform; Kernlöcher/glatte Gewindehüllform, keine gedruckten Gewinde. Flache Stirn-/Rückfläche unten; Stützen bei Bedarf."
+PETG/H19_Spacer_PRINT_MOCKUP.stl;2;PETG;Abstandshülse;4.0 × 4.0 × 4.0;"Metall-Nennform; Kernlöcher/glatte Gewindehüllform, keine gedruckten Gewinde. Flache Stirn-/Rückfläche unten; Stützen bei Bedarf."
+PETG/H22_Brass_pad_PRINT_MOCKUP.stl;1;PETG;Druckstück Ø2,5 × 1, Anschauung;2.5 × 2.5 × 1.0;"Metall-Nennform; Kernlöcher/glatte Gewindehüllform, keine gedruckten Gewinde. Flache Stirn-/Rückfläche unten; Stützen bei Bedarf."
+PETG/H14_Isometric_sleeve_PRINT_MOCKUP.stl;2;PETG;Optionale Isometriehülse;16.0 × 15.998 × 86.0;"Metall-Nennform; Kernlöcher/glatte Gewindehüllform, keine gedruckten Gewinde. Flache Stirn-/Rückfläche unten; Stützen bei Bedarf."
+PETG/H13_Handwheel_ONLY_PRINT_MOCKUP.stl;1;PETG;"Handrad Ø22 × 2,8, Bohrung Ø6,4; ohne Schraubenschaft";22.0 × 21.998 × 2.8;"Flach drucken; glatte Anschauungsform ohne Rändelung. Kein funktionsfähiger Gewindeeinsteller."

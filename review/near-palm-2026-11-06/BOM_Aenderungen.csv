@@ -1,0 +1,11 @@
+Ref,Menge R13 Geraet,Menge R14 Geraet,Stuecke aktuelles Druckpaket,Aenderung
+P01,1,1,1,Neu: griffnahe 76 x 18 mm Rundung; aeusserer Handballenbalken entfernt; vier integrale flache 27 x 4 mm-Gurtoeffnungen fuer zwei 25 mm-Gurte; Gesamtbreite 156 mm.
+P04/P05/P06/P11,4,4,4,Native Geometrie exakt zum R13-Stand erhalten; vorhandene Drucke weiterverwenden
+P08/P09,2,2,0,Elektronikaufnahme bleibt im Gesamtgeraet; fuer diesen mechanischen Druckauftrag weggelassen
+H040/H041,2,2,0,Echte Fuehrungsstangen vorhanden; keine gedruckten Stangen-Formhilfen
+Q01,Passhilfe,Passhilfe,1,Vorhandene R12/R13-Passhilfe gegen finalen R14-Rahmen geprueft; nur federfrei
+G01/G02,0,2,0,"Zwei echte 25-mm-Gurte; max. 2 mm Dicke im Durchlass; beide Enden sicher rueckfaltbar; Laenge nach Umfang plus Rueckfaltungen. Nicht drucken, nicht im nativen CAD modelliert."
+Druckteile Geraet,7,7,5,Keine neuen kleinen Teile
+Druckstuecke aktuelles Paket,,,6,Fuenf Geraeteteile plus eine federfreie Passhilfe
+Zusaetzliche Kaufteile,0,2,0,"Zwei echte 25-mm-Gurte; max. 2 mm Dicke im Durchlass; beide Enden sicher rueckfaltbar; Laenge nach Umfang plus Rueckfaltungen. Nicht drucken, nicht im nativen CAD modelliert."
+Native CAD-Koerper,93,93,,P01 geaendert; 92 andere Koerper exakt unveraendert

@@ -1,0 +1,10 @@
+{
+  "output/pdf/Fingerworker_Elektronik_RevA.pdf": "159445b6ada71f3d08c3ffc64eefd05541fb26dc4b449ebb5e6a1152d4649383",
+  "electronics/README.md": "a22f319e3fcd4d37f139624fb272f25721e8bd72e2c99e34915897a6e69740e3",
+  "electronics/design.json": "b30a2f66a9f1f78e725c84d6b0cf8ceac237baf05288831919646c7303000844",
+  "electronics/bom.csv": "314bf482ded23a560390f8f55becb07cba1643c8801c134bfd4a757f691e90d1",
+  "electronics/connections.csv": "ee48f969dffb3a136fdb24363dcb5ee684a2ac683317cdc40850e894bcf9b66e",
+  "electronics/connectivity.xml": "cf189ab65b34c009cdbe737e2e1bb79e3625dd47c81f6dd23b4d0be3ea71c8a0",
+  "electronics/validation.json": "7ec4b1cfc7980723c64bd59b4744f2365b290dd5fd1da574f3b49dafc5e852a6",
+  "electronics/build_design.py": "fa7ef9772348ba47b88dc6eb9e797c76a758396f5e1dbfa3d1db40dd77842671"
+}

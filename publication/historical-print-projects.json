@@ -1,0 +1,126 @@
+{
+  "status": "HISTORICAL_ONLY_NOT_R20",
+  "printing_setup_changed": false,
+  "files": [
+    {
+      "path": "print/Fingerworker_H2D_PETG_RevD_2026-10-13/Fingerworker_RevD_H2D_04mm_PETG.3mf",
+      "bytes": 3028143,
+      "sha256": "35f0eb28efb7c95d829924a2ce9629596dde70082cedf423c36f232c5da24585"
+    },
+    {
+      "path": "print/Fingerworker_H2D_PETG_RevE_2026-10-13/Fingerworker_RevE_H2D_04mm_PETG.3mf",
+      "bytes": 3028126,
+      "sha256": "6f3fbf66a6456a6bee5853fb87573c6e581f9f3c4c0d6fb39a96dccea0b25ac0"
+    },
+    {
+      "path": "print/Fingerworker_H2D_PETG_RevF_2026-10-13/Fingerworker_RevF_H2D_04mm_PETG.3mf",
+      "bytes": 3019235,
+      "sha256": "1f1be00cfd0a18c736d36b8a818f76355685d0b2fdf9bac9fd19a6e3d1d90625"
+    },
+    {
+      "path": "print/bambu-2026-10-13/Fingerworker_RevC_A1_04mm.3mf",
+      "bytes": 2428989,
+      "sha256": "98c3dc70d27adf4902d1b6df246a52442e1723805054f491f82a7037f2d11bf6"
+    },
+    {
+      "path": "print/bambu-2026-10-13/Fingerworker_RevC_H2D_04mm.3mf",
+      "bytes": 2422142,
+      "sha256": "cc0693f2cf8fe841a2c7913fbbbc25abc70110de49a921308e88071f9f98505e"
+    },
+    {
+      "path": "print/bambu-2026-10-13/Fingerworker_RevC_P1S_04mm.3mf",
+      "bytes": 2427953,
+      "sha256": "d51052b4f16422f6689eea52c6ecc525a145a7fa9c1e81e741cd4abca6c0eb06"
+    },
+    {
+      "path": "print/bambu-2026-10-13/Fingerworker_RevC_X1C_04mm.3mf",
+      "bytes": 2429987,
+      "sha256": "f4697234bea0ccf52a3b6d159f192c8f9641d457123f059f5056718e90800ba9"
+    },
+    {
+      "path": "print/bambu-R10-integrated-palm-2026-11-03/Fingerworker_R10_H2D_04mm_PLA_Fit_Test.3mf",
+      "bytes": 1808423,
+      "sha256": "d83f72df3534eea46d95334c09f9ac1a54ff6585ab94fb580e616b86fba30f9c"
+    },
+    {
+      "path": "print/bambu-R11-PLA-click-2026-11-03/Fingerworker_R11_H2D_04mm_PLA_Fit_Test.3mf",
+      "bytes": 1834339,
+      "sha256": "8f6cbdfe6967dfff52d5cd4c433c5d37583a0a1c57df82e08365510ab8f5bc44"
+    },
+    {
+      "path": "print/bambu-R12-simplified-2026-11-03/Fingerworker_R12_H2D_04mm_PLA_Fit_Test.3mf",
+      "bytes": 1676682,
+      "sha256": "5869ead2f99743eead62b6e59fa7dc699b6d0bec2b43ead2d1a0598f70f788bb"
+    },
+    {
+      "path": "print/bambu-R13-mechanics-overnight-2026-11-04/Fingerworker_R13_H2D_04mm_PLA_Mechanics_Overnight.3mf",
+      "bytes": 1406742,
+      "sha256": "6c8d3d766ea78e08310d741d8104fa17f4d0a7ba163688030f10340c743fabe2"
+    },
+    {
+      "path": "print/bambu-R13-one-plate-2026-11-04/Fingerworker_R13_H2D_04mm_PLA_One_Plate.3mf",
+      "bytes": 1519506,
+      "sha256": "66f59b312d726439725f279a1fc68cb35d09b219f85b8be1b8f500277dc97dd3"
+    },
+    {
+      "path": "print/bambu-R13-simple-palm-2026-11-03/Fingerworker_R13_H2D_04mm_PLA_Fit_Test.3mf",
+      "bytes": 1569450,
+      "sha256": "d540b20448c9d78bb5b0438a4f637069cf49be15de16449616b4b80136fe1fdc"
+    },
+    {
+      "path": "print/bambu-R14-near-palm-2026-11-06/Fingerworker_R14_H2D_04mm_PLA_Near_Palm.3mf",
+      "bytes": 2088673,
+      "sha256": "62504e043e33255dd9de14eb83e0b5781f304bf02dd1950de56c2f67519e287c"
+    },
+    {
+      "path": "print/bambu-R15-inboard-straps-2026-11-08/Fingerworker_R15_H2D_04mm_PLA_Basic_Print_Ready.3mf",
+      "bytes": 1809335,
+      "sha256": "b8eeb41a267ef7808fde1a6ee5a036eed1ef9a24f7610044177396576bca23d7"
+    },
+    {
+      "path": "print/bambu-R15-inboard-straps-2026-11-08/Fingerworker_R15_H2D_04mm_PLA_Inboard_Straps.3mf",
+      "bytes": 1813267,
+      "sha256": "860843b3df9f988d67db68bae78e30dd8f2d7fc0fbe8e4c810ef78087e17eaa1"
+    },
+    {
+      "path": "print/bambu-R16-upright-grip-2026-11-09/Fingerworker_R16_H2D_04mm_PLA_Basic_Print_Ready.3mf",
+      "bytes": 1946632,
+      "sha256": "a9ebaf5ba9c9296c1e85b162689dab32d13a7bb1ae3a0f826b355328594b89a0"
+    },
+    {
+      "path": "print/bambu-R18-organic-palm-2026-11-13/Fingerworker_R18_Complete_Kit_H2D_04mm_PLA_Basic.3mf",
+      "bytes": 2542404,
+      "sha256": "b28cc3bc60ed52af7524fd66b81406847180edfbedc2e36dc4ffb9abba0740a4"
+    },
+    {
+      "path": "print/bambu-R18-organic-palm-2026-11-13/Fingerworker_R18_P01_Replacement_H2D_04mm_PLA_Basic.3mf",
+      "bytes": 1716053,
+      "sha256": "85ad44bc0bc4b43c3e9ccd1258399cc5df1cf3a4b9b07cffae06cc02a027e85e"
+    },
+    {
+      "path": "print/bambu-R8-fit-test-2026-10-24/Fingerworker_R8_H2D_04mm_PLA_Fit_Test.3mf",
+      "bytes": 1778666,
+      "sha256": "3bd6c6dc06f3f5f7c4eafa575f1a0cbf52148a8a82ca867a89d3fac06b2e063a"
+    },
+    {
+      "path": "print/bambu-R9-palm-bracing-2026-10-25/Fingerworker_R9_H2D_04mm_PLA_Fit_Test.3mf",
+      "bytes": 1786969,
+      "sha256": "f6a5709a4446d1715a9850a2ef89fa467d6b5025f92f4fba790a3beb116744c4"
+    },
+    {
+      "path": "print/bambu-R9-palm-bracing-2026-10-25/Fingerworker_R9_P02_only_H2D_04mm_PLA.3mf",
+      "bytes": 363541,
+      "sha256": "4db5b75b8ba78a3fe440e78e6de1fc932037972460c9f0a8586485f4680441c1"
+    },
+    {
+      "path": "print/bambu-R9-palm-bracing-2026-10-25/Fingerworker_R9_P02_wrist_down_H2D_04mm_PLA.3mf",
+      "bytes": 361546,
+      "sha256": "56cc572c803fa43d9c3e7d94e6e269fe2b0a6740837d5e4b87671338e80f311a"
+    },
+    {
+      "path": "print/bambu-softer-springs-2026-10-26/S01_22mm_spacers_H2D_04mm_PLA.3mf",
+      "bytes": 49993,
+      "sha256": "47f7da92329f3a08e87dcd869ab828bfe887fd884a685ff4c59c9f23698ed23f"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "status": "UNCHANGED",
+  "files": [
+    {
+      "path": "fingerworker_mvp.fs",
+      "sha256": "43a2dc70e3eed4308534da7772f4b82bf845c97d6f6a53456d0d63aa9552fb33",
+      "expected_sha256": "43a2dc70e3eed4308534da7772f4b82bf845c97d6f6a53456d0d63aa9552fb33"
+    },
+    {
+      "path": "review/onshape-flat132-2026-10-19/fingerworker_flat132.fs",
+      "sha256": "3e5de8f56211cf2ed063b6b4294da5f77fea4c3fb881fa0c13b1288eca7932cc",
+      "expected_sha256": "3e5de8f56211cf2ed063b6b4294da5f77fea4c3fb881fa0c13b1288eca7932cc"
+    },
+    {
+      "path": "vendor/te_fx1901/c-fx1901-0001-0200-l-f-3d.stp",
+      "sha256": "fe4aee5f64f19f4859d2cfdbf73cb24d3cd91b0987949a6fcf28ada22e46cac3",
+      "expected_sha256": "fe4aee5f64f19f4859d2cfdbf73cb24d3cd91b0987949a6fcf28ada22e46cac3"
+    }
+  ]
+}

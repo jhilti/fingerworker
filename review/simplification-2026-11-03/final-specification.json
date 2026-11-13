@@ -1,0 +1,135 @@
+{
+  "revision": "Flat132 R12 simplified PLA click assembly",
+  "date": "2026-11-03",
+  "status": "PASS_NOMINAL_CAD_AND_PLA_PRINT",
+  "source_sha256": "730cd21ea3aafbe43bf8eb38007b20d9cd0272659430d8a2b3b6245f33f62455",
+  "onshape_version": "a38e831517d6797cbc47077c",
+  "onshape_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/a38e831517d6797cbc47077c/e/d253eb87b70818ebde8215f0",
+  "native_solids": 93,
+  "device_bodies": 40,
+  "electronics_reference_bodies": 53,
+  "printed_device_bodies": 7,
+  "fit_test_pieces": 10,
+  "plates": 3,
+  "changed": [
+    "P01",
+    "P08"
+  ],
+  "new": [
+    "P06"
+  ],
+  "removed": [
+    "P060",
+    "P061",
+    "P120",
+    "P121",
+    "H260",
+    "H261",
+    "H270",
+    "H271",
+    "H280",
+    "H281",
+    "H290",
+    "H291",
+    "H310",
+    "H311",
+    "H320",
+    "H321",
+    "H11",
+    "H13",
+    "H15",
+    "H160",
+    "H161",
+    "H170",
+    "H171",
+    "H21",
+    "H22"
+  ],
+  "unchanged_exact_native_breps": 90,
+  "PLA_standard": true,
+  "second_material_required": false,
+  "P01_reprint_required": true,
+  "P04_reprint_for_surface": false,
+  "new_prints_required": [
+    "P01",
+    "P06",
+    "Q01"
+  ],
+  "fixed_preload_adjustment_mm": 0,
+  "fixed_rear_advance_mm": 0,
+  "user_travel_mm": 30,
+  "isometric_approach_mm": 15,
+  "isometric_sleeve_length_mm": 81,
+  "rest_spring_length_mm": 96,
+  "rest_spring_compression_mm": {
+    "DF2194": 6,
+    "DF2185": 9
+  },
+  "fixed_sensor_reaction_area_mm2": 454.4,
+  "estimates": [
+    {
+      "plate": 1,
+      "seconds": 30009,
+      "grams": 133.55,
+      "objects": 1
+    },
+    {
+      "plate": 2,
+      "seconds": 19775,
+      "grams": 72.43,
+      "objects": 8
+    },
+    {
+      "plate": 3,
+      "seconds": 15633,
+      "grams": 65.21,
+      "objects": 1
+    }
+  ],
+  "verification": {
+    "review/simplification-2026-11-03/validation/native-geometry.json": {
+      "status": "PASS_EXACT_NATIVE_R12",
+      "sha256": "a7dd38223f9f639825b290204d67de9b13928da591a754e1e51340f95f11401a"
+    },
+    "review/simplification-2026-11-03/validation/native-motion.json": {
+      "status": "PASS_NATIVE_FIXED_SUPPORT_AND_FULL_TRANSLATIONAL_MOTION",
+      "sha256": "7951d3a22bb35e46844a34e1563f216926db247c020c85c605df346e4e9249ae"
+    },
+    "review/simplification-2026-11-03/validation/service-native.json": {
+      "status": "PASS_NATIVE_R12_SENSOR_SERVICE",
+      "sha256": "a6659485563d069964390647b0a83b43e48b03b019b14e029ed1e494d7a51dc2"
+    },
+    "review/simplification-2026-11-03/independent-fixed-front-check.json": {
+      "status": "PASS_INDEPENDENT_NATIVE_FIXED_FRONT",
+      "sha256": "4171ae587898f6f2539ab5d03355f23aa35eb31012f93d4f374a5e3a8079aa3d"
+    },
+    "review/simplification-2026-11-03/fixture/validation.json": {
+      "status": "PASS_Q01_NATIVE_FIT",
+      "sha256": "2d22d37e3483d82d4f667c39a03413e3a8dbec98a99d32bac2f426cd36c0ac7c"
+    },
+    "print/bambu-R12-simplified-2026-11-03/validation/native-project-check.json": {
+      "status": "NATIVE_PROJECT_AND_ALL_THREE_SLICES_PASS",
+      "sha256": "fea9bc6d6961f7648a2f082e0921ecdca6f11dc9a7473676d1cc1fada283d216"
+    },
+    "print/bambu-R12-simplified-2026-11-03/validation/toolpath-check.json": {
+      "status": "PASS_ACTUAL_R12_TOOLPATHS",
+      "sha256": "00b9e86c7e924e36dc72e8e6b51a19f2f7ca4cf8d1e390e357936c032f519073"
+    },
+    "print/bambu-R12-simplified-2026-11-03/validation/print-feature-check.json": {
+      "status": "PASS_FINAL_R12_PRINT_FEATURES",
+      "sha256": "30c9315f0d51163e497a61056235f4e9aaf44cd44f88f682d4baba825ee4971c"
+    },
+    "print/bambu-R12-simplified-2026-11-03/validation/p04-surface-check.json": {
+      "status": "PASS",
+      "sha256": "19eaaceb0746da74af296a8dd19bb476b3987902a9f66faad7ae658e329bb73e"
+    }
+  },
+  "files_sha256": {
+    "review/simplification-2026-11-03/fingerworker_R12_simplified.fs": "730cd21ea3aafbe43bf8eb38007b20d9cd0272659430d8a2b3b6245f33f62455",
+    "print/bambu-R12-simplified-2026-11-03/Fingerworker_R12_H2D_04mm_PLA_Fit_Test.3mf": "5869ead2f99743eead62b6e59fa7dc699b6d0bec2b43ead2d1a0598f70f788bb",
+    "print/bambu-R12-simplified-2026-11-03/Fingerworker_R12_H2D_04mm_PLA_Fit_Test_Package.zip": "3ba932d4fb98eb964be3e77724734bc472a6c0cb72806afcf8891665bf5bcf84",
+    "review/simplification-2026-11-03/native/Flat132_R12_final_AP214.step": "b2c076642b22f99a251b8e2a6ac20da9f251696e892448a2651ee8b636f32021",
+    "review/simplification-2026-11-03/native/Flat132_R12_neutral_final.zip": "0dfb335eba5293a13115ee5dbc4245a8cacc5311d17fe6771aad3135a935eaa1"
+  },
+  "limitations": "Nominal CAD and calculated toolpaths only. Real PLA fit, latch force, support removal, cycling, creep, sensor calibration and loaded performance require physical verification. Clips support unloaded assembly; securing screws remain for loaded use. No 500 N qualification. Q01/printed rods are unloaded fit aids only."
+}

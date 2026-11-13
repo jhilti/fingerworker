@@ -1,0 +1,96 @@
+{
+  "status": "FAIL",
+  "checks": [
+    {
+      "name": "Q01 seated / P01",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Q01 seated / P05",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Q01 seated / H040",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Q01 seated / H041",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "fixed X-12 reaction contact",
+      "status": "FAIL",
+      "contact_area_mm2": 0.0
+    },
+    {
+      "name": "grounded Z4 base contact",
+      "status": "FAIL",
+      "contact_area_mm2": 0.0
+    },
+    {
+      "name": "Preserved P05 X1 shoulder contact",
+      "status": "FAIL",
+      "contact_area_mm2": 0.0,
+      "datum_x_mm": 1
+    },
+    {
+      "name": "Unloaded carriage complete30mm motion",
+      "status": "PASS",
+      "maximum_overlap_mm3": 0,
+      "poses": 61
+    },
+    {
+      "name": "P05 withdraws +X12 from plain Q01 tail",
+      "status": "PASS",
+      "maximum_overlap_mm3": 0,
+      "poses": 49
+    },
+    {
+      "name": "Q01 +X25 removal after P05 clear",
+      "status": "PASS",
+      "maximum_overlap_mm3": 0,
+      "poses": 51
+    },
+    {
+      "name": "Support-free print geometry",
+      "status": "PASS",
+      "unsupported_steep_area_mm2": 0.0,
+      "reaction_face_down": true,
+      "integral_shoulder_taper_degrees": 45
+    },
+    {
+      "name": "One closed positive STL",
+      "status": "PASS",
+      "bounds_mm": [
+        [
+          -6.0,
+          -10.5,
+          0.0
+        ],
+        [
+          6.0,
+          10.5,
+          19.5
+        ]
+      ],
+      "volume_mm3": 1315.6242855533108
+    }
+  ],
+  "baseline_native_step_sha256": "4c7b412eb5700e6ff8dc985c7ab8182e5acc7003a645ecac3291e88fe455d6e7",
+  "files_sha256": {
+    "review/simplification-2026-11-03/front/P01_fixed_front.step": "773649aa560a3309cc128f5ec973a0e632363af96943400c36d6378f20f2921b",
+    "review/simplification-2026-11-03/fixture/Q01_R12_FIXED_UNLOADED_FIXTURE_assembly-mm.step": "c4e3fe493cbae83a55929e4420b831f2b9dbb20358c0eb465c4c2e6b967bac15",
+    "review/simplification-2026-11-03/fixture/manifest.json": "359a07b4960a72a5a2d6ef23174368792789e6e9444b78ee7fe80028ff2026f5",
+    "review/simplification-2026-11-03/fixture/Q01_R12_FIXED_UNLOADED_FIXTURE_print-mm.stl": "78f4f09867236a4f1a588b55f80e00c40c6436be9f733e558ab4ac70941d6d33"
+  },
+  "frame_scope": "Local fixed-front candidate; repeat against final native export",
+  "limitations": [
+    "Unloaded CAD geometry only; not physical print, sensor, switch, force or lifetime qualification.",
+    "Sensor stack, springs, spring seats and isometric sleeves must be absent when Q01 is fitted.",
+    "Y-axis alignment comes from P05/rods; the foot provides vertical location, no axial latch."
+  ]
+}

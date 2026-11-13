@@ -1,0 +1,746 @@
+{
+  "revision": "Flat132 R8 palm electronics cover",
+  "status": "CAD_PROTOTYPE_NOMINAL_GEOMETRY_CHECKS_PASS",
+  "source": {
+    "file": "fingerworker_flat132_palm_cover.fs",
+    "builder": "build_palm_cover.py",
+    "sha256": "6099df42e341ff9f5c3439709a23107325d10ef922f616bdcda6fa6ef64d41c1",
+    "bytes": 122839
+  },
+  "baseline": {
+    "revision": "Flat132 R7 compact adjustable rear",
+    "source_sha256": "d42805e8ee10158408099bf7185e49cf9a6eb06c23c327c90c01edfcd04eaddd",
+    "immutable_version_id": "6dd467818da7364197461627",
+    "immutable_version_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/6dd467818da7364197461627/e/d253eb87b70818ebde8215f0"
+  },
+  "onshape": {
+    "document_id": "15316cc6370631845af136b2",
+    "workspace_id": "6ca099039556ace24882bd9c",
+    "part_studio_id": "d253eb87b70818ebde8215f0",
+    "feature_studio_id": "f4e97d439e996d0e05f0255e",
+    "branch_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/w/6ca099039556ace24882bd9c/e/d253eb87b70818ebde8215f0",
+    "immutable_version_id": "6965afcca3af7c58ef3ac73f",
+    "immutable_version_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/6965afcca3af7c58ef3ac73f/e/d253eb87b70818ebde8215f0",
+    "immutable_version_name": "Flat132 R8 - integrated palm electronics cover - 2026-10-23",
+    "immutable_source_readback_sha256": "6099df42e341ff9f5c3439709a23107325d10ef922f616bdcda6fa6ef64d41c1",
+    "immutable_source_readback_bytes": 122839
+  },
+  "geometry": {
+    "frame_width_mm": 132,
+    "clear_finger_opening_mm": 72,
+    "maximum_height_mm": 35,
+    "preload_mm": [
+      0,
+      2
+    ],
+    "dynamic_user_travel_mm": "u=0..30-preload-a",
+    "absolute_carriage_shift_from_R4_mm": "q=5+a+u",
+    "permanent_rest_offset_mm": 5,
+    "dynamic_grip_span_between_CAD_landmarks_mm": "109.25-a-u",
+    "palm_wrist_tangent_X_mm": -37.25,
+    "loaded_finger_wall_X_mm": "72-a-u",
+    "isometric_absolute_shift_mm": "q=20-preload",
+    "isometric_user_approach_mm": "u=15-preload-a",
+    "rear_adjust_mm": [
+      0,
+      2
+    ],
+    "rear_adjust_plus_preload_limit_mm": 2,
+    "base_length_mm": 151,
+    "guide_rod_length_mm": 141,
+    "R6_complete_X_span_mm": 180.1,
+    "footprint_scope": "Physical device including adjuster ends; external USB-approach REF E06 and side-button-travel REF E08 clearance envelopes excluded from footprint but retained in complete STEP inventory",
+    "R6_physical_device_X_span_mm": 180.1,
+    "X_change_from_R7_mm": 0,
+    "reference_default_device_X_span_mm": 176.5,
+    "R8_footprint_verification": "PASS_NATIVE_PHYSICAL_DEVICE_FOOTPRINT_UNCHANGED",
+    "native_verified_physical_device_XYZ_at_a0_mm": [
+      176.5,
+      132,
+      35
+    ],
+    "native_verified_device_X_span_at_a2_p0_mm": 175.6
+  },
+  "load_path": {
+    "sequence": "P04->P05 integral stops->H02->actual H01->H12->H13/H11/H15->P01",
+    "fixed_stop_bypass": false,
+    "central_P05_force_web_source": "EXACT_PRESERVATION_ASSERTION_PASS",
+    "P05_stop_face_area_each_mm2": 308,
+    "P05_stop_face_area_total_mm2": 616,
+    "P05_root_section_mm": [
+      10,
+      22
+    ],
+    "mechanical_contact": "P04X65-q meetsP05X30+p atq+p=35"
+  },
+  "cam": {
+    "shoe_ref": "P11",
+    "clamp_ref": "H10",
+    "clamp": "M3x10 vertical screw",
+    "previous_R4_part": "M3x8 horizontal cam screw",
+    "function": "Manually set switch-actuation shoe; outside main500N force path",
+    "lower_shoe_bounds_mm": [
+      [
+        69,
+        -0.7,
+        9
+      ],
+      [
+        73.5,
+        7.7,
+        19
+      ]
+    ],
+    "upper_shoe_bounds_mm": [
+      [
+        67.5,
+        -0.7,
+        13.2
+      ],
+      [
+        69,
+        7.7,
+        19
+      ]
+    ],
+    "main_well_mm": [
+      [
+        64,
+        -1,
+        8.6
+      ],
+      [
+        74.8,
+        8,
+        19
+      ]
+    ],
+    "front_lever_relief_mm": [
+      [
+        64,
+        -14,
+        8.6
+      ],
+      [
+        67.2,
+        8,
+        19
+      ]
+    ],
+    "old_horizontal_cam_bores_omitted": true,
+    "guide_roof_Z_mm": 7.3,
+    "minimum_local_roof_ligament_mm": 1.3,
+    "rear_well_to_vertical_pocket_wall_mm": 2.2,
+    "roof_slot_axis_X_mm": [
+      67.7,
+      71.3
+    ],
+    "roof_slot_radius_mm": 1.7,
+    "head_counterbore_radius_mm": 3,
+    "axis_Y_mm": 3.5,
+    "nominal_axis_X_mm": 70.5,
+    "head_max_diameter_mm": 5.5,
+    "head_height_mm": 3,
+    "head_Z_mm": [
+      25,
+      28
+    ],
+    "underhead_Z_mm": 25,
+    "tip_Z_mm": 15,
+    "insert_pilot_diameter_mm": 4.2,
+    "insert_pilot_floor_Z_mm": 14.5,
+    "insert_entry_Z_mm": 19,
+    "intended_L4_insert_Z_mm": [
+      15,
+      19
+    ],
+    "nominal_engagement_mm": 4,
+    "tip_floor_clearance_mm": 0.5,
+    "minimum_axial_pilot_wall_mm": 0.9,
+    "upper_step_pilot_floor_ligament_mm": 1.3,
+    "trim_parameter": "camTrim",
+    "trim_bounds_mm": [
+      -0.8,
+      0.8
+    ],
+    "trim_default_mm": 0,
+    "relative_setting_mm": "k=camTrim-preload",
+    "shoe_contact_face_X_mm": "69+camTrim-preload-q",
+    "manual_setup": "Reset shoe by minus preload change; physically calibrate and clamp; not automatically coupled",
+    "nominal_trip_lead_before_stop_mm": 1,
+    "qualification": "Actual switch operating point/overtravel/release, insert, clamp, access and retention require physical qualification"
+  },
+  "return_rest": {
+    "fixed_R6_bosses_replaced": true,
+    "adjustment": "Two captive screw-controlled return shoes",
+    "contact_pads": "Four existing flexible P07 pads",
+    "locking": "Two accessible M4 DIN439 steel jam nuts, nominal AF7 x 2.2 mm; counterhold 2 mm hex adjuster while tightening",
+    "shoe_capture": "Two M2x8 socket-cap screws in M2 DIN562 steel nuts; positive shoe capture, remove only for service",
+    "rear_frame_and_rods_shortening_mm": 5,
+    "net_assembly_X_shortening_mm": 3.6,
+    "measurement_deadzone": "Initial hand force unloads the return reaction before carriage motion; sensor increment alone does not establish complete hand force during that interval",
+    "nominal_M4_axis_Z_mm": 7,
+    "shoe_print_refs": [
+      "P120",
+      "P121"
+    ],
+    "rigid_shoe_to_carriage_gap_at_rest_mm": 0.2,
+    "contact_pad_thickness_mm": 1.5,
+    "source_nominal_total_X_shortening_mm": 3.6,
+    "rear_M3_mount_Y_offsets_mm": [
+      -9.5,
+      9.5
+    ],
+    "rear_cap_halfwidth_mm": 14,
+    "base_washer_service_channel": "Open rearwards through X130 for positive washer withdrawal",
+    "nominal_rear_insert_web_mm": 1.2,
+    "nominal_counterbore_sidewall_mm": 1.3,
+    "base_lower_hub_service_pocket": {
+      "X_mm": [
+        116.9,
+        130
+      ],
+      "Y_halfwidth_local_mm": 4.8,
+      "Z_mm": [
+        3,
+        4.7
+      ],
+      "function": "Continuous rearward route for complete captured rear module after unloading and removing cap fasteners"
+    },
+    "pad_attachment": {
+      "host_refs": [
+        "P120",
+        "P121"
+      ],
+      "geometry": "Four unchanged neutral flat P07 pads, thickness1.5 mm",
+      "new_snap_or_mechanical_interlock": false,
+      "method": "Secure flat P07 pads to shoe shoulders, e.g. adhesive compatible with chosen TPU/rigid print; compatibility and retention require physical check",
+      "load_role": "Pad carries compressive return contact; attachment retains pad during unloading"
+    }
+  },
+  "spring_nominal": {
+    "installed_length_mm": "L=96-a-preload-u",
+    "rest_length_p0_p2_mm": [
+      96,
+      94
+    ],
+    "minimum_length_mm": 66,
+    "light": {
+      "article": "0X-DF2194",
+      "initial_pair_force_p0_p2_N": [
+        39.684,
+        52.912
+      ],
+      "end_pair_force_N": 238.104,
+      "catalog_L1_mm": 58.59,
+      "end_length_reserve_to_L1_mm": 7.41
+    },
+    "strong": {
+      "article": "0X-DF2185",
+      "initial_pair_force_p0_p2_N": [
+        66.762,
+        81.598
+      ],
+      "end_pair_force_N": 289.302,
+      "catalog_L1_mm": 56.14,
+      "end_length_reserve_to_L1_mm": 9.86
+    },
+    "evidence": "reference/spring-tradeoff.json",
+    "qualification": "Nominal catalogue envelopes only; no spring tolerance, buckling/guidance, fatigue or device load rating established"
+  },
+  "isometric": {
+    "selected_sleeve_length_mm": 81,
+    "sleeve_outer_diameter_mm": 16,
+    "sleeve_inner_diameter_mm": 8,
+    "selection_status": "USER_EXPLICITLY_SELECTED81MM",
+    "absolute_grip_unchanged_from_R4": false,
+    "absolute_grip_reduction_mm": 5,
+    "absolute_displacement_mm": "q=20-preload",
+    "approach_from_R5_rest_mm": "u=15-preload-a",
+    "approach_p0_p2_mm": [
+      15,
+      13
+    ],
+    "prior_sleeve_mm": 86,
+    "prior_selected": false,
+    "new_native_pose_filename": "Flat132_R8_isometric13_p2_81_final.zip",
+    "approach_from_adjusted_rest_mm": "u=15-preload-a"
+  },
+  "switch_fit": {
+    "part_number": "Omron SS-01GL2",
+    "variant": "Plain SPDT hinge-roller model with solder terminals",
+    "geometry_status": "MANUFACTURER_DRAWING_CLEARANCE_REFERENCE; NO_FACTORY_SWITCH_STEP",
+    "drawing": "Omron B032-E1, pages4/6/7",
+    "drawing_url": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-ss.pdf",
+    "drawing_local_sha256": "b7c3cc9e838c1049d58772242b56cd06af3526ac422907769acd892668ba1a09",
+    "main_body_dimensions_mm": [
+      19.8,
+      10.2,
+      6.4
+    ],
+    "shift_mm": [
+      4,
+      1,
+      1.5
+    ],
+    "body_bounds_mm": [
+      [
+        18,
+        -16,
+        7.5
+      ],
+      [
+        28.2,
+        3.8,
+        13.9
+      ]
+    ],
+    "mount_axes_XY_mm": [
+      [
+        20.5,
+        -10.9
+      ],
+      [
+        20.5,
+        -1.4
+      ]
+    ],
+    "pedestal_bounds_mm": [
+      [
+        17,
+        -16.5,
+        3.8
+      ],
+      [
+        29,
+        5,
+        7.5
+      ]
+    ],
+    "insert_pilot_diameter_mm": 3.2,
+    "insert_pilot_Z_mm": [
+      3.5,
+      7.7
+    ],
+    "actual_blind_depth_mm": 4,
+    "intended_M2_insert_length_mm": 3,
+    "joined_H09_reference": [
+      "Main housing with two nominal mount holes",
+      "Three solid rectangular solder-tab envelopes; exact holes/corners unspecified",
+      "Conservative full-housing-width0.4mm lower-lug strip; exact profile unspecified"
+    ],
+    "actuator": "H09a/H09b remain approximate fixed-length lever/roller motion; three switch bodies total",
+    "bare_terminal_to_P05_axial_gap_at_preload2_mm": 3.1,
+    "case_to_negative_stop_gap_mm": 1,
+    "pedestal_to_negative_stop_gap_mm": 0.5,
+    "qualification": "Nominal drawing-envelope clearance only. Manufacturing tolerances, actual terminals, solder, insulation, wire bends and strain relief require physical fitting."
+  },
+  "palm_fit": {
+    "axis_x_mm": -27,
+    "axis_z_mm": 19.75,
+    "outer_radius_mm": 10.25,
+    "wrist_contact_x_mm": -37.25,
+    "flat_back_x_mm": -27,
+    "single_print_ref": "P02",
+    "material_intent": "One rigid printed block; filament and print process to be selected and qualified",
+    "removed_ref": "P03",
+    "separate_TPU_palm_sleeve": false,
+    "TPU_return_bands": false,
+    "outer_contact_unchanged_from_R5": true,
+    "keyed_mounts_and_case_pilots": "PASS_EXACT_UNCHANGED_LOCAL_NATIVE_GEOMETRY",
+    "electronics_cover_extension_mm": 8.85,
+    "slicer_note": "Solid CAD block means a closed single solid; choose slicer infill/perimeters separately, no 100 percent infill qualification implied",
+    "physical_hard_palm_comfort": "PENDING",
+    "electronics_lid_nominal_gap_mm": 0.6,
+    "flat_plate_wrist_edge_x_mm": -46.1,
+    "native_P02_connected_solid_count": 1
+  },
+  "insert_intent": {
+    "existing_location_count": 11,
+    "threads": {
+      "M4": 2,
+      "M3": 5,
+      "M2": 4
+    },
+    "separate_modeled_insert_bodies": 0,
+    "stock_fit_status": "ACTUAL_STOCK_DIMENSIONS_REQUIRED",
+    "steel_force_path_interfaces": "Preserved; no steel sensor nut/keeper thread replaced by heat-set insert",
+    "cam_host": "Transferred fromP04 toP11; still oneM3 seat"
+  },
+  "strength": {
+    "target_N": 500,
+    "physical_qualification": "PENDING",
+    "rated_load_N": null,
+    "meaning": "CAD geometry and catalogue spring margin do not qualify print stiffness/strength, creep/fatigue, keeper/palm joints or one-sided load"
+  },
+  "firmware": {
+    "changed": false,
+    "NC_LOW_qualified_force_readout": "BLOCKED_IN_CURRENT_FIRMWARE"
+  },
+  "hand_scan": "Original raw scan and approximate registration unchanged; no hand fit qualification",
+  "native_exports": {
+    "Flat132_R8_final_AP214.step": {
+      "sha256": "99e73fe8a20ca5cd62b42369a625a9067feb7df6c48d6e94af3d9ac3b1a15292",
+      "bytes": 2483819,
+      "pose": "neutral",
+      "format": "AP214",
+      "preprocessing": "None",
+      "axis_y_up": false,
+      "latest_version": false,
+      "custom_units": false,
+      "export_source_sha256": "6099df42e341ff9f5c3439709a23107325d10ef922f616bdcda6fa6ef64d41c1"
+    },
+    "Flat132_R8_neutral_final.zip": {
+      "sha256": "26f2aa363de1b1fb154e8140884c297dba724b5baefcf9a765883a9694d6d299",
+      "bytes": 56405226,
+      "user_travel_mm": 0,
+      "absolute_carriage_offset_mm": 5,
+      "rear_advance_mm": 0,
+      "preload_mm": 0,
+      "cam_trim_mm": 0,
+      "light_springs": true,
+      "isometric": false,
+      "electronics_references": true,
+      "hand_reference": false,
+      "native_parts": 123,
+      "CRC": "PASS",
+      "export_source_sha256": "6099df42e341ff9f5c3439709a23107325d10ef922f616bdcda6fa6ef64d41c1"
+    },
+    "Flat132_R8_adjusted_rest_a2_final.zip": {
+      "sha256": "4b98a1824c9ff08c55495672e8f9fa8cb97da710dc3bc26ff7ee08e82fe7c3ed",
+      "bytes": 56386821,
+      "user_travel_mm": 0,
+      "absolute_carriage_offset_mm": 7,
+      "rear_advance_mm": 2,
+      "preload_mm": 0,
+      "cam_trim_mm": 0,
+      "light_springs": true,
+      "isometric": false,
+      "electronics_references": true,
+      "hand_reference": false,
+      "native_parts": 123,
+      "CRC": "PASS",
+      "export_source_sha256": "6099df42e341ff9f5c3439709a23107325d10ef922f616bdcda6fa6ef64d41c1"
+    },
+    "Flat132_R8_max28_p2_heavy_final.zip": {
+      "sha256": "6f15f6b4916eba7b96784206328b7f4dac1319705b91a06caceef873212315bd",
+      "bytes": 54231451,
+      "user_travel_mm": 28,
+      "absolute_carriage_offset_mm": 33,
+      "rear_advance_mm": 0,
+      "preload_mm": 2,
+      "cam_trim_mm": 0,
+      "light_springs": false,
+      "isometric": false,
+      "electronics_references": true,
+      "hand_reference": false,
+      "native_parts": 123,
+      "CRC": "PASS",
+      "export_source_sha256": "6099df42e341ff9f5c3439709a23107325d10ef922f616bdcda6fa6ef64d41c1"
+    },
+    "Flat132_R8_isometric13_p2_81_final.zip": {
+      "sha256": "db588efae69783e42f0db39523cfb8f337f60fd575372bfef093443e2995b541",
+      "bytes": 4846130,
+      "user_travel_mm": 13,
+      "absolute_carriage_offset_mm": 18,
+      "rear_advance_mm": 0,
+      "preload_mm": 2,
+      "cam_trim_mm": 0,
+      "light_springs": false,
+      "isometric": true,
+      "electronics_references": true,
+      "hand_reference": false,
+      "native_parts": 123,
+      "CRC": "PASS",
+      "export_source_sha256": "6099df42e341ff9f5c3439709a23107325d10ef922f616bdcda6fa6ef64d41c1"
+    }
+  },
+  "print_set": {
+    "directory": "print-mm",
+    "count": 16,
+    "refs": [
+      "P01",
+      "P02",
+      "P04",
+      "P05",
+      "P060",
+      "P061",
+      "P070a",
+      "P070b",
+      "P071a",
+      "P071b",
+      "P08",
+      "P09",
+      "P10",
+      "P11",
+      "P120",
+      "P121"
+    ],
+    "flexible_refs": [
+      "P070a",
+      "P070b",
+      "P071a",
+      "P071b"
+    ],
+    "units": "mm",
+    "orientation": "Original native neutral assembly coordinates; unsliced; byte-identical STL members",
+    "changed_since_R7": [
+      "P02"
+    ],
+    "added_since_R7": []
+  },
+  "assembly_set": {
+    "directory": "assembly-mm",
+    "device_STL_count": 70,
+    "full_native_solid_count": 123,
+    "electronics_reference_count": 53,
+    "units": "mm",
+    "source_native_zip": "Flat132_R8_neutral_final.zip",
+    "source_native_step": "native/Flat132_R8_final_AP214.step",
+    "orientation": "Original native neutral assembly coordinates; byte-identical STL members"
+  },
+  "package": "deliverables/Flat132_R8_Palm_Cover.zip",
+  "validation": {
+    "report": "validation/validation.json",
+    "summary": "validation/validation-summary.md",
+    "status": "NOMINAL_GEOMETRY_CHECKS_PASS",
+    "failed_checks": 0,
+    "unresolved_checks": 0,
+    "binding_status": "FINAL_BOUND",
+    "report_sha256": "f12c619dadcad5e019c728e33e689a12e61e388d2495ae15186324bb138c11c0",
+    "summary_sha256": "f12c619dadcad5e019c728e33e689a12e61e388d2495ae15186324bb138c11c0",
+    "evidence_files": {
+      "validation/manifest.json": "d2b27bff94de5703b31c75cb6037942202742496c01af210c1042d0c0a2bbc15",
+      "validation/source-scope-certificate.json": "5a82a671cdecca7b0920e8d4cd7f684784199bfc807aa22bc25a8d539911c14f",
+      "validation/native-step-inventory.json": "ab6fd25202187994a1362617eb771b311b453b1a80939bca5df89d04a1c14de2",
+      "validation/unchanged-native-breps.json": "abed0f02916de917f4f1ce6f4f670757ba6c013354e47317f14b49340ce21f12",
+      "validation/palm-exact-audit.json": "be5b7ac0a20fbc91ef42a7bbefd8fa009f1d6caa1433059cd2875d86946f27d2",
+      "validation/palm-path-audit.json": "338aaeb0b40af6751342513aabe33e727551c0659c9d5b649e6eae8bb7e5e0d8",
+      "validation/palm-service-audit.json": "013265752dc45ef0c9c28c0fb0bc030145d03ee9a7889499a4966bbc84e39483",
+      "validation/native-pose-audit.json": "460bc0a1e933c27b4956487e43388945021de82c9b217371285c011136e85d3f",
+      "validation/audit_palm_cover.py": "db71fead231c3ac035c9b83ec62ee4ecab5db314963ed3d32826e2b81506cf49",
+      "validation/requirements.txt": "ea321b865315f04bfaa93885cd3f3f9b5bb54650d77fa270cd2d1c96bcc746d7",
+      "validation/validation.json": "f12c619dadcad5e019c728e33e689a12e61e388d2495ae15186324bb138c11c0",
+      "validation/validation-summary.json": "f12c619dadcad5e019c728e33e689a12e61e388d2495ae15186324bb138c11c0",
+      "validation/validation-summary.md": "768719155e971ea7e3d064794c14a08ba2e06425f56dd0b1eeea57aa09424437"
+    },
+    "scope": "R8 P02-only palm electronics cover: exact native122-body/source preservation, independent single-body ledge construction, complete electronics footprint coverage, lid/port gaps and focused full-domain/module/case/lid service checks. Prior unchanged R7 rear/motion evidence is retained under exact identity; not rerun or relabeled.",
+    "immutable_version_id": "6965afcca3af7c58ef3ac73f",
+    "native_inventory": {
+      "whole": 123,
+      "device": 70,
+      "electronics_reference": 53,
+      "printed": 16
+    },
+    "unchanged_exact_brep_count": 122
+  },
+  "viewer": "http://127.0.0.1:8776/viewer/viewer.html",
+  "proof_files": {
+    "proof/onshape-R8-immutable-neutral.png": "4d4cba6762b762d1b2418f96b628a97b22599323d907c7eacbd32876b468926e",
+    "proof/R8-palm-cover.png": "7eea552be0c1dcc516ae454bc68a3f34b1be989012973a6bcf931d1c9a11b5fa",
+    "proof/R8-palm-cover-underside.png": "2f9b7c4e79874db582e658ce0b19da7e1b331e1bf499f9ae74214ed42c715ccf"
+  },
+  "proof_files_pending": [],
+  "hardware_set": {
+    "directory": "hardware-mm",
+    "count": 2,
+    "refs": [
+      "H140",
+      "H141"
+    ],
+    "source_native_ISO_zip": "Flat132_R8_isometric13_p2_81_final.zip",
+    "source_native_ISO_zip_sha256": "db588efae69783e42f0db39523cfb8f337f60fd575372bfef093443e2995b541",
+    "source_sha256": "6099df42e341ff9f5c3439709a23107325d10ef922f616bdcda6fa6ef64d41c1",
+    "material_intent": "Two matching steel ISO sleeves; not printed; unrelated to removed TPU palm sleeve",
+    "nominal_outer_diameter_mm": 16,
+    "nominal_inner_diameter_mm": 8,
+    "nominal_length_mm": 81,
+    "orientation": "Original native R7 ISO coordinates; byte-identical ZIP members"
+  },
+  "required_proof_files": [
+    "proof/onshape-R8-immutable-neutral.png",
+    "proof/R8-palm-cover.png",
+    "proof/R8-palm-cover-underside.png"
+  ],
+  "rear_adjustment": {
+    "range_mm": [
+      0,
+      2
+    ],
+    "coordinate": "a increases rest carriage displacement toward the palm",
+    "manual_equal_side_setting": true,
+    "automatic_linkage": false,
+    "preload_budget": "a+p<=2 mm",
+    "dynamic_stroke": "u<=30-a-p mm",
+    "actual_carriage_shift": "q=5+a+u mm",
+    "thread": "M4",
+    "screw_length_mm": 10,
+    "lock": "Two accessible M4 DIN439 steel jam nuts, nominal AF7 x 2.2 mm; counterhold 2 mm hex adjuster while tightening",
+    "effect": "Sets resting grip and spring pretension; initial return reaction affects measurement dead zone; sensor end-force path remains P05",
+    "display_refs": [
+      "P120",
+      "P121",
+      "H260",
+      "H261",
+      "H270",
+      "H271",
+      "H280",
+      "H281",
+      "H290",
+      "H291",
+      "H300a",
+      "H300b",
+      "H301a",
+      "H301b",
+      "H310",
+      "H311",
+      "H320",
+      "H321"
+    ],
+    "pitch_mm": 0.7,
+    "capture_pin": "Two M2x8 socket-cap screws in M2 DIN562 steel nuts; positive shoe capture, remove only for service",
+    "reaction": "M4 DIN562 main nut against OD12/ID4.3/t1 steel DIN9021 washer on printed shoulder",
+    "nominal_main_nut_dimensions_mm": [
+      7,
+      7,
+      2.2
+    ],
+    "nominal_M2_nut_dimensions_mm": [
+      4,
+      4,
+      1.2
+    ],
+    "source_nominal_device_X_at_a0_mm": 176.5,
+    "source_nominal_R6_X_mm": 180.1,
+    "source_nominal_X_reduction_mm": 3.6,
+    "overdrive": "Do not force adjusters beyond the captured 0\u20132 mm travel stops; printed slot can be damaged",
+    "qualification": "Manual equal-side setup, screw locking, slot/pin strength, cyclic retention and real hardware/tool fit remain unqualified",
+    "documented_setup": "Springs unloaded; match both shoe positions by measurement; FACOM97.6X7 AF7 end with long2 mm hex through axial bore counterholds adjuster; turn outer tube hex with wrench to lock DIN439 jam; verify actual tool fit",
+    "mounted_tool_requirement": {
+      "model": "FACOM97.6X7",
+      "AF_end_mm": 7,
+      "end_OD_mm": 10.7,
+      "length_mm": 110,
+      "minimum_2mm_hex_useful_reach_mm": 125,
+      "CAD_well_diameter_mm": 11,
+      "nominal_radial_clearance_mm": 0.15,
+      "tool_product_url": "https://www.facom.com/product/976x7/double-socket-wrench-97-6-points-passage-hole-6x7-mm",
+      "manufacturer_drawing_url": "https://docs.rs-online.com/02fa/A700000008417796.pdf",
+      "physical_tool_fit": "PENDING",
+      "manufacturer_through_route": "Full opening stated for long threaded rods; minimum axial bore dimension not established",
+      "required_axial_clearance_for_2mm_hex_mm": 2.4,
+      "hex_key_nominal_across_corners_mm": 2.31,
+      "axial_clearance_qualification": "Gauge-check actual tool; do not treat manufacturer D4 label as verified axial-bore dimension",
+      "long_hex_example": "Wiha33442 2.0x150 mm; verify actual useful reach>=125 mm",
+      "long_hex_product_url": "https://www.wihatools.com/products/soft-grip-dual-drive-hex-t-handle-2-0mm"
+    },
+    "nominal_capture_free_motion_mm": [
+      -0.1,
+      2.1
+    ],
+    "qualified_setting_mm": [
+      0,
+      2
+    ],
+    "fallback_setup": "Unload/remove both P06 cap assemblies; set equal measured shoe advance; counterhold2 mm hex and lock jam with ordinary7 mm wrench; remount caps"
+  },
+  "dynamic_travel": {
+    "rear_adjust_mm": [
+      0,
+      2
+    ],
+    "preload_mm": [
+      0,
+      2
+    ],
+    "combined_rest_preload_limit_mm": 2,
+    "stroke_mm": "30-a-p",
+    "accepted_usable_stroke_mm": [
+      28,
+      30
+    ],
+    "actual_carriage_shift_mm": "q=5+a+u",
+    "legal_dynamic_domain": "a>=0,p>=0,a+p<=2,u>=0,u+a+p<=30"
+  },
+  "changes_from_R7": {
+    "changed_geometry_refs": [
+      "P02"
+    ],
+    "added_refs": [],
+    "print_refs_changed": [
+      "P02"
+    ],
+    "native_preservation_status": "EXACT_SOURCE_AND_NATIVE_SCOPE_VERIFIED"
+  },
+  "palm_cover": {
+    "print_ref": "P02",
+    "flat_ledge_X_min_mm": -46.1,
+    "prior_flat_plate_X_min_mm": -37.25,
+    "ledge_extension_mm": 8.85,
+    "plate_Z_mm": [
+      9.5,
+      11.5
+    ],
+    "nominal_plate_thickness_mm": 2,
+    "existing_lid_top_Z_mm": 8.9,
+    "nominal_lid_gap_mm": 0.6,
+    "curved_wrist_contact_X_mm": -37.25,
+    "curved_contact_geometry": "PASS_EXACT_NATIVE_CONTACT_SCOPE_UNCHANGED",
+    "case_and_lid": "UNCHANGED",
+    "new_hardware": false,
+    "electronics_cover_service": {
+      "status": "PASS_DECLARED_UNLOADED_MODULE_REMOVAL_CASE_DETACH_LID_REMOVAL_PATHS",
+      "setup": "Unload and positively restrain carriage; a0/p2",
+      "sequence": [
+        {
+          "action": "Remove two palm M4 screws; lift complete palm/case unit",
+          "displacement_Z_mm": 40
+        },
+        {
+          "action": "Bench-remove two enclosure-to-palm M2 screws from below",
+          "screw_X_mm": -26.5,
+          "screw_Y_mm": [
+            -59,
+            59
+          ]
+        },
+        {
+          "action": "Lower case/electronics from palm",
+          "displacement_Z_mm": -20
+        },
+        {
+          "action": "Remove three lid screws and lift P09 with palm absent",
+          "displacement_Z_mm": 15
+        }
+      ],
+      "wiring": "Disconnect or secure actual wiring before moving modules; cable slack/flex not modeled"
+    },
+    "physical_cover_strength_fit_thermal": "UNQUALIFIED",
+    "ledge_bounds_mm": [
+      [
+        -46.1,
+        -64,
+        9.5
+      ],
+      [
+        -33,
+        64,
+        11.5
+      ]
+    ],
+    "plan_corner_radius_mm": 2,
+    "top_perimeter_radius_mm": 0.5,
+    "overlap_with_prior_plate_mm": 4.25,
+    "lid_projection_coverage": "Complete intended P09 footprint X\u221246.1..\u221223.6 / Y\u00b155",
+    "nominal_USB_reference_to_ledge_gap_mm": 2.2,
+    "nominal_button_reference_to_ledge_gap_mm": 4.4,
+    "existing_P08_collar_contact": "Preserved; not included in new0.6 mm P09 lid-gap claim"
+  },
+  "native_part_manifests": {
+    "print-mm/part-manifest.json": "b81d1a1a0666eac9accd984890041c9ef3fdd840aba165a7636b86b6abd2074d",
+    "assembly-mm/part-manifest.json": "cfdd1f32436ebb472953089aba58d2d9e6b3fdfed71c5cb631d58ed9ca4aec08",
+    "hardware-mm/part-manifest.json": "b82552bb51bad139e983ac8a8ba4b8e30f60eccadcd874c7cd6f810b1b81244d"
+  },
+  "hardware_dimension_evidence_sha256": "ef570418ebf8fed16418071ef3aa79dfa26541919178a4a334125e15257c8936",
+  "portable_build_check_sha256": "205c96c27d213b043908bc361cd79745304f8a95c758f88e7162b4751657cac1"
+}

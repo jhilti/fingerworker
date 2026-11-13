@@ -1,0 +1,57 @@
+NOMINAL GEOMETRY LEDGER — millimetres
+Stroke  Span  Old rod/bridge clash  New clash  Hood overlap  Rod protrusion
+   0.0 100.0                   0.0        0.0           9.0             0.0
+  15.0  85.0                  14.0        0.0          24.0             0.0
+  30.0  70.0                  18.0        0.0          39.0            11.0
+
+Minimum nominal clearances
+  Spring / bridge tunnel radial                  0.60
+  Guide rod / carriage bore radial               0.30
+  Guide rod / cover hole radial                  0.60
+  Pad underside / reaction wall                  1.00
+  Connector / palm-foot rear                     1.75
+  Moving cavity roof / fixed hood               12.50
+  Moving cavity side / fixed hood               25.00
+  Moving cavity side / carriage                  0.50
+  Deck / hood aperture each side                 0.60
+  Deck / hood aperture front and rear            0.60
+  Full-stroke deck / fixed hood                  2.00
+  Deck underside / switch body                   4.70
+  Deck underside / switch bracket                5.00
+  Pocket floor / spring tunnel                   5.90
+  Pocket floor / seat recess                     3.30
+  Pocket wall / inner MGN screw port             4.80
+  R4 pocket mouth / inner MGN screw port         0.80
+  Reaction pad / base                            1.00
+  Spring outer envelope / base                   5.00
+  Spring seat envelope / base                    2.00
+  Load-cell envelope / base                      3.12
+  Full-height roof overlap at open               1.00
+  Return cheek / rail each side                  1.00
+  Return cheek / carriage underside              0.50
+  Return cheek / cover notch roof                0.60
+  Return cheek / cover notch each side           1.00
+
+Flat climbing layout: 94 mm wide / 20 mm deep pocket, 63.5 mm overall height;
+28.5 mm (31.0%) lower than the previous 92 mm raised-bar layout.
+Hood boss / MGN port footprint gap: 1.528 mm
+Deck stop-relief side clearance: 0.600 mm
+Strike plates: two 8 x 13.5 x 2 mm plates with 0.2 mm recess clearance;
+recess tops at 38.7 lie 0.8 mm below pocket floor 39.5; cuts follow deck union.
+
+Estimated switch contact preview (not exact manufacturer kinematics)
+Stroke  Roller X  Roller Z  Deck gap  Roller/case X gap
+   0.0   113.400    29.936     4.164              6.800
+  15.0   113.400    29.936     4.164              6.800
+  24.2   113.400    29.936     4.164              6.800
+  29.0   108.600    31.600     2.500              2.000
+  30.0   107.600    31.755     2.345              1.000
+Switch foot: 0.2 mm case side clearance; 1.35 mm head/recess clearance;
+hinge corridor contains the conservative R0.45 lever-root envelope.
+
+Return stops: four 1mm bumper faces; rest contact at x190.4;
+rear-cover clearances checked at 0, 2, 5, 7.6, 15 and 30mm travel.
+
+PASS: reviewed envelope targets and all three intended poses.
+Limits: nominal geometry only; CAD solids, fillets, retention, strength,
+manufacturing tolerances and a physical hand-fit test remain separate.

@@ -1,0 +1,24 @@
+{
+  "status": "PASS_IN_MEMORY_ADDITIVE_FRAME_SCOPE",
+  "baseline_native_step_sha256": "4c7b412eb5700e6ff8dc985c7ab8182e5acc7003a645ecac3291e88fe455d6e7",
+  "builder_sha256": "9c8542ac0045e593015627798c38a7b8a469edf280564eb57fba34535eb26466",
+  "old_minus_fresh_expected_mm3": 0.0,
+  "old_minus_fresh_expected_boolean_valid": true,
+  "intersection_boolean_valid": true,
+  "intersection_volume_mm3": 162202.83549193366,
+  "new_minus_old_boolean_valid": true,
+  "new_minus_old_volume_mm3": 688.1998680161402,
+  "all_added_material_bounds_mm": [
+    [
+      108.2,
+      -66.2,
+      0.7999999999999998
+    ],
+    [
+      129.0000001,
+      66.2,
+      7.8
+    ]
+  ],
+  "scope": "Fresh in-memory expected(P01) from original R11 STEP, before local STEP serialization. Confirms no old frame stock removed and additions localized to rear catches/filled rear pockets. Numeric Boolean volume tolerances are not zero for coincident curved faces; do not use locally serialized P01 for exact identity. Final native Onshape proof remains separate."
+}

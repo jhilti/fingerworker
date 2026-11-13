@@ -1,0 +1,117 @@
+{
+  "status": "PASS_R16_UPRIGHT_GRIP_DELIVERY",
+  "date": "2026-11-09",
+  "cad_revision": "R16",
+  "CAD_source_sha256": "1f492dd841c35a14f488be418e4f4dd8dea8edb63f3d321a492dc2ec3c907ab4",
+  "onshape_version": "d4421f391a091e249b08aeb1",
+  "onshape_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/d4421f391a091e249b08aeb1/e/d253eb87b70818ebde8215f0",
+  "native_step_sha256": "e2b588932fb73f5545baf87ffb91d98f69a29577517105ef169503693ca88b5d",
+  "native_zip_sha256": "1c39421b42d505d75a42db45051ba13d5baec6d7568362cffcb85fc193ef9663",
+  "plate_count": 1,
+  "object_count": 6,
+  "device_parts": 5,
+  "unloaded_fixtures": 1,
+  "estimated_seconds": 39569,
+  "estimated_grams": 238.18,
+  "project": "print/bambu-R16-upright-grip-2026-11-09/Fingerworker_R16_H2D_04mm_PLA_Basic_Print_Ready.3mf",
+  "package": "print/bambu-R16-upright-grip-2026-11-09/Fingerworker_R16_H2D_04mm_PLA_Basic_Print_Ready_Package.zip",
+  "verification": {
+    "print/bambu-R16-upright-grip-2026-11-09/validation/native-project-check.json": {
+      "status": "PASS_NATIVE_R16_UPRIGHT_GRIP",
+      "sha256": "095089c28218c1554c58f754272016a95e76816b9aac173ad4750351c2f96564"
+    },
+    "print/bambu-R16-upright-grip-2026-11-09/validation/toolpath-check.json": {
+      "status": "PASS_ACTUAL_R16_UPRIGHT_GRIP_TOOLPATHS",
+      "sha256": "edcd1addefdcc80f895b14b20d8dd861e7fd2a9e4362a0405716672b5e95b1f4"
+    },
+    "print/bambu-R16-upright-grip-2026-11-09/validation/actual-path-check.json": {
+      "status": "PASS_R16_ACTUAL_PRINT_PATHS",
+      "sha256": "b2d6e59f7b469c5fdc8fedb70d8d45f0dd3e5a0e45dbb6cc70c2db0ed317cf6e"
+    },
+    "print/bambu-R16-upright-grip-2026-11-09/validation/connected-flow-check.json": {
+      "status": "PASS_CONNECTED_MATERIAL_FLOW",
+      "sha256": "eda121a08d4c3f27dc013862fc1bb9e246b0bca2a1464916febee69aae6a6f6e"
+    },
+    "print/bambu-R16-upright-grip-2026-11-09/validation/p04-surface-check.json": {
+      "status": "PASS",
+      "sha256": "9a852320f2fcb5e8e1c2f0b38e7374bb8c8be763192886a3ae79aafcf66c6f3e"
+    },
+    "print/bambu-R16-upright-grip-2026-11-09/validation/palm-contact-check.json": {
+      "status": "PASS_R16_PALM_CONTACT_SUPPORTS",
+      "sha256": "5aff1d05741cee51153ef2132c2082e80f1c1f762eadf90a13aec120591bd479"
+    },
+    "print/bambu-R16-upright-grip-2026-11-09/validation/cli-diagnostics.json": {
+      "status": "PASS_R16_OFFICIAL_H2D_DIAGNOSTICS",
+      "sha256": "3828a54665ffbde6627785ad153afffdd84bd5d64c0535d3659bab9b67165d23"
+    },
+    "print/bambu-R16-upright-grip-2026-11-09/validation/cad-R16-native-geometry.json": {
+      "status": "PASS_EXACT_NATIVE_R16",
+      "sha256": "c6982a4ae1e1c8174b8571bc7193f394bcbd21f180fed718ac4c336313e9fb23"
+    },
+    "print/bambu-R16-upright-grip-2026-11-09/validation/cad-R16-native-motion.json": {
+      "status": "PASS_NATIVE_FIXED_SUPPORT_AND_FULL_TRANSLATIONAL_MOTION",
+      "sha256": "4675056744101f82131c24d64202d739bcf59b34b453962a14fac2d62bbe49ac"
+    },
+    "print/bambu-R16-upright-grip-2026-11-09/validation/cad-R16-service-native.json": {
+      "status": "PASS_NATIVE_R16_SENSOR_SERVICE",
+      "sha256": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    "print/bambu-R16-upright-grip-2026-11-09/validation/cad-R16-fixture-q01-check.json": {
+      "status": "PASS_Q01_NATIVE_FIT",
+      "sha256": "bae681861c65be2f9b44ba337a7118abe2d956bbb490f6fcc5343f1b03aebbca"
+    },
+    "print/bambu-R16-upright-grip-2026-11-09/validation/cad-R16-native-stl-identity.json": {
+      "status": "PASS_92_UNCHANGED_NATIVE_STLS",
+      "sha256": "feac97a431072a6c6acc40eea434c3978314d78ececda974d0d1ad008955e325"
+    },
+    "print/bambu-R16-upright-grip-2026-11-09/validation/gui-check.json": {
+      "status": "PASS_GUI_OPEN_AND_FRESH_SLICE",
+      "sha256": "e86c17fe1620914bdccfee72de578a07ff6ec1c73f2ac6f9fa1cebc9b84cd598"
+    }
+  },
+  "CAD_verification": {
+    "review/upright-grip-2026-11-09/validation/native-geometry.json": {
+      "status": "PASS_EXACT_NATIVE_R16",
+      "sha256": "c6982a4ae1e1c8174b8571bc7193f394bcbd21f180fed718ac4c336313e9fb23"
+    },
+    "review/upright-grip-2026-11-09/validation/native-motion.json": {
+      "status": "PASS_NATIVE_FIXED_SUPPORT_AND_FULL_TRANSLATIONAL_MOTION",
+      "sha256": "4675056744101f82131c24d64202d739bcf59b34b453962a14fac2d62bbe49ac"
+    },
+    "review/upright-grip-2026-11-09/validation/service-native.json": {
+      "status": "PASS_NATIVE_R16_SENSOR_SERVICE",
+      "sha256": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    "review/upright-grip-2026-11-09/validation/fixture-q01-check.json": {
+      "status": "PASS_Q01_NATIVE_FIT",
+      "sha256": "bae681861c65be2f9b44ba337a7118abe2d956bbb490f6fcc5343f1b03aebbca"
+    },
+    "review/upright-grip-2026-11-09/validation/native-stl-identity.json": {
+      "status": "PASS_92_UNCHANGED_NATIVE_STLS",
+      "sha256": "feac97a431072a6c6acc40eea434c3978314d78ececda974d0d1ad008955e325"
+    }
+  },
+  "geometry_changes": [
+    "P01"
+  ],
+  "omitted": [
+    "P08",
+    "P09",
+    "H040",
+    "H041"
+  ],
+  "material": "Bambu PLA Basic",
+  "printer": "Bambu Lab H2D",
+  "nozzle_mm": 0.4,
+  "nozzle": "left",
+  "filament_mapping": "Manual; all six mapped to 1",
+  "brim": false,
+  "modifier_count": 4,
+  "printer_job_started": false,
+  "gui_verified": true,
+  "limitations": [
+    "Nominal CAD and sliced paths checked; physical comfort, fit, adhesion, strength and creep remain unqualified.",
+    "Q01 is for an unloaded spring-free fit check only.",
+    "Machine remains unstarted; final device/material selection remains in Bambu Studio."
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "status": "PASS_R13_MECHANICS_OVERNIGHT_DELIVERY",
+  "date": "2026-11-04",
+  "cad_revision": "R13",
+  "CAD_source_sha256": "82b7d65708c46cd9d4b6ac271047eac2f638f0222451df99eae0780525edd851",
+  "onshape_version": "18d76d07da0c354cee82580a",
+  "plate_count": 1,
+  "object_count": 6,
+  "device_parts": 5,
+  "unloaded_fixtures": 1,
+  "estimates": [
+    {
+      "plate": 1,
+      "seconds": 40385,
+      "grams": 232.02
+    }
+  ],
+  "estimated_seconds": 40385,
+  "estimated_grams": 232.02,
+  "verification": {
+    "print/bambu-R13-mechanics-overnight-2026-11-04/validation/native-project-check.json": {
+      "status": "PASS_NATIVE_MECHANICS_OVERNIGHT",
+      "sha256": "df38eff9f775fbb825bc182314e7adf20473bde8821d9c27f7a89cc24870751b"
+    },
+    "print/bambu-R13-mechanics-overnight-2026-11-04/validation/toolpath-check.json": {
+      "status": "PASS_ACTUAL_R13_OVERNIGHT_TOOLPATHS",
+      "sha256": "d4154a5c55ddecdf11f247955e0cbd0fc4a665dd8e9d6225bbf41296770e6a56"
+    },
+    "print/bambu-R13-mechanics-overnight-2026-11-04/validation/print-feature-check.json": {
+      "status": "PASS_OVERNIGHT_R13_PRINT_FEATURES",
+      "sha256": "8f86aa47e94b224113eb009df0bb3e82471af4349145da8b8144a54d6259134d"
+    },
+    "print/bambu-R13-mechanics-overnight-2026-11-04/validation/palm-support-check.json": {
+      "status": "PASS_OVERNIGHT_R13_PALM_SUPPORTS",
+      "sha256": "e07f1116c20644e5546d70199425baf1841e7da1ef4a153ab7261517db4e3e73"
+    },
+    "print/bambu-R13-mechanics-overnight-2026-11-04/validation/p04-surface-check.json": {
+      "status": "PASS",
+      "sha256": "24069f93180e1aa0c3b21e737b92bba7841a0b9d2a3196ee05ce8c99e37efb69"
+    },
+    "print/bambu-R13-mechanics-overnight-2026-11-04/validation/cli-diagnostics.json": {
+      "status": "PASS_OVERNIGHT_OFFICIAL_H2D_DIAGNOSTICS",
+      "sha256": "55e2ae3d5647420e1d2ec12760cd9d2c48bb37207c21ae114e38b89d641369d5"
+    },
+    "print/bambu-R13-mechanics-overnight-2026-11-04/validation/independent-profile-review.json": {
+      "status": "PASS_INDEPENDENT_PROFILE_REVIEW",
+      "sha256": "f8291506d9bb95e2bc883b38ad02b3c100d4512dcd0284ccf230027bd8c405ed"
+    },
+    "print/bambu-R13-mechanics-overnight-2026-11-04/validation/connected-gui-check.json": {
+      "status": "PASS_CONNECTED_BAMBU_STUDIO_SLICE",
+      "sha256": "9bbc85eb695a428e68d3bfcf5eb4912dac88e5770ec3a0336184762e95c0e1f1"
+    }
+  },
+  "frozen_cad_specification_sha256": "204d9a9c321c00a0fe818b6b14307f36b5a0d6a4be19912739c68df55c0e3059",
+  "files_sha256": {
+    "print/bambu-R13-mechanics-overnight-2026-11-04/Fingerworker_R13_H2D_04mm_PLA_Mechanics_Overnight.3mf": "6c8d3d766ea78e08310d741d8104fa17f4d0a7ba163688030f10340c743fabe2",
+    "print/bambu-R13-mechanics-overnight-2026-11-04/Fingerworker_R13_H2D_04mm_PLA_Mechanics_Overnight_Package.zip": "97e5b92a84f837ebc205c36d0c91aff69578633a9092d7d6a492ac77f04e0ae6",
+    "print/bambu-R13-mechanics-overnight-2026-11-04/plate-layout.json": "7d9034af2a180b78d5a72ac450845ad6fc5f983befdd21359e6d86703afdf795",
+    "print/bambu-R13-mechanics-overnight-2026-11-04/SHA256.json": "8146634c67814a70ea3deacc6e7f459b76d98cba9c230a1da8e269ee49af7bc7"
+  },
+  "geometry_changes": false,
+  "connected_device_preview": {
+    "date": "2026-11-04",
+    "status": "PASS_CONNECTED_BAMBU_STUDIO_SLICE",
+    "printer": "Bambu Lab H2D",
+    "nozzles_mm": [
+      0.4,
+      0.4
+    ],
+    "nozzle_flow": [
+      "Standard",
+      "Standard"
+    ],
+    "plates": 1,
+    "pieces": 6,
+    "material": "Generic PLA",
+    "filament_changes": 0,
+    "displayed_estimate": "11 h 13 min",
+    "displayed_filament_g": 232.02,
+    "printer_job_started": false,
+    "opened_generic_project": "Fingerworker_R13_H2D_04mm_PLA_Mechanics_Overnight.3mf",
+    "opened_generic_project_sha256": "6c8d3d766ea78e08310d741d8104fa17f4d0a7ba163688030f10340c743fabe2",
+    "synchronization": "Connected H2D nozzle/AMS state retained; current project has arc fitting disabled and successfully sliced.",
+    "evidence": {
+      "BambuStudio-connected-slice.png": "37c1b901a8fa4e14bd7c61bdfe34d6ac278d9c9a86d5de909ce64061ce2bf01e"
+    },
+    "scope": "Successful local GUI slice and one-plate preview. No printer job transmitted. PLA spool mapping and print start remain with user."
+  },
+  "profile_changes": {
+    "outer_wall_speed": 100,
+    "inner_wall_speed": 180,
+    "internal_solid_infill_speed": 160,
+    "sparse_infill_speed": 200,
+    "gap_infill_speed": 120,
+    "top_surface_speed": 60,
+    "support_speed": 100,
+    "default_acceleration": 6000,
+    "inner_wall_acceleration": 6000,
+    "outer_wall_acceleration": 1500,
+    "top_surface_acceleration": 1500,
+    "travel_acceleration": 8000,
+    "sparse_infill_density": "20%",
+    "enable_arc_fitting": "0"
+  },
+  "omitted": [
+    "P08",
+    "P09",
+    "H040",
+    "H041"
+  ],
+  "deadline_local": "2026-11-05T09:00:00+01:00"
+}

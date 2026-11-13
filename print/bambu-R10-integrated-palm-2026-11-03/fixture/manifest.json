@@ -1,0 +1,174 @@
+{
+  "ref": "Q01",
+  "name": "Q01_UNLOADED_TEST_FIXTURE",
+  "status": "LOCAL_PRINT_TEST_FIXTURE_NOT_PRODUCT_CAD",
+  "source": "build_q01.py",
+  "source_sha256": "f7749b4a4b7c082a2ce6780ef5b3a512be81a92741e74838578b667098f5c18e",
+  "frozen_product_revision": "R8",
+  "frozen_onshape_version_id": "6965afcca3af7c58ef3ac73f",
+  "units": "mm",
+  "quantity": 1,
+  "parameters": {
+    "axis_y_z_mm": [
+      0.0,
+      18.0
+    ],
+    "square_locator": {
+      "x_mm": [
+        -20.5,
+        -16.0
+      ],
+      "y_mm": [
+        -6.0,
+        6.0
+      ],
+      "z_mm": [
+        12.0,
+        24.0
+      ]
+    },
+    "reaction_flange": {
+      "x_mm": [
+        -16.0,
+        -14.0
+      ],
+      "radius_mm": 9.0
+    },
+    "forward_shaft": {
+      "x_mm": [
+        -14.01,
+        0.1
+      ],
+      "radius_mm": 2.8
+    },
+    "pusher_shoulder": {
+      "x_mm": [
+        0.0,
+        1.0
+      ],
+      "radius_mm": 4.0
+    },
+    "unthreaded_tail": {
+      "x_mm": [
+        0.9,
+        7.5
+      ],
+      "radius_mm": 1.5
+    }
+  },
+  "brep_valid": true,
+  "solid_count": 1,
+  "shell_count": 1,
+  "brep_volume_mm3": 1597.9704945557496,
+  "stl_watertight": true,
+  "assembly_bounds_mm": [
+    [
+      -20.5,
+      -8.998220967931,
+      9.0
+    ],
+    [
+      7.5,
+      8.998220967931,
+      27.0
+    ]
+  ],
+  "print_bounds_mm": [
+    [
+      -8.998221397399902,
+      -9.0,
+      0.0
+    ],
+    [
+      8.998221397399902,
+      9.0,
+      28.0
+    ]
+  ],
+  "assembly_to_print_matrix": [
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      -18.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      20.5
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "placement": "Assembly coordinates: axis Y0/Z18; portal reaction face X-16; p=0 P05 shoulder bearing face X1.",
+  "contacts": [
+    {
+      "ref": "P01",
+      "description": "Flange rear X-16 bears only on portal material outside the 12.4 mm square pocket."
+    },
+    {
+      "ref": "P05",
+      "description": "Shoulder front X1 bears on the p=0 yoke; plain diameter3 tail locates in diameter3.2 bore."
+    }
+  ],
+  "nominal_clearances_mm": {
+    "locator_per_flat": 0.2,
+    "tail_radial": 0.1,
+    "flange_to_upper_bridge": 3.0
+  },
+  "legal_test_domain": {
+    "preload_p_mm": 0,
+    "rear_advance_a_mm": [
+      0,
+      2
+    ],
+    "user_stroke_u_mm": "0 <= u <= 30-a"
+  },
+  "print": {
+    "orientation": "Square locating end X-20.5 down, fixture X axis vertical; use supplied print-mm STL at 100 percent scale.",
+    "material": "PLA shape/fit prototype",
+    "layer_height_mm": 0.2,
+    "wall_loops": 4,
+    "infill_percent": 100,
+    "supports": "Normal supports allowed on model: buildplate supports under the diameter18 flange; supports on flange top under the diameter8 shoulder. Clean the supported portal flange datum flat without shortening it; the forward shoulder bearing face is upward and support-free.",
+    "brim_mm": 3
+  },
+  "assembly": [
+    "Omit the real sensor, pusher, pusher nut, steel cassette, preload nut/keeper/adjuster/lock, cassette retention hardware, springs and isometric sleeves. Never combine Q01 with the real sensor stack.",
+    "Insert the square locating plug from the open front (+X) into the empty P01 square pocket until the flange rear face seats at X-16.",
+    "With the guide rods available for alignment, slide P05 from +X onto the plain diameter3 tail until its rear pusher face seats against the shoulder at X1. Complete the unloaded guide/carriage assembly.",
+    "Keep the assembly supported. The plug and tail provide radial location, not an axial latch. Maintain gentle hand contact in the normal compression direction; do not pull the yoke off the fixture or lift the assembly by Q01.",
+    "At p=0 and equal rear setting a, manually guide the carriage from u0 to u(30-a). No springs, force, preload or calibration test is valid with this fixture.",
+    "For removal, slide the unloaded P05 clear of the plain tail toward +X, then withdraw Q01 toward +X from the portal before installing any real sensor-stack parts."
+  ],
+  "limitations": [
+    "Unloaded geometry/hand-fit/motion fixture only. Not a force-bearing sensor replacement, calibrated sensor emulator, preload adjuster, safety stop or strength test specimen.",
+    "The 500 N product design target is unqualified and must not be applied to this print test.",
+    "Nominal CAD clearance does not qualify printer tolerances, real hardware fits or support-removal quality."
+  ],
+  "files": {
+    "Q01_UNLOADED_TEST_FIXTURE_assembly-mm.stl": {
+      "sha256": "f6c84b6d6972d525f58255f916a0a9874ac20e9f246aa66f10f19da3f40368c8",
+      "bytes": 127084
+    },
+    "Q01_UNLOADED_TEST_FIXTURE_assembly-mm.step": {
+      "sha256": "4af00107b7da8ea0b44783d8082fa27ed03a1b804833fc9e56ec640d14ff2622",
+      "bytes": 31038
+    },
+    "Q01_UNLOADED_TEST_FIXTURE_print-mm.stl": {
+      "sha256": "4a814328544c999013ab754d2d1c3f9a99e287e034066df127525cfe912a394b",
+      "bytes": 127084
+    }
+  }
+}

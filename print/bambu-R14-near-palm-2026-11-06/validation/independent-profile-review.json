@@ -1,0 +1,393 @@
+{
+  "status": "PASS_INDEPENDENT_PROFILE_REVIEW",
+  "revision": "R14",
+  "reviewed_at_utc": "2026-11-06T14:00:59.307798+00:00",
+  "failed_checks": 0,
+  "failures": [],
+  "checks": [
+    {
+      "name": "Baseline is the frozen final R13 mechanical project",
+      "status": "PASS"
+    },
+    {
+      "name": "Native global profile differs only in display name",
+      "status": "PASS",
+      "differences": {
+        "print_settings_id": {
+          "R13": "Fingerworker R13 mechanics overnight 0.20mm",
+          "R14": "Fingerworker R14 near-palm mechanics 0.20mm"
+        }
+      }
+    },
+    {
+      "name": "Exported project settings exactly match native embedded settings",
+      "status": "PASS"
+    },
+    {
+      "name": "Every exported profile matches regenerated manifest",
+      "status": "PASS",
+      "output_profiles": {
+        "H2D_machine.json": "3fd6a5f1eba145ba5a1fefe918a188e3540ab8ee4d91a594d45129086981db84",
+        "H2D_process.json": "0fb0e4b83a2e877fa5665105b30e37ea659d45196a44e0de15765b049573edae",
+        "project_settings_H2D.json": "8ad94f9e678b71f5234d3ba90d6f17e4ad1c44cefcebc9d8a0cc510c344a51de",
+        "H2D_PLA.json": "ffed8b58c038a05344bb833158d7ebf1077331c8eb402def63b279545ffc54a0"
+      }
+    },
+    {
+      "name": "Declared global layers, walls, infill, flow and acceleration",
+      "status": "PASS",
+      "expected": {
+        "layer_height": "0.2",
+        "wall_loops": "4",
+        "top_shell_layers": "5",
+        "bottom_shell_layers": "5",
+        "top_shell_thickness": "1",
+        "sparse_infill_density": "20%",
+        "sparse_infill_pattern": "gyroid",
+        "enable_arc_fitting": "0",
+        "filament_max_volumetric_speed": "12",
+        "default_acceleration": "6000",
+        "inner_wall_acceleration": "6000",
+        "outer_wall_acceleration": "1500",
+        "top_surface_acceleration": "1500"
+      },
+      "actual": {
+        "layer_height": "0.2",
+        "wall_loops": "4",
+        "top_shell_layers": "5",
+        "bottom_shell_layers": "5",
+        "top_shell_thickness": "1",
+        "sparse_infill_density": "20%",
+        "sparse_infill_pattern": "gyroid",
+        "enable_arc_fitting": "0",
+        "filament_max_volumetric_speed": [
+          "12",
+          "12",
+          "12"
+        ],
+        "default_acceleration": [
+          "6000",
+          "6000",
+          "6000",
+          "6000",
+          "6000",
+          "6000",
+          "6000"
+        ],
+        "inner_wall_acceleration": [
+          "6000",
+          "6000",
+          "6000",
+          "6000",
+          "6000",
+          "6000",
+          "6000"
+        ],
+        "outer_wall_acceleration": [
+          "1500",
+          "1500",
+          "1500",
+          "1500",
+          "1500",
+          "1500",
+          "1500"
+        ],
+        "top_surface_acceleration": [
+          "1500",
+          "1500",
+          "1500",
+          "1500",
+          "1500",
+          "1500",
+          "1500"
+        ]
+      }
+    },
+    {
+      "name": "Official H2D macro strings preserved exactly",
+      "status": "PASS"
+    },
+    {
+      "name": "Temperature, nozzle and bed settings retained",
+      "status": "PASS"
+    },
+    {
+      "name": "Only intended six printable parts",
+      "status": "PASS",
+      "refs": [
+        "P01",
+        "P04",
+        "P05",
+        "P06",
+        "P11",
+        "Q01"
+      ]
+    },
+    {
+      "name": "Four local solid strap-eye modifiers belong only to P01",
+      "status": "PASS",
+      "modifiers": [
+        {
+          "owner": "P01",
+          "id": "2",
+          "settings": {
+            "name": "Strap eye X5 side-1 - local100% infill",
+            "matrix": "1 0 0 -36.449999809265137 0 1 0 -68 0 0 1 -14.5 0 0 0 1",
+            "sparse_infill_density": "100%",
+            "sparse_infill_pattern": "zig-zag"
+          }
+        },
+        {
+          "owner": "P01",
+          "id": "3",
+          "settings": {
+            "name": "Strap eye X5 side1 - local100% infill",
+            "matrix": "1 0 0 -36.449999809265137 0 1 0 68 0 0 1 -14.5 0 0 0 1",
+            "sparse_infill_density": "100%",
+            "sparse_infill_pattern": "zig-zag"
+          }
+        },
+        {
+          "owner": "P01",
+          "id": "4",
+          "settings": {
+            "name": "Strap eye X80 side-1 - local100% infill",
+            "matrix": "1 0 0 38.550000190734863 0 1 0 -68 0 0 1 -14.5 0 0 0 1",
+            "sparse_infill_density": "100%",
+            "sparse_infill_pattern": "zig-zag"
+          }
+        },
+        {
+          "owner": "P01",
+          "id": "5",
+          "settings": {
+            "name": "Strap eye X80 side1 - local100% infill",
+            "matrix": "1 0 0 38.550000190734863 0 1 0 68 0 0 1 -14.5 0 0 0 1",
+            "sparse_infill_density": "100%",
+            "sparse_infill_pattern": "zig-zag"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Local solid masks match declared names and density",
+      "status": "PASS",
+      "declared_modifiers": [
+        {
+          "name": "Strap eye X5 side-1 - local100% infill",
+          "native_bounds_mm": [
+            [
+              -17.5,
+              -78,
+              -2
+            ],
+            [
+              27.5,
+              -58,
+              4
+            ]
+          ],
+          "sparse_infill_density": "100%",
+          "sparse_infill_pattern": "zig-zag",
+          "purpose": "Solid ear and short base root; does not add printed geometry"
+        },
+        {
+          "name": "Strap eye X5 side1 - local100% infill",
+          "native_bounds_mm": [
+            [
+              -17.5,
+              58,
+              -2
+            ],
+            [
+              27.5,
+              78,
+              4
+            ]
+          ],
+          "sparse_infill_density": "100%",
+          "sparse_infill_pattern": "zig-zag",
+          "purpose": "Solid ear and short base root; does not add printed geometry"
+        },
+        {
+          "name": "Strap eye X80 side-1 - local100% infill",
+          "native_bounds_mm": [
+            [
+              57.5,
+              -78,
+              -2
+            ],
+            [
+              102.5,
+              -58,
+              4
+            ]
+          ],
+          "sparse_infill_density": "100%",
+          "sparse_infill_pattern": "zig-zag",
+          "purpose": "Solid ear and short base root; does not add printed geometry"
+        },
+        {
+          "name": "Strap eye X80 side1 - local100% infill",
+          "native_bounds_mm": [
+            [
+              57.5,
+              58,
+              -2
+            ],
+            [
+              102.5,
+              78,
+              4
+            ]
+          ],
+          "sparse_infill_density": "100%",
+          "sparse_infill_pattern": "zig-zag",
+          "purpose": "Solid ear and short base root; does not add printed geometry"
+        }
+      ]
+    },
+    {
+      "name": "Local solid masks retain approved outboard bounds",
+      "status": "PASS"
+    },
+    {
+      "name": "No ignored object acceleration overrides present",
+      "status": "PASS",
+      "per_object": {
+        "P01": {},
+        "P04": {},
+        "P05": {},
+        "P11": {},
+        "Q01": {},
+        "P06": {}
+      }
+    },
+    {
+      "name": "P01 retained object profile except new P01 label",
+      "status": "PASS",
+      "differences": {
+        "name": [
+          "P01 - SMOOTH CONTINUOUS PALM RAIL AND FRAME - UNLOADED FIT STUDY",
+          "P01 - INTEGRATED NEAR-PALM FRAME AND STRAP EYES - PLA ASSEMBLY STUDY"
+        ]
+      }
+    },
+    {
+      "name": "P04 retained object profile except new P01 label",
+      "status": "PASS",
+      "differences": {}
+    },
+    {
+      "name": "P05 retained object profile except new P01 label",
+      "status": "PASS",
+      "differences": {}
+    },
+    {
+      "name": "P11 retained object profile except new P01 label",
+      "status": "PASS",
+      "differences": {}
+    },
+    {
+      "name": "Q01 retained object profile except new P01 label",
+      "status": "PASS",
+      "differences": {}
+    },
+    {
+      "name": "P06 retained object profile except new P01 label",
+      "status": "PASS",
+      "differences": {}
+    },
+    {
+      "name": "P04 retains protected surfaces and removable bed tree supports",
+      "status": "PASS",
+      "expected": {
+        "outer_wall_speed": "60",
+        "top_surface_speed": "40",
+        "support_speed": "60",
+        "support_type": "tree(auto)",
+        "support_style": "tree_slim",
+        "support_on_build_plate_only": "1",
+        "support_top_z_distance": "0.25",
+        "brim_width": "5"
+      }
+    },
+    {
+      "name": "P06 retains protected click-arm speeds and no supports",
+      "status": "PASS",
+      "expected": {
+        "outer_wall_speed": "60",
+        "inner_wall_speed": "100",
+        "top_surface_speed": "40",
+        "enable_support": "0",
+        "brim_width": "4"
+      }
+    },
+    {
+      "name": "P11 remains solid at0.1mm and Q01 remains solid",
+      "status": "PASS"
+    },
+    {
+      "name": "P01 support remains accessible from build plate",
+      "status": "PASS"
+    },
+    {
+      "name": "Current native-project-check.json completed without failure",
+      "status": "PASS"
+    },
+    {
+      "name": "native-project-check.json project hash matches",
+      "status": "PASS"
+    },
+    {
+      "name": "native-project-check.json layout hash matches",
+      "status": "PASS"
+    },
+    {
+      "name": "Current toolpath-check.json completed without failure",
+      "status": "PASS"
+    },
+    {
+      "name": "toolpath-check.json project hash matches",
+      "status": "PASS"
+    },
+    {
+      "name": "toolpath-check.json layout hash matches",
+      "status": "PASS"
+    },
+    {
+      "name": "Current p04-surface-check.json completed without failure",
+      "status": "PASS"
+    },
+    {
+      "name": "p04-surface-check.json layout hash matches",
+      "status": "PASS"
+    },
+    {
+      "name": "native-project-check.json slice hash matches",
+      "status": "PASS"
+    },
+    {
+      "name": "toolpath-check.json slice hash matches",
+      "status": "PASS"
+    },
+    {
+      "name": "p04-surface-check.json slice hash matches",
+      "status": "PASS"
+    }
+  ],
+  "layout_sha256": "5a1a4416cadcc2182cdd301965ffe738b909c1e5055679ead31b5a61b7cea8b7",
+  "CAD_source_sha256": "9286d5a51880dc79d1e9a07135e8c905f4022a1ed757801b8430f23f51a04829",
+  "editable_project_sha256": "62504e043e33255dd9de14eb83e0b5781f304bf02dd1950de56c2f67519e287c",
+  "sliced_internal_evidence_sha256": "962ad2e4e30c77bc488cb7eb6635e5c2f1ad5ccb93185fafc085d5389bb25d9c",
+  "baseline_project_sha256": "6c8d3d766ea78e08310d741d8104fa17f4d0a7ba163688030f10340c743fabe2",
+  "validator_sha256": "27d8594323d3f8d8cb4e9deab11529c13630f87c9b1271737eee7fbabd3e60df",
+  "profile_manifest_sha256": "ca743ebec6c337f2d5b21b45de3c08f5f374d38630dd8bc8cf066bed91f048e2",
+  "bound_actual_QA_sha256": {
+    "native-project-check.json": "fe8dd331c57f5796b585c4c2b0726aff075c151387ab2c933150fd8bb5cdce19",
+    "toolpath-check.json": "8342bfbae0193d6f8fc8a83aa746f3ee56c7bcc8f24ce0630cf07f943dd4cd8b",
+    "p04-surface-check.json": "70412f1628e23893814f17d9ac6b8292ad92e82046e2599e6df2dce0ed125184"
+  },
+  "scope": "Independent native profile inspection and exported-profile consistency. Actual extrusion/acceleration/support paths are separately checked in the hash-bound QA reports; this is not a physical surface or strength qualification.",
+  "limits": "Per-object speed metadata is not a blanket claim about actual feature speed. All parts use global internal/default6000 and exterior/top1500 acceleration; P11 actual inner speed is assessed in toolpath QA."
+}

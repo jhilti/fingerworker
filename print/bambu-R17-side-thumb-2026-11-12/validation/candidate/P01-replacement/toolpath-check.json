@@ -1,0 +1,229 @@
+{
+  "status": "PASS_ACTUAL_R17_SIDE_THUMB_TOOLPATHS",
+  "failed_checks": 0,
+  "checks": [
+    {
+      "name": "Plate 1: every model/support/brim path attributed to a known part",
+      "status": "PASS",
+      "unattributed_segments": 0,
+      "examples": []
+    },
+    {
+      "name": "Plate 1: positive extrusion within shared printable bed",
+      "status": "PASS",
+      "outside_segments": 0,
+      "examples": [],
+      "shared_bed_bounds_xy_mm": [
+        [
+          27,
+          3
+        ],
+        [
+          323,
+          317
+        ]
+      ],
+      "coordinate_tolerance_mm": 0.03
+    },
+    {
+      "name": "Model present on first layer P01",
+      "status": "PASS",
+      "model_segments": 572900,
+      "first_layer_path_mm": 36463.03408178821
+    },
+    {
+      "name": "Complete model height P01",
+      "status": "PASS",
+      "actual_mm": 35.0,
+      "mesh_mm": 35.0,
+      "tolerance_mm": 0.2001
+    },
+    {
+      "name": "Actual acceleration matches declared R17 profile P01",
+      "status": "PASS",
+      "actual_maximum_mm_s2": 6000.0,
+      "declared_maximum_mm_s2": 6000.0
+    },
+    {
+      "name": "Model extrusion commands consistent with PLA flow cap after quantization P01",
+      "status": "PASS",
+      "raw_instantaneous_maximum_mm3_s": 24.576154246615232,
+      "minimum_required_flow_after_coordinate_E_rounding_mm3_s": 24.166301981965205,
+      "raw_maximum_for_segments_at_least_1mm_mm3_s": 21.99563197684693,
+      "cap_mm3_s": 25.0,
+      "coordinate_precision_mm": 0.001,
+      "relative_E_precision_mm": 1e-05,
+      "method": "The embedded PLA Basic flow cap is checked separately by native profile validation. For all model commands, allow only the known maximum XY endpoint rounding length error sqrt(2)*0.001mm and half-unit relative-E rounding0.000005mm; any remaining excess fails. Also require raw E/F flow on every segment>=1mm to remain<=cap+0.05mm3/s. Micron-length rounded commands are not reported as sustained physical nozzle flow."
+    },
+    {
+      "name": "Inspected layout and slice stable throughout validation",
+      "status": "PASS"
+    }
+  ],
+  "metrics": {
+    "P01": {
+      "ref": "P01",
+      "plate": 1,
+      "max_model_volumetric_mm3_s": 24.576154246615232,
+      "max_quantization_adjusted_flow_mm3_s": 24.166301981965205,
+      "max_long_segment_flow_mm3_s": 21.99563197684693,
+      "model_segments": 572900,
+      "first_layer_model_path_mm": 36463.03408178821,
+      "max_line_width_mm": 0.73238,
+      "features": {
+        "Support": {
+          "segments": 4953,
+          "path_mm": 57907.89517328208,
+          "z_range_mm": [
+            0.2,
+            15.35
+          ],
+          "max_speed_mm_s": 100.0,
+          "max_acceleration_mm_s2": 6000.0
+        },
+        "Inner wall": {
+          "segments": 109942,
+          "path_mm": 297544.4816102632,
+          "z_range_mm": [
+            0.2,
+            34.8
+          ],
+          "max_speed_mm_s": 180.0,
+          "max_acceleration_mm_s2": 6000.0
+        },
+        "Outer wall": {
+          "segments": 43310,
+          "path_mm": 105241.49236583037,
+          "z_range_mm": [
+            0.2,
+            35.0
+          ],
+          "max_speed_mm_s": 100.0,
+          "max_acceleration_mm_s2": 1500.0
+        },
+        "Bottom surface": {
+          "segments": 2135,
+          "path_mm": 31209.578426395427,
+          "z_range_mm": [
+            0.2,
+            0.2
+          ],
+          "max_speed_mm_s": 20.0,
+          "max_acceleration_mm_s2": 500.0
+        },
+        "Internal solid infill": {
+          "segments": 36811,
+          "path_mm": 354741.1042560119,
+          "z_range_mm": [
+            0.4,
+            34.8
+          ],
+          "max_speed_mm_s": 160.0,
+          "max_acceleration_mm_s2": 6000.0
+        },
+        "Sparse infill": {
+          "segments": 356874,
+          "path_mm": 283878.4811665416,
+          "z_range_mm": [
+            1.2,
+            34.0
+          ],
+          "max_speed_mm_s": 200.0,
+          "max_acceleration_mm_s2": 6000.0
+        },
+        "Floating vertical shell": {
+          "segments": 10905,
+          "path_mm": 24068.31652939562,
+          "z_range_mm": [
+            1.8,
+            34.2
+          ],
+          "max_speed_mm_s": 128.0,
+          "max_acceleration_mm_s2": 6000.0
+        },
+        "Bridge": {
+          "segments": 8480,
+          "path_mm": 49835.23323436667,
+          "z_range_mm": [
+            1.8,
+            34.2
+          ],
+          "max_speed_mm_s": 25.0,
+          "max_acceleration_mm_s2": 6000.0
+        },
+        "Top surface": {
+          "segments": 3443,
+          "path_mm": 53467.79091534012,
+          "z_range_mm": [
+            2.6,
+            35.0
+          ],
+          "max_speed_mm_s": 60.0,
+          "max_acceleration_mm_s2": 1500.0
+        },
+        "Gap infill": {
+          "segments": 363,
+          "path_mm": 86.31753366655022,
+          "z_range_mm": [
+            2.6,
+            35.0
+          ],
+          "max_speed_mm_s": 120.0,
+          "max_acceleration_mm_s2": 6000.0
+        },
+        "Support transition": {
+          "segments": 155,
+          "path_mm": 4322.803734495696,
+          "z_range_mm": [
+            5.015,
+            15.617
+          ],
+          "max_speed_mm_s": 25.0,
+          "max_acceleration_mm_s2": 6000.0
+        },
+        "Support interface": {
+          "segments": 154,
+          "path_mm": 8070.3115681343725,
+          "z_range_mm": [
+            5.283,
+            16.15
+          ],
+          "max_speed_mm_s": 40.0,
+          "max_acceleration_mm_s2": 6000.0
+        },
+        "Overhang wall": {
+          "segments": 637,
+          "path_mm": 1934.6058737351566,
+          "z_range_mm": [
+            6.0,
+            26.2
+          ],
+          "max_speed_mm_s": 25.0,
+          "max_acceleration_mm_s2": 1500.0
+        }
+      },
+      "extrusion_bounds_mm": [
+        [
+          31.422,
+          20.089,
+          0.2
+        ],
+        [
+          209.89,
+          156.312,
+          35.0
+        ]
+      ],
+      "first_model_z_mm": 0.2,
+      "last_model_z_mm": 35.0,
+      "distinct_model_layers": 175
+    }
+  },
+  "layout_sha256": "57d2d1cb26733c6e7ad617facd09e1021c6b582682a0e25de3e4d0da9d52f67b",
+  "validator_sha256": "e6c30e1ab6c5e95b0e1abbe1123f6187d465fdea26852163100e153976c2321c",
+  "CAD_source_sha256": "780dfdbaf9c6ab4bf4bbf3ab3de0dab3f9ac7dc5f8de49cf015c51ee95cc16e4",
+  "editable_project_sha256": "197ee1b88a45c6d3b0daf596d285a607da25eab8247a3dabe76b0083d25d81d3",
+  "sliced_internal_evidence_sha256": "b688618de8095e6415c4a86580bfed92e359f0b646a4bcee77f34af6fb530dd0",
+  "native_R17_version": "LOCAL_TEST_PENDING_ONSHAPE",
+  "scope": "1 selected object(s) on one plate: complete positive-extrusion paths including model, support, interface, transition and brim; conservative full-arc XY envelopes expanded by bead width certify pairwise separation and shared H2D bed bounds. Also checks first-layer presence, final height, declared acceleration/critical surface speeds and the retained PLA Basic flow cap. Verified global process and protected speeds retained; all selected object brims absent and new P01 geometry is sliced afresh. No physical strength claim."
+}

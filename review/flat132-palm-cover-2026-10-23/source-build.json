@@ -1,0 +1,51 @@
+{
+  "file": "fingerworker_flat132_palm_cover.fs",
+  "sha256": "6099df42e341ff9f5c3439709a23107325d10ef922f616bdcda6fa6ef64d41c1",
+  "bytes": 122839,
+  "status": "LOCAL_R8_SOURCE_NATIVE_REGEN_AND_VALIDATION_PENDING",
+  "baseline_source": "review/flat132-adjustable-rear-2026-10-23/fingerworker_flat132_adjustable_rear.fs",
+  "baseline_source_sha256": "d42805e8ee10158408099bf7185e49cf9a6eb06c23c327c90c01edfcd04eaddd",
+  "baseline_immutable_version_id": "6dd467818da7364197461627",
+  "expected_native_body_count_with_electronics": 123,
+  "expected_device_body_count": 70,
+  "expected_print_part_count": 16,
+  "changed_old_refs": [
+    "P02"
+  ],
+  "added_print_refs": [],
+  "added_hardware_refs": [],
+  "removed_refs": [],
+  "legal_domain_unchanged": "a>=0,p>=0,a+p<=2,u>=0,u+a+p<=30;dynamicq=5+a+u;ISOq20-p,userapproach15-p-a",
+  "geometry_change_ledger": [
+    "Only P02 geometry changes: union a2mm-thick ledge X-46.1..-33,Y-64..64,Z9.5..11.5 into the existing rigid palm.",
+    "New wrist extent extends8.85mm beyond old flatplateX-37.25;4.25mm nominal overlap joins old plate through its R2 plan corners.",
+    "Ledge plan cornersR2; upper perimeterR0.5 only; underside remainsZ9.5 and lower wrist edge remainsX-46.1.",
+    "P09 square lid footprintX-46.1..-23.6/Y±55 is covered in projection by extended P02;0.6mm nominal underside-to-lid gap.",
+    "No new stock belowZ9.5; enclosure USB/sidebutton/wire openings, P08/P09 separate lids and their hardware/mounts remain unchanged.",
+    "Added ledge stopsX-33,4.4mm from oldP08collarXmin-28.6; existing P02/collar contact is unchanged, not a new gap claim.",
+    "Curved R10.25 palm contact axisX-27/Z19.75 and wrist tangentX-37.25 remain unchanged; new flatledgeXmin-46.1 is a different feature.",
+    "P02 remains one rigid printable block; no sleeve or P09 lid integration. Frame132,clearopening72,ISO81,rear settings/travel and maximum overall X176.5 remain unchanged.",
+    "Lid service requires removing the palm/case module and detaching case from palm before lifting P09; retained underside mounting screws stay accessible."
+  ],
+  "qualification": "Nominal CAD only: actual USB plug/tool clearances, physical fit, print process and500N strength are not qualified.",
+  "changes": [
+    {
+      "label": "R8 study identity",
+      "count": 1,
+      "old": " * Fingerworker MVP - R7 compact adjustable rear CAD prototype; load rating unverified.",
+      "new": " * Fingerworker MVP - R8 palm-cover CAD prototype; load rating unverified.\n * R8 changes P02 only: a2 mm flat wrist ledge extends toX-46.1 over P09.\n * The added ledge is joined rigid stock, not a sleeve or an integrated lid.\n * Its undersideZ9.5 retains0.6 mm nominal gap to the lid topZ8.9.\n * P08/P09 and all mounts, openings and R7 mechanism geometry are unchanged.\n * Remove the palm/case unit and detach the case before lifting its lid.\n * USB plug/tool fit, print process, joint strength and500 N remain unqualified."
+    },
+    {
+      "label": "R8 feature name",
+      "count": 1,
+      "old": "\"Feature Name Template\" : \"Flat132 R7 - compact screw-adjusted rear\"",
+      "new": "\"Feature Name Template\" : \"Flat132 R8 - one-piece palm with electronics cover\""
+    },
+    {
+      "label": "P02 only: join flush wrist ledge over complete lid footprint",
+      "count": 1,
+      "old": "        nameBody(context,body(id + \"palmPad\"),\n            \"P02 PRINT STUDY - one-piece rigid half-round palm block, retained keyed mounts\");",
+      "new": "        // R8: extend the existing flat underside over the exposed enclosure.\n        // Actual P09 lid is square X-46.1..-23.6, Y+/-55, topZ8.9.\n        // R2 plan corners lie outside that footprint because this ledge spans\n        // Y+/-64. Its wrist datum is flushX-46.1, so whole-device X is unchanged.\n        // Four-and-a-quarter mm overlap into the old plate gives a continuous\n        // union through its rounded corners; neither mounts nor lid are cut.\n        makeBox(context,id + \"palmCoverLedge\",vector(-46.1,-64,9.5)*mm,\n            vector(-33,64,11.5)*mm);\n        opFillet(context,id + \"palmCoverCorners\",{\n            \"entities\":qParallelEdges(qCreatedBy(id + \"palmCoverLedge\",EntityType.EDGE),vector(0,0,1)),\n            \"radius\":2*mm,\"tangentPropagation\":true });\n        // Round the upper perimeter only. Keep underside and lower wrist band\n        // intact so top-view projection still fully covers the square lid.\n        opFillet(context,id + \"palmCoverUpperEdge\",{\n            \"entities\":qContainsPoint(qOwnedByBody(body(id + \"palmCoverLedge\"),EntityType.EDGE),\n                vector(-46.1,0,11.5)*mm),\n            \"radius\":0.5*mm,\"tangentPropagation\":true });\n        join(context,id + \"palmCoverJoin\",[body(id + \"palmPad\"),body(id + \"palmCoverLedge\")]);\n        nameBody(context,body(id + \"palmPad\"),\n            \"P02 PRINT STUDY - one-piece rigid half-round palm with flat electronics cover\");"
+    }
+  ]
+}

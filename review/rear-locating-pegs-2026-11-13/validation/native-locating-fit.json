@@ -1,0 +1,1601 @@
+{
+  "status": "PASS_NATIVE_R20_LOCATING_FIT",
+  "source_sha256": "e547fac0af50cc7ea69f96f3ca2a0a7d6cefa1b63ae7e29d7f18e0f7815f3626",
+  "version_id": "0e06e3d98b9ecb574ee41402",
+  "native_step_sha256": "b6ed578e66a00df5cc84b7e03d785c4235fa89457ac45a54cb75295b0806bec2",
+  "native_zip_sha256": "702d1e2194bd5fc3d1d3d6e260b4ac289ffd66ea0702c957cdb15a33745908c5",
+  "baseline_native_step_sha256": "41e4eb637ab9e78ca54be588712bfb05ad9d8f5ae5f34467a685cc422142819f",
+  "baseline_release_binding_sha256": "a6c74eb45f10d05f749df06dc2c7a69020f89eea2ba8d6e152f35fe54afff56d",
+  "generator_sha256": "51cfe0d3f7b16f08980c9a383848939c43e9a5dc667078bae42065131bb6ef64",
+  "validator_sha256": "7ec476459ef3f912b04dc0bc2355dd0ad67d1483df324e2125efd69811cc7def",
+  "focused_validator_sha256": "8280895974070a04d54c15fb58078dbbb3c1898680b0c8deb4af4fa47182681b",
+  "local_fit_report_sha256": "995d5600ce7f1d19eeafb445340ae7a2910074539e717b38c754ed3e9854b792",
+  "native_step_fit_report_sha256": "1933709752e453c7213b3dfaaa1cd5674547e1e20332725eaee28f80215ca592",
+  "native_parts": 94,
+  "checks": [
+    {
+      "name": "One valid solid and shell P01",
+      "status": "PASS"
+    },
+    {
+      "name": "One valid solid and shell P06L",
+      "status": "PASS"
+    },
+    {
+      "name": "One valid solid and shell P06R",
+      "status": "PASS"
+    },
+    {
+      "name": "Complete front frame and R19 ergonomics unchanged",
+      "status": "PASS",
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "name": "Frame receives no added obstruction",
+      "status": "PASS",
+      "added_mm3": 0.0
+    },
+    {
+      "name": "Frame removal limited to the two blind-bottom rear slots",
+      "status": "PASS",
+      "unexpected_removed_mm3": 0.0
+    },
+    {
+      "name": "Original block rod socket and screw stock retained P06L",
+      "status": "PASS",
+      "removed_original_mm3": 0.0
+    },
+    {
+      "name": "New stock confined to short integral peg and root P06L",
+      "status": "PASS",
+      "unexpected_added_mm3": 0.0
+    },
+    {
+      "name": "Peg has positive nominal mating clearance P06L",
+      "status": "PASS",
+      "minimum_clearance_mm": 0.19999999999999563,
+      "nominal_shaft_side_clearance_mm": 0.2,
+      "nominal_bottom_clearance_mm": 0.3,
+      "fit": "Clearance fit; physical printing tolerances unqualified"
+    },
+    {
+      "name": "Complete12mm axial peg insertion/extraction clears frame P06L",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "clearance_lower_bound_mm": 0.0707106781186461,
+      "travel_mm": [
+        0,
+        12
+      ],
+      "method": "Whole continuous swept conservative three-band peg/root envelope"
+    },
+    {
+      "name": "Slot keeps M3 insert wall P06L -9.5",
+      "status": "PASS",
+      "minimum_remaining_mm": 4.200000000000003
+    },
+    {
+      "name": "Slot keeps M3 insert wall P06L 9.5",
+      "status": "PASS",
+      "minimum_remaining_mm": 4.200000000000003
+    },
+    {
+      "name": "Peg clear of existing rod P06L",
+      "status": "PASS",
+      "clearance_mm": 10.5
+    },
+    {
+      "name": "New peg clear of complete travel P06L P04",
+      "status": "PASS",
+      "clearance_lower_bound_mm": 1.9646881737313937
+    },
+    {
+      "name": "New peg clear of complete travel P06L H060",
+      "status": "PASS",
+      "clearance_lower_bound_mm": 10.21077849725475
+    },
+    {
+      "name": "New peg clear of complete travel P06L H061",
+      "status": "PASS",
+      "clearance_lower_bound_mm": 89.03091754047662
+    },
+    {
+      "name": "New peg clear of complete travel P06L P11",
+      "status": "PASS",
+      "clearance_lower_bound_mm": 71.40621256398234
+    },
+    {
+      "name": "New peg clear of complete travel P06L H10",
+      "status": "PASS",
+      "clearance_lower_bound_mm": 73.19379660931669
+    },
+    {
+      "name": "Original block rod socket and screw stock retained P06R",
+      "status": "PASS",
+      "removed_original_mm3": 0.0
+    },
+    {
+      "name": "New stock confined to short integral peg and root P06R",
+      "status": "PASS",
+      "unexpected_added_mm3": 0.0
+    },
+    {
+      "name": "Peg has positive nominal mating clearance P06R",
+      "status": "PASS",
+      "minimum_clearance_mm": 0.19999999999999563,
+      "nominal_shaft_side_clearance_mm": 0.2,
+      "nominal_bottom_clearance_mm": 0.3,
+      "fit": "Clearance fit; physical printing tolerances unqualified"
+    },
+    {
+      "name": "Complete12mm axial peg insertion/extraction clears frame P06R",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "clearance_lower_bound_mm": 0.0707106781186461,
+      "travel_mm": [
+        0,
+        12
+      ],
+      "method": "Whole continuous swept conservative three-band peg/root envelope"
+    },
+    {
+      "name": "Slot keeps M3 insert wall P06R -9.5",
+      "status": "PASS",
+      "minimum_remaining_mm": 4.200000000000003
+    },
+    {
+      "name": "Slot keeps M3 insert wall P06R 9.5",
+      "status": "PASS",
+      "minimum_remaining_mm": 4.200000000000003
+    },
+    {
+      "name": "Peg clear of existing rod P06R",
+      "status": "PASS",
+      "clearance_mm": 10.5
+    },
+    {
+      "name": "New peg clear of complete travel P06R P04",
+      "status": "PASS",
+      "clearance_lower_bound_mm": 1.9646881737313937
+    },
+    {
+      "name": "New peg clear of complete travel P06R H060",
+      "status": "PASS",
+      "clearance_lower_bound_mm": 89.03091754047662
+    },
+    {
+      "name": "New peg clear of complete travel P06R H061",
+      "status": "PASS",
+      "clearance_lower_bound_mm": 10.21077849725475
+    },
+    {
+      "name": "New peg clear of complete travel P06R P11",
+      "status": "PASS",
+      "clearance_lower_bound_mm": 66.85865066490393
+    },
+    {
+      "name": "New peg clear of complete travel P06R H10",
+      "status": "PASS",
+      "clearance_lower_bound_mm": 68.61966131682532
+    },
+    {
+      "name": "Blind slot retains base floor",
+      "status": "PASS",
+      "interior_minimum_sampled_thickness_mm": 4.2,
+      "rear_rounded_edge_minimum_sampled_thickness_mm": 2.872916164661844,
+      "sections": [
+        {
+          "x_mm": 121.5,
+          "y_mm": -51,
+          "z_interval_mm": [
+            -2.0,
+            2.2
+          ],
+          "thickness_mm": 4.2
+        },
+        {
+          "x_mm": 123.8,
+          "y_mm": -51,
+          "z_interval_mm": [
+            -2.0,
+            2.2
+          ],
+          "thickness_mm": 4.2
+        },
+        {
+          "x_mm": 126,
+          "y_mm": -51,
+          "z_interval_mm": [
+            -2.0,
+            2.2
+          ],
+          "thickness_mm": 4.2
+        },
+        {
+          "x_mm": 127.5,
+          "y_mm": -51,
+          "z_interval_mm": [
+            -2.0,
+            2.2
+          ],
+          "thickness_mm": 4.2
+        },
+        {
+          "x_mm": 128,
+          "y_mm": -51,
+          "z_interval_mm": [
+            -1.914213562373095,
+            2.2
+          ],
+          "thickness_mm": 4.114213562373095
+        },
+        {
+          "x_mm": 128.5,
+          "y_mm": -51,
+          "z_interval_mm": [
+            -1.618033988749895,
+            2.2
+          ],
+          "thickness_mm": 3.818033988749895
+        },
+        {
+          "x_mm": 128.9,
+          "y_mm": -51,
+          "z_interval_mm": [
+            -1.0385164807142608,
+            2.2
+          ],
+          "thickness_mm": 3.238516480714261
+        },
+        {
+          "x_mm": 128.99,
+          "y_mm": -51,
+          "z_interval_mm": [
+            -0.672916164661844,
+            2.2
+          ],
+          "thickness_mm": 2.872916164661844
+        },
+        {
+          "x_mm": 121.5,
+          "y_mm": 51,
+          "z_interval_mm": [
+            -2.0,
+            2.2
+          ],
+          "thickness_mm": 4.2
+        },
+        {
+          "x_mm": 123.8,
+          "y_mm": 51,
+          "z_interval_mm": [
+            -2.0,
+            2.2
+          ],
+          "thickness_mm": 4.2
+        },
+        {
+          "x_mm": 126,
+          "y_mm": 51,
+          "z_interval_mm": [
+            -2.0,
+            2.2
+          ],
+          "thickness_mm": 4.2
+        },
+        {
+          "x_mm": 127.5,
+          "y_mm": 51,
+          "z_interval_mm": [
+            -2.0,
+            2.2
+          ],
+          "thickness_mm": 4.2
+        },
+        {
+          "x_mm": 128,
+          "y_mm": 51,
+          "z_interval_mm": [
+            -1.914213562373095,
+            2.2
+          ],
+          "thickness_mm": 4.114213562373095
+        },
+        {
+          "x_mm": 128.5,
+          "y_mm": 51,
+          "z_interval_mm": [
+            -1.618033988749895,
+            2.2
+          ],
+          "thickness_mm": 3.818033988749895
+        },
+        {
+          "x_mm": 128.9,
+          "y_mm": 51,
+          "z_interval_mm": [
+            -1.0385164807142608,
+            2.2
+          ],
+          "thickness_mm": 3.238516480714261
+        },
+        {
+          "x_mm": 128.99,
+          "y_mm": 51,
+          "z_interval_mm": [
+            -0.672916164661844,
+            2.2
+          ],
+          "thickness_mm": 2.872916164661844
+        }
+      ],
+      "scope": "Exact vertical sections; edge thickness follows the pre-existing rear base fillet"
+    },
+    {
+      "name": "Pegged blocks remain identical after102mm translation",
+      "status": "PASS",
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "name": "Native pegged block matches reviewed geometry P06L",
+      "status": "PASS",
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "name": "Native pegged block matches reviewed geometry P06R",
+      "status": "PASS",
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "name": "Native rear pockets match reviewed geometry",
+      "status": "PASS",
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "name": "Native changed-part mesh is one closed positive volume P01",
+      "status": "PASS",
+      "native_stl_sha256": "f4ba48f92b2077346b71ec407a2993d9628f92dc398ebeb2f324b1f8d06bed82",
+      "triangle_count": 165476,
+      "components": 1,
+      "mesh_error": null
+    },
+    {
+      "name": "Native changed-part mesh is one closed positive volume P06L",
+      "status": "PASS",
+      "native_stl_sha256": "2dcb4941fb48565f892012aadc3cecc9dc3a22066b249693a3af5d29d2beb9fa",
+      "triangle_count": 13998,
+      "components": 1,
+      "mesh_error": null
+    },
+    {
+      "name": "Native changed-part mesh is one closed positive volume P06R",
+      "status": "PASS",
+      "native_stl_sha256": "b3695b589eee1ecc1b334570d3ea6eae522c66f614136f5ecb65e19671e6c316",
+      "triangle_count": 13998,
+      "components": 1,
+      "mesh_error": null
+    }
+  ],
+  "unchanged_native_bodies": [
+    {
+      "ref": "E01",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "E05",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "E06",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "E07",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "E08",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H01",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H02",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H030",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H031",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H040",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H041",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H050",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H051",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H060",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H061",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H09",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H09a",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H09b",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H10",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H12",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H180",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H181",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H190",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H191",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H20",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H23",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H240",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H241",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H242",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H243",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H250",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H251",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H252",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H253",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H300a",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H300b",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H301a",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H301b",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "P04",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "P05",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "P08",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "P09",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "P11",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_C1",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_C10",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_C11",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_C12",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_C13",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_C14",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_C15",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_C16",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_C2",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_C3",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_C4",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_C5",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_C6",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_C7",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_C8",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_C9",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_D1",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_J1",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_J2",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_J3",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_L1",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_Q1",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R1",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R10",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R11",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R12",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R13",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R14",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R15",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R16",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R17",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R18",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R19",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R2",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R20",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R21",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R3",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R4",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R5",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R6",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R7",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R8",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R9",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_SW2",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_U1",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_U2",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_U3",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_U4",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    }
+  ],
+  "failures": [],
+  "print_setup_status": "PRINT_SETUP_DEFERRED_BY_USER",
+  "limitations": [
+    "Clearance-fit locator geometry only; physical PLA tolerances, strength and durability remain unqualified.",
+    "The rear-open slots do not positively retain the blocks rearward. Screwless fitting requires springs removed/unloaded; all four M3 screws are required before spring preload or any external loading.",
+    "Current print orientations and Bambu projects are unchanged. The new underside pegs require orientation review when printing is requested."
+  ]
+}

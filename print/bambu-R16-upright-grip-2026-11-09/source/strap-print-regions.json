@@ -1,0 +1,362 @@
+{
+  "revision": "R16",
+  "status": "RETAINED_R15_STRAP_REGIONS",
+  "slots": [
+    {
+      "name": "X28_Y-57.5",
+      "x_mm": 28,
+      "y_mm": -57.5,
+      "slot_length_mm": 27,
+      "slot_width_mm": 4,
+      "slot_end_radius_mm": 2,
+      "strap_width_mm": 25,
+      "single_strap_thickness_mm": 2,
+      "z_mm": [
+        -2,
+        4
+      ],
+      "modifier_bounds_mm": [
+        [
+          9.5,
+          -66,
+          -2
+        ],
+        [
+          46.5,
+          -52,
+          4
+        ]
+      ],
+      "solid_cores": [
+        {
+          "name": "outer load bar",
+          "bounds_mm": [
+            [
+              14.5,
+              -64.8,
+              -1
+            ],
+            [
+              41.5,
+              -60.5,
+              3
+            ]
+          ]
+        },
+        {
+          "name": "inner stock",
+          "bounds_mm": [
+            [
+              14.5,
+              -54.5,
+              -1
+            ],
+            [
+              41.5,
+              -52.8,
+              3
+            ]
+          ]
+        },
+        {
+          "name": "front end ligament",
+          "bounds_mm": [
+            [
+              10.5,
+              -59.5,
+              -1
+            ],
+            [
+              12.5,
+              -55.5,
+              3
+            ]
+          ]
+        },
+        {
+          "name": "rear end ligament",
+          "bounds_mm": [
+            [
+              43.5,
+              -59.5,
+              -1
+            ],
+            [
+              45.5,
+              -55.5,
+              3
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "X28_Y57.5",
+      "x_mm": 28,
+      "y_mm": 57.5,
+      "slot_length_mm": 27,
+      "slot_width_mm": 4,
+      "slot_end_radius_mm": 2,
+      "strap_width_mm": 25,
+      "single_strap_thickness_mm": 2,
+      "z_mm": [
+        -2,
+        4
+      ],
+      "modifier_bounds_mm": [
+        [
+          9.5,
+          52,
+          -2
+        ],
+        [
+          46.5,
+          66,
+          4
+        ]
+      ],
+      "solid_cores": [
+        {
+          "name": "outer load bar",
+          "bounds_mm": [
+            [
+              14.5,
+              60.5,
+              -1
+            ],
+            [
+              41.5,
+              64.8,
+              3
+            ]
+          ]
+        },
+        {
+          "name": "inner stock",
+          "bounds_mm": [
+            [
+              14.5,
+              52.8,
+              -1
+            ],
+            [
+              41.5,
+              54.5,
+              3
+            ]
+          ]
+        },
+        {
+          "name": "front end ligament",
+          "bounds_mm": [
+            [
+              10.5,
+              55.5,
+              -1
+            ],
+            [
+              12.5,
+              59.5,
+              3
+            ]
+          ]
+        },
+        {
+          "name": "rear end ligament",
+          "bounds_mm": [
+            [
+              43.5,
+              55.5,
+              -1
+            ],
+            [
+              45.5,
+              59.5,
+              3
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "X65_Y-57.5",
+      "x_mm": 65,
+      "y_mm": -57.5,
+      "slot_length_mm": 27,
+      "slot_width_mm": 4,
+      "slot_end_radius_mm": 2,
+      "strap_width_mm": 25,
+      "single_strap_thickness_mm": 2,
+      "z_mm": [
+        -2,
+        4
+      ],
+      "modifier_bounds_mm": [
+        [
+          46.5,
+          -66,
+          -2
+        ],
+        [
+          83.5,
+          -52,
+          4
+        ]
+      ],
+      "solid_cores": [
+        {
+          "name": "outer load bar",
+          "bounds_mm": [
+            [
+              51.5,
+              -64.8,
+              -1
+            ],
+            [
+              78.5,
+              -60.5,
+              3
+            ]
+          ]
+        },
+        {
+          "name": "inner stock",
+          "bounds_mm": [
+            [
+              51.5,
+              -54.5,
+              -1
+            ],
+            [
+              78.5,
+              -52.8,
+              3
+            ]
+          ]
+        },
+        {
+          "name": "front end ligament",
+          "bounds_mm": [
+            [
+              47.5,
+              -59.5,
+              -1
+            ],
+            [
+              49.5,
+              -55.5,
+              3
+            ]
+          ]
+        },
+        {
+          "name": "rear end ligament",
+          "bounds_mm": [
+            [
+              80.5,
+              -59.5,
+              -1
+            ],
+            [
+              82.5,
+              -55.5,
+              3
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "X65_Y57.5",
+      "x_mm": 65,
+      "y_mm": 57.5,
+      "slot_length_mm": 27,
+      "slot_width_mm": 4,
+      "slot_end_radius_mm": 2,
+      "strap_width_mm": 25,
+      "single_strap_thickness_mm": 2,
+      "z_mm": [
+        -2,
+        4
+      ],
+      "modifier_bounds_mm": [
+        [
+          46.5,
+          52,
+          -2
+        ],
+        [
+          83.5,
+          66,
+          4
+        ]
+      ],
+      "solid_cores": [
+        {
+          "name": "outer load bar",
+          "bounds_mm": [
+            [
+              51.5,
+              60.5,
+              -1
+            ],
+            [
+              78.5,
+              64.8,
+              3
+            ]
+          ]
+        },
+        {
+          "name": "inner stock",
+          "bounds_mm": [
+            [
+              51.5,
+              52.8,
+              -1
+            ],
+            [
+              78.5,
+              54.5,
+              3
+            ]
+          ]
+        },
+        {
+          "name": "front end ligament",
+          "bounds_mm": [
+            [
+              47.5,
+              55.5,
+              -1
+            ],
+            [
+              49.5,
+              59.5,
+              3
+            ]
+          ]
+        },
+        {
+          "name": "rear end ligament",
+          "bounds_mm": [
+            [
+              80.5,
+              55.5,
+              -1
+            ],
+            [
+              82.5,
+              59.5,
+              3
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "method": "Four local100% zig-zag masks; probe all30 base layers for25x2mm slot clearance, and20 interior layers in verified native solid bar/inner/end cores for98% actual emitted-bead coverage.",
+  "physical_strength_qualified": false,
+  "CAD_source_sha256": "1f492dd841c35a14f488be418e4f4dd8dea8edb63f3d321a492dc2ec3c907ab4",
+  "geometry_source": "Final native STEP is independently checked for each solid core and25x2mm throat before the actual toolpath result can pass."
+}

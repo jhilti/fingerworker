@@ -1,0 +1,113 @@
+{
+  "status": "PRIMARY_DIMENSION_REFERENCES_NOT_HARDWARE_STRENGTH_QUALIFICATION",
+  "checked_date": "2026-10-23",
+  "sources": [
+    {
+      "item": "M4 flat-point set screws ISO4026, M4x10,2mmhex,2.5mm minsocket",
+      "url": "https://www.tme.eu/Document/20611ad0b9f40331a66046dab9ad22e1/BN5210.pdf",
+      "publisher": "Bossard BN5210 manufacturer datasheet mirrored by TME",
+      "dimension_source": "M4 row: socket2,minsocketdepth2.5,length10. R7 uses ordinary mechanical jam locking; no TufLok requirement inherited."
+    },
+    {
+      "item": "M4 DIN562 thin square main nut",
+      "url": "https://www.pts-uk.com/products/nuts/square-nuts/metric-a2/a56202",
+      "publisher": "Precision Technology Supplies product table",
+      "dimensions_mm": {
+        "AF_max": 7,
+        "height_max": 2.2,
+        "pitch": 0.7
+      }
+    },
+    {
+      "item": "M2 DIN562 square capture nut",
+      "url": "https://shop.schaefer-peters.com/sp/en/din-562-a4-m-2-p86324/",
+      "publisher": "Schaefer + Peters manufacturer product",
+      "dimensions_mm": {
+        "AF": 4,
+        "height": 1.2
+      }
+    },
+    {
+      "item": "M4 DIN439 thin hex jam nut",
+      "url": "https://www.accu.co.uk/thin-hexagon-nuts/179808-HFN-M4-A4-BL",
+      "publisher": "Accu manufacturer product",
+      "dimensions_mm": {
+        "AF_max": 7,
+        "corners": 8.08,
+        "height_max": 2.2,
+        "pitch": 0.7
+      }
+    },
+    {
+      "item": "M4 DIN9021 steel reaction washer",
+      "url": "https://www.blohm-gmbh.de/de/en/Products/Product-overview/Machine-and-fixture-components/Screws-nuts-and-washers/Washers-with-large-OD-DIN-9021.html",
+      "publisher": "BLOHM manufacturer B0113.04",
+      "dimensions_mm": {
+        "OD": 12,
+        "ID": 4.3,
+        "height": 1
+      }
+    },
+    {
+      "item": "M2x8 ISO4762 cap screw",
+      "url": "https://www.accu.co.uk/metric-cap-head-screws/653118-SSCF-M2-8-TI5-R360",
+      "publisher": "Accu manufacturer dimensions; material selection not prescribed by geometry",
+      "dimensions_mm": {
+        "head_OD_max": 3.8,
+        "head_height_max": 2,
+        "underhead_length": 8
+      }
+    },
+    {
+      "item": "M3x8 ISO4762 cap screw",
+      "url": "https://www.accu.co.uk/metric-cap-head-screws/653136-SSCF-M3-8-TI5-R360",
+      "publisher": "Accu manufacturer dimensions; material selection not prescribed by geometry",
+      "dimensions_mm": {
+        "head_OD_max": 5.5,
+        "head_height_max": 3,
+        "underhead_length": 8
+      }
+    },
+    {
+      "item": "7mm nut driver rear tool access reference",
+      "url": "https://www.fervi.com/eng/hardware/screwdrivers-and-hand-riveters/sockets-screwdrivers/nut-driver-with-plastic-handle-pr-9135.htm",
+      "publisher": "Fervi manufacturer CB01 series table,7mm variant",
+      "dimensions_mm": {
+        "head_OD_B": 10.5,
+        "shaft_OD_A": 5.9,
+        "nominal_hex": 7,
+        "table_L2_min": 7.5,
+        "table_L2_max": 8.5,
+        "small_bore_C": 3.7
+      },
+      "use_limit": "R7 cavity permits toolOD<=10.5; nut2.2 plus maximum screw rear protrusion3.3 totals5.5mm. Driver recess must clear at least this stack. Counterholding M4 adjuster requires separate2mmhex and suitable hollow/pass-through tool access; a closed solid-handle driver may need alternative assembly sequence."
+    },
+    {
+      "item": "Mounted counterhold tool: FACOM97.6X7 hollow double socket wrench",
+      "url": "https://facom.eu/products/97-double-socket-wrenches",
+      "additional_primary_url": "https://www.facom.com/product/976x7/double-socket-wrench-97-6-points-passage-hole-6x7-mm",
+      "manufacturer_pdf_mirror": "https://docs.rs-online.com/02fa/A700000008417796.pdf",
+      "publisher": "FACOM manufacturer current product page",
+      "dimensions_mm": {
+        "nominal_nut_AF": 7,
+        "7mm_end_OD": 10.7,
+        "length": 110,
+        "6mm_end_OD": 9.5
+      },
+      "properties": "Manufacturer explicitly states full opening allows passage of long threaded rods; hexagonal body allows turning with a wrench. Centre2mmhexcounterhold is a design-use inference requiring actual tool test. PDFtableD4mm may denote transverse tommy-bar hole: do not assert4mm minimum axial bore from it.",
+      "CAD_tool_external_envelope": "CylinderR5.35, coaxialrearXentry; currentR5.5wellgives0.15mmradialnominalclearance. Actualtoolcontourandprinttolerances requiregauging.",
+      "procedure": "Withdeviceunloaded, insert7mmtooloverjamnut. Insertlong2mmhexthroughhollowtoolandcounterholdM4screw;turntoolhexbodywithawrench. Matchbothsidesbycaliper/index,lockboth,remeasuresettings. Capremovalbenchsetupisfallback."
+    },
+    {
+      "item": "Long2mmhexcounterhold driver reference",
+      "url": "https://www.wihatools.com/products/soft-grip-dual-drive-hex-t-handle-2-0mm",
+      "publisher": "Wiha manufacturer SKU33442",
+      "dimensions_mm": {
+        "hex_AF": 2,
+        "specified_size_length": 150
+      },
+      "properties": "Manufacturer specifies2.0x150mm,no ball/standardhex. Requirednominalreachthrough110mmFACOMtoolis>=125mm; verifyactualshaftandclearborebeforeuse."
+    }
+  ],
+  "scope": "CAD nominal envelopes. Actual purchased stock, tolerances, driver shape and locking torque require physical fit check."
+}

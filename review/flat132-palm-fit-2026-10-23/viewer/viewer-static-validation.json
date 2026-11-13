@@ -1,0 +1,134 @@
+{
+  "status": "PASS_STATIC_SOURCE_BINDING",
+  "viewer_sha256": "2e0ab9ace3229442de501b25173354b657ed12dc7a63d52fd523227f4f41b51f",
+  "source_sha256": "4665c3ec4e983e478d34c6cfe923b3b60e6c8848f36b7c54b55b1989eaab6326",
+  "poses": [
+    {
+      "pose": "neutral",
+      "native_device_parts": 52,
+      "source_archive_sha256": "0a8d367507744e7dfaaa46a6c1fa46639551293a0ad738d16f87fbebf2eef738",
+      "nominal_finger_wall_x_mm": 77,
+      "new_contact_spacing_mm": 114.25,
+      "prior_contact_spacing_mm": 121.25,
+      "reduction_mm": 7,
+      "native_palm_observations": {
+        "P02": {
+          "wrist_min_x_mm": -37.25,
+          "max_x_mm": -9.5,
+          "wrist_plane_matches_expected_37_25_mm": true
+        },
+        "P03": {
+          "wrist_min_x_mm": -37.24916076660156,
+          "max_x_mm": -24.5,
+          "wrist_plane_matches_expected_37_25_mm": true,
+          "return_band_vertices": 8,
+          "return_bands_localized": true
+        }
+      }
+    },
+    {
+      "pose": "max",
+      "native_device_parts": 52,
+      "source_archive_sha256": "e3f4a92aeed099ec3ec5f11ce9a9f0bf948d419329b2672dd663ed449f0b2381",
+      "nominal_finger_wall_x_mm": 49,
+      "new_contact_spacing_mm": 86.25,
+      "prior_contact_spacing_mm": 93.25,
+      "reduction_mm": 7,
+      "native_palm_observations": {
+        "P02": {
+          "wrist_min_x_mm": -37.25,
+          "max_x_mm": -9.5,
+          "wrist_plane_matches_expected_37_25_mm": true
+        },
+        "P03": {
+          "wrist_min_x_mm": -37.24916076660156,
+          "max_x_mm": -24.5,
+          "wrist_plane_matches_expected_37_25_mm": true,
+          "return_band_vertices": 8,
+          "return_bands_localized": true
+        }
+      }
+    },
+    {
+      "pose": "iso",
+      "native_device_parts": 52,
+      "source_archive_sha256": "f4bf05bd31a8929006b5136ed86b8b04c4dc293295bca9daec82a259bf10f921",
+      "nominal_finger_wall_x_mm": 64,
+      "new_contact_spacing_mm": 101.25,
+      "prior_contact_spacing_mm": 108.25,
+      "reduction_mm": 7,
+      "native_palm_observations": {
+        "P02": {
+          "wrist_min_x_mm": -37.25,
+          "max_x_mm": -9.5,
+          "wrist_plane_matches_expected_37_25_mm": true
+        },
+        "P03": {
+          "wrist_min_x_mm": -37.24916076660156,
+          "max_x_mm": -24.5,
+          "wrist_plane_matches_expected_37_25_mm": true,
+          "return_band_vertices": 8,
+          "return_bands_localized": true
+        }
+      }
+    }
+  ],
+  "nominal_collision_qa": "NOMINAL_GEOMETRY_CHECKS_PASS",
+  "ui_qa": "PARENT_CONFIRMED_GREEN_THREE_POSES_ROUND_FACE_FLAT_BACK_AND_R3_SOURCE_LINK",
+  "palm_fit": {
+    "axis_x_mm": -27,
+    "prior_axis_x_mm": -34,
+    "core_radius_mm": 7.75,
+    "sleeve_outer_radius_mm": 10.25,
+    "retained_half": "Main curved core/sleeve profiles face the wrist at X <= -27 mm; flat back at X = -27 mm. Any native TPU return-band extensions are retention features.",
+    "prior_wrist_contact_x_mm": -44.25,
+    "current_wrist_contact_x_mm": -37.25,
+    "wrist_contact_shift_mm": 7,
+    "sleeve_return_bands": {
+      "y_intervals_mm": [
+        [
+          -43,
+          -39
+        ],
+        [
+          39,
+          43
+        ]
+      ],
+      "x_interval_mm": [
+        -27,
+        -24.5
+      ],
+      "z_interval_mm": [
+        14.6,
+        30
+      ],
+      "purpose": "Two native integral TPU return bands grip the flat D-core back; pull-off retention and real fit remain prototype qualifications."
+    },
+    "plate_wrist_edge_x_mm": -37.25,
+    "finger_wall_expression_mm": "77 - stroke",
+    "hand_rescaled": false,
+    "hand_registration_changed": false
+  },
+  "hand_raw_scan_sha256": "dfff8f8f9e8aa104d07d25e2f5e385804226f029d441a117ca66c2d9fa80e715",
+  "registered_hand_ply_sha256": "0a36089d64941478820917a39f348a7f23b72aee2d56fbcaf7c08b3739d75b93",
+  "hand_registration_changed": false,
+  "geometry_or_pose_generated": false,
+  "source_landmark_annotations_only": true,
+  "validation_report_sha256": "1c9ddde9ad4e2412602ea9a0e6fd128415453b02595dc6a06678e0630b25c71c",
+  "step": {
+    "path": "native/Flat132_R3_final_AP214.step",
+    "sha256": "bc7f102b5f147d3647ec372ffde1c726087fe64487aa7733c78b3450901da4e3",
+    "native_export_source_sha256": "4665c3ec4e983e478d34c6cfe923b3b60e6c8848f36b7c54b55b1989eaab6326"
+  },
+  "frozen_onshape_version": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/9bf146edbc2e61a5c4144a35/e/d253eb87b70818ebde8215f0",
+  "feature_source_path": "fingerworker_flat132_palm_fit.fs",
+  "source_download_target_verified": true,
+  "package_ready": true,
+  "prototype_package": {
+    "path": "deliverables/Flat132_R3_Palm_Fit.zip",
+    "sha256": "111836c50a9dfafb13a4a6471591ba19509d453b98d0775f2ed8df801429490e",
+    "bytes": 3601983
+  },
+  "geometry_or_source_changed_for_package_activation": false
+}

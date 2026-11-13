@@ -1,0 +1,26 @@
+{
+  "status": "PASS_CONNECTED_READY_DELIVERY",
+  "project": "print/bambu-R15-inboard-straps-2026-11-08/Fingerworker_R15_H2D_04mm_PLA_Basic_Print_Ready.3mf",
+  "package": "print/bambu-R15-inboard-straps-2026-11-08/Fingerworker_R15_H2D_04mm_PLA_Basic_Print_Ready_Package.zip",
+  "source_sha256": "97e2010cc17d06eb8648cf278b9aae2fd85b6e909bd657b9b216f3b37748665f",
+  "onshape_version": "e8453217d87e9cfdc9a33f65",
+  "project_sha256": "b8eeb41a267ef7808fde1a6ee5a036eed1ef9a24f7610044177396576bca23d7",
+  "package_sha256": "6af11c71a69563b8b12e629fa41930e887ee3bb0d2d6fdc905bd9f7b1b5cd34f",
+  "sliced_archive_sha256": "d077b2ff3f6340495e3c6914a3aa4bb674d00c2c64635fe523878e370c63e15c",
+  "gui_sha256": "1517899efad41fc1538356c4bad7d80e9fc172a22656ad009c69884914c13a86",
+  "audit_path": "print/bambu-R15-inboard-straps-2026-11-08/validation/connected-print-check.json",
+  "audit_sha256": "79f8c26ee5d949eb55804d9bf7adc32ac8a9f2a5338db0c1db7939b198aaaa71",
+  "displayed_estimate": "10h49m",
+  "displayed_filament_g": 233.58,
+  "printer_job_started": false,
+  "physical_objects": 6,
+  "plates": 1,
+  "files_sha256": {
+    "print/bambu-R15-inboard-straps-2026-11-08/Fingerworker_R15_H2D_04mm_PLA_Basic_Print_Ready.3mf": "b8eeb41a267ef7808fde1a6ee5a036eed1ef9a24f7610044177396576bca23d7",
+    "print/bambu-R15-inboard-straps-2026-11-08/Fingerworker_R15_H2D_04mm_PLA_Basic_Print_Ready_Package.zip": "6af11c71a69563b8b12e629fa41930e887ee3bb0d2d6fdc905bd9f7b1b5cd34f",
+    "print/bambu-R15-inboard-straps-2026-11-08/connected-ready-package/SHA256.json": "e4a666a697033f8e322bc104220c80b34a2c6eb20bf71b4ed663548c214ff66c",
+    "print/bambu-R15-inboard-straps-2026-11-08/validation/connected-gui-check.json": "1517899efad41fc1538356c4bad7d80e9fc172a22656ad009c69884914c13a86",
+    "print/bambu-R15-inboard-straps-2026-11-08/validation/connected-print-check.json": "79f8c26ee5d949eb55804d9bf7adc32ac8a9f2a5338db0c1db7939b198aaaa71",
+    "print/bambu-R15-inboard-straps-2026-11-08/connected-ready-package/README.md": "1c286ed97bd2da6bbff8b88e419f7cd0e9d9eb1cfb8855032310c9db3efe460a"
+  }
+}

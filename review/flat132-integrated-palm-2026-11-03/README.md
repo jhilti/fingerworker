@@ -1,0 +1,21 @@
+# Flat132 R10 – Rahmen und Handballenauflage aus einem Stück
+
+P01 enthält jetzt den Grundrahmen und die bisherige massive P02-Handballenauflage als **einen zusammenhängenden Druckkörper**. Die Handkontaktkurve bleibt erhalten. Es gibt keine separate Auflage, keinen Sleeve, keine Palm-Schrauben, keine Palm-Inserts und keine Passschlüssel mehr. Die beiden Fußübergänge und die beiden Portalverbindungen sind stoffschlüssig verbunden. Der neue P01 misst **175,1 × 132 × 35 mm**; die Grundplatte bleibt nominal 6 mm dick.
+
+Der Satz baut auf dem eingefrorenen R9 auf. P04/P05, Führung, hintere Verstellung, Grifföffnung von 72 mm und 28–30 mm Nutzhub bleiben erhalten. Die übrigen R9-Druckteile lassen sich weiterverwenden. Die [weichere Federumrüstung mit S01](../flat132-softer-springs-2026-10-26/README.md) bleibt separates Zubehör.
+
+[Gespeicherte Onshape-Version R10](https://cad.onshape.com/documents/15316cc6370631845af136b2/v/1d91807cca19866934a439eb/e/d253eb87b70818ebde8215f0) · [H2D-Druckprojekt](../../print/bambu-R10-integrated-palm-2026-11-03/README.md) · [Montage und Service](MONTAGE.md) · [Stücklistenänderungen](BOM_Aenderungen.csv)
+
+[Originaler nativer Gesamt-STEP](native/Flat132_R10_final_AP214.step) · [P01 als native STL in Montagekoordinaten](print-mm/P01.stl) · [Revidierte H15-Stahlplatte als STEP](mechanical-mm/H15.step)
+
+Das native Modell enthält 122 Körper: 69 Gerätebauteile und 53 Elektronikreferenzen. Darunter sind 15 P-Druckkörper; die vier P07-Rücklaufpuffer sind im Funktionsmodell weiterhin flexible Teile. Das PLA-Passprobenprojekt ersetzt diese durch harte Dummies und ergänzt zwei Stangen-Dummies sowie Q01: **18 Druckstücke auf zwei Platten**. Für ein vorhandenes R9-Muster genügt Platte 1 mit dem neuen P01. Schrauben, Muttern und Inserts werden nicht gedruckt.
+
+Die feste Auflage erfordert einen neuen Servicezugang. Eine verdeckte untere Aussparung gibt H15 zur Entnahme frei. Gekürzte ehemalige Palm-Befestigungslaschen und zwei Ø6,4-mm-Querbohrungen in den vorderen Stabhaltern geben H18/H19 und dem Schraubendreher den seitlichen Weg frei. Die beiden H16-M3×8-Schrauben werden von der Sensorseite eingesetzt; H17 sitzt hinter H15 und wird mit einem dünnen 5,5-mm-Maulschlüssel von oben gegengehalten. H15 hat jetzt **glatte Ø3,4-mm-Durchgänge ohne die bisherigen Senkungen**. Für einen Funktionsaufbau P01 und die revidierte H15-Ausführung gemeinsam verwenden. Ein bereits gesenkter alter H15 ist nicht durch diese neue Ausführung geprüft.
+
+Die native Quelle steht in [fingerworker_flat132_integrated_palm.fs](fingerworker_flat132_integrated_palm.fs), der reproduzierbare Aufbau in [build_integrated_palm.py](build_integrated_palm.py), die genaue Änderungsbilanz in [source-build.json](source-build.json). Der Quellhash ist `5ce830ff2b06cd8d318d3c44dbc1f3385697526a9a679d2a2078f64f81854237`. Die Hauptdatei im Projekt entspricht diesem Stand; die R9- und älteren Quellen bleiben eingefroren.
+
+Die Prüfungen unter `validation/` unterscheiden native Festkörper, Bewegungsräume, Montage-/Werkzeugzugang und das tatsächlich geslicte Druckprojekt. Nominale Geometrie und Slicerprüfung ersetzen keine reale Passungs- oder Festigkeitsprüfung. Den ersten PLA-Aufbau mit Q01 und gedruckten Stangen weiterhin federfrei beurteilen; 500 N bleiben ein ungeprüftes Auslegungsziel.
+
+Abschlussnachweise: [native Geometrie](validation/native-geometry.json), [22 Servicewege und Werkzeugzugänge](validation/service-native.json), [vollständige Bewegungsdomäne](validation/motion-native.json), [unabhängige Druckprüfung](validation/independent-print-qa.json) und [gebundene Abschlussspezifikation](final-specification.json). Alle Prüfungen bestanden. P01 und fünf geänderte Hardwarekörper stimmen exakt mit der unabhängigen Konstruktion überein; 116 andere native Körper bleiben unverändert. Der originale Gesamt-STEP enthält den vollständigen P01. Eine optional lokal neu serialisierte P01-Einzel-STEP-Ableitung wurde wegen eines nicht zuverlässig prüfbaren OCCT-Rundlaufs nicht ausgeliefert.
+
+[Onshape-Nachweis des einzelnen Druckkörpers](evidence/onshape-R10-integrated-frame.png) · [Druckplatten-Vorschau](../../print/bambu-R10-integrated-palm-2026-11-03/preview/R10-Druckplatten.png)

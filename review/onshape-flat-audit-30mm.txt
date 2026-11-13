@@ -1,0 +1,14 @@
+{ contacts : 0 , gap : 0.0005999999999999964 meter , interferences : 0 , pair : Carriage / integrated base , pose : 0.03 meter , status : CLEAR , unclassified : 0 }
+{ contacts : 0 , gap : 0.003255437353461982 meter , interferences : 0 , pair : Carriage / fixed hood , pose : 0.03 meter , status : CLEAR , unclassified : 0 }
+{ contacts : 0 , gap : 0.004299999999999998 meter , interferences : 0 , pair : Carriage / switch body and bracket , pose : 0.03 meter , status : CLEAR , unclassified : 0 }
+{ contacts : 0 , gap : 0 meter , interferences : 0 , pair : Carriage / switch actuator , pose : 0.03 meter , status : REVIEW - unclassified contact , unclassified : 3 }
+{ contacts : 0 , gap : 0.000853452586256534 meter , interferences : 0 , pair : Switch actuator / case and bracket , pose : 0.03 meter , status : CLEAR , unclassified : 0 }
+{ contacts : 0 , gap : 0.0001999999999999988 meter , interferences : 0 , pair : Carriage / strike plates , pose : 0.03 meter , status : CLEAR , unclassified : 0 }
+{ contacts : 0 , gap : 0 meter , interferences : 0 , pair : Carriage / moving hood , pose : 0.03 meter , status : REVIEW - unclassified contact , unclassified : 20 }
+{ contacts : 0 , gap : 0.0002999999999999947 meter , interferences : 0 , pair : Carriage / guide rods , pose : 0.03 meter , status : CLEAR , unclassified : 0 }
+{ contacts : 0 , gap : 0.0005999999999999766 meter , interferences : 0 , pair : Carriage / spring sweeps , pose : 0.03 meter , status : CLEAR , unclassified : 0 }
+{ contacts : 0 , gap : 0.012499999999999997 meter , interferences : 0 , pair : Fixed hood / moving hood , pose : 0.03 meter , status : CLEAR , unclassified : 0 }
+{ contacts : 0 , gap : 0 meter , interferences : 0 , pair : Palm pad / integrated base , pose : 0.03 meter , status : REVIEW - unclassified contact , unclassified : 24 }
+{ contacts : 0 , gap : 9.999999999997511e-5 meter , interferences : 0 , pair : Hand / climbing pocket and carriage , pose : 0.03 meter , status : CLEAR , unclassified : 0 }
+{ contacts : 0 , gap : 0 meter , interferences : 0 , pair : Hand / palm cushion , pose : 0.03 meter , status : REVIEW - unclassified contact , unclassified : 1 }
+{ contacts : 0 , gap : 0.0006724538265471361 meter , interferences : 0 , pair : Hand / remaining device , pose : 0.03 meter , status : CLEAR , unclassified : 0 }

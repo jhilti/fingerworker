@@ -1,0 +1,88 @@
+{
+  "status": "PASS_LOCAL_R17_P01_PRINT_CANDIDATE",
+  "native_onshape_sync": false,
+  "CAD_source_sha256": "780dfdbaf9c6ab4bf4bbf3ab3de0dab3f9ac7dc5f8de49cf015c51ee95cc16e4",
+  "source_mesh_sha256": "013f0e2d9d8fd8849594e4621b9ddfb632524e9178a7caf8028073159d97551a",
+  "project": "print/bambu-R17-side-thumb-2026-11-12/Fingerworker_R17_P01_Replacement_LOCAL_TEST_CANDIDATE_H2D_04mm_PLA_Basic.3mf",
+  "package": "print/bambu-R17-side-thumb-2026-11-12/Fingerworker_R17_P01_Replacement_LOCAL_TEST_CANDIDATE_Package.zip",
+  "slice": "print/bambu-R17-side-thumb-2026-11-12/validation/candidate/P01-replacement/Fingerworker_R17_P01_Replacement_LOCAL_TEST_CANDIDATE_H2D_04mm_PLA_Basic_verification.gcode.3mf",
+  "object_count": 1,
+  "estimated_seconds": 20034,
+  "estimated_grams": 128.36,
+  "verification": {
+    "print/bambu-R17-side-thumb-2026-11-12/validation/candidate/P01-replacement/native-project-check.json": {
+      "status": "PASS_LOCAL_R17_PRINT_CANDIDATE",
+      "sha256": "87cce029d05da92a6de5a12df6a31e9b5eddc25e464f6a35ad925435da6c485c"
+    },
+    "print/bambu-R17-side-thumb-2026-11-12/validation/candidate/P01-replacement/toolpath-check.json": {
+      "status": "PASS_ACTUAL_R17_SIDE_THUMB_TOOLPATHS",
+      "sha256": "70cc9942de189339a5bcc6c125663927c156c61a0a595c3707a512d4403c4c4a"
+    },
+    "print/bambu-R17-side-thumb-2026-11-12/validation/candidate/P01-replacement/actual-path-check.json": {
+      "status": "PASS_R17_ACTUAL_PRINT_PATHS",
+      "sha256": "c243aa3b722dcba866480012476b87e2dd722525d72be5ba3dfcc26ef5aeef1d"
+    },
+    "print/bambu-R17-side-thumb-2026-11-12/validation/candidate/P01-replacement/connected-flow-check.json": {
+      "status": "PASS_CONNECTED_MATERIAL_FLOW",
+      "sha256": "9f2de95f95bf7d831258a429183b52d23c01a8aceab6606a1451ecb3b2c35b40"
+    },
+    "print/bambu-R17-side-thumb-2026-11-12/validation/candidate/P01-replacement/palm-contact-check.json": {
+      "status": "PASS_R17_PALM_CONTACT_SUPPORTS",
+      "sha256": "df826bcf0fbee121851b39cd174c5c91d3d26271bc011f79dbe9b49384b55c69"
+    },
+    "print/bambu-R17-side-thumb-2026-11-12/validation/candidate/P01-replacement/side-thumb-check.json": {
+      "status": "PASS_R17_SIDE_THUMB_PRINT_SURFACES",
+      "sha256": "b2a52eca0e1e8a26e67eae4a0abffc4860297794599182181fbead1e34e21ebc"
+    },
+    "print/bambu-R17-side-thumb-2026-11-12/validation/candidate/P01-replacement/cli-diagnostics.json": {
+      "status": "PASS_R17_OFFICIAL_H2D_DIAGNOSTICS",
+      "sha256": "8886d1f11cab64834817ca166ab1ff064459772828917c5d294ed8c52beef1c6"
+    },
+    "review/side-thumb-2026-11-12/mechanics/preflight.json": {
+      "status": "PASS_LOCAL_SIDE_THUMB",
+      "sha256": "26a2872345d8e4b8576f3b4acd50a337e5b3e25699427748dc84c15e962549ab"
+    },
+    "review/side-thumb-2026-11-12/validation/local-integration.json": {
+      "status": "PASS_LOCAL_R17_THUMB_INTEGRATION",
+      "sha256": "ea62b2b2e92b5b424a58b081c1ae930f1002631a6eb616cea4d62f97df0943ab"
+    }
+  },
+  "supporting_evidence": {
+    "review/side-thumb-2026-11-12/validation/local-floor-sections.json": {
+      "status": "MEASURED_LOCAL_FLOOR_SECTIONS",
+      "sha256": "22a49b716547ef1a962391ecfbdc07a3e4b0606534250abcfcb8772ec457a7d2"
+    }
+  },
+  "files_sha256": {
+    "print/bambu-R17-side-thumb-2026-11-12/Fingerworker_R17_P01_Replacement_LOCAL_TEST_CANDIDATE_H2D_04mm_PLA_Basic.3mf": "197ee1b88a45c6d3b0daf596d285a607da25eab8247a3dabe76b0083d25d81d3",
+    "print/bambu-R17-side-thumb-2026-11-12/validation/candidate/P01-replacement/Fingerworker_R17_P01_Replacement_LOCAL_TEST_CANDIDATE_H2D_04mm_PLA_Basic_verification.gcode.3mf": "b688618de8095e6415c4a86580bfed92e359f0b646a4bcee77f34af6fb530dd0",
+    "print/bambu-R17-side-thumb-2026-11-12/replacement-candidate-layout.json": "57d2d1cb26733c6e7ad617facd09e1021c6b582682a0e25de3e4d0da9d52f67b",
+    "print/bambu-R17-side-thumb-2026-11-12/P01_LOCAL_TEST_CANDIDATE_README.md": "c0fa7e0c5c78fbd7338a24393de6e0884a345bc5c3f5350e48aa95941a7f148d",
+    "print/bambu-R17-side-thumb-2026-11-12/P01_SIDE_THUMB_LOCAL_TEST_CANDIDATE.stl": "b957be4e4fabf8862b58e7847142331243826c67bd0bfb67ea0b799fec4ea5e4",
+    "review/side-thumb-2026-11-12/fingerworker_R17_side_thumb.fs": "780dfdbaf9c6ab4bf4bbf3ab3de0dab3f9ac7dc5f8de49cf015c51ee95cc16e4",
+    "print/bambu-R17-side-thumb-2026-11-12/source/side-thumb-print-regions.json": "6ca901f2b29479d1f41ae7a17c363698c237db9e9bca333539f7527e7916ce52",
+    "print/bambu-R17-side-thumb-2026-11-12/validation/candidate/P01-replacement/cad-local-preflight.json": "26a2872345d8e4b8576f3b4acd50a337e5b3e25699427748dc84c15e962549ab",
+    "print/bambu-R17-side-thumb-2026-11-12/validation/candidate/P01-replacement/cad-local-local-integration.json": "ea62b2b2e92b5b424a58b081c1ae930f1002631a6eb616cea4d62f97df0943ab",
+    "print/bambu-R17-side-thumb-2026-11-12/validation/candidate/P01-replacement/cad-local-local-floor-sections.json": "22a49b716547ef1a962391ecfbdc07a3e4b0606534250abcfcb8772ec457a7d2",
+    "print/bambu-R17-side-thumb-2026-11-12/validation/candidate/P01-replacement/native-project-check.json": "87cce029d05da92a6de5a12df6a31e9b5eddc25e464f6a35ad925435da6c485c",
+    "print/bambu-R17-side-thumb-2026-11-12/validation/candidate/P01-replacement/toolpath-check.json": "70cc9942de189339a5bcc6c125663927c156c61a0a595c3707a512d4403c4c4a",
+    "print/bambu-R17-side-thumb-2026-11-12/validation/candidate/P01-replacement/actual-path-check.json": "c243aa3b722dcba866480012476b87e2dd722525d72be5ba3dfcc26ef5aeef1d",
+    "print/bambu-R17-side-thumb-2026-11-12/validation/candidate/P01-replacement/connected-flow-check.json": "9f2de95f95bf7d831258a429183b52d23c01a8aceab6606a1451ecb3b2c35b40",
+    "print/bambu-R17-side-thumb-2026-11-12/validation/candidate/P01-replacement/palm-contact-check.json": "df826bcf0fbee121851b39cd174c5c91d3d26271bc011f79dbe9b49384b55c69",
+    "print/bambu-R17-side-thumb-2026-11-12/validation/candidate/P01-replacement/side-thumb-check.json": "b2a52eca0e1e8a26e67eae4a0abffc4860297794599182181fbead1e34e21ebc",
+    "print/bambu-R17-side-thumb-2026-11-12/validation/candidate/P01-replacement/cli-diagnostics.json": "8886d1f11cab64834817ca166ab1ff064459772828917c5d294ed8c52beef1c6",
+    "print/bambu-R17-side-thumb-2026-11-12/validation/candidate/P01-replacement/palm-preview-provenance.json": "a74ec04c572ae0b9e30ccc82ea193678b307fb9e06cfe28eaefd5fd8774f4cc2",
+    "print/bambu-R17-side-thumb-2026-11-12/preview/candidate/P01-replacement/P01-contact-supports-candidate.png": "4d226fd9c062c97a54d7b89493b2ebb89d07b766698e2be960892bf599559272",
+    "print/bambu-R17-side-thumb-2026-11-12/validation/candidate/P01-replacement/side-thumb-preview-provenance.json": "2757421427561eff37de2bdb40b71348104ae7a2eede1ac7cee0c3e37346c8ca",
+    "print/bambu-R17-side-thumb-2026-11-12/preview/candidate/P01-replacement/P01-side-thumb-supports-candidate.png": "3f472b9f4d1eb41eb51419ba59e4d837dc02f57f9dd3a77943c9a47c2389bedb",
+    "print/bambu-R17-side-thumb-2026-11-12/validation/candidate/P01-replacement/plate-preview-provenance.json": "8dc591be5d0fbaf829db23ec9e836da07d39a893765627a578e83ccff9ca96d2",
+    "print/bambu-R17-side-thumb-2026-11-12/preview/candidate/P01-replacement/plate_1.png": "eb2b59501d38b8e74f2883a79e7f5dd3a74a6bc10ecd720360f8d26054848e8d",
+    "print/bambu-R17-side-thumb-2026-11-12/Fingerworker_R17_P01_Replacement_LOCAL_TEST_CANDIDATE_Package.zip": "28d0125823228efc7f96d178338740539ba8b382f338086257af8eb454c3bbb1"
+  },
+  "printer_job_started": false,
+  "pending": [
+    "Onshape sign-in",
+    "Native Onshape commit/export identity",
+    "Native final CAD/print release"
+  ]
+}

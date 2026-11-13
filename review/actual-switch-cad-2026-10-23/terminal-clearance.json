@@ -1,0 +1,3965 @@
+{
+  "status": "NOMINAL_DRAWING_ENVELOPE_INTERFERENCE_FOUND_FACTORY_CAD_PENDING",
+  "date": "2026-10-23",
+  "scope": "Independent read-only check of previously omitted SS-01GL2 solder-terminal and lower-lug drawing envelopes against frozen R3 native geometry. Does not modify or re-certify the earlier proxy-based report.",
+  "sources": {
+    "source": {
+      "path": "review/flat132-palm-fit-2026-10-23/fingerworker_flat132_palm_fit.fs",
+      "sha256": "4665c3ec4e983e478d34c6cfe923b3b60e6c8848f36b7c54b55b1989eaab6326",
+      "bytes": 104007
+    },
+    "drawing": {
+      "path": "vendor/omron_ss5gl2/SS_datasheet.pdf",
+      "sha256": "b7c3cc9e838c1049d58772242b56cd06af3526ac422907769acd892668ba1a09",
+      "bytes": 1417688
+    },
+    "neutral": {
+      "path": "review/flat132-palm-fit-2026-10-23/native/Flat132_R3_neutral_final.zip",
+      "sha256": "0a8d367507744e7dfaaa46a6c1fa46639551293a0ad738d16f87fbebf2eef738",
+      "bytes": 56088116,
+      "stl_members": 105,
+      "crc_pass": true
+    },
+    "max": {
+      "path": "review/flat132-palm-fit-2026-10-23/native/Flat132_R3_max28_p2_heavy_final.zip",
+      "sha256": "e3f4a92aeed099ec3ec5f11ce9a9f0bf948d419329b2672dd663ed449f0b2381",
+      "bytes": 53892057,
+      "stl_members": 105,
+      "crc_pass": true
+    },
+    "iso": {
+      "path": "review/flat132-palm-fit-2026-10-23/native/Flat132_R3_isometric13_p2_final.zip",
+      "sha256": "f4bf05bd31a8929006b5136ed86b8b04c4dc293295bca9daec82a259bf10f921",
+      "bytes": 4486342,
+      "stl_members": 105,
+      "crc_pass": true
+    },
+    "step": {
+      "path": "review/flat132-palm-fit-2026-10-23/native/Flat132_R3_final_AP214.step",
+      "sha256": "bc7f102b5f147d3647ec372ffde1c726087fe64487aa7733c78b3450901da4e3",
+      "bytes": 2094397
+    }
+  },
+  "script": {
+    "path": "review/actual-switch-cad-2026-10-23/terminal-clearance.py",
+    "sha256": "e0a895762484b79fd79120cb897c849e6dd6a133fc83e95cdec544c4179326a2",
+    "bytes": 18458
+  },
+  "tools": {
+    "numpy": "2.5.4",
+    "trimesh": "5.1.1",
+    "manifold3d": "3.5.4"
+  },
+  "method": "Native watertight STL/manifold Boolean; independent raw-STL vertex bounds; exact rectangular probe sweep for all preload values;201 numerical witnesses plus the two native preload2poses. No remeshing, repairs or fabrication geometry edits.",
+  "numerical_zero_volume_threshold_mm3": 1e-07,
+  "manufacturer_drawing": {
+    "url": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-ss.pdf",
+    "pages": {
+      "solder_tabs": 4,
+      "hinge_roller_and_lower_lug": 6,
+      "mounting": 7
+    },
+    "drawing_interpretation_by": "Independent mount_redesign dimension audit, dimension-audit.json; exact dimensions visually checked against manufacturer PDF",
+    "dimension_audit": {
+      "path": "review/actual-switch-cad-2026-10-23/dimension-audit.json",
+      "sha256": "60d0c3f891d276ab79157c089500fa6bc579ab08cb7b67f28657c768eea03c77",
+      "bytes": 9892
+    },
+    "mapping": "Manufacturer U maps Y=U-17; V maps X=V+14; housing thickness centre Z9.2. Mounting-axis line X16.5; tab tips6.4below that line give X10.1.",
+    "terminal_centres_Y_mm": [
+      -15.4,
+      -6.6,
+      0.7
+    ],
+    "terminal_envelope_bounds_mm": [
+      [
+        [
+          10.1,
+          -15.65,
+          7.6
+        ],
+        [
+          14.0,
+          -15.15,
+          10.8
+        ]
+      ],
+      [
+        [
+          10.1,
+          -6.85,
+          7.6
+        ],
+        [
+          14.0,
+          -6.35,
+          10.8
+        ]
+      ],
+      [
+        [
+          10.1,
+          0.44999999999999996,
+          7.6
+        ],
+        [
+          14.0,
+          0.95,
+          10.8
+        ]
+      ]
+    ],
+    "not_factory_CAD": true,
+    "profile_limits": "Rectangular bounding envelopes, not actual terminal solids. Exact tab corner/\u00d81.6hole profiles and lug profile are not fully dimensioned. Their absent details cannot be recovered by assigning arbitrary contours."
+  },
+  "native_parts": {
+    "P05": {
+      "path": "review/flat132-palm-fit-2026-10-23/assembly-mm/P05.stl",
+      "sha256": "58ccc46eccb517b968ad75f0a8aab52cc853f2621410fa6bc1eecfff6d182ccd",
+      "bytes": 778284,
+      "bounds_mm": [
+        [
+          -7.0,
+          -63.0,
+          7.0
+        ],
+        [
+          35.0,
+          63.0,
+          29.0
+        ]
+      ],
+      "triangles": 15564,
+      "closed_positive_volume": true
+    },
+    "P01": {
+      "path": "review/flat132-palm-fit-2026-10-23/assembly-mm/P01.stl",
+      "sha256": "d7a96a2ea3a664a638194f3be3c574918cf87409792f2e1925e01fbf0279ee25",
+      "bytes": 1845184,
+      "bounds_mm": [
+        [
+          -23.0,
+          -66.0,
+          -2.0
+        ],
+        [
+          134.0,
+          66.0,
+          33.0
+        ]
+      ],
+      "triangles": 36902,
+      "closed_positive_volume": true
+    },
+    "H09": {
+      "path": "review/flat132-palm-fit-2026-10-23/assembly-mm/H09.stl",
+      "sha256": "86216109430b9fac32d766bdb8351ab2c0c492d5dacf367f04c6dffb662a07b8",
+      "bytes": 58684,
+      "bounds_mm": [
+        [
+          14.0,
+          -17.0,
+          6.0
+        ],
+        [
+          24.200000762939453,
+          2.799999952316284,
+          12.40000057220459
+        ]
+      ],
+      "triangles": 1172,
+      "closed_positive_volume": true
+    }
+  },
+  "preload_domain_mm": [
+    0,
+    2
+  ],
+  "stroke_domain": "0<=stroke_mm;0<=preload_mm<=2;stroke_mm+preload_mm<=30. Terminals and P05-relative clearance depend on preload only; P05 does not follow stroke.",
+  "terminal_clearance": {
+    "first_nominal_envelope_contact_preload_mm": 1.1,
+    "positive_overlap_preload_interval_mm": {
+      "lower_exclusive": 1.1,
+      "upper_inclusive": 2
+    },
+    "preload_0_axial_gap_mm": 1.1,
+    "preload_2_axial_overlap_mm": 0.9,
+    "preload_2_per_terminal_envelope_intersection_mm3": [
+      1.44,
+      1.44,
+      1.44
+    ],
+    "preload_2_total_envelope_intersection_mm3": 4.32,
+    "interpretation": "Native P05 fills the entire drawing-envelope cross-section at the nominal terminal tip at preload2. The envelope therefore fails the nominal full-preload packaging check.4.32mm\u00b3 is box-envelope intersection, not a claim of exact factory metal collision volume. Factory STEP or measurement is still required to resolve precise terminal profiles and routing.",
+    "continuous_native_slab_proof": [
+      {
+        "terminal": 1,
+        "swept_relative_bounds_mm": [
+          [
+            8.1,
+            -15.65,
+            7.6
+          ],
+          [
+            14.0,
+            -15.15,
+            10.8
+          ]
+        ],
+        "exact_native_intersection_bounds_mm": [
+          [
+            8.1,
+            -15.65,
+            7.6
+          ],
+          [
+            9.0,
+            -15.15,
+            10.8
+          ]
+        ],
+        "native_vs_analytic_slab_symmetric_difference_mm3": 0.0,
+        "full_cross_section_mm2": 1.6,
+        "per_terminal_envelope_overlap_volume_mm3": "1.6 * max(0, preload_mm - 1.1)",
+        "axial_gap_mm": "1.1 - preload_mm"
+      },
+      {
+        "terminal": 2,
+        "swept_relative_bounds_mm": [
+          [
+            8.1,
+            -6.85,
+            7.6
+          ],
+          [
+            14.0,
+            -6.35,
+            10.8
+          ]
+        ],
+        "exact_native_intersection_bounds_mm": [
+          [
+            8.1,
+            -6.85,
+            7.6
+          ],
+          [
+            9.0,
+            -6.35,
+            10.8
+          ]
+        ],
+        "native_vs_analytic_slab_symmetric_difference_mm3": 0.0,
+        "full_cross_section_mm2": 1.6,
+        "per_terminal_envelope_overlap_volume_mm3": "1.6 * max(0, preload_mm - 1.1)",
+        "axial_gap_mm": "1.1 - preload_mm"
+      },
+      {
+        "terminal": 3,
+        "swept_relative_bounds_mm": [
+          [
+            8.1,
+            0.44999999999999996,
+            7.6
+          ],
+          [
+            14.0,
+            0.95,
+            10.8
+          ]
+        ],
+        "exact_native_intersection_bounds_mm": [
+          [
+            8.1,
+            0.44999999999999996,
+            7.6
+          ],
+          [
+            9.0,
+            0.95,
+            10.8
+          ]
+        ],
+        "native_vs_analytic_slab_symmetric_difference_mm3": 0.0,
+        "full_cross_section_mm2": 1.6,
+        "per_terminal_envelope_overlap_volume_mm3": "1.6 * max(0, preload_mm - 1.1)",
+        "axial_gap_mm": "1.1 - preload_mm"
+      }
+    ],
+    "sample_count": 201,
+    "maximum_sample_vs_analytic_error_mm3": 4.6629367034256575e-15,
+    "samples": [
+      {
+        "preload_mm": 0.0,
+        "gap_or_negative_axial_overlap_mm": 1.1,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.01,
+        "gap_or_negative_axial_overlap_mm": 1.09,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.02,
+        "gap_or_negative_axial_overlap_mm": 1.08,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.03,
+        "gap_or_negative_axial_overlap_mm": 1.07,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.04,
+        "gap_or_negative_axial_overlap_mm": 1.06,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.05,
+        "gap_or_negative_axial_overlap_mm": 1.05,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.06,
+        "gap_or_negative_axial_overlap_mm": 1.04,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.07,
+        "gap_or_negative_axial_overlap_mm": 1.03,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.08,
+        "gap_or_negative_axial_overlap_mm": 1.02,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.09,
+        "gap_or_negative_axial_overlap_mm": 1.01,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.1,
+        "gap_or_negative_axial_overlap_mm": 1.0,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.11,
+        "gap_or_negative_axial_overlap_mm": 0.99,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.12,
+        "gap_or_negative_axial_overlap_mm": 0.98,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.13,
+        "gap_or_negative_axial_overlap_mm": 0.97,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.14,
+        "gap_or_negative_axial_overlap_mm": 0.96,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.15,
+        "gap_or_negative_axial_overlap_mm": 0.95,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.16,
+        "gap_or_negative_axial_overlap_mm": 0.94,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.17,
+        "gap_or_negative_axial_overlap_mm": 0.93,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.18,
+        "gap_or_negative_axial_overlap_mm": 0.92,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.19,
+        "gap_or_negative_axial_overlap_mm": 0.91,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.2,
+        "gap_or_negative_axial_overlap_mm": 0.9,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.21,
+        "gap_or_negative_axial_overlap_mm": 0.89,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.22,
+        "gap_or_negative_axial_overlap_mm": 0.88,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.23,
+        "gap_or_negative_axial_overlap_mm": 0.87,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.24,
+        "gap_or_negative_axial_overlap_mm": 0.86,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.25,
+        "gap_or_negative_axial_overlap_mm": 0.85,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.26,
+        "gap_or_negative_axial_overlap_mm": 0.84,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.27,
+        "gap_or_negative_axial_overlap_mm": 0.83,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.28,
+        "gap_or_negative_axial_overlap_mm": 0.82,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.29,
+        "gap_or_negative_axial_overlap_mm": 0.81,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.3,
+        "gap_or_negative_axial_overlap_mm": 0.8,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.31,
+        "gap_or_negative_axial_overlap_mm": 0.79,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.32,
+        "gap_or_negative_axial_overlap_mm": 0.78,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.33,
+        "gap_or_negative_axial_overlap_mm": 0.77,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.34,
+        "gap_or_negative_axial_overlap_mm": 0.76,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.35,
+        "gap_or_negative_axial_overlap_mm": 0.75,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.36,
+        "gap_or_negative_axial_overlap_mm": 0.74,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.37,
+        "gap_or_negative_axial_overlap_mm": 0.73,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.38,
+        "gap_or_negative_axial_overlap_mm": 0.72,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.39,
+        "gap_or_negative_axial_overlap_mm": 0.71,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.4,
+        "gap_or_negative_axial_overlap_mm": 0.7,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.41,
+        "gap_or_negative_axial_overlap_mm": 0.69,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.42,
+        "gap_or_negative_axial_overlap_mm": 0.68,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.43,
+        "gap_or_negative_axial_overlap_mm": 0.67,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.44,
+        "gap_or_negative_axial_overlap_mm": 0.66,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.45,
+        "gap_or_negative_axial_overlap_mm": 0.65,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.46,
+        "gap_or_negative_axial_overlap_mm": 0.64,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.47,
+        "gap_or_negative_axial_overlap_mm": 0.63,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.48,
+        "gap_or_negative_axial_overlap_mm": 0.62,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.49,
+        "gap_or_negative_axial_overlap_mm": 0.61,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.5,
+        "gap_or_negative_axial_overlap_mm": 0.6,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.51,
+        "gap_or_negative_axial_overlap_mm": 0.59,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.52,
+        "gap_or_negative_axial_overlap_mm": 0.58,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.53,
+        "gap_or_negative_axial_overlap_mm": 0.57,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.54,
+        "gap_or_negative_axial_overlap_mm": 0.56,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.55,
+        "gap_or_negative_axial_overlap_mm": 0.55,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.56,
+        "gap_or_negative_axial_overlap_mm": 0.54,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.57,
+        "gap_or_negative_axial_overlap_mm": 0.53,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.58,
+        "gap_or_negative_axial_overlap_mm": 0.52,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.59,
+        "gap_or_negative_axial_overlap_mm": 0.51,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.6,
+        "gap_or_negative_axial_overlap_mm": 0.5,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.61,
+        "gap_or_negative_axial_overlap_mm": 0.49,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.62,
+        "gap_or_negative_axial_overlap_mm": 0.48,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.63,
+        "gap_or_negative_axial_overlap_mm": 0.47,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.64,
+        "gap_or_negative_axial_overlap_mm": 0.46,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.65,
+        "gap_or_negative_axial_overlap_mm": 0.45,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.66,
+        "gap_or_negative_axial_overlap_mm": 0.44,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.67,
+        "gap_or_negative_axial_overlap_mm": 0.43,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.68,
+        "gap_or_negative_axial_overlap_mm": 0.42,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.69,
+        "gap_or_negative_axial_overlap_mm": 0.41,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.7,
+        "gap_or_negative_axial_overlap_mm": 0.4,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.71,
+        "gap_or_negative_axial_overlap_mm": 0.39,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.72,
+        "gap_or_negative_axial_overlap_mm": 0.38,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.73,
+        "gap_or_negative_axial_overlap_mm": 0.37,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.74,
+        "gap_or_negative_axial_overlap_mm": 0.36,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.75,
+        "gap_or_negative_axial_overlap_mm": 0.35,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.76,
+        "gap_or_negative_axial_overlap_mm": 0.34,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.77,
+        "gap_or_negative_axial_overlap_mm": 0.33,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.78,
+        "gap_or_negative_axial_overlap_mm": 0.32,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.79,
+        "gap_or_negative_axial_overlap_mm": 0.31,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.8,
+        "gap_or_negative_axial_overlap_mm": 0.3,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.81,
+        "gap_or_negative_axial_overlap_mm": 0.29,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.82,
+        "gap_or_negative_axial_overlap_mm": 0.28,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.83,
+        "gap_or_negative_axial_overlap_mm": 0.27,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.84,
+        "gap_or_negative_axial_overlap_mm": 0.26,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.85,
+        "gap_or_negative_axial_overlap_mm": 0.25,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.86,
+        "gap_or_negative_axial_overlap_mm": 0.24,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.87,
+        "gap_or_negative_axial_overlap_mm": 0.23,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.88,
+        "gap_or_negative_axial_overlap_mm": 0.22,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.89,
+        "gap_or_negative_axial_overlap_mm": 0.21,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.9,
+        "gap_or_negative_axial_overlap_mm": 0.2,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.91,
+        "gap_or_negative_axial_overlap_mm": 0.19,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.92,
+        "gap_or_negative_axial_overlap_mm": 0.18,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.93,
+        "gap_or_negative_axial_overlap_mm": 0.17,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.94,
+        "gap_or_negative_axial_overlap_mm": 0.16,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.95,
+        "gap_or_negative_axial_overlap_mm": 0.15,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.96,
+        "gap_or_negative_axial_overlap_mm": 0.14,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.97,
+        "gap_or_negative_axial_overlap_mm": 0.13,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.98,
+        "gap_or_negative_axial_overlap_mm": 0.12,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 0.99,
+        "gap_or_negative_axial_overlap_mm": 0.11,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 1.0,
+        "gap_or_negative_axial_overlap_mm": 0.1,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 1.01,
+        "gap_or_negative_axial_overlap_mm": 0.09,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 1.02,
+        "gap_or_negative_axial_overlap_mm": 0.08,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 1.03,
+        "gap_or_negative_axial_overlap_mm": 0.07,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 1.04,
+        "gap_or_negative_axial_overlap_mm": 0.06,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 1.05,
+        "gap_or_negative_axial_overlap_mm": 0.05,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 1.06,
+        "gap_or_negative_axial_overlap_mm": 0.04,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 1.07,
+        "gap_or_negative_axial_overlap_mm": 0.03,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 1.08,
+        "gap_or_negative_axial_overlap_mm": 0.02,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 1.09,
+        "gap_or_negative_axial_overlap_mm": 0.01,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 1.1,
+        "gap_or_negative_axial_overlap_mm": 0.0,
+        "per_terminal_envelope_intersection_mm3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "total_envelope_intersection_mm3": 0.0
+      },
+      {
+        "preload_mm": 1.11,
+        "gap_or_negative_axial_overlap_mm": -0.01,
+        "per_terminal_envelope_intersection_mm3": [
+          0.01600000000000108,
+          0.01600000000000108,
+          0.016000000000001083
+        ],
+        "total_envelope_intersection_mm3": 0.04800000000000324
+      },
+      {
+        "preload_mm": 1.12,
+        "gap_or_negative_axial_overlap_mm": -0.02,
+        "per_terminal_envelope_intersection_mm3": [
+          0.03200000000000296,
+          0.03200000000000296,
+          0.032000000000002964
+        ],
+        "total_envelope_intersection_mm3": 0.09600000000000888
+      },
+      {
+        "preload_mm": 1.13,
+        "gap_or_negative_axial_overlap_mm": -0.03,
+        "per_terminal_envelope_intersection_mm3": [
+          0.048000000000000216,
+          0.04800000000000016,
+          0.04800000000000014
+        ],
+        "total_envelope_intersection_mm3": 0.14400000000000052
+      },
+      {
+        "preload_mm": 1.14,
+        "gap_or_negative_axial_overlap_mm": -0.04,
+        "per_terminal_envelope_intersection_mm3": [
+          0.06400000000000206,
+          0.06400000000000206,
+          0.06400000000000201
+        ],
+        "total_envelope_intersection_mm3": 0.1920000000000061
+      },
+      {
+        "preload_mm": 1.15,
+        "gap_or_negative_axial_overlap_mm": -0.05,
+        "per_terminal_envelope_intersection_mm3": [
+          0.08000000000000124,
+          0.08000000000000135,
+          0.08000000000000133
+        ],
+        "total_envelope_intersection_mm3": 0.24000000000000393
+      },
+      {
+        "preload_mm": 1.16,
+        "gap_or_negative_axial_overlap_mm": -0.06,
+        "per_terminal_envelope_intersection_mm3": [
+          0.09600000000000251,
+          0.09600000000000251,
+          0.09600000000000243
+        ],
+        "total_envelope_intersection_mm3": 0.2880000000000075
+      },
+      {
+        "preload_mm": 1.17,
+        "gap_or_negative_axial_overlap_mm": -0.07,
+        "per_terminal_envelope_intersection_mm3": [
+          0.1120000000000019,
+          0.11200000000000174,
+          0.11200000000000174
+        ],
+        "total_envelope_intersection_mm3": 0.3360000000000054
+      },
+      {
+        "preload_mm": 1.18,
+        "gap_or_negative_axial_overlap_mm": -0.08,
+        "per_terminal_envelope_intersection_mm3": [
+          0.12800000000000072,
+          0.1280000000000006,
+          0.1280000000000006
+        ],
+        "total_envelope_intersection_mm3": 0.38400000000000195
+      },
+      {
+        "preload_mm": 1.19,
+        "gap_or_negative_axial_overlap_mm": -0.09,
+        "per_terminal_envelope_intersection_mm3": [
+          0.14400000000000088,
+          0.14400000000000088,
+          0.1440000000000008
+        ],
+        "total_envelope_intersection_mm3": 0.43200000000000255
+      },
+      {
+        "preload_mm": 1.2,
+        "gap_or_negative_axial_overlap_mm": -0.1,
+        "per_terminal_envelope_intersection_mm3": [
+          0.1600000000000004,
+          0.16000000000000006,
+          0.1600000000000001
+        ],
+        "total_envelope_intersection_mm3": 0.48000000000000054
+      },
+      {
+        "preload_mm": 1.21,
+        "gap_or_negative_axial_overlap_mm": -0.11,
+        "per_terminal_envelope_intersection_mm3": [
+          0.17600000000000193,
+          0.17600000000000193,
+          0.17600000000000196
+        ],
+        "total_envelope_intersection_mm3": 0.5280000000000058
+      },
+      {
+        "preload_mm": 1.22,
+        "gap_or_negative_axial_overlap_mm": -0.12,
+        "per_terminal_envelope_intersection_mm3": [
+          0.19200000000000325,
+          0.19200000000000325,
+          0.19200000000000308
+        ],
+        "total_envelope_intersection_mm3": 0.5760000000000096
+      },
+      {
+        "preload_mm": 1.23,
+        "gap_or_negative_axial_overlap_mm": -0.13,
+        "per_terminal_envelope_intersection_mm3": [
+          0.20800000000000163,
+          0.20800000000000185,
+          0.20800000000000193
+        ],
+        "total_envelope_intersection_mm3": 0.6240000000000054
+      },
+      {
+        "preload_mm": 1.24,
+        "gap_or_negative_axial_overlap_mm": -0.14,
+        "per_terminal_envelope_intersection_mm3": [
+          0.2240000000000027,
+          0.22400000000000214,
+          0.22400000000000214
+        ],
+        "total_envelope_intersection_mm3": 0.672000000000007
+      },
+      {
+        "preload_mm": 1.25,
+        "gap_or_negative_axial_overlap_mm": -0.15,
+        "per_terminal_envelope_intersection_mm3": [
+          0.2400000000000015,
+          0.2400000000000015,
+          0.2400000000000014
+        ],
+        "total_envelope_intersection_mm3": 0.7200000000000044
+      },
+      {
+        "preload_mm": 1.26,
+        "gap_or_negative_axial_overlap_mm": -0.16,
+        "per_terminal_envelope_intersection_mm3": [
+          0.2560000000000012,
+          0.2560000000000008,
+          0.2560000000000008
+        ],
+        "total_envelope_intersection_mm3": 0.7680000000000028
+      },
+      {
+        "preload_mm": 1.27,
+        "gap_or_negative_axial_overlap_mm": -0.17,
+        "per_terminal_envelope_intersection_mm3": [
+          0.27200000000000046,
+          0.27200000000000046,
+          0.27200000000000046
+        ],
+        "total_envelope_intersection_mm3": 0.8160000000000014
+      },
+      {
+        "preload_mm": 1.28,
+        "gap_or_negative_axial_overlap_mm": -0.18,
+        "per_terminal_envelope_intersection_mm3": [
+          0.2880000000000002,
+          0.288,
+          0.2879999999999998
+        ],
+        "total_envelope_intersection_mm3": 0.864
+      },
+      {
+        "preload_mm": 1.29,
+        "gap_or_negative_axial_overlap_mm": -0.19,
+        "per_terminal_envelope_intersection_mm3": [
+          0.3040000000000004,
+          0.30400000000000105,
+          0.3040000000000009
+        ],
+        "total_envelope_intersection_mm3": 0.9120000000000024
+      },
+      {
+        "preload_mm": 1.3,
+        "gap_or_negative_axial_overlap_mm": -0.2,
+        "per_terminal_envelope_intersection_mm3": [
+          0.32000000000000295,
+          0.32000000000000284,
+          0.3200000000000027
+        ],
+        "total_envelope_intersection_mm3": 0.9600000000000085
+      },
+      {
+        "preload_mm": 1.31,
+        "gap_or_negative_axial_overlap_mm": -0.21,
+        "per_terminal_envelope_intersection_mm3": [
+          0.3360000000000022,
+          0.3360000000000022,
+          0.3360000000000021
+        ],
+        "total_envelope_intersection_mm3": 1.0080000000000064
+      },
+      {
+        "preload_mm": 1.32,
+        "gap_or_negative_axial_overlap_mm": -0.22,
+        "per_terminal_envelope_intersection_mm3": [
+          0.35200000000000164,
+          0.3520000000000023,
+          0.35200000000000226
+        ],
+        "total_envelope_intersection_mm3": 1.0560000000000063
+      },
+      {
+        "preload_mm": 1.33,
+        "gap_or_negative_axial_overlap_mm": -0.23,
+        "per_terminal_envelope_intersection_mm3": [
+          0.3680000000000011,
+          0.3680000000000013,
+          0.36800000000000116
+        ],
+        "total_envelope_intersection_mm3": 1.1040000000000036
+      },
+      {
+        "preload_mm": 1.34,
+        "gap_or_negative_axial_overlap_mm": -0.24,
+        "per_terminal_envelope_intersection_mm3": [
+          0.38400000000000034,
+          0.38400000000000034,
+          0.3840000000000004
+        ],
+        "total_envelope_intersection_mm3": 1.152000000000001
+      },
+      {
+        "preload_mm": 1.35,
+        "gap_or_negative_axial_overlap_mm": -0.25,
+        "per_terminal_envelope_intersection_mm3": [
+          0.40000000000000074,
+          0.4000000000000012,
+          0.40000000000000147
+        ],
+        "total_envelope_intersection_mm3": 1.2000000000000033
+      },
+      {
+        "preload_mm": 1.36,
+        "gap_or_negative_axial_overlap_mm": -0.26,
+        "per_terminal_envelope_intersection_mm3": [
+          0.4160000000000007,
+          0.4160000000000012,
+          0.4160000000000009
+        ],
+        "total_envelope_intersection_mm3": 1.2480000000000029
+      },
+      {
+        "preload_mm": 1.37,
+        "gap_or_negative_axial_overlap_mm": -0.27,
+        "per_terminal_envelope_intersection_mm3": [
+          0.43200000000000394,
+          0.4320000000000025,
+          0.43200000000000266
+        ],
+        "total_envelope_intersection_mm3": 1.2960000000000091
+      },
+      {
+        "preload_mm": 1.38,
+        "gap_or_negative_axial_overlap_mm": -0.28,
+        "per_terminal_envelope_intersection_mm3": [
+          0.4479999999999996,
+          0.44799999999999973,
+          0.4479999999999999
+        ],
+        "total_envelope_intersection_mm3": 1.3439999999999992
+      },
+      {
+        "preload_mm": 1.39,
+        "gap_or_negative_axial_overlap_mm": -0.29,
+        "per_terminal_envelope_intersection_mm3": [
+          0.46400000000000113,
+          0.46400000000000174,
+          0.46400000000000174
+        ],
+        "total_envelope_intersection_mm3": 1.3920000000000046
+      },
+      {
+        "preload_mm": 1.4,
+        "gap_or_negative_axial_overlap_mm": -0.3,
+        "per_terminal_envelope_intersection_mm3": [
+          0.48000000000000326,
+          0.4800000000000032,
+          0.4800000000000028
+        ],
+        "total_envelope_intersection_mm3": 1.4400000000000093
+      },
+      {
+        "preload_mm": 1.41,
+        "gap_or_negative_axial_overlap_mm": -0.31,
+        "per_terminal_envelope_intersection_mm3": [
+          0.49600000000000233,
+          0.496000000000002,
+          0.4960000000000021
+        ],
+        "total_envelope_intersection_mm3": 1.4880000000000064
+      },
+      {
+        "preload_mm": 1.42,
+        "gap_or_negative_axial_overlap_mm": -0.32,
+        "per_terminal_envelope_intersection_mm3": [
+          0.5120000000000015,
+          0.5120000000000013,
+          0.5120000000000011
+        ],
+        "total_envelope_intersection_mm3": 1.536000000000004
+      },
+      {
+        "preload_mm": 1.43,
+        "gap_or_negative_axial_overlap_mm": -0.33,
+        "per_terminal_envelope_intersection_mm3": [
+          0.5280000000000021,
+          0.5280000000000008,
+          0.5280000000000011
+        ],
+        "total_envelope_intersection_mm3": 1.584000000000004
+      },
+      {
+        "preload_mm": 1.44,
+        "gap_or_negative_axial_overlap_mm": -0.34,
+        "per_terminal_envelope_intersection_mm3": [
+          0.5440000000000008,
+          0.5440000000000007,
+          0.5440000000000005
+        ],
+        "total_envelope_intersection_mm3": 1.632000000000002
+      },
+      {
+        "preload_mm": 1.45,
+        "gap_or_negative_axial_overlap_mm": -0.35,
+        "per_terminal_envelope_intersection_mm3": [
+          0.5600000000000006,
+          0.5600000000000006,
+          0.5600000000000007
+        ],
+        "total_envelope_intersection_mm3": 1.680000000000002
+      },
+      {
+        "preload_mm": 1.46,
+        "gap_or_negative_axial_overlap_mm": -0.36,
+        "per_terminal_envelope_intersection_mm3": [
+          0.5760000000000031,
+          0.5760000000000037,
+          0.5760000000000035
+        ],
+        "total_envelope_intersection_mm3": 1.7280000000000104
+      },
+      {
+        "preload_mm": 1.47,
+        "gap_or_negative_axial_overlap_mm": -0.37,
+        "per_terminal_envelope_intersection_mm3": [
+          0.5920000000000035,
+          0.5920000000000026,
+          0.5920000000000027
+        ],
+        "total_envelope_intersection_mm3": 1.776000000000009
+      },
+      {
+        "preload_mm": 1.48,
+        "gap_or_negative_axial_overlap_mm": -0.38,
+        "per_terminal_envelope_intersection_mm3": [
+          0.6080000000000039,
+          0.6080000000000032,
+          0.6080000000000025
+        ],
+        "total_envelope_intersection_mm3": 1.8240000000000096
+      },
+      {
+        "preload_mm": 1.49,
+        "gap_or_negative_axial_overlap_mm": -0.39,
+        "per_terminal_envelope_intersection_mm3": [
+          0.6240000000000007,
+          0.6240000000000016,
+          0.6240000000000019
+        ],
+        "total_envelope_intersection_mm3": 1.872000000000004
+      },
+      {
+        "preload_mm": 1.5,
+        "gap_or_negative_axial_overlap_mm": -0.4,
+        "per_terminal_envelope_intersection_mm3": [
+          0.6400000000000006,
+          0.6400000000000008,
+          0.6400000000000011
+        ],
+        "total_envelope_intersection_mm3": 1.9200000000000026
+      },
+      {
+        "preload_mm": 1.51,
+        "gap_or_negative_axial_overlap_mm": -0.41,
+        "per_terminal_envelope_intersection_mm3": [
+          0.6560000000000017,
+          0.656000000000001,
+          0.6560000000000009
+        ],
+        "total_envelope_intersection_mm3": 1.9680000000000035
+      },
+      {
+        "preload_mm": 1.52,
+        "gap_or_negative_axial_overlap_mm": -0.42,
+        "per_terminal_envelope_intersection_mm3": [
+          0.6720000000000002,
+          0.6720000000000002,
+          0.6720000000000002
+        ],
+        "total_envelope_intersection_mm3": 2.0160000000000005
+      },
+      {
+        "preload_mm": 1.53,
+        "gap_or_negative_axial_overlap_mm": -0.43,
+        "per_terminal_envelope_intersection_mm3": [
+          0.6880000000000008,
+          0.6880000000000015,
+          0.6880000000000013
+        ],
+        "total_envelope_intersection_mm3": 2.0640000000000036
+      },
+      {
+        "preload_mm": 1.54,
+        "gap_or_negative_axial_overlap_mm": -0.44,
+        "per_terminal_envelope_intersection_mm3": [
+          0.7040000000000008,
+          0.7040000000000006,
+          0.7040000000000006
+        ],
+        "total_envelope_intersection_mm3": 2.112000000000002
+      },
+      {
+        "preload_mm": 1.55,
+        "gap_or_negative_axial_overlap_mm": -0.45,
+        "per_terminal_envelope_intersection_mm3": [
+          0.7200000000000031,
+          0.7200000000000022,
+          0.7200000000000025
+        ],
+        "total_envelope_intersection_mm3": 2.1600000000000077
+      },
+      {
+        "preload_mm": 1.56,
+        "gap_or_negative_axial_overlap_mm": -0.46,
+        "per_terminal_envelope_intersection_mm3": [
+          0.7360000000000027,
+          0.7360000000000033,
+          0.7360000000000028
+        ],
+        "total_envelope_intersection_mm3": 2.2080000000000086
+      },
+      {
+        "preload_mm": 1.57,
+        "gap_or_negative_axial_overlap_mm": -0.47,
+        "per_terminal_envelope_intersection_mm3": [
+          0.7520000000000018,
+          0.7520000000000018,
+          0.7520000000000017
+        ],
+        "total_envelope_intersection_mm3": 2.256000000000005
+      },
+      {
+        "preload_mm": 1.58,
+        "gap_or_negative_axial_overlap_mm": -0.48,
+        "per_terminal_envelope_intersection_mm3": [
+          0.7680000000000007,
+          0.7680000000000005,
+          0.7680000000000008
+        ],
+        "total_envelope_intersection_mm3": 2.304000000000002
+      },
+      {
+        "preload_mm": 1.59,
+        "gap_or_negative_axial_overlap_mm": -0.49,
+        "per_terminal_envelope_intersection_mm3": [
+          0.7840000000000023,
+          0.784000000000002,
+          0.7840000000000019
+        ],
+        "total_envelope_intersection_mm3": 2.352000000000006
+      },
+      {
+        "preload_mm": 1.6,
+        "gap_or_negative_axial_overlap_mm": -0.5,
+        "per_terminal_envelope_intersection_mm3": [
+          0.8000000000000006,
+          0.8000000000000005,
+          0.8000000000000012
+        ],
+        "total_envelope_intersection_mm3": 2.400000000000002
+      },
+      {
+        "preload_mm": 1.61,
+        "gap_or_negative_axial_overlap_mm": -0.51,
+        "per_terminal_envelope_intersection_mm3": [
+          0.8159999999999991,
+          0.8160000000000012,
+          0.8160000000000011
+        ],
+        "total_envelope_intersection_mm3": 2.4480000000000013
+      },
+      {
+        "preload_mm": 1.62,
+        "gap_or_negative_axial_overlap_mm": -0.52,
+        "per_terminal_envelope_intersection_mm3": [
+          0.8320000000000034,
+          0.8320000000000027,
+          0.8320000000000027
+        ],
+        "total_envelope_intersection_mm3": 2.496000000000009
+      },
+      {
+        "preload_mm": 1.63,
+        "gap_or_negative_axial_overlap_mm": -0.53,
+        "per_terminal_envelope_intersection_mm3": [
+          0.8480000000000001,
+          0.8479999999999994,
+          0.8479999999999995
+        ],
+        "total_envelope_intersection_mm3": 2.543999999999999
+      },
+      {
+        "preload_mm": 1.64,
+        "gap_or_negative_axial_overlap_mm": -0.54,
+        "per_terminal_envelope_intersection_mm3": [
+          0.864000000000003,
+          0.864000000000003,
+          0.8640000000000033
+        ],
+        "total_envelope_intersection_mm3": 2.5920000000000094
+      },
+      {
+        "preload_mm": 1.65,
+        "gap_or_negative_axial_overlap_mm": -0.55,
+        "per_terminal_envelope_intersection_mm3": [
+          0.8800000000000037,
+          0.8800000000000023,
+          0.8800000000000027
+        ],
+        "total_envelope_intersection_mm3": 2.6400000000000086
+      },
+      {
+        "preload_mm": 1.66,
+        "gap_or_negative_axial_overlap_mm": -0.56,
+        "per_terminal_envelope_intersection_mm3": [
+          0.8960000000000041,
+          0.8960000000000015,
+          0.8960000000000014
+        ],
+        "total_envelope_intersection_mm3": 2.688000000000007
+      },
+      {
+        "preload_mm": 1.67,
+        "gap_or_negative_axial_overlap_mm": -0.57,
+        "per_terminal_envelope_intersection_mm3": [
+          0.912000000000001,
+          0.912000000000002,
+          0.9120000000000015
+        ],
+        "total_envelope_intersection_mm3": 2.7360000000000047
+      },
+      {
+        "preload_mm": 1.68,
+        "gap_or_negative_axial_overlap_mm": -0.58,
+        "per_terminal_envelope_intersection_mm3": [
+          0.9280000000000028,
+          0.9280000000000009,
+          0.928000000000001
+        ],
+        "total_envelope_intersection_mm3": 2.7840000000000047
+      },
+      {
+        "preload_mm": 1.69,
+        "gap_or_negative_axial_overlap_mm": -0.59,
+        "per_terminal_envelope_intersection_mm3": [
+          0.9440000000000011,
+          0.9440000000000011,
+          0.9440000000000006
+        ],
+        "total_envelope_intersection_mm3": 2.8320000000000025
+      },
+      {
+        "preload_mm": 1.7,
+        "gap_or_negative_axial_overlap_mm": -0.6,
+        "per_terminal_envelope_intersection_mm3": [
+          0.9599999999999986,
+          0.9599999999999994,
+          0.96
+        ],
+        "total_envelope_intersection_mm3": 2.879999999999998
+      },
+      {
+        "preload_mm": 1.71,
+        "gap_or_negative_axial_overlap_mm": -0.61,
+        "per_terminal_envelope_intersection_mm3": [
+          0.9760000000000018,
+          0.976000000000003,
+          0.9760000000000033
+        ],
+        "total_envelope_intersection_mm3": 2.928000000000008
+      },
+      {
+        "preload_mm": 1.72,
+        "gap_or_negative_axial_overlap_mm": -0.62,
+        "per_terminal_envelope_intersection_mm3": [
+          0.9920000000000035,
+          0.9920000000000031,
+          0.9920000000000029
+        ],
+        "total_envelope_intersection_mm3": 2.9760000000000097
+      },
+      {
+        "preload_mm": 1.73,
+        "gap_or_negative_axial_overlap_mm": -0.63,
+        "per_terminal_envelope_intersection_mm3": [
+          1.0080000000000016,
+          1.0080000000000027,
+          1.0080000000000022
+        ],
+        "total_envelope_intersection_mm3": 3.0240000000000062
+      },
+      {
+        "preload_mm": 1.74,
+        "gap_or_negative_axial_overlap_mm": -0.64,
+        "per_terminal_envelope_intersection_mm3": [
+          1.0240000000000031,
+          1.0240000000000018,
+          1.0240000000000018
+        ],
+        "total_envelope_intersection_mm3": 3.0720000000000067
+      },
+      {
+        "preload_mm": 1.75,
+        "gap_or_negative_axial_overlap_mm": -0.65,
+        "per_terminal_envelope_intersection_mm3": [
+          1.0400000000000005,
+          1.040000000000001,
+          1.0400000000000014
+        ],
+        "total_envelope_intersection_mm3": 3.1200000000000028
+      },
+      {
+        "preload_mm": 1.76,
+        "gap_or_negative_axial_overlap_mm": -0.66,
+        "per_terminal_envelope_intersection_mm3": [
+          1.0560000000000025,
+          1.056,
+          1.0560000000000005
+        ],
+        "total_envelope_intersection_mm3": 3.168000000000003
+      },
+      {
+        "preload_mm": 1.77,
+        "gap_or_negative_axial_overlap_mm": -0.67,
+        "per_terminal_envelope_intersection_mm3": [
+          1.0720000000000014,
+          1.0720000000000014,
+          1.0720000000000018
+        ],
+        "total_envelope_intersection_mm3": 3.2160000000000046
+      },
+      {
+        "preload_mm": 1.78,
+        "gap_or_negative_axial_overlap_mm": -0.68,
+        "per_terminal_envelope_intersection_mm3": [
+          1.0880000000000019,
+          1.088000000000001,
+          1.088000000000001
+        ],
+        "total_envelope_intersection_mm3": 3.264000000000004
+      },
+      {
+        "preload_mm": 1.79,
+        "gap_or_negative_axial_overlap_mm": -0.69,
+        "per_terminal_envelope_intersection_mm3": [
+          1.104000000000001,
+          1.1040000000000005,
+          1.104
+        ],
+        "total_envelope_intersection_mm3": 3.3120000000000016
+      },
+      {
+        "preload_mm": 1.8,
+        "gap_or_negative_axial_overlap_mm": -0.7,
+        "per_terminal_envelope_intersection_mm3": [
+          1.1200000000000039,
+          1.1200000000000034,
+          1.1200000000000028
+        ],
+        "total_envelope_intersection_mm3": 3.36000000000001
+      },
+      {
+        "preload_mm": 1.81,
+        "gap_or_negative_axial_overlap_mm": -0.71,
+        "per_terminal_envelope_intersection_mm3": [
+          1.1360000000000023,
+          1.1360000000000015,
+          1.136000000000002
+        ],
+        "total_envelope_intersection_mm3": 3.4080000000000057
+      },
+      {
+        "preload_mm": 1.82,
+        "gap_or_negative_axial_overlap_mm": -0.72,
+        "per_terminal_envelope_intersection_mm3": [
+          1.1520000000000012,
+          1.1520000000000012,
+          1.1520000000000015
+        ],
+        "total_envelope_intersection_mm3": 3.456000000000004
+      },
+      {
+        "preload_mm": 1.83,
+        "gap_or_negative_axial_overlap_mm": -0.73,
+        "per_terminal_envelope_intersection_mm3": [
+          1.1680000000000017,
+          1.1680000000000026,
+          1.1680000000000024
+        ],
+        "total_envelope_intersection_mm3": 3.5040000000000067
+      },
+      {
+        "preload_mm": 1.84,
+        "gap_or_negative_axial_overlap_mm": -0.74,
+        "per_terminal_envelope_intersection_mm3": [
+          1.1840000000000002,
+          1.1840000000000024,
+          1.1840000000000017
+        ],
+        "total_envelope_intersection_mm3": 3.552000000000004
+      },
+      {
+        "preload_mm": 1.85,
+        "gap_or_negative_axial_overlap_mm": -0.75,
+        "per_terminal_envelope_intersection_mm3": [
+          1.2000000000000024,
+          1.200000000000002,
+          1.2000000000000017
+        ],
+        "total_envelope_intersection_mm3": 3.600000000000006
+      },
+      {
+        "preload_mm": 1.86,
+        "gap_or_negative_axial_overlap_mm": -0.76,
+        "per_terminal_envelope_intersection_mm3": [
+          1.2160000000000017,
+          1.2160000000000004,
+          1.2160000000000006
+        ],
+        "total_envelope_intersection_mm3": 3.648000000000003
+      },
+      {
+        "preload_mm": 1.87,
+        "gap_or_negative_axial_overlap_mm": -0.77,
+        "per_terminal_envelope_intersection_mm3": [
+          1.2320000000000026,
+          1.2320000000000026,
+          1.2320000000000026
+        ],
+        "total_envelope_intersection_mm3": 3.6960000000000077
+      },
+      {
+        "preload_mm": 1.88,
+        "gap_or_negative_axial_overlap_mm": -0.78,
+        "per_terminal_envelope_intersection_mm3": [
+          1.2480000000000027,
+          1.2480000000000004,
+          1.2479999999999998
+        ],
+        "total_envelope_intersection_mm3": 3.744000000000003
+      },
+      {
+        "preload_mm": 1.89,
+        "gap_or_negative_axial_overlap_mm": -0.79,
+        "per_terminal_envelope_intersection_mm3": [
+          1.2640000000000038,
+          1.264000000000002,
+          1.264000000000003
+        ],
+        "total_envelope_intersection_mm3": 3.7920000000000087
+      },
+      {
+        "preload_mm": 1.9,
+        "gap_or_negative_axial_overlap_mm": -0.8,
+        "per_terminal_envelope_intersection_mm3": [
+          1.2799999999999998,
+          1.2800000000000011,
+          1.2800000000000018
+        ],
+        "total_envelope_intersection_mm3": 3.8400000000000025
+      },
+      {
+        "preload_mm": 1.91,
+        "gap_or_negative_axial_overlap_mm": -0.81,
+        "per_terminal_envelope_intersection_mm3": [
+          1.2960000000000025,
+          1.296000000000003,
+          1.296000000000002
+        ],
+        "total_envelope_intersection_mm3": 3.8880000000000075
+      },
+      {
+        "preload_mm": 1.92,
+        "gap_or_negative_axial_overlap_mm": -0.82,
+        "per_terminal_envelope_intersection_mm3": [
+          1.312000000000002,
+          1.3120000000000016,
+          1.3120000000000014
+        ],
+        "total_envelope_intersection_mm3": 3.9360000000000053
+      },
+      {
+        "preload_mm": 1.93,
+        "gap_or_negative_axial_overlap_mm": -0.83,
+        "per_terminal_envelope_intersection_mm3": [
+          1.3280000000000003,
+          1.3280000000000025,
+          1.3280000000000018
+        ],
+        "total_envelope_intersection_mm3": 3.9840000000000044
+      },
+      {
+        "preload_mm": 1.94,
+        "gap_or_negative_axial_overlap_mm": -0.84,
+        "per_terminal_envelope_intersection_mm3": [
+          1.3440000000000007,
+          1.3440000000000007,
+          1.3440000000000003
+        ],
+        "total_envelope_intersection_mm3": 4.032000000000002
+      },
+      {
+        "preload_mm": 1.95,
+        "gap_or_negative_axial_overlap_mm": -0.85,
+        "per_terminal_envelope_intersection_mm3": [
+          1.3599999999999994,
+          1.3599999999999994,
+          1.3599999999999994
+        ],
+        "total_envelope_intersection_mm3": 4.079999999999998
+      },
+      {
+        "preload_mm": 1.96,
+        "gap_or_negative_axial_overlap_mm": -0.86,
+        "per_terminal_envelope_intersection_mm3": [
+          1.3760000000000043,
+          1.3760000000000039,
+          1.3760000000000034
+        ],
+        "total_envelope_intersection_mm3": 4.128000000000012
+      },
+      {
+        "preload_mm": 1.97,
+        "gap_or_negative_axial_overlap_mm": -0.87,
+        "per_terminal_envelope_intersection_mm3": [
+          1.3920000000000046,
+          1.3920000000000032,
+          1.3920000000000028
+        ],
+        "total_envelope_intersection_mm3": 4.176000000000011
+      },
+      {
+        "preload_mm": 1.98,
+        "gap_or_negative_axial_overlap_mm": -0.88,
+        "per_terminal_envelope_intersection_mm3": [
+          1.4080000000000008,
+          1.4080000000000013,
+          1.4080000000000017
+        ],
+        "total_envelope_intersection_mm3": 4.224000000000004
+      },
+      {
+        "preload_mm": 1.99,
+        "gap_or_negative_axial_overlap_mm": -0.89,
+        "per_terminal_envelope_intersection_mm3": [
+          1.4240000000000002,
+          1.4240000000000006,
+          1.424000000000002
+        ],
+        "total_envelope_intersection_mm3": 4.272000000000003
+      },
+      {
+        "preload_mm": 2.0,
+        "gap_or_negative_axial_overlap_mm": -0.9,
+        "per_terminal_envelope_intersection_mm3": [
+          1.4400000000000004,
+          1.4400000000000013,
+          1.440000000000001
+        ],
+        "total_envelope_intersection_mm3": 4.320000000000003
+      }
+    ],
+    "fixed_frame_and_body_checks": [
+      {
+        "terminal": 1,
+        "reference": "P01",
+        "intersection_volume_mm3": 0.0,
+        "meaning": "No nominal terminal-envelope intrusion into fixed frame"
+      },
+      {
+        "terminal": 2,
+        "reference": "P01",
+        "intersection_volume_mm3": 0.0,
+        "meaning": "No nominal terminal-envelope intrusion into fixed frame"
+      },
+      {
+        "terminal": 3,
+        "reference": "P01",
+        "intersection_volume_mm3": 0.0,
+        "meaning": "No nominal terminal-envelope intrusion into fixed frame"
+      },
+      {
+        "terminal": 1,
+        "reference": "H09",
+        "intersection_volume_mm3": 0.0,
+        "meaning": "Intentional terminal root/body contact"
+      },
+      {
+        "terminal": 2,
+        "reference": "H09",
+        "intersection_volume_mm3": 0.0,
+        "meaning": "Intentional terminal root/body contact"
+      },
+      {
+        "terminal": 3,
+        "reference": "H09",
+        "intersection_volume_mm3": 0.0,
+        "meaning": "Intentional terminal root/body contact"
+      }
+    ],
+    "native_preload_2_pose_witnesses": [
+      {
+        "pose": "max",
+        "preload_mm": 2,
+        "native_P05": {
+          "member": "Fingerworker MVP - P05 PRINT STUDY - Flat132 reinforced yoke with broad integral sensing stops.stl",
+          "sha256": "c8a58d901b99b8ebe7ff7c47ba4f7cfc796bae18a1c450a9b89ac1812732987e",
+          "bounds_mm": [
+            [
+              -5.0,
+              -63.0,
+              7.0
+            ],
+            [
+              37.0,
+              63.0,
+              29.0
+            ]
+          ],
+          "triangles": 15778
+        },
+        "native_vs_neutral_translated_2mm_symmetric_difference_mm3": 0.004115246197740996,
+        "independent_STL_retessellation_witness_tolerance_mm3": 0.01,
+        "per_terminal_envelope_intersection_mm3": [
+          1.4400000000000004,
+          1.4400000000000013,
+          1.440000000000001
+        ]
+      },
+      {
+        "pose": "iso",
+        "preload_mm": 2,
+        "native_P05": {
+          "member": "Fingerworker MVP - P05 PRINT STUDY - Flat132 reinforced yoke with broad integral sensing stops.stl",
+          "sha256": "c8a58d901b99b8ebe7ff7c47ba4f7cfc796bae18a1c450a9b89ac1812732987e",
+          "bounds_mm": [
+            [
+              -5.0,
+              -63.0,
+              7.0
+            ],
+            [
+              37.0,
+              63.0,
+              29.0
+            ]
+          ],
+          "triangles": 15778
+        },
+        "native_vs_neutral_translated_2mm_symmetric_difference_mm3": 0.004115246197740996,
+        "independent_STL_retessellation_witness_tolerance_mm3": 0.01,
+        "per_terminal_envelope_intersection_mm3": [
+          1.4400000000000004,
+          1.4400000000000013,
+          1.440000000000001
+        ]
+      }
+    ]
+  },
+  "lower_mount_lug": {
+    "envelope_bounds_mm": [
+      [
+        13.6,
+        -17.0,
+        6.0
+      ],
+      [
+        14.0,
+        2.8,
+        12.4
+      ]
+    ],
+    "shape": "Conservative full-length strip; not actual lug profile",
+    "conditional_thickness_assumption": "The projecting lug stays inside the dimensioned 6.4mm housing thickness, Z6..12.4. PDF does not independently dimension lug Z/profile; exact factory CAD/measurement still needed.",
+    "fixed_P01_positive_intersection_mm3": 0.0,
+    "fixed_H09_positive_intersection_mm3": 0.0,
+    "full_preload_relative_sweep_bounds_mm": [
+      [
+        11.6,
+        -17.0,
+        6.0
+      ],
+      [
+        14.0,
+        2.8,
+        12.4
+      ]
+    ],
+    "full_preload_sweep_intersection_with_P05_mm3": 0.0,
+    "native_support_contact": "Envelope bottom Z6 coincides with P01 pedestal top Z6; this is a nominal support contact, not positive-volume interference.",
+    "envelope_minimum_gap_to_P05_mm": {
+      "0": 2.0,
+      "1": 2.0,
+      "2": 2.0
+    },
+    "status": "CONDITIONAL_NOMINAL_ENVELOPE_CLEAR_OF_P01_AND_P05_FOR_ALL_PRELOADS"
+  },
+  "terminal_broadphase": {
+    "device_solids": 52,
+    "candidates": [
+      "H09",
+      "P01",
+      "P05"
+    ],
+    "source_meshes": [
+      {
+        "reference": "H01",
+        "sha256": "fe791187db3b12e1867d0a6574e6d9606340dd0251f713ff8a9bb18cbb287a83",
+        "native_bounds_mm": [
+          [
+            -9.850000381469727,
+            -12.5,
+            5.500133514404297
+          ],
+          [
+            -1.899999976158142,
+            27.0,
+            30.499866485595703
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -9.850000381469727,
+            -12.5,
+            5.500133514404297
+          ],
+          [
+            0.10000002384185791,
+            27.0,
+            30.499866485595703
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H02",
+        "sha256": "62807ded66d818fd3b677dbaeb87af8e1e28240d3ab0db84032b8af45f0519f0",
+        "native_bounds_mm": [
+          [
+            -1.899999976158142,
+            -4.0,
+            14.0
+          ],
+          [
+            7.5,
+            4.0,
+            22.0
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -1.899999976158142,
+            -4.0,
+            14.0
+          ],
+          [
+            9.5,
+            4.0,
+            22.0
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H030",
+        "sha256": "b57ad1be7cc6db04e220432f1545100ad888fe63a9a7ac80da2256285f56bd74",
+        "native_bounds_mm": [
+          [
+            12.0,
+            -58.39994812011719,
+            10.600049018859863
+          ],
+          [
+            113.0,
+            -43.60004806518555,
+            25.399948120117188
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            12.0,
+            -58.39994812011719,
+            10.600049018859863
+          ],
+          [
+            113.0,
+            -43.60004806518555,
+            25.399948120117188
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H031",
+        "sha256": "dfbcf3e2a35932eb2a8d52bb175eca9493d6281816ce0f51e69165a1b4ae949f",
+        "native_bounds_mm": [
+          [
+            12.0,
+            43.60005187988281,
+            10.600049018859863
+          ],
+          [
+            113.0,
+            58.39994812011719,
+            25.399948120117188
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            12.0,
+            43.60005187988281,
+            10.600049018859863
+          ],
+          [
+            113.0,
+            58.39994812011719,
+            25.399948120117188
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H040",
+        "sha256": "e1441ad76d3d79243c3a1b4ef8e1b39712b73ed525e254fcf83e846d845f1b1a",
+        "native_bounds_mm": [
+          [
+            -16.0,
+            -54.0,
+            15.0
+          ],
+          [
+            130.0,
+            -48.0,
+            21.0
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -16.0,
+            -54.0,
+            15.0
+          ],
+          [
+            130.0,
+            -48.0,
+            21.0
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H041",
+        "sha256": "87980fabfc5eeeee129418c6e3fdc486911782e9f29c3855f936a16c85406475",
+        "native_bounds_mm": [
+          [
+            -16.0,
+            48.0,
+            15.0
+          ],
+          [
+            130.0,
+            54.0,
+            21.0
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -16.0,
+            48.0,
+            15.0
+          ],
+          [
+            130.0,
+            54.0,
+            21.0
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H050",
+        "sha256": "b335142de9558ebc32d69e693b349c7115ed9b7ffddf7060116af23dd9f49182",
+        "native_bounds_mm": [
+          [
+            9.0,
+            -62.0,
+            7.0
+          ],
+          [
+            12.0,
+            -40.0,
+            29.0
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            9.0,
+            -62.0,
+            7.0
+          ],
+          [
+            14.0,
+            -40.0,
+            29.0
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H051",
+        "sha256": "a65b574f6c37747b5891f418c232ac46bbc6d5c7693bb054d5deafd4f37e803d",
+        "native_bounds_mm": [
+          [
+            9.0,
+            40.0,
+            7.0
+          ],
+          [
+            12.0,
+            62.0,
+            29.0
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            9.0,
+            40.0,
+            7.0
+          ],
+          [
+            14.0,
+            62.0,
+            29.0
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H060",
+        "sha256": "27a81ba79915bbc3017468b9e80f82ea21e5e7be9acd3cb733b503467554d32a",
+        "native_bounds_mm": [
+          [
+            113.0,
+            -62.0,
+            7.0
+          ],
+          [
+            116.0,
+            -40.0,
+            29.0
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            83.0,
+            -62.0,
+            7.0
+          ],
+          [
+            116.0,
+            -40.0,
+            29.0
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H061",
+        "sha256": "7fee95c8b309144adc001d02e26ef488b43c1a7603e7afee2369c2edd36d6982",
+        "native_bounds_mm": [
+          [
+            113.0,
+            40.0,
+            7.0
+          ],
+          [
+            116.0,
+            62.0,
+            29.0
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            83.0,
+            40.0,
+            7.0
+          ],
+          [
+            116.0,
+            62.0,
+            29.0
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H09",
+        "sha256": "86216109430b9fac32d766bdb8351ab2c0c492d5dacf367f04c6dffb662a07b8",
+        "native_bounds_mm": [
+          [
+            14.0,
+            -17.0,
+            6.0
+          ],
+          [
+            24.200000762939453,
+            2.799999952316284,
+            12.40000057220459
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            14.0,
+            -17.0,
+            6.0
+          ],
+          [
+            24.200000762939453,
+            2.799999952316284,
+            12.40000057220459
+          ]
+        ],
+        "terminal_aabb_candidate": true
+      },
+      {
+        "reference": "H09a",
+        "sha256": "38e9a39530042a462a3e6545035868eb52dab667404400154566bd4491247d4e",
+        "native_bounds_mm": [
+          [
+            25.101634979248047,
+            -14.30929946899414,
+            8.75
+          ],
+          [
+            33.798362731933594,
+            1.1455882787704468,
+            9.65000057220459
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            25.101634979248047,
+            -14.30929946899414,
+            8.75
+          ],
+          [
+            33.798362731933594,
+            1.1455882787704468,
+            9.65000057220459
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H09b",
+        "sha256": "c65f47c035fc320688574116c98d616ffaa8519712ce56ce893d8124eed8605a",
+        "native_bounds_mm": [
+          [
+            31.0,
+            -1.4637105464935303,
+            7.599999904632568
+          ],
+          [
+            35.79999923706055,
+            3.336289405822754,
+            10.800000190734863
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            31.0,
+            -1.4637105464935303,
+            7.599999904632568
+          ],
+          [
+            35.79999923706055,
+            3.336289405822754,
+            10.800000190734863
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H10",
+        "sha256": "98e106a7054504e5f001a3ad0e7a9fd6798f64f2c300bd56b8ba4ac8ca33c9f7",
+        "native_bounds_mm": [
+          [
+            60.0,
+            -0.25,
+            7.25
+          ],
+          [
+            75.0,
+            5.25,
+            12.75
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            30.0,
+            -0.25,
+            7.25
+          ],
+          [
+            75.0,
+            5.25,
+            12.75
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H11",
+        "sha256": "461a255ecc0ac18072d640471887c08c4c7f4daccc28e5f0abd973e487488fdf",
+        "native_bounds_mm": [
+          [
+            -21.0,
+            -6.0,
+            12.0
+          ],
+          [
+            -16.0,
+            6.0,
+            24.0
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -21.0,
+            -6.0,
+            12.0
+          ],
+          [
+            -16.0,
+            6.0,
+            24.0
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H12",
+        "sha256": "f8fb9caaf4aa1542c087ff3c4d80ac1d3fff8a07937e2d670cd5dfd8647f93ab",
+        "native_bounds_mm": [
+          [
+            -15.5,
+            -15.0,
+            3.0
+          ],
+          [
+            -8.65000057220459,
+            15.0,
+            33.0
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -15.5,
+            -15.0,
+            3.0
+          ],
+          [
+            -6.65000057220459,
+            15.0,
+            33.0
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H13",
+        "sha256": "cb9f4424c2ad59c8655c45f851aec6cb2149b79f68d867732b8125702afe3b5e",
+        "native_bounds_mm": [
+          [
+            -24.0,
+            -11.0,
+            7.0
+          ],
+          [
+            -12.0,
+            11.0,
+            29.0
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -24.0,
+            -11.0,
+            7.0
+          ],
+          [
+            -10.0,
+            11.0,
+            29.0
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H15",
+        "sha256": "b1b6072eb47e736095fe96259c43e4551e92550a1f6586acdb7526e56c692453",
+        "native_bounds_mm": [
+          [
+            -23.0,
+            -16.0,
+            9.0
+          ],
+          [
+            -21.0,
+            16.0,
+            28.0
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -23.0,
+            -16.0,
+            9.0
+          ],
+          [
+            -21.0,
+            16.0,
+            28.0
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H160",
+        "sha256": "9b7eb63eb6a2ad22ed13b3cdb9f5fbfd5e8a83fb7775ec5c95bae77e3519b1fc",
+        "native_bounds_mm": [
+          [
+            -23.0,
+            -14.0,
+            21.0
+          ],
+          [
+            -15.0,
+            -8.0,
+            27.0
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -23.0,
+            -14.0,
+            21.0
+          ],
+          [
+            -15.0,
+            -8.0,
+            27.0
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H161",
+        "sha256": "02de5156b3eda90cfff1db9baf81f8b1a7c68794e98c7862f78f2dbbc9faed49",
+        "native_bounds_mm": [
+          [
+            -23.0,
+            8.0,
+            21.0
+          ],
+          [
+            -15.0,
+            14.0,
+            27.0
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -23.0,
+            8.0,
+            21.0
+          ],
+          [
+            -15.0,
+            14.0,
+            27.0
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H170",
+        "sha256": "66fc54e22a50060ce0866e5abfe3b8ec4e27c8f325588f555bace2f436d88510",
+        "native_bounds_mm": [
+          [
+            -17.899999618530273,
+            -13.75,
+            21.25
+          ],
+          [
+            -16.100000381469727,
+            -8.25,
+            26.75
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -17.899999618530273,
+            -13.75,
+            21.25
+          ],
+          [
+            -16.100000381469727,
+            -8.25,
+            26.75
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H171",
+        "sha256": "4208d5c96f3dbe417f3099a90e8034a7217ac34fef93a50f1d2d01d9cbaab248",
+        "native_bounds_mm": [
+          [
+            -17.899999618530273,
+            8.25,
+            21.25
+          ],
+          [
+            -16.100000381469727,
+            13.75,
+            26.75
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -17.899999618530273,
+            8.25,
+            21.25
+          ],
+          [
+            -16.100000381469727,
+            13.75,
+            26.75
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H180",
+        "sha256": "16de8ad77dc1ea27ead8a3e014fb9986172a558939244c1bf45f19a93e2345f7",
+        "native_bounds_mm": [
+          [
+            -15.549999237060547,
+            -24.0,
+            5.75
+          ],
+          [
+            -10.049999237060547,
+            -13.0,
+            11.25
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -15.549999237060547,
+            -24.0,
+            5.75
+          ],
+          [
+            -8.049999237060547,
+            -13.0,
+            11.25
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H181",
+        "sha256": "9f63ada2dc79bb222bce4bf38cf24bbf7ac898039cc37a425700b6654c5442ec",
+        "native_bounds_mm": [
+          [
+            -15.549999237060547,
+            13.0,
+            5.75
+          ],
+          [
+            -10.049999237060547,
+            24.0,
+            11.25
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -15.549999237060547,
+            13.0,
+            5.75
+          ],
+          [
+            -8.049999237060547,
+            24.0,
+            11.25
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H190",
+        "sha256": "d9ca4d2b2d0ce8d59e3a2a225209cadecdecc554f3d47b34c65cd427fc77cccb",
+        "native_bounds_mm": [
+          [
+            -14.800000190734863,
+            -21.0,
+            6.5
+          ],
+          [
+            -10.800000190734863,
+            -15.0,
+            10.5
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -14.800000190734863,
+            -21.0,
+            6.5
+          ],
+          [
+            -8.800000190734863,
+            -15.0,
+            10.5
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H191",
+        "sha256": "a0196963403392e05e899fbcc5e4c288fe60c471908b99afdf996a6c88448d51",
+        "native_bounds_mm": [
+          [
+            -14.800000190734863,
+            15.0,
+            6.5
+          ],
+          [
+            -10.800000190734863,
+            21.0,
+            10.5
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -14.800000190734863,
+            15.0,
+            6.5
+          ],
+          [
+            -8.800000190734863,
+            21.0,
+            10.5
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H20",
+        "sha256": "2d2e5d39436a6cae0ea2cb5b6d89be35acd8e1f3d0c131def66010a875642fdd",
+        "native_bounds_mm": [
+          [
+            5.100000381469727,
+            -2.75,
+            15.25
+          ],
+          [
+            6.900000095367432,
+            2.75,
+            20.75
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            5.100000381469727,
+            -2.75,
+            15.25
+          ],
+          [
+            8.900000095367432,
+            2.75,
+            20.75
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H21",
+        "sha256": "4d7664e52ada1aec19d02fa4125ed5369e1e68aed751c0f4f5dd5e420389363a",
+        "native_bounds_mm": [
+          [
+            -21.75,
+            -2.75,
+            22.0
+          ],
+          [
+            -16.25,
+            2.75,
+            29.0
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -21.75,
+            -2.75,
+            22.0
+          ],
+          [
+            -16.25,
+            2.75,
+            29.0
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H22",
+        "sha256": "577081af439782a56d4a9786d36db932cbee12c84cbaa350e3f2d58995d86d96",
+        "native_bounds_mm": [
+          [
+            -20.25,
+            -1.25,
+            21.0
+          ],
+          [
+            -17.75,
+            1.25,
+            22.0
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -20.25,
+            -1.25,
+            21.0
+          ],
+          [
+            -17.75,
+            1.25,
+            22.0
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H23",
+        "sha256": "40f35aea28c9c81b1539d6a314af61abfee9715427b89d36eb5025c4b573faca",
+        "native_bounds_mm": [
+          [
+            -1.399999976158142,
+            -14.5,
+            3.5
+          ],
+          [
+            -0.8999999761581421,
+            14.5,
+            32.5
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -1.399999976158142,
+            -14.5,
+            3.5
+          ],
+          [
+            1.100000023841858,
+            14.5,
+            32.5
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H240",
+        "sha256": "47d548342890142bcb5ebcddf2f8f81d6d57192ee993316a09c4085a3388baa0",
+        "native_bounds_mm": [
+          [
+            -9.850000381469727,
+            -12.5,
+            5.5
+          ],
+          [
+            -1.399999976158142,
+            -8.5,
+            9.5
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -9.850000381469727,
+            -12.5,
+            5.5
+          ],
+          [
+            0.6000000238418579,
+            -8.5,
+            9.5
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H241",
+        "sha256": "59e999301d79693c6fe5baab742acb2dcc06c0dde4d1129789692352b982b9f0",
+        "native_bounds_mm": [
+          [
+            -9.850000381469727,
+            -12.5,
+            26.5
+          ],
+          [
+            -1.399999976158142,
+            -8.5,
+            30.5
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -9.850000381469727,
+            -12.5,
+            26.5
+          ],
+          [
+            0.6000000238418579,
+            -8.5,
+            30.5
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H242",
+        "sha256": "12e6358627442c89d7c4464620392160f68366bf94d42300ddd30b3dd19b3343",
+        "native_bounds_mm": [
+          [
+            -9.850000381469727,
+            8.5,
+            5.5
+          ],
+          [
+            -1.399999976158142,
+            12.5,
+            9.5
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -9.850000381469727,
+            8.5,
+            5.5
+          ],
+          [
+            0.6000000238418579,
+            12.5,
+            9.5
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H243",
+        "sha256": "55e39fa4bb88debec70f690f59b21f7690b06083f0ec57fd41b96afc289a68bd",
+        "native_bounds_mm": [
+          [
+            -9.850000381469727,
+            8.5,
+            26.5
+          ],
+          [
+            -1.399999976158142,
+            12.5,
+            30.5
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -9.850000381469727,
+            8.5,
+            26.5
+          ],
+          [
+            0.6000000238418579,
+            12.5,
+            30.5
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H250",
+        "sha256": "f192f29b27a42bf98543f952e881033057252cf5d9cec44f028c823fb37714af",
+        "native_bounds_mm": [
+          [
+            -12.90000057220459,
+            -12.5,
+            5.5
+          ],
+          [
+            0.699999988079071,
+            -8.5,
+            9.5
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -12.90000057220459,
+            -12.5,
+            5.5
+          ],
+          [
+            2.699999988079071,
+            -8.5,
+            9.5
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H251",
+        "sha256": "6225495e291ee18223b2df5bc71c96768e1fe0532345ae682f590104879e7c62",
+        "native_bounds_mm": [
+          [
+            -12.90000057220459,
+            -12.5,
+            26.5
+          ],
+          [
+            0.699999988079071,
+            -8.5,
+            30.5
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -12.90000057220459,
+            -12.5,
+            26.5
+          ],
+          [
+            2.699999988079071,
+            -8.5,
+            30.5
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H252",
+        "sha256": "6bb32be3a14bcb48e7446c85ec68b713e88608b2682e4db4376e28b109fb4d36",
+        "native_bounds_mm": [
+          [
+            -12.90000057220459,
+            8.5,
+            5.5
+          ],
+          [
+            0.699999988079071,
+            12.5,
+            9.5
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -12.90000057220459,
+            8.5,
+            5.5
+          ],
+          [
+            2.699999988079071,
+            12.5,
+            9.5
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "H253",
+        "sha256": "70ad37aea0489cf601c705d638dbf212b30f5fd4816130e7e65870b7973e3480",
+        "native_bounds_mm": [
+          [
+            -12.90000057220459,
+            8.5,
+            26.5
+          ],
+          [
+            0.699999988079071,
+            12.5,
+            30.5
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -12.90000057220459,
+            8.5,
+            26.5
+          ],
+          [
+            2.699999988079071,
+            12.5,
+            30.5
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "P01",
+        "sha256": "d7a96a2ea3a664a638194f3be3c574918cf87409792f2e1925e01fbf0279ee25",
+        "native_bounds_mm": [
+          [
+            -23.0,
+            -66.0,
+            -2.0
+          ],
+          [
+            134.0,
+            66.0,
+            33.0
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -23.0,
+            -66.0,
+            -2.0
+          ],
+          [
+            134.0,
+            66.0,
+            33.0
+          ]
+        ],
+        "terminal_aabb_candidate": true
+      },
+      {
+        "reference": "P02",
+        "sha256": "351ce5c23f8ec8ae2ae2eff2976c3c5edc977e37ee50504dab3d5068d5f1c3ea",
+        "native_bounds_mm": [
+          [
+            -37.25,
+            -64.0,
+            6.5
+          ],
+          [
+            -9.5,
+            64.0,
+            27.5
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -37.25,
+            -64.0,
+            6.5
+          ],
+          [
+            -9.5,
+            64.0,
+            27.5
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "P03",
+        "sha256": "ddbdc07e170299b740d517541f01bd9a1f8b67aed4dd5b843a6ef8caa9ce410f",
+        "native_bounds_mm": [
+          [
+            -37.24916076660156,
+            -43.0,
+            14.600000381469727
+          ],
+          [
+            -24.5,
+            43.0,
+            30.0
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -37.24916076660156,
+            -43.0,
+            14.600000381469727
+          ],
+          [
+            -24.5,
+            43.0,
+            30.0
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "P04",
+        "sha256": "f0619efdc68b11aaa28b436cee13837b0e643879f34f71b8305a502a60d5b823",
+        "native_bounds_mm": [
+          [
+            64.0,
+            -63.0,
+            5.0
+          ],
+          [
+            124.0,
+            63.0,
+            30.0
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            34.0,
+            -63.0,
+            5.0
+          ],
+          [
+            124.0,
+            63.0,
+            30.0
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "P05",
+        "sha256": "58ccc46eccb517b968ad75f0a8aab52cc853f2621410fa6bc1eecfff6d182ccd",
+        "native_bounds_mm": [
+          [
+            -7.0,
+            -63.0,
+            7.0
+          ],
+          [
+            35.0,
+            63.0,
+            29.0
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -7.0,
+            -63.0,
+            7.0
+          ],
+          [
+            37.0,
+            63.0,
+            29.0
+          ]
+        ],
+        "terminal_aabb_candidate": true
+      },
+      {
+        "reference": "P060",
+        "sha256": "cc94f09a0b2b30b210654174f9dcc4c84103249373f4cb76e35def56f6f7c361",
+        "native_bounds_mm": [
+          [
+            125.49999237060547,
+            -63.0,
+            4.5
+          ],
+          [
+            133.5,
+            -39.0,
+            28.0
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            125.49999237060547,
+            -63.0,
+            4.5
+          ],
+          [
+            133.5,
+            -39.0,
+            28.0
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "P061",
+        "sha256": "94e89b2a80c4b5237a77b7a0f1c211b89a4befbed4f50e0294c8c75e316c7f9a",
+        "native_bounds_mm": [
+          [
+            125.49999237060547,
+            39.0,
+            4.5
+          ],
+          [
+            133.5,
+            63.0,
+            28.0
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            125.49999237060547,
+            39.0,
+            4.5
+          ],
+          [
+            133.5,
+            63.0,
+            28.0
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "P070a",
+        "sha256": "238ebfde3626cbde9e99bf4a2d5a2636b34d169608dae53b4ab4cd9c22df9437",
+        "native_bounds_mm": [
+          [
+            124.0,
+            -60.75,
+            14.0
+          ],
+          [
+            125.49999237060547,
+            -56.25,
+            20.0
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            124.0,
+            -60.75,
+            14.0
+          ],
+          [
+            125.49999237060547,
+            -56.25,
+            20.0
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "P070b",
+        "sha256": "59cd6b3ebdc4603288f68586f4adf108bb431e03b1eca396e3e6fa27195c159f",
+        "native_bounds_mm": [
+          [
+            124.0,
+            -45.75,
+            14.0
+          ],
+          [
+            125.49999237060547,
+            -41.25,
+            20.0
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            124.0,
+            -45.75,
+            14.0
+          ],
+          [
+            125.49999237060547,
+            -41.25,
+            20.0
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "P071a",
+        "sha256": "cc069ac5fb2704c0571168890bc48558b8331f49b9b31b4842f36743d9b3eaec",
+        "native_bounds_mm": [
+          [
+            124.0,
+            41.25,
+            14.0
+          ],
+          [
+            125.49999237060547,
+            45.75,
+            20.0
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            124.0,
+            41.25,
+            14.0
+          ],
+          [
+            125.49999237060547,
+            45.75,
+            20.0
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "P071b",
+        "sha256": "897e3fe214f97a2ef1e1b77893571f57db57071111676d9f69fa5e06ab2059ae",
+        "native_bounds_mm": [
+          [
+            124.0,
+            56.25,
+            14.0
+          ],
+          [
+            125.49999237060547,
+            60.75,
+            20.0
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            124.0,
+            56.25,
+            14.0
+          ],
+          [
+            125.49999237060547,
+            60.75,
+            20.0
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "P08",
+        "sha256": "11f47952a86814ce1c6a80ad25edde546f99b8664a610e397851ec8ae9fe8b2a",
+        "native_bounds_mm": [
+          [
+            -46.10000228881836,
+            -62.0,
+            0.0
+          ],
+          [
+            -23.600000381469727,
+            62.0,
+            9.5
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -46.10000228881836,
+            -62.0,
+            0.0
+          ],
+          [
+            -23.600000381469727,
+            62.0,
+            9.5
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "P09",
+        "sha256": "2b809ab1f7cc350b96862cfd7d4878ac1907bda7cf793f78aa0e445e7264084a",
+        "native_bounds_mm": [
+          [
+            -46.10000228881836,
+            -55.0,
+            2.1500000953674316
+          ],
+          [
+            -23.600000381469727,
+            55.0,
+            8.899999618530273
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -46.10000228881836,
+            -55.0,
+            2.1500000953674316
+          ],
+          [
+            -23.600000381469727,
+            55.0,
+            8.899999618530273
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      },
+      {
+        "reference": "P10",
+        "sha256": "8ee66bba498b46d593a8d9c00581582cd76b35677312eb81d427f808df8b08d8",
+        "native_bounds_mm": [
+          [
+            -28.100000381469727,
+            22.399999618530273,
+            3.4000000953674316
+          ],
+          [
+            -24.899999618530273,
+            32.60000228881836,
+            4.400000095367432
+          ]
+        ],
+        "translation_sweep_bounds_mm": [
+          [
+            -28.100000381469727,
+            22.399999618530273,
+            3.4000000953674316
+          ],
+          [
+            -24.899999618530273,
+            32.60000228881836,
+            4.400000095367432
+          ]
+        ],
+        "terminal_aabb_candidate": false
+      }
+    ],
+    "limit": "Translation broadphase for terminal envelopes only. Spring/lever shapes remain illustrative, not manufacturer-qualified kinematics; their local bounds are separate from the terminal area."
+  },
+  "remaining_unresolved": [
+    "Exact SS-01GL2 manufacturer STEP unavailable to this audit; no surrogate variant was treated as the exact factory part.",
+    "Terminal holes/corners, lug Z/profile and actuator mechanism are not fully defined by available drawing; rectangular envelopes do not prove exact physical metal volume.",
+    "No dimensional tolerance stack, solder fillets, insulated leads, bend radii or assembly/service wire-routing envelope is included.",
+    "Switch operation point, total allowed travel and mount clamping/washer suitability require separate confirmation; this check does not qualify the kinematic proxy or force mode.",
+    "Resolve drawing-envelope terminal/P05 clash and rerun actual factory geometry checks before claiming installation works through the complete preload range."
+  ],
+  "frozen_R3_files_modified": false
+}

@@ -1,0 +1,11 @@
+Ref,Menge R15 Geraet,Menge R16 Geraet,Stuecke Druckpaket,Aenderung
+P01,1,1,1,"Aufrechter integraler Handballengriff; gerundete Stangensockelschultern; zwei flache Daumenrueckgriffe; alte handgelenkseitige Stufe entfernt, Elektronikdach2mm."
+P04/P05/P06/P11,4,4,4,Native Geometrie erhalten; vorhandene Drucke wiederverwenden.
+P08/P09,2,2,0,Elektronikgehaeuse erhalten; nicht im mechanischen Drucksatz.
+Q01,Passhilfe,Passhilfe,1,Unveraendert; ausschliesslich federfrei.
+H040/H041,2,2,0,Echte vorhandene Stahlstangen verwenden.
+G01/G02,2,2,0,25mm-Gurte maximal2mm je Lage; unveraenderte innenliegende Schlitze.
+Neue Griffkleinteile,0,0,0,"Kein Sleeve, keine Kappe, keine Zusatzclips."
+Druckteile Geraet,7,7,5,P01/P04/P05/P06/P08/P09/P11; mechanischer Drucksatz ohneP08/P09.
+Druckstuecke Paket,,,6,Fuenf Geraeteteile undQ01.
+Native Koerper,93,93,,P01 neu;92 andere Koerper unveraendert.

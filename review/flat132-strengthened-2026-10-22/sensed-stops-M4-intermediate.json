@@ -1,0 +1,84 @@
+{
+  "scope": "PRINT_ONLY_SENSED_END_STOP_CANDIDATE",
+  "source_sha256": "f9e8c4f00315be4baa2d3cc0f07f7e030431728bc05a852975dda7098beb9cc6",
+  "proposal_sha256": "e7fe4a0ac029bfeb4f6334fcb152e9764a73601a1b75748ded23f85a4f39d330",
+  "changes": [
+    {
+      "old": "annotation { \"Name\" : \"Preview displacement (0 to 30 mm)\" }",
+      "new": "annotation { \"Name\" : \"Frame travel (0 to 30 mm minus preload)\" }",
+      "count": 1
+    },
+    {
+      "old": "const stroke = definition.isometricLock ? 15 * mm - preload : definition.previewTravel;",
+      "new": "const maxDynamicTravel = 30 * mm - preload;\n        if (!definition.isometricLock && definition.previewTravel > maxDynamicTravel)\n            throw regenError(\"Integral sensing stops limit frame travel to30 mm minus preload. Use28 mm at2 mm preload.\", [\"previewTravel\", \"preloadAdjustment\"]);\n        const stroke = definition.isometricLock ? 15 * mm - preload : definition.previewTravel;",
+      "count": 1
+    },
+    {
+      "old": "// M4 stops meet the pocket deck front at X35 after30 mm travel.\n        // Captive square M4 nuts sit in open-top 7.2 mm traps for assembly.",
+      "new": "// Integral P05 sensing-stop arms: end force returns through the yoke,\n        // pusher and sensor. There is no fixed P01 end-stop bypass.\n        // TipX35+preload meets P04front65-stroke, so travel+preload<=30.\n        // Do not invent an automatically compensating adjustment screw.\n        // Captive M4 nuts retain the original hardware and open-top assembly.",
+      "count": 1
+    },
+    {
+      "old": "makeBox(context,id + (\"stopBlock\"~s),vector(24,y-5,3.8)*mm,vector(31,y+5,25)*mm);",
+      "new": "// 10 x22 mm axial-compression arms overlap both main yoke and front rib.\n            makeBox(context,id + (\"stopBlock\"~s),vector(8.5,y-5,7)*mm,vector(31,y+5,29)*mm);\n            // Widen the nut boss to14 mm, with3.4 mm side ligaments. This\n            // begins0.5 mm beyond the fixed switchcase'sX24.2 front extent.\n            makeBox(context,id + (\"stopBoss\"~s),vector(24.7,y-7,7)*mm,vector(31,y+7,29)*mm);\n            join(context,id + (\"stopBossJoin\"~s),[body(id + (\"stopBlock\"~s)),body(id + (\"stopBoss\"~s))]);",
+      "count": 1
+    },
+    {
+      "old": "vector(29.2,y+3.6,26)*mm",
+      "new": "vector(29.2,y+3.6,30)*mm",
+      "count": 1
+    },
+    {
+      "old": "baseBodies=append(baseBodies,body(id + (\"stopBlock\"~s)));",
+      "new": "join(context,id + (\"sensingStopArmJoin\"~s),[body(id + \"springAnchor\"),body(id + (\"stopBlock\"~s))]);",
+      "count": 1
+    },
+    {
+      "old": "body(id + \"captureScrew0\"),body(id + \"captureScrew1\"),body(id + \"pusherNut\"),",
+      "new": "body(id + \"captureScrew0\"),body(id + \"captureScrew1\"),body(id + \"pusherNut\"),\n                    body(id + \"stopScrew0\"),body(id + \"stopScrew1\"),body(id + \"stopNut0\"),body(id + \"stopNut1\"),",
+      "count": 1
+    },
+    {
+      "old": "P05 PRINT STUDY - Flat132 reinforced floating spring yoke",
+      "new": "P05 PRINT STUDY - Flat132 reinforced yoke with integral sensing stop arms",
+      "count": 1
+    }
+  ],
+  "policy": {
+    "frame_stroke_max_mm": "30 - preload_mm",
+    "neutral_max_mm": 30,
+    "preload2_max_mm": 28,
+    "isometric_stroke_mm": "15 - preload_mm",
+    "stop_tip_x_mm": "35 + preload_mm",
+    "automatic_screw_compensation": false
+  },
+  "dimensions_mm": {
+    "arm_x": [
+      8.5,
+      31
+    ],
+    "arm_abs_y": [
+      19,
+      29
+    ],
+    "arm_z": [
+      7,
+      29
+    ],
+    "boss_x": [
+      24.7,
+      31
+    ],
+    "boss_abs_y": [
+      17,
+      31
+    ],
+    "nuttrap_side_wall": 3.4
+  },
+  "limitations": [
+    "500 N remains an unqualified target",
+    "Both arms share full end load; one-sided loading must be considered separately",
+    "Nominal axial reaction includes sensor; friction and physical deflection require loaded testing",
+    "Native regeneration and continuous geometry audit required"
+  ]
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "args": [
+      "sch",
+      "erc",
+      "--exit-code-violations",
+      "--format",
+      "json",
+      "--output",
+      "/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/reports/erc-full-review.json",
+      "/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_sch"
+    ],
+    "returncode": 0,
+    "stdout": "Found 0 violations\nSaved ERC Report to /Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/reports/erc-full-review.json\n",
+    "stderr": "Fontconfig error: Cannot load default config file: File not found\n"
+  },
+  {
+    "args": [
+      "pcb",
+      "drc",
+      "--exit-code-violations",
+      "--format",
+      "json",
+      "--output",
+      "/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/reports/drc-full-review.json",
+      "--schematic-parity",
+      "/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Found 0 violations\nFound 0 unconnected items\nFound 0 schematic parity issues\nSaved DRC Report to /Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/reports/drc-full-review.json\n",
+    "stderr": "Fontconfig error: Cannot load default config file: File not found\n"
+  },
+  {
+    "args": [
+      "sch",
+      "export",
+      "netlist",
+      "--format",
+      "kicadxml",
+      "--output",
+      "/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/reports/full-review-netlist.xml",
+      "/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_sch"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "Fontconfig error: Cannot load default config file: File not found\n"
+  }
+]

@@ -1,0 +1,226 @@
+{
+  "status": "MEASURED_R18_RIM_BASELINE",
+  "source_sha256": "345b90327031276f8085e2c225c795946036d7faa4f2ac01b764101b9f4b3dd1",
+  "native_step_sha256": "0d9ebb0777c35ebf687c59578362a1323a9cab3a00922be858c1d03695f023ee",
+  "native_release_binding_sha256": "dc5374e2b1fb6d3ee5e5a0fb15b66836e1e9747f6224bb9b15562bd26d7a69e1",
+  "face_picks_sha256": "1e230c23c66a1762408ddf505f1059b9155be803bb596b965d79b09730b8fc35",
+  "validator_sha256": "a0f0ef542a50b226131c99bb934517ee0459402589eb39c10afd4652d48d32bf",
+  "checks": [
+    {
+      "declared_native_face_index": 364,
+      "zero_based_face_index": 363,
+      "point_mm": [
+        -22.544700438394266,
+        -60.99217980935462,
+        32.75556817095858
+      ],
+      "surface_projection_distance_mm": 7.105427357601002e-15,
+      "principal_curvatures_per_mm": [
+        0.04061308096005402,
+        -2.492478534806783
+      ],
+      "principal_radii_mm": [
+        24.622608685698438,
+        0.40120706599285516
+      ]
+    },
+    {
+      "declared_native_face_index": 366,
+      "zero_based_face_index": 365,
+      "point_mm": [
+        -20.64523341831539,
+        -61.29237134938883,
+        32.834727012495
+      ],
+      "surface_projection_distance_mm": 7.944109290391274e-15,
+      "principal_curvatures_per_mm": [
+        -0.12958788153404477,
+        -2.499399084197988
+      ],
+      "principal_radii_mm": [
+        7.716770952361655,
+        0.4000961696442655
+      ]
+    },
+    {
+      "declared_native_face_index": 362,
+      "zero_based_face_index": 361,
+      "point_mm": [
+        -27.19685577151489,
+        -61.27761441161242,
+        31.34631744192306
+      ],
+      "surface_projection_distance_mm": 3.552713678800501e-15,
+      "principal_curvatures_per_mm": [
+        -0.11451624177079651,
+        -2.500000950921226
+      ],
+      "principal_radii_mm": [
+        8.732385769360937,
+        0.3999998478526617
+      ]
+    },
+    {
+      "declared_native_face_index": 365,
+      "zero_based_face_index": 364,
+      "point_mm": [
+        -18.069032542190914,
+        -62.18915479388106,
+        32.88284271247461
+      ],
+      "surface_projection_distance_mm": 3.552713678800501e-15,
+      "principal_curvatures_per_mm": [
+        0.05008846800987218,
+        -2.499999999999999
+      ],
+      "principal_radii_mm": [
+        19.96467529817253,
+        0.40000000000000013
+      ]
+    },
+    {
+      "declared_native_face_index": 360,
+      "zero_based_face_index": 359,
+      "point_mm": [
+        -28.42919076794086,
+        -61.6215216285966,
+        24.75
+      ],
+      "surface_projection_distance_mm": 0.0,
+      "principal_curvatures_per_mm": [
+        -0.0,
+        -2.5
+      ],
+      "principal_radii_mm": [
+        null,
+        0.4
+      ]
+    },
+    {
+      "declared_native_face_index": 363,
+      "zero_based_face_index": 362,
+      "point_mm": [
+        -14.894625878047082,
+        -64.28915873032966,
+        32.45963720231145
+      ],
+      "surface_projection_distance_mm": 1.6280579355608324e-14,
+      "principal_curvatures_per_mm": [
+        -0.13884677005759316,
+        -2.500005749809829
+      ],
+      "principal_radii_mm": [
+        7.20218410255567,
+        0.3999990800325432
+      ]
+    },
+    {
+      "declared_native_face_index": 341,
+      "zero_based_face_index": 340,
+      "point_mm": [
+        -22.544700438393907,
+        60.99217980935025,
+        32.755568170955215
+      ],
+      "surface_projection_distance_mm": 0.0,
+      "principal_curvatures_per_mm": [
+        0.04061308096422221,
+        -2.492478534654032
+      ],
+      "principal_radii_mm": [
+        24.62260868317138,
+        0.4012070660174431
+      ]
+    },
+    {
+      "declared_native_face_index": 342,
+      "zero_based_face_index": 341,
+      "point_mm": [
+        -20.64523341831539,
+        61.29237134938883,
+        32.834727012494994
+      ],
+      "surface_projection_distance_mm": 7.105427357601002e-15,
+      "principal_curvatures_per_mm": [
+        -0.12958788153404163,
+        -2.499399084197979
+      ],
+      "principal_radii_mm": [
+        7.716770952361842,
+        0.4000961696442669
+      ]
+    },
+    {
+      "declared_native_face_index": 343,
+      "zero_based_face_index": 342,
+      "point_mm": [
+        -27.196855742574627,
+        61.27761432298125,
+        31.346317397540123
+      ],
+      "surface_projection_distance_mm": 0.0,
+      "principal_curvatures_per_mm": [
+        -0.11480542146481515,
+        -2.5000009741682536
+      ],
+      "principal_radii_mm": [
+        8.710390042916865,
+        0.39999984413314016
+      ]
+    },
+    {
+      "declared_native_face_index": 344,
+      "zero_based_face_index": 343,
+      "point_mm": [
+        -18.06903254219091,
+        62.189154793881066,
+        32.88284271247461
+      ],
+      "surface_projection_distance_mm": 0.0,
+      "principal_curvatures_per_mm": [
+        0.050088468009872295,
+        -2.5
+      ],
+      "principal_radii_mm": [
+        19.964675298172484,
+        0.4
+      ]
+    },
+    {
+      "declared_native_face_index": 345,
+      "zero_based_face_index": 344,
+      "point_mm": [
+        -28.42919076794086,
+        61.6215216285966,
+        24.75
+      ],
+      "surface_projection_distance_mm": 0.0,
+      "principal_curvatures_per_mm": [
+        0.0,
+        -2.4999999999999996
+      ],
+      "principal_radii_mm": [
+        null,
+        0.4000000000000001
+      ]
+    },
+    {
+      "declared_native_face_index": 346,
+      "zero_based_face_index": 345,
+      "point_mm": [
+        -14.894623594003583,
+        64.28915387153762,
+        32.459634376874696
+      ],
+      "surface_projection_distance_mm": 7.32410687763558e-15,
+      "principal_curvatures_per_mm": [
+        -0.1315906835027579,
+        -2.500019463992036
+      ],
+      "principal_radii_mm": [
+        7.599322181338482,
+        0.3999968857855203
+      ]
+    }
+  ]
+}

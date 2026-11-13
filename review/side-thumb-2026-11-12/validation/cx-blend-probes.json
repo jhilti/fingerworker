@@ -1,0 +1,23 @@
+[
+  {
+    "cx": -23.5,
+    "radius": 0.8,
+    "edges": 14,
+    "done": false,
+    "valid": false
+  },
+  {
+    "cx": -24.5,
+    "radius": 0.8,
+    "edges": 14,
+    "done": false,
+    "valid": false
+  },
+  {
+    "cx": -24,
+    "radius": 0.4,
+    "edges": 14,
+    "done": true,
+    "valid": true
+  }
+]

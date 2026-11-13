@@ -1,0 +1,74 @@
+{
+  "status": "PASS_DELIVERY_CRC_SHA_NATIVE_IDENTITY_AND_PROJECT_LINKS",
+  "package": {
+    "path": "deliverables/Flat132_R7_Adjustable_Rear.zip",
+    "sha256": "425c3bd30ae52dea635d66bb87e0b5a1bf0eb68550ade679140e26ec575a84bd",
+    "bytes": 61526650,
+    "members": 166,
+    "crc_check": "PASS",
+    "member_sha256_checks": "PASS",
+    "assembly_STLs": 70,
+    "print_STLs": 16,
+    "ISO81_hardware_STLs": 2
+  },
+  "exact_native_STL_identity": {
+    "assembly-mm": 70,
+    "print-mm": 16,
+    "hardware-mm": 2
+  },
+  "native_STEP_identity": "PASS",
+  "frozen_source_and_report_identity": "PASS",
+  "project_local_links": [
+    {
+      "document": "README.md",
+      "target": "PRINT_NOTES.md",
+      "status": "PASS_PROJECT_LOCAL_PATH"
+    },
+    {
+      "document": "README.md",
+      "target": "final-specification.json",
+      "status": "PASS_PROJECT_LOCAL_PATH"
+    },
+    {
+      "document": "README.md",
+      "target": "finalization-notes.md",
+      "status": "PASS_PROJECT_LOCAL_PATH"
+    },
+    {
+      "document": "README.md",
+      "target": "validation/validation-summary.md",
+      "status": "PASS_PROJECT_LOCAL_PATH"
+    },
+    {
+      "document": "README.md",
+      "target": "native/Flat132_R7_final_AP214.step",
+      "status": "PASS_PROJECT_LOCAL_PATH"
+    },
+    {
+      "document": "README.md",
+      "target": "deliverables/Flat132_R7_Adjustable_Rear.zip",
+      "status": "PASS_PROJECT_LOCAL_PATH"
+    },
+    {
+      "document": "README.md",
+      "target": "fingerworker_flat132_adjustable_rear.fs",
+      "status": "PASS_PROJECT_LOCAL_PATH"
+    },
+    {
+      "document": "README.md",
+      "target": "build_adjustable_rear.py",
+      "status": "PASS_PROJECT_LOCAL_PATH"
+    },
+    {
+      "document": "README.md",
+      "target": "source-build.json",
+      "status": "PASS_PROJECT_LOCAL_PATH"
+    },
+    {
+      "document": "README.md",
+      "target": "portable-build-check.json",
+      "status": "PASS_PROJECT_LOCAL_PATH"
+    }
+  ],
+  "diagnostic_and_large_pose_ZIP_exclusion": "PASS"
+}

@@ -1,0 +1,25 @@
+{
+  "tool": "analyze_pcb_signal_integrity",
+  "arguments": {
+    "file_path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_pcb"
+  },
+  "result": {
+    "meta": {
+      "fastmcp": {
+        "wrap_result": true
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "# Signal Integrity Analysis: /Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_pcb\n\n\u26a0\ufe0f pcbnew not available \u2014 text-based analysis (limited)\n\n## Differential Pair Analysis\n| Pair | Net P | Net N | Length P | Length N | Delta | Status |\n|------|-------|-------|----------|----------|--------|---------|\n| SIG | SIG_P | SIG_N | 3.371 mm | 2.974 mm | 0.396 mm | \u26a0\ufe0f Marginal |\n\n## Longest Signal Nets (Top 15)\n| Net | Length (mm) | Segments | Layers |\n|-----|-------------|----------|--------|\n| VBAT | 64.61 | 11 | F.Cu, In2.Cu |\n| ADC_CS_MCU | 63.40 | 9 | F.Cu, In2.Cu |\n| USB_PRESENT | 60.26 | 13 | F.Cu, In2.Cu |\n| BUTTON_N | 60.03 | 15 | F.Cu, In2.Cu |\n| ENDSTOP_N | 57.35 | 19 | F.Cu, In2.Cu |\n| BOOST_EN | 51.65 | 12 | F.Cu, In2.Cu |\n| ADC_DRDY_N | 46.73 | 14 | F.Cu, In2.Cu |\n| ANALOG_EN | 44.73 | 14 | F.Cu, In2.Cu |\n| SPI_MISO | 40.68 | 14 | F.Cu, In2.Cu |\n| V5A | 39.76 | 22 | F.Cu, In2.Cu |\n| SPI_MOSI_MCU | 38.31 | 9 | F.Cu, In2.Cu |\n| SPI_SCK_MCU | 35.78 | 8 | F.Cu, In2.Cu |\n| ADC_CS_N | 30.12 | 15 | B.Cu, F.Cu, In2.Cu |\n| BUTTON_RAW | 24.43 | 12 | F.Cu, In2.Cu |\n| EXC_SENSE_N | 23.98 | 11 | F.Cu, In2.Cu |",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": {
+      "result": "# Signal Integrity Analysis: /Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_pcb\n\n\u26a0\ufe0f pcbnew not available \u2014 text-based analysis (limited)\n\n## Differential Pair Analysis\n| Pair | Net P | Net N | Length P | Length N | Delta | Status |\n|------|-------|-------|----------|----------|--------|---------|\n| SIG | SIG_P | SIG_N | 3.371 mm | 2.974 mm | 0.396 mm | \u26a0\ufe0f Marginal |\n\n## Longest Signal Nets (Top 15)\n| Net | Length (mm) | Segments | Layers |\n|-----|-------------|----------|--------|\n| VBAT | 64.61 | 11 | F.Cu, In2.Cu |\n| ADC_CS_MCU | 63.40 | 9 | F.Cu, In2.Cu |\n| USB_PRESENT | 60.26 | 13 | F.Cu, In2.Cu |\n| BUTTON_N | 60.03 | 15 | F.Cu, In2.Cu |\n| ENDSTOP_N | 57.35 | 19 | F.Cu, In2.Cu |\n| BOOST_EN | 51.65 | 12 | F.Cu, In2.Cu |\n| ADC_DRDY_N | 46.73 | 14 | F.Cu, In2.Cu |\n| ANALOG_EN | 44.73 | 14 | F.Cu, In2.Cu |\n| SPI_MISO | 40.68 | 14 | F.Cu, In2.Cu |\n| V5A | 39.76 | 22 | F.Cu, In2.Cu |\n| SPI_MOSI_MCU | 38.31 | 9 | F.Cu, In2.Cu |\n| SPI_SCK_MCU | 35.78 | 8 | F.Cu, In2.Cu |\n| ADC_CS_N | 30.12 | 15 | B.Cu, F.Cu, In2.Cu |\n| BUTTON_RAW | 24.43 | 12 | F.Cu, In2.Cu |\n| EXC_SENSE_N | 23.98 | 11 | F.Cu, In2.Cu |"
+    },
+    "isError": false
+  }
+}

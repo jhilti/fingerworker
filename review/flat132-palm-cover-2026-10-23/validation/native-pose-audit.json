@@ -1,0 +1,2249 @@
+{
+  "source_sha256": "6099df42e341ff9f5c3439709a23107325d10ef922f616bdcda6fa6ef64d41c1",
+  "poses": [
+    {
+      "pose": "adjusted_rest_a2",
+      "archive": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-palm-cover-2026-10-23/native/Flat132_R8_adjusted_rest_a2_final.zip",
+      "sha256": "4b98a1824c9ff08c55495672e8f9fa8cb97da710dc3bc26ff7ee08e82fe7c3ed",
+      "baseline_native_pose_sha256": "d68e8d19a47bcb27c09c47a1af26ef27293afafa72e6517d787a8b68a9086bf1",
+      "status": "PASS",
+      "scope": "Changed fixed P02 matches native R8 neutral; all122 other complete native posed bodies match equivalent frozen R7 pose exactly, ignoring only triangle/vertex order. No archive renaming/relabeling.",
+      "checks": [
+        {
+          "ref": "E01",
+          "native_triangle_sha256": "d6b61d155f5e88292ee14ba190efdbbce7321d747da286f517188115cc03a07b",
+          "expected_triangle_sha256": "d6b61d155f5e88292ee14ba190efdbbce7321d747da286f517188115cc03a07b",
+          "status": "PASS"
+        },
+        {
+          "ref": "E05",
+          "native_triangle_sha256": "24227fe56a4f0738fe73d8b931da3c7f5671f9cbc92cbef96637c791a15ed906",
+          "expected_triangle_sha256": "24227fe56a4f0738fe73d8b931da3c7f5671f9cbc92cbef96637c791a15ed906",
+          "status": "PASS"
+        },
+        {
+          "ref": "E06",
+          "native_triangle_sha256": "c1a945dda35d094eef0cacf62a386009c36a3b0cf87a7dd9645550fb8efefd07",
+          "expected_triangle_sha256": "c1a945dda35d094eef0cacf62a386009c36a3b0cf87a7dd9645550fb8efefd07",
+          "status": "PASS"
+        },
+        {
+          "ref": "E07",
+          "native_triangle_sha256": "0ccb8f627f82042b0dde7da94fe0168b7410edcdecab7c8ff5d0c89234547301",
+          "expected_triangle_sha256": "0ccb8f627f82042b0dde7da94fe0168b7410edcdecab7c8ff5d0c89234547301",
+          "status": "PASS"
+        },
+        {
+          "ref": "E08",
+          "native_triangle_sha256": "05e155b6dd534c923874de8c114901414682a470c75ace497e09cfa820da9615",
+          "expected_triangle_sha256": "05e155b6dd534c923874de8c114901414682a470c75ace497e09cfa820da9615",
+          "status": "PASS"
+        },
+        {
+          "ref": "H01",
+          "native_triangle_sha256": "18d363471bd1a2b13823a08fb2ceb854755ef553ff0118ae676ca012b38986c1",
+          "expected_triangle_sha256": "18d363471bd1a2b13823a08fb2ceb854755ef553ff0118ae676ca012b38986c1",
+          "status": "PASS"
+        },
+        {
+          "ref": "H02",
+          "native_triangle_sha256": "bca403c27b2b23cc7e4d9ac919be261e24ed01bfb2842be9251741a3542ca1e0",
+          "expected_triangle_sha256": "bca403c27b2b23cc7e4d9ac919be261e24ed01bfb2842be9251741a3542ca1e0",
+          "status": "PASS"
+        },
+        {
+          "ref": "H030",
+          "native_triangle_sha256": "ff411572c95732dbac59fc650ec25ee0adc8b8e6cce2e46c98673c5a29849152",
+          "expected_triangle_sha256": "ff411572c95732dbac59fc650ec25ee0adc8b8e6cce2e46c98673c5a29849152",
+          "status": "PASS"
+        },
+        {
+          "ref": "H031",
+          "native_triangle_sha256": "e602f7076f00eb5129f582da246cdaa03a749b43fcd7d272643fca60c02d0c38",
+          "expected_triangle_sha256": "e602f7076f00eb5129f582da246cdaa03a749b43fcd7d272643fca60c02d0c38",
+          "status": "PASS"
+        },
+        {
+          "ref": "H040",
+          "native_triangle_sha256": "056eaf885db46e687fca6dca9bb2564b29136ffaefcac0611512fa13f2adf8e1",
+          "expected_triangle_sha256": "056eaf885db46e687fca6dca9bb2564b29136ffaefcac0611512fa13f2adf8e1",
+          "status": "PASS"
+        },
+        {
+          "ref": "H041",
+          "native_triangle_sha256": "b251db1457795eec59af0c4866bf84752811e19f2b8401d627220c0106b6c482",
+          "expected_triangle_sha256": "b251db1457795eec59af0c4866bf84752811e19f2b8401d627220c0106b6c482",
+          "status": "PASS"
+        },
+        {
+          "ref": "H050",
+          "native_triangle_sha256": "78e08e3817c38f7613c75114de810ce265b3e42bf644e3b15cdf5bb2e1ffcfa2",
+          "expected_triangle_sha256": "78e08e3817c38f7613c75114de810ce265b3e42bf644e3b15cdf5bb2e1ffcfa2",
+          "status": "PASS"
+        },
+        {
+          "ref": "H051",
+          "native_triangle_sha256": "0abd93bcebb3aeab7be61493fd77aa64c0c964206e242c6b41bcdb0b8afc3da7",
+          "expected_triangle_sha256": "0abd93bcebb3aeab7be61493fd77aa64c0c964206e242c6b41bcdb0b8afc3da7",
+          "status": "PASS"
+        },
+        {
+          "ref": "H060",
+          "native_triangle_sha256": "24550c3a5323545eef42bddd2d598bdc48222c35380f601fa6deb0baaf7dfdb2",
+          "expected_triangle_sha256": "24550c3a5323545eef42bddd2d598bdc48222c35380f601fa6deb0baaf7dfdb2",
+          "status": "PASS"
+        },
+        {
+          "ref": "H061",
+          "native_triangle_sha256": "261290f682ae8874913397e0c77040b4a87ac7e3b58ef6421d2e485da6ac8766",
+          "expected_triangle_sha256": "261290f682ae8874913397e0c77040b4a87ac7e3b58ef6421d2e485da6ac8766",
+          "status": "PASS"
+        },
+        {
+          "ref": "H09",
+          "native_triangle_sha256": "199ee52deb37d44ab1cafd775cc6f24277287572f266611acde7ac3d79acc762",
+          "expected_triangle_sha256": "199ee52deb37d44ab1cafd775cc6f24277287572f266611acde7ac3d79acc762",
+          "status": "PASS"
+        },
+        {
+          "ref": "H09a",
+          "native_triangle_sha256": "5f8a1d38ad05fb49a76082adf2cc5d0f97f787bd5ce5acb6821feaa6327a891b",
+          "expected_triangle_sha256": "5f8a1d38ad05fb49a76082adf2cc5d0f97f787bd5ce5acb6821feaa6327a891b",
+          "status": "PASS"
+        },
+        {
+          "ref": "H09b",
+          "native_triangle_sha256": "d42ed6661a6c4bc3896d24598d217657c573bb4cd5cc192ba0a1de016262be86",
+          "expected_triangle_sha256": "d42ed6661a6c4bc3896d24598d217657c573bb4cd5cc192ba0a1de016262be86",
+          "status": "PASS"
+        },
+        {
+          "ref": "H10",
+          "native_triangle_sha256": "6d86f089bf27a9516aa22b773d6312aa8bfda60a8bfae3ea978bd703854ec45b",
+          "expected_triangle_sha256": "6d86f089bf27a9516aa22b773d6312aa8bfda60a8bfae3ea978bd703854ec45b",
+          "status": "PASS"
+        },
+        {
+          "ref": "H11",
+          "native_triangle_sha256": "a87745e59560f582f670a8f5aaa9d6337ec5362781c038c213de361007c757be",
+          "expected_triangle_sha256": "a87745e59560f582f670a8f5aaa9d6337ec5362781c038c213de361007c757be",
+          "status": "PASS"
+        },
+        {
+          "ref": "H12",
+          "native_triangle_sha256": "f168682b60ed55cfd98f1be87e3846c2390961fea7fa770ea9d46af4ad21dcb2",
+          "expected_triangle_sha256": "f168682b60ed55cfd98f1be87e3846c2390961fea7fa770ea9d46af4ad21dcb2",
+          "status": "PASS"
+        },
+        {
+          "ref": "H13",
+          "native_triangle_sha256": "cdbf00d5c0e895af6b9d62903ff2fb25b1373a65b41c2aa22310812395024186",
+          "expected_triangle_sha256": "cdbf00d5c0e895af6b9d62903ff2fb25b1373a65b41c2aa22310812395024186",
+          "status": "PASS"
+        },
+        {
+          "ref": "H15",
+          "native_triangle_sha256": "54685c9fcff07bb546c4f47ae9b4f590c2647b99dca89271bd3b362944dcbfc1",
+          "expected_triangle_sha256": "54685c9fcff07bb546c4f47ae9b4f590c2647b99dca89271bd3b362944dcbfc1",
+          "status": "PASS"
+        },
+        {
+          "ref": "H160",
+          "native_triangle_sha256": "7476283184ad5d7bc5006cb50274cec55cf55a93c88b53935ec7c84f4e7dfde9",
+          "expected_triangle_sha256": "7476283184ad5d7bc5006cb50274cec55cf55a93c88b53935ec7c84f4e7dfde9",
+          "status": "PASS"
+        },
+        {
+          "ref": "H161",
+          "native_triangle_sha256": "92407c4e3ffeb340e2704b7fcad1fed16e951821d33482315a68c4a9fa23445b",
+          "expected_triangle_sha256": "92407c4e3ffeb340e2704b7fcad1fed16e951821d33482315a68c4a9fa23445b",
+          "status": "PASS"
+        },
+        {
+          "ref": "H170",
+          "native_triangle_sha256": "40f6d3b19d44674f067ba42ebbc96b9f1533e89278c113bbf2558bc8388a2f2b",
+          "expected_triangle_sha256": "40f6d3b19d44674f067ba42ebbc96b9f1533e89278c113bbf2558bc8388a2f2b",
+          "status": "PASS"
+        },
+        {
+          "ref": "H171",
+          "native_triangle_sha256": "6df4734a02eab1004914243843dd2cbafd706014d803e44ddd8df1a0e61a3128",
+          "expected_triangle_sha256": "6df4734a02eab1004914243843dd2cbafd706014d803e44ddd8df1a0e61a3128",
+          "status": "PASS"
+        },
+        {
+          "ref": "H180",
+          "native_triangle_sha256": "f476d392c0c2ea4f390b1bfe592e388afffd305bf5b6b12d6bf3e2883d22db4a",
+          "expected_triangle_sha256": "f476d392c0c2ea4f390b1bfe592e388afffd305bf5b6b12d6bf3e2883d22db4a",
+          "status": "PASS"
+        },
+        {
+          "ref": "H181",
+          "native_triangle_sha256": "77ab4d3a95cc4c4f60f2f16bd352440a8db54eb89e6d331e7e6358ad924bcf80",
+          "expected_triangle_sha256": "77ab4d3a95cc4c4f60f2f16bd352440a8db54eb89e6d331e7e6358ad924bcf80",
+          "status": "PASS"
+        },
+        {
+          "ref": "H190",
+          "native_triangle_sha256": "1d8247517d463a7fbc295ce29e8f02534b0bca41b97164b60e0db58d5db3901d",
+          "expected_triangle_sha256": "1d8247517d463a7fbc295ce29e8f02534b0bca41b97164b60e0db58d5db3901d",
+          "status": "PASS"
+        },
+        {
+          "ref": "H191",
+          "native_triangle_sha256": "275dad3f5393c374a8eb2b3e10adae22cb6bf7e896339c3896548e00741bee0a",
+          "expected_triangle_sha256": "275dad3f5393c374a8eb2b3e10adae22cb6bf7e896339c3896548e00741bee0a",
+          "status": "PASS"
+        },
+        {
+          "ref": "H20",
+          "native_triangle_sha256": "c8bd3f63edbccce59ff41a953229ba23c640d156a70f1583ef3e0273f6dd010d",
+          "expected_triangle_sha256": "c8bd3f63edbccce59ff41a953229ba23c640d156a70f1583ef3e0273f6dd010d",
+          "status": "PASS"
+        },
+        {
+          "ref": "H21",
+          "native_triangle_sha256": "38a6d447bd90e3a56c4dbb18b4fee332680320c9e48b6f6519e7273c878757dc",
+          "expected_triangle_sha256": "38a6d447bd90e3a56c4dbb18b4fee332680320c9e48b6f6519e7273c878757dc",
+          "status": "PASS"
+        },
+        {
+          "ref": "H22",
+          "native_triangle_sha256": "e57cc2413b6bc7dc816941b51680bb326bce4d9db81af6999500420df9e3a407",
+          "expected_triangle_sha256": "e57cc2413b6bc7dc816941b51680bb326bce4d9db81af6999500420df9e3a407",
+          "status": "PASS"
+        },
+        {
+          "ref": "H23",
+          "native_triangle_sha256": "89d318dad0346845ec651da89b03fa06bd6cb44c6ff1aeedd8d52f417c57f191",
+          "expected_triangle_sha256": "89d318dad0346845ec651da89b03fa06bd6cb44c6ff1aeedd8d52f417c57f191",
+          "status": "PASS"
+        },
+        {
+          "ref": "H240",
+          "native_triangle_sha256": "b4f15305c17f871b4cd635441cba0e0d5248c875245a8a7530b6c6b13c69af64",
+          "expected_triangle_sha256": "b4f15305c17f871b4cd635441cba0e0d5248c875245a8a7530b6c6b13c69af64",
+          "status": "PASS"
+        },
+        {
+          "ref": "H241",
+          "native_triangle_sha256": "0120aa0f8f4d42818607b3d0354b637d5f17a0e8d8827274cf163a5ec7d4e472",
+          "expected_triangle_sha256": "0120aa0f8f4d42818607b3d0354b637d5f17a0e8d8827274cf163a5ec7d4e472",
+          "status": "PASS"
+        },
+        {
+          "ref": "H242",
+          "native_triangle_sha256": "e1459c1642ed252e6a61ba009b3e491159d46f45b156b0b1f9cb7f9eb9d792cb",
+          "expected_triangle_sha256": "e1459c1642ed252e6a61ba009b3e491159d46f45b156b0b1f9cb7f9eb9d792cb",
+          "status": "PASS"
+        },
+        {
+          "ref": "H243",
+          "native_triangle_sha256": "969894f0eec32fcc87a90a80afddc36f158135ad15c6ce98c1c4ad80a5a068d8",
+          "expected_triangle_sha256": "969894f0eec32fcc87a90a80afddc36f158135ad15c6ce98c1c4ad80a5a068d8",
+          "status": "PASS"
+        },
+        {
+          "ref": "H250",
+          "native_triangle_sha256": "bf805b3af77019017fc777b4fd23df7e7f4bccabc04514beeb92848110dc2be7",
+          "expected_triangle_sha256": "bf805b3af77019017fc777b4fd23df7e7f4bccabc04514beeb92848110dc2be7",
+          "status": "PASS"
+        },
+        {
+          "ref": "H251",
+          "native_triangle_sha256": "d7add506123de318978d9c9e7dafa0fce92fdc641686adbabc4b085bcad97ab9",
+          "expected_triangle_sha256": "d7add506123de318978d9c9e7dafa0fce92fdc641686adbabc4b085bcad97ab9",
+          "status": "PASS"
+        },
+        {
+          "ref": "H252",
+          "native_triangle_sha256": "3715a83a473b737c6109f6c5514369211e795610c44491c327cd39be3e2db562",
+          "expected_triangle_sha256": "3715a83a473b737c6109f6c5514369211e795610c44491c327cd39be3e2db562",
+          "status": "PASS"
+        },
+        {
+          "ref": "H253",
+          "native_triangle_sha256": "3adcce5d1b4f9495c4b77c01b0060dea3e9e01648f6616f153cade95c9a7907d",
+          "expected_triangle_sha256": "3adcce5d1b4f9495c4b77c01b0060dea3e9e01648f6616f153cade95c9a7907d",
+          "status": "PASS"
+        },
+        {
+          "ref": "H260",
+          "native_triangle_sha256": "73205e8564fcbb64ed5b4ab6d07ca42962df554a520bf8ef03ba36e79264240c",
+          "expected_triangle_sha256": "73205e8564fcbb64ed5b4ab6d07ca42962df554a520bf8ef03ba36e79264240c",
+          "status": "PASS"
+        },
+        {
+          "ref": "H261",
+          "native_triangle_sha256": "47354074f589fe342d28a71b274ff85d40d8b7412914d2e5b3c2f4bc1a3b9f88",
+          "expected_triangle_sha256": "47354074f589fe342d28a71b274ff85d40d8b7412914d2e5b3c2f4bc1a3b9f88",
+          "status": "PASS"
+        },
+        {
+          "ref": "H270",
+          "native_triangle_sha256": "626a66fd34d0b24a22330bdca6c7652abcc54bdbec1d2cfb1c1b662dd82dda2e",
+          "expected_triangle_sha256": "626a66fd34d0b24a22330bdca6c7652abcc54bdbec1d2cfb1c1b662dd82dda2e",
+          "status": "PASS"
+        },
+        {
+          "ref": "H271",
+          "native_triangle_sha256": "fc0418a5cd297e0e497d878c088efae2533652802213bd47262b159fa30d3916",
+          "expected_triangle_sha256": "fc0418a5cd297e0e497d878c088efae2533652802213bd47262b159fa30d3916",
+          "status": "PASS"
+        },
+        {
+          "ref": "H280",
+          "native_triangle_sha256": "2d62cb8ba6b9a6bfcbbb62df29533e2df615c4a65b78cc9102628c283365dd9b",
+          "expected_triangle_sha256": "2d62cb8ba6b9a6bfcbbb62df29533e2df615c4a65b78cc9102628c283365dd9b",
+          "status": "PASS"
+        },
+        {
+          "ref": "H281",
+          "native_triangle_sha256": "812354a8e929ab34e615fa711c9d2d050a3ee9e2e58ca983b12ebb24092359c2",
+          "expected_triangle_sha256": "812354a8e929ab34e615fa711c9d2d050a3ee9e2e58ca983b12ebb24092359c2",
+          "status": "PASS"
+        },
+        {
+          "ref": "H290",
+          "native_triangle_sha256": "c26331a6f7b2638fa69a92d42a5e4eedf14f1480e38fd13f68036ca6c634522a",
+          "expected_triangle_sha256": "c26331a6f7b2638fa69a92d42a5e4eedf14f1480e38fd13f68036ca6c634522a",
+          "status": "PASS"
+        },
+        {
+          "ref": "H291",
+          "native_triangle_sha256": "ce9cb0d8de48fef147301b825ba0ffac82ed5914d0ea72fc6d8833e954ecdd71",
+          "expected_triangle_sha256": "ce9cb0d8de48fef147301b825ba0ffac82ed5914d0ea72fc6d8833e954ecdd71",
+          "status": "PASS"
+        },
+        {
+          "ref": "H300a",
+          "native_triangle_sha256": "7b1ba88fa919421a5f60ca99df9219a06252b6446358ff737abc296937d98422",
+          "expected_triangle_sha256": "7b1ba88fa919421a5f60ca99df9219a06252b6446358ff737abc296937d98422",
+          "status": "PASS"
+        },
+        {
+          "ref": "H300b",
+          "native_triangle_sha256": "ff5c2e19bbc7d8a9579af705988a88532b9a9973ed975c83e415f25480da9095",
+          "expected_triangle_sha256": "ff5c2e19bbc7d8a9579af705988a88532b9a9973ed975c83e415f25480da9095",
+          "status": "PASS"
+        },
+        {
+          "ref": "H301a",
+          "native_triangle_sha256": "3add5d279284e7f6a39458e83038fcacde02cd510d4e557304b83ceaee4045f6",
+          "expected_triangle_sha256": "3add5d279284e7f6a39458e83038fcacde02cd510d4e557304b83ceaee4045f6",
+          "status": "PASS"
+        },
+        {
+          "ref": "H301b",
+          "native_triangle_sha256": "472973fbec252fd9d53fb8aa80f12f00cbb189a0316a514a76f7b4c8982c99b0",
+          "expected_triangle_sha256": "472973fbec252fd9d53fb8aa80f12f00cbb189a0316a514a76f7b4c8982c99b0",
+          "status": "PASS"
+        },
+        {
+          "ref": "H310",
+          "native_triangle_sha256": "fa5dcf8beb5bd9448bfdecf4e5b60aec334aa69a78d37942d9d581de7673877e",
+          "expected_triangle_sha256": "fa5dcf8beb5bd9448bfdecf4e5b60aec334aa69a78d37942d9d581de7673877e",
+          "status": "PASS"
+        },
+        {
+          "ref": "H311",
+          "native_triangle_sha256": "d7c59d5e0fa3b22429369d17553bbecf223d886356a6e5e4fade063735d5d603",
+          "expected_triangle_sha256": "d7c59d5e0fa3b22429369d17553bbecf223d886356a6e5e4fade063735d5d603",
+          "status": "PASS"
+        },
+        {
+          "ref": "H320",
+          "native_triangle_sha256": "99b6f4b691af2eae8813a688091ab6b657529f9335489410d3f799f7803df104",
+          "expected_triangle_sha256": "99b6f4b691af2eae8813a688091ab6b657529f9335489410d3f799f7803df104",
+          "status": "PASS"
+        },
+        {
+          "ref": "H321",
+          "native_triangle_sha256": "679470494853df3bbfcca4be4940936898816609d0eaa98e892b3f9bc71934f0",
+          "expected_triangle_sha256": "679470494853df3bbfcca4be4940936898816609d0eaa98e892b3f9bc71934f0",
+          "status": "PASS"
+        },
+        {
+          "ref": "P01",
+          "native_triangle_sha256": "9c6e87a6a85dd6916d37f6422dd5a021934d5713d47324039e4570ff93e20c31",
+          "expected_triangle_sha256": "9c6e87a6a85dd6916d37f6422dd5a021934d5713d47324039e4570ff93e20c31",
+          "status": "PASS"
+        },
+        {
+          "ref": "P02",
+          "native_triangle_sha256": "e43a1465ada3cdb170c936a9940f36acc5efe0260ac440a76f8fffef58ae7e14",
+          "expected_triangle_sha256": "e43a1465ada3cdb170c936a9940f36acc5efe0260ac440a76f8fffef58ae7e14",
+          "status": "PASS"
+        },
+        {
+          "ref": "P04",
+          "native_triangle_sha256": "74d515e75b5ee8f59d446ef500f28f92b9cbd2fd7059cdb55ff30c6d0d854de6",
+          "expected_triangle_sha256": "74d515e75b5ee8f59d446ef500f28f92b9cbd2fd7059cdb55ff30c6d0d854de6",
+          "status": "PASS"
+        },
+        {
+          "ref": "P05",
+          "native_triangle_sha256": "7d03a6fc357c6fc82f6cace79971e489078a19c41e8b1bbc522f28e6e24dae80",
+          "expected_triangle_sha256": "7d03a6fc357c6fc82f6cace79971e489078a19c41e8b1bbc522f28e6e24dae80",
+          "status": "PASS"
+        },
+        {
+          "ref": "P060",
+          "native_triangle_sha256": "ce9d7b2a3eda8eedd8456fd4a3462543bfe6cce9fda12cde4fc10e4b26ad92fd",
+          "expected_triangle_sha256": "ce9d7b2a3eda8eedd8456fd4a3462543bfe6cce9fda12cde4fc10e4b26ad92fd",
+          "status": "PASS"
+        },
+        {
+          "ref": "P061",
+          "native_triangle_sha256": "3b91e0358bb7ca9372e11015941b1c1932abc4bd3bc1ef60969af9c35dfc4cd8",
+          "expected_triangle_sha256": "3b91e0358bb7ca9372e11015941b1c1932abc4bd3bc1ef60969af9c35dfc4cd8",
+          "status": "PASS"
+        },
+        {
+          "ref": "P070a",
+          "native_triangle_sha256": "a5526411561ab8d193b7bedda022f58c58bfbbfcf84238ac6bd24045affb436e",
+          "expected_triangle_sha256": "a5526411561ab8d193b7bedda022f58c58bfbbfcf84238ac6bd24045affb436e",
+          "status": "PASS"
+        },
+        {
+          "ref": "P070b",
+          "native_triangle_sha256": "879b0868946db4e6f2f6642dc7e6362b64812cf478865559e8d7e07aa3fb2759",
+          "expected_triangle_sha256": "879b0868946db4e6f2f6642dc7e6362b64812cf478865559e8d7e07aa3fb2759",
+          "status": "PASS"
+        },
+        {
+          "ref": "P071a",
+          "native_triangle_sha256": "89b873cf55ba1567e5ea4da06cdeb97f92a8fb630cb632be683363acb12d99a8",
+          "expected_triangle_sha256": "89b873cf55ba1567e5ea4da06cdeb97f92a8fb630cb632be683363acb12d99a8",
+          "status": "PASS"
+        },
+        {
+          "ref": "P071b",
+          "native_triangle_sha256": "dc2f69844c4ff75088d4d804ac71d942c8782f49ee4ac698ed13b0fa249c28bf",
+          "expected_triangle_sha256": "dc2f69844c4ff75088d4d804ac71d942c8782f49ee4ac698ed13b0fa249c28bf",
+          "status": "PASS"
+        },
+        {
+          "ref": "P08",
+          "native_triangle_sha256": "b6e0438f7df86ff98a3984eb9301d644d45246ae2328ab014fc542273945a49a",
+          "expected_triangle_sha256": "b6e0438f7df86ff98a3984eb9301d644d45246ae2328ab014fc542273945a49a",
+          "status": "PASS"
+        },
+        {
+          "ref": "P09",
+          "native_triangle_sha256": "4816eb2702fe7d67f214fc25e22b331d4d4b7e2771cc2039cd80c196699b8fdf",
+          "expected_triangle_sha256": "4816eb2702fe7d67f214fc25e22b331d4d4b7e2771cc2039cd80c196699b8fdf",
+          "status": "PASS"
+        },
+        {
+          "ref": "P10",
+          "native_triangle_sha256": "56f14f520b4e461a842eb31b2a6abc5ac384b7dd52cb670c092cf1f65d04fa6d",
+          "expected_triangle_sha256": "56f14f520b4e461a842eb31b2a6abc5ac384b7dd52cb670c092cf1f65d04fa6d",
+          "status": "PASS"
+        },
+        {
+          "ref": "P11",
+          "native_triangle_sha256": "708a6bf35b9bc3a1d96a4fb5b6d1fbfa1b8cd6b9494517ee803d171a2fe8597c",
+          "expected_triangle_sha256": "708a6bf35b9bc3a1d96a4fb5b6d1fbfa1b8cd6b9494517ee803d171a2fe8597c",
+          "status": "PASS"
+        },
+        {
+          "ref": "P120",
+          "native_triangle_sha256": "89aef0343c7ca298f11b1d1f31d780b34e3eb7ecce1a1e19272ef3c120c37ae4",
+          "expected_triangle_sha256": "89aef0343c7ca298f11b1d1f31d780b34e3eb7ecce1a1e19272ef3c120c37ae4",
+          "status": "PASS"
+        },
+        {
+          "ref": "P121",
+          "native_triangle_sha256": "974cc9f812a39691e09be2f10b224cb737c096bcf4877c98977de14271f5fff0",
+          "expected_triangle_sha256": "974cc9f812a39691e09be2f10b224cb737c096bcf4877c98977de14271f5fff0",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C1",
+          "native_triangle_sha256": "af56f716b7ba41892b0b11499415e2c1a665f4b2c7e07da8f6683d6fe4de5119",
+          "expected_triangle_sha256": "af56f716b7ba41892b0b11499415e2c1a665f4b2c7e07da8f6683d6fe4de5119",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C10",
+          "native_triangle_sha256": "d724ab51736a3e473386e7d4e05dd1199e9ba1684bc8e6d66b317a0b66edf650",
+          "expected_triangle_sha256": "d724ab51736a3e473386e7d4e05dd1199e9ba1684bc8e6d66b317a0b66edf650",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C11",
+          "native_triangle_sha256": "da56cdb7845ceb3b009e96931fb7dc13e3465c36962d6369cf5e1db621341df6",
+          "expected_triangle_sha256": "da56cdb7845ceb3b009e96931fb7dc13e3465c36962d6369cf5e1db621341df6",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C12",
+          "native_triangle_sha256": "19433a9e127bf2bccf5890bbc9bcf9042c1c4a60dfc9eb9f3cce04dea8409cf8",
+          "expected_triangle_sha256": "19433a9e127bf2bccf5890bbc9bcf9042c1c4a60dfc9eb9f3cce04dea8409cf8",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C13",
+          "native_triangle_sha256": "60180602c8fb310ff7c52d43037d82ffb6cae0448f6378eb18bd419a1812874b",
+          "expected_triangle_sha256": "60180602c8fb310ff7c52d43037d82ffb6cae0448f6378eb18bd419a1812874b",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C14",
+          "native_triangle_sha256": "d0239b5e282acc5ec1da523395010a917f5e8929d037d822515453b4d11cae68",
+          "expected_triangle_sha256": "d0239b5e282acc5ec1da523395010a917f5e8929d037d822515453b4d11cae68",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C15",
+          "native_triangle_sha256": "704128ce5e95bd2fe1832bdb72d0bbdf032143d3bc1425316f46378864b3399f",
+          "expected_triangle_sha256": "704128ce5e95bd2fe1832bdb72d0bbdf032143d3bc1425316f46378864b3399f",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C16",
+          "native_triangle_sha256": "1489eb7d9f337eeebe304f3e0d4baabb2d62e5c765a2fb8c31cdb064271f9499",
+          "expected_triangle_sha256": "1489eb7d9f337eeebe304f3e0d4baabb2d62e5c765a2fb8c31cdb064271f9499",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C2",
+          "native_triangle_sha256": "34f568e3c656447d0ed191906904bd9abd73d048495f22f4fa7b8b84f2e22a46",
+          "expected_triangle_sha256": "34f568e3c656447d0ed191906904bd9abd73d048495f22f4fa7b8b84f2e22a46",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C3",
+          "native_triangle_sha256": "999501f6e3bd72e832eb3f2542ab0824a56b021e87962c88e2c5147eec324aa4",
+          "expected_triangle_sha256": "999501f6e3bd72e832eb3f2542ab0824a56b021e87962c88e2c5147eec324aa4",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C4",
+          "native_triangle_sha256": "0ddcbc22f1ff80250bf9dfe0459e68ac25588392456a1541480e61e481b3a072",
+          "expected_triangle_sha256": "0ddcbc22f1ff80250bf9dfe0459e68ac25588392456a1541480e61e481b3a072",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C5",
+          "native_triangle_sha256": "3dd4eb67f74b0a8e976007ab152ce8272a92d6e441481fdc7060dac79f435592",
+          "expected_triangle_sha256": "3dd4eb67f74b0a8e976007ab152ce8272a92d6e441481fdc7060dac79f435592",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C6",
+          "native_triangle_sha256": "8de8cfe984957d7e09a17d86b21317b04c777001232bad626b41ee03a28b6af5",
+          "expected_triangle_sha256": "8de8cfe984957d7e09a17d86b21317b04c777001232bad626b41ee03a28b6af5",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C7",
+          "native_triangle_sha256": "e9d8e4fa108d4ce4006276d1449d04217101332a6f38ffa1137ba6fc68e73439",
+          "expected_triangle_sha256": "e9d8e4fa108d4ce4006276d1449d04217101332a6f38ffa1137ba6fc68e73439",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C8",
+          "native_triangle_sha256": "cc0c42ec7b164adcaa93481aa3123cc914efd1673424f06392b9115c26ba4a10",
+          "expected_triangle_sha256": "cc0c42ec7b164adcaa93481aa3123cc914efd1673424f06392b9115c26ba4a10",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C9",
+          "native_triangle_sha256": "1fe307491f23d5bf4742512c4870826cc379d7a3d9df97c0c8610c9895a63dd3",
+          "expected_triangle_sha256": "1fe307491f23d5bf4742512c4870826cc379d7a3d9df97c0c8610c9895a63dd3",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_D1",
+          "native_triangle_sha256": "b1f9a20fc6a40d04b537df7fddb388daa544505e85de0f1e3784c4709ab35b16",
+          "expected_triangle_sha256": "b1f9a20fc6a40d04b537df7fddb388daa544505e85de0f1e3784c4709ab35b16",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_J1",
+          "native_triangle_sha256": "2435bd0b89f766e6c79f8c2668080a9dd6d0da3fe513441ff6b154efb372b5d6",
+          "expected_triangle_sha256": "2435bd0b89f766e6c79f8c2668080a9dd6d0da3fe513441ff6b154efb372b5d6",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_J2",
+          "native_triangle_sha256": "920af48c6952213869954cf7d8f3bfdf206b62923987c5be9197df68151a2ed3",
+          "expected_triangle_sha256": "920af48c6952213869954cf7d8f3bfdf206b62923987c5be9197df68151a2ed3",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_J3",
+          "native_triangle_sha256": "ce864c98c89fb793fa8529db8b3a785e7b61bf0cb789c4953c9f5202d0e329c6",
+          "expected_triangle_sha256": "ce864c98c89fb793fa8529db8b3a785e7b61bf0cb789c4953c9f5202d0e329c6",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_L1",
+          "native_triangle_sha256": "958f3a8fa90c0897356042d42e3717c093bb8f0e1abcdfcc7cdbb705ce0729cf",
+          "expected_triangle_sha256": "958f3a8fa90c0897356042d42e3717c093bb8f0e1abcdfcc7cdbb705ce0729cf",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_Q1",
+          "native_triangle_sha256": "0dffe76f2b81b74757565a778753ae191f8672cbf96725c465dbb90b1c82b933",
+          "expected_triangle_sha256": "0dffe76f2b81b74757565a778753ae191f8672cbf96725c465dbb90b1c82b933",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R1",
+          "native_triangle_sha256": "d00079067d35fd5fc69d84926d4dd0a328c0dcf862bc1d934c17c06922d5ae93",
+          "expected_triangle_sha256": "d00079067d35fd5fc69d84926d4dd0a328c0dcf862bc1d934c17c06922d5ae93",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R10",
+          "native_triangle_sha256": "bd6c8b9918d283e3b05e69899ab360c9ccbc9155b0025a115bd299131ead9fde",
+          "expected_triangle_sha256": "bd6c8b9918d283e3b05e69899ab360c9ccbc9155b0025a115bd299131ead9fde",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R11",
+          "native_triangle_sha256": "91f5ae5240be8dc7e3a825798ef612d93c9702e1a306ea658db159276991064b",
+          "expected_triangle_sha256": "91f5ae5240be8dc7e3a825798ef612d93c9702e1a306ea658db159276991064b",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R12",
+          "native_triangle_sha256": "43be57aa9259ef081478564db4798bf2e2074ad0707f90bde7f4a580075fad55",
+          "expected_triangle_sha256": "43be57aa9259ef081478564db4798bf2e2074ad0707f90bde7f4a580075fad55",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R13",
+          "native_triangle_sha256": "ee84bf4e3fe2d71fe3a7b30ecfdb28253f0881835133ef36025e5e394e7c4a6d",
+          "expected_triangle_sha256": "ee84bf4e3fe2d71fe3a7b30ecfdb28253f0881835133ef36025e5e394e7c4a6d",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R14",
+          "native_triangle_sha256": "9c8fb7e58d206d4d39d858967a8a8b7a24ff52ad3ecf657bacb59fed48b645c5",
+          "expected_triangle_sha256": "9c8fb7e58d206d4d39d858967a8a8b7a24ff52ad3ecf657bacb59fed48b645c5",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R15",
+          "native_triangle_sha256": "cdd52d61fae8ade4b39b63a3d7be1ab7cf82bf92ea77e2311b0e3032e792c4aa",
+          "expected_triangle_sha256": "cdd52d61fae8ade4b39b63a3d7be1ab7cf82bf92ea77e2311b0e3032e792c4aa",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R16",
+          "native_triangle_sha256": "5635742a2c36b17dc60174e215e3fef39d2a16aca53eeaad16abe21a56f2c551",
+          "expected_triangle_sha256": "5635742a2c36b17dc60174e215e3fef39d2a16aca53eeaad16abe21a56f2c551",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R17",
+          "native_triangle_sha256": "f9d2a9276f5bab027bc536674787a2282e4a41394686eb4b0f6927fc700546f0",
+          "expected_triangle_sha256": "f9d2a9276f5bab027bc536674787a2282e4a41394686eb4b0f6927fc700546f0",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R18",
+          "native_triangle_sha256": "85c3d058cfb62f288b1eeb985754cf0d297834065eceba81bacba90609f5bed1",
+          "expected_triangle_sha256": "85c3d058cfb62f288b1eeb985754cf0d297834065eceba81bacba90609f5bed1",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R19",
+          "native_triangle_sha256": "01eb08295aaf38b6de213a59d0293afc2795e95aa6440c95b38aa049f0dbb3be",
+          "expected_triangle_sha256": "01eb08295aaf38b6de213a59d0293afc2795e95aa6440c95b38aa049f0dbb3be",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R2",
+          "native_triangle_sha256": "0d4a669ccc3bacceb6067726fad3a4956674e60f514b4c2a983cc095e4e1c751",
+          "expected_triangle_sha256": "0d4a669ccc3bacceb6067726fad3a4956674e60f514b4c2a983cc095e4e1c751",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R20",
+          "native_triangle_sha256": "811db73bbc3db3f68e2228264692c8fa2e6b5fd43f08cb5eec0eca7beb3e2ee1",
+          "expected_triangle_sha256": "811db73bbc3db3f68e2228264692c8fa2e6b5fd43f08cb5eec0eca7beb3e2ee1",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R21",
+          "native_triangle_sha256": "b27d3c40f81e24657fcef7cb40342a65398ea5ad6f80fd1aa5432336ad8c9d11",
+          "expected_triangle_sha256": "b27d3c40f81e24657fcef7cb40342a65398ea5ad6f80fd1aa5432336ad8c9d11",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R3",
+          "native_triangle_sha256": "31aff397ad05c6c89e666dfdc0394202acee49a92543616fa1f6a286dfd0b1e3",
+          "expected_triangle_sha256": "31aff397ad05c6c89e666dfdc0394202acee49a92543616fa1f6a286dfd0b1e3",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R4",
+          "native_triangle_sha256": "11118d84713ce230b3798ddec96074d611a247990d70ba883331877fdc7a27e5",
+          "expected_triangle_sha256": "11118d84713ce230b3798ddec96074d611a247990d70ba883331877fdc7a27e5",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R5",
+          "native_triangle_sha256": "1f22bfcccd31f3457c57eedd5b65ff95adc94acb57fcb931081365cb1c4b874b",
+          "expected_triangle_sha256": "1f22bfcccd31f3457c57eedd5b65ff95adc94acb57fcb931081365cb1c4b874b",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R6",
+          "native_triangle_sha256": "ca2de5d10bf608a275e1e814be287761859a369ca46524b04a49dadaccb6a94e",
+          "expected_triangle_sha256": "ca2de5d10bf608a275e1e814be287761859a369ca46524b04a49dadaccb6a94e",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R7",
+          "native_triangle_sha256": "59a39126f80a04c30196dd7903bf9e91e44c37f0139c7f148a3dba71a11f5b6c",
+          "expected_triangle_sha256": "59a39126f80a04c30196dd7903bf9e91e44c37f0139c7f148a3dba71a11f5b6c",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R8",
+          "native_triangle_sha256": "736b1fb337252f69f6b065b7dbc9fb6840e457f24b8f826b71e87dc71c12807c",
+          "expected_triangle_sha256": "736b1fb337252f69f6b065b7dbc9fb6840e457f24b8f826b71e87dc71c12807c",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R9",
+          "native_triangle_sha256": "1e38ee2575ee36cf4d6060e878852f23cd744543a7ce70529cbe6c6f64403828",
+          "expected_triangle_sha256": "1e38ee2575ee36cf4d6060e878852f23cd744543a7ce70529cbe6c6f64403828",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_SW2",
+          "native_triangle_sha256": "fbdb813d9c5de845d03f04e7857116b6997ef2504b7c2cced1064d74fb531a81",
+          "expected_triangle_sha256": "fbdb813d9c5de845d03f04e7857116b6997ef2504b7c2cced1064d74fb531a81",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_U1",
+          "native_triangle_sha256": "fc1caa2d647886ecb4b22a4b2fcb9322b3f8f74b62ff010db1dddf6c1e977c02",
+          "expected_triangle_sha256": "fc1caa2d647886ecb4b22a4b2fcb9322b3f8f74b62ff010db1dddf6c1e977c02",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_U2",
+          "native_triangle_sha256": "d4950d20a5780e885007ec8afc48986f2df64618a54de6be024e4abb84023949",
+          "expected_triangle_sha256": "d4950d20a5780e885007ec8afc48986f2df64618a54de6be024e4abb84023949",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_U3",
+          "native_triangle_sha256": "5bd07a14a7950135819e5288bc74e1b00911afdc7f400d71c7d037e8be6bf94e",
+          "expected_triangle_sha256": "5bd07a14a7950135819e5288bc74e1b00911afdc7f400d71c7d037e8be6bf94e",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_U4",
+          "native_triangle_sha256": "6b4333acb8b3297c67589317b2b1582eae7c717da3922b842021d49658da9dad",
+          "expected_triangle_sha256": "6b4333acb8b3297c67589317b2b1582eae7c717da3922b842021d49658da9dad",
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "pose": "maximum28_p2",
+      "archive": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-palm-cover-2026-10-23/native/Flat132_R8_max28_p2_heavy_final.zip",
+      "sha256": "6f15f6b4916eba7b96784206328b7f4dac1319705b91a06caceef873212315bd",
+      "baseline_native_pose_sha256": "2a95088ca025360d9769c06d9a414a3577739fc99bc985884446a707b931f9b1",
+      "status": "PASS",
+      "scope": "Changed fixed P02 matches native R8 neutral; all122 other complete native posed bodies match equivalent frozen R7 pose exactly, ignoring only triangle/vertex order. No archive renaming/relabeling.",
+      "checks": [
+        {
+          "ref": "E01",
+          "native_triangle_sha256": "d6b61d155f5e88292ee14ba190efdbbce7321d747da286f517188115cc03a07b",
+          "expected_triangle_sha256": "d6b61d155f5e88292ee14ba190efdbbce7321d747da286f517188115cc03a07b",
+          "status": "PASS"
+        },
+        {
+          "ref": "E05",
+          "native_triangle_sha256": "24227fe56a4f0738fe73d8b931da3c7f5671f9cbc92cbef96637c791a15ed906",
+          "expected_triangle_sha256": "24227fe56a4f0738fe73d8b931da3c7f5671f9cbc92cbef96637c791a15ed906",
+          "status": "PASS"
+        },
+        {
+          "ref": "E06",
+          "native_triangle_sha256": "c1a945dda35d094eef0cacf62a386009c36a3b0cf87a7dd9645550fb8efefd07",
+          "expected_triangle_sha256": "c1a945dda35d094eef0cacf62a386009c36a3b0cf87a7dd9645550fb8efefd07",
+          "status": "PASS"
+        },
+        {
+          "ref": "E07",
+          "native_triangle_sha256": "0ccb8f627f82042b0dde7da94fe0168b7410edcdecab7c8ff5d0c89234547301",
+          "expected_triangle_sha256": "0ccb8f627f82042b0dde7da94fe0168b7410edcdecab7c8ff5d0c89234547301",
+          "status": "PASS"
+        },
+        {
+          "ref": "E08",
+          "native_triangle_sha256": "05e155b6dd534c923874de8c114901414682a470c75ace497e09cfa820da9615",
+          "expected_triangle_sha256": "05e155b6dd534c923874de8c114901414682a470c75ace497e09cfa820da9615",
+          "status": "PASS"
+        },
+        {
+          "ref": "H01",
+          "native_triangle_sha256": "85a1482c42648828a08868b1677c87d60067e2f400770b8e0ef812fe69b34663",
+          "expected_triangle_sha256": "85a1482c42648828a08868b1677c87d60067e2f400770b8e0ef812fe69b34663",
+          "status": "PASS"
+        },
+        {
+          "ref": "H02",
+          "native_triangle_sha256": "d328c21b9568d2046eede904d8e5b62300fa03076bc3d2ad0dcc190839dc903b",
+          "expected_triangle_sha256": "d328c21b9568d2046eede904d8e5b62300fa03076bc3d2ad0dcc190839dc903b",
+          "status": "PASS"
+        },
+        {
+          "ref": "H030",
+          "native_triangle_sha256": "79f38a16fbe49303e01a238927c1d835bcc40927ee1b56ccefb9ecf244507622",
+          "expected_triangle_sha256": "79f38a16fbe49303e01a238927c1d835bcc40927ee1b56ccefb9ecf244507622",
+          "status": "PASS"
+        },
+        {
+          "ref": "H031",
+          "native_triangle_sha256": "ff6f57f5732dd0cec6df15474191f6c8e40f0161a8771e7a38132e524eb6278b",
+          "expected_triangle_sha256": "ff6f57f5732dd0cec6df15474191f6c8e40f0161a8771e7a38132e524eb6278b",
+          "status": "PASS"
+        },
+        {
+          "ref": "H040",
+          "native_triangle_sha256": "056eaf885db46e687fca6dca9bb2564b29136ffaefcac0611512fa13f2adf8e1",
+          "expected_triangle_sha256": "056eaf885db46e687fca6dca9bb2564b29136ffaefcac0611512fa13f2adf8e1",
+          "status": "PASS"
+        },
+        {
+          "ref": "H041",
+          "native_triangle_sha256": "b251db1457795eec59af0c4866bf84752811e19f2b8401d627220c0106b6c482",
+          "expected_triangle_sha256": "b251db1457795eec59af0c4866bf84752811e19f2b8401d627220c0106b6c482",
+          "status": "PASS"
+        },
+        {
+          "ref": "H050",
+          "native_triangle_sha256": "ce646cef8e7d2c13ff862254af7ed0d3d407812bfb40c92d1111b327aae8720b",
+          "expected_triangle_sha256": "ce646cef8e7d2c13ff862254af7ed0d3d407812bfb40c92d1111b327aae8720b",
+          "status": "PASS"
+        },
+        {
+          "ref": "H051",
+          "native_triangle_sha256": "71352014acce725c764173706b0548abc82a8dd59300413e73721a0f8a164a78",
+          "expected_triangle_sha256": "71352014acce725c764173706b0548abc82a8dd59300413e73721a0f8a164a78",
+          "status": "PASS"
+        },
+        {
+          "ref": "H060",
+          "native_triangle_sha256": "abe77684456c55b65ae86445250976f27e3aeccdb0bd18bc9886ff8376513278",
+          "expected_triangle_sha256": "abe77684456c55b65ae86445250976f27e3aeccdb0bd18bc9886ff8376513278",
+          "status": "PASS"
+        },
+        {
+          "ref": "H061",
+          "native_triangle_sha256": "bc31c6702867a48467ceb0e7258216da27ff226eb1a5412f34a238baf26375d5",
+          "expected_triangle_sha256": "bc31c6702867a48467ceb0e7258216da27ff226eb1a5412f34a238baf26375d5",
+          "status": "PASS"
+        },
+        {
+          "ref": "H09",
+          "native_triangle_sha256": "199ee52deb37d44ab1cafd775cc6f24277287572f266611acde7ac3d79acc762",
+          "expected_triangle_sha256": "199ee52deb37d44ab1cafd775cc6f24277287572f266611acde7ac3d79acc762",
+          "status": "PASS"
+        },
+        {
+          "ref": "H09a",
+          "native_triangle_sha256": "8e86e93fe9e6a0e0ffa08bfef152ac9559a32ef69d19b5fe34b3fd2ecd5b1748",
+          "expected_triangle_sha256": "8e86e93fe9e6a0e0ffa08bfef152ac9559a32ef69d19b5fe34b3fd2ecd5b1748",
+          "status": "PASS"
+        },
+        {
+          "ref": "H09b",
+          "native_triangle_sha256": "eb3d8d95025ad2446304eae0e62623bfff7c87b1e12d5d3024942fcb210835bb",
+          "expected_triangle_sha256": "eb3d8d95025ad2446304eae0e62623bfff7c87b1e12d5d3024942fcb210835bb",
+          "status": "PASS"
+        },
+        {
+          "ref": "H10",
+          "native_triangle_sha256": "e689dd9fe8af281508a87e290f98469f9c1704e30ad41f2dc8baebb865cd8b11",
+          "expected_triangle_sha256": "e689dd9fe8af281508a87e290f98469f9c1704e30ad41f2dc8baebb865cd8b11",
+          "status": "PASS"
+        },
+        {
+          "ref": "H11",
+          "native_triangle_sha256": "a87745e59560f582f670a8f5aaa9d6337ec5362781c038c213de361007c757be",
+          "expected_triangle_sha256": "a87745e59560f582f670a8f5aaa9d6337ec5362781c038c213de361007c757be",
+          "status": "PASS"
+        },
+        {
+          "ref": "H12",
+          "native_triangle_sha256": "e2b518b3812a1506ba898c31bae2bb2320a2e3ec78e4e3b9ea64295135847f75",
+          "expected_triangle_sha256": "e2b518b3812a1506ba898c31bae2bb2320a2e3ec78e4e3b9ea64295135847f75",
+          "status": "PASS"
+        },
+        {
+          "ref": "H13",
+          "native_triangle_sha256": "770e3532a14bf21da473d71dd8317f14511080e99bc6cc3d295d252422a0959a",
+          "expected_triangle_sha256": "770e3532a14bf21da473d71dd8317f14511080e99bc6cc3d295d252422a0959a",
+          "status": "PASS"
+        },
+        {
+          "ref": "H15",
+          "native_triangle_sha256": "54685c9fcff07bb546c4f47ae9b4f590c2647b99dca89271bd3b362944dcbfc1",
+          "expected_triangle_sha256": "54685c9fcff07bb546c4f47ae9b4f590c2647b99dca89271bd3b362944dcbfc1",
+          "status": "PASS"
+        },
+        {
+          "ref": "H160",
+          "native_triangle_sha256": "7476283184ad5d7bc5006cb50274cec55cf55a93c88b53935ec7c84f4e7dfde9",
+          "expected_triangle_sha256": "7476283184ad5d7bc5006cb50274cec55cf55a93c88b53935ec7c84f4e7dfde9",
+          "status": "PASS"
+        },
+        {
+          "ref": "H161",
+          "native_triangle_sha256": "92407c4e3ffeb340e2704b7fcad1fed16e951821d33482315a68c4a9fa23445b",
+          "expected_triangle_sha256": "92407c4e3ffeb340e2704b7fcad1fed16e951821d33482315a68c4a9fa23445b",
+          "status": "PASS"
+        },
+        {
+          "ref": "H170",
+          "native_triangle_sha256": "40f6d3b19d44674f067ba42ebbc96b9f1533e89278c113bbf2558bc8388a2f2b",
+          "expected_triangle_sha256": "40f6d3b19d44674f067ba42ebbc96b9f1533e89278c113bbf2558bc8388a2f2b",
+          "status": "PASS"
+        },
+        {
+          "ref": "H171",
+          "native_triangle_sha256": "6df4734a02eab1004914243843dd2cbafd706014d803e44ddd8df1a0e61a3128",
+          "expected_triangle_sha256": "6df4734a02eab1004914243843dd2cbafd706014d803e44ddd8df1a0e61a3128",
+          "status": "PASS"
+        },
+        {
+          "ref": "H180",
+          "native_triangle_sha256": "cdfb266a31975f9954b8d395696a0b520380525342d1cd6b9ce6e42d425df10f",
+          "expected_triangle_sha256": "cdfb266a31975f9954b8d395696a0b520380525342d1cd6b9ce6e42d425df10f",
+          "status": "PASS"
+        },
+        {
+          "ref": "H181",
+          "native_triangle_sha256": "0ec363f90a1bf5dce8e09ede924f0a5ebdaf354e528c6d936152e1681169e211",
+          "expected_triangle_sha256": "0ec363f90a1bf5dce8e09ede924f0a5ebdaf354e528c6d936152e1681169e211",
+          "status": "PASS"
+        },
+        {
+          "ref": "H190",
+          "native_triangle_sha256": "9679902062050e9d4f47e9ffa92af99f1d4b9d443fe1090a0777e172f3394b00",
+          "expected_triangle_sha256": "9679902062050e9d4f47e9ffa92af99f1d4b9d443fe1090a0777e172f3394b00",
+          "status": "PASS"
+        },
+        {
+          "ref": "H191",
+          "native_triangle_sha256": "1791749fb52e5d6cc1cc1624c51f86626e6c64a06ecae817ff863f8d559bbef2",
+          "expected_triangle_sha256": "1791749fb52e5d6cc1cc1624c51f86626e6c64a06ecae817ff863f8d559bbef2",
+          "status": "PASS"
+        },
+        {
+          "ref": "H20",
+          "native_triangle_sha256": "bb5f441d1ecbdf9ae7a68738afc544296a299dfc72c85af3068e0250b4aac688",
+          "expected_triangle_sha256": "bb5f441d1ecbdf9ae7a68738afc544296a299dfc72c85af3068e0250b4aac688",
+          "status": "PASS"
+        },
+        {
+          "ref": "H21",
+          "native_triangle_sha256": "38a6d447bd90e3a56c4dbb18b4fee332680320c9e48b6f6519e7273c878757dc",
+          "expected_triangle_sha256": "38a6d447bd90e3a56c4dbb18b4fee332680320c9e48b6f6519e7273c878757dc",
+          "status": "PASS"
+        },
+        {
+          "ref": "H22",
+          "native_triangle_sha256": "e57cc2413b6bc7dc816941b51680bb326bce4d9db81af6999500420df9e3a407",
+          "expected_triangle_sha256": "e57cc2413b6bc7dc816941b51680bb326bce4d9db81af6999500420df9e3a407",
+          "status": "PASS"
+        },
+        {
+          "ref": "H23",
+          "native_triangle_sha256": "da61d198ce837dc0bca6e7356fa810fd0aca2274f7785fcdb9ad26fe8fc90436",
+          "expected_triangle_sha256": "da61d198ce837dc0bca6e7356fa810fd0aca2274f7785fcdb9ad26fe8fc90436",
+          "status": "PASS"
+        },
+        {
+          "ref": "H240",
+          "native_triangle_sha256": "ace2bf8ad9203cc706a05c55b1e5eafcdee16afa3e0bb4f80d202f5efa76ee7e",
+          "expected_triangle_sha256": "ace2bf8ad9203cc706a05c55b1e5eafcdee16afa3e0bb4f80d202f5efa76ee7e",
+          "status": "PASS"
+        },
+        {
+          "ref": "H241",
+          "native_triangle_sha256": "51ef2876375f5eb2e52e1c087e8a4af4107144880a40bc5cd570d7272ad0bb1c",
+          "expected_triangle_sha256": "51ef2876375f5eb2e52e1c087e8a4af4107144880a40bc5cd570d7272ad0bb1c",
+          "status": "PASS"
+        },
+        {
+          "ref": "H242",
+          "native_triangle_sha256": "12c87d184c98f8c5853336f61861bb7920dde095d4e9f6a41e42e328e793bcff",
+          "expected_triangle_sha256": "12c87d184c98f8c5853336f61861bb7920dde095d4e9f6a41e42e328e793bcff",
+          "status": "PASS"
+        },
+        {
+          "ref": "H243",
+          "native_triangle_sha256": "96862533f03dd2967612f1b0a724794ff439504fc9c445815ed86b1f435ff027",
+          "expected_triangle_sha256": "96862533f03dd2967612f1b0a724794ff439504fc9c445815ed86b1f435ff027",
+          "status": "PASS"
+        },
+        {
+          "ref": "H250",
+          "native_triangle_sha256": "33b0a3d85a422e525d99d14c8ce38d13e8e814fa354ff7ecf7fd8991db1d0ae1",
+          "expected_triangle_sha256": "33b0a3d85a422e525d99d14c8ce38d13e8e814fa354ff7ecf7fd8991db1d0ae1",
+          "status": "PASS"
+        },
+        {
+          "ref": "H251",
+          "native_triangle_sha256": "217db2a5448745fc5891f33f555e9155193ba2142a1c072520ec37086f415acd",
+          "expected_triangle_sha256": "217db2a5448745fc5891f33f555e9155193ba2142a1c072520ec37086f415acd",
+          "status": "PASS"
+        },
+        {
+          "ref": "H252",
+          "native_triangle_sha256": "63dba444481914d3e9851104c52616071dd6c8313514ac70cb23980dd538b464",
+          "expected_triangle_sha256": "63dba444481914d3e9851104c52616071dd6c8313514ac70cb23980dd538b464",
+          "status": "PASS"
+        },
+        {
+          "ref": "H253",
+          "native_triangle_sha256": "431767c7afc514a6d4d7cb0cea76131db935b434ee3835ada7d125494103fc84",
+          "expected_triangle_sha256": "431767c7afc514a6d4d7cb0cea76131db935b434ee3835ada7d125494103fc84",
+          "status": "PASS"
+        },
+        {
+          "ref": "H260",
+          "native_triangle_sha256": "096110edd361b0645e95a328e91d89de4608c7b47a853754b02aafffc14e9e4f",
+          "expected_triangle_sha256": "096110edd361b0645e95a328e91d89de4608c7b47a853754b02aafffc14e9e4f",
+          "status": "PASS"
+        },
+        {
+          "ref": "H261",
+          "native_triangle_sha256": "ba06cd7a07d69741fc60b0756c91ae67eccfbb292fe05fdf0fea6afb4818e05d",
+          "expected_triangle_sha256": "ba06cd7a07d69741fc60b0756c91ae67eccfbb292fe05fdf0fea6afb4818e05d",
+          "status": "PASS"
+        },
+        {
+          "ref": "H270",
+          "native_triangle_sha256": "626a66fd34d0b24a22330bdca6c7652abcc54bdbec1d2cfb1c1b662dd82dda2e",
+          "expected_triangle_sha256": "626a66fd34d0b24a22330bdca6c7652abcc54bdbec1d2cfb1c1b662dd82dda2e",
+          "status": "PASS"
+        },
+        {
+          "ref": "H271",
+          "native_triangle_sha256": "fc0418a5cd297e0e497d878c088efae2533652802213bd47262b159fa30d3916",
+          "expected_triangle_sha256": "fc0418a5cd297e0e497d878c088efae2533652802213bd47262b159fa30d3916",
+          "status": "PASS"
+        },
+        {
+          "ref": "H280",
+          "native_triangle_sha256": "2d62cb8ba6b9a6bfcbbb62df29533e2df615c4a65b78cc9102628c283365dd9b",
+          "expected_triangle_sha256": "2d62cb8ba6b9a6bfcbbb62df29533e2df615c4a65b78cc9102628c283365dd9b",
+          "status": "PASS"
+        },
+        {
+          "ref": "H281",
+          "native_triangle_sha256": "812354a8e929ab34e615fa711c9d2d050a3ee9e2e58ca983b12ebb24092359c2",
+          "expected_triangle_sha256": "812354a8e929ab34e615fa711c9d2d050a3ee9e2e58ca983b12ebb24092359c2",
+          "status": "PASS"
+        },
+        {
+          "ref": "H290",
+          "native_triangle_sha256": "c26331a6f7b2638fa69a92d42a5e4eedf14f1480e38fd13f68036ca6c634522a",
+          "expected_triangle_sha256": "c26331a6f7b2638fa69a92d42a5e4eedf14f1480e38fd13f68036ca6c634522a",
+          "status": "PASS"
+        },
+        {
+          "ref": "H291",
+          "native_triangle_sha256": "ce9cb0d8de48fef147301b825ba0ffac82ed5914d0ea72fc6d8833e954ecdd71",
+          "expected_triangle_sha256": "ce9cb0d8de48fef147301b825ba0ffac82ed5914d0ea72fc6d8833e954ecdd71",
+          "status": "PASS"
+        },
+        {
+          "ref": "H300a",
+          "native_triangle_sha256": "7b1ba88fa919421a5f60ca99df9219a06252b6446358ff737abc296937d98422",
+          "expected_triangle_sha256": "7b1ba88fa919421a5f60ca99df9219a06252b6446358ff737abc296937d98422",
+          "status": "PASS"
+        },
+        {
+          "ref": "H300b",
+          "native_triangle_sha256": "ff5c2e19bbc7d8a9579af705988a88532b9a9973ed975c83e415f25480da9095",
+          "expected_triangle_sha256": "ff5c2e19bbc7d8a9579af705988a88532b9a9973ed975c83e415f25480da9095",
+          "status": "PASS"
+        },
+        {
+          "ref": "H301a",
+          "native_triangle_sha256": "3add5d279284e7f6a39458e83038fcacde02cd510d4e557304b83ceaee4045f6",
+          "expected_triangle_sha256": "3add5d279284e7f6a39458e83038fcacde02cd510d4e557304b83ceaee4045f6",
+          "status": "PASS"
+        },
+        {
+          "ref": "H301b",
+          "native_triangle_sha256": "472973fbec252fd9d53fb8aa80f12f00cbb189a0316a514a76f7b4c8982c99b0",
+          "expected_triangle_sha256": "472973fbec252fd9d53fb8aa80f12f00cbb189a0316a514a76f7b4c8982c99b0",
+          "status": "PASS"
+        },
+        {
+          "ref": "H310",
+          "native_triangle_sha256": "fa5dcf8beb5bd9448bfdecf4e5b60aec334aa69a78d37942d9d581de7673877e",
+          "expected_triangle_sha256": "fa5dcf8beb5bd9448bfdecf4e5b60aec334aa69a78d37942d9d581de7673877e",
+          "status": "PASS"
+        },
+        {
+          "ref": "H311",
+          "native_triangle_sha256": "d7c59d5e0fa3b22429369d17553bbecf223d886356a6e5e4fade063735d5d603",
+          "expected_triangle_sha256": "d7c59d5e0fa3b22429369d17553bbecf223d886356a6e5e4fade063735d5d603",
+          "status": "PASS"
+        },
+        {
+          "ref": "H320",
+          "native_triangle_sha256": "99b6f4b691af2eae8813a688091ab6b657529f9335489410d3f799f7803df104",
+          "expected_triangle_sha256": "99b6f4b691af2eae8813a688091ab6b657529f9335489410d3f799f7803df104",
+          "status": "PASS"
+        },
+        {
+          "ref": "H321",
+          "native_triangle_sha256": "679470494853df3bbfcca4be4940936898816609d0eaa98e892b3f9bc71934f0",
+          "expected_triangle_sha256": "679470494853df3bbfcca4be4940936898816609d0eaa98e892b3f9bc71934f0",
+          "status": "PASS"
+        },
+        {
+          "ref": "P01",
+          "native_triangle_sha256": "9c6e87a6a85dd6916d37f6422dd5a021934d5713d47324039e4570ff93e20c31",
+          "expected_triangle_sha256": "9c6e87a6a85dd6916d37f6422dd5a021934d5713d47324039e4570ff93e20c31",
+          "status": "PASS"
+        },
+        {
+          "ref": "P02",
+          "native_triangle_sha256": "e43a1465ada3cdb170c936a9940f36acc5efe0260ac440a76f8fffef58ae7e14",
+          "expected_triangle_sha256": "e43a1465ada3cdb170c936a9940f36acc5efe0260ac440a76f8fffef58ae7e14",
+          "status": "PASS"
+        },
+        {
+          "ref": "P04",
+          "native_triangle_sha256": "0157cf8fdacdae20f6464dd065ecdcc47bd1430ffffbd6df59f46caccbf4d475",
+          "expected_triangle_sha256": "0157cf8fdacdae20f6464dd065ecdcc47bd1430ffffbd6df59f46caccbf4d475",
+          "status": "PASS"
+        },
+        {
+          "ref": "P05",
+          "native_triangle_sha256": "65dd5e9d019ec722885847af25e4b2986eb76893f5ecd0a2e436c4ccefd94c33",
+          "expected_triangle_sha256": "65dd5e9d019ec722885847af25e4b2986eb76893f5ecd0a2e436c4ccefd94c33",
+          "status": "PASS"
+        },
+        {
+          "ref": "P060",
+          "native_triangle_sha256": "ce9d7b2a3eda8eedd8456fd4a3462543bfe6cce9fda12cde4fc10e4b26ad92fd",
+          "expected_triangle_sha256": "ce9d7b2a3eda8eedd8456fd4a3462543bfe6cce9fda12cde4fc10e4b26ad92fd",
+          "status": "PASS"
+        },
+        {
+          "ref": "P061",
+          "native_triangle_sha256": "3b91e0358bb7ca9372e11015941b1c1932abc4bd3bc1ef60969af9c35dfc4cd8",
+          "expected_triangle_sha256": "3b91e0358bb7ca9372e11015941b1c1932abc4bd3bc1ef60969af9c35dfc4cd8",
+          "status": "PASS"
+        },
+        {
+          "ref": "P070a",
+          "native_triangle_sha256": "b55040a0fd589c13189f6a45c40144112aea80b637319b2ac0e02f1fc011bec9",
+          "expected_triangle_sha256": "b55040a0fd589c13189f6a45c40144112aea80b637319b2ac0e02f1fc011bec9",
+          "status": "PASS"
+        },
+        {
+          "ref": "P070b",
+          "native_triangle_sha256": "dbd288fbc4e2e22031ef040c1d131ca1dbb2cf828ba5c2823b842961f55d2c8f",
+          "expected_triangle_sha256": "dbd288fbc4e2e22031ef040c1d131ca1dbb2cf828ba5c2823b842961f55d2c8f",
+          "status": "PASS"
+        },
+        {
+          "ref": "P071a",
+          "native_triangle_sha256": "a718ff8f81b88fef3e95e94e063e1df85c507252d71c4916e97022e554bf7217",
+          "expected_triangle_sha256": "a718ff8f81b88fef3e95e94e063e1df85c507252d71c4916e97022e554bf7217",
+          "status": "PASS"
+        },
+        {
+          "ref": "P071b",
+          "native_triangle_sha256": "e073b335d5fc10407440335fdcbc25a0ed50a1590c84631111fa15079bee464b",
+          "expected_triangle_sha256": "e073b335d5fc10407440335fdcbc25a0ed50a1590c84631111fa15079bee464b",
+          "status": "PASS"
+        },
+        {
+          "ref": "P08",
+          "native_triangle_sha256": "b6e0438f7df86ff98a3984eb9301d644d45246ae2328ab014fc542273945a49a",
+          "expected_triangle_sha256": "b6e0438f7df86ff98a3984eb9301d644d45246ae2328ab014fc542273945a49a",
+          "status": "PASS"
+        },
+        {
+          "ref": "P09",
+          "native_triangle_sha256": "4816eb2702fe7d67f214fc25e22b331d4d4b7e2771cc2039cd80c196699b8fdf",
+          "expected_triangle_sha256": "4816eb2702fe7d67f214fc25e22b331d4d4b7e2771cc2039cd80c196699b8fdf",
+          "status": "PASS"
+        },
+        {
+          "ref": "P10",
+          "native_triangle_sha256": "56f14f520b4e461a842eb31b2a6abc5ac384b7dd52cb670c092cf1f65d04fa6d",
+          "expected_triangle_sha256": "56f14f520b4e461a842eb31b2a6abc5ac384b7dd52cb670c092cf1f65d04fa6d",
+          "status": "PASS"
+        },
+        {
+          "ref": "P11",
+          "native_triangle_sha256": "eef6eadeb09d08e45a46ae8c0eaf23f896bdb4714bc41fbbf84a0725b7a14dc1",
+          "expected_triangle_sha256": "eef6eadeb09d08e45a46ae8c0eaf23f896bdb4714bc41fbbf84a0725b7a14dc1",
+          "status": "PASS"
+        },
+        {
+          "ref": "P120",
+          "native_triangle_sha256": "11cf472768f2b30f2996b945605a9ff08423a5e4ce49bc728cc0d7ae19040112",
+          "expected_triangle_sha256": "11cf472768f2b30f2996b945605a9ff08423a5e4ce49bc728cc0d7ae19040112",
+          "status": "PASS"
+        },
+        {
+          "ref": "P121",
+          "native_triangle_sha256": "a1fb988d64b546dfd1b41ec3b3638ead51b2e4093280b8e82593246101669c69",
+          "expected_triangle_sha256": "a1fb988d64b546dfd1b41ec3b3638ead51b2e4093280b8e82593246101669c69",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C1",
+          "native_triangle_sha256": "af56f716b7ba41892b0b11499415e2c1a665f4b2c7e07da8f6683d6fe4de5119",
+          "expected_triangle_sha256": "af56f716b7ba41892b0b11499415e2c1a665f4b2c7e07da8f6683d6fe4de5119",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C10",
+          "native_triangle_sha256": "d724ab51736a3e473386e7d4e05dd1199e9ba1684bc8e6d66b317a0b66edf650",
+          "expected_triangle_sha256": "d724ab51736a3e473386e7d4e05dd1199e9ba1684bc8e6d66b317a0b66edf650",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C11",
+          "native_triangle_sha256": "da56cdb7845ceb3b009e96931fb7dc13e3465c36962d6369cf5e1db621341df6",
+          "expected_triangle_sha256": "da56cdb7845ceb3b009e96931fb7dc13e3465c36962d6369cf5e1db621341df6",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C12",
+          "native_triangle_sha256": "19433a9e127bf2bccf5890bbc9bcf9042c1c4a60dfc9eb9f3cce04dea8409cf8",
+          "expected_triangle_sha256": "19433a9e127bf2bccf5890bbc9bcf9042c1c4a60dfc9eb9f3cce04dea8409cf8",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C13",
+          "native_triangle_sha256": "60180602c8fb310ff7c52d43037d82ffb6cae0448f6378eb18bd419a1812874b",
+          "expected_triangle_sha256": "60180602c8fb310ff7c52d43037d82ffb6cae0448f6378eb18bd419a1812874b",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C14",
+          "native_triangle_sha256": "d0239b5e282acc5ec1da523395010a917f5e8929d037d822515453b4d11cae68",
+          "expected_triangle_sha256": "d0239b5e282acc5ec1da523395010a917f5e8929d037d822515453b4d11cae68",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C15",
+          "native_triangle_sha256": "704128ce5e95bd2fe1832bdb72d0bbdf032143d3bc1425316f46378864b3399f",
+          "expected_triangle_sha256": "704128ce5e95bd2fe1832bdb72d0bbdf032143d3bc1425316f46378864b3399f",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C16",
+          "native_triangle_sha256": "1489eb7d9f337eeebe304f3e0d4baabb2d62e5c765a2fb8c31cdb064271f9499",
+          "expected_triangle_sha256": "1489eb7d9f337eeebe304f3e0d4baabb2d62e5c765a2fb8c31cdb064271f9499",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C2",
+          "native_triangle_sha256": "34f568e3c656447d0ed191906904bd9abd73d048495f22f4fa7b8b84f2e22a46",
+          "expected_triangle_sha256": "34f568e3c656447d0ed191906904bd9abd73d048495f22f4fa7b8b84f2e22a46",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C3",
+          "native_triangle_sha256": "999501f6e3bd72e832eb3f2542ab0824a56b021e87962c88e2c5147eec324aa4",
+          "expected_triangle_sha256": "999501f6e3bd72e832eb3f2542ab0824a56b021e87962c88e2c5147eec324aa4",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C4",
+          "native_triangle_sha256": "0ddcbc22f1ff80250bf9dfe0459e68ac25588392456a1541480e61e481b3a072",
+          "expected_triangle_sha256": "0ddcbc22f1ff80250bf9dfe0459e68ac25588392456a1541480e61e481b3a072",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C5",
+          "native_triangle_sha256": "3dd4eb67f74b0a8e976007ab152ce8272a92d6e441481fdc7060dac79f435592",
+          "expected_triangle_sha256": "3dd4eb67f74b0a8e976007ab152ce8272a92d6e441481fdc7060dac79f435592",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C6",
+          "native_triangle_sha256": "8de8cfe984957d7e09a17d86b21317b04c777001232bad626b41ee03a28b6af5",
+          "expected_triangle_sha256": "8de8cfe984957d7e09a17d86b21317b04c777001232bad626b41ee03a28b6af5",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C7",
+          "native_triangle_sha256": "e9d8e4fa108d4ce4006276d1449d04217101332a6f38ffa1137ba6fc68e73439",
+          "expected_triangle_sha256": "e9d8e4fa108d4ce4006276d1449d04217101332a6f38ffa1137ba6fc68e73439",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C8",
+          "native_triangle_sha256": "cc0c42ec7b164adcaa93481aa3123cc914efd1673424f06392b9115c26ba4a10",
+          "expected_triangle_sha256": "cc0c42ec7b164adcaa93481aa3123cc914efd1673424f06392b9115c26ba4a10",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C9",
+          "native_triangle_sha256": "1fe307491f23d5bf4742512c4870826cc379d7a3d9df97c0c8610c9895a63dd3",
+          "expected_triangle_sha256": "1fe307491f23d5bf4742512c4870826cc379d7a3d9df97c0c8610c9895a63dd3",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_D1",
+          "native_triangle_sha256": "b1f9a20fc6a40d04b537df7fddb388daa544505e85de0f1e3784c4709ab35b16",
+          "expected_triangle_sha256": "b1f9a20fc6a40d04b537df7fddb388daa544505e85de0f1e3784c4709ab35b16",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_J1",
+          "native_triangle_sha256": "2435bd0b89f766e6c79f8c2668080a9dd6d0da3fe513441ff6b154efb372b5d6",
+          "expected_triangle_sha256": "2435bd0b89f766e6c79f8c2668080a9dd6d0da3fe513441ff6b154efb372b5d6",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_J2",
+          "native_triangle_sha256": "920af48c6952213869954cf7d8f3bfdf206b62923987c5be9197df68151a2ed3",
+          "expected_triangle_sha256": "920af48c6952213869954cf7d8f3bfdf206b62923987c5be9197df68151a2ed3",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_J3",
+          "native_triangle_sha256": "ce864c98c89fb793fa8529db8b3a785e7b61bf0cb789c4953c9f5202d0e329c6",
+          "expected_triangle_sha256": "ce864c98c89fb793fa8529db8b3a785e7b61bf0cb789c4953c9f5202d0e329c6",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_L1",
+          "native_triangle_sha256": "958f3a8fa90c0897356042d42e3717c093bb8f0e1abcdfcc7cdbb705ce0729cf",
+          "expected_triangle_sha256": "958f3a8fa90c0897356042d42e3717c093bb8f0e1abcdfcc7cdbb705ce0729cf",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_Q1",
+          "native_triangle_sha256": "0dffe76f2b81b74757565a778753ae191f8672cbf96725c465dbb90b1c82b933",
+          "expected_triangle_sha256": "0dffe76f2b81b74757565a778753ae191f8672cbf96725c465dbb90b1c82b933",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R1",
+          "native_triangle_sha256": "d00079067d35fd5fc69d84926d4dd0a328c0dcf862bc1d934c17c06922d5ae93",
+          "expected_triangle_sha256": "d00079067d35fd5fc69d84926d4dd0a328c0dcf862bc1d934c17c06922d5ae93",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R10",
+          "native_triangle_sha256": "bd6c8b9918d283e3b05e69899ab360c9ccbc9155b0025a115bd299131ead9fde",
+          "expected_triangle_sha256": "bd6c8b9918d283e3b05e69899ab360c9ccbc9155b0025a115bd299131ead9fde",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R11",
+          "native_triangle_sha256": "91f5ae5240be8dc7e3a825798ef612d93c9702e1a306ea658db159276991064b",
+          "expected_triangle_sha256": "91f5ae5240be8dc7e3a825798ef612d93c9702e1a306ea658db159276991064b",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R12",
+          "native_triangle_sha256": "43be57aa9259ef081478564db4798bf2e2074ad0707f90bde7f4a580075fad55",
+          "expected_triangle_sha256": "43be57aa9259ef081478564db4798bf2e2074ad0707f90bde7f4a580075fad55",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R13",
+          "native_triangle_sha256": "ee84bf4e3fe2d71fe3a7b30ecfdb28253f0881835133ef36025e5e394e7c4a6d",
+          "expected_triangle_sha256": "ee84bf4e3fe2d71fe3a7b30ecfdb28253f0881835133ef36025e5e394e7c4a6d",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R14",
+          "native_triangle_sha256": "9c8fb7e58d206d4d39d858967a8a8b7a24ff52ad3ecf657bacb59fed48b645c5",
+          "expected_triangle_sha256": "9c8fb7e58d206d4d39d858967a8a8b7a24ff52ad3ecf657bacb59fed48b645c5",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R15",
+          "native_triangle_sha256": "cdd52d61fae8ade4b39b63a3d7be1ab7cf82bf92ea77e2311b0e3032e792c4aa",
+          "expected_triangle_sha256": "cdd52d61fae8ade4b39b63a3d7be1ab7cf82bf92ea77e2311b0e3032e792c4aa",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R16",
+          "native_triangle_sha256": "5635742a2c36b17dc60174e215e3fef39d2a16aca53eeaad16abe21a56f2c551",
+          "expected_triangle_sha256": "5635742a2c36b17dc60174e215e3fef39d2a16aca53eeaad16abe21a56f2c551",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R17",
+          "native_triangle_sha256": "f9d2a9276f5bab027bc536674787a2282e4a41394686eb4b0f6927fc700546f0",
+          "expected_triangle_sha256": "f9d2a9276f5bab027bc536674787a2282e4a41394686eb4b0f6927fc700546f0",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R18",
+          "native_triangle_sha256": "85c3d058cfb62f288b1eeb985754cf0d297834065eceba81bacba90609f5bed1",
+          "expected_triangle_sha256": "85c3d058cfb62f288b1eeb985754cf0d297834065eceba81bacba90609f5bed1",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R19",
+          "native_triangle_sha256": "01eb08295aaf38b6de213a59d0293afc2795e95aa6440c95b38aa049f0dbb3be",
+          "expected_triangle_sha256": "01eb08295aaf38b6de213a59d0293afc2795e95aa6440c95b38aa049f0dbb3be",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R2",
+          "native_triangle_sha256": "0d4a669ccc3bacceb6067726fad3a4956674e60f514b4c2a983cc095e4e1c751",
+          "expected_triangle_sha256": "0d4a669ccc3bacceb6067726fad3a4956674e60f514b4c2a983cc095e4e1c751",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R20",
+          "native_triangle_sha256": "811db73bbc3db3f68e2228264692c8fa2e6b5fd43f08cb5eec0eca7beb3e2ee1",
+          "expected_triangle_sha256": "811db73bbc3db3f68e2228264692c8fa2e6b5fd43f08cb5eec0eca7beb3e2ee1",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R21",
+          "native_triangle_sha256": "b27d3c40f81e24657fcef7cb40342a65398ea5ad6f80fd1aa5432336ad8c9d11",
+          "expected_triangle_sha256": "b27d3c40f81e24657fcef7cb40342a65398ea5ad6f80fd1aa5432336ad8c9d11",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R3",
+          "native_triangle_sha256": "31aff397ad05c6c89e666dfdc0394202acee49a92543616fa1f6a286dfd0b1e3",
+          "expected_triangle_sha256": "31aff397ad05c6c89e666dfdc0394202acee49a92543616fa1f6a286dfd0b1e3",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R4",
+          "native_triangle_sha256": "11118d84713ce230b3798ddec96074d611a247990d70ba883331877fdc7a27e5",
+          "expected_triangle_sha256": "11118d84713ce230b3798ddec96074d611a247990d70ba883331877fdc7a27e5",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R5",
+          "native_triangle_sha256": "1f22bfcccd31f3457c57eedd5b65ff95adc94acb57fcb931081365cb1c4b874b",
+          "expected_triangle_sha256": "1f22bfcccd31f3457c57eedd5b65ff95adc94acb57fcb931081365cb1c4b874b",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R6",
+          "native_triangle_sha256": "ca2de5d10bf608a275e1e814be287761859a369ca46524b04a49dadaccb6a94e",
+          "expected_triangle_sha256": "ca2de5d10bf608a275e1e814be287761859a369ca46524b04a49dadaccb6a94e",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R7",
+          "native_triangle_sha256": "59a39126f80a04c30196dd7903bf9e91e44c37f0139c7f148a3dba71a11f5b6c",
+          "expected_triangle_sha256": "59a39126f80a04c30196dd7903bf9e91e44c37f0139c7f148a3dba71a11f5b6c",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R8",
+          "native_triangle_sha256": "736b1fb337252f69f6b065b7dbc9fb6840e457f24b8f826b71e87dc71c12807c",
+          "expected_triangle_sha256": "736b1fb337252f69f6b065b7dbc9fb6840e457f24b8f826b71e87dc71c12807c",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R9",
+          "native_triangle_sha256": "1e38ee2575ee36cf4d6060e878852f23cd744543a7ce70529cbe6c6f64403828",
+          "expected_triangle_sha256": "1e38ee2575ee36cf4d6060e878852f23cd744543a7ce70529cbe6c6f64403828",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_SW2",
+          "native_triangle_sha256": "fbdb813d9c5de845d03f04e7857116b6997ef2504b7c2cced1064d74fb531a81",
+          "expected_triangle_sha256": "fbdb813d9c5de845d03f04e7857116b6997ef2504b7c2cced1064d74fb531a81",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_U1",
+          "native_triangle_sha256": "fc1caa2d647886ecb4b22a4b2fcb9322b3f8f74b62ff010db1dddf6c1e977c02",
+          "expected_triangle_sha256": "fc1caa2d647886ecb4b22a4b2fcb9322b3f8f74b62ff010db1dddf6c1e977c02",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_U2",
+          "native_triangle_sha256": "d4950d20a5780e885007ec8afc48986f2df64618a54de6be024e4abb84023949",
+          "expected_triangle_sha256": "d4950d20a5780e885007ec8afc48986f2df64618a54de6be024e4abb84023949",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_U3",
+          "native_triangle_sha256": "5bd07a14a7950135819e5288bc74e1b00911afdc7f400d71c7d037e8be6bf94e",
+          "expected_triangle_sha256": "5bd07a14a7950135819e5288bc74e1b00911afdc7f400d71c7d037e8be6bf94e",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_U4",
+          "native_triangle_sha256": "6b4333acb8b3297c67589317b2b1582eae7c717da3922b842021d49658da9dad",
+          "expected_triangle_sha256": "6b4333acb8b3297c67589317b2b1582eae7c717da3922b842021d49658da9dad",
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "pose": "isometric13_p2_81",
+      "archive": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-palm-cover-2026-10-23/native/Flat132_R8_isometric13_p2_81_final.zip",
+      "sha256": "db588efae69783e42f0db39523cfb8f337f60fd575372bfef093443e2995b541",
+      "baseline_native_pose_sha256": "6f4d9368f0f1337a3dbd2f98334e8eb95b30e9d9dca48a62b377f1d7991482c6",
+      "status": "PASS",
+      "scope": "Changed fixed P02 matches native R8 neutral; all122 other complete native posed bodies match equivalent frozen R7 pose exactly, ignoring only triangle/vertex order. No archive renaming/relabeling.",
+      "checks": [
+        {
+          "ref": "E01",
+          "native_triangle_sha256": "d6b61d155f5e88292ee14ba190efdbbce7321d747da286f517188115cc03a07b",
+          "expected_triangle_sha256": "d6b61d155f5e88292ee14ba190efdbbce7321d747da286f517188115cc03a07b",
+          "status": "PASS"
+        },
+        {
+          "ref": "E05",
+          "native_triangle_sha256": "24227fe56a4f0738fe73d8b931da3c7f5671f9cbc92cbef96637c791a15ed906",
+          "expected_triangle_sha256": "24227fe56a4f0738fe73d8b931da3c7f5671f9cbc92cbef96637c791a15ed906",
+          "status": "PASS"
+        },
+        {
+          "ref": "E06",
+          "native_triangle_sha256": "c1a945dda35d094eef0cacf62a386009c36a3b0cf87a7dd9645550fb8efefd07",
+          "expected_triangle_sha256": "c1a945dda35d094eef0cacf62a386009c36a3b0cf87a7dd9645550fb8efefd07",
+          "status": "PASS"
+        },
+        {
+          "ref": "E07",
+          "native_triangle_sha256": "0ccb8f627f82042b0dde7da94fe0168b7410edcdecab7c8ff5d0c89234547301",
+          "expected_triangle_sha256": "0ccb8f627f82042b0dde7da94fe0168b7410edcdecab7c8ff5d0c89234547301",
+          "status": "PASS"
+        },
+        {
+          "ref": "E08",
+          "native_triangle_sha256": "05e155b6dd534c923874de8c114901414682a470c75ace497e09cfa820da9615",
+          "expected_triangle_sha256": "05e155b6dd534c923874de8c114901414682a470c75ace497e09cfa820da9615",
+          "status": "PASS"
+        },
+        {
+          "ref": "H01",
+          "native_triangle_sha256": "85a1482c42648828a08868b1677c87d60067e2f400770b8e0ef812fe69b34663",
+          "expected_triangle_sha256": "85a1482c42648828a08868b1677c87d60067e2f400770b8e0ef812fe69b34663",
+          "status": "PASS"
+        },
+        {
+          "ref": "H02",
+          "native_triangle_sha256": "d328c21b9568d2046eede904d8e5b62300fa03076bc3d2ad0dcc190839dc903b",
+          "expected_triangle_sha256": "d328c21b9568d2046eede904d8e5b62300fa03076bc3d2ad0dcc190839dc903b",
+          "status": "PASS"
+        },
+        {
+          "ref": "H040",
+          "native_triangle_sha256": "056eaf885db46e687fca6dca9bb2564b29136ffaefcac0611512fa13f2adf8e1",
+          "expected_triangle_sha256": "056eaf885db46e687fca6dca9bb2564b29136ffaefcac0611512fa13f2adf8e1",
+          "status": "PASS"
+        },
+        {
+          "ref": "H041",
+          "native_triangle_sha256": "b251db1457795eec59af0c4866bf84752811e19f2b8401d627220c0106b6c482",
+          "expected_triangle_sha256": "b251db1457795eec59af0c4866bf84752811e19f2b8401d627220c0106b6c482",
+          "status": "PASS"
+        },
+        {
+          "ref": "H050",
+          "native_triangle_sha256": "ce646cef8e7d2c13ff862254af7ed0d3d407812bfb40c92d1111b327aae8720b",
+          "expected_triangle_sha256": "ce646cef8e7d2c13ff862254af7ed0d3d407812bfb40c92d1111b327aae8720b",
+          "status": "PASS"
+        },
+        {
+          "ref": "H051",
+          "native_triangle_sha256": "71352014acce725c764173706b0548abc82a8dd59300413e73721a0f8a164a78",
+          "expected_triangle_sha256": "71352014acce725c764173706b0548abc82a8dd59300413e73721a0f8a164a78",
+          "status": "PASS"
+        },
+        {
+          "ref": "H060",
+          "native_triangle_sha256": "7ca86fbd422f9c407103fbb131dceabf34841ee42084ec1c1d94f2221aac3316",
+          "expected_triangle_sha256": "7ca86fbd422f9c407103fbb131dceabf34841ee42084ec1c1d94f2221aac3316",
+          "status": "PASS"
+        },
+        {
+          "ref": "H061",
+          "native_triangle_sha256": "97d93ca5c16e9e5d7b85ff046cc76360386d3c818f65ade5979399e0a0da8de6",
+          "expected_triangle_sha256": "97d93ca5c16e9e5d7b85ff046cc76360386d3c818f65ade5979399e0a0da8de6",
+          "status": "PASS"
+        },
+        {
+          "ref": "H09",
+          "native_triangle_sha256": "199ee52deb37d44ab1cafd775cc6f24277287572f266611acde7ac3d79acc762",
+          "expected_triangle_sha256": "199ee52deb37d44ab1cafd775cc6f24277287572f266611acde7ac3d79acc762",
+          "status": "PASS"
+        },
+        {
+          "ref": "H09a",
+          "native_triangle_sha256": "5f8a1d38ad05fb49a76082adf2cc5d0f97f787bd5ce5acb6821feaa6327a891b",
+          "expected_triangle_sha256": "5f8a1d38ad05fb49a76082adf2cc5d0f97f787bd5ce5acb6821feaa6327a891b",
+          "status": "PASS"
+        },
+        {
+          "ref": "H09b",
+          "native_triangle_sha256": "d42ed6661a6c4bc3896d24598d217657c573bb4cd5cc192ba0a1de016262be86",
+          "expected_triangle_sha256": "d42ed6661a6c4bc3896d24598d217657c573bb4cd5cc192ba0a1de016262be86",
+          "status": "PASS"
+        },
+        {
+          "ref": "H10",
+          "native_triangle_sha256": "1877e6f141813d1b00e896e60dfd2468f2a9767a382c9242aef7cef76a7e2cf2",
+          "expected_triangle_sha256": "1877e6f141813d1b00e896e60dfd2468f2a9767a382c9242aef7cef76a7e2cf2",
+          "status": "PASS"
+        },
+        {
+          "ref": "H11",
+          "native_triangle_sha256": "a87745e59560f582f670a8f5aaa9d6337ec5362781c038c213de361007c757be",
+          "expected_triangle_sha256": "a87745e59560f582f670a8f5aaa9d6337ec5362781c038c213de361007c757be",
+          "status": "PASS"
+        },
+        {
+          "ref": "H12",
+          "native_triangle_sha256": "e2b518b3812a1506ba898c31bae2bb2320a2e3ec78e4e3b9ea64295135847f75",
+          "expected_triangle_sha256": "e2b518b3812a1506ba898c31bae2bb2320a2e3ec78e4e3b9ea64295135847f75",
+          "status": "PASS"
+        },
+        {
+          "ref": "H13",
+          "native_triangle_sha256": "770e3532a14bf21da473d71dd8317f14511080e99bc6cc3d295d252422a0959a",
+          "expected_triangle_sha256": "770e3532a14bf21da473d71dd8317f14511080e99bc6cc3d295d252422a0959a",
+          "status": "PASS"
+        },
+        {
+          "ref": "H140",
+          "native_triangle_sha256": "22b12af5c1dff8c514c77f337dd194389732becff1ad1c7ce8634fb2d2c45d0b",
+          "expected_triangle_sha256": "22b12af5c1dff8c514c77f337dd194389732becff1ad1c7ce8634fb2d2c45d0b",
+          "status": "PASS"
+        },
+        {
+          "ref": "H141",
+          "native_triangle_sha256": "d2a858ee38a27eb214941f0a7e8e09168f0ffcd772aab51523cfaa170dd49cfa",
+          "expected_triangle_sha256": "d2a858ee38a27eb214941f0a7e8e09168f0ffcd772aab51523cfaa170dd49cfa",
+          "status": "PASS"
+        },
+        {
+          "ref": "H15",
+          "native_triangle_sha256": "54685c9fcff07bb546c4f47ae9b4f590c2647b99dca89271bd3b362944dcbfc1",
+          "expected_triangle_sha256": "54685c9fcff07bb546c4f47ae9b4f590c2647b99dca89271bd3b362944dcbfc1",
+          "status": "PASS"
+        },
+        {
+          "ref": "H160",
+          "native_triangle_sha256": "7476283184ad5d7bc5006cb50274cec55cf55a93c88b53935ec7c84f4e7dfde9",
+          "expected_triangle_sha256": "7476283184ad5d7bc5006cb50274cec55cf55a93c88b53935ec7c84f4e7dfde9",
+          "status": "PASS"
+        },
+        {
+          "ref": "H161",
+          "native_triangle_sha256": "92407c4e3ffeb340e2704b7fcad1fed16e951821d33482315a68c4a9fa23445b",
+          "expected_triangle_sha256": "92407c4e3ffeb340e2704b7fcad1fed16e951821d33482315a68c4a9fa23445b",
+          "status": "PASS"
+        },
+        {
+          "ref": "H170",
+          "native_triangle_sha256": "40f6d3b19d44674f067ba42ebbc96b9f1533e89278c113bbf2558bc8388a2f2b",
+          "expected_triangle_sha256": "40f6d3b19d44674f067ba42ebbc96b9f1533e89278c113bbf2558bc8388a2f2b",
+          "status": "PASS"
+        },
+        {
+          "ref": "H171",
+          "native_triangle_sha256": "6df4734a02eab1004914243843dd2cbafd706014d803e44ddd8df1a0e61a3128",
+          "expected_triangle_sha256": "6df4734a02eab1004914243843dd2cbafd706014d803e44ddd8df1a0e61a3128",
+          "status": "PASS"
+        },
+        {
+          "ref": "H180",
+          "native_triangle_sha256": "cdfb266a31975f9954b8d395696a0b520380525342d1cd6b9ce6e42d425df10f",
+          "expected_triangle_sha256": "cdfb266a31975f9954b8d395696a0b520380525342d1cd6b9ce6e42d425df10f",
+          "status": "PASS"
+        },
+        {
+          "ref": "H181",
+          "native_triangle_sha256": "0ec363f90a1bf5dce8e09ede924f0a5ebdaf354e528c6d936152e1681169e211",
+          "expected_triangle_sha256": "0ec363f90a1bf5dce8e09ede924f0a5ebdaf354e528c6d936152e1681169e211",
+          "status": "PASS"
+        },
+        {
+          "ref": "H190",
+          "native_triangle_sha256": "9679902062050e9d4f47e9ffa92af99f1d4b9d443fe1090a0777e172f3394b00",
+          "expected_triangle_sha256": "9679902062050e9d4f47e9ffa92af99f1d4b9d443fe1090a0777e172f3394b00",
+          "status": "PASS"
+        },
+        {
+          "ref": "H191",
+          "native_triangle_sha256": "1791749fb52e5d6cc1cc1624c51f86626e6c64a06ecae817ff863f8d559bbef2",
+          "expected_triangle_sha256": "1791749fb52e5d6cc1cc1624c51f86626e6c64a06ecae817ff863f8d559bbef2",
+          "status": "PASS"
+        },
+        {
+          "ref": "H20",
+          "native_triangle_sha256": "bb5f441d1ecbdf9ae7a68738afc544296a299dfc72c85af3068e0250b4aac688",
+          "expected_triangle_sha256": "bb5f441d1ecbdf9ae7a68738afc544296a299dfc72c85af3068e0250b4aac688",
+          "status": "PASS"
+        },
+        {
+          "ref": "H21",
+          "native_triangle_sha256": "38a6d447bd90e3a56c4dbb18b4fee332680320c9e48b6f6519e7273c878757dc",
+          "expected_triangle_sha256": "38a6d447bd90e3a56c4dbb18b4fee332680320c9e48b6f6519e7273c878757dc",
+          "status": "PASS"
+        },
+        {
+          "ref": "H22",
+          "native_triangle_sha256": "e57cc2413b6bc7dc816941b51680bb326bce4d9db81af6999500420df9e3a407",
+          "expected_triangle_sha256": "e57cc2413b6bc7dc816941b51680bb326bce4d9db81af6999500420df9e3a407",
+          "status": "PASS"
+        },
+        {
+          "ref": "H23",
+          "native_triangle_sha256": "da61d198ce837dc0bca6e7356fa810fd0aca2274f7785fcdb9ad26fe8fc90436",
+          "expected_triangle_sha256": "da61d198ce837dc0bca6e7356fa810fd0aca2274f7785fcdb9ad26fe8fc90436",
+          "status": "PASS"
+        },
+        {
+          "ref": "H240",
+          "native_triangle_sha256": "ace2bf8ad9203cc706a05c55b1e5eafcdee16afa3e0bb4f80d202f5efa76ee7e",
+          "expected_triangle_sha256": "ace2bf8ad9203cc706a05c55b1e5eafcdee16afa3e0bb4f80d202f5efa76ee7e",
+          "status": "PASS"
+        },
+        {
+          "ref": "H241",
+          "native_triangle_sha256": "51ef2876375f5eb2e52e1c087e8a4af4107144880a40bc5cd570d7272ad0bb1c",
+          "expected_triangle_sha256": "51ef2876375f5eb2e52e1c087e8a4af4107144880a40bc5cd570d7272ad0bb1c",
+          "status": "PASS"
+        },
+        {
+          "ref": "H242",
+          "native_triangle_sha256": "12c87d184c98f8c5853336f61861bb7920dde095d4e9f6a41e42e328e793bcff",
+          "expected_triangle_sha256": "12c87d184c98f8c5853336f61861bb7920dde095d4e9f6a41e42e328e793bcff",
+          "status": "PASS"
+        },
+        {
+          "ref": "H243",
+          "native_triangle_sha256": "96862533f03dd2967612f1b0a724794ff439504fc9c445815ed86b1f435ff027",
+          "expected_triangle_sha256": "96862533f03dd2967612f1b0a724794ff439504fc9c445815ed86b1f435ff027",
+          "status": "PASS"
+        },
+        {
+          "ref": "H250",
+          "native_triangle_sha256": "33b0a3d85a422e525d99d14c8ce38d13e8e814fa354ff7ecf7fd8991db1d0ae1",
+          "expected_triangle_sha256": "33b0a3d85a422e525d99d14c8ce38d13e8e814fa354ff7ecf7fd8991db1d0ae1",
+          "status": "PASS"
+        },
+        {
+          "ref": "H251",
+          "native_triangle_sha256": "217db2a5448745fc5891f33f555e9155193ba2142a1c072520ec37086f415acd",
+          "expected_triangle_sha256": "217db2a5448745fc5891f33f555e9155193ba2142a1c072520ec37086f415acd",
+          "status": "PASS"
+        },
+        {
+          "ref": "H252",
+          "native_triangle_sha256": "63dba444481914d3e9851104c52616071dd6c8313514ac70cb23980dd538b464",
+          "expected_triangle_sha256": "63dba444481914d3e9851104c52616071dd6c8313514ac70cb23980dd538b464",
+          "status": "PASS"
+        },
+        {
+          "ref": "H253",
+          "native_triangle_sha256": "431767c7afc514a6d4d7cb0cea76131db935b434ee3835ada7d125494103fc84",
+          "expected_triangle_sha256": "431767c7afc514a6d4d7cb0cea76131db935b434ee3835ada7d125494103fc84",
+          "status": "PASS"
+        },
+        {
+          "ref": "H260",
+          "native_triangle_sha256": "096110edd361b0645e95a328e91d89de4608c7b47a853754b02aafffc14e9e4f",
+          "expected_triangle_sha256": "096110edd361b0645e95a328e91d89de4608c7b47a853754b02aafffc14e9e4f",
+          "status": "PASS"
+        },
+        {
+          "ref": "H261",
+          "native_triangle_sha256": "ba06cd7a07d69741fc60b0756c91ae67eccfbb292fe05fdf0fea6afb4818e05d",
+          "expected_triangle_sha256": "ba06cd7a07d69741fc60b0756c91ae67eccfbb292fe05fdf0fea6afb4818e05d",
+          "status": "PASS"
+        },
+        {
+          "ref": "H270",
+          "native_triangle_sha256": "626a66fd34d0b24a22330bdca6c7652abcc54bdbec1d2cfb1c1b662dd82dda2e",
+          "expected_triangle_sha256": "626a66fd34d0b24a22330bdca6c7652abcc54bdbec1d2cfb1c1b662dd82dda2e",
+          "status": "PASS"
+        },
+        {
+          "ref": "H271",
+          "native_triangle_sha256": "fc0418a5cd297e0e497d878c088efae2533652802213bd47262b159fa30d3916",
+          "expected_triangle_sha256": "fc0418a5cd297e0e497d878c088efae2533652802213bd47262b159fa30d3916",
+          "status": "PASS"
+        },
+        {
+          "ref": "H280",
+          "native_triangle_sha256": "2d62cb8ba6b9a6bfcbbb62df29533e2df615c4a65b78cc9102628c283365dd9b",
+          "expected_triangle_sha256": "2d62cb8ba6b9a6bfcbbb62df29533e2df615c4a65b78cc9102628c283365dd9b",
+          "status": "PASS"
+        },
+        {
+          "ref": "H281",
+          "native_triangle_sha256": "812354a8e929ab34e615fa711c9d2d050a3ee9e2e58ca983b12ebb24092359c2",
+          "expected_triangle_sha256": "812354a8e929ab34e615fa711c9d2d050a3ee9e2e58ca983b12ebb24092359c2",
+          "status": "PASS"
+        },
+        {
+          "ref": "H290",
+          "native_triangle_sha256": "c26331a6f7b2638fa69a92d42a5e4eedf14f1480e38fd13f68036ca6c634522a",
+          "expected_triangle_sha256": "c26331a6f7b2638fa69a92d42a5e4eedf14f1480e38fd13f68036ca6c634522a",
+          "status": "PASS"
+        },
+        {
+          "ref": "H291",
+          "native_triangle_sha256": "ce9cb0d8de48fef147301b825ba0ffac82ed5914d0ea72fc6d8833e954ecdd71",
+          "expected_triangle_sha256": "ce9cb0d8de48fef147301b825ba0ffac82ed5914d0ea72fc6d8833e954ecdd71",
+          "status": "PASS"
+        },
+        {
+          "ref": "H300a",
+          "native_triangle_sha256": "7b1ba88fa919421a5f60ca99df9219a06252b6446358ff737abc296937d98422",
+          "expected_triangle_sha256": "7b1ba88fa919421a5f60ca99df9219a06252b6446358ff737abc296937d98422",
+          "status": "PASS"
+        },
+        {
+          "ref": "H300b",
+          "native_triangle_sha256": "ff5c2e19bbc7d8a9579af705988a88532b9a9973ed975c83e415f25480da9095",
+          "expected_triangle_sha256": "ff5c2e19bbc7d8a9579af705988a88532b9a9973ed975c83e415f25480da9095",
+          "status": "PASS"
+        },
+        {
+          "ref": "H301a",
+          "native_triangle_sha256": "3add5d279284e7f6a39458e83038fcacde02cd510d4e557304b83ceaee4045f6",
+          "expected_triangle_sha256": "3add5d279284e7f6a39458e83038fcacde02cd510d4e557304b83ceaee4045f6",
+          "status": "PASS"
+        },
+        {
+          "ref": "H301b",
+          "native_triangle_sha256": "472973fbec252fd9d53fb8aa80f12f00cbb189a0316a514a76f7b4c8982c99b0",
+          "expected_triangle_sha256": "472973fbec252fd9d53fb8aa80f12f00cbb189a0316a514a76f7b4c8982c99b0",
+          "status": "PASS"
+        },
+        {
+          "ref": "H310",
+          "native_triangle_sha256": "fa5dcf8beb5bd9448bfdecf4e5b60aec334aa69a78d37942d9d581de7673877e",
+          "expected_triangle_sha256": "fa5dcf8beb5bd9448bfdecf4e5b60aec334aa69a78d37942d9d581de7673877e",
+          "status": "PASS"
+        },
+        {
+          "ref": "H311",
+          "native_triangle_sha256": "d7c59d5e0fa3b22429369d17553bbecf223d886356a6e5e4fade063735d5d603",
+          "expected_triangle_sha256": "d7c59d5e0fa3b22429369d17553bbecf223d886356a6e5e4fade063735d5d603",
+          "status": "PASS"
+        },
+        {
+          "ref": "H320",
+          "native_triangle_sha256": "99b6f4b691af2eae8813a688091ab6b657529f9335489410d3f799f7803df104",
+          "expected_triangle_sha256": "99b6f4b691af2eae8813a688091ab6b657529f9335489410d3f799f7803df104",
+          "status": "PASS"
+        },
+        {
+          "ref": "H321",
+          "native_triangle_sha256": "679470494853df3bbfcca4be4940936898816609d0eaa98e892b3f9bc71934f0",
+          "expected_triangle_sha256": "679470494853df3bbfcca4be4940936898816609d0eaa98e892b3f9bc71934f0",
+          "status": "PASS"
+        },
+        {
+          "ref": "P01",
+          "native_triangle_sha256": "9c6e87a6a85dd6916d37f6422dd5a021934d5713d47324039e4570ff93e20c31",
+          "expected_triangle_sha256": "9c6e87a6a85dd6916d37f6422dd5a021934d5713d47324039e4570ff93e20c31",
+          "status": "PASS"
+        },
+        {
+          "ref": "P02",
+          "native_triangle_sha256": "e43a1465ada3cdb170c936a9940f36acc5efe0260ac440a76f8fffef58ae7e14",
+          "expected_triangle_sha256": "e43a1465ada3cdb170c936a9940f36acc5efe0260ac440a76f8fffef58ae7e14",
+          "status": "PASS"
+        },
+        {
+          "ref": "P04",
+          "native_triangle_sha256": "4f3e1cdb619a1f14531ef5e68fa866e4fb4c6cc622ddb539228fe33caea073b0",
+          "expected_triangle_sha256": "4f3e1cdb619a1f14531ef5e68fa866e4fb4c6cc622ddb539228fe33caea073b0",
+          "status": "PASS"
+        },
+        {
+          "ref": "P05",
+          "native_triangle_sha256": "65dd5e9d019ec722885847af25e4b2986eb76893f5ecd0a2e436c4ccefd94c33",
+          "expected_triangle_sha256": "65dd5e9d019ec722885847af25e4b2986eb76893f5ecd0a2e436c4ccefd94c33",
+          "status": "PASS"
+        },
+        {
+          "ref": "P060",
+          "native_triangle_sha256": "ce9d7b2a3eda8eedd8456fd4a3462543bfe6cce9fda12cde4fc10e4b26ad92fd",
+          "expected_triangle_sha256": "ce9d7b2a3eda8eedd8456fd4a3462543bfe6cce9fda12cde4fc10e4b26ad92fd",
+          "status": "PASS"
+        },
+        {
+          "ref": "P061",
+          "native_triangle_sha256": "3b91e0358bb7ca9372e11015941b1c1932abc4bd3bc1ef60969af9c35dfc4cd8",
+          "expected_triangle_sha256": "3b91e0358bb7ca9372e11015941b1c1932abc4bd3bc1ef60969af9c35dfc4cd8",
+          "status": "PASS"
+        },
+        {
+          "ref": "P070a",
+          "native_triangle_sha256": "b55040a0fd589c13189f6a45c40144112aea80b637319b2ac0e02f1fc011bec9",
+          "expected_triangle_sha256": "b55040a0fd589c13189f6a45c40144112aea80b637319b2ac0e02f1fc011bec9",
+          "status": "PASS"
+        },
+        {
+          "ref": "P070b",
+          "native_triangle_sha256": "dbd288fbc4e2e22031ef040c1d131ca1dbb2cf828ba5c2823b842961f55d2c8f",
+          "expected_triangle_sha256": "dbd288fbc4e2e22031ef040c1d131ca1dbb2cf828ba5c2823b842961f55d2c8f",
+          "status": "PASS"
+        },
+        {
+          "ref": "P071a",
+          "native_triangle_sha256": "a718ff8f81b88fef3e95e94e063e1df85c507252d71c4916e97022e554bf7217",
+          "expected_triangle_sha256": "a718ff8f81b88fef3e95e94e063e1df85c507252d71c4916e97022e554bf7217",
+          "status": "PASS"
+        },
+        {
+          "ref": "P071b",
+          "native_triangle_sha256": "e073b335d5fc10407440335fdcbc25a0ed50a1590c84631111fa15079bee464b",
+          "expected_triangle_sha256": "e073b335d5fc10407440335fdcbc25a0ed50a1590c84631111fa15079bee464b",
+          "status": "PASS"
+        },
+        {
+          "ref": "P08",
+          "native_triangle_sha256": "b6e0438f7df86ff98a3984eb9301d644d45246ae2328ab014fc542273945a49a",
+          "expected_triangle_sha256": "b6e0438f7df86ff98a3984eb9301d644d45246ae2328ab014fc542273945a49a",
+          "status": "PASS"
+        },
+        {
+          "ref": "P09",
+          "native_triangle_sha256": "4816eb2702fe7d67f214fc25e22b331d4d4b7e2771cc2039cd80c196699b8fdf",
+          "expected_triangle_sha256": "4816eb2702fe7d67f214fc25e22b331d4d4b7e2771cc2039cd80c196699b8fdf",
+          "status": "PASS"
+        },
+        {
+          "ref": "P10",
+          "native_triangle_sha256": "56f14f520b4e461a842eb31b2a6abc5ac384b7dd52cb670c092cf1f65d04fa6d",
+          "expected_triangle_sha256": "56f14f520b4e461a842eb31b2a6abc5ac384b7dd52cb670c092cf1f65d04fa6d",
+          "status": "PASS"
+        },
+        {
+          "ref": "P11",
+          "native_triangle_sha256": "2a1f59a80ab03cd39ac6b139b7d352c6e5a1ff580de2ad101c89c7d61bf642e0",
+          "expected_triangle_sha256": "2a1f59a80ab03cd39ac6b139b7d352c6e5a1ff580de2ad101c89c7d61bf642e0",
+          "status": "PASS"
+        },
+        {
+          "ref": "P120",
+          "native_triangle_sha256": "11cf472768f2b30f2996b945605a9ff08423a5e4ce49bc728cc0d7ae19040112",
+          "expected_triangle_sha256": "11cf472768f2b30f2996b945605a9ff08423a5e4ce49bc728cc0d7ae19040112",
+          "status": "PASS"
+        },
+        {
+          "ref": "P121",
+          "native_triangle_sha256": "a1fb988d64b546dfd1b41ec3b3638ead51b2e4093280b8e82593246101669c69",
+          "expected_triangle_sha256": "a1fb988d64b546dfd1b41ec3b3638ead51b2e4093280b8e82593246101669c69",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C1",
+          "native_triangle_sha256": "af56f716b7ba41892b0b11499415e2c1a665f4b2c7e07da8f6683d6fe4de5119",
+          "expected_triangle_sha256": "af56f716b7ba41892b0b11499415e2c1a665f4b2c7e07da8f6683d6fe4de5119",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C10",
+          "native_triangle_sha256": "d724ab51736a3e473386e7d4e05dd1199e9ba1684bc8e6d66b317a0b66edf650",
+          "expected_triangle_sha256": "d724ab51736a3e473386e7d4e05dd1199e9ba1684bc8e6d66b317a0b66edf650",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C11",
+          "native_triangle_sha256": "da56cdb7845ceb3b009e96931fb7dc13e3465c36962d6369cf5e1db621341df6",
+          "expected_triangle_sha256": "da56cdb7845ceb3b009e96931fb7dc13e3465c36962d6369cf5e1db621341df6",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C12",
+          "native_triangle_sha256": "19433a9e127bf2bccf5890bbc9bcf9042c1c4a60dfc9eb9f3cce04dea8409cf8",
+          "expected_triangle_sha256": "19433a9e127bf2bccf5890bbc9bcf9042c1c4a60dfc9eb9f3cce04dea8409cf8",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C13",
+          "native_triangle_sha256": "60180602c8fb310ff7c52d43037d82ffb6cae0448f6378eb18bd419a1812874b",
+          "expected_triangle_sha256": "60180602c8fb310ff7c52d43037d82ffb6cae0448f6378eb18bd419a1812874b",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C14",
+          "native_triangle_sha256": "d0239b5e282acc5ec1da523395010a917f5e8929d037d822515453b4d11cae68",
+          "expected_triangle_sha256": "d0239b5e282acc5ec1da523395010a917f5e8929d037d822515453b4d11cae68",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C15",
+          "native_triangle_sha256": "704128ce5e95bd2fe1832bdb72d0bbdf032143d3bc1425316f46378864b3399f",
+          "expected_triangle_sha256": "704128ce5e95bd2fe1832bdb72d0bbdf032143d3bc1425316f46378864b3399f",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C16",
+          "native_triangle_sha256": "1489eb7d9f337eeebe304f3e0d4baabb2d62e5c765a2fb8c31cdb064271f9499",
+          "expected_triangle_sha256": "1489eb7d9f337eeebe304f3e0d4baabb2d62e5c765a2fb8c31cdb064271f9499",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C2",
+          "native_triangle_sha256": "34f568e3c656447d0ed191906904bd9abd73d048495f22f4fa7b8b84f2e22a46",
+          "expected_triangle_sha256": "34f568e3c656447d0ed191906904bd9abd73d048495f22f4fa7b8b84f2e22a46",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C3",
+          "native_triangle_sha256": "999501f6e3bd72e832eb3f2542ab0824a56b021e87962c88e2c5147eec324aa4",
+          "expected_triangle_sha256": "999501f6e3bd72e832eb3f2542ab0824a56b021e87962c88e2c5147eec324aa4",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C4",
+          "native_triangle_sha256": "0ddcbc22f1ff80250bf9dfe0459e68ac25588392456a1541480e61e481b3a072",
+          "expected_triangle_sha256": "0ddcbc22f1ff80250bf9dfe0459e68ac25588392456a1541480e61e481b3a072",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C5",
+          "native_triangle_sha256": "3dd4eb67f74b0a8e976007ab152ce8272a92d6e441481fdc7060dac79f435592",
+          "expected_triangle_sha256": "3dd4eb67f74b0a8e976007ab152ce8272a92d6e441481fdc7060dac79f435592",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C6",
+          "native_triangle_sha256": "8de8cfe984957d7e09a17d86b21317b04c777001232bad626b41ee03a28b6af5",
+          "expected_triangle_sha256": "8de8cfe984957d7e09a17d86b21317b04c777001232bad626b41ee03a28b6af5",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C7",
+          "native_triangle_sha256": "e9d8e4fa108d4ce4006276d1449d04217101332a6f38ffa1137ba6fc68e73439",
+          "expected_triangle_sha256": "e9d8e4fa108d4ce4006276d1449d04217101332a6f38ffa1137ba6fc68e73439",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C8",
+          "native_triangle_sha256": "cc0c42ec7b164adcaa93481aa3123cc914efd1673424f06392b9115c26ba4a10",
+          "expected_triangle_sha256": "cc0c42ec7b164adcaa93481aa3123cc914efd1673424f06392b9115c26ba4a10",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C9",
+          "native_triangle_sha256": "1fe307491f23d5bf4742512c4870826cc379d7a3d9df97c0c8610c9895a63dd3",
+          "expected_triangle_sha256": "1fe307491f23d5bf4742512c4870826cc379d7a3d9df97c0c8610c9895a63dd3",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_D1",
+          "native_triangle_sha256": "b1f9a20fc6a40d04b537df7fddb388daa544505e85de0f1e3784c4709ab35b16",
+          "expected_triangle_sha256": "b1f9a20fc6a40d04b537df7fddb388daa544505e85de0f1e3784c4709ab35b16",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_J1",
+          "native_triangle_sha256": "2435bd0b89f766e6c79f8c2668080a9dd6d0da3fe513441ff6b154efb372b5d6",
+          "expected_triangle_sha256": "2435bd0b89f766e6c79f8c2668080a9dd6d0da3fe513441ff6b154efb372b5d6",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_J2",
+          "native_triangle_sha256": "920af48c6952213869954cf7d8f3bfdf206b62923987c5be9197df68151a2ed3",
+          "expected_triangle_sha256": "920af48c6952213869954cf7d8f3bfdf206b62923987c5be9197df68151a2ed3",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_J3",
+          "native_triangle_sha256": "ce864c98c89fb793fa8529db8b3a785e7b61bf0cb789c4953c9f5202d0e329c6",
+          "expected_triangle_sha256": "ce864c98c89fb793fa8529db8b3a785e7b61bf0cb789c4953c9f5202d0e329c6",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_L1",
+          "native_triangle_sha256": "958f3a8fa90c0897356042d42e3717c093bb8f0e1abcdfcc7cdbb705ce0729cf",
+          "expected_triangle_sha256": "958f3a8fa90c0897356042d42e3717c093bb8f0e1abcdfcc7cdbb705ce0729cf",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_Q1",
+          "native_triangle_sha256": "0dffe76f2b81b74757565a778753ae191f8672cbf96725c465dbb90b1c82b933",
+          "expected_triangle_sha256": "0dffe76f2b81b74757565a778753ae191f8672cbf96725c465dbb90b1c82b933",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R1",
+          "native_triangle_sha256": "d00079067d35fd5fc69d84926d4dd0a328c0dcf862bc1d934c17c06922d5ae93",
+          "expected_triangle_sha256": "d00079067d35fd5fc69d84926d4dd0a328c0dcf862bc1d934c17c06922d5ae93",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R10",
+          "native_triangle_sha256": "bd6c8b9918d283e3b05e69899ab360c9ccbc9155b0025a115bd299131ead9fde",
+          "expected_triangle_sha256": "bd6c8b9918d283e3b05e69899ab360c9ccbc9155b0025a115bd299131ead9fde",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R11",
+          "native_triangle_sha256": "91f5ae5240be8dc7e3a825798ef612d93c9702e1a306ea658db159276991064b",
+          "expected_triangle_sha256": "91f5ae5240be8dc7e3a825798ef612d93c9702e1a306ea658db159276991064b",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R12",
+          "native_triangle_sha256": "43be57aa9259ef081478564db4798bf2e2074ad0707f90bde7f4a580075fad55",
+          "expected_triangle_sha256": "43be57aa9259ef081478564db4798bf2e2074ad0707f90bde7f4a580075fad55",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R13",
+          "native_triangle_sha256": "ee84bf4e3fe2d71fe3a7b30ecfdb28253f0881835133ef36025e5e394e7c4a6d",
+          "expected_triangle_sha256": "ee84bf4e3fe2d71fe3a7b30ecfdb28253f0881835133ef36025e5e394e7c4a6d",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R14",
+          "native_triangle_sha256": "9c8fb7e58d206d4d39d858967a8a8b7a24ff52ad3ecf657bacb59fed48b645c5",
+          "expected_triangle_sha256": "9c8fb7e58d206d4d39d858967a8a8b7a24ff52ad3ecf657bacb59fed48b645c5",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R15",
+          "native_triangle_sha256": "cdd52d61fae8ade4b39b63a3d7be1ab7cf82bf92ea77e2311b0e3032e792c4aa",
+          "expected_triangle_sha256": "cdd52d61fae8ade4b39b63a3d7be1ab7cf82bf92ea77e2311b0e3032e792c4aa",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R16",
+          "native_triangle_sha256": "5635742a2c36b17dc60174e215e3fef39d2a16aca53eeaad16abe21a56f2c551",
+          "expected_triangle_sha256": "5635742a2c36b17dc60174e215e3fef39d2a16aca53eeaad16abe21a56f2c551",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R17",
+          "native_triangle_sha256": "f9d2a9276f5bab027bc536674787a2282e4a41394686eb4b0f6927fc700546f0",
+          "expected_triangle_sha256": "f9d2a9276f5bab027bc536674787a2282e4a41394686eb4b0f6927fc700546f0",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R18",
+          "native_triangle_sha256": "85c3d058cfb62f288b1eeb985754cf0d297834065eceba81bacba90609f5bed1",
+          "expected_triangle_sha256": "85c3d058cfb62f288b1eeb985754cf0d297834065eceba81bacba90609f5bed1",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R19",
+          "native_triangle_sha256": "01eb08295aaf38b6de213a59d0293afc2795e95aa6440c95b38aa049f0dbb3be",
+          "expected_triangle_sha256": "01eb08295aaf38b6de213a59d0293afc2795e95aa6440c95b38aa049f0dbb3be",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R2",
+          "native_triangle_sha256": "0d4a669ccc3bacceb6067726fad3a4956674e60f514b4c2a983cc095e4e1c751",
+          "expected_triangle_sha256": "0d4a669ccc3bacceb6067726fad3a4956674e60f514b4c2a983cc095e4e1c751",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R20",
+          "native_triangle_sha256": "811db73bbc3db3f68e2228264692c8fa2e6b5fd43f08cb5eec0eca7beb3e2ee1",
+          "expected_triangle_sha256": "811db73bbc3db3f68e2228264692c8fa2e6b5fd43f08cb5eec0eca7beb3e2ee1",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R21",
+          "native_triangle_sha256": "b27d3c40f81e24657fcef7cb40342a65398ea5ad6f80fd1aa5432336ad8c9d11",
+          "expected_triangle_sha256": "b27d3c40f81e24657fcef7cb40342a65398ea5ad6f80fd1aa5432336ad8c9d11",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R3",
+          "native_triangle_sha256": "31aff397ad05c6c89e666dfdc0394202acee49a92543616fa1f6a286dfd0b1e3",
+          "expected_triangle_sha256": "31aff397ad05c6c89e666dfdc0394202acee49a92543616fa1f6a286dfd0b1e3",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R4",
+          "native_triangle_sha256": "11118d84713ce230b3798ddec96074d611a247990d70ba883331877fdc7a27e5",
+          "expected_triangle_sha256": "11118d84713ce230b3798ddec96074d611a247990d70ba883331877fdc7a27e5",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R5",
+          "native_triangle_sha256": "1f22bfcccd31f3457c57eedd5b65ff95adc94acb57fcb931081365cb1c4b874b",
+          "expected_triangle_sha256": "1f22bfcccd31f3457c57eedd5b65ff95adc94acb57fcb931081365cb1c4b874b",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R6",
+          "native_triangle_sha256": "ca2de5d10bf608a275e1e814be287761859a369ca46524b04a49dadaccb6a94e",
+          "expected_triangle_sha256": "ca2de5d10bf608a275e1e814be287761859a369ca46524b04a49dadaccb6a94e",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R7",
+          "native_triangle_sha256": "59a39126f80a04c30196dd7903bf9e91e44c37f0139c7f148a3dba71a11f5b6c",
+          "expected_triangle_sha256": "59a39126f80a04c30196dd7903bf9e91e44c37f0139c7f148a3dba71a11f5b6c",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R8",
+          "native_triangle_sha256": "736b1fb337252f69f6b065b7dbc9fb6840e457f24b8f826b71e87dc71c12807c",
+          "expected_triangle_sha256": "736b1fb337252f69f6b065b7dbc9fb6840e457f24b8f826b71e87dc71c12807c",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R9",
+          "native_triangle_sha256": "1e38ee2575ee36cf4d6060e878852f23cd744543a7ce70529cbe6c6f64403828",
+          "expected_triangle_sha256": "1e38ee2575ee36cf4d6060e878852f23cd744543a7ce70529cbe6c6f64403828",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_SW2",
+          "native_triangle_sha256": "fbdb813d9c5de845d03f04e7857116b6997ef2504b7c2cced1064d74fb531a81",
+          "expected_triangle_sha256": "fbdb813d9c5de845d03f04e7857116b6997ef2504b7c2cced1064d74fb531a81",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_U1",
+          "native_triangle_sha256": "fc1caa2d647886ecb4b22a4b2fcb9322b3f8f74b62ff010db1dddf6c1e977c02",
+          "expected_triangle_sha256": "fc1caa2d647886ecb4b22a4b2fcb9322b3f8f74b62ff010db1dddf6c1e977c02",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_U2",
+          "native_triangle_sha256": "d4950d20a5780e885007ec8afc48986f2df64618a54de6be024e4abb84023949",
+          "expected_triangle_sha256": "d4950d20a5780e885007ec8afc48986f2df64618a54de6be024e4abb84023949",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_U3",
+          "native_triangle_sha256": "5bd07a14a7950135819e5288bc74e1b00911afdc7f400d71c7d037e8be6bf94e",
+          "expected_triangle_sha256": "5bd07a14a7950135819e5288bc74e1b00911afdc7f400d71c7d037e8be6bf94e",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_U4",
+          "native_triangle_sha256": "6b4333acb8b3297c67589317b2b1582eae7c717da3922b842021d49658da9dad",
+          "expected_triangle_sha256": "6b4333acb8b3297c67589317b2b1582eae7c717da3922b842021d49658da9dad",
+          "status": "PASS"
+        }
+      ]
+    }
+  ]
+}

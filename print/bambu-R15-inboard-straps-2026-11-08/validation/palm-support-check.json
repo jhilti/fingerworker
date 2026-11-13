@@ -1,0 +1,349 @@
+{
+  "status": "PASS_R15_PALM_SUPPORTS",
+  "failed_count": 0,
+  "failures": [],
+  "checks": [
+    {
+      "name": "Default automatic bridge direction retained for P01",
+      "status": "PASS",
+      "actual_bridge_angle": "0"
+    },
+    {
+      "name": "Palm support contacts and structures remain within retained R13 envelopes",
+      "status": "PASS",
+      "new_outside_area_sum_mm2": 0,
+      "contact_coordinate_tolerance_mm": 0.02,
+      "bulk_coordinate_tolerance_mm": 0.05,
+      "new_support_segments": 5043,
+      "baseline_support_segments": 5044,
+      "new_regions": [],
+      "fine_bulk_deltas": [],
+      "method": "Actual bead footprints compared separately by feature, top Z and layer height. Interface/transition contacts use0.02 mm tolerance; bulk roads use0.05 mm (one eighth of nozzle diameter) to account for tessellation and changed road endpoints. Full actual beads also undergo the independent exact added-stock removal sweep below; this comparison does not waive new contacts or new support layers."
+    },
+    {
+      "name": "Tent underside closes with short actual bridge side-1",
+      "status": "PASS",
+      "model_segments": 796,
+      "bridge_segments": 93,
+      "longest_actual_unbacked_centerline_mm": 0.4592454605175331,
+      "layer_evidence": [
+        {
+          "native_top_z_mm": 12.2,
+          "prior_layer_model_segments": 54,
+          "longest_actual_unbacked_centerline_mm": 0.4592454605175331
+        }
+      ]
+    },
+    {
+      "name": "Functional front rod-socket roof bridge not lengthened side-1",
+      "status": "PASS",
+      "longest_actual_unbacked_centerline_mm": {
+        "R13": 2.1880099999999985,
+        "R15": 2.1880099999999985
+      },
+      "layer_evidence": {
+        "R13": [
+          {
+            "native_top_z_mm": 21.2,
+            "prior_layer_model_segments": 97,
+            "longest_actual_unbacked_centerline_mm": 2.1880099999999985
+          }
+        ],
+        "R15": [
+          {
+            "native_top_z_mm": 21.2,
+            "prior_layer_model_segments": 39,
+            "longest_actual_unbacked_centerline_mm": 2.1880099999999985
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tent underside closes with short actual bridge side1",
+      "status": "PASS",
+      "model_segments": 788,
+      "bridge_segments": 95,
+      "longest_actual_unbacked_centerline_mm": 0.45001069619499107,
+      "layer_evidence": [
+        {
+          "native_top_z_mm": 12.2,
+          "prior_layer_model_segments": 60,
+          "longest_actual_unbacked_centerline_mm": 0.45001069619499107
+        }
+      ]
+    },
+    {
+      "name": "Functional front rod-socket roof bridge not lengthened side1",
+      "status": "PASS",
+      "longest_actual_unbacked_centerline_mm": {
+        "R13": 2.1880100000000056,
+        "R15": 2.1880100000000056
+      },
+      "layer_evidence": {
+        "R13": [
+          {
+            "native_top_z_mm": 21.2,
+            "prior_layer_model_segments": 100,
+            "longest_actual_unbacked_centerline_mm": 2.1880100000000056
+          }
+        ],
+        "R15": [
+          {
+            "native_top_z_mm": 21.2,
+            "prior_layer_model_segments": 41,
+            "longest_actual_unbacked_centerline_mm": 2.1880100000000056
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rounded wrist-contact faces have no nearby support bead",
+      "status": "PASS",
+      "exact_nominal_rounded_faces": 9,
+      "contact_face_evidence": [
+        {
+          "bounds_mm": [
+            [
+              -34.0,
+              -36.00000000000001,
+              19.0
+            ],
+            [
+              -20.0,
+              36.0,
+              33.0
+            ]
+          ],
+          "midpoint_outward_normal": [
+            -0.7071067811865475,
+            -0.0,
+            0.7071067811865475
+          ],
+          "surface_type": "GeomAbs_SurfaceType.GeomAbs_Cylinder"
+        },
+        {
+          "bounds_mm": [
+            [
+              -34.0000001,
+              -38.00000000000001,
+              19.0
+            ],
+            [
+              -20.0,
+              -35.999999898000006,
+              33.0
+            ]
+          ],
+          "midpoint_outward_normal": [
+            -0.5000000000000001,
+            -0.7071067811865474,
+            0.5000000000000001
+          ],
+          "surface_type": "GeomAbs_SurfaceType.GeomAbs_Torus"
+        },
+        {
+          "bounds_mm": [
+            [
+              -34.0000001,
+              35.99999989799999,
+              19.0
+            ],
+            [
+              -20.0,
+              38.0,
+              33.0
+            ]
+          ],
+          "midpoint_outward_normal": [
+            -0.5000000000000001,
+            0.7071067811865474,
+            0.5000000000000001
+          ],
+          "surface_type": "GeomAbs_SurfaceType.GeomAbs_Torus"
+        },
+        {
+          "bounds_mm": [
+            [
+              -20.0,
+              -36.00000000000001,
+              33.0
+            ],
+            [
+              -19.0,
+              36.0,
+              33.0
+            ]
+          ],
+          "midpoint_outward_normal": [
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "surface_type": "GeomAbs_SurfaceType.GeomAbs_Plane"
+        },
+        {
+          "bounds_mm": [
+            [
+              -19.0,
+              -38.00000000000001,
+              30.0
+            ],
+            [
+              -15.999999999999998,
+              -36.00000000000001,
+              33.0
+            ]
+          ],
+          "midpoint_outward_normal": [
+            0.49999999999999983,
+            -0.7071067811865475,
+            0.5000000000000002
+          ],
+          "surface_type": "GeomAbs_SurfaceType.GeomAbs_Torus"
+        },
+        {
+          "bounds_mm": [
+            [
+              -20.0,
+              -38.00000000000001,
+              31.0
+            ],
+            [
+              -19.0,
+              -36.00000000000001,
+              33.0
+            ]
+          ],
+          "midpoint_outward_normal": [
+            0.0,
+            -0.7071067811865475,
+            0.7071067811865476
+          ],
+          "surface_type": "GeomAbs_SurfaceType.GeomAbs_Cylinder"
+        },
+        {
+          "bounds_mm": [
+            [
+              -19.0,
+              35.99999999999999,
+              30.0
+            ],
+            [
+              -15.999999999999998,
+              38.0,
+              33.0
+            ]
+          ],
+          "midpoint_outward_normal": [
+            0.49999999999999983,
+            0.7071067811865475,
+            0.5000000000000002
+          ],
+          "surface_type": "GeomAbs_SurfaceType.GeomAbs_Torus"
+        },
+        {
+          "bounds_mm": [
+            [
+              -20.0,
+              35.99999999999999,
+              31.0
+            ],
+            [
+              -19.0,
+              38.0,
+              33.0
+            ]
+          ],
+          "midpoint_outward_normal": [
+            -0.0,
+            0.7071067811865475,
+            0.7071067811865476
+          ],
+          "surface_type": "GeomAbs_SurfaceType.GeomAbs_Cylinder"
+        },
+        {
+          "bounds_mm": [
+            [
+              -19.0,
+              -36.00000000000001,
+              30.0
+            ],
+            [
+              -15.999999999999998,
+              36.0,
+              33.0
+            ]
+          ],
+          "midpoint_outward_normal": [
+            0.7071067811865472,
+            -0.0,
+            0.7071067811865478
+          ],
+          "surface_type": "GeomAbs_SurfaceType.GeomAbs_Cylinder"
+        }
+      ],
+      "nominal_rail_volume_outside_native_P01_mm3": 0.0,
+      "nominal_generator_sha256": "f71b76758044e6761b28c4229e6852d8e3a305fa6dad9058e77ead0e15fe6be6",
+      "tested_conservative_bead_boxes": 0,
+      "minimum_distance_mm": null,
+      "minimum_unreffined_box_distance_mm": null,
+      "exact_capsule_refinements": 0,
+      "nearest_bead": null,
+      "broad_midpoint_roi_segments": 0,
+      "method": "Select upward outward-facing surfaces of the exact source-matched R15/R3 contact stock including itsR2 end rounds and crown; prove the whole stock remains in the final native P01. Complete support bead boxes include width,height and arc extrema. Any box within0.25mm is refined to an exact horizontal path capsule extruded over full layer height. Require more than0.25mm clearance to all contact faces. Full support footprints and removal accessibility are checked separately."
+    },
+    {
+      "name": "Complete-frame CAD differences are valid evidence",
+      "status": "PASS",
+      "added_result_valid": true,
+      "removed_result_valid": true,
+      "method": "Invalid Boolean output is rejected and its apparent volume is never interpreted as a geometry difference."
+    },
+    {
+      "name": "Existing electronics underside X<=-23.5 below Z14.4 unchanged",
+      "status": "PASS",
+      "difference_mm3": 0.0,
+      "scope": "Strap ears intentionally add stock along the lateral base edges farther forward; this exact zone isolates the retained electronics/palm roof."
+    },
+    {
+      "name": "Added palm stock creates no new wristward support-removal obstruction",
+      "status": "PASS",
+      "actual_support_beads": 5043,
+      "exact_overlap_candidates": 0,
+      "maximum_intersection_mm3": 0.0,
+      "worst": null,
+      "method": "Conservative full-bead boxes including arc extrema swept toward X\u221260 and intersected with added CAD material only; demonstrates no new obstruction relative to R13, not physical break-away force."
+    },
+    {
+      "name": "Checked slice and layout stayed unchanged",
+      "status": "PASS"
+    }
+  ],
+  "metrics": {
+    "support_features": {
+      "R15": {
+        "Support": 4776,
+        "Support transition": 141,
+        "Support interface": 126
+      },
+      "R13": {
+        "Support": 4777,
+        "Support transition": 141,
+        "Support interface": 126
+      }
+    },
+    "broad_midpoint_contact_roi_segments": 0
+  },
+  "CAD_source_sha256": "97e2010cc17d06eb8648cf278b9aae2fd85b6e909bd657b9b216f3b37748665f",
+  "layout_sha256": "15bae7c934c2f575c510262389da0e052d751dec861b9fbdd5b66ccfbd88324e",
+  "sliced_archive_sha256": "a121127456c1da2cdb51b6cc53c52e4b02b5afb1a10c52a2cc875619dc414551",
+  "native_step_sha256": "5964654c121d6d375011bfb24144b2e00678a7ccac430490e83349c44de5842e",
+  "baseline_native_step_sha256": "34503fabce855c834e2d495a33e8a4c834b651c52cc138e4d2d25ded66348530",
+  "baseline_sliced_archive_sha256": "ec80ac1408589cf306cb67abb51df17cfe9c8a78e1976d358bbdd07e41004dc5",
+  "validator_sha256": "47d56b069f96fe44e1334c520f2c155d10c97732f30d1cc770dbf8c0f8f06898",
+  "scope": "New upward-facing near-palm contact, retained underside tent/front socket bridges, actual support footprint changes and added-CAD obstruction of wristward cleanup.",
+  "limitations": [
+    "No physical surface, PLA fit, fatigue or strength qualification.",
+    "Support removal comparison preserves the R13 access assumption; no measured adhesive/break-away force."
+  ]
+}

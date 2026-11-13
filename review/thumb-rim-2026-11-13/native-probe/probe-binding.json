@@ -1,0 +1,20 @@
+{
+  "status": "NATIVE_REGENERATED_RIM_PROBE_AWAITING_MEASUREMENT",
+  "workspace_id": "34f66e4cb47ca067a1744ed5",
+  "source": "review/thumb-rim-2026-11-13/fingerworker_R19_variable_trial.fs",
+  "source_sha256": "b5dd5d89f56a76fbb0dd57891c3835278440a3747937f94eab8598030d076448",
+  "source_readback_exact": true,
+  "native_parts": 93,
+  "native_step": "review/thumb-rim-2026-11-13/native-probe/Flat132_R19_thumb_rim_probe_AP214.step",
+  "native_step_sha256": "1d93e676b9d83e26aaadba80ad6021640d0c15f43e9653c8edabbdf9b075bec2",
+  "native_notice_raw_mouth_edges": 12,
+  "native_notice_p01_solid_count": 1,
+  "export": {
+    "format": "STEP",
+    "version": "AP214",
+    "preprocessing": "None",
+    "hidden_included": true,
+    "y_up": false,
+    "individual_parts": false
+  }
+}

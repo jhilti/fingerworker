@@ -1,0 +1,496 @@
+{
+  "captured_date": "2026-09-21",
+  "source": "Onshape FeatureScript notices, monitored Fingerworker MVP, UI capture at 0/15/30 mm; all regenerated",
+  "source_fnv1a32": "722a63a1",
+  "parameters": {
+    "lightSprings": true,
+    "isometricLock": false,
+    "preload_mm": 0,
+    "showHand": true,
+    "showElectronics": true
+  },
+  "part_count": 92,
+  "columns": [
+    "pair",
+    "gap_mm",
+    "interferences",
+    "contacts",
+    "unclassified",
+    "status"
+  ],
+  "base0": [
+    [
+      "Springs or lock sleeves / seats",
+      0,
+      0,
+      0,
+      8,
+      "REVIEW - unclassified contact"
+    ],
+    [
+      "Adjustment hardware / base",
+      0,
+      0,
+      0,
+      11,
+      "REVIEW - unclassified contact"
+    ],
+    [
+      "Adjustment hardware / yoke carriage palm",
+      0.2500000000000002,
+      0,
+      0,
+      0,
+      "CLEAR"
+    ],
+    [
+      "Sensor / translating cassette",
+      0,
+      0,
+      0,
+      3,
+      "REVIEW - unclassified contact"
+    ],
+    [
+      "Cassette / fixed guide",
+      0.5000000000000004,
+      0,
+      0,
+      0,
+      "CLEAR"
+    ],
+    [
+      "Cassette / yoke",
+      1,
+      0,
+      0,
+      0,
+      "CLEAR"
+    ],
+    [
+      "Preload screw / cassette",
+      0,
+      0,
+      0,
+      2,
+      "REVIEW - unclassified contact"
+    ],
+    [
+      "Preload screw / palm",
+      0.5000000000000022,
+      0,
+      0,
+      0,
+      "CLEAR"
+    ],
+    [
+      "Carriage / open frame and central guide",
+      0.30000000000000077,
+      0,
+      0,
+      0,
+      "CLEAR"
+    ],
+    [
+      "Carriage / spring mandrels",
+      1.0000000000000009,
+      0,
+      0,
+      0,
+      "CLEAR"
+    ],
+    [
+      "Carriage / springs",
+      3.0000000000000027,
+      0,
+      0,
+      0,
+      "CLEAR"
+    ],
+    [
+      "Carriage / rear retainers",
+      1.5000000000000013,
+      0,
+      0,
+      0,
+      "CLEAR"
+    ],
+    [
+      "Carriage / return pads",
+      0,
+      0,
+      0,
+      20,
+      "REVIEW - unclassified contact"
+    ],
+    [
+      "Carriage / full-travel screws",
+      29.25194339562106,
+      0,
+      0,
+      0,
+      "CLEAR"
+    ],
+    [
+      "Carriage / switch case",
+      39.800000000000004,
+      0,
+      0,
+      0,
+      "CLEAR"
+    ],
+    [
+      "Carriage / switch actuator",
+      28.200000000000003,
+      0,
+      0,
+      0,
+      "CLEAR"
+    ],
+    [
+      "Adjustable cam / switch actuator",
+      24.2,
+      0,
+      0,
+      0,
+      "CLEAR"
+    ],
+    [
+      "Switch actuator / case",
+      0.9016358188827407,
+      0,
+      0,
+      0,
+      "CLEAR"
+    ],
+    [
+      "Springs / surrounding structure",
+      2.999999999999963,
+      0,
+      0,
+      0,
+      "CLEAR"
+    ],
+    [
+      "Spring seats / structure",
+      0,
+      0,
+      0,
+      36,
+      "REVIEW - unclassified contact"
+    ],
+    [
+      "Yoke / base rods and palm",
+      0.2999999999999947,
+      0,
+      0,
+      0,
+      "CLEAR"
+    ],
+    [
+      "Yoke / sensor",
+      0.32499999999999546,
+      0,
+      0,
+      0,
+      "CLEAR"
+    ],
+    [
+      "Sensor / base",
+      1,
+      0,
+      0,
+      0,
+      "CLEAR"
+    ],
+    [
+      "Palm support / base",
+      0,
+      0,
+      0,
+      38,
+      "REVIEW - unclassified contact"
+    ],
+    [
+      "Palm / carriage and switch",
+      22,
+      0,
+      0,
+      0,
+      "CLEAR"
+    ],
+    [
+      "Palm sleeve / rigid support",
+      0,
+      0,
+      0,
+      5,
+      "REVIEW - unclassified contact"
+    ],
+    [
+      "Hand / climbing carriage",
+      0.09999999999999593,
+      0,
+      0,
+      0,
+      "CLEAR"
+    ],
+    [
+      "Hand / palm sleeve",
+      0.10000000000000286,
+      0,
+      0,
+      0,
+      "CLEAR"
+    ],
+    [
+      "Hand / remaining device",
+      1.55171068846634,
+      0,
+      0,
+      0,
+      "CLEAR"
+    ],
+    [
+      "Electronics housing / mechanism",
+      0.10000000000000113,
+      0,
+      0,
+      0,
+      "CLEAR"
+    ],
+    [
+      "Electronics components / mechanism",
+      1.7499999999999998,
+      0,
+      0,
+      0,
+      "CLEAR"
+    ],
+    [
+      "Electronics components / housing",
+      0.29999999999999993,
+      0,
+      0,
+      0,
+      "CLEAR"
+    ],
+    [
+      "Battery / populated carrier and plug",
+      1.2999999999999992,
+      0,
+      0,
+      0,
+      "CLEAR"
+    ],
+    [
+      "USB approach / mechanism",
+      2.2000000000000006,
+      0,
+      0,
+      0,
+      "CLEAR"
+    ],
+    [
+      "USB approach / housing",
+      0.30000000000000077,
+      0,
+      0,
+      0,
+      "CLEAR"
+    ],
+    [
+      "Electronics study / hand",
+      5.400035222516293,
+      0,
+      0,
+      0,
+      "CLEAR"
+    ]
+  ],
+  "changes15": [
+    [
+      8,
+      [
+        0.29999999999999993,
+        0,
+        0,
+        0,
+        "CLEAR"
+      ]
+    ],
+    [
+      11,
+      [
+        16.5,
+        0,
+        0,
+        0,
+        "CLEAR"
+      ]
+    ],
+    [
+      12,
+      [
+        15,
+        0,
+        0,
+        0,
+        "CLEAR"
+      ]
+    ],
+    [
+      13,
+      [
+        14.51468885028607,
+        0,
+        0,
+        0,
+        "CLEAR"
+      ]
+    ],
+    [
+      14,
+      [
+        24.800000000000004,
+        0,
+        0,
+        0,
+        "CLEAR"
+      ]
+    ],
+    [
+      15,
+      [
+        13.200000000000003,
+        0,
+        0,
+        0,
+        "CLEAR"
+      ]
+    ],
+    [
+      16,
+      [
+        9.2,
+        0,
+        0,
+        0,
+        "CLEAR"
+      ]
+    ],
+    [
+      18,
+      [
+        2.9999999999999623,
+        0,
+        0,
+        0,
+        "CLEAR"
+      ]
+    ]
+  ],
+  "changes30": [
+    [
+      8,
+      [
+        0.29999999999999993,
+        0,
+        0,
+        0,
+        "CLEAR"
+      ]
+    ],
+    [
+      10,
+      [
+        2.999999999999989,
+        0,
+        0,
+        0,
+        "CLEAR"
+      ]
+    ],
+    [
+      11,
+      [
+        31.5,
+        0,
+        0,
+        0,
+        "CLEAR"
+      ]
+    ],
+    [
+      12,
+      [
+        30,
+        0,
+        0,
+        0,
+        "CLEAR"
+      ]
+    ],
+    [
+      13,
+      [
+        0,
+        0,
+        0,
+        4,
+        "REVIEW - unclassified contact"
+      ]
+    ],
+    [
+      14,
+      [
+        9.800000000000002,
+        0,
+        0,
+        0,
+        "CLEAR"
+      ]
+    ],
+    [
+      15,
+      [
+        4.0000000000000036,
+        0,
+        0,
+        0,
+        "CLEAR"
+      ]
+    ],
+    [
+      16,
+      [
+        0,
+        0,
+        0,
+        3,
+        "REVIEW - unclassified contact"
+      ]
+    ],
+    [
+      17,
+      [
+        0.8534525862565444,
+        0,
+        0,
+        0,
+        "CLEAR"
+      ]
+    ],
+    [
+      18,
+      [
+        2.999999999999975,
+        0,
+        0,
+        0,
+        "CLEAR"
+      ]
+    ]
+  ],
+  "cad_source_sha256": "0abd6f8573b17b37f4b42250eb3b14767007e4ff42b28e688b771df3c353c3d6"
+}

@@ -1,0 +1,693 @@
+{
+  "status": "PASS_LOCAL_DIRECT_CSG_INTERFACES",
+  "source_sha256": "1f492dd841c35a14f488be418e4f4dd8dea8edb63f3d321a492dc2ec3c907ab4",
+  "generator_sha256": "6e8137f128a4b742f1876319cd9a92767d6bb380725f321a7e4d1372250c6d9e",
+  "validator_sha256": "8650c0b40a13ad3f81a0711636a0f12ef58409c29ca5212ce337529dc9bb873a",
+  "checks": [
+    {
+      "name": "One connected valid P01 solid and shell",
+      "status": "PASS"
+    },
+    {
+      "name": "P01 changes are meaningful",
+      "status": "PASS",
+      "removed_mm3": 7693.914151294866,
+      "added_mm3": 10945.019296099812
+    },
+    {
+      "name": "Original functional material retained: electronics roof",
+      "status": "PASS",
+      "removed_mm3": 0.0,
+      "exception": "Explicit obsolete roof step X-40..-29,Z11.5..14.5 only"
+    },
+    {
+      "name": "Original functional material retained: negative tray catch landing",
+      "status": "PASS",
+      "removed_mm3": 0.0,
+      "exception": "Explicit obsolete roof step X-40..-29,Z11.5..14.5 only"
+    },
+    {
+      "name": "Original functional material retained: positive tray catch landing",
+      "status": "PASS",
+      "removed_mm3": 0.0,
+      "exception": "Explicit obsolete roof step X-40..-29,Z11.5..14.5 only"
+    },
+    {
+      "name": "Original functional material retained: central sensor reaction and guides below Z30",
+      "status": "PASS",
+      "removed_mm3": 0.0,
+      "exception": "Explicit obsolete roof step X-40..-29,Z11.5..14.5 only"
+    },
+    {
+      "name": "Original functional material retained: negative front rod socket block",
+      "status": "PASS",
+      "removed_mm3": 0.0,
+      "exception": "Explicit obsolete roof step X-40..-29,Z11.5..14.5 only"
+    },
+    {
+      "name": "Original functional material retained: positive front rod socket block",
+      "status": "PASS",
+      "removed_mm3": 0.0,
+      "exception": "Explicit obsolete roof step X-40..-29,Z11.5..14.5 only"
+    },
+    {
+      "name": "Entire active electronics catch landing retained -1",
+      "status": "PASS",
+      "removed_mm3": 0.0
+    },
+    {
+      "name": "Entire active electronics catch landing retained 1",
+      "status": "PASS",
+      "removed_mm3": 0.0
+    },
+    {
+      "name": "Continuous 2mm electronics roof beneath removed step",
+      "status": "PASS",
+      "missing_mm3": 0.0,
+      "witness_bounds_mm": [
+        [
+          -38.0,
+          -62.0,
+          9.5
+        ],
+        [
+          -29.0,
+          62.0,
+          11.5
+        ]
+      ]
+    },
+    {
+      "name": "Interface clearance retained: electronics roof below rail embedding",
+      "status": "PASS",
+      "added_mm3": 0.0
+    },
+    {
+      "name": "Interface clearance retained: negative front rod socket block",
+      "status": "PASS",
+      "added_mm3": 0.0
+    },
+    {
+      "name": "Interface clearance retained: positive front rod socket block",
+      "status": "PASS",
+      "added_mm3": 0.0
+    },
+    {
+      "name": "Roof transition confined to declared 0.1mm embedding",
+      "status": "PASS",
+      "top_transition_added_mm3": 5.659172087264298e-05,
+      "allowed_z_mm": [
+        14.4,
+        14.5
+      ],
+      "scope": "Small added corner transition only; no removal of original roof is permitted."
+    },
+    {
+      "name": "No new stock in complete electronics hook flex/removal envelope -1",
+      "status": "PASS",
+      "added_intersection_mm3": 0.0,
+      "deflection_mm": 0.6,
+      "downward_removal_mm": 20
+    },
+    {
+      "name": "No new stock in complete electronics hook flex/removal envelope 1",
+      "status": "PASS",
+      "added_intersection_mm3": 0.0,
+      "deflection_mm": 0.6,
+      "downward_removal_mm": 20
+    },
+    {
+      "name": "Only declared upper palm and obsolete roof step change",
+      "status": "PASS",
+      "removed_outside_mm3": 0.0,
+      "added_outside_mm3": 0.0,
+      "upper_palm_bounds_mm": [
+        [
+          -46.2,
+          -65.0001,
+          14.3999
+        ],
+        [
+          -7.999899999999997,
+          65.0001,
+          33.0001
+        ]
+      ],
+      "ledge_cut_bounds_mm": [
+        [
+          -40.0,
+          -70.0,
+          11.5
+        ],
+        [
+          -29.0,
+          70.0,
+          14.5
+        ]
+      ]
+    },
+    {
+      "name": "Original floor footprint and crown envelope retained",
+      "status": "PASS",
+      "bounds_mm": [
+        [
+          -46.1,
+          -66.19999999999999,
+          -2.0000001
+        ],
+        [
+          129.0,
+          66.19999999999999,
+          33.00000010000002
+        ]
+      ],
+      "baseline_bounds_mm": [
+        [
+          -46.1,
+          -66.19999999999999,
+          -2.0000001
+        ],
+        [
+          129.0,
+          66.19999999999999,
+          33.00000000000002
+        ]
+      ]
+    },
+    {
+      "name": "Seated separation P01/E01",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/E05",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/E06",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/E07",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/E08",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/H01",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/H02",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/H030",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/H031",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/H040",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/H041",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/H050",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/H051",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/H060",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/H061",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/H09",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/H09a",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/H09b",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/H10",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/H12",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/H180",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/H181",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/H190",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/H191",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/H20",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/H23",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/H240",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/H241",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/H242",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/H243",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/H250",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/H251",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/H252",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/H253",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/H300a",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/H300b",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/H301a",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/H301b",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/P04",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/P05",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/P06",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/P08",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/P09",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/P11",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_C1",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_C10",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_C11",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_C12",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_C13",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_C14",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_C15",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_C16",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_C2",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_C3",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_C4",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_C5",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_C6",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_C7",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_C8",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_C9",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_D1",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_J1",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_J2",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_J3",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_L1",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_Q1",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_R1",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_R10",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_R11",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_R12",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_R13",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_R14",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_R15",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_R16",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_R17",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_R18",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_R19",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_R2",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_R20",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_R21",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_R3",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_R4",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_R5",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_R6",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_R7",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_R8",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_R9",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_SW2",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_U1",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_U2",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_U3",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Seated separation P01/PCB_U4",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Sensor path gap not reduced: P05",
+      "status": "PASS",
+      "gap_mm": 0.5,
+      "baseline_gap_mm": 0.5
+    },
+    {
+      "name": "Sensor path gap not reduced: H01",
+      "status": "PASS",
+      "gap_mm": 0.5,
+      "baseline_gap_mm": 0.5
+    },
+    {
+      "name": "Sensor path gap not reduced: H02",
+      "status": "PASS",
+      "gap_mm": 10.1,
+      "baseline_gap_mm": 10.1
+    },
+    {
+      "name": "Sensor path gap not reduced: H23",
+      "status": "PASS",
+      "gap_mm": 0.7999999999999989,
+      "baseline_gap_mm": 0.7999999999999989
+    },
+    {
+      "name": "Intact 6.2mm front rod bore -1",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "H18 side tool route not obstructed -1",
+      "status": "PASS",
+      "added_intersection_mm3": 0.0
+    },
+    {
+      "name": "Intact 6.2mm front rod bore 1",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "H18 side tool route not obstructed 1",
+      "status": "PASS",
+      "added_intersection_mm3": 0.0
+    },
+    {
+      "name": "Optional M2 underside pilot open -59",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Optional M2 underside pilot open 59",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    }
+  ],
+  "failures": []
+}

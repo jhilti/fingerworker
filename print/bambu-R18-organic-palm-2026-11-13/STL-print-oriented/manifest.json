@@ -1,0 +1,170 @@
+{
+  "units": "mm",
+  "scale": 1,
+  "quantity_each": 1,
+  "note": "Six alternate STL files for individual use. The 3MF already contains all six; do not import them additionally.",
+  "parts": {
+    "P01": {
+      "file": "P01.stl",
+      "sha256": "c55b87cb74f13638486dfcd709b87a0b4a97d2d25ea905488771d12bef1654d0",
+      "source_sha256": "be42108fa89941a0f7dbae4df4cec33a9402b8316e8c42922475309060faf554",
+      "rotation_3x3": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "normalization_translation_mm": [
+        46.10000228881836,
+        66.20000457763672,
+        2.0
+      ]
+    },
+    "P04": {
+      "file": "P04.stl",
+      "sha256": "7474ebae367cf4871fb7ede782bad9c34bbfaa2c00e2cccca8fecaf3246e1381",
+      "source_sha256": "fdb84301af40be4ca84b838ebc1847b18ac0b2854818e3bfe63c1085d6ff0b7c",
+      "rotation_3x3": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "normalization_translation_mm": [
+        30.0,
+        63.0,
+        -60.0
+      ]
+    },
+    "P05": {
+      "file": "P05.stl",
+      "sha256": "8ef67eea304109a9511183e1f5cc8a9e535797b07fb83081b13aad49f7894339",
+      "source_sha256": "cb052e7c3406a210ef052b7d52c7ac4d77416327f6fc9614eecc1553d48837d9",
+      "rotation_3x3": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "normalization_translation_mm": [
+        7.0,
+        63.0,
+        -7.0
+      ]
+    },
+    "P11": {
+      "file": "P11.stl",
+      "sha256": "0bed6889942d67e7bbad3634e4b5d817f7c78e0d4271af751420248f1f420f2b",
+      "source_sha256": "ee81507b31f348ae644d268f5525a825d5eecbd44f580824105b74e3a191d49b",
+      "rotation_3x3": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "normalization_translation_mm": [
+        -62.5,
+        7.699999809265137,
+        19.0
+      ]
+    },
+    "Q01": {
+      "file": "Q01.stl",
+      "sha256": "6c0a48443c6e589e1b6dd02424950680284d5f6d0c2f9200f5deb52b0b6e313e",
+      "source_sha256": "6061e924713db0bd1a193251cd5789f44ccdd9c84518528afdec55449c6907bb",
+      "rotation_3x3": [
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "normalization_translation_mm": [
+        6.0,
+        -2.700000047683716,
+        12.0
+      ]
+    },
+    "P06": {
+      "file": "P06.stl",
+      "sha256": "df12f2ecd6d06c0528e2db02be8843effcbf3351b16dace34fefa9bc59530fc1",
+      "source_sha256": "1bc939179f5ebcdc9fb1622f06bb143d9d6ab62051ae5df99fb8f6520fa635ae",
+      "rotation_3x3": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "normalization_translation_mm": [
+        67.5999984741211,
+        129.0,
+        -4.5
+      ]
+    }
+  }
+}

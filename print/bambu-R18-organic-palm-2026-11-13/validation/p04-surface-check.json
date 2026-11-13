@@ -1,0 +1,177 @@
+{
+  "status": "PASS",
+  "scope": "P04 main finger-contact surfaces, exact rolled front lip core, central guide cavity, and inner 8 mm rod bores; support roads sampled at <=0.35 mm",
+  "gcode_sha256": "16e7d623cd5aebd6ca9b90e6a86adc7426ece295f044738d96c2bfdc31294bd6",
+  "rotation_3x3": [
+    [
+      0,
+      0,
+      -1
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      0
+    ]
+  ],
+  "normalization_translation_mm": [
+    30.0,
+    63.0,
+    -60.0
+  ],
+  "plate_xy_mm": [
+    283,
+    22
+  ],
+  "model_segments": 275870,
+  "first_layer_path_mm": 3295.8796531218154,
+  "max_model_print_z_mm": 59.0,
+  "support_segments": 191700,
+  "support_segments_in_critical_regions": {
+    "loaded_wall": 0,
+    "pocket_floor": 0,
+    "guide_cavity": 0,
+    "left_rod_bore": 0,
+    "right_rod_bore": 0,
+    "rolled_front_lip": 0,
+    "front_floor_fillet": 0,
+    "front_corner_walls": 0
+  },
+  "regions": {
+    "loaded_wall": {
+      "Bridge": {
+        "segments": 121,
+        "sample_points": 4259,
+        "path_mm": 2232.214641837278,
+        "max_speed_mm_s": 25.0
+      },
+      "Internal solid infill": {
+        "segments": 432,
+        "sample_points": 15534,
+        "path_mm": 7332.195316921709,
+        "max_speed_mm_s": 160.0
+      },
+      "Top surface": {
+        "segments": 127,
+        "sample_points": 5165,
+        "path_mm": 2150.5592098800103,
+        "max_speed_mm_s": 40.0
+      }
+    },
+    "pocket_floor": {
+      "Inner wall": {
+        "segments": 119,
+        "sample_points": 16937,
+        "path_mm": 7593.701000000012,
+        "max_speed_mm_s": 180.0
+      },
+      "Outer wall": {
+        "segments": 119,
+        "sample_points": 16937,
+        "path_mm": 7593.701000000012,
+        "max_speed_mm_s": 60.0
+      }
+    },
+    "guide_cavity": {
+      "Inner wall": {
+        "segments": 3794,
+        "sample_points": 10783,
+        "path_mm": 25641.85314404008,
+        "max_speed_mm_s": 180.0
+      },
+      "Outer wall": {
+        "segments": 1835,
+        "sample_points": 35991,
+        "path_mm": 19802.825060073752,
+        "max_speed_mm_s": 60.0
+      },
+      "Overhang wall": {
+        "segments": 21,
+        "sample_points": 101,
+        "path_mm": 23.569606343164704,
+        "max_speed_mm_s": 25.0
+      }
+    },
+    "left_rod_bore": {},
+    "right_rod_bore": {},
+    "rolled_front_lip": {
+      "Outer wall": {
+        "segments": 249,
+        "sample_points": 3639,
+        "path_mm": 1257.1640473423415,
+        "max_speed_mm_s": 60.0
+      },
+      "Overhang wall": {
+        "segments": 1,
+        "sample_points": 2,
+        "path_mm": 1.7539999999999907,
+        "max_speed_mm_s": 25.0
+      },
+      "Inner wall": {
+        "segments": 5,
+        "sample_points": 799,
+        "path_mm": 280.00800000000004,
+        "max_speed_mm_s": 180.0
+      },
+      "Top surface": {
+        "segments": 106,
+        "sample_points": 212,
+        "path_mm": 1876.9350484688205,
+        "max_speed_mm_s": 40.0
+      }
+    },
+    "front_floor_fillet": {
+      "Top surface": {
+        "segments": 108,
+        "sample_points": 735,
+        "path_mm": 1904.246340433565,
+        "max_speed_mm_s": 40.0
+      },
+      "Inner wall": {
+        "segments": 4,
+        "sample_points": 639,
+        "path_mm": 224.006,
+        "max_speed_mm_s": 180.0
+      },
+      "Outer wall": {
+        "segments": 19,
+        "sample_points": 3039,
+        "path_mm": 1065.4480000266276,
+        "max_speed_mm_s": 60.0
+      }
+    },
+    "front_corner_walls": {
+      "Inner wall": {
+        "segments": 39,
+        "sample_points": 710,
+        "path_mm": 247.62467223315758,
+        "max_speed_mm_s": 180.0
+      },
+      "Top surface": {
+        "segments": 51,
+        "sample_points": 324,
+        "path_mm": 549.796029357481,
+        "max_speed_mm_s": 40.0
+      },
+      "Outer wall": {
+        "segments": 103,
+        "sample_points": 2630,
+        "path_mm": 930.599414821708,
+        "max_speed_mm_s": 60.0
+      }
+    }
+  },
+  "issues": [],
+  "estimated_time": "11h 3m 22s",
+  "estimated_weight_g": 239.38,
+  "layout_sha256": "341aafaa8b88741d5987f7206088ab3f9e30efaaa75114377140643c8078bdab",
+  "sliced_archive_sha256": "4ddfdada54b368db8c797c6c39b78e51c1278f52e31b0921d30193c5bcf40701",
+  "CAD_source_sha256": "345b90327031276f8085e2c225c795946036d7faa4f2ac01b764101b9f4b3dd1",
+  "validator_sha256": "c7f17c253da6390aa1ccc65fff18bf206d0f721aad132cc319e7855c865d8b57",
+  "retained_checker_sha256": "e6a925aa90c86beac1cbbac1cb155fa9a5f9db8255d1f51b5be23ca48e87f365"
+}

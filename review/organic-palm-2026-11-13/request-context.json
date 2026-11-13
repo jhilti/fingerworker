@@ -1,0 +1,34 @@
+{
+  "revision": "R18",
+  "status": "IN_DESIGN",
+  "user_request": "Make the fixed palm support organic, retaining mirrored side thumb recesses.",
+  "confirmed_thumb_sides": "both",
+  "supersedes_local_candidate": "R17 side thumb recess only; source780dfdbaf9c6ab4bf4bbf3ab3de0dab3f9ac7dc5f8de49cf015c51ee95cc16e4 remains frozen",
+  "baseline_native_version": "d4421f391a091e249b08aeb1",
+  "onshape_document": "15316cc6370631845af136b2",
+  "onshape_workspace": "b4cdb9c00f1866c89fa345c0",
+  "part_studio": "d253eb87b70818ebde8215f0",
+  "feature_studio": "f4e97d439e996d0e05f0255e",
+  "workspace_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/w/b4cdb9c00f1866c89fa345c0/e/d253eb87b70818ebde8215f0",
+  "signed_in_verified": true,
+  "planned_changed_parts": [
+    "P01"
+  ],
+  "print_preferences": {
+    "printer": "Bambu H2D",
+    "nozzle_mm": 0.4,
+    "material": "PLA Basic",
+    "brim": false,
+    "primary": "P01 replacement",
+    "secondary": "six-part mechanical kit",
+    "start_print": false
+  },
+  "release_gates": [
+    "Local geometry and preserved interfaces",
+    "Native source readback and regeneration",
+    "Native93body identity checks",
+    "Native meshes and actual sliced paths",
+    "Bambu preview",
+    "Update docs and overview"
+  ]
+}

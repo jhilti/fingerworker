@@ -1,0 +1,1216 @@
+{
+  "status": "PASS",
+  "source_sha256": "6099df42e341ff9f5c3439709a23107325d10ef922f616bdcda6fa6ef64d41c1",
+  "native_step_sha256": "99e73fe8a20ca5cd62b42369a625a9067feb7df6c48d6e94af3d9ac3b1a15292",
+  "checks": [
+    {
+      "name": "Independent R2 plan/R0.5 upper filleted ledge union exact CSG",
+      "symmetric_difference_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "One connected rigid palm print without enclosed sleeve cavity",
+      "solid_count": 1,
+      "shell_count": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "All original P02 stock retained",
+      "missing_original_material_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Curved palm/contact datum unchanged above new low ledge",
+      "symmetric_difference_mm3": 0.0,
+      "curved_tangent_x_mm": -37.25,
+      "meaning": "New ledge minX-46.1 is a separate lower feature; it does not redefine the unchanged half-round contact tangent atZ19.75.",
+      "status": "PASS"
+    },
+    {
+      "name": "Unchanged local mount/approach left M4/key",
+      "symmetric_difference_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Unchanged local mount/approach right M4/key",
+      "symmetric_difference_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Unchanged local mount/approach left enclosure M2 pilot",
+      "symmetric_difference_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Unchanged local mount/approach right enclosure M2 pilot",
+      "symmetric_difference_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Full P09 rectangular lid incl four corners",
+      "uncovered_witness_volume_mm3": 0.0,
+      "method": "Complete native slices atZ9.6..9.7 plusZ14..14.1 translated vertically; no sampling or bounding-box-only assertion.",
+      "status": "PASS"
+    },
+    {
+      "name": "Full P08 enclosing footprint incl tabs/corners",
+      "uncovered_witness_volume_mm3": 0.0,
+      "method": "Complete native slices atZ9.6..9.7 plusZ14..14.1 translated vertically; no sampling or bounding-box-only assertion.",
+      "status": "PASS"
+    },
+    {
+      "name": "Added ledge to P09",
+      "exact_gap_mm": 0.5999999999999996,
+      "expected_gap_mm": 0.6,
+      "status": "PASS"
+    },
+    {
+      "name": "Added ledge to E06",
+      "exact_gap_mm": 2.2,
+      "expected_gap_mm": 2.2,
+      "status": "PASS"
+    },
+    {
+      "name": "Added ledge to E08",
+      "exact_gap_mm": 4.3999999999999995,
+      "expected_gap_mm": 4.4,
+      "status": "PASS"
+    },
+    {
+      "name": "Complete P02 to P09 lid minimum nominal gap",
+      "exact_gap_mm": 0.5999999999999979,
+      "status": "PASS"
+    },
+    {
+      "name": "Physical device envelope unchanged from R7",
+      "new_bounds_mm": [
+        [
+          -46.1,
+          -66.0,
+          -2.0000001
+        ],
+        [
+          130.40000009999997,
+          66.0,
+          33.0000001
+        ]
+      ],
+      "baseline_bounds_mm": [
+        [
+          -46.1,
+          -66.0,
+          -2.0000001
+        ],
+        [
+          130.40000009999997,
+          66.0,
+          33.0000001
+        ]
+      ],
+      "depth_width_height_mm": [
+        176.50000009999997,
+        132.0,
+        35.0000002
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "E01"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "E05"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "E06"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "E07"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "E08"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H01"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H02"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H030"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H031"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H040"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H041"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H050"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H051"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H060"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H061"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H09"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H09a"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H09b"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H10"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H11"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H12"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H13"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H15"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H160"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H161"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H170"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H171"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H180"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H181"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H190"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H191"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H20"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H21"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H22"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H23"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H240"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H241"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H242"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H243"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H250"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H251"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H252"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H253"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H260"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H261"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H270"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H271"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H280"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H281"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H290"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H291"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H300a"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H300b"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H301a"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H301b"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H310"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H311"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H320"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "H321"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "P01"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "P04"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "P05"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "P060"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "P061"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "P070a"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "P070b"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "P071a"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "P071b"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "P08"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "P09"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "P10"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "P11"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "P120"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "P121"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_C1"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_C10"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_C11"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_C12"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_C13"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_C14"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_C15"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_C16"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_C2"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_C3"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_C4"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_C5"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_C6"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_C7"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_C8"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_C9"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_D1"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_J1"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_J2"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_J3"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_L1"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_Q1"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_R1"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_R10"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_R11"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_R12"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_R13"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_R14"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_R15"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_R16"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_R17"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_R18"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_R19"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_R2"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_R20"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_R21"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_R3"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_R4"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_R5"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_R6"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_R7"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_R8"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_R9"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_SW2"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_U1"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_U2"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_U3"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exact changed-palm native pair",
+      "pair": [
+        "P02",
+        "PCB_U4"
+      ],
+      "intersection_volume_mm3": 0.0,
+      "status": "PASS"
+    }
+  ]
+}

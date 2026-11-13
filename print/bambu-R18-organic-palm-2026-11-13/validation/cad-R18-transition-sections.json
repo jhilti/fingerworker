@@ -1,0 +1,1102 @@
+{
+  "status": "MEASURED_NATIVE_CAD_CLASSIFICATION",
+  "native_step_sha256": "0d9ebb0777c35ebf687c59578362a1323a9cab3a00922be858c1d03695f023ee",
+  "foundation_step_sha256": "fa9a68d37e192b13045d6259a3f0eb8a9913f92805eab37982e691a60b19fa4c",
+  "method": "Exact BRep point classifier,0.02mm X-grid; ON counted occupied; valuesjustabove/belowZ24 distinguish originalcapbottom.",
+  "rows": [
+    {
+      "part": "native_R18",
+      "y_mm": 36,
+      "z_mm": 23.799,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -15.540000000000095
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 37,
+      "z_mm": 23.799,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.220000000000038
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 37.5,
+      "z_mm": 23.799,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.220000000000038
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 38.008,
+      "z_mm": 23.799,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.220000000000038
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 38.416,
+      "z_mm": 23.799,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.220000000000038
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 38.967,
+      "z_mm": 23.799,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.220000000000038
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 39,
+      "z_mm": 23.799,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.220000000000038
+        ],
+        [
+          -18.000000000000043,
+          -8.000000000000256
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 36,
+      "z_mm": 23.9,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -15.500000000000096
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 37,
+      "z_mm": 23.9,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.10000000000004
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 37.5,
+      "z_mm": 23.9,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.10000000000004
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 38.008,
+      "z_mm": 23.9,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.10000000000004
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 38.416,
+      "z_mm": 23.9,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.10000000000004
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 38.967,
+      "z_mm": 23.9,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.10000000000004
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 39,
+      "z_mm": 23.9,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.10000000000004
+        ],
+        [
+          -18.000000000000043,
+          -8.000000000000256
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 36,
+      "z_mm": 23.999,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -15.440000000000097
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 37,
+      "z_mm": 23.999,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.020000000000042
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 37.5,
+      "z_mm": 23.999,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.020000000000042
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 38.008,
+      "z_mm": 23.999,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.020000000000042
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 38.416,
+      "z_mm": 23.999,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.020000000000042
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 38.967,
+      "z_mm": 23.999,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.020000000000042
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 39,
+      "z_mm": 23.999,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.000000000000256
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 36,
+      "z_mm": 24.0,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -15.440000000000097
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 37,
+      "z_mm": 24.0,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -10.000000000000213
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 37.5,
+      "z_mm": 24.0,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.680000000000241
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 38.008,
+      "z_mm": 24.0,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.28000000000025
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 38.416,
+      "z_mm": 24.0,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.100000000000254
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 38.967,
+      "z_mm": 24.0,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.020000000000255
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 39,
+      "z_mm": 24.0,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.000000000000256
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 36,
+      "z_mm": 24.001,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -15.440000000000097
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 37,
+      "z_mm": 24.001,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -10.000000000000213
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 37.5,
+      "z_mm": 24.001,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.680000000000241
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 38.008,
+      "z_mm": 24.001,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.28000000000025
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 38.416,
+      "z_mm": 24.001,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.100000000000254
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 38.967,
+      "z_mm": 24.001,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.020000000000255
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 39,
+      "z_mm": 24.001,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.000000000000256
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 36,
+      "z_mm": 24.1,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -15.380000000000098
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 37,
+      "z_mm": 24.1,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -10.000000000000213
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 37.5,
+      "z_mm": 24.1,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.680000000000241
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 38.008,
+      "z_mm": 24.1,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.28000000000025
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 38.416,
+      "z_mm": 24.1,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.100000000000254
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 38.967,
+      "z_mm": 24.1,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.020000000000255
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 39,
+      "z_mm": 24.1,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.000000000000256
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 36,
+      "z_mm": 24.2,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -15.3400000000001
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 37,
+      "z_mm": 24.2,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -10.000000000000213
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 37.5,
+      "z_mm": 24.2,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.680000000000241
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 38.008,
+      "z_mm": 24.2,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.28000000000025
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 38.416,
+      "z_mm": 24.2,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.100000000000254
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 38.967,
+      "z_mm": 24.2,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.020000000000255
+        ]
+      ]
+    },
+    {
+      "part": "native_R18",
+      "y_mm": 39,
+      "z_mm": 24.2,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.000000000000256
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 36,
+      "z_mm": 23.799,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.220000000000038
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 37,
+      "z_mm": 23.799,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.220000000000038
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 37.5,
+      "z_mm": 23.799,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.220000000000038
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 38.008,
+      "z_mm": 23.799,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.220000000000038
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 38.416,
+      "z_mm": 23.799,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.220000000000038
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 38.967,
+      "z_mm": 23.799,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.220000000000038
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 39,
+      "z_mm": 23.799,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.220000000000038
+        ],
+        [
+          -18.000000000000043,
+          -8.000000000000256
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 36,
+      "z_mm": 23.9,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.10000000000004
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 37,
+      "z_mm": 23.9,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.10000000000004
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 37.5,
+      "z_mm": 23.9,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.10000000000004
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 38.008,
+      "z_mm": 23.9,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.10000000000004
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 38.416,
+      "z_mm": 23.9,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.10000000000004
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 38.967,
+      "z_mm": 23.9,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.10000000000004
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 39,
+      "z_mm": 23.9,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.10000000000004
+        ],
+        [
+          -18.000000000000043,
+          -8.000000000000256
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 36,
+      "z_mm": 23.999,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.020000000000042
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 37,
+      "z_mm": 23.999,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.020000000000042
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 37.5,
+      "z_mm": 23.999,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.020000000000042
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 38.008,
+      "z_mm": 23.999,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.020000000000042
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 38.416,
+      "z_mm": 23.999,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.020000000000042
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 38.967,
+      "z_mm": 23.999,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.020000000000042
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 39,
+      "z_mm": 23.999,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.000000000000256
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 36,
+      "z_mm": 24.0,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.000000000000043
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 37,
+      "z_mm": 24.0,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -10.000000000000213
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 37.5,
+      "z_mm": 24.0,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.680000000000241
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 38.008,
+      "z_mm": 24.0,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.28000000000025
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 38.416,
+      "z_mm": 24.0,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.100000000000254
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 38.967,
+      "z_mm": 24.0,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.020000000000255
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 39,
+      "z_mm": 24.0,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.000000000000256
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 36,
+      "z_mm": 24.001,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -18.000000000000043
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 37,
+      "z_mm": 24.001,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -10.000000000000213
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 37.5,
+      "z_mm": 24.001,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.680000000000241
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 38.008,
+      "z_mm": 24.001,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.28000000000025
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 38.416,
+      "z_mm": 24.001,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.100000000000254
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 38.967,
+      "z_mm": 24.001,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.020000000000255
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 39,
+      "z_mm": 24.001,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.000000000000256
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 36,
+      "z_mm": 24.1,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -17.900000000000045
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 37,
+      "z_mm": 24.1,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -10.000000000000213
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 37.5,
+      "z_mm": 24.1,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.680000000000241
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 38.008,
+      "z_mm": 24.1,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.28000000000025
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 38.416,
+      "z_mm": 24.1,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.100000000000254
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 38.967,
+      "z_mm": 24.1,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.020000000000255
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 39,
+      "z_mm": 24.1,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.000000000000256
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 36,
+      "z_mm": 24.2,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -17.800000000000047
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 37,
+      "z_mm": 24.2,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -10.000000000000213
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 37.5,
+      "z_mm": 24.2,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.680000000000241
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 38.008,
+      "z_mm": 24.2,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.28000000000025
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 38.416,
+      "z_mm": 24.2,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.100000000000254
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 38.967,
+      "z_mm": 24.2,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.020000000000255
+        ]
+      ]
+    },
+    {
+      "part": "foundation_R17",
+      "y_mm": 39,
+      "z_mm": 24.2,
+      "occupied_x_intervals_mm": [
+        [
+          -20.0,
+          -8.000000000000256
+        ]
+      ]
+    }
+  ]
+}

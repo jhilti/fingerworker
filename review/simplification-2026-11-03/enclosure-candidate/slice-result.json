@@ -1,0 +1,54 @@
+{
+  "status": "SLICED_LOCAL_CSG_CANDIDATE",
+  "no_printer_transmission": true,
+  "commands": [
+    {
+      "command": [
+        "/tmp/fingerworker-bambu-r8-runtime/BambuStudio.app/Contents/MacOS/BambuStudio",
+        "--datadir",
+        "/tmp/fingerworker-r12-enclosure-data",
+        "--arrange",
+        "0",
+        "--orient",
+        "0",
+        "--ensure-on-bed",
+        "--debug",
+        "2",
+        "--load-settings",
+        "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/simplification-2026-11-03/enclosure-candidate/profiles/H2D_machine.json;/Users/jonashilti/Documents/ChatGPT/fingerworker/review/simplification-2026-11-03/enclosure-candidate/profiles/H2D_process.json",
+        "--load-filaments",
+        "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/simplification-2026-11-03/enclosure-candidate/profiles/H2D_PLA.json",
+        "--outputdir",
+        "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/simplification-2026-11-03/enclosure-candidate",
+        "--export-3mf",
+        "R12_integrated_ceiling_LOCAL_CANDIDATE-candidate-flat.3mf",
+        "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/simplification-2026-11-03/enclosure-candidate/R12_integrated_ceiling_LOCAL_CANDIDATE-candidate-flat_seed.3mf"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/tmp/fingerworker-bambu-r8-runtime/BambuStudio.app/Contents/MacOS/BambuStudio",
+        "--datadir",
+        "/tmp/fingerworker-r12-enclosure-data",
+        "--arrange",
+        "0",
+        "--orient",
+        "0",
+        "--ensure-on-bed",
+        "--debug",
+        "2",
+        "--slice",
+        "0",
+        "--outputdir",
+        "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/simplification-2026-11-03/enclosure-candidate/validation",
+        "--export-3mf",
+        "integrated_ceiling_verification.gcode.3mf",
+        "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/simplification-2026-11-03/enclosure-candidate/R12_integrated_ceiling_LOCAL_CANDIDATE-candidate-flat.3mf"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "slice_sha256": "420ba3c7eb7fa2e97dcad0b326f09d9fd558cae33272a69694db1bfd5b1bbe74",
+  "scope": "Local OCP proposal, not native manufacturing release. Builder inherited R11 label is superseded by this explicit candidate record."
+}

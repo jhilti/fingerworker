@@ -1,0 +1,70 @@
+{
+  "status": "ALL_EIGHT_LOCAL_TARGETS_HTTP_200",
+  "viewer_sha256": "16e466666d78b4402970d309a8ded779c4941d4579952b4654a68bf2086ea1c0",
+  "prototype_package": {
+    "path": "deliverables/Flat132_R4_Switch_Fit.zip",
+    "sha256": "7d4da69e999be78940a7c3ee040c3c4c6fc5d6af2fba2863581dd29830a56ae3",
+    "bytes": 60077924
+  },
+  "checks": [
+    {
+      "path": "viewer/viewer.html",
+      "url": "http://127.0.0.1:8772/viewer/viewer.html",
+      "method": "HTTP HEAD",
+      "status": 200,
+      "exists": true
+    },
+    {
+      "path": "fingerworker_flat132_switch_fit.fs",
+      "url": "http://127.0.0.1:8772/fingerworker_flat132_switch_fit.fs",
+      "method": "HTTP HEAD",
+      "status": 200,
+      "exists": true
+    },
+    {
+      "path": "native/Flat132_R4_neutral_final.zip",
+      "url": "http://127.0.0.1:8772/native/Flat132_R4_neutral_final.zip",
+      "method": "HTTP HEAD",
+      "status": 200,
+      "exists": true
+    },
+    {
+      "path": "native/Flat132_R4_max28_p2_heavy_final.zip",
+      "url": "http://127.0.0.1:8772/native/Flat132_R4_max28_p2_heavy_final.zip",
+      "method": "HTTP HEAD",
+      "status": 200,
+      "exists": true
+    },
+    {
+      "path": "native/Flat132_R4_isometric13_p2_final.zip",
+      "url": "http://127.0.0.1:8772/native/Flat132_R4_isometric13_p2_final.zip",
+      "method": "HTTP HEAD",
+      "status": 200,
+      "exists": true
+    },
+    {
+      "path": "native/Flat132_R4_final_AP214.step",
+      "url": "http://127.0.0.1:8772/native/Flat132_R4_final_AP214.step",
+      "method": "HTTP HEAD",
+      "status": 200,
+      "exists": true
+    },
+    {
+      "path": "validation/validation.json",
+      "url": "http://127.0.0.1:8772/validation/validation.json",
+      "method": "HTTP HEAD",
+      "status": 200,
+      "exists": true
+    },
+    {
+      "path": "deliverables/Flat132_R4_Switch_Fit.zip",
+      "url": "http://127.0.0.1:8772/deliverables/Flat132_R4_Switch_Fit.zip",
+      "method": "HTTP HEAD",
+      "status": 200,
+      "exists": true
+    }
+  ],
+  "immutable_onshape_version": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/1a51bc54c29fb727dcb77016/e/d253eb87b70818ebde8215f0",
+  "immutable_verification": "Parent confirmed immutable FeatureScript readback matches final b150 source; no external request repeated by viewer agent.",
+  "packaged_files_modified": false
+}

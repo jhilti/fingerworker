@@ -1,0 +1,2297 @@
+{
+  "status": "PASS_EXACT_NATIVE_R12",
+  "source_sha256": "730cd21ea3aafbe43bf8eb38007b20d9cd0272659430d8a2b3b6245f33f62455",
+  "native_step_sha256": "b2c076642b22f99a251b8e2a6ac20da9f251696e892448a2651ee8b636f32021",
+  "native_zip_sha256": "0dfb335eba5293a13115ee5dbc4245a8cacc5311d17fe6771aad3135a935eaa1",
+  "validator_sha256": "2159544d78a1306d3fa6ab34800c3c88796f795e10f43a08e511c3168f7f49b5",
+  "checks": [
+    {
+      "name": "Exact revised body inventory",
+      "status": "PASS",
+      "count": 93,
+      "removed": [
+        "H11",
+        "H13",
+        "H15",
+        "H160",
+        "H161",
+        "H170",
+        "H171",
+        "H21",
+        "H22",
+        "H260",
+        "H261",
+        "H270",
+        "H271",
+        "H280",
+        "H281",
+        "H290",
+        "H291",
+        "H310",
+        "H311",
+        "H320",
+        "H321",
+        "P060",
+        "P061",
+        "P120",
+        "P121"
+      ]
+    },
+    {
+      "name": "All native solids valid positive volumes",
+      "status": "PASS"
+    },
+    {
+      "name": "Independent exact CSG P01",
+      "status": "PASS",
+      "ref": "P01",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "name": "One connected valid solid and shell P01",
+      "status": "PASS"
+    },
+    {
+      "name": "Independent exact CSG P06",
+      "status": "PASS",
+      "ref": "P06",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "name": "One connected valid solid and shell P06",
+      "status": "PASS"
+    },
+    {
+      "name": "Independent exact CSG P08",
+      "status": "PASS",
+      "ref": "P08",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "name": "One connected valid solid and shell P08",
+      "status": "PASS"
+    },
+    {
+      "name": "All90 retained other bodies exact R11 identity",
+      "status": "PASS",
+      "count": 90
+    },
+    {
+      "name": "Seated solid separation P01/E01",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/E05",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/E06",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/E07",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/E08",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/H01",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/H02",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/H030",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/H031",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/H040",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/H041",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/H050",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/H051",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/H060",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/H061",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/H09",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/H09a",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/H09b",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/H10",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/H12",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/H180",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/H181",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/H190",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/H191",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/H20",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/H23",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/H240",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/H241",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/H242",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/H243",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/H250",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/H251",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/H252",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/H253",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/H300a",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/H300b",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/H301a",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/H301b",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/P04",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/P05",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/P06",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/P08",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/P09",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/P11",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_C1",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_C10",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_C11",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_C12",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_C13",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_C14",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_C15",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_C16",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_C2",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_C3",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_C4",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_C5",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_C6",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_C7",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_C8",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_C9",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_D1",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_J1",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_J2",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_J3",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_L1",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_Q1",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_R1",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_R10",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_R11",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_R12",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_R13",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_R14",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_R15",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_R16",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_R17",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_R18",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_R19",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_R2",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_R20",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_R21",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_R3",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_R4",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_R5",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_R6",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_R7",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_R8",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_R9",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_SW2",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_U1",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_U2",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_U3",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P01/PCB_U4",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/E01",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/E05",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/E06",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/E07",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/E08",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/H01",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/H02",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/H030",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/H031",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/H040",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/H041",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/H050",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/H051",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/H060",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/H061",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/H09",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/H09a",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/H09b",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/H10",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/H12",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/H180",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/H181",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/H190",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/H191",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/H20",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/H23",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/H240",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/H241",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/H242",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/H243",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/H250",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/H251",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/H252",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/H253",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/H300a",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/H300b",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/H301a",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/H301b",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/P01",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/P04",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/P05",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/P08",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/P09",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/P11",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_C1",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_C10",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_C11",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_C12",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_C13",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_C14",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_C15",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_C16",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_C2",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_C3",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_C4",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_C5",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_C6",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_C7",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_C8",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_C9",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_D1",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_J1",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_J2",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_J3",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_L1",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_Q1",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_R1",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_R10",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_R11",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_R12",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_R13",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_R14",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_R15",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_R16",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_R17",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_R18",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_R19",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_R2",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_R20",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_R21",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_R3",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_R4",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_R5",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_R6",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_R7",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_R8",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_R9",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_SW2",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_U1",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_U2",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_U3",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P06/PCB_U4",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/E01",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/E05",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/E06",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/E07",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/E08",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/H01",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/H02",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/H030",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/H031",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/H040",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/H041",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/H050",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/H051",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/H060",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/H061",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/H09",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/H09a",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/H09b",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/H10",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/H12",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/H180",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/H181",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/H190",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/H191",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/H20",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/H23",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/H240",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/H241",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/H242",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/H243",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/H250",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/H251",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/H252",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/H253",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/H300a",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/H300b",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/H301a",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/H301b",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/P01",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/P04",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/P05",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/P06",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/P09",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/P11",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_C1",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_C10",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_C11",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_C12",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_C13",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_C14",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_C15",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_C16",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_C2",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_C3",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_C4",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_C5",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_C6",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_C7",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_C8",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_C9",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_D1",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_J1",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_J2",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_J3",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_L1",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_Q1",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_R1",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_R10",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_R11",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_R12",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_R13",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_R14",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_R15",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_R16",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_R17",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_R18",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_R19",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_R2",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_R20",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_R21",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_R3",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_R4",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_R5",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_R6",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_R7",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_R8",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_R9",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_SW2",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_U1",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_U2",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_U3",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seated solid separation P08/PCB_U4",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_result_valid": true
+    },
+    {
+      "name": "Seven printed device bodies",
+      "status": "PASS",
+      "refs": [
+        "P01",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P11"
+      ]
+    }
+  ],
+  "unchanged_native_breps": [
+    {
+      "ref": "E01",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "E05",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "E06",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "E07",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "E08",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "H01",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "H02",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "H030",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "H031",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "H040",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "H041",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "H050",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "H051",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "H060",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "H061",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "H09",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "H09a",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "H09b",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "H10",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "H12",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "H180",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "H181",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "H190",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "H191",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "H20",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "H23",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "H240",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "H241",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "H242",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "H243",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "H250",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "H251",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "H252",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "H253",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "H300a",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "H300b",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "H301a",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "H301b",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "P04",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "P05",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "P09",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "P11",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_C1",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_C10",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_C11",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_C12",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_C13",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_C14",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_C15",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_C16",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_C2",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_C3",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_C4",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_C5",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_C6",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_C7",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_C8",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_C9",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_D1",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_J1",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_J2",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_J3",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_L1",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_Q1",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_R1",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_R10",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_R11",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_R12",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_R13",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_R14",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_R15",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_R16",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_R17",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_R18",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_R19",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_R2",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_R20",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_R21",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_R3",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_R4",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_R5",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_R6",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_R7",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_R8",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_R9",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_SW2",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_U1",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_U2",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_U3",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    },
+    {
+      "ref": "PCB_U4",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "boolean_results_valid": true
+    }
+  ],
+  "failed_count": 0,
+  "failures": [],
+  "limitations": "Nominal geometry only. Source/export association declared by UI operator; no physical strength, PLA creep, snap cycling or fit qualification."
+}

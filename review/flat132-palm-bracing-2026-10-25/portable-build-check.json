@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "scope": "Source and ledger reconstructed byte-for-byte using only packaged builder plus bundled immutable R8 FeatureScript; no native regeneration or independent audit is implied.",
+  "source_sha256": "16972ba9341f4cdf763a5570dad82a4fbd601f0935d0a7657be85813f97ff2b1",
+  "source_build_sha256": "fb3d30d3ece52a3b9f190743d29ccbef7aa4bf022f7a96e7bf465d7478918728",
+  "builder_sha256": "f00c454e85d89c46a7eaa4e3973b5435a5881411befc4cae891e0b36839a6481",
+  "bundled_baseline_sha256": "6099df42e341ff9f5c3439709a23107325d10ef922f616bdcda6fa6ef64d41c1",
+  "isolated_project_source_and_ledger_byte_identical": true
+}

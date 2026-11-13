@@ -1,0 +1,565 @@
+{
+  "status": "PENDING_FACTORY_STEP_NATIVE_REGEN_AND_VALIDATION",
+  "verdict": "A separate R4 corrective candidate is feasible to implement with no cuts or changes to P05. Local nominal contact-region mesh checks have zero positive-volume conflicts, but this is not a native R4 regeneration/release or factory CAD verification. Frozen R3 remains unchanged.",
+  "baseline_source": "review/flat132-palm-fit-2026-10-23/fingerworker_flat132_palm_fit.fs",
+  "baseline_source_sha256": "4665c3ec4e983e478d34c6cfe923b3b60e6c8848f36b7c54b55b1989eaab6326",
+  "scope": "Move switch and adjust manual cam; preserve R3 palm,132/72/35 envelope,28-30travel, sensor force datum and P05 primary web/stops. No FS or native edits performed.",
+  "preferred_delta_mm": [
+    4,
+    1,
+    1.5
+  ],
+  "preferred_geometry": {
+    "switch_body_bounds_mm": [
+      [
+        18,
+        -16,
+        7.5
+      ],
+      [
+        28.2,
+        3.8,
+        13.9
+      ]
+    ],
+    "mount_centres_mm": [
+      [
+        20.5,
+        -10.9
+      ],
+      [
+        20.5,
+        -1.4
+      ]
+    ],
+    "mount_through_tools_Z_mm": [
+      6.5,
+      14.5
+    ],
+    "mount_hole_diameter_mm": 2.35,
+    "pedestal_bounds_mm": [
+      [
+        17,
+        -16.5,
+        3.8
+      ],
+      [
+        29,
+        5,
+        7.5
+      ]
+    ],
+    "pedestal_note": "Extend upward from unchanged base-joining bottom3.8; do not translate whole pedestal up. Trim shifted Ymin-17 to-16.5 to clear the negative P05 sensing stop while retaining0.5mm nominal support beyond bodyYmin-16.",
+    "switch_insert_pilots": {
+      "diameter_mm": 3.2,
+      "Z_tools_mm": [
+        3.5,
+        7.7
+      ],
+      "actual_opening_Z_mm": 7.5,
+      "actual_blind_depth_mm": 4,
+      "assumed_insert_length_mm": 3,
+      "assumed_flush_insert_Z_mm": [
+        4.5,
+        7.5
+      ],
+      "nominal_remaining_base_floor_mm": 5.5
+    },
+    "M2_fasteners": {
+      "existing": "M2x10 with thin washers; no change in nominal screw length",
+      "new_underhead_Z_mm": "13.9+w",
+      "new_tip_Z_mm": "3.9+w",
+      "nominal_engagement_mm": "min(3,3.6-w); full3mm if w<=0.6mm",
+      "tip_floor_gap_mm": "0.4+w",
+      "limit": "Actual washer/head/screw/insert dimensions unconfirmed. Manufacturer M2.3 recommendation remains a documented difference."
+    },
+    "H10": {
+      "thread": "M3",
+      "length_mm": 8,
+      "head_max_diameter_mm": 5.5,
+      "head_height_mm": 3,
+      "centre_YZ_mm": [
+        3.5,
+        11.5
+      ],
+      "head_X_mm": [
+        64,
+        67
+      ],
+      "shank_X_mm": [
+        67,
+        75
+      ],
+      "CAD_join_overlap_shank_start_mm": 66.9,
+      "configuration_translation_X_mm": "-preload-stroke",
+      "counterbore_diameter_mm": 5.8,
+      "counterbore_X_mm": [
+        63.8,
+        68
+      ],
+      "insert_pilot_diameter_mm": 4.2,
+      "insert_pilot_X_mm": [
+        67.8,
+        73
+      ],
+      "insert_entry_X_mm": 68,
+      "assumed_insert_length_mm": 4,
+      "assumed_insert_X_mm": [
+        68,
+        72
+      ],
+      "shaft_bore_diameter_mm": 3.4,
+      "shaft_bore_X_mm": [
+        63,
+        76.5
+      ],
+      "cam_nub_X_min_mm": 65,
+      "nominal_full_insert_engagement_mm": 4,
+      "nominal_engagement_preload_range_mm": [
+        0,
+        2
+      ],
+      "nominal_counterbore_to_female_guide_roof_web_mm": 1.3,
+      "nominal_head_radial_clearance_mm": 0.15,
+      "limit": "Keep manual reset by preload. No actual hex socket, locking method or helical thread form modeled; lock/setting must be physically confirmed."
+    },
+    "actuator_proxy_mapping": {
+      "hinge_start_mm": [
+        29.5,
+        -13.1,
+        10.7
+      ],
+      "lever_radius_mm": 0.45,
+      "roller_diameter_mm": 4.8,
+      "roller_Z_mm": [
+        9.1,
+        12.3
+      ],
+      "roller_X_equation": "min(37.4,64-stroke-preload-2.4)",
+      "roller_Y_equation": "-13.1 + sqrt(3.1^2+16.7^2 - (rollerX-29.5)^2)",
+      "label": "Illustrative/datasheet envelope, not factory CAD or qualified motion model"
+    },
+    "terminal_envelopes": {
+      "X_mm": [
+        14.1,
+        18
+      ],
+      "Y_centres_mm": [
+        -14.4,
+        -5.6,
+        1.7
+      ],
+      "Y_thickness_mm": 0.5,
+      "Z_mm": [
+        9.1,
+        12.3
+      ],
+      "nominal_min_axial_gap_to_web_at_p2_mm": 3.1,
+      "nominal_gap_to_P01_pedestal_mm": 1.6,
+      "limit": "Derived bounding boxes; exact terminal holes/corners, solder and wires not represented."
+    },
+    "lug_envelope": {
+      "bounds_mm": [
+        [
+          17.6,
+          -16,
+          7.5
+        ],
+        [
+          18,
+          3.8,
+          13.9
+        ]
+      ],
+      "limit": "Conservative nominal full-housing-width strip conditional on undimensioned lug width staying within6.4mm; no exact lug geometry claim."
+    }
+  },
+  "alternative_Y_half_mm": {
+    "delta_mm": [
+      4,
+      0.5,
+      1.5
+    ],
+    "pedestal_Y_mm": [
+      -16.5,
+      4.5
+    ],
+    "body_Y_mm": [
+      -16.5,
+      3.3
+    ],
+    "H10_Y_mm": 3,
+    "nominal_body_to_negative_stop_gap_mm": 0.5,
+    "local_check_count": 60,
+    "local_positive_conflicts": 0,
+    "reason_not_preferred": "Only0.5mm body/stop gap and nominal body edge flush to pedestal edge; +Y1 gives1mm body gap and0.5mm support margin for just0.5mm extra relocation."
+  },
+  "functional_timing": {
+    "new_OP_face_X_mm": 35,
+    "OP_face_range_from_manufacturer_tolerance_mm": [
+      34.2,
+      35.8
+    ],
+    "cam_face_equation_X_mm": "64-preload-stroke",
+    "stop_face_X_mm": 34,
+    "nominal_trip_lead_mm": 1,
+    "trip_lead_from_OP_tolerance_only_mm": [
+      0.2,
+      1.8
+    ],
+    "qualification": "Physical calibration required. Minimum OT1.2 is not a stated maximum allowed travel. Preserve NC fail-safe and manual cam reset; no firmware changes or Newton-display enablement."
+  },
+  "wire_space": {
+    "nominal_rearward_space_before_P05_at_p2_mm": 3.1,
+    "if_required_remaining_gap_1mm_max_joint_rear_projection_mm": 2.1,
+    "qualification": "Solder/insulation/wire bend geometry unknown.3.1mm is raw nominal clearance, not a certified soldering/bend allowance. Route and strain-relief physically without cutting the primary web."
+  },
+  "local_mesh_check": {
+    "method": "Source-equivalent local CSG changes built from R3 native meshes. Old cam-hole region filled locally, old pedestal replaced locally, new cutters applied. Checks use96-segment primitive cylinders. No native feature regeneration, all-pairs proof, continuous operating envelope or factory-STEP fit claimed.",
+    "meshes": [
+      {
+        "path": "review/flat132-palm-fit-2026-10-23/assembly-mm/P01.stl",
+        "sha256": "d7a96a2ea3a664a638194f3be3c574918cf87409792f2e1925e01fbf0279ee25"
+      },
+      {
+        "path": "review/flat132-palm-fit-2026-10-23/assembly-mm/P04.stl",
+        "sha256": "f0619efdc68b11aaa28b436cee13837b0e643879f34f71b8305a502a60d5b823"
+      },
+      {
+        "path": "review/flat132-palm-fit-2026-10-23/assembly-mm/P05.stl",
+        "sha256": "58ccc46eccb517b968ad75f0a8aab52cc853f2621410fa6bc1eecfff6d182ccd"
+      },
+      {
+        "path": "review/flat132-palm-fit-2026-10-23/assembly-mm/H09.stl",
+        "sha256": "86216109430b9fac32d766bdb8351ab2c0c492d5dacf367f04c6dffb662a07b8"
+      }
+    ],
+    "candidate_statuses": {
+      "P01": "Error.NoError",
+      "P04": "Error.NoError",
+      "H10": "Error.NoError"
+    },
+    "checks_count": 62,
+    "positive_volume_conflicts": 0,
+    "checks": [
+      {
+        "pair": "new body/P05 p0",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 1.0
+      },
+      {
+        "pair": "pedestal/P05 p0",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 0.5
+      },
+      {
+        "pair": "lug/P05 p0",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 2.640075756488818
+      },
+      {
+        "pair": "H10/P04 p0",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 0.14991968812145198
+      },
+      {
+        "pair": "tab0/P05 p0",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 3.1999999999999993
+      },
+      {
+        "pair": "tab1/P05 p0",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 3.1999999999999993
+      },
+      {
+        "pair": "tab2/P05 p0",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 3.1999999999999993
+      },
+      {
+        "pair": "new body/P04 p0s0",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 10.0
+      },
+      {
+        "pair": "pedestal/P04 p0s0",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 10.0
+      },
+      {
+        "pair": "roller/P04 p0s0",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 10.0
+      },
+      {
+        "pair": "lever/P04 p0s0",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 10.0
+      },
+      {
+        "pair": "H10/roller p0s0",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 10.0
+      },
+      {
+        "pair": "H10/body p0s0",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 10.0
+      },
+      {
+        "pair": "new body/P04 p0s15",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 10.0
+      },
+      {
+        "pair": "pedestal/P04 p0s15",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 10.0
+      },
+      {
+        "pair": "roller/P04 p0s15",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 10.0
+      },
+      {
+        "pair": "lever/P04 p0s15",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 10.0
+      },
+      {
+        "pair": "H10/roller p0s15",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 9.200000000000003
+      },
+      {
+        "pair": "H10/body p0s15",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 10.0
+      },
+      {
+        "pair": "new body/P04 p0s30",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 6.799999237060547
+      },
+      {
+        "pair": "pedestal/P04 p0s30",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 6.0
+      },
+      {
+        "pair": "roller/P04 p0s30",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 1.106816925008755
+      },
+      {
+        "pair": "lever/P04 p0s30",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 3.2971316002859505
+      },
+      {
+        "pair": "H10/roller p0s30",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 0.0
+      },
+      {
+        "pair": "H10/body p0s30",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 5.799999237060547
+      },
+      {
+        "pair": "new body/P05 p2",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 1.0
+      },
+      {
+        "pair": "pedestal/P05 p2",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 0.5
+      },
+      {
+        "pair": "lug/P05 p2",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 1.6031219541881394
+      },
+      {
+        "pair": "H10/P04 p2",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 0.1499196881214522
+      },
+      {
+        "pair": "tab0/P05 p2",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 3.0999999999999996
+      },
+      {
+        "pair": "tab1/P05 p2",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 3.0999999999999996
+      },
+      {
+        "pair": "tab2/P05 p2",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 3.0999999999999996
+      },
+      {
+        "pair": "new body/P04 p2s0",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 10.0
+      },
+      {
+        "pair": "pedestal/P04 p2s0",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 10.0
+      },
+      {
+        "pair": "roller/P04 p2s0",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 10.0
+      },
+      {
+        "pair": "lever/P04 p2s0",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 10.0
+      },
+      {
+        "pair": "H10/roller p2s0",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 10.0
+      },
+      {
+        "pair": "H10/body p2s0",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 10.0
+      },
+      {
+        "pair": "new body/P04 p2s13",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 10.0
+      },
+      {
+        "pair": "pedestal/P04 p2s13",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 10.0
+      },
+      {
+        "pair": "roller/P04 p2s13",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 10.0
+      },
+      {
+        "pair": "lever/P04 p2s13",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 10.0
+      },
+      {
+        "pair": "H10/roller p2s13",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 9.200000000000003
+      },
+      {
+        "pair": "H10/body p2s13",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 10.0
+      },
+      {
+        "pair": "new body/P04 p2s28",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 8.799999237060547
+      },
+      {
+        "pair": "pedestal/P04 p2s28",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 8.0
+      },
+      {
+        "pair": "roller/P04 p2s28",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 3.0389533053860607
+      },
+      {
+        "pair": "lever/P04 p2s28",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 5.2796415074224115
+      },
+      {
+        "pair": "H10/roller p2s28",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 0.0
+      },
+      {
+        "pair": "H10/body p2s28",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 5.799999237060547
+      },
+      {
+        "pair": "body/P01 intended face contact",
+        "overlap_mm3": 2.4426207584360426e-14,
+        "gap_mm_up_to10": 0.0
+      },
+      {
+        "pair": "lug/P01 intended face contact",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 0.0
+      },
+      {
+        "pair": "tab0/P01",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 1.5999999999999996
+      },
+      {
+        "pair": "tab1/P01",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 1.5999999999999996
+      },
+      {
+        "pair": "tab2/P01",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 1.5999999999999996
+      },
+      {
+        "pair": "20mm short Lkey /H09body",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 10.0
+      },
+      {
+        "pair": "20mm short Lkey /roller FPmax",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 0.9585191905297331
+      },
+      {
+        "pair": "20mm short Lkey /P04",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 3.310272155695635
+      },
+      {
+        "pair": "20mm short Lkey /P05 p2",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 10.0
+      },
+      {
+        "pair": "20mm short Lkey /P01",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 3.0
+      },
+      {
+        "pair": "M2 head/washer envelope vs P05p2 -10.9",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 1.0
+      },
+      {
+        "pair": "M2 head/washer envelope vs P05p2 -1.4",
+        "overlap_mm3": 0.0,
+        "gap_mm_up_to10": 1.0
+      }
+    ],
+    "failures": [],
+    "tool_gauge": "Neutral/unloadedp2 representative radius1.5 L-key:20mm short axial legX42..62 and vertical leg atX42 toZ70. External clearance only; no hex-drive engagement or actual tool stock claim."
+  },
+  "remaining_requirements": [
+    "Obtain exact SS-01GL2 manufacturer STEP after authenticated download; replace or qualify detailed drawing-envelope reference.",
+    "Regenerate separate native R4 candidate, validate exact whole-assembly contacts, all poses, service access, source/body inventory and unchanged P05/sensor geometry.",
+    "Verify actual insert stock and screw/washer/head dimensions.",
+    "Verify physical cam trip/reset/locking, available overtravel and solder/wire route before functional use."
+  ]
+}

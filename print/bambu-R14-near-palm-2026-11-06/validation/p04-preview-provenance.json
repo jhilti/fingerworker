@@ -1,0 +1,7 @@
+{
+  "status": "RENDERED_ACTUAL_R14_P04_SUPPORT_PATHS",
+  "sliced_archive_sha256": "962ad2e4e30c77bc488cb7eb6635e5c2f1ad5ccb93185fafc085d5389bb25d9c",
+  "layout_sha256": "5a1a4416cadcc2182cdd301965ffe738b909c1e5055679ead31b5a61b7cea8b7",
+  "image_sha256": "3855ff15f20d099918793a117611554c0001b38584c4bbbb315caf9547014ca9",
+  "validator_sha256": "a5b776cdabbdd4edb3b77d789e3e8674a457e015ec944beeb03b0a20d4d510de"
+}

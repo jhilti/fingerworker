@@ -1,0 +1,139 @@
+{
+  "source": "Onshape, accessible wrist-side palm, 20 September 2026; final 0 mm pose, hand off; binary STL, millimetres, Fine",
+  "source_zip_sha256": "a7c93635375d20a2ae8416691b977634edf57a70b13d0bf1b6070c3bc4436b95",
+  "cad_source_sha256": "a2a2897042b329c3e1e577584f94e10225f435fd1b4c977722652a454074c3ea",
+  "parts": [
+    {
+      "file": "P01_base.stl",
+      "triangles": 34448,
+      "size_mm": [
+        216.0,
+        210.0,
+        29.0
+      ],
+      "volume_mm3": 311339.862,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "b0a2c01394ad25d9ef3e36a82897e81062c8d13b94b63f43bef3fa6303faad7f"
+    },
+    {
+      "file": "P02_palm_bolster.stl",
+      "triangles": 24900,
+      "size_mm": [
+        21.0,
+        128.0,
+        17.998
+      ],
+      "volume_mm3": 30636.157,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "a0797239364ea40ded4a791b12e68f9a55f498bd9f5cb00a232f8f484d8ff549"
+    },
+    {
+      "file": "P071b_return_pad_right_b_TPU.stl",
+      "triangles": 12,
+      "size_mm": [
+        6.0,
+        4.5,
+        1.5
+      ],
+      "volume_mm3": 40.5,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "b133243e632897ed5f4c7474910eacce7f15890aab255a8265c2b17ef5bb8d82"
+    },
+    {
+      "file": "P060_rear_retainer_left.stl",
+      "triangles": 2902,
+      "size_mm": [
+        8.0,
+        24.0,
+        22.0
+      ],
+      "volume_mm3": 2821.608,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "ac96581618b1c8a531040713c40f29be0ff4dce3c311f6ce3a2fd71f44244650"
+    },
+    {
+      "file": "P03_palm_sleeve_TPU.stl",
+      "triangles": 15760,
+      "size_mm": [
+        20.499,
+        15.398,
+        86.0
+      ],
+      "volume_mm3": 8415.282,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "ddc7b96d38bb1de2f9e960da32dffcf639a7c98b7f90485fa8029773ed692bae"
+    },
+    {
+      "file": "P061_rear_retainer_right.stl",
+      "triangles": 2902,
+      "size_mm": [
+        8.0,
+        24.0,
+        22.0
+      ],
+      "volume_mm3": 2821.608,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "d419c77a8e257ddc0b27578f7570e4a50977148b1a12534639de503b308f9b06"
+    },
+    {
+      "file": "P04_climbing_carriage.stl",
+      "triangles": 57922,
+      "size_mm": [
+        70.0,
+        204.0,
+        23.0
+      ],
+      "volume_mm3": 221114.356,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "b85ef5bace72d785d7c7f4dd948f36e30df16758c592ea69c1dd5ce8f47f366f"
+    },
+    {
+      "file": "P070a_return_pad_left_a_TPU.stl",
+      "triangles": 12,
+      "size_mm": [
+        6.0,
+        4.5,
+        1.5
+      ],
+      "volume_mm3": 40.5,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "b133243e632897ed5f4c7474910eacce7f15890aab255a8265c2b17ef5bb8d82"
+    },
+    {
+      "file": "P05_floating_yoke.stl",
+      "triangles": 13820,
+      "size_mm": [
+        22.5,
+        180.0,
+        22.0
+      ],
+      "volume_mm3": 64361.039,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "2e4e67d17eeefb7f2e123ba0e16a8d365564a9cbea3fcec05c603ca6acdfe742"
+    },
+    {
+      "file": "P070b_return_pad_left_b_TPU.stl",
+      "triangles": 12,
+      "size_mm": [
+        6.0,
+        4.5,
+        1.5
+      ],
+      "volume_mm3": 40.5,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "b133243e632897ed5f4c7474910eacce7f15890aab255a8265c2b17ef5bb8d82"
+    },
+    {
+      "file": "P071a_return_pad_right_a_TPU.stl",
+      "triangles": 12,
+      "size_mm": [
+        6.0,
+        4.5,
+        1.5
+      ],
+      "volume_mm3": 40.5,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "b133243e632897ed5f4c7474910eacce7f15890aab255a8265c2b17ef5bb8d82"
+    }
+  ]
+}

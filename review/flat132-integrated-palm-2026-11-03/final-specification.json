@@ -1,0 +1,64 @@
+{
+  "revision": "Flat132 R10 integrated palm and service access",
+  "date": "2026-11-03",
+  "status": "PASS_NOMINAL_CAD_SERVICE_AND_PRINT_PROJECT",
+  "source_sha256": "5ce830ff2b06cd8d318d3c44dbc1f3385697526a9a679d2a2078f64f81854237",
+  "onshape_version": "1d91807cca19866934a439eb",
+  "onshape_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/1d91807cca19866934a439eb/e/d253eb87b70818ebde8215f0",
+  "native_solids": 122,
+  "device_bodies": 69,
+  "electronics_reference_bodies": 53,
+  "printed_device_bodies": 15,
+  "fit_test_pieces": 18,
+  "plates": 2,
+  "integrated_main_part_mm": [
+    175.1,
+    132,
+    35
+  ],
+  "nominal_base_mm": 6,
+  "removed": [
+    "Separate P02",
+    "Palm sleeve",
+    "2 palm M4x10 bolts",
+    "2 palm M4 inserts"
+  ],
+  "compatibility": "Other R9 printed parts retained; H15 plain-hole steel plate and reversed H16/H17 required for functional assembly.",
+  "verification": {
+    "review/flat132-integrated-palm-2026-11-03/validation/native-geometry.json": {
+      "sha256": "01ea2b6216323e25c1b8fc5f466e6f0f914c477b13a0ed8496a6d69470035273",
+      "status": "PASS_EXACT_NATIVE_R10_GEOMETRY"
+    },
+    "review/flat132-integrated-palm-2026-11-03/validation/service-native.json": {
+      "sha256": "c16b9331ac6607adb9a88657d6a7640daccf0b96af118a0491622a5539f143e8",
+      "status": "PASS_NATIVE_SERVICE_PATHS"
+    },
+    "review/flat132-integrated-palm-2026-11-03/validation/motion-native.json": {
+      "sha256": "0b9b0cb190e6ff6fd6e79834c6e8ce119c96916827368c5ab73b03b5191a21e4",
+      "status": "PASS_COMPLETE_DOMAIN_CHANGED_GEOMETRY"
+    },
+    "review/flat132-integrated-palm-2026-11-03/validation/independent-print-qa.json": {
+      "sha256": "ce40d46f3a5e952349862e85db9c013cfa6a8c08abcb3c26f794456945cf71eb",
+      "status": "PASS"
+    },
+    "print/bambu-R10-integrated-palm-2026-11-03/validation/native-project-check.json": {
+      "sha256": "b1c25d6c8609169d51c2d64c1b00c14611da83aa99b8fc0ee843123e5b1dbc49",
+      "status": "NATIVE_PROJECT_AND_BOTH_SLICES_PASS"
+    },
+    "print/bambu-R10-integrated-palm-2026-11-03/validation/toolpath-check.json": {
+      "sha256": "977b0b78726070e5b4930ed98d2be0c2fc94a5d0af56d01d081165ccf74d876e",
+      "status": "PASS_ACTUAL_TWO_PLATE_FIT_SLICE"
+    }
+  },
+  "files_sha256": {
+    "review/flat132-integrated-palm-2026-11-03/fingerworker_flat132_integrated_palm.fs": "5ce830ff2b06cd8d318d3c44dbc1f3385697526a9a679d2a2078f64f81854237",
+    "review/flat132-integrated-palm-2026-11-03/native/Flat132_R10_neutral_final.zip": "f0070baf455ee9f9850613407e1c1c4d780ee41a97f7b10795e97e9237158153",
+    "review/flat132-integrated-palm-2026-11-03/native/Flat132_R10_final_AP214.step": "f983a713a66b07a945b0aa4cd751846810d8538dd1b9a8f1ce64e569586081ec",
+    "review/flat132-integrated-palm-2026-11-03/mechanical-mm/H15.step": "14b4c1d93f8717ae60c56d9d6e4718c0554767432b1ad7ebb64befa075fe90d9",
+    "review/flat132-integrated-palm-2026-11-03/MONTAGE.md": "a56d1601259402ba2e1711b0bc63956a4a06f5ade926f5e114a8b0b06e79bb09",
+    "review/flat132-integrated-palm-2026-11-03/BOM_Aenderungen.csv": "94ad0afd4b3ce5845bc9bcf607f1bd525bb063a7e288765b6135d926a0ebd047",
+    "print/bambu-R10-integrated-palm-2026-11-03/Fingerworker_R10_H2D_04mm_PLA_Fit_Test.3mf": "d83f72df3534eea46d95334c09f9ac1a54ff6585ab94fb580e616b86fba30f9c",
+    "print/bambu-R10-integrated-palm-2026-11-03/Fingerworker_R10_H2D_04mm_PLA_Fit_Test_Package.zip": "39b38ad058d39181cf1158faadc8dd4ae7bad6af633bb434af35b18f16f67f98"
+  },
+  "limitations": "Nominal geometry/toolpaths only. Actual printed fits, support removal, strength, creep, fatigue, comfort and sensor calibration unqualified. Fit fixture/printed rods/pad proxies only for spring-free assessment."
+}

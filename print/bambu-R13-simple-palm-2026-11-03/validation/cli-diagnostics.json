@@ -1,0 +1,73 @@
+{
+  "status": "PASS_BASELINE_OFFICIAL_H2D_DIAGNOSTICS",
+  "classification": "The three Invalid T parser messages occur once per plate in both R12 and R13 with identical official machine macros; no new diagnostic is introduced by R13. They are retained vendor startup/parser diagnostics, not suppressed or reported as an error-free log.",
+  "warnings_and_errors": [
+    {
+      "severity": "error",
+      "message": "Invalid T command (T1001).",
+      "count": 3,
+      "baseline_count": 3
+    },
+    {
+      "severity": "error",
+      "message": "Invalid T command (T65279).",
+      "count": 3,
+      "baseline_count": 3
+    },
+    {
+      "severity": "error",
+      "message": "Invalid T command (T65535).",
+      "count": 3,
+      "baseline_count": 3
+    },
+    {
+      "severity": "warning",
+      "message": "cli mode, Current BambuStudio Version 02.08.02.61",
+      "count": 1,
+      "baseline_count": 1
+    },
+    {
+      "severity": "warning",
+      "message": "load_nozzle_infos_with_compatibility: building nozzle list from filament map and volume types",
+      "count": 3,
+      "baseline_count": 3
+    },
+    {
+      "severity": "warning",
+      "message": "no filament colors found in projects",
+      "count": 1,
+      "baseline_count": 1
+    },
+    {
+      "severity": "warning",
+      "message": "run:2873, can not find system preset file: /private/tmp/fingerworker-bambu-r8-runtime/BambuStudio.app/Contents/Resources/profiles/BBL/machine_full/Bambu Lab H2D 0.4 nozzle.json",
+      "count": 1,
+      "baseline_count": 1
+    },
+    {
+      "severity": "warning",
+      "message": "run:2895, can not find system preset file: /private/tmp/fingerworker-bambu-r8-runtime/BambuStudio.app/Contents/Resources/profiles/BBL/process_full/Fingerworker R10 integrated palm fit test 0.20mm.json",
+      "count": 1,
+      "baseline_count": 1
+    }
+  ],
+  "unexpected_diagnostics": [],
+  "official_machine_macros_identical_to_R12": true,
+  "machine_macro_hashes": {
+    "gcode_flavor": "0327681c6d43af1719a752a088e93f5192c8740abee2bc63353fe4eff7749287",
+    "machine_start_gcode": "4ec8b2713943115211e1609afa26387ddf8879a1734f2b394d0d69d419539ef5",
+    "machine_end_gcode": "ff2fab8336b6ad542da23462dfd10a184393e5b24c08b2fa3d9b7958b6f5da61",
+    "time_lapse_gcode": "2b9c04541ef0dadc85a85aa2dd5da4af0b7af97cbd0a044ec4bb10f37bba0987",
+    "wrapping_detection_gcode": "9fd5b89fad81b7e0630add42bb742c6974e2d757cbdfd2a69492e3e4a0842847",
+    "change_filament_gcode": "2153741c80f920455d8a9023fcff2f52aa1f2a17436785bde511702f5245d092",
+    "layer_change_gcode": "a99517bc5a923d244b820f64c6d67effd0dd71c5863301bbf7578463805a4641",
+    "machine_pause_gcode": "421d0316bd5e4954c4425af1b89603412254dde55fe6eaf70c90b5b4e620fb66"
+  },
+  "cli_exit_code": 0,
+  "baseline_cli_exit_code": 0,
+  "log_sha256": "bfd779e0ad3dae15ee2d54ed4319b2297666e723f3b091d51d6597e72dc53f4c",
+  "baseline_log_sha256": "4d4400989e2b7972ede099df85b24db0d8b815fb76f1f24cf7691168c070347b",
+  "sliced_archive_sha256": "5463d749a769ac93ddc487e230c0423284ad4a8a46419d368b97d1ed59010f69",
+  "CAD_source_sha256": "82b7d65708c46cd9d4b6ac271047eac2f638f0222451df99eae0780525edd851",
+  "scope": "Local slicer completion and baseline diagnostic classification; editable-project validation separately checks embedded settings, all meshes and all three completed plates. No printer job sent."
+}

@@ -1,0 +1,793 @@
+[
+  {
+    "file": "review/coupon-orientation-2026-10-13/H2D-RevE-verification.gcode.3mf",
+    "USB_roof_support_segment_count": 0,
+    "segments": []
+  },
+  {
+    "file": "review/printability-2026-10-13/enclosure/tray_support_verification.gcode.3mf",
+    "USB_roof_support_segment_count": 65,
+    "segments": [
+      {
+        "from_xy": [
+          41.627,
+          47.336
+        ],
+        "to_xy": [
+          29.889,
+          47.336
+        ],
+        "z": 6.275,
+        "feature": "Support"
+      },
+      {
+        "from_xy": [
+          29.889,
+          47.336
+        ],
+        "to_xy": [
+          29.889,
+          46.777
+        ],
+        "z": 6.275,
+        "feature": "Support"
+      },
+      {
+        "from_xy": [
+          29.889,
+          47.524
+        ],
+        "to_xy": [
+          29.889,
+          47.524
+        ],
+        "z": 6.275,
+        "feature": "Support"
+      },
+      {
+        "from_xy": [
+          29.889,
+          47.524
+        ],
+        "to_xy": [
+          29.889,
+          48.223
+        ],
+        "z": 6.275,
+        "feature": "Support"
+      },
+      {
+        "from_xy": [
+          41.811,
+          48.223
+        ],
+        "to_xy": [
+          41.811,
+          47.713
+        ],
+        "z": 6.275,
+        "feature": "Support"
+      },
+      {
+        "from_xy": [
+          41.811,
+          47.713
+        ],
+        "to_xy": [
+          41.627,
+          47.713
+        ],
+        "z": 6.275,
+        "feature": "Support"
+      },
+      {
+        "from_xy": [
+          41.627,
+          47.713
+        ],
+        "to_xy": [
+          41.627,
+          47.524
+        ],
+        "z": 6.275,
+        "feature": "Support"
+      },
+      {
+        "from_xy": [
+          41.627,
+          47.336
+        ],
+        "to_xy": [
+          29.889,
+          47.336
+        ],
+        "z": 6.513,
+        "feature": "Support"
+      },
+      {
+        "from_xy": [
+          29.889,
+          47.336
+        ],
+        "to_xy": [
+          29.889,
+          46.777
+        ],
+        "z": 6.513,
+        "feature": "Support"
+      },
+      {
+        "from_xy": [
+          29.889,
+          47.524
+        ],
+        "to_xy": [
+          29.889,
+          47.524
+        ],
+        "z": 6.513,
+        "feature": "Support"
+      },
+      {
+        "from_xy": [
+          29.889,
+          47.524
+        ],
+        "to_xy": [
+          29.889,
+          48.223
+        ],
+        "z": 6.513,
+        "feature": "Support"
+      },
+      {
+        "from_xy": [
+          41.811,
+          48.223
+        ],
+        "to_xy": [
+          41.811,
+          47.713
+        ],
+        "z": 6.513,
+        "feature": "Support"
+      },
+      {
+        "from_xy": [
+          41.811,
+          47.713
+        ],
+        "to_xy": [
+          41.627,
+          47.713
+        ],
+        "z": 6.513,
+        "feature": "Support"
+      },
+      {
+        "from_xy": [
+          41.627,
+          47.713
+        ],
+        "to_xy": [
+          41.627,
+          47.524
+        ],
+        "z": 6.513,
+        "feature": "Support"
+      },
+      {
+        "from_xy": [
+          41.627,
+          47.336
+        ],
+        "to_xy": [
+          29.889,
+          47.336
+        ],
+        "z": 6.75,
+        "feature": "Support"
+      },
+      {
+        "from_xy": [
+          29.889,
+          47.336
+        ],
+        "to_xy": [
+          29.889,
+          46.777
+        ],
+        "z": 6.75,
+        "feature": "Support"
+      },
+      {
+        "from_xy": [
+          29.889,
+          47.524
+        ],
+        "to_xy": [
+          29.889,
+          47.524
+        ],
+        "z": 6.75,
+        "feature": "Support"
+      },
+      {
+        "from_xy": [
+          29.889,
+          47.524
+        ],
+        "to_xy": [
+          29.889,
+          48.223
+        ],
+        "z": 6.75,
+        "feature": "Support"
+      },
+      {
+        "from_xy": [
+          41.811,
+          48.223
+        ],
+        "to_xy": [
+          41.811,
+          47.713
+        ],
+        "z": 6.75,
+        "feature": "Support"
+      },
+      {
+        "from_xy": [
+          41.811,
+          47.713
+        ],
+        "to_xy": [
+          41.627,
+          47.713
+        ],
+        "z": 6.75,
+        "feature": "Support"
+      },
+      {
+        "from_xy": [
+          41.627,
+          47.713
+        ],
+        "to_xy": [
+          41.627,
+          47.524
+        ],
+        "z": 6.75,
+        "feature": "Support"
+      },
+      {
+        "from_xy": [
+          30.111,
+          50.213
+        ],
+        "to_xy": [
+          30.111,
+          44.458
+        ],
+        "z": 6.95,
+        "feature": "Support transition"
+      },
+      {
+        "from_xy": [
+          30.988,
+          44.458
+        ],
+        "to_xy": [
+          30.988,
+          50.213
+        ],
+        "z": 6.95,
+        "feature": "Support transition"
+      },
+      {
+        "from_xy": [
+          31.865,
+          50.213
+        ],
+        "to_xy": [
+          31.865,
+          44.458
+        ],
+        "z": 6.95,
+        "feature": "Support transition"
+      },
+      {
+        "from_xy": [
+          32.742,
+          44.458
+        ],
+        "to_xy": [
+          32.742,
+          50.213
+        ],
+        "z": 6.95,
+        "feature": "Support transition"
+      },
+      {
+        "from_xy": [
+          33.619,
+          50.213
+        ],
+        "to_xy": [
+          33.619,
+          44.458
+        ],
+        "z": 6.95,
+        "feature": "Support transition"
+      },
+      {
+        "from_xy": [
+          34.496,
+          44.458
+        ],
+        "to_xy": [
+          34.496,
+          50.213
+        ],
+        "z": 6.95,
+        "feature": "Support transition"
+      },
+      {
+        "from_xy": [
+          35.373,
+          50.213
+        ],
+        "to_xy": [
+          35.373,
+          44.458
+        ],
+        "z": 6.95,
+        "feature": "Support transition"
+      },
+      {
+        "from_xy": [
+          36.25,
+          44.458
+        ],
+        "to_xy": [
+          36.25,
+          50.213
+        ],
+        "z": 6.95,
+        "feature": "Support transition"
+      },
+      {
+        "from_xy": [
+          37.127,
+          50.213
+        ],
+        "to_xy": [
+          37.127,
+          44.458
+        ],
+        "z": 6.95,
+        "feature": "Support transition"
+      },
+      {
+        "from_xy": [
+          38.004,
+          44.458
+        ],
+        "to_xy": [
+          38.004,
+          50.213
+        ],
+        "z": 6.95,
+        "feature": "Support transition"
+      },
+      {
+        "from_xy": [
+          38.881,
+          50.213
+        ],
+        "to_xy": [
+          38.881,
+          44.458
+        ],
+        "z": 6.95,
+        "feature": "Support transition"
+      },
+      {
+        "from_xy": [
+          39.758,
+          44.458
+        ],
+        "to_xy": [
+          39.758,
+          50.213
+        ],
+        "z": 6.95,
+        "feature": "Support transition"
+      },
+      {
+        "from_xy": [
+          40.635,
+          50.213
+        ],
+        "to_xy": [
+          40.635,
+          44.458
+        ],
+        "z": 6.95,
+        "feature": "Support transition"
+      },
+      {
+        "from_xy": [
+          41.512,
+          44.458
+        ],
+        "to_xy": [
+          41.512,
+          50.213
+        ],
+        "z": 6.95,
+        "feature": "Support transition"
+      },
+      {
+        "from_xy": [
+          30.111,
+          50.213
+        ],
+        "to_xy": [
+          30.111,
+          44.458
+        ],
+        "z": 7.15,
+        "feature": "Support interface"
+      },
+      {
+        "from_xy": [
+          30.988,
+          44.458
+        ],
+        "to_xy": [
+          30.988,
+          50.213
+        ],
+        "z": 7.15,
+        "feature": "Support interface"
+      },
+      {
+        "from_xy": [
+          31.865,
+          50.213
+        ],
+        "to_xy": [
+          31.865,
+          44.458
+        ],
+        "z": 7.15,
+        "feature": "Support interface"
+      },
+      {
+        "from_xy": [
+          32.742,
+          44.458
+        ],
+        "to_xy": [
+          32.742,
+          50.213
+        ],
+        "z": 7.15,
+        "feature": "Support interface"
+      },
+      {
+        "from_xy": [
+          33.619,
+          50.213
+        ],
+        "to_xy": [
+          33.619,
+          44.458
+        ],
+        "z": 7.15,
+        "feature": "Support interface"
+      },
+      {
+        "from_xy": [
+          34.496,
+          44.458
+        ],
+        "to_xy": [
+          34.496,
+          50.213
+        ],
+        "z": 7.15,
+        "feature": "Support interface"
+      },
+      {
+        "from_xy": [
+          35.373,
+          50.213
+        ],
+        "to_xy": [
+          35.373,
+          44.458
+        ],
+        "z": 7.15,
+        "feature": "Support interface"
+      },
+      {
+        "from_xy": [
+          36.25,
+          44.458
+        ],
+        "to_xy": [
+          36.25,
+          50.213
+        ],
+        "z": 7.15,
+        "feature": "Support interface"
+      },
+      {
+        "from_xy": [
+          37.127,
+          50.213
+        ],
+        "to_xy": [
+          37.127,
+          44.458
+        ],
+        "z": 7.15,
+        "feature": "Support interface"
+      },
+      {
+        "from_xy": [
+          38.004,
+          44.458
+        ],
+        "to_xy": [
+          38.004,
+          50.213
+        ],
+        "z": 7.15,
+        "feature": "Support interface"
+      },
+      {
+        "from_xy": [
+          38.881,
+          50.213
+        ],
+        "to_xy": [
+          38.881,
+          44.458
+        ],
+        "z": 7.15,
+        "feature": "Support interface"
+      },
+      {
+        "from_xy": [
+          39.758,
+          44.458
+        ],
+        "to_xy": [
+          39.758,
+          50.213
+        ],
+        "z": 7.15,
+        "feature": "Support interface"
+      },
+      {
+        "from_xy": [
+          40.635,
+          50.213
+        ],
+        "to_xy": [
+          40.635,
+          44.458
+        ],
+        "z": 7.15,
+        "feature": "Support interface"
+      },
+      {
+        "from_xy": [
+          41.512,
+          44.458
+        ],
+        "to_xy": [
+          41.512,
+          50.383
+        ],
+        "z": 7.15,
+        "feature": "Support interface"
+      },
+      {
+        "from_xy": [
+          41.812,
+          48.223
+        ],
+        "to_xy": [
+          41.812,
+          46.777
+        ],
+        "z": 7.15,
+        "feature": "Support interface"
+      },
+      {
+        "from_xy": [
+          30.111,
+          50.213
+        ],
+        "to_xy": [
+          30.111,
+          44.458
+        ],
+        "z": 7.35,
+        "feature": "Support interface"
+      },
+      {
+        "from_xy": [
+          30.988,
+          44.458
+        ],
+        "to_xy": [
+          30.988,
+          50.213
+        ],
+        "z": 7.35,
+        "feature": "Support interface"
+      },
+      {
+        "from_xy": [
+          31.865,
+          50.213
+        ],
+        "to_xy": [
+          31.865,
+          44.458
+        ],
+        "z": 7.35,
+        "feature": "Support interface"
+      },
+      {
+        "from_xy": [
+          32.742,
+          44.458
+        ],
+        "to_xy": [
+          32.742,
+          50.213
+        ],
+        "z": 7.35,
+        "feature": "Support interface"
+      },
+      {
+        "from_xy": [
+          33.619,
+          50.213
+        ],
+        "to_xy": [
+          33.619,
+          44.458
+        ],
+        "z": 7.35,
+        "feature": "Support interface"
+      },
+      {
+        "from_xy": [
+          34.496,
+          44.458
+        ],
+        "to_xy": [
+          34.496,
+          50.213
+        ],
+        "z": 7.35,
+        "feature": "Support interface"
+      },
+      {
+        "from_xy": [
+          35.373,
+          50.213
+        ],
+        "to_xy": [
+          35.373,
+          44.458
+        ],
+        "z": 7.35,
+        "feature": "Support interface"
+      },
+      {
+        "from_xy": [
+          36.25,
+          44.458
+        ],
+        "to_xy": [
+          36.25,
+          50.213
+        ],
+        "z": 7.35,
+        "feature": "Support interface"
+      },
+      {
+        "from_xy": [
+          37.127,
+          50.213
+        ],
+        "to_xy": [
+          37.127,
+          44.458
+        ],
+        "z": 7.35,
+        "feature": "Support interface"
+      },
+      {
+        "from_xy": [
+          38.004,
+          44.458
+        ],
+        "to_xy": [
+          38.004,
+          50.213
+        ],
+        "z": 7.35,
+        "feature": "Support interface"
+      },
+      {
+        "from_xy": [
+          38.881,
+          50.213
+        ],
+        "to_xy": [
+          38.881,
+          44.458
+        ],
+        "z": 7.35,
+        "feature": "Support interface"
+      },
+      {
+        "from_xy": [
+          39.758,
+          44.458
+        ],
+        "to_xy": [
+          39.758,
+          50.213
+        ],
+        "z": 7.35,
+        "feature": "Support interface"
+      },
+      {
+        "from_xy": [
+          40.635,
+          50.213
+        ],
+        "to_xy": [
+          40.635,
+          44.458
+        ],
+        "z": 7.35,
+        "feature": "Support interface"
+      },
+      {
+        "from_xy": [
+          41.512,
+          44.458
+        ],
+        "to_xy": [
+          41.512,
+          50.383
+        ],
+        "z": 7.35,
+        "feature": "Support interface"
+      },
+      {
+        "from_xy": [
+          41.812,
+          48.223
+        ],
+        "to_xy": [
+          41.812,
+          46.777
+        ],
+        "z": 7.35,
+        "feature": "Support interface"
+      }
+    ]
+  }
+]

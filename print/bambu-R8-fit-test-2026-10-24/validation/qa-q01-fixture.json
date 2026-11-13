@@ -1,0 +1,389 @@
+{
+  "status": "PASS_UNLOADED_NOMINAL_FIXTURE_ASSEMBLY",
+  "scope": "Q01 only: exact R8 static interface, selected print bodies, rod proxies, continuous insertion and p0 unloaded motion. Inherited R8 geometry is not rerun.",
+  "frozen_source_sha256": "6099df42e341ff9f5c3439709a23107325d10ef922f616bdcda6fa6ef64d41c1",
+  "native_immutable_version_id": "6965afcca3af7c58ef3ac73f",
+  "native_step_sha256": "99e73fe8a20ca5cd62b42369a625a9067feb7df6c48d6e94af3d9ac3b1a15292",
+  "fixture_source_sha256": "f7749b4a4b7c082a2ce6780ef5b3a512be81a92741e74838578b667098f5c18e",
+  "fixture_manifest_sha256": "e8750e5e298260865f27c9400be91d2fe561a503600fa5d4630f9f48ebf9c099",
+  "checks": [
+    {
+      "name": "Fixture file hash Q01_UNLOADED_TEST_FIXTURE_assembly-mm.stl",
+      "status": "PASS",
+      "sha256": "f6c84b6d6972d525f58255f916a0a9874ac20e9f246aa66f10f19da3f40368c8"
+    },
+    {
+      "name": "Fixture file hash Q01_UNLOADED_TEST_FIXTURE_assembly-mm.step",
+      "status": "PASS",
+      "sha256": "4af00107b7da8ea0b44783d8082fa27ed03a1b804833fc9e56ec640d14ff2622"
+    },
+    {
+      "name": "Fixture file hash Q01_UNLOADED_TEST_FIXTURE_print-mm.stl",
+      "status": "PASS",
+      "sha256": "4a814328544c999013ab754d2d1c3f9a99e287e034066df127525cfe912a394b"
+    },
+    {
+      "name": "Fixture builder hash",
+      "status": "PASS",
+      "sha256": "f7749b4a4b7c082a2ce6780ef5b3a512be81a92741e74838578b667098f5c18e"
+    },
+    {
+      "name": "Independent literal CSG equals Q01 STEP",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "One valid positive connected fixture",
+      "status": "PASS",
+      "solids": 1,
+      "shells": 1,
+      "volume_mm3": 1597.970494555765
+    },
+    {
+      "name": "Fixture print transform rigid orientation and scale1",
+      "status": "PASS",
+      "determinant": 1.0
+    },
+    {
+      "name": "Print STL rigidly identical to assembly STL",
+      "status": "PASS",
+      "max_bidirectional_vertex_error_mm": 0.0,
+      "facet_count": 2540
+    },
+    {
+      "name": "Unloaded fixture versus selected native H040",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "gap_mm": 39.0
+    },
+    {
+      "name": "Unloaded fixture versus selected native H041",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "gap_mm": 39.0
+    },
+    {
+      "name": "Unloaded fixture versus selected native P01",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "gap_mm": 0.0
+    },
+    {
+      "name": "Unloaded fixture versus selected native P02",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "gap_mm": 2.75
+    },
+    {
+      "name": "Unloaded fixture versus selected native P04",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "gap_mm": 52.5
+    },
+    {
+      "name": "Unloaded fixture versus selected native P05",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "gap_mm": 0.0
+    },
+    {
+      "name": "Unloaded fixture versus selected native P060",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "gap_mm": 118.44513497818305
+    },
+    {
+      "name": "Unloaded fixture versus selected native P061",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "gap_mm": 118.44513497818305
+    },
+    {
+      "name": "Unloaded fixture versus selected native P070a",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "gap_mm": 124.21679636828507
+    },
+    {
+      "name": "Unloaded fixture versus selected native P070b",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "gap_mm": 118.37361403623697
+    },
+    {
+      "name": "Unloaded fixture versus selected native P071a",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "gap_mm": 118.37361403623697
+    },
+    {
+      "name": "Unloaded fixture versus selected native P071b",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "gap_mm": 124.21679636828507
+    },
+    {
+      "name": "Unloaded fixture versus selected native P08",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "gap_mm": 4.981967482832459
+    },
+    {
+      "name": "Unloaded fixture versus selected native P09",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "gap_mm": 4.384062043356593
+    },
+    {
+      "name": "Unloaded fixture versus selected native P10",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "gap_mm": 18.603225526773574
+    },
+    {
+      "name": "Unloaded fixture versus selected native P11",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "gap_mm": 55.0
+    },
+    {
+      "name": "Unloaded fixture versus selected native P120",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "gap_mm": 119.78757239380052
+    },
+    {
+      "name": "Unloaded fixture versus selected native P121",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "gap_mm": 119.78757239380052
+    },
+    {
+      "name": "Intended datum contact P01",
+      "status": "PASS",
+      "exact_gap_mm": 0.0
+    },
+    {
+      "name": "Intended datum contact P05",
+      "status": "PASS",
+      "exact_gap_mm": 0.0
+    },
+    {
+      "name": "Portal and yoke datum faces have positive bearing area",
+      "status": "PASS",
+      "nominal_contact_area_mm2": {
+        "P01": 100.51440188295962,
+        "P05": 42.223005264244534
+      },
+      "axial_datum_spacing_mm": 17
+    },
+    {
+      "name": "Continuous fixture insertion +X10 to seated0 versus P09",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "translation_range_mm": [
+        0,
+        10
+      ],
+      "method": "Exact union of axially extended original primitives"
+    },
+    {
+      "name": "Continuous fixture insertion +X10 to seated0 versus P02",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "translation_range_mm": [
+        0,
+        10
+      ],
+      "method": "Exact union of axially extended original primitives"
+    },
+    {
+      "name": "Continuous fixture insertion +X10 to seated0 versus P04",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "translation_range_mm": [
+        0,
+        10
+      ],
+      "method": "Exact union of axially extended original primitives"
+    },
+    {
+      "name": "Continuous fixture insertion +X10 to seated0 versus P060",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "translation_range_mm": [
+        0,
+        10
+      ],
+      "method": "Exact union of axially extended original primitives"
+    },
+    {
+      "name": "Continuous fixture insertion +X10 to seated0 versus P121",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "translation_range_mm": [
+        0,
+        10
+      ],
+      "method": "Exact union of axially extended original primitives"
+    },
+    {
+      "name": "Continuous fixture insertion +X10 to seated0 versus P071b",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "translation_range_mm": [
+        0,
+        10
+      ],
+      "method": "Exact union of axially extended original primitives"
+    },
+    {
+      "name": "Continuous fixture insertion +X10 to seated0 versus H041",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "translation_range_mm": [
+        0,
+        10
+      ],
+      "method": "Exact union of axially extended original primitives"
+    },
+    {
+      "name": "Continuous fixture insertion +X10 to seated0 versus P08",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "translation_range_mm": [
+        0,
+        10
+      ],
+      "method": "Exact union of axially extended original primitives"
+    },
+    {
+      "name": "Continuous fixture insertion +X10 to seated0 versus P061",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "translation_range_mm": [
+        0,
+        10
+      ],
+      "method": "Exact union of axially extended original primitives"
+    },
+    {
+      "name": "Continuous fixture insertion +X10 to seated0 versus P070b",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "translation_range_mm": [
+        0,
+        10
+      ],
+      "method": "Exact union of axially extended original primitives"
+    },
+    {
+      "name": "Continuous fixture insertion +X10 to seated0 versus P11",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "translation_range_mm": [
+        0,
+        10
+      ],
+      "method": "Exact union of axially extended original primitives"
+    },
+    {
+      "name": "Continuous fixture insertion +X10 to seated0 versus P071a",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "translation_range_mm": [
+        0,
+        10
+      ],
+      "method": "Exact union of axially extended original primitives"
+    },
+    {
+      "name": "Continuous fixture insertion +X10 to seated0 versus H040",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "translation_range_mm": [
+        0,
+        10
+      ],
+      "method": "Exact union of axially extended original primitives"
+    },
+    {
+      "name": "Continuous fixture insertion +X10 to seated0 versus P01",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "translation_range_mm": [
+        0,
+        10
+      ],
+      "method": "Exact union of axially extended original primitives"
+    },
+    {
+      "name": "Continuous fixture insertion +X10 to seated0 versus P120",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "translation_range_mm": [
+        0,
+        10
+      ],
+      "method": "Exact union of axially extended original primitives"
+    },
+    {
+      "name": "Continuous fixture insertion +X10 to seated0 versus P070a",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "translation_range_mm": [
+        0,
+        10
+      ],
+      "method": "Exact union of axially extended original primitives"
+    },
+    {
+      "name": "Continuous fixture insertion +X10 to seated0 versus P10",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "translation_range_mm": [
+        0,
+        10
+      ],
+      "method": "Exact union of axially extended original primitives"
+    },
+    {
+      "name": "Continuous P05 installation from +X10 over seated tail",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "method": "Exact opposite axial sweep of fixture primitives"
+    },
+    {
+      "name": "Full p0 carriage motion a0..2/u0..30-a clears fixture",
+      "status": "PASS",
+      "domain": "p0,a>=0,a<=2,u>=0,u+a<=30",
+      "motion_evidence": [
+        {
+          "ref": "P04",
+          "minimum_x_bound_mm": 29.9999999,
+          "q01_max_x_mm": 7.5,
+          "minimum_axial_clearance_mm": 22.4999999
+        },
+        {
+          "ref": "P11",
+          "minimum_x_bound_mm": 32.5,
+          "q01_max_x_mm": 7.5,
+          "minimum_axial_clearance_mm": 25.0
+        }
+      ]
+    },
+    {
+      "name": "Rear adjustment full0..2 clears fixture",
+      "status": "PASS",
+      "minimum_axial_clearance_mm": 109.5
+    }
+  ],
+  "failed_checks": 0,
+  "axial_retention": "None: square locator and plain tail locate radially; keep assembly supported and gently seated, p0 only.",
+  "excluded_real_hardware": "Sensor, pusher, pusher nut, steel cassette, preload nut/keeper/adjuster/lock, cassette retention hardware, springs and isometric sleeves.",
+  "physical_limitations": [
+    "Unloaded hand fit/motion only; no squeeze, force, preload, calibration or strength qualification.",
+    "PLA rod/pad proxies are shape/fit substitutes only.",
+    "Support cleanup and print dimensional fits must be measured; printed .1/.2mm radial/flat clearances are not printer capability guarantees."
+  ]
+}

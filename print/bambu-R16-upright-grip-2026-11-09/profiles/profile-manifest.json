@@ -1,0 +1,11 @@
+{
+  "status": "RETAINED_R15_PROCESS_MATERIAL_SETTINGS",
+  "baseline_project_sha256": "b8eeb41a267ef7808fde1a6ee5a036eed1ef9a24f7610044177396576bca23d7",
+  "declared_changes": {
+    "print_settings_id": "Fingerworker R16 upright palm no brim 0.20mm",
+    "filament_map_mode": "Manual"
+  },
+  "output_profiles": {
+    "project_settings_H2D_PLA_Basic.json": "9a014d0d21282b8e901adc7179bcb3af1623f5e84c42affd4a4a6d40bd800e87"
+  }
+}

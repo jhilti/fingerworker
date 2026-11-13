@@ -1,0 +1,47 @@
+{
+  "status": "PASS_EXACT_P02_ONLY_SOURCE_SCOPE",
+  "source": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-palm-cover-2026-10-23/fingerworker_flat132_palm_cover.fs",
+  "source_sha256": "6099df42e341ff9f5c3439709a23107325d10ef922f616bdcda6fa6ef64d41c1",
+  "baseline_source": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-adjustable-rear-2026-10-23/fingerworker_flat132_adjustable_rear.fs",
+  "baseline_source_sha256": "d42805e8ee10158408099bf7185e49cf9a6eb06c23c327c90c01edfcd04eaddd",
+  "baseline_immutable_version_id": "6dd467818da7364197461627",
+  "source_build_sha256": "3741e0da13e686ea37de69f0a2bb8afa05753bd968feaf4214e795693ee1e31f",
+  "exact_forward_reconstruction_matches_all_source_bytes": true,
+  "replacement_ledger": [
+    {
+      "label": "R8 study identity",
+      "replacement_count": 1
+    },
+    {
+      "label": "R8 feature name",
+      "replacement_count": 1
+    },
+    {
+      "label": "P02 only: join flush wrist ledge over complete lid footprint",
+      "replacement_count": 1
+    }
+  ],
+  "changed_ref": "P02",
+  "unchanged_domain": "a>=0,p>=0,a+p<=2,u>=0,u+a+p<=30,e in[-0.8,0.8];ISOq20-p",
+  "baseline_validation_summary": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-adjustable-rear-2026-10-23/validation/validation-summary.json",
+  "baseline_validation_summary_sha256": "38b06238b991050bd3f9b9a0e712b82fd3898cd1ea8996c80132a93c51e0692a",
+  "baseline_evidence_files_sha256": {
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-adjustable-rear-2026-10-23/validation/manifest.json": "7c1c4ec3b9a10d9d5d25c5fa600477206f7939c29e954732468dabb454150b65",
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-adjustable-rear-2026-10-23/validation/source-scope-certificate.json": "aa21c7cde0a7857c878a467c311be89c8ec21f18670fd94b2937923a8c4ede74",
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-adjustable-rear-2026-10-23/validation/native-step-inventory.json": "3d32beb1f67174215bed29e9642c033f5bd91bf3ccf061e16923a4f80560077c",
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-adjustable-rear-2026-10-23/validation/unchanged-native-breps.json": "4d5051b36e2fc70ea5ed07afe0388d250ccb298c197d795052201164d0f6a341",
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-adjustable-rear-2026-10-23/validation/rear-exact-audit.json": "a765c69c1ff6d3ec2262941c8155862ad480db0be2af8221a2379368508d6e85",
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-adjustable-rear-2026-10-23/validation/rear-path-audit.json": "94c095a26cc6115b62248b8fcc95a205cac255a9870737131792913f99adf040",
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-adjustable-rear-2026-10-23/validation/rear-service-audit.json": "721b7ab1c0ba78831632893d1749cce9e886214cfa69ccce027aa98a89ad92bb",
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-adjustable-rear-2026-10-23/validation/native-pose-audit.json": "a719c0f365fe10ed1184b2fb23bb3f5a2a1530b105f20f806aa6d93bf1783ebb",
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-adjustable-rear-2026-10-23/validation/rear-spec.json": "cefe4a617b72c17ced9b65ce5b367ca22cf89e3e85ef598a95b7402511e5265e",
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-adjustable-rear-2026-10-23/validation/audit_adjustable_rear.py": "7cbb28f685c2b535cfb2a2f9f328963fde2b74ff1ad8e246448e7117daefeb34",
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-adjustable-rear-2026-10-23/validation/certify_source_scope.py": "a3370d3b32e2755b7b32f20ee740e487d083090754fe9809fb4b9ff2a51959f4",
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-adjustable-rear-2026-10-23/validation/rear_geometry.py": "f9a81fa76889f8c63076bb62423d1546db905104f1f00e202d80cad9c1bfdb4f",
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-adjustable-rear-2026-10-23/validation/requirements.txt": "ea321b865315f04bfaa93885cd3f3f9b5bb54650d77fa270cd2d1c96bcc746d7"
+  },
+  "reuse_policy": "All R7 body pairs excluding P02 retain exact source/motion definitions. Independent122-body native BRep identity and new P02 construction/coverage/path checks are required; no R7 rear audit is relabeled as newly run.",
+  "limitations": [
+    "A source reconstruction is not native regeneration or print/strength qualification."
+  ]
+}

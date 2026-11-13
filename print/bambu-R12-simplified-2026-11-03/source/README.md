@@ -1,0 +1,1 @@
+Quelltext und Autorenskripte als Nachweis. Das native 3MF-Projekt ist eigenständig; Skripte benötigen das Fingerworker-Repository und die dokumentierte lokale Bambu-Laufzeit. Die verworfene integrierte Elektronikdecke gehört nicht zu dieser Lieferung.

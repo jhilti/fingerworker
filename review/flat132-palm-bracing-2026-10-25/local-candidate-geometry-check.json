@@ -1,0 +1,27 @@
+{
+  "status": "LOCAL_CANDIDATE_BREP_CONSTRUCTION_CHECK_PASS",
+  "scope": "OCCT reconstruction from frozen R8 P02 plus explicit candidate brace CSG; this is NOT a new native Onshape export or certification.",
+  "source_sha256": "16972ba9341f4cdf763a5570dad82a4fbd601f0935d0a7657be85813f97ff2b1",
+  "baseline_step_sha256": "99e73fe8a20ca5cd62b42369a625a9067feb7df6c48d6e94af3d9ac3b1a15292",
+  "candidate_palm_valid": true,
+  "candidate_palm_solid_count": 1,
+  "candidate_palm_shell_count": 1,
+  "original_palm_material_missing_mm3": 0.0,
+  "added_material_mm3": 767.0277052612911,
+  "palm_volume_mm3": 27729.334490435158,
+  "palm_bounds_mm": [
+    [
+      -46.1,
+      -64.0000001,
+      6.4999999
+    ],
+    [
+      -9.4999999,
+      64.0000001,
+      30.0000001
+    ]
+  ],
+  "P01_intersection_mm3": 0.0,
+  "P01_minimum_gap_mm": 0.0,
+  "P09_minimum_gap_mm": 0.5999999999999979
+}

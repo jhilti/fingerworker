@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "canonical_files_identical_to_JLC_source": [
+    "Acquisition.kicad_sch",
+    "Controls.kicad_sch",
+    "Fingerworker.kicad_sym",
+    "Fingerworker_RevA.kicad_pcb",
+    "Fingerworker_RevA.kicad_pro",
+    "Fingerworker_RevA.kicad_sch",
+    "Power.kicad_sch",
+    "fp-lib-table",
+    "native_design.json",
+    "sym-lib-table"
+  ],
+  "pcb_changes": {
+    "C4": {
+      "value": [
+        "10 uF",
+        "22 uF"
+      ]
+    },
+    "C7": {
+      "value": [
+        "4.7 uF",
+        "22 uF"
+      ]
+    }
+  },
+  "routing_positions_pad_nets_zones_unchanged": true,
+  "frozen_JLC_package_unchanged": true,
+  "C4_C7_mpn": "GRM21BR61E226ME44L",
+  "portal_substitutions": "C5: CC0603JRNPO9BN470; C6/C13: CC0603KRX7R7BB105 (recorded separately in portal BOM)",
+  "firmware_flash_bytes": 116488,
+  "firmware_static_ram_bytes": 14668,
+  "hardware_tested": false
+}

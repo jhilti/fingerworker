@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-04",
+  "status": "PASS_CONNECTED_BAMBU_STUDIO_SLICE",
+  "printer": "Bambu Lab H2D",
+  "nozzles_mm": [
+    0.4,
+    0.4
+  ],
+  "nozzle_flow": [
+    "Standard",
+    "Standard"
+  ],
+  "plates": 1,
+  "pieces": 6,
+  "material": "Generic PLA",
+  "filament_changes": 0,
+  "displayed_estimate": "11 h 13 min",
+  "displayed_filament_g": 232.02,
+  "printer_job_started": false,
+  "opened_generic_project": "Fingerworker_R13_H2D_04mm_PLA_Mechanics_Overnight.3mf",
+  "opened_generic_project_sha256": "6c8d3d766ea78e08310d741d8104fa17f4d0a7ba163688030f10340c743fabe2",
+  "synchronization": "Connected H2D nozzle/AMS state retained; current project has arc fitting disabled and successfully sliced.",
+  "evidence": {
+    "BambuStudio-connected-slice.png": "37c1b901a8fa4e14bd7c61bdfe34d6ac278d9c9a86d5de909ce64061ce2bf01e"
+  },
+  "scope": "Successful local GUI slice and one-plate preview. No printer job transmitted. PLA spool mapping and print start remain with user."
+}

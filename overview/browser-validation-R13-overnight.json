@@ -1,0 +1,13 @@
+{
+  "status": "NOT_COMPLETED_BROWSER_ACCESS_LIMITATION",
+  "date": "2026-11-04",
+  "html_sha256": "7dfab93db9f38c5bdf0ac23233711dcd63a0b2738c84cb5fb358ab98589c821f",
+  "static_validation": "overview/static-validation.json",
+  "notes": [
+    "Published overview passed static checks:107 local links,8 embedded images, no external runtime requests.",
+    "Chrome browser API failed; native Chrome preview did not render for verification.",
+    "Attempt to observe the existing in-app file URL was rejected by browser URL policy; browser verification stopped."
+  ],
+  "bambu_studio_gui_verified": true,
+  "bambu_evidence": "print/bambu-R13-mechanics-overnight-2026-11-04/evidence/BambuStudio-connected-slice.png"
+}

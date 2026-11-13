@@ -1,0 +1,10 @@
+{
+  "status": "RETAINED_R16_PROCESS_MATERIAL_SETTINGS",
+  "baseline_project_sha256": "a9ebaf5ba9c9296c1e85b162689dab32d13a7bb1ae3a0f826b355328594b89a0",
+  "declared_changes": {
+    "print_settings_id": "Fingerworker R18 organic palm no brim 0.20mm"
+  },
+  "output_profiles": {
+    "project_settings_H2D_PLA_Basic.json": "10acfd20cfbe52d99923a9e24705dc7808d8662989026fd62863f4fa3e310422"
+  }
+}

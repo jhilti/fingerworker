@@ -1,0 +1,46 @@
+{
+  "scope": "R19 rigid rear blocks and optional electronics tray",
+  "required_mechanical": [
+    {
+      "item": "M3x8 screw",
+      "quantity": 4,
+      "change": "Existing hardware; now mandatory for assembly,2 per rear block"
+    },
+    {
+      "item": "M3 insert",
+      "quantity": 4,
+      "change": "Existing positions unchanged"
+    }
+  ],
+  "required_if_electronics_installed": [
+    {
+      "item": "M2x8 screw, head diameter\u22643.8mm, height\u22641.6mm",
+      "quantity": 2,
+      "change": "Required replacing snap retention; no washer in checked length stack"
+    },
+    {
+      "item": "M2 heat-set insert, nominal OD3.2mm,length3mm",
+      "quantity": 2,
+      "change": "Use existing underside blind pilots at X\u221226.5,Y\u00b159; seat flush at Z9.5"
+    }
+  ],
+  "printable_parts": {
+    "remove": [
+      "P06 one-piece gate"
+    ],
+    "add": [
+      "P06L rear rod block",
+      "P06R rear rod block"
+    ],
+    "replace": [
+      "P08 tray with rigid screw ears"
+    ],
+    "reuse": [
+      "P09 lid"
+    ]
+  },
+  "thread_engagement_mm": {
+    "M2x8": 2.5
+  },
+  "verification": "Head envelope and5mm tool approach from below checked in local CAD; physical hardware dimensions/insert fit remain to verify"
+}

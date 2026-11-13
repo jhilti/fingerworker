@@ -1,0 +1,14 @@
+{
+  "status": "LOCAL_CSG_SLICE_AND_COMPLETE_MOTION_PREFLIGHT_PASS",
+  "revision": "R11",
+  "date": "2026-11-03",
+  "files": {
+    "build_enclosure.py": "35a3c1f82f13d0c1b12b28f7d4b1d1e944b5fa8786545480a5b9ee1f08a04e5c",
+    "enclosure-spec.json": "872a08d5312ae297017e4ab33ba5724ae2bddabefbcbba7fd44d56faf61b9ec4",
+    "local-enclosure-preflight.json": "5c008141cba7d08600931de4630c87d3bc5a732de0fb3df1b51ece4d33d38314",
+    "toolpath-preflight.json": "6dfa07bf600cace1b9a5a233186ab6042fa5a72065b5855a72b24d9048ab5512",
+    "motion-preflight.json": "39dd1ec5a437e2fb0fb2260beb7a1d0eafaccc6921188c504836f34e33656d1d",
+    "audit_motion.py": "4d9d43b38bec7f3d9ff74e71fa11315b13af2ae261913f43c82d28e4a2dd1494",
+    "README.md": "ee59cb8749ec7f38d32021b1d998d8d1fcc1130156314c1000cfc23ab418dd98"
+  }
+}

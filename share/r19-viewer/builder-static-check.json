@@ -1,0 +1,30 @@
+{
+  "revision": "R19",
+  "objects": 94,
+  "groups": {
+    "print": 8,
+    "metal": 27,
+    "buy": 6,
+    "electronics": 53
+  },
+  "source_payload_sha256": "1ce85f8fe1325c9c861a074ad997c7bc13af17b076751860985484f690c0e4d5",
+  "source_sha256": "0e88e273e2e9bc436b2844a44f04b28fb094593c0af87a2127d792bbb56f016d",
+  "native_zip_sha256": "344ca98f4147832b2a324c125df42c90b9d522f1617d554154b82e82312bc8b7",
+  "onshape_version": "21323818480a2406fe14f51f",
+  "fallback_sha256": "fd059582702345fdb08c31ffe5dcc77f53fcc9ce57885f6164a668fa7576227b",
+  "html_bytes": 1806794,
+  "html_sha256": "1cd2da151709d9b7eed517f4580dfed1b4b53438f7b915a527fd25e321d23db3",
+  "self_contained": true,
+  "printing_setup_changed": false,
+  "static_checks": {
+    "required_ids_present": true,
+    "unique_ids": true,
+    "no_external_resource_references": true,
+    "no_unresolved_placeholders": true,
+    "no_local_file_or_preview_urls": true,
+    "no_network_api_calls": true,
+    "embedded_fallback": true,
+    "touch_controls_present": true
+  },
+  "check_only": true
+}

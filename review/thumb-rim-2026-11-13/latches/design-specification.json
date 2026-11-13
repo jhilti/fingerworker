@@ -1,0 +1,368 @@
+{
+  "status": "PASS_LOCAL_RIGID_MOUNTS",
+  "baseline_step_sha256": "0d9ebb0777c35ebf687c59578362a1323a9cab3a00922be858c1d03695f023ee",
+  "generator_sha256": "7b8224a69351d31e42621610e363e2ec4d4d7e20f3832e99799a98bc8a88f5db",
+  "changed_refs": [
+    "P01",
+    "P06",
+    "P08"
+  ],
+  "new_refs": [
+    "P06L",
+    "P06R"
+  ],
+  "removed_ref": "P06",
+  "native_part_count_expected": 94,
+  "rear": {
+    "blocks": 2,
+    "identical_translated_y_mm": 102,
+    "dimensions_mm": [
+      10,
+      28,
+      23.5
+    ],
+    "fasteners": "4 existing M3x8,2 per block; existing M3 inserts",
+    "rod_socket": "unchanged6.2mm socket and teardrop roof",
+    "assembly": "Slide each block axially over its rod, seat on original feet, fit both screws. Remove screws before+X12mm withdrawal."
+  },
+  "tray": {
+    "fasteners": "2 M2x8 screws and existing M2 OD3.2 x3mm inserts",
+    "hole_centers_mm": [
+      [
+        -26.5,
+        -59
+      ],
+      [
+        -26.5,
+        59
+      ]
+    ],
+    "through_diameter_mm": 2.2,
+    "flat_land_z_mm": [
+      4,
+      9.5
+    ],
+    "nominal_engagement_mm": 2.5,
+    "insert_cavity_z_mm": [
+      9.5,
+      13.5
+    ],
+    "insert_envelope_z_mm": [
+      9.5,
+      12.5
+    ],
+    "screw_head_envelope": {
+      "diameter_mm": 3.8,
+      "height_mm": 1.6,
+      "bearing_plane_z_mm": 4
+    },
+    "driver_approach_diameter_mm": 5,
+    "screw_washer": false,
+    "pad_xy_mm": [
+      5,
+      8
+    ],
+    "root_xy_mm": [
+      5.2,
+      2.2
+    ],
+    "release": "Remove2M2 screws, lower tray20mm; no flexing.",
+    "P09_lid_unchanged": true
+  },
+  "source_patch_ranges": [
+    "P08 old ears24..31 and R11Traypalm clips replaced by rigid ears",
+    "P06 bridge/latches/frame catches removed; original2rod blocks kept",
+    "audit rear query covers both blocks"
+  ],
+  "checks": [
+    {
+      "name": "Valid single solid P06L",
+      "status": "PASS"
+    },
+    {
+      "name": "Valid single solid P06R",
+      "status": "PASS"
+    },
+    {
+      "name": "Valid single solid P08",
+      "status": "PASS"
+    },
+    {
+      "name": "Valid single solid P01_without_rear_catches",
+      "status": "PASS"
+    },
+    {
+      "name": "Rear blocks identical after102mm Y translation",
+      "status": "PASS"
+    },
+    {
+      "name": "Rear support stock is unchanged P06L",
+      "status": "PASS"
+    },
+    {
+      "name": "Rear support stock is unchanged P06R",
+      "status": "PASS"
+    },
+    {
+      "name": "P06L seated overlap does not increase P01",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_mm3": 0.0
+    },
+    {
+      "name": "P06L seated overlap does not increase P04",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_mm3": 0.0
+    },
+    {
+      "name": "P06L seated overlap does not increase P05",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_mm3": 0.0
+    },
+    {
+      "name": "P06L seated overlap does not increase P09",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_mm3": 0.0
+    },
+    {
+      "name": "P06L seated overlap does not increase E01",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_mm3": 0.0
+    },
+    {
+      "name": "P06L seated overlap does not increase E05",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_mm3": 0.0
+    },
+    {
+      "name": "P06L seated overlap does not increase E06",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_mm3": 0.0
+    },
+    {
+      "name": "P06L seated overlap does not increase E07",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_mm3": 0.0
+    },
+    {
+      "name": "P06L seated overlap does not increase E08",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_mm3": 0.0
+    },
+    {
+      "name": "P06R seated overlap does not increase P01",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_mm3": 0.0
+    },
+    {
+      "name": "P06R seated overlap does not increase P04",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_mm3": 0.0
+    },
+    {
+      "name": "P06R seated overlap does not increase P05",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_mm3": 0.0
+    },
+    {
+      "name": "P06R seated overlap does not increase P09",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_mm3": 0.0
+    },
+    {
+      "name": "P06R seated overlap does not increase E01",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_mm3": 0.0
+    },
+    {
+      "name": "P06R seated overlap does not increase E05",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_mm3": 0.0
+    },
+    {
+      "name": "P06R seated overlap does not increase E06",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_mm3": 0.0
+    },
+    {
+      "name": "P06R seated overlap does not increase E07",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_mm3": 0.0
+    },
+    {
+      "name": "P06R seated overlap does not increase E08",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_mm3": 0.0
+    },
+    {
+      "name": "P08 seated overlap does not increase P01",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_mm3": 0.0
+    },
+    {
+      "name": "P08 seated overlap does not increase P04",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_mm3": 0.0
+    },
+    {
+      "name": "P08 seated overlap does not increase P05",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_mm3": 0.0
+    },
+    {
+      "name": "P08 seated overlap does not increase P09",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_mm3": 0.0
+    },
+    {
+      "name": "P08 seated overlap does not increase E01",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_mm3": 0.0
+    },
+    {
+      "name": "P08 seated overlap does not increase E05",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_mm3": 0.0
+    },
+    {
+      "name": "P08 seated overlap does not increase E06",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_mm3": 0.0
+    },
+    {
+      "name": "P08 seated overlap does not increase E07",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_mm3": 0.0
+    },
+    {
+      "name": "P08 seated overlap does not increase E08",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_mm3": 0.0
+    },
+    {
+      "name": "M2 head seating clearance -1 P08",
+      "status": "PASS"
+    },
+    {
+      "name": "5mm driver approach from below -1 P08",
+      "status": "PASS"
+    },
+    {
+      "name": "M2 head seating clearance -1 P01",
+      "status": "PASS"
+    },
+    {
+      "name": "5mm driver approach from below -1 P01",
+      "status": "PASS"
+    },
+    {
+      "name": "M2 head seating clearance -1 P09",
+      "status": "PASS"
+    },
+    {
+      "name": "5mm driver approach from below -1 P09",
+      "status": "PASS"
+    },
+    {
+      "name": "M2x8 shank through ear and into pilot -1",
+      "status": "PASS"
+    },
+    {
+      "name": "Existing3.2x3mm insert cavity retained -1",
+      "status": "PASS"
+    },
+    {
+      "name": "M2 head seating clearance 1 P08",
+      "status": "PASS"
+    },
+    {
+      "name": "5mm driver approach from below 1 P08",
+      "status": "PASS"
+    },
+    {
+      "name": "M2 head seating clearance 1 P01",
+      "status": "PASS"
+    },
+    {
+      "name": "5mm driver approach from below 1 P01",
+      "status": "PASS"
+    },
+    {
+      "name": "M2 head seating clearance 1 P09",
+      "status": "PASS"
+    },
+    {
+      "name": "5mm driver approach from below 1 P09",
+      "status": "PASS"
+    },
+    {
+      "name": "M2x8 shank through ear and into pilot 1",
+      "status": "PASS"
+    },
+    {
+      "name": "Existing3.2x3mm insert cavity retained 1",
+      "status": "PASS"
+    },
+    {
+      "name": "Rigid tray downward withdrawal 0",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Rigid tray downward withdrawal -0.25",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Rigid tray downward withdrawal -1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Rigid tray downward withdrawal -5",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Rigid tray downward withdrawal -10",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Rigid tray downward withdrawal -20",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    }
+  ],
+  "failures": [],
+  "limitations": [
+    "Nominal CAD and screw engagement only; no printed strength, heat-set insert retention or loaded hardware qualification."
+  ],
+  "label_only_followup": "Source transformation labels require screws; geometry/check definitions unchanged."
+}

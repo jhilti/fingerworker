@@ -1,0 +1,4 @@
+{
+  "nominal_status": "NOMINAL_GEOMETRY_CHECKS_PASS",
+  "message": "R3 native clearance, legal motion/service paths and exact STEP checks passed. The scan remains approximate; physical fit/comfort and the 500 N design target are unqualified."
+}

@@ -1,0 +1,118 @@
+{
+  "revision": "Flat132 R3 palm fit",
+  "status": "CAD_PROTOTYPE_NOMINAL_GEOMETRY_CHECKS_PASS",
+  "source": {
+    "file": "fingerworker_flat132_palm_fit.fs",
+    "sha256": "4665c3ec4e983e478d34c6cfe923b3b60e6c8848f36b7c54b55b1989eaab6326"
+  },
+  "baseline": {
+    "revision": "Flat132 R2",
+    "immutable_version_id": "9bdcf9c3c67638228b40378b"
+  },
+  "onshape": {
+    "workspace_id": "3ee26cf6386f889ca7ae9519",
+    "immutable_version_id": "9bf146edbc2e61a5c4144a35",
+    "immutable_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/9bf146edbc2e61a5c4144a35/e/d253eb87b70818ebde8215f0"
+  },
+  "geometry": {
+    "frame_width_mm": 132,
+    "clear_finger_opening_mm": 72,
+    "maximum_height_mm": 35,
+    "dynamic_travel_mm": "30 - preload",
+    "preload_mm": [
+      0,
+      2
+    ],
+    "isometric_setting_mm": "15 - preload"
+  },
+  "palm_fit": {
+    "changed_refs": [
+      "P02",
+      "P03"
+    ],
+    "old_axis_x_mm": -34,
+    "new_axis_x_mm": -27,
+    "axis_z_mm": 19.75,
+    "rigid_radius_mm": 7.75,
+    "TPU_outer_radius_mm": 10.25,
+    "old_wrist_contact_x_mm": -44.25,
+    "new_wrist_contact_x_mm": -37.25,
+    "reduction_mm": 7,
+    "finger_wall_x_mm": "77 - stroke",
+    "old_contact_span_mm": "121.25 - stroke",
+    "new_contact_span_mm": "114.25 - stroke",
+    "flat_core_back_x_mm": -27,
+    "return_bands": {
+      "x_mm": [
+        -27,
+        -24.5
+      ],
+      "y_mm": [
+        [
+          -43,
+          -39
+        ],
+        [
+          39,
+          43
+        ]
+      ],
+      "z_mm": [
+        14.6,
+        30
+      ]
+    },
+    "mounts_keys_case_pilots_unchanged": true,
+    "retention": "Nominal radial capture by TPU return bands; axial friction and real pull-off fit require prototype qualification"
+  },
+  "strength": {
+    "target_N": 500,
+    "physical_qualification": "PENDING",
+    "rated_load_N": null,
+    "core_plate_intersection_width_at_z14_5_mm": 5.70087712549569,
+    "previous_core_plate_intersection_width_mm": 11.40175425099138,
+    "meaning": "Positive connected material retained; geometry is not a strength margin"
+  },
+  "firmware": {
+    "changed": false,
+    "NC_LOW_qualified_force_readout": "BLOCKED_IN_CURRENT_FIRMWARE"
+  },
+  "cam_setup": "Manual H10 reset by minus preload change",
+  "hand_scan": "Original raw scan and approximate registration unchanged; no hand fit qualification",
+  "native_exports": {
+    "Flat132_R3_final_AP214.step": {
+      "sha256": "bc7f102b5f147d3647ec372ffde1c726087fe64487aa7733c78b3450901da4e3",
+      "bytes": 2094397
+    },
+    "Flat132_R3_isometric13_p2_final.zip": {
+      "sha256": "f4bf05bd31a8929006b5136ed86b8b04c4dc293295bca9daec82a259bf10f921",
+      "bytes": 4486342
+    },
+    "Flat132_R3_max28_p2_heavy_final.zip": {
+      "sha256": "e3f4a92aeed099ec3ec5f11ce9a9f0bf948d419329b2672dd663ed449f0b2381",
+      "bytes": 53892057
+    },
+    "Flat132_R3_neutral_final.zip": {
+      "sha256": "0a8d367507744e7dfaaa46a6c1fa46639551293a0ad738d16f87fbebf2eef738",
+      "bytes": 56088116
+    }
+  },
+  "print_set": {
+    "directory": "print-mm",
+    "count": 14,
+    "changed_since_R2": [
+      "P02",
+      "P03"
+    ],
+    "units": "mm",
+    "orientation": "Neutral assembly coordinates; unsliced"
+  },
+  "package": "deliverables/Flat132_R3_Palm_Fit.zip",
+  "validation": {
+    "report": "validation/validation.json",
+    "status": "NOMINAL_GEOMETRY_CHECKS_PASS",
+    "failed_checks": 0,
+    "unresolved_checks": 0,
+    "report_sha256": "1c9ddde9ad4e2412602ea9a0e6fd128415453b02595dc6a06678e0630b25c71c"
+  }
+}

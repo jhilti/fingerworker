@@ -1,0 +1,3654 @@
+{
+  "status": "PASS_ACTUAL_UNLOADED_FIT_SLICE",
+  "sliced_archive_sha256": "c2063f6319b4453fae3a8bfa35152499f62d5db6793e25b0dbe1178dd68f0203",
+  "editable_project_sha256": "3bd6c6dc06f3f5f7c4eafa575f1a0cbf52148a8a82ca867a89d3fac06b2e063a",
+  "layout_sha256": "473337c2d396d4cc8896270a836d76fa9a40028eb131ee1e6428bbebf5852642",
+  "frozen_source_sha256": "6099df42e341ff9f5c3439709a23107325d10ef922f616bdcda6fa6ef64d41c1",
+  "object_count": 19,
+  "objects": [
+    {
+      "ref": "P01",
+      "model_segments": 377504,
+      "first_layer_model_path_mm": 37784.994648575695,
+      "max_line_width_mm": 0.7347,
+      "features": {
+        "Support": {
+          "segments": 920,
+          "path_mm": 3067.6729999999507,
+          "z_range_mm": [
+            0.2,
+            4.748
+          ],
+          "max_speed_mm_s": 60.0
+        },
+        "Brim": {
+          "segments": 487,
+          "path_mm": 4929.895536611109,
+          "z_range_mm": [
+            0.2,
+            0.2
+          ],
+          "max_speed_mm_s": 20.0
+        },
+        "Inner wall": {
+          "segments": 65613,
+          "path_mm": 215153.59384184075,
+          "z_range_mm": [
+            0.2,
+            34.8
+          ],
+          "max_speed_mm_s": 100.0
+        },
+        "Outer wall": {
+          "segments": 22533,
+          "path_mm": 77947.01560867573,
+          "z_range_mm": [
+            0.2,
+            35.0
+          ],
+          "max_speed_mm_s": 60.0
+        },
+        "Bottom surface": {
+          "segments": 1572,
+          "path_mm": 33645.9878058828,
+          "z_range_mm": [
+            0.2,
+            0.2
+          ],
+          "max_speed_mm_s": 20.0
+        },
+        "Internal solid infill": {
+          "segments": 24114,
+          "path_mm": 305757.3877685475,
+          "z_range_mm": [
+            0.4,
+            34.8
+          ],
+          "max_speed_mm_s": 100.0
+        },
+        "Sparse infill": {
+          "segments": 249370,
+          "path_mm": 292603.23977053247,
+          "z_range_mm": [
+            1.2,
+            34.0
+          ],
+          "max_speed_mm_s": 120.0
+        },
+        "Bridge": {
+          "segments": 5245,
+          "path_mm": 40995.40823585726,
+          "z_range_mm": [
+            1.4,
+            34.2
+          ],
+          "max_speed_mm_s": 25.0
+        },
+        "Floating vertical shell": {
+          "segments": 5346,
+          "path_mm": 12688.811772640067,
+          "z_range_mm": [
+            1.8,
+            34.2
+          ],
+          "max_speed_mm_s": 80.0
+        },
+        "Top surface": {
+          "segments": 3057,
+          "path_mm": 48257.94977618331,
+          "z_range_mm": [
+            2.2,
+            35.0
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Gap infill": {
+          "segments": 314,
+          "path_mm": 76.57901440093525,
+          "z_range_mm": [
+            2.2,
+            35.0
+          ],
+          "max_speed_mm_s": 80.0
+        },
+        "Support transition": {
+          "segments": 9,
+          "path_mm": 302.27400000000006,
+          "z_range_mm": [
+            5.015,
+            5.015
+          ],
+          "max_speed_mm_s": 25.0
+        },
+        "Support interface": {
+          "segments": 10,
+          "path_mm": 453.01200000000006,
+          "z_range_mm": [
+            5.283,
+            5.55
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Overhang wall": {
+          "segments": 331,
+          "path_mm": 928.4134116005554,
+          "z_range_mm": [
+            6.0,
+            32.2
+          ],
+          "max_speed_mm_s": 25.0
+        }
+      },
+      "extrusion_bounds_mm": [
+        [
+          29.381,
+          5.52,
+          0.2
+        ],
+        [
+          188.48,
+          144.48,
+          35.0
+        ]
+      ],
+      "first_model_z_mm": 0.2,
+      "last_model_z_mm": 35.0,
+      "distinct_model_layers": 176
+    },
+    {
+      "ref": "P02",
+      "model_segments": 74946,
+      "first_layer_model_path_mm": 358.55503194812115,
+      "max_line_width_mm": 0.69844,
+      "features": {
+        "Support": {
+          "segments": 6231,
+          "path_mm": 71548.90695562446,
+          "z_range_mm": [
+            0.2,
+            16.519
+          ],
+          "max_speed_mm_s": 60.0
+        },
+        "Brim": {
+          "segments": 249,
+          "path_mm": 257.9687928950393,
+          "z_range_mm": [
+            0.2,
+            0.2
+          ],
+          "max_speed_mm_s": 20.0
+        },
+        "Inner wall": {
+          "segments": 15592,
+          "path_mm": 88505.30625165258,
+          "z_range_mm": [
+            0.2,
+            36.4
+          ],
+          "max_speed_mm_s": 100.0
+        },
+        "Outer wall": {
+          "segments": 7893,
+          "path_mm": 38278.89339591278,
+          "z_range_mm": [
+            0.2,
+            36.6
+          ],
+          "max_speed_mm_s": 60.0
+        },
+        "Bottom surface": {
+          "segments": 60,
+          "path_mm": 124.50703194812101,
+          "z_range_mm": [
+            0.2,
+            0.2
+          ],
+          "max_speed_mm_s": 20.0
+        },
+        "Internal solid infill": {
+          "segments": 3519,
+          "path_mm": 25014.381768656876,
+          "z_range_mm": [
+            0.4,
+            27.6
+          ],
+          "max_speed_mm_s": 100.0
+        },
+        "Sparse infill": {
+          "segments": 43618,
+          "path_mm": 49709.477829179006,
+          "z_range_mm": [
+            1.2,
+            26.8
+          ],
+          "max_speed_mm_s": 120.0
+        },
+        "Floating vertical shell": {
+          "segments": 2075,
+          "path_mm": 14535.740596180247,
+          "z_range_mm": [
+            1.6,
+            27.2
+          ],
+          "max_speed_mm_s": 80.0
+        },
+        "Bridge": {
+          "segments": 812,
+          "path_mm": 6443.867104529331,
+          "z_range_mm": [
+            1.8,
+            25.6
+          ],
+          "max_speed_mm_s": 25.0
+        },
+        "Top surface": {
+          "segments": 1030,
+          "path_mm": 3287.633622829974,
+          "z_range_mm": [
+            2.6,
+            36.6
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Gap infill": {
+          "segments": 27,
+          "path_mm": 6.70157395309575,
+          "z_range_mm": [
+            2.6,
+            26.4
+          ],
+          "max_speed_mm_s": 80.0
+        },
+        "Overhang wall": {
+          "segments": 198,
+          "path_mm": 1510.892603738147,
+          "z_range_mm": [
+            8.8,
+            18.8
+          ],
+          "max_speed_mm_s": 25.0
+        },
+        "Support transition": {
+          "segments": 122,
+          "path_mm": 3687.7200799833977,
+          "z_range_mm": [
+            12.994,
+            16.796
+          ],
+          "max_speed_mm_s": 25.0
+        },
+        "Support interface": {
+          "segments": 242,
+          "path_mm": 6788.736024474069,
+          "z_range_mm": [
+            13.272,
+            17.35
+          ],
+          "max_speed_mm_s": 40.0
+        }
+      },
+      "extrusion_bounds_mm": [
+        [
+          194.558,
+          7.766,
+          0.2
+        ],
+        [
+          227.074,
+          138.234,
+          36.6
+        ]
+      ],
+      "first_model_z_mm": 0.2,
+      "last_model_z_mm": 36.6,
+      "distinct_model_layers": 185
+    },
+    {
+      "ref": "P04",
+      "model_segments": 227839,
+      "first_layer_model_path_mm": 6183.373222744995,
+      "max_line_width_mm": 0.724993,
+      "features": {
+        "Support": {
+          "segments": 9443,
+          "path_mm": 67909.93028328616,
+          "z_range_mm": [
+            0.2,
+            57.008
+          ],
+          "max_speed_mm_s": 60.0
+        },
+        "Support interface": {
+          "segments": 2458,
+          "path_mm": 9062.051955037614,
+          "z_range_mm": [
+            0.2,
+            57.75
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Brim": {
+          "segments": 857,
+          "path_mm": 2942.506932717125,
+          "z_range_mm": [
+            0.2,
+            0.2
+          ],
+          "max_speed_mm_s": 20.0
+        },
+        "Inner wall": {
+          "segments": 44586,
+          "path_mm": 217534.09161978975,
+          "z_range_mm": [
+            0.2,
+            58.8
+          ],
+          "max_speed_mm_s": 100.0
+        },
+        "Outer wall": {
+          "segments": 14788,
+          "path_mm": 79156.99550159107,
+          "z_range_mm": [
+            0.2,
+            59.0
+          ],
+          "max_speed_mm_s": 60.0
+        },
+        "Bottom surface": {
+          "segments": 572,
+          "path_mm": 4656.243461675707,
+          "z_range_mm": [
+            0.2,
+            0.2
+          ],
+          "max_speed_mm_s": 20.0
+        },
+        "Overhang wall": {
+          "segments": 148,
+          "path_mm": 763.1034849839368,
+          "z_range_mm": [
+            0.4,
+            58.2
+          ],
+          "max_speed_mm_s": 25.0
+        },
+        "Internal solid infill": {
+          "segments": 9337,
+          "path_mm": 63710.841362853986,
+          "z_range_mm": [
+            0.4,
+            58.8
+          ],
+          "max_speed_mm_s": 100.0
+        },
+        "Sparse infill": {
+          "segments": 150809,
+          "path_mm": 173748.9536183561,
+          "z_range_mm": [
+            1.2,
+            58.0
+          ],
+          "max_speed_mm_s": 120.0
+        },
+        "Bridge": {
+          "segments": 1727,
+          "path_mm": 10845.502950036715,
+          "z_range_mm": [
+            1.2,
+            58.2
+          ],
+          "max_speed_mm_s": 25.0
+        },
+        "Floating vertical shell": {
+          "segments": 4790,
+          "path_mm": 9201.754318350051,
+          "z_range_mm": [
+            1.4,
+            58.2
+          ],
+          "max_speed_mm_s": 80.0
+        },
+        "Top surface": {
+          "segments": 728,
+          "path_mm": 9318.479457585272,
+          "z_range_mm": [
+            8.0,
+            59.0
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Gap infill": {
+          "segments": 47,
+          "path_mm": 11.799203499832497,
+          "z_range_mm": [
+            8.0,
+            59.0
+          ],
+          "max_speed_mm_s": 80.0
+        },
+        "Support transition": {
+          "segments": 307,
+          "path_mm": 1617.9770386534487,
+          "z_range_mm": [
+            11.192,
+            57.008
+          ],
+          "max_speed_mm_s": 25.0
+        }
+      },
+      "extrusion_bounds_mm": [
+        [
+          232.058,
+          4.558,
+          0.2
+        ],
+        [
+          265.378,
+          139.442,
+          59.0
+        ]
+      ],
+      "first_model_z_mm": 0.2,
+      "last_model_z_mm": 59.0,
+      "distinct_model_layers": 303
+    },
+    {
+      "ref": "P05",
+      "model_segments": 169927,
+      "first_layer_model_path_mm": 4743.248109870942,
+      "max_line_width_mm": 0.707817,
+      "features": {
+        "Support": {
+          "segments": 2590,
+          "path_mm": 10369.532570901263,
+          "z_range_mm": [
+            0.2,
+            15.91
+          ],
+          "max_speed_mm_s": 60.0
+        },
+        "Brim": {
+          "segments": 1842,
+          "path_mm": 2840.3343921528344,
+          "z_range_mm": [
+            0.2,
+            0.2
+          ],
+          "max_speed_mm_s": 20.0
+        },
+        "Inner wall": {
+          "segments": 40615,
+          "path_mm": 129722.27886031117,
+          "z_range_mm": [
+            0.2,
+            21.8
+          ],
+          "max_speed_mm_s": 100.0
+        },
+        "Outer wall": {
+          "segments": 12862,
+          "path_mm": 44900.810174032944,
+          "z_range_mm": [
+            0.2,
+            22.0
+          ],
+          "max_speed_mm_s": 60.0
+        },
+        "Bottom surface": {
+          "segments": 585,
+          "path_mm": 3200.881146207293,
+          "z_range_mm": [
+            0.2,
+            0.2
+          ],
+          "max_speed_mm_s": 20.0
+        },
+        "Internal solid infill": {
+          "segments": 7157,
+          "path_mm": 38978.202948853235,
+          "z_range_mm": [
+            0.4,
+            21.8
+          ],
+          "max_speed_mm_s": 100.0
+        },
+        "Sparse infill": {
+          "segments": 104668,
+          "path_mm": 119387.56367013488,
+          "z_range_mm": [
+            1.2,
+            21.0
+          ],
+          "max_speed_mm_s": 120.0
+        },
+        "Floating vertical shell": {
+          "segments": 1378,
+          "path_mm": 3820.974626774243,
+          "z_range_mm": [
+            4.0,
+            21.2
+          ],
+          "max_speed_mm_s": 80.0
+        },
+        "Bridge": {
+          "segments": 1690,
+          "path_mm": 7213.487169075966,
+          "z_range_mm": [
+            4.2,
+            21.2
+          ],
+          "max_speed_mm_s": 25.0
+        },
+        "Support transition": {
+          "segments": 93,
+          "path_mm": 674.0995454221393,
+          "z_range_mm": [
+            4.4,
+            16.19
+          ],
+          "max_speed_mm_s": 25.0
+        },
+        "Support interface": {
+          "segments": 132,
+          "path_mm": 1192.374954544293,
+          "z_range_mm": [
+            4.675,
+            16.75
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Top surface": {
+          "segments": 772,
+          "path_mm": 7733.298781829419,
+          "z_range_mm": [
+            5.0,
+            22.0
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Overhang wall": {
+          "segments": 70,
+          "path_mm": 481.84201665828755,
+          "z_range_mm": [
+            5.4,
+            17.2
+          ],
+          "max_speed_mm_s": 25.0
+        },
+        "Gap infill": {
+          "segments": 37,
+          "path_mm": 9.338842963031976,
+          "z_range_mm": [
+            8.2,
+            22.0
+          ],
+          "max_speed_mm_s": 80.0
+        }
+      },
+      "extrusion_bounds_mm": [
+        [
+          271.058,
+          4.558,
+          0.2
+        ],
+        [
+          316.942,
+          139.442,
+          22.0
+        ]
+      ],
+      "first_model_z_mm": 0.2,
+      "last_model_z_mm": 22.0,
+      "distinct_model_layers": 112
+    },
+    {
+      "ref": "P08",
+      "model_segments": 14734,
+      "first_layer_model_path_mm": 5351.26314023066,
+      "max_line_width_mm": 0.72412,
+      "features": {
+        "Support": {
+          "segments": 1538,
+          "path_mm": 4992.294717305431,
+          "z_range_mm": [
+            0.2,
+            9.15
+          ],
+          "max_speed_mm_s": 60.0
+        },
+        "Brim": {
+          "segments": 207,
+          "path_mm": 1198.7056380297697,
+          "z_range_mm": [
+            0.2,
+            0.2
+          ],
+          "max_speed_mm_s": 20.0
+        },
+        "Inner wall": {
+          "segments": 4317,
+          "path_mm": 5622.73255441353,
+          "z_range_mm": [
+            0.2,
+            9.0
+          ],
+          "max_speed_mm_s": 100.0
+        },
+        "Outer wall": {
+          "segments": 7334,
+          "path_mm": 22190.482519908488,
+          "z_range_mm": [
+            0.2,
+            9.6
+          ],
+          "max_speed_mm_s": 60.0
+        },
+        "Bottom surface": {
+          "segments": 381,
+          "path_mm": 4326.239140230675,
+          "z_range_mm": [
+            0.2,
+            0.2
+          ],
+          "max_speed_mm_s": 20.0
+        },
+        "Internal solid infill": {
+          "segments": 1730,
+          "path_mm": 18195.029033142866,
+          "z_range_mm": [
+            0.4,
+            8.8
+          ],
+          "max_speed_mm_s": 100.0
+        },
+        "Top surface": {
+          "segments": 463,
+          "path_mm": 5775.340604465156,
+          "z_range_mm": [
+            1.0,
+            9.0
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Gap infill": {
+          "segments": 30,
+          "path_mm": 9.141070320502205,
+          "z_range_mm": [
+            1.0,
+            9.0
+          ],
+          "max_speed_mm_s": 80.0
+        },
+        "Support interface": {
+          "segments": 699,
+          "path_mm": 1204.713612669372,
+          "z_range_mm": [
+            1.4,
+            9.4
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Support transition": {
+          "segments": 159,
+          "path_mm": 393.9683170558787,
+          "z_range_mm": [
+            4.613,
+            7.55
+          ],
+          "max_speed_mm_s": 25.0
+        },
+        "Overhang wall": {
+          "segments": 314,
+          "path_mm": 210.75273565999987,
+          "z_range_mm": [
+            5.6,
+            8.4
+          ],
+          "max_speed_mm_s": 25.0
+        },
+        "Bridge": {
+          "segments": 6,
+          "path_mm": 7.603999999999992,
+          "z_range_mm": [
+            8.4,
+            8.4
+          ],
+          "max_speed_mm_s": 25.0
+        }
+      },
+      "extrusion_bounds_mm": [
+        [
+          28.766,
+          151.386,
+          0.2
+        ],
+        [
+          159.234,
+          179.114,
+          9.6
+        ]
+      ],
+      "first_model_z_mm": 0.2,
+      "last_model_z_mm": 9.6,
+      "distinct_model_layers": 52
+    },
+    {
+      "ref": "P09",
+      "model_segments": 3337,
+      "first_layer_model_path_mm": 5259.0824950825445,
+      "max_line_width_mm": 0.68566,
+      "features": {
+        "Brim": {
+          "segments": 231,
+          "path_mm": 1094.8563658861074,
+          "z_range_mm": [
+            0.2,
+            0.2
+          ],
+          "max_speed_mm_s": 20.0
+        },
+        "Inner wall": {
+          "segments": 1011,
+          "path_mm": 4563.630168033283,
+          "z_range_mm": [
+            0.2,
+            6.6
+          ],
+          "max_speed_mm_s": 100.0
+        },
+        "Outer wall": {
+          "segments": 588,
+          "path_mm": 2600.2363292127143,
+          "z_range_mm": [
+            0.2,
+            6.8
+          ],
+          "max_speed_mm_s": 60.0
+        },
+        "Bottom surface": {
+          "segments": 378,
+          "path_mm": 4135.847531497062,
+          "z_range_mm": [
+            0.2,
+            0.2
+          ],
+          "max_speed_mm_s": 20.0
+        },
+        "Internal solid infill": {
+          "segments": 969,
+          "path_mm": 10620.814042111737,
+          "z_range_mm": [
+            0.4,
+            0.6
+          ],
+          "max_speed_mm_s": 100.0
+        },
+        "Top surface": {
+          "segments": 385,
+          "path_mm": 6199.558711764423,
+          "z_range_mm": [
+            0.8,
+            6.8
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Gap infill": {
+          "segments": 6,
+          "path_mm": 1.5147804350797518,
+          "z_range_mm": [
+            0.8,
+            0.8
+          ],
+          "max_speed_mm_s": 80.0
+        }
+      },
+      "extrusion_bounds_mm": [
+        [
+          164.3,
+          150.3,
+          0.2
+        ],
+        [
+          277.7,
+          176.2,
+          6.8
+        ]
+      ],
+      "first_model_z_mm": 0.2,
+      "last_model_z_mm": 6.8,
+      "distinct_model_layers": 34
+    },
+    {
+      "ref": "H040",
+      "model_segments": 20052,
+      "first_layer_model_path_mm": 281.25600000000003,
+      "max_line_width_mm": 0.63883,
+      "features": {
+        "Brim": {
+          "segments": 197,
+          "path_mm": 1765.0856294820853,
+          "z_range_mm": [
+            0.2,
+            0.2
+          ],
+          "max_speed_mm_s": 20.0
+        },
+        "Outer wall": {
+          "segments": 550,
+          "path_mm": 8407.247999999996,
+          "z_range_mm": [
+            0.2,
+            6.0
+          ],
+          "max_speed_mm_s": 60.0
+        },
+        "Inner wall": {
+          "segments": 428,
+          "path_mm": 23283.34400000001,
+          "z_range_mm": [
+            0.4,
+            5.8
+          ],
+          "max_speed_mm_s": 60.0
+        },
+        "Overhang wall": {
+          "segments": 6,
+          "path_mm": 281.67599999999993,
+          "z_range_mm": [
+            0.4,
+            0.4
+          ],
+          "max_speed_mm_s": 10.0
+        },
+        "Internal solid infill": {
+          "segments": 66,
+          "path_mm": 4403.475999999998,
+          "z_range_mm": [
+            0.8,
+            5.4
+          ],
+          "max_speed_mm_s": 60.0
+        },
+        "Sparse infill": {
+          "segments": 18714,
+          "path_mm": 8795.065403593186,
+          "z_range_mm": [
+            1.8,
+            4.4
+          ],
+          "max_speed_mm_s": 60.0
+        },
+        "Floating vertical shell": {
+          "segments": 26,
+          "path_mm": 2200.212000000001,
+          "z_range_mm": [
+            3.8,
+            4.8
+          ],
+          "max_speed_mm_s": 48.0
+        },
+        "Top surface": {
+          "segments": 262,
+          "path_mm": 259.3688894166406,
+          "z_range_mm": [
+            6.0,
+            6.0
+          ],
+          "max_speed_mm_s": 60.0
+        }
+      },
+      "extrusion_bounds_mm": [
+        [
+          27.386,
+          186.119,
+          0.2
+        ],
+        [
+          173.614,
+          192.881,
+          6.0
+        ]
+      ],
+      "first_model_z_mm": 0.2,
+      "last_model_z_mm": 6.0,
+      "distinct_model_layers": 30
+    },
+    {
+      "ref": "H041",
+      "model_segments": 20052,
+      "first_layer_model_path_mm": 281.25600000000003,
+      "max_line_width_mm": 0.63883,
+      "features": {
+        "Brim": {
+          "segments": 194,
+          "path_mm": 1765.087107204941,
+          "z_range_mm": [
+            0.2,
+            0.2
+          ],
+          "max_speed_mm_s": 20.0
+        },
+        "Outer wall": {
+          "segments": 550,
+          "path_mm": 8407.248000000005,
+          "z_range_mm": [
+            0.2,
+            6.0
+          ],
+          "max_speed_mm_s": 60.0
+        },
+        "Inner wall": {
+          "segments": 428,
+          "path_mm": 23283.344000000005,
+          "z_range_mm": [
+            0.4,
+            5.8
+          ],
+          "max_speed_mm_s": 60.0
+        },
+        "Overhang wall": {
+          "segments": 6,
+          "path_mm": 281.67600000000004,
+          "z_range_mm": [
+            0.4,
+            0.4
+          ],
+          "max_speed_mm_s": 10.0
+        },
+        "Internal solid infill": {
+          "segments": 66,
+          "path_mm": 4403.475999999999,
+          "z_range_mm": [
+            0.8,
+            5.4
+          ],
+          "max_speed_mm_s": 60.0
+        },
+        "Sparse infill": {
+          "segments": 18714,
+          "path_mm": 8795.007217052615,
+          "z_range_mm": [
+            1.8,
+            4.4
+          ],
+          "max_speed_mm_s": 60.0
+        },
+        "Floating vertical shell": {
+          "segments": 26,
+          "path_mm": 2200.2120000000004,
+          "z_range_mm": [
+            3.8,
+            4.8
+          ],
+          "max_speed_mm_s": 48.0
+        },
+        "Top surface": {
+          "segments": 262,
+          "path_mm": 259.3688894166408,
+          "z_range_mm": [
+            6.0,
+            6.0
+          ],
+          "max_speed_mm_s": 60.0
+        }
+      },
+      "extrusion_bounds_mm": [
+        [
+          176.386,
+          186.119,
+          0.2
+        ],
+        [
+          322.614,
+          192.881,
+          6.0
+        ]
+      ],
+      "first_model_z_mm": 0.2,
+      "last_model_z_mm": 6.0,
+      "distinct_model_layers": 30
+    },
+    {
+      "ref": "P060",
+      "model_segments": 41946,
+      "first_layer_model_path_mm": 240.7862386816784,
+      "max_line_width_mm": 0.69038,
+      "features": {
+        "Support": {
+          "segments": 2114,
+          "path_mm": 3937.4965934940033,
+          "z_range_mm": [
+            0.2,
+            21.597
+          ],
+          "max_speed_mm_s": 60.0
+        },
+        "Brim": {
+          "segments": 248,
+          "path_mm": 295.01526477736496,
+          "z_range_mm": [
+            0.2,
+            0.2
+          ],
+          "max_speed_mm_s": 20.0
+        },
+        "Inner wall": {
+          "segments": 25795,
+          "path_mm": 20321.53266349626,
+          "z_range_mm": [
+            0.2,
+            25.8
+          ],
+          "max_speed_mm_s": 50.0
+        },
+        "Outer wall": {
+          "segments": 13080,
+          "path_mm": 13331.323642882258,
+          "z_range_mm": [
+            0.2,
+            26.0
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Internal solid infill": {
+          "segments": 2309,
+          "path_mm": 1876.6608627041117,
+          "z_range_mm": [
+            5.2,
+            25.8
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Support transition": {
+          "segments": 102,
+          "path_mm": 253.36457530232659,
+          "z_range_mm": [
+            5.402,
+            21.873
+          ],
+          "max_speed_mm_s": 25.0
+        },
+        "Support interface": {
+          "segments": 176,
+          "path_mm": 465.64328129282893,
+          "z_range_mm": [
+            5.676,
+            22.35
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Overhang wall": {
+          "segments": 251,
+          "path_mm": 283.5399505148165,
+          "z_range_mm": [
+            6.4,
+            24.6
+          ],
+          "max_speed_mm_s": 25.0
+        },
+        "Bridge": {
+          "segments": 156,
+          "path_mm": 257.29949023160395,
+          "z_range_mm": [
+            9.0,
+            24.6
+          ],
+          "max_speed_mm_s": 25.0
+        },
+        "Top surface": {
+          "segments": 204,
+          "path_mm": 596.109410844682,
+          "z_range_mm": [
+            10.4,
+            26.0
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Gap infill": {
+          "segments": 49,
+          "path_mm": 12.920238731114312,
+          "z_range_mm": [
+            10.4,
+            26.0
+          ],
+          "max_speed_mm_s": 40.0
+        }
+      },
+      "extrusion_bounds_mm": [
+        [
+          171.807,
+          200.386,
+          0.2
+        ],
+        [
+          187.193,
+          233.614,
+          26.0
+        ]
+      ],
+      "first_model_z_mm": 0.2,
+      "last_model_z_mm": 26.0,
+      "distinct_model_layers": 136
+    },
+    {
+      "ref": "P061",
+      "model_segments": 41807,
+      "first_layer_model_path_mm": 241.26955860722666,
+      "max_line_width_mm": 0.6897,
+      "features": {
+        "Support": {
+          "segments": 2112,
+          "path_mm": 3937.480239387322,
+          "z_range_mm": [
+            0.2,
+            21.597
+          ],
+          "max_speed_mm_s": 60.0
+        },
+        "Brim": {
+          "segments": 248,
+          "path_mm": 295.01526477736496,
+          "z_range_mm": [
+            0.2,
+            0.2
+          ],
+          "max_speed_mm_s": 20.0
+        },
+        "Inner wall": {
+          "segments": 25645,
+          "path_mm": 20313.056128954693,
+          "z_range_mm": [
+            0.2,
+            25.8
+          ],
+          "max_speed_mm_s": 50.0
+        },
+        "Outer wall": {
+          "segments": 13095,
+          "path_mm": 13331.596323364938,
+          "z_range_mm": [
+            0.2,
+            26.0
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Internal solid infill": {
+          "segments": 2312,
+          "path_mm": 1875.773867246556,
+          "z_range_mm": [
+            5.4,
+            25.8
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Support transition": {
+          "segments": 102,
+          "path_mm": 253.36550256108364,
+          "z_range_mm": [
+            5.402,
+            21.873
+          ],
+          "max_speed_mm_s": 25.0
+        },
+        "Support interface": {
+          "segments": 176,
+          "path_mm": 465.643281292809,
+          "z_range_mm": [
+            5.676,
+            22.35
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Overhang wall": {
+          "segments": 253,
+          "path_mm": 283.4645426584848,
+          "z_range_mm": [
+            6.4,
+            24.6
+          ],
+          "max_speed_mm_s": 25.0
+        },
+        "Bridge": {
+          "segments": 150,
+          "path_mm": 256.2536512041993,
+          "z_range_mm": [
+            9.0,
+            24.6
+          ],
+          "max_speed_mm_s": 25.0
+        },
+        "Top surface": {
+          "segments": 205,
+          "path_mm": 596.6814599887414,
+          "z_range_mm": [
+            10.4,
+            26.0
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Gap infill": {
+          "segments": 45,
+          "path_mm": 12.951915191432398,
+          "z_range_mm": [
+            10.4,
+            26.0
+          ],
+          "max_speed_mm_s": 40.0
+        }
+      },
+      "extrusion_bounds_mm": [
+        [
+          190.807,
+          200.386,
+          0.2
+        ],
+        [
+          206.193,
+          233.614,
+          26.0
+        ]
+      ],
+      "first_model_z_mm": 0.2,
+      "last_model_z_mm": 26.0,
+      "distinct_model_layers": 136
+    },
+    {
+      "ref": "P120",
+      "model_segments": 4628,
+      "first_layer_model_path_mm": 359.52335757762773,
+      "max_line_width_mm": 0.72724,
+      "features": {
+        "Support transition": {
+          "segments": 168,
+          "path_mm": 465.33613942534794,
+          "z_range_mm": [
+            0.2,
+            0.75
+          ],
+          "max_speed_mm_s": 25.0
+        },
+        "Support": {
+          "segments": 200,
+          "path_mm": 899.1430103448129,
+          "z_range_mm": [
+            0.2,
+            0.475
+          ],
+          "max_speed_mm_s": 60.0
+        },
+        "Brim": {
+          "segments": 141,
+          "path_mm": 158.9941277002269,
+          "z_range_mm": [
+            0.2,
+            0.2
+          ],
+          "max_speed_mm_s": 20.0
+        },
+        "Inner wall": {
+          "segments": 2403,
+          "path_mm": 2603.5775227455874,
+          "z_range_mm": [
+            0.2,
+            9.2
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Outer wall": {
+          "segments": 1086,
+          "path_mm": 1535.6275865233717,
+          "z_range_mm": [
+            0.2,
+            9.4
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Bottom surface": {
+          "segments": 24,
+          "path_mm": 47.33745144533882,
+          "z_range_mm": [
+            0.2,
+            0.2
+          ],
+          "max_speed_mm_s": 20.0
+        },
+        "Internal solid infill": {
+          "segments": 538,
+          "path_mm": 834.346991344305,
+          "z_range_mm": [
+            0.4,
+            2.2
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Support interface": {
+          "segments": 310,
+          "path_mm": 1025.8336503894434,
+          "z_range_mm": [
+            0.475,
+            1.15
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Overhang wall": {
+          "segments": 128,
+          "path_mm": 297.6100139197536,
+          "z_range_mm": [
+            1.2,
+            8.2
+          ],
+          "max_speed_mm_s": 25.0
+        },
+        "Bridge": {
+          "segments": 109,
+          "path_mm": 168.83474282512745,
+          "z_range_mm": [
+            1.2,
+            1.6
+          ],
+          "max_speed_mm_s": 25.0
+        },
+        "Top surface": {
+          "segments": 138,
+          "path_mm": 563.7140142785079,
+          "z_range_mm": [
+            1.2,
+            9.4
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Gap infill": {
+          "segments": 34,
+          "path_mm": 8.658837840667662,
+          "z_range_mm": [
+            1.2,
+            2.4
+          ],
+          "max_speed_mm_s": 40.0
+        }
+      },
+      "extrusion_bounds_mm": [
+        [
+          208.276,
+          199.303,
+          0.2
+        ],
+        [
+          238.814,
+          226.197,
+          9.4
+        ]
+      ],
+      "first_model_z_mm": 0.2,
+      "last_model_z_mm": 9.4,
+      "distinct_model_layers": 48
+    },
+    {
+      "ref": "P121",
+      "model_segments": 4591,
+      "first_layer_model_path_mm": 359.52306459428576,
+      "max_line_width_mm": 0.72724,
+      "features": {
+        "Support transition": {
+          "segments": 168,
+          "path_mm": 465.33613942534794,
+          "z_range_mm": [
+            0.2,
+            0.75
+          ],
+          "max_speed_mm_s": 25.0
+        },
+        "Support": {
+          "segments": 200,
+          "path_mm": 899.1430103448137,
+          "z_range_mm": [
+            0.2,
+            0.475
+          ],
+          "max_speed_mm_s": 60.0
+        },
+        "Brim": {
+          "segments": 141,
+          "path_mm": 158.99387582560243,
+          "z_range_mm": [
+            0.2,
+            0.2
+          ],
+          "max_speed_mm_s": 20.0
+        },
+        "Inner wall": {
+          "segments": 2399,
+          "path_mm": 2603.8751183754935,
+          "z_range_mm": [
+            0.2,
+            9.2
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Outer wall": {
+          "segments": 1084,
+          "path_mm": 1535.6056296319618,
+          "z_range_mm": [
+            0.2,
+            9.4
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Bottom surface": {
+          "segments": 24,
+          "path_mm": 47.337158461996744,
+          "z_range_mm": [
+            0.2,
+            0.2
+          ],
+          "max_speed_mm_s": 20.0
+        },
+        "Internal solid infill": {
+          "segments": 508,
+          "path_mm": 834.1307419629026,
+          "z_range_mm": [
+            0.4,
+            2.2
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Support interface": {
+          "segments": 310,
+          "path_mm": 1025.8325354855183,
+          "z_range_mm": [
+            0.475,
+            1.15
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Overhang wall": {
+          "segments": 128,
+          "path_mm": 297.61622064431896,
+          "z_range_mm": [
+            1.2,
+            8.2
+          ],
+          "max_speed_mm_s": 25.0
+        },
+        "Bridge": {
+          "segments": 107,
+          "path_mm": 168.82526837316126,
+          "z_range_mm": [
+            1.2,
+            1.6
+          ],
+          "max_speed_mm_s": 25.0
+        },
+        "Top surface": {
+          "segments": 138,
+          "path_mm": 563.6517894917811,
+          "z_range_mm": [
+            1.2,
+            9.4
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Gap infill": {
+          "segments": 35,
+          "path_mm": 8.792554137650525,
+          "z_range_mm": [
+            1.2,
+            2.4
+          ],
+          "max_speed_mm_s": 40.0
+        }
+      },
+      "extrusion_bounds_mm": [
+        [
+          241.476,
+          199.303,
+          0.2
+        ],
+        [
+          272.014,
+          226.197,
+          9.4
+        ]
+      ],
+      "first_model_z_mm": 0.2,
+      "last_model_z_mm": 9.4,
+      "distinct_model_layers": 48
+    },
+    {
+      "ref": "P11",
+      "model_segments": 6080,
+      "first_layer_model_path_mm": 65.39706914804096,
+      "max_line_width_mm": 0.57662,
+      "features": {
+        "Brim": {
+          "segments": 108,
+          "path_mm": 140.16891150267992,
+          "z_range_mm": [
+            0.2,
+            0.2
+          ],
+          "max_speed_mm_s": 20.0
+        },
+        "Inner wall": {
+          "segments": 3523,
+          "path_mm": 4926.216908038686,
+          "z_range_mm": [
+            0.2,
+            9.9
+          ],
+          "max_speed_mm_s": 50.0
+        },
+        "Outer wall": {
+          "segments": 2140,
+          "path_mm": 3187.972650261489,
+          "z_range_mm": [
+            0.2,
+            10.0
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Overhang wall": {
+          "segments": 2,
+          "path_mm": 4.554999999999978,
+          "z_range_mm": [
+            4.6,
+            4.6
+          ],
+          "max_speed_mm_s": 25.0
+        },
+        "Bridge": {
+          "segments": 11,
+          "path_mm": 31.081999999999937,
+          "z_range_mm": [
+            4.6,
+            4.6
+          ],
+          "max_speed_mm_s": 25.0
+        },
+        "Internal solid infill": {
+          "segments": 385,
+          "path_mm": 777.5960000000052,
+          "z_range_mm": [
+            4.7,
+            9.9
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Top surface": {
+          "segments": 19,
+          "path_mm": 68.77815543130752,
+          "z_range_mm": [
+            10.0,
+            10.0
+          ],
+          "max_speed_mm_s": 40.0
+        }
+      },
+      "extrusion_bounds_mm": [
+        [
+          278.3,
+          199.3,
+          0.2
+        ],
+        [
+          287.7,
+          211.1,
+          10.0
+        ]
+      ],
+      "first_model_z_mm": 0.2,
+      "last_model_z_mm": 10.0,
+      "distinct_model_layers": 99
+    },
+    {
+      "ref": "P10",
+      "model_segments": 518,
+      "first_layer_model_path_mm": 56.1426380013936,
+      "max_line_width_mm": 0.58689,
+      "features": {
+        "Brim": {
+          "segments": 108,
+          "path_mm": 132.16869271881473,
+          "z_range_mm": [
+            0.2,
+            0.2
+          ],
+          "max_speed_mm_s": 20.0
+        },
+        "Inner wall": {
+          "segments": 132,
+          "path_mm": 105.61590345014362,
+          "z_range_mm": [
+            0.2,
+            0.8
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Outer wall": {
+          "segments": 370,
+          "path_mm": 192.86945353457736,
+          "z_range_mm": [
+            0.2,
+            1.0
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Top surface": {
+          "segments": 12,
+          "path_mm": 29.026733956442555,
+          "z_range_mm": [
+            1.0,
+            1.0
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Gap infill": {
+          "segments": 4,
+          "path_mm": 1.259191094745573,
+          "z_range_mm": [
+            1.0,
+            1.0
+          ],
+          "max_speed_mm_s": 40.0
+        }
+      },
+      "extrusion_bounds_mm": [
+        [
+          290.3,
+          199.3,
+          0.2
+        ],
+        [
+          296.9,
+          212.9,
+          1.0
+        ]
+      ],
+      "first_model_z_mm": 0.2,
+      "last_model_z_mm": 1.0,
+      "distinct_model_layers": 5
+    },
+    {
+      "ref": "P070a",
+      "model_segments": 342,
+      "first_layer_model_path_mm": 50.80977287015192,
+      "max_line_width_mm": 0.57663,
+      "features": {
+        "Brim": {
+          "segments": 108,
+          "path_mm": 108.96998274952972,
+          "z_range_mm": [
+            0.2,
+            0.2
+          ],
+          "max_speed_mm_s": 20.0
+        },
+        "Inner wall": {
+          "segments": 195,
+          "path_mm": 482.0519999999991,
+          "z_range_mm": [
+            0.2,
+            1.4
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Outer wall": {
+          "segments": 70,
+          "path_mm": 268.1200000000007,
+          "z_range_mm": [
+            0.2,
+            1.5
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Bottom surface": {
+          "segments": 3,
+          "path_mm": 1.785772870152034,
+          "z_range_mm": [
+            0.2,
+            0.2
+          ],
+          "max_speed_mm_s": 20.0
+        },
+        "Internal solid infill": {
+          "segments": 60,
+          "path_mm": 61.96800000000053,
+          "z_range_mm": [
+            0.3,
+            1.4
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Top surface": {
+          "segments": 14,
+          "path_mm": 46.57288103607103,
+          "z_range_mm": [
+            1.5,
+            1.5
+          ],
+          "max_speed_mm_s": 40.0
+        }
+      },
+      "extrusion_bounds_mm": [
+        [
+          278.3,
+          215.8,
+          0.2
+        ],
+        [
+          287.7,
+          223.7,
+          1.5
+        ]
+      ],
+      "first_model_z_mm": 0.2,
+      "last_model_z_mm": 1.5,
+      "distinct_model_layers": 14
+    },
+    {
+      "ref": "P070b",
+      "model_segments": 342,
+      "first_layer_model_path_mm": 50.80977287015192,
+      "max_line_width_mm": 0.57663,
+      "features": {
+        "Brim": {
+          "segments": 108,
+          "path_mm": 108.96998266824842,
+          "z_range_mm": [
+            0.2,
+            0.2
+          ],
+          "max_speed_mm_s": 20.0
+        },
+        "Inner wall": {
+          "segments": 195,
+          "path_mm": 482.0519999999991,
+          "z_range_mm": [
+            0.2,
+            1.4
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Outer wall": {
+          "segments": 70,
+          "path_mm": 268.1200000000007,
+          "z_range_mm": [
+            0.2,
+            1.5
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Bottom surface": {
+          "segments": 3,
+          "path_mm": 1.785772870152034,
+          "z_range_mm": [
+            0.2,
+            0.2
+          ],
+          "max_speed_mm_s": 20.0
+        },
+        "Internal solid infill": {
+          "segments": 60,
+          "path_mm": 61.96800000000053,
+          "z_range_mm": [
+            0.3,
+            1.4
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Top surface": {
+          "segments": 14,
+          "path_mm": 46.57288103607103,
+          "z_range_mm": [
+            1.5,
+            1.5
+          ],
+          "max_speed_mm_s": 40.0
+        }
+      },
+      "extrusion_bounds_mm": [
+        [
+          290.3,
+          215.8,
+          0.2
+        ],
+        [
+          299.7,
+          223.7,
+          1.5
+        ]
+      ],
+      "first_model_z_mm": 0.2,
+      "last_model_z_mm": 1.5,
+      "distinct_model_layers": 14
+    },
+    {
+      "ref": "P071a",
+      "model_segments": 342,
+      "first_layer_model_path_mm": 50.80977287015192,
+      "max_line_width_mm": 0.57663,
+      "features": {
+        "Brim": {
+          "segments": 108,
+          "path_mm": 108.96998281356515,
+          "z_range_mm": [
+            0.2,
+            0.2
+          ],
+          "max_speed_mm_s": 20.0
+        },
+        "Inner wall": {
+          "segments": 195,
+          "path_mm": 482.0519999999991,
+          "z_range_mm": [
+            0.2,
+            1.4
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Outer wall": {
+          "segments": 70,
+          "path_mm": 268.1200000000007,
+          "z_range_mm": [
+            0.2,
+            1.5
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Bottom surface": {
+          "segments": 3,
+          "path_mm": 1.785772870152034,
+          "z_range_mm": [
+            0.2,
+            0.2
+          ],
+          "max_speed_mm_s": 20.0
+        },
+        "Internal solid infill": {
+          "segments": 60,
+          "path_mm": 61.96800000000053,
+          "z_range_mm": [
+            0.3,
+            1.4
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Top surface": {
+          "segments": 14,
+          "path_mm": 46.57288103607103,
+          "z_range_mm": [
+            1.5,
+            1.5
+          ],
+          "max_speed_mm_s": 40.0
+        }
+      },
+      "extrusion_bounds_mm": [
+        [
+          278.3,
+          226.3,
+          0.2
+        ],
+        [
+          287.7,
+          234.2,
+          1.5
+        ]
+      ],
+      "first_model_z_mm": 0.2,
+      "last_model_z_mm": 1.5,
+      "distinct_model_layers": 14
+    },
+    {
+      "ref": "P071b",
+      "model_segments": 342,
+      "first_layer_model_path_mm": 50.80977287015192,
+      "max_line_width_mm": 0.57663,
+      "features": {
+        "Brim": {
+          "segments": 105,
+          "path_mm": 108.97080705903822,
+          "z_range_mm": [
+            0.2,
+            0.2
+          ],
+          "max_speed_mm_s": 20.0
+        },
+        "Inner wall": {
+          "segments": 195,
+          "path_mm": 482.0519999999991,
+          "z_range_mm": [
+            0.2,
+            1.4
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Outer wall": {
+          "segments": 70,
+          "path_mm": 268.1200000000007,
+          "z_range_mm": [
+            0.2,
+            1.5
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Bottom surface": {
+          "segments": 3,
+          "path_mm": 1.785772870152034,
+          "z_range_mm": [
+            0.2,
+            0.2
+          ],
+          "max_speed_mm_s": 20.0
+        },
+        "Internal solid infill": {
+          "segments": 60,
+          "path_mm": 61.96800000000053,
+          "z_range_mm": [
+            0.3,
+            1.4
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Top surface": {
+          "segments": 14,
+          "path_mm": 46.57288103607103,
+          "z_range_mm": [
+            1.5,
+            1.5
+          ],
+          "max_speed_mm_s": 40.0
+        }
+      },
+      "extrusion_bounds_mm": [
+        [
+          290.3,
+          226.3,
+          0.2
+        ],
+        [
+          299.7,
+          234.2,
+          1.5
+        ]
+      ],
+      "first_model_z_mm": 0.2,
+      "last_model_z_mm": 1.5,
+      "distinct_model_layers": 14
+    },
+    {
+      "ref": "Q01",
+      "model_segments": 22249,
+      "first_layer_model_path_mm": 300.2232831206585,
+      "max_line_width_mm": 0.57616,
+      "features": {
+        "Support": {
+          "segments": 1893,
+          "path_mm": 5597.584382301473,
+          "z_range_mm": [
+            0.2,
+            19.516
+          ],
+          "max_speed_mm_s": 60.0
+        },
+        "Inner wall": {
+          "segments": 6211,
+          "path_mm": 6802.65056332979,
+          "z_range_mm": [
+            0.2,
+            27.8
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Outer wall": {
+          "segments": 3072,
+          "path_mm": 3041.468785649764,
+          "z_range_mm": [
+            0.2,
+            28.0
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Bottom surface": {
+          "segments": 45,
+          "path_mm": 143.19928312065846,
+          "z_range_mm": [
+            0.2,
+            0.2
+          ],
+          "max_speed_mm_s": 20.0
+        },
+        "Internal solid infill": {
+          "segments": 3558,
+          "path_mm": 3708.2325632075904,
+          "z_range_mm": [
+            0.4,
+            21.4
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Sparse infill": {
+          "segments": 8476,
+          "path_mm": 4146.7729348959365,
+          "z_range_mm": [
+            1.2,
+            5.6
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Support transition": {
+          "segments": 168,
+          "path_mm": 415.34270095203374,
+          "z_range_mm": [
+            3.797,
+            19.794
+          ],
+          "max_speed_mm_s": 25.0
+        },
+        "Support interface": {
+          "segments": 431,
+          "path_mm": 1071.75955691034,
+          "z_range_mm": [
+            4.073,
+            20.35
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Overhang wall": {
+          "segments": 48,
+          "path_mm": 230.1447103391415,
+          "z_range_mm": [
+            4.8,
+            20.8
+          ],
+          "max_speed_mm_s": 10.0
+        },
+        "Bridge": {
+          "segments": 126,
+          "path_mm": 265.2024809979808,
+          "z_range_mm": [
+            4.8,
+            4.8
+          ],
+          "max_speed_mm_s": 25.0
+        },
+        "Floating vertical shell": {
+          "segments": 396,
+          "path_mm": 767.1573989248071,
+          "z_range_mm": [
+            5.0,
+            5.4
+          ],
+          "max_speed_mm_s": 32.0
+        },
+        "Top surface": {
+          "segments": 84,
+          "path_mm": 665.8881139918473,
+          "z_range_mm": [
+            6.6,
+            28.0
+          ],
+          "max_speed_mm_s": 40.0
+        },
+        "Gap infill": {
+          "segments": 65,
+          "path_mm": 18.419761998304207,
+          "z_range_mm": [
+            6.6,
+            28.0
+          ],
+          "max_speed_mm_s": 40.0
+        }
+      },
+      "extrusion_bounds_mm": [
+        [
+          293.551,
+          235.553,
+          0.2
+        ],
+        [
+          320.445,
+          262.447,
+          28.0
+        ]
+      ],
+      "first_model_z_mm": 0.2,
+      "last_model_z_mm": 28.0,
+      "distinct_model_layers": 142
+    }
+  ],
+  "filament_temperature_settings": {
+    "nozzle_temperature": [
+      "220",
+      "220",
+      "220"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "220",
+      "220",
+      "220"
+    ],
+    "textured_plate_temp": [
+      "55"
+    ],
+    "textured_plate_temp_initial_layer": [
+      "55"
+    ]
+  },
+  "localized_support_evidence": [
+    {
+      "ref": "P08",
+      "region_native_mm": [
+        [
+          -41.75,
+          -55.1,
+          2
+        ],
+        [
+          -28.75,
+          -53.6,
+          7.6
+        ]
+      ],
+      "description": "USB roof, removable through tray/port",
+      "support_segments": 148,
+      "support_interface_segments": 17,
+      "print_z_range_mm": [
+        2.4,
+        7.35
+      ]
+    },
+    {
+      "ref": "P05",
+      "region_native_mm": [
+        [
+          8.8,
+          -38,
+          7
+        ],
+        [
+          15.5,
+          38,
+          15.5
+        ]
+      ],
+      "description": "Exposed rear rib underside, removable from base",
+      "support_segments": 1168,
+      "support_interface_segments": 70,
+      "print_z_range_mm": [
+        0.2,
+        8.35
+      ]
+    },
+    {
+      "ref": "P04",
+      "region_native_mm": [
+        [
+          68,
+          -37,
+          5
+        ],
+        [
+          119,
+          37,
+          28
+        ]
+      ],
+      "description": "Open finger pocket/underside, removable from front",
+      "support_segments": 7138,
+      "support_interface_segments": 1666,
+      "print_z_range_mm": [
+        0.2,
+        51.0
+      ]
+    },
+    {
+      "ref": "P120",
+      "region_native_mm": [
+        [
+          120,
+          -60.75,
+          3.3
+        ],
+        [
+          120.6,
+          -41.25,
+          26.5
+        ]
+      ],
+      "description": "Shoe connector/fork, exposed before cap assembly",
+      "support_segments": 124,
+      "support_interface_segments": 124,
+      "print_z_range_mm": [
+        0.95,
+        1.15
+      ]
+    },
+    {
+      "ref": "P121",
+      "region_native_mm": [
+        [
+          120,
+          41.25,
+          3.3
+        ],
+        [
+          120.6,
+          60.75,
+          26.5
+        ]
+      ],
+      "description": "Shoe connector/fork, exposed before cap assembly",
+      "support_segments": 124,
+      "support_interface_segments": 124,
+      "print_z_range_mm": [
+        0.95,
+        1.15
+      ]
+    },
+    {
+      "ref": "Q01",
+      "feature": "Flange underside",
+      "source_print_region_mm": [
+        [
+          -10,
+          -10,
+          0
+        ],
+        [
+          10,
+          10,
+          4.5
+        ]
+      ],
+      "support_segments": 617,
+      "interface_segments": 152
+    },
+    {
+      "ref": "Q01",
+      "feature": "Shoulder underside above flange",
+      "source_print_region_mm": [
+        [
+          -4.1,
+          -4.1,
+          6.5
+        ],
+        [
+          4.1,
+          4.1,
+          20.5
+        ]
+      ],
+      "support_segments": 850,
+      "interface_segments": 121
+    },
+    {
+      "ref": "P060",
+      "description": "Closed tongue-guide volume within main body X<=128.5; external support under roof extension beyond X128.5 is separately accessible",
+      "support_segments": 0,
+      "localized_segments": []
+    },
+    {
+      "ref": "P060",
+      "description": "Tongue guide roof bridge extrusion",
+      "bridge_segments": 15
+    },
+    {
+      "ref": "P061",
+      "description": "Closed tongue-guide volume within main body X<=128.5; external support under roof extension beyond X128.5 is separately accessible",
+      "support_segments": 0,
+      "localized_segments": []
+    },
+    {
+      "ref": "P061",
+      "description": "Tongue guide roof bridge extrusion",
+      "bridge_segments": 14
+    },
+    {
+      "ref": "P02",
+      "description": "Vertical electronics-gap face; narrow \u00b10.01mm plane witness, support cleanup stays off this face",
+      "support_segment_midpoints_exactly_on_face": 0
+    }
+  ],
+  "checks": [
+    {
+      "name": "Sliced and editable archive CRC",
+      "status": "PASS"
+    },
+    {
+      "name": "Slicer retained all19 editable mesh files exactly",
+      "status": "PASS",
+      "model_files": 19
+    },
+    {
+      "name": "Sliced root component/build transforms unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "One plate19 objects",
+      "status": "PASS"
+    },
+    {
+      "name": "Actual sliced PLA H2D0.4 PEI by-layer",
+      "status": "PASS"
+    },
+    {
+      "name": "All positive model/support/brim paths inside shared printable bed",
+      "status": "PASS",
+      "outside_segment_count": 0,
+      "first_outside": [],
+      "shared_bounds_xy_mm": [
+        [
+          27.0,
+          3.0
+        ],
+        [
+          323.0,
+          317.0
+        ]
+      ]
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P01/P02",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 5.361430000000003
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P01/P04",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 42.8481535
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P01/P05",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 81.8567415
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P01/P08",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 6.176590000000006
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P01/P09",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 5.109820000000021
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P01/H040",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 40.95223500000001
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P01/H041",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 40.95223500000001
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P01/P060",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 55.19346000000001
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P01/P061",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 55.1938
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P01/P120",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 54.09203000000001
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P01/P121",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 54.09203000000001
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P01/P11",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 89.16434000000002
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P01/P10",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 101.15920500000003
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P01/P070a",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 89.16433500000002
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P01/P070b",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 101.16433500000002
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P01/P071a",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 89.16433500000002
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P01/P071b",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 101.16433500000002
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P01/Q01",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 104.41557
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P02/P04",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 4.272283499999981
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P02/P05",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 43.28087149999998
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P02/P08",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 34.61271999999998
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P02/P09",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 11.373950000000002
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P02/H040",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 47.21636499999999
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P02/H041",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 47.21636499999999
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P02/P060",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 61.45758999999999
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P02/P061",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 61.45792999999999
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P02/P120",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 60.35615999999999
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P02/P121",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 60.35615999999999
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P02/P11",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 60.428470000000004
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P02/P10",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 62.583335
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P02/P070a",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 76.928465
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P02/P070b",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 76.928465
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P02/P071a",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 87.428465
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P02/P071b",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 87.428465
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P02/Q01",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 96.68169999999999
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P04/P05",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 4.963595000000007
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P04/P08",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 72.09944349999998
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P04/P09",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 10.152673500000004
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P04/H040",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 57.76208849999999
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P04/H041",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 45.995088499999994
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P04/P060",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 60.23631349999999
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P04/P061",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 60.23665349999999
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P04/P120",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 59.13488349999999
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P04/P121",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 59.13488349999999
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P04/P11",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 59.2071935
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P04/P10",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 59.20205850000001
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P04/P070a",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 75.7071885
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P04/P070b",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 75.7071885
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P04/P071a",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 86.2071885
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P04/P071b",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 86.2071885
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P04/Q01",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 95.46042349999999
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P05/P08",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 111.10803149999998
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P05/P09",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 10.161261500000004
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P05/H040",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 96.7706765
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P05/H041",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 46.00367649999999
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P05/P060",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 83.16590149999998
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P05/P061",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 64.16624149999998
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P05/P120",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 59.14347149999999
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P05/P121",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 59.14347149999999
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P05/P11",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 59.215781500000006
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P05/P10",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 59.2106465
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P05/P070a",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 75.7157765
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P05/P070b",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 75.7157765
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P05/P071a",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 86.2157765
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P05/P071b",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 86.2157765
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P05/Q01",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 95.4690115
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P08/P09",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 4.361110000000003
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P08/H040",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 6.323524999999996
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P08/H041",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 16.470524999999988
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P08/P060",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 20.564749999999993
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P08/P061",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 30.86608999999998
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P08/P120",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 48.316320000000005
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P08/P121",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 81.51632
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P08/P11",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 118.41563000000001
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P08/P10",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 130.410495
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P08/P070a",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 118.415625
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P08/P070b",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 130.415625
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P08/P071a",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 118.415625
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P08/P071b",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 130.415625
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P08/Q01",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 133.66685999999999
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P09/H040",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 9.25675500000001
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P09/H041",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 9.25675500000001
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P09/P060",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 23.497980000000005
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P09/P061",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 23.498320000000007
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P09/P120",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 22.39655000000001
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P09/P121",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 22.39655000000001
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P09/P11",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 22.468860000000024
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P09/P10",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 22.46372500000002
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P09/P070a",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 38.96885500000002
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P09/P070b",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 38.96885500000002
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P09/P071a",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 49.46885500000002
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P09/P071b",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 49.46885500000002
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P09/Q01",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 58.72209000000001
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate H040/H041",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 2.1331699999999914
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate H040/P060",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 6.840394999999996
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate H040/P061",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 16.528734999999983
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate H040/P120",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 33.97896500000001
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate H040/P121",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 67.17896499999999
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate H040/P11",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 104.078275
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate H040/P10",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 116.07314000000001
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate H040/P070a",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 104.07827
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate H040/P070b",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 116.07827
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate H040/P071a",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 104.07827
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate H040/P071b",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 116.07827
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate H040/Q01",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 119.32950499999998
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate H041/P060",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 6.840394999999996
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate H041/P061",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 6.840734999999995
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate H041/P120",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 5.738964999999997
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate H041/P121",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 5.738964999999997
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate H041/P11",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 5.811275000000011
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate H041/P10",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 5.806140000000012
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate H041/P070a",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 22.31127000000001
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate H041/P070b",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 22.31127000000001
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate H041/P071a",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 32.811270000000015
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate H041/P071b",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 32.811270000000015
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate H041/Q01",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 42.064505
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P060/P061",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 2.923959999999976
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P060/P120",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 20.37419
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P060/P121",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 53.57418999999999
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P060/P11",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 90.4735
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P060/P10",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 102.468365
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P060/P070a",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 90.473495
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P060/P070b",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 102.473495
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P060/P071a",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 90.473495
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P060/P071b",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 102.473495
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P060/Q01",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 105.72472999999998
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P061/P120",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 1.3745299999999985
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P061/P121",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 34.57452999999999
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P061/P11",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 71.47384
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P061/P10",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 83.468705
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P061/P070a",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 71.473835
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P061/P070b",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 83.473835
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P061/P071a",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 71.473835
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P061/P071b",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 83.473835
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P061/Q01",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 86.72506999999997
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P120/P121",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 1.934760000000006
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P120/P11",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 38.83407000000002
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P120/P10",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 50.828935000000016
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P120/P070a",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 38.83406500000002
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P120/P070b",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 50.83406500000002
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P120/P071a",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 38.83406500000002
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P120/P071b",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 50.83406500000002
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P120/Q01",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 54.0853
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P121/P11",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 5.634070000000001
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P121/P10",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 17.628935000000002
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P121/P070a",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 5.634065000000001
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P121/P070b",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 17.634065
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P121/P071a",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 5.634065000000001
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P121/P071b",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 17.634065
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P121/Q01",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 20.88529999999998
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P11/P10",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 2.0182450000000225
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P11/P070a",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 4.123375000000017
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P11/P070b",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 4.123375000000017
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P11/P071a",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 14.623375000000017
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P11/P071b",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 14.623375000000017
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P11/Q01",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 23.876610000000003
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P10/P070a",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 2.3182400000000056
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P10/P070b",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 2.3182400000000056
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P10/P071a",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 12.818240000000007
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P10/P071b",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 12.818240000000007
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P10/Q01",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 22.071474999999992
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P070a/P070b",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 2.023370000000023
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P070a/P071a",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 2.023370000000023
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P070a/P071b",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 2.023370000000023
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P070a/Q01",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 11.276605000000009
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P070b/P071a",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 2.023370000000023
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P070b/P071b",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 2.023370000000023
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P070b/Q01",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 11.276605000000009
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P071a/P071b",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 2.023370000000023
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P071a/Q01",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 5.274604999999999
+    },
+    {
+      "name": "Actual support/brim/model path envelopes separate P071b/Q01",
+      "status": "PASS",
+      "minimum_axis_clearance_mm": 0.7766050000000086
+    },
+    {
+      "name": "Nonempty actual object P01",
+      "status": "PASS",
+      "model_segments": 377504,
+      "first_layer_path_mm": 37784.994648575695
+    },
+    {
+      "name": "Actual sliced height P01",
+      "status": "PASS",
+      "actual_mm": 35.0,
+      "nominal_mesh_mm": 35.0,
+      "tolerance_mm": 0.2001
+    },
+    {
+      "name": "Nonempty actual object P02",
+      "status": "PASS",
+      "model_segments": 74946,
+      "first_layer_path_mm": 358.55503194812115
+    },
+    {
+      "name": "Actual sliced height P02",
+      "status": "PASS",
+      "actual_mm": 36.6,
+      "nominal_mesh_mm": 36.60000228881836,
+      "tolerance_mm": 0.2001
+    },
+    {
+      "name": "Nonempty actual object P04",
+      "status": "PASS",
+      "model_segments": 227839,
+      "first_layer_path_mm": 6183.373222744995
+    },
+    {
+      "name": "Actual sliced height P04",
+      "status": "PASS",
+      "actual_mm": 59.0,
+      "nominal_mesh_mm": 59.0,
+      "tolerance_mm": 0.2001
+    },
+    {
+      "name": "Nonempty actual object P05",
+      "status": "PASS",
+      "model_segments": 169927,
+      "first_layer_path_mm": 4743.248109870942
+    },
+    {
+      "name": "Actual sliced height P05",
+      "status": "PASS",
+      "actual_mm": 22.0,
+      "nominal_mesh_mm": 22.0,
+      "tolerance_mm": 0.2001
+    },
+    {
+      "name": "Nonempty actual object P08",
+      "status": "PASS",
+      "model_segments": 14734,
+      "first_layer_path_mm": 5351.26314023066
+    },
+    {
+      "name": "Actual sliced height P08",
+      "status": "PASS",
+      "actual_mm": 9.6,
+      "nominal_mesh_mm": 9.5,
+      "tolerance_mm": 0.1001
+    },
+    {
+      "name": "Nonempty actual object P09",
+      "status": "PASS",
+      "model_segments": 3337,
+      "first_layer_path_mm": 5259.0824950825445
+    },
+    {
+      "name": "Actual sliced height P09",
+      "status": "PASS",
+      "actual_mm": 6.8,
+      "nominal_mesh_mm": 6.749999523162842,
+      "tolerance_mm": 0.1001
+    },
+    {
+      "name": "Nonempty actual object H040",
+      "status": "PASS",
+      "model_segments": 20052,
+      "first_layer_path_mm": 281.25600000000003
+    },
+    {
+      "name": "Actual sliced height H040",
+      "status": "PASS",
+      "actual_mm": 6.0,
+      "nominal_mesh_mm": 6.0,
+      "tolerance_mm": 0.2001
+    },
+    {
+      "name": "Nonempty actual object H041",
+      "status": "PASS",
+      "model_segments": 20052,
+      "first_layer_path_mm": 281.25600000000003
+    },
+    {
+      "name": "Actual sliced height H041",
+      "status": "PASS",
+      "actual_mm": 6.0,
+      "nominal_mesh_mm": 6.0,
+      "tolerance_mm": 0.2001
+    },
+    {
+      "name": "Nonempty actual object P060",
+      "status": "PASS",
+      "model_segments": 41946,
+      "first_layer_path_mm": 240.7862386816784
+    },
+    {
+      "name": "Actual sliced height P060",
+      "status": "PASS",
+      "actual_mm": 26.0,
+      "nominal_mesh_mm": 26.0,
+      "tolerance_mm": 0.2001
+    },
+    {
+      "name": "Nonempty actual object P061",
+      "status": "PASS",
+      "model_segments": 41807,
+      "first_layer_path_mm": 241.26955860722666
+    },
+    {
+      "name": "Actual sliced height P061",
+      "status": "PASS",
+      "actual_mm": 26.0,
+      "nominal_mesh_mm": 26.0,
+      "tolerance_mm": 0.2001
+    },
+    {
+      "name": "Nonempty actual object P120",
+      "status": "PASS",
+      "model_segments": 4628,
+      "first_layer_path_mm": 359.52335757762773
+    },
+    {
+      "name": "Actual sliced height P120",
+      "status": "PASS",
+      "actual_mm": 9.4,
+      "nominal_mesh_mm": 9.400009155273438,
+      "tolerance_mm": 0.2001
+    },
+    {
+      "name": "Nonempty actual object P121",
+      "status": "PASS",
+      "model_segments": 4591,
+      "first_layer_path_mm": 359.52306459428576
+    },
+    {
+      "name": "Actual sliced height P121",
+      "status": "PASS",
+      "actual_mm": 9.4,
+      "nominal_mesh_mm": 9.400009155273438,
+      "tolerance_mm": 0.2001
+    },
+    {
+      "name": "Nonempty actual object P11",
+      "status": "PASS",
+      "model_segments": 6080,
+      "first_layer_path_mm": 65.39706914804096
+    },
+    {
+      "name": "Actual sliced height P11",
+      "status": "PASS",
+      "actual_mm": 10.0,
+      "nominal_mesh_mm": 10.0,
+      "tolerance_mm": 0.2001
+    },
+    {
+      "name": "Nonempty actual object P10",
+      "status": "PASS",
+      "model_segments": 518,
+      "first_layer_path_mm": 56.1426380013936
+    },
+    {
+      "name": "Actual sliced height P10",
+      "status": "PASS",
+      "actual_mm": 1.0,
+      "nominal_mesh_mm": 1.0,
+      "tolerance_mm": 0.2001
+    },
+    {
+      "name": "Nonempty actual object P070a",
+      "status": "PASS",
+      "model_segments": 342,
+      "first_layer_path_mm": 50.80977287015192
+    },
+    {
+      "name": "Actual sliced height P070a",
+      "status": "PASS",
+      "actual_mm": 1.5,
+      "nominal_mesh_mm": 1.5,
+      "tolerance_mm": 0.0001
+    },
+    {
+      "name": "Nonempty actual object P070b",
+      "status": "PASS",
+      "model_segments": 342,
+      "first_layer_path_mm": 50.80977287015192
+    },
+    {
+      "name": "Actual sliced height P070b",
+      "status": "PASS",
+      "actual_mm": 1.5,
+      "nominal_mesh_mm": 1.5,
+      "tolerance_mm": 0.0001
+    },
+    {
+      "name": "Nonempty actual object P071a",
+      "status": "PASS",
+      "model_segments": 342,
+      "first_layer_path_mm": 50.80977287015192
+    },
+    {
+      "name": "Actual sliced height P071a",
+      "status": "PASS",
+      "actual_mm": 1.5,
+      "nominal_mesh_mm": 1.5,
+      "tolerance_mm": 0.0001
+    },
+    {
+      "name": "Nonempty actual object P071b",
+      "status": "PASS",
+      "model_segments": 342,
+      "first_layer_path_mm": 50.80977287015192
+    },
+    {
+      "name": "Actual sliced height P071b",
+      "status": "PASS",
+      "actual_mm": 1.5,
+      "nominal_mesh_mm": 1.5,
+      "tolerance_mm": 0.0001
+    },
+    {
+      "name": "Nonempty actual object Q01",
+      "status": "PASS",
+      "model_segments": 22249,
+      "first_layer_path_mm": 300.2232831206585
+    },
+    {
+      "name": "Actual sliced height Q01",
+      "status": "PASS",
+      "actual_mm": 28.0,
+      "nominal_mesh_mm": 28.0,
+      "tolerance_mm": 0.2001
+    },
+    {
+      "name": "Localized accessible support P08",
+      "status": "PASS",
+      "ref": "P08",
+      "region_native_mm": [
+        [
+          -41.75,
+          -55.1,
+          2
+        ],
+        [
+          -28.75,
+          -53.6,
+          7.6
+        ]
+      ],
+      "description": "USB roof, removable through tray/port",
+      "support_segments": 148,
+      "support_interface_segments": 17,
+      "print_z_range_mm": [
+        2.4,
+        7.35
+      ]
+    },
+    {
+      "name": "Localized accessible support P05",
+      "status": "PASS",
+      "ref": "P05",
+      "region_native_mm": [
+        [
+          8.8,
+          -38,
+          7
+        ],
+        [
+          15.5,
+          38,
+          15.5
+        ]
+      ],
+      "description": "Exposed rear rib underside, removable from base",
+      "support_segments": 1168,
+      "support_interface_segments": 70,
+      "print_z_range_mm": [
+        0.2,
+        8.35
+      ]
+    },
+    {
+      "name": "Localized accessible support P04",
+      "status": "PASS",
+      "ref": "P04",
+      "region_native_mm": [
+        [
+          68,
+          -37,
+          5
+        ],
+        [
+          119,
+          37,
+          28
+        ]
+      ],
+      "description": "Open finger pocket/underside, removable from front",
+      "support_segments": 7138,
+      "support_interface_segments": 1666,
+      "print_z_range_mm": [
+        0.2,
+        51.0
+      ]
+    },
+    {
+      "name": "Localized accessible support P120",
+      "status": "PASS",
+      "ref": "P120",
+      "region_native_mm": [
+        [
+          120,
+          -60.75,
+          3.3
+        ],
+        [
+          120.6,
+          -41.25,
+          26.5
+        ]
+      ],
+      "description": "Shoe connector/fork, exposed before cap assembly",
+      "support_segments": 124,
+      "support_interface_segments": 124,
+      "print_z_range_mm": [
+        0.95,
+        1.15
+      ]
+    },
+    {
+      "name": "Localized accessible support P121",
+      "status": "PASS",
+      "ref": "P121",
+      "region_native_mm": [
+        [
+          120,
+          41.25,
+          3.3
+        ],
+        [
+          120.6,
+          60.75,
+          26.5
+        ]
+      ],
+      "description": "Shoe connector/fork, exposed before cap assembly",
+      "support_segments": 124,
+      "support_interface_segments": 124,
+      "print_z_range_mm": [
+        0.95,
+        1.15
+      ]
+    },
+    {
+      "name": "Q01 accessible on-model support Flange underside",
+      "status": "PASS",
+      "ref": "Q01",
+      "feature": "Flange underside",
+      "source_print_region_mm": [
+        [
+          -10,
+          -10,
+          0
+        ],
+        [
+          10,
+          10,
+          4.5
+        ]
+      ],
+      "support_segments": 617,
+      "interface_segments": 152
+    },
+    {
+      "name": "Q01 accessible on-model support Shoulder underside above flange",
+      "status": "PASS",
+      "ref": "Q01",
+      "feature": "Shoulder underside above flange",
+      "source_print_region_mm": [
+        [
+          -4.1,
+          -4.1,
+          6.5
+        ],
+        [
+          4.1,
+          4.1,
+          20.5
+        ]
+      ],
+      "support_segments": 850,
+      "interface_segments": 121
+    },
+    {
+      "name": "No trapped support in6.6mm rear tongue guide P060",
+      "status": "PASS",
+      "ref": "P060",
+      "description": "Closed tongue-guide volume within main body X<=128.5; external support under roof extension beyond X128.5 is separately accessible",
+      "support_segments": 0,
+      "localized_segments": []
+    },
+    {
+      "name": "No trapped support in6.6mm rear tongue guide P061",
+      "status": "PASS",
+      "ref": "P061",
+      "description": "Closed tongue-guide volume within main body X<=128.5; external support under roof extension beyond X128.5 is separately accessible",
+      "support_segments": 0,
+      "localized_segments": []
+    },
+    {
+      "name": "P07 exact final thickness P070a",
+      "status": "PASS",
+      "last_model_z_mm": 1.5
+    },
+    {
+      "name": "P07 exact final thickness P070b",
+      "status": "PASS",
+      "last_model_z_mm": 1.5
+    },
+    {
+      "name": "P07 exact final thickness P071a",
+      "status": "PASS",
+      "last_model_z_mm": 1.5
+    },
+    {
+      "name": "P07 exact final thickness P071b",
+      "status": "PASS",
+      "last_model_z_mm": 1.5
+    }
+  ],
+  "failed_checks": 0,
+  "scope": "Actual positive extrusion, complete objects, measured first/last model paths, shared-bed bounds and localized support/guide evidence. Print tolerance, support removal success, fit and strength require the physical trial.",
+  "header": "; HEADER_BLOCK_START\n; BambuStudio 02.08.02.61\n; model printing time: 17h 57m 54s; total estimated time: 18h 3m 21s\n; total layer number: 821\n; total filament length [mm] : 90179.52\n; total filament volume [cm^3] : 216907.17\n; total filament weight [g] : 268.96\n; model label id: 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19\n; object max height: 35.00,36.60,59.00,22.00,9.60,6.80,6.00,6.00,26.00,26.00,9.40,9.40,10.00,1.00,1.50,1.50,1.50,1.50,28.00\n; filament_density: 1.24\n; filament_diameter: 1.75\n; max_z_height: 59.00\n; filament: 1\n; support_material_on_wipe_tower: 0\n; HEADER_BLOCK_END"
+}

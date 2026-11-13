@@ -1,0 +1,10 @@
+# Preserve frozen exports, embedded viewers and validation hashes byte-for-byte.
+* -text
+*.stl binary
+*.step binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.zip binary
+*.3mf binary

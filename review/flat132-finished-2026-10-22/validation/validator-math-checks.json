@@ -1,0 +1,196 @@
+{
+  "status": "PASS",
+  "scope": "Analytic validation-algorithm sanity checks only; no CAD device qualification",
+  "checks": [
+    {
+      "name": "Continuous exterior end-stop touch is certified",
+      "status": "PASS",
+      "details": {
+        "relative_x_range_mm": [
+          0.0,
+          2.0
+        ],
+        "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+        "certified_intervals": 1,
+        "intersections": [],
+        "unresolved_intervals": [],
+        "samples": [],
+        "method": "Swept AABB separation including permitted exterior boundary touch",
+        "maximum_sampled_volume_mm3": 0.0
+      }
+    },
+    {
+      "name": "Known 0.5 mm end penetration fails",
+      "status": "PASS",
+      "details": {
+        "relative_x_range_mm": [
+          0.0,
+          2.5
+        ],
+        "status": "INTERFERENCE",
+        "certified_intervals": 2,
+        "intersections": [
+          {
+            "relative_x_mm": 2.5,
+            "volume_mm3": 0.5
+          },
+          {
+            "relative_x_mm": 2.1875,
+            "volume_mm3": 0.1875
+          }
+        ],
+        "unresolved_intervals": [],
+        "samples": [
+          {
+            "relative_x_mm": 0.0,
+            "intersection_volume_mm3": 0.0,
+            "gap_mm": 0.01,
+            "gap_search_cap_mm": 0.01
+          },
+          {
+            "relative_x_mm": 1.25,
+            "intersection_volume_mm3": 0.0,
+            "gap_mm": 0.75,
+            "gap_search_cap_mm": 1.26
+          },
+          {
+            "relative_x_mm": 1.875,
+            "intersection_volume_mm3": 0.0,
+            "gap_mm": 0.125,
+            "gap_search_cap_mm": 0.635
+          },
+          {
+            "relative_x_mm": 2.1875,
+            "intersection_volume_mm3": 0.1875,
+            "gap_mm": 0.0,
+            "gap_search_cap_mm": 0.0
+          },
+          {
+            "relative_x_mm": 2.5,
+            "intersection_volume_mm3": 0.5,
+            "gap_mm": 0.0,
+            "gap_search_cap_mm": 0.0
+          }
+        ],
+        "maximum_sampled_volume_mm3": 0.5
+      }
+    },
+    {
+      "name": "Clear endpoints cannot hide intermediate crossing",
+      "status": "PASS",
+      "details": {
+        "relative_x_range_mm": [
+          0.0,
+          4.0
+        ],
+        "status": "INTERFERENCE",
+        "certified_intervals": 1,
+        "intersections": [
+          {
+            "relative_x_mm": 3.0,
+            "volume_mm3": 1.0
+          }
+        ],
+        "unresolved_intervals": [],
+        "samples": [
+          {
+            "relative_x_mm": 0.0,
+            "intersection_volume_mm3": 0.0,
+            "gap_mm": 0.01,
+            "gap_search_cap_mm": 0.01
+          },
+          {
+            "relative_x_mm": 2.0,
+            "intersection_volume_mm3": 0.0,
+            "gap_mm": 0.0,
+            "gap_search_cap_mm": 2.01
+          },
+          {
+            "relative_x_mm": 3.0,
+            "intersection_volume_mm3": 1.0,
+            "gap_mm": 0.0,
+            "gap_search_cap_mm": 0.0
+          },
+          {
+            "relative_x_mm": 4.0,
+            "intersection_volume_mm3": 0.0,
+            "gap_mm": 0.0,
+            "gap_search_cap_mm": 0.01
+          }
+        ],
+        "maximum_sampled_volume_mm3": 1.0
+      }
+    },
+    {
+      "name": "Transverse continuous separation certifies",
+      "status": "PASS",
+      "details": {
+        "relative_x_range_mm": [
+          -30.0,
+          2.0
+        ],
+        "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+        "certified_intervals": 1,
+        "intersections": [],
+        "unresolved_intervals": [],
+        "samples": [],
+        "method": "Swept AABB separation including permitted exterior boundary touch",
+        "maximum_sampled_volume_mm3": 0.0
+      }
+    },
+    {
+      "name": "Full independent stroke/preload rectangle maps to [-32,0]",
+      "status": "PASS",
+      "details": {
+        "coefficients": [
+          -1.0,
+          -1.0
+        ],
+        "corners": [
+          0.0,
+          -2.0,
+          -30.0,
+          -32.0
+        ]
+      }
+    },
+    {
+      "name": "Ray section measures exact box boundaries",
+      "status": "PASS",
+      "details": [
+        -2.0,
+        2.0
+      ]
+    },
+    {
+      "name": "Exterior-contact annotation cannot waive penetration",
+      "status": "PASS",
+      "details": {
+        "status": "INTERFERENCE",
+        "intersection_volume_mm3": 0.5,
+        "declared_contact": {
+          "kind": "exterior_contact",
+          "maximum_intersection_volume_mm3": 1000
+        }
+      }
+    },
+    {
+      "name": "Analytic rotating-vertex bounds contain the whole source arc",
+      "status": "PASS",
+      "details": {
+        "bounds_mm": [
+          [
+            24.395283607573916,
+            -14.1,
+            7.6
+          ],
+          [
+            33.4,
+            4.218549570921658,
+            10.8
+          ]
+        ]
+      }
+    }
+  ]
+}

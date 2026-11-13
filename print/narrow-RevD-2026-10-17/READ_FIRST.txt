@@ -1,0 +1,31 @@
+FINGERWORKER NARROW REV D — 17 OCTOBER 2026
+
+Overall frame width: 158 mm (previously 180 mm).
+Grip deck width: 104 mm (previously 125 mm).
+Clear finger pocket width: 92 mm (previously 94 mm).
+Spring/rod axes: Y +/-64 mm; 30 mm operating travel and purchased spring sizes retained.
+Base remains 6 mm thick. Sensor, central slide and electronics enclosure dimensions are retained.
+
+Use P01, P02, P04 and P05 from this revision together. The older wide parts and
+their mounting patterns are incompatible with this assembly. Rear retainer and
+return-pad shapes remain unchanged; their assembled positions move inward.
+Route the sensor connector inward and retain slack in the real sensor cable.
+
+The four optional bench mounts are now X20/Y+/-10 and X127/Y+/-39 mm.
+Use flush 90-degree M5 countersunk heads, maximum head diameter 10 mm.
+Rear mounting heads must remain at or below base top Z4 to clear the carriage Z5.
+These bench fasteners are optional external mounting hardware, not assembly screws.
+
+parts/ contains fourteen functional printed part types in millimetres, translated
+to a positive local origin without changing geometry. P03 and P07 buffers are TPU
+in the functional design. rigid-palm-alternative/ contains unchanged hard PETG
+P03a/P03b form mockups: use them INSTEAD OF P03, never together. Hard mockups do not
+provide the damping or flexibility of TPU.
+
+These are review STL exports, not a newly sliced Bambu project. Choose suitable
+print orientation/supports and check the revised parts in the slicer. Existing
+Rev F 3MF projects still contain the older wide P01/P02/P04/P05 geometry.
+
+Hand fit remains provisional: narrowing reduces measured sample overlap, but
+the yoke still conflicts with the scan. Assemble without springs for the first
+physical fit check. No strength or loaded-use approval follows from this revision.

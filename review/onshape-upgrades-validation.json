@@ -1,0 +1,86 @@
+{
+  "source_sha256": "803b4f6a68755383c70ab66e83a7e49a15278024cb0fc950463ef48cfd403225",
+  "document_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/w/664d0779b5d992870442f997/e/d253eb87b70818ebde8215f0",
+  "evidence": "Onshape FeatureScript notices, observed through browser UI after regeneration; 36 selected solid-pair groups each",
+  "configurations": [
+    {
+      "mode": "dynamic",
+      "spring_rate_N_per_mm": 2,
+      "travel_mm": 0,
+      "extra_preload_mm": 0,
+      "hand": true,
+      "electronics": true,
+      "regeneration": "complete",
+      "audited_pairs": 36,
+      "reported_volume_interferences": 0,
+      "unclassified_contact_pair_groups": 8
+    },
+    {
+      "mode": "dynamic",
+      "spring_rate_N_per_mm": 2,
+      "travel_mm": 30,
+      "extra_preload_mm": 2,
+      "hand": true,
+      "electronics": true,
+      "regeneration": "complete",
+      "audited_pairs": 36,
+      "reported_volume_interferences": 0,
+      "unclassified_contact_pair_groups": 9
+    },
+    {
+      "mode": "isometric",
+      "spring_rate_N_per_mm": null,
+      "travel_mm": 13,
+      "extra_preload_mm": 2,
+      "hand": true,
+      "electronics": true,
+      "regeneration": "complete",
+      "audited_pairs": 36,
+      "reported_volume_interferences": 0,
+      "unclassified_contact_pair_groups": 7
+    },
+    {
+      "mode": "isometric",
+      "spring_rate_N_per_mm": null,
+      "travel_mm": 15,
+      "extra_preload_mm": 0,
+      "hand": true,
+      "electronics": true,
+      "regeneration": "complete",
+      "audited_pairs": 36,
+      "reported_volume_interferences": 0,
+      "unclassified_contact_pair_groups": 7
+    },
+    {
+      "mode": "dynamic",
+      "spring_rate_N_per_mm": 2,
+      "travel_mm": 15,
+      "extra_preload_mm": 1,
+      "hand": true,
+      "electronics": true,
+      "regeneration": "complete",
+      "audited_pairs": 36,
+      "reported_volume_interferences": 0,
+      "unclassified_contact_pair_groups": 7
+    },
+    {
+      "mode": "dynamic",
+      "spring_rate_N_per_mm": 7.8,
+      "travel_mm": 30,
+      "extra_preload_mm": 2,
+      "hand": true,
+      "electronics": true,
+      "regeneration": "complete",
+      "audited_pairs": 36,
+      "reported_volume_interferences": 0,
+      "unclassified_contact_pair_groups": 9
+    }
+  ],
+  "correction": "Raised nut keeper lower face from Z8 to Z9 to remove electronics housing interference",
+  "limitations": [
+    "Unclassified contacts remain; zero interference is not all-clear",
+    "No continuous sweep or strength validation",
+    "Physical retention, adjustment limits, spring procurement and fabrication details remain open"
+  ],
+  "print_exports_updated": false
+}

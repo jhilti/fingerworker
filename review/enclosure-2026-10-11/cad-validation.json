@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "source_sha256": "f3ab02aa4140d42ef01c57577feee8dfd478a9d36ec5e32321e4875039e4c1b7",
+  "capture_sha256": "b326a885ed0b2b4808e516e96c164d9ed3114f6bcf79d976667c287aec32b7fa",
+  "configurations": 14,
+  "group_checks": 630,
+  "solid_interference_records": 0,
+  "contact_review_results": 194,
+  "minimum_gap_mm": {
+    "Electronics housing / mechanism": 0.0,
+    "Electronics components / mechanism": 1.7499999999999998,
+    "Electronics components / housing": 0.0,
+    "USB approach / mechanism": 2.2000000000000006,
+    "USB approach / housing": 0.30000000000000077,
+    "Electronics study / hand": 4.698905001713033
+  },
+  "scope": "Sampled nominal exact-solid CAD checks, including intended housing/P02 and PCB support contacts; no physical fit or strength qualification"
+}

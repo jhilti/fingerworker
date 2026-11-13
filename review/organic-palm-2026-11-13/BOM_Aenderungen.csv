@@ -1,0 +1,9 @@
+Ref,Menge Geraet,P01 Ersatzpaket,Komplettpaket,Aenderung
+P01,1,1,1,Organische integrierte Handballenauflage und beidseitige offene Daumenmulden.
+P04/P05/P06/P11,4,0,4,Unveraendert; bestehende Ausdrucke wiederverwenden.
+P08/P09,2,0,0,Elektronikgehaeuse unveraendert; derzeit nicht drucken.
+Q01,Passhilfe,0,1,"Unveraendert; nur federfrei, vor Funktionsaufbau entfernen."
+H040/H041,2,0,0,Vorhandene echte Stahlstangen verwenden.
+G01/G02,2,0,0,Echte 25mm-Gurte; Schlitze unveraendert.
+Neue Griffkleinteile,0,0,0,"Keine Kappe, kein Sleeve, keine neuen Clips."
+Native Koerper,93,,,Nur P01 geaendert;92 andere Koerper erhalten.

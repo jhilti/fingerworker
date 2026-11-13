@@ -1,0 +1,59 @@
+{
+  "status": "LOCAL_CANDIDATE_VERIFIED_NATIVE_SYNC_PENDING",
+  "date": "2026-11-12",
+  "baseline_delivery_sha256": "f0fde85f1a9115ed696b22ca0b741b3af53b60511b0e8ce4727e07a979a0777e",
+  "baseline_project_sha256": "a9ebaf5ba9c9296c1e85b162689dab32d13a7bb1ae3a0f826b355328594b89a0",
+  "frozen_R16_files_reverified": 65,
+  "printer": "H2D",
+  "nozzle_mm": 0.4,
+  "active_nozzle": "left",
+  "filament_map_mode": "Manual",
+  "material": "Bambu PLA Basic",
+  "plate_count": 1,
+  "parts": [
+    "P01",
+    "P04",
+    "P05",
+    "P06",
+    "P11",
+    "Q01"
+  ],
+  "replace_only": [
+    "P01"
+  ],
+  "brim": false,
+  "final_requires": "Native Onshape P01 plus source/version and final CAD/print reports",
+  "candidate_allowed_for": "Local printability checks only; never publish as native release",
+  "pending": [
+    "Onshape sign-in and native synchronization",
+    "Native Onshape export/identity checks",
+    "Native final six-part and replacement print package"
+  ],
+  "source_scripts_sha256": {
+    "audit_toolpaths.py": "e6c30e1ab6c5e95b0e1abbe1123f6187d465fdea26852163100e153976c2321c",
+    "build_project.py": "fea12a4f4b5ee26e045a46ea834ea4cd125ead8e4759a5996c632088ccb879e9",
+    "build_replacement.py": "08c4acc5e6818605b83ea58196df357b7a117012f9a02f104c9a57c0386b6728",
+    "check_actual_print.py": "99cd634dd7f0291ee5e5e8edf4f7e9250d8de6dd6136bed5de665da3aade06ac",
+    "check_connected_flow.py": "174dcca654af7902b3ab9a367d36ee5b40c81bcaf8c31ac0601d824b5654b8b8",
+    "check_diagnostics.py": "0980a485b18542bd0f21e5cbad55107815a5b926978de221941acd21333a9e38",
+    "check_one_plate_p04.py": "c7f17c253da6390aa1ccc65fff18bf206d0f721aad132cc319e7855c865d8b57",
+    "check_p04_supports.py": "e6a925aa90c86beac1cbbac1cb155fa9a5f9db8255d1f51b5be23ca48e87f365",
+    "check_palm_contact.py": "20eed7b6be8a850a250d2bf5d39367609cd5fe5121bd0cc1dfc63d6d5a9e44be",
+    "check_print_features.py": "bec0774fc3e0a3210b6216ed15a82f906d9fcc745bb0fea4631c7277eae06ca3",
+    "check_side_thumb.py": "acd7a601bb54ec0c07dd1083a7f14db338f82ece8d303c2ffd943ecf36ef7401",
+    "package_delivery.py": "ab33c49da8f5c3326b7536a89da236c633037b433e11297d6c93f72d75b0ddbf",
+    "print_context.py": "a2c8dd34fcd0ac79e6feeb0600b4e036085e88f4704e4d5232c6d98c6411ce0f",
+    "render_support_evidence.py": "4a90315a683c61c95b1be4469a521774f7b43af497afa1ae132474699db5e2a0",
+    "run_slicer.py": "76f45b9b871017a416d55c635b29018d87196b2dff8072f88615984edda2cfb6",
+    "seal_local_candidate.py": "26e3c49169603e27a7cc2665c39e5e0a53fdd3ab079c7a01be15baf153e5258b",
+    "validate_project.py": "558764e97bbd681139f2cc5d900f58a1a1bc22daa08110690d84affa3863f2d6"
+  },
+  "printer_job_started": false,
+  "variants": [
+    "six-part complete",
+    "P01-only replacement"
+  ],
+  "candidate_variant": "P01-only LOCAL_TEST_CANDIDATE, separate local-only publisher",
+  "candidate_delivery": "local-candidate-delivery.json",
+  "candidate_delivery_sha256": "e5900422408532742b072e15a025d14e59d6345fab807fb8371e452ee0ea3827"
+}

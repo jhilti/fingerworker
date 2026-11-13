@@ -1,0 +1,149 @@
+{
+  "status": "PASS_CONNECTED_R15_PRINT_READY",
+  "checks": [
+    {
+      "name": "Frozen generic project remains unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "GUI saved project and slice match observed hashes",
+      "status": "PASS"
+    },
+    {
+      "name": "connected-geometry-settings-check.json passed for this exact ready slice",
+      "status": "PASS",
+      "status_reported": "PASS_CONNECTED_GEOMETRY_AND_SETTINGS"
+    },
+    {
+      "name": "connected-actual-path-check.json passed for this exact ready slice",
+      "status": "PASS",
+      "status_reported": "PASS_CONNECTED_ACTUAL_PRINT_PATHS"
+    },
+    {
+      "name": "connected-p04-support-check.json passed for this exact ready slice",
+      "status": "PASS",
+      "status_reported": "PASS"
+    },
+    {
+      "name": "connected-flow-check.json passed for this exact ready slice",
+      "status": "PASS",
+      "status_reported": "PASS_CONNECTED_MATERIAL_FLOW"
+    },
+    {
+      "name": "connected-gui-check.json passed for this exact ready slice",
+      "status": "PASS",
+      "status_reported": "PASS_CONNECTED_GUI_PRINT_READY"
+    },
+    {
+      "name": "GUI slice has no pause or outside-plate warning",
+      "status": "PASS",
+      "pause_count": "0",
+      "outside": "false"
+    }
+  ],
+  "failures": [],
+  "failed_count": 0,
+  "connected_project": "Fingerworker_R15_H2D_04mm_PLA_Basic_Print_Ready.3mf",
+  "connected_project_sha256": "b8eeb41a267ef7808fde1a6ee5a036eed1ef9a24f7610044177396576bca23d7",
+  "connected_sliced_archive_sha256": "d077b2ff3f6340495e3c6914a3aa4bb674d00c2c64635fe523878e370c63e15c",
+  "baseline_project_sha256": "860843b3df9f988d67db68bae78e30dd8f2d7fc0fbe8e4c810ef78087e17eaa1",
+  "baseline_native_CAD_source_sha256": "97e2010cc17d06eb8648cf278b9aae2fd85b6e909bd657b9b216f3b37748665f",
+  "native_R15_version": "e8453217d87e9cfdc9a33f65",
+  "prediction_seconds": 38951,
+  "estimate": "10 h 49 min 11 s",
+  "filament_g": 233.58,
+  "filament_m": 77.07,
+  "used_material": "Bambu PLA Basic",
+  "used_project_filament": 1,
+  "used_nozzle": "Left 0.4 Standard",
+  "AMS_slot_from_GUI": "A3",
+  "PETG_used": false,
+  "printer_job_started": false,
+  "minimum_dense_core_bead_coverage": 0.9839639090292447,
+  "evidence": {
+    "connected-geometry-settings-check.json": {
+      "path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/print/bambu-R15-inboard-straps-2026-11-08/validation/connected-geometry-settings-check.json",
+      "sha256": "5e63caa8353897bbf1328e4e0107cc0f06cd832f001bca4c6271a02c0a9eecb1",
+      "status": "PASS_CONNECTED_GEOMETRY_AND_SETTINGS",
+      "checks": 101
+    },
+    "connected-actual-path-check.json": {
+      "path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/print/bambu-R15-inboard-straps-2026-11-08/validation/connected-actual-path-check.json",
+      "sha256": "389c9d416be3271a7911109c48357a0ad1915b7e21d37fd3276d8a25d646af37",
+      "status": "PASS_CONNECTED_ACTUAL_PRINT_PATHS",
+      "checks": 46
+    },
+    "connected-p04-support-check.json": {
+      "path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/print/bambu-R15-inboard-straps-2026-11-08/validation/connected-p04-support-check.json",
+      "sha256": "b4e988d2552390980ed331ce6a74e4c6812137139da99da88edb66aab31f7769",
+      "status": "PASS",
+      "checks": 0
+    },
+    "connected-flow-check.json": {
+      "path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/print/bambu-R15-inboard-straps-2026-11-08/validation/connected-flow-check.json",
+      "sha256": "1a73e7ebe35f731c04063e073cd3460e222ded47b8962e576849b3ea4bc95c17",
+      "status": "PASS_CONNECTED_MATERIAL_FLOW",
+      "checks": 15
+    },
+    "connected-gui-check.json": {
+      "path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/print/bambu-R15-inboard-straps-2026-11-08/validation/connected-gui-check.json",
+      "sha256": "1517899efad41fc1538356c4bad7d80e9fc172a22656ad009c69884914c13a86",
+      "status": "PASS_CONNECTED_GUI_PRINT_READY",
+      "checks": 0
+    }
+  },
+  "settings_changes": {
+    "material_preset": [
+      "Generic PLA",
+      "Bambu PLA Basic @BBL H2D"
+    ],
+    "standard_nozzle_flow_cap_mm3_s": [
+      12,
+      25
+    ],
+    "density_g_cm3": [
+      1.24,
+      1.26
+    ],
+    "part_fan_min_percent": [
+      100,
+      60
+    ],
+    "part_fan_max_percent": [
+      100,
+      80
+    ],
+    "aux_fan_percent": [
+      70,
+      75
+    ],
+    "cooling_slowdown_layer_time_s": [
+      8,
+      4
+    ],
+    "nozzle_temperature_C": [
+      220,
+      220
+    ],
+    "textured_PEI_temperature_C": [
+      55,
+      55
+    ],
+    "flow_ratio": [
+      0.98,
+      0.98
+    ],
+    "protected_object_process_support_and_speed_settings": "identical",
+    "object_brims": "all six no_brim / width 0",
+    "unused_AMS_inventory": "Additional PLA/PETG slots listed but not used"
+  },
+  "scope": "Narrow validation of connected GUI save and actual GUI slice. All six printable meshes, placements, object settings and effective four modifier volumes match frozen generic project (modifier coordinate round-trip tolerance 0.00001mm). New actual paths directly pass four slot openings, sixteen dense cores, P04 support-contact checks, all first layers, zero brim/skirt and selected material flow cap. Unchanged native CAD/service evidence is reused, not rerun.",
+  "path_difference_explanation": "Saved GUI project uses the synchronized PLA Basic material preset. P01/P04/P05 model path segmentation differs, and P04 support segmentation differs; aggregate path equality is not claimed. P01/P05 support geometry signatures match generic exactly. Critical changed areas are directly revalidated in the actual GUI slice.",
+  "limitations": [
+    "Nominal geometry and G-code validation do not prove printed tolerance, strength or adhesion.",
+    "Observe P11 first layer on clean textured PEI.",
+    "Required support structures still need removal.",
+    "GUI Send dialog was prepared, but Send was not clicked."
+  ],
+  "validator_sha256": "69940685f391f414abae77133f5cda25303580dc9fb7d4860c47bbdb6505e4c0"
+}

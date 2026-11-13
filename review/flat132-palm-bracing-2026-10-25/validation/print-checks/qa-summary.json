@@ -1,0 +1,49 @@
+{
+  "status": "PASS_PREPARED_R9_UNLOADED_FIT_PROJECT",
+  "failed_checks": 0,
+  "unresolved_checks": 0,
+  "independent_print_check_count": 730,
+  "scope": "Final full19-object and single-P02 wrist-down H2D0.4 PLA projects: native source triangles and scale1 proper transforms, settings/layout, actual positive extrusion/support paths, upper clean bearing faces and linked focused R9 native CAD identity. Unchanged Q01 geometry review inherited by exact fixture identity; added braces remain>=2.25mm axially clear.",
+  "immutable_version_id": "e8f782e27bfe45394bf4038b",
+  "source_sha256": "16972ba9341f4cdf763a5570dad82a4fbd601f0935d0a7657be85813f97ff2b1",
+  "printer": "Bambu Lab H2D",
+  "nozzle_mm": 0.4,
+  "filament": "PLA",
+  "bed": "Textured PEI Plate",
+  "full_plate_objects": 19,
+  "secondary_plate_objects": 1,
+  "palm_orientation": "NativeXmin wrist ledge down; bearing faces up, lid-gap underside vertical",
+  "new_brace_to_q01_minimum_axial_clearance_mm": 2.25,
+  "inherited_fixture_evidence": {
+    "path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/bambu-R8-fit-test-2026-10-24/qa-q01-fixture.json",
+    "sha256": "cbab1ac7d31e9d024e51b9d82432840b8db91493496ff0c6c21760a16ee40199",
+    "checks": 49,
+    "scope": "Frozen R8 independent Q01 exact geometry/installation/p0motion; not rerun or relabeled as new R9 checks"
+  },
+  "files_sha256": {
+    "print/bambu-R9-palm-bracing-2026-10-25/Fingerworker_R9_H2D_04mm_PLA_Fit_Test.3mf": "f6a5709a4446d1715a9850a2ef89fa467d6b5025f92f4fba790a3beb116744c4",
+    "print/bambu-R9-palm-bracing-2026-10-25/validation/Fingerworker_R9_slice_verification.gcode.3mf": "5fc9f400213db81a14d84d58ad4ac52c1be996f4e80e3344efc01df33ddc5949",
+    "print/bambu-R9-palm-bracing-2026-10-25/Fingerworker_R9_P02_wrist_down_H2D_04mm_PLA.3mf": "56cc572c803fa43d9c3e7d94e6e269fe2b0a6740837d5e4b87671338e80f311a",
+    "print/bambu-R9-palm-bracing-2026-10-25/validation/Fingerworker_R9_P02_wrist_down_H2D_04mm_PLA_verification.gcode.3mf": "1386af0ed4ca8a5b24de099676a5604db00e7256a3f24298598a3d550cd221ac",
+    "print/bambu-R9-palm-bracing-2026-10-25/plate-layout.json": "6dfa518e2c714d3a55fb55f6de2e79163dfefb8ff2ffa9655c9524acc1427a16",
+    "print/bambu-R9-palm-bracing-2026-10-25/fixture/manifest.json": "e8750e5e298260865f27c9400be91d2fe561a503600fa5d4630f9f48ebf9c099",
+    "review/flat132-palm-bracing-2026-10-25/validation/validation-summary.json": "bedede1474cb570c09fed5a405694b8e749a194aa2285ebc09758f2f31d8b2d7",
+    "review/bambu-R8-fit-test-2026-10-24/qa-q01-fixture.json": "cbab1ac7d31e9d024e51b9d82432840b8db91493496ff0c6c21760a16ee40199",
+    "review/flat132-palm-bracing-2026-10-25/validation/print-checks/qa-project.json": "fdfa099234a741dbbc0e88b703c3066946e46c84ce39f8766ac8d25a4a7a4008",
+    "review/flat132-palm-bracing-2026-10-25/validation/print-checks/qa-toolpaths.json": "d5d91c9ed66f68a99f40e84ba8dc18e92766177474528110cd29768a9f662231",
+    "review/flat132-palm-bracing-2026-10-25/validation/print-checks/qa-palm-only-comparison.json": "0bdbc08fcf15dd40bc5ca64a5d1f134fbe07e7b786f56615646e9d95c8eded04",
+    "review/flat132-palm-bracing-2026-10-25/validation/print-checks/audit_bambu_project.py": "6a49d04bfc977562efbb4bf6695d5cba263c92b8ac9544a1a39a8262d64b4ac1",
+    "review/flat132-palm-bracing-2026-10-25/validation/print-checks/audit_bambu_toolpaths.py": "6eedbc734fc6b937a82ad687da37a538a729d5f889cc68a33a5433edd978b1ba",
+    "review/flat132-palm-bracing-2026-10-25/validation/print-checks/audit_palm_prints.py": "6e548e0f18a6602be51096402a1c87a3b4461a9357362298bda314861a3a1b3b",
+    "review/flat132-palm-bracing-2026-10-25/validation/print-checks/FIT_TEST_README.md": "d2ff82fbd78ff15087036cb997ca5d49338a5b2128d1951e87be1d6d035d923a",
+    "review/flat132-palm-bracing-2026-10-25/validation/print-checks/ASSEMBLY_DETAILS.md": "b216af5d4a337adf08bb24f73b415fd439ddc0083123977d131b438afc9ce565",
+    "review/flat132-palm-bracing-2026-10-25/validation/print-checks/PRINT_QA_NOTES.md": "733a3560b4d9ec5d5b56e91d789b8a88d575c514e87ddfd95e705bfa002f3244"
+  },
+  "slicer_header": "; HEADER_BLOCK_START\n; BambuStudio 02.08.02.61\n; model printing time: 17h 53m 2s; total estimated time: 17h 58m 29s\n; total layer number: 836\n; total filament length [mm] : 88825.20\n; total filament volume [cm^3] : 213649.65\n; total filament weight [g] : 264.93\n; model label id: 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19\n; object max height: 35.00,36.60,59.00,22.00,9.60,6.80,6.00,6.00,26.00,26.00,9.40,9.40,10.00,1.00,1.50,1.50,1.50,1.50,28.00\n; filament_density: 1.24\n; filament_diameter: 1.75\n; max_z_height: 59.00\n; filament: 1\n; support_material_on_wipe_tower: 0\n; HEADER_BLOCK_END",
+  "secondary_slicer_header": "; HEADER_BLOCK_START\n; BambuStudio 02.08.02.61\n; model printing time: 1h 49m 37s; total estimated time: 1h 55m 4s\n; total layer number: 269\n; total filament length [mm] : 9384.10\n; total filament volume [cm^3] : 22571.41\n; total filament weight [g] : 27.99\n; filament_density: 1.24\n; filament_diameter: 1.75\n; max_z_height: 36.60\n; filament: 1\n; support_material_on_wipe_tower: 0\n; HEADER_BLOCK_END",
+  "limitations": [
+    "Unloaded gentle supported fit/motion only: Q01 has no axial latch; no springs/preload/isometric load/force/calibration test.",
+    "Both palm bearing pads must seat simultaneously without forcing palm screws; actual print flatness, tolerances, stiffness/creep and500N capacity are unqualified.",
+    "Hard PLA pad/rod proxies do not reproduce final material/friction/cushioning; real fasteners and matching heat-set inserts required."
+  ]
+}

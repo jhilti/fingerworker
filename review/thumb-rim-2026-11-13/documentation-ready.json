@@ -1,0 +1,40 @@
+{
+  "status": "PASS_DOCUMENTATION_BOUND_TO_R19_NATIVE_CAD",
+  "source_sha256": "0e88e273e2e9bc436b2844a44f04b28fb094593c0af87a2127d792bbb56f016d",
+  "onshape_version": "21323818480a2406fe14f51f",
+  "files_sha256": {
+    "review/thumb-rim-2026-11-13/fingerworker_R19_thumb_rim.fs": "0e88e273e2e9bc436b2844a44f04b28fb094593c0af87a2127d792bbb56f016d",
+    "review/thumb-rim-2026-11-13/native/Flat132_R19_final_AP214.step": "41e4eb637ab9e78ca54be588712bfb05ad9d8f5ae5f34467a685cc422142819f",
+    "review/thumb-rim-2026-11-13/native/Flat132_R19_neutral_final.zip": "344ca98f4147832b2a324c125df42c90b9d522f1617d554154b82e82312bc8b7",
+    "review/thumb-rim-2026-11-13/mechanics/design-specification.json": "ed56fa4e565ddbf4d4ea002c12a4a9ac21c6ed7c0f9a0d765ca483fceba17dff",
+    "review/thumb-rim-2026-11-13/evidence/P01-final-native.png": "148f075fec2d5079483ebf444537b39489bf5aa0d617598f1236ef997eefacaf",
+    "review/thumb-rim-2026-11-13/evidence/P01-final-native-provenance.json": "9a64f586c30bf3dc347ea958d8da9c35616c83d6458c18dff396cd10a7af00ce",
+    "review/thumb-rim-2026-11-13/evidence/P01-final-native-detail.png": "cc73c5a85825a546ab70badb6b942526d24c7706a64ccb8c4ee459cbaa717308",
+    "review/thumb-rim-2026-11-13/evidence/P01-final-native-detail.json": "4acd2df627fb93cee22fb3681360f3586283e550918c11191450d0281fb093ee",
+    "review/thumb-rim-2026-11-13/evidence/assembly-final-native.png": "fd059582702345fdb08c31ffe5dcc77f53fcc9ce57885f6164a668fa7576227b",
+    "review/thumb-rim-2026-11-13/evidence/assembly-final-native.json": "fe8bd62ada6d6325a177e02b833958a2b2c7ee8ac39b59146cb7de4a71381b33",
+    "review/thumb-rim-2026-11-13/evidence/rigid-parts-final-native.png": "5225bae308cad25da525e278f4d2eaed4d885a2b17815e88b3f0e503f00c9447",
+    "review/thumb-rim-2026-11-13/evidence/rigid-parts-final-native.json": "727e2e627e157b3c2a21662c21d4405d075abc711c2867bf6600a9e6de9d096c",
+    "review/thumb-rim-2026-11-13/evidence/strap-routing.svg": "983986498970c02b2e5998d031b635601e2cea8d142959d8046d3b685641a4a3",
+    "review/thumb-rim-2026-11-13/evidence/strap-routing-provenance.json": "0fcb4260c5af0732b032c39ba668652feeffb200af293dd3dd0b7d32e9d303e3",
+    "review/thumb-rim-2026-11-13/README.md": "9166c07353a78449c385a51ed10b5f189418e60a8d75f7cb7c4284cee048a9aa",
+    "review/thumb-rim-2026-11-13/MONTAGE.md": "1eecf8e0efbdec0bdf1e928688bf40b60ae3d5f9092c1c3a1b73cffcd0c9d149",
+    "review/thumb-rim-2026-11-13/parts-review.md": "7638737854bb574b379ecd3430f5f38953157b11962c76f1620f1486346a2c34",
+    "review/thumb-rim-2026-11-13/BOM_Aenderungen.csv": "63d7dabe3fe24cc231ede3a0d588a1454f230745c9b3662b52cdaf5eea2d0383"
+  },
+  "verification": {
+    "review/thumb-rim-2026-11-13/validation/native-integration.json": {
+      "status": "PASS_NATIVE_R19_INTEGRATION",
+      "sha256": "fecf2a65c996a937433176ea9ecaca8bfb1b4c2227122a366f4235e600b6bbed"
+    },
+    "review/thumb-rim-2026-11-13/validation/native-rim-check.json": {
+      "status": "PASS_NATIVE_R19_RIM_CHECK",
+      "sha256": "c0bf1e995330be39b16d27b957f4ed9d3bc66c9aa544c34f0874a58516ba857a"
+    },
+    "review/thumb-rim-2026-11-13/validation/native-release-binding.json": {
+      "status": "PASS_NATIVE_R19_SOURCE_EXPORT_REPORT_BINDING",
+      "sha256": "a6c74eb45f10d05f749df06dc2c7a69020f89eea2ba8d6e152f35fe54afff56d"
+    }
+  },
+  "print_setup_status": "PRINT_SETUP_DEFERRED_BY_USER"
+}

@@ -1,0 +1,118 @@
+{
+  "status": "PASS_EXACT_R7_REAR_DELTA_RECONSTRUCTION",
+  "scope": "All R7 bytes are reconstructed from the frozen R6 source and declared replacement ledger. Independent native body identity and changed-rear geometry checks are separate requirements.",
+  "baseline_source": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-solid-palm-2026-10-23/fingerworker_flat132_solid_palm.fs",
+  "baseline_source_sha256": "62fabee79cf36d0e0b6d4cd8430700519dbc529a5ea08f70018b14b0c3f2271f",
+  "source": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-adjustable-rear-2026-10-23/fingerworker_flat132_adjustable_rear.fs",
+  "source_sha256": "d42805e8ee10158408099bf7185e49cf9a6eb06c23c327c90c01edfcd04eaddd",
+  "source_build_sha256": "7b6f14f028e244ef99430f8ec91c7dc33c8596d14459bd5fa126a8bf5782ecb2",
+  "exact_forward_reconstruction_matches_all_source_bytes": true,
+  "replacement_ledger": [
+    {
+      "label": "R7 identity",
+      "replacement_count": 1
+    },
+    {
+      "label": "feature name",
+      "replacement_count": 1
+    },
+    {
+      "label": "new rest parameter",
+      "replacement_count": 1
+    },
+    {
+      "label": "travel label",
+      "replacement_count": 1
+    },
+    {
+      "label": "ISO label",
+      "replacement_count": 1
+    },
+    {
+      "label": "rest domain",
+      "replacement_count": 1
+    },
+    {
+      "label": "max user travel",
+      "replacement_count": 1
+    },
+    {
+      "label": "travel guard explanation",
+      "replacement_count": 1
+    },
+    {
+      "label": "frame envelope",
+      "replacement_count": 1
+    },
+    {
+      "label": "shorten base",
+      "replacement_count": 1
+    },
+    {
+      "label": "shorten rods",
+      "replacement_count": 1
+    },
+    {
+      "label": "rod labels",
+      "replacement_count": 1
+    },
+    {
+      "label": "replace fixed rear bosses with compact screw-adjusted retained shoes",
+      "replacement_count": 1
+    },
+    {
+      "label": "rear bench holes",
+      "replacement_count": 1
+    },
+    {
+      "label": "audit rear includes new shoes",
+      "replacement_count": 1
+    },
+    {
+      "label": "print rest setting",
+      "replacement_count": 1
+    },
+    {
+      "label": "current motion explanatory comment",
+      "replacement_count": 1
+    },
+    {
+      "label": "new default",
+      "replacement_count": 1
+    },
+    {
+      "label": "P01 label",
+      "replacement_count": 1
+    },
+    {
+      "label": "new shoe appearance",
+      "replacement_count": 1
+    }
+  ],
+  "baseline_validation_summary": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-solid-palm-2026-10-23/validation/validation-summary.json",
+  "baseline_validation_summary_sha256": "770f52332960f8fd88fcdc6d991aecca285d3b49b5961bb97059922b849c89d2",
+  "baseline_evidence_files_sha256": {
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-solid-palm-2026-10-23/validation/manifest.json": "eabe605a0cce631c09fc8056c5dc980dbf218aff07cd597aed84f9c85d53f55f",
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-solid-palm-2026-10-23/validation/source-scope-certificate.json": "ba7b58285a65e43f026c99f47591ef045e8ae517fe1443395403dda9f05e5a82",
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-solid-palm-2026-10-23/validation/native-step-inventory.json": "e238099ff464fdd07f667aff42bbcc864a8b42eccfeaaa4c76def95a841b0820",
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-solid-palm-2026-10-23/validation/unchanged-native-breps.json": "0fc656d188a514863ff602c401c3ff466c38dd6325689eb72da479851177815b",
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-solid-palm-2026-10-23/validation/palm-exact-audit.json": "e2306596b61b9b013ed3dc00f8617825baf12d9c43ae85a56498d5d7c4cf8f29",
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-solid-palm-2026-10-23/validation/palm-path-audit.json": "b970ae6b950b662720a3e381d5e1a2527891578a95decfbdea1918d40d585449",
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-solid-palm-2026-10-23/validation/native-pose-audit.json": "6836a913bad1563d8f4af874dc04716289d885610561e50068216b90ec8b6e3e"
+  },
+  "changed_old_geometry_refs": [
+    "P01",
+    "P060",
+    "P061",
+    "H040",
+    "H041"
+  ],
+  "unchanged_motion_equivalence": {
+    "map": "u_R6=a_R7+u_R7; p_R6=p_R7; e_R6=e_R7",
+    "domain": "a>=0,p>=0,a+p<=2,u>=0,u+a+p<=30,e in[-0.8,0.8]",
+    "meaning": "Every R7 dynamic front-mechanism pose belongs to the prior R6 domain. ISO absolute q=20-p remains unchanged. Rear pads/shoes and adjuster motion are audited newly."
+  },
+  "limitations": [
+    "A source ledger is not a CAD regeneration or strength proof. The independent rear audit must pass before this source certificate supports baseline evidence reuse."
+  ]
+}

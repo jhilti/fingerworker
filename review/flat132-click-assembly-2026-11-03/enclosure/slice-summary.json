@@ -1,0 +1,84 @@
+{
+  "status": "SLICED_LOCAL_PROPOSAL",
+  "objects": [
+    {
+      "ref": "P08",
+      "xy": [
+        80,
+        80
+      ],
+      "extents_mm": [
+        23.5,
+        131.0,
+        16.200000762939453
+      ],
+      "volume_mm3": 5041.455014277506,
+      "bed_area_mm2": 2542.9546835576657
+    },
+    {
+      "ref": "P09",
+      "xy": [
+        130,
+        90
+      ],
+      "extents_mm": [
+        25.0,
+        110.0,
+        6.749999900000006
+      ],
+      "volume_mm3": 2658.917349646602,
+      "bed_area_mm2": 2515.483043462871
+    }
+  ],
+  "commands": [
+    {
+      "exit_code": 0,
+      "command": [
+        "/tmp/fingerworker-bambu-r8-runtime/BambuStudio.app/Contents/MacOS/BambuStudio",
+        "--datadir",
+        "/tmp/fingerworker-bambu-r11-enclosure-data",
+        "--arrange",
+        "0",
+        "--orient",
+        "0",
+        "--ensure-on-bed",
+        "--debug",
+        "2",
+        "--load-settings",
+        "/Users/jonashilti/Documents/ChatGPT/fingerworker/print/bambu-R10-integrated-palm-2026-11-03/profiles/H2D_machine.json;/Users/jonashilti/Documents/ChatGPT/fingerworker/print/bambu-R10-integrated-palm-2026-11-03/profiles/H2D_process.json",
+        "--load-filaments",
+        "/Users/jonashilti/Documents/ChatGPT/fingerworker/print/bambu-R10-integrated-palm-2026-11-03/profiles/H2D_PLA.json",
+        "--outputdir",
+        "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-click-assembly-2026-11-03/enclosure",
+        "--export-3mf",
+        "enclosure_preflight.3mf",
+        "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-click-assembly-2026-11-03/enclosure/enclosure_seed.3mf"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "command": [
+        "/tmp/fingerworker-bambu-r8-runtime/BambuStudio.app/Contents/MacOS/BambuStudio",
+        "--datadir",
+        "/tmp/fingerworker-bambu-r11-enclosure-data",
+        "--arrange",
+        "0",
+        "--orient",
+        "0",
+        "--ensure-on-bed",
+        "--debug",
+        "2",
+        "--slice",
+        "0",
+        "--outputdir",
+        "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-click-assembly-2026-11-03/enclosure",
+        "--export-3mf",
+        "enclosure_preflight_verification.gcode.3mf",
+        "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-click-assembly-2026-11-03/enclosure/enclosure_preflight.3mf"
+      ]
+    }
+  ],
+  "native_sha256": "a4f0ac02912735a3d00d1ca7364099b7bceae7bbdb5f6e59f92b0eaff98c2e5c",
+  "sliced_sha256": "12b3da3708e639b9ade4d0afd4d817c0737edd18172dd613513e58380763afd4",
+  "note": "Local CSG candidate, not authoritative native Onshape geometry; inspect final R11 native exports separately."
+}

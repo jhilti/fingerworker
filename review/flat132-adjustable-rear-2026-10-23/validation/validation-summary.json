@@ -1,0 +1,3272 @@
+{
+  "status": "NOMINAL_GEOMETRY_CHECKS_PASS",
+  "scope": "R7 compact adjustable rear: new native exact body/source preservation, changed rear construction and all-domain clearance, actual fastener envelope, positive shoe capture and declared service checks. Unchanged front mechanism evidence is reused through exact R6 body/source identity and domain map.",
+  "source_sha256": "d42805e8ee10158408099bf7185e49cf9a6eb06c23c327c90c01edfcd04eaddd",
+  "native_provenance": {
+    "workspace_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/w/fb351e16ef00207a64932857/e/d253eb87b70818ebde8215f0",
+    "feature_source_sha256": "d42805e8ee10158408099bf7185e49cf9a6eb06c23c327c90c01edfcd04eaddd",
+    "association": "Root operator verified exact R7 source and native pose regeneration before exports. This independent audit does not regenerate Onshape.",
+    "immutable_version_id": "6dd467818da7364197461627",
+    "immutable_version_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/6dd467818da7364197461627/e/d253eb87b70818ebde8215f0",
+    "version_binding_note": "Root operator verified immutable R7 FeatureScript byte-for-byte: d42805e8ee10158408099bf7185e49cf9a6eb06c23c327c90c01edfcd04eaddd,121109bytes; native neutral default user0/preload0/rearAdvance0/camTrim0/light dynamic,123 regenerated parts. All four native whole-pose exports and neutral AP214 STEP originate from this exact source; each download completed before the next pose change."
+  },
+  "failed_checks": 0,
+  "unresolved_checks": 0,
+  "native_inventory": {
+    "whole": 123,
+    "device": 70,
+    "electronics_reference": 53,
+    "printed": 16
+  },
+  "changed_old_refs": [
+    "H040",
+    "H041",
+    "P01",
+    "P060",
+    "P061"
+  ],
+  "new_refs": [
+    "H260",
+    "H261",
+    "H270",
+    "H271",
+    "H280",
+    "H281",
+    "H290",
+    "H291",
+    "H300a",
+    "H300b",
+    "H301a",
+    "H301b",
+    "H310",
+    "H311",
+    "H320",
+    "H321",
+    "P120",
+    "P121"
+  ],
+  "unchanged_exact_brep_count": 100,
+  "dimension_checks": [
+    {
+      "name": "Physical device X envelope including real adjuster tips; external electronics approach/travel references excluded",
+      "bounds_mm": [
+        [
+          -46.1,
+          -66.0,
+          -2.0000001
+        ],
+        [
+          130.40000009999997,
+          66.0,
+          33.0000001
+        ]
+      ],
+      "depth_mm": 176.50000009999997,
+      "status": "PASS"
+    },
+    {
+      "name": "Printed base shortened five millimeters",
+      "base_maximum_x_mm": 129.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Retained frame width",
+      "width_mm": 132.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Legal minimum and maximum dynamic stroke",
+      "maximum_mm": 30,
+      "minimum_mm": 28,
+      "domain": "a+p<=2,u<=30-p-a",
+      "status": "PASS"
+    },
+    {
+      "name": "Spring length/force domain inherited exactly",
+      "rest_length_range_mm": [
+        94,
+        96
+      ],
+      "shortest_spring_mm": 66,
+      "rest_pair_force_range_N": {
+        "DF2194": [
+          39.684,
+          52.912
+        ],
+        "DF2185": [
+          66.762,
+          81.598
+        ]
+      },
+      "maximum_spring_pair_force_N": {
+        "DF2194": 238.104,
+        "DF2185": 289.302
+      },
+      "meaning": "Same spring compression domain as R6; a and p share the same 2mm budget. No spring life or printed strength qualification.",
+      "status": "PASS"
+    },
+    {
+      "name": "Shortened guide rod H040",
+      "bounds_mm": [
+        [
+          -16.0000001,
+          -54.0000001,
+          14.9999999
+        ],
+        [
+          125.0000001,
+          -47.9999999,
+          21.0000001
+        ]
+      ],
+      "length_mm": 141.0000002,
+      "status": "PASS"
+    },
+    {
+      "name": "Shortened guide rod H041",
+      "bounds_mm": [
+        [
+          -16.0000001,
+          47.9999999,
+          14.9999999
+        ],
+        [
+          125.0000001,
+          54.0000001,
+          21.0000001
+        ]
+      ],
+      "length_mm": 141.0000002,
+      "status": "PASS"
+    }
+  ],
+  "native_poses": [
+    {
+      "pose": "adjusted_rest_a2",
+      "archive": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-adjustable-rear-2026-10-23/native/Flat132_R7_adjusted_rest_a2_final.zip",
+      "sha256": "d68e8d19a47bcb27c09c47a1af26ef27293afafa72e6517d787a8b68a9086bf1",
+      "status": "PASS",
+      "u_p_a_e_mm": [
+        0.0,
+        0.0,
+        2.0,
+        0.0
+      ],
+      "isometric": false,
+      "part_count": 123,
+      "checks": [
+        {
+          "name": "Legal correlated operating pose",
+          "status": "PASS",
+          "u_p_a_e_mm": [
+            0.0,
+            0.0,
+            2.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Whole native inventory",
+          "status": "PASS",
+          "part_count": 123,
+          "unrecognized_members": []
+        },
+        {
+          "ref": "E01",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "E05",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "E06",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "E07",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "E08",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H01",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H02",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H040",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H041",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H050",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H051",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H060",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": -2.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H061",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": -2.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H09",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H10",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": -2.0,
+          "symmetric_difference_mm3": 0.00025894862210155495,
+          "maximum_bound_error_mm": 3.814697265625e-06,
+          "status": "PASS"
+        },
+        {
+          "ref": "H11",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H12",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H13",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H15",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H160",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H161",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H170",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H171",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H180",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H181",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H190",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H191",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H20",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H21",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H22",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H23",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H240",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H241",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H242",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H243",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H250",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H251",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H252",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H253",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H260",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": -2.0,
+          "symmetric_difference_mm3": 0.0002032235930876934,
+          "maximum_bound_error_mm": 1.52587890625e-05,
+          "status": "PASS"
+        },
+        {
+          "ref": "H261",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": -2.0,
+          "symmetric_difference_mm3": 0.00020322359308301972,
+          "maximum_bound_error_mm": 1.52587890625e-05,
+          "status": "PASS"
+        },
+        {
+          "ref": "H270",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H271",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H280",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H281",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H290",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H291",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H300a",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H300b",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H301a",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H301b",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H310",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H311",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H320",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H321",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P01",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P02",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P04",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": -2.0,
+          "symmetric_difference_mm3": 0.006473059913823825,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P05",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P060",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P061",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P070a",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": -2.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P070b",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": -2.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P071a",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": -2.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P071b",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": -2.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P08",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P09",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P10",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P11",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": -2.0,
+          "symmetric_difference_mm3": 0.00010849482321425202,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P120",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": -2.0,
+          "symmetric_difference_mm3": 0.0010162133898519838,
+          "maximum_bound_error_mm": 7.62939453125e-06,
+          "status": "PASS"
+        },
+        {
+          "ref": "P121",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": -2.0,
+          "symmetric_difference_mm3": 0.0010162133898561846,
+          "maximum_bound_error_mm": 7.62939453125e-06,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C1",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C10",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C11",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C12",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C13",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C14",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C15",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C16",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C2",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C3",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C4",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C5",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C6",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C7",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C8",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C9",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_D1",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_J1",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_J2",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_J3",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_L1",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_Q1",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R1",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R10",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R11",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R12",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R13",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R14",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R15",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R16",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R17",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R18",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R19",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R2",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R20",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R21",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R3",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R4",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R5",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R6",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R7",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R8",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R9",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_SW2",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_U1",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_U2",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_U3",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_U4",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H09a",
+          "name": "Native articulated source pose",
+          "effective_user_travel_plus_preload_minus_trim_mm": 2.0,
+          "symmetric_difference_mm3": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H09b",
+          "name": "Native articulated source pose",
+          "effective_user_travel_plus_preload_minus_trim_mm": 2.0,
+          "symmetric_difference_mm3": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H030",
+          "name": "Native spring trim seats",
+          "bounds_mm": [
+            [
+              12.0,
+              -58.39994812011719,
+              10.600049018859863
+            ],
+            [
+              106.0,
+              -43.60004806518555,
+              25.399948120117188
+            ]
+          ],
+          "status": "PASS"
+        },
+        {
+          "ref": "H031",
+          "name": "Native spring trim seats",
+          "bounds_mm": [
+            [
+              12.0,
+              43.60005187988281,
+              10.600049018859863
+            ],
+            [
+              106.0,
+              58.39994812011719,
+              25.399948120117188
+            ]
+          ],
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "pose": "maximum28_p2",
+      "archive": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-adjustable-rear-2026-10-23/native/Flat132_R7_max28_p2_heavy_final.zip",
+      "sha256": "2a95088ca025360d9769c06d9a414a3577739fc99bc985884446a707b931f9b1",
+      "status": "PASS",
+      "u_p_a_e_mm": [
+        28.0,
+        2.0,
+        0.0,
+        0.0
+      ],
+      "isometric": false,
+      "part_count": 123,
+      "checks": [
+        {
+          "name": "Legal correlated operating pose",
+          "status": "PASS",
+          "u_p_a_e_mm": [
+            28.0,
+            2.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Whole native inventory",
+          "status": "PASS",
+          "part_count": 123,
+          "unrecognized_members": []
+        },
+        {
+          "ref": "E01",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "E05",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "E06",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "E07",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "E08",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H01",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 0.0002905770682175542,
+          "maximum_bound_error_mm": 4.76837158203125e-07,
+          "status": "PASS"
+        },
+        {
+          "ref": "H02",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 3.743881502313788e-07,
+          "maximum_bound_error_mm": 2.9802322387695312e-08,
+          "status": "PASS"
+        },
+        {
+          "ref": "H040",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H041",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H050",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H051",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H060",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": -28.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H061",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": -28.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H09",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H10",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": -30.0,
+          "symmetric_difference_mm3": 0.00018209221555509633,
+          "maximum_bound_error_mm": 3.814697265625e-06,
+          "status": "PASS"
+        },
+        {
+          "ref": "H11",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H12",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 0.00043729346986717436,
+          "maximum_bound_error_mm": 4.76837158203125e-07,
+          "status": "PASS"
+        },
+        {
+          "ref": "H13",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 0.00033545183368097637,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H15",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H160",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H161",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H170",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H171",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H180",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 3.2169644563854564e-05,
+          "maximum_bound_error_mm": 9.5367431640625e-07,
+          "status": "PASS"
+        },
+        {
+          "ref": "H181",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 3.2169644563484485e-05,
+          "maximum_bound_error_mm": 9.5367431640625e-07,
+          "status": "PASS"
+        },
+        {
+          "ref": "H190",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 2.792161852760433e-05,
+          "maximum_bound_error_mm": 9.5367431640625e-07,
+          "status": "PASS"
+        },
+        {
+          "ref": "H191",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 2.7921618527271264e-05,
+          "maximum_bound_error_mm": 9.5367431640625e-07,
+          "status": "PASS"
+        },
+        {
+          "ref": "H20",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 2.1652907082755085e-05,
+          "maximum_bound_error_mm": 4.76837158203125e-07,
+          "status": "PASS"
+        },
+        {
+          "ref": "H21",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H22",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H23",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H240",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 4.178172294158618e-06,
+          "maximum_bound_error_mm": 4.76837158203125e-07,
+          "status": "PASS"
+        },
+        {
+          "ref": "H241",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 4.178173533971125e-06,
+          "maximum_bound_error_mm": 4.76837158203125e-07,
+          "status": "PASS"
+        },
+        {
+          "ref": "H242",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 4.178172292174102e-06,
+          "maximum_bound_error_mm": 4.76837158203125e-07,
+          "status": "PASS"
+        },
+        {
+          "ref": "H243",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 4.178173533659751e-06,
+          "maximum_bound_error_mm": 4.76837158203125e-07,
+          "status": "PASS"
+        },
+        {
+          "ref": "H250",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 7.48776396964745e-07,
+          "maximum_bound_error_mm": 5.960464477539063e-08,
+          "status": "PASS"
+        },
+        {
+          "ref": "H251",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 7.487765159895256e-07,
+          "maximum_bound_error_mm": 5.960464477539063e-08,
+          "status": "PASS"
+        },
+        {
+          "ref": "H252",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 7.48776396964745e-07,
+          "maximum_bound_error_mm": 5.960464477539063e-08,
+          "status": "PASS"
+        },
+        {
+          "ref": "H253",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 7.487765159895256e-07,
+          "maximum_bound_error_mm": 5.960464477539063e-08,
+          "status": "PASS"
+        },
+        {
+          "ref": "H260",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H261",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H270",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H271",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H280",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H281",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H290",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H291",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H300a",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H300b",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H301a",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H301b",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H310",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H311",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H320",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H321",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P01",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P02",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P04",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": -28.0,
+          "symmetric_difference_mm3": 0.006204297009741738,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P05",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 0.00411524619773694,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P060",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P061",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P070a",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P070b",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P071a",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P071b",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P08",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P09",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P10",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P11",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": -30.0,
+          "symmetric_difference_mm3": 7.33412121006379e-05,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P120",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P121",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C1",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C10",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C11",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C12",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C13",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C14",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C15",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C16",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C2",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C3",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C4",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C5",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C6",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C7",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C8",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C9",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_D1",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_J1",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_J2",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_J3",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_L1",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_Q1",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R1",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R10",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R11",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R12",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R13",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R14",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R15",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R16",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R17",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R18",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R19",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R2",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R20",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R21",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R3",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R4",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R5",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R6",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R7",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R8",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R9",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_SW2",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_U1",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_U2",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_U3",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_U4",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H09a",
+          "name": "Native articulated source pose",
+          "effective_user_travel_plus_preload_minus_trim_mm": 30.0,
+          "symmetric_difference_mm3": 2.6428182195298614e-05,
+          "status": "PASS"
+        },
+        {
+          "ref": "H09b",
+          "name": "Native articulated source pose",
+          "effective_user_travel_plus_preload_minus_trim_mm": 30.0,
+          "symmetric_difference_mm3": 0.010224616963364755,
+          "status": "PASS"
+        },
+        {
+          "ref": "H030",
+          "name": "Native spring trim seats",
+          "bounds_mm": [
+            [
+              14.0,
+              -58.24995040893555,
+              10.750049591064453
+            ],
+            [
+              80.0,
+              -43.75004577636719,
+              25.249948501586914
+            ]
+          ],
+          "status": "PASS"
+        },
+        {
+          "ref": "H031",
+          "name": "Native spring trim seats",
+          "bounds_mm": [
+            [
+              14.0,
+              43.75004959106445,
+              10.750049591064453
+            ],
+            [
+              80.0,
+              58.24995040893555,
+              25.249948501586914
+            ]
+          ],
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "pose": "isometric13_p2_81",
+      "archive": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-adjustable-rear-2026-10-23/native/Flat132_R7_isometric13_p2_81_final.zip",
+      "sha256": "6f4d9368f0f1337a3dbd2f98334e8eb95b30e9d9dca48a62b377f1d7991482c6",
+      "status": "PASS",
+      "u_p_a_e_mm": [
+        13.0,
+        2.0,
+        0.0,
+        0.0
+      ],
+      "isometric": true,
+      "part_count": 123,
+      "checks": [
+        {
+          "name": "Legal correlated operating pose",
+          "status": "PASS",
+          "u_p_a_e_mm": [
+            13.0,
+            2.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Whole native inventory",
+          "status": "PASS",
+          "part_count": 123,
+          "unrecognized_members": []
+        },
+        {
+          "ref": "E01",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "E05",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "E06",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "E07",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "E08",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H01",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 0.0002905770682175542,
+          "maximum_bound_error_mm": 4.76837158203125e-07,
+          "status": "PASS"
+        },
+        {
+          "ref": "H02",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 3.743881502313788e-07,
+          "maximum_bound_error_mm": 2.9802322387695312e-08,
+          "status": "PASS"
+        },
+        {
+          "ref": "H040",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H041",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H050",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H051",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H060",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": -13.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H061",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": -13.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H09",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H10",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": -15.0,
+          "symmetric_difference_mm3": 0.00020257267742370316,
+          "maximum_bound_error_mm": 3.814697265625e-06,
+          "status": "PASS"
+        },
+        {
+          "ref": "H11",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H12",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 0.00043729346986717436,
+          "maximum_bound_error_mm": 4.76837158203125e-07,
+          "status": "PASS"
+        },
+        {
+          "ref": "H13",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 0.00033545183368097637,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H15",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H160",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H161",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H170",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H171",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H180",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 3.2169644563854564e-05,
+          "maximum_bound_error_mm": 9.5367431640625e-07,
+          "status": "PASS"
+        },
+        {
+          "ref": "H181",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 3.2169644563484485e-05,
+          "maximum_bound_error_mm": 9.5367431640625e-07,
+          "status": "PASS"
+        },
+        {
+          "ref": "H190",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 2.792161852760433e-05,
+          "maximum_bound_error_mm": 9.5367431640625e-07,
+          "status": "PASS"
+        },
+        {
+          "ref": "H191",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 2.7921618527271264e-05,
+          "maximum_bound_error_mm": 9.5367431640625e-07,
+          "status": "PASS"
+        },
+        {
+          "ref": "H20",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 2.1652907082755085e-05,
+          "maximum_bound_error_mm": 4.76837158203125e-07,
+          "status": "PASS"
+        },
+        {
+          "ref": "H21",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H22",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H23",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H240",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 4.178172294158618e-06,
+          "maximum_bound_error_mm": 4.76837158203125e-07,
+          "status": "PASS"
+        },
+        {
+          "ref": "H241",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 4.178173533971125e-06,
+          "maximum_bound_error_mm": 4.76837158203125e-07,
+          "status": "PASS"
+        },
+        {
+          "ref": "H242",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 4.178172292174102e-06,
+          "maximum_bound_error_mm": 4.76837158203125e-07,
+          "status": "PASS"
+        },
+        {
+          "ref": "H243",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 4.178173533659751e-06,
+          "maximum_bound_error_mm": 4.76837158203125e-07,
+          "status": "PASS"
+        },
+        {
+          "ref": "H250",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 7.48776396964745e-07,
+          "maximum_bound_error_mm": 5.960464477539063e-08,
+          "status": "PASS"
+        },
+        {
+          "ref": "H251",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 7.487765159895256e-07,
+          "maximum_bound_error_mm": 5.960464477539063e-08,
+          "status": "PASS"
+        },
+        {
+          "ref": "H252",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 7.48776396964745e-07,
+          "maximum_bound_error_mm": 5.960464477539063e-08,
+          "status": "PASS"
+        },
+        {
+          "ref": "H253",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 7.487765159895256e-07,
+          "maximum_bound_error_mm": 5.960464477539063e-08,
+          "status": "PASS"
+        },
+        {
+          "ref": "H260",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H261",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H270",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H271",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H280",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H281",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H290",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H291",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H300a",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H300b",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H301a",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H301b",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H310",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H311",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H320",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H321",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P01",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P02",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P04",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": -13.0,
+          "symmetric_difference_mm3": 0.0058459315037882,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P05",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 2.0,
+          "symmetric_difference_mm3": 0.00411524619773694,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P060",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P061",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P070a",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P070b",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P071a",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P071b",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P08",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P09",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P10",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P11",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": -15.0,
+          "symmetric_difference_mm3": 8.004926803585458e-05,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P120",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "P121",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C1",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C10",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C11",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C12",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C13",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C14",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C15",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C16",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C2",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C3",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C4",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C5",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C6",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C7",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C8",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C9",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_D1",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_J1",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_J2",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_J3",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_L1",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_Q1",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R1",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R10",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R11",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R12",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R13",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R14",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R15",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R16",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R17",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R18",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R19",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R2",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R20",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R21",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R3",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R4",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R5",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R6",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R7",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R8",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R9",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_SW2",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_U1",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_U2",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_U3",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_U4",
+          "name": "Native rigid pose congruence",
+          "expected_translation_x_mm": 0.0,
+          "symmetric_difference_mm3": 0.0,
+          "maximum_bound_error_mm": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H09a",
+          "name": "Native articulated source pose",
+          "effective_user_travel_plus_preload_minus_trim_mm": 15.0,
+          "symmetric_difference_mm3": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H09b",
+          "name": "Native articulated source pose",
+          "effective_user_travel_plus_preload_minus_trim_mm": 15.0,
+          "symmetric_difference_mm3": 0.0,
+          "status": "PASS"
+        },
+        {
+          "ref": "H140",
+          "name": "81mm steel ISO sleeve length/datums",
+          "bounds_mm": [
+            [
+              14.0,
+              -59.0,
+              10.0
+            ],
+            [
+              95.0,
+              -43.0,
+              26.0
+            ]
+          ],
+          "status": "PASS"
+        },
+        {
+          "ref": "H141",
+          "name": "81mm steel ISO sleeve length/datums",
+          "bounds_mm": [
+            [
+              14.0,
+              43.0,
+              10.0
+            ],
+            [
+              95.0,
+              59.0,
+              26.0
+            ]
+          ],
+          "status": "PASS"
+        }
+      ]
+    }
+  ],
+  "step_roundtrip_status": "COMPLETE",
+  "evidence_files": {
+    "manifest.json": "7c1c4ec3b9a10d9d5d25c5fa600477206f7939c29e954732468dabb454150b65",
+    "source-scope-certificate.json": "aa21c7cde0a7857c878a467c311be89c8ec21f18670fd94b2937923a8c4ede74",
+    "native-step-inventory.json": "3d32beb1f67174215bed29e9642c033f5bd91bf3ccf061e16923a4f80560077c",
+    "unchanged-native-breps.json": "4d5051b36e2fc70ea5ed07afe0388d250ccb298c197d795052201164d0f6a341",
+    "rear-exact-audit.json": "a765c69c1ff6d3ec2262941c8155862ad480db0be2af8221a2379368508d6e85",
+    "rear-path-audit.json": "94c095a26cc6115b62248b8fcc95a205cac255a9870737131792913f99adf040",
+    "rear-service-audit.json": "721b7ab1c0ba78831632893d1749cce9e886214cfa69ccce027aa98a89ad92bb",
+    "native-pose-audit.json": "a719c0f365fe10ed1184b2fb23bb3f5a2a1530b105f20f806aa6d93bf1783ebb",
+    "rear-spec.json": "cefe4a617b72c17ced9b65ce5b367ca22cf89e3e85ef598a95b7402511e5265e",
+    "audit_adjustable_rear.py": "7cbb28f685c2b535cfb2a2f9f328963fde2b74ff1ad8e246448e7117daefeb34",
+    "certify_source_scope.py": "a3370d3b32e2755b7b32f20ee740e487d083090754fe9809fb4b9ff2a51959f4",
+    "rear_geometry.py": "f9a81fa76889f8c63076bb62423d1546db905104f1f00e202d80cad9c1bfdb4f",
+    "requirements.txt": "ea321b865315f04bfaa93885cd3f3f9b5bb54650d77fa270cd2d1c96bcc746d7"
+  },
+  "failures": [],
+  "unresolved": [],
+  "baseline_reuse": {
+    "source_scope_certificate": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-adjustable-rear-2026-10-23/validation/source-scope-certificate.json",
+    "sha256": "aa21c7cde0a7857c878a467c311be89c8ec21f18670fd94b2937923a8c4ede74",
+    "baseline_summary_sha256": "770f52332960f8fd88fcdc6d991aecca285d3b49b5961bb97059922b849c89d2",
+    "meaning": "Unchanged R6 front-body geometry and motion pairs retain prior validation under u_R6=a+u. All newly interacting rear bodies are checked here."
+  },
+  "limitations": [
+    "500N remains an unqualified printed design target; rear screws/shoes are return stops, outside the full-load sensing stop path.",
+    "Both M4 settings require manual equal measurement and locking; no physical synchronization mechanism is modeled.",
+    "The nominal nut/set-screw engagement, print fits and assembly/tool envelopes do not establish torque retention, printed creep/fatigue or service life.",
+    "Heat-set insert dimensions, actual purchased fastener tolerances and final assembly calibration require physical verification.",
+    "Native source/export association is root-operator declared and hash-bound; this audit does not regenerate Onshape."
+  ]
+}

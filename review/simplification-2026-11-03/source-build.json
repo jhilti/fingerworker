@@ -1,0 +1,44 @@
+{
+  "status": "SOURCE_COMPOSED_PENDING_NATIVE_REGENERATION",
+  "date": "2026-11-03",
+  "baseline_sha256": "c8ec18f08149553001ccf8173f35fe57eee6a16be0294be2d7f88577f658cf5e",
+  "source_sha256": "730cd21ea3aafbe43bf8eb38007b20d9cd0272659430d8a2b3b6245f33f62455",
+  "changed": [
+    "P01",
+    "P08"
+  ],
+  "new": [
+    "P06"
+  ],
+  "removed": [
+    "P060",
+    "P061",
+    "P120",
+    "P121",
+    "H260",
+    "H261",
+    "H270",
+    "H271",
+    "H280",
+    "H281",
+    "H290",
+    "H291",
+    "H310",
+    "H311",
+    "H320",
+    "H321",
+    "H11",
+    "H13",
+    "H15",
+    "H160",
+    "H161",
+    "H170",
+    "H171",
+    "H21",
+    "H22"
+  ],
+  "device_prints": 7,
+  "fit_pieces": 10,
+  "native_solids": 93,
+  "central_preload_retained": false
+}

@@ -1,0 +1,1 @@
+Finale native R14-Meshes für P01/P04/P05/P06/P11 und Q01 in Millimetern. Für den Druck das vorbereitete 3MF-Projekt verwenden. Q01 ist ausschließlich eine federfreie Passhilfe. Die vorhandenen echten Führungsstangen verwenden.

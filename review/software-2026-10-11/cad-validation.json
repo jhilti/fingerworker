@@ -1,0 +1,11 @@
+{
+  "status": "PASS: 14 configurations / 630 source-bound CAD group checks",
+  "manufacturing_release": false,
+  "configurations": 14,
+  "group_checks": 630,
+  "solid_interferences": 0,
+  "contact_review_results": 166,
+  "cad_source_sha256": "d6d42e68c7c943f95480e7b4a2414ac777bcfe96ae42bb87d2ed0bcbe4e1f097",
+  "capture_sha256": "91e3c1ec18256b09832b44acb8babcb8d8563be48ad28080ac61180c3267ac07",
+  "scope": "Sampled exact-solid CAD clearances with illustrative hand/electronics/cord. Not continuous motion, real hand-fit or strength qualification."
+}

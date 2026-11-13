@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "method": "Run copied builder with only bundled R6 baseline in isolated temporary package",
+  "source_sha256": "d42805e8ee10158408099bf7185e49cf9a6eb06c23c327c90c01edfcd04eaddd",
+  "same_output_bytes": true,
+  "builder_sha256": "761431f48d09c1bf633df98466115a59235fe647352e562a4abf5c4f53539e5f"
+}

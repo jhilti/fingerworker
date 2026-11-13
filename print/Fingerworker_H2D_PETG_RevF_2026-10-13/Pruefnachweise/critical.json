@@ -1,0 +1,131 @@
+{
+  "status": "PASS_GEOMETRY_AND_SLICER",
+  "baseline": "Rev E, H2D, PETG, 0.4 mm",
+  "selected": [
+    {
+      "part": "P04",
+      "source": "print/all-print-prototype-2026-10-13-RevD/PETG/P04_climbing_carriage.stl",
+      "source_sha256": "1b1bc0ea5b03b8c0fc0a334a7ecbc61e8e634e8bbddc4b63b8bdd7b40a87f5af",
+      "candidate": "review/printability-2026-10-13/critical/P04_rear_end_on_bed.stl",
+      "candidate_sha256": "3d30e5d191a091f9f1b9a577a31800e26b92a6e4a3bdf1df90c176150dd5ee9d",
+      "transform": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          60
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "size_mm": [
+        25.0,
+        174.0,
+        60.0
+      ],
+      "volume_mm3": 125268.48003733589,
+      "contact_section_0_1_mm_area_mm2": 4006.971288328615,
+      "support_on_build_plate_only": false,
+      "brim_mm": 5
+    },
+    {
+      "part": "P05",
+      "source": "print/all-print-prototype-2026-10-13-RevD/PETG/P05_floating_yoke.stl",
+      "source_sha256": "57dc6a272bd4a41eef446580f1940e0267a173be36caec3f2a2b958dfa3515d3",
+      "candidate": "review/printability-2026-10-13/critical/P05_rib_side_on_bed.stl",
+      "candidate_sha256": "6328dca338a39aa422299173a1e7f8cda4f7449fe9a26e9d32b17e5239f9c942",
+      "transform": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          22.5
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "size_mm": [
+        22.0,
+        174.0,
+        22.5
+      ],
+      "volume_mm3": 62053.52845244448,
+      "contact_section_0_1_mm_area_mm2": 1026.0,
+      "support_on_build_plate_only": true,
+      "brim_mm": 5
+    }
+  ],
+  "limitations": [
+    "No physical print validation",
+    "Spring-free assembly prototype; P04 upright print layers perpendicular to X loading",
+    "Full carriage fit must be checked after support cleanup, independently of coupon"
+  ],
+  "slicer_results": [
+    {
+      "plate_zero_based": 0,
+      "return_code": 0,
+      "seconds_estimated": 11475.6,
+      "grams_estimated": 93.3634
+    },
+    {
+      "plate_zero_based": 1,
+      "return_code": 0,
+      "seconds_estimated": 13423.3,
+      "grams_estimated": 110.321
+    },
+    {
+      "plate_zero_based": 2,
+      "return_code": 0,
+      "seconds_estimated": 6026.88,
+      "grams_estimated": 45.552
+    },
+    {
+      "plate_zero_based": 3,
+      "return_code": 0,
+      "seconds_estimated": 5596.17,
+      "grams_estimated": 42.1988
+    }
+  ],
+  "support_removal_validation": {
+    "P04_guide_bores_support_segments": 0,
+    "P04_cam_passage_support_segments": 0,
+    "P05_guide_bores_support_segments": 0,
+    "P05_pusher_bore_support_segments_plate_only": 0,
+    "P05_left_wing_interface_segments": 82,
+    "P05_right_wing_interface_segments": 80,
+    "P05_nuttrap_lateral_bridge_width_mm": 5.7,
+    "evidence": "P05-plate-only-validation.json"
+  }
+}

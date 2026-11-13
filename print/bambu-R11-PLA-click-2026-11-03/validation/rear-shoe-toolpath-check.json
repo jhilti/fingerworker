@@ -1,0 +1,145 @@
+{
+  "status": "PASS_FINAL_NATIVE_REAR_SHOE_TOOLPATHS",
+  "archive": "/Users/jonashilti/Documents/ChatGPT/fingerworker/print/bambu-R11-PLA-click-2026-11-03/validation/Fingerworker_R11_H2D_04mm_PLA_Fit_Test_verification.gcode.3mf",
+  "archive_sha256": "269f5d8eb7410609547f56954c892a9a56e0ee8c164138815c58cda523b16a36",
+  "layout_sha256": "e106f2091dda8bd884b9d0779adfdef5a96529f1098d9567a87aa554909221e5",
+  "validator_sha256": "5840d01f26f62f754bb1d9f3351b170eeb184730c975b131ae79ce15f97f4782",
+  "scope": "Both final native R11 shoe meshes in actual shared plate2 G-code; exact layer0.2 T-foot coverage with actual elephant-foot compensation and volumetric extrusion widths; arc subdivision, no bridges, no support in capture slots and exact native axial access for supports in rod forks.",
+  "checks": [
+    {
+      "ref": "P120",
+      "status": "PASS",
+      "native_stl_sha256": "d7d3f82932b6e2a04374b7f776c75559d2cf56402dd803f887ff8ffcd68165bb",
+      "CAD_source_sha256": "c8ec18f08149553001ccf8173f35fe57eee6a16be0294be2d7f88577f658cf5e",
+      "final_plate": 2,
+      "final_identify_id": 10,
+      "rotation_3x3": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "plate_xy_mm": [
+        120,
+        160
+      ],
+      "first_layer_z_mm": 0.2,
+      "first_layer_model_segment_count": 193,
+      "first_layer_extrusion_length_mm": 120.22558237877496,
+      "exact_nominal_T_foot_area_mm2": 61.69905452637129,
+      "actual_elephant_foot_compensation_mm": 0.15,
+      "expected_compensated_first_layer_area_mm2": 51.41166560948008,
+      "first_layer_covered_area_fraction": 0.9892204731084571,
+      "first_layer_region_coverage": {
+        "tongue_front": 0.9914227218005068,
+        "tongue_rear": 0.983745437135707,
+        "fork_low_wing": 0.9994947005509508,
+        "fork_high_wing": 0.9994947005509508
+      },
+      "first_layer_extrusion_width_range_mm": [
+        0.3585479671279799,
+        0.5540044182731121
+      ],
+      "bridge_segment_count": 0,
+      "support_segment_count": 1637,
+      "support_centerlines_in_capture_slot": 0,
+      "support_centerlines_in_rod_fork_interior": 706,
+      "exact_native_fork_support_access": {
+        "status": "PASS",
+        "native_step_sha256": "4c7b412eb5700e6ff8dc985c7ab8182e5acc7003a645ecac3291e88fe455d6e7",
+        "axial_exit_cylinder_x_mm": [
+          118,
+          130
+        ],
+        "axis_y_mm": -51.0,
+        "axis_z_mm": 18,
+        "radius_mm": 4.9,
+        "intersection_with_final_native_shoe_mm3": 0.0,
+        "meaning": "The complete through-X fork cylinder is free in the exact final native solid; support portions in it are accessible axially from front/back, with the U mouth also open."
+      },
+      "support_access": "The capture slot is free of support. Fork support portions occupy a through-X cylinder proven open beyond both final native shoe ends; remove them axially through the exposed front/back and open U mouth. Remaining supports are on exterior overhangs. Manual removal is required before assembly.",
+      "failures": {
+        "slot_supports": []
+      }
+    },
+    {
+      "ref": "P121",
+      "status": "PASS",
+      "native_stl_sha256": "10bd81cfa709e1d3ae60319b03f65c369fb6f202aa63739e600f547eeca86a32",
+      "CAD_source_sha256": "c8ec18f08149553001ccf8173f35fe57eee6a16be0294be2d7f88577f658cf5e",
+      "final_plate": 2,
+      "final_identify_id": 11,
+      "rotation_3x3": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "plate_xy_mm": [
+        165,
+        160
+      ],
+      "first_layer_z_mm": 0.2,
+      "first_layer_model_segment_count": 194,
+      "first_layer_extrusion_length_mm": 120.23065072747433,
+      "exact_nominal_T_foot_area_mm2": 61.69905452637129,
+      "actual_elephant_foot_compensation_mm": 0.15,
+      "expected_compensated_first_layer_area_mm2": 51.41166560948008,
+      "first_layer_covered_area_fraction": 0.9892677003232584,
+      "first_layer_region_coverage": {
+        "tongue_front": 0.9914227218005066,
+        "tongue_rear": 0.9838254806825746,
+        "fork_low_wing": 0.9994947005509504,
+        "fork_high_wing": 0.9994947005509504
+      },
+      "first_layer_extrusion_width_range_mm": [
+        0.35856250560819697,
+        0.5531553620782502
+      ],
+      "bridge_segment_count": 0,
+      "support_segment_count": 1637,
+      "support_centerlines_in_capture_slot": 0,
+      "support_centerlines_in_rod_fork_interior": 706,
+      "exact_native_fork_support_access": {
+        "status": "PASS",
+        "native_step_sha256": "4c7b412eb5700e6ff8dc985c7ab8182e5acc7003a645ecac3291e88fe455d6e7",
+        "axial_exit_cylinder_x_mm": [
+          118,
+          130
+        ],
+        "axis_y_mm": 51.0,
+        "axis_z_mm": 18,
+        "radius_mm": 4.9,
+        "intersection_with_final_native_shoe_mm3": 0.0,
+        "meaning": "The complete through-X fork cylinder is free in the exact final native solid; support portions in it are accessible axially from front/back, with the U mouth also open."
+      },
+      "support_access": "The capture slot is free of support. Fork support portions occupy a through-X cylinder proven open beyond both final native shoe ends; remove them axially through the exposed front/back and open U mouth. Remaining supports are on exterior overhangs. Manual removal is required before assembly.",
+      "failures": {
+        "slot_supports": []
+      }
+    }
+  ],
+  "limits": "Nominal geometry and toolpath evidence only; no physical print, material strength or support-removal qualification."
+}

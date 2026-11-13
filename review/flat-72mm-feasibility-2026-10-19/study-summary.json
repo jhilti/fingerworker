@@ -1,0 +1,20 @@
+{
+  "scope": "Paper geometry and targeted source-mesh checks only; no new complete CAD model",
+  "user_clear_finger_width_mm": 72,
+  "deck_with_6mm_walls_mm": 84,
+  "current_hardware_flat_candidates_mm": [
+    138,
+    132
+  ],
+  "height_target_mm": 32,
+  "long_bay_example_width_mm": 100,
+  "long_bay_conditional_length_arithmetic_mm": [
+    288.1,
+    327.1
+  ],
+  "long_bay_qualification": "288.1 omits support/sensor/end allowances;327.1 retains the current module axial envelope. Neither is a complete100mm CAD model.",
+  "baseline_unchanged": true,
+  "baseline_source_sha256": "43a2dc70e3eed4308534da7772f4b82bf845c97d6f6a53456d0d63aa9552fb33",
+  "manufacturing_release": false,
+  "report_sha256": "c5e8d1e11352a7d9ccea9b394019f74dd63b748039cc45cb88649c55857d3c66"
+}

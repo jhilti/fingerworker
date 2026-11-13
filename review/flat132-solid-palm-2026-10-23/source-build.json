@@ -1,0 +1,89 @@
+{
+  "file": "fingerworker_flat132_solid_palm.fs",
+  "sha256": "62fabee79cf36d0e0b6d4cd8430700519dbc529a5ea08f70018b14b0c3f2271f",
+  "bytes": 109904,
+  "status": "LOCAL_R6_SOURCE_NATIVE_REGEN_AND_VALIDATION_PENDING",
+  "baseline_source": "review/flat132-reach-fit-2026-10-23/fingerworker_flat132_reach_fit.fs",
+  "baseline_source_sha256": "d7f476fa34e862e2b0e1b5a5e91fff0f852b9308a589fafd11ce59e01269915a",
+  "expected_native_body_count_with_electronics": 105,
+  "expected_device_body_count": 52,
+  "expected_print_part_count": 14,
+  "geometry_change_ledger": [
+    "P02 gains solid former P03 outer half-cylinder: axis X−27/Z19.75, Y−43…43, radius10.25 mm, end fillet1.2 mm; flat back X−27.",
+    "Omit former P03 R7.75 core-bore and Z14.6 bottom subtraction; fill sleeve/core stock and old0.1 mm split down into unchanged plate.",
+    "Union solid contact stock into the original rigid P02; one connected CAD solid, no separate P03 or internal cap seam.",
+    "Remove two obsolete front retaining tabs X−27…−24.5, Y−43…−39/+39…+43, Z14.6…30.",
+    "Existing R7.75 core Y−58…58, plate, feet, keys, all palm mounting bores and enclosure insert pilots remain unchanged.",
+    "Wrist-facing contact X−37.25 and original outer R10.25 contact curve remain unchanged; electronics-cover extension is not included.",
+    "P07 return pads, R5 motion/source domain, 132 mm frame, 72 mm clear finger pocket and81 mm steel ISO sleeves unchanged."
+  ],
+  "qualification": "Solid CAD stock does not prescribe slicer infill or qualify material, comfort, print process, strength or500 N capacity.",
+  "changes": [
+    {
+      "label": "R6 study identification",
+      "count": 1,
+      "old": " * Fingerworker MVP - R5 reach-fit CAD STUDY; load rating unverified.",
+      "new": " * Fingerworker MVP - R6 solid-palm CAD prototype; load rating unverified.\n * R6: former P03 palm contact stock is solid and joined into rigid P02.\n * No separate palm sleeve, core bore, bottom interface gap or retaining tabs.\n * Wrist-facing outer contact curve, palm mounts and electronics are retained.\n * Four P07 TPU return bumpers remain separate and unchanged.\n * Inherited R5 motion and selected81 mm ISO sleeves are retained."
+    },
+    {
+      "label": "R6 feature name",
+      "count": 1,
+      "old": "\"Feature Name Template\" : \"Flat132 R5 reach study - 5 mm closer and full travel\"",
+      "new": "\"Feature Name Template\" : \"Flat132 R6 - one-piece printable palm block\""
+    },
+    {
+      "label": "replace separate hollow palm cap with joined solid contact stock",
+      "count": 1,
+      "old": "        makeCylinder(context,id + \"palmCushion\",vector(-27,-43,19.75)*mm,vector(-27,43,19.75)*mm,10.25*mm);\n        opFillet(context,id + \"sleeveEnds\",{\n            \"entities\":qCreatedBy(id + \"palmCushion\",EntityType.EDGE),\n            \"radius\":1.2*mm,\"tangentPropagation\":true });\n        makeCylinder(context,id + \"sleeveCoreTool\",vector(-27,-44,19.75)*mm,vector(-27,44,19.75)*mm,7.75*mm);\n        makeBox(context,id + \"sleeveBottomTool\",vector(-50,-45,0)*mm,vector(-18,45,14.6)*mm);\n        makeBox(context,id + \"palmSleeveForwardHalfTool\",vector(-27,-45,0)*mm,vector(0,45,40)*mm);\n        cut(context,id + \"openSleeve\",body(id + \"palmCushion\"),qUnion([body(id + \"sleeveCoreTool\"),body(id + \"sleeveBottomTool\"),body(id + \"palmSleeveForwardHalfTool\")]));\n        // A plain half-shell loses the original over-centre radial capture.\n        // Two integral end returns cover the flat D-core face while leaving\n        // the central mechanism and contact surface clear. Pull-off retention\n        // and real fit remain prototype qualifications; no added cam/hardware.\n        for (var side in [-1,1])\n        {\n            const t=side == -1 ? \"0\" : \"1\";\n            const loY=side == -1 ? -43 : 39;\n            makeBox(context,id + (\"palmSleeveReturn\"~t),vector(-27,loY,14.6)*mm,\n                vector(-24.5,loY+4,30)*mm);\n            join(context,id + (\"palmSleeveReturnJoin\"~t),\n                [body(id + \"palmCushion\"),body(id + (\"palmSleeveReturn\"~t))]);\n        }\n        nameBody(context,body(id + \"palmPad\"),\"P02 PRINT STUDY - plus7 mm wrist half-round palm, retained R2 keyed mounts\");\n        nameBody(context,body(id + \"palmCushion\"),\"P03 TPU PRINT - plus7 mm half-round palm cap, two front returns\");\n\n",
+      "new": "        // R6 one-piece rigid palm block. Preserve the former cap's outer\n        // wrist-facing half-round and rounded ends, but omit its core bore and\n        // bottom cut. Solid stock joins the original core and plate, including\n        // the old0.1 mm plate-to-cap split; there is no internal sleeve seam.\n        // Former front retaining returns are unnecessary without a loose cap.\n        makeCylinder(context,id + \"palmContactStock\",vector(-27,-43,19.75)*mm,\n            vector(-27,43,19.75)*mm,10.25*mm);\n        opFillet(context,id + \"palmContactEnds\",{\n            \"entities\":qCreatedBy(id + \"palmContactStock\",EntityType.EDGE),\n            \"radius\":1.2*mm,\"tangentPropagation\":true });\n        makeBox(context,id + \"palmContactForwardHalfTool\",vector(-27,-45,0)*mm,\n            vector(0,45,40)*mm);\n        cut(context,id + \"palmContactHalfCut\",body(id + \"palmContactStock\"),\n            body(id + \"palmContactForwardHalfTool\"));\n        join(context,id + \"palmSolidBlockJoin\",\n            [body(id + \"palmPad\"),body(id + \"palmContactStock\")]);\n        nameBody(context,body(id + \"palmPad\"),\n            \"P02 PRINT STUDY - one-piece rigid half-round palm block, retained keyed mounts\");\n\n"
+    },
+    {
+      "label": "remove obsolete sleeve body query",
+      "count": 1,
+      "old": "    const sleeve = body(id + \"palmCushion\");\n",
+      "new": ""
+    },
+    {
+      "label": "merged palm collision groups",
+      "count": 7,
+      "old": "palm,sleeve",
+      "new": "palm"
+    },
+    {
+      "label": "direct merged palm collision query",
+      "count": 1,
+      "old": "qUnion([palm])",
+      "new": "palm"
+    },
+    {
+      "label": "remove obsolete palm-to-sleeve contact audit",
+      "count": 1,
+      "old": "        auditSolidPair(context,\"Palm sleeve / rigid support\",sleeve,palm,true),\n",
+      "new": ""
+    },
+    {
+      "label": "hand now contacts rigid palm block",
+      "count": 1,
+      "old": "        auditSolidPair(context,\"Hand / palm sleeve\",hand,sleeve,true),",
+      "new": "        auditSolidPair(context,\"Hand / rigid palm block\",hand,palm,true),"
+    },
+    {
+      "label": "hand exclusion follows merged palm",
+      "count": 1,
+      "old": "qSubtraction(device,qUnion([hand,carriage,sleeve]))",
+      "new": "qSubtraction(device,qUnion([hand,carriage,palm]))"
+    },
+    {
+      "label": "remove separate soft cap appearance",
+      "count": 1,
+      "old": "        finishBody(context,body(id + \"palmCushion\"),color(0.15,0.20,0.17));\n",
+      "new": ""
+    },
+    {
+      "label": "appearance comment reflects rigid contact",
+      "count": 1,
+      "old": "        // Neutral green frame, warm tan climbing surface, dark soft contact.",
+      "new": "        // Neutral green frame and one-piece rigid palm; warm tan climbing surface."
+    }
+  ]
+}

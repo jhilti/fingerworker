@@ -1,0 +1,31 @@
+{
+  "revision": "Flat132 R2",
+  "source_geometry_sha256": "6c877ec401051cdf840a93bb28dfeb9c3fb5a13f5324c93b567c8f87e0dfa2ad",
+  "final_source_sha256": "d5eca2f3d87bf4b9a47c1987ee91ba1d56e8c87003eca101677a148a2e605654",
+  "source_change_certificate": "../source-ui-guard-only-certificate.json",
+  "replace_together": [
+    "P01",
+    "P05"
+  ],
+  "parts": [
+    {
+      "ref": "P01",
+      "file": "P01.stl",
+      "sha256": "06fb5147bebd03b874a18eb30cc50fed76ae5d6e8cffab7a3b3ecc5c9a37cdc3",
+      "units": "mm",
+      "coordinate_system": "native neutral assembly",
+      "material_class": "rigid printed part"
+    },
+    {
+      "ref": "P05",
+      "file": "P05.stl",
+      "sha256": "58ccc46eccb517b968ad75f0a8aab52cc853f2621410fa6bc1eecfff6d182ccd",
+      "units": "mm",
+      "coordinate_system": "native neutral assembly",
+      "material_class": "rigid printed part"
+    }
+  ],
+  "sliced": false,
+  "load_qualified": false,
+  "target_force_N": 500
+}

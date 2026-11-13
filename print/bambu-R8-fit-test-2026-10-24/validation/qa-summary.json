@@ -1,0 +1,47 @@
+{
+  "status": "PASS_PREPARED_UNLOADED_FIT_PROJECT",
+  "failed_checks": 0,
+  "unresolved_checks": 0,
+  "independent_check_count": 759,
+  "scope": "Full-size one-plate19-object H2D0.4 PLA unloaded hand-fit/manual-motion project; native source/triangles, rigid transforms, profiles/layout, actual sliced toolpaths/supports, separate p0 Q01 fixture assembly. Physical printed fit/comfort/tolerance and strength remain untested.",
+  "printer": "Bambu Lab H2D",
+  "nozzle_mm": 0.4,
+  "filament": "PLA",
+  "bed": "Textured PEI Plate",
+  "plate_count": 1,
+  "object_count": 19,
+  "scale": 1,
+  "frozen_product_revision": "R8",
+  "source_sha256": "6099df42e341ff9f5c3439709a23107325d10ef922f616bdcda6fa6ef64d41c1",
+  "immutable_version_id": "6965afcca3af7c58ef3ac73f",
+  "fixture_source_sha256": "f7749b4a4b7c082a2ce6780ef5b3a512be81a92741e74838578b667098f5c18e",
+  "report_statuses": {
+    "qa-project.json": "PASS_FULL_SCALE_NATIVE_EDITABLE_PROJECT",
+    "qa-toolpaths.json": "PASS_ACTUAL_UNLOADED_FIT_SLICE",
+    "qa-q01-fixture.json": "PASS_UNLOADED_NOMINAL_FIXTURE_ASSEMBLY"
+  },
+  "files_sha256": {
+    "print/bambu-R8-fit-test-2026-10-24/Fingerworker_R8_H2D_04mm_PLA_Fit_Test.3mf": "3bd6c6dc06f3f5f7c4eafa575f1a0cbf52148a8a82ca867a89d3fac06b2e063a",
+    "print/bambu-R8-fit-test-2026-10-24/validation/Fingerworker_R8_slice_verification.gcode.3mf": "c2063f6319b4453fae3a8bfa35152499f62d5db6793e25b0dbe1178dd68f0203",
+    "print/bambu-R8-fit-test-2026-10-24/plate-layout.json": "473337c2d396d4cc8896270a836d76fa9a40028eb131ee1e6428bbebf5852642",
+    "print/bambu-R8-fit-test-2026-10-24/fixture/manifest.json": "e8750e5e298260865f27c9400be91d2fe561a503600fa5d4630f9f48ebf9c099",
+    "review/bambu-R8-fit-test-2026-10-24/qa-project.json": "f9f93561db8a518db767ab93671ce63df19a4def47c53cb7e036c9693338cdef",
+    "review/bambu-R8-fit-test-2026-10-24/qa-toolpaths.json": "666abfed5853bcdc11f1aa5ed15e721e253f583cf7bfdce5b3aa3bfbe44846f3",
+    "review/bambu-R8-fit-test-2026-10-24/qa-q01-fixture.json": "cbab1ac7d31e9d024e51b9d82432840b8db91493496ff0c6c21760a16ee40199",
+    "review/bambu-R8-fit-test-2026-10-24/audit_bambu_project.py": "b0db46cf2cb63fd1d336c7a531de9dbc8b0120a206e5a3c963e8d4475d701283",
+    "review/bambu-R8-fit-test-2026-10-24/audit_bambu_toolpaths.py": "172fb3cda19ae897fc9e6cf79bab122da77df2b5ad3e4bcaf17b11ff558534da",
+    "review/bambu-R8-fit-test-2026-10-24/audit_q01_fixture.py": "a973fa26aefda736d33a747aeae4921847c663b9ad38d6058a35f16d7f6dfbb2",
+    "review/bambu-R8-fit-test-2026-10-24/FIT_TEST_README.md": "a4252edb6c559466f4bb18f1eaa378c51581bed92baef41b376a9fa55da45156",
+    "review/bambu-R8-fit-test-2026-10-24/ASSEMBLY_DETAILS.md": "945e3910868fd9b7a7abb37fa860f718b491079ca5bb1cbf15dc86c00370a09c",
+    "review/bambu-R8-fit-test-2026-10-24/PRINT_QA_NOTES.md": "8cf641eff2721c31b8883dc59fc0547c33d3a5d2deb876946c712984a3f0a64b",
+    "review/bambu-R8-fit-test-2026-10-24/qa-orientation-study.json": "a4625dc1b67149d34cd0dceb8ed9dfbe5eaeb72597f304660d942c36c2216882",
+    "review/bambu-R8-fit-test-2026-10-24/qa_orientation_study.py": "e51a84d941c5eedd32c4250b3425a0359fc479474cf4cac2aa97fa580f55022e"
+  },
+  "limitations": [
+    "Q01 is p0-only and has no axial latch; support the assembly and use gentle seating contact.",
+    "Four hard PLA pads and two printed rod proxies do not reproduce final material/friction/cushioning.",
+    "Real fasteners/compatible heat-set inserts are required; no functional printed threads are supplied.",
+    "No springs, preload, isometric loading, force measurement, calibration or500N qualification."
+  ],
+  "slicer_header": "; HEADER_BLOCK_START\n; BambuStudio 02.08.02.61\n; model printing time: 17h 57m 54s; total estimated time: 18h 3m 21s\n; total layer number: 821\n; total filament length [mm] : 90179.52\n; total filament volume [cm^3] : 216907.17\n; total filament weight [g] : 268.96\n; model label id: 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19\n; object max height: 35.00,36.60,59.00,22.00,9.60,6.80,6.00,6.00,26.00,26.00,9.40,9.40,10.00,1.00,1.50,1.50,1.50,1.50,28.00\n; filament_density: 1.24\n; filament_diameter: 1.75\n; max_z_height: 59.00\n; filament: 1\n; support_material_on_wipe_tower: 0\n; HEADER_BLOCK_END"
+}

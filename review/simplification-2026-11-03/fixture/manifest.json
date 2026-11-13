@@ -1,0 +1,174 @@
+{
+  "ref": "Q01",
+  "name": "Q01_R12_FIXED_UNLOADED_FIXTURE",
+  "status": "LOCAL_PRINT_TEST_FIXTURE_NOT_PRODUCT_CAD",
+  "source": "build_q01.py",
+  "source_sha256": "974c09cec5dd09858e172c1c5537d40c771edc7396990ff33ee4fefcdc9779b6",
+  "product_revision": "R12",
+  "units": "mm",
+  "quantity": 1,
+  "parameters": {
+    "axis_y_z_mm": [
+      0,
+      18
+    ],
+    "grounded_reaction_block": {
+      "x_mm": [
+        -12,
+        -8
+      ],
+      "y_mm": [
+        -6,
+        6
+      ],
+      "z_mm": [
+        2.7,
+        25
+      ]
+    },
+    "shaft": {
+      "x_mm": [
+        -8.1,
+        0.1
+      ],
+      "radius_mm": 2.8
+    },
+    "shoulder_support_cone": {
+      "x_mm": [
+        -1.2,
+        0
+      ],
+      "radii_mm": [
+        2.8,
+        4
+      ]
+    },
+    "pusher_shoulder": {
+      "x_mm": [
+        0,
+        1
+      ],
+      "radius_mm": 4
+    },
+    "unthreaded_tail": {
+      "x_mm": [
+        0.9,
+        7.5
+      ],
+      "radius_mm": 1.5
+    }
+  },
+  "brep_valid": true,
+  "solid_count": 1,
+  "shell_count": 1,
+  "brep_volume_mm3": 1378.128425197081,
+  "stl_watertight": true,
+  "assembly_bounds_mm": [
+    [
+      -12.0,
+      -6.0,
+      2.700000047683716
+    ],
+    [
+      7.5,
+      6.0,
+      25.0
+    ]
+  ],
+  "print_bounds_mm": [
+    [
+      -6.0,
+      -11.149999952316284,
+      0.0
+    ],
+    [
+      6.0,
+      11.15,
+      19.5
+    ]
+  ],
+  "assembly_to_print_matrix": [
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      -13.85
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      12.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "placement": "Reaction block rear X-12 against fixed support; foot Z2.7 on base; P05 shoulder face X1; axis Y0/Z18.",
+  "contacts": [
+    {
+      "ref": "P01",
+      "description": "Block rear face seats on new fixed X-12 reaction and foot on pocket floor Z2.7."
+    },
+    {
+      "ref": "P05",
+      "description": "Shoulder front X1 bears on yoke; plain diameter3 tail enters diameter3.2 bore."
+    }
+  ],
+  "nominal_clearances_mm": {
+    "tail_radial": 0.1,
+    "block_to_P05_x": 1
+  },
+  "legal_test_domain": {
+    "preload_p_mm": 0,
+    "rear_advance_a_mm": 0,
+    "user_stroke_u_mm": [
+      0,
+      30
+    ]
+  },
+  "print": {
+    "orientation": "Supplied print-mm STL: full12x22.3mm reaction face down, Xaxis vertical.",
+    "material": "PLA unloaded fit proxy",
+    "layer_height_mm": 0.2,
+    "wall_loops": 4,
+    "infill_percent": 100,
+    "supports": "None; integral45-degree shoulder taper. Reaction face first layer; P05 shoulder facing upward.",
+    "brim_mm": 3
+  },
+  "assembly": [
+    "Omit all real sensor-stack parts, springs, spring-seat hardware and isometric sleeves. Never combine Q01 with the real sensor stack.",
+    "Place the flat foot on the pocket floor Z2.7 and the broad rear face against the fixed X-12 support. Tail points toward the grip (+X).",
+    "Slide P05 from +X over the plain diameter3 tail until its rear bearing face touches the shoulder at X1. Align using the rods; keep gentle compression by hand.",
+    "Complete the unloaded carriage and rear-gate assembly. Manually inspect0..30mm travel. Do not apply springs, isometric force or calibration loads.",
+    "Remove rear gate/rods as needed, slide P05 +X clear of the tail, then lift Q01 straight upward +Z40 before installing the real sensor stack."
+  ],
+  "limitations": [
+    "No axial latch: support the assembly and keep gentle hand contact; do not lift by Q01.",
+    "No force-bearing sensor replacement, calibration tool or strength test specimen.",
+    "CAD clearances do not qualify physical print fit, friction, strength or sensor response."
+  ],
+  "files": {
+    "Q01_R12_FIXED_UNLOADED_FIXTURE_assembly-mm.stl": {
+      "sha256": "6061e924713db0bd1a193251cd5789f44ccdd9c84518528afdec55449c6907bb",
+      "bytes": 119184
+    },
+    "Q01_R12_FIXED_UNLOADED_FIXTURE_assembly-mm.step": {
+      "sha256": "7247562f38fe9ff79f270475464e5667169e4193e515695a2ce6a72d832516ac",
+      "bytes": 28194
+    },
+    "Q01_R12_FIXED_UNLOADED_FIXTURE_print-mm.stl": {
+      "sha256": "02d56f443c2dd7b9348887153e087fbabb46ba6ebab36d346c34c1bc59ee5a6e",
+      "bytes": 119184
+    }
+  }
+}

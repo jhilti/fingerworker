@@ -1,0 +1,33 @@
+{
+  "status": "PASS: dimensional ledger and source wiring only",
+  "dynamic_force_cases": 2562,
+  "isometric_preload_positions": 21,
+  "DF2194_pair_force_N": {
+    "p0": [
+      6.614,
+      205.034
+    ],
+    "p2": [
+      19.842,
+      218.262
+    ]
+  },
+  "DF2185_pair_force_N": {
+    "p0": [
+      29.672,
+      252.212
+    ],
+    "p2": [
+      44.508,
+      267.048
+    ]
+  },
+  "spring_installed_length_mm": [
+    69,
+    101
+  ],
+  "isometric_sleeve_length_mm": 86,
+  "cad_source_sha256": "f3ab02aa4140d42ef01c57577feee8dfd478a9d36ec5e32321e4875039e4c1b7",
+  "scope": "Local dimensional/source checks for ordered springs; fresh Onshape checks are separately bound in enclosure-2026-10-11/cad-validation.json",
+  "manufacturing_release": false
+}

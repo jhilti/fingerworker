@@ -1,0 +1,19 @@
+Ref,Menge,Platte,Material,Hinweis,STL
+P01,1,1,PLA,INTEGRATED BASE AND SOLID PALM - UNLOADED FIT STUDY,P01_INTEGRATED_SOLID_PALM.stl
+P04,1,2,PLA,R10 unchanged rigid printed part - unloaded fit study,P04.stl
+P05,1,2,PLA,R10 unchanged rigid printed part - unloaded fit study,P05.stl
+P08,1,2,PLA,R10 unchanged rigid printed part - unloaded fit study,P08.stl
+P09,1,2,PLA,R10 unchanged rigid printed part - unloaded fit study,P09.stl
+H040,1,2,PLA,RIGID PLA SHAPE PROXY - NO LOAD,H040_HARD_PLA_PROXY_NO_LOAD.stl
+H041,1,2,PLA,RIGID PLA SHAPE PROXY - NO LOAD,H041_HARD_PLA_PROXY_NO_LOAD.stl
+P060,1,2,PLA,R10 unchanged rigid printed part - unloaded fit study,P060.stl
+P061,1,2,PLA,R10 unchanged rigid printed part - unloaded fit study,P061.stl
+P120,1,2,PLA,R10 unchanged rigid printed part - unloaded fit study,P120.stl
+P121,1,2,PLA,R10 unchanged rigid printed part - unloaded fit study,P121.stl
+P11,1,2,PLA,R10 unchanged rigid printed part - unloaded fit study,P11.stl
+P10,1,2,PLA,R10 unchanged rigid printed part - unloaded fit study,P10.stl
+P070a,1,2,PLA,RIGID PLA SHAPE PROXY - NO LOAD,P070a_HARD_PLA_PROXY_NO_LOAD.stl
+P070b,1,2,PLA,RIGID PLA SHAPE PROXY - NO LOAD,P070b_HARD_PLA_PROXY_NO_LOAD.stl
+P071a,1,2,PLA,RIGID PLA SHAPE PROXY - NO LOAD,P071a_HARD_PLA_PROXY_NO_LOAD.stl
+P071b,1,2,PLA,RIGID PLA SHAPE PROXY - NO LOAD,P071b_HARD_PLA_PROXY_NO_LOAD.stl
+Q01,1,2,PLA,UNLOADED TEST FIXTURE - NOT A PRODUCTION PART,Q01_UNLOADED_TEST_FIXTURE.stl

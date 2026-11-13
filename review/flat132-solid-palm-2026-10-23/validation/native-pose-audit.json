@@ -1,0 +1,1324 @@
+{
+  "source_sha256": "62fabee79cf36d0e0b6d4cd8430700519dbc529a5ea08f70018b14b0c3f2271f",
+  "poses": [
+    {
+      "pose": "dynamic28_p2_heavy",
+      "archive": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-solid-palm-2026-10-23/native/Flat132_R6_max28_p2_heavy_final.zip",
+      "sha256": "0030255f56c476f6b0060053deab84231d22839de04cfffd77493ce45cb759c9",
+      "status": "PASS",
+      "part_count": 105,
+      "checks": [
+        {
+          "ref": "E01",
+          "canonical_triangle_sha256": "d6b61d155f5e88292ee14ba190efdbbce7321d747da286f517188115cc03a07b",
+          "comparison_triangle_sha256": "d6b61d155f5e88292ee14ba190efdbbce7321d747da286f517188115cc03a07b",
+          "status": "PASS"
+        },
+        {
+          "ref": "E05",
+          "canonical_triangle_sha256": "24227fe56a4f0738fe73d8b931da3c7f5671f9cbc92cbef96637c791a15ed906",
+          "comparison_triangle_sha256": "24227fe56a4f0738fe73d8b931da3c7f5671f9cbc92cbef96637c791a15ed906",
+          "status": "PASS"
+        },
+        {
+          "ref": "E06",
+          "canonical_triangle_sha256": "c1a945dda35d094eef0cacf62a386009c36a3b0cf87a7dd9645550fb8efefd07",
+          "comparison_triangle_sha256": "c1a945dda35d094eef0cacf62a386009c36a3b0cf87a7dd9645550fb8efefd07",
+          "status": "PASS"
+        },
+        {
+          "ref": "E07",
+          "canonical_triangle_sha256": "0ccb8f627f82042b0dde7da94fe0168b7410edcdecab7c8ff5d0c89234547301",
+          "comparison_triangle_sha256": "0ccb8f627f82042b0dde7da94fe0168b7410edcdecab7c8ff5d0c89234547301",
+          "status": "PASS"
+        },
+        {
+          "ref": "E08",
+          "canonical_triangle_sha256": "05e155b6dd534c923874de8c114901414682a470c75ace497e09cfa820da9615",
+          "comparison_triangle_sha256": "05e155b6dd534c923874de8c114901414682a470c75ace497e09cfa820da9615",
+          "status": "PASS"
+        },
+        {
+          "ref": "H01",
+          "canonical_triangle_sha256": "85a1482c42648828a08868b1677c87d60067e2f400770b8e0ef812fe69b34663",
+          "comparison_triangle_sha256": "85a1482c42648828a08868b1677c87d60067e2f400770b8e0ef812fe69b34663",
+          "status": "PASS"
+        },
+        {
+          "ref": "H02",
+          "canonical_triangle_sha256": "d328c21b9568d2046eede904d8e5b62300fa03076bc3d2ad0dcc190839dc903b",
+          "comparison_triangle_sha256": "d328c21b9568d2046eede904d8e5b62300fa03076bc3d2ad0dcc190839dc903b",
+          "status": "PASS"
+        },
+        {
+          "ref": "H030",
+          "canonical_triangle_sha256": "79f38a16fbe49303e01a238927c1d835bcc40927ee1b56ccefb9ecf244507622",
+          "comparison_triangle_sha256": "79f38a16fbe49303e01a238927c1d835bcc40927ee1b56ccefb9ecf244507622",
+          "status": "PASS"
+        },
+        {
+          "ref": "H031",
+          "canonical_triangle_sha256": "ff6f57f5732dd0cec6df15474191f6c8e40f0161a8771e7a38132e524eb6278b",
+          "comparison_triangle_sha256": "ff6f57f5732dd0cec6df15474191f6c8e40f0161a8771e7a38132e524eb6278b",
+          "status": "PASS"
+        },
+        {
+          "ref": "H040",
+          "canonical_triangle_sha256": "935ec51b45ff03441480be49e4dda902982327d8bb61aa5662559dfb11a508b1",
+          "comparison_triangle_sha256": "935ec51b45ff03441480be49e4dda902982327d8bb61aa5662559dfb11a508b1",
+          "status": "PASS"
+        },
+        {
+          "ref": "H041",
+          "canonical_triangle_sha256": "4070438ddd83cc5c32135e40a987d28c11f254b87a5d7ff2fc16b776e8ba1ba4",
+          "comparison_triangle_sha256": "4070438ddd83cc5c32135e40a987d28c11f254b87a5d7ff2fc16b776e8ba1ba4",
+          "status": "PASS"
+        },
+        {
+          "ref": "H050",
+          "canonical_triangle_sha256": "ce646cef8e7d2c13ff862254af7ed0d3d407812bfb40c92d1111b327aae8720b",
+          "comparison_triangle_sha256": "ce646cef8e7d2c13ff862254af7ed0d3d407812bfb40c92d1111b327aae8720b",
+          "status": "PASS"
+        },
+        {
+          "ref": "H051",
+          "canonical_triangle_sha256": "71352014acce725c764173706b0548abc82a8dd59300413e73721a0f8a164a78",
+          "comparison_triangle_sha256": "71352014acce725c764173706b0548abc82a8dd59300413e73721a0f8a164a78",
+          "status": "PASS"
+        },
+        {
+          "ref": "H060",
+          "canonical_triangle_sha256": "abe77684456c55b65ae86445250976f27e3aeccdb0bd18bc9886ff8376513278",
+          "comparison_triangle_sha256": "abe77684456c55b65ae86445250976f27e3aeccdb0bd18bc9886ff8376513278",
+          "status": "PASS"
+        },
+        {
+          "ref": "H061",
+          "canonical_triangle_sha256": "bc31c6702867a48467ceb0e7258216da27ff226eb1a5412f34a238baf26375d5",
+          "comparison_triangle_sha256": "bc31c6702867a48467ceb0e7258216da27ff226eb1a5412f34a238baf26375d5",
+          "status": "PASS"
+        },
+        {
+          "ref": "H09",
+          "canonical_triangle_sha256": "199ee52deb37d44ab1cafd775cc6f24277287572f266611acde7ac3d79acc762",
+          "comparison_triangle_sha256": "199ee52deb37d44ab1cafd775cc6f24277287572f266611acde7ac3d79acc762",
+          "status": "PASS"
+        },
+        {
+          "ref": "H09a",
+          "canonical_triangle_sha256": "8e86e93fe9e6a0e0ffa08bfef152ac9559a32ef69d19b5fe34b3fd2ecd5b1748",
+          "comparison_triangle_sha256": "8e86e93fe9e6a0e0ffa08bfef152ac9559a32ef69d19b5fe34b3fd2ecd5b1748",
+          "status": "PASS"
+        },
+        {
+          "ref": "H09b",
+          "canonical_triangle_sha256": "eb3d8d95025ad2446304eae0e62623bfff7c87b1e12d5d3024942fcb210835bb",
+          "comparison_triangle_sha256": "eb3d8d95025ad2446304eae0e62623bfff7c87b1e12d5d3024942fcb210835bb",
+          "status": "PASS"
+        },
+        {
+          "ref": "H10",
+          "canonical_triangle_sha256": "e689dd9fe8af281508a87e290f98469f9c1704e30ad41f2dc8baebb865cd8b11",
+          "comparison_triangle_sha256": "e689dd9fe8af281508a87e290f98469f9c1704e30ad41f2dc8baebb865cd8b11",
+          "status": "PASS"
+        },
+        {
+          "ref": "H11",
+          "canonical_triangle_sha256": "a87745e59560f582f670a8f5aaa9d6337ec5362781c038c213de361007c757be",
+          "comparison_triangle_sha256": "a87745e59560f582f670a8f5aaa9d6337ec5362781c038c213de361007c757be",
+          "status": "PASS"
+        },
+        {
+          "ref": "H12",
+          "canonical_triangle_sha256": "e2b518b3812a1506ba898c31bae2bb2320a2e3ec78e4e3b9ea64295135847f75",
+          "comparison_triangle_sha256": "e2b518b3812a1506ba898c31bae2bb2320a2e3ec78e4e3b9ea64295135847f75",
+          "status": "PASS"
+        },
+        {
+          "ref": "H13",
+          "canonical_triangle_sha256": "770e3532a14bf21da473d71dd8317f14511080e99bc6cc3d295d252422a0959a",
+          "comparison_triangle_sha256": "770e3532a14bf21da473d71dd8317f14511080e99bc6cc3d295d252422a0959a",
+          "status": "PASS"
+        },
+        {
+          "ref": "H15",
+          "canonical_triangle_sha256": "54685c9fcff07bb546c4f47ae9b4f590c2647b99dca89271bd3b362944dcbfc1",
+          "comparison_triangle_sha256": "54685c9fcff07bb546c4f47ae9b4f590c2647b99dca89271bd3b362944dcbfc1",
+          "status": "PASS"
+        },
+        {
+          "ref": "H160",
+          "canonical_triangle_sha256": "7476283184ad5d7bc5006cb50274cec55cf55a93c88b53935ec7c84f4e7dfde9",
+          "comparison_triangle_sha256": "7476283184ad5d7bc5006cb50274cec55cf55a93c88b53935ec7c84f4e7dfde9",
+          "status": "PASS"
+        },
+        {
+          "ref": "H161",
+          "canonical_triangle_sha256": "92407c4e3ffeb340e2704b7fcad1fed16e951821d33482315a68c4a9fa23445b",
+          "comparison_triangle_sha256": "92407c4e3ffeb340e2704b7fcad1fed16e951821d33482315a68c4a9fa23445b",
+          "status": "PASS"
+        },
+        {
+          "ref": "H170",
+          "canonical_triangle_sha256": "40f6d3b19d44674f067ba42ebbc96b9f1533e89278c113bbf2558bc8388a2f2b",
+          "comparison_triangle_sha256": "40f6d3b19d44674f067ba42ebbc96b9f1533e89278c113bbf2558bc8388a2f2b",
+          "status": "PASS"
+        },
+        {
+          "ref": "H171",
+          "canonical_triangle_sha256": "6df4734a02eab1004914243843dd2cbafd706014d803e44ddd8df1a0e61a3128",
+          "comparison_triangle_sha256": "6df4734a02eab1004914243843dd2cbafd706014d803e44ddd8df1a0e61a3128",
+          "status": "PASS"
+        },
+        {
+          "ref": "H180",
+          "canonical_triangle_sha256": "cdfb266a31975f9954b8d395696a0b520380525342d1cd6b9ce6e42d425df10f",
+          "comparison_triangle_sha256": "cdfb266a31975f9954b8d395696a0b520380525342d1cd6b9ce6e42d425df10f",
+          "status": "PASS"
+        },
+        {
+          "ref": "H181",
+          "canonical_triangle_sha256": "0ec363f90a1bf5dce8e09ede924f0a5ebdaf354e528c6d936152e1681169e211",
+          "comparison_triangle_sha256": "0ec363f90a1bf5dce8e09ede924f0a5ebdaf354e528c6d936152e1681169e211",
+          "status": "PASS"
+        },
+        {
+          "ref": "H190",
+          "canonical_triangle_sha256": "9679902062050e9d4f47e9ffa92af99f1d4b9d443fe1090a0777e172f3394b00",
+          "comparison_triangle_sha256": "9679902062050e9d4f47e9ffa92af99f1d4b9d443fe1090a0777e172f3394b00",
+          "status": "PASS"
+        },
+        {
+          "ref": "H191",
+          "canonical_triangle_sha256": "1791749fb52e5d6cc1cc1624c51f86626e6c64a06ecae817ff863f8d559bbef2",
+          "comparison_triangle_sha256": "1791749fb52e5d6cc1cc1624c51f86626e6c64a06ecae817ff863f8d559bbef2",
+          "status": "PASS"
+        },
+        {
+          "ref": "H20",
+          "canonical_triangle_sha256": "bb5f441d1ecbdf9ae7a68738afc544296a299dfc72c85af3068e0250b4aac688",
+          "comparison_triangle_sha256": "bb5f441d1ecbdf9ae7a68738afc544296a299dfc72c85af3068e0250b4aac688",
+          "status": "PASS"
+        },
+        {
+          "ref": "H21",
+          "canonical_triangle_sha256": "38a6d447bd90e3a56c4dbb18b4fee332680320c9e48b6f6519e7273c878757dc",
+          "comparison_triangle_sha256": "38a6d447bd90e3a56c4dbb18b4fee332680320c9e48b6f6519e7273c878757dc",
+          "status": "PASS"
+        },
+        {
+          "ref": "H22",
+          "canonical_triangle_sha256": "e57cc2413b6bc7dc816941b51680bb326bce4d9db81af6999500420df9e3a407",
+          "comparison_triangle_sha256": "e57cc2413b6bc7dc816941b51680bb326bce4d9db81af6999500420df9e3a407",
+          "status": "PASS"
+        },
+        {
+          "ref": "H23",
+          "canonical_triangle_sha256": "da61d198ce837dc0bca6e7356fa810fd0aca2274f7785fcdb9ad26fe8fc90436",
+          "comparison_triangle_sha256": "da61d198ce837dc0bca6e7356fa810fd0aca2274f7785fcdb9ad26fe8fc90436",
+          "status": "PASS"
+        },
+        {
+          "ref": "H240",
+          "canonical_triangle_sha256": "ace2bf8ad9203cc706a05c55b1e5eafcdee16afa3e0bb4f80d202f5efa76ee7e",
+          "comparison_triangle_sha256": "ace2bf8ad9203cc706a05c55b1e5eafcdee16afa3e0bb4f80d202f5efa76ee7e",
+          "status": "PASS"
+        },
+        {
+          "ref": "H241",
+          "canonical_triangle_sha256": "51ef2876375f5eb2e52e1c087e8a4af4107144880a40bc5cd570d7272ad0bb1c",
+          "comparison_triangle_sha256": "51ef2876375f5eb2e52e1c087e8a4af4107144880a40bc5cd570d7272ad0bb1c",
+          "status": "PASS"
+        },
+        {
+          "ref": "H242",
+          "canonical_triangle_sha256": "12c87d184c98f8c5853336f61861bb7920dde095d4e9f6a41e42e328e793bcff",
+          "comparison_triangle_sha256": "12c87d184c98f8c5853336f61861bb7920dde095d4e9f6a41e42e328e793bcff",
+          "status": "PASS"
+        },
+        {
+          "ref": "H243",
+          "canonical_triangle_sha256": "96862533f03dd2967612f1b0a724794ff439504fc9c445815ed86b1f435ff027",
+          "comparison_triangle_sha256": "96862533f03dd2967612f1b0a724794ff439504fc9c445815ed86b1f435ff027",
+          "status": "PASS"
+        },
+        {
+          "ref": "H250",
+          "canonical_triangle_sha256": "33b0a3d85a422e525d99d14c8ce38d13e8e814fa354ff7ecf7fd8991db1d0ae1",
+          "comparison_triangle_sha256": "33b0a3d85a422e525d99d14c8ce38d13e8e814fa354ff7ecf7fd8991db1d0ae1",
+          "status": "PASS"
+        },
+        {
+          "ref": "H251",
+          "canonical_triangle_sha256": "217db2a5448745fc5891f33f555e9155193ba2142a1c072520ec37086f415acd",
+          "comparison_triangle_sha256": "217db2a5448745fc5891f33f555e9155193ba2142a1c072520ec37086f415acd",
+          "status": "PASS"
+        },
+        {
+          "ref": "H252",
+          "canonical_triangle_sha256": "63dba444481914d3e9851104c52616071dd6c8313514ac70cb23980dd538b464",
+          "comparison_triangle_sha256": "63dba444481914d3e9851104c52616071dd6c8313514ac70cb23980dd538b464",
+          "status": "PASS"
+        },
+        {
+          "ref": "H253",
+          "canonical_triangle_sha256": "431767c7afc514a6d4d7cb0cea76131db935b434ee3835ada7d125494103fc84",
+          "comparison_triangle_sha256": "431767c7afc514a6d4d7cb0cea76131db935b434ee3835ada7d125494103fc84",
+          "status": "PASS"
+        },
+        {
+          "ref": "P01",
+          "canonical_triangle_sha256": "f8b72e8e2e8b9760ef4a237d0c2141ec7471918290d8017977ccc20eb6414fac",
+          "comparison_triangle_sha256": "f8b72e8e2e8b9760ef4a237d0c2141ec7471918290d8017977ccc20eb6414fac",
+          "status": "PASS"
+        },
+        {
+          "ref": "P02",
+          "canonical_triangle_sha256": "64ce749a17309a60f3efc3240af5407142fb1bfb79902e6c756a85eec850bee6",
+          "comparison_triangle_sha256": "64ce749a17309a60f3efc3240af5407142fb1bfb79902e6c756a85eec850bee6",
+          "status": "PASS"
+        },
+        {
+          "ref": "P04",
+          "canonical_triangle_sha256": "0157cf8fdacdae20f6464dd065ecdcc47bd1430ffffbd6df59f46caccbf4d475",
+          "comparison_triangle_sha256": "0157cf8fdacdae20f6464dd065ecdcc47bd1430ffffbd6df59f46caccbf4d475",
+          "status": "PASS"
+        },
+        {
+          "ref": "P05",
+          "canonical_triangle_sha256": "65dd5e9d019ec722885847af25e4b2986eb76893f5ecd0a2e436c4ccefd94c33",
+          "comparison_triangle_sha256": "65dd5e9d019ec722885847af25e4b2986eb76893f5ecd0a2e436c4ccefd94c33",
+          "status": "PASS"
+        },
+        {
+          "ref": "P060",
+          "canonical_triangle_sha256": "a30b0d831b5567dae3861e98612ddb05cf6e51ad906f3011e40e66c2453ff1e1",
+          "comparison_triangle_sha256": "a30b0d831b5567dae3861e98612ddb05cf6e51ad906f3011e40e66c2453ff1e1",
+          "status": "PASS"
+        },
+        {
+          "ref": "P061",
+          "canonical_triangle_sha256": "711556832e8ef7435bb8978b89b559e52aedef1a56ac0b0963b5653741d23c8c",
+          "comparison_triangle_sha256": "711556832e8ef7435bb8978b89b559e52aedef1a56ac0b0963b5653741d23c8c",
+          "status": "PASS"
+        },
+        {
+          "ref": "P070a",
+          "canonical_triangle_sha256": "b55040a0fd589c13189f6a45c40144112aea80b637319b2ac0e02f1fc011bec9",
+          "comparison_triangle_sha256": "b55040a0fd589c13189f6a45c40144112aea80b637319b2ac0e02f1fc011bec9",
+          "status": "PASS"
+        },
+        {
+          "ref": "P070b",
+          "canonical_triangle_sha256": "dbd288fbc4e2e22031ef040c1d131ca1dbb2cf828ba5c2823b842961f55d2c8f",
+          "comparison_triangle_sha256": "dbd288fbc4e2e22031ef040c1d131ca1dbb2cf828ba5c2823b842961f55d2c8f",
+          "status": "PASS"
+        },
+        {
+          "ref": "P071a",
+          "canonical_triangle_sha256": "a718ff8f81b88fef3e95e94e063e1df85c507252d71c4916e97022e554bf7217",
+          "comparison_triangle_sha256": "a718ff8f81b88fef3e95e94e063e1df85c507252d71c4916e97022e554bf7217",
+          "status": "PASS"
+        },
+        {
+          "ref": "P071b",
+          "canonical_triangle_sha256": "e073b335d5fc10407440335fdcbc25a0ed50a1590c84631111fa15079bee464b",
+          "comparison_triangle_sha256": "e073b335d5fc10407440335fdcbc25a0ed50a1590c84631111fa15079bee464b",
+          "status": "PASS"
+        },
+        {
+          "ref": "P08",
+          "canonical_triangle_sha256": "b6e0438f7df86ff98a3984eb9301d644d45246ae2328ab014fc542273945a49a",
+          "comparison_triangle_sha256": "b6e0438f7df86ff98a3984eb9301d644d45246ae2328ab014fc542273945a49a",
+          "status": "PASS"
+        },
+        {
+          "ref": "P09",
+          "canonical_triangle_sha256": "4816eb2702fe7d67f214fc25e22b331d4d4b7e2771cc2039cd80c196699b8fdf",
+          "comparison_triangle_sha256": "4816eb2702fe7d67f214fc25e22b331d4d4b7e2771cc2039cd80c196699b8fdf",
+          "status": "PASS"
+        },
+        {
+          "ref": "P10",
+          "canonical_triangle_sha256": "56f14f520b4e461a842eb31b2a6abc5ac384b7dd52cb670c092cf1f65d04fa6d",
+          "comparison_triangle_sha256": "56f14f520b4e461a842eb31b2a6abc5ac384b7dd52cb670c092cf1f65d04fa6d",
+          "status": "PASS"
+        },
+        {
+          "ref": "P11",
+          "canonical_triangle_sha256": "eef6eadeb09d08e45a46ae8c0eaf23f896bdb4714bc41fbbf84a0725b7a14dc1",
+          "comparison_triangle_sha256": "eef6eadeb09d08e45a46ae8c0eaf23f896bdb4714bc41fbbf84a0725b7a14dc1",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C1",
+          "canonical_triangle_sha256": "af56f716b7ba41892b0b11499415e2c1a665f4b2c7e07da8f6683d6fe4de5119",
+          "comparison_triangle_sha256": "af56f716b7ba41892b0b11499415e2c1a665f4b2c7e07da8f6683d6fe4de5119",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C10",
+          "canonical_triangle_sha256": "d724ab51736a3e473386e7d4e05dd1199e9ba1684bc8e6d66b317a0b66edf650",
+          "comparison_triangle_sha256": "d724ab51736a3e473386e7d4e05dd1199e9ba1684bc8e6d66b317a0b66edf650",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C11",
+          "canonical_triangle_sha256": "da56cdb7845ceb3b009e96931fb7dc13e3465c36962d6369cf5e1db621341df6",
+          "comparison_triangle_sha256": "da56cdb7845ceb3b009e96931fb7dc13e3465c36962d6369cf5e1db621341df6",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C12",
+          "canonical_triangle_sha256": "19433a9e127bf2bccf5890bbc9bcf9042c1c4a60dfc9eb9f3cce04dea8409cf8",
+          "comparison_triangle_sha256": "19433a9e127bf2bccf5890bbc9bcf9042c1c4a60dfc9eb9f3cce04dea8409cf8",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C13",
+          "canonical_triangle_sha256": "60180602c8fb310ff7c52d43037d82ffb6cae0448f6378eb18bd419a1812874b",
+          "comparison_triangle_sha256": "60180602c8fb310ff7c52d43037d82ffb6cae0448f6378eb18bd419a1812874b",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C14",
+          "canonical_triangle_sha256": "d0239b5e282acc5ec1da523395010a917f5e8929d037d822515453b4d11cae68",
+          "comparison_triangle_sha256": "d0239b5e282acc5ec1da523395010a917f5e8929d037d822515453b4d11cae68",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C15",
+          "canonical_triangle_sha256": "704128ce5e95bd2fe1832bdb72d0bbdf032143d3bc1425316f46378864b3399f",
+          "comparison_triangle_sha256": "704128ce5e95bd2fe1832bdb72d0bbdf032143d3bc1425316f46378864b3399f",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C16",
+          "canonical_triangle_sha256": "1489eb7d9f337eeebe304f3e0d4baabb2d62e5c765a2fb8c31cdb064271f9499",
+          "comparison_triangle_sha256": "1489eb7d9f337eeebe304f3e0d4baabb2d62e5c765a2fb8c31cdb064271f9499",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C2",
+          "canonical_triangle_sha256": "34f568e3c656447d0ed191906904bd9abd73d048495f22f4fa7b8b84f2e22a46",
+          "comparison_triangle_sha256": "34f568e3c656447d0ed191906904bd9abd73d048495f22f4fa7b8b84f2e22a46",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C3",
+          "canonical_triangle_sha256": "999501f6e3bd72e832eb3f2542ab0824a56b021e87962c88e2c5147eec324aa4",
+          "comparison_triangle_sha256": "999501f6e3bd72e832eb3f2542ab0824a56b021e87962c88e2c5147eec324aa4",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C4",
+          "canonical_triangle_sha256": "0ddcbc22f1ff80250bf9dfe0459e68ac25588392456a1541480e61e481b3a072",
+          "comparison_triangle_sha256": "0ddcbc22f1ff80250bf9dfe0459e68ac25588392456a1541480e61e481b3a072",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C5",
+          "canonical_triangle_sha256": "3dd4eb67f74b0a8e976007ab152ce8272a92d6e441481fdc7060dac79f435592",
+          "comparison_triangle_sha256": "3dd4eb67f74b0a8e976007ab152ce8272a92d6e441481fdc7060dac79f435592",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C6",
+          "canonical_triangle_sha256": "8de8cfe984957d7e09a17d86b21317b04c777001232bad626b41ee03a28b6af5",
+          "comparison_triangle_sha256": "8de8cfe984957d7e09a17d86b21317b04c777001232bad626b41ee03a28b6af5",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C7",
+          "canonical_triangle_sha256": "e9d8e4fa108d4ce4006276d1449d04217101332a6f38ffa1137ba6fc68e73439",
+          "comparison_triangle_sha256": "e9d8e4fa108d4ce4006276d1449d04217101332a6f38ffa1137ba6fc68e73439",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C8",
+          "canonical_triangle_sha256": "cc0c42ec7b164adcaa93481aa3123cc914efd1673424f06392b9115c26ba4a10",
+          "comparison_triangle_sha256": "cc0c42ec7b164adcaa93481aa3123cc914efd1673424f06392b9115c26ba4a10",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C9",
+          "canonical_triangle_sha256": "1fe307491f23d5bf4742512c4870826cc379d7a3d9df97c0c8610c9895a63dd3",
+          "comparison_triangle_sha256": "1fe307491f23d5bf4742512c4870826cc379d7a3d9df97c0c8610c9895a63dd3",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_D1",
+          "canonical_triangle_sha256": "b1f9a20fc6a40d04b537df7fddb388daa544505e85de0f1e3784c4709ab35b16",
+          "comparison_triangle_sha256": "b1f9a20fc6a40d04b537df7fddb388daa544505e85de0f1e3784c4709ab35b16",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_J1",
+          "canonical_triangle_sha256": "2435bd0b89f766e6c79f8c2668080a9dd6d0da3fe513441ff6b154efb372b5d6",
+          "comparison_triangle_sha256": "2435bd0b89f766e6c79f8c2668080a9dd6d0da3fe513441ff6b154efb372b5d6",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_J2",
+          "canonical_triangle_sha256": "920af48c6952213869954cf7d8f3bfdf206b62923987c5be9197df68151a2ed3",
+          "comparison_triangle_sha256": "920af48c6952213869954cf7d8f3bfdf206b62923987c5be9197df68151a2ed3",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_J3",
+          "canonical_triangle_sha256": "ce864c98c89fb793fa8529db8b3a785e7b61bf0cb789c4953c9f5202d0e329c6",
+          "comparison_triangle_sha256": "ce864c98c89fb793fa8529db8b3a785e7b61bf0cb789c4953c9f5202d0e329c6",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_L1",
+          "canonical_triangle_sha256": "958f3a8fa90c0897356042d42e3717c093bb8f0e1abcdfcc7cdbb705ce0729cf",
+          "comparison_triangle_sha256": "958f3a8fa90c0897356042d42e3717c093bb8f0e1abcdfcc7cdbb705ce0729cf",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_Q1",
+          "canonical_triangle_sha256": "0dffe76f2b81b74757565a778753ae191f8672cbf96725c465dbb90b1c82b933",
+          "comparison_triangle_sha256": "0dffe76f2b81b74757565a778753ae191f8672cbf96725c465dbb90b1c82b933",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R1",
+          "canonical_triangle_sha256": "d00079067d35fd5fc69d84926d4dd0a328c0dcf862bc1d934c17c06922d5ae93",
+          "comparison_triangle_sha256": "d00079067d35fd5fc69d84926d4dd0a328c0dcf862bc1d934c17c06922d5ae93",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R10",
+          "canonical_triangle_sha256": "bd6c8b9918d283e3b05e69899ab360c9ccbc9155b0025a115bd299131ead9fde",
+          "comparison_triangle_sha256": "bd6c8b9918d283e3b05e69899ab360c9ccbc9155b0025a115bd299131ead9fde",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R11",
+          "canonical_triangle_sha256": "91f5ae5240be8dc7e3a825798ef612d93c9702e1a306ea658db159276991064b",
+          "comparison_triangle_sha256": "91f5ae5240be8dc7e3a825798ef612d93c9702e1a306ea658db159276991064b",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R12",
+          "canonical_triangle_sha256": "43be57aa9259ef081478564db4798bf2e2074ad0707f90bde7f4a580075fad55",
+          "comparison_triangle_sha256": "43be57aa9259ef081478564db4798bf2e2074ad0707f90bde7f4a580075fad55",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R13",
+          "canonical_triangle_sha256": "ee84bf4e3fe2d71fe3a7b30ecfdb28253f0881835133ef36025e5e394e7c4a6d",
+          "comparison_triangle_sha256": "ee84bf4e3fe2d71fe3a7b30ecfdb28253f0881835133ef36025e5e394e7c4a6d",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R14",
+          "canonical_triangle_sha256": "9c8fb7e58d206d4d39d858967a8a8b7a24ff52ad3ecf657bacb59fed48b645c5",
+          "comparison_triangle_sha256": "9c8fb7e58d206d4d39d858967a8a8b7a24ff52ad3ecf657bacb59fed48b645c5",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R15",
+          "canonical_triangle_sha256": "cdd52d61fae8ade4b39b63a3d7be1ab7cf82bf92ea77e2311b0e3032e792c4aa",
+          "comparison_triangle_sha256": "cdd52d61fae8ade4b39b63a3d7be1ab7cf82bf92ea77e2311b0e3032e792c4aa",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R16",
+          "canonical_triangle_sha256": "5635742a2c36b17dc60174e215e3fef39d2a16aca53eeaad16abe21a56f2c551",
+          "comparison_triangle_sha256": "5635742a2c36b17dc60174e215e3fef39d2a16aca53eeaad16abe21a56f2c551",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R17",
+          "canonical_triangle_sha256": "f9d2a9276f5bab027bc536674787a2282e4a41394686eb4b0f6927fc700546f0",
+          "comparison_triangle_sha256": "f9d2a9276f5bab027bc536674787a2282e4a41394686eb4b0f6927fc700546f0",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R18",
+          "canonical_triangle_sha256": "85c3d058cfb62f288b1eeb985754cf0d297834065eceba81bacba90609f5bed1",
+          "comparison_triangle_sha256": "85c3d058cfb62f288b1eeb985754cf0d297834065eceba81bacba90609f5bed1",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R19",
+          "canonical_triangle_sha256": "01eb08295aaf38b6de213a59d0293afc2795e95aa6440c95b38aa049f0dbb3be",
+          "comparison_triangle_sha256": "01eb08295aaf38b6de213a59d0293afc2795e95aa6440c95b38aa049f0dbb3be",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R2",
+          "canonical_triangle_sha256": "0d4a669ccc3bacceb6067726fad3a4956674e60f514b4c2a983cc095e4e1c751",
+          "comparison_triangle_sha256": "0d4a669ccc3bacceb6067726fad3a4956674e60f514b4c2a983cc095e4e1c751",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R20",
+          "canonical_triangle_sha256": "811db73bbc3db3f68e2228264692c8fa2e6b5fd43f08cb5eec0eca7beb3e2ee1",
+          "comparison_triangle_sha256": "811db73bbc3db3f68e2228264692c8fa2e6b5fd43f08cb5eec0eca7beb3e2ee1",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R21",
+          "canonical_triangle_sha256": "b27d3c40f81e24657fcef7cb40342a65398ea5ad6f80fd1aa5432336ad8c9d11",
+          "comparison_triangle_sha256": "b27d3c40f81e24657fcef7cb40342a65398ea5ad6f80fd1aa5432336ad8c9d11",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R3",
+          "canonical_triangle_sha256": "31aff397ad05c6c89e666dfdc0394202acee49a92543616fa1f6a286dfd0b1e3",
+          "comparison_triangle_sha256": "31aff397ad05c6c89e666dfdc0394202acee49a92543616fa1f6a286dfd0b1e3",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R4",
+          "canonical_triangle_sha256": "11118d84713ce230b3798ddec96074d611a247990d70ba883331877fdc7a27e5",
+          "comparison_triangle_sha256": "11118d84713ce230b3798ddec96074d611a247990d70ba883331877fdc7a27e5",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R5",
+          "canonical_triangle_sha256": "1f22bfcccd31f3457c57eedd5b65ff95adc94acb57fcb931081365cb1c4b874b",
+          "comparison_triangle_sha256": "1f22bfcccd31f3457c57eedd5b65ff95adc94acb57fcb931081365cb1c4b874b",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R6",
+          "canonical_triangle_sha256": "ca2de5d10bf608a275e1e814be287761859a369ca46524b04a49dadaccb6a94e",
+          "comparison_triangle_sha256": "ca2de5d10bf608a275e1e814be287761859a369ca46524b04a49dadaccb6a94e",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R7",
+          "canonical_triangle_sha256": "59a39126f80a04c30196dd7903bf9e91e44c37f0139c7f148a3dba71a11f5b6c",
+          "comparison_triangle_sha256": "59a39126f80a04c30196dd7903bf9e91e44c37f0139c7f148a3dba71a11f5b6c",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R8",
+          "canonical_triangle_sha256": "736b1fb337252f69f6b065b7dbc9fb6840e457f24b8f826b71e87dc71c12807c",
+          "comparison_triangle_sha256": "736b1fb337252f69f6b065b7dbc9fb6840e457f24b8f826b71e87dc71c12807c",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R9",
+          "canonical_triangle_sha256": "1e38ee2575ee36cf4d6060e878852f23cd744543a7ce70529cbe6c6f64403828",
+          "comparison_triangle_sha256": "1e38ee2575ee36cf4d6060e878852f23cd744543a7ce70529cbe6c6f64403828",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_SW2",
+          "canonical_triangle_sha256": "fbdb813d9c5de845d03f04e7857116b6997ef2504b7c2cced1064d74fb531a81",
+          "comparison_triangle_sha256": "fbdb813d9c5de845d03f04e7857116b6997ef2504b7c2cced1064d74fb531a81",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_U1",
+          "canonical_triangle_sha256": "fc1caa2d647886ecb4b22a4b2fcb9322b3f8f74b62ff010db1dddf6c1e977c02",
+          "comparison_triangle_sha256": "fc1caa2d647886ecb4b22a4b2fcb9322b3f8f74b62ff010db1dddf6c1e977c02",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_U2",
+          "canonical_triangle_sha256": "d4950d20a5780e885007ec8afc48986f2df64618a54de6be024e4abb84023949",
+          "comparison_triangle_sha256": "d4950d20a5780e885007ec8afc48986f2df64618a54de6be024e4abb84023949",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_U3",
+          "canonical_triangle_sha256": "5bd07a14a7950135819e5288bc74e1b00911afdc7f400d71c7d037e8be6bf94e",
+          "comparison_triangle_sha256": "5bd07a14a7950135819e5288bc74e1b00911afdc7f400d71c7d037e8be6bf94e",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_U4",
+          "canonical_triangle_sha256": "6b4333acb8b3297c67589317b2b1582eae7c717da3922b842021d49658da9dad",
+          "comparison_triangle_sha256": "6b4333acb8b3297c67589317b2b1582eae7c717da3922b842021d49658da9dad",
+          "status": "PASS"
+        }
+      ],
+      "steel_isometric_sleeve_checks": [],
+      "scope": "Exact native triangle coordinates (only facet/vertex order ignored): changed fixed P02 matches R6 neutral;104 unchanged bodies match equivalent frozen R5 pose. No archive relabeling."
+    },
+    {
+      "pose": "isometric13_p2_81",
+      "archive": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-solid-palm-2026-10-23/native/Flat132_R6_isometric13_p2_81_final.zip",
+      "sha256": "28cf6579ae26dd6eb701f0255839bc1671070747b3fd37bf150ab7c881e8fe23",
+      "status": "PASS",
+      "part_count": 105,
+      "checks": [
+        {
+          "ref": "E01",
+          "canonical_triangle_sha256": "d6b61d155f5e88292ee14ba190efdbbce7321d747da286f517188115cc03a07b",
+          "comparison_triangle_sha256": "d6b61d155f5e88292ee14ba190efdbbce7321d747da286f517188115cc03a07b",
+          "status": "PASS"
+        },
+        {
+          "ref": "E05",
+          "canonical_triangle_sha256": "24227fe56a4f0738fe73d8b931da3c7f5671f9cbc92cbef96637c791a15ed906",
+          "comparison_triangle_sha256": "24227fe56a4f0738fe73d8b931da3c7f5671f9cbc92cbef96637c791a15ed906",
+          "status": "PASS"
+        },
+        {
+          "ref": "E06",
+          "canonical_triangle_sha256": "c1a945dda35d094eef0cacf62a386009c36a3b0cf87a7dd9645550fb8efefd07",
+          "comparison_triangle_sha256": "c1a945dda35d094eef0cacf62a386009c36a3b0cf87a7dd9645550fb8efefd07",
+          "status": "PASS"
+        },
+        {
+          "ref": "E07",
+          "canonical_triangle_sha256": "0ccb8f627f82042b0dde7da94fe0168b7410edcdecab7c8ff5d0c89234547301",
+          "comparison_triangle_sha256": "0ccb8f627f82042b0dde7da94fe0168b7410edcdecab7c8ff5d0c89234547301",
+          "status": "PASS"
+        },
+        {
+          "ref": "E08",
+          "canonical_triangle_sha256": "05e155b6dd534c923874de8c114901414682a470c75ace497e09cfa820da9615",
+          "comparison_triangle_sha256": "05e155b6dd534c923874de8c114901414682a470c75ace497e09cfa820da9615",
+          "status": "PASS"
+        },
+        {
+          "ref": "H01",
+          "canonical_triangle_sha256": "85a1482c42648828a08868b1677c87d60067e2f400770b8e0ef812fe69b34663",
+          "comparison_triangle_sha256": "85a1482c42648828a08868b1677c87d60067e2f400770b8e0ef812fe69b34663",
+          "status": "PASS"
+        },
+        {
+          "ref": "H02",
+          "canonical_triangle_sha256": "d328c21b9568d2046eede904d8e5b62300fa03076bc3d2ad0dcc190839dc903b",
+          "comparison_triangle_sha256": "d328c21b9568d2046eede904d8e5b62300fa03076bc3d2ad0dcc190839dc903b",
+          "status": "PASS"
+        },
+        {
+          "ref": "H040",
+          "canonical_triangle_sha256": "935ec51b45ff03441480be49e4dda902982327d8bb61aa5662559dfb11a508b1",
+          "comparison_triangle_sha256": "935ec51b45ff03441480be49e4dda902982327d8bb61aa5662559dfb11a508b1",
+          "status": "PASS"
+        },
+        {
+          "ref": "H041",
+          "canonical_triangle_sha256": "4070438ddd83cc5c32135e40a987d28c11f254b87a5d7ff2fc16b776e8ba1ba4",
+          "comparison_triangle_sha256": "4070438ddd83cc5c32135e40a987d28c11f254b87a5d7ff2fc16b776e8ba1ba4",
+          "status": "PASS"
+        },
+        {
+          "ref": "H050",
+          "canonical_triangle_sha256": "ce646cef8e7d2c13ff862254af7ed0d3d407812bfb40c92d1111b327aae8720b",
+          "comparison_triangle_sha256": "ce646cef8e7d2c13ff862254af7ed0d3d407812bfb40c92d1111b327aae8720b",
+          "status": "PASS"
+        },
+        {
+          "ref": "H051",
+          "canonical_triangle_sha256": "71352014acce725c764173706b0548abc82a8dd59300413e73721a0f8a164a78",
+          "comparison_triangle_sha256": "71352014acce725c764173706b0548abc82a8dd59300413e73721a0f8a164a78",
+          "status": "PASS"
+        },
+        {
+          "ref": "H060",
+          "canonical_triangle_sha256": "7ca86fbd422f9c407103fbb131dceabf34841ee42084ec1c1d94f2221aac3316",
+          "comparison_triangle_sha256": "7ca86fbd422f9c407103fbb131dceabf34841ee42084ec1c1d94f2221aac3316",
+          "status": "PASS"
+        },
+        {
+          "ref": "H061",
+          "canonical_triangle_sha256": "97d93ca5c16e9e5d7b85ff046cc76360386d3c818f65ade5979399e0a0da8de6",
+          "comparison_triangle_sha256": "97d93ca5c16e9e5d7b85ff046cc76360386d3c818f65ade5979399e0a0da8de6",
+          "status": "PASS"
+        },
+        {
+          "ref": "H09",
+          "canonical_triangle_sha256": "199ee52deb37d44ab1cafd775cc6f24277287572f266611acde7ac3d79acc762",
+          "comparison_triangle_sha256": "199ee52deb37d44ab1cafd775cc6f24277287572f266611acde7ac3d79acc762",
+          "status": "PASS"
+        },
+        {
+          "ref": "H09a",
+          "canonical_triangle_sha256": "5f8a1d38ad05fb49a76082adf2cc5d0f97f787bd5ce5acb6821feaa6327a891b",
+          "comparison_triangle_sha256": "5f8a1d38ad05fb49a76082adf2cc5d0f97f787bd5ce5acb6821feaa6327a891b",
+          "status": "PASS"
+        },
+        {
+          "ref": "H09b",
+          "canonical_triangle_sha256": "d42ed6661a6c4bc3896d24598d217657c573bb4cd5cc192ba0a1de016262be86",
+          "comparison_triangle_sha256": "d42ed6661a6c4bc3896d24598d217657c573bb4cd5cc192ba0a1de016262be86",
+          "status": "PASS"
+        },
+        {
+          "ref": "H10",
+          "canonical_triangle_sha256": "1877e6f141813d1b00e896e60dfd2468f2a9767a382c9242aef7cef76a7e2cf2",
+          "comparison_triangle_sha256": "1877e6f141813d1b00e896e60dfd2468f2a9767a382c9242aef7cef76a7e2cf2",
+          "status": "PASS"
+        },
+        {
+          "ref": "H11",
+          "canonical_triangle_sha256": "a87745e59560f582f670a8f5aaa9d6337ec5362781c038c213de361007c757be",
+          "comparison_triangle_sha256": "a87745e59560f582f670a8f5aaa9d6337ec5362781c038c213de361007c757be",
+          "status": "PASS"
+        },
+        {
+          "ref": "H12",
+          "canonical_triangle_sha256": "e2b518b3812a1506ba898c31bae2bb2320a2e3ec78e4e3b9ea64295135847f75",
+          "comparison_triangle_sha256": "e2b518b3812a1506ba898c31bae2bb2320a2e3ec78e4e3b9ea64295135847f75",
+          "status": "PASS"
+        },
+        {
+          "ref": "H13",
+          "canonical_triangle_sha256": "770e3532a14bf21da473d71dd8317f14511080e99bc6cc3d295d252422a0959a",
+          "comparison_triangle_sha256": "770e3532a14bf21da473d71dd8317f14511080e99bc6cc3d295d252422a0959a",
+          "status": "PASS"
+        },
+        {
+          "ref": "H140",
+          "canonical_triangle_sha256": "22b12af5c1dff8c514c77f337dd194389732becff1ad1c7ce8634fb2d2c45d0b",
+          "comparison_triangle_sha256": "22b12af5c1dff8c514c77f337dd194389732becff1ad1c7ce8634fb2d2c45d0b",
+          "status": "PASS"
+        },
+        {
+          "ref": "H141",
+          "canonical_triangle_sha256": "d2a858ee38a27eb214941f0a7e8e09168f0ffcd772aab51523cfaa170dd49cfa",
+          "comparison_triangle_sha256": "d2a858ee38a27eb214941f0a7e8e09168f0ffcd772aab51523cfaa170dd49cfa",
+          "status": "PASS"
+        },
+        {
+          "ref": "H15",
+          "canonical_triangle_sha256": "54685c9fcff07bb546c4f47ae9b4f590c2647b99dca89271bd3b362944dcbfc1",
+          "comparison_triangle_sha256": "54685c9fcff07bb546c4f47ae9b4f590c2647b99dca89271bd3b362944dcbfc1",
+          "status": "PASS"
+        },
+        {
+          "ref": "H160",
+          "canonical_triangle_sha256": "7476283184ad5d7bc5006cb50274cec55cf55a93c88b53935ec7c84f4e7dfde9",
+          "comparison_triangle_sha256": "7476283184ad5d7bc5006cb50274cec55cf55a93c88b53935ec7c84f4e7dfde9",
+          "status": "PASS"
+        },
+        {
+          "ref": "H161",
+          "canonical_triangle_sha256": "92407c4e3ffeb340e2704b7fcad1fed16e951821d33482315a68c4a9fa23445b",
+          "comparison_triangle_sha256": "92407c4e3ffeb340e2704b7fcad1fed16e951821d33482315a68c4a9fa23445b",
+          "status": "PASS"
+        },
+        {
+          "ref": "H170",
+          "canonical_triangle_sha256": "40f6d3b19d44674f067ba42ebbc96b9f1533e89278c113bbf2558bc8388a2f2b",
+          "comparison_triangle_sha256": "40f6d3b19d44674f067ba42ebbc96b9f1533e89278c113bbf2558bc8388a2f2b",
+          "status": "PASS"
+        },
+        {
+          "ref": "H171",
+          "canonical_triangle_sha256": "6df4734a02eab1004914243843dd2cbafd706014d803e44ddd8df1a0e61a3128",
+          "comparison_triangle_sha256": "6df4734a02eab1004914243843dd2cbafd706014d803e44ddd8df1a0e61a3128",
+          "status": "PASS"
+        },
+        {
+          "ref": "H180",
+          "canonical_triangle_sha256": "cdfb266a31975f9954b8d395696a0b520380525342d1cd6b9ce6e42d425df10f",
+          "comparison_triangle_sha256": "cdfb266a31975f9954b8d395696a0b520380525342d1cd6b9ce6e42d425df10f",
+          "status": "PASS"
+        },
+        {
+          "ref": "H181",
+          "canonical_triangle_sha256": "0ec363f90a1bf5dce8e09ede924f0a5ebdaf354e528c6d936152e1681169e211",
+          "comparison_triangle_sha256": "0ec363f90a1bf5dce8e09ede924f0a5ebdaf354e528c6d936152e1681169e211",
+          "status": "PASS"
+        },
+        {
+          "ref": "H190",
+          "canonical_triangle_sha256": "9679902062050e9d4f47e9ffa92af99f1d4b9d443fe1090a0777e172f3394b00",
+          "comparison_triangle_sha256": "9679902062050e9d4f47e9ffa92af99f1d4b9d443fe1090a0777e172f3394b00",
+          "status": "PASS"
+        },
+        {
+          "ref": "H191",
+          "canonical_triangle_sha256": "1791749fb52e5d6cc1cc1624c51f86626e6c64a06ecae817ff863f8d559bbef2",
+          "comparison_triangle_sha256": "1791749fb52e5d6cc1cc1624c51f86626e6c64a06ecae817ff863f8d559bbef2",
+          "status": "PASS"
+        },
+        {
+          "ref": "H20",
+          "canonical_triangle_sha256": "bb5f441d1ecbdf9ae7a68738afc544296a299dfc72c85af3068e0250b4aac688",
+          "comparison_triangle_sha256": "bb5f441d1ecbdf9ae7a68738afc544296a299dfc72c85af3068e0250b4aac688",
+          "status": "PASS"
+        },
+        {
+          "ref": "H21",
+          "canonical_triangle_sha256": "38a6d447bd90e3a56c4dbb18b4fee332680320c9e48b6f6519e7273c878757dc",
+          "comparison_triangle_sha256": "38a6d447bd90e3a56c4dbb18b4fee332680320c9e48b6f6519e7273c878757dc",
+          "status": "PASS"
+        },
+        {
+          "ref": "H22",
+          "canonical_triangle_sha256": "e57cc2413b6bc7dc816941b51680bb326bce4d9db81af6999500420df9e3a407",
+          "comparison_triangle_sha256": "e57cc2413b6bc7dc816941b51680bb326bce4d9db81af6999500420df9e3a407",
+          "status": "PASS"
+        },
+        {
+          "ref": "H23",
+          "canonical_triangle_sha256": "da61d198ce837dc0bca6e7356fa810fd0aca2274f7785fcdb9ad26fe8fc90436",
+          "comparison_triangle_sha256": "da61d198ce837dc0bca6e7356fa810fd0aca2274f7785fcdb9ad26fe8fc90436",
+          "status": "PASS"
+        },
+        {
+          "ref": "H240",
+          "canonical_triangle_sha256": "ace2bf8ad9203cc706a05c55b1e5eafcdee16afa3e0bb4f80d202f5efa76ee7e",
+          "comparison_triangle_sha256": "ace2bf8ad9203cc706a05c55b1e5eafcdee16afa3e0bb4f80d202f5efa76ee7e",
+          "status": "PASS"
+        },
+        {
+          "ref": "H241",
+          "canonical_triangle_sha256": "51ef2876375f5eb2e52e1c087e8a4af4107144880a40bc5cd570d7272ad0bb1c",
+          "comparison_triangle_sha256": "51ef2876375f5eb2e52e1c087e8a4af4107144880a40bc5cd570d7272ad0bb1c",
+          "status": "PASS"
+        },
+        {
+          "ref": "H242",
+          "canonical_triangle_sha256": "12c87d184c98f8c5853336f61861bb7920dde095d4e9f6a41e42e328e793bcff",
+          "comparison_triangle_sha256": "12c87d184c98f8c5853336f61861bb7920dde095d4e9f6a41e42e328e793bcff",
+          "status": "PASS"
+        },
+        {
+          "ref": "H243",
+          "canonical_triangle_sha256": "96862533f03dd2967612f1b0a724794ff439504fc9c445815ed86b1f435ff027",
+          "comparison_triangle_sha256": "96862533f03dd2967612f1b0a724794ff439504fc9c445815ed86b1f435ff027",
+          "status": "PASS"
+        },
+        {
+          "ref": "H250",
+          "canonical_triangle_sha256": "33b0a3d85a422e525d99d14c8ce38d13e8e814fa354ff7ecf7fd8991db1d0ae1",
+          "comparison_triangle_sha256": "33b0a3d85a422e525d99d14c8ce38d13e8e814fa354ff7ecf7fd8991db1d0ae1",
+          "status": "PASS"
+        },
+        {
+          "ref": "H251",
+          "canonical_triangle_sha256": "217db2a5448745fc5891f33f555e9155193ba2142a1c072520ec37086f415acd",
+          "comparison_triangle_sha256": "217db2a5448745fc5891f33f555e9155193ba2142a1c072520ec37086f415acd",
+          "status": "PASS"
+        },
+        {
+          "ref": "H252",
+          "canonical_triangle_sha256": "63dba444481914d3e9851104c52616071dd6c8313514ac70cb23980dd538b464",
+          "comparison_triangle_sha256": "63dba444481914d3e9851104c52616071dd6c8313514ac70cb23980dd538b464",
+          "status": "PASS"
+        },
+        {
+          "ref": "H253",
+          "canonical_triangle_sha256": "431767c7afc514a6d4d7cb0cea76131db935b434ee3835ada7d125494103fc84",
+          "comparison_triangle_sha256": "431767c7afc514a6d4d7cb0cea76131db935b434ee3835ada7d125494103fc84",
+          "status": "PASS"
+        },
+        {
+          "ref": "P01",
+          "canonical_triangle_sha256": "f8b72e8e2e8b9760ef4a237d0c2141ec7471918290d8017977ccc20eb6414fac",
+          "comparison_triangle_sha256": "f8b72e8e2e8b9760ef4a237d0c2141ec7471918290d8017977ccc20eb6414fac",
+          "status": "PASS"
+        },
+        {
+          "ref": "P02",
+          "canonical_triangle_sha256": "64ce749a17309a60f3efc3240af5407142fb1bfb79902e6c756a85eec850bee6",
+          "comparison_triangle_sha256": "64ce749a17309a60f3efc3240af5407142fb1bfb79902e6c756a85eec850bee6",
+          "status": "PASS"
+        },
+        {
+          "ref": "P04",
+          "canonical_triangle_sha256": "4f3e1cdb619a1f14531ef5e68fa866e4fb4c6cc622ddb539228fe33caea073b0",
+          "comparison_triangle_sha256": "4f3e1cdb619a1f14531ef5e68fa866e4fb4c6cc622ddb539228fe33caea073b0",
+          "status": "PASS"
+        },
+        {
+          "ref": "P05",
+          "canonical_triangle_sha256": "65dd5e9d019ec722885847af25e4b2986eb76893f5ecd0a2e436c4ccefd94c33",
+          "comparison_triangle_sha256": "65dd5e9d019ec722885847af25e4b2986eb76893f5ecd0a2e436c4ccefd94c33",
+          "status": "PASS"
+        },
+        {
+          "ref": "P060",
+          "canonical_triangle_sha256": "a30b0d831b5567dae3861e98612ddb05cf6e51ad906f3011e40e66c2453ff1e1",
+          "comparison_triangle_sha256": "a30b0d831b5567dae3861e98612ddb05cf6e51ad906f3011e40e66c2453ff1e1",
+          "status": "PASS"
+        },
+        {
+          "ref": "P061",
+          "canonical_triangle_sha256": "711556832e8ef7435bb8978b89b559e52aedef1a56ac0b0963b5653741d23c8c",
+          "comparison_triangle_sha256": "711556832e8ef7435bb8978b89b559e52aedef1a56ac0b0963b5653741d23c8c",
+          "status": "PASS"
+        },
+        {
+          "ref": "P070a",
+          "canonical_triangle_sha256": "b55040a0fd589c13189f6a45c40144112aea80b637319b2ac0e02f1fc011bec9",
+          "comparison_triangle_sha256": "b55040a0fd589c13189f6a45c40144112aea80b637319b2ac0e02f1fc011bec9",
+          "status": "PASS"
+        },
+        {
+          "ref": "P070b",
+          "canonical_triangle_sha256": "dbd288fbc4e2e22031ef040c1d131ca1dbb2cf828ba5c2823b842961f55d2c8f",
+          "comparison_triangle_sha256": "dbd288fbc4e2e22031ef040c1d131ca1dbb2cf828ba5c2823b842961f55d2c8f",
+          "status": "PASS"
+        },
+        {
+          "ref": "P071a",
+          "canonical_triangle_sha256": "a718ff8f81b88fef3e95e94e063e1df85c507252d71c4916e97022e554bf7217",
+          "comparison_triangle_sha256": "a718ff8f81b88fef3e95e94e063e1df85c507252d71c4916e97022e554bf7217",
+          "status": "PASS"
+        },
+        {
+          "ref": "P071b",
+          "canonical_triangle_sha256": "e073b335d5fc10407440335fdcbc25a0ed50a1590c84631111fa15079bee464b",
+          "comparison_triangle_sha256": "e073b335d5fc10407440335fdcbc25a0ed50a1590c84631111fa15079bee464b",
+          "status": "PASS"
+        },
+        {
+          "ref": "P08",
+          "canonical_triangle_sha256": "b6e0438f7df86ff98a3984eb9301d644d45246ae2328ab014fc542273945a49a",
+          "comparison_triangle_sha256": "b6e0438f7df86ff98a3984eb9301d644d45246ae2328ab014fc542273945a49a",
+          "status": "PASS"
+        },
+        {
+          "ref": "P09",
+          "canonical_triangle_sha256": "4816eb2702fe7d67f214fc25e22b331d4d4b7e2771cc2039cd80c196699b8fdf",
+          "comparison_triangle_sha256": "4816eb2702fe7d67f214fc25e22b331d4d4b7e2771cc2039cd80c196699b8fdf",
+          "status": "PASS"
+        },
+        {
+          "ref": "P10",
+          "canonical_triangle_sha256": "56f14f520b4e461a842eb31b2a6abc5ac384b7dd52cb670c092cf1f65d04fa6d",
+          "comparison_triangle_sha256": "56f14f520b4e461a842eb31b2a6abc5ac384b7dd52cb670c092cf1f65d04fa6d",
+          "status": "PASS"
+        },
+        {
+          "ref": "P11",
+          "canonical_triangle_sha256": "2a1f59a80ab03cd39ac6b139b7d352c6e5a1ff580de2ad101c89c7d61bf642e0",
+          "comparison_triangle_sha256": "2a1f59a80ab03cd39ac6b139b7d352c6e5a1ff580de2ad101c89c7d61bf642e0",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C1",
+          "canonical_triangle_sha256": "af56f716b7ba41892b0b11499415e2c1a665f4b2c7e07da8f6683d6fe4de5119",
+          "comparison_triangle_sha256": "af56f716b7ba41892b0b11499415e2c1a665f4b2c7e07da8f6683d6fe4de5119",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C10",
+          "canonical_triangle_sha256": "d724ab51736a3e473386e7d4e05dd1199e9ba1684bc8e6d66b317a0b66edf650",
+          "comparison_triangle_sha256": "d724ab51736a3e473386e7d4e05dd1199e9ba1684bc8e6d66b317a0b66edf650",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C11",
+          "canonical_triangle_sha256": "da56cdb7845ceb3b009e96931fb7dc13e3465c36962d6369cf5e1db621341df6",
+          "comparison_triangle_sha256": "da56cdb7845ceb3b009e96931fb7dc13e3465c36962d6369cf5e1db621341df6",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C12",
+          "canonical_triangle_sha256": "19433a9e127bf2bccf5890bbc9bcf9042c1c4a60dfc9eb9f3cce04dea8409cf8",
+          "comparison_triangle_sha256": "19433a9e127bf2bccf5890bbc9bcf9042c1c4a60dfc9eb9f3cce04dea8409cf8",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C13",
+          "canonical_triangle_sha256": "60180602c8fb310ff7c52d43037d82ffb6cae0448f6378eb18bd419a1812874b",
+          "comparison_triangle_sha256": "60180602c8fb310ff7c52d43037d82ffb6cae0448f6378eb18bd419a1812874b",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C14",
+          "canonical_triangle_sha256": "d0239b5e282acc5ec1da523395010a917f5e8929d037d822515453b4d11cae68",
+          "comparison_triangle_sha256": "d0239b5e282acc5ec1da523395010a917f5e8929d037d822515453b4d11cae68",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C15",
+          "canonical_triangle_sha256": "704128ce5e95bd2fe1832bdb72d0bbdf032143d3bc1425316f46378864b3399f",
+          "comparison_triangle_sha256": "704128ce5e95bd2fe1832bdb72d0bbdf032143d3bc1425316f46378864b3399f",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C16",
+          "canonical_triangle_sha256": "1489eb7d9f337eeebe304f3e0d4baabb2d62e5c765a2fb8c31cdb064271f9499",
+          "comparison_triangle_sha256": "1489eb7d9f337eeebe304f3e0d4baabb2d62e5c765a2fb8c31cdb064271f9499",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C2",
+          "canonical_triangle_sha256": "34f568e3c656447d0ed191906904bd9abd73d048495f22f4fa7b8b84f2e22a46",
+          "comparison_triangle_sha256": "34f568e3c656447d0ed191906904bd9abd73d048495f22f4fa7b8b84f2e22a46",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C3",
+          "canonical_triangle_sha256": "999501f6e3bd72e832eb3f2542ab0824a56b021e87962c88e2c5147eec324aa4",
+          "comparison_triangle_sha256": "999501f6e3bd72e832eb3f2542ab0824a56b021e87962c88e2c5147eec324aa4",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C4",
+          "canonical_triangle_sha256": "0ddcbc22f1ff80250bf9dfe0459e68ac25588392456a1541480e61e481b3a072",
+          "comparison_triangle_sha256": "0ddcbc22f1ff80250bf9dfe0459e68ac25588392456a1541480e61e481b3a072",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C5",
+          "canonical_triangle_sha256": "3dd4eb67f74b0a8e976007ab152ce8272a92d6e441481fdc7060dac79f435592",
+          "comparison_triangle_sha256": "3dd4eb67f74b0a8e976007ab152ce8272a92d6e441481fdc7060dac79f435592",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C6",
+          "canonical_triangle_sha256": "8de8cfe984957d7e09a17d86b21317b04c777001232bad626b41ee03a28b6af5",
+          "comparison_triangle_sha256": "8de8cfe984957d7e09a17d86b21317b04c777001232bad626b41ee03a28b6af5",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C7",
+          "canonical_triangle_sha256": "e9d8e4fa108d4ce4006276d1449d04217101332a6f38ffa1137ba6fc68e73439",
+          "comparison_triangle_sha256": "e9d8e4fa108d4ce4006276d1449d04217101332a6f38ffa1137ba6fc68e73439",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C8",
+          "canonical_triangle_sha256": "cc0c42ec7b164adcaa93481aa3123cc914efd1673424f06392b9115c26ba4a10",
+          "comparison_triangle_sha256": "cc0c42ec7b164adcaa93481aa3123cc914efd1673424f06392b9115c26ba4a10",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_C9",
+          "canonical_triangle_sha256": "1fe307491f23d5bf4742512c4870826cc379d7a3d9df97c0c8610c9895a63dd3",
+          "comparison_triangle_sha256": "1fe307491f23d5bf4742512c4870826cc379d7a3d9df97c0c8610c9895a63dd3",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_D1",
+          "canonical_triangle_sha256": "b1f9a20fc6a40d04b537df7fddb388daa544505e85de0f1e3784c4709ab35b16",
+          "comparison_triangle_sha256": "b1f9a20fc6a40d04b537df7fddb388daa544505e85de0f1e3784c4709ab35b16",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_J1",
+          "canonical_triangle_sha256": "2435bd0b89f766e6c79f8c2668080a9dd6d0da3fe513441ff6b154efb372b5d6",
+          "comparison_triangle_sha256": "2435bd0b89f766e6c79f8c2668080a9dd6d0da3fe513441ff6b154efb372b5d6",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_J2",
+          "canonical_triangle_sha256": "920af48c6952213869954cf7d8f3bfdf206b62923987c5be9197df68151a2ed3",
+          "comparison_triangle_sha256": "920af48c6952213869954cf7d8f3bfdf206b62923987c5be9197df68151a2ed3",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_J3",
+          "canonical_triangle_sha256": "ce864c98c89fb793fa8529db8b3a785e7b61bf0cb789c4953c9f5202d0e329c6",
+          "comparison_triangle_sha256": "ce864c98c89fb793fa8529db8b3a785e7b61bf0cb789c4953c9f5202d0e329c6",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_L1",
+          "canonical_triangle_sha256": "958f3a8fa90c0897356042d42e3717c093bb8f0e1abcdfcc7cdbb705ce0729cf",
+          "comparison_triangle_sha256": "958f3a8fa90c0897356042d42e3717c093bb8f0e1abcdfcc7cdbb705ce0729cf",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_Q1",
+          "canonical_triangle_sha256": "0dffe76f2b81b74757565a778753ae191f8672cbf96725c465dbb90b1c82b933",
+          "comparison_triangle_sha256": "0dffe76f2b81b74757565a778753ae191f8672cbf96725c465dbb90b1c82b933",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R1",
+          "canonical_triangle_sha256": "d00079067d35fd5fc69d84926d4dd0a328c0dcf862bc1d934c17c06922d5ae93",
+          "comparison_triangle_sha256": "d00079067d35fd5fc69d84926d4dd0a328c0dcf862bc1d934c17c06922d5ae93",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R10",
+          "canonical_triangle_sha256": "bd6c8b9918d283e3b05e69899ab360c9ccbc9155b0025a115bd299131ead9fde",
+          "comparison_triangle_sha256": "bd6c8b9918d283e3b05e69899ab360c9ccbc9155b0025a115bd299131ead9fde",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R11",
+          "canonical_triangle_sha256": "91f5ae5240be8dc7e3a825798ef612d93c9702e1a306ea658db159276991064b",
+          "comparison_triangle_sha256": "91f5ae5240be8dc7e3a825798ef612d93c9702e1a306ea658db159276991064b",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R12",
+          "canonical_triangle_sha256": "43be57aa9259ef081478564db4798bf2e2074ad0707f90bde7f4a580075fad55",
+          "comparison_triangle_sha256": "43be57aa9259ef081478564db4798bf2e2074ad0707f90bde7f4a580075fad55",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R13",
+          "canonical_triangle_sha256": "ee84bf4e3fe2d71fe3a7b30ecfdb28253f0881835133ef36025e5e394e7c4a6d",
+          "comparison_triangle_sha256": "ee84bf4e3fe2d71fe3a7b30ecfdb28253f0881835133ef36025e5e394e7c4a6d",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R14",
+          "canonical_triangle_sha256": "9c8fb7e58d206d4d39d858967a8a8b7a24ff52ad3ecf657bacb59fed48b645c5",
+          "comparison_triangle_sha256": "9c8fb7e58d206d4d39d858967a8a8b7a24ff52ad3ecf657bacb59fed48b645c5",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R15",
+          "canonical_triangle_sha256": "cdd52d61fae8ade4b39b63a3d7be1ab7cf82bf92ea77e2311b0e3032e792c4aa",
+          "comparison_triangle_sha256": "cdd52d61fae8ade4b39b63a3d7be1ab7cf82bf92ea77e2311b0e3032e792c4aa",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R16",
+          "canonical_triangle_sha256": "5635742a2c36b17dc60174e215e3fef39d2a16aca53eeaad16abe21a56f2c551",
+          "comparison_triangle_sha256": "5635742a2c36b17dc60174e215e3fef39d2a16aca53eeaad16abe21a56f2c551",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R17",
+          "canonical_triangle_sha256": "f9d2a9276f5bab027bc536674787a2282e4a41394686eb4b0f6927fc700546f0",
+          "comparison_triangle_sha256": "f9d2a9276f5bab027bc536674787a2282e4a41394686eb4b0f6927fc700546f0",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R18",
+          "canonical_triangle_sha256": "85c3d058cfb62f288b1eeb985754cf0d297834065eceba81bacba90609f5bed1",
+          "comparison_triangle_sha256": "85c3d058cfb62f288b1eeb985754cf0d297834065eceba81bacba90609f5bed1",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R19",
+          "canonical_triangle_sha256": "01eb08295aaf38b6de213a59d0293afc2795e95aa6440c95b38aa049f0dbb3be",
+          "comparison_triangle_sha256": "01eb08295aaf38b6de213a59d0293afc2795e95aa6440c95b38aa049f0dbb3be",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R2",
+          "canonical_triangle_sha256": "0d4a669ccc3bacceb6067726fad3a4956674e60f514b4c2a983cc095e4e1c751",
+          "comparison_triangle_sha256": "0d4a669ccc3bacceb6067726fad3a4956674e60f514b4c2a983cc095e4e1c751",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R20",
+          "canonical_triangle_sha256": "811db73bbc3db3f68e2228264692c8fa2e6b5fd43f08cb5eec0eca7beb3e2ee1",
+          "comparison_triangle_sha256": "811db73bbc3db3f68e2228264692c8fa2e6b5fd43f08cb5eec0eca7beb3e2ee1",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R21",
+          "canonical_triangle_sha256": "b27d3c40f81e24657fcef7cb40342a65398ea5ad6f80fd1aa5432336ad8c9d11",
+          "comparison_triangle_sha256": "b27d3c40f81e24657fcef7cb40342a65398ea5ad6f80fd1aa5432336ad8c9d11",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R3",
+          "canonical_triangle_sha256": "31aff397ad05c6c89e666dfdc0394202acee49a92543616fa1f6a286dfd0b1e3",
+          "comparison_triangle_sha256": "31aff397ad05c6c89e666dfdc0394202acee49a92543616fa1f6a286dfd0b1e3",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R4",
+          "canonical_triangle_sha256": "11118d84713ce230b3798ddec96074d611a247990d70ba883331877fdc7a27e5",
+          "comparison_triangle_sha256": "11118d84713ce230b3798ddec96074d611a247990d70ba883331877fdc7a27e5",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R5",
+          "canonical_triangle_sha256": "1f22bfcccd31f3457c57eedd5b65ff95adc94acb57fcb931081365cb1c4b874b",
+          "comparison_triangle_sha256": "1f22bfcccd31f3457c57eedd5b65ff95adc94acb57fcb931081365cb1c4b874b",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R6",
+          "canonical_triangle_sha256": "ca2de5d10bf608a275e1e814be287761859a369ca46524b04a49dadaccb6a94e",
+          "comparison_triangle_sha256": "ca2de5d10bf608a275e1e814be287761859a369ca46524b04a49dadaccb6a94e",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R7",
+          "canonical_triangle_sha256": "59a39126f80a04c30196dd7903bf9e91e44c37f0139c7f148a3dba71a11f5b6c",
+          "comparison_triangle_sha256": "59a39126f80a04c30196dd7903bf9e91e44c37f0139c7f148a3dba71a11f5b6c",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R8",
+          "canonical_triangle_sha256": "736b1fb337252f69f6b065b7dbc9fb6840e457f24b8f826b71e87dc71c12807c",
+          "comparison_triangle_sha256": "736b1fb337252f69f6b065b7dbc9fb6840e457f24b8f826b71e87dc71c12807c",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_R9",
+          "canonical_triangle_sha256": "1e38ee2575ee36cf4d6060e878852f23cd744543a7ce70529cbe6c6f64403828",
+          "comparison_triangle_sha256": "1e38ee2575ee36cf4d6060e878852f23cd744543a7ce70529cbe6c6f64403828",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_SW2",
+          "canonical_triangle_sha256": "fbdb813d9c5de845d03f04e7857116b6997ef2504b7c2cced1064d74fb531a81",
+          "comparison_triangle_sha256": "fbdb813d9c5de845d03f04e7857116b6997ef2504b7c2cced1064d74fb531a81",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_U1",
+          "canonical_triangle_sha256": "fc1caa2d647886ecb4b22a4b2fcb9322b3f8f74b62ff010db1dddf6c1e977c02",
+          "comparison_triangle_sha256": "fc1caa2d647886ecb4b22a4b2fcb9322b3f8f74b62ff010db1dddf6c1e977c02",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_U2",
+          "canonical_triangle_sha256": "d4950d20a5780e885007ec8afc48986f2df64618a54de6be024e4abb84023949",
+          "comparison_triangle_sha256": "d4950d20a5780e885007ec8afc48986f2df64618a54de6be024e4abb84023949",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_U3",
+          "canonical_triangle_sha256": "5bd07a14a7950135819e5288bc74e1b00911afdc7f400d71c7d037e8be6bf94e",
+          "comparison_triangle_sha256": "5bd07a14a7950135819e5288bc74e1b00911afdc7f400d71c7d037e8be6bf94e",
+          "status": "PASS"
+        },
+        {
+          "ref": "PCB_U4",
+          "canonical_triangle_sha256": "6b4333acb8b3297c67589317b2b1582eae7c717da3922b842021d49658da9dad",
+          "comparison_triangle_sha256": "6b4333acb8b3297c67589317b2b1582eae7c717da3922b842021d49658da9dad",
+          "status": "PASS"
+        }
+      ],
+      "steel_isometric_sleeve_checks": [
+        {
+          "ref": "H140",
+          "description": "Retained steel isometric sleeve, distinct from removed P03 TPU palm cap",
+          "length_mm": 81.0,
+          "bounds_mm": [
+            [
+              14.0,
+              -59.0,
+              10.0
+            ],
+            [
+              95.0,
+              -43.0,
+              26.0
+            ]
+          ],
+          "status": "PASS"
+        },
+        {
+          "ref": "H141",
+          "description": "Retained steel isometric sleeve, distinct from removed P03 TPU palm cap",
+          "length_mm": 81.0,
+          "bounds_mm": [
+            [
+              14.0,
+              43.0,
+              10.0
+            ],
+            [
+              95.0,
+              59.0,
+              26.0
+            ]
+          ],
+          "status": "PASS"
+        }
+      ],
+      "scope": "Exact native triangle coordinates (only facet/vertex order ignored): changed fixed P02 matches R6 neutral;104 unchanged bodies match equivalent frozen R5 pose. No archive relabeling."
+    }
+  ]
+}

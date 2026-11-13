@@ -1,0 +1,45 @@
+{
+  "status": "PASS_R16_PUBLICATION_STATIC",
+  "source_sha256": "1f492dd841c35a14f488be418e4f4dd8dea8edb63f3d321a492dc2ec3c907ab4",
+  "onshape_version": "d4421f391a091e249b08aeb1",
+  "checks": [
+    {
+      "path": "README.md",
+      "status": "PASS_CURRENT_R16_ENTRYPOINT"
+    },
+    {
+      "path": "PRINTING.md",
+      "status": "PASS_CURRENT_R16_ENTRYPOINT"
+    },
+    {
+      "path": "EINKAUFSTEILE.md",
+      "status": "PASS_CURRENT_R16_ENTRYPOINT"
+    },
+    {
+      "path": "DEVICE_UPGRADES.md",
+      "status": "PASS_CURRENT_R16_ENTRYPOINT"
+    },
+    {
+      "path": "print/REVISION_STATUS.md",
+      "status": "PASS_CURRENT_R16_ENTRYPOINT"
+    },
+    {
+      "path": "review/upright-grip-2026-11-09/README.md",
+      "status": "PASS_LINKS"
+    },
+    {
+      "path": "review/upright-grip-2026-11-09/MONTAGE.md",
+      "status": "PASS_LINKS"
+    },
+    {
+      "path": "review/upright-grip-2026-11-09/parts-review.md",
+      "status": "PASS_LINKS"
+    }
+  ],
+  "html_sha256": "4a7f84235cd68028518cddb183d8eaeab367dcc08e76af63b506206ffed3fb65",
+  "model_bodies": 93,
+  "local_html_links": 92,
+  "package_sha256": "7f0b95f2f349361c055590f53a50e7ec0540fd96026aaf1af3a38476adfcc002",
+  "browser_qa": "Not performed: root reports in-app file URL blocked; no alternate browser/host workaround used.",
+  "scope": "Root source/docs and portable offline overview published and statically checked; native CAD and Bambu preview visually checked separately by root."
+}

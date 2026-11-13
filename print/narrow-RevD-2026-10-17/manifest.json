@@ -1,0 +1,246 @@
+{
+  "source_sha256": "43a2dc70e3eed4308534da7772f4b82bf845c97d6f6a53456d0d63aa9552fb33",
+  "assembly_export_sha256": "3aaaa010690b6f2bd40319e5ee52e86094fa906538752bae2ebf1dc760871136",
+  "printed_types": 14,
+  "parts": [
+    {
+      "ref": "P01",
+      "file": "parts/P01_RevD_review_mm.stl",
+      "source_sha256": "310cb04069a3741c6da224cc3a8a7835b8fdabc8ea7cc25c220b8b814286e61b",
+      "sha256": "dc653b471812aa36b813623aa1f2db33180a358825e2a9b3c852810274c63795",
+      "assembly_min_mm": [
+        -22.0,
+        -79.0,
+        -2.0
+      ],
+      "part_extents_mm": [
+        156.0,
+        158.0,
+        31.0
+      ],
+      "change": "Rigid translation to positive coordinates only; original triangles retained"
+    },
+    {
+      "ref": "P02",
+      "file": "parts/P02_RevD_review_mm.stl",
+      "source_sha256": "70749f5e939ec5a8d53325c0c0626b7301b26d7d7f7701dabdccf1f27a1c6e97",
+      "sha256": "0caf39aff31803f79188391df4dde128e0d2eeb775a881cb36e0192e88b03f35",
+      "assembly_min_mm": [
+        -44.25,
+        -64.0,
+        9.5
+      ],
+      "part_extents_mm": [
+        36.25,
+        128.0,
+        17.998186111450195
+      ],
+      "change": "Rigid translation to positive coordinates only; original triangles retained"
+    },
+    {
+      "ref": "P03",
+      "file": "parts/P03_RevD_review_mm.stl",
+      "source_sha256": "738f677f8a5ac41fdf2683294f4998d66d7e1cccebd64a3dea745cf1b913903e",
+      "sha256": "920efb41209b6d96f25b0592d8ff4c5c09510696432b4e40052b7bf94175e52c",
+      "assembly_min_mm": [
+        -44.24971008300781,
+        -43.0,
+        14.600000381469727
+      ],
+      "part_extents_mm": [
+        20.499420166015625,
+        86.0,
+        15.397603988647461
+      ],
+      "change": "Rigid translation to positive coordinates only; original triangles retained"
+    },
+    {
+      "ref": "P04",
+      "file": "parts/P04_RevD_review_mm.stl",
+      "source_sha256": "1aad3f60ff6eb68fd2e67baa9402b6b8fd7a244d48e9a15a3e959ffd5db4d7ff",
+      "sha256": "aabec84a9918ff2da9ecedef37777090d262c7990a8d9f3c5fba0ea2c0356048",
+      "assembly_min_mm": [
+        64.0,
+        -76.0,
+        5.0
+      ],
+      "part_extents_mm": [
+        60.0,
+        152.0,
+        25.0
+      ],
+      "change": "Rigid translation to positive coordinates only; original triangles retained"
+    },
+    {
+      "ref": "P05",
+      "file": "parts/P05_RevD_review_mm.stl",
+      "source_sha256": "c513cf54ab9885cc3f74e48b2ee3ab32fa4240766982592e3686aeca78950cf9",
+      "sha256": "6e95fd1e286247db261bf5b4fa2daaf05744b6e0fd6c9f24ad84ccc45c49853d",
+      "assembly_min_mm": [
+        -7.0,
+        -76.0,
+        7.0
+      ],
+      "part_extents_mm": [
+        22.5,
+        152.0,
+        22.0
+      ],
+      "change": "Rigid translation to positive coordinates only; original triangles retained"
+    },
+    {
+      "ref": "P060",
+      "file": "parts/P060_RevD_review_mm.stl",
+      "source_sha256": "4354bac235ad2052a42c272b15742600b7de71edba064c84b0d3bdf67e5ead57",
+      "sha256": "4458810aa99cb001aa2e0a98b40abf7fa922a7fa2f79fa1e7b92984b97ba7e1e",
+      "assembly_min_mm": [
+        125.49999237060547,
+        -76.0,
+        4.5
+      ],
+      "part_extents_mm": [
+        8.000007629394531,
+        24.0,
+        23.5
+      ],
+      "change": "Rigid translation to positive coordinates only; original triangles retained"
+    },
+    {
+      "ref": "P061",
+      "file": "parts/P061_RevD_review_mm.stl",
+      "source_sha256": "63ec35a2a813f386b84436ca1873bb09c53088cc5d5801f312dc2a180e727df7",
+      "sha256": "c7cb9b8719f3616361384548d548e56e17548cacd58d6f59360439a42553e8a4",
+      "assembly_min_mm": [
+        125.49999237060547,
+        52.0,
+        4.5
+      ],
+      "part_extents_mm": [
+        8.000007629394531,
+        24.0,
+        23.5
+      ],
+      "change": "Rigid translation to positive coordinates only; original triangles retained"
+    },
+    {
+      "ref": "P070a",
+      "file": "parts/P070a_RevD_review_mm.stl",
+      "source_sha256": "d7ce740a6d9aed1e234f5217a81855ba2f141b55758bbf3916cca8404116aa85",
+      "sha256": "c98bff0fe50e0f619ee3280edeaa668ddbd848a56361648dda5357a8edd402e6",
+      "assembly_min_mm": [
+        124.0,
+        -73.75,
+        14.0
+      ],
+      "part_extents_mm": [
+        1.4999923706054688,
+        4.5,
+        6.0
+      ],
+      "change": "Rigid translation to positive coordinates only; original triangles retained"
+    },
+    {
+      "ref": "P070b",
+      "file": "parts/P070b_RevD_review_mm.stl",
+      "source_sha256": "c290bbfb0679a8bdde0e36302c370f1e06e523ee7e29aeac24d6e908ec935e81",
+      "sha256": "c98bff0fe50e0f619ee3280edeaa668ddbd848a56361648dda5357a8edd402e6",
+      "assembly_min_mm": [
+        124.0,
+        -58.75,
+        14.0
+      ],
+      "part_extents_mm": [
+        1.4999923706054688,
+        4.5,
+        6.0
+      ],
+      "change": "Rigid translation to positive coordinates only; original triangles retained"
+    },
+    {
+      "ref": "P071a",
+      "file": "parts/P071a_RevD_review_mm.stl",
+      "source_sha256": "be4e61c044aa6ca0d5a817c8ae23d520dde3a67b88f8060ca2d2f2e1816a03ce",
+      "sha256": "c98bff0fe50e0f619ee3280edeaa668ddbd848a56361648dda5357a8edd402e6",
+      "assembly_min_mm": [
+        124.0,
+        54.25,
+        14.0
+      ],
+      "part_extents_mm": [
+        1.4999923706054688,
+        4.5,
+        6.0
+      ],
+      "change": "Rigid translation to positive coordinates only; original triangles retained"
+    },
+    {
+      "ref": "P071b",
+      "file": "parts/P071b_RevD_review_mm.stl",
+      "source_sha256": "0701c44a62cf3ce3b60e87b3994707d3cadd593e8ecbbf8cd497939f4db60db6",
+      "sha256": "c98bff0fe50e0f619ee3280edeaa668ddbd848a56361648dda5357a8edd402e6",
+      "assembly_min_mm": [
+        124.0,
+        69.25,
+        14.0
+      ],
+      "part_extents_mm": [
+        1.4999923706054688,
+        4.5,
+        6.0
+      ],
+      "change": "Rigid translation to positive coordinates only; original triangles retained"
+    },
+    {
+      "ref": "P08",
+      "file": "parts/P08_RevD_review_mm.stl",
+      "source_sha256": "11f47952a86814ce1c6a80ad25edde546f99b8664a610e397851ec8ae9fe8b2a",
+      "sha256": "9288377c897a0ca59fbc4f0de834aee8c0604e399bcc6d9cd09c54be18ba9501",
+      "assembly_min_mm": [
+        -46.10000228881836,
+        -62.0,
+        0.0
+      ],
+      "part_extents_mm": [
+        22.500001907348633,
+        124.0,
+        9.5
+      ],
+      "change": "Rigid translation to positive coordinates only; original triangles retained"
+    },
+    {
+      "ref": "P09",
+      "file": "parts/P09_RevD_review_mm.stl",
+      "source_sha256": "2b809ab1f7cc350b96862cfd7d4878ac1907bda7cf793f78aa0e445e7264084a",
+      "sha256": "fbf2d038fc6e0822c606834a67c6974eff6c7a36c2559ca0b42d7bd414fdb27e",
+      "assembly_min_mm": [
+        -46.10000228881836,
+        -55.0,
+        2.1500000953674316
+      ],
+      "part_extents_mm": [
+        22.500001907348633,
+        110.0,
+        6.749999523162842
+      ],
+      "change": "Rigid translation to positive coordinates only; original triangles retained"
+    },
+    {
+      "ref": "P10",
+      "file": "parts/P10_RevD_review_mm.stl",
+      "source_sha256": "8ee66bba498b46d593a8d9c00581582cd76b35677312eb81d427f808df8b08d8",
+      "sha256": "09c9f85ce1bf3e78d08da598710fc8b68dc09888b038cb966415ffff4258fe32",
+      "assembly_min_mm": [
+        -28.100000381469727,
+        22.399999618530273,
+        3.4000000953674316
+      ],
+      "part_extents_mm": [
+        3.200000762939453,
+        10.200002670288086,
+        1.0
+      ],
+      "change": "Rigid translation to positive coordinates only; original triangles retained"
+    }
+  ],
+  "sliced_project_updated": false
+}

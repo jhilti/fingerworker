@@ -1,0 +1,201 @@
+{
+  "status": "PASS_CONNECTED_MATERIAL_FLOW",
+  "checks": [
+    {
+      "name": "Selected PLA Basic standard-nozzle flow cap is 25",
+      "status": "PASS",
+      "cap_mm3_s": 25.0
+    },
+    {
+      "name": "P01 actual commands respect selected material flow cap",
+      "status": "PASS",
+      "model_segments": 543873,
+      "max_adjusted_flow_mm3_s": 24.14413204047863,
+      "max_long_segment_flow_mm3_s": 21.97390728152393
+    },
+    {
+      "name": "P04 actual commands respect selected material flow cap",
+      "status": "PASS",
+      "model_segments": 275870,
+      "max_adjusted_flow_mm3_s": 23.694237434567192,
+      "max_long_segment_flow_mm3_s": 23.077972865273715
+    },
+    {
+      "name": "P04 protected Outer wall speed retained",
+      "status": "PASS",
+      "actual_mm_s": 60.0,
+      "limit_mm_s": 60.0
+    },
+    {
+      "name": "P04 protected Top surface speed retained",
+      "status": "PASS",
+      "actual_mm_s": 40.0,
+      "limit_mm_s": 40.0
+    },
+    {
+      "name": "P05 actual commands respect selected material flow cap",
+      "status": "PASS",
+      "model_segments": 191666,
+      "max_adjusted_flow_mm3_s": 18.55465797384797,
+      "max_long_segment_flow_mm3_s": 18.55698407844428
+    },
+    {
+      "name": "P11 actual commands respect selected material flow cap",
+      "status": "PASS",
+      "model_segments": 6227,
+      "max_adjusted_flow_mm3_s": 2.175221192647116,
+      "max_long_segment_flow_mm3_s": 2.1760850303564125
+    },
+    {
+      "name": "P11 protected Outer wall speed retained",
+      "status": "PASS",
+      "actual_mm_s": 38.833333333333336,
+      "limit_mm_s": 40.0
+    },
+    {
+      "name": "P11 protected Top surface speed retained",
+      "status": "PASS",
+      "actual_mm_s": 40.0,
+      "limit_mm_s": 40.0
+    },
+    {
+      "name": "Q01 actual commands respect selected material flow cap",
+      "status": "PASS",
+      "model_segments": 22943,
+      "max_adjusted_flow_mm3_s": 4.157929975903897,
+      "max_long_segment_flow_mm3_s": 3.1914766403109542
+    },
+    {
+      "name": "Q01 protected Outer wall speed retained",
+      "status": "PASS",
+      "actual_mm_s": 40.0,
+      "limit_mm_s": 40.0
+    },
+    {
+      "name": "Q01 protected Top surface speed retained",
+      "status": "PASS",
+      "actual_mm_s": 40.0,
+      "limit_mm_s": 40.0
+    },
+    {
+      "name": "P06 actual commands respect selected material flow cap",
+      "status": "PASS",
+      "model_segments": 97075,
+      "max_adjusted_flow_mm3_s": 19.12672473464849,
+      "max_long_segment_flow_mm3_s": 18.964590736741044
+    },
+    {
+      "name": "P06 protected Outer wall speed retained",
+      "status": "PASS",
+      "actual_mm_s": 60.0,
+      "limit_mm_s": 60.0
+    },
+    {
+      "name": "P06 protected Top surface speed retained",
+      "status": "PASS",
+      "actual_mm_s": 40.0,
+      "limit_mm_s": 40.0
+    }
+  ],
+  "failures": [],
+  "metrics": {
+    "P01": {
+      "model_segments": 543873,
+      "max_adjusted_flow_mm3_s": 24.14413204047863,
+      "max_long_segment_flow_mm3_s": 21.97390728152393,
+      "speeds": {
+        "Inner wall": 180.0,
+        "Outer wall": 100.0,
+        "Bottom surface": 20.0,
+        "Internal solid infill": 160.0,
+        "Sparse infill": 200.0,
+        "Bridge": 25.0,
+        "Floating vertical shell": 128.0,
+        "Top surface": 60.0,
+        "Gap infill": 120.0,
+        "Overhang wall": 25.0
+      }
+    },
+    "P04": {
+      "model_segments": 275870,
+      "max_adjusted_flow_mm3_s": 23.694237434567192,
+      "max_long_segment_flow_mm3_s": 23.077972865273715,
+      "speeds": {
+        "Inner wall": 180.0,
+        "Outer wall": 60.0,
+        "Bottom surface": 20.0,
+        "Overhang wall": 25.0,
+        "Internal solid infill": 160.0,
+        "Top surface": 40.0,
+        "Sparse infill": 200.0,
+        "Bridge": 25.0,
+        "Floating vertical shell": 128.0,
+        "Gap infill": 120.0
+      }
+    },
+    "P05": {
+      "model_segments": 191666,
+      "max_adjusted_flow_mm3_s": 18.55465797384797,
+      "max_long_segment_flow_mm3_s": 18.55698407844428,
+      "speeds": {
+        "Inner wall": 180.0,
+        "Outer wall": 100.0,
+        "Bottom surface": 20.0,
+        "Internal solid infill": 160.0,
+        "Sparse infill": 200.0,
+        "Floating vertical shell": 128.0,
+        "Bridge": 25.0,
+        "Top surface": 60.0,
+        "Overhang wall": 25.0,
+        "Gap infill": 120.0
+      }
+    },
+    "P11": {
+      "model_segments": 6227,
+      "max_adjusted_flow_mm3_s": 2.175221192647116,
+      "max_long_segment_flow_mm3_s": 2.1760850303564125,
+      "speeds": {
+        "Inner wall": 50.0,
+        "Outer wall": 38.833333333333336,
+        "Overhang wall": 25.0,
+        "Bridge": 25.0,
+        "Internal solid infill": 40.0,
+        "Top surface": 40.0
+      }
+    },
+    "Q01": {
+      "model_segments": 22943,
+      "max_adjusted_flow_mm3_s": 4.157929975903897,
+      "max_long_segment_flow_mm3_s": 3.1914766403109542,
+      "speeds": {
+        "Inner wall": 40.0,
+        "Outer wall": 40.0,
+        "Bottom surface": 20.0,
+        "Internal solid infill": 40.0,
+        "Sparse infill": 40.0,
+        "Top surface": 40.0,
+        "Gap infill": 40.0
+      }
+    },
+    "P06": {
+      "model_segments": 97075,
+      "max_adjusted_flow_mm3_s": 19.12672473464849,
+      "max_long_segment_flow_mm3_s": 18.964590736741044,
+      "speeds": {
+        "Inner wall": 100.0,
+        "Outer wall": 60.0,
+        "Bottom surface": 20.0,
+        "Internal solid infill": 160.0,
+        "Sparse infill": 200.0,
+        "Floating vertical shell": 128.0,
+        "Bridge": 25.0,
+        "Top surface": 40.0,
+        "Gap infill": 120.0
+      }
+    }
+  },
+  "selected_cap_mm3_s": 25.0,
+  "sliced_archive_sha256": "d077b2ff3f6340495e3c6914a3aa4bb674d00c2c64635fe523878e370c63e15c",
+  "validator_sha256": "2eda6c924ee34ebff25245aa6478394c5df46ddf4bb2d8fd0bd9086e0be3e1fc",
+  "method": "All positive model commands parsed; circular arcs use exact radius/sweep. Flow check allows only known XY0.001mm and E0.00001mm serialization rounding. Long segments also meet raw cap+0.05mm3/s. Unchanged native CAD/profile audits are not rerun."
+}

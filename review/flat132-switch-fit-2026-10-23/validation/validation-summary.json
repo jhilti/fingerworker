@@ -1,0 +1,269 @@
+{
+  "status": "NOMINAL_GEOMETRY_CHECKS_PASS",
+  "scope": "Nominal native CAD geometry and source-configured motion/service; manufacturer-drawing switch reconstruction, not factory switch CAD or physical actuation/load qualification",
+  "source_sha256": "b150ff3a76cfaaaaa65ee1ea09e144b7c7d64e45459a925163e56918f48bb3c5",
+  "native_provenance": {
+    "workspace_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/w/3ee26cf6386f889ca7ae9519/e/d253eb87b70818ebde8215f0",
+    "feature_source_sha256": "b150ff3a76cfaaaaa65ee1ea09e144b7c7d64e45459a925163e56918f48bb3c5",
+    "association": "Operator-supplied native export/source association; original filenames and each member SHA256 are checked in report.",
+    "immutable_version_id": "1a51bc54c29fb727dcb77016",
+    "immutable_version_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/1a51bc54c29fb727dcb77016/e/d253eb87b70818ebde8215f0",
+    "version_binding_note": "Root verified the final b150 source in the native study, regenerated105 parts, exported all four native inputs, restored neutral stroke0/preload0/light/isometricOFF/electronicsON/handOFF, and created/opened this immutable R4 checkpoint. No geometry or validation tolerance changed during provenance binding."
+  },
+  "only_changed_parts": [
+    "P01 switch pedestal/pilots",
+    "P04 cam recess/pilots and old nub",
+    "H09 drawing-based body/tab/lug reference",
+    "H09a approximate lever",
+    "H09b nominal roller/approximate motion",
+    "H10 nominal M3x8 manual cam"
+  ],
+  "switch_fit_reference": {
+    "part": "SS-01GL2 plain solder-lug version",
+    "geometry_status": "MANUFACTURER_DRAWING_BASED; NO_FACTORY_STEP; terminal/lug conservative envelopes; lever fixed-length motion approximate",
+    "shift_from_R3_mm": [
+      4.0,
+      1.0,
+      1.5
+    ],
+    "cam": "M3x8 nominal; diameter5.5 x3 head and nominal L4 insert intent, actual stock unqualified",
+    "minimum_declared_terminal_to_P05_axial_gap_at_p2_mm": 3.1,
+    "minimum_head_recess_to_guide_roof_stock_mm": 1.3,
+    "switch_OP_from_mount_line_mm": 14.5,
+    "switch_OP_tolerance_mm": 0.8,
+    "nominal_trip_lead_mm": 1.0,
+    "limits": "CAD proves nominal clearance only. OP tolerance, total travel, manual cam reset/locking, inserts, solder/wire bend/insulation/strain relief, and physical actuation remain unqualified."
+  },
+  "preserved_geometry": "P05 force web/integral sensing stops, P02/P03 palm7mm fit and all other99 native bodies retain exact geometry from frozen R3.",
+  "unchanged_operating_domain": "0<=preload<=2, stroke>=0, stroke+preload<=30 mm. Printed moving stop faces reduce maximum stroke to 30-preload. H10 cam must be manually reset by -preload after each preload change.",
+  "domain_vertices_stroke_preload_mm": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      30.0,
+      0.0
+    ],
+    [
+      28.0,
+      2.0
+    ],
+    [
+      0.0,
+      2.0
+    ]
+  ],
+  "manual_setup_required": "Reset H10 by-preload after every preload change, then calibrate/verify the actual switch operating and total travel and relock. The source pose creates no automatic mechanical coupling.",
+  "native_neutral_inventory": {
+    "device": 52,
+    "electronics_references": 53,
+    "total": 105
+  },
+  "native_archives": [
+    {
+      "path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-switch-fit-2026-10-23/native/Flat132_R4_neutral_final.zip",
+      "sha256": "4278ba5000a141daa466628d03a2cc08e10267368d6a95dbcdb9546f9ccc63cc"
+    },
+    {
+      "path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-switch-fit-2026-10-23/native/Flat132_R4_max28_p2_heavy_final.zip",
+      "sha256": "425e6ce1e7fb3ee712afc0787e9274e73a554df963a1ef1bffe67e798cd4ebc1"
+    },
+    {
+      "path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-switch-fit-2026-10-23/native/Flat132_R4_isometric13_p2_final.zip",
+      "sha256": "677debdb1fa5268859ec048491b45c5b21ed764e89226e68e4af2678c1958581"
+    }
+  ],
+  "native_step": {
+    "path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-switch-fit-2026-10-23/native/Flat132_R4_final_AP214.step",
+    "sha256": "9ae3f82a0539de9acd6eb8fc371589962c0a65632afe98e7b7a4e3602ac8f255",
+    "solids": 105,
+    "valid_positive_solids": 105,
+    "status": "PASS"
+  },
+  "baseline_scope_comparison": {
+    "name": "R4 switch-fit change scope; exact unchanged native geometry identity",
+    "baseline_assembly": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-palm-fit-2026-10-23/native/Flat132_R3_neutral_final.zip",
+    "baseline_sha256": "0a8d367507744e7dfaaa46a6c1fa46639551293a0ad738d16f87fbebf2eef738",
+    "expected_changed_geometry_refs": [
+      "H09",
+      "H09a",
+      "H09b",
+      "H10",
+      "P01",
+      "P04"
+    ],
+    "actual_changed_stl_refs": [
+      "H09",
+      "H09a",
+      "H09b",
+      "H10",
+      "P01",
+      "P04"
+    ],
+    "actual_changed_geometry_refs": [
+      "H09",
+      "H09a",
+      "H09b",
+      "H10",
+      "P01",
+      "P04"
+    ],
+    "triangle_order_only_evidence": [],
+    "unchanged_geometry_count": 99,
+    "byte_identical_count": 99,
+    "expected_removed_refs": [],
+    "actual_removed_refs": [],
+    "actual_added_refs": [],
+    "inventory_matches_policy": true,
+    "status": "PASS"
+  },
+  "failed_checks": 0,
+  "unresolved_checks": 0,
+  "status_counts": {
+    "CHECKED_NATIVE_POSE": 2,
+    "CLEAR_AT_NUMERICAL_TOLERANCE": 18986,
+    "COMPLETE_TRANSVERSE_PARTITION_CONTINUOUS_CLEARANCE_CERTIFIED": 1,
+    "CONTINUOUS_CLEARANCE_AT_NUMERICAL_VOLUME_TOLERANCE": 72,
+    "CONTINUOUS_CLEARANCE_CERTIFIED": 3062,
+    "DECLARED_NOMINAL_FIT_OVERLAP": 36,
+    "INTENDED_EXTERIOR_CONTACT_OR_CLEARANCE": 8,
+    "PASS": 339
+  },
+  "check_group_counts": {
+    "static_pairs": 5253,
+    "continuous_pairs": 5253,
+    "dimension_checks": 55,
+    "material_and_clearance_probes": 44,
+    "spring_envelopes": 120,
+    "service_sweeps": 826,
+    "exact_brep_pairs": 1
+  },
+  "native_poses": [
+    {
+      "key": "dynamic:28:2",
+      "status": "CHECKED_NATIVE_POSE",
+      "pairs_checked": 5253,
+      "source_motion_checks": 110
+    },
+    {
+      "key": "isometric:13:2",
+      "status": "CHECKED_NATIVE_POSE",
+      "pairs_checked": 5460,
+      "source_motion_checks": 119
+    }
+  ],
+  "switch_exact_CSG_and_clearance_audit": {
+    "status": "PASS",
+    "checks": 14,
+    "checks_passed": 14,
+    "partial_driver_shank_pairs": 102,
+    "unchanged_exact_breps": 99
+  },
+  "domain_adapter_status": "PASS",
+  "sensor_identity": {
+    "status": "PASS",
+    "requirement": "Unmodified manufacturer BRep under a rigid unit-scale transform",
+    "canonical_placed_step": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-palm-fit-2026-10-23/sensor/TE_FX1901_actual_apex_aligned_132_mm.step",
+    "canonical_sha256": "241c8b522707e9ce3b611db3c783d6c9e3bd6e492175c530d5e9795d9dc98097",
+    "native_step_file": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-switch-fit-2026-10-23/native/Flat132_R4_final_AP214.step",
+    "native_step_sha256": "9ae3f82a0539de9acd6eb8fc371589962c0a65632afe98e7b7a4e3602ac8f255",
+    "original_volume_mm3": 3933.7193196162134,
+    "total_native_solids": 105,
+    "candidates": [
+      {
+        "solid_index": 30,
+        "volume_mm3": 3933.7173189944156,
+        "symmetric_difference_mm3": 0.0,
+        "valid": true
+      }
+    ],
+    "additional_rigid_transform": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "matching_native_solid": {
+      "solid_index": 30,
+      "volume_mm3": 3933.7173189944156,
+      "symmetric_difference_mm3": 0.0,
+      "valid": true
+    },
+    "sensor_stl_ref": "H01",
+    "sensor_stl_sha256": "fe791187db3b12e1867d0a6574e6d9606340dd0251f713ff8a9bb18cbb287a83"
+  },
+  "exact_brep_pairs": [
+    {
+      "pair": [
+        "P02",
+        "P03"
+      ],
+      "maximum_intersection_volume_mm3": 1e-06,
+      "reason": "Verify coincident nominal TPU/core fit has no BRep material overlap",
+      "native_step_files": {
+        "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-switch-fit-2026-10-23/native/Flat132_R4_final_AP214.step": "9ae3f82a0539de9acd6eb8fc371589962c0a65632afe98e7b7a4e3602ac8f255"
+      },
+      "intersection_volume_mm3": 0.0,
+      "matched_solid_indices": [
+        43,
+        28
+      ],
+      "matched_source_files": [
+        "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-switch-fit-2026-10-23/native/Flat132_R4_final_AP214.step",
+        "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-switch-fit-2026-10-23/native/Flat132_R4_final_AP214.step"
+      ],
+      "correspondence_bound_errors_mm": [
+        1.0000000116860974e-07,
+        0.0008393333984386686
+      ],
+      "correspondence_volume_errors_mm3": [
+        1.0113754904559755,
+        0.5132595859495268
+      ],
+      "status": "PASS"
+    }
+  ],
+  "source_fit_status": "EXACT_SOURCE_LEVEL_DISJOINTNESS_CERTIFIED",
+  "evidence_files": {
+    "manifest.json": "cb1ec212608a05dc917c28ac7897085fc3d9a8ecfe88d4f0a03f88a4cdb7ad27",
+    "validation.json": "ed72872484b09ceb5560b1cf01476bbc1b46071fc165cf75ee2b8689563b89f7",
+    "native-step-inventory.json": "7c4945ac9cb918dfdfa9485f62adc284b1fb6c85e197ae02c5f33834a8cda9c4",
+    "source-fit-certificate.json": "17bc994dc32b9691ad9ddf0bd814948a27af544749f0f54b74dda7d183f7bc7c",
+    "switch-fit-audit.json": "5815b1d56b65b9ba9b44a708d24a15c608aee1004fcefc44aa745e629086b4d3",
+    "r2-domain-adapter-check.json": "8ca4f06d90f5f3e10a5842d128cd74c622050899ff2ad510ae719f19c5728f39"
+  },
+  "limitations": [
+    "Native exports and source association are operator-declared and hash-bound; this script does not regenerate Onshape.",
+    "STL intersection tolerance is numerical, not a permitted design penetration or print clearance.",
+    "Actuator continuous certificates depend on manual H10 reset after each preload change and the stated FeatureScript kinematics. Native pose/source congruence is separately checked; the actual purchased switch and click force remain unqualified.",
+    "Selected wall-ray/probe checks do not establish a global minimum wall or strength.",
+    "No hand-volume clearance is inferred from an open scan in a provisional registration. No comfort qualification.",
+    "No spring fatigue/coil-bind or load-cell electrical/calibration qualification is established.",
+    "H09 terminals and lug are conservative dimensioned boxes, not exact manufacturer shapes. H09a/H09b use an approximate fixed-length rotating mechanism.",
+    "Actual solder joints, wire bends, insulation and strain relief are not modeled.",
+    "SS-01GL2 operating-position tolerance and total travel require physical cam calibration at every preload reset; nominal one-mm trip lead is not a guaranteed margin.",
+    "Actual inserts, screw/head/washer sizes, driver socket/handle fit, retention and printed500N working load remain unqualified.",
+    "500N remains a design target, not a verified printed working-load rating."
+  ]
+}

@@ -1,0 +1,2459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_sch</source>
+    <date>2026-10-11T12:02:11</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>FINGERWORKER | Electronics Rev A-P1</title>
+        <company/>
+        <rev>A-P1</rev>
+        <date>2026-09-21</date>
+        <source>Fingerworker_RevA.kicad_sch</source>
+        <comment number="1" value="Prototype fabrication issue A-P1; hardware characterization required"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Power/" tstamps="/24a2fd24-08aa-59c3-8172-b24828f808d0/">
+      <title_block>
+        <title>FINGERWORKER | BLE, battery and switched 5 V</title>
+        <company>Fingerworker</company>
+        <rev>A-P1</rev>
+        <date>2026-09-21</date>
+        <source>Power.kicad_sch</source>
+        <comment number="1" value="Prototype fabrication issue A-P1; hardware characterization required"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Acquisition/" tstamps="/d1129be9-5e86-5da5-bb3e-64d674d30046/">
+      <title_block>
+        <title>FINGERWORKER | Force bridge, input filters and ADS1220</title>
+        <company>Fingerworker</company>
+        <rev>A-P1</rev>
+        <date>2026-09-21</date>
+        <source>Acquisition.kicad_sch</source>
+        <comment number="1" value="Prototype fabrication issue A-P1; hardware characterization required"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Controls/" tstamps="/a476cc04-7ee4-5020-bb06-40655657227f/">
+      <title_block>
+        <title>FINGERWORKER | End switch and wake / tare button</title>
+        <company>Fingerworker</company>
+        <rev>A-P1</rev>
+        <date>2026-09-21</date>
+        <source>Controls.kicad_sch</source>
+        <comment number="1" value="Prototype fabrication issue A-P1; hardware characterization required"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>Protected 100 mAh LiPo</value>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/1570/1570datasheet.pdf</datasheet>
+      <fields>
+        <field name="MPN">1570</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://cdn-shop.adafruit.com/product-files/1570/1570datasheet.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_BT1" description=""/>
+      <property name="MPN" value="1570"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Power/" tstamps="/24a2fd24-08aa-59c3-8172-b24828f808d0/"/>
+      <tstamps>77128d53-5a94-5cfa-82f6-738feb2dcdac</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="+"/>
+            <pin num="-"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C1">
+      <value>10 uF</value>
+      <footprint>Fingerworker:C_0805_2012Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01A.pdf</datasheet>
+      <fields>
+        <field name="MPN">GRM21BR61E106KA73L</field>
+        <field name="Footprint">Fingerworker:C_0805_2012Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_C1" description=""/>
+      <property name="MPN" value="GRM21BR61E106KA73L"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/24a2fd24-08aa-59c3-8172-b24828f808d0/"/>
+      <tstamps>9298ef6a-516e-50ee-8003-b7973d144e6b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>10 nF</value>
+      <footprint>Fingerworker:C_0603_1608Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H103KA01-01.pdf</datasheet>
+      <fields>
+        <field name="MPN">GRM188R71H103KA01D</field>
+        <field name="Footprint">Fingerworker:C_0603_1608Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H103KA01-01.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_C2" description=""/>
+      <property name="MPN" value="GRM188R71H103KA01D"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/24a2fd24-08aa-59c3-8172-b24828f808d0/"/>
+      <tstamps>402e8790-ea35-5290-aee3-19f19908e186</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>10 uF</value>
+      <footprint>Fingerworker:C_0805_2012Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01A.pdf</datasheet>
+      <fields>
+        <field name="MPN">GRM21BR61E106KA73L</field>
+        <field name="Footprint">Fingerworker:C_0805_2012Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_C3" description=""/>
+      <property name="MPN" value="GRM21BR61E106KA73L"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/24a2fd24-08aa-59c3-8172-b24828f808d0/"/>
+      <tstamps>2637906e-468f-5ff8-a311-d3381e43525b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>22 uF</value>
+      <footprint>Fingerworker:C_0805_2012Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E226ME44-01A.pdf</datasheet>
+      <fields>
+        <field name="MPN">GRM21BR61E226ME44L</field>
+        <field name="Footprint">Fingerworker:C_0805_2012Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E226ME44-01A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_C4" description=""/>
+      <property name="MPN" value="GRM21BR61E226ME44L"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/24a2fd24-08aa-59c3-8172-b24828f808d0/"/>
+      <tstamps>fda9bbf5-0d9b-507f-908d-073c7e462028</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>47 pF</value>
+      <footprint>Fingerworker:C_0603_1608Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H470JA01-01A.pdf</datasheet>
+      <fields>
+        <field name="MPN">GRM1885C1H470JA01D</field>
+        <field name="Footprint">Fingerworker:C_0603_1608Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H470JA01-01A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_C5" description=""/>
+      <property name="MPN" value="GRM1885C1H470JA01D"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/24a2fd24-08aa-59c3-8172-b24828f808d0/"/>
+      <tstamps>ea553a68-e7c0-53da-9fa5-4a53f2ba9578</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>1 uF</value>
+      <footprint>Fingerworker:C_0603_1608Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C105KA12-01.pdf</datasheet>
+      <fields>
+        <field name="MPN">GRM188R71C105KA12D</field>
+        <field name="Footprint">Fingerworker:C_0603_1608Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C105KA12-01.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_C6" description=""/>
+      <property name="MPN" value="GRM188R71C105KA12D"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/24a2fd24-08aa-59c3-8172-b24828f808d0/"/>
+      <tstamps>aeec617c-fe40-5f96-aaaf-45d62406f388</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>22 uF</value>
+      <footprint>Fingerworker:C_0805_2012Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E226ME44-01A.pdf</datasheet>
+      <fields>
+        <field name="MPN">GRM21BR61E226ME44L</field>
+        <field name="Footprint">Fingerworker:C_0805_2012Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E226ME44-01A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_C7" description=""/>
+      <property name="MPN" value="GRM21BR61E226ME44L"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/24a2fd24-08aa-59c3-8172-b24828f808d0/"/>
+      <tstamps>30488437-9003-5a30-a553-e047b844d04f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>MBR0520LT1G</value>
+      <footprint>Fingerworker:D_SOD-123</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/mbr0520lt1-d.pdf</datasheet>
+      <fields>
+        <field name="MPN">MBR0520LT1G</field>
+        <field name="Footprint">Fingerworker:D_SOD-123</field>
+        <field name="Datasheet">https://www.onsemi.com/pdf/datasheet/mbr0520lt1-d.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_D1" description=""/>
+      <property name="MPN" value="MBR0520LT1G"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/24a2fd24-08aa-59c3-8172-b24828f808d0/"/>
+      <tstamps>0845f90b-993f-5cd0-8420-81b3d0f4a814</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>JST_PH_2</value>
+      <footprint>Fingerworker:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/ePH.pdf</datasheet>
+      <fields>
+        <field name="MPN">S2B-PH-SM4-TB(LF)(SN)</field>
+        <field name="Footprint">Fingerworker:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal</field>
+        <field name="Datasheet">https://www.jst-mfg.com/product/pdf/eng/ePH.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_J1" description=""/>
+      <property name="MPN" value="S2B-PH-SM4-TB(LF)(SN)"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/24a2fd24-08aa-59c3-8172-b24828f808d0/"/>
+      <tstamps>f351653c-db71-5373-a274-194526b87f39</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L1">
+      <value>10 uH</value>
+      <footprint>Fingerworker:L_Coilcraft_XFL3012</footprint>
+      <datasheet>https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xfl/xfl3012/xfl3012-103/</datasheet>
+      <fields>
+        <field name="MPN">XFL3012-103MEC</field>
+        <field name="Footprint">Fingerworker:L_Coilcraft_XFL3012</field>
+        <field name="Datasheet">https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xfl/xfl3012/xfl3012-103/</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_L1" description=""/>
+      <property name="MPN" value="XFL3012-103MEC"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/24a2fd24-08aa-59c3-8172-b24828f808d0/"/>
+      <tstamps>435373c9-dd96-569b-a21b-5d1608652765</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>100 k</value>
+      <footprint>Fingerworker:R_0603_1608Metric</footprint>
+      <datasheet>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_R1" description=""/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/24a2fd24-08aa-59c3-8172-b24828f808d0/"/>
+      <tstamps>afd6122b-c7e4-58ea-9441-b9bea8b86247</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>100 k</value>
+      <footprint>Fingerworker:R_0603_1608Metric</footprint>
+      <datasheet>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_R2" description=""/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/24a2fd24-08aa-59c3-8172-b24828f808d0/"/>
+      <tstamps>d11b9f0a-ed08-5c0c-aaa4-223a87c5ed95</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>680 k</value>
+      <footprint>Fingerworker:R_0603_1608Metric</footprint>
+      <datasheet>https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD07680KL</datasheet>
+      <fields>
+        <field name="MPN">RT0603BRD07680KL</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD07680KL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_R3" description=""/>
+      <property name="MPN" value="RT0603BRD07680KL"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/24a2fd24-08aa-59c3-8172-b24828f808d0/"/>
+      <tstamps>852402e0-0474-5618-8427-bfc127618a55</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>200 k</value>
+      <footprint>Fingerworker:R_0603_1608Metric</footprint>
+      <datasheet>https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD07200KL</datasheet>
+      <fields>
+        <field name="MPN">RT0603BRD07200KL</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD07200KL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_R4" description=""/>
+      <property name="MPN" value="RT0603BRD07200KL"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/24a2fd24-08aa-59c3-8172-b24828f808d0/"/>
+      <tstamps>44df7c9a-b9dc-5e0b-9582-68a6ebd26071</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>100 k</value>
+      <footprint>Fingerworker:R_0603_1608Metric</footprint>
+      <datasheet>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_R5" description=""/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/24a2fd24-08aa-59c3-8172-b24828f808d0/"/>
+      <tstamps>93b66693-9ee1-562d-96f9-9e11e2ca7572</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>100 k</value>
+      <footprint>Fingerworker:R_0603_1608Metric</footprint>
+      <datasheet>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_R6" description=""/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/24a2fd24-08aa-59c3-8172-b24828f808d0/"/>
+      <tstamps>b01966bb-0dfb-513d-b247-f1c2acf1d8c8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>XIAO_nRF52840</value>
+      <footprint>Fingerworker:Seeed_XIAO_nRF52840_SMD</footprint>
+      <datasheet>https://files.seeedstudio.com/wiki/XIAO-BLE/Res/260828_XIAO_nRF52840.pdf</datasheet>
+      <fields>
+        <field name="MPN">102010448</field>
+        <field name="Footprint">Fingerworker:Seeed_XIAO_nRF52840_SMD</field>
+        <field name="Datasheet">https://files.seeedstudio.com/wiki/XIAO-BLE/Res/260828_XIAO_nRF52840.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_U1" description=""/>
+      <property name="MPN" value="102010448"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/24a2fd24-08aa-59c3-8172-b24828f808d0/"/>
+      <tstamps>95bab951-c634-5b27-84a6-7fbdd79a9d95</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>TPS61041DBVR</value>
+      <footprint>Fingerworker:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps61041.pdf</datasheet>
+      <fields>
+        <field name="MPN">TPS61041DBVR</field>
+        <field name="Footprint">Fingerworker:SOT-23-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps61041.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_U2" description=""/>
+      <property name="MPN" value="TPS61041DBVR"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/24a2fd24-08aa-59c3-8172-b24828f808d0/"/>
+      <tstamps>defba61b-70c3-5eed-ba95-08e94c0151f0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>TPS7A2050PDBVR</value>
+      <footprint>Fingerworker:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps7a20.pdf</datasheet>
+      <fields>
+        <field name="MPN">TPS7A2050PDBVR</field>
+        <field name="Footprint">Fingerworker:SOT-23-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps7a20.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_U3" description=""/>
+      <property name="MPN" value="TPS7A2050PDBVR"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/24a2fd24-08aa-59c3-8172-b24828f808d0/"/>
+      <tstamps>3eae637d-aa41-529d-b2b2-c95542662faf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>470 nF</value>
+      <footprint>Fingerworker:C_0603_1608Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C474KA88-01A.pdf</datasheet>
+      <fields>
+        <field name="MPN">GRM188R71C474KA88D</field>
+        <field name="Footprint">Fingerworker:C_0603_1608Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C474KA88-01A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_C8" description=""/>
+      <property name="MPN" value="GRM188R71C474KA88D"/>
+      <property name="Sheetname" value="Acquisition"/>
+      <property name="Sheetfile" value="Acquisition.kicad_sch"/>
+      <sheetpath names="/Acquisition/" tstamps="/d1129be9-5e86-5da5-bb3e-64d674d30046/"/>
+      <tstamps>23faa93f-7ba4-5cec-a4d3-fcb0d678ac53</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>4.7 nF</value>
+      <footprint>Fingerworker:C_0603_1608Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H472JA01-01A.pdf</datasheet>
+      <fields>
+        <field name="MPN">GRM1885C1H472JA01D</field>
+        <field name="Footprint">Fingerworker:C_0603_1608Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H472JA01-01A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_C9" description=""/>
+      <property name="MPN" value="GRM1885C1H472JA01D"/>
+      <property name="Sheetname" value="Acquisition"/>
+      <property name="Sheetfile" value="Acquisition.kicad_sch"/>
+      <sheetpath names="/Acquisition/" tstamps="/d1129be9-5e86-5da5-bb3e-64d674d30046/"/>
+      <tstamps>72c0888f-43fb-5e6e-a213-e4bf70872f90</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C10">
+      <value>4.7 nF</value>
+      <footprint>Fingerworker:C_0603_1608Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H472JA01-01A.pdf</datasheet>
+      <fields>
+        <field name="MPN">GRM1885C1H472JA01D</field>
+        <field name="Footprint">Fingerworker:C_0603_1608Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H472JA01-01A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_C10" description=""/>
+      <property name="MPN" value="GRM1885C1H472JA01D"/>
+      <property name="Sheetname" value="Acquisition"/>
+      <property name="Sheetfile" value="Acquisition.kicad_sch"/>
+      <sheetpath names="/Acquisition/" tstamps="/d1129be9-5e86-5da5-bb3e-64d674d30046/"/>
+      <tstamps>dc029c53-34d5-5cb3-a9da-1758a171053b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C11">
+      <value>100 nF</value>
+      <footprint>Fingerworker:C_0603_1608Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</datasheet>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Footprint">Fingerworker:C_0603_1608Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_C11" description=""/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Sheetname" value="Acquisition"/>
+      <property name="Sheetfile" value="Acquisition.kicad_sch"/>
+      <sheetpath names="/Acquisition/" tstamps="/d1129be9-5e86-5da5-bb3e-64d674d30046/"/>
+      <tstamps>8e234dbd-a77d-5b1b-b346-75533c2a11e8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C12">
+      <value>100 nF</value>
+      <footprint>Fingerworker:C_0603_1608Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</datasheet>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Footprint">Fingerworker:C_0603_1608Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_C12" description=""/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Sheetname" value="Acquisition"/>
+      <property name="Sheetfile" value="Acquisition.kicad_sch"/>
+      <sheetpath names="/Acquisition/" tstamps="/d1129be9-5e86-5da5-bb3e-64d674d30046/"/>
+      <tstamps>242b8855-b246-5301-be21-bc0c483c8b10</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C13">
+      <value>1 uF</value>
+      <footprint>Fingerworker:C_0603_1608Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C105KA12-01.pdf</datasheet>
+      <fields>
+        <field name="MPN">GRM188R71C105KA12D</field>
+        <field name="Footprint">Fingerworker:C_0603_1608Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C105KA12-01.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_C13" description=""/>
+      <property name="MPN" value="GRM188R71C105KA12D"/>
+      <property name="Sheetname" value="Acquisition"/>
+      <property name="Sheetfile" value="Acquisition.kicad_sch"/>
+      <sheetpath names="/Acquisition/" tstamps="/d1129be9-5e86-5da5-bb3e-64d674d30046/"/>
+      <tstamps>6addf6bd-7568-50f3-8741-97a886cb348e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C14">
+      <value>100 nF</value>
+      <footprint>Fingerworker:C_0603_1608Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</datasheet>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Footprint">Fingerworker:C_0603_1608Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_C14" description=""/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Sheetname" value="Acquisition"/>
+      <property name="Sheetfile" value="Acquisition.kicad_sch"/>
+      <sheetpath names="/Acquisition/" tstamps="/d1129be9-5e86-5da5-bb3e-64d674d30046/"/>
+      <tstamps>033de669-dca8-56c5-b017-4ffb7ce9ee4f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H1">
+      <value>Force sensor 200 lbf</value>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocFormat=pdf&amp;DocLang=English&amp;DocNm=FX19&amp;DocType=Data+Sheet&amp;PartCntxt=FX1901-0001-0200-L</datasheet>
+      <fields>
+        <field name="MPN">FX1901-0001-0200-L</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocFormat=pdf&amp;DocLang=English&amp;DocNm=FX19&amp;DocType=Data+Sheet&amp;PartCntxt=FX1901-0001-0200-L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_H1" description=""/>
+      <property name="MPN" value="FX1901-0001-0200-L"/>
+      <property name="Sheetname" value="Acquisition"/>
+      <property name="Sheetfile" value="Acquisition.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Acquisition/" tstamps="/d1129be9-5e86-5da5-bb3e-64d674d30046/"/>
+      <tstamps>4b1cc94c-fc1a-5439-bd94-378d7f16424c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="RED"/>
+            <pin num="YELLOW"/>
+            <pin num="WHITE"/>
+            <pin num="BLACK"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>FORCE_4</value>
+      <footprint>Fingerworker:SolderWire_4x2mm_P2.54</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocFormat=pdf&amp;DocLang=English&amp;DocNm=FX19&amp;DocType=Data+Sheet&amp;PartCntxt=FX1901-0001-0200-L</datasheet>
+      <fields>
+        <field name="MPN">4 labelled solder pads</field>
+        <field name="Footprint">Fingerworker:SolderWire_4x2mm_P2.54</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocFormat=pdf&amp;DocLang=English&amp;DocNm=FX19&amp;DocType=Data+Sheet&amp;PartCntxt=FX1901-0001-0200-L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_J2" description=""/>
+      <property name="MPN" value="4 labelled solder pads"/>
+      <property name="Sheetname" value="Acquisition"/>
+      <property name="Sheetfile" value="Acquisition.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Acquisition/" tstamps="/d1129be9-5e86-5da5-bb3e-64d674d30046/"/>
+      <tstamps>68dfa273-ee79-5416-bedf-ae6c7ab9cf75</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>1 k</value>
+      <footprint>Fingerworker:R_0603_1608Metric</footprint>
+      <datasheet>https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD071KL</datasheet>
+      <fields>
+        <field name="MPN">RT0603BRD071KL</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD071KL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_R7" description=""/>
+      <property name="MPN" value="RT0603BRD071KL"/>
+      <property name="Sheetname" value="Acquisition"/>
+      <property name="Sheetfile" value="Acquisition.kicad_sch"/>
+      <sheetpath names="/Acquisition/" tstamps="/d1129be9-5e86-5da5-bb3e-64d674d30046/"/>
+      <tstamps>8f486922-02f8-5932-82a9-a35a7488999b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>1 k</value>
+      <footprint>Fingerworker:R_0603_1608Metric</footprint>
+      <datasheet>https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD071KL</datasheet>
+      <fields>
+        <field name="MPN">RT0603BRD071KL</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD071KL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_R8" description=""/>
+      <property name="MPN" value="RT0603BRD071KL"/>
+      <property name="Sheetname" value="Acquisition"/>
+      <property name="Sheetfile" value="Acquisition.kicad_sch"/>
+      <sheetpath names="/Acquisition/" tstamps="/d1129be9-5e86-5da5-bb3e-64d674d30046/"/>
+      <tstamps>dee4f75c-7f36-5fb6-9c17-4b0df0c5cd3e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>100 R</value>
+      <footprint>Fingerworker:R_0603_1608Metric</footprint>
+      <datasheet>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100RL</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-07100RL</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100RL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_R9" description=""/>
+      <property name="MPN" value="RC0603FR-07100RL"/>
+      <property name="Sheetname" value="Acquisition"/>
+      <property name="Sheetfile" value="Acquisition.kicad_sch"/>
+      <sheetpath names="/Acquisition/" tstamps="/d1129be9-5e86-5da5-bb3e-64d674d30046/"/>
+      <tstamps>6f4650ac-3200-5cff-8733-5c48be6112eb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>100 R</value>
+      <footprint>Fingerworker:R_0603_1608Metric</footprint>
+      <datasheet>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100RL</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-07100RL</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100RL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_R10" description=""/>
+      <property name="MPN" value="RC0603FR-07100RL"/>
+      <property name="Sheetname" value="Acquisition"/>
+      <property name="Sheetfile" value="Acquisition.kicad_sch"/>
+      <sheetpath names="/Acquisition/" tstamps="/d1129be9-5e86-5da5-bb3e-64d674d30046/"/>
+      <tstamps>1fd17ba1-b8f3-5c53-919a-3b1fb78aa9ed</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>33 R</value>
+      <footprint>Fingerworker:R_0603_1608Metric</footprint>
+      <datasheet>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0733RL</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-0733RL</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0733RL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_R11" description=""/>
+      <property name="MPN" value="RC0603FR-0733RL"/>
+      <property name="Sheetname" value="Acquisition"/>
+      <property name="Sheetfile" value="Acquisition.kicad_sch"/>
+      <sheetpath names="/Acquisition/" tstamps="/d1129be9-5e86-5da5-bb3e-64d674d30046/"/>
+      <tstamps>eb289c8a-16a2-56e5-ba4c-121615f11010</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>33 R</value>
+      <footprint>Fingerworker:R_0603_1608Metric</footprint>
+      <datasheet>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0733RL</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-0733RL</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0733RL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_R12" description=""/>
+      <property name="MPN" value="RC0603FR-0733RL"/>
+      <property name="Sheetname" value="Acquisition"/>
+      <property name="Sheetfile" value="Acquisition.kicad_sch"/>
+      <sheetpath names="/Acquisition/" tstamps="/d1129be9-5e86-5da5-bb3e-64d674d30046/"/>
+      <tstamps>c00443c2-ce26-5d93-8547-2ce1b469558c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>33 R</value>
+      <footprint>Fingerworker:R_0603_1608Metric</footprint>
+      <datasheet>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0733RL</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-0733RL</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0733RL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_R13" description=""/>
+      <property name="MPN" value="RC0603FR-0733RL"/>
+      <property name="Sheetname" value="Acquisition"/>
+      <property name="Sheetfile" value="Acquisition.kicad_sch"/>
+      <sheetpath names="/Acquisition/" tstamps="/d1129be9-5e86-5da5-bb3e-64d674d30046/"/>
+      <tstamps>9c7e1b27-1934-53c2-98ba-3eb5acb14ae8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>47 k</value>
+      <footprint>Fingerworker:R_0603_1608Metric</footprint>
+      <datasheet>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0747KL</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-0747KL</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0747KL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_R14" description=""/>
+      <property name="MPN" value="RC0603FR-0747KL"/>
+      <property name="Sheetname" value="Acquisition"/>
+      <property name="Sheetfile" value="Acquisition.kicad_sch"/>
+      <sheetpath names="/Acquisition/" tstamps="/d1129be9-5e86-5da5-bb3e-64d674d30046/"/>
+      <tstamps>3c6a475b-f0d4-56ab-b32f-26ce2efdab89</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>100 k</value>
+      <footprint>Fingerworker:R_0603_1608Metric</footprint>
+      <datasheet>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_R15" description=""/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="Sheetname" value="Acquisition"/>
+      <property name="Sheetfile" value="Acquisition.kicad_sch"/>
+      <sheetpath names="/Acquisition/" tstamps="/d1129be9-5e86-5da5-bb3e-64d674d30046/"/>
+      <tstamps>c71adff5-da83-50e9-9042-86f1ebe678f9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R16">
+      <value>100 k</value>
+      <footprint>Fingerworker:R_0603_1608Metric</footprint>
+      <datasheet>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_R16" description=""/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="Sheetname" value="Acquisition"/>
+      <property name="Sheetfile" value="Acquisition.kicad_sch"/>
+      <sheetpath names="/Acquisition/" tstamps="/d1129be9-5e86-5da5-bb3e-64d674d30046/"/>
+      <tstamps>aabd5fb3-a810-5d1b-b32b-cbb209546d53</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>ADS1220IPWR</value>
+      <footprint>Fingerworker:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/ads1220.pdf</datasheet>
+      <fields>
+        <field name="MPN">ADS1220IPWR</field>
+        <field name="Footprint">Fingerworker:TSSOP-16_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ads1220.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_U4" description=""/>
+      <property name="MPN" value="ADS1220IPWR"/>
+      <property name="Sheetname" value="Acquisition"/>
+      <property name="Sheetfile" value="Acquisition.kicad_sch"/>
+      <sheetpath names="/Acquisition/" tstamps="/d1129be9-5e86-5da5-bb3e-64d674d30046/"/>
+      <tstamps>e796a9f9-e7b3-5e1f-911f-2fd7008fc165</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C15">
+      <value>100 nF</value>
+      <footprint>Fingerworker:C_0603_1608Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</datasheet>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Footprint">Fingerworker:C_0603_1608Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_C15" description=""/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Sheetname" value="Controls"/>
+      <property name="Sheetfile" value="Controls.kicad_sch"/>
+      <sheetpath names="/Controls/" tstamps="/a476cc04-7ee4-5020-bb06-40655657227f/"/>
+      <tstamps>e42ae72c-76a8-5365-b1ec-adc6f1e43fbf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C16">
+      <value>100 nF</value>
+      <footprint>Fingerworker:C_0603_1608Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</datasheet>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Footprint">Fingerworker:C_0603_1608Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_C16" description=""/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Sheetname" value="Controls"/>
+      <property name="Sheetfile" value="Controls.kicad_sch"/>
+      <sheetpath names="/Controls/" tstamps="/a476cc04-7ee4-5020-bb06-40655657227f/"/>
+      <tstamps>4516d2ce-3a0e-5428-8b85-e121418c0040</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>END_2</value>
+      <footprint>Fingerworker:SolderWire_2x2mm_P2.54</footprint>
+      <fields>
+        <field name="MPN">2 labelled solder pads</field>
+        <field name="Footprint">Fingerworker:SolderWire_2x2mm_P2.54</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_J3" description=""/>
+      <property name="MPN" value="2 labelled solder pads"/>
+      <property name="Sheetname" value="Controls"/>
+      <property name="Sheetfile" value="Controls.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Controls/" tstamps="/a476cc04-7ee4-5020-bb06-40655657227f/"/>
+      <tstamps>627ce780-8d68-549d-9498-1b2bf17a5ef0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q1">
+      <value>2N7002</value>
+      <footprint>Fingerworker:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/2N7002.pdf</datasheet>
+      <fields>
+        <field name="MPN">2N7002,215</field>
+        <field name="Footprint">Fingerworker:SOT-23</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/2N7002.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_Q1" description=""/>
+      <property name="MPN" value="2N7002,215"/>
+      <property name="Sheetname" value="Controls"/>
+      <property name="Sheetfile" value="Controls.kicad_sch"/>
+      <sheetpath names="/Controls/" tstamps="/a476cc04-7ee4-5020-bb06-40655657227f/"/>
+      <tstamps>8d0050ad-4a5e-5901-bc03-bd4d98fd653c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R17">
+      <value>4.7 k</value>
+      <footprint>Fingerworker:R_0603_1608Metric</footprint>
+      <datasheet>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-074K7L</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-074K7L</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-074K7L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_R17" description=""/>
+      <property name="MPN" value="RC0603FR-074K7L"/>
+      <property name="Sheetname" value="Controls"/>
+      <property name="Sheetfile" value="Controls.kicad_sch"/>
+      <sheetpath names="/Controls/" tstamps="/a476cc04-7ee4-5020-bb06-40655657227f/"/>
+      <tstamps>5d03490a-ad40-5362-9562-43cb9c87f6ef</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R18">
+      <value>1 k</value>
+      <footprint>Fingerworker:R_0603_1608Metric</footprint>
+      <datasheet>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-071KL</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-071KL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_R18" description=""/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="Sheetname" value="Controls"/>
+      <property name="Sheetfile" value="Controls.kicad_sch"/>
+      <sheetpath names="/Controls/" tstamps="/a476cc04-7ee4-5020-bb06-40655657227f/"/>
+      <tstamps>488696ab-2117-52b6-94f5-d6baee5af9ba</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R19">
+      <value>47 k</value>
+      <footprint>Fingerworker:R_0603_1608Metric</footprint>
+      <datasheet>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0747KL</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-0747KL</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0747KL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_R19" description=""/>
+      <property name="MPN" value="RC0603FR-0747KL"/>
+      <property name="Sheetname" value="Controls"/>
+      <property name="Sheetfile" value="Controls.kicad_sch"/>
+      <sheetpath names="/Controls/" tstamps="/a476cc04-7ee4-5020-bb06-40655657227f/"/>
+      <tstamps>0e9ff457-5e83-5322-89d8-21630ea7c6a4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R20">
+      <value>100 k</value>
+      <footprint>Fingerworker:R_0603_1608Metric</footprint>
+      <datasheet>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_R20" description=""/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="Sheetname" value="Controls"/>
+      <property name="Sheetfile" value="Controls.kicad_sch"/>
+      <sheetpath names="/Controls/" tstamps="/a476cc04-7ee4-5020-bb06-40655657227f/"/>
+      <tstamps>1171f471-8f7d-5122-b310-0883c4dc83db</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R21">
+      <value>1 k</value>
+      <footprint>Fingerworker:R_0603_1608Metric</footprint>
+      <datasheet>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-071KL</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-071KL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_R21" description=""/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="Sheetname" value="Controls"/>
+      <property name="Sheetfile" value="Controls.kicad_sch"/>
+      <sheetpath names="/Controls/" tstamps="/a476cc04-7ee4-5020-bb06-40655657227f/"/>
+      <tstamps>463729f5-cc24-5be6-b591-b2279c2e3c1e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW1">
+      <value>Existing end switch</value>
+      <datasheet>https://omronfs.omron.com/en_US/ecb/products/pdf/en-ss.pdf</datasheet>
+      <fields>
+        <field name="MPN">SS-01GL2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://omronfs.omron.com/en_US/ecb/products/pdf/en-ss.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_SW1" description=""/>
+      <property name="MPN" value="SS-01GL2"/>
+      <property name="Sheetname" value="Controls"/>
+      <property name="Sheetfile" value="Controls.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Controls/" tstamps="/a476cc04-7ee4-5020-bb06-40655657227f/"/>
+      <tstamps>573e5a9a-7531-5e5b-984a-30f3bcb34d41</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="NC"/>
+            <pin num="COM"/>
+            <pin num="NO"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW2">
+      <value>EVQPUC02K</value>
+      <footprint>Fingerworker:Panasonic_EVQPUL_EVQPUC</footprint>
+      <datasheet>https://industry.panasonic.com/global/en/products/control/switch/light-touch/number/evqpuc02k</datasheet>
+      <fields>
+        <field name="MPN">EVQPUC02K</field>
+        <field name="Footprint">Fingerworker:Panasonic_EVQPUL_EVQPUC</field>
+        <field name="Datasheet">https://industry.panasonic.com/global/en/products/control/switch/light-touch/number/evqpuc02k</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerworker" part="Part_SW2" description=""/>
+      <property name="MPN" value="EVQPUC02K"/>
+      <property name="Sheetname" value="Controls"/>
+      <property name="Sheetfile" value="Controls.kicad_sch"/>
+      <sheetpath names="/Controls/" tstamps="/a476cc04-7ee4-5020-bb06-40655657227f/"/>
+      <tstamps>94c254e1-4869-5a65-823c-90c19ef6d9a0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Fingerworker" part="Part_BT1">
+      <docs>https://cdn-shop.adafruit.com/product-files/1570/1570datasheet.pdf</docs>
+      <fields>
+        <field name="Reference">BT1</field>
+        <field name="Value">Protected 100 mAh LiPo</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://cdn-shop.adafruit.com/product-files/1570/1570datasheet.pdf</field>
+        <field name="Description"/>
+        <field name="MPN">1570</field>
+      </fields>
+      <pins>
+        <pin num="+" name="red_+" type="passive"/>
+        <pin num="-" name="black_-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_C1">
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01A.pdf</docs>
+      <fields>
+        <field name="Reference">C1</field>
+        <field name="Value">10 uF</field>
+        <field name="Footprint">Fingerworker:C_0805_2012Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01A.pdf</field>
+        <field name="Description"/>
+        <field name="MPN">GRM21BR61E106KA73L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_C10">
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H472JA01-01A.pdf</docs>
+      <fields>
+        <field name="Reference">C10</field>
+        <field name="Value">4.7 nF</field>
+        <field name="Footprint">Fingerworker:C_0603_1608Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H472JA01-01A.pdf</field>
+        <field name="Description"/>
+        <field name="MPN">GRM1885C1H472JA01D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_C11">
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</docs>
+      <fields>
+        <field name="Reference">C11</field>
+        <field name="Value">100 nF</field>
+        <field name="Footprint">Fingerworker:C_0603_1608Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</field>
+        <field name="Description"/>
+        <field name="MPN">GRM188R71C104KA01D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_C12">
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</docs>
+      <fields>
+        <field name="Reference">C12</field>
+        <field name="Value">100 nF</field>
+        <field name="Footprint">Fingerworker:C_0603_1608Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</field>
+        <field name="Description"/>
+        <field name="MPN">GRM188R71C104KA01D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_C13">
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C105KA12-01.pdf</docs>
+      <fields>
+        <field name="Reference">C13</field>
+        <field name="Value">1 uF</field>
+        <field name="Footprint">Fingerworker:C_0603_1608Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C105KA12-01.pdf</field>
+        <field name="Description"/>
+        <field name="MPN">GRM188R71C105KA12D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_C14">
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</docs>
+      <fields>
+        <field name="Reference">C14</field>
+        <field name="Value">100 nF</field>
+        <field name="Footprint">Fingerworker:C_0603_1608Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</field>
+        <field name="Description"/>
+        <field name="MPN">GRM188R71C104KA01D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_C15">
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</docs>
+      <fields>
+        <field name="Reference">C15</field>
+        <field name="Value">100 nF</field>
+        <field name="Footprint">Fingerworker:C_0603_1608Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</field>
+        <field name="Description"/>
+        <field name="MPN">GRM188R71C104KA01D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_C16">
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</docs>
+      <fields>
+        <field name="Reference">C16</field>
+        <field name="Value">100 nF</field>
+        <field name="Footprint">Fingerworker:C_0603_1608Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</field>
+        <field name="Description"/>
+        <field name="MPN">GRM188R71C104KA01D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_C2">
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H103KA01-01.pdf</docs>
+      <fields>
+        <field name="Reference">C2</field>
+        <field name="Value">10 nF</field>
+        <field name="Footprint">Fingerworker:C_0603_1608Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H103KA01-01.pdf</field>
+        <field name="Description"/>
+        <field name="MPN">GRM188R71H103KA01D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_C3">
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01A.pdf</docs>
+      <fields>
+        <field name="Reference">C3</field>
+        <field name="Value">10 uF</field>
+        <field name="Footprint">Fingerworker:C_0805_2012Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01A.pdf</field>
+        <field name="Description"/>
+        <field name="MPN">GRM21BR61E106KA73L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_C4">
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E226ME44-01A.pdf</docs>
+      <fields>
+        <field name="Reference">C4</field>
+        <field name="Value">22 uF</field>
+        <field name="Footprint">Fingerworker:C_0805_2012Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E226ME44-01A.pdf</field>
+        <field name="Description"/>
+        <field name="MPN">GRM21BR61E226ME44L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_C5">
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H470JA01-01A.pdf</docs>
+      <fields>
+        <field name="Reference">C5</field>
+        <field name="Value">47 pF</field>
+        <field name="Footprint">Fingerworker:C_0603_1608Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H470JA01-01A.pdf</field>
+        <field name="Description"/>
+        <field name="MPN">GRM1885C1H470JA01D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_C6">
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C105KA12-01.pdf</docs>
+      <fields>
+        <field name="Reference">C6</field>
+        <field name="Value">1 uF</field>
+        <field name="Footprint">Fingerworker:C_0603_1608Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C105KA12-01.pdf</field>
+        <field name="Description"/>
+        <field name="MPN">GRM188R71C105KA12D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_C7">
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E226ME44-01A.pdf</docs>
+      <fields>
+        <field name="Reference">C7</field>
+        <field name="Value">22 uF</field>
+        <field name="Footprint">Fingerworker:C_0805_2012Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E226ME44-01A.pdf</field>
+        <field name="Description"/>
+        <field name="MPN">GRM21BR61E226ME44L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_C8">
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C474KA88-01A.pdf</docs>
+      <fields>
+        <field name="Reference">C8</field>
+        <field name="Value">470 nF</field>
+        <field name="Footprint">Fingerworker:C_0603_1608Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C474KA88-01A.pdf</field>
+        <field name="Description"/>
+        <field name="MPN">GRM188R71C474KA88D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_C9">
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H472JA01-01A.pdf</docs>
+      <fields>
+        <field name="Reference">C9</field>
+        <field name="Value">4.7 nF</field>
+        <field name="Footprint">Fingerworker:C_0603_1608Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H472JA01-01A.pdf</field>
+        <field name="Description"/>
+        <field name="MPN">GRM1885C1H472JA01D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_D1">
+      <docs>https://www.onsemi.com/pdf/datasheet/mbr0520lt1-d.pdf</docs>
+      <fields>
+        <field name="Reference">D1</field>
+        <field name="Value">MBR0520LT1G</field>
+        <field name="Footprint">Fingerworker:D_SOD-123</field>
+        <field name="Datasheet">https://www.onsemi.com/pdf/datasheet/mbr0520lt1-d.pdf</field>
+        <field name="Description"/>
+        <field name="MPN">MBR0520LT1G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_H1">
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocFormat=pdf&amp;DocLang=English&amp;DocNm=FX19&amp;DocType=Data+Sheet&amp;PartCntxt=FX1901-0001-0200-L</docs>
+      <fields>
+        <field name="Reference">H1</field>
+        <field name="Value">Force sensor 200 lbf</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocFormat=pdf&amp;DocLang=English&amp;DocNm=FX19&amp;DocType=Data+Sheet&amp;PartCntxt=FX1901-0001-0200-L</field>
+        <field name="Description"/>
+        <field name="MPN">FX1901-0001-0200-L</field>
+      </fields>
+      <pins>
+        <pin num="BLACK" name="V-" type="power_in"/>
+        <pin num="RED" name="V+" type="power_in"/>
+        <pin num="WHITE" name="O-" type="output"/>
+        <pin num="YELLOW" name="O+" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_J1">
+      <docs>https://www.jst-mfg.com/product/pdf/eng/ePH.pdf</docs>
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">JST_PH_2</field>
+        <field name="Footprint">Fingerworker:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal</field>
+        <field name="Datasheet">https://www.jst-mfg.com/product/pdf/eng/ePH.pdf</field>
+        <field name="Description"/>
+        <field name="MPN">S2B-PH-SM4-TB(LF)(SN)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="battery_+" type="passive"/>
+        <pin num="2" name="battery_-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_J2">
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocFormat=pdf&amp;DocLang=English&amp;DocNm=FX19&amp;DocType=Data+Sheet&amp;PartCntxt=FX1901-0001-0200-L</docs>
+      <fields>
+        <field name="Reference">J2</field>
+        <field name="Value">FORCE_4</field>
+        <field name="Footprint">Fingerworker:SolderWire_4x2mm_P2.54</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocFormat=pdf&amp;DocLang=English&amp;DocNm=FX19&amp;DocType=Data+Sheet&amp;PartCntxt=FX1901-0001-0200-L</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="EXC+_red" type="passive"/>
+        <pin num="2" name="SIG+_yellow" type="passive"/>
+        <pin num="3" name="SIG-_white" type="passive"/>
+        <pin num="4" name="EXC-_black" type="passive"/>
+        <pin num="5" name="Sense+_internal" type="passive"/>
+        <pin num="6" name="Sense-_internal" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_J3">
+      <fields>
+        <field name="Reference">J3</field>
+        <field name="Value">END_2</field>
+        <field name="Footprint">Fingerworker:SolderWire_2x2mm_P2.54</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="passive"/>
+        <pin num="2" name="COM" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_L1">
+      <docs>https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xfl/xfl3012/xfl3012-103/</docs>
+      <fields>
+        <field name="Reference">L1</field>
+        <field name="Value">10 uH</field>
+        <field name="Footprint">Fingerworker:L_Coilcraft_XFL3012</field>
+        <field name="Datasheet">https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xfl/xfl3012/xfl3012-103/</field>
+        <field name="Description"/>
+        <field name="MPN">XFL3012-103MEC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_Q1">
+      <docs>https://assets.nexperia.com/documents/data-sheet/2N7002.pdf</docs>
+      <fields>
+        <field name="Reference">Q1</field>
+        <field name="Value">2N7002</field>
+        <field name="Footprint">Fingerworker:SOT-23</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/2N7002.pdf</field>
+        <field name="Description"/>
+        <field name="MPN">2N7002,215</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_R1">
+      <docs>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL</docs>
+      <fields>
+        <field name="Reference">R1</field>
+        <field name="Value">100 k</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL</field>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-07100KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_R10">
+      <docs>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100RL</docs>
+      <fields>
+        <field name="Reference">R10</field>
+        <field name="Value">100 R</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100RL</field>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-07100RL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_R11">
+      <docs>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0733RL</docs>
+      <fields>
+        <field name="Reference">R11</field>
+        <field name="Value">33 R</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0733RL</field>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-0733RL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_R12">
+      <docs>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0733RL</docs>
+      <fields>
+        <field name="Reference">R12</field>
+        <field name="Value">33 R</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0733RL</field>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-0733RL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_R13">
+      <docs>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0733RL</docs>
+      <fields>
+        <field name="Reference">R13</field>
+        <field name="Value">33 R</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0733RL</field>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-0733RL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_R14">
+      <docs>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0747KL</docs>
+      <fields>
+        <field name="Reference">R14</field>
+        <field name="Value">47 k</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0747KL</field>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-0747KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_R15">
+      <docs>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL</docs>
+      <fields>
+        <field name="Reference">R15</field>
+        <field name="Value">100 k</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL</field>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-07100KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_R16">
+      <docs>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL</docs>
+      <fields>
+        <field name="Reference">R16</field>
+        <field name="Value">100 k</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL</field>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-07100KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_R17">
+      <docs>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-074K7L</docs>
+      <fields>
+        <field name="Reference">R17</field>
+        <field name="Value">4.7 k</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-074K7L</field>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-074K7L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_R18">
+      <docs>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-071KL</docs>
+      <fields>
+        <field name="Reference">R18</field>
+        <field name="Value">1 k</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-071KL</field>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-071KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_R19">
+      <docs>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0747KL</docs>
+      <fields>
+        <field name="Reference">R19</field>
+        <field name="Value">47 k</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0747KL</field>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-0747KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_R2">
+      <docs>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL</docs>
+      <fields>
+        <field name="Reference">R2</field>
+        <field name="Value">100 k</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL</field>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-07100KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_R20">
+      <docs>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL</docs>
+      <fields>
+        <field name="Reference">R20</field>
+        <field name="Value">100 k</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL</field>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-07100KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_R21">
+      <docs>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-071KL</docs>
+      <fields>
+        <field name="Reference">R21</field>
+        <field name="Value">1 k</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-071KL</field>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-071KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_R3">
+      <docs>https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD07680KL</docs>
+      <fields>
+        <field name="Reference">R3</field>
+        <field name="Value">680 k</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD07680KL</field>
+        <field name="Description"/>
+        <field name="MPN">RT0603BRD07680KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_R4">
+      <docs>https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD07200KL</docs>
+      <fields>
+        <field name="Reference">R4</field>
+        <field name="Value">200 k</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD07200KL</field>
+        <field name="Description"/>
+        <field name="MPN">RT0603BRD07200KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_R5">
+      <docs>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL</docs>
+      <fields>
+        <field name="Reference">R5</field>
+        <field name="Value">100 k</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL</field>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-07100KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_R6">
+      <docs>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL</docs>
+      <fields>
+        <field name="Reference">R6</field>
+        <field name="Value">100 k</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL</field>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-07100KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_R7">
+      <docs>https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD071KL</docs>
+      <fields>
+        <field name="Reference">R7</field>
+        <field name="Value">1 k</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD071KL</field>
+        <field name="Description"/>
+        <field name="MPN">RT0603BRD071KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_R8">
+      <docs>https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD071KL</docs>
+      <fields>
+        <field name="Reference">R8</field>
+        <field name="Value">1 k</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD071KL</field>
+        <field name="Description"/>
+        <field name="MPN">RT0603BRD071KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_R9">
+      <docs>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100RL</docs>
+      <fields>
+        <field name="Reference">R9</field>
+        <field name="Value">100 R</field>
+        <field name="Footprint">Fingerworker:R_0603_1608Metric</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100RL</field>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-07100RL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_SW1">
+      <docs>https://omronfs.omron.com/en_US/ecb/products/pdf/en-ss.pdf</docs>
+      <fields>
+        <field name="Reference">SW1</field>
+        <field name="Value">Existing end switch</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://omronfs.omron.com/en_US/ecb/products/pdf/en-ss.pdf</field>
+        <field name="Description"/>
+        <field name="MPN">SS-01GL2</field>
+      </fields>
+      <pins>
+        <pin num="COM" name="COM" type="passive"/>
+        <pin num="NC" name="NC" type="passive"/>
+        <pin num="NO" name="NO" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_SW2">
+      <docs>https://industry.panasonic.com/global/en/products/control/switch/light-touch/number/evqpuc02k</docs>
+      <fields>
+        <field name="Reference">SW2</field>
+        <field name="Value">EVQPUC02K</field>
+        <field name="Footprint">Fingerworker:Panasonic_EVQPUL_EVQPUC</field>
+        <field name="Datasheet">https://industry.panasonic.com/global/en/products/control/switch/light-touch/number/evqpuc02k</field>
+        <field name="Description"/>
+        <field name="MPN">EVQPUC02K</field>
+      </fields>
+      <pins>
+        <pin num="1" name="contact_A" type="passive"/>
+        <pin num="2" name="contact_B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_U1">
+      <docs>https://files.seeedstudio.com/wiki/XIAO-BLE/Res/260828_XIAO_nRF52840.pdf</docs>
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">XIAO_nRF52840</field>
+        <field name="Footprint">Fingerworker:Seeed_XIAO_nRF52840_SMD</field>
+        <field name="Datasheet">https://files.seeedstudio.com/wiki/XIAO-BLE/Res/260828_XIAO_nRF52840.pdf</field>
+        <field name="Description"/>
+        <field name="MPN">102010448</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D0_/_P0.02" type="output"/>
+        <pin num="2" name="D1_/_P0.03" type="output"/>
+        <pin num="3" name="D2_/_P0.28" type="output"/>
+        <pin num="4" name="D3_/_P0.29" type="input"/>
+        <pin num="5" name="D4_/_P0.04" type="input"/>
+        <pin num="6" name="D5_/_P0.05" type="input"/>
+        <pin num="7" name="D6_/_P1.11" type="input"/>
+        <pin num="8" name="D7_/_P1.12" type="bidirectional"/>
+        <pin num="9" name="D8_/_P1.13" type="output"/>
+        <pin num="10" name="D9_/_P1.14" type="input"/>
+        <pin num="11" name="D10_/_P1.15" type="output"/>
+        <pin num="12" name="3V3_OUT" type="power_out"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="VBUS_/_5V" type="power_out"/>
+        <pin num="15" name="SWDIO" type="bidirectional"/>
+        <pin num="16" name="SWCLK" type="input"/>
+        <pin num="17" name="RESET_N" type="input"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="bottom_BAT+" type="passive"/>
+        <pin num="20" name="bottom_BAT-" type="power_in"/>
+        <pin num="21" name="NFC1" type="bidirectional"/>
+        <pin num="22" name="NFC2" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_U2">
+      <docs>https://www.ti.com/lit/ds/symlink/tps61041.pdf</docs>
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">TPS61041DBVR</field>
+        <field name="Footprint">Fingerworker:SOT-23-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps61041.pdf</field>
+        <field name="Description"/>
+        <field name="MPN">TPS61041DBVR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SW" type="open_collector"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="FB" type="input"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_U3">
+      <docs>https://www.ti.com/lit/ds/symlink/tps7a20.pdf</docs>
+      <fields>
+        <field name="Reference">U3</field>
+        <field name="Value">TPS7A2050PDBVR</field>
+        <field name="Footprint">Fingerworker:SOT-23-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps7a20.pdf</field>
+        <field name="Description"/>
+        <field name="MPN">TPS7A2050PDBVR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerworker" part="Part_U4">
+      <docs>https://www.ti.com/lit/ds/symlink/ads1220.pdf</docs>
+      <fields>
+        <field name="Reference">U4</field>
+        <field name="Value">ADS1220IPWR</field>
+        <field name="Footprint">Fingerworker:TSSOP-16_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ads1220.pdf</field>
+        <field name="Description"/>
+        <field name="MPN">ADS1220IPWR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCLK" type="input"/>
+        <pin num="2" name="CS_N" type="input"/>
+        <pin num="3" name="CLK" type="input"/>
+        <pin num="4" name="DGND" type="power_in"/>
+        <pin num="5" name="AVSS" type="power_in"/>
+        <pin num="6" name="AIN3_/_REFN1" type="input"/>
+        <pin num="7" name="AIN2" type="input"/>
+        <pin num="8" name="REFN0" type="input"/>
+        <pin num="9" name="REFP0" type="input"/>
+        <pin num="10" name="AIN1" type="input"/>
+        <pin num="11" name="AIN0_/_REFP1" type="input"/>
+        <pin num="12" name="AVDD" type="power_in"/>
+        <pin num="13" name="DVDD" type="power_in"/>
+        <pin num="14" name="DRDY_N" type="output"/>
+        <pin num="15" name="DOUT" type="tri_state"/>
+        <pin num="16" name="DIN" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Fingerworker">
+      <uri>${KIPRJMOD}/Fingerworker.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="ADC_CS_MCU" class="Default">
+      <node ref="R13" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="D2_/_P0.28_3" pintype="output"/>
+    </net>
+    <net code="2" name="ADC_CS_N" class="Default">
+      <node ref="R13" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R14" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="CS_N_2" pintype="input"/>
+    </net>
+    <net code="3" name="ADC_DRDY_N" class="Default">
+      <node ref="U1" pin="4" pinfunction="D3_/_P0.29_4" pintype="input"/>
+      <node ref="U4" pin="14" pinfunction="DRDY_N_14" pintype="output"/>
+    </net>
+    <net code="4" name="AIN_N" class="Default">
+      <node ref="C10" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C8" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R8" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U4" pin="10" pinfunction="AIN1_10" pintype="input"/>
+    </net>
+    <net code="5" name="AIN_P" class="Default">
+      <node ref="C8" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C9" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U4" pin="11" pinfunction="AIN0_/_REFP1_11" pintype="input"/>
+    </net>
+    <net code="6" name="ANALOG_EN" class="Default">
+      <node ref="R6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="D1_/_P0.03_2" pintype="output"/>
+      <node ref="U3" pin="3" pinfunction="EN_3" pintype="input"/>
+    </net>
+    <net code="7" name="BOOST_EN" class="Default">
+      <node ref="R5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="D0_/_P0.02_1" pintype="output"/>
+      <node ref="U2" pin="4" pinfunction="EN_4" pintype="input"/>
+    </net>
+    <net code="8" name="BOOST_FB" class="Default">
+      <node ref="C5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="FB_3" pintype="input"/>
+    </net>
+    <net code="9" name="BOOST_SW" class="Power">
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="SW_1" pintype="open_collector"/>
+    </net>
+    <net code="10" name="BUTTON_N" class="Default">
+      <node ref="C16" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R20" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R21" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="D4_/_P0.04_5" pintype="input"/>
+    </net>
+    <net code="11" name="BUTTON_RAW" class="Default">
+      <node ref="R21" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="contact_A_1" pintype="passive"/>
+    </net>
+    <net code="12" name="ENDSTOP_N" class="Default">
+      <node ref="Q1" pin="3" pinfunction="D_3" pintype="passive"/>
+      <node ref="R19" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="D5_/_P0.05_6" pintype="input"/>
+    </net>
+    <net code="13" name="END_CONTACT" class="Default">
+      <node ref="J3" pin="1" pinfunction="NC_1" pintype="passive"/>
+      <node ref="R17" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R18" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="SW1" pin="NC" pinfunction="NC_NC" pintype="passive"/>
+    </net>
+    <net code="14" name="END_GATE" class="Default">
+      <node ref="C15" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="R18" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="15" name="EXC_SENSE_N" class="Default">
+      <node ref="J2" pin="6" pinfunction="Sense-_internal_6" pintype="passive"/>
+      <node ref="R10" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="16" name="EXC_SENSE_P" class="Default">
+      <node ref="J2" pin="5" pinfunction="Sense+_internal_5" pintype="passive"/>
+      <node ref="R9" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="17" name="GND" class="Power">
+      <node ref="BT1" pin="-" pinfunction="black_-_-" pintype="passive"/>
+      <node ref="C1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C10" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C12" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C13" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C14" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C15" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C16" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C9" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="H1" pin="BLACK" pinfunction="V-_BLACK" pintype="power_in"/>
+      <node ref="J1" pin="2" pinfunction="battery_-_2" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="EXC-_black_4" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="COM_2" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="R15" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R16" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW1" pin="COM" pinfunction="COM_COM" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="contact_B_2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="GND_13" pintype="power_in"/>
+      <node ref="U1" pin="18" pinfunction="GND_18" pintype="power_in"/>
+      <node ref="U1" pin="20" pinfunction="bottom_BAT-_20" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="CLK_3" pintype="input"/>
+      <node ref="U4" pin="4" pinfunction="DGND_4" pintype="power_in"/>
+      <node ref="U4" pin="5" pinfunction="AVSS_5" pintype="power_in"/>
+    </net>
+    <net code="18" name="REF_N" class="Default">
+      <node ref="C11" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R10" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U4" pin="8" pinfunction="REFN0_8" pintype="input"/>
+    </net>
+    <net code="19" name="REF_P" class="Default">
+      <node ref="C11" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R9" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U4" pin="9" pinfunction="REFP0_9" pintype="input"/>
+    </net>
+    <net code="20" name="SIG_N" class="Default">
+      <node ref="H1" pin="WHITE" pinfunction="O-_WHITE" pintype="output"/>
+      <node ref="J2" pin="3" pinfunction="SIG-_white_3" pintype="passive"/>
+      <node ref="R8" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="21" name="SIG_P" class="Default">
+      <node ref="H1" pin="YELLOW" pinfunction="O+_YELLOW" pintype="output"/>
+      <node ref="J2" pin="2" pinfunction="SIG+_yellow_2" pintype="passive"/>
+      <node ref="R7" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="22" name="SPI_MISO" class="Default">
+      <node ref="U1" pin="10" pinfunction="D9_/_P1.14_10" pintype="input"/>
+      <node ref="U4" pin="15" pinfunction="DOUT_15" pintype="tri_state"/>
+    </net>
+    <net code="23" name="SPI_MOSI_ADC" class="Default">
+      <node ref="R12" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R16" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U4" pin="16" pinfunction="DIN_16" pintype="input"/>
+    </net>
+    <net code="24" name="SPI_MOSI_MCU" class="Default">
+      <node ref="R12" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="D10_/_P1.15_11" pintype="output"/>
+    </net>
+    <net code="25" name="SPI_SCK_ADC" class="Default">
+      <node ref="R11" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R15" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="SCLK_1" pintype="input"/>
+    </net>
+    <net code="26" name="SPI_SCK_MCU" class="Default">
+      <node ref="R11" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="D8_/_P1.13_9" pintype="output"/>
+    </net>
+    <net code="27" name="USB_PRESENT" class="Default">
+      <node ref="C2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="D6_/_P1.11_7" pintype="input"/>
+    </net>
+    <net code="28" name="V3V3" class="Power">
+      <node ref="C1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C14" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R14" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R19" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R20" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="3V3_OUT_12" pintype="power_out"/>
+      <node ref="U2" pin="5" pinfunction="VIN_5" pintype="power_in"/>
+      <node ref="U4" pin="13" pinfunction="DVDD_13" pintype="power_in"/>
+    </net>
+    <net code="29" name="V5A" class="Power">
+      <node ref="C12" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C13" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="H1" pin="RED" pinfunction="V+_RED" pintype="power_in"/>
+      <node ref="J2" pin="1" pinfunction="EXC+_red_1" pintype="passive"/>
+      <node ref="R17" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="OUT_5" pintype="power_out"/>
+      <node ref="U4" pin="12" pinfunction="AVDD_12" pintype="power_in"/>
+    </net>
+    <net code="30" name="VBAT" class="Power">
+      <node ref="BT1" pin="+" pinfunction="red_+_+" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="battery_+_1" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="bottom_BAT+_19" pintype="passive"/>
+    </net>
+    <net code="31" name="VBOOST" class="Power">
+      <node ref="C4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="IN_1" pintype="power_in"/>
+    </net>
+    <net code="32" name="VBUS_USB" class="Default">
+      <node ref="R1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="VBUS_/_5V_14" pintype="power_out"/>
+    </net>
+    <net code="33" name="unconnected-(SW1-PadNO)" class="Default">
+      <node ref="SW1" pin="NO" pinfunction="NO_NO" pintype="passive+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U1-D7_{slash}_P1.12-Pad8)" class="Default">
+      <node ref="U1" pin="8" pinfunction="D7_/_P1.12_8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U1-NFC1-Pad21)" class="Default">
+      <node ref="U1" pin="21" pinfunction="NFC1_21" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U1-NFC2-Pad22)" class="Default">
+      <node ref="U1" pin="22" pinfunction="NFC2_22" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U1-RESET_N-Pad17)" class="Default">
+      <node ref="U1" pin="17" pinfunction="RESET_N_17" pintype="input+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U1-SWCLK-Pad16)" class="Default">
+      <node ref="U1" pin="16" pinfunction="SWCLK_16" pintype="input+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U1-SWDIO-Pad15)" class="Default">
+      <node ref="U1" pin="15" pinfunction="SWDIO_15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U3-NC-Pad4)" class="Default">
+      <node ref="U3" pin="4" pinfunction="NC_4" pintype="no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U4-AIN2-Pad7)" class="Default">
+      <node ref="U4" pin="7" pinfunction="AIN2_7" pintype="input+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U4-AIN3_{slash}_REFN1-Pad6)" class="Default">
+      <node ref="U4" pin="6" pinfunction="AIN3_/_REFN1_6" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,26 @@
+{
+  "browser_visual_review": "PASS",
+  "frozen_version_id": "9bdcf9c3c67638228b40378b",
+  "viewer_url": "http://127.0.0.1:8770/viewer/viewer.html",
+  "views_reviewed": [
+    "full neutral assembly",
+    "reinforced P01 support section",
+    "complete P05 integral printed stops",
+    "native MAX28/p2 heavy",
+    "native ISO13/p2 sleeves"
+  ],
+  "saved_proof_images": [
+    "Onshape_R2_immutable.png",
+    "R2_full_assembly.png",
+    "R2_integral_stops.png",
+    "R2_isometric_13_p2.png",
+    "R2_maximum_28_p2.png",
+    "R2_reinforced_support.png"
+  ],
+  "default_pose_after_review": "neutral0/preload0/light",
+  "limitations": [
+    "500 N remains unqualified physically",
+    "Current firmware still blocks qualified endpoint force at NC LOW",
+    "H10 click cam reset remains manual"
+  ]
+}

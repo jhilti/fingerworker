@@ -1,0 +1,9 @@
+{
+  "status": "RENDERED_ACTUAL_R18_P01_SUPPORT_PATHS",
+  "candidate": false,
+  "source_mesh_sha256": "be42108fa89941a0f7dbae4df4cec33a9402b8316e8c42922475309060faf554",
+  "sliced_archive_sha256": "0f6db25d4bdccf595f4905bc82ea2f052c892c449cbe7863cdb034f092d620e0",
+  "layout_sha256": "d209c4aa3b5bd6573afcccb77f6073b2614eaa2961fdb92e62d69c1ce47b914c",
+  "image_sha256": "82367fe1adbc02fc66bb20d4913457272ea15ce3409a0f429e0ad4df768c064c",
+  "renderer_sha256": "cc03e2815dfbbe416f7f37880b26e11309faebfe6e7857fcb150c8bc23f79941"
+}

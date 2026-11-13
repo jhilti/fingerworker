@@ -1,0 +1,30 @@
+{
+  "status": "PASS_BROWSER_R12_OVERVIEW",
+  "date": "2026-11-03",
+  "browser": "Chrome",
+  "preview_url": "http://127.0.0.1:8789/overview",
+  "html_sha256": "b233dc0a7066b639a360ab80c08103f804cc17f7476df31c7dcdb0af3b1543b1",
+  "checks": {
+    "header_revision": "R12",
+    "complete_model_visible_count": 93,
+    "print_only_model_visible_count": 7,
+    "model_rendered": true,
+    "camera_arrow_and_reset_controls_operated": true,
+    "reprint_filter": [
+      "P01",
+      "P06",
+      "Q01"
+    ],
+    "fit_aid_filter": [
+      "H040",
+      "H041",
+      "Q01"
+    ],
+    "removed_H13_hardware_search_results": 0,
+    "filters_restored": true,
+    "console_warnings_or_errors": []
+  },
+  "screenshot": "review/simplification-2026-11-03/evidence/overview-R12-model.png",
+  "screenshot_sha256": "6f36e83e8a60bd25e789bdb96235e72c49cedf0b6fdf9e4d5c837a9bebdf6be9",
+  "scope": "Desktop visual and main interactive controls. Download targets checked on disk by static validation; local QA server intentionally serves only the HTML. No physical-device or loaded-use validation."
+}

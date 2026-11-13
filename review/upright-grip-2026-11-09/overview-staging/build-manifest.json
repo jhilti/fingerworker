@@ -1,0 +1,32 @@
+{
+  "primary_print_profile": "PLA_Basic",
+  "connected_ready_project_sha256": "a9ebaf5ba9c9296c1e85b162689dab32d13a7bb1ae3a0f826b355328594b89a0",
+  "date": "2026-11-09",
+  "status": "BUILT_PENDING_BROWSER_QA",
+  "html": "Uebersicht.preview.html",
+  "html_bytes": 2085102,
+  "html_sha256": "41f00f706b88e912a87e8c3f60bd0bf47c3b9d837bed94ccc2579a63c838386e",
+  "revision": "R16",
+  "primary_print_variant": "upright_grip",
+  "native_onshape_version": "d4421f391a091e249b08aeb1",
+  "source_sha256": "1f492dd841c35a14f488be418e4f4dd8dea8edb63f3d321a492dc2ec3c907ab4",
+  "print_items": 6,
+  "hardware_rows": 25,
+  "personal_check_items": 10,
+  "inline_assets": true,
+  "external_runtime_requests": false,
+  "source_files": {
+    "review/upright-grip-2026-11-09/overview-staging/template.html": "a7e32cec764318b4b916bd9411dd87902e4c966df3f928fa61c915b966f7dafc",
+    "review/upright-grip-2026-11-09/overview-staging/style.css": "e6b08dcf74dc64078e425854d571f423ccab3a57c52108a4596e98dddc906ffb",
+    "review/upright-grip-2026-11-09/overview-staging/app.js": "29621814c3b0ab9ef198d296deaf03beb9e09b8b60cbe8d0f18d8860238cb66a",
+    "review/upright-grip-2026-11-09/overview-staging/content.json": "f6576e692853db66ca6af022505ca392a7f80981ffa346a0e246912f4c29f938",
+    "review/upright-grip-2026-11-09/overview-staging/model/component.html": "5bb809a7da4649364bb3fe39f1ab77b2e1596b42194d6ddc26eb9494ce45e0b4",
+    "review/upright-grip-2026-11-09/overview-staging/model/manifest.json": "6220d59a49d300722b94399ff5c55377a8a58dee7af3544325cb5cfd5321923f",
+    "review/upright-grip-2026-11-09/final-specification.json": "d88bfc6a1cd989fe549d36bec4e8357e377991a1f7ab5b152fd3e715110e50e8",
+    "print/bambu-R16-upright-grip-2026-11-09/delivery-specification.json": "f0fde85f1a9115ed696b22ca0b741b3af53b60511b0e8ce4727e07a979a0777e",
+    "print/bambu-R16-upright-grip-2026-11-09/plate-layout.json": "a288c4c25c76ba9f141e687e42b3054c7cbb6371fc437c907026ce187dcd93c6",
+    "review/upright-grip-2026-11-09/evidence/strap-routing.svg": "6a169c3cd0be6107fcd2628d5c57913276f0633c9c84ffcd4a7e5f0d6cec6147",
+    "review/upright-grip-2026-11-09/evidence/strap-routing-provenance.json": "f29db9b2e6e48169ac6e9d2ef1106b43f22df4e6f49ce37bca3560ef683c928c",
+    "print/bambu-R16-upright-grip-2026-11-09/validation/gui-check.json": "e86c17fe1620914bdccfee72de578a07ff6ec1c73f2ac6f9fa1cebc9b84cd598"
+  }
+}

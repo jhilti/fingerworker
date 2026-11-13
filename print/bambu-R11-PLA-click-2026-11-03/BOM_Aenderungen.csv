@@ -1,0 +1,17 @@
+Position,Menge,Änderung,Material/Hinweis
+P01,1,Unverändert zu R10,Vorhandenen Druck weiterverwenden
+P08,1,Ersetzen,PLA Wanne mit zwei langen Rahmenclips und Deckelgegenhaltern
+P09,1,Ersetzen,PLA Klickdeckel mit integriertem Kabelhalter
+P10,0,Entfällt,In P09 integriert
+P070a/P070b/P071a/P071b,0,Entfallen,Vier Kontaktflächen in P120/P121 integriert
+P120/P121,2,Ersetzen,PLA Führungsschuhe mit integralen harten Anschlägen
+P04,1,Geometrie unverändert neu orientiert,PLA vordere Stirnseite unten Baumstützen nur Bett
+P05/P060/P061/P11,4,Unverändert,Vorhandene Druckteile nutzbar
+P10 Klemmleistenschrauben M1.6x3,0,Zwei entfallen,Klemmkontaktfläche im Deckel
+P09 Deckelschrauben M1.6x5,3,Optional,Klickdeckel schließt ohne diese Schrauben
+P08 Gehäuseschrauben M2,2,Optional,Rahmenclips halten Gehäuse für Passmontage
+H28/H29 Schuhfang,2 Sätze,Beibehalten,Positive Sicherung mit 2 mm Stellweg
+H30 Kappenschrauben M3x8,4,Beibehalten,Keine neue Rahmenrastung der P06-Kappen
+H10 Nockenklemmung M3x10,1,Beibehalten,Stufenlose Schaltpunkteinstellung
+Stangenproxies H040/H041,2,Unverändert,Nur unbelastete PLA Formhilfen
+Q01,1,Unverändert,Nur federfreie Passhilfe

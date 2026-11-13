@@ -1,0 +1,214 @@
+{
+  "status": "PASS_NATIVE_R18_SOURCE_EXPORT_REPORT_BINDING",
+  "version_id": "13e353d6762b6cc58530122b",
+  "version_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/13e353d6762b6cc58530122b/e/d253eb87b70818ebde8215f0",
+  "source_sha256": "345b90327031276f8085e2c225c795946036d7faa4f2ac01b764101b9f4b3dd1",
+  "native_step_sha256": "0d9ebb0777c35ebf687c59578362a1323a9cab3a00922be858c1d03695f023ee",
+  "native_zip_sha256": "77c15eed14f8015c5bd67fdb9c2d4e89f479d84c4535468ce027f62f0e0ec0c9",
+  "native_P01_stl_sha256": "be42108fa89941a0f7dbae4df4cec33a9402b8316e8c42922475309060faf554",
+  "native_parts": 93,
+  "unchanged_native_bodies": 92,
+  "source_readback_exact": true,
+  "validator_sha256": "3bb1a71f4e348cc88ff08eb7ba1f8047280ceba5dd3d2912ada49fadfa182e7d",
+  "native_version_snapshot": {
+    "path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/organic-palm-2026-11-13/validation/onshape-version-at-validation.json",
+    "sha256": "7f2b304933ead11a54d9dd731d88f7f55815a4d36906d5822532081b075fc0fb"
+  },
+  "reports": {
+    "native-integration.json": {
+      "path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/organic-palm-2026-11-13/validation/native-integration.json",
+      "sha256": "bcc84bcbecb092538c0b2956ba3d1e1f1fb19fbc043c82b641f371e48f2057b5",
+      "status": "PASS_NATIVE_R18_INTEGRATION"
+    },
+    "native-section-fidelity.json": {
+      "path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/organic-palm-2026-11-13/validation/native-section-fidelity.json",
+      "sha256": "a852724e93c755a4ca45965d36b37b00725b5d8d812ef36f4e6272323e6abd93",
+      "status": "PASS_NATIVE_R18_SECTION_FIDELITY"
+    },
+    "native-layer-growth.json": {
+      "path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/organic-palm-2026-11-13/validation/native-layer-growth.json",
+      "sha256": "4fdcec356fa30b2b1be78f0246fbdfc55cb7de0e8109f6cdd33dcc3f455b578f",
+      "status": "REVIEW_GEOMETRIC_LAYER_GROWTH"
+    },
+    "foundation-integration.json": {
+      "path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/organic-palm-2026-11-13/validation/foundation-integration.json",
+      "sha256": "6e5f4a809658cd658377a89d8d6bb7319807fbf1b531dd70cae5ba60488fe6b4",
+      "status": "PASS_NATIVE_R17_FOUNDATION"
+    }
+  },
+  "native_inventory_sha256": "4b4dbddcffaad8a956c621032f16ea2a2ddcb3ba4a947abf481432badf865129",
+  "native_loft_comparison": {
+    "status": "EXACT_BOOLEAN_UNRESOLVED",
+    "reason": "Invalid exact Boolean result",
+    "native_volume_mm3": 170197.0340884553,
+    "local_volume_mm3": 170204.3929061029,
+    "scope": "Informational kernel comparison. Native loft is authoritative; protected regions, declared envelopes and independent section checks are release gates."
+  },
+  "printability_screen_status": "REVIEW_GEOMETRIC_LAYER_GROWTH",
+  "actual_slice_review_required": true,
+  "scope": "Native CAD source/export/report binding and mechanical interface evidence. G-code support, bridge paths, machine settings and print readiness are separate package checks. A geometric growth REVIEW flag requires actual sliced-path review; it is not relabeled PASS here.",
+  "independent_stock_reconstruction": {
+    "sha256": "cf0c77c278d6202a5278206f15d47eff0a95c6cac0354e0e4cfddeff9fe70dc1",
+    "evidence": {
+      "status": "DIAGNOSTIC_ONLY",
+      "fuzzy_mm": 1e-06,
+      "native_step_sha256": "0d9ebb0777c35ebf687c59578362a1323a9cab3a00922be858c1d03695f023ee",
+      "foundation_step_sha256": "fa9a68d37e192b13045d6259a3f0eb8a9913f92805eab37982e691a60b19fa4c",
+      "results": [
+        {
+          "name": "added",
+          "valid": true,
+          "volume_default_mm3": 2758.9762802887876,
+          "volume_GK_spans_mm3": 2760.5048070586736,
+          "relative_error_estimate": 3.6588044125063073e-11
+        },
+        {
+          "name": "removed",
+          "valid": true,
+          "volume_default_mm3": 304.682822375625,
+          "volume_GK_spans_mm3": 305.01391899499055,
+          "relative_error_estimate": 5.757928804635519e-09
+        },
+        {
+          "name": "reconstructed",
+          "valid": true,
+          "volume_default_mm3": 170194.0585135635,
+          "volume_GK_spans_mm3": 170196.09769148275,
+          "relative_error_estimate": 2.4084412278786343e-11
+        },
+        {
+          "name": "native_minus_reconstruction",
+          "valid": true,
+          "volume_default_mm3": 0.0,
+          "volume_GK_spans_mm3": 0.0,
+          "relative_error_estimate": -1.0
+        },
+        {
+          "name": "reconstruction_minus_native",
+          "valid": true,
+          "volume_default_mm3": 0.0,
+          "volume_GK_spans_mm3": 0.0,
+          "relative_error_estimate": -1.0
+        },
+        {
+          "name": "added_intersects_foundation",
+          "valid": true,
+          "volume_default_mm3": 0.0,
+          "volume_GK_spans_mm3": 0.0,
+          "relative_error_estimate": -1.0
+        },
+        {
+          "name": "removed_intersects_native",
+          "valid": true,
+          "volume_default_mm3": 0.0,
+          "volume_GK_spans_mm3": 0.0,
+          "relative_error_estimate": -1.0
+        }
+      ]
+    }
+  },
+  "empty_set_witness": {
+    "path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/organic-palm-2026-11-13/mechanics/native-reconstruction-empty-check.json",
+    "sha256": "767240b4b2119ece456c04af96616ae1b2492f6f279e5085c1a7c804d8dec431",
+    "evidence": {
+      "status": "DIAGNOSTIC_ONLY",
+      "fuzzy_mm": 1e-06,
+      "native_step_sha256": "0d9ebb0777c35ebf687c59578362a1323a9cab3a00922be858c1d03695f023ee",
+      "foundation_step_sha256": "fa9a68d37e192b13045d6259a3f0eb8a9913f92805eab37982e691a60b19fa4c",
+      "results": [
+        {
+          "name": "added",
+          "solid_count": 1,
+          "face_count": 27,
+          "valid": true,
+          "volume_default_mm3": 2758.9762802887876,
+          "volume_GK_spans_mm3": 2760.5048070586736,
+          "relative_error_estimate": 3.6588044125063073e-11
+        },
+        {
+          "name": "removed",
+          "solid_count": 5,
+          "face_count": 28,
+          "valid": true,
+          "volume_default_mm3": 304.682822375625,
+          "volume_GK_spans_mm3": 305.01391899499055,
+          "relative_error_estimate": 5.757928804635519e-09
+        },
+        {
+          "name": "reconstructed",
+          "solid_count": 1,
+          "face_count": 387,
+          "valid": true,
+          "volume_default_mm3": 170194.0585135635,
+          "volume_GK_spans_mm3": 170196.09769148275,
+          "relative_error_estimate": 2.4084412278786343e-11
+        },
+        {
+          "name": "native_minus_reconstruction",
+          "solid_count": 0,
+          "face_count": 0,
+          "valid": true,
+          "volume_default_mm3": 0.0,
+          "volume_GK_spans_mm3": 0.0,
+          "relative_error_estimate": -1.0
+        },
+        {
+          "name": "reconstruction_minus_native",
+          "solid_count": 0,
+          "face_count": 0,
+          "valid": true,
+          "volume_default_mm3": 0.0,
+          "volume_GK_spans_mm3": 0.0,
+          "relative_error_estimate": -1.0
+        },
+        {
+          "name": "added_intersects_foundation",
+          "solid_count": 0,
+          "face_count": 0,
+          "valid": true,
+          "volume_default_mm3": 0.0,
+          "volume_GK_spans_mm3": 0.0,
+          "relative_error_estimate": -1.0
+        },
+        {
+          "name": "removed_intersects_native",
+          "solid_count": 0,
+          "face_count": 0,
+          "valid": true,
+          "volume_default_mm3": 0.0,
+          "volume_GK_spans_mm3": 0.0,
+          "relative_error_estimate": -1.0
+        }
+      ]
+    }
+  },
+  "native_local_surface_comparison": {
+    "path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/organic-palm-2026-11-13/validation/native-local-surface-comparison.json",
+    "sha256": "d86e9e1880493431e642caea26ca237711022e495a7ae69aebcfa8333e5d7220",
+    "evidence": {
+      "status": "QUANTIFIED_MESH_COMPARISON_INFORMATIONAL",
+      "source_sha256": "345b90327031276f8085e2c225c795946036d7faa4f2ac01b764101b9f4b3dd1",
+      "local_mesh_sha256": "4504696f366a82b7edefda6279669fafd42ffad97e5d157df426f7626b575628",
+      "native_mesh_sha256": "be42108fa89941a0f7dbae4df4cec33a9402b8316e8c42922475309060faf554",
+      "local_mesh_volume_mm3": 170192.76898573354,
+      "native_mesh_volume_mm3": 170192.98640847803,
+      "checks": [
+        {
+          "direction": "local_to_native",
+          "samples": 7596,
+          "maximum_sampled_vertex_to_triangle_mm": 1.1415266189054851,
+          "p95_mm": 0.6230224716466621
+        },
+        {
+          "direction": "native_to_local",
+          "samples": 6844,
+          "maximum_sampled_vertex_to_triangle_mm": 1.2001197338686516,
+          "p95_mm": 0.7933942365219835
+        }
+      ],
+      "scope": "Sampled upper-palm mesh comparison includes tessellation differences and is not continuous Hausdorff equality. Actual CAD station and mechanical gates remain separate."
+    },
+    "disposition": "Informational interstation kernel variation, maximum sampled1.20mm. Native silhouette was visually accepted; native geometry remains authoritative after section, envelope, interface and actual slice checks."
+  },
+  "native_functional_boolean_boundary_tolerance_mm": 1e-06
+}

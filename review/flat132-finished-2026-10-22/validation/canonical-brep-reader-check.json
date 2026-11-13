@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "scope": "Validator self-check: canonical sensor compared to itself, not a native revised assembly export",
+  "details": {
+    "status": "PASS",
+    "requirement": "Unmodified manufacturer BRep under a rigid unit-scale transform",
+    "canonical_placed_step": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/actual-sensor-cad-2026-10-22/sensor/TE_FX1901_actual_apex_aligned_132_mm.step",
+    "canonical_sha256": "241c8b522707e9ce3b611db3c783d6c9e3bd6e492175c530d5e9795d9dc98097",
+    "native_assembly_step": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/actual-sensor-cad-2026-10-22/sensor/TE_FX1901_actual_apex_aligned_132_mm.step",
+    "native_step_sha256": "241c8b522707e9ce3b611db3c783d6c9e3bd6e492175c530d5e9795d9dc98097",
+    "original_volume_mm3": 3933.7193196162134,
+    "total_native_solids": 1,
+    "candidates": [
+      {
+        "solid_index": 0,
+        "volume_mm3": 3933.7193196162134,
+        "symmetric_difference_mm3": 0.0,
+        "valid": true
+      }
+    ],
+    "additional_rigid_transform": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "matching_native_solid": {
+      "solid_index": 0,
+      "volume_mm3": 3933.7193196162134,
+      "symmetric_difference_mm3": 0.0,
+      "valid": true
+    },
+    "sensor_stl_ref": "H01",
+    "sensor_stl_sha256": null
+  }
+}

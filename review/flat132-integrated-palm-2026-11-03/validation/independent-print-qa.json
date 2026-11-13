@@ -1,0 +1,3068 @@
+{
+  "status": "PASS",
+  "scope": "Independent native 3MF geometry/settings/inventory/bed-brim checks and actual final Gcode, including P01 support removal-direction sampling. No package validators imported; no package files edited.",
+  "native_project": "print/bambu-R10-integrated-palm-2026-11-03/Fingerworker_R10_H2D_04mm_PLA_Fit_Test.3mf",
+  "native_project_sha256": "d83f72df3534eea46d95334c09f9ac1a54ff6585ab94fb580e616b86fba30f9c",
+  "slice_archive": "print/bambu-R10-integrated-palm-2026-11-03/validation/Fingerworker_R10_H2D_04mm_PLA_Fit_Test_verification.gcode.3mf",
+  "slice_archive_sha256": "8cfe8ffeae4558adce79f26fdf765496b70239aa525c841e1402871679549a64",
+  "native_P01_source": "review/flat132-integrated-palm-2026-11-03/print-mm/P01.stl",
+  "native_P01_source_sha256": "88d5dc94bd70ad20b651ca7cdeed494058dd540d7e75447e38b5db70377c09d6",
+  "source_P01_sha256": "88d5dc94bd70ad20b651ca7cdeed494058dd540d7e75447e38b5db70377c09d6",
+  "source_sha256": "5ce830ff2b06cd8d318d3c44dbc1f3385697526a9a679d2a2078f64f81854237",
+  "source_cad_sha256": "5ce830ff2b06cd8d318d3c44dbc1f3385697526a9a679d2a2078f64f81854237",
+  "native_version_id": "1d91807cca19866934a439eb",
+  "checker_sha256": "598dad069a8edfc03963efaecbc71e02850ed62ec08ac626519f3a053bce0057",
+  "checks": [
+    {
+      "name": "Inventory18UniqueObjectsNoSeparatePalmSleeveOrFasteners",
+      "status": "PASS",
+      "refs": [
+        "H040",
+        "H041",
+        "P01",
+        "P04",
+        "P05",
+        "P060",
+        "P061",
+        "P070a",
+        "P070b",
+        "P071a",
+        "P071b",
+        "P08",
+        "P09",
+        "P10",
+        "P11",
+        "P120",
+        "P121",
+        "Q01"
+      ]
+    },
+    {
+      "name": "FinalServiceAccessSourceBoundToLayout",
+      "status": "PASS",
+      "actual_CAD_sha256": "5ce830ff2b06cd8d318d3c44dbc1f3385697526a9a679d2a2078f64f81854237",
+      "layout_CAD_sha256": "5ce830ff2b06cd8d318d3c44dbc1f3385697526a9a679d2a2078f64f81854237"
+    },
+    {
+      "name": "FrozenNativeVersionBoundToLayout",
+      "status": "PASS",
+      "native_version_id": "1d91807cca19866934a439eb"
+    },
+    {
+      "name": "Native3MFUsesMillimeters",
+      "status": "PASS",
+      "unit": "millimeter"
+    },
+    {
+      "name": "NativeTwoPlates1And17Objects",
+      "status": "PASS",
+      "plates": [
+        {
+          "plate": 1,
+          "objects": 1
+        },
+        {
+          "plate": 2,
+          "objects": 17
+        }
+      ]
+    },
+    {
+      "name": "NativeBuildHas18PrintableItems",
+      "status": "PASS",
+      "count": 18
+    },
+    {
+      "name": "P01SingleMeshPerPrintObject",
+      "status": "PASS"
+    },
+    {
+      "name": "P01NativeSourceHash",
+      "status": "PASS",
+      "sha256": "88d5dc94bd70ad20b651ca7cdeed494058dd540d7e75447e38b5db70377c09d6"
+    },
+    {
+      "name": "P01RigidUnscaledNativeMeshRoundtrip",
+      "status": "PASS",
+      "max_bidirectional_vertex_error_mm": 8.65886291459762e-06,
+      "exact_facet_correspondence": true,
+      "scale_singular_values": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "faces": 63976
+    },
+    {
+      "name": "P01BrimEnvelopeInsideBothNozzleCommonArea",
+      "status": "PASS",
+      "bbox_with_brim_gap_and_0_3mm_line_radius": [
+        64.5999999,
+        74.6,
+        250.5000061,
+        217.4
+      ],
+      "common_area_mm": [
+        [
+          25,
+          0
+        ],
+        [
+          325,
+          320
+        ]
+      ],
+      "brim_width_mm": 5.0
+    },
+    {
+      "name": "P01OnBed",
+      "status": "PASS",
+      "z_min_mm": 0.0
+    },
+    {
+      "name": "P04SingleMeshPerPrintObject",
+      "status": "PASS"
+    },
+    {
+      "name": "P04NativeSourceHash",
+      "status": "PASS",
+      "sha256": "fdb84301af40be4ca84b838ebc1847b18ac0b2854818e3bfe63c1085d6ff0b7c"
+    },
+    {
+      "name": "P04RigidUnscaledNativeMeshRoundtrip",
+      "status": "PASS",
+      "max_bidirectional_vertex_error_mm": 3.8650384506897844e-06,
+      "exact_facet_correspondence": true,
+      "scale_singular_values": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "faces": 51838
+    },
+    {
+      "name": "P04BrimEnvelopeInsideBothNozzleCommonArea",
+      "status": "PASS",
+      "bbox_with_brim_gap_and_0_3mm_line_radius": [
+        231.1,
+        3.6000000000000005,
+        266.9,
+        140.4
+      ],
+      "common_area_mm": [
+        [
+          25,
+          0
+        ],
+        [
+          325,
+          320
+        ]
+      ],
+      "brim_width_mm": 5.0
+    },
+    {
+      "name": "P04OnBed",
+      "status": "PASS",
+      "z_min_mm": 0.0
+    },
+    {
+      "name": "P05SingleMeshPerPrintObject",
+      "status": "PASS"
+    },
+    {
+      "name": "P05NativeSourceHash",
+      "status": "PASS",
+      "sha256": "708aa073c8b30dab19e3c7700ca2d05ff4264845293c3428a68df1c2ced52966"
+    },
+    {
+      "name": "P05RigidUnscaledNativeMeshRoundtrip",
+      "status": "PASS",
+      "max_bidirectional_vertex_error_mm": 3.9912071087492285e-06,
+      "exact_facet_correspondence": true,
+      "scale_singular_values": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "faces": 15564
+    },
+    {
+      "name": "P05BrimEnvelopeInsideBothNozzleCommonArea",
+      "status": "PASS",
+      "bbox_with_brim_gap_and_0_3mm_line_radius": [
+        270.1,
+        3.6000000000000005,
+        317.9,
+        140.4
+      ],
+      "common_area_mm": [
+        [
+          25,
+          0
+        ],
+        [
+          325,
+          320
+        ]
+      ],
+      "brim_width_mm": 5.0
+    },
+    {
+      "name": "P05OnBed",
+      "status": "PASS",
+      "z_min_mm": 0.0
+    },
+    {
+      "name": "P08SingleMeshPerPrintObject",
+      "status": "PASS"
+    },
+    {
+      "name": "P08NativeSourceHash",
+      "status": "PASS",
+      "sha256": "11f47952a86814ce1c6a80ad25edde546f99b8664a610e397851ec8ae9fe8b2a"
+    },
+    {
+      "name": "P08RigidUnscaledNativeMeshRoundtrip",
+      "status": "PASS",
+      "max_bidirectional_vertex_error_mm": 3.865010238268998e-06,
+      "exact_facet_correspondence": true,
+      "scale_singular_values": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "faces": 8442
+    },
+    {
+      "name": "P08BrimEnvelopeInsideBothNozzleCommonArea",
+      "status": "PASS",
+      "bbox_with_brim_gap_and_0_3mm_line_radius": [
+        28.6,
+        150.6,
+        159.4,
+        179.900002
+      ],
+      "common_area_mm": [
+        [
+          25,
+          0
+        ],
+        [
+          325,
+          320
+        ]
+      ],
+      "brim_width_mm": 3.0
+    },
+    {
+      "name": "P08OnBed",
+      "status": "PASS",
+      "z_min_mm": 0.0
+    },
+    {
+      "name": "P09SingleMeshPerPrintObject",
+      "status": "PASS"
+    },
+    {
+      "name": "P09NativeSourceHash",
+      "status": "PASS",
+      "sha256": "2b809ab1f7cc350b96862cfd7d4878ac1907bda7cf793f78aa0e445e7264084a"
+    },
+    {
+      "name": "P09RigidUnscaledNativeMeshRoundtrip",
+      "status": "PASS",
+      "max_bidirectional_vertex_error_mm": 3.864129013316149e-06,
+      "exact_facet_correspondence": true,
+      "scale_singular_values": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "faces": 2694
+    },
+    {
+      "name": "P09BrimEnvelopeInsideBothNozzleCommonArea",
+      "status": "PASS",
+      "bbox_with_brim_gap_and_0_3mm_line_radius": [
+        163.6,
+        149.6,
+        278.4,
+        176.900002
+      ],
+      "common_area_mm": [
+        [
+          25,
+          0
+        ],
+        [
+          325,
+          320
+        ]
+      ],
+      "brim_width_mm": 2.0
+    },
+    {
+      "name": "P09OnBed",
+      "status": "PASS",
+      "z_min_mm": 0.0
+    },
+    {
+      "name": "H040SingleMeshPerPrintObject",
+      "status": "PASS"
+    },
+    {
+      "name": "H040NativeSourceHash",
+      "status": "PASS",
+      "sha256": "ed73c2217009079342531d1dd16e68c206790ab2f2ca3b5e85f41e866079d427"
+    },
+    {
+      "name": "H040RigidUnscaledNativeMeshRoundtrip",
+      "status": "PASS",
+      "max_bidirectional_vertex_error_mm": 5.995529267784658e-09,
+      "exact_facet_correspondence": true,
+      "scale_singular_values": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "faces": 576
+    },
+    {
+      "name": "H040BrimEnvelopeInsideBothNozzleCommonArea",
+      "status": "PASS",
+      "bbox_with_brim_gap_and_0_3mm_line_radius": [
+        26.6,
+        183.1,
+        174.4,
+        195.9
+      ],
+      "common_area_mm": [
+        [
+          25,
+          0
+        ],
+        [
+          325,
+          320
+        ]
+      ],
+      "brim_width_mm": 3.0
+    },
+    {
+      "name": "H040OnBed",
+      "status": "PASS",
+      "z_min_mm": 0.0
+    },
+    {
+      "name": "H041SingleMeshPerPrintObject",
+      "status": "PASS"
+    },
+    {
+      "name": "H041NativeSourceHash",
+      "status": "PASS",
+      "sha256": "c3b51c917e3598d19a26ff32510401be6405293cc25d02f78f5a0891912a6a19"
+    },
+    {
+      "name": "H041RigidUnscaledNativeMeshRoundtrip",
+      "status": "PASS",
+      "max_bidirectional_vertex_error_mm": 5.995529267784658e-09,
+      "exact_facet_correspondence": true,
+      "scale_singular_values": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "faces": 576
+    },
+    {
+      "name": "H041BrimEnvelopeInsideBothNozzleCommonArea",
+      "status": "PASS",
+      "bbox_with_brim_gap_and_0_3mm_line_radius": [
+        175.6,
+        183.1,
+        323.4,
+        195.9
+      ],
+      "common_area_mm": [
+        [
+          25,
+          0
+        ],
+        [
+          325,
+          320
+        ]
+      ],
+      "brim_width_mm": 3.0
+    },
+    {
+      "name": "H041OnBed",
+      "status": "PASS",
+      "z_min_mm": 0.0
+    },
+    {
+      "name": "P060SingleMeshPerPrintObject",
+      "status": "PASS"
+    },
+    {
+      "name": "P060NativeSourceHash",
+      "status": "PASS",
+      "sha256": "fb1337d8882240a0e3c49fcdb6e88d8d0fef58940405575e20dc9dcfb7179a0e"
+    },
+    {
+      "name": "P060RigidUnscaledNativeMeshRoundtrip",
+      "status": "PASS",
+      "max_bidirectional_vertex_error_mm": 5.245207037201646e-07,
+      "exact_facet_correspondence": true,
+      "scale_singular_values": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "faces": 5864
+    },
+    {
+      "name": "P060BrimEnvelopeInsideBothNozzleCommonArea",
+      "status": "PASS",
+      "bbox_with_brim_gap_and_0_3mm_line_radius": [
+        171.6,
+        199.6,
+        187.4,
+        234.4
+      ],
+      "common_area_mm": [
+        [
+          25,
+          0
+        ],
+        [
+          325,
+          320
+        ]
+      ],
+      "brim_width_mm": 3.0
+    },
+    {
+      "name": "P060OnBed",
+      "status": "PASS",
+      "z_min_mm": 0.0
+    },
+    {
+      "name": "P061SingleMeshPerPrintObject",
+      "status": "PASS"
+    },
+    {
+      "name": "P061NativeSourceHash",
+      "status": "PASS",
+      "sha256": "b4517d1c0e1b163d4f0c6e9a42427e5075d584665d532118db72d9408874befa"
+    },
+    {
+      "name": "P061RigidUnscaledNativeMeshRoundtrip",
+      "status": "PASS",
+      "max_bidirectional_vertex_error_mm": 5.245207037201646e-07,
+      "exact_facet_correspondence": true,
+      "scale_singular_values": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "faces": 5864
+    },
+    {
+      "name": "P061BrimEnvelopeInsideBothNozzleCommonArea",
+      "status": "PASS",
+      "bbox_with_brim_gap_and_0_3mm_line_radius": [
+        190.6,
+        199.6,
+        206.4,
+        234.4
+      ],
+      "common_area_mm": [
+        [
+          25,
+          0
+        ],
+        [
+          325,
+          320
+        ]
+      ],
+      "brim_width_mm": 3.0
+    },
+    {
+      "name": "P061OnBed",
+      "status": "PASS",
+      "z_min_mm": 0.0
+    },
+    {
+      "name": "P120SingleMeshPerPrintObject",
+      "status": "PASS"
+    },
+    {
+      "name": "P120NativeSourceHash",
+      "status": "PASS",
+      "sha256": "4e96f14152f1d40821836566e3dca17ccba1471c34db20bb69ac68acd27a7e48"
+    },
+    {
+      "name": "P120RigidUnscaledNativeMeshRoundtrip",
+      "status": "PASS",
+      "max_bidirectional_vertex_error_mm": 1.3397058084892276e-06,
+      "exact_facet_correspondence": true,
+      "scale_singular_values": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "faces": 1846
+    },
+    {
+      "name": "P120BrimEnvelopeInsideBothNozzleCommonArea",
+      "status": "PASS",
+      "bbox_with_brim_gap_and_0_3mm_line_radius": [
+        209.59999960000002,
+        199.6,
+        239.60000040000003,
+        225.9
+      ],
+      "common_area_mm": [
+        [
+          25,
+          0
+        ],
+        [
+          325,
+          320
+        ]
+      ],
+      "brim_width_mm": 3.0
+    },
+    {
+      "name": "P120OnBed",
+      "status": "PASS",
+      "z_min_mm": 0.0
+    },
+    {
+      "name": "P121SingleMeshPerPrintObject",
+      "status": "PASS"
+    },
+    {
+      "name": "P121NativeSourceHash",
+      "status": "PASS",
+      "sha256": "55e9ffd7d0a4a0ceceb5ddf663837882afb022c3a607406b8697d4972ff65905"
+    },
+    {
+      "name": "P121RigidUnscaledNativeMeshRoundtrip",
+      "status": "PASS",
+      "max_bidirectional_vertex_error_mm": 1.339705865332594e-06,
+      "exact_facet_correspondence": true,
+      "scale_singular_values": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "faces": 1846
+    },
+    {
+      "name": "P121BrimEnvelopeInsideBothNozzleCommonArea",
+      "status": "PASS",
+      "bbox_with_brim_gap_and_0_3mm_line_radius": [
+        242.79999959999995,
+        199.6,
+        272.80000039999993,
+        225.9
+      ],
+      "common_area_mm": [
+        [
+          25,
+          0
+        ],
+        [
+          325,
+          320
+        ]
+      ],
+      "brim_width_mm": 3.0
+    },
+    {
+      "name": "P121OnBed",
+      "status": "PASS",
+      "z_min_mm": 0.0
+    },
+    {
+      "name": "P11SingleMeshPerPrintObject",
+      "status": "PASS"
+    },
+    {
+      "name": "P11NativeSourceHash",
+      "status": "PASS",
+      "sha256": "ee81507b31f348ae644d268f5525a825d5eecbd44f580824105b74e3a191d49b"
+    },
+    {
+      "name": "P11RigidUnscaledNativeMeshRoundtrip",
+      "status": "PASS",
+      "max_bidirectional_vertex_error_mm": 4.334811068012001e-07,
+      "exact_facet_correspondence": true,
+      "scale_singular_values": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "faces": 598
+    },
+    {
+      "name": "P11BrimEnvelopeInsideBothNozzleCommonArea",
+      "status": "PASS",
+      "bbox_with_brim_gap_and_0_3mm_line_radius": [
+        277.6,
+        198.60000018999997,
+        288.4,
+        211.79999981
+      ],
+      "common_area_mm": [
+        [
+          25,
+          0
+        ],
+        [
+          325,
+          320
+        ]
+      ],
+      "brim_width_mm": 2.0
+    },
+    {
+      "name": "P11OnBed",
+      "status": "PASS",
+      "z_min_mm": 0.0
+    },
+    {
+      "name": "P10SingleMeshPerPrintObject",
+      "status": "PASS"
+    },
+    {
+      "name": "P10NativeSourceHash",
+      "status": "PASS",
+      "sha256": "8ee66bba498b46d593a8d9c00581582cd76b35677312eb81d427f808df8b08d8"
+    },
+    {
+      "name": "P10RigidUnscaledNativeMeshRoundtrip",
+      "status": "PASS",
+      "max_bidirectional_vertex_error_mm": 5.120963090439492e-07,
+      "exact_facet_correspondence": true,
+      "scale_singular_values": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "faces": 1172
+    },
+    {
+      "name": "P10BrimEnvelopeInsideBothNozzleCommonArea",
+      "status": "PASS",
+      "bbox_with_brim_gap_and_0_3mm_line_radius": [
+        289.59999962000006,
+        198.59999965999998,
+        297.60000038,
+        213.60000234
+      ],
+      "common_area_mm": [
+        [
+          25,
+          0
+        ],
+        [
+          325,
+          320
+        ]
+      ],
+      "brim_width_mm": 2.0
+    },
+    {
+      "name": "P10OnBed",
+      "status": "PASS",
+      "z_min_mm": 0.0
+    },
+    {
+      "name": "P070aSingleMeshPerPrintObject",
+      "status": "PASS"
+    },
+    {
+      "name": "P070aNativeSourceHash",
+      "status": "PASS",
+      "sha256": "b2043cb95741498d64262f3011a79d3a14eb64934d9a558602a9f71abf42bf74"
+    },
+    {
+      "name": "P070aRigidUnscaledNativeMeshRoundtrip",
+      "status": "PASS",
+      "max_bidirectional_vertex_error_mm": 0.0,
+      "exact_facet_correspondence": true,
+      "scale_singular_values": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "faces": 12
+    },
+    {
+      "name": "P070aBrimEnvelopeInsideBothNozzleCommonArea",
+      "status": "PASS",
+      "bbox_with_brim_gap_and_0_3mm_line_radius": [
+        277.6,
+        215.1,
+        288.4,
+        224.4
+      ],
+      "common_area_mm": [
+        [
+          25,
+          0
+        ],
+        [
+          325,
+          320
+        ]
+      ],
+      "brim_width_mm": 2.0
+    },
+    {
+      "name": "P070aOnBed",
+      "status": "PASS",
+      "z_min_mm": 0.0
+    },
+    {
+      "name": "P070bSingleMeshPerPrintObject",
+      "status": "PASS"
+    },
+    {
+      "name": "P070bNativeSourceHash",
+      "status": "PASS",
+      "sha256": "c2e968a11b33abb1d58fb03ba6f4ba6ca14a53ecfafa3ef001bf03d2d10b881a"
+    },
+    {
+      "name": "P070bRigidUnscaledNativeMeshRoundtrip",
+      "status": "PASS",
+      "max_bidirectional_vertex_error_mm": 0.0,
+      "exact_facet_correspondence": true,
+      "scale_singular_values": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "faces": 12
+    },
+    {
+      "name": "P070bBrimEnvelopeInsideBothNozzleCommonArea",
+      "status": "PASS",
+      "bbox_with_brim_gap_and_0_3mm_line_radius": [
+        289.6,
+        215.1,
+        300.4,
+        224.4
+      ],
+      "common_area_mm": [
+        [
+          25,
+          0
+        ],
+        [
+          325,
+          320
+        ]
+      ],
+      "brim_width_mm": 2.0
+    },
+    {
+      "name": "P070bOnBed",
+      "status": "PASS",
+      "z_min_mm": 0.0
+    },
+    {
+      "name": "P071aSingleMeshPerPrintObject",
+      "status": "PASS"
+    },
+    {
+      "name": "P071aNativeSourceHash",
+      "status": "PASS",
+      "sha256": "4cacdcfcc514e130026a3c5b37d03bb89e0f53cb780d221184c31b71bb5757f7"
+    },
+    {
+      "name": "P071aRigidUnscaledNativeMeshRoundtrip",
+      "status": "PASS",
+      "max_bidirectional_vertex_error_mm": 0.0,
+      "exact_facet_correspondence": true,
+      "scale_singular_values": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "faces": 12
+    },
+    {
+      "name": "P071aBrimEnvelopeInsideBothNozzleCommonArea",
+      "status": "PASS",
+      "bbox_with_brim_gap_and_0_3mm_line_radius": [
+        277.6,
+        225.6,
+        288.4,
+        234.9
+      ],
+      "common_area_mm": [
+        [
+          25,
+          0
+        ],
+        [
+          325,
+          320
+        ]
+      ],
+      "brim_width_mm": 2.0
+    },
+    {
+      "name": "P071aOnBed",
+      "status": "PASS",
+      "z_min_mm": 0.0
+    },
+    {
+      "name": "P071bSingleMeshPerPrintObject",
+      "status": "PASS"
+    },
+    {
+      "name": "P071bNativeSourceHash",
+      "status": "PASS",
+      "sha256": "50aa9ad8ee8fb500dc0e13b1ab8dd333ccaeab6f0fa7fe7625ba79d21ae3c29d"
+    },
+    {
+      "name": "P071bRigidUnscaledNativeMeshRoundtrip",
+      "status": "PASS",
+      "max_bidirectional_vertex_error_mm": 0.0,
+      "exact_facet_correspondence": true,
+      "scale_singular_values": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "faces": 12
+    },
+    {
+      "name": "P071bBrimEnvelopeInsideBothNozzleCommonArea",
+      "status": "PASS",
+      "bbox_with_brim_gap_and_0_3mm_line_radius": [
+        289.6,
+        225.6,
+        300.4,
+        234.9
+      ],
+      "common_area_mm": [
+        [
+          25,
+          0
+        ],
+        [
+          325,
+          320
+        ]
+      ],
+      "brim_width_mm": 2.0
+    },
+    {
+      "name": "P071bOnBed",
+      "status": "PASS",
+      "z_min_mm": 0.0
+    },
+    {
+      "name": "Q01SingleMeshPerPrintObject",
+      "status": "PASS"
+    },
+    {
+      "name": "Q01NativeSourceHash",
+      "status": "PASS",
+      "sha256": "4a814328544c999013ab754d2d1c3f9a99e287e034066df127525cfe912a394b"
+    },
+    {
+      "name": "Q01RigidUnscaledNativeMeshRoundtrip",
+      "status": "PASS",
+      "max_bidirectional_vertex_error_mm": 1.3557233290168837e-06,
+      "exact_facet_correspondence": true,
+      "scale_singular_values": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "faces": 2540
+    },
+    {
+      "name": "Q01BrimEnvelopeInsideBothNozzleCommonArea",
+      "status": "PASS",
+      "bbox_with_brim_gap_and_0_3mm_line_radius": [
+        294.59999959999993,
+        236.6,
+        319.39644239999996,
+        261.4
+      ],
+      "common_area_mm": [
+        [
+          25,
+          0
+        ],
+        [
+          325,
+          320
+        ]
+      ],
+      "brim_width_mm": 3.0
+    },
+    {
+      "name": "Q01OnBed",
+      "status": "PASS",
+      "z_min_mm": 0.0
+    },
+    {
+      "name": "NativeObjectInventoryExactlyExpected",
+      "status": "PASS",
+      "refs": [
+        "H040",
+        "H041",
+        "P01",
+        "P04",
+        "P05",
+        "P060",
+        "P061",
+        "P070a",
+        "P070b",
+        "P071a",
+        "P071b",
+        "P08",
+        "P09",
+        "P10",
+        "P11",
+        "P120",
+        "P121",
+        "Q01"
+      ]
+    },
+    {
+      "name": "H2D04PLAProfile",
+      "status": "PASS",
+      "printer_model": "Bambu Lab H2D",
+      "printer_variant": "0.4",
+      "nozzles": [
+        "0.4",
+        "0.4"
+      ],
+      "filament_type": [
+        "PLA"
+      ],
+      "filament_preset": [
+        "Generic PLA @BBL H2D"
+      ]
+    },
+    {
+      "name": "NozzleCommonAreaReadFromNativeSettings",
+      "status": "PASS",
+      "extruder_printable_area": [
+        "0x0,325x0,325x320,0x320",
+        "25x0,350x0,350x320,25x320"
+      ]
+    },
+    {
+      "name": "P01OneConnectedClosedPositiveSolid",
+      "status": "PASS",
+      "components": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "volume_mm3": 162200.99790104176,
+      "faces": 63976
+    },
+    {
+      "name": "P01BedOnlyNormalSupport",
+      "status": "PASS",
+      "settings": {
+        "name": "P01 - INTEGRATED BASE AND SOLID PALM - UNLOADED FIT STUDY",
+        "brim_object_gap": "0.1",
+        "brim_type": "outer_only",
+        "brim_width": "5",
+        "enable_support": "1",
+        "extruder": "1",
+        "support_on_build_plate_only": "1",
+        "support_threshold_angle": "30",
+        "support_top_z_distance": "0.25",
+        "support_type": "normal(auto)"
+      }
+    },
+    {
+      "name": "ConservativeBrimEnvelopesDoNotOverlap",
+      "status": "PASS",
+      "overlaps": []
+    },
+    {
+      "name": "Plate1ActualExtrusionIncludingBrimsInsideCommonArea",
+      "status": "PASS",
+      "bbox_centerline_mm": [
+        [
+          66.422,
+          76.52,
+          0.2
+        ],
+        [
+          248.58,
+          215.48,
+          35.0
+        ]
+      ],
+      "bbox_with_0_3mm_line_radius_mm": [
+        [
+          66.122,
+          76.22
+        ],
+        [
+          248.88000000000002,
+          215.78
+        ]
+      ]
+    },
+    {
+      "name": "Plate1ActualModelStartsOnBed",
+      "status": "PASS",
+      "first_layer_model_segments": 755
+    },
+    {
+      "name": "Plate1ActualModelHeight",
+      "status": "PASS",
+      "z_max_mm": 35.0
+    },
+    {
+      "name": "P01SupportSectionsAboveFirstLayerHaveDownOrOutwardThenDownRemovalDirection",
+      "status": "PASS",
+      "support_samples": 73413,
+      "higher_half_width_cases_needing_outward_release": 86,
+      "outward_then_down_pass": 86,
+      "blocked_centerline_rays": 0,
+      "unresolved_cases": [],
+      "tested_half_width_column_rays": 106579,
+      "method": "Support/interface/transition strands sampled at<=1mm, plus half-line-width XY offsets. Ordinary support sections may peel0.5mm outward-X before downward removal; no whole-tree or force guarantee."
+    },
+    {
+      "name": "P01FirstLayerBrimContactsAreExplicitBreakawayFloorRimOnly",
+      "status": "PASS",
+      "first_layer_brim_half_width_cases": 136,
+      "all_half_width_cases_counted": true,
+      "total_half_width_cases": 222,
+      "hit_Z_bounds_native_mm": [
+        -1.8057728660756867,
+        -1.8036265394572648
+      ],
+      "nozzle_first_layer_Z_native_mm": -1.8,
+      "interpretation": "Expected breakaway first-layer adhesion brim at bottom floor fillet; all conservative half-width envelope cases are counted, higher supports are checked separately, and physical removal force is unverified."
+    },
+    {
+      "name": "P01NoSupportInsideRodKeeperOrNewH18ServiceBores",
+      "status": "PASS",
+      "rod_socket_support_centers": 0,
+      "keeper_head_access_support_centers": 0,
+      "H18_service_bore_support_centers": 0
+    },
+    {
+      "name": "Plate2ActualExtrusionIncludingBrimsInsideCommonArea",
+      "status": "PASS",
+      "bbox_centerline_mm": [
+        [
+          27.386,
+          4.558,
+          0.2
+        ],
+        [
+          322.614,
+          262.447,
+          59.0
+        ]
+      ],
+      "bbox_with_0_3mm_line_radius_mm": [
+        [
+          27.086,
+          4.258
+        ],
+        [
+          322.914,
+          262.747
+        ]
+      ]
+    },
+    {
+      "name": "Plate2ActualModelStartsOnBed",
+      "status": "PASS",
+      "first_layer_model_segments": 2169
+    },
+    {
+      "name": "Plate2ActualModelHeight",
+      "status": "PASS",
+      "z_max_mm": 59.0
+    }
+  ],
+  "objects": [
+    {
+      "ref": "P01",
+      "plate": 1,
+      "native_object_id": "2",
+      "name": "P01 - INTEGRATED BASE AND SOLID PALM - UNLOADED FIT STUDY",
+      "bbox_mm": [
+        [
+          69.9999999,
+          80.0,
+          0.0
+        ],
+        [
+          245.1000061,
+          212.0,
+          35.0
+        ]
+      ],
+      "settings": {
+        "name": "P01 - INTEGRATED BASE AND SOLID PALM - UNLOADED FIT STUDY",
+        "brim_object_gap": "0.1",
+        "brim_type": "outer_only",
+        "brim_width": "5",
+        "enable_support": "1",
+        "extruder": "1",
+        "support_on_build_plate_only": "1",
+        "support_threshold_angle": "30",
+        "support_top_z_distance": "0.25",
+        "support_type": "normal(auto)"
+      },
+      "brim_envelope_mm": [
+        64.5999999,
+        74.6,
+        250.5000061,
+        217.4
+      ],
+      "max_mesh_error_mm": 8.65886291459762e-06
+    },
+    {
+      "ref": "P04",
+      "plate": 2,
+      "native_object_id": "4",
+      "name": "P04 - R10 unchanged rigid printed part - unloaded fit study",
+      "bbox_mm": [
+        [
+          236.5,
+          9.0,
+          0.0
+        ],
+        [
+          261.5,
+          135.0,
+          59.0
+        ]
+      ],
+      "settings": {
+        "name": "P04 - R10 unchanged rigid printed part - unloaded fit study",
+        "brim_object_gap": "0.1",
+        "brim_type": "outer_only",
+        "brim_width": "5",
+        "enable_support": "1",
+        "extruder": "1",
+        "support_on_build_plate_only": "0",
+        "support_threshold_angle": "30",
+        "support_top_z_distance": "0.25",
+        "support_type": "normal(auto)"
+      },
+      "brim_envelope_mm": [
+        231.1,
+        3.6000000000000005,
+        266.9,
+        140.4
+      ],
+      "max_mesh_error_mm": 3.8650384506897844e-06
+    },
+    {
+      "ref": "P05",
+      "plate": 2,
+      "native_object_id": "6",
+      "name": "P05 - R10 unchanged rigid printed part - unloaded fit study",
+      "bbox_mm": [
+        [
+          275.5,
+          9.0,
+          0.0
+        ],
+        [
+          312.5,
+          135.0,
+          22.0
+        ]
+      ],
+      "settings": {
+        "name": "P05 - R10 unchanged rigid printed part - unloaded fit study",
+        "brim_object_gap": "0.1",
+        "brim_type": "outer_only",
+        "brim_width": "5",
+        "enable_support": "1",
+        "extruder": "1",
+        "support_on_build_plate_only": "1",
+        "support_threshold_angle": "30",
+        "support_top_z_distance": "0.25",
+        "support_type": "normal(auto)"
+      },
+      "brim_envelope_mm": [
+        270.1,
+        3.6000000000000005,
+        317.9,
+        140.4
+      ],
+      "max_mesh_error_mm": 3.9912071087492285e-06
+    },
+    {
+      "ref": "P08",
+      "plate": 2,
+      "native_object_id": "8",
+      "name": "P08 - R10 unchanged rigid printed part - unloaded fit study",
+      "bbox_mm": [
+        [
+          32.0,
+          154.0,
+          0.0
+        ],
+        [
+          156.0,
+          176.500002,
+          9.5
+        ]
+      ],
+      "settings": {
+        "name": "P08 - R10 unchanged rigid printed part - unloaded fit study",
+        "brim_object_gap": "0.1",
+        "brim_type": "outer_only",
+        "brim_width": "3",
+        "enable_support": "1",
+        "extruder": "1",
+        "support_on_build_plate_only": "0",
+        "support_threshold_angle": "30",
+        "support_top_z_distance": "0.25",
+        "support_type": "normal(auto)"
+      },
+      "brim_envelope_mm": [
+        28.6,
+        150.6,
+        159.4,
+        179.900002
+      ],
+      "max_mesh_error_mm": 3.865010238268998e-06
+    },
+    {
+      "ref": "P09",
+      "plate": 2,
+      "native_object_id": "10",
+      "name": "P09 - R10 unchanged rigid printed part - unloaded fit study",
+      "bbox_mm": [
+        [
+          166.0,
+          152.0,
+          0.0
+        ],
+        [
+          276.0,
+          174.500002,
+          6.74999952
+        ]
+      ],
+      "settings": {
+        "name": "P09 - R10 unchanged rigid printed part - unloaded fit study",
+        "brim_object_gap": "0.1",
+        "brim_type": "outer_only",
+        "brim_width": "2",
+        "enable_support": "0",
+        "extruder": "1"
+      },
+      "brim_envelope_mm": [
+        163.6,
+        149.6,
+        278.4,
+        176.900002
+      ],
+      "max_mesh_error_mm": 3.864129013316149e-06
+    },
+    {
+      "ref": "H040",
+      "plate": 2,
+      "native_object_id": "12",
+      "name": "H040 - RIGID PLA SHAPE PROXY - NO LOAD",
+      "bbox_mm": [
+        [
+          30.0,
+          186.5,
+          0.0
+        ],
+        [
+          171.0,
+          192.5,
+          6.0
+        ]
+      ],
+      "settings": {
+        "name": "H040 - RIGID PLA SHAPE PROXY - NO LOAD",
+        "brim_object_gap": "0.1",
+        "brim_type": "outer_only",
+        "brim_width": "3",
+        "enable_support": "1",
+        "extruder": "1",
+        "gap_infill_speed": "60,60,60,60,60,60,60",
+        "inner_wall_speed": "60,60,60,60,60,60,60",
+        "internal_solid_infill_speed": "60,60,60,60,60,60,60",
+        "outer_wall_speed": "60,60,60,60,60,60,60",
+        "sparse_infill_density": "100%",
+        "sparse_infill_speed": "60,60,60,60,60,60,60",
+        "support_on_build_plate_only": "1",
+        "support_threshold_angle": "30",
+        "support_top_z_distance": "0.25",
+        "support_type": "normal(auto)",
+        "top_surface_speed": "60,60,60,60,60,60,60"
+      },
+      "brim_envelope_mm": [
+        26.6,
+        183.1,
+        174.4,
+        195.9
+      ],
+      "max_mesh_error_mm": 5.995529267784658e-09
+    },
+    {
+      "ref": "H041",
+      "plate": 2,
+      "native_object_id": "14",
+      "name": "H041 - RIGID PLA SHAPE PROXY - NO LOAD",
+      "bbox_mm": [
+        [
+          179.0,
+          186.5,
+          0.0
+        ],
+        [
+          320.0,
+          192.5,
+          6.0
+        ]
+      ],
+      "settings": {
+        "name": "H041 - RIGID PLA SHAPE PROXY - NO LOAD",
+        "brim_object_gap": "0.1",
+        "brim_type": "outer_only",
+        "brim_width": "3",
+        "enable_support": "1",
+        "extruder": "1",
+        "gap_infill_speed": "60,60,60,60,60,60,60",
+        "inner_wall_speed": "60,60,60,60,60,60,60",
+        "internal_solid_infill_speed": "60,60,60,60,60,60,60",
+        "outer_wall_speed": "60,60,60,60,60,60,60",
+        "sparse_infill_density": "100%",
+        "sparse_infill_speed": "60,60,60,60,60,60,60",
+        "support_on_build_plate_only": "1",
+        "support_threshold_angle": "30",
+        "support_top_z_distance": "0.25",
+        "support_type": "normal(auto)",
+        "top_surface_speed": "60,60,60,60,60,60,60"
+      },
+      "brim_envelope_mm": [
+        175.6,
+        183.1,
+        323.4,
+        195.9
+      ],
+      "max_mesh_error_mm": 5.995529267784658e-09
+    },
+    {
+      "ref": "P060",
+      "plate": 2,
+      "native_object_id": "16",
+      "name": "P060 - R10 unchanged rigid printed part - unloaded fit study",
+      "bbox_mm": [
+        [
+          175.0,
+          203.0,
+          0.0
+        ],
+        [
+          184.0,
+          231.0,
+          26.0
+        ]
+      ],
+      "settings": {
+        "name": "P060 - R10 unchanged rigid printed part - unloaded fit study",
+        "brim_object_gap": "0.1",
+        "brim_type": "outer_only",
+        "brim_width": "3",
+        "enable_support": "1",
+        "extruder": "1",
+        "gap_infill_speed": "40,40,40,40,40,40,40",
+        "inner_wall_speed": "40,40,40,40,40,40,40",
+        "internal_solid_infill_speed": "40,40,40,40,40,40,40",
+        "outer_wall_speed": "40,40,40,40,40,40,40",
+        "sparse_infill_speed": "40,40,40,40,40,40,40",
+        "support_on_build_plate_only": "1",
+        "support_threshold_angle": "30",
+        "support_top_z_distance": "0.25",
+        "support_type": "normal(auto)",
+        "top_surface_speed": "40,40,40,40,40,40,40"
+      },
+      "brim_envelope_mm": [
+        171.6,
+        199.6,
+        187.4,
+        234.4
+      ],
+      "max_mesh_error_mm": 5.245207037201646e-07
+    },
+    {
+      "ref": "P061",
+      "plate": 2,
+      "native_object_id": "18",
+      "name": "P061 - R10 unchanged rigid printed part - unloaded fit study",
+      "bbox_mm": [
+        [
+          194.0,
+          203.0,
+          0.0
+        ],
+        [
+          203.0,
+          231.0,
+          26.0
+        ]
+      ],
+      "settings": {
+        "name": "P061 - R10 unchanged rigid printed part - unloaded fit study",
+        "brim_object_gap": "0.1",
+        "brim_type": "outer_only",
+        "brim_width": "3",
+        "enable_support": "1",
+        "extruder": "1",
+        "gap_infill_speed": "40,40,40,40,40,40,40",
+        "inner_wall_speed": "40,40,40,40,40,40,40",
+        "internal_solid_infill_speed": "40,40,40,40,40,40,40",
+        "outer_wall_speed": "40,40,40,40,40,40,40",
+        "sparse_infill_speed": "40,40,40,40,40,40,40",
+        "support_on_build_plate_only": "1",
+        "support_threshold_angle": "30",
+        "support_top_z_distance": "0.25",
+        "support_type": "normal(auto)",
+        "top_surface_speed": "40,40,40,40,40,40,40"
+      },
+      "brim_envelope_mm": [
+        190.6,
+        199.6,
+        206.4,
+        234.4
+      ],
+      "max_mesh_error_mm": 5.245207037201646e-07
+    },
+    {
+      "ref": "P120",
+      "plate": 2,
+      "native_object_id": "20",
+      "name": "P120 - R10 unchanged rigid printed part - unloaded fit study",
+      "bbox_mm": [
+        [
+          212.99999960000002,
+          203.0,
+          0.0
+        ],
+        [
+          236.20000040000002,
+          222.5,
+          9.40000916
+        ]
+      ],
+      "settings": {
+        "name": "P120 - R10 unchanged rigid printed part - unloaded fit study",
+        "brim_object_gap": "0.1",
+        "brim_type": "outer_only",
+        "brim_width": "3",
+        "enable_support": "1",
+        "extruder": "1",
+        "gap_infill_speed": "40,40,40,40,40,40,40",
+        "inner_wall_speed": "40,40,40,40,40,40,40",
+        "internal_solid_infill_speed": "40,40,40,40,40,40,40",
+        "outer_wall_speed": "40,40,40,40,40,40,40",
+        "sparse_infill_speed": "40,40,40,40,40,40,40",
+        "support_on_build_plate_only": "1",
+        "support_threshold_angle": "30",
+        "support_top_z_distance": "0.25",
+        "support_type": "normal(auto)",
+        "top_surface_speed": "40,40,40,40,40,40,40"
+      },
+      "brim_envelope_mm": [
+        209.59999960000002,
+        199.6,
+        239.60000040000003,
+        225.9
+      ],
+      "max_mesh_error_mm": 1.3397058084892276e-06
+    },
+    {
+      "ref": "P121",
+      "plate": 2,
+      "native_object_id": "22",
+      "name": "P121 - R10 unchanged rigid printed part - unloaded fit study",
+      "bbox_mm": [
+        [
+          246.19999959999996,
+          203.0,
+          0.0
+        ],
+        [
+          269.40000039999995,
+          222.5,
+          9.40000916
+        ]
+      ],
+      "settings": {
+        "name": "P121 - R10 unchanged rigid printed part - unloaded fit study",
+        "brim_object_gap": "0.1",
+        "brim_type": "outer_only",
+        "brim_width": "3",
+        "enable_support": "1",
+        "extruder": "1",
+        "gap_infill_speed": "40,40,40,40,40,40,40",
+        "inner_wall_speed": "40,40,40,40,40,40,40",
+        "internal_solid_infill_speed": "40,40,40,40,40,40,40",
+        "outer_wall_speed": "40,40,40,40,40,40,40",
+        "sparse_infill_speed": "40,40,40,40,40,40,40",
+        "support_on_build_plate_only": "1",
+        "support_threshold_angle": "30",
+        "support_top_z_distance": "0.25",
+        "support_type": "normal(auto)",
+        "top_surface_speed": "40,40,40,40,40,40,40"
+      },
+      "brim_envelope_mm": [
+        242.79999959999995,
+        199.6,
+        272.80000039999993,
+        225.9
+      ],
+      "max_mesh_error_mm": 1.339705865332594e-06
+    },
+    {
+      "ref": "P11",
+      "plate": 2,
+      "native_object_id": "24",
+      "name": "P11 - R10 unchanged rigid printed part - unloaded fit study",
+      "bbox_mm": [
+        [
+          280.0,
+          201.00000018999998,
+          0.0
+        ],
+        [
+          286.0,
+          209.39999981,
+          10.0
+        ]
+      ],
+      "settings": {
+        "name": "P11 - R10 unchanged rigid printed part - unloaded fit study",
+        "brim_object_gap": "0.1",
+        "brim_type": "outer_only",
+        "brim_width": "2",
+        "enable_support": "0",
+        "extruder": "1",
+        "gap_infill_speed": "40,40,40,40,40,40,40",
+        "inner_wall_speed": "40,40,40,40,40,40,40",
+        "internal_solid_infill_speed": "40,40,40,40,40,40,40",
+        "layer_height": "0.1",
+        "outer_wall_speed": "40,40,40,40,40,40,40",
+        "sparse_infill_density": "100%",
+        "sparse_infill_speed": "40,40,40,40,40,40,40",
+        "top_surface_speed": "40,40,40,40,40,40,40"
+      },
+      "brim_envelope_mm": [
+        277.6,
+        198.60000018999997,
+        288.4,
+        211.79999981
+      ],
+      "max_mesh_error_mm": 4.334811068012001e-07
+    },
+    {
+      "ref": "P10",
+      "plate": 2,
+      "native_object_id": "26",
+      "name": "P10 - R10 unchanged rigid printed part - unloaded fit study",
+      "bbox_mm": [
+        [
+          291.99999962000004,
+          200.99999966,
+          0.0
+        ],
+        [
+          295.20000038,
+          211.20000234,
+          1.0
+        ]
+      ],
+      "settings": {
+        "name": "P10 - R10 unchanged rigid printed part - unloaded fit study",
+        "brim_object_gap": "0.1",
+        "brim_type": "outer_only",
+        "brim_width": "2",
+        "enable_support": "0",
+        "extruder": "1",
+        "gap_infill_speed": "40,40,40,40,40,40,40",
+        "inner_wall_speed": "40,40,40,40,40,40,40",
+        "internal_solid_infill_speed": "40,40,40,40,40,40,40",
+        "outer_wall_speed": "40,40,40,40,40,40,40",
+        "sparse_infill_speed": "40,40,40,40,40,40,40",
+        "top_surface_speed": "40,40,40,40,40,40,40"
+      },
+      "brim_envelope_mm": [
+        289.59999962000006,
+        198.59999965999998,
+        297.60000038,
+        213.60000234
+      ],
+      "max_mesh_error_mm": 5.120963090439492e-07
+    },
+    {
+      "ref": "P070a",
+      "plate": 2,
+      "native_object_id": "28",
+      "name": "P070a - RIGID PLA SHAPE PROXY - NO LOAD",
+      "bbox_mm": [
+        [
+          280.0,
+          217.5,
+          0.0
+        ],
+        [
+          286.0,
+          222.0,
+          1.5
+        ]
+      ],
+      "settings": {
+        "name": "P070a - RIGID PLA SHAPE PROXY - NO LOAD",
+        "brim_object_gap": "0.1",
+        "brim_type": "outer_only",
+        "brim_width": "2",
+        "enable_support": "0",
+        "extruder": "1",
+        "gap_infill_speed": "40,40,40,40,40,40,40",
+        "inner_wall_speed": "40,40,40,40,40,40,40",
+        "internal_solid_infill_speed": "40,40,40,40,40,40,40",
+        "layer_height": "0.1",
+        "outer_wall_speed": "40,40,40,40,40,40,40",
+        "sparse_infill_density": "100%",
+        "sparse_infill_speed": "40,40,40,40,40,40,40",
+        "top_surface_speed": "40,40,40,40,40,40,40"
+      },
+      "brim_envelope_mm": [
+        277.6,
+        215.1,
+        288.4,
+        224.4
+      ],
+      "max_mesh_error_mm": 0.0
+    },
+    {
+      "ref": "P070b",
+      "plate": 2,
+      "native_object_id": "30",
+      "name": "P070b - RIGID PLA SHAPE PROXY - NO LOAD",
+      "bbox_mm": [
+        [
+          292.0,
+          217.5,
+          0.0
+        ],
+        [
+          298.0,
+          222.0,
+          1.5
+        ]
+      ],
+      "settings": {
+        "name": "P070b - RIGID PLA SHAPE PROXY - NO LOAD",
+        "brim_object_gap": "0.1",
+        "brim_type": "outer_only",
+        "brim_width": "2",
+        "enable_support": "0",
+        "extruder": "1",
+        "gap_infill_speed": "40,40,40,40,40,40,40",
+        "inner_wall_speed": "40,40,40,40,40,40,40",
+        "internal_solid_infill_speed": "40,40,40,40,40,40,40",
+        "layer_height": "0.1",
+        "outer_wall_speed": "40,40,40,40,40,40,40",
+        "sparse_infill_density": "100%",
+        "sparse_infill_speed": "40,40,40,40,40,40,40",
+        "top_surface_speed": "40,40,40,40,40,40,40"
+      },
+      "brim_envelope_mm": [
+        289.6,
+        215.1,
+        300.4,
+        224.4
+      ],
+      "max_mesh_error_mm": 0.0
+    },
+    {
+      "ref": "P071a",
+      "plate": 2,
+      "native_object_id": "32",
+      "name": "P071a - RIGID PLA SHAPE PROXY - NO LOAD",
+      "bbox_mm": [
+        [
+          280.0,
+          228.0,
+          0.0
+        ],
+        [
+          286.0,
+          232.5,
+          1.5
+        ]
+      ],
+      "settings": {
+        "name": "P071a - RIGID PLA SHAPE PROXY - NO LOAD",
+        "brim_object_gap": "0.1",
+        "brim_type": "outer_only",
+        "brim_width": "2",
+        "enable_support": "0",
+        "extruder": "1",
+        "gap_infill_speed": "40,40,40,40,40,40,40",
+        "inner_wall_speed": "40,40,40,40,40,40,40",
+        "internal_solid_infill_speed": "40,40,40,40,40,40,40",
+        "layer_height": "0.1",
+        "outer_wall_speed": "40,40,40,40,40,40,40",
+        "sparse_infill_density": "100%",
+        "sparse_infill_speed": "40,40,40,40,40,40,40",
+        "top_surface_speed": "40,40,40,40,40,40,40"
+      },
+      "brim_envelope_mm": [
+        277.6,
+        225.6,
+        288.4,
+        234.9
+      ],
+      "max_mesh_error_mm": 0.0
+    },
+    {
+      "ref": "P071b",
+      "plate": 2,
+      "native_object_id": "34",
+      "name": "P071b - RIGID PLA SHAPE PROXY - NO LOAD",
+      "bbox_mm": [
+        [
+          292.0,
+          228.0,
+          0.0
+        ],
+        [
+          298.0,
+          232.5,
+          1.5
+        ]
+      ],
+      "settings": {
+        "name": "P071b - RIGID PLA SHAPE PROXY - NO LOAD",
+        "brim_object_gap": "0.1",
+        "brim_type": "outer_only",
+        "brim_width": "2",
+        "enable_support": "0",
+        "extruder": "1",
+        "gap_infill_speed": "40,40,40,40,40,40,40",
+        "inner_wall_speed": "40,40,40,40,40,40,40",
+        "internal_solid_infill_speed": "40,40,40,40,40,40,40",
+        "layer_height": "0.1",
+        "outer_wall_speed": "40,40,40,40,40,40,40",
+        "sparse_infill_density": "100%",
+        "sparse_infill_speed": "40,40,40,40,40,40,40",
+        "top_surface_speed": "40,40,40,40,40,40,40"
+      },
+      "brim_envelope_mm": [
+        289.6,
+        225.6,
+        300.4,
+        234.9
+      ],
+      "max_mesh_error_mm": 0.0
+    },
+    {
+      "ref": "Q01",
+      "plate": 2,
+      "native_object_id": "36",
+      "name": "Q01 - UNLOADED TEST FIXTURE - NOT A PRODUCTION PART",
+      "bbox_mm": [
+        [
+          297.9999995999999,
+          240.0,
+          0.0
+        ],
+        [
+          315.9964424,
+          258.0,
+          28.0
+        ]
+      ],
+      "settings": {
+        "name": "Q01 - UNLOADED TEST FIXTURE - NOT A PRODUCTION PART",
+        "brim_object_gap": "0.1",
+        "brim_type": "outer_only",
+        "brim_width": "3",
+        "enable_support": "1",
+        "extruder": "1",
+        "gap_infill_speed": "40,40,40,40,40,40,40",
+        "inner_wall_speed": "40,40,40,40,40,40,40",
+        "internal_solid_infill_speed": "40,40,40,40,40,40,40",
+        "outer_wall_speed": "40,40,40,40,40,40,40",
+        "sparse_infill_density": "100%",
+        "sparse_infill_speed": "40,40,40,40,40,40,40",
+        "support_on_build_plate_only": "0",
+        "support_threshold_angle": "30",
+        "support_top_z_distance": "0.25",
+        "support_type": "normal(auto)",
+        "top_surface_speed": "40,40,40,40,40,40,40"
+      },
+      "brim_envelope_mm": [
+        294.59999959999993,
+        236.6,
+        319.39644239999996,
+        261.4
+      ],
+      "max_mesh_error_mm": 1.3557233290168837e-06
+    }
+  ],
+  "slice_evidence": [
+    {
+      "plate": 1,
+      "gcode_member": "Metadata/plate_1.gcode",
+      "member_sha256": "f3990fd142f03d255e3ef49e96f0c0225d3b053a84dfc152a9a325aa815b2933",
+      "features_extruding_segments": {
+        "Support": 3998,
+        "Brim": 306,
+        "Inner wall": 81296,
+        "Outer wall": 30505,
+        "Internal solid infill": 31024,
+        "Sparse infill": 291518,
+        "Bridge": 6945,
+        "Top surface": 3695,
+        "Gap infill": 344,
+        "Support transition": 117,
+        "Support interface": 144,
+        "Overhang wall": 795
+      },
+      "bbox_extrusion_centerline_mm": [
+        [
+          66.422,
+          76.52,
+          0.2
+        ],
+        [
+          248.58,
+          215.48,
+          35.0
+        ]
+      ]
+    },
+    {
+      "plate": 2,
+      "gcode_member": "Metadata/plate_2.gcode",
+      "member_sha256": "f1aa68d1ea63c57c66a9e9d51f5d7d9eb83d8f4734b89325f9046ae50fe04b90",
+      "features_extruding_segments": {
+        "Support": 20030,
+        "Brim": 4959,
+        "Inner wall": 158272,
+        "Outer wall": 70879,
+        "Support interface": 4692,
+        "Support transition": 1265,
+        "Internal solid infill": 29175,
+        "Overhang wall": 1354,
+        "Top surface": 3728,
+        "Gap infill": 352,
+        "Sparse infill": 301381,
+        "Bridge": 4082
+      },
+      "bbox_extrusion_centerline_mm": [
+        [
+          27.386,
+          4.558,
+          0.2
+        ],
+        [
+          322.614,
+          262.447,
+          59.0
+        ]
+      ]
+    }
+  ],
+  "support_removal_evidence": {
+    "support_sample_centers": 73413,
+    "support_envelope_sample_rays": 367065,
+    "tested_downward_rays_including_half_line_width_offsets_after_redundant_XY_column_collapse": 106579,
+    "blocked_half_width_envelope_rays_total": 222,
+    "blocked_center_rays": 0,
+    "centerline_unique_downward_rays": 21316,
+    "first_layer_brim_half_width_cases": 136,
+    "above_first_layer_cases_needing_lateral_then_down_release": 86,
+    "lateral_then_down_free_cases": 86,
+    "unresolved_cases": [],
+    "lateral_release_vector_mm": [
+      -0.5,
+      0,
+      0
+    ],
+    "first_layer_nozzle_Z_native_mm": -1.8,
+    "first_layer_brim_cases_native_mm": [
+      [
+        -19.90700228881836,
+        -65.238,
+        -1.8001
+      ],
+      [
+        -20.58694798771417,
+        -65.235792756977,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -64.507,
+        -1.8001
+      ],
+      [
+        -21.237407300815136,
+        -64.50699004449207,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -63.50686821705426,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -62.50673643410853,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -61.5066046511628,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -60.50647286821706,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -59.506341085271316,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -58.50620930232559,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -57.50607751937986,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -56.505945736434114,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -55.50581395348837,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -54.50568217054264,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -53.50555038759691,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -52.50541860465117,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -51.505286821705425,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -50.505155038759696,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -49.50502325581397,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -48.50489147286822,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -47.50475968992248,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -46.50462790697675,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -45.50449612403102,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -44.50436434108528,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -43.504232558139535,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -42.504100775193805,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -41.503968992248076,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -40.50383720930233,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -39.50370542635659,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -38.50357364341086,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -37.50344186046513,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -36.50331007751939,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -35.503178294573644,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -34.503046511627915,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -33.502914728682185,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -32.50278294573644,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -31.5026511627907,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -30.502519379844955,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -29.50238759689924,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -28.502255813953496,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -27.502124031007753,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -26.501992248062024,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -25.501860465116295,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -24.50172868217055,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -23.501596899224808,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -22.501465116279064,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -21.50133333333335,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -20.501201550387606,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -19.501069767441862,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -18.500937984496133,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -17.500806201550404,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -16.50067441860466,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -15.500542635658917,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -14.500410852713173,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -13.500279069767458,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -12.500147286821715,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -11.500015503875971,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -10.499883720930256,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -9.499751937984513,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -8.49962015503877,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -7.499488372093026,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -6.499356589147283,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -5.499224806201568,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -4.499093023255824,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -3.4989612403100807,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -2.4988294573643657,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -1.4986976744186222,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        -0.4985658914728788,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        0.5015658914728647,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        1.5016976744186081,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        2.5018294573643516,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        3.501961240310095,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        4.502093023255782,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        5.502224806201525,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        6.5023565891472686,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        7.502488372093012,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        8.502620155038755,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        9.502751937984499,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        10.502883720930242,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        11.503015503875957,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        12.503147286821672,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        13.503279069767416,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        14.50341085271316,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        15.503542635658903,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        16.503674418604646,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        17.50380620155039,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        18.503937984496133,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        19.504069767441877,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        20.504201550387563,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        21.504333333333307,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        22.50446511627905,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        23.504596899224794,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        24.504728682170537,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        25.50486046511628,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        26.504992248062024,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        27.50512403100774,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        28.505255813953454,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        29.505387596899197,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        30.50551937984494,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        31.505651162790684,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        32.50578294573643,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        33.50591472868217,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        34.506046511627915,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        35.50617829457366,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        36.506310077519345,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        37.50644186046509,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        38.50657364341083,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        39.506705426356575,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        40.50683720930232,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        41.50696899224806,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        42.507100775193805,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        43.50723255813952,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        44.507364341085236,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        45.50749612403098,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        46.50762790697672,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        47.507759689922466,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        48.50789147286821,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        49.50802325581395,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        50.508155038759696,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        51.50828682170544,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        52.508418604651126,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        53.50855038759687,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        54.50868217054261,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        55.50881395348836,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        56.5089457364341,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        57.509077519379844,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        58.50920930232559,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        59.5093410852713,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        60.50947286821702,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        61.50960465116276,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        62.509736434108504,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        63.50986821705425,
+        -1.8001
+      ],
+      [
+        -21.238002288818365,
+        64.50999999999999,
+        -1.8001
+      ],
+      [
+        -20.507002288818356,
+        65.238,
+        -1.8001
+      ],
+      [
+        -20.507002471669153,
+        65.23802580808402,
+        -1.8001
+      ],
+      [
+        -19.90700228881836,
+        65.238,
+        -1.8001
+      ]
+    ],
+    "higher_floor_edge_support_lateral_release_cases_native_mm": [
+      [
+        -21.989002288818362,
+        -40.278999999999996,
+        8.520900000000001
+      ],
+      [
+        -21.989002288818362,
+        -41.7175,
+        8.520900000000001
+      ],
+      [
+        -21.989002288818362,
+        -43.156000000000006,
+        8.520900000000001
+      ],
+      [
+        -21.989002288818362,
+        -46.033,
+        8.520900000000001
+      ],
+      [
+        -21.989002288818362,
+        -47.47149999999999,
+        8.520900000000001
+      ],
+      [
+        -21.989002288818362,
+        -48.91,
+        8.520900000000001
+      ],
+      [
+        -21.989002288818362,
+        -51.787000000000006,
+        8.520900000000001
+      ],
+      [
+        -21.989002288818362,
+        -53.22550000000001,
+        8.520900000000001
+      ],
+      [
+        -21.989002288818362,
+        -54.664,
+        8.520900000000001
+      ],
+      [
+        -21.989002288818362,
+        -57.541,
+        8.520900000000001
+      ],
+      [
+        -21.989002288818362,
+        -58.9795,
+        8.520900000000001
+      ],
+      [
+        -21.989002288818362,
+        -60.418000000000006,
+        8.520900000000001
+      ],
+      [
+        -21.989002288818362,
+        -63.29600000000001,
+        8.520900000000001
+      ],
+      [
+        -21.99024105492345,
+        -64.49143730580998,
+        8.520900000000001
+      ],
+      [
+        -21.989002288818362,
+        40.278999999999996,
+        8.520900000000001
+      ],
+      [
+        -21.989002288818362,
+        41.7175,
+        8.520900000000001
+      ],
+      [
+        -21.989002288818362,
+        43.156000000000006,
+        8.520900000000001
+      ],
+      [
+        -21.989002288818362,
+        46.03299999999999,
+        8.520900000000001
+      ],
+      [
+        -21.989002288818362,
+        47.47149999999999,
+        8.520900000000001
+      ],
+      [
+        -21.989002288818362,
+        48.91,
+        8.520900000000001
+      ],
+      [
+        -21.989002288818362,
+        51.787000000000006,
+        8.520900000000001
+      ],
+      [
+        -21.989002288818362,
+        53.22550000000001,
+        8.520900000000001
+      ],
+      [
+        -21.989002288818362,
+        54.66399999999999,
+        8.520900000000001
+      ],
+      [
+        -21.989002288818362,
+        57.541,
+        8.520900000000001
+      ],
+      [
+        -21.989002288818362,
+        58.9795,
+        8.520900000000001
+      ],
+      [
+        -21.989002288818362,
+        60.418000000000006,
+        8.520900000000001
+      ],
+      [
+        -21.989002288818362,
+        63.29599999999999,
+        8.520900000000001
+      ],
+      [
+        -21.98917531642791,
+        64.50257453947418,
+        3.8258999999999994
+      ],
+      [
+        -21.988798062931345,
+        64.5025299760679,
+        8.520900000000001
+      ],
+      [
+        -21.98862522190425,
+        63.29604581541261,
+        8.520900000000001
+      ],
+      [
+        -21.988002288818357,
+        64.50399999999999,
+        8.7979
+      ],
+      [
+        -21.9645041436002,
+        64.77916386346487,
+        8.7979
+      ],
+      [
+        -21.988586453002334,
+        64.50400438460414,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        63.46684615384615,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        62.42969230769231,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        61.392538461538464,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        60.35538461538462,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        59.31823076923075,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        58.28107692307691,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        57.24392307692307,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        56.206769230769225,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        55.16961538461538,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        54.13246153846154,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        53.0953076923077,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        52.05815384615386,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        51.021000000000015,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        49.983846153846144,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        48.9466923076923,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        47.90953846153846,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        46.87238461538462,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        45.835230769230776,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        44.798076923076934,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        43.76092307692309,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        42.72376923076922,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        41.68661538461538,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        40.64946153846154,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        39.612307692307695,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        38.57515384615385,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        37.53800000000001,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        -37.538,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        -38.57507692307692,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        -39.612153846153845,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        -40.64923076923077,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        -41.68630769230769,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        -42.72338461538462,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        -43.76046153846154,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        -44.797538461538466,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        -45.834615384615375,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        -46.8716923076923,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        -47.908769230769224,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        -48.94584615384615,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        -49.98292307692307,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        -51.019999999999996,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        -52.05707692307692,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        -53.094153846153844,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        -54.13123076923077,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        -55.16830769230769,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        -56.20538461538462,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        -57.24246153846154,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        -58.279538461538465,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        -59.316615384615375,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        -60.35369230769231,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        -61.39076923076922,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        -62.42784615384615,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        -63.46492307692307,
+        8.7979
+      ],
+      [
+        -21.988002288818357,
+        -64.502,
+        8.7979
+      ]
+    ],
+    "first_layer_brim_ray_hit_bounds_native_mm": [
+      [
+        -21.238002288818365,
+        -65.238,
+        -1.8057728660756867
+      ],
+      [
+        -19.90700228881836,
+        65.23802580808402,
+        -1.8036265394572648
+      ]
+    ],
+    "higher_support_ray_hit_bounds_native_mm": [
+      [
+        -21.99024105492345,
+        -64.502,
+        2.665036478569177
+      ],
+      [
+        -21.9645041436002,
+        64.77916386346487,
+        2.6881668258101494
+      ]
+    ],
+    "native_support_sample_bounds_mm": [
+      [
+        -49.67800228881836,
+        -68.11100000000002,
+        -1.8
+      ],
+      [
+        -19.90700228881836,
+        68.112,
+        13.35
+      ]
+    ],
+    "classification": "First-layer half-width envelope cases are disclosed as deliberate breakaway adhesion-brim contacts. Higher support half-width samples that brush the wider floor side during a purely vertical withdrawal are separately checked by0.5 mm outward-X then downward. Normal supports are removed in sections; no whole-tree extraction or real separation force is claimed."
+  },
+  "limits": "Mesh/toolpath geometry only. Support rays sample actual centerlines plus conservative half-width XY offsets at nozzle Z, rather than a rounded bead simulation. First-layer brim is an intentional breakaway adhesion rim and its floor-fillet envelope cases are reported separately. Normal supports are removed in sections: higher floor-edge half-width cases have a checked0.5mm outward-X then downward route; this is not a rigid whole-tree extraction proof. Adhesion, removal force, surface finish and physical print/assembly fit remain unverified. No strength/load qualification. H040/H041 and P07 are explicitly rigid unloaded proxies; fasteners and separate sleeve are absent."
+}

@@ -1,0 +1,1681 @@
+{
+  "status": "PASS_NATIVE_R19_INTEGRATION",
+  "source_sha256": "0e88e273e2e9bc436b2844a44f04b28fb094593c0af87a2127d792bbb56f016d",
+  "version_id": "21323818480a2406fe14f51f",
+  "native_step_sha256": "41e4eb637ab9e78ca54be588712bfb05ad9d8f5ae5f34467a685cc422142819f",
+  "native_zip_sha256": "344ca98f4147832b2a324c125df42c90b9d522f1617d554154b82e82312bc8b7",
+  "baseline_native_step_sha256": "0d9ebb0777c35ebf687c59578362a1323a9cab3a00922be858c1d03695f023ee",
+  "baseline_release_binding_sha256": "dc5374e2b1fb6d3ee5e5a0fb15b66836e1e9747f6224bb9b15562bd26d7a69e1",
+  "validator_sha256": "4cc80688bef5df7fea7272e1b2f648740acdea714bddf7ae91a144d444d090c3",
+  "rim_probe_report_sha256": "410d9d115048a621526f2a59dbf9c6f798a43ad5ae3b2e1684ac6429907748f3",
+  "rigid_generator_sha256": "7b8224a69351d31e42621610e363e2ec4d4d7e20f3832e99799a98bc8a88f5db",
+  "shape_delta_report_sha256": "367a982be47851abe9d039cf633f75ae103effc7b308f66a0ff9ab60d4dab5b3",
+  "native_part_count": 94,
+  "checks": [
+    {
+      "name": "Valid single native solid/shell P01",
+      "status": "PASS"
+    },
+    {
+      "name": "Native print mesh is one closed positive component P01",
+      "status": "PASS",
+      "native_stl_sha256": "444f6f1527703fcaec9f07777428c0d0ae73f0dd121028dbcd52d6cf3514a36c",
+      "triangles": 164268,
+      "watertight": true,
+      "component_count": 1,
+      "mesh_error": null
+    },
+    {
+      "name": "Valid single native solid/shell P06L",
+      "status": "PASS"
+    },
+    {
+      "name": "Native print mesh is one closed positive component P06L",
+      "status": "PASS",
+      "native_stl_sha256": "28775b28ae834d77f3c60e511338284121782ffb82384183b49593670ed7fdb2",
+      "triangles": 2764,
+      "watertight": true,
+      "component_count": 1,
+      "mesh_error": null
+    },
+    {
+      "name": "Valid single native solid/shell P06R",
+      "status": "PASS"
+    },
+    {
+      "name": "Native print mesh is one closed positive component P06R",
+      "status": "PASS",
+      "native_stl_sha256": "e393e917074857b738c8ae8a549cf847e4c0ffc7f23cdc601c8a07c708f6ef0a",
+      "triangles": 2764,
+      "watertight": true,
+      "component_count": 1,
+      "mesh_error": null
+    },
+    {
+      "name": "Valid single native solid/shell P08",
+      "status": "PASS"
+    },
+    {
+      "name": "Native print mesh is one closed positive component P08",
+      "status": "PASS",
+      "native_stl_sha256": "6fcaf5882bc94548bc38ec258bc60a548aa101df60243af4528099e545f09724",
+      "triangles": 7348,
+      "watertight": true,
+      "component_count": 1,
+      "mesh_error": null
+    },
+    {
+      "name": "Native geometry equals reviewed rigid mount P06L",
+      "status": "PASS",
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "name": "Native geometry equals reviewed rigid mount P06R",
+      "status": "PASS",
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "name": "Native geometry equals reviewed rigid mount P08",
+      "status": "PASS",
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "name": "Complete front frame and reviewed variable rims",
+      "status": "PASS",
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "name": "Rear floor and obsolete catch removal",
+      "status": "PASS",
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "name": "Rear block contains only original block stock P06L",
+      "status": "PASS",
+      "extra_mm3": 0.0
+    },
+    {
+      "name": "Rear block contains only original block stock P06R",
+      "status": "PASS",
+      "extra_mm3": 0.0
+    },
+    {
+      "name": "Two rear blocks identical after102mm translation",
+      "status": "PASS",
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "name": "P06L seated clearance retained P01",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0
+    },
+    {
+      "name": "P06L seated clearance retained P04",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0
+    },
+    {
+      "name": "P06L seated clearance retained P05",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0
+    },
+    {
+      "name": "P06L seated clearance retained P09",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0
+    },
+    {
+      "name": "P06L seated clearance retained E01",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0
+    },
+    {
+      "name": "P06L seated clearance retained E05",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0
+    },
+    {
+      "name": "P06L seated clearance retained E06",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0
+    },
+    {
+      "name": "P06L seated clearance retained E07",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0
+    },
+    {
+      "name": "P06L seated clearance retained E08",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0
+    },
+    {
+      "name": "P06R seated clearance retained P01",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0
+    },
+    {
+      "name": "P06R seated clearance retained P04",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0
+    },
+    {
+      "name": "P06R seated clearance retained P05",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0
+    },
+    {
+      "name": "P06R seated clearance retained P09",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0
+    },
+    {
+      "name": "P06R seated clearance retained E01",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0
+    },
+    {
+      "name": "P06R seated clearance retained E05",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0
+    },
+    {
+      "name": "P06R seated clearance retained E06",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0
+    },
+    {
+      "name": "P06R seated clearance retained E07",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0
+    },
+    {
+      "name": "P06R seated clearance retained E08",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 seated clearance retained P01",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 seated clearance retained P04",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 seated clearance retained P05",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 seated clearance retained P09",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 seated clearance retained E01",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 seated clearance retained E05",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 seated clearance retained E06",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 seated clearance retained E07",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 seated clearance retained E08",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "baseline_overlap_mm3": 0.0
+    },
+    {
+      "name": "M2 head clears P01 -1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "M2 head clears P08 -1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "M2 head clears P09 -1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "5mm driver approach clears P01 -1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "5mm driver approach clears P08 -1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "5mm driver approach clears P09 -1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "M2x8 shank clearance -1",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "nominal_engagement_mm": 2.5
+    },
+    {
+      "name": "Existing M2 insert envelope retained -1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Rigid ear continuous20mm downward route -1",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "method": "Complete conservative added-stock swept box; no flex prerequisite"
+    },
+    {
+      "name": "Added rigid ear clears full stroke P04 -1",
+      "status": "PASS",
+      "clearance_lower_bound_mm": 53.7999999
+    },
+    {
+      "name": "Added rigid ear clears full stroke H060 -1",
+      "status": "PASS",
+      "clearance_lower_bound_mm": 101.7999999
+    },
+    {
+      "name": "Added rigid ear clears full stroke H061 -1",
+      "status": "PASS",
+      "clearance_lower_bound_mm": 138.42572001214225
+    },
+    {
+      "name": "Added rigid ear clears full stroke P11 -1",
+      "status": "PASS",
+      "clearance_lower_bound_mm": 76.81581868339359
+    },
+    {
+      "name": "Added rigid ear clears full stroke H10 -1",
+      "status": "PASS",
+      "clearance_lower_bound_mm": 78.30309685165714
+    },
+    {
+      "name": "M2 head clears P01 1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "M2 head clears P08 1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "M2 head clears P09 1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "5mm driver approach clears P01 1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "5mm driver approach clears P08 1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "5mm driver approach clears P09 1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "M2x8 shank clearance 1",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "nominal_engagement_mm": 2.5
+    },
+    {
+      "name": "Existing M2 insert envelope retained 1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Rigid ear continuous20mm downward route 1",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "method": "Complete conservative added-stock swept box; no flex prerequisite"
+    },
+    {
+      "name": "Added rigid ear clears full stroke P04 1",
+      "status": "PASS",
+      "clearance_lower_bound_mm": 53.7999999
+    },
+    {
+      "name": "Added rigid ear clears full stroke H060 1",
+      "status": "PASS",
+      "clearance_lower_bound_mm": 138.42572001214225
+    },
+    {
+      "name": "Added rigid ear clears full stroke H061 1",
+      "status": "PASS",
+      "clearance_lower_bound_mm": 101.7999999
+    },
+    {
+      "name": "Added rigid ear clears full stroke P11 1",
+      "status": "PASS",
+      "clearance_lower_bound_mm": 72.1544870399617
+    },
+    {
+      "name": "Added rigid ear clears full stroke H10 1",
+      "status": "PASS",
+      "clearance_lower_bound_mm": 73.59806368349645
+    },
+    {
+      "name": "Rear block axial withdrawal P06L 0",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Rear block axial withdrawal P06L 0.25",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Rear block axial withdrawal P06L 1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Rear block axial withdrawal P06L 5",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Rear block axial withdrawal P06L 12",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Rear block axial withdrawal P06R 0",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Rear block axial withdrawal P06R 0.25",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Rear block axial withdrawal P06R 1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Rear block axial withdrawal P06R 5",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Rear block axial withdrawal P06R 12",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    }
+  ],
+  "unchanged_native_bodies": [
+    {
+      "ref": "E01",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "E05",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "E06",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "E07",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "E08",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H01",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H02",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H030",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H031",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H040",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H041",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H050",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H051",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H060",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H061",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H09",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H09a",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H09b",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H10",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H12",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H180",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H181",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H190",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H191",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H20",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H23",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H240",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H241",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H242",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H243",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H250",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H251",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H252",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H253",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H300a",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H300b",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H301a",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "H301b",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "P04",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "P05",
+      "status": "PASS",
+      "stl_byte_identical": false,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "P09",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "P11",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_C1",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_C10",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_C11",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_C12",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_C13",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_C14",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_C15",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_C16",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_C2",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_C3",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_C4",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_C5",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_C6",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_C7",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_C8",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_C9",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_D1",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_J1",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_J2",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_J3",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_L1",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_Q1",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R1",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R10",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R11",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R12",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R13",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R14",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R15",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R16",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R17",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R18",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R19",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R2",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R20",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R21",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R3",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R4",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R5",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R6",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R7",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R8",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_R9",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_SW2",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_U1",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_U2",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_U3",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "ref": "PCB_U4",
+      "status": "PASS",
+      "stl_byte_identical": true,
+      "exact_stl_triangle_identity": true,
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    }
+  ],
+  "failures": [],
+  "boundary_tolerance_mm": 1e-06,
+  "unchanged_body_method": "Strict BRep bidirectional empty differences and exact native STL triangle identity. H30 naming metadata may differ.",
+  "inherited_evidence": "R18 native motion, sensing, fixture, strap and pocket proof is retained through90 unchanged bodies and scoped P01 comparisons. New rigid ear stock has explicit full-stroke and downward-removal envelope checks. The removed rear latch arms eliminate the old flex prerequisite; screw removal is mandatory.",
+  "limitations": [
+    "CAD nominal clearances and dimensions only; no printed strength, insert retention, comfort or fatigue qualification.",
+    "Required rear4M3x8 and tray2M2x8 screws replace the removed snap retention.",
+    "Floor samples describe retained existing geometry; they are not a blanket strength claim."
+  ]
+}

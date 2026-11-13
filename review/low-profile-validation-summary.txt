@@ -1,0 +1,39 @@
+review/check_low_profile.py
+PASS: 178.25 x 180 x 30 mm envelope; 156 x 180 x 4 mm base; 60 mm shorter, 30 mm narrower.
+PASS: unchanged 20 mm pocket and 121.25..91.25 mm contact datums; 2.7 mm floor above guide.
+PASS: 61 motion datums; 30 mm hard stop; 59 mm retained engagement; 45 mm bearing-land spacing.
+PASS: spring length101..71 mm, nominal15.6..483.6 N; no strength inference.
+PASS: central 45-degree guide, .30 roof gap, .318 normal flank gap; mandrel clearance1 mm radial.
+PASS: entire roller and heel outside frame; bracket clears yoke1 mm and rod blocks2 mm.
+PASS: switch roller/cam corridor remains clear through61 positions.
+PASS: onshape-compact-central-audit-0mm.txt: 21 selected pairs; zero solid interferences; boundary contacts logged.
+PASS: onshape-compact-central-audit-15mm.txt: 21 selected pairs; zero solid interferences; boundary contacts logged.
+PASS: onshape-compact-central-audit-30mm.txt: 21 selected pairs; zero solid interferences; boundary contacts logged.
+
+review/check_palm_brace_hand.py
+PASS: all four fixed-length finger linkages feasible at61 positions,0..30 mm.
+PASS: heel is behind the bolster, with0.1 mm contact gap and wholly outside the frame.
+PASS: fingertip floor/wall nominal visualization gaps remain0.1 mm.
+PASS: exact Onshape hand solids at0 mm: all3 targeted pairs clear.
+PASS: exact Onshape hand solids at15 mm: all3 targeted pairs clear.
+PASS: exact Onshape hand solids at30 mm: all3 targeted pairs clear.
+Illustrative reference only; no anthropometric or load-capacity validation.
+
+review/make_guide_coupon.py
+guide_coupon_male.stl: watertight, 28 triangles, volume6390.0 mm3
+guide_coupon_female.stl: watertight, 28 triangles, volume4147.2 mm3
+
+review/package_print_parts.py
+P01_base.stl: closed mesh; 35476 facets; 156.00 x 180.00 x 29.00 mm
+P02_palm_bolster.stl: closed mesh; 22898 facets; 36.25 x 128.00 x 18.00 mm
+P061_rear_retainer_right.stl: closed mesh; 2902 facets; 8.00 x 24.00 x 22.00 mm
+P070b_return_pad_left_b_TPU.stl: closed mesh; 12 facets; 6.00 x 4.50 x 1.50 mm
+P071a_return_pad_right_a_TPU.stl: closed mesh; 12 facets; 6.00 x 4.50 x 1.50 mm
+P060_rear_retainer_left.stl: closed mesh; 2902 facets; 8.00 x 24.00 x 22.00 mm
+P071b_return_pad_right_b_TPU.stl: closed mesh; 12 facets; 6.00 x 4.50 x 1.50 mm
+P03_palm_sleeve_TPU.stl: closed mesh; 15760 facets; 20.50 x 15.40 x 86.00 mm
+P070a_return_pad_left_a_TPU.stl: closed mesh; 12 facets; 6.00 x 4.50 x 1.50 mm
+P04_climbing_carriage.stl: closed mesh; 57600 facets; 60.00 x 174.00 x 25.00 mm
+P05_floating_yoke.stl: closed mesh; 13820 facets; 22.50 x 174.00 x 22.00 mm
+{'previous_solid_volume_cm3': 707.039, 'current_solid_volume_cm3': 365.482, 'reduction_percent': 48.31, 'meaning': 'Geometric volume of eleven printable solids; actual filament depends on infill, walls and supports.'}
+Pack ready: Fingerworker_30mm_print_pack.zip, 2513731 bytes; eleven device parts and two fit coupons.

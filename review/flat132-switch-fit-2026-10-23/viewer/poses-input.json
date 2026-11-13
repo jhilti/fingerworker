@@ -1,0 +1,77 @@
+{
+  "feature_source": "fingerworker_flat132_switch_fit.fs",
+  "source_sha256": "b150ff3a76cfaaaaa65ee1ea09e144b7c7d64e45459a925163e56918f48bb3c5",
+  "branch_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/w/3ee26cf6386f889ca7ae9519/e/d253eb87b70818ebde8215f0",
+  "frozen_version_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/1a51bc54c29fb727dcb77016/e/d253eb87b70818ebde8215f0",
+  "include_available_poses_only": false,
+  "step": {
+    "path": "native/Flat132_R4_final_AP214.step",
+    "sha256": "9ae3f82a0539de9acd6eb8fc371589962c0a65632afe98e7b7a4e3602ac8f255"
+  },
+  "prototype_package": {
+    "path": "deliverables/Flat132_R4_Switch_Fit.zip",
+    "sha256": "7d4da69e999be78940a7c3ee040c3c4c6fc5d6af2fba2863581dd29830a56ae3",
+    "bytes": 60077924
+  },
+  "poses": [
+    {
+      "id": "neutral",
+      "label": "Neutral \u00b7 0 mm stroke / preload \u00b7 light",
+      "archive": "native/Flat132_R4_neutral_final.zip",
+      "sha256": "4278ba5000a141daa466628d03a2cc08e10267368d6a95dbcdb9546f9ccc63cc",
+      "stroke_mm": 0,
+      "preload_mm": 0,
+      "isometric": false,
+      "spring": "light"
+    },
+    {
+      "id": "max",
+      "label": "Maximum \u00b7 28 mm stroke / 2 mm preload \u00b7 heavy",
+      "archive": "native/Flat132_R4_max28_p2_heavy_final.zip",
+      "sha256": "425e6ce1e7fb3ee712afc0787e9274e73a554df963a1ef1bffe67e798cd4ebc1",
+      "stroke_mm": 28,
+      "preload_mm": 2,
+      "isometric": false,
+      "spring": "heavy"
+    },
+    {
+      "id": "iso",
+      "label": "Isometric \u00b7 13 mm setting / 2 mm preload \u00b7 lock sleeves",
+      "archive": "native/Flat132_R4_isometric13_p2_final.zip",
+      "sha256": "677debdb1fa5268859ec048491b45c5b21ed764e89226e68e4af2678c1958581",
+      "stroke_mm": 13,
+      "preload_mm": 2,
+      "isometric": true,
+      "spring": "lock_sleeves",
+      "gui_spring_selection": "heavy"
+    }
+  ],
+  "native_device_parts": 52,
+  "switch_fit": {
+    "source": "Omron SS series manufacturer dimensioned drawing; not factory STEP",
+    "part_number": "SS-01GL2",
+    "relocation_from_R3_mm": [
+      4,
+      1,
+      1.5
+    ],
+    "drawing_source_path": "vendor/omron_ss5gl2/SS_datasheet.pdf",
+    "drawing_sha256": "b7c3cc9e838c1049d58772242b56cd06af3526ac422907769acd892668ba1a09",
+    "drawing_url": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-ss.pdf",
+    "terminal_and_lug_shape": "Conservative nominal dimensioned envelopes; exact profiles unresolved",
+    "actuator": "Illustrative hinge/roller proxy, not factory CAD or qualified mechanism",
+    "actual_TE_force_sensor_retained": true,
+    "mount_and_cam_relocated_in_native_source": true,
+    "physical_actuation_and_wiring_qualified": false,
+    "nominal_drawing_envelope_checks_passed": true,
+    "actual_operation_total_travel_cam_lock_wiring_qualified": false
+  },
+  "geometry_origin": "NATIVE_ONSHAPE_REGEN",
+  "geometry_provenance": {
+    "feature_source_sha256": "b150ff3a76cfaaaaa65ee1ea09e144b7c7d64e45459a925163e56918f48bb3c5",
+    "native_export_status": "THREE_NATIVE_POSES_AND_STEP_NOMINAL_GEOMETRY_PASS",
+    "local_csg_study_displayed": false
+  },
+  "baseline_version_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/9bf146edbc2e61a5c4144a35/e/d253eb87b70818ebde8215f0",
+  "validation_sha256": "ed72872484b09ceb5560b1cf01476bbc1b46071fc165cf75ee2b8689563b89f7"
+}

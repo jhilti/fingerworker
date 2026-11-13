@@ -1,0 +1,97 @@
+{
+  "status": "EDITABLE_SEED_AUTHORED_PENDING_NATIVE_IMPORT_AND_SLICE",
+  "CAD_source_path": "fingerworker_mvp.fs",
+  "CAD_source_sha256": "c8ec18f08149553001ccf8173f35fe57eee6a16be0294be2d7f88577f658cf5e",
+  "native_R11_version": "LOCAL_CSG_CANDIDATE_NOT_NATIVE",
+  "slicer_version": "02.08.02.61",
+  "printer": "H2D",
+  "nozzle_mm": 0.4,
+  "material": "PLA",
+  "bed": "Textured PEI Plate",
+  "plate_count": 1,
+  "object_count": 1,
+  "safe_shared_XY_mm": [
+    [
+      27,
+      3
+    ],
+    [
+      323,
+      317
+    ]
+  ],
+  "native_machine_macros_modified": false,
+  "no_printer_transmission": true,
+  "placements": [
+    {
+      "ref": "P01",
+      "source_path": "review/simplification-2026-11-03/enclosure-candidate/P01_integrated_ceiling_local_slice.stl",
+      "source_sha256": "586db66bf85d0d20bdc70ee1ae41ddb1919d7e0c3ed0c49b416403019cbc9966",
+      "source_geometry": "NATIVE_R11_ONSHAPE_STL",
+      "CAD_source_sha256": "c8ec18f08149553001ccf8173f35fe57eee6a16be0294be2d7f88577f658cf5e",
+      "material": "PLA",
+      "intent": "INTEGRATED BASE AND SOLID PALM - UNLOADED FIT STUDY",
+      "orientation": "Base floor down; palm supports open toward outer wrist edge",
+      "rotation_3x3": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "plate": 1,
+      "plate_xy_mm": [
+        70,
+        80
+      ],
+      "brim_mm": 5,
+      "reserved_margin_mm": 6,
+      "normalization_translation_mm": [
+        46.099998474121094,
+        66.0,
+        2.0
+      ],
+      "size_oriented_mm": [
+        175.0999984741211,
+        132.0,
+        35.0
+      ],
+      "volume_mm3": 166050.56979461107,
+      "faces": 50298,
+      "units": "mm",
+      "scale": 1.0,
+      "reserved_bounds_xy_mm": [
+        64,
+        74,
+        251.0999984741211,
+        218.0
+      ]
+    }
+  ],
+  "object_settings": {
+    "P01": {
+      "brim_type": "outer_only",
+      "brim_width": "5",
+      "brim_object_gap": "0.1",
+      "enable_support": "1",
+      "support_type": "normal(auto)",
+      "support_on_build_plate_only": "1",
+      "support_top_z_distance": "0.25",
+      "support_threshold_angle": "30"
+    }
+  },
+  "seed_path": "R12_integrated_ceiling_LOCAL_CANDIDATE-candidate-flat_seed.3mf",
+  "seed_sha256": "eb426723c35b1ceda045d63444752304e1eccdd17f059342807ecd320298ab54",
+  "native_project": "R12_integrated_ceiling_LOCAL_CANDIDATE-candidate-flat.3mf",
+  "candidate_orientation": "flat"
+}

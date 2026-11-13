@@ -1,0 +1,103 @@
+{
+  "revision": "Flat132 R11 PLA click assembly",
+  "date": "2026-11-03",
+  "status": "PASS_NOMINAL_CAD_AND_PLA_PRINT",
+  "source_sha256": "c8ec18f08149553001ccf8173f35fe57eee6a16be0294be2d7f88577f658cf5e",
+  "onshape_version": "a6ea6390a313176b40101f6b",
+  "onshape_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/a6ea6390a313176b40101f6b/e/d253eb87b70818ebde8215f0",
+  "native_solids": 117,
+  "device_bodies": 64,
+  "electronics_reference_bodies": 53,
+  "printed_device_bodies": 10,
+  "fit_test_pieces": 13,
+  "plates": 3,
+  "changed": [
+    "P08",
+    "P09",
+    "P120",
+    "P121"
+  ],
+  "removed": [
+    "P10",
+    "P070a",
+    "P070b",
+    "P071a",
+    "P071b"
+  ],
+  "unchanged_exact_native_breps": 113,
+  "PLA_standard": true,
+  "second_material_required": false,
+  "P01_reprint_required": false,
+  "P04_reprint_for_surface": true,
+  "inherited_functional_service": "R10 sensor, preload and H15/H16/H18 service routes unchanged; see R10 reports bound through exact113-body identity.",
+  "estimates": [
+    {
+      "plate": 1,
+      "seconds": 29786,
+      "grams": 131.35,
+      "objects": 1
+    },
+    {
+      "plate": 2,
+      "seconds": 21042,
+      "grams": 70.31,
+      "objects": 11
+    },
+    {
+      "plate": 3,
+      "seconds": 15633,
+      "grams": 65.21,
+      "objects": 1
+    }
+  ],
+  "verification": {
+    "review/flat132-click-assembly-2026-11-03/validation/native-geometry.json": {
+      "status": "PASS_EXACT_NATIVE_R11",
+      "sha256": "766d5ad9c1252031a6bf6e52fb8a629869894354cc75655f633254efa2bfce17"
+    },
+    "review/flat132-click-assembly-2026-11-03/enclosure/local-enclosure-preflight.json": {
+      "status": "PASS",
+      "sha256": "5c008141cba7d08600931de4630c87d3bc5a732de0fb3df1b51ece4d33d38314"
+    },
+    "review/flat132-click-assembly-2026-11-03/enclosure/motion-preflight.json": {
+      "status": "PASS_COMPLETE_CORRELATED_MOTION_DOMAIN",
+      "sha256": "39dd1ec5a437e2fb0fb2260beb7a1d0eafaccc6921188c504836f34e33656d1d"
+    },
+    "review/flat132-click-assembly-2026-11-03/rear-shoes-geometry-preflight.json": {
+      "status": "PASS_LOCAL_EXACT_CSG_PREFLIGHT",
+      "sha256": "2b30c85a58a1b8fc4574d695f9743d798051a04a0d3b41ca91a5a20e94d5e1fb"
+    },
+    "print/bambu-R11-PLA-click-2026-11-03/validation/native-project-check.json": {
+      "status": "NATIVE_PROJECT_AND_ALL_THREE_SLICES_PASS",
+      "sha256": "fdca6b0969c13ad9a4a90da765e6716255d768f5b03da6224ae6c51881b6de09"
+    },
+    "print/bambu-R11-PLA-click-2026-11-03/validation/toolpath-check.json": {
+      "status": "PASS_ACTUAL_R11_TOOLPATHS",
+      "sha256": "b5b0005e359ffc2efb40c72777086e88dceea49c09006b0efaccf541195d4cd3"
+    },
+    "print/bambu-R11-PLA-click-2026-11-03/validation/independent-native-review.json": {
+      "status": "PASS",
+      "sha256": "dca4d84ccdf9e5ceaae9645cb6ba75bf09c23991d2e5c5abefcdd2551c014175"
+    },
+    "print/bambu-R11-PLA-click-2026-11-03/validation/enclosure-toolpath-check.json": {
+      "status": "PASS_FINAL_NATIVE_ENCLOSURE_TOOLPATHS",
+      "sha256": "b298dad7b055492cde077621016ed474859295ffa892e73ff9b99fa950d21e94"
+    },
+    "print/bambu-R11-PLA-click-2026-11-03/validation/p04-surface-check.json": {
+      "status": "PASS",
+      "sha256": "c6ad7a1f9b860e4a143c6bc712aca59a1578853f7e2debc53fdda9fa5f31601e"
+    },
+    "print/bambu-R11-PLA-click-2026-11-03/validation/rear-shoe-toolpath-check.json": {
+      "status": "PASS_FINAL_NATIVE_REAR_SHOE_TOOLPATHS",
+      "sha256": "8efaa369b5435a1708470f5b3d93af951a9ff4b2c1a8d69e0c05a6eb7c41df70"
+    }
+  },
+  "files_sha256": {
+    "review/flat132-click-assembly-2026-11-03/fingerworker_flat132_PLA_click.fs": "c8ec18f08149553001ccf8173f35fe57eee6a16be0294be2d7f88577f658cf5e",
+    "print/bambu-R11-PLA-click-2026-11-03/Fingerworker_R11_H2D_04mm_PLA_Fit_Test.3mf": "8f6cbdfe6967dfff52d5cd4c433c5d37583a0a1c57df82e08365510ab8f5bc44",
+    "print/bambu-R11-PLA-click-2026-11-03/Fingerworker_R11_H2D_04mm_PLA_Fit_Test_Package.zip": "b86ceab159b3c56b2a94232fd3e1a6206e90cf73fa02a06ad7c6d419fe85fe06",
+    "review/flat132-click-assembly-2026-11-03/native/Flat132_R11_final_AP214.step": "4c7b412eb5700e6ff8dc985c7ab8182e5acc7003a645ecac3291e88fe455d6e7",
+    "review/flat132-click-assembly-2026-11-03/native/Flat132_R11_neutral_final.zip": "70d4b6e8f7d9c8edb8355c09e0466573315a3c7e28b1114dd95e25cbf679c453"
+  },
+  "limitations": "Nominal CAD and calculated toolpaths only. Actual PLA tolerances, latch force, support removal, cycling, creep, comfort, sensor calibration and load performance need physical validation. Guide caps, return-shoe retainers, cam and loaded hardware retain screws; no all-screwless or load-rating claim."
+}

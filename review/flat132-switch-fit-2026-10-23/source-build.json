@@ -1,0 +1,91 @@
+{
+  "file": "fingerworker_flat132_switch_fit.fs",
+  "bytes": 106759,
+  "sha256": "b150ff3a76cfaaaaa65ee1ea09e144b7c7d64e45459a925163e56918f48bb3c5",
+  "baseline_source": "review/flat132-palm-fit-2026-10-23/fingerworker_flat132_palm_fit.fs",
+  "baseline_source_sha256": "4665c3ec4e983e478d34c6cfe923b3b60e6c8848f36b7c54b55b1989eaab6326",
+  "proposal": "review/actual-switch-cad-2026-10-23/switch-fit-proposal.json",
+  "proposal_sha256": "b9ceaa73efe14b1f4ebbaf9a46c8f157ecdf51479feed2691e54e31110314587",
+  "status": "DRAWING_BASED_SOURCE_CANDIDATE_NATIVE_REGEN_AND_VALIDATION_PENDING",
+  "manufacturer_geometry_status": "No factory STEP. H09 is a joined manufacturer-drawing clearance reference; exact terminal/lug profiles are not claimed. H09a/H09b motion remains approximate.",
+  "expected_device_parts": 52,
+  "expected_total_with_electronics": 105,
+  "expected_modified_parts": [
+    "P01",
+    "P04",
+    "H09",
+    "H09a",
+    "H09b",
+    "H10"
+  ],
+  "switch_body_inventory": [
+    "H09",
+    "H09a",
+    "H09b"
+  ],
+  "source_preservation_assertions": [
+    "P05 central force web byte-identical",
+    "P05 integral sensing stops exact comment-stripped source identical; stale clearance comment updated",
+    "R3 palm and mounting source byte-identical",
+    "30-preload dynamic and15-preload isometric travel retained"
+  ],
+  "preliminary_local_mesh_checks": {
+    "count": 62,
+    "positive_volume_conflicts": 0,
+    "scope": "Prior local source-equivalent contact-region study; not native R4 or full-assembly validation"
+  },
+  "hardware_delta": "H10 M3x12 -> M3x8, same nominal diameter5.5 x3 head; other screw/washer/insert intent retained pending stock matching",
+  "clearances_nominal_mm": {
+    "terminal_to_P05_at_preload2": 3.1,
+    "switch_body_to_negative_stop": 1.0,
+    "pedestal_to_negative_stop": 0.5,
+    "cam_head_radial": 0.15,
+    "head_recess_to_female_guide_roof": 1.3
+  },
+  "qualifications": [
+    "Native regeneration and whole-assembly/motion/service checks required",
+    "Actual insert and screw/head/washer dimensions required",
+    "Solder/wire bend/insulation and strain relief remain unqualified",
+    "Switch OP tolerance, total travel, manual cam reset and setting lock require physical checks",
+    "NC fail-safe and firmware behavior unchanged; CAD does not enable force display",
+    "500 N target remains physically unqualified"
+  ],
+  "changes": [
+    {
+      "label": "identify new drawing-based R4 candidate",
+      "count": 1,
+      "old": " * Fingerworker MVP - reviewed development prototype; load rating unverified.",
+      "new": " * Fingerworker MVP - R4 switch-fit drawing-based prototype; load rating unverified.\n * R4 2026-10-23: SS-01GL2 manufacturer DRAWING clearance reference.\n * Main body, three solder-tab boxes and a conservative lower-lug strip\n * share H09. Lever motion remains approximate; no factory STEP claim.\n * Switch moves +4 X / +1 Y / +1.5 Z mm; manual cam is M3x8.\n * Preserve the R3 palm fit and the R2 sensor-force path and travel limits.\n * Native regeneration and full validation are required before release."
+    },
+    {
+      "label": "remove obsolete one-mm projecting cam nub",
+      "count": 1,
+      "old": "makeBox(context,id + \"switchCam\",vector(64,-2,7)*mm,vector(78,8,15)*mm);",
+      "new": "makeBox(context,id + \"switchCam\",vector(65,-2,7)*mm,vector(78,8,15)*mm);"
+    },
+    {
+      "label": "update historical stop-flare clearance comment for shifted switch",
+      "count": 1,
+      "old": "            // Inner flare starts0.5 mm ahead of the fixed switchcaseX24.2.",
+      "new": "            // R2 flare X24.7 is retained; the shifted R4 case overlaps in X\n            // and clears the negative stop by1 mm in Y (case-16, stop-17)."
+    },
+    {
+      "label": "coordinated recessed M3x8 cam and guide-preserving insert pocket",
+      "count": 1,
+      "old": "        // MANUAL click-cam setup: after changing preload, back out the M3x12\n        // screw by the same axial distance as that preload. This model shows\n        // the required configured position X60-preload; there is no automatic\n        // physical coupling. Check switch operation and re-lock before use.\n        makeCylinder(context,id + \"camScrew\",vector(60,2.5,10)*mm,vector(63,2.5,10)*mm,2.75*mm);\n        makeCylinder(context,id + \"camScrewShank\",vector(62.9,2.5,10)*mm,vector(75,2.5,10)*mm,1.5*mm);\n        join(context,id + \"joinCamScrew\",[body(id + \"camScrew\"),body(id + \"camScrewShank\")]);\n        makeCylinder(context,id + \"camInsertTool\",vector(63.8,2.5,10)*mm,vector(69,2.5,10)*mm,2.1*mm);\n        makeCylinder(context,id + \"camThroughTool\",vector(63,2.5,10)*mm,vector(76.5,2.5,10)*mm,1.7*mm);\n        cut(context,id + \"camMount\",body(id + \"carriageBridge\"),qUnion([body(id + \"camInsertTool\"),body(id + \"camThroughTool\")]));\n        movingBodies=append(movingBodies,body(id + \"camScrew\"));\n        nameBody(context,body(id + \"camScrew\"),\"H10 M3 x12 manual click cam - reset by preload amount\");",
+      "new": "        // MANUAL click-cam setup: after changing preload, back out the M3x8\n        // screw by the same axial distance as that preload. This model shows\n        // the required configured position X64-preload; there is no automatic\n        // physical coupling. Check switch operation and re-lock before use.\n        // The shifted switch and cam retain one-mm NOMINAL trip lead only.\n        // OP tolerance and actual total travel require physical calibration.\n        makeCylinder(context,id + \"camScrew\",vector(64,3.5,11.5)*mm,vector(67,3.5,11.5)*mm,2.75*mm);\n        makeCylinder(context,id + \"camScrewShank\",vector(66.9,3.5,11.5)*mm,vector(75,3.5,11.5)*mm,1.5*mm);\n        join(context,id + \"joinCamScrew\",[body(id + \"camScrew\"),body(id + \"camScrewShank\")]);\n        // Diameter5.8 head recess leaves1.3 mm above female guide roofZ7.3.\n        // Nominal L4 M3 insert is flush atX68 and endsX72; pilot endsX73.\n        // Pilot fit and the setting lock remain dependent on actual hardware.\n        makeCylinder(context,id + \"camHeadReliefTool\",vector(63.8,3.5,11.5)*mm,vector(68,3.5,11.5)*mm,2.9*mm);\n        makeCylinder(context,id + \"camInsertTool\",vector(67.8,3.5,11.5)*mm,vector(73,3.5,11.5)*mm,2.1*mm);\n        makeCylinder(context,id + \"camThroughTool\",vector(63,3.5,11.5)*mm,vector(76.5,3.5,11.5)*mm,1.7*mm);\n        cut(context,id + \"camMount\",body(id + \"carriageBridge\"),qUnion([body(id + \"camHeadReliefTool\"),body(id + \"camInsertTool\"),body(id + \"camThroughTool\")]));\n        movingBodies=append(movingBodies,body(id + \"camScrew\"));\n        nameBody(context,body(id + \"camScrew\"),\"H10 M3 x8 recessed manual click cam - reset by preload amount\");"
+    },
+    {
+      "label": "drawing-based switch, supported pedestal, tabs, lug and approximate motion",
+      "count": 1,
+      "old": "        // SS-01GL2 laid on its broad face: only 6.4 mm above the base. Actual\n        // case and mounting dimensions; hinge is an illustrative approximation.\n        // The manually reset cam preserves the original one-mm trip margin:\n        // cam faceX60-preload-stroke reachesX30 at the integral stop.\n        makeBox(context,id + \"switchPedestal\",vector(13,-18,3.8)*mm,vector(25,4,6)*mm);\n        baseBodies=append(baseBodies,body(id + \"switchPedestal\"));\n        makeBox(context,id + \"switchBody\",vector(14,-17,6)*mm,vector(24.2,2.8,12.4)*mm);\n        for (var y in [-11.9,-2.4])\n        {\n            const s=y == -11.9 ? \"0\" : \"1\";\n            makeCylinder(context,id + (\"switchMountHole\"~s),vector(16.5,y,5)*mm,vector(16.5,y,13)*mm,1.175*mm);\n            cut(context,id + (\"switchDrill\"~s),body(id + \"switchBody\"),body(id + (\"switchMountHole\"~s)));\n            makeCylinder(context,id + (\"switchInsert\"~s),vector(16.5,y,2)*mm,vector(16.5,y,6.2)*mm,1.6*mm);\n            insertTools=append(insertTools,body(id + (\"switchInsert\"~s)));\n        }\n        const leverLength=sqrt(3.1*3.1+16.7*16.7)*mm;\n        const rollerX=min(33.4*mm,60*mm-stroke-preload-2.4*mm);\n        const rollerY=-14.1*mm+sqrt(leverLength*leverLength-(rollerX-25.5*mm)*(rollerX-25.5*mm));\n        makeCylinder(context,id + \"switchLever\",vector(25.5,-14.1,9.2)*mm,\n            vector(rollerX,rollerY,9.2*mm),0.45*mm);\n        makeCylinder(context,id + \"switchRoller\",vector(rollerX,rollerY,7.6*mm),\n            vector(rollerX,rollerY,10.8*mm),2.4*mm);\n        nameBody(context,body(id + \"switchBody\"),\"H09 Omron SS-01GL2 - flat mounting\");\n        nameBody(context,body(id + \"switchLever\"),\"H09a Switch lever preview\");\n        nameBody(context,body(id + \"switchRoller\"),\"H09b Switch roller preview\");",
+      "new": "        // SS-01GL2 manufacturer DRAWING reference: no factory STEP claim.\n        // Omron B032-E1 pages4/6: major body19.8 x10.2 x6.4, two9.5-spaced\n        // mounts, three solder tabs and0.4 mm lower-lug projection.\n        // Exact terminal holes/corners and lug width/profile are unspecified;\n        // use solid tab boxes and a conservative full-housing-width lug strip.\n        // The strip assumes the lug stays within the stated6.4 mm thickness.\n        // Shift +4 X / +1 Y / +1.5 Z clears the intact P05 force web.\n        // Extend the pedestal upward from the base; do not lift its bottom.\n        // Trim Ymin to-16.5 for0.5 mm stop gap and0.5 mm body support margin.\n        makeBox(context,id + \"switchPedestal\",vector(17,-16.5,3.8)*mm,vector(29,5,7.5)*mm);\n        baseBodies=append(baseBodies,body(id + \"switchPedestal\"));\n        makeBox(context,id + \"switchBody\",vector(18,-16,7.5)*mm,vector(28.2,3.8,13.9)*mm);\n        var switchReferenceBodies=[body(id + \"switchBody\")];\n        var terminalIndex=0;\n        for (var terminalY in [-14.4,-5.6,1.7])\n        {\n            makeBox(context,id + (\"switchTerminalEnvelope\"~terminalIndex),\n                vector(14.1,terminalY-0.25,9.1)*mm,vector(18,terminalY+0.25,12.3)*mm);\n            switchReferenceBodies=append(switchReferenceBodies,\n                body(id + (\"switchTerminalEnvelope\"~terminalIndex)));\n            terminalIndex+=1;\n        }\n        makeBox(context,id + \"switchLugEnvelope\",vector(17.6,-16,7.5)*mm,vector(18,3.8,13.9)*mm);\n        switchReferenceBodies=append(switchReferenceBodies,body(id + \"switchLugEnvelope\"));\n        join(context,id + \"joinSwitchDrawingReference\",switchReferenceBodies);\n        for (var y in [-10.9,-1.4])\n        {\n            const s=y == -10.9 ? \"0\" : \"1\";\n            makeCylinder(context,id + (\"switchMountHole\"~s),vector(20.5,y,6.5)*mm,vector(20.5,y,14.5)*mm,1.175*mm);\n            cut(context,id + (\"switchDrill\"~s),body(id + \"switchBody\"),body(id + (\"switchMountHole\"~s)));\n            // Four-mm blind pilot fromZ7.5; nominal L3 M2 insert endsZ4.5.\n            // M2x10/washer engagement is unchanged; match actual insert stock.\n            makeCylinder(context,id + (\"switchInsert\"~s),vector(20.5,y,3.5)*mm,vector(20.5,y,7.7)*mm,1.6*mm);\n            insertTools=append(insertTools,body(id + (\"switchInsert\"~s)));\n        }\n        // Illustrative fixed-length motion, not the real formed0.3 mm lever.\n        // Manufacturer OP14.5 +/-0.8 is measured from mount lineX20.5.\n        // Cam faceX64-preload-stroke reachesX34 at the integral stop:\n        // one-mm nominal trip lead only; calibrate and check actual overtravel.\n        const leverLength=sqrt(3.1*3.1+16.7*16.7)*mm;\n        const rollerX=min(37.4*mm,64*mm-stroke-preload-2.4*mm);\n        const rollerY=-13.1*mm+sqrt(leverLength*leverLength-(rollerX-29.5*mm)*(rollerX-29.5*mm));\n        makeCylinder(context,id + \"switchLever\",vector(29.5,-13.1,10.7)*mm,\n            vector(rollerX,rollerY,10.7*mm),0.45*mm);\n        makeCylinder(context,id + \"switchRoller\",vector(rollerX,rollerY,9.1*mm),\n            vector(rollerX,rollerY,12.3*mm),2.4*mm);\n        nameBody(context,body(id + \"switchBody\"),\"H09 Omron SS-01GL2 DRAWING REF - solder tabs and conservative lug envelope\");\n        nameBody(context,body(id + \"switchLever\"),\"H09a SS-01GL2 approximate lever motion - drawing reference\");\n        nameBody(context,body(id + \"switchRoller\"),\"H09b SS-01GL2 nominal roller - approximate motion\");"
+    }
+  ],
+  "final_native_outcome": {
+    "native_regeneration": "PASS",
+    "native_parts": 105,
+    "immutable_version_id": "1a51bc54c29fb727dcb77016",
+    "final_nominal_validation": "PASS; exact frozen report details in validation/validation-summary.md"
+  }
+}

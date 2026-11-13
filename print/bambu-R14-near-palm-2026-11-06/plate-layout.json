@@ -1,0 +1,550 @@
+{
+  "status": "NATIVE_R14_FROZEN_VERSION_PRINT_PROJECT",
+  "CAD_source_path": "review/near-palm-2026-11-06/fingerworker_R14_near_palm.fs",
+  "CAD_source_sha256": "9286d5a51880dc79d1e9a07135e8c905f4022a1ed757801b8430f23f51a04829",
+  "slicer_version": "02.08.02.61",
+  "printer": "H2D",
+  "nozzle_mm": 0.4,
+  "material": "PLA",
+  "bed": "Textured PEI Plate",
+  "plate_count": 1,
+  "object_count": 6,
+  "safe_shared_XY_mm": [
+    [
+      27,
+      3
+    ],
+    [
+      323,
+      317
+    ]
+  ],
+  "native_machine_macros_modified": false,
+  "no_printer_transmission": true,
+  "placements": [
+    {
+      "ref": "P01",
+      "source_path": "review/near-palm-2026-11-06/print-mm/P01.stl",
+      "source_sha256": "1b12cf78627d0f296dc81ad3210efb6bd66a92e478f30dd8f1e3bad331b5c110",
+      "source_geometry": "NATIVE_R14_ONSHAPE_STL",
+      "CAD_source_sha256": "9286d5a51880dc79d1e9a07135e8c905f4022a1ed757801b8430f23f51a04829",
+      "material": "PLA",
+      "intent": "INTEGRATED NEAR-PALM FRAME AND STRAP EYES - PLA ASSEMBLY STUDY",
+      "orientation": "Base floor down; rounded near-palm contact surface upward",
+      "rotation_3x3": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "plate": 1,
+      "plate_xy_mm": [
+        35,
+        22
+      ],
+      "brim_mm": 5,
+      "reserved_margin_mm": 7,
+      "normalization_translation_mm": [
+        46.10000228881836,
+        78.0,
+        2.0
+      ],
+      "size_oriented_mm": [
+        175.10000228881836,
+        156.0,
+        35.0
+      ],
+      "volume_mm3": 175829.70748708153,
+      "faces": 126906,
+      "units": "mm",
+      "scale": 1.0,
+      "reserved_bounds_xy_mm": [
+        28,
+        15,
+        217.10000228881836,
+        185.0
+      ]
+    },
+    {
+      "ref": "P04",
+      "source_path": "review/palm-simplification-2026-11-03/print-mm/P04.stl",
+      "source_sha256": "fdb84301af40be4ca84b838ebc1847b18ac0b2854818e3bfe63c1085d6ff0b7c",
+      "source_geometry": "RETAINED_R13_NATIVE_STL",
+      "CAD_source_sha256": "82b7d65708c46cd9d4b6ac271047eac2f638f0222451df99eae0780525edd851",
+      "material": "PLA",
+      "intent": "R13 PLA assembly study - unchanged device geometry from R12",
+      "orientation": "Original Xmin front end down; contact wall upward, bed-only slim tree supports",
+      "rotation_3x3": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "normalization_translation_mm": [
+        30.0,
+        63.0,
+        -60.0
+      ],
+      "plate_xy_mm": [
+        283,
+        22
+      ],
+      "size_oriented_mm": [
+        25.0,
+        126.0,
+        59.0
+      ],
+      "brim_mm": 5,
+      "reserved_margin_mm": 8,
+      "reserved_bounds_xy_mm": [
+        275,
+        14,
+        316.0,
+        156.0
+      ],
+      "volume_mm3": 76807.90953739692,
+      "faces": 51838,
+      "units": "mm",
+      "scale": 1.0,
+      "plate": 1
+    },
+    {
+      "ref": "P05",
+      "source_path": "review/palm-simplification-2026-11-03/print-mm/P05.stl",
+      "source_sha256": "cb052e7c3406a210ef052b7d52c7ac4d77416327f6fc9614eecc1553d48837d9",
+      "source_geometry": "RETAINED_R13_NATIVE_STL",
+      "CAD_source_sha256": "82b7d65708c46cd9d4b6ac271047eac2f638f0222451df99eae0780525edd851",
+      "material": "PLA",
+      "intent": "R13 PLA assembly study - unchanged device geometry from R12",
+      "orientation": "Native Z up; integral stop undersides on bed",
+      "rotation_3x3": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "normalization_translation_mm": [
+        7.0,
+        63.0,
+        -7.0
+      ],
+      "plate_xy_mm": [
+        226,
+        22
+      ],
+      "size_oriented_mm": [
+        37.0,
+        126.0,
+        22.0
+      ],
+      "brim_mm": 5,
+      "reserved_margin_mm": 7,
+      "reserved_bounds_xy_mm": [
+        219,
+        15,
+        270.0,
+        155.0
+      ],
+      "volume_mm3": 50903.03981247483,
+      "faces": 15564,
+      "units": "mm",
+      "scale": 1.0,
+      "plate": 1
+    },
+    {
+      "ref": "P11",
+      "source_path": "review/palm-simplification-2026-11-03/print-mm/P11.stl",
+      "source_sha256": "ee81507b31f348ae644d268f5525a825d5eecbd44f580824105b74e3a191d49b",
+      "source_geometry": "RETAINED_R13_NATIVE_STL",
+      "CAD_source_sha256": "82b7d65708c46cd9d4b6ac271047eac2f638f0222451df99eae0780525edd851",
+      "material": "PLA",
+      "intent": "R13 PLA assembly study - unchanged device geometry from R12",
+      "orientation": "Native Zmax cam-shoe top down; blind pilot bridges without support",
+      "rotation_3x3": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "normalization_translation_mm": [
+        -62.5,
+        7.699999809265137,
+        19.0
+      ],
+      "plate_xy_mm": [
+        255,
+        230
+      ],
+      "size_oriented_mm": [
+        6.0,
+        8.399999797344208,
+        10.0
+      ],
+      "brim_mm": 2,
+      "reserved_margin_mm": 4,
+      "reserved_bounds_xy_mm": [
+        251,
+        226,
+        265.0,
+        242.3999997973442
+      ],
+      "volume_mm3": 388.75488460182754,
+      "faces": 598,
+      "units": "mm",
+      "scale": 1.0,
+      "plate": 1
+    },
+    {
+      "ref": "Q01",
+      "source_path": "review/simplification-2026-11-03/fixture/Q01_R12_FIXED_UNLOADED_FIXTURE_assembly-mm.stl",
+      "source_sha256": "6061e924713db0bd1a193251cd5789f44ccdd9c84518528afdec55449c6907bb",
+      "source_geometry": "RETAINED_R12_Q01_FIXED_SUPPORT_FIXTURE",
+      "CAD_source_sha256": "82b7d65708c46cd9d4b6ac271047eac2f638f0222451df99eae0780525edd851",
+      "material": "PLA",
+      "intent": "RETAINED R12 FIXED SUPPORT PROXY - UNLOADED ONLY",
+      "orientation": "Broad fixed-reaction face down; integral45-degree shoulder taper; no supports",
+      "rotation_3x3": [
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "normalization_translation_mm": [
+        6.0,
+        -2.700000047683716,
+        12.0
+      ],
+      "plate_xy_mm": [
+        210,
+        230
+      ],
+      "size_oriented_mm": [
+        12.0,
+        22.299999952316284,
+        19.5
+      ],
+      "brim_mm": 3,
+      "reserved_margin_mm": 5,
+      "reserved_bounds_xy_mm": [
+        205,
+        225,
+        227.0,
+        257.2999999523163
+      ],
+      "volume_mm3": 1378.0242824568022,
+      "faces": 2382,
+      "units": "mm",
+      "scale": 1.0,
+      "plate": 1,
+      "fixture_manifest_path": "review/simplification-2026-11-03/fixture/manifest.json",
+      "fixture_manifest_sha256": "163a78c678a8d720d17c116afec31b79c34ba3a3b3e9543738c5dbaab08fd7ff"
+    },
+    {
+      "ref": "P06",
+      "source_path": "review/palm-simplification-2026-11-03/print-mm/P06.stl",
+      "source_sha256": "1bc939179f5ebcdc9fb1622f06bb143d9d6ab62051ae5df99fb8f6520fa635ae",
+      "source_geometry": "RETAINED_R13_NATIVE_STL",
+      "CAD_source_sha256": "82b7d65708c46cd9d4b6ac271047eac2f638f0222451df99eae0780525edd851",
+      "material": "PLA",
+      "intent": "R13 PLA assembly study - unchanged device geometry from R12",
+      "orientation": "Native bottom down; arms bend within printed layers",
+      "rotation_3x3": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "plate": 1,
+      "plate_xy_mm": [
+        40,
+        225
+      ],
+      "brim_mm": 4,
+      "reserved_margin_mm": 6,
+      "normalization_translation_mm": [
+        67.5999984741211,
+        129.0,
+        -4.5
+      ],
+      "size_oriented_mm": [
+        135.1999969482422,
+        24.199996948242188,
+        23.5
+      ],
+      "volume_mm3": 12023.024839124642,
+      "faces": 5900,
+      "units": "mm",
+      "scale": 1.0,
+      "reserved_bounds_xy_mm": [
+        34,
+        219,
+        181.1999969482422,
+        255.1999969482422
+      ]
+    }
+  ],
+  "object_settings": {
+    "P01": {
+      "brim_type": "outer_only",
+      "brim_width": "5",
+      "brim_object_gap": "0.1",
+      "enable_support": "1",
+      "support_type": "normal(auto)",
+      "support_on_build_plate_only": "1",
+      "support_top_z_distance": "0.25",
+      "support_threshold_angle": "30",
+      "bridge_angle": "0"
+    },
+    "P04": {
+      "brim_type": "outer_only",
+      "brim_width": "5",
+      "brim_object_gap": "0.1",
+      "enable_support": "1",
+      "support_type": "tree(auto)",
+      "support_on_build_plate_only": "1",
+      "support_top_z_distance": "0.25",
+      "support_threshold_angle": "30",
+      "support_style": "tree_slim",
+      "outer_wall_speed": "60",
+      "top_surface_speed": "40",
+      "support_speed": "60"
+    },
+    "P05": {
+      "brim_type": "outer_only",
+      "brim_width": "5",
+      "brim_object_gap": "0.1",
+      "enable_support": "1",
+      "support_type": "normal(auto)",
+      "support_on_build_plate_only": "1",
+      "support_top_z_distance": "0.25",
+      "support_threshold_angle": "30"
+    },
+    "P11": {
+      "brim_type": "outer_only",
+      "brim_width": "2",
+      "brim_object_gap": "0.1",
+      "enable_support": "0",
+      "sparse_infill_density": "100%",
+      "layer_height": "0.1",
+      "outer_wall_speed": "40",
+      "inner_wall_speed": "40",
+      "top_surface_speed": "40",
+      "internal_solid_infill_speed": "40",
+      "gap_infill_speed": "40",
+      "sparse_infill_speed": "40"
+    },
+    "Q01": {
+      "brim_type": "outer_only",
+      "brim_width": "3",
+      "brim_object_gap": "0.1",
+      "enable_support": "0",
+      "support_type": "normal(auto)",
+      "support_on_build_plate_only": "0",
+      "support_top_z_distance": "0.25",
+      "support_threshold_angle": "30",
+      "sparse_infill_density": "100%",
+      "outer_wall_speed": "40",
+      "inner_wall_speed": "40",
+      "top_surface_speed": "40",
+      "internal_solid_infill_speed": "40",
+      "gap_infill_speed": "40",
+      "sparse_infill_speed": "40",
+      "wall_loops": "4"
+    },
+    "P06": {
+      "brim_type": "outer_only",
+      "brim_width": "4",
+      "brim_object_gap": "0.1",
+      "enable_support": "0",
+      "outer_wall_speed": "60",
+      "inner_wall_speed": "100",
+      "top_surface_speed": "40"
+    }
+  },
+  "P01_bridge_angle_degrees": 0,
+  "seed_path": "Fingerworker_R14_H2D_04mm_PLA_Near_Palm_seed.3mf",
+  "seed_sha256": "97e5c123701de344e26cd660ebf742c225027d55d4414ec3e5354241e71bd441",
+  "native_project": "Fingerworker_R14_H2D_04mm_PLA_Near_Palm.3mf",
+  "candidate_orientation": null,
+  "date": "2026-11-06",
+  "baseline_project": "print/bambu-R13-mechanics-overnight-2026-11-04/Fingerworker_R13_H2D_04mm_PLA_Mechanics_Overnight.3mf",
+  "baseline_project_sha256": "6c8d3d766ea78e08310d741d8104fa17f4d0a7ba163688030f10340c743fabe2",
+  "baseline_native_mesh_hashes": {
+    "3D/Objects/object_8.model": "2ee21356d3c6d43a6d4d3fadfc5cdc653f0089c120d8c9711bf6f18ec275d412",
+    "3D/Objects/object_9.model": "6f13085bb4399c7f0d095f3f8e6a1555466285affdefd84796cfc8557868a393",
+    "3D/Objects/object_10.model": "9f62262efc8750c39e5faaa7058cb6b384bc8f5e43ac1fcf1245640c263b2a8d",
+    "3D/Objects/object_3.model": "7bfa0727cdb1f47a4cc06d7f0f15456af3b035e300f5975da4d0e99d32559cc1",
+    "3D/Objects/object_1.model": "2b814830ee3f064697b0c0584a0de24708a9839bdf4473424a8e70e9509aa029",
+    "3D/Objects/object_2.model": "11b86fc711fd953333235cd4a5662abc99d1536d98389049bd63277976aa023f"
+  },
+  "changes": "Only P01 geometry replaced by declared R14 source. Other5 meshes, all rotations/XY positions and global/object process values retained from verified R13 six-piece project. Four local100%rectilinear modifiers solidify strap eyes and their base roots. Profile display name updated; no deadline assumed.",
+  "print_sequence": "by layer",
+  "profile_changes": {
+    "outer_wall_speed": 100,
+    "inner_wall_speed": 180,
+    "internal_solid_infill_speed": 160,
+    "sparse_infill_speed": 200,
+    "gap_infill_speed": 120,
+    "top_surface_speed": 60,
+    "support_speed": 100,
+    "default_acceleration": 6000,
+    "inner_wall_acceleration": 6000,
+    "outer_wall_acceleration": 1500,
+    "top_surface_acceleration": 1500,
+    "travel_acceleration": 8000,
+    "sparse_infill_density": "20%",
+    "enable_arc_fitting": "0"
+  },
+  "omitted": [
+    "P08",
+    "P09",
+    "H040",
+    "H041"
+  ],
+  "native_R14_version": "05c07284f9a5edf33d05f680",
+  "candidate_zero_area_facets_omitted": 0,
+  "candidate_zero_area_facet_vertices": [],
+  "local_density_modifiers": [
+    {
+      "name": "Strap eye X5 side-1 - local100% infill",
+      "native_bounds_mm": [
+        [
+          -17.5,
+          -78,
+          -2
+        ],
+        [
+          27.5,
+          -58,
+          4
+        ]
+      ],
+      "sparse_infill_density": "100%",
+      "sparse_infill_pattern": "zig-zag",
+      "purpose": "Solid ear and short base root; does not add printed geometry"
+    },
+    {
+      "name": "Strap eye X5 side1 - local100% infill",
+      "native_bounds_mm": [
+        [
+          -17.5,
+          58,
+          -2
+        ],
+        [
+          27.5,
+          78,
+          4
+        ]
+      ],
+      "sparse_infill_density": "100%",
+      "sparse_infill_pattern": "zig-zag",
+      "purpose": "Solid ear and short base root; does not add printed geometry"
+    },
+    {
+      "name": "Strap eye X80 side-1 - local100% infill",
+      "native_bounds_mm": [
+        [
+          57.5,
+          -78,
+          -2
+        ],
+        [
+          102.5,
+          -58,
+          4
+        ]
+      ],
+      "sparse_infill_density": "100%",
+      "sparse_infill_pattern": "zig-zag",
+      "purpose": "Solid ear and short base root; does not add printed geometry"
+    },
+    {
+      "name": "Strap eye X80 side1 - local100% infill",
+      "native_bounds_mm": [
+        [
+          57.5,
+          58,
+          -2
+        ],
+        [
+          102.5,
+          78,
+          4
+        ]
+      ],
+      "sparse_infill_density": "100%",
+      "sparse_infill_pattern": "zig-zag",
+      "purpose": "Solid ear and short base root; does not add printed geometry"
+    }
+  ],
+  "modifier_count": 4,
+  "native_project_sha256": "62504e043e33255dd9de14eb83e0b5781f304bf02dd1950de56c2f67519e287c",
+  "local_density_modifier_pattern_label": "Rectilinear (Bambu serialized enum: zig-zag)"
+}

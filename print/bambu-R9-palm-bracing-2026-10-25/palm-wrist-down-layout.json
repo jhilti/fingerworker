@@ -1,0 +1,54 @@
+{
+  "status": "COMPARISON_SEED_AUTHORED",
+  "source_seed_sha256": "86c1002a50d2e28f1512c289885be84975d3bf81dbea077f31296588a2c8d5f4",
+  "seed_sha256": "4c425a6bd6d229bf43970f836c1711ebe3753e456191d007323ceb2879dee080",
+  "orientation": "Native Xmin wrist ledge down; new brace bearing faces upward",
+  "additional_print_rotation_3x3": [
+    [
+      -1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      -1
+    ]
+  ],
+  "source_to_print_rotation_3x3": [
+    [
+      0,
+      0,
+      -1
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      0
+    ]
+  ],
+  "scale": 1,
+  "bounds_mm": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      23.5,
+      128.0,
+      36.6000023
+    ]
+  ],
+  "supports": "Same normal buildplate-only, brim5"
+}

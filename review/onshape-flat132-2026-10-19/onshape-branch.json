@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-19",
+  "document_id": "15316cc6370631845af136b2",
+  "original_workspace_id": "664d0779b5d992870442f997",
+  "baseline_version_id": "ab85d861449a697613ca7ef3",
+  "baseline_version_name": "Rev D 158mm baseline 2026-10-19",
+  "study_workspace_id": "2aac8d39cfa101ed4326a108",
+  "study_workspace_name": "Study 132mm flat - 72mm grip",
+  "part_studio_id": "d253eb87b70818ebde8215f0",
+  "feature_studio_id": "f4e97d439e996d0e05f0255e",
+  "study_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/w/2aac8d39cfa101ed4326a108/e/d253eb87b70818ebde8215f0",
+  "baseline_source_sha256": "43a2dc70e3eed4308534da7772f4b82bf845c97d6f6a53456d0d63aa9552fb33",
+  "state": "Complete as a native Onshape feasibility branch; neutral review state restored",
+  "scope": "Separate Onshape workspace. Original workspace/source and all production packages remain unchanged.",
+  "study_source_sha256": "3e5de8f56211cf2ed063b6b4294da5f77fea4c3fb881fa0c13b1288eca7932cc",
+  "source_ui_readback_exact": true,
+  "native_body_count": 104,
+  "final_ui_configuration": {
+    "stroke_mm": 0,
+    "preload_mm": 0,
+    "light_springs": true,
+    "isometric": false,
+    "show_electronics": true,
+    "show_hand": false
+  },
+  "neutral_export": "Onshape_Flat132_v6_open_0stroke_0preload.zip",
+  "neutral_export_sha256": "46896c13ec52da11075d66d05fff657791b04b5f1f445c3e9f822906f8bafa7e",
+  "final_preview": "onshape-flat132-final-neutral.jpg",
+  "geometry_packaging_status": "PASS",
+  "overall_review_status": "CONDITIONAL_LIGAMENT_TARGET_NOT_MET",
+  "failed_packaging_checks": 0,
+  "unresolved_checks": 0,
+  "structural_qualification": "NOT_ESTABLISHED",
+  "validation_report": "validation132.json",
+  "validation_report_sha256": "6c0b92a160384570a0ba285cbda96cae9262610199355a905b8151da24328117",
+  "native_pose_reports": [
+    "pose-max30-preload2-heavy.json",
+    "pose-isometric-preload2.json"
+  ],
+  "service_condition": "Set synchronized preload to 2 mm before removing the two M4 screws and lifting the palm/electronics module.",
+  "remaining_prototype_checks": [
+    "New two-M4 keyed palm joint strength and durability",
+    "Rear-seat relief roof approaches 3.063 mm, below the provisional 4 mm screening target",
+    "Inherited soft sleeve/adjuster contact at zero preload requires physical fit check"
+  ]
+}

@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "Fingerworker")(type "KiCad")(uri "${KIPRJMOD}/Fingerworker.pretty")(options "")(descr "Local verified geometry for Rev A")))

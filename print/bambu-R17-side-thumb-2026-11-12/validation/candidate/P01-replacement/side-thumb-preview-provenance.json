@@ -1,0 +1,10 @@
+{
+  "status": "RENDERED_ACTUAL_R17_SIDE_THUMB_SUPPORT_PATHS",
+  "candidate": true,
+  "replacement": true,
+  "source_mesh_sha256": "013f0e2d9d8fd8849594e4621b9ddfb632524e9178a7caf8028073159d97551a",
+  "sliced_archive_sha256": "b688618de8095e6415c4a86580bfed92e359f0b646a4bcee77f34af6fb530dd0",
+  "layout_sha256": "57d2d1cb26733c6e7ad617facd09e1021c6b582682a0e25de3e4d0da9d52f67b",
+  "image_sha256": "3f472b9f4d1eb41eb51419ba59e4d837dc02f57f9dd3a77943c9a47c2389bedb",
+  "renderer_sha256": "acd7a601bb54ec0c07dd1083a7f14db338f82ece8d303c2ffd943ecf36ef7401"
+}

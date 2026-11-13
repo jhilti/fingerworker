@@ -1,0 +1,447 @@
+{
+  "status": "PASS_LOCAL_R13_PALM_PRINT_CANDIDATE",
+  "failed_count": 0,
+  "failures": [],
+  "checks": [
+    {
+      "name": "Default automatic bridge direction retained for P01",
+      "status": "PASS",
+      "actual_bridge_angle": "0"
+    },
+    {
+      "name": "Palm support contacts and structures remain within retained R12 envelopes",
+      "status": "PASS",
+      "new_outside_area_sum_mm2": 0,
+      "contact_coordinate_tolerance_mm": 0.02,
+      "bulk_coordinate_tolerance_mm": 0.05,
+      "new_support_segments": 4205,
+      "baseline_support_segments": 4152,
+      "new_regions": [],
+      "fine_bulk_deltas": [
+        {
+          "feature": "Support",
+          "top_z_mm": -1.8,
+          "outside_0_02mm_area_mm2": 0.003995370177738504,
+          "bounds_xy_mm": [
+            -21.031070242214685,
+            -65.05264390013653,
+            -20.2589984741211,
+            66.51948237151704
+          ]
+        },
+        {
+          "feature": "Support",
+          "top_z_mm": -0.73,
+          "outside_0_02mm_area_mm2": 0.009927543128419494,
+          "bounds_xy_mm": [
+            -22.770883136133452,
+            -64.35311298456625,
+            -22.752578333208703,
+            -63.526004577636726
+          ]
+        },
+        {
+          "feature": "Support",
+          "top_z_mm": 0.608,
+          "outside_0_02mm_area_mm2": 0.0008520851704150832,
+          "bounds_xy_mm": [
+            -22.72756570788301,
+            -65.12801738050446,
+            -22.658885523004823,
+            -64.80088124174104
+          ]
+        },
+        {
+          "feature": "Support",
+          "top_z_mm": 1.41,
+          "outside_0_02mm_area_mm2": 0.0017021021044551583,
+          "bounds_xy_mm": [
+            -22.78583691713644,
+            -64.17949722273681,
+            -22.778626913121936,
+            -63.631021630317434
+          ]
+        },
+        {
+          "feature": "Support",
+          "top_z_mm": 1.945,
+          "outside_0_02mm_area_mm2": 0.004925344631630049,
+          "bounds_xy_mm": [
+            -22.786122140289876,
+            -64.95297560294853,
+            -22.250337063587907,
+            -63.540256885587844
+          ]
+        },
+        {
+          "feature": "Support",
+          "top_z_mm": 2.213,
+          "outside_0_02mm_area_mm2": 0.0010536317019194134,
+          "bounds_xy_mm": [
+            -22.728367464216653,
+            -65.13703985747931,
+            -22.656643792823143,
+            -64.79609256996184
+          ]
+        },
+        {
+          "feature": "Support",
+          "top_z_mm": 3.826,
+          "outside_0_02mm_area_mm2": 0.003563811025930114,
+          "bounds_xy_mm": [
+            -21.615002288818363,
+            -66.09015348429362,
+            -21.60077348732725,
+            -65.71238168229225
+          ]
+        },
+        {
+          "feature": "Support",
+          "top_z_mm": 4.102,
+          "outside_0_02mm_area_mm2": 0.003952296622590759,
+          "bounds_xy_mm": [
+            -21.615002288818363,
+            -66.09700728388805,
+            -21.599762210417623,
+            -65.70639016792359
+          ]
+        },
+        {
+          "feature": "Support",
+          "top_z_mm": 4.379,
+          "outside_0_02mm_area_mm2": 0.003563811025930114,
+          "bounds_xy_mm": [
+            -21.615002288818363,
+            -66.09015348429362,
+            -21.60077348732725,
+            -65.71238168229225
+          ]
+        },
+        {
+          "feature": "Support",
+          "top_z_mm": 4.655,
+          "outside_0_02mm_area_mm2": 0.003563811025930114,
+          "bounds_xy_mm": [
+            -21.615002288818363,
+            -66.09015348429362,
+            -21.60077348732725,
+            -65.71238168229225
+          ]
+        },
+        {
+          "feature": "Support",
+          "top_z_mm": 4.931,
+          "outside_0_02mm_area_mm2": 0.003952296622590759,
+          "bounds_xy_mm": [
+            -21.615002288818363,
+            -66.09700728388805,
+            -21.599762210417623,
+            -65.70639016792359
+          ]
+        },
+        {
+          "feature": "Support",
+          "top_z_mm": 5.207,
+          "outside_0_02mm_area_mm2": 0.003952296622590759,
+          "bounds_xy_mm": [
+            -21.615002288818363,
+            -66.09700728388805,
+            -21.599762210417623,
+            -65.70639016792359
+          ]
+        },
+        {
+          "feature": "Support",
+          "top_z_mm": 5.483,
+          "outside_0_02mm_area_mm2": 0.003952296622590759,
+          "bounds_xy_mm": [
+            -21.615002288818363,
+            -66.09700728388805,
+            -21.599762210417623,
+            -65.70639016792359
+          ]
+        },
+        {
+          "feature": "Support",
+          "top_z_mm": 5.76,
+          "outside_0_02mm_area_mm2": 0.003952296622590759,
+          "bounds_xy_mm": [
+            -21.615002288818363,
+            -66.09700728388805,
+            -21.599762210417623,
+            -65.70639016792359
+          ]
+        },
+        {
+          "feature": "Support",
+          "top_z_mm": 6.036,
+          "outside_0_02mm_area_mm2": 0.003952296622590759,
+          "bounds_xy_mm": [
+            -21.615002288818363,
+            -66.09700728388805,
+            -21.599762210417623,
+            -65.70639016792359
+          ]
+        },
+        {
+          "feature": "Support",
+          "top_z_mm": 6.312,
+          "outside_0_02mm_area_mm2": 0.003952296622590759,
+          "bounds_xy_mm": [
+            -21.615002288818363,
+            -66.09700728388805,
+            -21.599762210417623,
+            -65.70639016792359
+          ]
+        },
+        {
+          "feature": "Support",
+          "top_z_mm": 6.588,
+          "outside_0_02mm_area_mm2": 0.003952296622590759,
+          "bounds_xy_mm": [
+            -21.615002288818363,
+            -66.09700728388805,
+            -21.599762210417623,
+            -65.70639016792359
+          ]
+        },
+        {
+          "feature": "Support",
+          "top_z_mm": 6.864,
+          "outside_0_02mm_area_mm2": 0.003563811025930114,
+          "bounds_xy_mm": [
+            -21.615002288818363,
+            -66.09015348429362,
+            -21.60077348732725,
+            -65.71238168229225
+          ]
+        },
+        {
+          "feature": "Support",
+          "top_z_mm": 7.14,
+          "outside_0_02mm_area_mm2": 0.003563811025930114,
+          "bounds_xy_mm": [
+            -21.615002288818363,
+            -66.09015348429362,
+            -21.60077348732725,
+            -65.71238168229225
+          ]
+        },
+        {
+          "feature": "Support",
+          "top_z_mm": 7.417,
+          "outside_0_02mm_area_mm2": 0.003563811025930114,
+          "bounds_xy_mm": [
+            -21.615002288818363,
+            -66.09015348429362,
+            -21.60077348732725,
+            -65.71238168229225
+          ]
+        },
+        {
+          "feature": "Support",
+          "top_z_mm": 7.693,
+          "outside_0_02mm_area_mm2": 0.003563811025930114,
+          "bounds_xy_mm": [
+            -21.615002288818363,
+            -66.09015348429362,
+            -21.60077348732725,
+            -65.71238168229225
+          ]
+        },
+        {
+          "feature": "Support",
+          "top_z_mm": 7.969,
+          "outside_0_02mm_area_mm2": 0.003563811025930114,
+          "bounds_xy_mm": [
+            -21.615002288818363,
+            -66.09015348429362,
+            -21.60077348732725,
+            -65.71238168229225
+          ]
+        },
+        {
+          "feature": "Support",
+          "top_z_mm": 8.245,
+          "outside_0_02mm_area_mm2": 0.003563811025930114,
+          "bounds_xy_mm": [
+            -21.615002288818363,
+            -66.09015348429362,
+            -21.60077348732725,
+            -65.71238168229225
+          ]
+        },
+        {
+          "feature": "Support",
+          "top_z_mm": 8.521,
+          "outside_0_02mm_area_mm2": 0.003563811025930114,
+          "bounds_xy_mm": [
+            -21.615002288818363,
+            -66.09015348429362,
+            -21.60077348732725,
+            -65.71238168229225
+          ]
+        },
+        {
+          "feature": "Support",
+          "top_z_mm": 10.95,
+          "outside_0_02mm_area_mm2": 0.008000341096532294,
+          "bounds_xy_mm": [
+            -27.188513271856795,
+            57.72981886615603,
+            -25.837444038128535,
+            59.854083577545104
+          ]
+        },
+        {
+          "feature": "Support",
+          "top_z_mm": 12.017,
+          "outside_0_02mm_area_mm2": 0.02513073769347715,
+          "bounds_xy_mm": [
+            -27.27538696497774,
+            58.14048369747646,
+            -25.34717655611722,
+            60.27082184129215
+          ]
+        },
+        {
+          "feature": "Support",
+          "top_z_mm": 12.283,
+          "outside_0_02mm_area_mm2": 0.01566221707842075,
+          "bounds_xy_mm": [
+            -27.21498686540564,
+            -59.85516894318663,
+            -25.425926573382068,
+            -57.729222845807485
+          ]
+        }
+      ],
+      "method": "Actual bead footprints compared separately by feature, top Z and layer height. Interface/transition contacts use0.02 mm tolerance; bulk roads use0.05 mm (one eighth of nozzle diameter) to account for tessellation and changed road endpoints. Full actual beads also undergo the independent exact added-stock removal sweep below; this comparison does not waive new contacts or new support layers."
+    },
+    {
+      "name": "New rounded palm contact rail stays support-free",
+      "status": "PASS",
+      "support_segments": 0
+    },
+    {
+      "name": "Tent underside closes with short actual bridge side-1",
+      "status": "PASS",
+      "model_segments": 765,
+      "bridge_segments": 92,
+      "longest_actual_unbacked_centerline_mm": 0.46016909177216003,
+      "layer_evidence": [
+        {
+          "native_top_z_mm": 12.2,
+          "prior_layer_model_segments": 53,
+          "longest_actual_unbacked_centerline_mm": 0.46016909177216003
+        }
+      ]
+    },
+    {
+      "name": "Functional front rod-socket roof bridge not lengthened side-1",
+      "status": "PASS",
+      "longest_actual_unbacked_centerline_mm": {
+        "R12": 2.1880100000000056,
+        "R13": 2.1840100000000007
+      },
+      "layer_evidence": {
+        "R12": [
+          {
+            "native_top_z_mm": 21.2,
+            "prior_layer_model_segments": 40,
+            "longest_actual_unbacked_centerline_mm": 2.1880100000000056
+          }
+        ],
+        "R13": [
+          {
+            "native_top_z_mm": 21.2,
+            "prior_layer_model_segments": 103,
+            "longest_actual_unbacked_centerline_mm": 2.1840100000000007
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tent underside closes with short actual bridge side1",
+      "status": "PASS",
+      "model_segments": 767,
+      "bridge_segments": 93,
+      "longest_actual_unbacked_centerline_mm": 0.4500103149727839,
+      "layer_evidence": [
+        {
+          "native_top_z_mm": 12.2,
+          "prior_layer_model_segments": 56,
+          "longest_actual_unbacked_centerline_mm": 0.4500103149727839
+        }
+      ]
+    },
+    {
+      "name": "Functional front rod-socket roof bridge not lengthened side1",
+      "status": "PASS",
+      "longest_actual_unbacked_centerline_mm": {
+        "R12": 2.1880100000000056,
+        "R13": 2.184010000000015
+      },
+      "layer_evidence": {
+        "R12": [
+          {
+            "native_top_z_mm": 21.2,
+            "prior_layer_model_segments": 44,
+            "longest_actual_unbacked_centerline_mm": 2.1880100000000056
+          }
+        ],
+        "R13": [
+          {
+            "native_top_z_mm": 21.2,
+            "prior_layer_model_segments": 103,
+            "longest_actual_unbacked_centerline_mm": 2.184010000000015
+          }
+        ]
+      }
+    },
+    {
+      "name": "Existing electronics underside below Z9.5 unchanged",
+      "status": "PASS",
+      "difference_mm3": 0.0
+    },
+    {
+      "name": "Added palm stock creates no new wristward support-removal obstruction",
+      "status": "PASS",
+      "actual_support_beads": 4205,
+      "exact_overlap_candidates": 47,
+      "maximum_intersection_mm3": 0.0,
+      "worst": null,
+      "method": "Conservative full-bead boxes including arc extrema swept toward X\u221260 and intersected with added CAD material only; demonstrates no new obstruction relative to R12, not physical break-away force."
+    },
+    {
+      "name": "Checked slice and layout stayed unchanged",
+      "status": "PASS"
+    }
+  ],
+  "metrics": {
+    "support_features": {
+      "R13": {
+        "Support": 3967,
+        "Support transition": 112,
+        "Support interface": 126
+      },
+      "R12": {
+        "Support": 3916,
+        "Support transition": 110,
+        "Support interface": 126
+      }
+    }
+  },
+  "CAD_source_sha256": "06ebca9d811e6ebfaca0f8a7a8a1bb2b24f1241e57cf24106d4b9f9b9d1f44f3",
+  "layout_sha256": "0f77f5abeec7f7c0030ea7dfa70fdf48d96f4e52d185a36c58a27b709f980c0e",
+  "sliced_archive_sha256": "101f016721741903182ccdd636088913f197f236cfc2ee95d9f9ec2fc89038ec",
+  "native_step_sha256": "234696c06178598d94466b1a8bfff8a3eb0107bc1982fb4d3222de5755a48e01",
+  "baseline_native_step_sha256": "b2c076642b22f99a251b8e2a6ac20da9f251696e892448a2651ee8b636f32021",
+  "baseline_sliced_archive_sha256": "4944d6e090a8048ba8639c9e7c04fd672f24312208422febea1680ba05681e4e",
+  "validator_sha256": "005a85243935b2bb300bd38467b6c13a6a660494b9333f8cc3e49473e0bfd4b9",
+  "scope": "New palm underside bridges, retained front socket bridges, actual support footprint changes and added-CAD obstruction of wristward cleanup.",
+  "limitations": [
+    "No physical surface, PLA fit, fatigue or strength qualification.",
+    "Support removal comparison preserves the R12 access assumption; no measured adhesive/break-away force."
+  ]
+}

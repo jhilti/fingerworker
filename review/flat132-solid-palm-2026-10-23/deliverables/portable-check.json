@@ -1,0 +1,95 @@
+{
+  "package": "Flat132_R6_Solid_Palm.zip",
+  "package_sha256": "08b93c48a5516ae8c867413af8ab6cf03c24ba9845856ce4456fc8fd731ef82b",
+  "markdown_local_links": {
+    "status": "PASS",
+    "checked": 14,
+    "missing": 0,
+    "links": [
+      {
+        "from": "README.md",
+        "link": "PRINT_NOTES.md",
+        "target": "PRINT_NOTES.md"
+      },
+      {
+        "from": "README.md",
+        "link": "finalization-notes.md",
+        "target": "finalization-notes.md"
+      },
+      {
+        "from": "README.md",
+        "link": "final-specification.json",
+        "target": "final-specification.json"
+      },
+      {
+        "from": "README.md",
+        "link": "validation/validation-summary.md",
+        "target": "validation/validation-summary.md"
+      },
+      {
+        "from": "README.md",
+        "link": "fingerworker_flat132_solid_palm.fs",
+        "target": "fingerworker_flat132_solid_palm.fs"
+      },
+      {
+        "from": "README.md",
+        "link": "build_solid_palm.py",
+        "target": "build_solid_palm.py"
+      },
+      {
+        "from": "README.md",
+        "link": "source-build.json",
+        "target": "source-build.json"
+      },
+      {
+        "from": "README.md",
+        "link": "native/Flat132_R6_final_AP214.step",
+        "target": "native/Flat132_R6_final_AP214.step"
+      },
+      {
+        "from": "reference/baseline/R5-PRINT_NOTES.md",
+        "link": "validation/validation-summary.md",
+        "target": "reference/baseline/validation/validation-summary.md"
+      },
+      {
+        "from": "reference/baseline/validation/validation-summary.md",
+        "link": "validation.json",
+        "target": "reference/baseline/validation/validation.json"
+      },
+      {
+        "from": "reference/baseline/validation/validation-summary.md",
+        "link": "native-step-inventory.json",
+        "target": "reference/baseline/validation/native-step-inventory.json"
+      },
+      {
+        "from": "reference/baseline/validation/validation-summary.md",
+        "link": "reach-fit-audit.json",
+        "target": "reference/baseline/validation/reach-fit-audit.json"
+      },
+      {
+        "from": "reference/baseline/validation/validation-summary.md",
+        "link": "dynamic-mode-equivalence.json",
+        "target": "reference/baseline/validation/dynamic-mode-equivalence.json"
+      },
+      {
+        "from": "reference/baseline/validation/validation-summary.md",
+        "link": "validation-summary.json",
+        "target": "reference/baseline/validation/validation-summary.json"
+      }
+    ]
+  },
+  "native_sets": {
+    "print_STLs": 14,
+    "assembly_STLs": 52,
+    "steel_ISO81_STLs": 2,
+    "P03": "ABSENT",
+    "CRC": "PASS",
+    "all_member_SHA256": "PASS"
+  },
+  "portable_source_rebuild": {
+    "status": "PASS_EXACT_SOURCE_BYTES",
+    "sha256": "62fabee79cf36d0e0b6d4cd8430700519dbc529a5ea08f70018b14b0c3f2271f",
+    "baseline": "Bundled frozen R5 source; no original project access needed"
+  },
+  "status": "PASS"
+}

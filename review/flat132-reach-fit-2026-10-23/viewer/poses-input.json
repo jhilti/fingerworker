@@ -1,0 +1,142 @@
+{
+  "feature_source": "fingerworker_flat132_reach_fit.fs",
+  "source_sha256": "d7f476fa34e862e2b0e1b5a5e91fff0f852b9308a589fafd11ce59e01269915a",
+  "branch_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/w/8814bbef4dcfadf295de5070/e/d253eb87b70818ebde8215f0",
+  "frozen_version_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/ef00e6d9683bc3bffae42912/e/d253eb87b70818ebde8215f0",
+  "include_available_poses_only": false,
+  "step": {
+    "path": "native/Flat132_R5_final_AP214.step",
+    "sha256": "6308aae470551c220c91689f746cd7204d38ce6938aa907531423f2d78c2af40",
+    "native_export_source_sha256": "61885fd717b30eaf1dfc39a1f7f65f017bfc1b4ac077c3e3493399ef3373a9a3",
+    "native_export_mode": "DYNAMIC_NEUTRAL"
+  },
+  "prototype_package": {
+    "path": "deliverables/Flat132_R5_Closer_Grip.zip",
+    "sha256": "98838ee415d23a3aff0dda5e14a6c8f60ea898c823193da7ccfcf7276fc6fae4",
+    "bytes": 60520489
+  },
+  "poses": [
+    {
+      "id": "neutral",
+      "label": "Neutral \u00b7 0 mm user stroke / preload \u00b7 light",
+      "archive": "native/Flat132_R5_neutral_final.zip",
+      "sha256": "2f4a8634c42317d10dfe93a8e113a254ef4d5f05d70b8f6330f23a9f5866e7a5",
+      "stroke_mm": 0,
+      "preload_mm": 0,
+      "isometric": false,
+      "spring": "light",
+      "cam_calibration_mm": 0,
+      "actual_carriage_shift_mm": 5,
+      "native_export_source_sha256": "61885fd717b30eaf1dfc39a1f7f65f017bfc1b4ac077c3e3493399ef3373a9a3"
+    },
+    {
+      "id": "max",
+      "label": "Maximum \u00b7 28 mm user stroke / 2 mm preload \u00b7 heavy",
+      "archive": "native/Flat132_R5_max28_p2_heavy_final.zip",
+      "sha256": "7c36db8d0101dc8d445c6f2476dcb38a51721431dcb4a052c59b7f80b0a33fb7",
+      "stroke_mm": 28,
+      "preload_mm": 2,
+      "isometric": false,
+      "spring": "heavy",
+      "cam_calibration_mm": 0,
+      "actual_carriage_shift_mm": 33,
+      "native_export_source_sha256": "61885fd717b30eaf1dfc39a1f7f65f017bfc1b4ac077c3e3493399ef3373a9a3"
+    },
+    {
+      "id": "iso",
+      "label": "Isometric \u00b7 13 mm user stroke / 2 mm preload \u00b7 81 mm sleeves",
+      "archive": "native/Flat132_R5_isometric13_p2_81_final.zip",
+      "sha256": "e47a1d0dd271184670537dd6d1cc893164ea4e7f4046064a5fd685bc002ffa4d",
+      "stroke_mm": 13,
+      "preload_mm": 2,
+      "isometric": true,
+      "spring": "lock_sleeves",
+      "gui_spring_selection": "heavy",
+      "cam_calibration_mm": 0,
+      "actual_carriage_shift_mm": 18,
+      "native_export_source_sha256": "d7f476fa34e862e2b0e1b5a5e91fff0f852b9308a589fafd11ce59e01269915a"
+    }
+  ],
+  "native_device_parts": 53,
+  "switch_fit": {
+    "source": "Omron SS series manufacturer dimensioned drawing; not factory STEP",
+    "part_number": "SS-01GL2",
+    "relocation_from_R3_mm": [
+      4,
+      1,
+      1.5
+    ],
+    "drawing_source_path": "vendor/omron_ss5gl2/SS_datasheet.pdf",
+    "drawing_sha256": "b7c3cc9e838c1049d58772242b56cd06af3526ac422907769acd892668ba1a09",
+    "drawing_url": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-ss.pdf",
+    "terminal_and_lug_shape": "Conservative nominal dimensioned envelopes; exact profiles unresolved",
+    "actuator": "Illustrative hinge/roller proxy, not factory CAD or qualified mechanism",
+    "actual_TE_force_sensor_retained": true,
+    "mount_and_cam_relocated_in_native_source": true,
+    "physical_actuation_and_wiring_qualified": false,
+    "actual_operation_total_travel_cam_lock_wiring_qualified": false,
+    "new_P11_stepped_shoe": true,
+    "vertical_H10_clamp": "M3x10",
+    "calibration_mm": [
+      -0.8,
+      0.8
+    ],
+    "nominal_drawing_envelope_checks_passed": true
+  },
+  "geometry_origin": "NATIVE_ONSHAPE_REGEN",
+  "geometry_provenance": {
+    "native_export_status": "FINAL_ISO81_NOMINAL_GEOMETRY_PASS",
+    "local_csg_study_displayed": false,
+    "feature_source_sha256": "d7f476fa34e862e2b0e1b5a5e91fff0f852b9308a589fafd11ce59e01269915a",
+    "dynamic_and_neutral_STEP_export_source_sha256": "61885fd717b30eaf1dfc39a1f7f65f017bfc1b4ac077c3e3493399ef3373a9a3",
+    "ISO81_export_source_sha256": "d7f476fa34e862e2b0e1b5a5e91fff0f852b9308a589fafd11ce59e01269915a",
+    "mode_conditioned_equivalence": {
+      "status": "PASS_EXACT_MODE_CONDITIONED_EQUIVALENCE",
+      "certificate": "validation/dynamic-mode-equivalence.json",
+      "certificate_sha256": "ca35327ef556512f21adbd4f6837ea59d384ecbf0cbe9a3b10f6124481b92d5c",
+      "scope": "Only isometricLock=false. Original neutral/dynamic/STEP export origins are retained; ISO81 is a new final-source native export."
+    },
+    "immutable_version_id": "ef00e6d9683bc3bffae42912",
+    "immutable_source_readback_verified_by_parent": true,
+    "immutable_source_readback_bytes": 110315
+  },
+  "baseline_version_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/1a51bc54c29fb727dcb77016/e/d253eb87b70818ebde8215f0",
+  "validation_sha256": "b162101aeee1410a33ee048da17ab792a50142d08868b12676afdc2315d66c49",
+  "reach_fit": {
+    "closer_rest_mm": 5,
+    "R4_neutral_spacing_mm": 114.25,
+    "R5_neutral_spacing_mm": 109.25,
+    "R5_finger_wall_expression_mm": "72-user_stroke",
+    "actual_carriage_shift_expression_mm": "5+user_stroke",
+    "user_stroke_plus_preload_limit_mm": 30,
+    "preload_mm": [
+      0,
+      2
+    ],
+    "calibration_mm": [
+      -0.8,
+      0.8
+    ],
+    "shortened_P05_stop_end_x_mm": 30,
+    "P05_force_web_retained": true,
+    "P05_contact_face_area_each_mm2": 308,
+    "P01_track_start_x_mm": 29,
+    "rear_return_stop_shift_mm": -5,
+    "P11_new_print_part": true,
+    "print_part_count": 15,
+    "iso_sleeve_length_mm": 81,
+    "iso_decision": "USER_CONFIRMED_81_MM_SLEEVES",
+    "physical_strength_spring_switch_fit_qualified": false,
+    "iso_relative_user_stroke_expression_mm": "15-preload",
+    "iso_actual_carriage_shift_expression_mm": "20-preload"
+  },
+  "previous_R5_iso86_checkpoint_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/d932b654a7ad4889872caab7/e/d253eb87b70818ebde8215f0",
+  "validation_summary": {
+    "path": "validation/validation-summary.json",
+    "sha256": "a7b8f64af73a9b25a15841be144cf3d26eeb5b1929c169f4f57779cf45a9f345"
+  },
+  "mode_equivalence_certificate": {
+    "path": "validation/dynamic-mode-equivalence.json",
+    "sha256": "ca35327ef556512f21adbd4f6837ea59d384ecbf0cbe9a3b10f6124481b92d5c"
+  }
+}

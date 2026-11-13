@@ -1,0 +1,139 @@
+{
+  "source": "Onshape, fully exterior wrist-side palm, 20 September 2026; final 0 mm pose, hand off; binary STL, millimetres, Fine",
+  "source_zip_sha256": "9f20d3d4d3136793bb7aa513d765025ef4c344f9260eb281245b1ac029020b27",
+  "cad_source_sha256": "ade0af4b27392b3eab140cb4e5858fb32ed69a1b86dedee203ea97af30f58892",
+  "parts": [
+    {
+      "file": "P01_base.stl",
+      "triangles": 34392,
+      "size_mm": [
+        216.0,
+        210.0,
+        29.0
+      ],
+      "volume_mm3": 309572.341,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "d496fff91b09fb4df16c26f4e386b85eb604d45ada6bd7afbd576d9d3d44c859"
+    },
+    {
+      "file": "P02_palm_bolster.stl",
+      "triangles": 22898,
+      "size_mm": [
+        36.25,
+        128.0,
+        17.998
+      ],
+      "volume_mm3": 35718.618,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "08b58a5ed840d436cbc8a6ce68cda2a3f4d06c46795178f6ecf41d298a891663"
+    },
+    {
+      "file": "P070b_return_pad_left_b_TPU.stl",
+      "triangles": 12,
+      "size_mm": [
+        6.0,
+        4.5,
+        1.5
+      ],
+      "volume_mm3": 40.5,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "b133243e632897ed5f4c7474910eacce7f15890aab255a8265c2b17ef5bb8d82"
+    },
+    {
+      "file": "P05_floating_yoke.stl",
+      "triangles": 13820,
+      "size_mm": [
+        22.5,
+        180.0,
+        22.0
+      ],
+      "volume_mm3": 64361.039,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "2e4e67d17eeefb7f2e123ba0e16a8d365564a9cbea3fcec05c603ca6acdfe742"
+    },
+    {
+      "file": "P071a_return_pad_right_a_TPU.stl",
+      "triangles": 12,
+      "size_mm": [
+        6.0,
+        4.5,
+        1.5
+      ],
+      "volume_mm3": 40.5,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "b133243e632897ed5f4c7474910eacce7f15890aab255a8265c2b17ef5bb8d82"
+    },
+    {
+      "file": "P071b_return_pad_right_b_TPU.stl",
+      "triangles": 12,
+      "size_mm": [
+        6.0,
+        4.5,
+        1.5
+      ],
+      "volume_mm3": 40.5,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "b133243e632897ed5f4c7474910eacce7f15890aab255a8265c2b17ef5bb8d82"
+    },
+    {
+      "file": "P060_rear_retainer_left.stl",
+      "triangles": 2902,
+      "size_mm": [
+        8.0,
+        24.0,
+        22.0
+      ],
+      "volume_mm3": 2821.608,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "ac96581618b1c8a531040713c40f29be0ff4dce3c311f6ce3a2fd71f44244650"
+    },
+    {
+      "file": "P03_palm_sleeve_TPU.stl",
+      "triangles": 15760,
+      "size_mm": [
+        20.499,
+        15.398,
+        86.0
+      ],
+      "volume_mm3": 8415.283,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "1fa50552bc9bccfcf5b588443589f54fff907250374001e7bff2720541dc25ab"
+    },
+    {
+      "file": "P04_climbing_carriage.stl",
+      "triangles": 58608,
+      "size_mm": [
+        119.0,
+        204.0,
+        23.0
+      ],
+      "volume_mm3": 283166.517,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "640593d31df0ab2a1613939400e4413d2af5ec70024567f5ce1ec18f3c45d462"
+    },
+    {
+      "file": "P061_rear_retainer_right.stl",
+      "triangles": 2902,
+      "size_mm": [
+        8.0,
+        24.0,
+        22.0
+      ],
+      "volume_mm3": 2821.608,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "d419c77a8e257ddc0b27578f7570e4a50977148b1a12534639de503b308f9b06"
+    },
+    {
+      "file": "P070a_return_pad_left_a_TPU.stl",
+      "triangles": 12,
+      "size_mm": [
+        6.0,
+        4.5,
+        1.5
+      ],
+      "volume_mm3": 40.5,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "b133243e632897ed5f4c7474910eacce7f15890aab255a8265c2b17ef5bb8d82"
+    }
+  ]
+}

@@ -1,0 +1,2601 @@
+{
+  "status": "PASS",
+  "scope": "Independent exact native source CSG and retained-shape check, clamp-support lower bound, driver corridor and source guide/insert witnesses; no printed load rating or factory switch mechanism claim",
+  "auditor_sha256": "0bf0cb3b7b1881b33a243518f08db725db595f61ee05725e2ab6bec9d823c32a",
+  "source_sha256": "d7f476fa34e862e2b0e1b5a5e91fff0f852b9308a589fafd11ce59e01269915a",
+  "manifest_sha256": "b1b0b274035fdc512135bf9bc116916ec4d7b00309a6ea7fbb2dfa45f1580869",
+  "native_step_sha256": "6308aae470551c220c91689f746cd7204d38ce6938aa907531423f2d78c2af40",
+  "baseline_step_sha256": "9ae3f82a0539de9acd6eb8fc371589962c0a65632afe98e7b7a4e3602ac8f255",
+  "native_provenance": {
+    "workspace_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/w/8814bbef4dcfadf295de5070/e/d253eb87b70818ebde8215f0",
+    "feature_source_sha256": "d7f476fa34e862e2b0e1b5a5e91fff0f852b9308a589fafd11ce59e01269915a",
+    "association": "Root operator verified exact final ISO81 native source/regeneration. Neutral and dynamic native exports retain their original61885 source association and are reused only through the exact isometricLock=false inverse-source certificate. The new ISO81 export originates from the final source.",
+    "dynamic_mode_equivalence": {
+      "certificate": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/validation/dynamic-mode-equivalence.json",
+      "certificate_sha256": "ca35327ef556512f21adbd4f6837ea59d384ecbf0cbe9a3b10f6124481b92d5c"
+    },
+    "original_dynamic_source_sha256": "61885fd717b30eaf1dfc39a1f7f65f017bfc1b4ac077c3e3493399ef3373a9a3",
+    "native_export_origins": {
+      "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/native/Flat132_R5_neutral_final.zip": {
+        "sha256": "2f4a8634c42317d10dfe93a8e113a254ef4d5f05d70b8f6330f23a9f5866e7a5",
+        "original_source_sha256": "61885fd717b30eaf1dfc39a1f7f65f017bfc1b4ac077c3e3493399ef3373a9a3",
+        "isometricLock": false,
+        "geometry_equivalent_to_final_source": true
+      },
+      "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/native/Flat132_R5_final_AP214.step": {
+        "sha256": "6308aae470551c220c91689f746cd7204d38ce6938aa907531423f2d78c2af40",
+        "original_source_sha256": "61885fd717b30eaf1dfc39a1f7f65f017bfc1b4ac077c3e3493399ef3373a9a3",
+        "isometricLock": false,
+        "geometry_equivalent_to_final_source": true
+      },
+      "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/native/Flat132_R5_max28_p2_heavy_final.zip": {
+        "sha256": "7c36db8d0101dc8d445c6f2476dcb38a51721431dcb4a052c59b7f80b0a33fb7",
+        "original_source_sha256": "61885fd717b30eaf1dfc39a1f7f65f017bfc1b4ac077c3e3493399ef3373a9a3",
+        "isometricLock": false,
+        "geometry_equivalent_to_final_source": true
+      },
+      "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/native/Flat132_R5_max28_p2_trimN08_final.zip": {
+        "sha256": "a0e5b8604e827dbb3b4ae781d30083c3fa2a4e21bd604050230a46248c48e64d",
+        "original_source_sha256": "61885fd717b30eaf1dfc39a1f7f65f017bfc1b4ac077c3e3493399ef3373a9a3",
+        "isometricLock": false,
+        "geometry_equivalent_to_final_source": true
+      },
+      "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/native/Flat132_R5_max30_p0_trimP08_final.zip": {
+        "sha256": "10b8bd03c97ef529d8504d36c699356bc1598a9d528dcf62bd5be1a939e13a81",
+        "original_source_sha256": "61885fd717b30eaf1dfc39a1f7f65f017bfc1b4ac077c3e3493399ef3373a9a3",
+        "isometricLock": false,
+        "geometry_equivalent_to_final_source": true
+      },
+      "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/native/Flat132_R5_isometric13_p2_81_final.zip": {
+        "sha256": "e47a1d0dd271184670537dd6d1cc893164ea4e7f4046064a5fd685bc002ffa4d",
+        "original_source_sha256": "d7f476fa34e862e2b0e1b5a5e91fff0f852b9308a589fafd11ce59e01269915a",
+        "isometricLock": true,
+        "pose": {
+          "u": 13.0,
+          "p": 2.0,
+          "e": 0.0
+        }
+      }
+    },
+    "immutable_version_id": "ef00e6d9683bc3bffae42912",
+    "immutable_version_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/ef00e6d9683bc3bffae42912/e/d253eb87b70818ebde8215f0",
+    "version_binding_note": "Root operator verified frozen ISO81 source d7f476fa34e862e2b0e1b5a5e91fff0f852b9308a589fafd11ce59e01269915a byte-for-byte at110315bytes,106 regenerated parts and neutral user0/preload0/trim0 light dynamic default. Neutral/dynamic exports retain prior61885 origins and are associated with final source only by exact isometricLock=false inverse-source equivalence. New ISO81 native export originates from final d7f476 source. Prior ISO86 immutable checkpoint d932b654a7ad4889872caab7 is superseded."
+  },
+  "rows": [
+    {
+      "name": "Opposite intact source-uniform deck sections agree on complete bore restoration",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "Exact native P01 matches independent R4-to-R5 source CSG",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "tolerance_mm3": 1e-06,
+      "expected_valid": true,
+      "expected_volume_mm3": 141870.92083307396,
+      "native_volume_mm3": 141870.92083307393
+    },
+    {
+      "name": "Exact native P04 matches independent R4-to-R5 source CSG",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "tolerance_mm3": 1e-06,
+      "expected_valid": true,
+      "expected_volume_mm3": 76806.53336710535,
+      "native_volume_mm3": 76806.54537687366
+    },
+    {
+      "name": "Exact native P05 matches independent R4-to-R5 source CSG",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "tolerance_mm3": 1e-06,
+      "expected_valid": true,
+      "expected_volume_mm3": 50902.809675528115,
+      "native_volume_mm3": 50902.80967552809
+    },
+    {
+      "name": "Exact native P060 matches independent R4-to-R5 source CSG",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "tolerance_mm3": 1e-06,
+      "expected_valid": true,
+      "expected_volume_mm3": 3351.925032937353,
+      "native_volume_mm3": 3351.9250329373544
+    },
+    {
+      "name": "Exact native P061 matches independent R4-to-R5 source CSG",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "tolerance_mm3": 1e-06,
+      "expected_valid": true,
+      "expected_volume_mm3": 3351.925032937353,
+      "native_volume_mm3": 3351.9250329373544
+    },
+    {
+      "name": "Exact native P11 matches independent R4-to-R5 source CSG",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "tolerance_mm3": 1e-06,
+      "expected_valid": true,
+      "expected_volume_mm3": 388.7350937895104,
+      "native_volume_mm3": 388.7350937895107
+    },
+    {
+      "name": "Exact native H10 matches independent R4-to-R5 source CSG",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "tolerance_mm3": 1e-06,
+      "expected_valid": true,
+      "expected_volume_mm3": 141.96071803408879,
+      "native_volume_mm3": 141.96071803408879
+    },
+    {
+      "name": "All97 otherwise-preserved exact BReps retain shape and only six declared5mm rigid shifts",
+      "status": "PASS",
+      "parts_checked": 97,
+      "maximum_symmetric_difference_mm3": 0.0,
+      "failed": []
+    },
+    {
+      "name": "Indicative spring helper geometry unchanged, only installed span differs",
+      "status": "PASS",
+      "new_open_installed_length_p0_p2_mm": [
+        96.0,
+        94.0
+      ],
+      "new_minimum_dynamic_length_mm": 66.0,
+      "meaning": "Helix is illustrative; manufacturer operating-length and physical fatigue remain separate checks"
+    },
+    {
+      "name": "Head-bearing disk lobes have continuous nominal roof support over full calibration/preload range",
+      "status": "PASS",
+      "guaranteed_source_area_lower_bound_mm2": 6.329150132462885,
+      "all_setting_lobe_stock_bounds": [
+        {
+          "bounds_mm": [
+            [
+              60.538403367878274,
+              0.75,
+              24.99
+            ],
+            [
+              68.46159663212173,
+              1.8,
+              24.9999
+            ]
+          ],
+          "missing_stock_mm3": 0.0
+        },
+        {
+          "bounds_mm": [
+            [
+              60.538403367878274,
+              5.2,
+              24.99
+            ],
+            [
+              68.46159663212173,
+              6.25,
+              24.9999
+            ]
+          ],
+          "missing_stock_mm3": 0.0
+        }
+      ],
+      "axis_X_range_in_neutral_carriage_frame_mm": [
+        62.7,
+        66.3
+      ],
+      "qualification": "Geometric area only; clamp torque/insert and print strength unqualified"
+    },
+    {
+      "name": "Diameter4 vertical driver-shank corridor clears all104 non-coil obstacles over full p/e at user rest",
+      "status": "PASS",
+      "pairs_checked": 104,
+      "failed": [],
+      "source_corridor": {
+        "axis_X_mm": 65.5,
+        "Y_mm": 3.5,
+        "Z_range_mm": [
+          28.01,
+          50.0
+        ],
+        "diameter_mm": 4.0
+      },
+      "qualification": "Partial shaft only; head socket, actual hand-tool handle and physical access unqualified"
+    },
+    {
+      "name": "Nominal M3x10 covers L4 vertical insert with0.5mm pilot-floor reserve",
+      "status": "PASS",
+      "under_head_Z_mm": 25.0,
+      "nominal_shaft_tip_Z_mm": 15.0,
+      "nominal_insert_Z_range_mm": [
+        15.0,
+        19.0
+      ],
+      "nominal_engagement_mm": 4.0,
+      "pilot_floor_Z_mm": 14.5,
+      "pilot_floor_gap_mm": 0.5,
+      "qualification": "Actual hardware/insert stock and thread/clamp durability unqualified"
+    },
+    {
+      "name": "Front and rear14mm guide-bearing lands remain inside extended fixed rail at all user travel",
+      "status": "PASS",
+      "fixed_rail_X_mm": [
+        29.0,
+        124.0
+      ],
+      "front_land_extreme_X_mm": [
+        [
+          60.0,
+          74.0
+        ],
+        [
+          30.0,
+          44.0
+        ]
+      ],
+      "rear_land_extreme_X_mm": [
+        [
+          105.0,
+          119.0
+        ],
+        [
+          75.0,
+          89.0
+        ]
+      ],
+      "nominal_each_land_length_mm": 14.0,
+      "qualification": "Source geometry overlap, not wear/friction/side-load qualification"
+    }
+  ],
+  "unchanged_brep_comparison": [
+    {
+      "ref": "E01",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "E05",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "E06",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "E07",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "E08",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H01",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H02",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H040",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H041",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H050",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H051",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H060",
+      "expected_rigid_translation_mm": [
+        -5.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H061",
+      "expected_rigid_translation_mm": [
+        -5.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H09",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H09a",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H09b",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H11",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H12",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H13",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H15",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H160",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H161",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H170",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H171",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H180",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H181",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H190",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H191",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H20",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H21",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H22",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H23",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H240",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H241",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H242",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H243",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H250",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H251",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H252",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H253",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P02",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P03",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P070a",
+      "expected_rigid_translation_mm": [
+        -5.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P070b",
+      "expected_rigid_translation_mm": [
+        -5.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P071a",
+      "expected_rigid_translation_mm": [
+        -5.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P071b",
+      "expected_rigid_translation_mm": [
+        -5.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P08",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P09",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P10",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C1",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C10",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C11",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C12",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C13",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C14",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C15",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C16",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C2",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C3",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C4",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C5",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C6",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C7",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C8",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C9",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_D1",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_J1",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_J2",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_J3",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_L1",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_Q1",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R1",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R10",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R11",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R12",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R13",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R14",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R15",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R16",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R17",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R18",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R19",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R2",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R20",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R21",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R3",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R4",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R5",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R6",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R7",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R8",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R9",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_SW2",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_U1",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_U2",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_U3",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_U4",
+      "expected_rigid_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "symmetric_difference_mm3": 0.0
+    }
+  ],
+  "tool_corridor_pairs": [
+    {
+      "ref": "E01",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "E05",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "E06",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "E07",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "E08",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H01",
+      "relative_x_range_mm": [
+        -4.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H02",
+      "relative_x_range_mm": [
+        -4.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H040",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H041",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H050",
+      "relative_x_range_mm": [
+        -4.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H051",
+      "relative_x_range_mm": [
+        -4.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H060",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H061",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H09",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H09a",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H09b",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H10",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 0.010000000000001563,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": false
+    },
+    {
+      "ref": "H11",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H12",
+      "relative_x_range_mm": [
+        -4.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H13",
+      "relative_x_range_mm": [
+        -4.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H15",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H160",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H161",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H170",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H171",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H180",
+      "relative_x_range_mm": [
+        -4.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H181",
+      "relative_x_range_mm": [
+        -4.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H190",
+      "relative_x_range_mm": [
+        -4.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H191",
+      "relative_x_range_mm": [
+        -4.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H20",
+      "relative_x_range_mm": [
+        -4.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H21",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H22",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H23",
+      "relative_x_range_mm": [
+        -4.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H240",
+      "relative_x_range_mm": [
+        -4.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H241",
+      "relative_x_range_mm": [
+        -4.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H242",
+      "relative_x_range_mm": [
+        -4.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H243",
+      "relative_x_range_mm": [
+        -4.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H250",
+      "relative_x_range_mm": [
+        -4.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H251",
+      "relative_x_range_mm": [
+        -4.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H252",
+      "relative_x_range_mm": [
+        -4.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H253",
+      "relative_x_range_mm": [
+        -4.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "P01",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_AT_NUMERICAL_VOLUME_TOLERANCE",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Conservative complete swept convex-hull intersection volume bounds every pose",
+      "complete_swept_envelope_intersection_upper_bound_mm3": 0.0,
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "P02",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "P03",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "P04",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_AT_NUMERICAL_VOLUME_TOLERANCE",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Conservative complete swept convex-hull intersection volume bounds every pose",
+      "complete_swept_envelope_intersection_upper_bound_mm3": 0.0,
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "P05",
+      "relative_x_range_mm": [
+        -4.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "P060",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "P061",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "P070a",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "P070b",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "P071a",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "P071b",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "P08",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "P09",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "P10",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "P11",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_C1",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C10",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C11",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C12",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C13",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C14",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C15",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C16",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C2",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C3",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C4",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C5",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C6",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C7",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C8",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C9",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_D1",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_J1",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_J2",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_J3",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_L1",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_Q1",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R1",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R10",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R11",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R12",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R13",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R14",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R15",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R16",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R17",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R18",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R19",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R2",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R20",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R21",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R3",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R4",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R5",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R6",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R7",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R8",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R9",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_SW2",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_U1",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_U2",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_U3",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "PCB_U4",
+      "relative_x_range_mm": [
+        -2.8,
+        0.8
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    }
+  ],
+  "limitations": [
+    "500N remains physically unqualified; new return-boss joints, stop face, shoe and clamp need printed prototype checks.",
+    "SS-01GL2 remains a conservative manufacturer-drawing body/terminal/lug reference and approximate fixed-length actuator; geometry trim range does not qualify actual OP tolerance or total travel.",
+    "Actual inserts, screw/head/socket, solder/wire bending, setting lock, fatigue, guide friction, creep and comfort are unqualified.",
+    "The selected81mm sleeves move isometric grip5mm closer than R4; user-relative approach is13..15mm.",
+    "The shoe pilot has nominal0.9mm front/rear X ligaments and1.3mm lower boss bridge; insert installation and clamp durability remain unqualified."
+  ],
+  "provenance_metadata_update": "Immutable version association only; exact native CSG and clearance evidence unchanged."
+}

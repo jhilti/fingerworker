@@ -1,0 +1,105 @@
+{
+  "status": "PASS: fresh native ERC/DRC and strict pin parity",
+  "native_connected_pins_checked": 140,
+  "explicit_unused_pins_checked": 10,
+  "connectivity_mismatches": [],
+  "pcb_pad_mismatches": [],
+  "duplicate_netlist_nodes": [],
+  "erc_violations": 0,
+  "pcb_geometry_violations": 0,
+  "schematic_parity_issues": 0,
+  "unrouted_connections": 0,
+  "manufacturing_release": false,
+  "board_mm": [
+    19.5,
+    68.5,
+    0.8
+  ],
+  "copper_layers": 4,
+  "tracks_by_layer": {
+    "F.Cu": 257,
+    "In2.Cu": 137,
+    "B.Cu": 70
+  },
+  "via_count": 75,
+  "via_diameters_drills_mm": [
+    [
+      0.6,
+      0.3
+    ]
+  ],
+  "planes": [
+    {
+      "name": "GND top",
+      "layer": "F.Cu",
+      "net": "GND",
+      "filled_islands": 4
+    },
+    {
+      "name": "GND return plane",
+      "layer": "B.Cu",
+      "net": "GND",
+      "filled_islands": 1
+    },
+    {
+      "name": "GND return plane",
+      "layer": "In1.Cu",
+      "net": "GND",
+      "filled_islands": 1
+    },
+    {
+      "name": "GND return plane",
+      "layer": "In2.Cu",
+      "net": "GND",
+      "filled_islands": 7
+    }
+  ],
+  "antenna_keepouts_layers": [
+    [
+      0,
+      4,
+      6,
+      2
+    ],
+    [
+      0,
+      4,
+      6,
+      2
+    ]
+  ],
+  "checked_at": "2026-10-11T10:02:12.011745+00:00",
+  "kicad_version": "10.0.6",
+  "input_sha256": {
+    "Acquisition.kicad_sch": "e343540a7abfd4404d1f9d1f02d1b6e13c67dc5e095d0325d29bac97fbe61ce3",
+    "Controls.kicad_sch": "af988d7ff61166b201d71b42e9e1430a1fb02bacc60849591e2d1ce345694e74",
+    "Fingerworker.kicad_sym": "f1140b9de5317944097c4646d280e192a1d22970117e53744b81c143bcaf9302",
+    "Fingerworker.pretty/C_0603_1608Metric.kicad_mod": "fe0dbfefbb181a0466f93a8de52d84ba7b00fcd9acdbb69575f4128a0af4e405",
+    "Fingerworker.pretty/C_0805_2012Metric.kicad_mod": "62775a51fe74ba7f1b572de327bdbd3fc92582721b2abcaa47787865590d89cb",
+    "Fingerworker.pretty/D_SOD-123.kicad_mod": "ee7d5fc89f151e07d23d4f04a45c07ed6e983fdc83b6b9c3f4dad314a0725959",
+    "Fingerworker.pretty/JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal.kicad_mod": "47c7b317c6e5f13694f33abcd6383353999e07e54c02739b006a9a771f436e3c",
+    "Fingerworker.pretty/L_Coilcraft_XFL3012.kicad_mod": "f8dfe14a5be22fccd9a52945cee95d29b8917f3a21188e542181697eed3483fb",
+    "Fingerworker.pretty/Panasonic_EVQPUL_EVQPUC.kicad_mod": "21b738a98437d78f4ccede8dccb043379a0c4f55d22ec1b1f42e91def1772c1c",
+    "Fingerworker.pretty/R_0603_1608Metric.kicad_mod": "7190ac4a00125b807e54129ef0d87d87f2a658eeb74d025a7028203419b09f23",
+    "Fingerworker.pretty/SOT-23-5.kicad_mod": "455a3f7c3e5eb5b8847eaa5df23e18651e78ab9f75afd09a0883758a0d901761",
+    "Fingerworker.pretty/SOT-23.kicad_mod": "0d88c86c1b6d8c1aae4aa8c09386264c089d4451a128b6ccd63ed253f4300b15",
+    "Fingerworker.pretty/Seeed_XIAO_nRF52840_SMD.kicad_mod": "9bae4fc1fd96f59a063f7fdfb571e783f252525394e05d33fccf50cbf63465d2",
+    "Fingerworker.pretty/SolderWire_2x2mm_P2.54.kicad_mod": "14013b97aaf6faeb81634dd4d8deb9c3e7140cd1419b3b34db194f099d6fe827",
+    "Fingerworker.pretty/SolderWire_4x2mm_P2.54.kicad_mod": "d692d085ae2144f6644d264c1b5e9bff47f4650b4a35c0b231b989528a3b210c",
+    "Fingerworker.pretty/TSSOP-16_4.4x5mm_P0.65mm.kicad_mod": "fbac79fc5f310754726589d67071a422c429216f843ecd6013bbe2e6a49e7064",
+    "Fingerworker_RevA.kicad_pcb": "d06ffcf88086ecab06c180ce38a43b68af18197fc25aa935c33a8fe4eebfabf6",
+    "Fingerworker_RevA.kicad_pro": "872702fd02d9aa717759bb6fdafb8b79ee693765e43b48dc4b3122562e7525f6",
+    "Fingerworker_RevA.kicad_sch": "3c32593fe3110e86c8277045a4a98c8f045153ef764feafbaf49666bebe2944a",
+    "Power.kicad_sch": "584c39ef5ccf9c6d96fe412e20759521a5b3ffaa44914eeb9d6b77addfcdbe5e",
+    "fp-lib-table": "c6509f17ef43da6c6fb1af97535727388cd91fc1979592cc48683810e28b103a",
+    "native_design.json": "40d12de04f409edbd7b5b8d52b034d5a0e2ca7d9ccd1b9400d3e3aaf18b75e24",
+    "sym-lib-table": "accd28b565f868e39f3016aac9528d822c3d7b05e195c5c42eb02a691c577019"
+  },
+  "pcb_sha256": "d06ffcf88086ecab06c180ce38a43b68af18197fc25aa935c33a8fe4eebfabf6",
+  "report_sha256": {
+    "erc-full-review.json": "456972f27f799a0c4f275e743829e07d7095ae2dba0a2b75d84ecd9f7b809308",
+    "drc-full-review.json": "8cb0c28cfa75454c31cc6f795321a2c45fd3638571e48676036dfc26de951acd",
+    "full-review-netlist.xml": "cbfa62ccf31edd1d03b53a58d2f019fd4df7fde987d8aa981df704208ac5e249",
+    "verification-commands.json": "4f6dd6feec402064f0d51b7e9f1b675212dcd6c448c187323223dc6020919046"
+  }
+}

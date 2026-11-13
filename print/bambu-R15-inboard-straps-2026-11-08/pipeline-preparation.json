@@ -1,0 +1,104 @@
+{
+  "status": "PASS_FINAL_NATIVE_R15_PRINT_PIPELINE",
+  "revision": "R15",
+  "date": "2026-11-08",
+  "onshape_version": "e8453217d87e9cfdc9a33f65",
+  "CAD_source_sha256": "97e2010cc17d06eb8648cf278b9aae2fd85b6e909bd657b9b216f3b37748665f",
+  "scope": "P01 inboard strap slots on both sides; external ears removed. Six physical pieces on one H2D 0.4 mm PLA plate; four local 100% Rectilinear masks (serialized zig-zag). Other five meshes and all rigid placements retained. All six object brims removed; required supports and protected process speeds retained.",
+  "primary_refs": [
+    "P01",
+    "P04",
+    "P05",
+    "P11",
+    "Q01",
+    "P06"
+  ],
+  "object_count": 6,
+  "modifier_count": 4,
+  "native_project_sha256": "860843b3df9f988d67db68bae78e30dd8f2d7fc0fbe8e4c810ef78087e17eaa1",
+  "sliced_project_sha256": "a121127456c1da2cdb51b6cc53c52e4b02b5afb1a10c52a2cc875619dc414551",
+  "layout_sha256": "15bae7c934c2f575c510262389da0e052d751dec861b9fbdd5b66ccfbd88324e",
+  "estimated_seconds": 39559,
+  "estimated_grams": 230.01,
+  "validation": {
+    "native-project-check.json": {
+      "status": "PASS_NATIVE_R15_INBOARD_STRAPS",
+      "sha256": "02b9e3b75fee578bad9d6cc4d108bbd56ef9bb08e0d5f3af535c2ac2c03fb50c"
+    },
+    "toolpath-check.json": {
+      "status": "PASS_ACTUAL_R15_INBOARD_STRAPS_TOOLPATHS",
+      "sha256": "1d24cda83a13899ccd5db5805c9fb5f913d91b7c298568705781638e409587aa"
+    },
+    "p04-surface-check.json": {
+      "status": "PASS",
+      "sha256": "43210eb00d0dfdd2a761876ea16a446c02e857a04d0f015eb0f02028f3932624"
+    },
+    "print-feature-check.json": {
+      "status": "PASS_R15_PRINT_FEATURES",
+      "sha256": "7933de29eac3e612de1bb1b2e6fba4cf6712c93b46f4f323c59ba2e8e5d7a9de"
+    },
+    "palm-support-check.json": {
+      "status": "PASS_R15_PALM_SUPPORTS",
+      "sha256": "a34d396217d3611dbbea831a119955c654e87955a47c98aa35db8bd8935dda18"
+    },
+    "strap-slot-check.json": {
+      "status": "PASS_R15_STRAP_SLOT_PRINT_PATHS",
+      "sha256": "fb6f4893109921dcd240927c42e8d48c88f0d23ab30a0f699c420f099fbef315"
+    },
+    "strap-routing-check.json": {
+      "status": "PASS_NATIVE_R15_STRAP_ROUTING",
+      "sha256": "5d886e72346ce9c7e2b1210db8117965fee187cf5684286549c0db8a2a35b4d1"
+    },
+    "no-brim-check.json": {
+      "status": "PASS_R15_NO_BRIM",
+      "sha256": "cb84ee402013245f963ee9ae19c93910e544e9b9bf3cbf5cdea83a20b66e709d"
+    },
+    "cli-diagnostics.json": {
+      "status": "PASS_R15_OFFICIAL_H2D_DIAGNOSTICS",
+      "sha256": "2ba4eaef2656f151d0958a2456853588d622e619592670608206351bc1c80cd7"
+    }
+  },
+  "brim_changes": {
+    "P01": {
+      "old_type": "outer_only",
+      "old_width_mm": 5.0,
+      "new_type": "no_brim",
+      "new_width_mm": 0
+    },
+    "P04": {
+      "old_type": "outer_only",
+      "old_width_mm": 5.0,
+      "new_type": "no_brim",
+      "new_width_mm": 0
+    },
+    "P05": {
+      "old_type": "outer_only",
+      "old_width_mm": 5.0,
+      "new_type": "no_brim",
+      "new_width_mm": 0
+    },
+    "P11": {
+      "old_type": "outer_only",
+      "old_width_mm": 2.0,
+      "new_type": "no_brim",
+      "new_width_mm": 0
+    },
+    "Q01": {
+      "old_type": "outer_only",
+      "old_width_mm": 3.0,
+      "new_type": "no_brim",
+      "new_width_mm": 0
+    },
+    "P06": {
+      "old_type": "outer_only",
+      "old_width_mm": 4.0,
+      "new_type": "no_brim",
+      "new_width_mm": 0
+    }
+  },
+  "candidate_evidence_directory": "checkpoints/confirmed-local-candidate",
+  "baseline_frozen": true,
+  "physical_qualification": false,
+  "no_printer_transmission": true,
+  "GUI_validation": "Root observed native GUI import and the one-plate layout. GUI sliced preview was not run because the user was active in filament mapping. Final estimates and actual path verification come from the official CLI; see validation/gui-check.json."
+}

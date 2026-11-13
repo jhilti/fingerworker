@@ -1,0 +1,52 @@
+{
+  "status": "FROZEN_R18_RETAINED_SIDE_THUMB_CONTACT_REGIONS",
+  "CAD_source_sha256": "345b90327031276f8085e2c225c795946036d7faa4f2ac01b764101b9f4b3dd1",
+  "geometry_preflight_path": "review/organic-palm-2026-11-13/mechanics/preflight.json",
+  "geometry_preflight_sha256": "8df98b65dd7d303b361fc3374ee92f07470f7c513c3a8c990166fa6114619c73",
+  "pockets": [
+    {
+      "name": "negative",
+      "center_xy_mm": [
+        -24,
+        -75
+      ],
+      "radius_mm": 14,
+      "floor_z_mm": 20,
+      "top_z_mm": 33,
+      "floor_round_mm": 1.5,
+      "mouth_round_mm": 0.4,
+      "contact_radial_allowance_mm": 0.4
+    },
+    {
+      "name": "positive",
+      "center_xy_mm": [
+        -24,
+        75
+      ],
+      "radius_mm": 14,
+      "floor_z_mm": 20,
+      "top_z_mm": 33,
+      "floor_round_mm": 1.5,
+      "mouth_round_mm": 0.4,
+      "contact_radial_allowance_mm": 0.4
+    }
+  ],
+  "allowance_basis": "Conservative radial envelope: cylinder R14 plus maximum declared mouth fillet R0.4. Lower tool round R1.5 lies inside the R14 cylinder; floor underside supports are excluded below Z20.05.",
+  "added_cheek": {
+    "x_mm": [
+      -24,
+      -8
+    ],
+    "absolute_y_mm": [
+      59,
+      65
+    ],
+    "z_mm": [
+      16.5,
+      24.1
+    ],
+    "outer_taper": "45 degrees from |Y|63/Z16.5 to |Y|65/Z18.5",
+    "corner_radius_mm": 2
+  },
+  "retention_basis": "Organic loft limited to |Y|<=58; side thumb recess contact begins near |Y|61 and is unchanged. Native CAD verification remains a release gate."
+}

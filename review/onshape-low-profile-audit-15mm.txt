@@ -1,0 +1,20 @@
+{ contacts : 0 , gap : 0.0002999999999999999 meter , interferences : 0 , pair : Carriage / base and printed tracks , pose : 0.015 meter , status : CLEAR , unclassified : 0 }
+{ contacts : 0 , gap : 0.0002999999999999947 meter , interferences : 0 , pair : Carriage / guide rods , pose : 0.015 meter , status : CLEAR , unclassified : 0 }
+{ contacts : 0 , gap : 0.0030000000000000027 meter , interferences : 0 , pair : Carriage / springs , pose : 0.015 meter , status : CLEAR , unclassified : 0 }
+{ contacts : 0 , gap : 0.016500000000000015 meter , interferences : 0 , pair : Carriage / rear retainers , pose : 0.015 meter , status : CLEAR , unclassified : 0 }
+{ contacts : 0 , gap : 0.015000000000000013 meter , interferences : 0 , pair : Carriage / return pads , pose : 0.015 meter , status : CLEAR , unclassified : 0 }
+{ contacts : 0 , gap : 0.015 meter , interferences : 0 , pair : Carriage / full-travel screws , pose : 0.015 meter , status : CLEAR , unclassified : 0 }
+{ contacts : 0 , gap : 0.024800000000000003 meter , interferences : 0 , pair : Carriage / switch case , pose : 0.015 meter , status : CLEAR , unclassified : 0 }
+{ contacts : 0 , gap : 0.013200000000000003 meter , interferences : 0 , pair : Carriage / switch actuator , pose : 0.015 meter , status : CLEAR , unclassified : 0 }
+{ contacts : 0 , gap : 0.0092 meter , interferences : 0 , pair : Adjustable cam / switch actuator , pose : 0.015 meter , status : CLEAR , unclassified : 0 }
+{ contacts : 0 , gap : 0.0009016358188827372 meter , interferences : 0 , pair : Switch actuator / case , pose : 0.015 meter , status : CLEAR , unclassified : 0 }
+{ contacts : 0 , gap : 0.0009999999999999686 meter , interferences : 0 , pair : Springs / surrounding structure , pose : 0.015 meter , status : CLEAR , unclassified : 0 }
+{ contacts : 0 , gap : 0 meter , interferences : 0 , pair : Spring seats / structure , pose : 0.015 meter , status : REVIEW - unclassified contact , unclassified : 36 }
+{ contacts : 0 , gap : 0.0002999999999999947 meter , interferences : 0 , pair : Yoke / base rods and palm , pose : 0.015 meter , status : CLEAR , unclassified : 0 }
+{ contacts : 0 , gap : 0.0003249999999999955 meter , interferences : 0 , pair : Yoke / sensor , pose : 0.015 meter , status : CLEAR , unclassified : 0 }
+{ contacts : 0 , gap : 0 meter , interferences : 0 , pair : Sensor / base , pose : 0.015 meter , status : REVIEW - unclassified contact , unclassified : 3 }
+{ contacts : 0 , gap : 0 meter , interferences : 0 , pair : Palm support / base , pose : 0.015 meter , status : REVIEW - unclassified contact , unclassified : 22 }
+{ contacts : 0 , gap : 0 meter , interferences : 0 , pair : Palm sleeve / rigid support , pose : 0.015 meter , status : REVIEW - unclassified contact , unclassified : 5 }
+{ contacts : 0 , gap : 9.999999999999593e-5 meter , interferences : 0 , pair : Hand / climbing carriage , pose : 0.015 meter , status : CLEAR , unclassified : 0 }
+{ contacts : 0 , gap : 0.0001000000000000098 meter , interferences : 0 , pair : Hand / palm sleeve , pose : 0.015 meter , status : CLEAR , unclassified : 0 }
+{ contacts : 0 , gap : 0.0020306487549355003 meter , interferences : 0 , pair : Hand / remaining device , pose : 0.015 meter , status : CLEAR , unclassified : 0 }

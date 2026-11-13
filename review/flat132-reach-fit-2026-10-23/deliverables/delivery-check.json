@@ -1,0 +1,11 @@
+{
+  "path": "deliverables/Flat132_R5_Closer_Grip.zip",
+  "sha256": "98838ee415d23a3aff0dda5e14a6c8f60ea898c823193da7ccfcf7276fc6fae4",
+  "bytes": 60520489,
+  "members": 130,
+  "crc_check": "PASS",
+  "member_sha256_checks": "PASS",
+  "print_STLs": 15,
+  "device_assembly_STLs": 53,
+  "ISO81_hardware_STLs": 2
+}

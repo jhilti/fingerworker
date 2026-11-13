@@ -1,0 +1,800 @@
+{
+  "status": "EXACT_SOURCE_RIGID_TRANSFORMS_PASS",
+  "objects": 18,
+  "no_scaling": true,
+  "no_remeshing": true,
+  "parts": [
+    {
+      "ref": "P01",
+      "file": "P01_INTEGRATED_SOLID_PALM.stl",
+      "sha256": "8413e27e99a1e9ec183ea00347862e125f74226f9fbcb13ee6612ccb73c0f0a4",
+      "source_sha256": "88d5dc94bd70ad20b651ca7cdeed494058dd540d7e75447e38b5db70377c09d6",
+      "rigid_rotation_3x3": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        46.10000228881836,
+        66.0,
+        2.0
+      ],
+      "scale": 1.0,
+      "unit": "mm",
+      "bbox_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          175.10000610351562,
+          132.0,
+          35.0
+        ]
+      ],
+      "faces": 63976,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "P04",
+      "file": "P04.stl",
+      "sha256": "65c8db00b6ae2cbd970c2b87fdb0d2bb8ca6727fda20b283ab985ebd34996a34",
+      "source_sha256": "fdb84301af40be4ca84b838ebc1847b18ac0b2854818e3bfe63c1085d6ff0b7c",
+      "rigid_rotation_3x3": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          0
+        ]
+      ],
+      "translation_mm": [
+        -5.0,
+        63.0,
+        119.0
+      ],
+      "scale": 1.0,
+      "unit": "mm",
+      "bbox_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          25.0,
+          126.0,
+          59.0
+        ]
+      ],
+      "faces": 51838,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "P05",
+      "file": "P05.stl",
+      "sha256": "a3fc7fc4d20c5ea1cfb0c8d21c3ac35c65bad7e2d1f6164df157d34d448d8232",
+      "source_sha256": "708aa073c8b30dab19e3c7700ca2d05ff4264845293c3428a68df1c2ced52966",
+      "rigid_rotation_3x3": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        7.0,
+        63.0,
+        -7.0
+      ],
+      "scale": 1.0,
+      "unit": "mm",
+      "bbox_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          37.0,
+          126.0,
+          22.0
+        ]
+      ],
+      "faces": 15564,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "P08",
+      "file": "P08.stl",
+      "sha256": "e394a824f9d6583686f8303f5c6f9263c1700d127c3a8d91204fb117db6ca06b",
+      "source_sha256": "11f47952a86814ce1c6a80ad25edde546f99b8664a610e397851ec8ae9fe8b2a",
+      "rigid_rotation_3x3": [
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "translation_mm": [
+        62.0,
+        46.10000228881836,
+        -0.0
+      ],
+      "scale": 1.0,
+      "unit": "mm",
+      "bbox_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          124.0,
+          22.500001907348633,
+          9.5
+        ]
+      ],
+      "faces": 8442,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "P09",
+      "file": "P09.stl",
+      "sha256": "c6dc21a35b143b5a1791d84f69c498d725327da90c85fcd25c646c8802ce475c",
+      "source_sha256": "2b809ab1f7cc350b96862cfd7d4878ac1907bda7cf793f78aa0e445e7264084a",
+      "rigid_rotation_3x3": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "translation_mm": [
+        55.0,
+        46.10000228881836,
+        8.899999618530273
+      ],
+      "scale": 1.0,
+      "unit": "mm",
+      "bbox_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          110.0,
+          22.500001907348633,
+          6.749999523162842
+        ]
+      ],
+      "faces": 2694,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "H040",
+      "file": "H040_HARD_PLA_PROXY_NO_LOAD.stl",
+      "sha256": "10332508645dadbeaa8dfc897062fefbaca9472e17559c5ed8f5e61a499d3c2d",
+      "source_sha256": "ed73c2217009079342531d1dd16e68c206790ab2f2ca3b5e85f41e866079d427",
+      "rigid_rotation_3x3": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        16.0,
+        54.0,
+        -15.0
+      ],
+      "scale": 1.0,
+      "unit": "mm",
+      "bbox_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          141.0,
+          6.0,
+          6.0
+        ]
+      ],
+      "faces": 576,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "H041",
+      "file": "H041_HARD_PLA_PROXY_NO_LOAD.stl",
+      "sha256": "132a4dd8d69e29fe8687b059202d6d57ca4ce5eebd07c519864749a5ed460726",
+      "source_sha256": "c3b51c917e3598d19a26ff32510401be6405293cc25d02f78f5a0891912a6a19",
+      "rigid_rotation_3x3": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        16.0,
+        -48.0,
+        -15.0
+      ],
+      "scale": 1.0,
+      "unit": "mm",
+      "bbox_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          141.0,
+          6.0,
+          6.0
+        ]
+      ],
+      "faces": 576,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "P060",
+      "file": "P060.stl",
+      "sha256": "df34babeaf4615b6acd2ae90a402f2dbedc80718710d7ac7e5db488a8c86f307",
+      "source_sha256": "fb1337d8882240a0e3c49fcdb6e88d8d0fef58940405575e20dc9dcfb7179a0e",
+      "rigid_rotation_3x3": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        -120.5,
+        65.0,
+        -4.5
+      ],
+      "scale": 1.0,
+      "unit": "mm",
+      "bbox_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          9.0,
+          28.0,
+          26.0
+        ]
+      ],
+      "faces": 5864,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "P061",
+      "file": "P061.stl",
+      "sha256": "a9033d44795fefd274ec28b7b6d9542c3cc5b25b857d815ec61136708ab082e4",
+      "source_sha256": "b4517d1c0e1b163d4f0c6e9a42427e5075d584665d532118db72d9408874befa",
+      "rigid_rotation_3x3": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        -120.5,
+        -37.0,
+        -4.5
+      ],
+      "scale": 1.0,
+      "unit": "mm",
+      "bbox_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          9.0,
+          28.0,
+          26.0
+        ]
+      ],
+      "faces": 5864,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "P120",
+      "file": "P120.stl",
+      "sha256": "9ba0e8c5ee00068384e6c29aa195d2ab266290ea851aed5523a92ffbf914f52e",
+      "source_sha256": "4e96f14152f1d40821836566e3dca17ccba1471c34db20bb69ac68acd27a7e48",
+      "rigid_rotation_3x3": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "translation_mm": [
+        26.5,
+        60.75,
+        -119.19999694824219
+      ],
+      "scale": 1.0,
+      "unit": "mm",
+      "bbox_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          23.200000762939453,
+          19.5,
+          9.400009155273438
+        ]
+      ],
+      "faces": 1846,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "P121",
+      "file": "P121.stl",
+      "sha256": "82d95324dfb43de9e8c3a2870362ec8c640b79062fb4f5d0dcc770c39a5b6b21",
+      "source_sha256": "55e9ffd7d0a4a0ceceb5ddf663837882afb022c3a607406b8697d4972ff65905",
+      "rigid_rotation_3x3": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "translation_mm": [
+        26.5,
+        -41.25,
+        -119.19999694824219
+      ],
+      "scale": 1.0,
+      "unit": "mm",
+      "bbox_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          23.200000762939453,
+          19.5,
+          9.400009155273438
+        ]
+      ],
+      "faces": 1846,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "P11",
+      "file": "P11.stl",
+      "sha256": "0bed6889942d67e7bbad3634e4b5d817f7c78e0d4271af751420248f1f420f2b",
+      "source_sha256": "ee81507b31f348ae644d268f5525a825d5eecbd44f580824105b74e3a191d49b",
+      "rigid_rotation_3x3": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "translation_mm": [
+        -62.5,
+        7.699999809265137,
+        19.0
+      ],
+      "scale": 1.0,
+      "unit": "mm",
+      "bbox_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          6.0,
+          8.399999618530273,
+          10.0
+        ]
+      ],
+      "faces": 598,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "P10",
+      "file": "P10.stl",
+      "sha256": "d86d0ab3e6c274e7afde2d76a6156df849d40ad3cd0b9c2c2208463cb372fc99",
+      "source_sha256": "8ee66bba498b46d593a8d9c00581582cd76b35677312eb81d427f808df8b08d8",
+      "rigid_rotation_3x3": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        28.100000381469727,
+        -22.399999618530273,
+        -3.4000000953674316
+      ],
+      "scale": 1.0,
+      "unit": "mm",
+      "bbox_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          3.200000762939453,
+          10.200002670288086,
+          1.0
+        ]
+      ],
+      "faces": 1172,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "P070a",
+      "file": "P070a_HARD_PLA_PROXY_NO_LOAD.stl",
+      "sha256": "b6b414f4180984f9a42ca2f230e3edaee2b3c99e54e84a6b8c334d57b8261b87",
+      "source_sha256": "b2043cb95741498d64262f3011a79d3a14eb64934d9a558602a9f71abf42bf74",
+      "rigid_rotation_3x3": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "translation_mm": [
+        20.0,
+        60.75,
+        -119.0
+      ],
+      "scale": 1.0,
+      "unit": "mm",
+      "bbox_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          6.0,
+          4.5,
+          1.5
+        ]
+      ],
+      "faces": 12,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "P070b",
+      "file": "P070b_HARD_PLA_PROXY_NO_LOAD.stl",
+      "sha256": "b6b414f4180984f9a42ca2f230e3edaee2b3c99e54e84a6b8c334d57b8261b87",
+      "source_sha256": "c2e968a11b33abb1d58fb03ba6f4ba6ca14a53ecfafa3ef001bf03d2d10b881a",
+      "rigid_rotation_3x3": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "translation_mm": [
+        20.0,
+        45.75,
+        -119.0
+      ],
+      "scale": 1.0,
+      "unit": "mm",
+      "bbox_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          6.0,
+          4.5,
+          1.5
+        ]
+      ],
+      "faces": 12,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "P071a",
+      "file": "P071a_HARD_PLA_PROXY_NO_LOAD.stl",
+      "sha256": "b6b414f4180984f9a42ca2f230e3edaee2b3c99e54e84a6b8c334d57b8261b87",
+      "source_sha256": "4cacdcfcc514e130026a3c5b37d03bb89e0f53cb780d221184c31b71bb5757f7",
+      "rigid_rotation_3x3": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "translation_mm": [
+        20.0,
+        -41.25,
+        -119.0
+      ],
+      "scale": 1.0,
+      "unit": "mm",
+      "bbox_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          6.0,
+          4.5,
+          1.5
+        ]
+      ],
+      "faces": 12,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "P071b",
+      "file": "P071b_HARD_PLA_PROXY_NO_LOAD.stl",
+      "sha256": "b6b414f4180984f9a42ca2f230e3edaee2b3c99e54e84a6b8c334d57b8261b87",
+      "source_sha256": "50aa9ad8ee8fb500dc0e13b1ab8dd333ccaeab6f0fa7fe7625ba79d21ae3c29d",
+      "rigid_rotation_3x3": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "translation_mm": [
+        20.0,
+        -56.25,
+        -119.0
+      ],
+      "scale": 1.0,
+      "unit": "mm",
+      "bbox_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          6.0,
+          4.5,
+          1.5
+        ]
+      ],
+      "faces": 12,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "Q01",
+      "file": "Q01_UNLOADED_TEST_FIXTURE.stl",
+      "sha256": "dae527b85607d5c44d4380f605d9bcafeca42f140b0a00425e9a0a5ae5fdafea",
+      "source_sha256": "4a814328544c999013ab754d2d1c3f9a99e287e034066df127525cfe912a394b",
+      "rigid_rotation_3x3": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        8.998221397399902,
+        9.0,
+        -0.0
+      ],
+      "scale": 1.0,
+      "unit": "mm",
+      "bbox_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          17.996442794799805,
+          18.0,
+          28.0
+        ]
+      ],
+      "faces": 2540,
+      "automatic_repairs": 0
+    }
+  ]
+}

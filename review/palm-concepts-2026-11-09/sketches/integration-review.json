@@ -1,0 +1,33 @@
+{
+  "purpose": "Concept integration review, not a release",
+  "changes_proposed": [
+    "Reshape only P01",
+    "Upright central contact backed by existing fixed wall",
+    "Rounded shoulders retaining rod sockets",
+    "Shallow wristward thumb returns with sloped undersides"
+  ],
+  "first_profile_candidate": {
+    "crown_z_mm": 33,
+    "wrist_face_x_mm": -29,
+    "central_added_stock_max_x_mm": -16,
+    "status": "Illustrative starting profile, no human-fit or native CAD validation"
+  },
+  "retained": [
+    "P05 floating yoke and sensor load path",
+    "Steel rod sockets and lateral service access",
+    "30mm slider stroke",
+    "Sensor +3.2mm X then +40mm Z removal",
+    "Electronics roof and attachment interfaces",
+    "Inboard strap slots"
+  ],
+  "limitations": [
+    "No guarantee of hands-free retention; thumb must still grip",
+    "Only existing R15 is geometrically validated",
+    "One-plate layout and print time need re-slicing after CAD changes"
+  ],
+  "sources": {
+    "fingerworker_mvp.fs": "97e2010cc17d06eb8648cf278b9aae2fd85b6e909bd657b9b216f3b37748665f",
+    "review/inboard-straps-2026-11-08/validation/native-motion.json": "d660cbc9aba0e2d548e7c5b7f736b6b3dd71aadd4eba207daffedc8f8c22df9f",
+    "review/near-palm-2026-11-06/mechanics/design-specification.json": "49d3ba23161c416d308b4ad64fdea807f5e8da22102002ce36139119fbb9e49a"
+  }
+}

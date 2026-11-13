@@ -1,0 +1,17 @@
+{
+  "status": "PASS_GUI_IMPORT_AND_PLATE_LAYOUT_ONLY",
+  "opened_generic_project_sha256": "860843b3df9f988d67db68bae78e30dd8f2d7fc0fbe8e4c810ef78087e17eaa1",
+  "observed_via": "Native CUA Bambu Studio screenshot and accessibility tree on 2026-11-08",
+  "project_window_title": "Fingerworker_R15_H2D_04mm_PLA_Inboard_Straps",
+  "printer_profile": "Bambu Lab H2D",
+  "nozzles_observed": "Both 0.4 mm Standard",
+  "filament_observed": "Generic PLA",
+  "bed_observed": "Textured PEI",
+  "plate_count_observed": 1,
+  "physical_objects_observed": 6,
+  "modifiers_observed": 4,
+  "gui_sliced_preview_status": "NOT_RUN_USER_ACTIVE_FILAMENT_MAPPING",
+  "limitation": "After successful import/layout observation, local Slice click was aborted before dispatch because the user changed the app. A fresh accessibility observation showed the AMS filament synchronization dialog. The user dialog was left untouched. Final slice estimates and no-brim verification are from the official CLI and actual toolpath audits, not a GUI sliced preview.",
+  "printer_job_started": false,
+  "evidence": {}
+}

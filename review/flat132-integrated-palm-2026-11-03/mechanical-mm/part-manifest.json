@@ -1,0 +1,14 @@
+{
+  "source_sha256": "5ce830ff2b06cd8d318d3c44dbc1f3385697526a9a679d2a2078f64f81854237",
+  "parts": {
+    "H15": {
+      "file": "H15.step",
+      "sha256": "14b4c1d93f8717ae60c56d9d6e4718c0554767432b1ad7ebb64befa075fe90d9",
+      "units": "mm",
+      "coordinates": "Original native assembly coordinates; no transform or geometry repair.",
+      "native_step_sha256": "f983a713a66b07a945b0aa4cd751846810d8538dd1b9a8f1ce64e569586081ec",
+      "roundtrip_symmetric_difference_mm3": 0.0
+    }
+  },
+  "p01_cad": "Use P01 within the original whole native/Flat132_R10_final_AP214.step; no locally reserialized individual P01 STEP is supplied."
+}

@@ -1,0 +1,96 @@
+{
+  "status": "PASS_FINAL_R13_DELIVERY",
+  "failed_count": 0,
+  "checks": [
+    {
+      "name": "ZIP CRC and unique safe member paths",
+      "status": "PASS"
+    },
+    {
+      "name": "Every archive member except SHA256.json is manifest-bound",
+      "status": "PASS",
+      "files": 71,
+      "manifest_files": 70
+    },
+    {
+      "name": "Every archive member matches its manifest and final workspace file",
+      "status": "PASS",
+      "mismatches": []
+    },
+    {
+      "name": "One editable project; zero G-code, sliced project or candidate artifacts",
+      "status": "PASS",
+      "projects": [
+        "Fingerworker_R13_H2D_04mm_PLA_Fit_Test.3mf"
+      ],
+      "forbidden": []
+    },
+    {
+      "name": "Exactly seven device parts plus three unloaded fit aids",
+      "status": "PASS",
+      "refs": [
+        "H040",
+        "H041",
+        "P01",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P11",
+        "Q01"
+      ]
+    },
+    {
+      "name": "All relative Markdown links work after ZIP extraction",
+      "status": "PASS",
+      "broken": []
+    },
+    {
+      "name": "Bundled CAD matches frozen R13 source",
+      "status": "PASS",
+      "source_sha256": "82b7d65708c46cd9d4b6ac271047eac2f638f0222451df99eae0780525edd851"
+    },
+    {
+      "name": "Final canonical MONTAGE.md copied unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "Final canonical BOM_Aenderungen.csv copied unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "Every bundled validation certificate passes",
+      "status": "PASS",
+      "statuses": {
+        "validation/cli-diagnostics.json": "PASS_BASELINE_OFFICIAL_H2D_DIAGNOSTICS",
+        "validation/fixture-q01-check.json": "PASS_Q01_NATIVE_FIT",
+        "validation/native-geometry.json": "PASS_EXACT_NATIVE_R13",
+        "validation/native-motion.json": "PASS_NATIVE_FIXED_SUPPORT_AND_FULL_TRANSLATIONAL_MOTION",
+        "validation/native-project-check.json": "NATIVE_PROJECT_AND_ALL_THREE_SLICES_PASS",
+        "validation/p04-surface-check.json": "PASS",
+        "validation/palm-support-check.json": "PASS_FINAL_R13_PALM_SUPPORTS",
+        "validation/print-feature-check.json": "PASS_FINAL_R13_PRINT_FEATURES",
+        "validation/service-native.json": "PASS_NATIVE_R13_SENSOR_SERVICE",
+        "validation/toolpath-check.json": "PASS_ACTUAL_R13_TOOLPATHS"
+      }
+    },
+    {
+      "name": "Native frozen version and automatic P01 bridges retained",
+      "status": "PASS",
+      "native_version": "18d76d07da0c354cee82580a"
+    },
+    {
+      "name": "Frozen R12 delivery archive remains unchanged",
+      "status": "PASS"
+    }
+  ],
+  "zip": "print/bambu-R13-simple-palm-2026-11-03/Fingerworker_R13_H2D_04mm_PLA_Fit_Test_Package.zip",
+  "zip_sha256": "174b150f387d4b1b96cd03a9a75a1af2cca6d60f46a3370998a849231ccc8e4b",
+  "bytes": 6195375,
+  "files": 71,
+  "native_source_sha256": "82b7d65708c46cd9d4b6ac271047eac2f638f0222451df99eae0780525edd851",
+  "editable_project_sha256": "d540b20448c9d78bb5b0438a4f637069cf49be15de16449616b4b80136fe1fdc",
+  "slice_sha256": "5463d749a769ac93ddc487e230c0423284ad4a8a46419d368b97d1ed59010f69",
+  "no_printer_transmission": true
+}

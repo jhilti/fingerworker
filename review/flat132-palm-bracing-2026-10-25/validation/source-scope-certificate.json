@@ -1,0 +1,26 @@
+{
+  "status": "PASS_EXACT_P02_ONLY_SOURCE_SCOPE",
+  "source": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-palm-bracing-2026-10-25/fingerworker_flat132_palm_bracing.fs",
+  "source_sha256": "16972ba9341f4cdf763a5570dad82a4fbd601f0935d0a7657be85813f97ff2b1",
+  "baseline_source": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-palm-cover-2026-10-23/fingerworker_flat132_palm_cover.fs",
+  "baseline_source_sha256": "6099df42e341ff9f5c3439709a23107325d10ef922f616bdcda6fa6ef64d41c1",
+  "baseline_immutable_version_id": "6965afcca3af7c58ef3ac73f",
+  "source_build_sha256": "fb3d30d3ece52a3b9f190743d29ccbef7aa4bf022f7a96e7bf465d7478918728",
+  "exact_forward_reconstruction_matches_all_source_bytes": true,
+  "changed_ref": "P02",
+  "baseline_validation_summary": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-palm-cover-2026-10-23/validation/validation-summary.json",
+  "baseline_validation_summary_sha256": "f12c619dadcad5e019c728e33e689a12e61e388d2495ae15186324bb138c11c0",
+  "baseline_evidence_files_sha256": {
+    "manifest.json": "d2b27bff94de5703b31c75cb6037942202742496c01af210c1042d0c0a2bbc15",
+    "source-scope-certificate.json": "5a82a671cdecca7b0920e8d4cd7f684784199bfc807aa22bc25a8d539911c14f",
+    "native-step-inventory.json": "ab6fd25202187994a1362617eb771b311b453b1a80939bca5df89d04a1c14de2",
+    "unchanged-native-breps.json": "abed0f02916de917f4f1ce6f4f670757ba6c013354e47317f14b49340ce21f12",
+    "palm-exact-audit.json": "be5b7ac0a20fbc91ef42a7bbefd8fa009f1d6caa1433059cd2875d86946f27d2",
+    "palm-path-audit.json": "338aaeb0b40af6751342513aabe33e727551c0659c9d5b649e6eae8bb7e5e0d8",
+    "palm-service-audit.json": "013265752dc45ef0c9c28c0fb0bc030145d03ee9a7889499a4966bbc84e39483",
+    "native-pose-audit.json": "460bc0a1e933c27b4956487e43388945021de82c9b217371285c011136e85d3f",
+    "audit_palm_cover.py": "db71fead231c3ac035c9b83ec62ee4ecab5db314963ed3d32826e2b81506cf49",
+    "requirements.txt": "ea321b865315f04bfaa93885cd3f3f9b5bb54650d77fa270cd2d1c96bcc746d7"
+  },
+  "reuse_policy": "All original R8 P02 material and all122 other native bodies must remain exact. Unchanged R8 operating/service evidence retained; only added P02 stock receives new full-domain/contact/withdrawal checks. No prior rear or print qualification is relabeled as newly run."
+}

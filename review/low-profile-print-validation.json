@@ -1,0 +1,145 @@
+{
+  "source": "Onshape, compact central guide and exterior wrist-side palm, 20 September 2026; final 0 mm pose, hand off; binary STL, millimetres, Fine",
+  "source_zip_sha256": "fbb1ffcd09625d406cce1d0274c130176817bb60417709f338617ca6f8db4195",
+  "cad_source_sha256": "de5b4384021efa11bd421e81f2d8b6a0269cdcc44ef6f2ad7ee942fc38414364",
+  "parts": [
+    {
+      "file": "P01_base.stl",
+      "triangles": 35476,
+      "size_mm": [
+        156.0,
+        180.0,
+        29.0
+      ],
+      "volume_mm3": 128022.636,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "522e4496a7a144467f8d5da9357330b6c6a1600155935b9af9089d5c7d68d975"
+    },
+    {
+      "file": "P02_palm_bolster.stl",
+      "triangles": 22898,
+      "size_mm": [
+        36.25,
+        128.0,
+        17.998
+      ],
+      "volume_mm3": 35718.618,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "08b58a5ed840d436cbc8a6ce68cda2a3f4d06c46795178f6ecf41d298a891663"
+    },
+    {
+      "file": "P061_rear_retainer_right.stl",
+      "triangles": 2902,
+      "size_mm": [
+        8.0,
+        24.0,
+        22.0
+      ],
+      "volume_mm3": 2821.612,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "6ecded77273a1041d372cab82483b7947f0bcacfa8aa4b897c2b51ebb1c1493e"
+    },
+    {
+      "file": "P070b_return_pad_left_b_TPU.stl",
+      "triangles": 12,
+      "size_mm": [
+        6.0,
+        4.5,
+        1.5
+      ],
+      "volume_mm3": 40.5,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "550c72e767fa284f65b975cb46274fb3bcd2c9abe26cb755d3f8a399b8668ba8"
+    },
+    {
+      "file": "P071a_return_pad_right_a_TPU.stl",
+      "triangles": 12,
+      "size_mm": [
+        6.0,
+        4.5,
+        1.5
+      ],
+      "volume_mm3": 40.5,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "550c72e767fa284f65b975cb46274fb3bcd2c9abe26cb755d3f8a399b8668ba8"
+    },
+    {
+      "file": "P060_rear_retainer_left.stl",
+      "triangles": 2902,
+      "size_mm": [
+        8.0,
+        24.0,
+        22.0
+      ],
+      "volume_mm3": 2821.612,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "dc90291a9872fe95535fc4277255b4d259779857616ef0503c8dedabab4ca55f"
+    },
+    {
+      "file": "P071b_return_pad_right_b_TPU.stl",
+      "triangles": 12,
+      "size_mm": [
+        6.0,
+        4.5,
+        1.5
+      ],
+      "volume_mm3": 40.5,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "550c72e767fa284f65b975cb46274fb3bcd2c9abe26cb755d3f8a399b8668ba8"
+    },
+    {
+      "file": "P03_palm_sleeve_TPU.stl",
+      "triangles": 15760,
+      "size_mm": [
+        20.499,
+        15.398,
+        86.0
+      ],
+      "volume_mm3": 8415.283,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "1fa50552bc9bccfcf5b588443589f54fff907250374001e7bff2720541dc25ab"
+    },
+    {
+      "file": "P070a_return_pad_left_a_TPU.stl",
+      "triangles": 12,
+      "size_mm": [
+        6.0,
+        4.5,
+        1.5
+      ],
+      "volume_mm3": 40.5,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "550c72e767fa284f65b975cb46274fb3bcd2c9abe26cb755d3f8a399b8668ba8"
+    },
+    {
+      "file": "P04_climbing_carriage.stl",
+      "triangles": 57600,
+      "size_mm": [
+        60.0,
+        174.0,
+        25.0
+      ],
+      "volume_mm3": 125268.48,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "9a802f809eca520b54b314d5de5ff263be0c13a26340ee540237198a72b9de87"
+    },
+    {
+      "file": "P05_floating_yoke.stl",
+      "triangles": 13820,
+      "size_mm": [
+        22.5,
+        174.0,
+        22.0
+      ],
+      "volume_mm3": 62251.618,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "a1078ffb404ad84880fe3bdc1ac10fc06f9a092d47488be9d1bfce73555cb8d4"
+    }
+  ],
+  "material_comparison": {
+    "previous_solid_volume_cm3": 707.039,
+    "current_solid_volume_cm3": 365.482,
+    "reduction_percent": 48.31,
+    "meaning": "Geometric volume of eleven printable solids; actual filament depends on infill, walls and supports."
+  }
+}

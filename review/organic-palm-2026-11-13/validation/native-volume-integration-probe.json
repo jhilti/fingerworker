@@ -1,0 +1,26 @@
+[
+  {
+    "name": "native",
+    "default": 170197.0340884553,
+    "adaptive": 170196.3304063367,
+    "error_estimate": 1.4949906338168321e-09
+  },
+  {
+    "name": "foundation",
+    "default": 167741.07719366258,
+    "adaptive": 167741.0853628453,
+    "error_estimate": 3.5150087462595626e-10
+  },
+  {
+    "name": "added",
+    "default": 2758.9762802887876,
+    "adaptive": 2760.5048115710715,
+    "error_estimate": 9.125363484431747e-09
+  },
+  {
+    "name": "removed",
+    "default": 304.682822375625,
+    "adaptive": 305.01391884198125,
+    "error_estimate": 7.66903678178498e-09
+  }
+]

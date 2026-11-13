@@ -1,0 +1,29 @@
+{
+  "revision": "Flat132 R3",
+  "source_sha256": "4665c3ec4e983e478d34c6cfe923b3b60e6c8848f36b7c54b55b1989eaab6326",
+  "native_archive": "native/Flat132_R3_neutral_final.zip",
+  "native_archive_sha256": "0a8d367507744e7dfaaa46a6c1fa46639551293a0ad738d16f87fbebf2eef738",
+  "units": "mm",
+  "orientation": "Neutral assembly coordinates; unsliced",
+  "replace_since_R2": [
+    "P02",
+    "P03"
+  ],
+  "files": {
+    "P01.stl": "d7a96a2ea3a664a638194f3be3c574918cf87409792f2e1925e01fbf0279ee25",
+    "P02.stl": "351ce5c23f8ec8ae2ae2eff2976c3c5edc977e37ee50504dab3d5068d5f1c3ea",
+    "P03.stl": "ddbdc07e170299b740d517541f01bd9a1f8b67aed4dd5b843a6ef8caa9ce410f",
+    "P04.stl": "f0619efdc68b11aaa28b436cee13837b0e643879f34f71b8305a502a60d5b823",
+    "P05.stl": "58ccc46eccb517b968ad75f0a8aab52cc853f2621410fa6bc1eecfff6d182ccd",
+    "P060.stl": "cc94f09a0b2b30b210654174f9dcc4c84103249373f4cb76e35def56f6f7c361",
+    "P061.stl": "94e89b2a80c4b5237a77b7a0f1c211b89a4befbed4f50e0294c8c75e316c7f9a",
+    "P070a.stl": "238ebfde3626cbde9e99bf4a2d5a2636b34d169608dae53b4ab4cd9c22df9437",
+    "P070b.stl": "59cd6b3ebdc4603288f68586f4adf108bb431e03b1eca396e3e6fa27195c159f",
+    "P071a.stl": "cc069ac5fb2704c0571168890bc48558b8331f49b9b31b4842f36743d9b3eaec",
+    "P071b.stl": "897e3fe214f97a2ef1e1b77893571f57db57071111676d9f69fa5e06ab2059ae",
+    "P08.stl": "11f47952a86814ce1c6a80ad25edde546f99b8664a610e397851ec8ae9fe8b2a",
+    "P09.stl": "2b809ab1f7cc350b96862cfd7d4878ac1907bda7cf793f78aa0e445e7264084a",
+    "P10.stl": "8ee66bba498b46d593a8d9c00581582cd76b35677312eb81d427f808df8b08d8"
+  },
+  "physical_strength_and_retention": "UNQUALIFIED"
+}

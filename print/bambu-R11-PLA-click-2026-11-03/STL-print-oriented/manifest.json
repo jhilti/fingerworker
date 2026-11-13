@@ -1,0 +1,123 @@
+{
+  "objects": 13,
+  "identity": "Rigidly rotated/translated native meshes or unchanged explicitly named unloaded fixtures; no repair or rescale.",
+  "parts": [
+    {
+      "ref": "P01",
+      "file": "P01.stl",
+      "sha256": "45e433aa336cdc076549c4e62bd175301578a89a173910222b51049a82830a12",
+      "plate": 1,
+      "units": "mm",
+      "scale": 1.0,
+      "intent": "INTEGRATED BASE AND SOLID PALM - UNLOADED FIT STUDY"
+    },
+    {
+      "ref": "P04",
+      "file": "P04.stl",
+      "sha256": "7474ebae367cf4871fb7ede782bad9c34bbfaa2c00e2cccca8fecaf3246e1381",
+      "plate": 3,
+      "units": "mm",
+      "scale": 1.0,
+      "intent": "R11 PLA assembly study"
+    },
+    {
+      "ref": "P05",
+      "file": "P05.stl",
+      "sha256": "7a80795f7ed4fda69971999217370ec8ddb7a9fac2a3d4c7f86152ed21224c7e",
+      "plate": 2,
+      "units": "mm",
+      "scale": 1.0,
+      "intent": "R11 PLA assembly study"
+    },
+    {
+      "ref": "P08",
+      "file": "P08.stl",
+      "sha256": "23cef6fd5c048e545f2321c1c8f9248e33c49c3b0d67c2bfd640788786673396",
+      "plate": 2,
+      "units": "mm",
+      "scale": 1.0,
+      "intent": "R11 PLA assembly study"
+    },
+    {
+      "ref": "P09",
+      "file": "P09.stl",
+      "sha256": "a1a47bd3ea07df506cd44c40df5c3e5e99bed4e183f6be4170168ed0b931ae5b",
+      "plate": 2,
+      "units": "mm",
+      "scale": 1.0,
+      "intent": "R11 PLA assembly study"
+    },
+    {
+      "ref": "H040",
+      "file": "H040.stl",
+      "sha256": "10332508645dadbeaa8dfc897062fefbaca9472e17559c5ed8f5e61a499d3c2d",
+      "plate": 2,
+      "units": "mm",
+      "scale": 1.0,
+      "intent": "RIGID PLA SHAPE PROXY - NO LOAD"
+    },
+    {
+      "ref": "H041",
+      "file": "H041.stl",
+      "sha256": "132a4dd8d69e29fe8687b059202d6d57ca4ce5eebd07c519864749a5ed460726",
+      "plate": 2,
+      "units": "mm",
+      "scale": 1.0,
+      "intent": "RIGID PLA SHAPE PROXY - NO LOAD"
+    },
+    {
+      "ref": "P060",
+      "file": "P060.stl",
+      "sha256": "7d7b29dee2890c3aeffc7c1034537508caea43b3e1841c8587056e3db74f856a",
+      "plate": 2,
+      "units": "mm",
+      "scale": 1.0,
+      "intent": "R11 PLA assembly study"
+    },
+    {
+      "ref": "P061",
+      "file": "P061.stl",
+      "sha256": "183a62f06cdfa02d4654b1104e6896791cedbe98c7fadd9394bdc9fae57630ac",
+      "plate": 2,
+      "units": "mm",
+      "scale": 1.0,
+      "intent": "R11 PLA assembly study"
+    },
+    {
+      "ref": "P120",
+      "file": "P120.stl",
+      "sha256": "8040d39b5ab9e241a3ba2e987e613a7495ad47b2e15e3578e7bea9ac4a8c2875",
+      "plate": 2,
+      "units": "mm",
+      "scale": 1.0,
+      "intent": "R11 PLA assembly study"
+    },
+    {
+      "ref": "P121",
+      "file": "P121.stl",
+      "sha256": "16f1bf39147ff21283393b4fdb02716b3c0c999df04e7ed8044c7c1c767ba9a2",
+      "plate": 2,
+      "units": "mm",
+      "scale": 1.0,
+      "intent": "R11 PLA assembly study"
+    },
+    {
+      "ref": "P11",
+      "file": "P11.stl",
+      "sha256": "0bed6889942d67e7bbad3634e4b5d817f7c78e0d4271af751420248f1f420f2b",
+      "plate": 2,
+      "units": "mm",
+      "scale": 1.0,
+      "intent": "R11 PLA assembly study"
+    },
+    {
+      "ref": "Q01",
+      "file": "Q01.stl",
+      "sha256": "dae527b85607d5c44d4380f605d9bcafeca42f140b0a00425e9a0a5ae5fdafea",
+      "plate": 2,
+      "units": "mm",
+      "scale": 1.0,
+      "intent": "UNLOADED TEST FIXTURE - NOT A PRODUCTION PART"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "file": "S01_22mm_spacers_H2D_04mm_PLA_Package.zip",
+  "sha256": "266300975e605bcf5e07f9f15501eadc796d5a59261fe1abc4415b9cc6e75079",
+  "bytes": 125769,
+  "members": 17,
+  "CRC_and_member_SHA": "PASS",
+  "native_project_sha256": "47f7da92329f3a08e87dcd869ab828bfe887fd884a685ff4c59c9f23698ed23f",
+  "source_sha256": "be2724e7fbf7a725786b7f9a52ae62f923ff82b8c44994e72d24cef2e4f2addd",
+  "estimated_seconds": 2549,
+  "estimated_grams": 9.36,
+  "no_printer_transmission": true
+}

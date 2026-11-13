@@ -1,0 +1,97 @@
+{
+  "status": "REVIEW_REQUIRED_FUNCTIONAL_FACES_NOW_SUPPORTED",
+  "date": "2026-11-03",
+  "archive_sha256": "420ba3c7eb7fa2e97dcad0b326f09d9fd558cae33272a69694db1bfd5b1bbe74",
+  "regions": [
+    {
+      "region": "ceiling_skin",
+      "bounds_mm": [
+        [
+          -46.1,
+          -55,
+          7.4
+        ],
+        [
+          -23.6,
+          55,
+          8.11
+        ]
+      ],
+      "support_segments": 346,
+      "support_chord_path_mm": 8186.91223374353,
+      "features": {
+        "Support transition": 120,
+        "Support interface": 226
+      }
+    },
+    {
+      "region": "PCB_keeper",
+      "bounds_mm": [
+        [
+          -44.6,
+          -27,
+          1.6
+        ],
+        [
+          -25.1,
+          -25,
+          2.16
+        ]
+      ],
+      "support_segments": 46,
+      "support_chord_path_mm": 265.4079999999998,
+      "features": {
+        "Support interface": 46
+      }
+    },
+    {
+      "region": "battery_rail",
+      "bounds_mm": [
+        [
+          -41.5,
+          36,
+          6.0
+        ],
+        [
+          -29.5,
+          39,
+          6.61
+        ]
+      ],
+      "support_segments": 28,
+      "support_chord_path_mm": 161.11199999999974,
+      "features": {
+        "Support interface": 28
+      }
+    },
+    {
+      "region": "wire_clamp",
+      "bounds_mm": [
+        [
+          -28.1,
+          22.4,
+          2.8
+        ],
+        [
+          -24.9,
+          32.6,
+          3.41
+        ]
+      ],
+      "support_segments": 8,
+      "support_chord_path_mm": 115.42799999999994,
+      "features": {
+        "Support interface": 8
+      }
+    }
+  ],
+  "printer": "H2D 0.4 mm PLA",
+  "candidate_P01_prediction_seconds": 30615,
+  "candidate_P01_mass_g": 133.81,
+  "reference_R11_P01_prediction_seconds": 29786,
+  "reference_R11_P01_mass_g": 131.35,
+  "nominal_PCB_keeper_clearance_mm": 0.05,
+  "access": "All new underside shelves and ribs remain open downward and toward the wrist. No closed support chamber is introduced; actual removal force and cleaned contact fit are untested.",
+  "limitation": "ROI uses recovered native segment midpoint and chord lengths; this localizes support but is not a full swept-extrusion/support-removal proof. Native final export and re-slice required.",
+  "recommendation": "Keep the separate support-free P09 if zero new functional-surface cleanup is prioritized. Merged P01 is feasible nominally, but costs a frame reprint and needs careful keeper/clamp cleanup."
+}

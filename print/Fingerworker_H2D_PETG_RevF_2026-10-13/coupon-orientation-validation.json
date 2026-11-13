@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "change": "Rigid 180 degree rotation about longitudinal X axis; closed back on bed and channel up",
+  "dimensions_unchanged_mm": [
+    30.0,
+    42.0,
+    5.0
+  ],
+  "volume_unchanged_mm3": 4147.200057792664,
+  "bed_contact_area_mm2": 1260.0,
+  "elevated_horizontal_downward_faces": 0,
+  "inward_flank_angle_degrees": 45,
+  "old_channel_bridge_span_mm": 33.5,
+  "male_unchanged": true,
+  "female_sha256": "498434d7fa8a3acf2225c6ed4c3eab20c787923f3a3ffc32a014f5ac16ea5742",
+  "generator_sha256": "d047a83579a932dd9db08d10106068d946eb75344ec9f0092550bb86e844b6fe",
+  "limitation": "This orientation checks nominal fit without a channel-roof bridge; it does not reproduce the large P04 bridge/underside print process."
+}

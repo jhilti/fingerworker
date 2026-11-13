@@ -1,0 +1,44 @@
+{
+  "status": "PINNED_R9_OFFICIAL_PRESETS_COPIED_FOR_R10",
+  "slicer_version": "02.08.02.61",
+  "profile_root": "/tmp/fingerworker-bambu-r8-runtime/BambuStudio.app/Contents/Resources/profiles/BBL",
+  "machine_macro_hashes": {
+    "gcode_flavor": "0327681c6d43af1719a752a088e93f5192c8740abee2bc63353fe4eff7749287",
+    "machine_start_gcode": "4ec8b2713943115211e1609afa26387ddf8879a1734f2b394d0d69d419539ef5",
+    "machine_end_gcode": "ff2fab8336b6ad542da23462dfd10a184393e5b24c08b2fa3d9b7958b6f5da61",
+    "time_lapse_gcode": "2b9c04541ef0dadc85a85aa2dd5da4af0b7af97cbd0a044ec4bb10f37bba0987",
+    "wrapping_detection_gcode": "9fd5b89fad81b7e0630add42bb742c6974e2d757cbdfd2a69492e3e4a0842847",
+    "change_filament_gcode": "2153741c80f920455d8a9023fcff2f52aa1f2a17436785bde511702f5245d092",
+    "layer_change_gcode": "a99517bc5a923d244b820f64c6d67effd0dd71c5863301bbf7578463805a4641",
+    "machine_pause_gcode": "421d0316bd5e4954c4425af1b89603412254dde55fe6eaf70c90b5b4e620fb66"
+  },
+  "machine_macros_modified": false,
+  "source_files": {
+    "/tmp/fingerworker-bambu-r8-runtime/BambuStudio.app/Contents/Resources/profiles/BBL/machine/Bambu Lab H2D 0.4 nozzle.json": "49564658d34cbb1b151abcf3dfd0d074a39d6bd099602f8a499b959c665ec72c",
+    "/tmp/fingerworker-bambu-r8-runtime/BambuStudio.app/Contents/Resources/profiles/BBL/machine/fdm_bbl_3dp_002_common.json": "f7ce729c4f2d7ba7dd9b2328b8172ada496a8a4e7e41f5f0139e2692b0a106af",
+    "/tmp/fingerworker-bambu-r8-runtime/BambuStudio.app/Contents/Resources/profiles/BBL/machine/fdm_machine_common.json": "26ef8ee697849323e67d8e1a9026c175cebe3397e38c5091dddb5cd3fc52e94c",
+    "/tmp/fingerworker-bambu-r8-runtime/BambuStudio.app/Contents/Resources/profiles/BBL/machine/Bambu Lab H2D 0.4 nozzle template machine_start_gcode.json": "bc1e055a23ed5ba45c9cd50391c466e53bc046f7c680d3be9c2ac32bc10fd365",
+    "/tmp/fingerworker-bambu-r8-runtime/BambuStudio.app/Contents/Resources/profiles/BBL/machine/Bambu Lab H2D 0.4 nozzle template machine_end_gcode.json": "6eb20a3540a84db8cafc58f8acd3ee3edf666e93614f97962a7dbca7508a3468",
+    "/tmp/fingerworker-bambu-r8-runtime/BambuStudio.app/Contents/Resources/profiles/BBL/machine/Bambu Lab H2D 0.4 nozzle template layer_change_gcode.json": "265ec334535be0abe69c8fe8ac66c2425aaf84c3962dcce6dff9a395425c3a7e",
+    "/tmp/fingerworker-bambu-r8-runtime/BambuStudio.app/Contents/Resources/profiles/BBL/machine/Bambu Lab H2D 0.4 nozzle template time_lapse_gcode.json": "bbeb0760b590ae24125eb7e59b5c1cc9831ecd0d773358f9a590c4fa6059e048",
+    "/tmp/fingerworker-bambu-r8-runtime/BambuStudio.app/Contents/Resources/profiles/BBL/machine/Bambu Lab H2D 0.4 nozzle template wrapping_detection_gcode.json": "a3863ec8c9cf38663b22c573dea0392adc39c61211307fd90e31ed11171781c7",
+    "/tmp/fingerworker-bambu-r8-runtime/BambuStudio.app/Contents/Resources/profiles/BBL/machine/Bambu Lab H2D 0.4 nozzle template change_filament_gcode.json": "519ccd20c3ee60d89b5bb922e99e92170a8f3d360768a5907d36adfa555ecabf",
+    "/tmp/fingerworker-bambu-r8-runtime/BambuStudio.app/Contents/Resources/profiles/BBL/process/0.20mm Standard @BBL H2D.json": "b7b8b85568a62ddb58f05c685058a61197e51e1ce9e4263d8d6e4bb6cea50b35",
+    "/tmp/fingerworker-bambu-r8-runtime/BambuStudio.app/Contents/Resources/profiles/BBL/process/fdm_process_dual_0.20_nozzle_0.4.json": "8015670b40629f69ec2a2bff47d549d778e95ee545350e5fa9f60f8d8cbf2adc",
+    "/tmp/fingerworker-bambu-r8-runtime/BambuStudio.app/Contents/Resources/profiles/BBL/process/fdm_process_dual_common.json": "743303a5c3c1962f8c8d178d21e23fc409027ea48574017db51230eac72bd063",
+    "/tmp/fingerworker-bambu-r8-runtime/BambuStudio.app/Contents/Resources/profiles/BBL/process/fdm_process_common.json": "d7981c4b92854f251b8697e1bb621c63fe393f263fb8024ab63c401525d543d7",
+    "/tmp/fingerworker-bambu-r8-runtime/BambuStudio.app/Contents/Resources/profiles/BBL/filament/Generic PLA @BBL H2D.json": "280cd759ce89f9eb440b3dbde582eac9e751155c06aa4b369870c717a6fbc315",
+    "/tmp/fingerworker-bambu-r8-runtime/BambuStudio.app/Contents/Resources/profiles/BBL/filament/Generic PLA @base.json": "530b745e2062c4c577d7acce3601ac7586fc65de394726252354bec0ade3e4c5",
+    "/tmp/fingerworker-bambu-r8-runtime/BambuStudio.app/Contents/Resources/profiles/BBL/filament/fdm_filament_pla.json": "670d21ea6bdf1cd4b0a2bfddc743612ffd896cd6e5dbe767c25d2c4165c49a30",
+    "/tmp/fingerworker-bambu-r8-runtime/BambuStudio.app/Contents/Resources/profiles/BBL/filament/fdm_filament_common.json": "8c7105b7d59a28f600c43a946f067b8b4d707b9711c0bf6b88e9166e48878548",
+    "/tmp/fingerworker-bambu-r8-runtime/BambuStudio.app/Contents/Resources/profiles/BBL/filament/fdm_filament_template_direct_dual_e3d.json": "308498826d6206f611be063e9ed7e6afe50b48e5410bb9e132f00eda483eab19"
+  },
+  "output_profiles": {
+    "H2D_PLA.json": "ffed8b58c038a05344bb833158d7ebf1077331c8eb402def63b279545ffc54a0",
+    "H2D_machine.json": "3fd6a5f1eba145ba5a1fefe918a188e3540ab8ee4d91a594d45129086981db84",
+    "H2D_process.json": "64364a6fc0a957d7ec7b1e551fc81af80c921412af9ae5a64400f0a81a855ad0",
+    "project_settings_H2D.json": "61a0a980eda45e5d78d2c1b94b87e9ade8982c556db2a6030618c1476cc8382f"
+  },
+  "profile_intent": "H2D standard 0.4 mm, one PLA filament, textured PEI; unloaded assessment; no printer transmission",
+  "prior_profile_manifest_sha256": "1f7f60249c8c8a8fbc63914a0fa0695a488e4999f66d982601fe904f84f4f7aa"
+}

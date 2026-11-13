@@ -1,0 +1,8 @@
+{
+  "status": "EXTRACTED_ACTUAL_R18_SLICED_PLATE_PREVIEW",
+  "sliced_archive_sha256": "4ddfdada54b368db8c797c6c39b78e51c1278f52e31b0921d30193c5bcf40701",
+  "layout_sha256": "341aafaa8b88741d5987f7206088ab3f9e30efaaa75114377140643c8078bdab",
+  "image_sha256": "9a930dfb87d5810981529b395cdb7972a74facd6294a5bc4d65aa354642f7855",
+  "image_archive_member": "Metadata/plate_1.png",
+  "validator_sha256": "34c74c17c94b4f2a21ace3a0e786ce82d70850b41903ada7482603662a5661aa"
+}

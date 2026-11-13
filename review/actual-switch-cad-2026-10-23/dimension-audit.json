@@ -1,0 +1,256 @@
+{
+  "status": "DIMENSION_AUDIT_COMPLETE_FACTORY_CAD_PENDING",
+  "date": "2026-10-23",
+  "scope": "Independent read-only dimension audit of exact BOM switch Omron SS-01GL2 against current R3 source. Manufacturer PDF pages4 and6 rendered and visually inspected, pages1/3/7 read. No R3 edits; no exact manufacturer STEP received or modified in this audit.",
+  "model": {
+    "part_number": "SS-01GL2",
+    "no_extra_suffix": true,
+    "actuator": "Hinge roller lever",
+    "contacts": "SPDT",
+    "terminals": "Solder tabs",
+    "load_class": "SS-01 micro-load series",
+    "not_interchangeable_without_review": [
+      "SS-5GL2 electrical rating/contact variant",
+      "T quick-connect terminal variant",
+      "D PCB terminal variant",
+      "-F/-E force variant",
+      "-2/-3 contact-form variants"
+    ]
+  },
+  "sources": [
+    {
+      "path": "review/flat132-palm-fit-2026-10-23/fingerworker_flat132_palm_fit.fs",
+      "sha256": "4665c3ec4e983e478d34c6cfe923b3b60e6c8848f36b7c54b55b1989eaab6326",
+      "source_lines": {
+        "cam": [
+          1023,
+          1038
+        ],
+        "yoke": [
+          1055,
+          1091
+        ],
+        "switch": [
+          1386,
+          1410
+        ]
+      }
+    },
+    {
+      "path": "vendor/omron_ss5gl2/SS_datasheet.pdf",
+      "sha256": "b7c3cc9e838c1049d58772242b56cd06af3526ac422907769acd892668ba1a09",
+      "document": "Omron B032-E1-14,0716(0207)(O)",
+      "pages": {
+        "model_legend": 1,
+        "exact_hinge_roller_model_table": 3,
+        "solder_terminals_and_mounting": 4,
+        "hinge_roller_dimensions_and_characteristics": 6,
+        "mounting_instructions": 7
+      },
+      "primary_url": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-ss.pdf",
+      "alternate_primary_url": "https://components.omron.com/sites/default/files/datasheet_pdf/B032-E1.pdf"
+    }
+  ],
+  "method": "Manufacturer PDF visually reviewed at150dpi plus300/600dpi detail renders in /tmp. Source coordinates compared analytically. Tab envelopes are bounding boxes derived from drawing dimensions, not exact terminal profiles. No scale inference used for normative dimensions.",
+  "orientation": {
+    "manufacturer_long_axis_u_to_world": "Y = U -17",
+    "manufacturer_height_v_to_world": "X = V +14; main body bottom V0",
+    "thickness_axis": "Z6..12.4; midplaneZ9.2",
+    "operation_direction_A": "-X",
+    "mounting_axes": "X16.5,Y-11.9 and-2.4, parallelZ",
+    "OP_FP_reference": "Mounting-axis line X16.5, not main housing bottom X14"
+  },
+  "manufacturer_nominal_dimensions_mm": {
+    "main_housing_long_axis": 19.8,
+    "main_housing_height_max_main_profile": 10.2,
+    "front_top_profile_height": 9.5,
+    "housing_thickness": 6.4,
+    "mount_axis_spacing": 9.5,
+    "mount_axis_spacing_tolerance_plus_minus": 0.1,
+    "mount_first_axis_from_end": 5.1,
+    "mount_axis_above_main_bottom": 2.5,
+    "mount_axis_above_projecting_lug_bottom": 2.9,
+    "lower_mount_lug_projection_relative_main_bottom": 0.4,
+    "mount_hole_diameter": 2.35,
+    "mount_hole_tolerance_minus": 0.05,
+    "mount_hole_tolerance_plus": 0.075,
+    "additional_middle_hole_diameter": 2.5,
+    "additional_middle_hole_diameter_tolerance_plus_minus": 0.07,
+    "lever_stainless_thickness": 0.3,
+    "roller_diameter": 4.8,
+    "roller_width": 3.2,
+    "roller_material": "polyacetal resin",
+    "OP": 14.5,
+    "OP_tolerance_plus_minus": 0.8,
+    "FP_max": 19.3,
+    "OT_min": 1.2,
+    "MD_max": 0.8,
+    "unspecified_general_dimension_tolerance_plus_minus": 0.4
+  },
+  "manufacturer_characteristics": {
+    "OF_max_N": 0.49,
+    "RF_min_N": 0.06,
+    "RF_note": "Reference values apply when lever weight is not applied to the plunger.",
+    "mounting_instruction": "M2.3 mounting screws with plane/spring washers; flat surface; manufacturer torque0.23..0.26N·m for that specified arrangement. Do not transfer this torque to the current M2/printed heat-set arrangement."
+  },
+  "current_CAD_comparison": {
+    "main_body": {
+      "bounds_mm": [
+        [
+          14,
+          -17,
+          6
+        ],
+        [
+          24.2,
+          2.8,
+          12.4
+        ]
+      ],
+      "dimension_result": "Major nominal19.8x10.2x6.4 dimensions match. Plain cuboid omits detailed cover step, corner/lug profiles, terminal geometry, plunger and real hinge mechanism."
+    },
+    "mount_holes": {
+      "centres_mm": [
+        [
+          16.5,
+          -11.9
+        ],
+        [
+          16.5,
+          -2.4
+        ]
+      ],
+      "diameter_mm": 2.35,
+      "result": "Nominal position, spacing and diameter match drawing. Current CAD contains only the two fastener holes, not the extra middle Ø2.5hole."
+    },
+    "mount_hardware": {
+      "current": "Existing2xM2x10 plus thin washer into M2 insert pilots; fasteners absent as solids.",
+      "deviation": "Manufacturer mounting guidance specifies M2.3. Current M2 fit/clamping and washer coverage require physical/engineering confirmation; do not quote manufacturer M2.3 torque as current-joint approval."
+    },
+    "lower_mount_lugs": {
+      "manufacturer_extreme_X_mm": 13.6,
+      "current_plain_box_min_X_mm": 14,
+      "missing_extent_mm": 0.4,
+      "result": "Bounding extent omitted. Exact lug radius/profile not fully dimensioned in available2Ddrawing."
+    },
+    "roller": {
+      "current_diameter_mm": 4.8,
+      "current_width_mm": 3.2,
+      "current_Z_interval_mm": [
+        7.6,
+        10.8
+      ],
+      "result": "Nominal roller size matches; axle/bracket details absent."
+    },
+    "lever": {
+      "current": "Ø0.9 cylinder from(25.5,-14.1,9.2) to computed roller centre",
+      "manufacturer": "Formed0.3mm stainless strip and real hinge/plunger assembly",
+      "result": "Deliberate illustrative mechanism, not manufacturer geometry or a qualified motion model. Drawing does not fully define an exact hinge pivot/strip profile."
+    },
+    "cam_and_timing": {
+      "cam_face_X_mm": "60-preload-stroke",
+      "mechanical_stop_relation": "stroke+preload=30",
+      "cam_face_at_stop_X_mm": 30,
+      "manufacturer_operating_face_world_X_mm": 31,
+      "manufacturer_operating_face_range_X_mm": [
+        30.2,
+        31.8
+      ],
+      "nominal_trip_lead_before_stop_mm": 1,
+      "trip_lead_range_from_OP_tolerance_only_mm": [
+        0.2,
+        1.8
+      ],
+      "maximum_free_contact_face_X_mm": 35.8,
+      "CAD_first_contact_relation": "stroke+preload=24.2",
+      "CAD_nominal_switch_operation_relation": "stroke+preload=29",
+      "CAD_roller_centres_mm": {
+        "FP_max_proxy": [
+          33.4,
+          0.9362894358947518,
+          9.2
+        ],
+        "nominal_OP": [
+          28.6,
+          2.600000000000003,
+          9.2
+        ],
+        "at_stop": [
+          27.6,
+          2.754969593564981,
+          9.2
+        ]
+      },
+      "result": "The source correctly places nominal OP on the mounting-axis datum, but treats maximum FP as an exact free position and assumes a fixed-length hinged lever. Nominal1mm trip lead is not tolerance-qualified; OP spread alone gives0.2..1.8mm post-trip motion at the stop. OT1.2 is a minimum, not a maximum allowable total travel; actual safe endpoint and switch state need confirmation. Preserve manual cam reset and firmware failsafe."
+    }
+  },
+  "solder_terminals": {
+    "present_in_current_CAD": false,
+    "count": 3,
+    "terminal_tip_below_mounting_axis_mm": 6.4,
+    "nominal_tip_world_X_mm": 10.1,
+    "thickness_in_world_Y_mm": 0.5,
+    "width_in_world_Z_mm": 3.2,
+    "nominal_world_Z_interval_mm": [
+      7.6,
+      10.8
+    ],
+    "centres_world_Y_mm": [
+      -15.4,
+      -6.6,
+      0.7
+    ],
+    "derivation": "U1.6 then+8.8 then+7.3 from body end; Y=U-17. Endview gives3.2tab width at body midplane and6.4projection from the mount-axis line. Ø1.6solder holes exist; their exact positions/corners are not fully dimensioned here.",
+    "drawing_envelope_bounds_mm": [
+      [
+        [
+          10.1,
+          -15.65,
+          7.6
+        ],
+        [
+          14,
+          -15.15,
+          10.8
+        ]
+      ],
+      [
+        [
+          10.1,
+          -6.85,
+          7.6
+        ],
+        [
+          14,
+          -6.35,
+          10.8
+        ]
+      ],
+      [
+        [
+          10.1,
+          0.44999999999999996,
+          7.6
+        ],
+        [
+          14,
+          0.95,
+          10.8
+        ]
+      ]
+    ],
+    "p05_nominal_reaction_web_X_max_mm": "9+preload",
+    "axial_envelope_gap_to_P05_mm": "1.1-preload",
+    "axial_envelope_gap_at_preload0_mm": 1.1,
+    "axial_envelope_overlap_at_preload2_mm": 0.9,
+    "status": "POTENTIAL_FUNCTIONAL_INTERFERENCE_REQUIRES_NATIVE_ACTUAL_TAB_CHECK",
+    "limit": "Drawing-envelope conflict is not a Boolean test of a factory STEP solid. Do not call terminal fit proven from old proxy validity. Solder blobs, insulated leads, bend radii and unusedNOtab add further packaging needs."
+  },
+  "recommendations": [
+    "Obtain exact SS-01GL2 solder-terminal manufacturer STEP; preserve its geometry and identity, and align using both mounting axes plus the broad mounting face. A SS-5GL2 orD/Tvariant file must not silently substitute for the exact BOM part.",
+    "Check imported terminal/lug/body contacts against native P01/P05/H12 at preload0and2, then operating stroke and service motions; include solder/wire keepouts.",
+    "Treat imported static actuator geometry as a purchased-shape reference; retain clearly labeled motion envelopes or separate kinematic representation for free/OP/end positions without reshaping the supplied factory solid.",
+    "Resolve any confirmed terminal/P05 interference before claiming the actual switch installation works throughout preload adjustment.",
+    "Verify real NC opening point, available total travel and manual cam locking after preload change; static geometry alone does not authorize force/peak output or alter failsafe firmware."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS_PUBLISHED_R20_OVERVIEW",
+  "source_sha256": "e547fac0af50cc7ea69f96f3ca2a0a7d6cefa1b63ae7e29d7f18e0f7815f3626",
+  "onshape_version": "0e06e3d98b9ecb574ee41402",
+  "html_sha256": "2bc6757127b9fd437d9cf41bf4b87b342ae597ff830abead4a54402c321d0d20",
+  "model_manifest_sha256": "41ff73567ca1bef39253ef7d504c64d07fb6aaaafa820a0de5968a9aa2bf1144",
+  "static_validation_sha256": "f2f03aca9393a9cc19202d7d0049297e22653016fc4a02cd76031db4a90d9b6a",
+  "source_file_sha256": "b206e9dc18d2248cc98621254c5aa9c0fcf9e5408e76ee6bd8dde87e5ceb0bbc"
+}

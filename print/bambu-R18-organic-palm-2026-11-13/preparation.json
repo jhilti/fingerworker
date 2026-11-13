@@ -1,0 +1,57 @@
+{
+  "status": "R18_NATIVE_SLICES_VERIFIED_AWAITING_FINAL_CAD_BINDING",
+  "date": "2026-11-13",
+  "baseline_native_print_project": "print/bambu-R16-upright-grip-2026-11-09/Fingerworker_R16_H2D_04mm_PLA_Basic_Print_Ready.3mf",
+  "baseline_project_sha256": "a9ebaf5ba9c9296c1e85b162689dab32d13a7bb1ae3a0f826b355328594b89a0",
+  "supersedes_local_prototype": "R17 local candidate remains frozen",
+  "primary_variant": "P01 replacement only",
+  "secondary_variant": "six-part complete kit",
+  "preserve": [
+    "H2D 0.4 mm left nozzle",
+    "Bambu PLA Basic only",
+    "Manual filament mapping",
+    "No brim",
+    "Four dense strap modifiers",
+    "Existing P01 flat-base pose",
+    "Other five existing meshes and settings"
+  ],
+  "pending": [
+    "Final native CAD binding witness",
+    "Package seals"
+  ],
+  "slicing_started": true,
+  "printer_job_started": false,
+  "source_scripts_sha256": {
+    "audit_toolpaths.py": "2f4df812fb0bab6277045617b196c94c45de4aeca366d4c406a85298cbca5857",
+    "print_context.py": "a2c8dd34fcd0ac79e6feeb0600b4e036085e88f4704e4d5232c6d98c6411ce0f",
+    "check_actual_print.py": "27dd5082215d4b990a478c41a70ba752d350bb9e761bf7f68b271b54db53b4be",
+    "run_slicer.py": "092d9fd388cd7d0b855d7f91985473dc2a55de996e5e5b4779e4699bad21505c",
+    "build_replacement.py": "c09c1868f901f530ae8a84e64290cdf5a1dd21913590af285be171e89d1e00d9",
+    "check_one_plate_p04.py": "c7f17c253da6390aa1ccc65fff18bf206d0f721aad132cc319e7855c865d8b57",
+    "validate_project.py": "34c74c17c94b4f2a21ace3a0e786ce82d70850b41903ada7482603662a5661aa",
+    "package_delivery.py": "7f5d566a15245e73300515952029f324495505c62af974b6ff17c29bf020bcb7",
+    "seal_local_candidate.py": "8505daf66302e9e0c69408bd60f6d763a5dae5f317d4f235b5db1aef6cd8ecec",
+    "render_support_evidence.py": "e72a7651b713edbec4baf48836d6da361d46d7bfe1deef0561a1e321d423ca6c",
+    "check_side_thumb.py": "d71a40fbef415659bdfe3b303b8cd3dc6a778b4c98886403a0863e025d575b3c",
+    "check_diagnostics.py": "e1dc4fd79e13ba23e450da57e163e383d2ce6cec4fdc6a52c2b5729705d39747",
+    "build_project.py": "819ac1c7141865a1328bf0c38a69fa0b5d679eea7cd76d0a4d1e6a1c28e42c4d",
+    "check_connected_flow.py": "174dcca654af7902b3ab9a367d36ee5b40c81bcaf8c31ac0601d824b5654b8b8",
+    "check_print_features.py": "bec0774fc3e0a3210b6216ed15a82f906d9fcc745bb0fea4631c7277eae06ca3",
+    "check_p04_supports.py": "e6a925aa90c86beac1cbbac1cb155fa9a5f9db8255d1f51b5be23ca48e87f365",
+    "check_palm_contact.py": "cc03e2815dfbbe416f7f37880b26e11309faebfe6e7857fcb150c8bc23f79941"
+  },
+  "delivery_schema": {
+    "primary": "P01_replacement",
+    "primary_object_count": 1,
+    "secondary": "complete",
+    "secondary_object_count": 6,
+    "separate_archives": true
+  },
+  "CAD_source_sha256": "345b90327031276f8085e2c225c795946036d7faa4f2ac01b764101b9f4b3dd1",
+  "native_version": "13e353d6762b6cc58530122b",
+  "primary_estimated_seconds": 20279,
+  "primary_estimated_grams": 129.67,
+  "secondary_estimated_seconds": 39802,
+  "secondary_estimated_grams": 239.38,
+  "gui_status": "GUI_PENDING_MAC_LOCKED"
+}

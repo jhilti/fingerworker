@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "USB_roof_support_segments": 65,
+  "support_interface_z_mm": [
+    7.15,
+    7.35
+  ],
+  "local_USB_roof_bounds_mm": [
+    4.35,
+    17.35,
+    7,
+    8,
+    7.6
+  ],
+  "access": "Removable from open tray and USB opening",
+  "other_support_access": "P04 open finger pocket and shallow guide relief; P05 bed-only shoulder supports; H12 open sensor recess; H02 external shoulder. See reviewed geometry reports."
+}

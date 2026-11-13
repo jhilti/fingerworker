@@ -1,0 +1,59 @@
+{
+  "status": "PASS_R18_PUBLISHED_ENTRYPOINTS",
+  "source_sha256": "345b90327031276f8085e2c225c795946036d7faa4f2ac01b764101b9f4b3dd1",
+  "overview_sha256": "d910d9c121d4bb9ae259930fbbb29fc5b8559f87cd6440057cd859383dfe66b2",
+  "root_markers": 5,
+  "final_spec_file_hashes_verified": 17,
+  "gui_verified": false,
+  "gui_status": "GUI_PENDING_MAC_LOCKED",
+  "printer_job_started": false,
+  "primary_project": "print/bambu-R18-organic-palm-2026-11-13/Fingerworker_R18_P01_Replacement_H2D_04mm_PLA_Basic.3mf",
+  "primary_package": "print/bambu-R18-organic-palm-2026-11-13/Fingerworker_R18_P01_Replacement_H2D_04mm_PLA_Basic_Package.zip",
+  "secondary_project": "print/bambu-R18-organic-palm-2026-11-13/Fingerworker_R18_Complete_Kit_H2D_04mm_PLA_Basic.3mf",
+  "secondary_package": "print/bambu-R18-organic-palm-2026-11-13/Fingerworker_R18_Complete_Kit_H2D_04mm_PLA_Basic_Package.zip",
+  "root_document_order_checks": [
+    {
+      "path": "README.md",
+      "status": "PASS",
+      "current_R18_before_historical_R15": true,
+      "historical_heading": true,
+      "sha256": "6beefa0353e82d5fe9b2053337e6a0bc995a5310aa3eb8f2539d6aa24c55ac11"
+    },
+    {
+      "path": "PRINTING.md",
+      "status": "PASS",
+      "current_R18_before_historical_R15": true,
+      "historical_heading": true,
+      "sha256": "b6f554a88b46aabbbfa10dcca9709c7d336ab6b8629fcee6c4162390bda757f3"
+    },
+    {
+      "path": "EINKAUFSTEILE.md",
+      "status": "PASS",
+      "current_R18_before_historical_R15": true,
+      "historical_heading": true,
+      "sha256": "638d1698c7182c57b90b0fd96afe22bafadd65e059814ca3a8fb3759823ffdbc"
+    },
+    {
+      "path": "DEVICE_UPGRADES.md",
+      "status": "PASS",
+      "current_R18_before_historical_R15": true,
+      "historical_heading": true,
+      "sha256": "93d4841136f54234aee9115968a5ec3a57b80ceb68a640ebef3c309c09a5d8db"
+    },
+    {
+      "path": "print/REVISION_STATUS.md",
+      "status": "PASS",
+      "current_R18_before_historical_R15": true,
+      "historical_heading": true,
+      "sha256": "d73c7da67f203745e86c861ccec2ba349a0d2f46caff75c4a74fa63154518c51"
+    }
+  ],
+  "root_document_hashes": {
+    "README.md": "6beefa0353e82d5fe9b2053337e6a0bc995a5310aa3eb8f2539d6aa24c55ac11",
+    "PRINTING.md": "b6f554a88b46aabbbfa10dcca9709c7d336ab6b8629fcee6c4162390bda757f3",
+    "EINKAUFSTEILE.md": "638d1698c7182c57b90b0fd96afe22bafadd65e059814ca3a8fb3759823ffdbc",
+    "DEVICE_UPGRADES.md": "93d4841136f54234aee9115968a5ec3a57b80ceb68a640ebef3c309c09a5d8db",
+    "print/REVISION_STATUS.md": "d73c7da67f203745e86c861ccec2ba349a0d2f46caff75c4a74fa63154518c51"
+  },
+  "overview_static_status": "PASS_STATIC_OVERVIEW"
+}

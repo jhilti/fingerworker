@@ -1,0 +1,103 @@
+{
+  "status": "PASS_WITH_SETTINGS_CHANGES",
+  "scope": "8 enclosure and mounting types from 27 unique types in full print set; assembly geometry unchanged",
+  "parts": [
+    {
+      "part": "P02",
+      "file": "print/all-print-prototype-2026-10-13-RevD/PETG/P02_Palm_mount_RevA.stl",
+      "sha256": "929d3697d06053a2ac6a72615b614742ae60943b9503ac5630afda48e178613f",
+      "retain_orientation": true
+    },
+    {
+      "part": "P03a",
+      "file": "print/all-print-prototype-2026-10-13-RevD/PETG/P03a_Palm_shell_left_PETG_MOCKUP.stl",
+      "sha256": "1887849c7029943fc487221f181153fcd5de5a5fb557b166d2c8431aff04c504",
+      "retain_orientation": true
+    },
+    {
+      "part": "P03b",
+      "file": "print/all-print-prototype-2026-10-13-RevD/PETG/P03b_Palm_shell_right_PETG_MOCKUP.stl",
+      "sha256": "bd3d2855b433693b5e28251d524b4c2522813fa8c2e05c47b84c1146e7509622",
+      "retain_orientation": true
+    },
+    {
+      "part": "P08",
+      "file": "print/all-print-prototype-2026-10-13-RevD/PETG/P08_Electronics_tray.stl",
+      "sha256": "f88a97976db5798805e075408b09a355dc199b30088928f71aa25b22641b3d37",
+      "retain_orientation": true
+    },
+    {
+      "part": "P09",
+      "file": "print/all-print-prototype-2026-10-13-RevD/PETG/P09_Electronics_lid.stl",
+      "sha256": "a59b850432e6d02b2076bf2345e292500a0daa6112d6951f0eb5400e24afa507",
+      "retain_orientation": true
+    },
+    {
+      "part": "P10",
+      "file": "print/all-print-prototype-2026-10-13-RevD/PETG/P10_Wire_clamp.stl",
+      "sha256": "182b3da7f32b9fdf85f7ad9fe26776fee919b6433e3dc7585a30c47bf4864a79",
+      "retain_orientation": true
+    },
+    {
+      "part": "P060",
+      "file": "print/all-print-prototype-2026-10-13-RevD/PETG/P060_rear_retainer_left_RevC_2026-10-13.stl",
+      "sha256": "8a85ced80993e3e0ef798da49439b2fd321a387778ea7b06041cdb6dd2753b4f",
+      "retain_orientation": true
+    },
+    {
+      "part": "P061",
+      "file": "print/all-print-prototype-2026-10-13-RevD/PETG/P061_rear_retainer_right_RevC_2026-10-13.stl",
+      "sha256": "ce9c4a6b0994fd9242d3a33eab6867102e9cd1c24299bb22ee9482938b5296bf",
+      "retain_orientation": true
+    }
+  ],
+  "recommendations": {
+    "P03a_P03b": {
+      "brim_width_mm": 6,
+      "brim_allowed_max_mm": 8,
+      "normal_print_acceleration_mm_s2": 1500,
+      "outer_wall_speed_mm_s": 60,
+      "inner_wall_speed_mm_s": 60
+    },
+    "P08": {
+      "enable_support": true,
+      "support_on_build_plate_only": false,
+      "support_type": "normal(auto)",
+      "USB_roof_support_segments_before": 0,
+      "USB_roof_support_segments_after": 65
+    },
+    "P10": {
+      "brim_width_mm": 2,
+      "outer_wall_speed_mm_s": 40,
+      "inner_wall_speed_mm_s": 40,
+      "first_layer_speed_mm_s": 20,
+      "normal_print_acceleration_mm_s2": 1000
+    },
+    "P060_P061": {
+      "orientation": "original upright, vertical screw/counterbore axes",
+      "bridge_speed_mm_s": 25,
+      "internal_support": false
+    }
+  },
+  "rejected_candidates": {
+    "P060_P061_rear_face_on_bed": "Produces long horizontal screw-head counterbores, Floating vertical shell, greater bridge length; do not deliver"
+  },
+  "slice_candidates": {
+    "caps_orientation_slice.log": {
+      "return_codes": [
+        0
+      ],
+      "sha256": "c8e0c2493529d6e447db5be32e378ba64afe2bfcad8456e7685d97c2b164441c"
+    },
+    "tray_support_slice.log": {
+      "return_codes": [
+        0
+      ],
+      "sha256": "42413a49b354ff3fa664d24d8170c80cff770ba91af0855fdbbc5e2ae1eb5090"
+    }
+  },
+  "supports_to_remove": [
+    "P02 underside M2 insert pilot bores",
+    "P08 underside mounting ears, USB opening and side switch access"
+  ]
+}

@@ -1,0 +1,1271 @@
+{
+  "status": "PASS",
+  "units": "mm",
+  "mode": "dynamic",
+  "actual_native_pose": true,
+  "scope": "Actual regenerated pose, limited articulated click and lock sleeve checks; neutral assembly report supplies continuous rigid-motion certificates",
+  "assembly": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/onshape-flat132-2026-10-19/Onshape_Flat132_v6_max30_preload2_heavy.zip",
+  "assembly_sha256": "8ac9b19480ef79ba237992c42ee4a8698b2c12d78e89a67f3f30dee264b0f175",
+  "source_sha256": "3e5de8f56211cf2ed063b6b4294da5f77fea4c3fb881fa0c13b1288eca7932cc",
+  "validator_sha256": "4d2c6c51d579dd7dc1531aedd869bdabc7cfd2d29984d0132ae8421bef5b1658",
+  "declared_stroke_mm": 30.0,
+  "declared_preload_mm": 2.0,
+  "device_part_count": 51,
+  "missing_refs": [],
+  "unexpected_refs": [],
+  "invalid_solids": {},
+  "ignored_members": [
+    "Fingerworker MVP - REF PCB C4 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB C8 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB R14 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB R3 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB R7 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB R15 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB R4 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB R8 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB R16 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB C5 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB C9 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB R17 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB U3 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB C10 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB R18 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB C7 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB C11 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB R19 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB C6 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB R9 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB R2 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB U4 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB R10 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB R20 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB C14 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB C1 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB R21 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB C12 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB Q1 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB R5 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF E01 - KiCad PCB 19.5 x 68.5 x 0.8.stl",
+    "Fingerworker MVP - REF PCB C13 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB C15 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB R6 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB U1 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB SW2 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB C16 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF E05 - 100mAh LiPo nominal 11.5 x 31 x 3.8.stl",
+    "Fingerworker MVP - REF PCB U2 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB J1 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB C2 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF E06 - USB approach clearance.stl",
+    "Fingerworker MVP - REF PCB L1 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB J2 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB R1 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF E07 - battery mating plug and lead allowance.stl",
+    "Fingerworker MVP - REF PCB D1 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB J3 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB R11 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF E08 - side-button actuator travel envelope.stl",
+    "Fingerworker MVP - REF PCB C3 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB R13 - courtyard and height envelope.stl",
+    "Fingerworker MVP - REF PCB R12 - courtyard and height envelope.stl"
+  ],
+  "mesh_inventory": {
+    "H01": {
+      "sha256": "0875ee5ca51d3143c194bf9439e4c9936ec9eccfeda9c945cfd6136074f39ddc",
+      "member": "Fingerworker MVP - H01 TE FX1901-0001-0200-L compression cell.stl",
+      "bounds_mm": [
+        [
+          -6.0,
+          -9.875,
+          8.125
+        ],
+        [
+          -0.550000011920929,
+          9.875,
+          27.875
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H01a": {
+      "sha256": "a8a138afcd7d7e95fc66ae994d5afb08ece1c92b3e34ddd392fa4362013c122c",
+      "member": "Fingerworker MVP - H01a Sensor force boss.stl",
+      "bounds_mm": [
+        [
+          -0.550000011920929,
+          -2.5,
+          15.5
+        ],
+        [
+          0.09999999403953552,
+          2.5,
+          20.5
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H01b": {
+      "sha256": "aad780bea5a006ce9c31b118a4b6a3f8378d283709159752f6ea0a089ffd15b1",
+      "member": "Fingerworker MVP - H01b Sensor cable overmold.stl",
+      "bounds_mm": [
+        [
+          -5.0,
+          8.0,
+          15.5
+        ],
+        [
+          -1.5,
+          14.0,
+          20.5
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H01c": {
+      "sha256": "f025390b8969626376d4fff68319fe8d269f27189ff29323517210afe2538e99",
+      "member": "Fingerworker MVP - H01c Sensor cable.stl",
+      "bounds_mm": [
+        [
+          -4.449999809265137,
+          8.5,
+          16.799999237060547
+        ],
+        [
+          -2.049999952316284,
+          33.0,
+          19.200000762939453
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H01d": {
+      "sha256": "8e8a7bc8f2e5972a9a90666eef32542d238b6371cd60dce1a552da2dfe2d8a04",
+      "member": "Fingerworker MVP - H01d Sensor connector.stl",
+      "bounds_mm": [
+        [
+          -6.25,
+          30.5,
+          15.0
+        ],
+        [
+          -0.25,
+          38.5,
+          21.0
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H02": {
+      "sha256": "827dc5d7dce29fe6104972e7ac541fb8447a9d174157e446e5c298ea70358a9c",
+      "member": "Fingerworker MVP - H02 Retained steel pusher- dia4 tip x1.9, dia8 shoulder x1, M3 tail x6.5.stl",
+      "bounds_mm": [
+        [
+          0.09999999403953552,
+          -4.0,
+          14.0
+        ],
+        [
+          9.5,
+          4.0,
+          22.0
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H030": {
+      "sha256": "ef985b402b45387f571360c8250f2d2a009583deeaf4d84a709bf0c06cf279bc",
+      "member": "Fingerworker MVP - H030 Febrotec 0X-DF2185 14.5-10.5 x 105 mm, 3.709 N-mm - indicative coil.stl",
+      "bounds_mm": [
+        [
+          14.0,
+          -58.24995040893555,
+          10.750049591064453
+        ],
+        [
+          83.0,
+          -43.75004577636719,
+          25.249948501586914
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H031": {
+      "sha256": "6dd7578648e5dd06f727f4738f4f5e6e7435ff91b78ffedb69292a982cb6404d",
+      "member": "Fingerworker MVP - H031 Febrotec 0X-DF2185 14.5-10.5 x 105 mm, 3.709 N-mm - indicative coil.stl",
+      "bounds_mm": [
+        [
+          14.0,
+          43.75004959106445,
+          10.750049591064453
+        ],
+        [
+          83.0,
+          58.24995040893555,
+          25.249948501586914
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H040": {
+      "sha256": "e1441ad76d3d79243c3a1b4ef8e1b39712b73ed525e254fcf83e846d845f1b1a",
+      "member": "Fingerworker MVP - H040 Steel guide rod dia 6 x 146 mm.stl",
+      "bounds_mm": [
+        [
+          -16.0,
+          -54.0,
+          15.0
+        ],
+        [
+          130.0,
+          -48.0,
+          21.0
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H041": {
+      "sha256": "87980fabfc5eeeee129418c6e3fdc486911782e9f29c3855f936a16c85406475",
+      "member": "Fingerworker MVP - H041 Steel guide rod dia 6 x 146 mm.stl",
+      "bounds_mm": [
+        [
+          -16.0,
+          48.0,
+          15.0
+        ],
+        [
+          130.0,
+          54.0,
+          21.0
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H050": {
+      "sha256": "ef85b85af5bcebf95144c84b8a25dcb63d9c5998a4833b1ee379426dc70df3cc",
+      "member": "Fingerworker MVP - H050 Fixed steel spring seat 22 x 6.6 x 3 mm.stl",
+      "bounds_mm": [
+        [
+          11.0,
+          -62.0,
+          7.0
+        ],
+        [
+          14.0,
+          -40.0,
+          29.0
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H051": {
+      "sha256": "540736230c51c5518d2f2ce2f6b567f41398a04c892d2a2734bbe89804f7a4dd",
+      "member": "Fingerworker MVP - H051 Fixed steel spring seat 22 x 6.6 x 3 mm.stl",
+      "bounds_mm": [
+        [
+          11.0,
+          40.0,
+          7.0
+        ],
+        [
+          14.0,
+          62.0,
+          29.0
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H060": {
+      "sha256": "cfa4e7befd58399e14052783e3bf766841b27741991d5f9e62a509f96b6ac130",
+      "member": "Fingerworker MVP - H060 Moving steel spring seat 22 x 8 x 3 mm.stl",
+      "bounds_mm": [
+        [
+          83.0,
+          -62.0,
+          7.0
+        ],
+        [
+          86.0,
+          -40.0,
+          29.0
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H061": {
+      "sha256": "2a42e288c6aa8113cb72b925ba2fd841d8919b817105a85e3029c8c0b7aa33dc",
+      "member": "Fingerworker MVP - H061 Moving steel spring seat 22 x 8 x 3 mm.stl",
+      "bounds_mm": [
+        [
+          83.0,
+          40.0,
+          7.0
+        ],
+        [
+          86.0,
+          62.0,
+          29.0
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H070": {
+      "sha256": "db938dac8d76e0bd377219479075762d69b39b67b2c6c3049ca99a842254f9ae",
+      "member": "Fingerworker MVP - H070 M4 x 10 flat-tip stop screw.stl",
+      "bounds_mm": [
+        [
+          25.0,
+          -26.0,
+          16.0
+        ],
+        [
+          35.0,
+          -22.0,
+          20.0
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H071": {
+      "sha256": "c813352a9e905e403f6dee48cbfc0cfeadc97f89f8a322e3ee95aac1d36acb08",
+      "member": "Fingerworker MVP - H071 M4 x 10 flat-tip stop screw.stl",
+      "bounds_mm": [
+        [
+          25.0,
+          22.0,
+          16.0
+        ],
+        [
+          35.0,
+          26.0,
+          20.0
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H080": {
+      "sha256": "a9c059d767c720d698f4d1834dd52be9f43ca58ca7fc9d196540a6a4cc17ece4",
+      "member": "Fingerworker MVP - H080 M4 square nut 7 x 7 x 3 mm.stl",
+      "bounds_mm": [
+        [
+          26.0,
+          -27.5,
+          14.5
+        ],
+        [
+          29.0,
+          -20.5,
+          21.5
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H081": {
+      "sha256": "884656e65f5c8e6f524665df859fbe442938aa83194b5c3bd4d9fa3b2fc953f6",
+      "member": "Fingerworker MVP - H081 M4 square nut 7 x 7 x 3 mm.stl",
+      "bounds_mm": [
+        [
+          26.0,
+          20.5,
+          14.5
+        ],
+        [
+          29.0,
+          27.5,
+          21.5
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H09": {
+      "sha256": "86216109430b9fac32d766bdb8351ab2c0c492d5dacf367f04c6dffb662a07b8",
+      "member": "Fingerworker MVP - H09 Omron SS-01GL2 - flat mounting.stl",
+      "bounds_mm": [
+        [
+          14.0,
+          -17.0,
+          6.0
+        ],
+        [
+          24.200000762939453,
+          2.799999952316284,
+          12.40000057220459
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H09a": {
+      "sha256": "aed162247fa55f36910dc44c65a70c3c43af0a21fb42dc12aff7497b0248edd6",
+      "member": "Fingerworker MVP - H09a Switch lever preview.stl",
+      "bounds_mm": [
+        [
+          25.05345344543457,
+          -14.15563678741455,
+          8.75
+        ],
+        [
+          28.046546936035156,
+          2.810606002807617,
+          9.65000057220459
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H09b": {
+      "sha256": "fa60c7c28ef04804e99d0e0906a5cb5fd30f9e1258c602189d8e6028dd0f52c6",
+      "member": "Fingerworker MVP - H09b Switch roller preview.stl",
+      "bounds_mm": [
+        [
+          25.200000762939453,
+          0.3549695909023285,
+          7.599999904632568
+        ],
+        [
+          30.0,
+          5.154969692230225,
+          10.800000190734863
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H10": {
+      "sha256": "2c4bdd3b134473b492e6049321d7c957cef13b923278f7fa6653f3443504d121",
+      "member": "Fingerworker MVP - H10 M3 x 12 socket-head screw - adjustable click cam.stl",
+      "bounds_mm": [
+        [
+          30.0,
+          -0.25,
+          7.25
+        ],
+        [
+          45.0,
+          5.25,
+          12.75
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H11": {
+      "sha256": "461a255ecc0ac18072d640471887c08c4c7f4daccc28e5f0abd973e487488fdf",
+      "member": "Fingerworker MVP - H11 Custom steel M6x1 square nut 12 x 12 x 5.stl",
+      "bounds_mm": [
+        [
+          -21.0,
+          -6.0,
+          12.0
+        ],
+        [
+          -16.0,
+          6.0,
+          24.0
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H12": {
+      "sha256": "e10988316c1c1394f342f1805c10575b70f2a8b74565abaddcb20e7e1e6d772c",
+      "member": "Fingerworker MVP - H12 Machined steel translating sensor backing plate - relieved centre.stl",
+      "bounds_mm": [
+        [
+          -13.199999809265137,
+          -13.5,
+          7.5
+        ],
+        [
+          -6.0,
+          13.5,
+          28.5
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H13": {
+      "sha256": "4d4c9b6feeb47a8041255ef49d36105a6c5bbd36e4fee992353e30f54ecc4c55",
+      "member": "Fingerworker MVP - H13 M6x1 flat-tip adjuster with 22 mm thumbwheel - 2 turns max.stl",
+      "bounds_mm": [
+        [
+          -22.0,
+          -11.0,
+          7.0
+        ],
+        [
+          -10.0,
+          11.0,
+          29.0
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H15": {
+      "sha256": "0ef9e6b5a1564ff49f092222f5336547288f57eb5c72a3fec555d0c2f82bab70",
+      "member": "Fingerworker MVP - H15 S355 steel keeper 32 x 19 x 2 - recessed and through bolted.stl",
+      "bounds_mm": [
+        [
+          -23.0,
+          -16.0,
+          9.0
+        ],
+        [
+          -21.0,
+          16.0,
+          28.0
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H160": {
+      "sha256": "9b7eb63eb6a2ad22ed13b3cdb9f5fbfd5e8a83fb7775ec5c95bae77e3519b1fc",
+      "member": "Fingerworker MVP - H160 M3 x 8 countersunk keeper screw - 90 deg max head diameter 6.stl",
+      "bounds_mm": [
+        [
+          -23.0,
+          -14.0,
+          21.0
+        ],
+        [
+          -15.0,
+          -8.0,
+          27.0
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H161": {
+      "sha256": "02de5156b3eda90cfff1db9baf81f8b1a7c68794e98c7862f78f2dbbc9faed49",
+      "member": "Fingerworker MVP - H161 M3 x 8 countersunk keeper screw - 90 deg max head diameter 6.stl",
+      "bounds_mm": [
+        [
+          -23.0,
+          8.0,
+          21.0
+        ],
+        [
+          -15.0,
+          14.0,
+          27.0
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H170": {
+      "sha256": "66fc54e22a50060ce0866e5abfe3b8ec4e27c8f325588f555bace2f436d88510",
+      "member": "Fingerworker MVP - H170 M3 square nut 5.5 x 5.5 x 1.8.stl",
+      "bounds_mm": [
+        [
+          -17.899999618530273,
+          -13.75,
+          21.25
+        ],
+        [
+          -16.100000381469727,
+          -8.25,
+          26.75
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H171": {
+      "sha256": "4208d5c96f3dbe417f3099a90e8034a7217ac34fef93a50f1d2d01d9cbaab248",
+      "member": "Fingerworker MVP - H171 M3 square nut 5.5 x 5.5 x 1.8.stl",
+      "bounds_mm": [
+        [
+          -17.899999618530273,
+          8.25,
+          21.25
+        ],
+        [
+          -16.100000381469727,
+          13.75,
+          26.75
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H180": {
+      "sha256": "08033b258b1f4e8d9a2b63f01fb81a2b0d764e521b9d646a9ab4ea1ac65df44f",
+      "member": "Fingerworker MVP - H180 M3 x 8 cassette retention screw.stl",
+      "bounds_mm": [
+        [
+          -13.75,
+          -20.5,
+          7.25
+        ],
+        [
+          -8.25,
+          -9.5,
+          12.75
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H181": {
+      "sha256": "69aecf75646e05e68b4c43f99cbfa8cef39a79703f5d5dd6e24d37e92d02e4c3",
+      "member": "Fingerworker MVP - H181 M3 x 8 cassette retention screw.stl",
+      "bounds_mm": [
+        [
+          -13.75,
+          9.5,
+          7.25
+        ],
+        [
+          -8.25,
+          20.5,
+          12.75
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H190": {
+      "sha256": "984be1d5a9507bfff8106c30598001ac69c0132821f0360a744c0365ac70e729",
+      "member": "Fingerworker MVP - H190 Steel spacer 4 x 3.2 x 4 - preload travel limiter.stl",
+      "bounds_mm": [
+        [
+          -13.0,
+          -17.5,
+          8.0
+        ],
+        [
+          -9.0,
+          -13.5,
+          12.0
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H191": {
+      "sha256": "e4e6f45fa832fe396aad8dd7839a9f7e9fc8abe811f0b05677d8647594d325f6",
+      "member": "Fingerworker MVP - H191 Steel spacer 4 x 3.2 x 4 - preload travel limiter.stl",
+      "bounds_mm": [
+        [
+          -13.0,
+          13.5,
+          8.0
+        ],
+        [
+          -9.0,
+          17.5,
+          12.0
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H20": {
+      "sha256": "e305447a0f8e82da3b7eb7d4a4820514dbbb3b008e2d7825e4d304fe7fd33f4d",
+      "member": "Fingerworker MVP - H20 M3 square nut - retains shouldered force pusher.stl",
+      "bounds_mm": [
+        [
+          7.099999904632568,
+          -2.75,
+          15.25
+        ],
+        [
+          8.899999618530273,
+          2.75,
+          20.75
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H21": {
+      "sha256": "4d7664e52ada1aec19d02fa4125ed5369e1e68aed751c0f4f5dd5e420389363a",
+      "member": "Fingerworker MVP - H21 M3 x 4 recessed preload locking screw.stl",
+      "bounds_mm": [
+        [
+          -21.75,
+          -2.75,
+          22.0
+        ],
+        [
+          -16.25,
+          2.75,
+          29.0
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "H22": {
+      "sha256": "577081af439782a56d4a9786d36db932cbee12c84cbaa350e3f2d58995d86d96",
+      "member": "Fingerworker MVP - H22 Brass preload lock pad dia2.5 x1.stl",
+      "bounds_mm": [
+        [
+          -20.25,
+          -1.25,
+          21.0
+        ],
+        [
+          -17.75,
+          1.25,
+          22.0
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "P01": {
+      "sha256": "6e216bf2c03d4c856262e713c63a0de023bb0357d49287fdc251ed5b43ca740f",
+      "member": "Fingerworker MVP - P01 PRINT STUDY - Flat132 fixed frame, keyed detachable palm feet, 6 mm floor.stl",
+      "bounds_mm": [
+        [
+          -23.0,
+          -66.0,
+          -2.0
+        ],
+        [
+          134.0,
+          66.0,
+          29.0
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "P02": {
+      "sha256": "2daf25681bc7e8ff3b89aecabcb9278185f9688b46d41155800c45f6447d578f",
+      "member": "Fingerworker MVP - P02 PRINT STUDY - detachable keyed palm bolster, two M4 mounts.stl",
+      "bounds_mm": [
+        [
+          -44.25,
+          -64.0,
+          6.5
+        ],
+        [
+          -9.5,
+          64.0,
+          27.498186111450195
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "P03": {
+      "sha256": "738f677f8a5ac41fdf2683294f4998d66d7e1cccebd64a3dea745cf1b913903e",
+      "member": "Fingerworker MVP - P03 TPU PRINT - 2.5 mm palm sleeve.stl",
+      "bounds_mm": [
+        [
+          -44.24971008300781,
+          -43.0,
+          14.600000381469727
+        ],
+        [
+          -23.750289916992188,
+          43.0,
+          29.997604370117188
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "P04": {
+      "sha256": "c69e7d314f3df8144e06995dc01b44b38761f30a4ed995d5e2b1078cf27a3e44",
+      "member": "Fingerworker MVP - P04 PRINT STUDY - Flat132 72 mm clear pocket, R12 seat reliefs.stl",
+      "bounds_mm": [
+        [
+          34.0,
+          -63.0,
+          5.0
+        ],
+        [
+          94.0,
+          63.0,
+          30.0
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "P05": {
+      "sha256": "d73ea79721a808be0d4e5a1fcfdafd7694288dc7619dda414a015e5e7b4cf39d",
+      "member": "Fingerworker MVP - P05 PRINT STUDY - Flat132 reinforced floating spring yoke.stl",
+      "bounds_mm": [
+        [
+          -5.0,
+          -63.0,
+          7.0
+        ],
+        [
+          17.5,
+          63.0,
+          29.0
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "P060": {
+      "sha256": "cc94f09a0b2b30b210654174f9dcc4c84103249373f4cb76e35def56f6f7c361",
+      "member": "Fingerworker MVP - P060 PRINT - removable rear retainer - through holes RevC.stl",
+      "bounds_mm": [
+        [
+          125.49999237060547,
+          -63.0,
+          4.5
+        ],
+        [
+          133.5,
+          -39.0,
+          28.0
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "P061": {
+      "sha256": "94e89b2a80c4b5237a77b7a0f1c211b89a4befbed4f50e0294c8c75e316c7f9a",
+      "member": "Fingerworker MVP - P061 PRINT - removable rear retainer - through holes RevC.stl",
+      "bounds_mm": [
+        [
+          125.49999237060547,
+          39.0,
+          4.5
+        ],
+        [
+          133.5,
+          63.0,
+          28.0
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "P070a": {
+      "sha256": "238ebfde3626cbde9e99bf4a2d5a2636b34d169608dae53b4ab4cd9c22df9437",
+      "member": "Fingerworker MVP - P070a TPU PRINT - return bumper.stl",
+      "bounds_mm": [
+        [
+          124.0,
+          -60.75,
+          14.0
+        ],
+        [
+          125.49999237060547,
+          -56.25,
+          20.0
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "P070b": {
+      "sha256": "59cd6b3ebdc4603288f68586f4adf108bb431e03b1eca396e3e6fa27195c159f",
+      "member": "Fingerworker MVP - P070b TPU PRINT - return bumper.stl",
+      "bounds_mm": [
+        [
+          124.0,
+          -45.75,
+          14.0
+        ],
+        [
+          125.49999237060547,
+          -41.25,
+          20.0
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "P071a": {
+      "sha256": "cc069ac5fb2704c0571168890bc48558b8331f49b9b31b4842f36743d9b3eaec",
+      "member": "Fingerworker MVP - P071a TPU PRINT - return bumper.stl",
+      "bounds_mm": [
+        [
+          124.0,
+          41.25,
+          14.0
+        ],
+        [
+          125.49999237060547,
+          45.75,
+          20.0
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "P071b": {
+      "sha256": "897e3fe214f97a2ef1e1b77893571f57db57071111676d9f69fa5e06ab2059ae",
+      "member": "Fingerworker MVP - P071b TPU PRINT - return bumper.stl",
+      "bounds_mm": [
+        [
+          124.0,
+          56.25,
+          14.0
+        ],
+        [
+          125.49999237060547,
+          60.75,
+          20.0
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "P08": {
+      "sha256": "11f47952a86814ce1c6a80ad25edde546f99b8664a610e397851ec8ae9fe8b2a",
+      "member": "Fingerworker MVP - P08 PRINT - Electronics tray.stl",
+      "bounds_mm": [
+        [
+          -46.10000228881836,
+          -62.0,
+          0.0
+        ],
+        [
+          -23.600000381469727,
+          62.0,
+          9.5
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "P09": {
+      "sha256": "2b809ab1f7cc350b96862cfd7d4878ac1907bda7cf793f78aa0e445e7264084a",
+      "member": "Fingerworker MVP - P09 PRINT - Electronics lid.stl",
+      "bounds_mm": [
+        [
+          -46.10000228881836,
+          -55.0,
+          2.1500000953674316
+        ],
+        [
+          -23.600000381469727,
+          55.0,
+          8.899999618530273
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    },
+    "P10": {
+      "sha256": "8ee66bba498b46d593a8d9c00581582cd76b35677312eb81d427f808df8b08d8",
+      "member": "Fingerworker MVP - P10 PRINT - Wire clamp.stl",
+      "bounds_mm": [
+        [
+          -28.100000381469727,
+          22.399999618530273,
+          3.4000000953674316
+        ],
+        [
+          -24.899999618530273,
+          32.60000228881836,
+          4.400000095367432
+        ]
+      ],
+      "watertight": true,
+      "is_volume": true
+    }
+  },
+  "dimensions": [
+    {
+      "name": "Actual carriage return face X",
+      "measured_mm": 94.0,
+      "expected_mm": 94.0,
+      "tolerance_mm": 0.01,
+      "status": "PASS"
+    },
+    {
+      "name": "Actual cam front face X",
+      "measured_mm": 30.0,
+      "expected_mm": 30.0,
+      "tolerance_mm": 0.01,
+      "status": "PASS"
+    },
+    {
+      "name": "Actual yoke rear face X",
+      "measured_mm": -5.0,
+      "expected_mm": -5.0,
+      "tolerance_mm": 0.01,
+      "status": "PASS"
+    },
+    {
+      "name": "Actual fixed-seat front face X",
+      "measured_mm": 11.0,
+      "expected_mm": 11.0,
+      "tolerance_mm": 0.01,
+      "status": "PASS"
+    },
+    {
+      "name": "Actual moving-seat front face X",
+      "measured_mm": 83.0,
+      "expected_mm": 83.0,
+      "tolerance_mm": 0.01,
+      "status": "PASS"
+    },
+    {
+      "name": "Actual articulated roller center X",
+      "measured_mm": 27.600000381469727,
+      "expected_mm": 27.6,
+      "tolerance_mm": 0.01,
+      "status": "PASS"
+    },
+    {
+      "name": "Actual articulated roller center Y",
+      "measured_mm": 2.7549696415662766,
+      "expected_mm": 2.7549695935649776,
+      "tolerance_mm": 0.01,
+      "status": "PASS"
+    },
+    {
+      "name": "Cam/roller nominal axial contact gap",
+      "measured_mm": 0.0,
+      "expected_mm": 0,
+      "tolerance_mm": 0.01,
+      "status": "PASS"
+    }
+  ],
+  "pairs": [
+    {
+      "pair": [
+        "P04",
+        "P01"
+      ],
+      "offsets_x_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_VOLUME_TOLERANCE",
+      "intersection_volume_mm3": 0.0,
+      "method": "Full-resolution Manifold solid intersection"
+    },
+    {
+      "pair": [
+        "P04",
+        "P05"
+      ],
+      "offsets_x_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR",
+      "intersection_volume_mm3": 0.0,
+      "method": "Disjoint or exterior-touching AABBs"
+    },
+    {
+      "pair": [
+        "P04",
+        "H09"
+      ],
+      "offsets_x_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR",
+      "intersection_volume_mm3": 0.0,
+      "method": "Disjoint or exterior-touching AABBs"
+    },
+    {
+      "pair": [
+        "P04",
+        "H09a"
+      ],
+      "offsets_x_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR",
+      "intersection_volume_mm3": 0.0,
+      "method": "Disjoint or exterior-touching AABBs"
+    },
+    {
+      "pair": [
+        "P04",
+        "H09b"
+      ],
+      "offsets_x_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR",
+      "intersection_volume_mm3": 0.0,
+      "method": "Disjoint or exterior-touching AABBs"
+    },
+    {
+      "pair": [
+        "H10",
+        "P01"
+      ],
+      "offsets_x_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_VOLUME_TOLERANCE",
+      "intersection_volume_mm3": 0.0,
+      "method": "Full-resolution Manifold solid intersection"
+    },
+    {
+      "pair": [
+        "H10",
+        "H09"
+      ],
+      "offsets_x_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR",
+      "intersection_volume_mm3": 0.0,
+      "method": "Disjoint or exterior-touching AABBs"
+    },
+    {
+      "pair": [
+        "H10",
+        "H09a"
+      ],
+      "offsets_x_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR",
+      "intersection_volume_mm3": 0.0,
+      "method": "Disjoint or exterior-touching AABBs"
+    },
+    {
+      "pair": [
+        "H10",
+        "H09b"
+      ],
+      "offsets_x_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR",
+      "intersection_volume_mm3": 0.0,
+      "method": "Disjoint or exterior-touching AABBs",
+      "intended_contact": "Source roller is articulated to the cam face; only exterior contact is permitted"
+    },
+    {
+      "pair": [
+        "H09a",
+        "P01"
+      ],
+      "offsets_x_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_VOLUME_TOLERANCE",
+      "intersection_volume_mm3": 0.0,
+      "method": "Full-resolution Manifold solid intersection"
+    },
+    {
+      "pair": [
+        "H09b",
+        "P01"
+      ],
+      "offsets_x_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_VOLUME_TOLERANCE",
+      "intersection_volume_mm3": 0.0,
+      "method": "Full-resolution Manifold solid intersection"
+    },
+    {
+      "pair": [
+        "H09a",
+        "H09"
+      ],
+      "offsets_x_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR",
+      "intersection_volume_mm3": 0.0,
+      "method": "Disjoint or exterior-touching AABBs"
+    },
+    {
+      "pair": [
+        "H09b",
+        "H09"
+      ],
+      "offsets_x_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR",
+      "intersection_volume_mm3": 0.0,
+      "method": "Disjoint or exterior-touching AABBs"
+    },
+    {
+      "pair": [
+        "H09a",
+        "P05"
+      ],
+      "offsets_x_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR",
+      "intersection_volume_mm3": 0.0,
+      "method": "Disjoint or exterior-touching AABBs"
+    },
+    {
+      "pair": [
+        "H09b",
+        "P05"
+      ],
+      "offsets_x_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR",
+      "intersection_volume_mm3": 0.0,
+      "method": "Disjoint or exterior-touching AABBs"
+    }
+  ],
+  "legacy_contacts": [
+    {
+      "pair": [
+        "P03",
+        "H13"
+      ],
+      "preload_mm": 2.0,
+      "intersection_volume_mm3": 0.0,
+      "baseline_at_same_preload_volume_mm3": 0.0,
+      "status": "CLEAR",
+      "qualification": "NOT_ESTABLISHED",
+      "meaning": "Soft sleeve overlaps the original adjuster shaft end at zero preload. This is separate from the intended sleeve/core fit. Physical deformation, adjustment friction and load effects remain unverified. The2 mm service pose clears it."
+    }
+  ],
+  "limitations": [
+    "Helical coils are illustrative; spring force values are not measurements.",
+    "Click actuator is a source approximation; actual switch operating force, overtravel and hysteresis need physical verification.",
+    "Geometry does not establish plastic strength, fatigue, print tolerance or sensor accuracy."
+  ],
+  "failed_checks": 0,
+  "unresolved_checks": 0,
+  "main_source_unchanged": true,
+  "elapsed_seconds": 6.554872374981642
+}

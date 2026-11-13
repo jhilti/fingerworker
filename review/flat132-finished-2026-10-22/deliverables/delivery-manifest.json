@@ -1,0 +1,327 @@
+{
+  "revision": "Flat132 R1",
+  "date": "2026-10-22",
+  "scope": "Nominal CAD prototype, not a manufacturing or load qualification",
+  "onshape_version_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/4c39034c17201905fdfbb1d6/e/d253eb87b70818ebde8215f0",
+  "validation_status": "NOMINAL_GEOMETRY_CHECKS_PASS",
+  "step_roundtrip_status": "COMPLETE",
+  "hand_scan_included": false,
+  "viewer_included": false,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 8056,
+      "sha256": "02b23719c17a98c22d4c14c72f750c0ded4052433648ed272fe0f337cd3c0f30"
+    },
+    {
+      "path": "final-specification.json",
+      "bytes": 2188,
+      "sha256": "d3d1abf4150cc54ff2339db50adce1f17d5bfcbf416fbf18950c6cfb75cd6c40"
+    },
+    {
+      "path": "finalization-notes.md",
+      "bytes": 17088,
+      "sha256": "16aafeaebdef69993fcca60c5038bfff301bf0a63c1a24557729a190861f33a4"
+    },
+    {
+      "path": "fingerworker_flat132_finished.fs",
+      "bytes": 100959,
+      "sha256": "041056629440056626b2f2f88a0db216693e48fff178687174478cb1f34227ef"
+    },
+    {
+      "path": "machining-step/H12_sensor_backing_S355.step",
+      "bytes": 155439,
+      "sha256": "c23a38e0f3aa23d194caae55d85db3dfa7b70af5eb49b9822eaf4af633d85fca"
+    },
+    {
+      "path": "machining-step/H23_loose_sensor_keeper_stainless.step",
+      "bytes": 91510,
+      "sha256": "224028282dfd4a040df6cab95a43fd1a0c4a69aad9d8bcca0e4fe6084ca098a4"
+    },
+    {
+      "path": "machining-step/README.md",
+      "bytes": 3479,
+      "sha256": "916d18844c5a622ef6f417838b589324b441f8f409d38ba2c5284aa231358751"
+    },
+    {
+      "path": "machining-step/extract_native_solids.py",
+      "bytes": 6859,
+      "sha256": "317b8843c6fcdd0879e08ab369d6f2b305a97fba1b7fe4f3ee3ced7adb485681"
+    },
+    {
+      "path": "machining-step/manifest.json",
+      "bytes": 4842,
+      "sha256": "90d64192f6dd261cd4ca9d92d6565f4260717e493bcd0f168d0a55c1d0221c6e"
+    },
+    {
+      "path": "native/Flat132_R1_final_AP214.step",
+      "bytes": 2086608,
+      "sha256": "6de4383e6423fd1f57bd353d8f42953ecdae841bee1e36b853fb312c679fd7ef"
+    },
+    {
+      "path": "native/Flat132_R1_isometric13_p2_final.zip",
+      "bytes": 4817908,
+      "sha256": "6539c0800dffa49279cd5eee74d8d6781ab63f18b6f837fa4b78c0e0a762f37f"
+    },
+    {
+      "path": "native/Flat132_R1_max30_p2_heavy_final.zip",
+      "bytes": 54214518,
+      "sha256": "03b3d0c480ffb23aca9a590235d8c9a419d10b51bebcbeb72ef6683e8219ec40"
+    },
+    {
+      "path": "native/Flat132_R1_neutral_final.zip",
+      "bytes": 56422156,
+      "sha256": "f22ebe6f8d2852a31c4345dff9062adc557274f2d94152d9459822a2bdd1683e"
+    },
+    {
+      "path": "native-mount-audit.json",
+      "bytes": 50256,
+      "sha256": "92e34ecbf9e0404f563bbd33c3e614eaedf6c7ecab75c92c36b74b9685aeeffd"
+    },
+    {
+      "path": "native-mount-audit.md",
+      "bytes": 4267,
+      "sha256": "fc75d1f83e855a12ef306b365b6f33d70dc349fcd4b88627b76d3e32fe9b415e"
+    },
+    {
+      "path": "native-neutral-inventory.json",
+      "bytes": 24239,
+      "sha256": "419bcd983773b6bda0c3d8ad0ba42c1fb986f901e9075c460f73d1d12cb4d28a"
+    },
+    {
+      "path": "onshape-build.json",
+      "bytes": 1901,
+      "sha256": "24cbac01f54c4b850e14f256bfc0171d1ade7cba7520b0ee115f12d13530c417"
+    },
+    {
+      "path": "preserved-baselines.json",
+      "bytes": 788,
+      "sha256": "bd23d8d037703010c678c5b6981be43eb6be990cb69308ac7b85a53e2e6ad120"
+    },
+    {
+      "path": "print-mm/P01.stl",
+      "bytes": 1933584,
+      "sha256": "cddf593d50f9fef9acf7f8aa581f15303f321d1919493a4c9f54b86ae6d3b242"
+    },
+    {
+      "path": "print-mm/P02.stl",
+      "bytes": 1089284,
+      "sha256": "2daf25681bc7e8ff3b89aecabcb9278185f9688b46d41155800c45f6447d578f"
+    },
+    {
+      "path": "print-mm/P03.stl",
+      "bytes": 816084,
+      "sha256": "df92f24292d5597873a8518621e48b2dc29f817f9d484af08f4f3cbf4a133678"
+    },
+    {
+      "path": "print-mm/P04.stl",
+      "bytes": 2581384,
+      "sha256": "d7034abc2ff0a89f4174ec2f61e733ef01935f068ff792de560162efb396bf4f"
+    },
+    {
+      "path": "print-mm/P05.stl",
+      "bytes": 769084,
+      "sha256": "31c1ff354daff7ff7c2c26121b463aea7b38b597e03cfec3da43696a1cc3a8d4"
+    },
+    {
+      "path": "print-mm/P060.stl",
+      "bytes": 145184,
+      "sha256": "cc94f09a0b2b30b210654174f9dcc4c84103249373f4cb76e35def56f6f7c361"
+    },
+    {
+      "path": "print-mm/P061.stl",
+      "bytes": 145184,
+      "sha256": "94e89b2a80c4b5237a77b7a0f1c211b89a4befbed4f50e0294c8c75e316c7f9a"
+    },
+    {
+      "path": "print-mm/P070a.stl",
+      "bytes": 684,
+      "sha256": "238ebfde3626cbde9e99bf4a2d5a2636b34d169608dae53b4ab4cd9c22df9437"
+    },
+    {
+      "path": "print-mm/P070b.stl",
+      "bytes": 684,
+      "sha256": "59cd6b3ebdc4603288f68586f4adf108bb431e03b1eca396e3e6fa27195c159f"
+    },
+    {
+      "path": "print-mm/P071a.stl",
+      "bytes": 684,
+      "sha256": "cc069ac5fb2704c0571168890bc48558b8331f49b9b31b4842f36743d9b3eaec"
+    },
+    {
+      "path": "print-mm/P071b.stl",
+      "bytes": 684,
+      "sha256": "897e3fe214f97a2ef1e1b77893571f57db57071111676d9f69fa5e06ab2059ae"
+    },
+    {
+      "path": "print-mm/P08.stl",
+      "bytes": 422184,
+      "sha256": "11f47952a86814ce1c6a80ad25edde546f99b8664a610e397851ec8ae9fe8b2a"
+    },
+    {
+      "path": "print-mm/P09.stl",
+      "bytes": 134784,
+      "sha256": "2b809ab1f7cc350b96862cfd7d4878ac1907bda7cf793f78aa0e445e7264084a"
+    },
+    {
+      "path": "print-mm/P10.stl",
+      "bytes": 58684,
+      "sha256": "8ee66bba498b46d593a8d9c00581582cd76b35677312eb81d427f808df8b08d8"
+    },
+    {
+      "path": "print-mm/README.txt",
+      "bytes": 581,
+      "sha256": "41b76daf8d15093519c8169a7028689d55a897c6ba9e016c432977c35a08c5e4"
+    },
+    {
+      "path": "print-mm/part-manifest.json",
+      "bytes": 5213,
+      "sha256": "c6428103d3219283ade40559f662ea8559828dad3e8f061e9fe757aded17641d"
+    },
+    {
+      "path": "proof/final-sensor-cassette.png",
+      "bytes": 107629,
+      "sha256": "ff6b5a68c88808ab74ca85bc7c34ea64e9bdcbc0197b5aac45dac9fd88a7d00d"
+    },
+    {
+      "path": "proof/final-viewer-overview.png",
+      "bytes": 105985,
+      "sha256": "9350e85483dc2fd9d83f81666852caaf576dd09d57dc82a2a955e6ec4f4eaf7a"
+    },
+    {
+      "path": "proof/onshape-final-revision.png",
+      "bytes": 108998,
+      "sha256": "af3a27788b2720efdb7cf9350b26490edfa0fbd1c5bf0e6e3a5c14b97f21f3be"
+    },
+    {
+      "path": "sensor/TE_FX1901_actual_apex_aligned_132_mm.step",
+      "bytes": 437225,
+      "sha256": "241c8b522707e9ce3b611db3c783d6c9e3bd6e492175c530d5e9795d9dc98097"
+    },
+    {
+      "path": "sensor/c-fx1901-0001-0200-l-f-3d.stp",
+      "bytes": 145276,
+      "sha256": "fe4aee5f64f19f4859d2cfdbf73cb24d3cd91b0987949a6fcf28ada22e46cac3"
+    },
+    {
+      "path": "sensor/provenance.json",
+      "bytes": 1026,
+      "sha256": "23c9f929ff6a660c7709f4eacf5381457e0ce398c80f0dd50c89c0320729185e"
+    },
+    {
+      "path": "source-build.json",
+      "bytes": 10559,
+      "sha256": "431ce0ebe2abf1ca3612988019cf0ebe97f3e7f0662a43c442dc9a13bdfa2b4d"
+    },
+    {
+      "path": "validation/README.md",
+      "bytes": 9150,
+      "sha256": "950dd60f8a2675bb320f2343a49653f0b1ef28cbd2441686e1931c65478acbb5"
+    },
+    {
+      "path": "validation/audit_native_step.py",
+      "bytes": 5257,
+      "sha256": "1ff64cb40c1a8840088edb9418c1d40d4af0b6276ddf05cd09d976c23a887590"
+    },
+    {
+      "path": "validation/canonical-brep-reader-check.json",
+      "bytes": 1563,
+      "sha256": "7ef672869cf43302e8962ec69b7a129ecdcdad41befaa951172692f59791df4a"
+    },
+    {
+      "path": "validation/certify_source_fit.py",
+      "bytes": 4698,
+      "sha256": "e27e98e6bd06847c6ad07ec44e5f3d6bf72e4fbbcef17210b2dd353c825038e3"
+    },
+    {
+      "path": "validation/check_validator_math.py",
+      "bytes": 2602,
+      "sha256": "3a8e85476c434b22e526800deea0fb356086d7dd3d6323156d60876c273acfe9"
+    },
+    {
+      "path": "validation/endpoint-witnesses.json",
+      "bytes": 2045,
+      "sha256": "c6777dd59c031bed249b5f5be1670e132542e2cfbf9b64b7b0549bf1396ccd5e"
+    },
+    {
+      "path": "validation/manifest.json",
+      "bytes": 24494,
+      "sha256": "c38d5b3f4238f7c602f43ed3a7d92d1016ed61ae14bd2ff9f838e33d8a1882f8"
+    },
+    {
+      "path": "validation/manifest.template.json",
+      "bytes": 4289,
+      "sha256": "f9d0bfed7c88985f84f22ff19efd7848c47950b3ae91de3a92ab12bf5ef91b73"
+    },
+    {
+      "path": "validation/max-native-check.json",
+      "bytes": 2165789,
+      "sha256": "866b807d02be9317b2c6f6c76483b438af06ac39cf83e6a59a3e5f817d5057a8"
+    },
+    {
+      "path": "validation/max-native-final-check.json",
+      "bytes": 2166869,
+      "sha256": "df5b6cd99ffc4fe1ea39bc33dc82243065ed5653de18f69d6c7a67f5db3c5af2"
+    },
+    {
+      "path": "validation/native-step-inventory.json",
+      "bytes": 87104,
+      "sha256": "bdb26c9744c2e8b3fcdebeda1d530a199d8b506438fd62885d6e6a36d37d92fa"
+    },
+    {
+      "path": "validation/old-actuator-arc-validator-check.json",
+      "bytes": 226678,
+      "sha256": "d995a97ac0e1ee0a59603a621f227acc940c815cecfc4caee2cf79bb969ae53b"
+    },
+    {
+      "path": "validation/old-baseline-diagnostic-manifest.json",
+      "bytes": 2690,
+      "sha256": "f1eeb3bb61860b2f65bc2c9e8ec11cd16d74a40ed2f683c15ebabf286aba2a29"
+    },
+    {
+      "path": "validation/old-baseline-diagnostic.json",
+      "bytes": 458696,
+      "sha256": "022ad5c94e011c68126db755d4d0113c6592521153d36d781c787ec476f78165"
+    },
+    {
+      "path": "validation/old-native-pose-validator-check.json",
+      "bytes": 12159,
+      "sha256": "f687cdd0eb3b7d89bd7f606f76a33fb9e83778726b4eb318cd4ca1d33de2fe5c"
+    },
+    {
+      "path": "validation/prepare_manifest.py",
+      "bytes": 9400,
+      "sha256": "2fc984760422384ae19eb5208a598d04a6c431ea9bb92a616fae5efe1be50e40"
+    },
+    {
+      "path": "validation/requirements.txt",
+      "bytes": 70,
+      "sha256": "ea321b865315f04bfaa93885cd3f3f9b5bb54650d77fa270cd2d1c96bcc746d7"
+    },
+    {
+      "path": "validation/source-fit-certificate.json",
+      "bytes": 3708,
+      "sha256": "da69d6ca39782dc88876ea21a0b3dd07e4a8deea55331bb1452f769c9f83ea8a"
+    },
+    {
+      "path": "validation/template-availability-check.json",
+      "bytes": 6248,
+      "sha256": "0772d211c84629bed506a398b4bf1f43d664b939def50a5123bbcbaa74d41ef9"
+    },
+    {
+      "path": "validation/validate_finished.py",
+      "bytes": 45794,
+      "sha256": "03b8a5274230750a833fa6ddc7c0c6da76f8f18ceaef3a8c8a8103cd1a84a994"
+    },
+    {
+      "path": "validation/validation.json",
+      "bytes": 12123623,
+      "sha256": "8640528b8e41fd0e6bc423a221e17df2649b63382b9bfb015f9a51edb979094c"
+    },
+    {
+      "path": "validation/validator-math-checks.json",
+      "bytes": 4902,
+      "sha256": "1bb2ccd9641b6a88caf834386b248134f0eee0b43303f094c924af8a39be3672"
+    }
+  ]
+}

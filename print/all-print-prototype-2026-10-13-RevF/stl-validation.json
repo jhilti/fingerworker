@@ -1,0 +1,290 @@
+{
+  "status": "PASS",
+  "unique_parts": 25,
+  "print_quantity": 30,
+  "nominal_geometry_unchanged": true,
+  "rotated_parts": {
+    "P04": 90,
+    "P05": 90,
+    "H12": 90,
+    "H02": -90
+  },
+  "meshes": [
+    {
+      "part": "P04",
+      "file": "PETG/P04_climbing_carriage_REAR_DOWN_RevF.stl",
+      "closed": true,
+      "triangles": 57600,
+      "volume_mm3": 125268.48003733589,
+      "rigid_roundtrip_error_mm": 0.0,
+      "bed_contact_area_mm2": 3918.7409427335733,
+      "section_at_z0_1_area_mm2": null,
+      "elevated_downward_horizontal_area_mm2": 947.0400079345709
+    },
+    {
+      "part": "P05",
+      "file": "PETG/P05_floating_yoke_RIB_DOWN_RevF.stl",
+      "closed": true,
+      "triangles": 14992,
+      "volume_mm3": 62053.52845244448,
+      "rigid_roundtrip_error_mm": 9.5367431640625e-07,
+      "bed_contact_area_mm2": 1026.0,
+      "section_at_z0_1_area_mm2": null,
+      "elevated_downward_horizontal_area_mm2": 2622.5028612664246
+    },
+    {
+      "part": "P01",
+      "file": "PETG/P01_base_6mm_AssemblyClear_RevB_2026-10-13.stl",
+      "closed": true,
+      "triangles": 38502,
+      "volume_mm3": 161133.14559238945,
+      "rigid_roundtrip_error_mm": 0.0,
+      "bed_contact_area_mm2": 20868.967252586524,
+      "section_at_z0_1_area_mm2": null,
+      "elevated_downward_horizontal_area_mm2": 281.9659642396946
+    },
+    {
+      "part": "P060",
+      "file": "PETG/P060_rear_retainer_left_RevC_2026-10-13.stl",
+      "closed": true,
+      "triangles": 2902,
+      "volume_mm3": 3082.3832285785725,
+      "rigid_roundtrip_error_mm": 0.0,
+      "bed_contact_area_mm2": 173.84753763556364,
+      "section_at_z0_1_area_mm2": null,
+      "elevated_downward_horizontal_area_mm2": 0.0
+    },
+    {
+      "part": "P061",
+      "file": "PETG/P061_rear_retainer_right_RevC_2026-10-13.stl",
+      "closed": true,
+      "triangles": 2902,
+      "volume_mm3": 3082.3832285785725,
+      "rigid_roundtrip_error_mm": 0.0,
+      "bed_contact_area_mm2": 173.84753763556364,
+      "section_at_z0_1_area_mm2": null,
+      "elevated_downward_horizontal_area_mm2": 0.0
+    },
+    {
+      "part": "P02",
+      "file": "PETG/P02_Palm_mount_RevA.stl",
+      "closed": true,
+      "triangles": 41954,
+      "volume_mm3": 35654.2771001792,
+      "rigid_roundtrip_error_mm": 0.0,
+      "bed_contact_area_mm2": 3248.1771970229574,
+      "section_at_z0_1_area_mm2": null,
+      "elevated_downward_horizontal_area_mm2": 16.080718023605186
+    },
+    {
+      "part": "P08",
+      "file": "PETG/P08_Electronics_tray.stl",
+      "closed": true,
+      "triangles": 9108,
+      "volume_mm3": 4753.507665604952,
+      "rigid_roundtrip_error_mm": 0.0,
+      "bed_contact_area_mm2": 2475.0,
+      "section_at_z0_1_area_mm2": null,
+      "elevated_downward_horizontal_area_mm2": 96.39935042882405
+    },
+    {
+      "part": "P09",
+      "file": "PETG/P09_Electronics_lid.stl",
+      "closed": true,
+      "triangles": 4354,
+      "volume_mm3": 2247.0654830573812,
+      "rigid_roundtrip_error_mm": 0.0,
+      "bed_contact_area_mm2": 2442.3598456358127,
+      "section_at_z0_1_area_mm2": null,
+      "elevated_downward_horizontal_area_mm2": 0.0
+    },
+    {
+      "part": "P10",
+      "file": "PETG/P10_Wire_clamp.stl",
+      "closed": true,
+      "triangles": 1284,
+      "volume_mm3": 27.55196095970824,
+      "rigid_roundtrip_error_mm": 0.0,
+      "bed_contact_area_mm2": 27.55196095970824,
+      "section_at_z0_1_area_mm2": null,
+      "elevated_downward_horizontal_area_mm2": 0.0
+    },
+    {
+      "part": "P070a",
+      "file": "PETG/P070a_return_pad_left_a_PETG_MOCKUP.stl",
+      "closed": true,
+      "triangles": 12,
+      "volume_mm3": 40.499794006347656,
+      "rigid_roundtrip_error_mm": 0.0,
+      "bed_contact_area_mm2": 27.0,
+      "section_at_z0_1_area_mm2": null,
+      "elevated_downward_horizontal_area_mm2": 0.0
+    },
+    {
+      "part": "P070b",
+      "file": "PETG/P070b_return_pad_left_b_PETG_MOCKUP.stl",
+      "closed": true,
+      "triangles": 12,
+      "volume_mm3": 40.499794006347656,
+      "rigid_roundtrip_error_mm": 0.0,
+      "bed_contact_area_mm2": 27.0,
+      "section_at_z0_1_area_mm2": null,
+      "elevated_downward_horizontal_area_mm2": 0.0
+    },
+    {
+      "part": "P071a",
+      "file": "PETG/P071a_return_pad_right_a_PETG_MOCKUP.stl",
+      "closed": true,
+      "triangles": 12,
+      "volume_mm3": 40.499794006347656,
+      "rigid_roundtrip_error_mm": 0.0,
+      "bed_contact_area_mm2": 27.0,
+      "section_at_z0_1_area_mm2": null,
+      "elevated_downward_horizontal_area_mm2": 0.0
+    },
+    {
+      "part": "P071b",
+      "file": "PETG/P071b_return_pad_right_b_PETG_MOCKUP.stl",
+      "closed": true,
+      "triangles": 12,
+      "volume_mm3": 40.499794006347656,
+      "rigid_roundtrip_error_mm": 0.0,
+      "bed_contact_area_mm2": 27.0,
+      "section_at_z0_1_area_mm2": null,
+      "elevated_downward_horizontal_area_mm2": 0.0
+    },
+    {
+      "part": "P03a",
+      "file": "PETG/P03a_Palm_shell_left_PETG_MOCKUP.stl",
+      "closed": true,
+      "triangles": 30032,
+      "volume_mm3": 3713.8527246763165,
+      "rigid_roundtrip_error_mm": 0.0,
+      "bed_contact_area_mm2": 18.806994915857643,
+      "section_at_z0_1_area_mm2": null,
+      "elevated_downward_horizontal_area_mm2": 0.0
+    },
+    {
+      "part": "P03b",
+      "file": "PETG/P03b_Palm_shell_right_PETG_MOCKUP.stl",
+      "closed": true,
+      "triangles": 30036,
+      "volume_mm3": 3713.852338618815,
+      "rigid_roundtrip_error_mm": 0.0,
+      "bed_contact_area_mm2": 18.806994705541364,
+      "section_at_z0_1_area_mm2": null,
+      "elevated_downward_horizontal_area_mm2": 0.0
+    },
+    {
+      "part": "H02",
+      "file": "PETG/H02_Pusher_PRINT_MOCKUP_UPRIGHT_RevF.stl",
+      "closed": true,
+      "triangles": 2516,
+      "volume_mm3": 120.06945698919964,
+      "rigid_roundtrip_error_mm": 2.8565331755628464e-07,
+      "bed_contact_area_mm2": 12.564494954792934,
+      "section_at_z0_1_area_mm2": null,
+      "elevated_downward_horizontal_area_mm2": 37.69348678900252
+    },
+    {
+      "part": "H04",
+      "file": "PETG/H04_Guide_rod_PRINT_MOCKUP.stl",
+      "closed": true,
+      "triangles": 836,
+      "volume_mm3": 4127.4368989037475,
+      "rigid_roundtrip_error_mm": 0.0,
+      "bed_contact_area_mm2": 0.0,
+      "section_at_z0_1_area_mm2": null,
+      "elevated_downward_horizontal_area_mm2": 0.0
+    },
+    {
+      "part": "H05",
+      "file": "PETG/H05_Fixed_spring_seat_PRINT_MOCKUP.stl",
+      "closed": true,
+      "triangles": 1680,
+      "volume_mm3": 1037.607472872302,
+      "rigid_roundtrip_error_mm": 0.0,
+      "bed_contact_area_mm2": 345.8691576241008,
+      "section_at_z0_1_area_mm2": null,
+      "elevated_downward_horizontal_area_mm2": 0.0
+    },
+    {
+      "part": "H06",
+      "file": "PETG/H06_Moving_spring_seat_PRINT_MOCKUP.stl",
+      "closed": true,
+      "triangles": 1680,
+      "volume_mm3": 989.4540430128427,
+      "rigid_roundtrip_error_mm": 0.0,
+      "bed_contact_area_mm2": 329.8180143376144,
+      "section_at_z0_1_area_mm2": null,
+      "elevated_downward_horizontal_area_mm2": 0.0
+    },
+    {
+      "part": "H12",
+      "file": "PETG/H12_Sensor_cassette_PRINT_MOCKUP_SIDE_DOWN_RevF.stl",
+      "closed": true,
+      "triangles": 2572,
+      "volume_mm3": 2062.8916017584493,
+      "rigid_roundtrip_error_mm": 9.5367431640625e-07,
+      "bed_contact_area_mm2": 130.39999389648438,
+      "section_at_z0_1_area_mm2": null,
+      "elevated_downward_horizontal_area_mm2": 0.0
+    },
+    {
+      "part": "H15",
+      "file": "PETG/H15_Keeper_PRINT_MOCKUP.stl",
+      "closed": true,
+      "triangles": 5704,
+      "volume_mm3": 1087.5062018140034,
+      "rigid_roundtrip_error_mm": 0.0,
+      "bed_contact_area_mm2": 519.2946594905279,
+      "section_at_z0_1_area_mm2": null,
+      "elevated_downward_horizontal_area_mm2": 0.0
+    },
+    {
+      "part": "H19",
+      "file": "PETG/H19_Spacer_PRINT_MOCKUP.stl",
+      "closed": true,
+      "triangles": 1680,
+      "volume_mm3": 18.092874273469505,
+      "rigid_roundtrip_error_mm": 0.0,
+      "bed_contact_area_mm2": 4.5232185683673745,
+      "section_at_z0_1_area_mm2": null,
+      "elevated_downward_horizontal_area_mm2": 0.0
+    },
+    {
+      "part": "H22",
+      "file": "PETG/H22_Brass_pad_PRINT_MOCKUP.stl",
+      "closed": true,
+      "triangles": 836,
+      "volume_mm3": 4.908006154605366,
+      "rigid_roundtrip_error_mm": 0.0,
+      "bed_contact_area_mm2": 4.908006154605367,
+      "section_at_z0_1_area_mm2": null,
+      "elevated_downward_horizontal_area_mm2": 0.0
+    },
+    {
+      "part": "H14",
+      "file": "PETG/H14_Isometric_sleeve_PRINT_MOCKUP.stl",
+      "closed": true,
+      "triangles": 1680,
+      "volume_mm3": 12966.559590935794,
+      "rigid_roundtrip_error_mm": 0.0,
+      "bed_contact_area_mm2": 150.77394873181157,
+      "section_at_z0_1_area_mm2": null,
+      "elevated_downward_horizontal_area_mm2": 0.0
+    },
+    {
+      "part": "H13",
+      "file": "PETG/H13_Handwheel_ONLY_PRINT_MOCKUP.stl",
+      "closed": true,
+      "triangles": 1680,
+      "volume_mm3": 974.1504884701625,
+      "rigid_roundtrip_error_mm": 0.0,
+      "bed_contact_area_mm2": 347.9108946642309,
+      "section_at_z0_1_area_mm2": null,
+      "elevated_downward_horizontal_area_mm2": 0.0
+    }
+  ],
+  "scope": "Closed meshes, rigid orientation only, nominal shape/volume preserved; printability judged with actual slicer/support review"
+}

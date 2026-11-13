@@ -1,0 +1,15 @@
+{
+  "status": "P02_ONLY_REPRINT_CHECKS_PASS",
+  "native_project_sha256": "56cc572c803fa43d9c3e7d94e6e269fe2b0a6740837d5e4b87671338e80f311a",
+  "full_project_sha256": "f6a5709a4446d1715a9850a2ef89fa467d6b5025f92f4fba790a3beb116744c4",
+  "slice_sha256": "1386af0ed4ca8a5b24de099676a5604db00e7256a3f24298598a3d550cd221ac",
+  "mesh_faces_identical_to_full": true,
+  "normalized_vertices_max_error_mm": 3.800000001774606e-06,
+  "support_settings_identical_to_full": true,
+  "model_positive_segments": 52978,
+  "actual_model_max_Z_mm": 36.6,
+  "one_PLA_object_sliced": true,
+  "estimated_seconds": 6904,
+  "estimated_grams": 27.99,
+  "no_printer_transmission": true
+}

@@ -1,0 +1,21 @@
+{
+  "version_id": "d4421f391a091e249b08aeb1",
+  "name": "Flat132 R16 - upright grip flat roof FINAL - 2026-11-09",
+  "url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/d4421f391a091e249b08aeb1/e/d253eb87b70818ebde8215f0",
+  "source_sha256": "1f492dd841c35a14f488be418e4f4dd8dea8edb63f3d321a492dc2ec3c907ab4",
+  "source_readback_exact": false,
+  "native_parts": 93,
+  "status": "PASS_NATIVE_REGENERATION_AND_EXPORT_AUDITS",
+  "pose": {
+    "user_travel_mm": 0,
+    "cam_trim_mm": 0,
+    "light_springs": true,
+    "isometric": false,
+    "show_hand": false,
+    "show_electronics": true
+  },
+  "source_commit_method": "Native Chrome UI paste and Commit; native export geometry verified independently",
+  "supersedes_version": "03f7625061be0c1050f8f190",
+  "stl_zip_sha256": "1c39421b42d505d75a42db45051ba13d5baec6d7568362cffcb85fc193ef9663",
+  "step_sha256": "e2b588932fb73f5545baf87ffb91d98f69a29577517105ef169503693ca88b5d"
+}

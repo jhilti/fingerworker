@@ -1,0 +1,77 @@
+{
+  "status": "STATIC_SYNTAX_AND_SOURCE_BINDING_PASS",
+  "viewer_sha256": "5f5706ef8170303ac327776377e1a568528edc200694fc82fb45f2f9bd923191",
+  "source_sha256": "62fabee79cf36d0e0b6d4cd8430700519dbc529a5ea08f70018b14b0c3f2271f",
+  "geometry_origin": "NATIVE_ONSHAPE_REGEN",
+  "poses": [
+    {
+      "id": "neutral",
+      "archive_sha256": "9117c58e92696a45477bc13182cc19286337049539acdab56a1f1daeb5c45a5e",
+      "device_parts": 52
+    },
+    {
+      "id": "max",
+      "archive_sha256": "0030255f56c476f6b0060053deab84231d22839de04cfffd77493ce45cb759c9",
+      "device_parts": 52
+    },
+    {
+      "id": "iso",
+      "archive_sha256": "28cf6579ae26dd6eb701f0255839bc1671070747b3fd37bf150ab7c881e8fe23",
+      "device_parts": 52
+    }
+  ],
+  "cad_qa": {
+    "nominal_status": "NOMINAL_GEOMETRY_CHECKS_PASS",
+    "message": "R6 one-piece palm native construction, clearances, full-domain motion and service checks passed. R5 unchanged geometry/evidence is retained by exact source and native-body certificates. Physical hard-palm comfort and the 500 N target remain unqualified."
+  },
+  "browser_qa": {
+    "status": "PASS_PARENT_VISUAL_REVIEW",
+    "views": [
+      "neutral_full",
+      "solid_palm_round",
+      "solid_palm_flat_back"
+    ],
+    "proof_files": {
+      "proof/onshape-R6-immutable-neutral.png": "b730700c96a3a0e726687a0f2c55b8234e815492bfa14b0de8a651d5a2844c34",
+      "proof/R6-solid-palm-round.png": "ff7ed74b067609bf35ff2cacfce638e0479c46b564b27013aaae2f280b457592",
+      "proof/R6-solid-palm-flat-back.png": "edd96fceefbe26e5b7d164bd51490ff47db87637d85fad09f9fcc3292232941c"
+    },
+    "observed_device_parts": 52,
+    "observed_single_rigid_P02": true,
+    "observed_nominal_banner": "PASS",
+    "package_link": "ENABLED_AFTER_HASH_VERIFIED_PACKAGE_BUILD"
+  },
+  "switch_geometry": {
+    "source": "Omron SS series manufacturer dimensioned drawing; not factory STEP",
+    "part_number": "SS-01GL2",
+    "relocation_from_R3_mm": [
+      4,
+      1,
+      1.5
+    ],
+    "drawing_source_path": "vendor/omron_ss5gl2/SS_datasheet.pdf",
+    "drawing_sha256": "b7c3cc9e838c1049d58772242b56cd06af3526ac422907769acd892668ba1a09",
+    "drawing_url": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-ss.pdf",
+    "terminal_and_lug_shape": "Conservative nominal dimensioned envelopes; exact profiles unresolved",
+    "actuator": "Illustrative hinge/roller proxy, not factory CAD or qualified mechanism",
+    "actual_TE_force_sensor_retained": true,
+    "mount_and_cam_relocated_in_native_source": true,
+    "physical_actuation_and_wiring_qualified": false,
+    "actual_operation_total_travel_cam_lock_wiring_qualified": false,
+    "new_P11_stepped_shoe": true,
+    "vertical_H10_clamp": "M3x10",
+    "calibration_mm": [
+      -0.8,
+      0.8
+    ],
+    "nominal_drawing_envelope_checks_passed": true
+  },
+  "step": {
+    "path": "native/Flat132_R6_final_AP214.step",
+    "sha256": "236e53d7a6b687426b6f134098e64ff905705c81404d1505a1a480510fc7897e",
+    "geometry_origin": "NATIVE_ONSHAPE_REGEN",
+    "geometry_source_sha256": "62fabee79cf36d0e0b6d4cd8430700519dbc529a5ea08f70018b14b0c3f2271f"
+  },
+  "package_ready": true,
+  "javascript_syntax": "NODE_CHECK_PASS"
+}

@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "meshes": [
+    {
+      "file": "P02_Palm_mount_RevA.stl",
+      "triangles": 41954,
+      "closed": true,
+      "positive_volume_mm3": 35654.28041300907,
+      "print_bounds_mm": [
+        36.25,
+        128.0,
+        18.0
+      ]
+    },
+    {
+      "file": "P08_Electronics_tray.stl",
+      "triangles": 9108,
+      "closed": true,
+      "positive_volume_mm3": 4753.507475395391,
+      "print_bounds_mm": [
+        22.5,
+        124.0,
+        9.5
+      ]
+    },
+    {
+      "file": "P09_Electronics_lid.stl",
+      "triangles": 4354,
+      "closed": true,
+      "positive_volume_mm3": 2247.0654514373623,
+      "print_bounds_mm": [
+        22.5,
+        110.0,
+        6.75
+      ]
+    },
+    {
+      "file": "P10_Wire_clamp.stl",
+      "triangles": 1284,
+      "closed": true,
+      "positive_volume_mm3": 27.551957882000032,
+      "print_bounds_mm": [
+        3.2,
+        10.2,
+        1.0
+      ]
+    }
+  ],
+  "pdfs": [
+    {
+      "file": "Metallteile_RevA.pdf",
+      "pages": 11,
+      "text_bounds": "PASS",
+      "visual_review": "rendered pages inspected"
+    },
+    {
+      "file": "Elektronikaufnahme_RevA.pdf",
+      "pages": 4,
+      "text_bounds": "PASS",
+      "visual_review": "rendered pages inspected"
+    }
+  ]
+}

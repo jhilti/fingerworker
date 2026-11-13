@@ -1,0 +1,12 @@
+Position;Menge_R9;Menge_R10;Änderung
+P01;1;1;Grundrahmen und massive Handballenauflage als ein zusammenhängender Druckkörper
+P02;1;0;In P01 integriert - nicht separat drucken
+P03 Sleeve;0;0;Kein Sleeve erforderlich
+Palm M4x10;2;0;Palm-Befestigung vollständig entfernt
+Palm M4-Inserts L6;2;0;Keine Palm-Inserts mehr einsetzen
+H15;1;1;Revidierte Stahlplatte mit glatten Ø3.4-Durchgängen ohne alte Senkungen verwenden
+H160/H161 M3x8;2;2;Von Sensorseite montieren - Köpfe im neuen P01 versenkt
+H170/H171 M3-Vierkantmuttern 5.5x5.5x1.8;2;2;Hinter H15 montieren und von oben gegenhalten
+P08/P09/P10;je 1;je 1;Elektronikgehäuse unverändert - als Modul nach unten abnehmbar
+Übrige R9-Geräteteile;unverändert;unverändert;141-mm-Stäbe und 81-mm-ISO-Hülsen beibehalten
+S01 weiche Federumrüstung;optional 2;optional 2;Separates unverändertes Zubehör vom26.10.2026

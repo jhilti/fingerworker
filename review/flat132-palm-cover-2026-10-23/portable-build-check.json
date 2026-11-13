@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "method": "Run copied builder with only bundled frozen R7 baseline in isolated temporary package",
+  "source_sha256": "6099df42e341ff9f5c3439709a23107325d10ef922f616bdcda6fa6ef64d41c1",
+  "same_output_bytes": true,
+  "builder_sha256": "a19ec4fd2afffde42b5264b6343e9a1edcbf8f268d1c351e3af3e52301f0c003"
+}

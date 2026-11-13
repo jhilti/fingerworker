@@ -1,0 +1,9 @@
+Ref,Menge R12,Menge R13,Aenderung
+P01,1,1,"Neu drucken: einheitlicher gerundeter Handballenbalken Radius 10.25 mm ueber 116 mm Breite und breite Verbindung zum Rahmen; Klickflaechen und Service bleiben erhalten"
+P04/P05/P06/P08/P09/P11,6,6,"Geometrie unveraendert; vorhandene R12-Drucke weiterverwenden"
+H040/H041,2,2,"Unveraenderte federfreie Stangen-Formhilfen; keine Funktionshardware"
+Q01,1,1,"Vorhandene R12-Passhilfe passt weiterhin; nur unbelastet und ohne Federn verwenden"
+Neue Beschaffungspositionen,0,0,"Keine neuen Beschaffungspositionen; gesamte R12-Hardware bleibt unveraendert erforderlich"
+Druckteile Geraet,7,7,"Teilezahl gleich; nur P01 aendert seine Form"
+Druckstuecke Passpaket,10,10,"Sieben Geraeteteile plus drei Formhilfen"
+Native CAD-Koerper,93,93,"P01 geaendert; 92 andere Koerper unveraendert"

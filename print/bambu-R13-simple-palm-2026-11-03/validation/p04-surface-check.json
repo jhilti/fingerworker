@@ -1,0 +1,172 @@
+{
+  "status": "PASS",
+  "scope": "P04 main finger-contact surfaces, exact rolled front lip core, central guide cavity, and inner 8 mm rod bores; support roads sampled at <=0.35 mm",
+  "gcode_sha256": "a6361693cea8e1f023970ed3c9feb99a9e8923f702dea2b182908e228272313c",
+  "rotation_3x3": [
+    [
+      0,
+      0,
+      -1
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      0
+    ]
+  ],
+  "normalization_translation_mm": [
+    30,
+    63,
+    -60
+  ],
+  "plate_xy_mm": [
+    100,
+    80
+  ],
+  "model_segments": 229247,
+  "first_layer_path_mm": 3295.81926485707,
+  "max_model_print_z_mm": 59.0,
+  "support_segments": 29249,
+  "support_segments_in_critical_regions": {
+    "loaded_wall": 0,
+    "pocket_floor": 0,
+    "guide_cavity": 0,
+    "left_rod_bore": 0,
+    "right_rod_bore": 0,
+    "rolled_front_lip": 0,
+    "front_floor_fillet": 0,
+    "front_corner_walls": 0
+  },
+  "regions": {
+    "loaded_wall": {
+      "Bridge": {
+        "segments": 76,
+        "sample_points": 4254,
+        "path_mm": 2153.83011279314,
+        "max_speed_mm_s": 25.0
+      },
+      "Internal solid infill": {
+        "segments": 432,
+        "sample_points": 15543,
+        "path_mm": 7335.367030888015,
+        "max_speed_mm_s": 100.0
+      },
+      "Top surface": {
+        "segments": 127,
+        "sample_points": 5165,
+        "path_mm": 2150.559917023708,
+        "max_speed_mm_s": 40.0
+      }
+    },
+    "pocket_floor": {
+      "Inner wall": {
+        "segments": 119,
+        "sample_points": 16957,
+        "path_mm": 7587.893014414155,
+        "max_speed_mm_s": 100.0
+      },
+      "Outer wall": {
+        "segments": 119,
+        "sample_points": 16959,
+        "path_mm": 7592.562014405059,
+        "max_speed_mm_s": 60.0
+      }
+    },
+    "guide_cavity": {
+      "Inner wall": {
+        "segments": 3590,
+        "sample_points": 10480,
+        "path_mm": 25675.631204287314,
+        "max_speed_mm_s": 100.0
+      },
+      "Outer wall": {
+        "segments": 1990,
+        "sample_points": 36301,
+        "path_mm": 19820.463732051143,
+        "max_speed_mm_s": 60.0
+      },
+      "Overhang wall": {
+        "segments": 21,
+        "sample_points": 101,
+        "path_mm": 23.62914619407272,
+        "max_speed_mm_s": 25.0
+      }
+    },
+    "left_rod_bore": {},
+    "right_rod_bore": {},
+    "rolled_front_lip": {
+      "Outer wall": {
+        "segments": 263,
+        "sample_points": 3658,
+        "path_mm": 1295.7442913232337,
+        "max_speed_mm_s": 60.0
+      },
+      "Overhang wall": {
+        "segments": 1,
+        "sample_points": 2,
+        "path_mm": 1.754000000000019,
+        "max_speed_mm_s": 25.0
+      },
+      "Inner wall": {
+        "segments": 6,
+        "sample_points": 799,
+        "path_mm": 281.2904953757356,
+        "max_speed_mm_s": 100.0
+      },
+      "Top surface": {
+        "segments": 106,
+        "sample_points": 212,
+        "path_mm": 1876.9357556125174,
+        "max_speed_mm_s": 40.0
+      }
+    },
+    "front_floor_fillet": {
+      "Top surface": {
+        "segments": 108,
+        "sample_points": 735,
+        "path_mm": 1904.2463404335645,
+        "max_speed_mm_s": 40.0
+      },
+      "Inner wall": {
+        "segments": 5,
+        "sample_points": 640,
+        "path_mm": 225.10918724722254,
+        "max_speed_mm_s": 100.0
+      },
+      "Outer wall": {
+        "segments": 28,
+        "sample_points": 3045,
+        "path_mm": 1083.3318057860001,
+        "max_speed_mm_s": 60.0
+      }
+    },
+    "front_corner_walls": {
+      "Inner wall": {
+        "segments": 41,
+        "sample_points": 712,
+        "path_mm": 248.61040346369836,
+        "max_speed_mm_s": 100.0
+      },
+      "Top surface": {
+        "segments": 51,
+        "sample_points": 324,
+        "path_mm": 549.796736501179,
+        "max_speed_mm_s": 40.0
+      },
+      "Outer wall": {
+        "segments": 153,
+        "sample_points": 2721,
+        "path_mm": 1028.7145502524795,
+        "max_speed_mm_s": 60.0
+      }
+    }
+  },
+  "issues": [],
+  "estimated_time": "4h 20m 33s",
+  "estimated_weight_g": 65.21
+}

@@ -1,0 +1,51 @@
+{
+  "feature_source": "fingerworker_flat132_palm_fit.fs",
+  "source_sha256": "4665c3ec4e983e478d34c6cfe923b3b60e6c8848f36b7c54b55b1989eaab6326",
+  "branch_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/w/3ee26cf6386f889ca7ae9519/e/d253eb87b70818ebde8215f0",
+  "frozen_version_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/9bf146edbc2e61a5c4144a35/e/d253eb87b70818ebde8215f0",
+  "include_available_poses_only": false,
+  "step": {
+    "path": "native/Flat132_R3_final_AP214.step",
+    "sha256": "bc7f102b5f147d3647ec372ffde1c726087fe64487aa7733c78b3450901da4e3"
+  },
+  "prototype_package": {
+    "path": "deliverables/Flat132_R3_Palm_Fit.zip",
+    "sha256": "111836c50a9dfafb13a4a6471591ba19509d453b98d0775f2ed8df801429490e",
+    "bytes": 3601983
+  },
+  "poses": [
+    {
+      "id": "neutral",
+      "label": "Neutral \u00b7 0 mm stroke / preload \u00b7 light",
+      "archive": "native/Flat132_R3_neutral_final.zip",
+      "sha256": "0a8d367507744e7dfaaa46a6c1fa46639551293a0ad738d16f87fbebf2eef738",
+      "stroke_mm": 0,
+      "preload_mm": 0,
+      "isometric": false,
+      "spring": "light"
+    },
+    {
+      "id": "max",
+      "label": "Maximum \u00b7 28 mm stroke / 2 mm preload \u00b7 heavy",
+      "archive": "native/Flat132_R3_max28_p2_heavy_final.zip",
+      "sha256": "e3f4a92aeed099ec3ec5f11ce9a9f0bf948d419329b2672dd663ed449f0b2381",
+      "stroke_mm": 28,
+      "preload_mm": 2,
+      "isometric": false,
+      "spring": "heavy",
+      "native_export_source_sha256": "4665c3ec4e983e478d34c6cfe923b3b60e6c8848f36b7c54b55b1989eaab6326"
+    },
+    {
+      "id": "iso",
+      "label": "Isometric \u00b7 13 mm setting / 2 mm preload \u00b7 lock sleeves",
+      "archive": "native/Flat132_R3_isometric13_p2_final.zip",
+      "sha256": "f4bf05bd31a8929006b5136ed86b8b04c4dc293295bca9daec82a259bf10f921",
+      "stroke_mm": 13,
+      "preload_mm": 2,
+      "isometric": true,
+      "spring": "lock_sleeves",
+      "native_export_source_sha256": "4665c3ec4e983e478d34c6cfe923b3b60e6c8848f36b7c54b55b1989eaab6326",
+      "gui_spring_selection": "heavy"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "status": "RENDERED_ACTUAL_R18_ORGANIC_PALM_SUPPORT_PATHS",
+  "candidate": false,
+  "replacement": false,
+  "source_mesh_sha256": "be42108fa89941a0f7dbae4df4cec33a9402b8316e8c42922475309060faf554",
+  "sliced_archive_sha256": "4ddfdada54b368db8c797c6c39b78e51c1278f52e31b0921d30193c5bcf40701",
+  "layout_sha256": "341aafaa8b88741d5987f7206088ab3f9e30efaaa75114377140643c8078bdab",
+  "image_sha256": "7a39444e290b1389c3da4e2e1ceb2896a7f76757661240e4629c06bd9155c0ba",
+  "renderer_sha256": "d71a40fbef415659bdfe3b303b8cd3dc6a778b4c98886403a0863e025d575b3c"
+}

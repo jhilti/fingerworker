@@ -1,0 +1,84 @@
+{
+  "status": "PASS_DOCUMENTATION_BOUND_TO_R15_EVIDENCE",
+  "source_sha256": "97e2010cc17d06eb8648cf278b9aae2fd85b6e909bd657b9b216f3b37748665f",
+  "onshape_version": "e8453217d87e9cfdc9a33f65",
+  "verification": {
+    "review/inboard-straps-2026-11-08/validation/native-geometry.json": {
+      "status": "PASS_EXACT_NATIVE_R15",
+      "sha256": "fc3620fdbdd388d4f77095d0da093578a0321425d573a1d859ff02f9fd3b41a8"
+    },
+    "review/inboard-straps-2026-11-08/validation/native-motion.json": {
+      "status": "PASS_NATIVE_FIXED_SUPPORT_AND_FULL_TRANSLATIONAL_MOTION",
+      "sha256": "d660cbc9aba0e2d548e7c5b7f736b6b3dd71aadd4eba207daffedc8f8c22df9f"
+    },
+    "review/inboard-straps-2026-11-08/validation/service-native.json": {
+      "status": "PASS_NATIVE_R15_SENSOR_SERVICE",
+      "sha256": "d95b34c3d5b92e0d47852c2ba9514b0be6fc03f15aebed6598bcdc9d6ce39a54"
+    },
+    "review/inboard-straps-2026-11-08/validation/fixture-q01-check.json": {
+      "status": "PASS_Q01_NATIVE_FIT",
+      "sha256": "5d16f2cca48f674f4ff53dbf583cd22cebb96fbe080d80ada7315bf883625a34"
+    },
+    "review/inboard-straps-2026-11-08/validation/independent-strap-native.json": {
+      "status": "PASS_NATIVE_INDEPENDENT_STRAP_REVIEW",
+      "sha256": "f5bf1364d6526bd966bfb52834379c9e9206437f895a4f5e874e4fe37a33e5e6"
+    },
+    "review/inboard-straps-2026-11-08/mechanics/preflight.json": {
+      "status": "PASS_LOCAL_INBOARD_STRAPS",
+      "sha256": "93a2cc33e3769f269135394c9b2a281640f30f4ed4aa99af78dc5c6b5090519b"
+    },
+    "review/inboard-straps-2026-11-08/evidence/strap-routing-visual-check.json": {
+      "status": "PASS_STRAP_ROUTING_VISUAL_CHECK",
+      "sha256": "0d23c16c59aa034a0c305c815be8561ea3649464a39f2fb2ee898ad234b5af63"
+    },
+    "print/bambu-R15-inboard-straps-2026-11-08/validation/native-project-check.json": {
+      "status": "PASS_NATIVE_R15_INBOARD_STRAPS",
+      "sha256": "02b9e3b75fee578bad9d6cc4d108bbd56ef9bb08e0d5f3af535c2ac2c03fb50c"
+    },
+    "print/bambu-R15-inboard-straps-2026-11-08/validation/toolpath-check.json": {
+      "status": "PASS_ACTUAL_R15_INBOARD_STRAPS_TOOLPATHS",
+      "sha256": "1d24cda83a13899ccd5db5805c9fb5f913d91b7c298568705781638e409587aa"
+    },
+    "print/bambu-R15-inboard-straps-2026-11-08/validation/print-feature-check.json": {
+      "status": "PASS_R15_PRINT_FEATURES",
+      "sha256": "7933de29eac3e612de1bb1b2e6fba4cf6712c93b46f4f323c59ba2e8e5d7a9de"
+    },
+    "print/bambu-R15-inboard-straps-2026-11-08/validation/palm-support-check.json": {
+      "status": "PASS_R15_PALM_SUPPORTS",
+      "sha256": "a34d396217d3611dbbea831a119955c654e87955a47c98aa35db8bd8935dda18"
+    },
+    "print/bambu-R15-inboard-straps-2026-11-08/validation/strap-slot-check.json": {
+      "status": "PASS_R15_STRAP_SLOT_PRINT_PATHS",
+      "sha256": "fb6f4893109921dcd240927c42e8d48c88f0d23ab30a0f699c420f099fbef315"
+    },
+    "print/bambu-R15-inboard-straps-2026-11-08/validation/strap-routing-check.json": {
+      "status": "PASS_NATIVE_R15_STRAP_ROUTING",
+      "sha256": "5d886e72346ce9c7e2b1210db8117965fee187cf5684286549c0db8a2a35b4d1"
+    },
+    "print/bambu-R15-inboard-straps-2026-11-08/validation/p04-surface-check.json": {
+      "status": "PASS",
+      "sha256": "43210eb00d0dfdd2a761876ea16a446c02e857a04d0f015eb0f02028f3932624"
+    },
+    "print/bambu-R15-inboard-straps-2026-11-08/validation/no-brim-check.json": {
+      "status": "PASS_R15_NO_BRIM",
+      "sha256": "cb84ee402013245f963ee9ae19c93910e544e9b9bf3cbf5cdea83a20b66e709d"
+    },
+    "print/bambu-R15-inboard-straps-2026-11-08/validation/cli-diagnostics.json": {
+      "status": "PASS_R15_OFFICIAL_H2D_DIAGNOSTICS",
+      "sha256": "2ba4eaef2656f151d0958a2456853588d622e619592670608206351bc1c80cd7"
+    },
+    "print/bambu-R15-inboard-straps-2026-11-08/validation/independent-profile-review.json": {
+      "status": "PASS_INDEPENDENT_PROFILE_REVIEW",
+      "sha256": "2cfb16f17c05c1ea71f893a8bbe84a13a0efe5d23b5eb01bdd64baaa1b0ad7f4"
+    }
+  },
+  "design_specification_sha256": "0025be091206dabefa94dc0199ea30641da2c052c4355ebeabd9652063586ab4",
+  "files_sha256": {
+    "review/inboard-straps-2026-11-08/README.md": "19c5a65835335634e7c54d254550b2e25c5231f229a6b4d58db748ab019e4575",
+    "review/inboard-straps-2026-11-08/MONTAGE.md": "5183b693ba6c9d0d87901bb9a08d87e8ae52be165d09b29a9fb10e4da1c8bf59",
+    "review/inboard-straps-2026-11-08/parts-review.md": "715149f4c11852dba66e460ba15672266d592271038fccacbc2451f6faef8279",
+    "review/inboard-straps-2026-11-08/BOM_Aenderungen.csv": "b777ba1339433e9ac31f309f0c72f553077dafc3acea255044484e9f35bb2263",
+    "review/inboard-straps-2026-11-08/evidence/strap-routing.svg": "db415da7893d65c2ef518c6b9abb342bad6a775500d424fe701b873481cd8d05",
+    "review/inboard-straps-2026-11-08/evidence/strap-routing-provenance.json": "d316381489f01aff1b575e3c492156d6563293ebe41cb6eb3423e5a40fe6622c"
+  }
+}

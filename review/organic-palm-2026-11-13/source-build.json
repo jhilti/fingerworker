@@ -1,0 +1,15 @@
+{
+  "status": "PASS_NATIVE_REGENERATED_AND_RELEASED",
+  "source_sha256": "345b90327031276f8085e2c225c795946036d7faa4f2ac01b764101b9f4b3dd1",
+  "onshape_version": "13e353d6762b6cc58530122b",
+  "changed": [
+    "P01"
+  ],
+  "native_solids": 93,
+  "new_prints_required": [
+    "P01"
+  ],
+  "primary_variant": "P01_replacement",
+  "gui_verified": false,
+  "gui_status": "GUI_PENDING_MAC_LOCKED"
+}

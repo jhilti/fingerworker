@@ -1,0 +1,66 @@
+{
+  "status": "PASS_NATIVE_R19_SHAPE_DELTA",
+  "source_sha256": "0e88e273e2e9bc436b2844a44f04b28fb094593c0af87a2127d792bbb56f016d",
+  "native_step_sha256": "41e4eb637ab9e78ca54be588712bfb05ad9d8f5ae5f34467a685cc422142819f",
+  "probe_report_sha256": "410d9d115048a621526f2a59dbf9c6f798a43ad5ae3b2e1684ac6429907748f3",
+  "generator_sha256": "7b8224a69351d31e42621610e363e2ec4d4d7e20f3832e99799a98bc8a88f5db",
+  "validator_sha256": "d27db9ceceba903e17a09c133972ab6215e33535094a2c534260b9d8277939af",
+  "comparison_implementation_sha256": "40cdf6c8ea07bc10ff879a0bab8e379859c21b146297648af5643fb4cec19694",
+  "checks": [
+    {
+      "name": "Native geometry equals reviewed rigid mount P06L",
+      "status": "PASS",
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "name": "Native geometry equals reviewed rigid mount P06R",
+      "status": "PASS",
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "name": "Native geometry equals reviewed rigid mount P08",
+      "status": "PASS",
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "name": "Complete front frame and reviewed variable rims",
+      "status": "PASS",
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "name": "Rear floor and obsolete catch removal",
+      "status": "PASS",
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    }
+  ]
+}

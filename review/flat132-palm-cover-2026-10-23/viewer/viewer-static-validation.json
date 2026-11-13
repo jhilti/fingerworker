@@ -1,0 +1,53 @@
+{
+  "status": "PASS_STATIC_SOURCE_BOUND_VIEWER_CHECKS",
+  "scope": "Source/native/archive metadata and domain, actual native dimension readouts, required rear controls, offline embedding and JavaScript syntax; browser visual review is separate",
+  "viewer_sha256": "b771e74a6e46f563eb4b163aaf766febd9d0fc1218d5353b3e8b4fca5e243e6f",
+  "source_sha256": "6099df42e341ff9f5c3439709a23107325d10ef922f616bdcda6fa6ef64d41c1",
+  "native_poses": [
+    {
+      "id": "neutral",
+      "device_parts": 70,
+      "native_XYZ_span_mm": [
+        176.50001,
+        132.0,
+        35.0
+      ],
+      "native_source_sha256": "6099df42e341ff9f5c3439709a23107325d10ef922f616bdcda6fa6ef64d41c1"
+    },
+    {
+      "id": "adjusted_rest",
+      "device_parts": 70,
+      "native_XYZ_span_mm": [
+        175.6,
+        132.0,
+        35.0
+      ],
+      "native_source_sha256": "6099df42e341ff9f5c3439709a23107325d10ef922f616bdcda6fa6ef64d41c1"
+    },
+    {
+      "id": "max",
+      "device_parts": 70,
+      "native_XYZ_span_mm": [
+        176.50001,
+        132.0,
+        35.0
+      ],
+      "native_source_sha256": "6099df42e341ff9f5c3439709a23107325d10ef922f616bdcda6fa6ef64d41c1"
+    },
+    {
+      "id": "iso",
+      "device_parts": 70,
+      "native_XYZ_span_mm": [
+        176.50001,
+        132.0,
+        35.0
+      ],
+      "native_source_sha256": "6099df42e341ff9f5c3439709a23107325d10ef922f616bdcda6fa6ef64d41c1"
+    }
+  ],
+  "nominal_geometry_state": {
+    "nominal_status": "NOMINAL_GEOMETRY_CHECKS_PASS",
+    "message": "R8 native cover construction, retained contact/mounts, lid clearance, motion and declared service checks passed. Actual print fit, cover stiffness, thermal behavior, hand comfort and the 500 N target remain physical qualifications."
+  },
+  "package_ready": true
+}

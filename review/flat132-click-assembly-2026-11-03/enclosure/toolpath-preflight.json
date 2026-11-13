@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "object_metrics": {
+    "P08": {
+      "model_extrusion_segments": 17045,
+      "first_layer_extrusion_mm": 5470.52569743399,
+      "max_model_z_mm": 16.2,
+      "bridge_segments": 6,
+      "longest_bridge_segment_mm": 1.6750000000000114
+    },
+    "P09": {
+      "model_extrusion_segments": 4813,
+      "first_layer_extrusion_mm": 5392.295854026474,
+      "max_model_z_mm": 6.8,
+      "bridge_segments": 0,
+      "longest_bridge_segment_mm": 0
+    }
+  },
+  "checks": [
+    {
+      "name": "P08 begins on bed",
+      "status": "PASS",
+      "model_extrusion_segments": 17045,
+      "first_layer_extrusion_mm": 5470.52569743399,
+      "max_model_z_mm": 16.2,
+      "bridge_segments": 6,
+      "longest_bridge_segment_mm": 1.6750000000000114
+    },
+    {
+      "name": "P09 begins on bed",
+      "status": "PASS",
+      "model_extrusion_segments": 4813,
+      "first_layer_extrusion_mm": 5392.295854026474,
+      "max_model_z_mm": 6.8,
+      "bridge_segments": 0,
+      "longest_bridge_segment_mm": 0
+    },
+    {
+      "name": "Palm clip printed to full16.2mm side-1",
+      "status": "PASS",
+      "model_extrusion_segments": 546,
+      "max_z_mm": 16.2
+    },
+    {
+      "name": "Palm clip printed to full16.2mm side1",
+      "status": "PASS",
+      "model_extrusion_segments": 533,
+      "max_z_mm": 16.2
+    },
+    {
+      "name": "Lid arm and hook printed negative",
+      "status": "PASS",
+      "model_extrusion_segments": 259,
+      "min_z_mm": 0.2,
+      "max_z_mm": 4.6
+    },
+    {
+      "name": "Lid arm and hook printed positive",
+      "status": "PASS",
+      "model_extrusion_segments": 259,
+      "min_z_mm": 0.2,
+      "max_z_mm": 4.6
+    },
+    {
+      "name": "USB roof still supported",
+      "status": "PASS",
+      "support_and_interface_segments": 22
+    }
+  ],
+  "scope": "Actual PLA H2D0.4 local CSG candidate paths; final native project must be independently sliced.",
+  "stock_macro_parser_diagnostics": [
+    "T1001",
+    "T65535",
+    "T65279"
+  ],
+  "diagnostic_note": "Stock H2D machine macros unchanged; local slicer import and slice both returned0. No printer transmission."
+}

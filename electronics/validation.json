@@ -1,0 +1,60 @@
+{
+  "status": "Routed KiCad prototype; ERC/DRC/parity pass, no hardware validation",
+  "part_count": 51,
+  "net_count": 32,
+  "boost_V": {
+    "nominal": 5.425200000000001,
+    "min_static": 5.306993806193807,
+    "max_static": 5.543762962962962
+  },
+  "max_force_input_V": 0.264,
+  "adc_code_range_V": 0.625,
+  "pga_max_differential_at_mid_supply_V": 0.575,
+  "allowed_common_mode_V": [
+    1.256,
+    3.7439999999999998
+  ],
+  "input_RC_Hz": [
+    89.61245329030231,
+    80.22448199322301,
+    72.61698801110704
+  ],
+  "bridge_current_max_mA": 2.0833333333333335,
+  "end_contact_current_min_mA": 1.0374973667579523,
+  "battery_current_budget_mA": [
+    10,
+    20
+  ],
+  "runtime_hours_with_80mAh": [
+    4,
+    8
+  ],
+  "adc_registers_hex": [
+    "06",
+    "84",
+    "40",
+    "00"
+  ],
+  "validations": [
+    "All references unique",
+    "All non-NC nets have >=2 endpoints",
+    "ADC package-specific pin assignment asserted",
+    "No 5 V net directly reaches a XIAO GPIO",
+    "Only battery socket/module attach to VBAT",
+    "LDO headroom DC corner checked",
+    "PGA differential and assumed mid-rail common-mode checked",
+    "End-contact current >=1mA"
+  ],
+  "outstanding": [
+    "Actual TE output common-mode",
+    "Actual battery harness polarity",
+    "Boost ripple / startup and ADC rail ramps",
+    "RF performance and final Onshape fit with actual harness",
+    "Charge current / termination on delivered XIAO",
+    "Physical test and calibration"
+  ],
+  "native_eda_report": "kicad/reports/verification-summary.json",
+  "end_switch": "NC loop, active-low ENDSTOP_N; open circuit inhibits force interpretation, invalid while V5A off",
+  "hardware_validated": false,
+  "source_of_native_checks": "kicad/reports/verification-summary.json"
+}

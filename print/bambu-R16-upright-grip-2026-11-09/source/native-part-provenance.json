@@ -1,0 +1,33 @@
+{
+  "status": "EXACT_FIVE_NATIVE_ONSHAPE_MEMBERS",
+  "source_sha256": "1f492dd841c35a14f488be418e4f4dd8dea8edb63f3d321a492dc2ec3c907ab4",
+  "onshape_version": "d4421f391a091e249b08aeb1",
+  "native_archive": "review/upright-grip-2026-11-09/native/Flat132_R16_neutral_final.zip",
+  "native_archive_sha256": "1c39421b42d505d75a42db45051ba13d5baec6d7568362cffcb85fc193ef9663",
+  "members": {
+    "P01": {
+      "member": "Fingerworker MVP - P01 PRINT STUDY - Flat132 upright palm grip, rounded thumb shoulders, inboard straps.stl",
+      "sha256": "bcfe4fabf915bca8c3b9f3ea1948061a020f275d90950ce1826a7a2c91378096"
+    },
+    "P04": {
+      "member": "Fingerworker MVP - P04 PRINT STUDY - Flat132 72 mm clear pocket, radius12 seat reliefs.stl",
+      "sha256": "fdb84301af40be4ca84b838ebc1847b18ac0b2854818e3bfe63c1085d6ff0b7c"
+    },
+    "P05": {
+      "member": "Fingerworker MVP - P05 PRINT STUDY - Flat132 reinforced yoke with broad integral sensing stops.stl",
+      "sha256": "cb052e7c3406a210ef052b7d52c7ac4d77416327f6fc9614eecc1553d48837d9"
+    },
+    "P06": {
+      "member": "Fingerworker MVP - P06 PRINT - one-piece fixed rear gate with PLA assembly latches.stl",
+      "sha256": "1bc939179f5ebcdc9fb1622f06bb143d9d6ab62051ae5df99fb8f6520fa635ae"
+    },
+    "P11": {
+      "member": "Fingerworker MVP - P11 PRINT STUDY - guided switch cam, physical calibration trim only.stl",
+      "sha256": "ee81507b31f348ae644d268f5525a825d5eecbd44f580824105b74e3a191d49b"
+    }
+  },
+  "Q01": {
+    "source": "Retained R12-compatible unloaded fixed-support fixture; separate Q01 native-fit check",
+    "sha256": "6061e924713db0bd1a193251cd5789f44ccdd9c84518528afdec55449c6907bb"
+  }
+}

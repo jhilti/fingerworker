@@ -1,0 +1,70 @@
+{
+  "files": {
+    "README.md": {
+      "sha256": "d6e8b27256a21f9f2d36a656898b3abf540e36571936d40518e99de1873574b2",
+      "bytes": 1455
+    },
+    "ASSEMBLY_AND_SPRING_SELECTION.md": {
+      "sha256": "357515b9bfc447017dfb3cb311ac0c7387f320edd04deff28d267622c9421cb8",
+      "bytes": 4264
+    },
+    "S01_22mm_spacers_H2D_04mm_PLA.3mf": {
+      "sha256": "47f7da92329f3a08e87dcd869ab828bfe887fd884a685ff4c59c9f23698ed23f",
+      "bytes": 49993
+    },
+    "project-inputs.json": {
+      "sha256": "9534480075820b9c521b4b023f3fbd7e7b5038ecc32df2a683816af2aa1569a2",
+      "bytes": 874
+    },
+    "validation/slice-check.json": {
+      "sha256": "40fbadf4c0a46311d367642a76f521b9f7ec901688b1ad0c5da8fd9004d6f8cb",
+      "bytes": 1694
+    },
+    "preview/plate_1.png": {
+      "sha256": "87208e1c79ca644bb683e2d6485d520d8ee1705494ba736c4bbf00af68c2b40b",
+      "bytes": 7188
+    },
+    "print/S01_spring_spacer_22mm.stl": {
+      "sha256": "be2724e7fbf7a725786b7f9a52ae62f923ff82b8c44994e72d24cef2e4f2addd",
+      "bytes": 94884
+    },
+    "profiles/H2D_machine.json": {
+      "sha256": "3fd6a5f1eba145ba5a1fefe918a188e3540ab8ee4d91a594d45129086981db84",
+      "bytes": 41749
+    },
+    "profiles/H2D_process.json": {
+      "sha256": "94b13c9f4ae807be53ef420fd2498ac3187bbe78caa86bdb0ce61a322a65c29d",
+      "bytes": 9995
+    },
+    "profiles/project_settings_H2D.json": {
+      "sha256": "35768dd153e260773a105dc5073351b4325497913928c9e66a5016ca3237a29c",
+      "bytes": 65112
+    },
+    "profiles/H2D_PLA.json": {
+      "sha256": "ffed8b58c038a05344bb833158d7ebf1077331c8eb402def63b279545ffc54a0",
+      "bytes": 7907
+    },
+    "profiles/profile-manifest.json": {
+      "sha256": "f61440f7c589a896b6c5fa485301a3be855856af8834302a77bd818d3b9a64bc",
+      "bytes": 5266
+    },
+    "source/check_slice.py": {
+      "sha256": "174057946d2763f0934baac8cd0761d4b30b98cd7522686b3bf4eb8e3c49e976",
+      "bytes": 4644
+    },
+    "source/build_project.py": {
+      "sha256": "a567a30a5c33550756bf68c4c4f3d052fbd653095a2ee9305cbbcd1da29eb4a3",
+      "bytes": 4830
+    },
+    "source/profiles.py": {
+      "sha256": "9756a841fdfd407e7203e1c82e5bb5cc8db8a8bc430e69f0c334a9dda0a8563b",
+      "bytes": 3744
+    },
+    "source-mm/S01_spring_spacer_22mm.stl": {
+      "sha256": "be2724e7fbf7a725786b7f9a52ae62f923ff82b8c44994e72d24cef2e4f2addd",
+      "bytes": 94884
+    }
+  },
+  "copies": 2,
+  "no_printer_transmission": true
+}

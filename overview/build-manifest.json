@@ -1,0 +1,28 @@
+{
+  "gui_verified": false,
+  "gui_status": "NOT_REQUESTED_PRINT_SETUP_DEFERRED",
+  "print_setup_status": "PRINT_SETUP_DEFERRED_BY_USER",
+  "date": "2026-11-13",
+  "status": "BUILT_CAD_OVERVIEW_PRINT_DEFERRED",
+  "html": "Uebersicht.html",
+  "html_bytes": 2270344,
+  "html_sha256": "2bc6757127b9fd437d9cf41bf4b87b342ae597ff830abead4a54402c321d0d20",
+  "revision": "R20",
+  "primary_action": "NATIVE_CAD",
+  "native_onshape_version": "0e06e3d98b9ecb574ee41402",
+  "source_sha256": "e547fac0af50cc7ea69f96f3ca2a0a7d6cefa1b63ae7e29d7f18e0f7815f3626",
+  "print_items": 8,
+  "hardware_rows": 25,
+  "personal_check_items": 10,
+  "inline_assets": true,
+  "external_runtime_requests": false,
+  "source_files": {
+    "overview/template.html": "6cb43eb61add341a7256ab94e31397310629f28d488b907222ae8e14be7962b8",
+    "overview/style.css": "e6b08dcf74dc64078e425854d571f423ccab3a57c52108a4596e98dddc906ffb",
+    "overview/app.js": "53b9977c5154bbc25d91c4f97dc3216893f4d540836c3e9ec1c766f91c403110",
+    "overview/content.json": "f3b7f491ee5d37f4b9886e3a6ad3273e1d26e483492928df2fac033a58908cfd",
+    "overview/model/component.html": "5bcf78da305a51b833ce29a1acdac4cf3ee069158ac7a714ead659a380842ed8",
+    "overview/model/manifest.json": "41ff73567ca1bef39253ef7d504c64d07fb6aaaafa820a0de5968a9aa2bf1144",
+    "review/rear-locating-pegs-2026-11-13/final-specification.json": "ab6c9db58a4e1b929a2d96d4b48dc12108cb604869c486167deac1ceadf529c2"
+  }
+}

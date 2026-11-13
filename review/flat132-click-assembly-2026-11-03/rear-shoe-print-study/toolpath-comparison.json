@@ -1,0 +1,55 @@
+{
+  "status": "PASS_LOCAL_ORIENTATION_COMPARISON",
+  "selected": "Zmax",
+  "rotation_3x3": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      -1,
+      0
+    ],
+    [
+      0,
+      0,
+      -1
+    ]
+  ],
+  "supports": "Normal(auto), plate-only,0.25mm top distance,4mm brim",
+  "rows": [
+    {
+      "name": "Xmin",
+      "model_first_layer_mm": 101.6195457403041,
+      "support_E_mm": 82.21076000000022,
+      "bridge_count": 131,
+      "longest_bridge_segment_mm": 7.290999999999997,
+      "support_segments": 751,
+      "support_in_capture_slot": 0,
+      "estimated_support_grams": 0.24519766322914385
+    },
+    {
+      "name": "Zmax",
+      "model_first_layer_mm": 120.28045346753024,
+      "support_E_mm": 60.77398000000001,
+      "bridge_count": 0,
+      "longest_bridge_segment_mm": 0.0,
+      "support_segments": 1228,
+      "support_in_capture_slot": 0,
+      "estimated_support_grams": 0.1812614052118565
+    },
+    {
+      "name": "Ymin",
+      "model_first_layer_mm": 40.586225511025845,
+      "support_E_mm": 130.1803499999996,
+      "bridge_count": 0,
+      "longest_bridge_segment_mm": 0.0,
+      "support_segments": 830,
+      "support_in_capture_slot": 0,
+      "estimated_support_grams": 0.3882693411221584
+    }
+  ],
+  "reason": "Zmax-down has connected T-shaped61.7mm\u00b2 bed plane, vertical capture slot and upward-open rod fork; original front-down would float the old lower bar0.2mm above bed."
+}

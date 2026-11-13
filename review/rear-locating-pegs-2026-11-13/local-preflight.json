@@ -1,0 +1,95 @@
+{
+  "status": "PASS_LOCAL_R20_GEOMETRY",
+  "source_sha256": "e547fac0af50cc7ea69f96f3ca2a0a7d6cefa1b63ae7e29d7f18e0f7815f3626",
+  "baseline_source_sha256": "0e88e273e2e9bc436b2844a44f04b28fb094593c0af87a2127d792bbb56f016d",
+  "baseline_native_step_sha256": "41e4eb637ab9e78ca54be588712bfb05ad9d8f5ae5f34467a685cc422142819f",
+  "native_body_count": 94,
+  "changed_bodies": [
+    "P01",
+    "P06L",
+    "P06R"
+  ],
+  "unchanged_bodies": 91,
+  "checks": [
+    {
+      "name": "One valid solid and shell P06L",
+      "status": "PASS"
+    },
+    {
+      "name": "Positive material P06L",
+      "status": "PASS",
+      "volume_mm3": 5128.429165381761
+    },
+    {
+      "name": "One valid solid and shell P06R",
+      "status": "PASS"
+    },
+    {
+      "name": "Positive material P06R",
+      "status": "PASS",
+      "volume_mm3": 5128.42916538176
+    },
+    {
+      "name": "One valid solid and shell P01",
+      "status": "PASS"
+    },
+    {
+      "name": "Positive material P01",
+      "status": "PASS",
+      "volume_mm3": 169958.63721897622
+    },
+    {
+      "name": "No original block stock removed P06L",
+      "status": "PASS",
+      "removed_mm3": 0.0
+    },
+    {
+      "name": "Peg mating clearance P06L",
+      "status": "PASS",
+      "minimum_mm": 0.20000000000000284
+    },
+    {
+      "name": "No original block stock removed P06R",
+      "status": "PASS",
+      "removed_mm3": 0.0
+    },
+    {
+      "name": "Peg mating clearance P06R",
+      "status": "PASS",
+      "minimum_mm": 0.20000000000000284
+    }
+  ],
+  "meshes": {
+    "P06L": {
+      "watertight": true,
+      "winding_consistent": true,
+      "shells": 1,
+      "zero_area_triangles_removed": 0,
+      "removed_triangle_area_mm2": 0.0,
+      "triangles": 5740,
+      "sha256": "cce25ad46a3099aa952e4948c8805509ab31ea6d880d8b26567487831078ffe4",
+      "scope": "Only exactly zero-area triangles removed; no hole fill, remeshing or geometry modification."
+    },
+    "P06R": {
+      "watertight": true,
+      "winding_consistent": true,
+      "shells": 1,
+      "zero_area_triangles_removed": 0,
+      "removed_triangle_area_mm2": 0.0,
+      "triangles": 5740,
+      "sha256": "1834c975e7a2dd03374e1942dade12721ef79dafbe9be6d5ede51ad0788ede0b",
+      "scope": "Only exactly zero-area triangles removed; no hole fill, remeshing or geometry modification."
+    },
+    "P01": {
+      "watertight": true,
+      "winding_consistent": true,
+      "shells": 1,
+      "zero_area_triangles_removed": 10,
+      "removed_triangle_area_mm2": 0.0,
+      "triangles": 66662,
+      "sha256": "a77430ed268d8d792dca38dea9ed8ca9aecba989639eca064dcf163963b0da89",
+      "scope": "Only exactly zero-area triangles removed; no hole fill, remeshing or geometry modification."
+    }
+  },
+  "print_setup_status": "PRINT_SETUP_DEFERRED_BY_USER"
+}

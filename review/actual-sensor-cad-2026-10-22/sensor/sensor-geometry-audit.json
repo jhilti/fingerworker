@@ -1,0 +1,445 @@
+{
+  "date": "2026-10-22",
+  "scope": "Actual manufacturer BRep registration and nominal mesh intersections; no mechanism edits or release.",
+  "source": {
+    "path": "vendor/te_fx1901/c-fx1901-0001-0200-l-f-3d.stp",
+    "sha256": "fe4aee5f64f19f4859d2cfdbf73cb24d3cd91b0987949a6fcf28ada22e46cac3",
+    "original_filename": "c-fx1901-0001-0200-l-f-3d.stp",
+    "product": "C-FX1901-0001-0200-L",
+    "vendor": "TE Connectivity Ltd.",
+    "created": "2018-02-15",
+    "revision": "F from distributed filename",
+    "units": "mm"
+  },
+  "runtime": {
+    "cadquery-ocp": "8.0.1.1.0",
+    "trimesh": "5.1.1",
+    "manifold3d": "3.5.4",
+    "numpy": "2.5.4"
+  },
+  "brep": {
+    "valid": true,
+    "solid_count": 1,
+    "face_count": 107,
+    "bounds_mm": [
+      [
+        -12.5000001,
+        -12.5000001,
+        -7.9500001000000005
+      ],
+      [
+        27.0,
+        12.5000001,
+        1e-07
+      ]
+    ],
+    "volume_mm3": 3933.7193196160533,
+    "main_cylinder_diameter_mm": 25.0,
+    "front_outer_rim_native_z_mm": 0.0,
+    "rear_support_plane_native_z_mm": -7.95,
+    "central_disk_native_z_mm": -0.51,
+    "central_disk_nominal_radius_mm": 2.92,
+    "central_disk_face_index": 6,
+    "central_spherical_apex_native_mm": [
+      0,
+      0,
+      0
+    ],
+    "spherical_button_face_indices": [
+      34,
+      35
+    ]
+  },
+  "placement": {
+    "matrix": [
+      [
+        0.0,
+        0.0,
+        1.0,
+        -1.9
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        18.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "scale": 1.0,
+    "rationale": "Native +Z to mechanism +X; native +X radial lead to mechanism +Y; native +Y to mechanism +Z. Central spherical button apex native (0,0,0) maps to existing force-pusher tip (-1.9,0,18).",
+    "datum_limitation": "Central contact apex identified from BRep geometry, including conical faces32/33 and spherical faces34/35. Confirm load direction and support datums against the matching FX1901 drawing and physical sensor before machining.",
+    "placed_brep_bounds_mm": [
+      [
+        -9.850000000000001,
+        -12.500000100000001,
+        5.4999999
+      ],
+      [
+        -1.8999998999999999,
+        27.0,
+        30.5000001
+      ]
+    ],
+    "placed_rear_support_plane_x_mm": -9.85,
+    "previous_proxy_rear_plane_x_mm": -8.0,
+    "rear_plane_difference_mm": -1.85,
+    "placed_outer_rim_x_mm": -1.9,
+    "intermediate_disk_alignment_rejected": "TE_FX1901_actual_contact_aligned_132_mm.* used translationX\u22121.39 and caused0.51 mm /1.012873 mm\u00b3 force-pusher penetration. Retained only as an intermediate."
+  },
+  "tessellation": {
+    "linear_deflection_mm": 0.01,
+    "angular_deflection_radians": 0.08,
+    "relative": false,
+    "vertices": 73949,
+    "triangles": 147894,
+    "zero_area_triangles_removed": 2,
+    "watertight": true,
+    "mesh_volume_mm3": 3933.1578220937554,
+    "mesh_volume_error_mm3": -0.561497522297941
+  },
+  "output_files": {
+    "TE_FX1901_official_original.step": {
+      "sha256": "fe4aee5f64f19f4859d2cfdbf73cb24d3cd91b0987949a6fcf28ada22e46cac3",
+      "size_bytes": 145276
+    },
+    "TE_FX1901_official_native_mm.stl": {
+      "sha256": "119f3f41aa4bfeedc4e406bcc2d7fb47ac955db0d8c35c86c2138f803cd7dd54",
+      "size_bytes": 7394784
+    },
+    "TE_FX1901_actual_apex_aligned_132_mm.stl": {
+      "sha256": "eddf3856f2393a751a5c270ee91a8082691b5eec4f7d510afd78bb41413f6b89",
+      "size_bytes": 7394784
+    },
+    "TE_FX1901_actual_apex_aligned_132_mm.step": {
+      "sha256": "241c8b522707e9ce3b611db3c783d6c9e3bd6e492175c530d5e9795d9dc98097",
+      "size_bytes": 437225
+    }
+  },
+  "comparisons": [
+    {
+      "reference": "H01",
+      "mesh_sha256": "a909491cb8093d4e174cf03b64b4990f2097ed9865104bf976068ac70a134636",
+      "bounds_mm": [
+        [
+          -8.0,
+          -9.875,
+          8.125
+        ],
+        [
+          -2.5500001907348633,
+          9.875,
+          27.875
+        ]
+      ],
+      "watertight": true,
+      "volume_mm3": 1669.1015113564165,
+      "intersection_volume_mm3": 1444.270675008403,
+      "actual_minus_existing_volume_mm3": 2488.887337206174
+    },
+    {
+      "reference": "H01a",
+      "mesh_sha256": "fa00940cc9feb2272b68c608c984b01e332e7e47d5e03327e6ad7f42cdfd4554",
+      "bounds_mm": [
+        [
+          -2.5500001907348633,
+          -2.5,
+          15.5
+        ],
+        [
+          -1.899999976158142,
+          2.5,
+          20.5
+        ]
+      ],
+      "watertight": true,
+      "volume_mm3": 12.758674554889183,
+      "intersection_volume_mm3": 3.7608971206896245,
+      "actual_minus_existing_volume_mm3": 3929.3971150938874
+    },
+    {
+      "reference": "H01b",
+      "mesh_sha256": "30376f261c907a402c40a5d86ec81c66fd68b231285a558fe826604243b19905",
+      "bounds_mm": [
+        [
+          -7.0,
+          8.0,
+          15.5
+        ],
+        [
+          -3.5,
+          14.0,
+          20.5
+        ]
+      ],
+      "watertight": true,
+      "volume_mm3": 105.0,
+      "intersection_volume_mm3": 105.00000000000001,
+      "actual_minus_existing_volume_mm3": 3828.158012214577
+    },
+    {
+      "reference": "H01c",
+      "mesh_sha256": "0b7497ee40d47a06d7f36fd62f98d32980866bec9fa79d207aba4ea6569cffbd",
+      "bounds_mm": [
+        [
+          -6.450000286102295,
+          8.5,
+          16.799999237060547
+        ],
+        [
+          -4.050000190734863,
+          33.0,
+          19.200000762939453
+        ]
+      ],
+      "watertight": true,
+      "volume_mm3": 110.80021229943691,
+      "intersection_volume_mm3": 43.45957691789367,
+      "actual_minus_existing_volume_mm3": 3889.6984352966833
+    },
+    {
+      "reference": "H01d",
+      "mesh_sha256": "8e0cf2028c81c6f53f1dc384b0f3bba28d873a94c2ece246fb724e533085b73c",
+      "bounds_mm": [
+        [
+          -8.25,
+          30.5,
+          15.0
+        ],
+        [
+          -2.25,
+          38.5,
+          21.0
+        ]
+      ],
+      "watertight": true,
+      "volume_mm3": 288.0,
+      "intersection_volume_mm3": 0.0,
+      "actual_minus_existing_volume_mm3": 3933.158012214577
+    },
+    {
+      "reference": "H12",
+      "mesh_sha256": "64c81fc766c9c72bd6d042cab584fe55fd7b91dc50a4cdb5876c62a43b4d4878",
+      "bounds_mm": [
+        [
+          -15.199999809265137,
+          -13.5,
+          7.5
+        ],
+        [
+          -8.0,
+          13.5,
+          28.5
+        ]
+      ],
+      "watertight": true,
+      "volume_mm3": 2042.3592372689836,
+      "intersection_volume_mm3": 582.5496987711248,
+      "actual_minus_existing_volume_mm3": 3350.6083134425694,
+      "conflict_mesh": "conflict-H12.stl",
+      "conflict_mesh_sha256": "33e86ee1a7d880e71b472969a4fad722ee6ae856f4b7484e39b3341f3d24106b"
+    },
+    {
+      "reference": "P01",
+      "mesh_sha256": "6e216bf2c03d4c856262e713c63a0de023bb0357d49287fdc251ed5b43ca740f",
+      "bounds_mm": [
+        [
+          -23.0,
+          -66.0,
+          -2.0
+        ],
+        [
+          134.0,
+          66.0,
+          29.0
+        ]
+      ],
+      "watertight": true,
+      "volume_mm3": 139521.76026195075,
+      "intersection_volume_mm3": 54.10028476751963,
+      "actual_minus_existing_volume_mm3": 3879.057727443004,
+      "conflict_mesh": "conflict-P01.stl",
+      "conflict_mesh_sha256": "d36f8c9e3f1e6eb296b1752ef26057f9f0f76e583c1e150968cdfcbf8351b606"
+    },
+    {
+      "reference": "P05",
+      "mesh_sha256": "8154b9dac2d006161b2c451d2a3da5fb1a179c405d8325174c6b3b7f9b427371",
+      "bounds_mm": [
+        [
+          -7.0,
+          -63.0,
+          7.0
+        ],
+        [
+          15.5,
+          63.0,
+          29.0
+        ]
+      ],
+      "watertight": true,
+      "volume_mm3": 45832.66010698786,
+      "intersection_volume_mm3": 733.7211165024776,
+      "actual_minus_existing_volume_mm3": 3199.4368957106794,
+      "conflict_mesh": "conflict-P05.stl",
+      "conflict_mesh_sha256": "93f1c2e8317f27e6ad4cd0e4d2006e71fb24995e016cae6114cac8df8f9dd3b0"
+    },
+    {
+      "reference": "H02",
+      "mesh_sha256": "62807ded66d818fd3b677dbaeb87af8e1e28240d3ab0db84032b8af45f0519f0",
+      "bounds_mm": [
+        [
+          -1.899999976158142,
+          -4.0,
+          14.0
+        ],
+        [
+          7.5,
+          4.0,
+          22.0
+        ]
+      ],
+      "watertight": true,
+      "volume_mm3": 120.04927705709467,
+      "intersection_volume_mm3": 0.0,
+      "actual_minus_existing_volume_mm3": 3933.158012214577
+    },
+    {
+      "reference": "H13",
+      "mesh_sha256": "cb9f4424c2ad59c8655c45f851aec6cb2149b79f68d867732b8125702afe3b5e",
+      "bounds_mm": [
+        [
+          -24.0,
+          -11.0,
+          7.0
+        ],
+        [
+          -12.0,
+          11.0,
+          29.0
+        ]
+      ],
+      "watertight": true,
+      "volume_mm3": 1324.0749505194406,
+      "intersection_volume_mm3": 0.0,
+      "actual_minus_existing_volume_mm3": 3933.158012214577
+    },
+    {
+      "reference": "H15",
+      "mesh_sha256": "0ef9e6b5a1564ff49f092222f5336547288f57eb5c72a3fec555d0c2f82bab70",
+      "bounds_mm": [
+        [
+          -23.0,
+          -16.0,
+          9.0
+        ],
+        [
+          -21.0,
+          16.0,
+          28.0
+        ]
+      ],
+      "watertight": true,
+      "volume_mm3": 1087.5130898641007,
+      "intersection_volume_mm3": 0.0,
+      "actual_minus_existing_volume_mm3": 3933.158012214577
+    },
+    {
+      "reference": "P02",
+      "mesh_sha256": "2daf25681bc7e8ff3b89aecabcb9278185f9688b46d41155800c45f6447d578f",
+      "bounds_mm": [
+        [
+          -44.25,
+          -64.0,
+          6.5
+        ],
+        [
+          -9.5,
+          64.0,
+          27.498186111450195
+        ]
+      ],
+      "watertight": true,
+      "volume_mm3": 34717.404131006275,
+      "intersection_volume_mm3": 0.0,
+      "actual_minus_existing_volume_mm3": 3933.158012214577
+    },
+    {
+      "reference": "P03",
+      "mesh_sha256": "738f677f8a5ac41fdf2683294f4998d66d7e1cccebd64a3dea745cf1b913903e",
+      "bounds_mm": [
+        [
+          -44.24971008300781,
+          -43.0,
+          14.600000381469727
+        ],
+        [
+          -23.750289916992188,
+          43.0,
+          29.997604370117188
+        ]
+      ],
+      "watertight": true,
+      "volume_mm3": 8415.282985794933,
+      "intersection_volume_mm3": 0.0,
+      "actual_minus_existing_volume_mm3": 3933.158012214577
+    },
+    {
+      "reference": "H180",
+      "mesh_sha256": "3b6838cb05309ca32e4e427a5047b53ae40490a7696e8dd4fcf98383942f14b7",
+      "bounds_mm": [
+        [
+          -15.75,
+          -20.5,
+          7.25
+        ],
+        [
+          -10.25,
+          -9.5,
+          12.75
+        ]
+      ],
+      "watertight": true,
+      "volume_mm3": 127.78299386090066,
+      "intersection_volume_mm3": 0.0,
+      "actual_minus_existing_volume_mm3": 3933.158012214577
+    },
+    {
+      "reference": "H181",
+      "mesh_sha256": "6857ad17360044afa8808c092d42eaa02742dddd6fdc50564bdfeff680ca65bf",
+      "bounds_mm": [
+        [
+          -15.75,
+          9.5,
+          7.25
+        ],
+        [
+          -10.25,
+          20.5,
+          12.75
+        ]
+      ],
+      "watertight": true,
+      "volume_mm3": 127.78299386090066,
+      "intersection_volume_mm3": 0.0,
+      "actual_minus_existing_volume_mm3": 3933.158012214577
+    }
+  ],
+  "limitations": [
+    "The stored May 2020 FX1901 PDF dimensions illustrations are labeled FX1900-XXX1 / FX1900-0000 and show diameter19.75 x thickness5.45; these do not match the actual FX1901 STEP diameter25 x thickness7.95.",
+    "Existing H01/H01a/H01b are simplified reference solids. Replacing them invalidates prior sensor fit results.",
+    "Official STEP includes a short radial four-wire stub only, not the full flexible lead or connector. Existing H01c/H01d remain illustrative routing envelopes if displayed.",
+    "No dimensional scaling, cutting, or deformation of the manufacturer sensor was performed.",
+    "Positive mesh intersection volumes are nominal collisions at this contact-aligned pose, not clearance or assembly approval."
+  ]
+}

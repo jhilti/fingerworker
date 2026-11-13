@@ -1,0 +1,53 @@
+{
+  "status": "SOURCE_IMPORT_AND_CURSORY_SLICE_PASS",
+  "scope": "Two exact full-scale source instances, saved profiles and actual model paths; no physical strength/creep qualification",
+  "project_sha256": "47f7da92329f3a08e87dcd869ab828bfe887fd884a685ff4c59c9f23698ed23f",
+  "source_sha256": "be2724e7fbf7a725786b7f9a52ae62f923ff82b8c44994e72d24cef2e4f2addd",
+  "slice_sha256": "2f0f86d540d10967bc19b91ab45fd088833355cfbe050796d644f0c8ad89cfb8",
+  "CLI_import_exit_code": 0,
+  "CLI_slice_exit_code": 0,
+  "pieces": 2,
+  "scale": 1,
+  "layer_height_mm": 0.2,
+  "walls": 4,
+  "infill_percent": 100,
+  "supports_used": false,
+  "actual_paths": {
+    "1": {
+      "positive_segments": 19624,
+      "minZ_mm": 0.2,
+      "maxZ_mm": 24.0,
+      "features": {
+        "Inner wall": 11502,
+        "Outer wall": 1075,
+        "Bottom surface": 57,
+        "Internal solid infill": 696,
+        "Sparse infill": 6025,
+        "Floating vertical shell": 115,
+        "Top surface": 116,
+        "Gap infill": 38
+      }
+    },
+    "9": {
+      "positive_segments": 19624,
+      "minZ_mm": 0.2,
+      "maxZ_mm": 24.0,
+      "features": {
+        "Inner wall": 11502,
+        "Outer wall": 1075,
+        "Bottom surface": 57,
+        "Internal solid infill": 696,
+        "Sparse infill": 6025,
+        "Floating vertical shell": 115,
+        "Top surface": 116,
+        "Gap infill": 38
+      }
+    }
+  },
+  "stock_machine_macros_preserved": true,
+  "estimated_seconds": 2549,
+  "estimated_grams": 9.36,
+  "no_printer_transmission": true,
+  "slicer": "Official Bambu Studio02.08.02.61",
+  "infill_enum_source": "https://github.com/bambulab/BambuStudio/blob/v02.08.02.61/src/libslic3r/PrintConfig.cpp"
+}

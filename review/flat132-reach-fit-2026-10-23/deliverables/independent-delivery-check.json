@@ -1,0 +1,18 @@
+{
+  "path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/deliverables/Flat132_R5_Closer_Grip.zip",
+  "sha256": "98838ee415d23a3aff0dda5e14a6c8f60ea898c823193da7ccfcf7276fc6fae4",
+  "bytes": 60520489,
+  "members": 130,
+  "CRC": "PASS",
+  "all_member_hashes": "PASS",
+  "safe_unique_paths": "PASS",
+  "counts": {
+    "print-mm": 15,
+    "assembly-mm": 53,
+    "hardware-mm": 2
+  },
+  "packaged_markdown_links_checked": 36,
+  "packaged_local_links": "PASS",
+  "ISO81_native_member_identity": "PASS",
+  "final_report_hash": "b162101aeee1410a33ee048da17ab792a50142d08868b12676afdc2315d66c49"
+}

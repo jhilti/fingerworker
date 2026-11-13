@@ -1,0 +1,169 @@
+{
+  "status": "PASS",
+  "scope": "Checks only the newly adapted R2 operating-domain mapping, q-based switch arc, exact triangle ordering and complete transverse-slab certificate; not native device validation or material strength evidence",
+  "validator_sha256": "23d9f1c4f568cc824d98767e6f53f161ee6e0a51b71451d42f54d7d8e0c3af32",
+  "rows": [
+    {
+      "name": "Exact R2 rigid relative-X interval extrema at legal polygon vertices",
+      "status": "PASS",
+      "maximum_projection_error_mm": 0.0,
+      "coefficient_pairs": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          2,
+          -3
+        ],
+        [
+          -2,
+          3
+        ]
+      ]
+    },
+    {
+      "name": "Neutral-angle polygon plus active-arc rectangle covers every sampled legal state",
+      "status": "PASS",
+      "sample_count": 4141
+    },
+    {
+      "name": "Every active-arc rectangle state maps to the legal s/p polygon",
+      "status": "PASS"
+    },
+    {
+      "name": "Lower-q actuator angle is exactly neutral through q24.2",
+      "status": "PASS",
+      "maximum_angle_deviation_rad": 0.0
+    },
+    {
+      "name": "Both maximum operating endpoints produce the same source switch angle",
+      "status": "PASS"
+    },
+    {
+      "name": "Manual H10 source reset yields cam X=60-(stroke+preload)",
+      "status": "PASS"
+    },
+    {
+      "name": "Forbidden old independent endpoint stroke30/preload2 excluded",
+      "status": "PASS"
+    },
+    {
+      "name": "Active q arc exact vertex bounds enclose all 501 sampled transforms",
+      "status": "PASS",
+      "bounds_mm": [
+        [
+          25.81246911869789,
+          -12.0,
+          9.2
+        ],
+        [
+          29.0,
+          -9.03022319930453,
+          10.0
+        ]
+      ]
+    },
+    {
+      "name": "Canonical triangle identity ignores order only",
+      "status": "PASS"
+    },
+    {
+      "name": "Canonical triangle identity has no geometric rounding tolerance",
+      "status": "PASS"
+    },
+    {
+      "name": "Complete transverse slab certificate preserves true endpoint tangency and gaps",
+      "status": "PASS",
+      "certificate": {
+        "relative_x_range_mm": [
+          -1.0,
+          0.0
+        ],
+        "partition_axis": 1,
+        "partition_edges_mm": [
+          -2.0,
+          -1.0,
+          1.0,
+          2.0
+        ],
+        "method": "Complete union of exact transverse slabs; each slab uses the strict continuous relative-X certificate",
+        "status": "COMPLETE_TRANSVERSE_PARTITION_CONTINUOUS_CLEARANCE_CERTIFIED",
+        "slabs": [
+          {
+            "transverse_interval_mm": [
+              -2.0,
+              -1.0
+            ],
+            "relative_x_range_mm": [
+              -1.0,
+              0.0
+            ],
+            "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+            "certified_intervals": 1,
+            "intersections": [],
+            "unresolved_intervals": [],
+            "samples": [],
+            "method": "Swept AABB separation including permitted exterior boundary touch",
+            "maximum_sampled_volume_mm3": 0.0
+          },
+          {
+            "transverse_interval_mm": [
+              -1.0,
+              1.0
+            ],
+            "relative_x_range_mm": [
+              -1.0,
+              0.0
+            ],
+            "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+            "certified_intervals": 1,
+            "intersections": [],
+            "unresolved_intervals": [],
+            "samples": [],
+            "method": "Swept AABB separation including permitted exterior boundary touch",
+            "maximum_sampled_volume_mm3": 0.0
+          },
+          {
+            "transverse_interval_mm": [
+              1.0,
+              2.0
+            ],
+            "relative_x_range_mm": [
+              -1.0,
+              0.0
+            ],
+            "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+            "certified_intervals": 1,
+            "intersections": [],
+            "unresolved_intervals": [],
+            "samples": [],
+            "method": "Swept AABB separation including permitted exterior boundary touch",
+            "maximum_sampled_volume_mm3": 0.0
+          }
+        ],
+        "maximum_sampled_volume_mm3": 0.0
+      }
+    }
+  ]
+}

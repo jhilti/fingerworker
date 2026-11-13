@@ -1,0 +1,662 @@
+{
+  "status": "PASS_SELECTED_P08_MICROFEATURE_CLEANUP",
+  "date": "2026-11-03",
+  "baseline_R10_native_sha256": "f983a713a66b07a945b0aa4cd751846810d8538dd1b9a8f1ce64e569586081ec",
+  "reconstruction": "Exact R11 P08/P09 reconstructed using previously native-validated additive clip stocks",
+  "changed_refs": [
+    "P08"
+  ],
+  "removed_refs": [],
+  "checks": [
+    {
+      "name": "P08 remains a valid single solid",
+      "status": "PASS",
+      "solids": 1
+    },
+    {
+      "name": "No prior material removed",
+      "status": "PASS",
+      "removed_mm3": 0.0
+    },
+    {
+      "name": "Only two obsolete pilot volumes filled",
+      "status": "PASS",
+      "added_mm3": 5.399612373357455,
+      "analytic_two_cylinders_mm3": 5.399612373357457
+    },
+    {
+      "name": "External part bounds unchanged",
+      "status": "PASS",
+      "before_bounds_mm": [
+        [
+          -47.1,
+          -65.5,
+          0.0
+        ],
+        [
+          -23.599999999999998,
+          65.5,
+          16.2
+        ]
+      ],
+      "after_bounds_mm": [
+        [
+          -47.1,
+          -65.5,
+          0.0
+        ],
+        [
+          -23.599999999999998,
+          65.5,
+          16.2
+        ]
+      ]
+    },
+    {
+      "name": "Added pilot fill static interference E01",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference E05",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference E06",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference E07",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference E08",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H01",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H02",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H030",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H031",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H040",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H041",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H050",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H051",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H060",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H061",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H09",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H09a",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H09b",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H10",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H11",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H12",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H13",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H15",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H160",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H161",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H170",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H171",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H180",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H181",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H190",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H191",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H20",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H21",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H22",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H23",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H240",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H241",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H242",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H243",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H250",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H251",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H252",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H253",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H260",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H261",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H270",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H271",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H280",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H281",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H290",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H291",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H300a",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H300b",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H301a",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H301b",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H310",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H311",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H320",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference H321",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference P01",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference P04",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference P05",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference P060",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference P061",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference P070a",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference P070b",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference P071a",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference P071b",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference P09",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference P11",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference P120",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference P121",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_C1",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_C10",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_C11",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_C12",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_C13",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_C14",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_C15",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_C16",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_C2",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_C3",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_C4",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_C5",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_C6",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_C7",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_C8",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_C9",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_D1",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_J1",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_J2",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_J3",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_L1",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_Q1",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_R1",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_R10",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_R11",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_R12",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_R13",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_R14",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_R15",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_R16",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_R17",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_R18",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_R19",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_R2",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_R20",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_R21",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_R3",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_R4",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_R5",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_R6",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_R7",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_R8",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_R9",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_SW2",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_U1",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_U2",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_U3",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "Added pilot fill static interference PCB_U4",
+      "status": "PASS",
+      "intersection_mm3": 0.0
+    }
+  ],
+  "failed": [],
+  "scope": "Two unused M1.6 pilot bores removed from the short wire-support posts. P09, all clips, three optional lid screw posts and both optional frame M2 mounts unchanged.",
+  "limitations": [
+    "Local exact OCP cleanup; final native R12 export must independently match expected_cleanup(old).",
+    "No physical PLA fit, flex fatigue or electronics qualification."
+  ]
+}

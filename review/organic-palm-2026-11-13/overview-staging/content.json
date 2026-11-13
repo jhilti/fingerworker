@@ -1,0 +1,278 @@
+{
+  "hardware": [
+    [
+      "Mechanik",
+      "H040/H041",
+      "2",
+      "Stahl-Führungsstäbe Ø6 × 141 mm",
+      "Vorhanden · bestätigt 04.11.2026",
+      "Echte Führungsstangen laut Nutzer vorhanden; deshalb keine Stangen-Formhilfen im aktuellen Druckauftrag."
+    ],
+    [
+      "Mechanik",
+      "G01/G02",
+      "2",
+      "Zwei 25-mm-Befestigungsgurte mit rückfaltbaren Enden",
+      "Zusätzlich erforderlich",
+      "Höchstens 2 mm Dicke im Durchlass; beide Enden sicher an sich selbst befestigbar. Länge nach Umfang plus Rückfaltungen; nicht gedruckt."
+    ],
+    [
+      "Mechanik",
+      "H050/H051",
+      "2",
+      "Feste Federsitze Stahl Ø22 / Ø6,6 × 3 mm",
+      "Bestand prüfen",
+      "Bestehende Federsitze weiterverwenden."
+    ],
+    [
+      "Mechanik",
+      "H060/H061",
+      "2",
+      "Bewegte Federsitze Stahl Ø22 / Ø8 × 3 mm",
+      "Bestand prüfen",
+      "Bohrung für freie Bewegung auf den Stangen."
+    ],
+    [
+      "Mechanik",
+      "H02 + H20",
+      "je 1",
+      "Stahl-Druckstift mit M3-Halteende + M3-Vierkantmutter",
+      "Bestand prüfen",
+      "Ø4-Kontakt × 1,9; Ø8-Schulter × 1; M3-Ende × 6,5 mm. STEP maßgeblich."
+    ],
+    [
+      "Mechanik",
+      "H12",
+      "1",
+      "Sensorstütze S355, Hauptplatte 30 × 30 × 2,15 mm",
+      "Bestand prüfen",
+      "Unveränderte Stahlstütze liegt direkt an der festen X−12-Anlage; altes H12-Zeichnungsblatt überholt."
+    ],
+    [
+      "Mechanik",
+      "H180/H181 + H190/H191",
+      "je 2",
+      "M3×8-Kassettenfang + Stahlhülsen Ø4 / Ø3,2 × 6 mm",
+      "Bestand prüfen",
+      "Kassette an fester Sensorabstützung halten; runde Führungsbohrungen ohne Verstellweg."
+    ],
+    [
+      "Mechanik",
+      "H23",
+      "1",
+      "Edelstahl-Sensorkeeper, 0,5 mm",
+      "Bestand prüfen",
+      "Ring Ø27/Ø20 mit vier Pads; nominaler Randspalt zum Sensor 0,5 mm."
+    ],
+    [
+      "Mechanik",
+      "H240–H243 + H250–H253",
+      "je 4",
+      "Stahlhülsen Ø4 / Ø2,2 × 8,45 mm + M2×12",
+      "Bestand prüfen",
+      "Linsenkopf Ø≤4 und Höhe≤1,6 mm."
+    ],
+    [
+      "Mechanik",
+      "H30",
+      "4 Sätze",
+      "M3×8-Traversenschrauben + M3-Inserts Länge 4 mm",
+      "Bestand prüfen",
+      "Für die belastete Sicherung vorgesehen; federfreie Passmontage der neuen Traverse klickt ein."
+    ],
+    [
+      "Mechanik",
+      "H10",
+      "1 Satz",
+      "M3×10-Nockenklemmung + M3-Insert Länge 4 mm",
+      "Bestand prüfen",
+      "Stufenlose Schaltpunkteinstellung bleibt."
+    ],
+    [
+      "Mechanik",
+      "Schalterhalter",
+      "2 Sätze",
+      "M2×10, dünne Scheibe, M2-Insert Länge 3 mm",
+      "Bestand prüfen",
+      "An den tatsächlich gelieferten Schrauben und Inserts prüfen."
+    ],
+    [
+      "Federn",
+      "0X-DF2194",
+      "2",
+      "Febrotec-Federpaar, leicht",
+      "Vorhanden laut Review",
+      "29.09. bestellt; Review 26.10. dokumentiert bereits eingebaut."
+    ],
+    [
+      "Federn",
+      "0X-DF2185",
+      "2",
+      "Febrotec-Federpaar, stärker",
+      "Bestellt · Lieferung unbestätigt",
+      "Bestellung 29.09.2026 dokumentiert."
+    ],
+    [
+      "Elektronik",
+      "A-P1",
+      "1 je Gerät",
+      "Vollständig bestückte Trägerplatine",
+      "Fertigerprüfung dokumentiert",
+      "Ziel 5 PCB / 2 bestückt. CAM 01.11., Bestückungsansicht 02.11.; D1-Polung offen. Zahlung zuletzt 26.10. als nicht erfolgt dokumentiert."
+    ],
+    [
+      "Elektronik",
+      "TE H01",
+      "1",
+      "FX1901-0001-0200-L Kraftsensor",
+      "Bestand unbestätigt",
+      "In CAD als gekaufter Sensor referenziert; eigener Liefernachweis fehlt."
+    ],
+    [
+      "Elektronik",
+      "Omron H09",
+      "1",
+      "SS-01GL2 Mikroschalter",
+      "Bestand unbestätigt",
+      "NC/COM verdrahten. J2/J3 sind Lötflächen."
+    ],
+    [
+      "Elektronik",
+      "Adafruit 1570",
+      "1",
+      "Geschützter LiPo-Akku, 100 mAh",
+      "Bestand unbestätigt",
+      "Akku erst nach Prüfung des Versorgungsaufbaus anschließen."
+    ],
+    [
+      "Elektronik",
+      "Leitungen / Zubehör",
+      "1 Satz",
+      "AWG26-Schalterleitungen, Schrumpfschlauch, USB-C-Datenkabel, Isolierung",
+      "Bestand prüfen",
+      "XIAO und SMD-Bauteile bei vollständiger PCBA nicht doppelt kaufen."
+    ],
+    [
+      "Optional",
+      "H140/H141",
+      "2",
+      "Stahl-Isometriehülsen Ø16 / Ø8 × 81 mm",
+      "Optional · Bestand prüfen",
+      "Paarweise Länge innerhalb 0,05 mm; keine 86-mm-Hülsen aus alten Ständen."
+    ],
+    [
+      "Optional",
+      "RDF2127 + S01",
+      "je 2",
+      "Weicheres Federpaar + 22-mm-Druckadapter",
+      "Vorgeschlagen · nicht bestellt",
+      "Getrenntes Zubehörprojekt; nicht Bestandteil des sechsteiligen R18-Passsatzes."
+    ],
+    [
+      "Optional",
+      "P08-Sicherung",
+      "2 Sätze",
+      "M2×6 + M2-Insert Länge 4 mm",
+      "Optional",
+      "Gehäuse hält für die Passmontage über Clips."
+    ],
+    [
+      "Optional",
+      "P09-Sicherung",
+      "3",
+      "M1,6×5-Senkschrauben",
+      "Optional",
+      "Deckel schließt auch über die neuen Clips."
+    ],
+    [
+      "Werkzeug",
+      "Montage",
+      "1 Satz",
+      "Innensechskant passend zu M2/M3; Schraubendreher für Elektronik",
+      "Bestand prüfen",
+      "Beide Vorspannmechanismen und der besondere H17-Schlüssel entfallen."
+    ],
+    [
+      "Werkzeug",
+      "Inbetriebnahme",
+      "1 Satz",
+      "Multimeter, strombegrenzte USB-5-V-Quelle, Oszilloskop, bekannte Lasten",
+      "Bestand prüfen",
+      "Für Versorgung, Schalter und getrennte Moduskalibrierung."
+    ]
+  ],
+  "checks": [
+    [
+      "d1",
+      "Fertigerfreigabe klären",
+      "D1 bei USB oben: Kathode links an VBOOST, Anode rechts an BOOST_SW ausdrücklich bestätigen lassen. Schablone, verdeckte XIAO-Lötstellen und PCBA-DFM abschließen.",
+      "electronics/jlc-review-2026-11-02/placement-review.json",
+      "Fertigung"
+    ],
+    [
+      "print",
+      "P01 mit organischer Handballenauflage drucken",
+      "Das empfohlene Ersatzprojekt druckt nur P01. Die übrigen Geräteteile und Q01 weiterverwenden. Ohne Brim drucken; benötigte Stützen entfernen und die vier lokalen Gurtsteg-Füllbereiche im3MF beibehalten.",
+      "review/organic-palm-2026-11-13/MONTAGE.md",
+      "Druck"
+    ],
+    [
+      "fit",
+      "Federfrei montieren und Clips testen",
+      "Beidseitiges Einrasten, Entriegelung, freie Führungen, vollständigen Hub, gleichmäßige Anschläge und Handkomfort am realen Muster prüfen.",
+      "review/organic-palm-2026-11-13/MONTAGE.md",
+      "Montage"
+    ],
+    [
+      "straps",
+      "Gurte am federfreien Aufbau prüfen",
+      "Zwei passende 25-mm-Gurte verwenden, beide Enden außen zurückfalten und sicher an sich selbst befestigen. Sitz, freie Griffbewegung und zugängliche Rastarme prüfen. Gurtlänge passend zum Umfang wählen.",
+      "review/organic-palm-2026-11-13/MONTAGE.md",
+      "Montage"
+    ],
+    [
+      "parts",
+      "Bestand und reale Einbaumaße bestätigen",
+      "Elektronik, Akku und Leitungen einpassen; reale Schraubenköpfe, Inserts, Gewindeeingriff, Keeper-Spalt und Werkzeugzugang bestätigen.",
+      "review/organic-palm-2026-11-13/MONTAGE.md",
+      "Montage"
+    ],
+    [
+      "power",
+      "Bench-Erststart und Versorgung messen",
+      "Zunächst ohne Akku mit Strombegrenzung und Bench-Firmware. Polung, Durchgang, Versorgungsrampen, Referenz/Gleichtakt, USB-Wechsel und Abschaltung messen.",
+      "electronics/procurement/FIRST_POWER.md",
+      "Elektrik"
+    ],
+    [
+      "switch",
+      "Endschalter und Fehlerfälle abnehmen",
+      "NC/COM, Betätigung vor beiden Hartanschlägen und Kabelunterbrechung prüfen. P11 gleicht reale Schalter- und Drucktoleranzen aus; keine Vorspannverstellung mehr.",
+      "electronics/FIRMWARE_CONTRACT.md",
+      "Elektrik"
+    ],
+    [
+      "load",
+      "Arbeitslast und gedruckte Mechanik qualifizieren",
+      "Kraftpfad, Reibung, Kriechen und Wiederholbarkeit mit festgelegtem Druckprozess prüfen. 500 N bleiben ein ungeprüftes Auslegungsziel.",
+      "review/software-2026-10-11/ABNAHME.md",
+      "Mechanik"
+    ],
+    [
+      "cal",
+      "Montierten Sensor kalibrieren",
+      "Bekannte Lasten, Nullpunkt und Hysterese prüfen; dynamischen und isometrischen Modus getrennt kalibrieren. HARDWARE_QUALIFIED erst nach realer elektrischer Qualifikation ändern.",
+      "firmware/README.md",
+      "Messung"
+    ],
+    [
+      "phone",
+      "Gesamtes Gerät und iPhone testen",
+      "Echtes BLE, Peak/Zähler, Reconnect, Speicherung, Export, Sperrbildschirm/Background sowie Akku, Laden und Laufzeit prüfen.",
+      "ios/TRAINING_VERIFICATION.md",
+      "End-to-End"
+    ]
+  ],
+  "revision": "R18",
+  "print_count": 6
+}

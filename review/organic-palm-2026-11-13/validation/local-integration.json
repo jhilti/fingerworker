@@ -1,0 +1,1671 @@
+{
+  "status": "PASS_LOCAL_R18_INTEGRATION",
+  "source_sha256": "345b90327031276f8085e2c225c795946036d7faa4f2ac01b764101b9f4b3dd1",
+  "generator_sha256": "3b460758b47ddfe5883dea210d113cbd47003b7b9de1650a6fa0c7c9b6b99f7d",
+  "validator_sha256": "f1d8c79c9d64db7661fb876be3b9ccf4b85ac5ad530790ed4ccc30d8ad39bc0b",
+  "foundation_report_sha256": "6e5f4a809658cd658377a89d8d6bb7319807fbf1b531dd70cae5ba60488fe6b4",
+  "foundation_native_step_sha256": "fa9a68d37e192b13045d6259a3f0eb8a9913f92805eab37982e691a60b19fa4c",
+  "baseline_R16_step_sha256": "e2b588932fb73f5545baf87ffb91d98f69a29577517105ef169503693ca88b5d",
+  "baseline_certificates": {
+    "native-geometry.json": {
+      "sha256": "c6982a4ae1e1c8174b8571bc7193f394bcbd21f180fed718ac4c336313e9fb23",
+      "status": "PASS_EXACT_NATIVE_R16"
+    },
+    "native-motion.json": {
+      "sha256": "4675056744101f82131c24d64202d739bcf59b34b453962a14fac2d62bbe49ac",
+      "status": "PASS_NATIVE_FIXED_SUPPORT_AND_FULL_TRANSLATIONAL_MOTION"
+    },
+    "service-native.json": {
+      "sha256": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076",
+      "status": "PASS_NATIVE_R16_SENSOR_SERVICE"
+    },
+    "fixture-q01-check.json": {
+      "sha256": "bae681861c65be2f9b44ba337a7118abe2d956bbb490f6fcc5343f1b03aebbca",
+      "status": "PASS_Q01_NATIVE_FIT"
+    }
+  },
+  "local_mesh_sha256": "4504696f366a82b7edefda6279669fafd42ffad97e5d157df426f7626b575628",
+  "checks": [
+    {
+      "kind": "geometry",
+      "name": "One valid connected frame solid/shell",
+      "status": "PASS"
+    },
+    {
+      "kind": "geometry",
+      "name": "Only one existing printed part changes",
+      "status": "PASS",
+      "added_mm3": 3125.3790123879553,
+      "removed_mm3": 868.9902329409106
+    },
+    {
+      "kind": "geometry",
+      "name": "Residual web to existing back pocket -1",
+      "status": "PASS",
+      "minimum_wall_mm": 3.0895691150462334,
+      "geometric_design_target_mm": 3,
+      "meaning": "Geometric spacing between voids; not a strength qualification"
+    },
+    {
+      "kind": "geometry",
+      "name": "Existing back pocket is not filled -1",
+      "status": "PASS"
+    },
+    {
+      "kind": "geometry",
+      "name": "Rod bore wall stays outside scallop -1",
+      "status": "PASS",
+      "minimum_removed_to_bore_mm": 8.647749634661448,
+      "geometric_design_target_mm": 6
+    },
+    {
+      "kind": "geometry",
+      "name": "Rod bore remains open -1",
+      "status": "PASS"
+    },
+    {
+      "kind": "geometry",
+      "name": "Critical inner rod-socket stock retained -1",
+      "status": "PASS"
+    },
+    {
+      "kind": "geometry",
+      "name": "Active electronics hook landing unchanged -1",
+      "status": "PASS"
+    },
+    {
+      "kind": "geometry",
+      "name": "Continuous cheek backing across former hollow -1",
+      "status": "PASS",
+      "missing_mm3": 0.0,
+      "witness_bounds_mm": [
+        [
+          -23.9,
+          -60.5,
+          20.0
+        ],
+        [
+          -18.1,
+          -59.6,
+          28.0
+        ]
+      ]
+    },
+    {
+      "kind": "service",
+      "name": "H18 complete lateral access receives no new stock -1",
+      "status": "PASS"
+    },
+    {
+      "kind": "geometry",
+      "name": "H18 passage wall remains clear of cut -1",
+      "status": "PASS",
+      "minimum_removed_to_passage_mm": 9.6969414133048
+    },
+    {
+      "kind": "geometry",
+      "name": "Residual web to existing back pocket 1",
+      "status": "PASS",
+      "minimum_wall_mm": 3.089569115046234,
+      "geometric_design_target_mm": 3,
+      "meaning": "Geometric spacing between voids; not a strength qualification"
+    },
+    {
+      "kind": "geometry",
+      "name": "Existing back pocket is not filled 1",
+      "status": "PASS"
+    },
+    {
+      "kind": "geometry",
+      "name": "Rod bore wall stays outside scallop 1",
+      "status": "PASS",
+      "minimum_removed_to_bore_mm": 8.64774963466145,
+      "geometric_design_target_mm": 6
+    },
+    {
+      "kind": "geometry",
+      "name": "Rod bore remains open 1",
+      "status": "PASS"
+    },
+    {
+      "kind": "geometry",
+      "name": "Critical inner rod-socket stock retained 1",
+      "status": "PASS"
+    },
+    {
+      "kind": "geometry",
+      "name": "Active electronics hook landing unchanged 1",
+      "status": "PASS"
+    },
+    {
+      "kind": "geometry",
+      "name": "Continuous cheek backing across former hollow 1",
+      "status": "PASS",
+      "missing_mm3": 0.0,
+      "witness_bounds_mm": [
+        [
+          -23.9,
+          59.6,
+          20.0
+        ],
+        [
+          -18.1,
+          60.5,
+          28.0
+        ]
+      ]
+    },
+    {
+      "kind": "service",
+      "name": "H18 complete lateral access receives no new stock 1",
+      "status": "PASS"
+    },
+    {
+      "kind": "geometry",
+      "name": "H18 passage wall remains clear of cut 1",
+      "status": "PASS",
+      "minimum_removed_to_passage_mm": 9.696941413304799
+    },
+    {
+      "kind": "geometry",
+      "name": "Sensing gap not reduced P05",
+      "status": "PASS",
+      "gap_mm": 0.5,
+      "baseline_gap_mm": 0.5
+    },
+    {
+      "kind": "geometry",
+      "name": "Sensing gap not reduced H01",
+      "status": "PASS",
+      "gap_mm": 0.5,
+      "baseline_gap_mm": 0.5
+    },
+    {
+      "kind": "geometry",
+      "name": "Sensing gap not reduced H02",
+      "status": "PASS",
+      "gap_mm": 10.1,
+      "baseline_gap_mm": 10.1
+    },
+    {
+      "kind": "geometry",
+      "name": "Sensing gap not reduced H23",
+      "status": "PASS",
+      "gap_mm": 0.7999999999999989,
+      "baseline_gap_mm": 0.7999999999999989
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation E01",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation E05",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation E06",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation E07",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation E08",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation H01",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation H02",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation H030",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation H031",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation H040",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation H041",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation H050",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation H051",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation H060",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation H061",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation H09",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation H09a",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation H09b",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation H10",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation H12",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation H180",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation H181",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation H190",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation H191",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation H20",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation H23",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation H240",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation H241",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation H242",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation H243",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation H250",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation H251",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation H252",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation H253",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation H300a",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation H300b",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation H301a",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation H301b",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation P04",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation P05",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation P06",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation P08",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation P09",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation P11",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_C1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_C10",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_C11",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_C12",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_C13",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_C14",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_C15",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_C16",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_C2",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_C3",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_C4",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_C5",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_C6",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_C7",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_C8",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_C9",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_D1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_J1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_J2",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_J3",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_L1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_Q1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_R1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_R10",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_R11",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_R12",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_R13",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_R14",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_R15",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_R16",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_R17",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_R18",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_R19",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_R2",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_R20",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_R21",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_R3",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_R4",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_R5",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_R6",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_R7",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_R8",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_R9",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_SW2",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_U1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_U2",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_U3",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "geometry",
+      "name": "Seated frame separation PCB_U4",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "motion",
+      "name": "Added cheek clears full travel P04",
+      "status": "PASS",
+      "gap_lower_bound_mm": 37.99999989999969,
+      "translation_interval_mm": [
+        -30,
+        0
+      ],
+      "baseline_certificate": "4675056744101f82131c24d64202d739bcf59b34b453962a14fac2d62bbe49ac"
+    },
+    {
+      "kind": "motion",
+      "name": "Added cheek clears full travel H060",
+      "status": "PASS",
+      "gap_lower_bound_mm": 85.9999998999997,
+      "translation_interval_mm": [
+        -30,
+        0
+      ],
+      "baseline_certificate": "4675056744101f82131c24d64202d739bcf59b34b453962a14fac2d62bbe49ac"
+    },
+    {
+      "kind": "motion",
+      "name": "Added cheek clears full travel H061",
+      "status": "PASS",
+      "gap_lower_bound_mm": 85.9999998999997,
+      "translation_interval_mm": [
+        -30,
+        0
+      ],
+      "baseline_certificate": "4675056744101f82131c24d64202d739bcf59b34b453962a14fac2d62bbe49ac"
+    },
+    {
+      "kind": "motion",
+      "name": "Added cheek clears full travel P11",
+      "status": "PASS",
+      "gap_lower_bound_mm": 50.240772171608214,
+      "translation_interval_mm": [
+        -30.8,
+        0.8
+      ],
+      "baseline_certificate": "4675056744101f82131c24d64202d739bcf59b34b453962a14fac2d62bbe49ac"
+    },
+    {
+      "kind": "motion",
+      "name": "Added cheek clears full travel H10",
+      "status": "PASS",
+      "gap_lower_bound_mm": 48.93669731656722,
+      "translation_interval_mm": [
+        -30.8,
+        0.8
+      ],
+      "baseline_certificate": "4675056744101f82131c24d64202d739bcf59b34b453962a14fac2d62bbe49ac"
+    },
+    {
+      "kind": "service",
+      "name": "H18 initial2.3mm rotational thread release / added stock / H180",
+      "status": "PASS",
+      "gap_lower_bound_mm": 14.278872855676026,
+      "full_swept_bounds_mm": [
+        [
+          -15.5500001,
+          -26.300000100000002,
+          5.7499999
+        ],
+        [
+          -10.049999900000001,
+          -13.0009999,
+          11.2500001
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "H18 full55mm side withdrawal after unthreading / added stock / H180",
+      "status": "PASS",
+      "gap_lower_bound_mm": 5.303892067325327,
+      "full_swept_bounds_mm": [
+        [
+          -15.5500001,
+          -81.3000001,
+          5.7499999
+        ],
+        [
+          -10.049999900000001,
+          -15.2999999,
+          11.2500001
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "H18 initial2.3mm rotational thread release / added stock / H181",
+      "status": "PASS",
+      "gap_lower_bound_mm": 14.278872855676028,
+      "full_swept_bounds_mm": [
+        [
+          -15.5500001,
+          13.0009999,
+          5.7499999
+        ],
+        [
+          -10.049999900000001,
+          26.300000100000002,
+          11.2500001
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "H18 full55mm side withdrawal after unthreading / added stock / H181",
+      "status": "PASS",
+      "gap_lower_bound_mm": 5.303892067325327,
+      "full_swept_bounds_mm": [
+        [
+          -15.5500001,
+          15.2999999,
+          5.7499999
+        ],
+        [
+          -10.049999900000001,
+          81.3000001,
+          11.2500001
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "H19 full55mm side spacer withdrawal / added stock / H190",
+      "status": "PASS",
+      "gap_lower_bound_mm": 6.053892067325327,
+      "full_swept_bounds_mm": [
+        [
+          -14.8000001,
+          -76.0000001,
+          6.4999999
+        ],
+        [
+          -10.799999900000001,
+          -14.9999999,
+          10.5000001
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "H19 full55mm side spacer withdrawal / added stock / H191",
+      "status": "PASS",
+      "gap_lower_bound_mm": 6.053892067325327,
+      "full_swept_bounds_mm": [
+        [
+          -14.8000001,
+          14.9999999,
+          6.4999999
+        ],
+        [
+          -10.799999900000001,
+          76.0000001,
+          10.5000001
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "Sensor-yoke stack forward lead-window release / added stock / H01",
+      "status": "PASS",
+      "gap_lower_bound_mm": 7.137396300737482,
+      "full_swept_bounds_mm": [
+        [
+          -9.849,
+          -12.5000001,
+          5.499999899999996
+        ],
+        [
+          1.3000000999999999,
+          27.0,
+          30.500000100000005
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "Sensor-yoke stack forward lead-window release / added stock / H02",
+      "status": "PASS",
+      "gap_lower_bound_mm": 17.98874942843976,
+      "full_swept_bounds_mm": [
+        [
+          -1.8990001,
+          -4.0000001,
+          13.9999999
+        ],
+        [
+          10.7000001,
+          4.0000001,
+          22.0000001
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "Sensor-yoke stack forward lead-window release / added stock / H050",
+      "status": "PASS",
+      "gap_lower_bound_mm": 17.00099989999969,
+      "full_swept_bounds_mm": [
+        [
+          9.0009999,
+          -62.0000001,
+          6.9999999
+        ],
+        [
+          15.200000099999999,
+          -39.9999999,
+          29.0000001
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "Sensor-yoke stack forward lead-window release / added stock / H051",
+      "status": "PASS",
+      "gap_lower_bound_mm": 17.000999899999695,
+      "full_swept_bounds_mm": [
+        [
+          9.0009999,
+          39.9999999,
+          6.9999999
+        ],
+        [
+          15.200000099999999,
+          62.0000001,
+          29.0000001
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "Sensor-yoke stack forward lead-window release / added stock / H12",
+      "status": "PASS",
+      "gap_lower_bound_mm": 1.3158355046094652,
+      "full_swept_bounds_mm": [
+        [
+          -15.499,
+          -15.0000001,
+          3.0
+        ],
+        [
+          -5.450000000000001,
+          15.0000001,
+          33.0
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "Sensor-yoke stack forward lead-window release / added stock / H20",
+      "status": "PASS",
+      "gap_lower_bound_mm": 24.660049452487527,
+      "full_swept_bounds_mm": [
+        [
+          5.100999900000001,
+          -2.75,
+          15.25
+        ],
+        [
+          10.100000099999999,
+          2.75,
+          20.75
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "Sensor-yoke stack forward lead-window release / added stock / H23",
+      "status": "PASS",
+      "gap_lower_bound_mm": 15.415835404609465,
+      "full_swept_bounds_mm": [
+        [
+          -1.3990001,
+          -14.5,
+          3.5
+        ],
+        [
+          2.3000000999999997,
+          14.5,
+          32.5
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "Sensor-yoke stack forward lead-window release / added stock / H240",
+      "status": "PASS",
+      "gap_lower_bound_mm": 22.54781334553885,
+      "full_swept_bounds_mm": [
+        [
+          -9.8490001,
+          -12.5000001,
+          5.4999999
+        ],
+        [
+          1.8000000999999999,
+          -8.4999999,
+          9.5000001
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "Sensor-yoke stack forward lead-window release / added stock / H241",
+      "status": "PASS",
+      "gap_lower_bound_mm": 7.913894715742877,
+      "full_swept_bounds_mm": [
+        [
+          -9.8490001,
+          -12.5000001,
+          26.4999999
+        ],
+        [
+          1.8000000999999999,
+          -8.4999999,
+          30.5000001
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "Sensor-yoke stack forward lead-window release / added stock / H242",
+      "status": "PASS",
+      "gap_lower_bound_mm": 22.547813329772495,
+      "full_swept_bounds_mm": [
+        [
+          -9.8490001,
+          8.4999999,
+          5.4999999
+        ],
+        [
+          1.8000000999999999,
+          12.5000001,
+          9.5000001
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "Sensor-yoke stack forward lead-window release / added stock / H243",
+      "status": "PASS",
+      "gap_lower_bound_mm": 7.913894719815313,
+      "full_swept_bounds_mm": [
+        [
+          -9.8490001,
+          8.4999999,
+          26.4999999
+        ],
+        [
+          1.8000000999999999,
+          12.5000001,
+          30.5000001
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "Sensor-yoke stack forward lead-window release / added stock / H250",
+      "status": "PASS",
+      "gap_lower_bound_mm": 20.022119949577256,
+      "full_swept_bounds_mm": [
+        [
+          -12.8990001,
+          -12.5000001,
+          5.4999999
+        ],
+        [
+          3.9000000999999997,
+          -8.4999999,
+          9.5000001
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "Sensor-yoke stack forward lead-window release / added stock / H251",
+      "status": "PASS",
+      "gap_lower_bound_mm": 5.0662515859257615,
+      "full_swept_bounds_mm": [
+        [
+          -12.8990001,
+          -12.5000001,
+          26.4999999
+        ],
+        [
+          3.9000000999999997,
+          -8.4999999,
+          30.5000001
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "Sensor-yoke stack forward lead-window release / added stock / H252",
+      "status": "PASS",
+      "gap_lower_bound_mm": 20.022119931822054,
+      "full_swept_bounds_mm": [
+        [
+          -12.8990001,
+          8.4999999,
+          5.4999999
+        ],
+        [
+          3.9000000999999997,
+          12.5000001,
+          9.5000001
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "Sensor-yoke stack forward lead-window release / added stock / H253",
+      "status": "PASS",
+      "gap_lower_bound_mm": 5.06625159428109,
+      "full_swept_bounds_mm": [
+        [
+          -12.8990001,
+          8.4999999,
+          26.4999999
+        ],
+        [
+          3.9000000999999997,
+          12.5000001,
+          30.5000001
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "Sensor-yoke stack forward lead-window release / added stock / P05",
+      "status": "PASS",
+      "gap_lower_bound_mm": 1.000999899999691,
+      "full_swept_bounds_mm": [
+        [
+          -6.9990001,
+          -63.0,
+          6.9999999999999964
+        ],
+        [
+          33.2,
+          63.0,
+          29.000000000000004
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "Sensor-yoke stack final upward removal / added stock / H01",
+      "status": "PASS",
+      "gap_lower_bound_mm": 10.164835504609467,
+      "full_swept_bounds_mm": [
+        [
+          -6.6499999999999995,
+          -12.5000001,
+          5.499999899999996
+        ],
+        [
+          1.3000001000000003,
+          27.0,
+          70.50000010000001
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "Sensor-yoke stack final upward removal / added stock / H02",
+      "status": "PASS",
+      "gap_lower_bound_mm": 18.114835404609465,
+      "full_swept_bounds_mm": [
+        [
+          1.2999999000000002,
+          -4.0000001,
+          13.9999999
+        ],
+        [
+          10.7000001,
+          4.0000001,
+          62.0000001
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "Sensor-yoke stack final upward removal / added stock / H050",
+      "status": "PASS",
+      "gap_lower_bound_mm": 20.199999899999693,
+      "full_swept_bounds_mm": [
+        [
+          12.199999900000002,
+          -62.0000001,
+          6.9999999
+        ],
+        [
+          15.2000001,
+          -39.9999999,
+          69.0000001
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "Sensor-yoke stack final upward removal / added stock / H051",
+      "status": "PASS",
+      "gap_lower_bound_mm": 20.199999899999696,
+      "full_swept_bounds_mm": [
+        [
+          12.199999900000002,
+          39.9999999,
+          6.9999999
+        ],
+        [
+          15.2000001,
+          62.0000001,
+          69.0000001
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "Sensor-yoke stack final upward removal / added stock / H12",
+      "status": "PASS",
+      "gap_lower_bound_mm": 4.514835504609465,
+      "full_swept_bounds_mm": [
+        [
+          -12.3,
+          -15.0000001,
+          3.0
+        ],
+        [
+          -5.45,
+          15.0000001,
+          73.0
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "Sensor-yoke stack final upward removal / added stock / H20",
+      "status": "PASS",
+      "gap_lower_bound_mm": 25.114835404609465,
+      "full_swept_bounds_mm": [
+        [
+          8.2999999,
+          -2.75,
+          15.25
+        ],
+        [
+          10.100000099999999,
+          2.75,
+          60.75
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "Sensor-yoke stack final upward removal / added stock / H23",
+      "status": "PASS",
+      "gap_lower_bound_mm": 18.614835404609465,
+      "full_swept_bounds_mm": [
+        [
+          1.7999999000000002,
+          -14.5,
+          3.5
+        ],
+        [
+          2.3000001,
+          14.5,
+          72.5
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "Sensor-yoke stack final upward removal / added stock / H240",
+      "status": "PASS",
+      "gap_lower_bound_mm": 10.816553249015953,
+      "full_swept_bounds_mm": [
+        [
+          -6.650000099999999,
+          -12.5000001,
+          5.4999999
+        ],
+        [
+          1.8000001000000003,
+          -8.4999999,
+          49.5000001
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "Sensor-yoke stack final upward removal / added stock / H241",
+      "status": "PASS",
+      "gap_lower_bound_mm": 10.816553249015953,
+      "full_swept_bounds_mm": [
+        [
+          -6.650000099999999,
+          -12.5000001,
+          26.4999999
+        ],
+        [
+          1.8000001000000003,
+          -8.4999999,
+          70.5000001
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "Sensor-yoke stack final upward removal / added stock / H242",
+      "status": "PASS",
+      "gap_lower_bound_mm": 10.816553253063317,
+      "full_swept_bounds_mm": [
+        [
+          -6.650000099999999,
+          8.4999999,
+          5.4999999
+        ],
+        [
+          1.8000001000000003,
+          12.5000001,
+          49.5000001
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "Sensor-yoke stack final upward removal / added stock / H243",
+      "status": "PASS",
+      "gap_lower_bound_mm": 10.816553253063317,
+      "full_swept_bounds_mm": [
+        [
+          -6.650000099999999,
+          8.4999999,
+          26.4999999
+        ],
+        [
+          1.8000001000000003,
+          12.5000001,
+          70.5000001
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "Sensor-yoke stack final upward removal / added stock / H250",
+      "status": "PASS",
+      "gap_lower_bound_mm": 7.791654655343521,
+      "full_swept_bounds_mm": [
+        [
+          -9.7000001,
+          -12.5000001,
+          5.4999999
+        ],
+        [
+          3.9000001,
+          -8.4999999,
+          49.5000001
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "Sensor-yoke stack final upward removal / added stock / H251",
+      "status": "PASS",
+      "gap_lower_bound_mm": 7.791654655343521,
+      "full_swept_bounds_mm": [
+        [
+          -9.7000001,
+          -12.5000001,
+          26.4999999
+        ],
+        [
+          3.9000001,
+          -8.4999999,
+          70.5000001
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "Sensor-yoke stack final upward removal / added stock / H252",
+      "status": "PASS",
+      "gap_lower_bound_mm": 7.791654663115791,
+      "full_swept_bounds_mm": [
+        [
+          -9.7000001,
+          8.4999999,
+          5.4999999
+        ],
+        [
+          3.9000001,
+          12.5000001,
+          49.5000001
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "Sensor-yoke stack final upward removal / added stock / H253",
+      "status": "PASS",
+      "gap_lower_bound_mm": 7.791654663115791,
+      "full_swept_bounds_mm": [
+        [
+          -9.7000001,
+          8.4999999,
+          26.4999999
+        ],
+        [
+          3.9000001,
+          12.5000001,
+          70.5000001
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "Sensor-yoke stack final upward removal / added stock / P05",
+      "status": "PASS",
+      "gap_lower_bound_mm": 4.199999899999691,
+      "full_swept_bounds_mm": [
+        [
+          -3.8000001,
+          -63.0,
+          6.9999999999999964
+        ],
+        [
+          33.2,
+          63.0,
+          69.0
+        ]
+      ],
+      "baseline_certificate": "130546f90e2d61d1b4137a72618f3a6b577f5adf41788e183f6bdc5a8a641076"
+    },
+    {
+      "kind": "service",
+      "name": "Full tray outward flex and downward removal clears additions",
+      "status": "PASS",
+      "gap_lower_bound_mm": 0.35389216732532347,
+      "flex_mm": 0.6,
+      "downward_mm": 20
+    },
+    {
+      "kind": "service",
+      "name": "Complete high hook release envelope -1",
+      "status": "PASS",
+      "gap_lower_bound_mm": 1.7271887506171795
+    },
+    {
+      "kind": "service",
+      "name": "Complete high hook release envelope 1",
+      "status": "PASS",
+      "gap_lower_bound_mm": 1.7271887506171775
+    },
+    {
+      "kind": "fixture",
+      "name": "Q01 entire 40mm removal path clears additions",
+      "status": "PASS",
+      "gap_lower_bound_mm": 4.814835504609466,
+      "baseline_certificate": "bae681861c65be2f9b44ba337a7118abe2d956bbb490f6fcc5343f1b03aebbca"
+    },
+    {
+      "kind": "fixture",
+      "name": "Q01 seating contact region receives no removals",
+      "status": "PASS"
+    },
+    {
+      "kind": "geometry",
+      "name": "Base, strap slots and central guide untouched",
+      "status": "PASS"
+    },
+    {
+      "kind": "R18_geometry",
+      "name": "Crown reshaping removes stock only inside the declared trim",
+      "status": "PASS",
+      "removed_mm3": 221.0535249354341
+    },
+    {
+      "kind": "R18_geometry",
+      "name": "New bolster stays inside declared broad palm envelope",
+      "status": "PASS",
+      "added_mm3": 2684.7392349680904
+    },
+    {
+      "kind": "R18_geometry",
+      "name": "All original stock below Z30 retained",
+      "status": "PASS"
+    },
+    {
+      "kind": "R18_geometry",
+      "name": "Central sensing face receives no new stock beyond X\u221216",
+      "status": "PASS"
+    },
+    {
+      "kind": "R18_geometry",
+      "name": "Complete native thumb-seat region unchanged -1",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "kind": "R18_geometry",
+      "name": "Wrist return and pocket mouth unchanged -1",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "kind": "R18_geometry",
+      "name": "Complete native thumb-seat region unchanged 1",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "kind": "R18_geometry",
+      "name": "Wrist return and pocket mouth unchanged 1",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "kind": "R18_geometry",
+      "name": "Click roots, roof and lower frame exactly retained",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "kind": "R18_geometry",
+      "name": "Assembly footprint retained and crown below Z35",
+      "status": "PASS",
+      "outside_mm3": 0.0,
+      "method": "Exact solid containment; avoids loose bounds of trimmed B-spline surfaces"
+    },
+    {
+      "kind": "R18_geometry",
+      "name": "R17 side-seat land inherited through exact unchanged region",
+      "status": "PASS",
+      "foundation_land_mm": 6.040080221609012,
+      "physical_thumb_clearance_qualified": false
+    },
+    {
+      "kind": "mesh",
+      "name": "One watertight positive printed mesh",
+      "status": "PASS",
+      "components": 1,
+      "watertight": true,
+      "volume_mm3": 170192.76898573354,
+      "actual_mesh_bounds_mm": [
+        [
+          -46.099998474121094,
+          -66.19999694824219,
+          -2.0
+        ],
+        [
+          129.0,
+          66.19999694824219,
+          34.5
+        ]
+      ]
+    },
+    {
+      "kind": "mesh",
+      "name": "Mesh volume matches reviewed solid",
+      "status": "PASS",
+      "volume_error_mm3": 11.623920369369444,
+      "scope": "Tessellation sanity; actual CAD identity/section checks are separate"
+    }
+  ],
+  "unchanged_native_bodies": [],
+  "local_native_loft_comparison": null,
+  "superseded_R17_shape_checks": [
+    "All additions remain inside explicit tapered cheek domains",
+    "All removals remain inside declared upper outside thumb regions",
+    "Existing assembly footprint and palm crown retained",
+    "Scallop leaves a fixed land before yoke seam"
+  ],
+  "failures": [],
+  "limitations": [
+    "Native freeform loft and local OCC loft need not be bit-identical between declared sections; explicit section/envelope checks and native print review are separate gates.",
+    "No physical comfort, thumb fit, strength, creep or adhesion qualification.",
+    "Existing R16 motion/service certificates are inherited only after complete added-stock swept-envelope separation and retained-interface checks."
+  ]
+}

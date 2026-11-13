@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "source_sha256": "3ce2ccb3a6c37c69c63360babe13875d888fffc027db59ded19bce5df076d1ac",
+  "parts": [
+    {
+      "file": "P060_rear_retainer_left_RevC_2026-10-13.stl",
+      "sha256": "8a85ced80993e3e0ef798da49439b2fd321a387778ea7b06041cdb6dd2753b4f",
+      "bounds_mm": [
+        8.000007629394531,
+        24.0,
+        23.5
+      ],
+      "closed": true
+    },
+    {
+      "file": "P061_rear_retainer_right_RevC_2026-10-13.stl",
+      "sha256": "ce9c4a6b0994fd9242d3a33eab6867102e9cd1c24299bb22ee9482938b5296bf",
+      "bounds_mm": [
+        8.000007629394531,
+        24.0,
+        23.5
+      ],
+      "closed": true
+    }
+  ]
+}

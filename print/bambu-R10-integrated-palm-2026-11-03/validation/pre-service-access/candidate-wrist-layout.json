@@ -1,0 +1,97 @@
+{
+  "status": "EDITABLE_SEED_AUTHORED_PENDING_NATIVE_IMPORT_AND_SLICE",
+  "CAD_source_path": "review/flat132-integrated-palm-2026-11-03/fingerworker_flat132_integrated_palm.fs",
+  "CAD_source_sha256": "fec2e2e5100eb39c1a1e4b9dc98f609b2ac31795e744415f78e32997d1ea1af9",
+  "native_R10_version": "PENDING_FREEZE",
+  "slicer_version": "02.08.02.61",
+  "printer": "H2D",
+  "nozzle_mm": 0.4,
+  "material": "PLA",
+  "bed": "Textured PEI Plate",
+  "plate_count": 1,
+  "object_count": 1,
+  "safe_shared_XY_mm": [
+    [
+      27,
+      3
+    ],
+    [
+      323,
+      317
+    ]
+  ],
+  "native_machine_macros_modified": false,
+  "no_printer_transmission": true,
+  "placements": [
+    {
+      "ref": "P01",
+      "source_path": "review/flat132-integrated-palm-2026-11-03/print-mm/P01.stl",
+      "source_sha256": "2874852b7f556f58bc98bb12ccfe18204dd8b45dd0fcea3a24d643f2bd7d4110",
+      "source_geometry": "NATIVE_R10_ONSHAPE_STL",
+      "CAD_source_sha256": "fec2e2e5100eb39c1a1e4b9dc98f609b2ac31795e744415f78e32997d1ea1af9",
+      "material": "PLA",
+      "intent": "INTEGRATED BASE AND SOLID PALM - UNLOADED FIT STUDY",
+      "orientation": "Native Xmin wrist side down; candidate only",
+      "rotation_3x3": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "plate": 1,
+      "plate_xy_mm": [
+        70,
+        80
+      ],
+      "brim_mm": 5,
+      "reserved_margin_mm": 6,
+      "normalization_translation_mm": [
+        33.0,
+        66.0,
+        46.10000228881836
+      ],
+      "size_oriented_mm": [
+        35.0,
+        132.0,
+        175.10000228881836
+      ],
+      "volume_mm3": 165504.65775924883,
+      "faces": 62832,
+      "units": "mm",
+      "scale": 1.0,
+      "reserved_bounds_xy_mm": [
+        64,
+        74,
+        111.0,
+        218.0
+      ]
+    }
+  ],
+  "object_settings": {
+    "P01": {
+      "brim_type": "outer_only",
+      "brim_width": "5",
+      "brim_object_gap": "0.1",
+      "enable_support": "1",
+      "support_type": "normal(auto)",
+      "support_on_build_plate_only": "1",
+      "support_top_z_distance": "0.25",
+      "support_threshold_angle": "30"
+    }
+  },
+  "seed_path": "Fingerworker_R10_H2D_04mm_PLA_Fit_Test-candidate-wrist_seed.3mf",
+  "seed_sha256": "952e407d58f8dc51021ae8f6c739514d9e1b40d4e10d162f53ed045042e80334",
+  "native_project": "Fingerworker_R10_H2D_04mm_PLA_Fit_Test-candidate-wrist.3mf",
+  "candidate_orientation": "wrist"
+}

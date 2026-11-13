@@ -1,0 +1,402 @@
+{
+  "revision": "R11",
+  "date": "2026-11-03",
+  "baseline_source_sha256": "5ce830ff2b06cd8d318d3c44dbc1f3385697526a9a679d2a2078f64f81854237",
+  "unchanged_P01": true,
+  "removed_refs": [
+    "P10"
+  ],
+  "changed_refs": [
+    "P08",
+    "P09"
+  ],
+  "tray_stocks": [
+    {
+      "kind": "box",
+      "lo": [
+        -46.1,
+        -65.5,
+        0
+      ],
+      "hi": [
+        -45.1,
+        -54.6,
+        2.4
+      ],
+      "tag": "palmRoot",
+      "side": -1
+    },
+    {
+      "kind": "box",
+      "lo": [
+        -45.5,
+        -65.5,
+        0
+      ],
+      "hi": [
+        -25.6,
+        -64.3,
+        2.4
+      ],
+      "tag": "palmBeam",
+      "side": -1
+    },
+    {
+      "kind": "box",
+      "lo": [
+        -29,
+        -65.5,
+        0
+      ],
+      "hi": [
+        -25.6,
+        -64.3,
+        14.9
+      ],
+      "tag": "palmPost",
+      "side": -1
+    },
+    {
+      "kind": "box",
+      "lo": [
+        -29,
+        -65.5,
+        14.7
+      ],
+      "hi": [
+        -25.6,
+        -63.6,
+        15.5
+      ],
+      "tag": "palmLip",
+      "side": -1
+    },
+    {
+      "kind": "Xprism",
+      "a": -29,
+      "c": -25.6,
+      "points": [
+        [
+          -65.5,
+          15.45
+        ],
+        [
+          -65.5,
+          16.2
+        ],
+        [
+          -64.3,
+          16.2
+        ],
+        [
+          -63.6,
+          15.5
+        ]
+      ],
+      "tag": "palmRamp",
+      "side": -1
+    },
+    {
+      "kind": "roundedRoot",
+      "tag": "palmRootBlend",
+      "side": -1,
+      "lo": [
+        -45.15,
+        -64.35,
+        0
+      ],
+      "hi": [
+        -44.5,
+        -63.7,
+        2.4
+      ],
+      "cylinder": [
+        -44.5,
+        -63.7,
+        -0.1,
+        2.5,
+        0.6
+      ]
+    },
+    {
+      "kind": "box",
+      "lo": [
+        -46.1,
+        54.6,
+        0
+      ],
+      "hi": [
+        -45.1,
+        65.5,
+        2.4
+      ],
+      "tag": "palmRoot",
+      "side": 1
+    },
+    {
+      "kind": "box",
+      "lo": [
+        -45.5,
+        64.3,
+        0
+      ],
+      "hi": [
+        -25.6,
+        65.5,
+        2.4
+      ],
+      "tag": "palmBeam",
+      "side": 1
+    },
+    {
+      "kind": "box",
+      "lo": [
+        -29,
+        64.3,
+        0
+      ],
+      "hi": [
+        -25.6,
+        65.5,
+        14.9
+      ],
+      "tag": "palmPost",
+      "side": 1
+    },
+    {
+      "kind": "box",
+      "lo": [
+        -29,
+        63.6,
+        14.7
+      ],
+      "hi": [
+        -25.6,
+        65.5,
+        15.5
+      ],
+      "tag": "palmLip",
+      "side": 1
+    },
+    {
+      "kind": "Xprism",
+      "a": -29,
+      "c": -25.6,
+      "points": [
+        [
+          63.6,
+          15.5
+        ],
+        [
+          64.3,
+          16.2
+        ],
+        [
+          65.5,
+          16.2
+        ],
+        [
+          65.5,
+          15.45
+        ]
+      ],
+      "tag": "palmRamp",
+      "side": 1
+    },
+    {
+      "kind": "roundedRoot",
+      "tag": "palmRootBlend",
+      "side": 1,
+      "lo": [
+        -45.15,
+        63.7,
+        0
+      ],
+      "hi": [
+        -44.5,
+        64.35,
+        2.4
+      ],
+      "cylinder": [
+        -44.5,
+        63.7,
+        -0.1,
+        2.5,
+        0.6
+      ]
+    },
+    {
+      "kind": "box",
+      "lo": [
+        -47.1,
+        -28.2,
+        5.8
+      ],
+      "hi": [
+        -46,
+        -24.8,
+        6.8
+      ],
+      "tag": "lidCatch0"
+    },
+    {
+      "kind": "box",
+      "lo": [
+        -47.1,
+        39.8,
+        5.8
+      ],
+      "hi": [
+        -46,
+        43.2,
+        6.8
+      ],
+      "tag": "lidCatch1"
+    }
+  ],
+  "lid_stocks": [
+    {
+      "kind": "box",
+      "lo": [
+        -48.6,
+        -52,
+        8.1
+      ],
+      "hi": [
+        -45.9,
+        -48.8,
+        8.9
+      ],
+      "tag": "lidRoot0"
+    },
+    {
+      "kind": "box",
+      "lo": [
+        -48.6,
+        -49.2,
+        4.8
+      ],
+      "hi": [
+        -47.4,
+        -25,
+        8.9
+      ],
+      "tag": "lidBeam0"
+    },
+    {
+      "kind": "Yprism",
+      "a": -28,
+      "c": -25,
+      "points": [
+        [
+          -47.5,
+          4.2
+        ],
+        [
+          -47.4,
+          4.2
+        ],
+        [
+          -46.3,
+          4.8
+        ],
+        [
+          -46.3,
+          5.7
+        ],
+        [
+          -47.5,
+          5.7
+        ]
+      ],
+      "tag": "lidHook0"
+    },
+    {
+      "kind": "box",
+      "lo": [
+        -48.6,
+        16,
+        8.1
+      ],
+      "hi": [
+        -45.9,
+        19.2,
+        8.9
+      ],
+      "tag": "lidRoot1"
+    },
+    {
+      "kind": "box",
+      "lo": [
+        -48.6,
+        18.8,
+        4.8
+      ],
+      "hi": [
+        -47.4,
+        43,
+        8.9
+      ],
+      "tag": "lidBeam1"
+    },
+    {
+      "kind": "Yprism",
+      "a": 40,
+      "c": 43,
+      "points": [
+        [
+          -47.5,
+          4.2
+        ],
+        [
+          -47.4,
+          4.2
+        ],
+        [
+          -46.3,
+          4.8
+        ],
+        [
+          -46.3,
+          5.7
+        ],
+        [
+          -47.5,
+          5.7
+        ]
+      ],
+      "tag": "lidHook1"
+    },
+    {
+      "kind": "box",
+      "lo": [
+        -28.1,
+        22.4,
+        3.4
+      ],
+      "hi": [
+        -24.9,
+        32.6,
+        8.2
+      ],
+      "tag": "integralWireClamp"
+    }
+  ],
+  "nominal_strain_estimates": [
+    {
+      "connection": "P08 / existing P01 palm end",
+      "effective_length_mm": 15.5,
+      "thickness_mm": 1.2,
+      "max_tip_deflection_mm": 0.6,
+      "nominal_outer_fibre_strain": 0.004495317377731529
+    },
+    {
+      "connection": "P09 / new P08 outside catch",
+      "effective_length_mm": 20.0,
+      "thickness_mm": 1.2,
+      "max_tip_deflection_mm": 0.9,
+      "nominal_outer_fibre_strain": 0.00405
+    }
+  ],
+  "scope": "Local OCP literal design preflight, not a native Onshape export or material qualification."
+}

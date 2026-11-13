@@ -1,0 +1,10 @@
+{
+  "path": "deliverables/Flat132_R4_Switch_Fit.zip",
+  "sha256": "7d4da69e999be78940a7c3ee040c3c4c6fc5d6af2fba2863581dd29830a56ae3",
+  "bytes": 60077924,
+  "members": 102,
+  "crc_check": "PASS",
+  "member_sha256_checks": "PASS",
+  "print_STLs": 14,
+  "device_assembly_STLs": 52
+}

@@ -1,0 +1,3 @@
+Historical local-candidate diagnostics only.
+Local OCP STEP roundtrip had a coincident-face subtraction issue; final native Onshape STEP does not.
+Final authoritative PASS reports are in the parent validation directory, bound to source 1f492dd841c35a14f488be418e4f4dd8dea8edb63f3d321a492dc2ec3c907ab4.

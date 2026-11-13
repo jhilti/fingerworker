@@ -1,0 +1,28 @@
+{
+  "gui_verified": false,
+  "gui_status": "NOT_REQUESTED_PRINT_SETUP_DEFERRED",
+  "print_setup_status": "PRINT_SETUP_DEFERRED_BY_USER",
+  "date": "2026-11-13",
+  "status": "BUILT_CAD_OVERVIEW_PRINT_DEFERRED",
+  "html": "Uebersicht.preview.html",
+  "html_bytes": 2366745,
+  "html_sha256": "8b2ba98cc4737a57b563611b2c4d01afb3ee637589543eedcd93fec0537641ab",
+  "revision": "R19",
+  "primary_action": "NATIVE_CAD",
+  "native_onshape_version": "21323818480a2406fe14f51f",
+  "source_sha256": "0e88e273e2e9bc436b2844a44f04b28fb094593c0af87a2127d792bbb56f016d",
+  "print_items": 8,
+  "hardware_rows": 25,
+  "personal_check_items": 10,
+  "inline_assets": true,
+  "external_runtime_requests": false,
+  "source_files": {
+    "review/thumb-rim-2026-11-13/overview-staging/template.html": "a0aacc3d6b8b5ade952356c82a37343e85debaaf31c786d9040d436da31445c4",
+    "review/thumb-rim-2026-11-13/overview-staging/style.css": "e6b08dcf74dc64078e425854d571f423ccab3a57c52108a4596e98dddc906ffb",
+    "review/thumb-rim-2026-11-13/overview-staging/app.js": "982da5b18b903f00be92c679a4a90741e152682892d5ae60604beae79c531327",
+    "review/thumb-rim-2026-11-13/overview-staging/content.json": "e6b8b5f33a47433e70bd9d146290c7c2a7328d6fead98468855083303b5baf6f",
+    "review/thumb-rim-2026-11-13/overview-staging/model/component.html": "f97c24920ed2ae2a95b3ac00dad3d6cbe8a7a4e5cbe9d77c4da14358d9a745ab",
+    "review/thumb-rim-2026-11-13/overview-staging/model/manifest.json": "25f41ebbdcc048bd107d0aa5b97ed006d5732d415d0e6e3ce40f209c32d4a94b",
+    "review/thumb-rim-2026-11-13/final-specification.json": "25c1d092ad605073829772403e3049ad90656bbecd9ec96a1558fa73b2512cf3"
+  }
+}

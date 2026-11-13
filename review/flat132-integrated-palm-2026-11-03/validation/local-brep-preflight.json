@@ -1,0 +1,121 @@
+{
+  "status": "PASS_LOCAL_LITERAL_BREP_PREFLIGHT",
+  "source_sha256": "5ce830ff2b06cd8d318d3c44dbc1f3385697526a9a679d2a2078f64f81854237",
+  "scope": "Independent literal CSG reconstructed against frozen R9 native BRep, before final R10 STEP export. Not a native regeneration claim.",
+  "checks": [
+    {
+      "ref": "P01",
+      "valid": true,
+      "solid_count": 1,
+      "shell_count": 1,
+      "volume_mm3": 162202.8781811543,
+      "bounds_mm": [
+        [
+          -46.1,
+          -66.0,
+          -2.0000001
+        ],
+        [
+          129.0,
+          66.0,
+          33.0000001
+        ]
+      ]
+    },
+    {
+      "ref": "H15",
+      "valid": true,
+      "solid_count": 1,
+      "shell_count": 1,
+      "volume_mm3": 1110.1228116883528,
+      "bounds_mm": [
+        [
+          -23.0000001,
+          -16.0,
+          9.0
+        ],
+        [
+          -20.9999999,
+          16.0,
+          28.0
+        ]
+      ]
+    },
+    {
+      "ref": "H160",
+      "valid": true,
+      "solid_count": 1,
+      "shell_count": 1,
+      "volume_mm3": 70.68583470577035,
+      "bounds_mm": [
+        [
+          -25.0000001,
+          -14.0000001,
+          20.9999999
+        ],
+        [
+          -16.9999999,
+          -7.9999999,
+          27.0000001
+        ]
+      ]
+    },
+    {
+      "ref": "H170",
+      "valid": true,
+      "solid_count": 1,
+      "shell_count": 1,
+      "volume_mm3": 40.86418256955088,
+      "bounds_mm": [
+        [
+          -24.8000001,
+          -13.75,
+          21.25
+        ],
+        [
+          -22.9999999,
+          -8.25,
+          26.75
+        ]
+      ]
+    },
+    {
+      "ref": "H161",
+      "valid": true,
+      "solid_count": 1,
+      "shell_count": 1,
+      "volume_mm3": 70.68583470577035,
+      "bounds_mm": [
+        [
+          -25.0000001,
+          7.9999999,
+          20.9999999
+        ],
+        [
+          -16.9999999,
+          14.0000001,
+          27.0000001
+        ]
+      ]
+    },
+    {
+      "ref": "H171",
+      "valid": true,
+      "solid_count": 1,
+      "shell_count": 1,
+      "volume_mm3": 40.86418256955088,
+      "bounds_mm": [
+        [
+          -24.8000001,
+          8.25,
+          21.25
+        ],
+        [
+          -22.9999999,
+          13.75,
+          26.75
+        ]
+      ]
+    }
+  ]
+}

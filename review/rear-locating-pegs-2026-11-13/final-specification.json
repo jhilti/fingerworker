@@ -1,0 +1,96 @@
+{
+  "revision": "Flat132 R20 rear locating pegs",
+  "date": "2026-11-13",
+  "status": "PASS_NATIVE_CAD_PRINT_SETUP_DEFERRED",
+  "source_sha256": "e547fac0af50cc7ea69f96f3ca2a0a7d6cefa1b63ae7e29d7f18e0f7815f3626",
+  "onshape_version": "0e06e3d98b9ecb574ee41402",
+  "onshape_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/0e06e3d98b9ecb574ee41402/e/d253eb87b70818ebde8215f0",
+  "changed": [
+    "P01",
+    "P06L",
+    "P06R"
+  ],
+  "native_solids": 94,
+  "unchanged_exact_native_breps": 91,
+  "changed_mechanical_parts": [
+    "P01",
+    "P06L",
+    "P06R"
+  ],
+  "optional_electronics_parts": [
+    "P08",
+    "P09"
+  ],
+  "printed_device_bodies": 8,
+  "verification": {
+    "review/rear-locating-pegs-2026-11-13/validation/native-locating-fit.json": {
+      "status": "PASS_NATIVE_R20_LOCATING_FIT",
+      "sha256": "086dc3664edea7968aca0f6aa28e0074ad1cb9b3b1902eee047cbf6c201be779"
+    },
+    "review/rear-locating-pegs-2026-11-13/validation/native-release-binding.json": {
+      "status": "PASS_NATIVE_R20_SOURCE_EXPORT_REPORT_BINDING",
+      "sha256": "f133bcfad204d4f5e6afea79212f7057538faa7d003912fed702e3b94d383e28"
+    }
+  },
+  "design": {
+    "status": "PASS_NATIVE_R20_LOCATING_GEOMETRY",
+    "source": "fingerworker_R20_rear_locating_pegs.fs",
+    "source_sha256": "e547fac0af50cc7ea69f96f3ca2a0a7d6cefa1b63ae7e29d7f18e0f7815f3626",
+    "dimensions_mm": {
+      "centers": [
+        [
+          123.8,
+          -51,
+          4.5
+        ],
+        [
+          123.8,
+          51,
+          4.5
+        ]
+      ],
+      "peg_diameter": 5,
+      "protrusion": 2,
+      "tip_chamfer": 0.4,
+      "root_radius": 0.4,
+      "slot_width": 5.4,
+      "slot_floor_z": 2.2,
+      "slot_mouth_lead_in": 0.5,
+      "side_clearance": 0.2,
+      "bottom_clearance": 0.3,
+      "plate_below_floor_nominal": 4.2
+    },
+    "assembly": "Slide each rear block axially -X onto its rod while the underside peg enters the rear-open slot. Unloaded, spring-free fitting can be positioned without screws; install the four M3 screws before spring preload or external loading.",
+    "retention": "No positive rearward retention, latch or interference fit. Physical PLA fit remains unqualified.",
+    "print_setup_status": "PRINT_SETUP_DEFERRED_BY_USER",
+    "onshape_version": "0e06e3d98b9ecb574ee41402"
+  },
+  "files_sha256": {
+    "review/rear-locating-pegs-2026-11-13/fingerworker_R20_rear_locating_pegs.fs": "e547fac0af50cc7ea69f96f3ca2a0a7d6cefa1b63ae7e29d7f18e0f7815f3626",
+    "review/rear-locating-pegs-2026-11-13/native/Flat132_R20_final_AP214.step": "b6ed578e66a00df5cc84b7e03d785c4235fa89457ac45a54cb75295b0806bec2",
+    "review/rear-locating-pegs-2026-11-13/native/Flat132_R20_neutral_final.zip": "702d1e2194bd5fc3d1d3d6e260b4ac289ffd66ea0702c957cdb15a33745908c5",
+    "review/rear-locating-pegs-2026-11-13/design-specification.json": "b02ee52a55499886af2a244ee2a7d57a7dc7d4aef19fc36744a166bfbecfc4e4",
+    "review/rear-locating-pegs-2026-11-13/README.md": "645cbf70b1d6457d01916a25aca33adf4894630d84bcf8bee685832626725037",
+    "review/rear-locating-pegs-2026-11-13/MONTAGE.md": "ac8626248d25b649cf25d5f8f80af5f2067af130ba0ac4ac2fec4890b774c904",
+    "review/rear-locating-pegs-2026-11-13/parts-review.md": "dd394592e1045d22227a15039d4b9c24b952d5c80a61d620b24cfa1fb20cd4dc",
+    "review/rear-locating-pegs-2026-11-13/BOM_Aenderungen.csv": "3d1c9200cb67cf505a98c7c08f71beda4bcd9f5a5e2b5ce92301fbf388411d9b",
+    "review/rear-locating-pegs-2026-11-13/evidence/P01-final-native.png": "ab026b2d58096fa1fd16d29679facdf70cae942b936f042c0fca842f162ff8ca",
+    "review/rear-locating-pegs-2026-11-13/evidence/P01-final-native-provenance.json": "44b94ff03523244f28102bf897b584282bef579830c50af5c13effdd6fd0dfd8",
+    "review/rear-locating-pegs-2026-11-13/evidence/P01-final-native-detail.png": "4f888ea960ea14c683c319bedc50283c2bd888a034b19deca105a2223b5c28a7",
+    "review/rear-locating-pegs-2026-11-13/evidence/P01-final-native-detail.json": "b9738d6845103b60fa78fca589dffdd838c48b359401843067377bcbfe38d3c1",
+    "review/rear-locating-pegs-2026-11-13/evidence/assembly-final-native.png": "5507ee1fafe79d80f047b557690202ad813694405b8a58416d5eaa74291843e5",
+    "review/rear-locating-pegs-2026-11-13/evidence/assembly-final-native.json": "63f9dd7317e51cebe8fdcdd311076cc86bcde6de997130c0888c1d99c8a31049",
+    "review/rear-locating-pegs-2026-11-13/evidence/rigid-parts-final-native.png": "c1f6bdac26154dd92910c1dcc6fa04f127f8d7834123730e77d76f2a5993c599",
+    "review/rear-locating-pegs-2026-11-13/evidence/rigid-parts-final-native.json": "31c35682d56b14076548d7c87ede8f1a51820404a3ac059dbf6d9cda63ef8bde",
+    "review/rear-locating-pegs-2026-11-13/evidence/strap-routing.svg": "9062de01a100f667be1f4dfc3b39d5035393cd238c1ea52f4b04270c98ba1ef5",
+    "review/rear-locating-pegs-2026-11-13/evidence/strap-routing-provenance.json": "3bc3f0b8530cb0bfa20532ab601c878b578e5763618c388fc6f59424c0bbb906",
+    "review/rear-locating-pegs-2026-11-13/evidence/rear-locator-detail.png": "e963f578587c76d3bfae296210c5a3678676fe1b5f29f92dc15f5b2268708c2f",
+    "review/rear-locating-pegs-2026-11-13/evidence/rear-locator-detail.json": "a723f93eee255a64fa51c52e13ccbbe35004c2b9cc916aa30ed3034a25e4585e"
+  },
+  "print_setup_status": "PRINT_SETUP_DEFERRED_BY_USER",
+  "print_ready": false,
+  "gui_verified": false,
+  "gui_status": "NOT_REQUESTED_PRINT_SETUP_DEFERRED",
+  "gui_summary": "Druckvorbereitung bleibt auf Nutzerwunsch zurückgestellt.",
+  "limitations": "Spring-free locating fit only. Four M3 screws required before any spring preload or load. Physical PLA fit and strength unqualified."
+}

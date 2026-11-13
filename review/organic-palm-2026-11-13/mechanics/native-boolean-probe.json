@@ -1,0 +1,49 @@
+{
+  "status": "DIAGNOSTIC_ONLY",
+  "foundation_step_sha256": "fa9a68d37e192b13045d6259a3f0eb8a9913f92805eab37982e691a60b19fa4c",
+  "R18_step_sha256": "0d9ebb0777c35ebf687c59578362a1323a9cab3a00922be858c1d03695f023ee",
+  "results": [
+    {
+      "direction": "foundation_minus_R18",
+      "fuzzy_mm": 0,
+      "done": true,
+      "valid": false,
+      "volume_mm3": 167741.03906839003
+    },
+    {
+      "direction": "foundation_minus_R18",
+      "fuzzy_mm": 1e-07,
+      "done": true,
+      "valid": false,
+      "volume_mm3": 167741.03906839003
+    },
+    {
+      "direction": "foundation_minus_R18",
+      "fuzzy_mm": 1e-06,
+      "done": true,
+      "valid": true,
+      "volume_mm3": 304.682822375625
+    },
+    {
+      "direction": "R18_minus_foundation",
+      "fuzzy_mm": 0,
+      "done": true,
+      "valid": true,
+      "volume_mm3": 170196.32645322022
+    },
+    {
+      "direction": "R18_minus_foundation",
+      "fuzzy_mm": 1e-07,
+      "done": true,
+      "valid": true,
+      "volume_mm3": 170196.32645322022
+    },
+    {
+      "direction": "R18_minus_foundation",
+      "fuzzy_mm": 1e-06,
+      "done": true,
+      "valid": true,
+      "volume_mm3": 2758.9762802887876
+    }
+  ]
+}

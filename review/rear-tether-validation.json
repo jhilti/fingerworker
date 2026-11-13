@@ -1,0 +1,722 @@
+{
+  "status": "PASS",
+  "study": "Current-source sampled rear-tether CAD clearance review",
+  "cad_source_sha256": "190dd2005efc4b396abffbad48033e8c897c06e7b34b3d18af38fd0b86d414d0",
+  "source_fnv1a32": "4c5c7cd2",
+  "source_characters": 80836,
+  "source_capture": "review/onshape-rear-tether.json",
+  "capture_sha256": "6277f52e1c20f8da47056883c7e4002886a055964d84c68ea7dcc5e2de72307d",
+  "configuration_count": 8,
+  "selected_groups_per_configuration": 45,
+  "total_selected_group_checks": 360,
+  "solid_interferences": 0,
+  "reference_cord_diameter_mm": 6,
+  "minimum_eye_to_carriage_mm": 2.0000000000000018,
+  "minimum_cord_gaps_mm": {
+    "6 mm cord / fixed frame": 1.0000000000000009,
+    "6 mm cord / moving and other parts": 13.00000000000001
+  },
+  "configuration_results": [
+    {
+      "preview_travel_mm": 0,
+      "preload_mm": 0,
+      "actual_stroke_mm": 0,
+      "light": true,
+      "isometric": false,
+      "selected_groups": 45,
+      "solid_interferences": 0,
+      "eye_to_carriage_mm": 2.0000000000000018,
+      "cord_gaps_mm": {
+        "6 mm cord / fixed frame": 1.0000000000000009,
+        "6 mm cord / moving and other parts": 13.00000000000001
+      },
+      "contact_review_results": [
+        {
+          "pair": "Keeper hardware / fixed wall and keeper",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 19
+        },
+        {
+          "pair": "Cassette retainers / guides",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 6
+        },
+        {
+          "pair": "Cassette retainers / cassette",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 6
+        },
+        {
+          "pair": "Preload lock / adjusting screw",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 2
+        },
+        {
+          "pair": "Pusher / sensor and yoke",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 5
+        },
+        {
+          "pair": "Springs or lock sleeves / seats",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 8
+        },
+        {
+          "pair": "Sensor / translating cassette",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 3
+        },
+        {
+          "pair": "Preload screw / cassette",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 2
+        },
+        {
+          "pair": "Carriage / return pads",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 20
+        },
+        {
+          "pair": "Spring seats / structure",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 36
+        },
+        {
+          "pair": "Palm support / base",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 38
+        },
+        {
+          "pair": "Palm sleeve / rigid support",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 5
+        }
+      ]
+    },
+    {
+      "preview_travel_mm": 0,
+      "preload_mm": 2,
+      "actual_stroke_mm": 0,
+      "light": true,
+      "isometric": false,
+      "selected_groups": 45,
+      "solid_interferences": 0,
+      "eye_to_carriage_mm": 2.0000000000000018,
+      "cord_gaps_mm": {
+        "6 mm cord / fixed frame": 1.0000000000000009,
+        "6 mm cord / moving and other parts": 13.00000000000001
+      },
+      "contact_review_results": [
+        {
+          "pair": "Keeper hardware / fixed wall and keeper",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 19
+        },
+        {
+          "pair": "Cassette retainers / guides",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 6
+        },
+        {
+          "pair": "Cassette retainers / cassette",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 6
+        },
+        {
+          "pair": "Preload lock / adjusting screw",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 2
+        },
+        {
+          "pair": "Pusher / sensor and yoke",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 5
+        },
+        {
+          "pair": "Springs or lock sleeves / seats",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 8
+        },
+        {
+          "pair": "Sensor / translating cassette",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 3
+        },
+        {
+          "pair": "Preload screw / cassette",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 2
+        },
+        {
+          "pair": "Carriage / return pads",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 20
+        },
+        {
+          "pair": "Spring seats / structure",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 36
+        },
+        {
+          "pair": "Palm support / base",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 38
+        },
+        {
+          "pair": "Palm sleeve / rigid support",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 5
+        }
+      ]
+    },
+    {
+      "preview_travel_mm": 15,
+      "preload_mm": 2,
+      "actual_stroke_mm": 15,
+      "light": true,
+      "isometric": false,
+      "selected_groups": 45,
+      "solid_interferences": 0,
+      "eye_to_carriage_mm": 5,
+      "cord_gaps_mm": {
+        "6 mm cord / fixed frame": 1.0000000000000009,
+        "6 mm cord / moving and other parts": 13.200378782444085
+      },
+      "contact_review_results": [
+        {
+          "pair": "Keeper hardware / fixed wall and keeper",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 19
+        },
+        {
+          "pair": "Cassette retainers / guides",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 6
+        },
+        {
+          "pair": "Cassette retainers / cassette",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 6
+        },
+        {
+          "pair": "Preload lock / adjusting screw",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 2
+        },
+        {
+          "pair": "Pusher / sensor and yoke",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 5
+        },
+        {
+          "pair": "Springs or lock sleeves / seats",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 8
+        },
+        {
+          "pair": "Sensor / translating cassette",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 3
+        },
+        {
+          "pair": "Preload screw / cassette",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 2
+        },
+        {
+          "pair": "Spring seats / structure",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 36
+        },
+        {
+          "pair": "Palm support / base",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 38
+        },
+        {
+          "pair": "Palm sleeve / rigid support",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 5
+        }
+      ]
+    },
+    {
+      "preview_travel_mm": 30,
+      "preload_mm": 2,
+      "actual_stroke_mm": 30,
+      "light": true,
+      "isometric": false,
+      "selected_groups": 45,
+      "solid_interferences": 0,
+      "eye_to_carriage_mm": 5,
+      "cord_gaps_mm": {
+        "6 mm cord / fixed frame": 1.0000000000000009,
+        "6 mm cord / moving and other parts": 13.200378782444085
+      },
+      "contact_review_results": [
+        {
+          "pair": "Keeper hardware / fixed wall and keeper",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 19
+        },
+        {
+          "pair": "Cassette retainers / guides",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 6
+        },
+        {
+          "pair": "Cassette retainers / cassette",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 6
+        },
+        {
+          "pair": "Preload lock / adjusting screw",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 2
+        },
+        {
+          "pair": "Pusher / sensor and yoke",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 5
+        },
+        {
+          "pair": "Springs or lock sleeves / seats",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 8
+        },
+        {
+          "pair": "Sensor / translating cassette",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 3
+        },
+        {
+          "pair": "Preload screw / cassette",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 2
+        },
+        {
+          "pair": "Carriage / full-travel screws",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 4
+        },
+        {
+          "pair": "Adjustable cam / switch actuator",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 3
+        },
+        {
+          "pair": "Spring seats / structure",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 36
+        },
+        {
+          "pair": "Palm support / base",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 38
+        },
+        {
+          "pair": "Palm sleeve / rigid support",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 5
+        }
+      ]
+    },
+    {
+      "preview_travel_mm": 30,
+      "preload_mm": 0,
+      "actual_stroke_mm": 30,
+      "light": true,
+      "isometric": false,
+      "selected_groups": 45,
+      "solid_interferences": 0,
+      "eye_to_carriage_mm": 5,
+      "cord_gaps_mm": {
+        "6 mm cord / fixed frame": 1.0000000000000009,
+        "6 mm cord / moving and other parts": 13.200378782444085
+      },
+      "contact_review_results": [
+        {
+          "pair": "Keeper hardware / fixed wall and keeper",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 19
+        },
+        {
+          "pair": "Cassette retainers / guides",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 6
+        },
+        {
+          "pair": "Cassette retainers / cassette",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 6
+        },
+        {
+          "pair": "Preload lock / adjusting screw",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 2
+        },
+        {
+          "pair": "Pusher / sensor and yoke",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 5
+        },
+        {
+          "pair": "Springs or lock sleeves / seats",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 8
+        },
+        {
+          "pair": "Sensor / translating cassette",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 3
+        },
+        {
+          "pair": "Preload screw / cassette",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 2
+        },
+        {
+          "pair": "Carriage / full-travel screws",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 4
+        },
+        {
+          "pair": "Adjustable cam / switch actuator",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 3
+        },
+        {
+          "pair": "Spring seats / structure",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 36
+        },
+        {
+          "pair": "Palm support / base",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 38
+        },
+        {
+          "pair": "Palm sleeve / rigid support",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 5
+        }
+      ]
+    },
+    {
+      "preview_travel_mm": 15,
+      "preload_mm": 0,
+      "actual_stroke_mm": 15,
+      "light": true,
+      "isometric": false,
+      "selected_groups": 45,
+      "solid_interferences": 0,
+      "eye_to_carriage_mm": 5,
+      "cord_gaps_mm": {
+        "6 mm cord / fixed frame": 1.0000000000000009,
+        "6 mm cord / moving and other parts": 13.200378782444085
+      },
+      "contact_review_results": [
+        {
+          "pair": "Keeper hardware / fixed wall and keeper",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 19
+        },
+        {
+          "pair": "Cassette retainers / guides",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 6
+        },
+        {
+          "pair": "Cassette retainers / cassette",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 6
+        },
+        {
+          "pair": "Preload lock / adjusting screw",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 2
+        },
+        {
+          "pair": "Pusher / sensor and yoke",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 5
+        },
+        {
+          "pair": "Springs or lock sleeves / seats",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 8
+        },
+        {
+          "pair": "Sensor / translating cassette",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 3
+        },
+        {
+          "pair": "Preload screw / cassette",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 2
+        },
+        {
+          "pair": "Spring seats / structure",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 36
+        },
+        {
+          "pair": "Palm support / base",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 38
+        },
+        {
+          "pair": "Palm sleeve / rigid support",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 5
+        }
+      ]
+    },
+    {
+      "preview_travel_mm": 15,
+      "preload_mm": 0,
+      "actual_stroke_mm": 15,
+      "light": true,
+      "isometric": true,
+      "selected_groups": 45,
+      "solid_interferences": 0,
+      "eye_to_carriage_mm": 5,
+      "cord_gaps_mm": {
+        "6 mm cord / fixed frame": 1.0000000000000009,
+        "6 mm cord / moving and other parts": 13.200378782444085
+      },
+      "contact_review_results": [
+        {
+          "pair": "Keeper hardware / fixed wall and keeper",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 19
+        },
+        {
+          "pair": "Cassette retainers / guides",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 6
+        },
+        {
+          "pair": "Cassette retainers / cassette",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 6
+        },
+        {
+          "pair": "Preload lock / adjusting screw",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 2
+        },
+        {
+          "pair": "Pusher / sensor and yoke",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 5
+        },
+        {
+          "pair": "Springs or lock sleeves / seats",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 16
+        },
+        {
+          "pair": "Sensor / translating cassette",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 3
+        },
+        {
+          "pair": "Preload screw / cassette",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 2
+        },
+        {
+          "pair": "Spring seats / structure",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 36
+        },
+        {
+          "pair": "Palm support / base",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 38
+        },
+        {
+          "pair": "Palm sleeve / rigid support",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 5
+        }
+      ]
+    },
+    {
+      "preview_travel_mm": 15,
+      "preload_mm": 2,
+      "actual_stroke_mm": 13,
+      "light": true,
+      "isometric": true,
+      "selected_groups": 45,
+      "solid_interferences": 0,
+      "eye_to_carriage_mm": 5,
+      "cord_gaps_mm": {
+        "6 mm cord / fixed frame": 1.0000000000000009,
+        "6 mm cord / moving and other parts": 13.200378782444085
+      },
+      "contact_review_results": [
+        {
+          "pair": "Keeper hardware / fixed wall and keeper",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 19
+        },
+        {
+          "pair": "Cassette retainers / guides",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 6
+        },
+        {
+          "pair": "Cassette retainers / cassette",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 6
+        },
+        {
+          "pair": "Preload lock / adjusting screw",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 2
+        },
+        {
+          "pair": "Pusher / sensor and yoke",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 5
+        },
+        {
+          "pair": "Springs or lock sleeves / seats",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 16
+        },
+        {
+          "pair": "Sensor / translating cassette",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 3
+        },
+        {
+          "pair": "Preload screw / cassette",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 2
+        },
+        {
+          "pair": "Spring seats / structure",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 36
+        },
+        {
+          "pair": "Palm support / base",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 38
+        },
+        {
+          "pair": "Palm sleeve / rigid support",
+          "status": "REVIEW - unclassified contact",
+          "contacts": 0,
+          "unclassified": 5
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Eight discrete configurations; not a continuous motion sweep or tolerance/deformation analysis.",
+    "Reference cord is a nominal 6 mm envelope; actual threading, bend, knots, chafe and mounting routing require a physical check.",
+    "Intentional and unclassified contact results retain REVIEW status and are not blanket clearance passes.",
+    "Lug/root strength, print material/process and maximum device pull remain unqualified; each eye must be assessed for full device force.",
+    "Hard-stop force bypass, guide friction and off-axis loading require complete-device calibration and testing in tether mode.",
+    "Illustrative hand/electronics envelopes do not release real hand fit, electronics mounting or electrical behavior."
+  ],
+  "manufacturing_release": false
+}

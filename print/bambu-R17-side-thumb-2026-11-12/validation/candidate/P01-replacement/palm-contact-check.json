@@ -1,0 +1,85 @@
+{
+  "status": "PASS_R17_PALM_CONTACT_SUPPORTS",
+  "candidate": true,
+  "checks": [
+    {
+      "name": "No support bead in wrist face and both thumb returns",
+      "status": "PASS",
+      "region_mm": [
+        [
+          -35,
+          -63,
+          14.4
+        ],
+        [
+          -22.45,
+          63,
+          33.5
+        ]
+      ],
+      "support_intrusions": []
+    },
+    {
+      "name": "No support bead in rounded palm and shoulder tops",
+      "status": "PASS",
+      "region_mm": [
+        [
+          -30,
+          -65.5,
+          27.5
+        ],
+        [
+          -7.5,
+          65.5,
+          33.5
+        ]
+      ],
+      "support_intrusions": []
+    },
+    {
+      "name": "No support bead in central sensor-side sloping underside",
+      "status": "PASS",
+      "region_mm": [
+        [
+          -22.45,
+          -36,
+          19.1
+        ],
+        [
+          -15.5,
+          36,
+          27.4
+        ]
+      ],
+      "support_intrusions": []
+    },
+    {
+      "name": "Upright palm face emitted over multiple layers",
+      "status": "PASS",
+      "outer_wall_segments": 62,
+      "layer_count": 62,
+      "z_min": 15.2,
+      "z_max": 27.4
+    },
+    {
+      "name": "Short printed rod-bore roof spans -51",
+      "status": "PASS",
+      "longest_unbacked_centerline_mm": 2.1840103649706264,
+      "bridge_segments": 18
+    },
+    {
+      "name": "Short printed rod-bore roof spans 51",
+      "status": "PASS",
+      "longest_unbacked_centerline_mm": 2.1840103648651654,
+      "bridge_segments": 18
+    }
+  ],
+  "failures": [],
+  "source_sha256": "780dfdbaf9c6ab4bf4bbf3ab3de0dab3f9ac7dc5f8de49cf015c51ee95cc16e4",
+  "layout_sha256": "57d2d1cb26733c6e7ad617facd09e1021c6b582682a0e25de3e4d0da9d52f67b",
+  "project_sha256": "197ee1b88a45c6d3b0daf596d285a607da25eab8247a3dabe76b0083d25d81d3",
+  "sliced_archive_sha256": "b688618de8095e6415c4a86580bfed92e359f0b646a4bcee77f34af6fb530dd0",
+  "validator_sha256": "20eed7b6be8a850a250d2bf5d39367609cd5fe5121bd0cc1dfc63d6d5a9e44be",
+  "scope": "Whole support bead axis-aligned bounds include full line width, complete native path extrema and layer height. No support overlap permitted in conservative R17 hand-contact zones; actual upright model wall layers and rod-bore roof bridge spans checked.",
+  "limitations": "Nominal sliced geometry only, not measured surface finish, physical adhesion or hand comfort."
+}

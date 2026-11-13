@@ -1,0 +1,44 @@
+Q01_R12_FIXED_UNLOADED_FIXTURE — federfreie R12-Passhilfe
+
+Die alte Q01 mit Vierkant und Flansch passt nicht an die neue feste
+Sensorabstützung. Nur die R12-Datei aus diesem Verzeichnis verwenden.
+Q01 ist eine große einteilige Formhilfe, kein Kraftsensorersatz und kein
+Kalibrierwerkzeug. Keine Federn, Isometrie- oder Prüflasten anbringen.
+
+FÜR Q01 DEN REALEN SENSORSTAPEL WEGLASSEN:
+H01 Sensor, H02 Druckstift, H12 Sensorstütze, H180/H181 und H190/H191
+Kassettenhalter, H20 Druckstiftmutter, H23 Sensorkeeper sowie alle H24/H25
+Keeperhülsen und -schrauben. Ebenso beide H03-Federn, beide H14-
+Isometriehülsen sowie H05/H06-Federsitze ausbauen. Die früheren Einsteller
+H11/H13/H15/H16/H17/H21/H22 gehören ohnehin nicht mehr zum R12-Gerät.
+Keine Sensorhardware um die Passhilfe herum montieren.
+
+MONTAGE:
+1. Den ebenen Fuß des großen Blocks auf den Boden der Sensortasche bei
+   Z=2,7 mm setzen (nicht auf die nominale Z4-Fläche neben der Tasche).
+   Die breite Rückfläche liegt an der festen P01-Anlage X=-12 mm an.
+   Der glatte Ø3-Zapfen zeigt zum Fingergriff, also nach vorne (+X).
+2. P05 von vorne (+X) auf den Zapfen schieben, bis seine Druckfläche an
+   der Q01-Schulter X=1 mm anliegt. Stangen zur seitlichen Ausrichtung
+   einsetzen; der Q01-Fuß bestimmt die Höhe der Achse Y0/Z18.
+3. Griff und abnehmbare Traverse nach der R12-Montageanleitung einsetzen.
+   Nur mit leichtem Handkontakt in Druckrichtung zusammenhalten.
+   Q01 hat keine axiale Verriegelung. Nicht daran anheben oder ziehen.
+4. Den Griff federfrei über den vollen 30-mm-Weg führen. Damit werden
+   Geometrie und Handmontage beurteilt, weder Federkraft noch Messung.
+5. Zur Demontage Traverse und Stangen soweit nötig lösen, P05 mindestens
+   12 mm nach +X vom Zapfen abziehen und anschließend Q01 gerade nach
+   oben (+Z40 mm) herausheben. Der Taschenboden ist tiefer als die
+   umgebende Grundplatte; Q01 daher nicht unten nach vorne schieben. Q01 vor echtem Sensoreinbau entfernen.
+
+DRUCK:
+Q01_R12_FIXED_UNLOADED_FIXTURE_print-mm.stl bei 100 % verwenden.
+Die große 12 x 22,3 mm Rückfläche liegt bereits auf dem Bett; Druckhöhe
+19,5 mm. PLA, 0,2-mm-Schichten, 4 Wände, 100 % Füllung und 3-mm-Brim.
+Keine Stützen nötig: Der integrale 45°-Kegel trägt die Schulter, deren
+P05-Anlagefläche nach oben zeigt. Nach dem Druck Brim, Nahtwülste und
+Elefantenfuß vorsichtig entfernen; axiale Anlageflächen nicht kürzen.
+
+Der Zapfen hat nominell 0,1 mm radiales Spiel in der Ø3,2-P05-Bohrung.
+Geometrische Passprüfungen stehen in validation.json. Sie bestätigen
+keine tatsächliche Druckpassung, Reibung, Festigkeit oder Lebensdauer.

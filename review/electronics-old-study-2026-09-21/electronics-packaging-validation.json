@@ -1,0 +1,48 @@
+{
+  "study": "Electronics packaging only; no manufacturing release",
+  "cad_source_sha256": "bd6bcd36b8af9f50b8ab1bc4428a6805c18a054fbd78a7b184994d19428b08e5",
+  "pose_results": [
+    {
+      "stroke_mm": 0,
+      "selected_pairs": 28,
+      "solid_interferences": 0,
+      "electronics_gaps_mm": {
+        "Electronics housing / mechanism": 0.10000000000000286,
+        "Electronics components / mechanism": 1.600000000000004,
+        "Electronics components / housing": 0.4000000000000002,
+        "Battery / populated carrier": 4.0,
+        "USB approach / mechanism": 2.2000000000000006,
+        "USB approach / housing": 0.2000000000000005,
+        "Electronics study / hand": 6.167849088765124
+      }
+    },
+    {
+      "stroke_mm": 15,
+      "selected_pairs": 28,
+      "solid_interferences": 0,
+      "electronics_gaps_mm": {
+        "Electronics housing / mechanism": 0.10000000000000286,
+        "Electronics components / mechanism": 1.600000000000004,
+        "Electronics components / housing": 0.4000000000000002,
+        "Battery / populated carrier": 4.0,
+        "USB approach / mechanism": 2.2000000000000006,
+        "USB approach / housing": 0.2000000000000005,
+        "Electronics study / hand": 6.167849088765124
+      }
+    },
+    {
+      "stroke_mm": 30,
+      "selected_pairs": 28,
+      "solid_interferences": 0,
+      "electronics_gaps_mm": {
+        "Electronics housing / mechanism": 0.10000000000000286,
+        "Electronics components / mechanism": 1.600000000000004,
+        "Electronics components / housing": 0.4000000000000002,
+        "Battery / populated carrier": 4.0,
+        "USB approach / mechanism": 2.2000000000000006,
+        "USB approach / housing": 0.2000000000000005,
+        "Electronics study / hand": 6.167849088765124
+      }
+    }
+  ]
+}

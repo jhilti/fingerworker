@@ -1,0 +1,23 @@
+{
+  "version_id": "0e06e3d98b9ecb574ee41402",
+  "name": "Flat132 R20 - integral rear locating pegs - 2026-11-13",
+  "url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/0e06e3d98b9ecb574ee41402/e/d253eb87b70818ebde8215f0",
+  "workspace_id": "1897408d06edc54e1dd472e2",
+  "source_sha256": "e547fac0af50cc7ea69f96f3ca2a0a7d6cefa1b63ae7e29d7f18e0f7815f3626",
+  "source_readback_exact": true,
+  "native_parts": 94,
+  "status": "PASS_NATIVE_REGENERATION_AND_EXPORT_AUDITS",
+  "pose": {
+    "user_travel_mm": 0,
+    "cam_trim_mm": 0,
+    "light_springs": true,
+    "isometric": false,
+    "show_hand": false,
+    "show_electronics": true
+  },
+  "source_commit_method": "Chrome FeatureScript editor paste and Commit; exact clipboard readback before immutable version creation",
+  "supersedes_version": "21323818480a2406fe14f51f",
+  "print_setup_status": "PRINT_SETUP_DEFERRED_BY_USER",
+  "step_sha256": "b6ed578e66a00df5cc84b7e03d785c4235fa89457ac45a54cb75295b0806bec2",
+  "stl_zip_sha256": "702d1e2194bd5fc3d1d3d6e260b4ac289ffd66ea0702c957cdb15a33745908c5"
+}

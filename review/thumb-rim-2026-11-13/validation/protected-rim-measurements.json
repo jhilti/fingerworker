@@ -1,0 +1,67 @@
+[
+  {
+    "name": "lower_frame",
+    "old_valid": true,
+    "new_valid": true,
+    "added_valid": true,
+    "removed_valid": true,
+    "added_solids": 0,
+    "removed_solids": 0,
+    "added_faces": 0,
+    "removed_faces": 0,
+    "added_volume": 0.0,
+    "removed_volume": 0.0
+  },
+  {
+    "name": "central_palm_and_sensor",
+    "old_valid": true,
+    "new_valid": true,
+    "added_valid": true,
+    "removed_valid": true,
+    "added_solids": 0,
+    "removed_solids": 0,
+    "added_faces": 0,
+    "removed_faces": 0,
+    "added_volume": 0.0,
+    "removed_volume": 0.0
+  },
+  {
+    "name": "front_of_rims",
+    "old_valid": true,
+    "new_valid": true,
+    "added_valid": true,
+    "removed_valid": true,
+    "added_solids": 0,
+    "removed_solids": 0,
+    "added_faces": 0,
+    "removed_faces": 0,
+    "added_volume": 0.0,
+    "removed_volume": 0.0
+  },
+  {
+    "name": "wristward_of_rims",
+    "old_valid": true,
+    "new_valid": true,
+    "added_valid": true,
+    "removed_valid": true,
+    "added_solids": 0,
+    "removed_solids": 0,
+    "added_faces": 0,
+    "removed_faces": 0,
+    "added_volume": 0.0,
+    "removed_volume": 0.0
+  },
+  {
+    "name": "above_rims",
+    "old_valid": true,
+    "new_valid": true,
+    "added_valid": true,
+    "removed_valid": true,
+    "added_solids": 0,
+    "removed_solids": 0,
+    "added_faces": 0,
+    "removed_faces": 0,
+    "added_volume": 0.0,
+    "removed_volume": 0.0
+  }
+]

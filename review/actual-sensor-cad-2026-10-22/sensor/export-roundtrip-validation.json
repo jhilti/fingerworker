@@ -1,0 +1,136 @@
+{
+  "TE_FX1901_official_native_mm.stl": {
+    "watertight": true,
+    "is_volume": true,
+    "volume_mm3": 3933.157747832609,
+    "bounds_mm": [
+      [
+        -12.5,
+        -12.5,
+        -7.949999809265137
+      ],
+      [
+        27.0,
+        12.5,
+        0.0
+      ]
+    ],
+    "vertices": 73949,
+    "faces": 147894,
+    "sha256": "119f3f41aa4bfeedc4e406bcc2d7fb47ac955db0d8c35c86c2138f803cd7dd54"
+  },
+  "TE_FX1901_actual_apex_aligned_132_mm.stl": {
+    "watertight": true,
+    "is_volume": true,
+    "volume_mm3": 3933.158012214577,
+    "bounds_mm": [
+      [
+        -9.850000381469727,
+        -12.5,
+        5.5
+      ],
+      [
+        -1.899999976158142,
+        27.0,
+        30.5
+      ]
+    ],
+    "vertices": 73949,
+    "faces": 147894,
+    "sha256": "eddf3856f2393a751a5c270ee91a8082691b5eec4f7d510afd78bb41413f6b89"
+  },
+  "conflict-H12.stl": {
+    "watertight": true,
+    "is_volume": true,
+    "volume_mm3": 582.5496981579097,
+    "bounds_mm": [
+      [
+        -9.850000381469727,
+        -12.430514335632324,
+        7.5
+      ],
+      [
+        -8.0,
+        13.5,
+        28.5
+      ]
+    ],
+    "vertices": 13356,
+    "faces": 26708,
+    "sha256": "33e86ee1a7d880e71b472969a4fad722ee6ae856f4b7484e39b3341f3d24106b"
+  },
+  "conflict-P01.stl": {
+    "watertight": true,
+    "is_volume": true,
+    "volume_mm3": 54.100284899195195,
+    "bounds_mm": [
+      [
+        -9.850000381469727,
+        14.0,
+        12.551071166992188
+      ],
+      [
+        -8.0,
+        17.0,
+        23.448928833007812
+      ]
+    ],
+    "vertices": 2856,
+    "faces": 5708,
+    "sha256": "d36f8c9e3f1e6eb296b1752ef26057f9f0f76e583c1e150968cdfcbf8351b606"
+  },
+  "conflict-P05.stl": {
+    "watertight": true,
+    "is_volume": true,
+    "volume_mm3": 733.7211183786989,
+    "bounds_mm": [
+      [
+        -7.0,
+        -12.5,
+        7.0
+      ],
+      [
+        -1.899999976158142,
+        16.996482849121094,
+        29.0
+      ]
+    ],
+    "vertices": 8104,
+    "faces": 16204,
+    "sha256": "93f1c2e8317f27e6ad4cd0e4d2006e71fb24995e016cae6114cac8df8f9dd3b0"
+  },
+  "TE_FX1901_official_original.step": {
+    "valid": true,
+    "volume_mm3": 3933.7193196160533,
+    "bounds_mm": [
+      [
+        -12.5000001,
+        -12.5000001,
+        -7.9500001000000005
+      ],
+      [
+        27.0,
+        12.5000001,
+        1e-07
+      ]
+    ],
+    "sha256": "fe4aee5f64f19f4859d2cfdbf73cb24d3cd91b0987949a6fcf28ada22e46cac3"
+  },
+  "TE_FX1901_actual_apex_aligned_132_mm.step": {
+    "valid": true,
+    "volume_mm3": 3933.7193196162134,
+    "bounds_mm": [
+      [
+        -9.8500001,
+        -12.5000001,
+        5.499999899999998
+      ],
+      [
+        -1.8999998999999999,
+        27.0,
+        30.5000001
+      ]
+    ],
+    "sha256": "241c8b522707e9ce3b611db3c783d6c9e3bd6e492175c530d5e9795d9dc98097"
+  }
+}

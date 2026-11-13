@@ -1,0 +1,7 @@
+Flat132 R3 — 7 mm closer half-round palm fit
+
+This package contains the full14-part Pxx print set, in millimetres and neutral assembly coordinates, plus the complete native neutral STEP, final FeatureScript, source/export provenance, validation and proof images. Only P02 and P03 differ geometrically from R2. Replace these two as a matched pair when updating an R2 assembly. Older158 mm Rev D print sets are separate revisions.
+
+The STEP includes purchased hardware and electronics references; those are not additional printable parts. Large raw three-pose native STL archives remain under the workspace native/ directory and are linked from the viewer. The original hand scan and interactive viewer are excluded from this manufacturing ZIP.
+
+These are unsliced CAD prototype files. Read PRINT_NOTES.md. Physical strength, 500 N capability, comfort and cap retention require prototype qualification. Current firmware NC LOW blocking and manual H10 cam reset are unchanged.

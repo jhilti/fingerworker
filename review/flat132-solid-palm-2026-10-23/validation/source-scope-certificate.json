@@ -1,0 +1,85 @@
+{
+  "status": "PASS_EXACT_PALM_ONLY_SOURCE_SCOPE",
+  "scope": "R6 alters only fixed P02 construction, removes separate P03 and its two retention tabs, and updates related naming/appearance/audit queries. No other geometry expression or operating domain changes.",
+  "baseline_source": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/fingerworker_flat132_reach_fit.fs",
+  "baseline_source_sha256": "d7f476fa34e862e2b0e1b5a5e91fff0f852b9308a589fafd11ce59e01269915a",
+  "source": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-solid-palm-2026-10-23/fingerworker_flat132_solid_palm.fs",
+  "source_sha256": "62fabee79cf36d0e0b6d4cd8430700519dbc529a5ea08f70018b14b0c3f2271f",
+  "source_build_sha256": "b1041390b7930224c42014854f5a9dedc7c6c2a0447415bb6d0471f839de5411",
+  "exact_forward_reconstruction_matches_all_source_bytes": true,
+  "replacement_ledger": [
+    {
+      "label": "R6 study identification",
+      "replacement_count": 1
+    },
+    {
+      "label": "R6 feature name",
+      "replacement_count": 1
+    },
+    {
+      "label": "replace separate hollow palm cap with joined solid contact stock",
+      "replacement_count": 1
+    },
+    {
+      "label": "remove obsolete sleeve body query",
+      "replacement_count": 1
+    },
+    {
+      "label": "merged palm collision groups",
+      "replacement_count": 7
+    },
+    {
+      "label": "direct merged palm collision query",
+      "replacement_count": 1
+    },
+    {
+      "label": "remove obsolete palm-to-sleeve contact audit",
+      "replacement_count": 1
+    },
+    {
+      "label": "hand now contacts rigid palm block",
+      "replacement_count": 1
+    },
+    {
+      "label": "hand exclusion follows merged palm",
+      "replacement_count": 1
+    },
+    {
+      "label": "remove separate soft cap appearance",
+      "replacement_count": 1
+    },
+    {
+      "label": "appearance comment reflects rigid contact",
+      "replacement_count": 1
+    }
+  ],
+  "changed_ref": "P02",
+  "removed_ref": "P03",
+  "unchanged_domains": {
+    "dynamic": "u>=0, p in[0,2], u+p<=30, camTrim in[-0.8,0.8]",
+    "absolute_carriage_offset_mm": "5+u",
+    "usable_stroke_at_p0_p2_mm": [
+      30.0,
+      28.0
+    ],
+    "isometric_sleeve_length_mm": 81.0,
+    "isometric_approach_mm": "15-p",
+    "frame_width_mm": 132.0,
+    "finger_opening_mm": 72.0
+  },
+  "reuse_policy": "Prior source-bound checks between all refs except P02/P03 remain applicable by exact unchanged source expressions. New native STEP identity of104 surviving unchanged bodies and a focused changed-P02 audit are required before the R6 summary may pass. Prior archives keep their original R5 provenance.",
+  "baseline_validation_summary": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/validation/validation-summary.json",
+  "baseline_validation_summary_sha256": "a7b8f64af73a9b25a15841be144cf3d26eeb5b1929c169f4f57779cf45a9f345",
+  "baseline_evidence_files_sha256": {
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/validation/manifest.json": "b1b0b274035fdc512135bf9bc116916ec4d7b00309a6ea7fbb2dfa45f1580869",
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/validation/validation.json": "b162101aeee1410a33ee048da17ab792a50142d08868b12676afdc2315d66c49",
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/validation/native-step-inventory.json": "24a0d8500f2a6cc6e308f56450b45157d361400660bc029d8edf3add7dba965e",
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/validation/source-fit-certificate.json": "49a4f54eb25958f80cac2e719d20d5cf21d8fab8d6d167abeba75c9cc15640ab",
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/validation/reach-fit-audit.json": "14b0306c40faf8b5c5c8603fc010f9ca733186ab8d0a1faf6956ea6528a09a99",
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/validation/r5-domain-adapter-check.json": "c0ef8da40ff6489537c5de00a753395a97c25aef8f87f3167ea441c962033655",
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/validation/dynamic-mode-equivalence.json": "ca35327ef556512f21adbd4f6837ea59d384ecbf0cbe9a3b10f6124481b92d5c"
+  },
+  "limitations": [
+    "No printed material strength,500 N working-load rating, comfort or durability is qualified. Solid CAD stock does not prescribe slicer infill."
+  ]
+}

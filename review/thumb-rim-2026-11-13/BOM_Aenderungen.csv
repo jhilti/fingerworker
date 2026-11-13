@@ -1,0 +1,11 @@
+Ref,Menge Geraet,CAD-Aenderung,Hardware / Hinweis
+P01,1,Weiche variable Daumenraender; Heckrastnocken entfernt.,Einteiliger Rahmen; Druckvorbereitung zurueckgestellt.
+P06L/P06R,2,Separate massive Stangenbloecke.,Je2 M3x8 in vorhandenenM3-Inserts erforderlich.
+P04/P05/P11,3,Unveraendert.,Vorhandene Teile weiterverwenden.
+Q01,Passhilfe,Unveraendert.,Nur federfrei; vor Sensor-/Federbetrieb entfernen.
+P08,1,Feste Schraubohren statt hoher Clips; optionaler Elektronikaufbau.,2 M2x8 ohne Scheibe plusM2-Inserts3.2x3mm erforderlich.
+P09,1,Unveraenderter separater Klickdeckel.,Elektronikaufbau optional.
+H30,4,Schraubengeometrie unveraendert; jetzt erforderliche Blockbefestigung.,4 M3x8 plus vorhandeneM3-Inserts.
+H040/H041,2,Unveraendert.,Vorhandene echteStahlstangen verwenden.
+G01/G02,2,Vier27x4mm-Schlitze erhalten.,Echte25mm-Gurte.
+NativeKoerper,94,90bisherigeKoerper geometrischunveraendert.,Kein aktuellerR19Drucksatz freigegeben.

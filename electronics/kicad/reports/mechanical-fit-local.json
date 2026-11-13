@@ -1,0 +1,285 @@
+{
+  "scope": "axis-aligned nominal PCB courtyard and height envelopes; NOT a regenerated Onshape collision audit",
+  "source_sha256": "eee299e252490db68fbb5f44e8137fe87d6e1598e1e975f18d6ff96f6cc28032",
+  "case_mm": [
+    22.5,
+    110,
+    8.9
+  ],
+  "pcb_mm": [
+    19.5,
+    68.5,
+    0.8
+  ],
+  "pcb_lateral_gap_mm": 0.5,
+  "pcb_bottom_gap_mm": 0.3,
+  "connector_top_gap_with_0_15_solder_allowance_mm": 0.35,
+  "battery_rear_gap_mm": 1,
+  "mating_plug_allowance_to_cell_gap_mm": 1.3,
+  "case_to_palm_plate_nominal_gap_mm": 0.6,
+  "onshape_regeneration": "verified 0/15/30 mm; nominal fit, not manufacturing release",
+  "checks": [
+    {
+      "body": "elecCarrier",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 0.3
+    },
+    {
+      "body": "elecPartU1",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 0.446
+    },
+    {
+      "body": "elecPartU2",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartL1",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartD1",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 0.505
+    },
+    {
+      "body": "elecPartC3",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartC4",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.005
+    },
+    {
+      "body": "elecPartR3",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartR4",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartC5",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartU3",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartC7",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartC6",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartU4",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartC14",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartC12",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartC13",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartSW2",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 0.705
+    },
+    {
+      "body": "elecPartJ1",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 0.35
+    },
+    {
+      "body": "elecPartJ2",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 0.855
+    },
+    {
+      "body": "elecPartJ3",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartR13",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 0.675
+    },
+    {
+      "body": "elecPartC8",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartR7",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartR8",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartC9",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartC10",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartC11",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartR9",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartR10",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartC1",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartQ1",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartC15",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 0.725
+    },
+    {
+      "body": "elecPartC16",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartC2",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartR1",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartR11",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartR12",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartR14",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartR15",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartR16",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 0.975
+    },
+    {
+      "body": "elecPartR17",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartR18",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartR19",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartR2",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartR20",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartR21",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartR5",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 1.1
+    },
+    {
+      "body": "elecPartR6",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 0.975
+    },
+    {
+      "body": "elecBattery",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 0.5
+    },
+    {
+      "body": "elecMate",
+      "inside_reserved_cavity": true,
+      "minimum_gap_mm": 0.35
+    }
+  ],
+  "limitations": [
+    "XIAO 5 mm height is a budget, not a measured module stack.",
+    "Mated plug and initial wire extension 6 mm is an allowance; measure actual harness.",
+    "Side-button actuator is a travel envelope, not a printable pushrod.",
+    "Wire exits, retention, battery swelling and strain relief are not mechanically released.",
+    "Nominal housing/mechanism gap 0.6 mm; validate printed tolerances and loaded deformation. Electronics/illustrative-hand gap 4.70 mm."
+  ]
+}

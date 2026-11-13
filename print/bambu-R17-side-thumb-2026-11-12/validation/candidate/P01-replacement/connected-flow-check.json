@@ -1,0 +1,41 @@
+{
+  "status": "PASS_CONNECTED_MATERIAL_FLOW",
+  "checks": [
+    {
+      "name": "Selected PLA Basic standard-nozzle flow cap is 25",
+      "status": "PASS",
+      "cap_mm3_s": 25.0
+    },
+    {
+      "name": "P01 actual commands respect selected material flow cap",
+      "status": "PASS",
+      "model_segments": 572900,
+      "max_adjusted_flow_mm3_s": 24.166301981965205,
+      "max_long_segment_flow_mm3_s": 21.99563197684693
+    }
+  ],
+  "failures": [],
+  "metrics": {
+    "P01": {
+      "model_segments": 572900,
+      "max_adjusted_flow_mm3_s": 24.166301981965205,
+      "max_long_segment_flow_mm3_s": 21.99563197684693,
+      "speeds": {
+        "Inner wall": 180.0,
+        "Outer wall": 100.0,
+        "Bottom surface": 20.0,
+        "Internal solid infill": 160.0,
+        "Sparse infill": 200.0,
+        "Floating vertical shell": 128.0,
+        "Bridge": 25.0,
+        "Top surface": 60.0,
+        "Gap infill": 120.0,
+        "Overhang wall": 25.0
+      }
+    }
+  },
+  "selected_cap_mm3_s": 25.0,
+  "sliced_archive_sha256": "b688618de8095e6415c4a86580bfed92e359f0b646a4bcee77f34af6fb530dd0",
+  "validator_sha256": "174dcca654af7902b3ab9a367d36ee5b40c81bcaf8c31ac0601d824b5654b8b8",
+  "method": "All positive model commands parsed; circular arcs use exact radius/sweep. Flow check allows only known XY0.001mm and E0.00001mm serialization rounding. Long segments also meet raw cap+0.05mm3/s. Unchanged native CAD/profile audits are not rerun."
+}

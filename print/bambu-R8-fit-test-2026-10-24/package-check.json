@@ -1,0 +1,20 @@
+{
+  "status": "FINAL_PLA_PACKAGE_PASS",
+  "zip": "Fingerworker_R8_H2D_04mm_PLA_Fit_Test_Package.zip",
+  "sha256": "93c27e5a660441565f8f12815947d25ac54ce685dacece3f8d85f91ae41e5c0f",
+  "bytes": 6742545,
+  "members": 76,
+  "crc": "PASS",
+  "all_member_sha256": "PASS",
+  "print_oriented_STLs": 19,
+  "raw_source_STLs": 19,
+  "editable_native_project_sha256": "3bd6c6dc06f3f5f7c4eafa575f1a0cbf52148a8a82ca867a89d3fac06b2e063a",
+  "independent_QA_summary_sha256": "11874ed3a12b4926afab9a61f1b13597b9d5c998fa5671bf558ccd53861bd7c1",
+  "excluded": [
+    "PETG diagnostic artifacts",
+    "local verification Gcode",
+    "temporary runtime app/DMG",
+    "CLI logs"
+  ],
+  "no_printer_transmission": true
+}

@@ -1,0 +1,116 @@
+{
+  "status": "PASS_DOCUMENTATION_BOUND_TO_R18_EVIDENCE",
+  "source_sha256": "345b90327031276f8085e2c225c795946036d7faa4f2ac01b764101b9f4b3dd1",
+  "onshape_version": "13e353d6762b6cc58530122b",
+  "files_sha256": {
+    "review/organic-palm-2026-11-13/fingerworker_R18_organic_palm.fs": "345b90327031276f8085e2c225c795946036d7faa4f2ac01b764101b9f4b3dd1",
+    "review/organic-palm-2026-11-13/native/Flat132_R18_final_AP214.step": "0d9ebb0777c35ebf687c59578362a1323a9cab3a00922be858c1d03695f023ee",
+    "review/organic-palm-2026-11-13/native/Flat132_R18_neutral_final.zip": "77c15eed14f8015c5bd67fdb9c2d4e89f479d84c4535468ce027f62f0e0ec0c9",
+    "review/organic-palm-2026-11-13/mechanics/design-specification.json": "c649f4b75d82e2cc66e7721a116128483b7226d45ce36d74c8a7818f5b1c6b89",
+    "review/organic-palm-2026-11-13/evidence/P01-final-native.png": "be726246eee13259fd78b0dad3759919f88408b9aa5f60d9d3a95886548fb1c8",
+    "review/organic-palm-2026-11-13/evidence/P01-final-native-provenance.json": "c8f2bcf703bd12adee4b18cb419dba89727f3ffdd279a67aa8e9ffc5275683bf",
+    "review/organic-palm-2026-11-13/evidence/strap-routing.svg": "8b5c1035f9a8830df5efeccde696592669c1e1fe9203b0a61446e4ce35f1241a",
+    "review/organic-palm-2026-11-13/evidence/strap-routing-provenance.json": "a1e785aa025379a9ff851fd85acb4138bb5d2db49028f830a7fb7418d8bc8dce",
+    "review/organic-palm-2026-11-13/README.md": "bd01c187a7e99fcce89a5b5022ae2db315469bc209e7eb68fe657c2d64529972",
+    "review/organic-palm-2026-11-13/MONTAGE.md": "50306e7f11aa938d2a19bf71ff9369e23b081c2edb2e6aefde1317c6df5156e8",
+    "review/organic-palm-2026-11-13/parts-review.md": "8befb09cac2900ca4615e3a3d073e8671af20508cec5ab51e9f06dbd343ac11d",
+    "review/organic-palm-2026-11-13/BOM_Aenderungen.csv": "1e7f4f1af6d7fe99b2e183db5a04e2567d67571486f55111d90648546982d78e",
+    "print/bambu-R18-organic-palm-2026-11-13/Fingerworker_R18_P01_Replacement_H2D_04mm_PLA_Basic.3mf": "85ad44bc0bc4b43c3e9ccd1258399cc5df1cf3a4b9b07cffae06cc02a027e85e",
+    "print/bambu-R18-organic-palm-2026-11-13/Fingerworker_R18_P01_Replacement_H2D_04mm_PLA_Basic_Package.zip": "f6dacb10f5b5bd85cf1eaf59210068a802d92a7b5bb0dc64a9b81a8dcb9a2eba",
+    "print/bambu-R18-organic-palm-2026-11-13/Fingerworker_R18_Complete_Kit_H2D_04mm_PLA_Basic.3mf": "b28cc3bc60ed52af7524fd66b81406847180edfbedc2e36dc4ffb9abba0740a4",
+    "print/bambu-R18-organic-palm-2026-11-13/Fingerworker_R18_Complete_Kit_H2D_04mm_PLA_Basic_Package.zip": "e8b6db8f25918908d5572bef56d345afbc0dcc0cd5f025e64bfd81156c9fd0aa",
+    "print/bambu-R18-organic-palm-2026-11-13/delivery-specification.json": "95d8fec1c79dd394f2e4b4c337ba753a85ffafaedef4da1f826360a4b3740050"
+  },
+  "verification": {
+    "review/organic-palm-2026-11-13/validation/native-integration.json": {
+      "status": "PASS_NATIVE_R18_INTEGRATION",
+      "sha256": "bcc84bcbecb092538c0b2956ba3d1e1f1fb19fbc043c82b641f371e48f2057b5"
+    },
+    "review/organic-palm-2026-11-13/validation/native-section-fidelity.json": {
+      "status": "PASS_NATIVE_R18_SECTION_FIDELITY",
+      "sha256": "a852724e93c755a4ca45965d36b37b00725b5d8d812ef36f4e6272323e6abd93"
+    },
+    "review/organic-palm-2026-11-13/validation/native-release-binding.json": {
+      "status": "PASS_NATIVE_R18_SOURCE_EXPORT_REPORT_BINDING",
+      "sha256": "dc5374e2b1fb6d3ee5e5a0fb15b66836e1e9747f6224bb9b15562bd26d7a69e1"
+    },
+    "review/organic-palm-2026-11-13/mechanics/preflight.json": {
+      "status": "PASS_LOCAL_ORGANIC_PALM",
+      "sha256": "30a2d2413d532b0bb9b29422e017a13e287608964d9c5f0524ccf16af67f548e"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/native-project-check.json": {
+      "status": "PASS_NATIVE_R18_ORGANIC_PALM",
+      "sha256": "60f8f29e924d774318bd91662eca2b561ae15f02dec09b9a13b81b42ccd0206b"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/toolpath-check.json": {
+      "status": "PASS_ACTUAL_R18_ORGANIC_PALM_TOOLPATHS",
+      "sha256": "40c527bb4c3da8e237cd7bf5f0078cff5474ee9429b51b11453bacb29b74d4dd"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/actual-path-check.json": {
+      "status": "PASS_R18_ACTUAL_PRINT_PATHS",
+      "sha256": "ec3ff9c729e2c585673a955f86f26ff4344009199e3411c6ddb6e1cb3a645fd5"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/connected-flow-check.json": {
+      "status": "PASS_CONNECTED_MATERIAL_FLOW",
+      "sha256": "a8c6acfe1713c640b244526cf953da561c1a68dcfb07b51fa18c75980f5964c1"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/p04-surface-check.json": {
+      "status": "PASS",
+      "sha256": "25e3314e60d6c6d33f0eb3f163c724f38722f67d6ef0448b0eb42a8720b4f08a"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/palm-contact-check.json": {
+      "status": "PASS_R18_PALM_CONTACT_SUPPORTS",
+      "sha256": "ab07d750a6820ddf4b658bd0dad63f5d09d28fadaadf13dd55d615826c261b67"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/side-thumb-check.json": {
+      "status": "PASS_R18_ORGANIC_PALM_PRINT_SURFACES",
+      "sha256": "fc083663ebe2742c97de5c6ed20970bf2849c5095e595001f13785fcc5e4cae7"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/cli-diagnostics.json": {
+      "status": "PASS_R18_OFFICIAL_H2D_DIAGNOSTICS",
+      "sha256": "8b181c895406dae0222b037d7ade3be5d38921c51359930cb33c5e2037b6c267"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/P01-replacement/native-project-check.json": {
+      "status": "PASS_NATIVE_R18_ORGANIC_PALM",
+      "sha256": "3d5d5499625c961f43f7ae0fb7803a25031b1ff54472451b445c094f8a58349a"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/P01-replacement/toolpath-check.json": {
+      "status": "PASS_ACTUAL_R18_ORGANIC_PALM_TOOLPATHS",
+      "sha256": "b047374b88940291c7020e392513e884cec07be8e3a4f8781c6c9ef3690f9ede"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/P01-replacement/actual-path-check.json": {
+      "status": "PASS_R18_ACTUAL_PRINT_PATHS",
+      "sha256": "9d706817bbf768f3491dc02c1a1019b1485a5333f09dfed1ce505fb17712d755"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/P01-replacement/connected-flow-check.json": {
+      "status": "PASS_CONNECTED_MATERIAL_FLOW",
+      "sha256": "861206a311a77d119fdcf8e55fd1f61cf0ab6ef610a9a8e3a681067b08221281"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/P01-replacement/palm-contact-check.json": {
+      "status": "PASS_R18_PALM_CONTACT_SUPPORTS",
+      "sha256": "1216a3dacc7a3688bcac4d65cd8ca44ef9c999d2153c0c32ffd2d149c40a81c6"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/P01-replacement/side-thumb-check.json": {
+      "status": "PASS_R18_ORGANIC_PALM_PRINT_SURFACES",
+      "sha256": "205e03e5c43376d85c9a76a7b8c2cb665d8e2943e05fb73c83e77c1981381227"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/P01-replacement/cli-diagnostics.json": {
+      "status": "PASS_R18_OFFICIAL_H2D_DIAGNOSTICS",
+      "sha256": "2f089297cb7ba88927bca84fa33a7e0eda032d6dcba42b9588573c31becb6fa7"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/cad-R18-native-integration.json": {
+      "status": "PASS_NATIVE_R18_INTEGRATION",
+      "sha256": "bcc84bcbecb092538c0b2956ba3d1e1f1fb19fbc043c82b641f371e48f2057b5"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/cad-R18-native-section-fidelity.json": {
+      "status": "PASS_NATIVE_R18_SECTION_FIDELITY",
+      "sha256": "a852724e93c755a4ca45965d36b37b00725b5d8d812ef36f4e6272323e6abd93"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/cad-R18-native-release-binding.json": {
+      "status": "PASS_NATIVE_R18_SOURCE_EXPORT_REPORT_BINDING",
+      "sha256": "dc5374e2b1fb6d3ee5e5a0fb15b66836e1e9747f6224bb9b15562bd26d7a69e1"
+    }
+  },
+  "gui_verified": false,
+  "gui_status": "GUI_PENDING_MAC_LOCKED"
+}

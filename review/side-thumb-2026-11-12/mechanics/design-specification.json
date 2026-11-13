@@ -1,0 +1,156 @@
+{
+  "revision": "R17 candidate",
+  "status": "LOCAL_PROTOTYPE_PENDING_NATIVE_REGENERATION",
+  "source_sha256": "780dfdbaf9c6ab4bf4bbf3ab3de0dab3f9ac7dc5f8de49cf015c51ee95cc16e4",
+  "baseline_source_sha256": "1f492dd841c35a14f488be418e4f4dd8dea8edb63f3d321a492dc2ec3c907ab4",
+  "baseline_native_step_sha256": "e2b588932fb73f5545baf87ffb91d98f69a29577517105ef169503693ca88b5d",
+  "changed": [
+    "P01"
+  ],
+  "new_parts": [],
+  "other_native_bodies_unchanged": 92,
+  "side_thumb": {
+    "center_x_mm": -24,
+    "center_y_mm": [
+      -75,
+      75
+    ],
+    "cutter_radius_mm": 14,
+    "cutter_bottom_z_mm": 20,
+    "cutter_top_z_mm": 40,
+    "bottom_radius_mm": 1.5,
+    "mouth_radius_mm": 0.4,
+    "maximum_nominal_side_depth_mm": 4,
+    "opening_chord_at_y65_mm": 19.595917942265423,
+    "nominal_height_mm": 13,
+    "actual_removed_bounds_mm": [
+      [
+        -28.63016755237016,
+        -65.0000001,
+        19.59999989999999
+      ],
+      [
+        -14.040080221609012,
+        65.00000010000001,
+        33.00000010000001
+      ]
+    ],
+    "cheek_x_mm": [
+      -24,
+      -8
+    ],
+    "cheek_positive_yz_profile_mm": [
+      [
+        59,
+        16.5
+      ],
+      [
+        63,
+        16.5
+      ],
+      [
+        65,
+        18.5
+      ],
+      [
+        65,
+        24.1
+      ],
+      [
+        59,
+        24.1
+      ]
+    ],
+    "cheek_lower_edge_radius_mm": 0.6,
+    "cheek_outer_corner_radius_mm": 2,
+    "existing_wrist_thumb_returns_retained": true
+  },
+  "added_mm3": 440.5682222452524,
+  "removed_mm3": 648.0281090996398,
+  "P01_volume_mm3": 167740.64770527006,
+  "minimum_removal_to_rod_bore_mm": 8.647749634661448,
+  "mouth_selection_points_mm": [
+    [
+      -28.453005912335996,
+      -61.72706745497813,
+      24.75
+    ],
+    [
+      -28.453005912335996,
+      61.72706745497813,
+      24.75
+    ],
+    [
+      -14.202041028867288,
+      -65.0,
+      22.75
+    ],
+    [
+      -14.202041028867288,
+      -65.0,
+      27.55
+    ],
+    [
+      -15.055412486471134,
+      -64.22993247169263,
+      32.577106904901
+    ],
+    [
+      -18.34988868146268,
+      -62.19077511759059,
+      33.0
+    ],
+    [
+      -20.730532411011,
+      -61.38711706960361,
+      32.93272455168294
+    ],
+    [
+      -22.711119422668474,
+      -61.05945528833343,
+      32.806698158511416
+    ],
+    [
+      -18.349888681462684,
+      62.19077511759058,
+      33.0
+    ],
+    [
+      -22.71111941823724,
+      61.05945528874312,
+      32.806698158356774
+    ],
+    [
+      -20.73053241101101,
+      61.3871170696036,
+      32.93272455168293
+    ],
+    [
+      -15.055412486775678,
+      64.22993247143972,
+      32.57710690509829
+    ],
+    [
+      -14.202041028867288,
+      65.0,
+      27.55
+    ],
+    [
+      -14.202041028867288,
+      65.0,
+      22.75
+    ]
+  ],
+  "mesh": {
+    "watertight": true,
+    "winding_consistent": true,
+    "shells": 1,
+    "zero_area_triangles_removed": 8,
+    "removed_triangle_area_mm2": 0.0,
+    "triangles": 52876,
+    "sha256": "013f0e2d9d8fd8849594e4621b9ddfb632524e9178a7caf8028073159d97551a",
+    "scope": "Only exactly zero-area triangles removed; no hole fill, remeshing or geometry modification."
+  },
+  "preserved": "P05 and other92 native bodies, sensor path, rod bores, H18 access, clips, roof and straps. Outer socket stock is locally shaped, not claimed wholly unchanged.",
+  "limitations": "Local nominal CAD prototype only. Native regeneration, native comparisons, final sliced paths and physical comfort/strength checks remain separate."
+}

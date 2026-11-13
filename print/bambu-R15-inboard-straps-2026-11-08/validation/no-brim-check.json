@@ -1,0 +1,237 @@
+{
+  "status": "PASS_R15_NO_BRIM",
+  "checks": [
+    {
+      "name": "Global model brim and skirt disabled",
+      "status": "PASS",
+      "brim_type": "no_brim",
+      "brim_width": "0",
+      "skirt_loops": "0"
+    },
+    {
+      "name": "No actual Brim or Skirt extrusion",
+      "status": "PASS",
+      "actual_brim_segments": 0,
+      "actual_skirt_segments": 0
+    },
+    {
+      "name": "P01 explicit object brim disabled",
+      "status": "PASS",
+      "old_brim_width_mm": 5.0,
+      "new_type": "no_brim",
+      "new_width_mm": 0.0
+    },
+    {
+      "name": "P01 substantial model first-layer contact",
+      "status": "PASS",
+      "model_only_area_mm2": 16608.961726382055,
+      "minimum_mm2": 12000,
+      "baseline_area_mm2": 18447.885296145556,
+      "largest_connected_fraction": 1.0,
+      "first_layer_top_z_mm": 0.2,
+      "method": "Union of actual first-layer model bead footprints, excluding support and adhesion additions. Tiny tessellation residue is merged across0.02mm gaps only for connectivity; raw area remains measured independently."
+    },
+    {
+      "name": "P01 required support setting retained",
+      "status": "PASS",
+      "enabled": true,
+      "actual_support_segments": 5073
+    },
+    {
+      "name": "P04 explicit object brim disabled",
+      "status": "PASS",
+      "old_brim_width_mm": 5.0,
+      "new_type": "no_brim",
+      "new_width_mm": 0.0
+    },
+    {
+      "name": "P04 substantial model first-layer contact",
+      "status": "PASS",
+      "model_only_area_mm2": 1497.2398998805106,
+      "minimum_mm2": 1482.2675008817055,
+      "baseline_area_mm2": 1497.2398998805106,
+      "largest_connected_fraction": 1.0,
+      "first_layer_top_z_mm": 0.2,
+      "method": "Union of actual first-layer model bead footprints, excluding support and adhesion additions. Tiny tessellation residue is merged across0.02mm gaps only for connectivity; raw area remains measured independently."
+    },
+    {
+      "name": "P04 required support setting retained",
+      "status": "PASS",
+      "enabled": true,
+      "actual_support_segments": 184904
+    },
+    {
+      "name": "P05 explicit object brim disabled",
+      "status": "PASS",
+      "old_brim_width_mm": 5.0,
+      "new_type": "no_brim",
+      "new_width_mm": 0.0
+    },
+    {
+      "name": "P05 substantial model first-layer contact",
+      "status": "PASS",
+      "model_only_area_mm2": 2148.4679029636827,
+      "minimum_mm2": 2126.983223934046,
+      "baseline_area_mm2": 2148.4679029636827,
+      "largest_connected_fraction": 1.0,
+      "first_layer_top_z_mm": 0.2,
+      "method": "Union of actual first-layer model bead footprints, excluding support and adhesion additions. Tiny tessellation residue is merged across0.02mm gaps only for connectivity; raw area remains measured independently."
+    },
+    {
+      "name": "P05 required support setting retained",
+      "status": "PASS",
+      "enabled": true,
+      "actual_support_segments": 2633
+    },
+    {
+      "name": "P11 explicit object brim disabled",
+      "status": "PASS",
+      "old_brim_width_mm": 2.0,
+      "new_type": "no_brim",
+      "new_width_mm": 0.0
+    },
+    {
+      "name": "P11 substantial model first-layer contact",
+      "status": "PASS",
+      "model_only_area_mm2": 31.089927992690424,
+      "minimum_mm2": 30.77902871276352,
+      "baseline_area_mm2": 31.089927992690424,
+      "largest_connected_fraction": 1.0,
+      "first_layer_top_z_mm": 0.2,
+      "method": "Union of actual first-layer model bead footprints, excluding support and adhesion additions. Tiny tessellation residue is merged across0.02mm gaps only for connectivity; raw area remains measured independently."
+    },
+    {
+      "name": "P11 required support setting retained",
+      "status": "PASS",
+      "enabled": false,
+      "actual_support_segments": 0
+    },
+    {
+      "name": "Q01 explicit object brim disabled",
+      "status": "PASS",
+      "old_brim_width_mm": 3.0,
+      "new_type": "no_brim",
+      "new_width_mm": 0.0
+    },
+    {
+      "name": "Q01 substantial model first-layer contact",
+      "status": "PASS",
+      "model_only_area_mm2": 256.4554830375903,
+      "minimum_mm2": 253.8909282072144,
+      "baseline_area_mm2": 256.4554830375903,
+      "largest_connected_fraction": 1.0,
+      "first_layer_top_z_mm": 0.2,
+      "method": "Union of actual first-layer model bead footprints, excluding support and adhesion additions. Tiny tessellation residue is merged across0.02mm gaps only for connectivity; raw area remains measured independently."
+    },
+    {
+      "name": "Q01 required support setting retained",
+      "status": "PASS",
+      "enabled": false,
+      "actual_support_segments": 0
+    },
+    {
+      "name": "P06 explicit object brim disabled",
+      "status": "PASS",
+      "old_brim_width_mm": 4.0,
+      "new_type": "no_brim",
+      "new_width_mm": 0.0
+    },
+    {
+      "name": "P06 substantial model first-layer contact",
+      "status": "PASS",
+      "model_only_area_mm2": 822.0093400073177,
+      "minimum_mm2": 813.7892466072445,
+      "baseline_area_mm2": 822.0093400073177,
+      "largest_connected_fraction": 1.0,
+      "first_layer_top_z_mm": 0.2,
+      "method": "Union of actual first-layer model bead footprints, excluding support and adhesion additions. Tiny tessellation residue is merged across0.02mm gaps only for connectivity; raw area remains measured independently."
+    },
+    {
+      "name": "P06 required support setting retained",
+      "status": "PASS",
+      "enabled": false,
+      "actual_support_segments": 0
+    }
+  ],
+  "failures": [],
+  "parts": {
+    "P01": {
+      "first_layer_area_mm2": 16608.961726382055,
+      "first_layer_span_mm": [
+        148.77598999891813,
+        129.7759899999943
+      ],
+      "height_mm": 35.0,
+      "largest_connected_fraction": 1.0,
+      "support_segments": 5073,
+      "brim_width_mm": 0
+    },
+    "P04": {
+      "first_layer_area_mm2": 1497.2398998805106,
+      "first_layer_span_mm": [
+        24.284759414516884,
+        75.67799
+      ],
+      "height_mm": 59.0,
+      "largest_connected_fraction": 1.0,
+      "support_segments": 184904,
+      "brim_width_mm": 0
+    },
+    "P05": {
+      "first_layer_area_mm2": 2148.4679029636827,
+      "first_layer_span_mm": [
+        36.69999000000004,
+        125.69298999646391
+      ],
+      "height_mm": 22.0,
+      "largest_connected_fraction": 1.0,
+      "support_segments": 2633,
+      "brim_width_mm": 0
+    },
+    "P11": {
+      "first_layer_area_mm2": 31.089927992690424,
+      "first_layer_span_mm": [
+        6.009085625256432,
+        8.09999000000002
+      ],
+      "height_mm": 10.0,
+      "largest_connected_fraction": 1.0,
+      "support_segments": 0,
+      "brim_width_mm": 0
+    },
+    "Q01": {
+      "first_layer_area_mm2": 256.4554830375903,
+      "first_layer_span_mm": [
+        11.699990000000014,
+        21.999990000000025
+      ],
+      "height_mm": 19.5,
+      "largest_connected_fraction": 1.0,
+      "support_segments": 0,
+      "brim_width_mm": 0
+    },
+    "P06": {
+      "first_layer_area_mm2": 822.0093400073177,
+      "first_layer_span_mm": [
+        134.96515257156125,
+        23.89999500000002
+      ],
+      "height_mm": 23.5,
+      "largest_connected_fraction": 1.0,
+      "support_segments": 0,
+      "brim_width_mm": 0
+    }
+  },
+  "project_sha256": "860843b3df9f988d67db68bae78e30dd8f2d7fc0fbe8e4c810ef78087e17eaa1",
+  "sliced_archive_sha256": "a121127456c1da2cdb51b6cc53c52e4b02b5afb1a10c52a2cc875619dc414551",
+  "layout_sha256": "15bae7c934c2f575c510262389da0e052d751dec861b9fbdd5b66ccfbd88324e",
+  "CAD_source_sha256": "97e2010cc17d06eb8648cf278b9aae2fd85b6e909bd657b9b216f3b37748665f",
+  "baseline_measurement_sha256": "c2128ef5a5575b738c65f2e6cb1eed827326cbd463f906e01045548468cd851b",
+  "validator_sha256": "09383f11791295835c1d155dc3f1f7c10e321394f7fd67a445f8afe2802f4b2e",
+  "scope": "No removable model Brim/Skirt paths on any of the six parts. Required geometric support structures and their printable bases are retained. Actual model-only contact is measured.",
+  "limitations": [
+    "First-layer adhesion is not experimentally measured.",
+    "P11 has the smallest contact area; observe its first layer on the clean texturedPEI plate.",
+    "Supports below overhangs still require removal; they are not the former perimeter brim."
+  ]
+}

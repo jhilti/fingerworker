@@ -1,0 +1,33 @@
+{
+  "status": "PASS_NATIVE_R20_LOCATING_GEOMETRY",
+  "source": "fingerworker_R20_rear_locating_pegs.fs",
+  "source_sha256": "e547fac0af50cc7ea69f96f3ca2a0a7d6cefa1b63ae7e29d7f18e0f7815f3626",
+  "dimensions_mm": {
+    "centers": [
+      [
+        123.8,
+        -51,
+        4.5
+      ],
+      [
+        123.8,
+        51,
+        4.5
+      ]
+    ],
+    "peg_diameter": 5,
+    "protrusion": 2,
+    "tip_chamfer": 0.4,
+    "root_radius": 0.4,
+    "slot_width": 5.4,
+    "slot_floor_z": 2.2,
+    "slot_mouth_lead_in": 0.5,
+    "side_clearance": 0.2,
+    "bottom_clearance": 0.3,
+    "plate_below_floor_nominal": 4.2
+  },
+  "assembly": "Slide each rear block axially -X onto its rod while the underside peg enters the rear-open slot. Unloaded, spring-free fitting can be positioned without screws; install the four M3 screws before spring preload or external loading.",
+  "retention": "No positive rearward retention, latch or interference fit. Physical PLA fit remains unqualified.",
+  "print_setup_status": "PRINT_SETUP_DEFERRED_BY_USER",
+  "onshape_version": "0e06e3d98b9ecb574ee41402"
+}

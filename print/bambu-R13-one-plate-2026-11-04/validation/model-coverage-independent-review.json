@@ -1,0 +1,32 @@
+{
+  "status": "PASS_INDEPENDENT_BOUNDED_SEAM_REVIEW",
+  "coverage_report_sha256": "f1a1e44fc3dd3e9ef8dd06c397835b9f5855c82bd598ba852cb7c2a95d10eba2",
+  "CAD_source_sha256": "82b7d65708c46cd9d4b6ac271047eac2f638f0222451df99eae0780525edd851",
+  "layout_sha256": "44f0a185c5e1af6e83725e6399bbfb087733e67b517a40925fae97d03e2bf4ce",
+  "editable_project_sha256": "66f59b312d726439725f279a1fc68cb35d09b219f85b8be1b8f500277dc97dd3",
+  "sliced_internal_evidence_sha256": "b0a0906fa8a1416f2f3496dffc5d94a4987f27c56dc75a54a1b79fb8ca16d926",
+  "failures": [],
+  "review_method": "Read-only review of validator logic, actual final exception records, exact native project seam settings and all layer/feature group checks. No thresholds changed by this review.",
+  "observed_exceptions": 9,
+  "part": "P06",
+  "feature": "Inner wall",
+  "layers_mm": [
+    15.8,
+    16.0,
+    16.2,
+    16.4,
+    16.6,
+    16.8,
+    17.0,
+    17.2,
+    17.4
+  ],
+  "line_width_mm": 0.44999,
+  "configured_seam_gap_percent": 15,
+  "nominal_intentional_seam_gap_mm": 0.0674985,
+  "profile_resolution_mm": 0.012,
+  "maximum_net_group_length_delta_mm": 0.002124399462331894,
+  "maximum_strict_uncovered_length_per_direction_mm": 0.08015485940220193,
+  "continuous_curve_distance_bound_mm": 0.05102,
+  "decision": "Accept as explicitly bounded relocation of short intentional inner-wall seam gaps at FDM resolution. Full group/layer presence, bidirectional spatial coverage and near-zero net path length remain required; outer walls, infill and all other groups keep the strict comparison. This is tolerance-bounded toolpath equivalence, not bitwise path identity or physical strength qualification."
+}

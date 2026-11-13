@@ -1,0 +1,15 @@
+# Flat132 R8 — palm electronics cover
+
+R8 extends the flat plate of the existing one-piece rigid P02 palm over the electronics case and lid. The **2 mm ledge reaches X−46.1 mm**, extending the previous plate 8.85 mm wristward, while the curved palm contact stays at X−37.25 mm. **0.6 mm nominal clearance above P09** keeps the cover off the lid. The full case/lid footprint, including corners, is covered in plan. P09 stays a separate lid; no sleeve, added print part or new hardware is introduced.
+
+**Reprint P02 only** for an existing R7 assembly. The physical-device dimensions remain **176.5×132×35 mm** at default rear setting a=0, because the existing enclosure already reached X−46.1 mm. The curved contact, mounting keys/pilots, 72 mm finger opening, R7 screw-adjusted rear, 28–30 mm usable travel and 81 mm steel ISO sleeves remain. Rear adjustment and sensor preload still share `a+p≤2 mm` and need equal manual side setup/jam locking.
+
+**Native regeneration and independent nominal geometry validation pass with zero failed or unresolved checks.** The final native STEP has 123 valid solids: 70 device bodies plus 53 electronics references. All four whole native poses pass; 122 other BReps are exactly preserved. The new P02 receives focused construction/contact/interface, full-domain clearance, full-footprint coverage and service checks; unchanged R7 evidence is reused only through exact source/body scope. Printed strength, actual tolerances, tool/plug access, thermal behavior, hand comfort and the 500 N target remain physically unqualified.
+
+The cover changes lid access: remove the palm/case unit and detach the case from the palm before lifting P09. The print notes give the checked unloaded service sequence and wiring limitation. The 0.6 mm gap applies specifically to the lid; existing P08 mounting-collar contact remains. Nominal clearances to the USB-approach and button-travel references are 2.2 and 4.4 mm respectively, with real plug/button usability still requiring a physical check.
+
+Read [print notes](PRINT_NOTES.md), [specification](final-specification.json), [finalization notes](finalization-notes.md) and [validation](validation/validation-summary.md). Native-derived sets contain 16 print STLs, 70 device assembly STLs and two 81 mm ISO sleeve STLs, all in millimetres and original assembly coordinates without remeshing or scaling. External USB/button travel references stay in the complete STEP but do not define the physical-device footprint.
+
+[Interactive viewer](http://127.0.0.1:8776/viewer/viewer.html) · [Frozen R8 Onshape](https://cad.onshape.com/documents/15316cc6370631845af136b2/v/6965afcca3af7c58ef3ac73f/e/d253eb87b70818ebde8215f0) · [Native STEP](native/Flat132_R8_final_AP214.step)
+
+Source: [fingerworker_flat132_palm_cover.fs](fingerworker_flat132_palm_cover.fs), SHA256 `6099df42e341ff9f5c3439709a23107325d10ef922f616bdcda6fa6ef64d41c1`. The [builder](build_palm_cover.py), [source ledger](source-build.json) and [portable build check](portable-build-check.json) preserve the exact frozen R7 derivation. Frozen R7 remains separate.

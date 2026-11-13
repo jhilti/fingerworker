@@ -1,0 +1,9 @@
+Flat132 R2 - printed reinforcement and integral-stop CAD update
+
+Replace P01 and P05 together. print-mm/ contains only the two revised rigid printed bodies, in millimetres and their original neutral assembly coordinates. It is an unsliced update, not a load qualification.
+
+The native/STEP file contains the complete neutral assembly including purchased hardware and electronics reference envelopes. Those reference bodies are not printable parts. Source and validation evidence are included. Large raw three-pose STL evidence archives remain in the workspace native/ directory and are linked separately in the viewer.
+
+The hand scan and interactive viewer are excluded from this print-update ZIP. The original hand remains an approximate reference in the live viewer.
+
+Read README.md and PRINT_NOTES.md for revised service paths, 30-minus-preload travel and manual click-cam setup. 500 N is a design target, not a verified rating. Current firmware still rejects qualified force at NC LOW; this CAD update does not alter that logic.

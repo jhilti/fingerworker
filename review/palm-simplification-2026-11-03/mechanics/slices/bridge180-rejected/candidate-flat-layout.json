@@ -1,0 +1,99 @@
+{
+  "status": "EDITABLE_SEED_AUTHORED_PENDING_NATIVE_IMPORT_AND_SLICE",
+  "CAD_source_path": "review/palm-simplification-2026-11-03/mechanics/R13_palm_candidate.fs",
+  "CAD_source_sha256": "648192f9983926f7762f266bfbac16e465589c79efbc1bd53c24c48b99d3e60d",
+  "native_R13_version": "LOCAL_CANDIDATE_NOT_VERSION",
+  "slicer_version": "02.08.02.61",
+  "printer": "H2D",
+  "nozzle_mm": 0.4,
+  "material": "PLA",
+  "bed": "Textured PEI Plate",
+  "plate_count": 1,
+  "object_count": 1,
+  "safe_shared_XY_mm": [
+    [
+      27,
+      3
+    ],
+    [
+      323,
+      317
+    ]
+  ],
+  "native_machine_macros_modified": false,
+  "no_printer_transmission": true,
+  "placements": [
+    {
+      "ref": "P01",
+      "source_path": "review/palm-simplification-2026-11-03/mechanics/P01_simple_palm_candidate-slice.stl",
+      "source_sha256": "99ad03cbb91fba90f15499d410991475e902694c3a841e2cd7bdec4ad4fc1caf",
+      "source_geometry": "LOCAL_R13_CANDIDATE_NOT_NATIVE",
+      "CAD_source_sha256": "648192f9983926f7762f266bfbac16e465589c79efbc1bd53c24c48b99d3e60d",
+      "material": "PLA",
+      "intent": "SMOOTH CONTINUOUS PALM RAIL AND FRAME - UNLOADED FIT STUDY",
+      "orientation": "Base floor down; palm supports open toward outer wrist edge",
+      "rotation_3x3": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "plate": 1,
+      "plate_xy_mm": [
+        70,
+        80
+      ],
+      "brim_mm": 5,
+      "reserved_margin_mm": 6,
+      "normalization_translation_mm": [
+        46.099998474121094,
+        66.19999694824219,
+        2.0
+      ],
+      "size_oriented_mm": [
+        175.0999984741211,
+        132.39999389648438,
+        35.0
+      ],
+      "volume_mm3": 181898.7683627302,
+      "faces": 19890,
+      "units": "mm",
+      "scale": 1.0,
+      "reserved_bounds_xy_mm": [
+        64,
+        74,
+        251.0999984741211,
+        218.39999389648438
+      ]
+    }
+  ],
+  "object_settings": {
+    "P01": {
+      "brim_type": "outer_only",
+      "brim_width": "5",
+      "brim_object_gap": "0.1",
+      "enable_support": "1",
+      "support_type": "normal(auto)",
+      "support_on_build_plate_only": "1",
+      "support_top_z_distance": "0.25",
+      "support_threshold_angle": "30",
+      "bridge_angle": "180.0"
+    }
+  },
+  "P01_bridge_angle_degrees": 180.0,
+  "seed_path": "Fingerworker_R13_H2D_04mm_PLA_Fit_Test-candidate-flat_seed.3mf",
+  "seed_sha256": "77cd3b8aa97c264260fc15cd8ea5d87e47cb7977eccd873948bdb1cfb45fa141",
+  "native_project": "Fingerworker_R13_H2D_04mm_PLA_Fit_Test-candidate-flat.3mf",
+  "candidate_orientation": "flat"
+}

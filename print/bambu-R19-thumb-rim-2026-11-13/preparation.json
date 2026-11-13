@@ -1,0 +1,72 @@
+{
+  "status": "R19_RIGID_MOUNT_PIPELINE_PREPARED_AWAITING_FINAL_NATIVE",
+  "date": "2026-11-13",
+  "baseline_project": "print/bambu-R18-organic-palm-2026-11-13/Fingerworker_R18_Complete_Kit_H2D_04mm_PLA_Basic.3mf",
+  "baseline_sha256": "b28cc3bc60ed52af7524fd66b81406847180edfbedc2e36dc4ffb9abba0740a4",
+  "primary_variant": "replacement",
+  "secondary_variant": "complete",
+  "printer": "H2D",
+  "nozzle_mm": 0.4,
+  "active_nozzle": "left",
+  "material": "Bambu PLA Basic",
+  "brim": false,
+  "frozen_R18_modified": false,
+  "slicing_started": false,
+  "printer_job_started": false,
+  "geometry_study": "review/thumb-rim-2026-11-13",
+  "native_gates": [
+    "native-integration",
+    "native-rim-check",
+    "native-release-binding"
+  ],
+  "pending": [
+    "Final frozen native P01/P06L/P06R/P08 and source",
+    "Rounded-rim source-bound contact envelope",
+    "Fresh replacement3 and complete7 slices with native/contact/hole/bed checks",
+    "Native gates, optional-STL provenance and package seals",
+    "Bambu GUI at the end only"
+  ],
+  "source_scripts_sha256": {
+    "audit_toolpaths.py": "2f4969dec82977619071c6568faaf0556b830dcd134068a6ea010f91d6d0b827",
+    "print_context.py": "68f2ad09fa69448fe3c67378cc4bdb29c2813bfa140cd351a55c7260f9ff86ef",
+    "check_actual_print.py": "a2580992d85ac6135ed6e893ae8bdf0208bc53f75d4245ee9e5e9db790e78cf1",
+    "check_rear_blocks.py": "aac2fbcbdd561a16a9f4b780617c7ec4efafb190034177c4d42344727f85eee4",
+    "run_slicer.py": "d1bd1d013355e908d09408cbc14e1758edf750449d4c6497a3f1acb676940862",
+    "build_replacement.py": "566362724357f7d7b944950ff5673cee244827aaf5d88a6de1018368dbda7b58",
+    "check_one_plate_p04.py": "c7f17c253da6390aa1ccc65fff18bf206d0f721aad132cc319e7855c865d8b57",
+    "validate_project.py": "27bb99a5f99f37f8f47984fcd39f621d02ac585b7804b560b1b0c1dc6ffd1ea0",
+    "package_delivery.py": "bb05db685ca6acad2eb8f83108047809c655354458cf4292071e51bc7607dad6",
+    "render_support_evidence.py": "4a3c89b211941335a052fe5df7fd95e0bf9070238b04bb0d6660c76c94bdb49e",
+    "check_side_thumb.py": "2a9bab7d5999e6a903477636184d130eace2a5273862e89ccbae6757f56deb23",
+    "check_diagnostics.py": "cd566cf19c06bf6322f24d3a4afe7a3c23d0d691e255c7021d9554aae2e03019",
+    "build_project.py": "9a2cc3949458c82627d3926c518c85ca405895436c46786c3aaac181e0e9118c",
+    "rigid_blocks.py": "faa63391c9c0dc4a7741b2ef678ad1bccb8c0b66ad010162d66cdd7554aa67b3",
+    "check_connected_flow.py": "723e6be766512eeebef3e109e066148505b514884c1046f62ae2ef4b08e80fe0",
+    "check_print_features.py": "bec0774fc3e0a3210b6216ed15a82f906d9fcc745bb0fea4631c7277eae06ca3",
+    "check_p04_supports.py": "e6a925aa90c86beac1cbbac1cb155fa9a5f9db8255d1f51b5be23ca48e87f365",
+    "check_palm_contact.py": "4daf528ef799698122eb5913117989a1d8dd23fe54bce8f613a93ff1d9949f45"
+  },
+  "primary_refs": [
+    "P01",
+    "P06L",
+    "P06R"
+  ],
+  "secondary_refs": [
+    "P01",
+    "P04",
+    "P05",
+    "P06L",
+    "P06R",
+    "P11",
+    "Q01"
+  ],
+  "expected_native_parts": 94,
+  "expected_unchanged_native_parts": 90,
+  "optional_electronics": {
+    "ref": "P08",
+    "format": "Native and base-down STL plus separate instructions",
+    "included_in_main_projects": false,
+    "sliced": false
+  },
+  "hardware_delta": "4 existing M3x8 screws and4 M3 inserts mandatory; optional tray2 M2x8 and2 M2 inserts"
+}

@@ -1,0 +1,3635 @@
+{
+  "status": "PASS_FULL_SCALE_NATIVE_EDITABLE_PROJECT",
+  "project": "/Users/jonashilti/Documents/ChatGPT/fingerworker/print/bambu-R8-fit-test-2026-10-24/Fingerworker_R8_H2D_04mm_PLA_Fit_Test.3mf",
+  "project_sha256": "3bd6c6dc06f3f5f7c4eafa575f1a0cbf52148a8a82ca867a89d3fac06b2e063a",
+  "layout_sha256": "473337c2d396d4cc8896270a836d76fa9a40028eb131ee1e6428bbebf5852642",
+  "source_revision": "R8",
+  "frozen_source_sha256": "6099df42e341ff9f5c3439709a23107325d10ef922f616bdcda6fa6ef64d41c1",
+  "native_immutable_version_id": "6965afcca3af7c58ef3ac73f",
+  "fixture_manifest_sha256": "e8750e5e298260865f27c9400be91d2fe561a503600fa5d4630f9f48ebf9c099",
+  "object_count": 19,
+  "objects": [
+    {
+      "ref": "P01",
+      "bounds_mm": [
+        [
+          33.0,
+          9.0,
+          0.0
+        ],
+        [
+          185.0,
+          141.0,
+          35.0
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          27.0,
+          3.0
+        ],
+        [
+          191.0,
+          147.0
+        ]
+      ],
+      "mesh_error_mm": 1.0894522759029511e-05,
+      "volume_mm3": 137310.68264108684,
+      "source_sha256": "c9e7682d073f6a78b29d9d3294c77e50f389e375c49393ea84e45e2bdaea2860"
+    },
+    {
+      "ref": "P02",
+      "bounds_mm": [
+        [
+          199.0,
+          9.0,
+          0.0
+        ],
+        [
+          222.5,
+          137.0,
+          36.6000022
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          193.0,
+          3.0
+        ],
+        [
+          228.5,
+          143.0
+        ]
+      ],
+      "mesh_error_mm": 3.865585453281903e-06,
+      "volume_mm3": 26959.728745122266,
+      "source_sha256": "5b3fe726b82d7576d691d36992bc4a6e0abc6dfb64660686135d90e6fafba7e7"
+    },
+    {
+      "ref": "P04",
+      "bounds_mm": [
+        [
+          236.5,
+          9.0,
+          0.0
+        ],
+        [
+          261.5,
+          135.0,
+          59.0
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          230.5,
+          3.0
+        ],
+        [
+          267.5,
+          141.0
+        ]
+      ],
+      "mesh_error_mm": 3.8650384506897844e-06,
+      "volume_mm3": 76807.9095373969,
+      "source_sha256": "fdb84301af40be4ca84b838ebc1847b18ac0b2854818e3bfe63c1085d6ff0b7c"
+    },
+    {
+      "ref": "P05",
+      "bounds_mm": [
+        [
+          275.5,
+          9.0,
+          0.0
+        ],
+        [
+          312.5,
+          135.0,
+          22.0
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          269.5,
+          3.0
+        ],
+        [
+          318.5,
+          141.0
+        ]
+      ],
+      "mesh_error_mm": 3.9912071087492285e-06,
+      "volume_mm3": 50903.03981247484,
+      "source_sha256": "708aa073c8b30dab19e3c7700ca2d05ff4264845293c3428a68df1c2ced52966"
+    },
+    {
+      "ref": "P08",
+      "bounds_mm": [
+        [
+          32.0,
+          154.0,
+          0.0
+        ],
+        [
+          156.0,
+          176.500002,
+          9.5
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          27.0,
+          149.0
+        ],
+        [
+          161.0,
+          181.500002
+        ]
+      ],
+      "mesh_error_mm": 3.865010181430181e-06,
+      "volume_mm3": 4753.499367571644,
+      "source_sha256": "11f47952a86814ce1c6a80ad25edde546f99b8664a610e397851ec8ae9fe8b2a"
+    },
+    {
+      "ref": "P09",
+      "bounds_mm": [
+        [
+          166.0,
+          152.0,
+          0.0
+        ],
+        [
+          276.0,
+          174.500002,
+          6.74999952
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          163.0,
+          149.0
+        ],
+        [
+          279.0,
+          177.500002
+        ]
+      ],
+      "mesh_error_mm": 3.8641289564773e-06,
+      "volume_mm3": 2247.059968094918,
+      "source_sha256": "2b809ab1f7cc350b96862cfd7d4878ac1907bda7cf793f78aa0e445e7264084a"
+    },
+    {
+      "ref": "H040",
+      "bounds_mm": [
+        [
+          30.0,
+          186.5,
+          0.0
+        ],
+        [
+          171.0,
+          192.5,
+          6.0
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          27.0,
+          183.5
+        ],
+        [
+          174.0,
+          195.5
+        ]
+      ],
+      "mesh_error_mm": 5.995529267784658e-09,
+      "volume_mm3": 3985.4164653540956,
+      "source_sha256": "ed73c2217009079342531d1dd16e68c206790ab2f2ca3b5e85f41e866079d427"
+    },
+    {
+      "ref": "H041",
+      "bounds_mm": [
+        [
+          179.0,
+          186.5,
+          0.0
+        ],
+        [
+          320.0,
+          192.5,
+          6.0
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          176.0,
+          183.5
+        ],
+        [
+          323.0,
+          195.5
+        ]
+      ],
+      "mesh_error_mm": 5.995529267784658e-09,
+      "volume_mm3": 3985.4164653540956,
+      "source_sha256": "c3b51c917e3598d19a26ff32510401be6405293cc25d02f78f5a0891912a6a19"
+    },
+    {
+      "ref": "P060",
+      "bounds_mm": [
+        [
+          175.0,
+          203.0,
+          0.0
+        ],
+        [
+          184.0,
+          231.0,
+          26.0
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          171.0,
+          199.0
+        ],
+        [
+          188.0,
+          235.0
+        ]
+      ],
+      "mesh_error_mm": 5.245207037178761e-07,
+      "volume_mm3": 2995.570545213326,
+      "source_sha256": "fb1337d8882240a0e3c49fcdb6e88d8d0fef58940405575e20dc9dcfb7179a0e"
+    },
+    {
+      "ref": "P061",
+      "bounds_mm": [
+        [
+          194.0,
+          203.0,
+          0.0
+        ],
+        [
+          203.0,
+          231.0,
+          26.0
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          190.0,
+          199.0
+        ],
+        [
+          207.0,
+          235.0
+        ]
+      ],
+      "mesh_error_mm": 5.245207037178761e-07,
+      "volume_mm3": 2995.5705450950577,
+      "source_sha256": "b4517d1c0e1b163d4f0c6e9a42427e5075d584665d532118db72d9408874befa"
+    },
+    {
+      "ref": "P120",
+      "bounds_mm": [
+        [
+          212.9999996,
+          203.0,
+          0.0
+        ],
+        [
+          236.2000004,
+          222.5,
+          9.40000916
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          208.9999996,
+          199.0
+        ],
+        [
+          240.2000004,
+          226.5
+        ]
+      ],
+      "mesh_error_mm": 1.3397058369109107e-06,
+      "volume_mm3": 483.56569818385714,
+      "source_sha256": "4e96f14152f1d40821836566e3dca17ccba1471c34db20bb69ac68acd27a7e48"
+    },
+    {
+      "ref": "P121",
+      "bounds_mm": [
+        [
+          246.1999996,
+          203.0,
+          0.0
+        ],
+        [
+          269.4000004,
+          222.5,
+          9.40000916
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          242.1999996,
+          199.0
+        ],
+        [
+          273.4000004,
+          226.5
+        ]
+      ],
+      "mesh_error_mm": 1.3397058084892276e-06,
+      "volume_mm3": 483.56569818385714,
+      "source_sha256": "55e9ffd7d0a4a0ceceb5ddf663837882afb022c3a607406b8697d4972ff65905"
+    },
+    {
+      "ref": "P11",
+      "bounds_mm": [
+        [
+          280.0,
+          201.00000018999998,
+          0.0
+        ],
+        [
+          286.0,
+          209.39999981,
+          10.0
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          278.0,
+          199.00000018999998
+        ],
+        [
+          288.0,
+          211.39999981
+        ]
+      ],
+      "mesh_error_mm": 4.334811068012001e-07,
+      "volume_mm3": 388.75488460182737,
+      "source_sha256": "ee81507b31f348ae644d268f5525a825d5eecbd44f580824105b74e3a191d49b"
+    },
+    {
+      "ref": "P10",
+      "bounds_mm": [
+        [
+          291.99999962000004,
+          200.99999966,
+          0.0
+        ],
+        [
+          295.20000038,
+          211.20000234,
+          1.0
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          289.99999962000004,
+          198.99999966
+        ],
+        [
+          297.20000038,
+          213.20000234
+        ]
+      ],
+      "mesh_error_mm": 5.120963090439492e-07,
+      "volume_mm3": 27.552252488570957,
+      "source_sha256": "8ee66bba498b46d593a8d9c00581582cd76b35677312eb81d427f808df8b08d8"
+    },
+    {
+      "ref": "P070a",
+      "bounds_mm": [
+        [
+          280.0,
+          217.5,
+          0.0
+        ],
+        [
+          286.0,
+          222.0,
+          1.5
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          278.0,
+          215.5
+        ],
+        [
+          288.0,
+          224.0
+        ]
+      ],
+      "mesh_error_mm": 0.0,
+      "volume_mm3": 40.5,
+      "source_sha256": "b2043cb95741498d64262f3011a79d3a14eb64934d9a558602a9f71abf42bf74"
+    },
+    {
+      "ref": "P070b",
+      "bounds_mm": [
+        [
+          292.0,
+          217.5,
+          0.0
+        ],
+        [
+          298.0,
+          222.0,
+          1.5
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          290.0,
+          215.5
+        ],
+        [
+          300.0,
+          224.0
+        ]
+      ],
+      "mesh_error_mm": 0.0,
+      "volume_mm3": 40.5,
+      "source_sha256": "c2e968a11b33abb1d58fb03ba6f4ba6ca14a53ecfafa3ef001bf03d2d10b881a"
+    },
+    {
+      "ref": "P071a",
+      "bounds_mm": [
+        [
+          280.0,
+          228.0,
+          0.0
+        ],
+        [
+          286.0,
+          232.5,
+          1.5
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          278.0,
+          226.0
+        ],
+        [
+          288.0,
+          234.5
+        ]
+      ],
+      "mesh_error_mm": 0.0,
+      "volume_mm3": 40.5,
+      "source_sha256": "4cacdcfcc514e130026a3c5b37d03bb89e0f53cb780d221184c31b71bb5757f7"
+    },
+    {
+      "ref": "P071b",
+      "bounds_mm": [
+        [
+          292.0,
+          228.0,
+          0.0
+        ],
+        [
+          298.0,
+          232.5,
+          1.5
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          290.0,
+          226.0
+        ],
+        [
+          300.0,
+          234.5
+        ]
+      ],
+      "mesh_error_mm": 0.0,
+      "volume_mm3": 40.5,
+      "source_sha256": "50aa9ad8ee8fb500dc0e13b1ab8dd333ccaeab6f0fa7fe7625ba79d21ae3c29d"
+    },
+    {
+      "ref": "Q01",
+      "bounds_mm": [
+        [
+          297.9999996,
+          240.0,
+          0.0
+        ],
+        [
+          315.9964424,
+          258.0,
+          28.0
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          294.9999996,
+          237.0
+        ],
+        [
+          318.9964424,
+          261.0
+        ]
+      ],
+      "mesh_error_mm": 1.3557232153302988e-06,
+      "volume_mm3": 1597.7201487952952,
+      "source_sha256": "4a814328544c999013ab754d2d1c3f9a99e287e034066df127525cfe912a394b"
+    }
+  ],
+  "checks": [
+    {
+      "name": "Editable archive CRC",
+      "status": "PASS"
+    },
+    {
+      "name": "One plate and19 editable objects",
+      "status": "PASS",
+      "build_count": 19,
+      "plate_count": 1
+    },
+    {
+      "name": "Exact selected references",
+      "status": "PASS",
+      "refs": [
+        "H040",
+        "H041",
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P060",
+        "P061",
+        "P070a",
+        "P070b",
+        "P071a",
+        "P071b",
+        "P08",
+        "P09",
+        "P10",
+        "P11",
+        "P120",
+        "P121",
+        "Q01"
+      ]
+    },
+    {
+      "name": "Exact source hash P01",
+      "status": "PASS",
+      "source_sha256": "c9e7682d073f6a78b29d9d3294c77e50f389e375c49393ea84e45e2bdaea2860"
+    },
+    {
+      "name": "Proper rigid scale1 transform P01",
+      "status": "PASS",
+      "determinant": 1.0
+    },
+    {
+      "name": "Native editable mesh equals rigid source P01",
+      "status": "PASS",
+      "max_vertex_error_mm": 1.0894522759029511e-05,
+      "triangle_connectivity_equal": true,
+      "triangles": 36836
+    },
+    {
+      "name": "Model/brim reservation inside H2D shared-bed region P01",
+      "status": "PASS",
+      "bounds_mm": [
+        [
+          33.0,
+          9.0,
+          0.0
+        ],
+        [
+          185.0,
+          141.0,
+          35.0
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          27.0,
+          3.0
+        ],
+        [
+          191.0,
+          147.0
+        ]
+      ]
+    },
+    {
+      "name": "Exact source hash P02",
+      "status": "PASS",
+      "source_sha256": "5b3fe726b82d7576d691d36992bc4a6e0abc6dfb64660686135d90e6fafba7e7"
+    },
+    {
+      "name": "Proper rigid scale1 transform P02",
+      "status": "PASS",
+      "determinant": 1.0
+    },
+    {
+      "name": "Native editable mesh equals rigid source P02",
+      "status": "PASS",
+      "max_vertex_error_mm": 3.865585453281903e-06,
+      "triangle_connectivity_equal": true,
+      "triangles": 26896
+    },
+    {
+      "name": "Model/brim reservation inside H2D shared-bed region P02",
+      "status": "PASS",
+      "bounds_mm": [
+        [
+          199.0,
+          9.0,
+          0.0
+        ],
+        [
+          222.5,
+          137.0,
+          36.6000022
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          193.0,
+          3.0
+        ],
+        [
+          228.5,
+          143.0
+        ]
+      ]
+    },
+    {
+      "name": "Exact source hash P04",
+      "status": "PASS",
+      "source_sha256": "fdb84301af40be4ca84b838ebc1847b18ac0b2854818e3bfe63c1085d6ff0b7c"
+    },
+    {
+      "name": "Proper rigid scale1 transform P04",
+      "status": "PASS",
+      "determinant": 1.0
+    },
+    {
+      "name": "Native editable mesh equals rigid source P04",
+      "status": "PASS",
+      "max_vertex_error_mm": 3.8650384506897844e-06,
+      "triangle_connectivity_equal": true,
+      "triangles": 51838
+    },
+    {
+      "name": "Model/brim reservation inside H2D shared-bed region P04",
+      "status": "PASS",
+      "bounds_mm": [
+        [
+          236.5,
+          9.0,
+          0.0
+        ],
+        [
+          261.5,
+          135.0,
+          59.0
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          230.5,
+          3.0
+        ],
+        [
+          267.5,
+          141.0
+        ]
+      ]
+    },
+    {
+      "name": "Exact source hash P05",
+      "status": "PASS",
+      "source_sha256": "708aa073c8b30dab19e3c7700ca2d05ff4264845293c3428a68df1c2ced52966"
+    },
+    {
+      "name": "Proper rigid scale1 transform P05",
+      "status": "PASS",
+      "determinant": 1.0
+    },
+    {
+      "name": "Native editable mesh equals rigid source P05",
+      "status": "PASS",
+      "max_vertex_error_mm": 3.9912071087492285e-06,
+      "triangle_connectivity_equal": true,
+      "triangles": 15564
+    },
+    {
+      "name": "Model/brim reservation inside H2D shared-bed region P05",
+      "status": "PASS",
+      "bounds_mm": [
+        [
+          275.5,
+          9.0,
+          0.0
+        ],
+        [
+          312.5,
+          135.0,
+          22.0
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          269.5,
+          3.0
+        ],
+        [
+          318.5,
+          141.0
+        ]
+      ]
+    },
+    {
+      "name": "Exact source hash P08",
+      "status": "PASS",
+      "source_sha256": "11f47952a86814ce1c6a80ad25edde546f99b8664a610e397851ec8ae9fe8b2a"
+    },
+    {
+      "name": "Proper rigid scale1 transform P08",
+      "status": "PASS",
+      "determinant": 1.0
+    },
+    {
+      "name": "Native editable mesh equals rigid source P08",
+      "status": "PASS",
+      "max_vertex_error_mm": 3.865010181430181e-06,
+      "triangle_connectivity_equal": true,
+      "triangles": 8442
+    },
+    {
+      "name": "Model/brim reservation inside H2D shared-bed region P08",
+      "status": "PASS",
+      "bounds_mm": [
+        [
+          32.0,
+          154.0,
+          0.0
+        ],
+        [
+          156.0,
+          176.500002,
+          9.5
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          27.0,
+          149.0
+        ],
+        [
+          161.0,
+          181.500002
+        ]
+      ]
+    },
+    {
+      "name": "Exact source hash P09",
+      "status": "PASS",
+      "source_sha256": "2b809ab1f7cc350b96862cfd7d4878ac1907bda7cf793f78aa0e445e7264084a"
+    },
+    {
+      "name": "Proper rigid scale1 transform P09",
+      "status": "PASS",
+      "determinant": 1.0
+    },
+    {
+      "name": "Native editable mesh equals rigid source P09",
+      "status": "PASS",
+      "max_vertex_error_mm": 3.8641289564773e-06,
+      "triangle_connectivity_equal": true,
+      "triangles": 2694
+    },
+    {
+      "name": "Model/brim reservation inside H2D shared-bed region P09",
+      "status": "PASS",
+      "bounds_mm": [
+        [
+          166.0,
+          152.0,
+          0.0
+        ],
+        [
+          276.0,
+          174.500002,
+          6.74999952
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          163.0,
+          149.0
+        ],
+        [
+          279.0,
+          177.500002
+        ]
+      ]
+    },
+    {
+      "name": "Exact source hash H040",
+      "status": "PASS",
+      "source_sha256": "ed73c2217009079342531d1dd16e68c206790ab2f2ca3b5e85f41e866079d427"
+    },
+    {
+      "name": "Proper rigid scale1 transform H040",
+      "status": "PASS",
+      "determinant": 1.0
+    },
+    {
+      "name": "Native editable mesh equals rigid source H040",
+      "status": "PASS",
+      "max_vertex_error_mm": 5.995529267784658e-09,
+      "triangle_connectivity_equal": true,
+      "triangles": 576
+    },
+    {
+      "name": "Model/brim reservation inside H2D shared-bed region H040",
+      "status": "PASS",
+      "bounds_mm": [
+        [
+          30.0,
+          186.5,
+          0.0
+        ],
+        [
+          171.0,
+          192.5,
+          6.0
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          27.0,
+          183.5
+        ],
+        [
+          174.0,
+          195.5
+        ]
+      ]
+    },
+    {
+      "name": "Exact source hash H041",
+      "status": "PASS",
+      "source_sha256": "c3b51c917e3598d19a26ff32510401be6405293cc25d02f78f5a0891912a6a19"
+    },
+    {
+      "name": "Proper rigid scale1 transform H041",
+      "status": "PASS",
+      "determinant": 1.0
+    },
+    {
+      "name": "Native editable mesh equals rigid source H041",
+      "status": "PASS",
+      "max_vertex_error_mm": 5.995529267784658e-09,
+      "triangle_connectivity_equal": true,
+      "triangles": 576
+    },
+    {
+      "name": "Model/brim reservation inside H2D shared-bed region H041",
+      "status": "PASS",
+      "bounds_mm": [
+        [
+          179.0,
+          186.5,
+          0.0
+        ],
+        [
+          320.0,
+          192.5,
+          6.0
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          176.0,
+          183.5
+        ],
+        [
+          323.0,
+          195.5
+        ]
+      ]
+    },
+    {
+      "name": "Exact source hash P060",
+      "status": "PASS",
+      "source_sha256": "fb1337d8882240a0e3c49fcdb6e88d8d0fef58940405575e20dc9dcfb7179a0e"
+    },
+    {
+      "name": "Proper rigid scale1 transform P060",
+      "status": "PASS",
+      "determinant": 1.0
+    },
+    {
+      "name": "Native editable mesh equals rigid source P060",
+      "status": "PASS",
+      "max_vertex_error_mm": 5.245207037178761e-07,
+      "triangle_connectivity_equal": true,
+      "triangles": 5864
+    },
+    {
+      "name": "Model/brim reservation inside H2D shared-bed region P060",
+      "status": "PASS",
+      "bounds_mm": [
+        [
+          175.0,
+          203.0,
+          0.0
+        ],
+        [
+          184.0,
+          231.0,
+          26.0
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          171.0,
+          199.0
+        ],
+        [
+          188.0,
+          235.0
+        ]
+      ]
+    },
+    {
+      "name": "Exact source hash P061",
+      "status": "PASS",
+      "source_sha256": "b4517d1c0e1b163d4f0c6e9a42427e5075d584665d532118db72d9408874befa"
+    },
+    {
+      "name": "Proper rigid scale1 transform P061",
+      "status": "PASS",
+      "determinant": 1.0
+    },
+    {
+      "name": "Native editable mesh equals rigid source P061",
+      "status": "PASS",
+      "max_vertex_error_mm": 5.245207037178761e-07,
+      "triangle_connectivity_equal": true,
+      "triangles": 5864
+    },
+    {
+      "name": "Model/brim reservation inside H2D shared-bed region P061",
+      "status": "PASS",
+      "bounds_mm": [
+        [
+          194.0,
+          203.0,
+          0.0
+        ],
+        [
+          203.0,
+          231.0,
+          26.0
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          190.0,
+          199.0
+        ],
+        [
+          207.0,
+          235.0
+        ]
+      ]
+    },
+    {
+      "name": "Exact source hash P120",
+      "status": "PASS",
+      "source_sha256": "4e96f14152f1d40821836566e3dca17ccba1471c34db20bb69ac68acd27a7e48"
+    },
+    {
+      "name": "Proper rigid scale1 transform P120",
+      "status": "PASS",
+      "determinant": 1.0
+    },
+    {
+      "name": "Native editable mesh equals rigid source P120",
+      "status": "PASS",
+      "max_vertex_error_mm": 1.3397058369109107e-06,
+      "triangle_connectivity_equal": true,
+      "triangles": 1846
+    },
+    {
+      "name": "Model/brim reservation inside H2D shared-bed region P120",
+      "status": "PASS",
+      "bounds_mm": [
+        [
+          212.9999996,
+          203.0,
+          0.0
+        ],
+        [
+          236.2000004,
+          222.5,
+          9.40000916
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          208.9999996,
+          199.0
+        ],
+        [
+          240.2000004,
+          226.5
+        ]
+      ]
+    },
+    {
+      "name": "Exact source hash P121",
+      "status": "PASS",
+      "source_sha256": "55e9ffd7d0a4a0ceceb5ddf663837882afb022c3a607406b8697d4972ff65905"
+    },
+    {
+      "name": "Proper rigid scale1 transform P121",
+      "status": "PASS",
+      "determinant": 1.0
+    },
+    {
+      "name": "Native editable mesh equals rigid source P121",
+      "status": "PASS",
+      "max_vertex_error_mm": 1.3397058084892276e-06,
+      "triangle_connectivity_equal": true,
+      "triangles": 1846
+    },
+    {
+      "name": "Model/brim reservation inside H2D shared-bed region P121",
+      "status": "PASS",
+      "bounds_mm": [
+        [
+          246.1999996,
+          203.0,
+          0.0
+        ],
+        [
+          269.4000004,
+          222.5,
+          9.40000916
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          242.1999996,
+          199.0
+        ],
+        [
+          273.4000004,
+          226.5
+        ]
+      ]
+    },
+    {
+      "name": "Exact source hash P11",
+      "status": "PASS",
+      "source_sha256": "ee81507b31f348ae644d268f5525a825d5eecbd44f580824105b74e3a191d49b"
+    },
+    {
+      "name": "Proper rigid scale1 transform P11",
+      "status": "PASS",
+      "determinant": 1.0
+    },
+    {
+      "name": "Native editable mesh equals rigid source P11",
+      "status": "PASS",
+      "max_vertex_error_mm": 4.334811068012001e-07,
+      "triangle_connectivity_equal": true,
+      "triangles": 598
+    },
+    {
+      "name": "Model/brim reservation inside H2D shared-bed region P11",
+      "status": "PASS",
+      "bounds_mm": [
+        [
+          280.0,
+          201.00000018999998,
+          0.0
+        ],
+        [
+          286.0,
+          209.39999981,
+          10.0
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          278.0,
+          199.00000018999998
+        ],
+        [
+          288.0,
+          211.39999981
+        ]
+      ]
+    },
+    {
+      "name": "Exact source hash P10",
+      "status": "PASS",
+      "source_sha256": "8ee66bba498b46d593a8d9c00581582cd76b35677312eb81d427f808df8b08d8"
+    },
+    {
+      "name": "Proper rigid scale1 transform P10",
+      "status": "PASS",
+      "determinant": 1.0
+    },
+    {
+      "name": "Native editable mesh equals rigid source P10",
+      "status": "PASS",
+      "max_vertex_error_mm": 5.120963090439492e-07,
+      "triangle_connectivity_equal": true,
+      "triangles": 1172
+    },
+    {
+      "name": "Model/brim reservation inside H2D shared-bed region P10",
+      "status": "PASS",
+      "bounds_mm": [
+        [
+          291.99999962000004,
+          200.99999966,
+          0.0
+        ],
+        [
+          295.20000038,
+          211.20000234,
+          1.0
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          289.99999962000004,
+          198.99999966
+        ],
+        [
+          297.20000038,
+          213.20000234
+        ]
+      ]
+    },
+    {
+      "name": "Exact source hash P070a",
+      "status": "PASS",
+      "source_sha256": "b2043cb95741498d64262f3011a79d3a14eb64934d9a558602a9f71abf42bf74"
+    },
+    {
+      "name": "Proper rigid scale1 transform P070a",
+      "status": "PASS",
+      "determinant": 1.0
+    },
+    {
+      "name": "Native editable mesh equals rigid source P070a",
+      "status": "PASS",
+      "max_vertex_error_mm": 0.0,
+      "triangle_connectivity_equal": true,
+      "triangles": 12
+    },
+    {
+      "name": "Model/brim reservation inside H2D shared-bed region P070a",
+      "status": "PASS",
+      "bounds_mm": [
+        [
+          280.0,
+          217.5,
+          0.0
+        ],
+        [
+          286.0,
+          222.0,
+          1.5
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          278.0,
+          215.5
+        ],
+        [
+          288.0,
+          224.0
+        ]
+      ]
+    },
+    {
+      "name": "Exact source hash P070b",
+      "status": "PASS",
+      "source_sha256": "c2e968a11b33abb1d58fb03ba6f4ba6ca14a53ecfafa3ef001bf03d2d10b881a"
+    },
+    {
+      "name": "Proper rigid scale1 transform P070b",
+      "status": "PASS",
+      "determinant": 1.0
+    },
+    {
+      "name": "Native editable mesh equals rigid source P070b",
+      "status": "PASS",
+      "max_vertex_error_mm": 0.0,
+      "triangle_connectivity_equal": true,
+      "triangles": 12
+    },
+    {
+      "name": "Model/brim reservation inside H2D shared-bed region P070b",
+      "status": "PASS",
+      "bounds_mm": [
+        [
+          292.0,
+          217.5,
+          0.0
+        ],
+        [
+          298.0,
+          222.0,
+          1.5
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          290.0,
+          215.5
+        ],
+        [
+          300.0,
+          224.0
+        ]
+      ]
+    },
+    {
+      "name": "Exact source hash P071a",
+      "status": "PASS",
+      "source_sha256": "4cacdcfcc514e130026a3c5b37d03bb89e0f53cb780d221184c31b71bb5757f7"
+    },
+    {
+      "name": "Proper rigid scale1 transform P071a",
+      "status": "PASS",
+      "determinant": 1.0
+    },
+    {
+      "name": "Native editable mesh equals rigid source P071a",
+      "status": "PASS",
+      "max_vertex_error_mm": 0.0,
+      "triangle_connectivity_equal": true,
+      "triangles": 12
+    },
+    {
+      "name": "Model/brim reservation inside H2D shared-bed region P071a",
+      "status": "PASS",
+      "bounds_mm": [
+        [
+          280.0,
+          228.0,
+          0.0
+        ],
+        [
+          286.0,
+          232.5,
+          1.5
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          278.0,
+          226.0
+        ],
+        [
+          288.0,
+          234.5
+        ]
+      ]
+    },
+    {
+      "name": "Exact source hash P071b",
+      "status": "PASS",
+      "source_sha256": "50aa9ad8ee8fb500dc0e13b1ab8dd333ccaeab6f0fa7fe7625ba79d21ae3c29d"
+    },
+    {
+      "name": "Proper rigid scale1 transform P071b",
+      "status": "PASS",
+      "determinant": 1.0
+    },
+    {
+      "name": "Native editable mesh equals rigid source P071b",
+      "status": "PASS",
+      "max_vertex_error_mm": 0.0,
+      "triangle_connectivity_equal": true,
+      "triangles": 12
+    },
+    {
+      "name": "Model/brim reservation inside H2D shared-bed region P071b",
+      "status": "PASS",
+      "bounds_mm": [
+        [
+          292.0,
+          228.0,
+          0.0
+        ],
+        [
+          298.0,
+          232.5,
+          1.5
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          290.0,
+          226.0
+        ],
+        [
+          300.0,
+          234.5
+        ]
+      ]
+    },
+    {
+      "name": "Exact source hash Q01",
+      "status": "PASS",
+      "source_sha256": "4a814328544c999013ab754d2d1c3f9a99e287e034066df127525cfe912a394b"
+    },
+    {
+      "name": "Proper rigid scale1 transform Q01",
+      "status": "PASS",
+      "determinant": 1.0
+    },
+    {
+      "name": "Native editable mesh equals rigid source Q01",
+      "status": "PASS",
+      "max_vertex_error_mm": 1.3557232153302988e-06,
+      "triangle_connectivity_equal": true,
+      "triangles": 2540
+    },
+    {
+      "name": "Model/brim reservation inside H2D shared-bed region Q01",
+      "status": "PASS",
+      "bounds_mm": [
+        [
+          297.9999996,
+          240.0,
+          0.0
+        ],
+        [
+          315.9964424,
+          258.0,
+          28.0
+        ]
+      ],
+      "reserved_bounds_xy_mm": [
+        [
+          294.9999996,
+          237.0
+        ],
+        [
+          318.9964424,
+          261.0
+        ]
+      ]
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P01/P02",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 2.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P01/P04",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 39.5
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P01/P05",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 78.5
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P01/P08",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 2.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P01/P09",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 2.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P01/H040",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 36.5
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P01/H041",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 36.5
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P01/P060",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 52.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P01/P061",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 52.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P01/P120",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 52.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P01/P121",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 52.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P01/P11",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 87.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P01/P10",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 98.99999962000004
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P01/P070a",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 87.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P01/P070b",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 99.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P01/P071a",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 87.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P01/P071b",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 99.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P01/Q01",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 103.99999960000002
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P02/P04",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 2.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P02/P05",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 41.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P02/P08",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 32.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P02/P09",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 6.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P02/H040",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 40.5
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P02/H041",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 40.5
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P02/P060",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 56.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P02/P061",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 56.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P02/P120",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 56.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P02/P121",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 56.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P02/P11",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 56.00000018999998
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P02/P10",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 61.49999962000004
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P02/P070a",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 72.5
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P02/P070b",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 72.5
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P02/P071a",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 83.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P02/P071b",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 83.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P02/Q01",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 94.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P04/P05",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 2.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P04/P08",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 69.5
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P04/P09",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 8.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P04/H040",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 56.5
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P04/H041",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 42.5
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P04/P060",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 58.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P04/P061",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 58.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P04/P120",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 58.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P04/P121",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 58.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P04/P11",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 58.00000018999998
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P04/P10",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 57.999999659999986
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P04/P070a",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 74.5
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P04/P070b",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 74.5
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P04/P071a",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 85.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P04/P071b",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 85.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P04/Q01",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 96.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P05/P08",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 108.5
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P05/P09",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 8.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P05/H040",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 95.5
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P05/H041",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 42.5
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P05/P060",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 81.5
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P05/P061",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 62.5
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P05/P120",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 58.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P05/P121",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 58.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P05/P11",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 58.00000018999998
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P05/P10",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 57.999999659999986
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P05/P070a",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 74.5
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P05/P070b",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 74.5
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P05/P071a",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 85.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P05/P071b",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 85.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P05/Q01",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 96.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P08/P09",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 2.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P08/H040",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 1.999998000000005
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P08/H041",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 15.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P08/P060",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 17.499998000000005
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P08/P061",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 29.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P08/P120",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 47.999999599999995
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P08/P121",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 81.19999960000001
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P08/P11",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 117.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P08/P10",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 128.99999962000004
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P08/P070a",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 117.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P08/P070b",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 129.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P08/P071a",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 117.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P08/P071b",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 129.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P08/Q01",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 133.99999960000002
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P09/H040",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 5.999998000000005
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P09/H041",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 5.999998000000005
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P09/P060",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 21.499998000000005
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P09/P061",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 21.499998000000005
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P09/P120",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 21.499998000000005
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P09/P121",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 21.499998000000005
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P09/P11",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 21.499998189999985
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P09/P10",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 21.49999765999999
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P09/P070a",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 37.999998000000005
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P09/P070b",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 37.999998000000005
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P09/P071a",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 48.499998000000005
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P09/P071b",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 48.499998000000005
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P09/Q01",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 59.499998000000005
+    },
+    {
+      "name": "Pairwise brim/support reservation separation H040/H041",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 2.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation H040/P060",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 3.5
+    },
+    {
+      "name": "Pairwise brim/support reservation separation H040/P061",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 16.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation H040/P120",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 34.999999599999995
+    },
+    {
+      "name": "Pairwise brim/support reservation separation H040/P121",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 68.19999960000001
+    },
+    {
+      "name": "Pairwise brim/support reservation separation H040/P11",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 104.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation H040/P10",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 115.99999962000004
+    },
+    {
+      "name": "Pairwise brim/support reservation separation H040/P070a",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 104.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation H040/P070b",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 116.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation H040/P071a",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 104.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation H040/P071b",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 116.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation H040/Q01",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 120.99999960000002
+    },
+    {
+      "name": "Pairwise brim/support reservation separation H041/P060",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 3.5
+    },
+    {
+      "name": "Pairwise brim/support reservation separation H041/P061",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 3.5
+    },
+    {
+      "name": "Pairwise brim/support reservation separation H041/P120",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 3.5
+    },
+    {
+      "name": "Pairwise brim/support reservation separation H041/P121",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 3.5
+    },
+    {
+      "name": "Pairwise brim/support reservation separation H041/P11",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 3.50000018999998
+    },
+    {
+      "name": "Pairwise brim/support reservation separation H041/P10",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 3.499999659999986
+    },
+    {
+      "name": "Pairwise brim/support reservation separation H041/P070a",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 20.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation H041/P070b",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 20.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation H041/P071a",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 30.5
+    },
+    {
+      "name": "Pairwise brim/support reservation separation H041/P071b",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 30.5
+    },
+    {
+      "name": "Pairwise brim/support reservation separation H041/Q01",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 41.5
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P060/P061",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 2.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P060/P120",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 20.999999599999995
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P060/P121",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 54.19999960000001
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P060/P11",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 90.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P060/P10",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 101.99999962000004
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P060/P070a",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 90.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P060/P070b",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 102.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P060/P071a",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 90.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P060/P071b",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 102.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P060/Q01",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 106.99999960000002
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P061/P120",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 1.9999995999999953
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P061/P121",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 35.19999960000001
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P061/P11",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 71.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P061/P10",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 82.99999962000004
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P061/P070a",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 71.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P061/P070b",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 83.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P061/P071a",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 71.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P061/P071b",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 83.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P061/Q01",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 87.99999960000002
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P120/P121",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 1.999999200000019
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P120/P11",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 37.79999960000001
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P120/P10",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 49.799999220000046
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P120/P070a",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 37.79999960000001
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P120/P070b",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 49.79999960000001
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P120/P071a",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 37.79999960000001
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P120/P071b",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 49.79999960000001
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P120/Q01",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 54.79999920000003
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P121/P11",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 4.59999959999999
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P121/P10",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 16.59999922000003
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P121/P070a",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 4.59999959999999
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P121/P070b",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 16.59999959999999
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P121/P071a",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 4.59999959999999
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P121/P071b",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 16.59999959999999
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P121/Q01",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 21.599999200000013
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P11/P10",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 1.9999996200000396
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P11/P070a",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 4.100000190000003
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P11/P070b",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 4.100000190000003
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P11/P071a",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 14.600000190000003
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P11/P071b",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 14.600000190000003
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P11/Q01",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 25.600000190000003
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P10/P070a",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 2.2999976600000025
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P10/P070b",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 2.2999976600000025
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P10/P071a",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 12.799997660000002
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P10/P071b",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 12.799997660000002
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P10/Q01",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 23.799997660000002
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P070a/P070b",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 2.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P070a/P071a",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 2.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P070a/P071b",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 2.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P070a/Q01",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 13.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P070b/P071a",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 2.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P070b/P071b",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 2.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P070b/Q01",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 13.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P071a/P071b",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 2.0
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P071a/Q01",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 6.999999600000024
+    },
+    {
+      "name": "Pairwise brim/support reservation separation P071b/Q01",
+      "status": "PASS",
+      "minimum_axis_separation_mm": 2.5
+    },
+    {
+      "name": "Pinned global setting printer_model",
+      "status": "PASS",
+      "value": "Bambu Lab H2D"
+    },
+    {
+      "name": "Pinned global setting nozzle_diameter",
+      "status": "PASS",
+      "value": [
+        "0.4",
+        "0.4"
+      ]
+    },
+    {
+      "name": "Pinned global setting filament_type",
+      "status": "PASS",
+      "value": [
+        "PLA"
+      ]
+    },
+    {
+      "name": "Pinned global setting curr_bed_type",
+      "status": "PASS",
+      "value": "Textured PEI Plate"
+    },
+    {
+      "name": "Pinned global setting print_sequence",
+      "status": "PASS",
+      "value": "by layer"
+    },
+    {
+      "name": "Pinned global setting layer_height",
+      "status": "PASS",
+      "value": "0.2"
+    },
+    {
+      "name": "Pinned global setting wall_loops",
+      "status": "PASS",
+      "value": "4"
+    },
+    {
+      "name": "Object override P01/brim_type",
+      "status": "PASS",
+      "actual": "outer_only",
+      "expected": "outer_only"
+    },
+    {
+      "name": "Object override P01/brim_width",
+      "status": "PASS",
+      "actual": "5",
+      "expected": "5"
+    },
+    {
+      "name": "Object override P01/brim_object_gap",
+      "status": "PASS",
+      "actual": "0.1",
+      "expected": "0.1"
+    },
+    {
+      "name": "Object override P01/enable_support",
+      "status": "PASS",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "Object override P01/support_type",
+      "status": "PASS",
+      "actual": "normal(auto)",
+      "expected": "normal(auto)"
+    },
+    {
+      "name": "Object override P01/support_on_build_plate_only",
+      "status": "PASS",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "Object override P01/support_top_z_distance",
+      "status": "PASS",
+      "actual": "0.25",
+      "expected": "0.25"
+    },
+    {
+      "name": "Object override P01/support_threshold_angle",
+      "status": "PASS",
+      "actual": "30",
+      "expected": "30"
+    },
+    {
+      "name": "Object override P02/brim_type",
+      "status": "PASS",
+      "actual": "outer_only",
+      "expected": "outer_only"
+    },
+    {
+      "name": "Object override P02/brim_width",
+      "status": "PASS",
+      "actual": "5",
+      "expected": "5"
+    },
+    {
+      "name": "Object override P02/brim_object_gap",
+      "status": "PASS",
+      "actual": "0.1",
+      "expected": "0.1"
+    },
+    {
+      "name": "Object override P02/enable_support",
+      "status": "PASS",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "Object override P02/support_type",
+      "status": "PASS",
+      "actual": "normal(auto)",
+      "expected": "normal(auto)"
+    },
+    {
+      "name": "Object override P02/support_on_build_plate_only",
+      "status": "PASS",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "Object override P02/support_top_z_distance",
+      "status": "PASS",
+      "actual": "0.25",
+      "expected": "0.25"
+    },
+    {
+      "name": "Object override P02/support_threshold_angle",
+      "status": "PASS",
+      "actual": "30",
+      "expected": "30"
+    },
+    {
+      "name": "Object override P04/brim_type",
+      "status": "PASS",
+      "actual": "outer_only",
+      "expected": "outer_only"
+    },
+    {
+      "name": "Object override P04/brim_width",
+      "status": "PASS",
+      "actual": "5",
+      "expected": "5"
+    },
+    {
+      "name": "Object override P04/brim_object_gap",
+      "status": "PASS",
+      "actual": "0.1",
+      "expected": "0.1"
+    },
+    {
+      "name": "Object override P04/enable_support",
+      "status": "PASS",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "Object override P04/support_type",
+      "status": "PASS",
+      "actual": "normal(auto)",
+      "expected": "normal(auto)"
+    },
+    {
+      "name": "Object override P04/support_on_build_plate_only",
+      "status": "PASS",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "Object override P04/support_top_z_distance",
+      "status": "PASS",
+      "actual": "0.25",
+      "expected": "0.25"
+    },
+    {
+      "name": "Object override P04/support_threshold_angle",
+      "status": "PASS",
+      "actual": "30",
+      "expected": "30"
+    },
+    {
+      "name": "Object override P05/brim_type",
+      "status": "PASS",
+      "actual": "outer_only",
+      "expected": "outer_only"
+    },
+    {
+      "name": "Object override P05/brim_width",
+      "status": "PASS",
+      "actual": "5",
+      "expected": "5"
+    },
+    {
+      "name": "Object override P05/brim_object_gap",
+      "status": "PASS",
+      "actual": "0.1",
+      "expected": "0.1"
+    },
+    {
+      "name": "Object override P05/enable_support",
+      "status": "PASS",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "Object override P05/support_type",
+      "status": "PASS",
+      "actual": "normal(auto)",
+      "expected": "normal(auto)"
+    },
+    {
+      "name": "Object override P05/support_on_build_plate_only",
+      "status": "PASS",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "Object override P05/support_top_z_distance",
+      "status": "PASS",
+      "actual": "0.25",
+      "expected": "0.25"
+    },
+    {
+      "name": "Object override P05/support_threshold_angle",
+      "status": "PASS",
+      "actual": "30",
+      "expected": "30"
+    },
+    {
+      "name": "Object override P08/brim_type",
+      "status": "PASS",
+      "actual": "outer_only",
+      "expected": "outer_only"
+    },
+    {
+      "name": "Object override P08/brim_width",
+      "status": "PASS",
+      "actual": "3",
+      "expected": "3"
+    },
+    {
+      "name": "Object override P08/brim_object_gap",
+      "status": "PASS",
+      "actual": "0.1",
+      "expected": "0.1"
+    },
+    {
+      "name": "Object override P08/enable_support",
+      "status": "PASS",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "Object override P08/support_type",
+      "status": "PASS",
+      "actual": "normal(auto)",
+      "expected": "normal(auto)"
+    },
+    {
+      "name": "Object override P08/support_on_build_plate_only",
+      "status": "PASS",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "Object override P08/support_top_z_distance",
+      "status": "PASS",
+      "actual": "0.25",
+      "expected": "0.25"
+    },
+    {
+      "name": "Object override P08/support_threshold_angle",
+      "status": "PASS",
+      "actual": "30",
+      "expected": "30"
+    },
+    {
+      "name": "Object override P09/brim_type",
+      "status": "PASS",
+      "actual": "outer_only",
+      "expected": "outer_only"
+    },
+    {
+      "name": "Object override P09/brim_width",
+      "status": "PASS",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "Object override P09/brim_object_gap",
+      "status": "PASS",
+      "actual": "0.1",
+      "expected": "0.1"
+    },
+    {
+      "name": "Object override P09/enable_support",
+      "status": "PASS",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "Object override H040/brim_type",
+      "status": "PASS",
+      "actual": "outer_only",
+      "expected": "outer_only"
+    },
+    {
+      "name": "Object override H040/brim_width",
+      "status": "PASS",
+      "actual": "3",
+      "expected": "3"
+    },
+    {
+      "name": "Object override H040/brim_object_gap",
+      "status": "PASS",
+      "actual": "0.1",
+      "expected": "0.1"
+    },
+    {
+      "name": "Object override H040/enable_support",
+      "status": "PASS",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "Object override H040/support_type",
+      "status": "PASS",
+      "actual": "normal(auto)",
+      "expected": "normal(auto)"
+    },
+    {
+      "name": "Object override H040/support_on_build_plate_only",
+      "status": "PASS",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "Object override H040/support_top_z_distance",
+      "status": "PASS",
+      "actual": "0.25",
+      "expected": "0.25"
+    },
+    {
+      "name": "Object override H040/support_threshold_angle",
+      "status": "PASS",
+      "actual": "30",
+      "expected": "30"
+    },
+    {
+      "name": "Object override H040/sparse_infill_density",
+      "status": "PASS",
+      "actual": "100%",
+      "expected": "100%"
+    },
+    {
+      "name": "Object override H040/outer_wall_speed",
+      "status": "PASS",
+      "actual": "60,60,60,60,60,60,60",
+      "expected": "60"
+    },
+    {
+      "name": "Object override H040/inner_wall_speed",
+      "status": "PASS",
+      "actual": "60,60,60,60,60,60,60",
+      "expected": "60"
+    },
+    {
+      "name": "Object override H040/top_surface_speed",
+      "status": "PASS",
+      "actual": "60,60,60,60,60,60,60",
+      "expected": "60"
+    },
+    {
+      "name": "Object override H040/internal_solid_infill_speed",
+      "status": "PASS",
+      "actual": "60,60,60,60,60,60,60",
+      "expected": "60"
+    },
+    {
+      "name": "Object override H040/gap_infill_speed",
+      "status": "PASS",
+      "actual": "60,60,60,60,60,60,60",
+      "expected": "60"
+    },
+    {
+      "name": "Object override H040/sparse_infill_speed",
+      "status": "PASS",
+      "actual": "60,60,60,60,60,60,60",
+      "expected": "60"
+    },
+    {
+      "name": "Object override H041/brim_type",
+      "status": "PASS",
+      "actual": "outer_only",
+      "expected": "outer_only"
+    },
+    {
+      "name": "Object override H041/brim_width",
+      "status": "PASS",
+      "actual": "3",
+      "expected": "3"
+    },
+    {
+      "name": "Object override H041/brim_object_gap",
+      "status": "PASS",
+      "actual": "0.1",
+      "expected": "0.1"
+    },
+    {
+      "name": "Object override H041/enable_support",
+      "status": "PASS",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "Object override H041/support_type",
+      "status": "PASS",
+      "actual": "normal(auto)",
+      "expected": "normal(auto)"
+    },
+    {
+      "name": "Object override H041/support_on_build_plate_only",
+      "status": "PASS",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "Object override H041/support_top_z_distance",
+      "status": "PASS",
+      "actual": "0.25",
+      "expected": "0.25"
+    },
+    {
+      "name": "Object override H041/support_threshold_angle",
+      "status": "PASS",
+      "actual": "30",
+      "expected": "30"
+    },
+    {
+      "name": "Object override H041/sparse_infill_density",
+      "status": "PASS",
+      "actual": "100%",
+      "expected": "100%"
+    },
+    {
+      "name": "Object override H041/outer_wall_speed",
+      "status": "PASS",
+      "actual": "60,60,60,60,60,60,60",
+      "expected": "60"
+    },
+    {
+      "name": "Object override H041/inner_wall_speed",
+      "status": "PASS",
+      "actual": "60,60,60,60,60,60,60",
+      "expected": "60"
+    },
+    {
+      "name": "Object override H041/top_surface_speed",
+      "status": "PASS",
+      "actual": "60,60,60,60,60,60,60",
+      "expected": "60"
+    },
+    {
+      "name": "Object override H041/internal_solid_infill_speed",
+      "status": "PASS",
+      "actual": "60,60,60,60,60,60,60",
+      "expected": "60"
+    },
+    {
+      "name": "Object override H041/gap_infill_speed",
+      "status": "PASS",
+      "actual": "60,60,60,60,60,60,60",
+      "expected": "60"
+    },
+    {
+      "name": "Object override H041/sparse_infill_speed",
+      "status": "PASS",
+      "actual": "60,60,60,60,60,60,60",
+      "expected": "60"
+    },
+    {
+      "name": "Object override P060/brim_type",
+      "status": "PASS",
+      "actual": "outer_only",
+      "expected": "outer_only"
+    },
+    {
+      "name": "Object override P060/brim_width",
+      "status": "PASS",
+      "actual": "3",
+      "expected": "3"
+    },
+    {
+      "name": "Object override P060/brim_object_gap",
+      "status": "PASS",
+      "actual": "0.1",
+      "expected": "0.1"
+    },
+    {
+      "name": "Object override P060/enable_support",
+      "status": "PASS",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "Object override P060/support_type",
+      "status": "PASS",
+      "actual": "normal(auto)",
+      "expected": "normal(auto)"
+    },
+    {
+      "name": "Object override P060/support_on_build_plate_only",
+      "status": "PASS",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "Object override P060/support_top_z_distance",
+      "status": "PASS",
+      "actual": "0.25",
+      "expected": "0.25"
+    },
+    {
+      "name": "Object override P060/support_threshold_angle",
+      "status": "PASS",
+      "actual": "30",
+      "expected": "30"
+    },
+    {
+      "name": "Object override P060/outer_wall_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P060/inner_wall_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P060/top_surface_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P060/internal_solid_infill_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P060/gap_infill_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P060/sparse_infill_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P061/brim_type",
+      "status": "PASS",
+      "actual": "outer_only",
+      "expected": "outer_only"
+    },
+    {
+      "name": "Object override P061/brim_width",
+      "status": "PASS",
+      "actual": "3",
+      "expected": "3"
+    },
+    {
+      "name": "Object override P061/brim_object_gap",
+      "status": "PASS",
+      "actual": "0.1",
+      "expected": "0.1"
+    },
+    {
+      "name": "Object override P061/enable_support",
+      "status": "PASS",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "Object override P061/support_type",
+      "status": "PASS",
+      "actual": "normal(auto)",
+      "expected": "normal(auto)"
+    },
+    {
+      "name": "Object override P061/support_on_build_plate_only",
+      "status": "PASS",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "Object override P061/support_top_z_distance",
+      "status": "PASS",
+      "actual": "0.25",
+      "expected": "0.25"
+    },
+    {
+      "name": "Object override P061/support_threshold_angle",
+      "status": "PASS",
+      "actual": "30",
+      "expected": "30"
+    },
+    {
+      "name": "Object override P061/outer_wall_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P061/inner_wall_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P061/top_surface_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P061/internal_solid_infill_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P061/gap_infill_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P061/sparse_infill_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P120/brim_type",
+      "status": "PASS",
+      "actual": "outer_only",
+      "expected": "outer_only"
+    },
+    {
+      "name": "Object override P120/brim_width",
+      "status": "PASS",
+      "actual": "3",
+      "expected": "3"
+    },
+    {
+      "name": "Object override P120/brim_object_gap",
+      "status": "PASS",
+      "actual": "0.1",
+      "expected": "0.1"
+    },
+    {
+      "name": "Object override P120/enable_support",
+      "status": "PASS",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "Object override P120/support_type",
+      "status": "PASS",
+      "actual": "normal(auto)",
+      "expected": "normal(auto)"
+    },
+    {
+      "name": "Object override P120/support_on_build_plate_only",
+      "status": "PASS",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "Object override P120/support_top_z_distance",
+      "status": "PASS",
+      "actual": "0.25",
+      "expected": "0.25"
+    },
+    {
+      "name": "Object override P120/support_threshold_angle",
+      "status": "PASS",
+      "actual": "30",
+      "expected": "30"
+    },
+    {
+      "name": "Object override P120/outer_wall_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P120/inner_wall_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P120/top_surface_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P120/internal_solid_infill_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P120/gap_infill_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P120/sparse_infill_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P121/brim_type",
+      "status": "PASS",
+      "actual": "outer_only",
+      "expected": "outer_only"
+    },
+    {
+      "name": "Object override P121/brim_width",
+      "status": "PASS",
+      "actual": "3",
+      "expected": "3"
+    },
+    {
+      "name": "Object override P121/brim_object_gap",
+      "status": "PASS",
+      "actual": "0.1",
+      "expected": "0.1"
+    },
+    {
+      "name": "Object override P121/enable_support",
+      "status": "PASS",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "Object override P121/support_type",
+      "status": "PASS",
+      "actual": "normal(auto)",
+      "expected": "normal(auto)"
+    },
+    {
+      "name": "Object override P121/support_on_build_plate_only",
+      "status": "PASS",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "Object override P121/support_top_z_distance",
+      "status": "PASS",
+      "actual": "0.25",
+      "expected": "0.25"
+    },
+    {
+      "name": "Object override P121/support_threshold_angle",
+      "status": "PASS",
+      "actual": "30",
+      "expected": "30"
+    },
+    {
+      "name": "Object override P121/outer_wall_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P121/inner_wall_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P121/top_surface_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P121/internal_solid_infill_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P121/gap_infill_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P121/sparse_infill_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P11/brim_type",
+      "status": "PASS",
+      "actual": "outer_only",
+      "expected": "outer_only"
+    },
+    {
+      "name": "Object override P11/brim_width",
+      "status": "PASS",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "Object override P11/brim_object_gap",
+      "status": "PASS",
+      "actual": "0.1",
+      "expected": "0.1"
+    },
+    {
+      "name": "Object override P11/enable_support",
+      "status": "PASS",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "Object override P11/sparse_infill_density",
+      "status": "PASS",
+      "actual": "100%",
+      "expected": "100%"
+    },
+    {
+      "name": "Object override P11/layer_height",
+      "status": "PASS",
+      "actual": "0.1",
+      "expected": "0.1"
+    },
+    {
+      "name": "Object override P11/outer_wall_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P11/inner_wall_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P11/top_surface_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P11/internal_solid_infill_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P11/gap_infill_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P11/sparse_infill_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P10/brim_type",
+      "status": "PASS",
+      "actual": "outer_only",
+      "expected": "outer_only"
+    },
+    {
+      "name": "Object override P10/brim_width",
+      "status": "PASS",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "Object override P10/brim_object_gap",
+      "status": "PASS",
+      "actual": "0.1",
+      "expected": "0.1"
+    },
+    {
+      "name": "Object override P10/enable_support",
+      "status": "PASS",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "Object override P10/outer_wall_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P10/inner_wall_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P10/top_surface_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P10/internal_solid_infill_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P10/gap_infill_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P10/sparse_infill_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P070a/brim_type",
+      "status": "PASS",
+      "actual": "outer_only",
+      "expected": "outer_only"
+    },
+    {
+      "name": "Object override P070a/brim_width",
+      "status": "PASS",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "Object override P070a/brim_object_gap",
+      "status": "PASS",
+      "actual": "0.1",
+      "expected": "0.1"
+    },
+    {
+      "name": "Object override P070a/enable_support",
+      "status": "PASS",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "Object override P070a/sparse_infill_density",
+      "status": "PASS",
+      "actual": "100%",
+      "expected": "100%"
+    },
+    {
+      "name": "Object override P070a/layer_height",
+      "status": "PASS",
+      "actual": "0.1",
+      "expected": "0.1"
+    },
+    {
+      "name": "Object override P070a/outer_wall_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P070a/inner_wall_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P070a/top_surface_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P070a/internal_solid_infill_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P070a/gap_infill_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P070a/sparse_infill_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P070b/brim_type",
+      "status": "PASS",
+      "actual": "outer_only",
+      "expected": "outer_only"
+    },
+    {
+      "name": "Object override P070b/brim_width",
+      "status": "PASS",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "Object override P070b/brim_object_gap",
+      "status": "PASS",
+      "actual": "0.1",
+      "expected": "0.1"
+    },
+    {
+      "name": "Object override P070b/enable_support",
+      "status": "PASS",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "Object override P070b/sparse_infill_density",
+      "status": "PASS",
+      "actual": "100%",
+      "expected": "100%"
+    },
+    {
+      "name": "Object override P070b/layer_height",
+      "status": "PASS",
+      "actual": "0.1",
+      "expected": "0.1"
+    },
+    {
+      "name": "Object override P070b/outer_wall_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P070b/inner_wall_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P070b/top_surface_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P070b/internal_solid_infill_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P070b/gap_infill_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P070b/sparse_infill_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P071a/brim_type",
+      "status": "PASS",
+      "actual": "outer_only",
+      "expected": "outer_only"
+    },
+    {
+      "name": "Object override P071a/brim_width",
+      "status": "PASS",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "Object override P071a/brim_object_gap",
+      "status": "PASS",
+      "actual": "0.1",
+      "expected": "0.1"
+    },
+    {
+      "name": "Object override P071a/enable_support",
+      "status": "PASS",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "Object override P071a/sparse_infill_density",
+      "status": "PASS",
+      "actual": "100%",
+      "expected": "100%"
+    },
+    {
+      "name": "Object override P071a/layer_height",
+      "status": "PASS",
+      "actual": "0.1",
+      "expected": "0.1"
+    },
+    {
+      "name": "Object override P071a/outer_wall_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P071a/inner_wall_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P071a/top_surface_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P071a/internal_solid_infill_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P071a/gap_infill_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P071a/sparse_infill_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P071b/brim_type",
+      "status": "PASS",
+      "actual": "outer_only",
+      "expected": "outer_only"
+    },
+    {
+      "name": "Object override P071b/brim_width",
+      "status": "PASS",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "Object override P071b/brim_object_gap",
+      "status": "PASS",
+      "actual": "0.1",
+      "expected": "0.1"
+    },
+    {
+      "name": "Object override P071b/enable_support",
+      "status": "PASS",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "Object override P071b/sparse_infill_density",
+      "status": "PASS",
+      "actual": "100%",
+      "expected": "100%"
+    },
+    {
+      "name": "Object override P071b/layer_height",
+      "status": "PASS",
+      "actual": "0.1",
+      "expected": "0.1"
+    },
+    {
+      "name": "Object override P071b/outer_wall_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P071b/inner_wall_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P071b/top_surface_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P071b/internal_solid_infill_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P071b/gap_infill_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override P071b/sparse_infill_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override Q01/brim_type",
+      "status": "PASS",
+      "actual": "outer_only",
+      "expected": "outer_only"
+    },
+    {
+      "name": "Object override Q01/brim_width",
+      "status": "PASS",
+      "actual": "3",
+      "expected": "3"
+    },
+    {
+      "name": "Object override Q01/brim_object_gap",
+      "status": "PASS",
+      "actual": "0.1",
+      "expected": "0.1"
+    },
+    {
+      "name": "Object override Q01/enable_support",
+      "status": "PASS",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "Object override Q01/support_type",
+      "status": "PASS",
+      "actual": "normal(auto)",
+      "expected": "normal(auto)"
+    },
+    {
+      "name": "Object override Q01/support_on_build_plate_only",
+      "status": "PASS",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "Object override Q01/support_top_z_distance",
+      "status": "PASS",
+      "actual": "0.25",
+      "expected": "0.25"
+    },
+    {
+      "name": "Object override Q01/support_threshold_angle",
+      "status": "PASS",
+      "actual": "30",
+      "expected": "30"
+    },
+    {
+      "name": "Object override Q01/sparse_infill_density",
+      "status": "PASS",
+      "actual": "100%",
+      "expected": "100%"
+    },
+    {
+      "name": "Object override Q01/outer_wall_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override Q01/inner_wall_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override Q01/top_surface_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override Q01/internal_solid_infill_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override Q01/gap_infill_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Object override Q01/sparse_infill_speed",
+      "status": "PASS",
+      "actual": "40,40,40,40,40,40,40",
+      "expected": "40"
+    },
+    {
+      "name": "Q01/P04/P08 support on model; P06 buildplate only",
+      "status": "PASS"
+    },
+    {
+      "name": "P07 nominal1.5 via0.1 layers",
+      "status": "PASS"
+    },
+    {
+      "name": "Official machine macro retained gcode_flavor",
+      "status": "PASS",
+      "sha256": "0327681c6d43af1719a752a088e93f5192c8740abee2bc63353fe4eff7749287"
+    },
+    {
+      "name": "Official machine macro retained machine_start_gcode",
+      "status": "PASS",
+      "sha256": "4ec8b2713943115211e1609afa26387ddf8879a1734f2b394d0d69d419539ef5"
+    },
+    {
+      "name": "Official machine macro retained machine_end_gcode",
+      "status": "PASS",
+      "sha256": "ff2fab8336b6ad542da23462dfd10a184393e5b24c08b2fa3d9b7958b6f5da61"
+    },
+    {
+      "name": "Official machine macro retained time_lapse_gcode",
+      "status": "PASS",
+      "sha256": "2b9c04541ef0dadc85a85aa2dd5da4af0b7af97cbd0a044ec4bb10f37bba0987"
+    },
+    {
+      "name": "Official machine macro retained wrapping_detection_gcode",
+      "status": "PASS",
+      "sha256": "9fd5b89fad81b7e0630add42bb742c6974e2d757cbdfd2a69492e3e4a0842847"
+    },
+    {
+      "name": "Official machine macro retained change_filament_gcode",
+      "status": "PASS",
+      "sha256": "2153741c80f920455d8a9023fcff2f52aa1f2a17436785bde511702f5245d092"
+    },
+    {
+      "name": "Official machine macro retained layer_change_gcode",
+      "status": "PASS",
+      "sha256": "a99517bc5a923d244b820f64c6d67effd0dd71c5863301bbf7578463805a4641"
+    },
+    {
+      "name": "Official machine macro retained machine_pause_gcode",
+      "status": "PASS",
+      "sha256": "421d0316bd5e4954c4425af1b89603412254dde55fe6eaf70c90b5b4e620fb66"
+    }
+  ],
+  "failed_checks": 0,
+  "comparison_tolerance_mm": 3e-05,
+  "scope": "Native editable3MF matches source triangles under proper rigid transforms and scale1; nominal reserved bed/layout and profiles. Actual sliced support/extrusion paths require separate toolpath report."
+}

@@ -1,0 +1,51 @@
+{
+  "status": "EXACT_MODEL_IDENTIFIED_STEP_DOWNLOAD_LOGIN_REQUIRED",
+  "exact_part": "Omron SS-01GL2, plain; solder terminals, SPDT, hinge roller lever",
+  "actual_factory_step_downloaded": false,
+  "actual_factory_step_imported_into_native_cad": false,
+  "native_R3_unchanged": true,
+  "drawing": {
+    "path": "vendor/omron_ss5gl2/SS_datasheet.pdf",
+    "sha256": "b7c3cc9e838c1049d58772242b56cd06af3526ac422907769acd892668ba1a09",
+    "url": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-ss.pdf",
+    "pages_reviewed": [
+      4,
+      6,
+      7
+    ]
+  },
+  "sources": [
+    {
+      "type": "manufacturer exact-part list",
+      "url": "https://www.aratas.com/us-en/products/switches/SS?page=5",
+      "result": "Exact plain SS-01GL2 row; CAD login required"
+    },
+    {
+      "type": "manufacturer CAD specifications",
+      "url": "https://www.aratas.com/us-en/technical-support/About_cad",
+      "result": "STEP AP203/AP214; switches modeled at free position; same-type filenames may differ from selected part"
+    },
+    {
+      "type": "exact part Ultra Librarian",
+      "url": "https://app.ultralibrarian.com/details/3ccbb3b6-b9ff-11e9-ab3a-0a3560a4cccc/Omron/SS-01GL2",
+      "result": "STEP listed, Login to Download"
+    },
+    {
+      "type": "DigiKey exact part CAD page",
+      "url": "https://www.digikey.com/en/models/369849",
+      "result": "Embedded TraceParts source. DigiKey CAD agreement not accepted."
+    },
+    {
+      "type": "DigiKey-linked TraceParts exact selected part",
+      "url": "https://www.traceparts.com/els/digikey/de/product/aratas-formerly-omron-components-subminiature-basic-switch-ss?Product=10-16052011-063907&SelectionPath=3%7C3%7C3%7C12%7C4%7C1%7C1%7C1%7C",
+      "result": "Visible model SS-01GL2; STEP AP214 selected; Download led to login. No actual download."
+    }
+  ],
+  "handoff": "Exact-selected TraceParts tab left open at login. User asked asynchronously to sign in; no response received at audit time.",
+  "limitations": [
+    "No account created, credentials entered or CAD agreement accepted.",
+    "Manufacturer drawing envelopes are not manufacturer STEP solids.",
+    "Static free-position CAD does not certify actuated lever geometry or switching point.",
+    "R3 nominal collision pass excludes the omitted solder terminals and lug profile; terminal envelope clash requires correction and revalidation."
+  ]
+}

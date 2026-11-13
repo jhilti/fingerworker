@@ -1,0 +1,426 @@
+{
+  "status": "PASS_NATIVE_INDEPENDENT_STRAP_REVIEW",
+  "checks": [
+    {
+      "name": "X28/-1/single2mm seated P01",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "X28/-1/single2mm whole stroke P04",
+      "status": "PASS",
+      "gap_lower_bound_mm": 40.5,
+      "clipped_native_bounds_mm": [
+        [
+          111.0,
+          -63.0,
+          4.9999999999999964
+        ],
+        [
+          119.0,
+          -56.5,
+          6.0
+        ]
+      ],
+      "complete_x_interval_mm": [
+        -30,
+        0
+      ]
+    },
+    {
+      "name": "X28/-1/single2mm whole stroke H060",
+      "status": "PASS",
+      "proof": "No exact native geometry anywhere in finite route Y/Z slab. X translation cannot enter slab."
+    },
+    {
+      "name": "X28/-1/single2mm whole stroke H061",
+      "status": "PASS",
+      "proof": "No exact native geometry anywhere in finite route Y/Z slab. X translation cannot enter slab."
+    },
+    {
+      "name": "X28/-1/single2mm whole stroke P11",
+      "status": "PASS",
+      "proof": "No exact native geometry anywhere in finite route Y/Z slab. X translation cannot enter slab."
+    },
+    {
+      "name": "X28/-1/single2mm whole stroke H10",
+      "status": "PASS",
+      "proof": "No exact native geometry anywhere in finite route Y/Z slab. X translation cannot enter slab."
+    },
+    {
+      "name": "X28/-1/conservative4mm seated P01",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "X28/-1/conservative4mm seated P05",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "X28/-1/conservative4mm whole stroke P04",
+      "status": "PASS",
+      "gap_lower_bound_mm": 40.5,
+      "clipped_native_bounds_mm": [
+        [
+          111.0,
+          -63.0,
+          4.9999999999999964
+        ],
+        [
+          119.0,
+          -56.5,
+          8.0
+        ]
+      ],
+      "complete_x_interval_mm": [
+        -30,
+        0
+      ]
+    },
+    {
+      "name": "X28/-1/conservative4mm whole stroke H060",
+      "status": "PASS",
+      "proof": "No exact native geometry anywhere in finite route Y/Z slab. X translation cannot enter slab."
+    },
+    {
+      "name": "X28/-1/conservative4mm whole stroke H061",
+      "status": "PASS",
+      "proof": "No exact native geometry anywhere in finite route Y/Z slab. X translation cannot enter slab."
+    },
+    {
+      "name": "X28/-1/conservative4mm whole stroke P11",
+      "status": "PASS",
+      "proof": "No exact native geometry anywhere in finite route Y/Z slab. X translation cannot enter slab."
+    },
+    {
+      "name": "X28/-1/conservative4mm whole stroke H10",
+      "status": "PASS",
+      "proof": "No exact native geometry anywhere in finite route Y/Z slab. X translation cannot enter slab."
+    },
+    {
+      "name": "X28/1/single2mm seated P01",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "X28/1/single2mm whole stroke P04",
+      "status": "PASS",
+      "gap_lower_bound_mm": 40.5,
+      "clipped_native_bounds_mm": [
+        [
+          111.0,
+          56.5,
+          4.9999999999999964
+        ],
+        [
+          119.0,
+          63.0,
+          6.0
+        ]
+      ],
+      "complete_x_interval_mm": [
+        -30,
+        0
+      ]
+    },
+    {
+      "name": "X28/1/single2mm whole stroke H060",
+      "status": "PASS",
+      "proof": "No exact native geometry anywhere in finite route Y/Z slab. X translation cannot enter slab."
+    },
+    {
+      "name": "X28/1/single2mm whole stroke H061",
+      "status": "PASS",
+      "proof": "No exact native geometry anywhere in finite route Y/Z slab. X translation cannot enter slab."
+    },
+    {
+      "name": "X28/1/single2mm whole stroke P11",
+      "status": "PASS",
+      "proof": "No exact native geometry anywhere in finite route Y/Z slab. X translation cannot enter slab."
+    },
+    {
+      "name": "X28/1/single2mm whole stroke H10",
+      "status": "PASS",
+      "proof": "No exact native geometry anywhere in finite route Y/Z slab. X translation cannot enter slab."
+    },
+    {
+      "name": "X28/1/conservative4mm seated P01",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "X28/1/conservative4mm seated P05",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "X28/1/conservative4mm whole stroke P04",
+      "status": "PASS",
+      "gap_lower_bound_mm": 40.5,
+      "clipped_native_bounds_mm": [
+        [
+          111.0,
+          56.5,
+          4.9999999999999964
+        ],
+        [
+          119.0,
+          63.0,
+          8.0
+        ]
+      ],
+      "complete_x_interval_mm": [
+        -30,
+        0
+      ]
+    },
+    {
+      "name": "X28/1/conservative4mm whole stroke H060",
+      "status": "PASS",
+      "proof": "No exact native geometry anywhere in finite route Y/Z slab. X translation cannot enter slab."
+    },
+    {
+      "name": "X28/1/conservative4mm whole stroke H061",
+      "status": "PASS",
+      "proof": "No exact native geometry anywhere in finite route Y/Z slab. X translation cannot enter slab."
+    },
+    {
+      "name": "X28/1/conservative4mm whole stroke P11",
+      "status": "PASS",
+      "proof": "No exact native geometry anywhere in finite route Y/Z slab. X translation cannot enter slab."
+    },
+    {
+      "name": "X28/1/conservative4mm whole stroke H10",
+      "status": "PASS",
+      "proof": "No exact native geometry anywhere in finite route Y/Z slab. X translation cannot enter slab."
+    },
+    {
+      "name": "X65/-1/single2mm seated P01",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "X65/-1/single2mm seated P04",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "X65/-1/single2mm whole stroke P04",
+      "status": "PASS",
+      "gap_lower_bound_mm": 3.5,
+      "clipped_native_bounds_mm": [
+        [
+          111.0,
+          -63.0,
+          4.9999999999999964
+        ],
+        [
+          119.0,
+          -56.5,
+          6.0
+        ]
+      ],
+      "complete_x_interval_mm": [
+        -30,
+        0
+      ]
+    },
+    {
+      "name": "X65/-1/single2mm whole stroke H060",
+      "status": "PASS",
+      "proof": "No exact native geometry anywhere in finite route Y/Z slab. X translation cannot enter slab."
+    },
+    {
+      "name": "X65/-1/single2mm whole stroke H061",
+      "status": "PASS",
+      "proof": "No exact native geometry anywhere in finite route Y/Z slab. X translation cannot enter slab."
+    },
+    {
+      "name": "X65/-1/single2mm whole stroke P11",
+      "status": "PASS",
+      "proof": "No exact native geometry anywhere in finite route Y/Z slab. X translation cannot enter slab."
+    },
+    {
+      "name": "X65/-1/single2mm whole stroke H10",
+      "status": "PASS",
+      "proof": "No exact native geometry anywhere in finite route Y/Z slab. X translation cannot enter slab."
+    },
+    {
+      "name": "X65/-1/conservative4mm seated P01",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "X65/-1/conservative4mm seated P04",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "X65/-1/conservative4mm whole stroke P04",
+      "status": "PASS",
+      "gap_lower_bound_mm": 3.5,
+      "clipped_native_bounds_mm": [
+        [
+          111.0,
+          -63.0,
+          4.9999999999999964
+        ],
+        [
+          119.0,
+          -56.5,
+          8.0
+        ]
+      ],
+      "complete_x_interval_mm": [
+        -30,
+        0
+      ]
+    },
+    {
+      "name": "X65/-1/conservative4mm whole stroke H060",
+      "status": "PASS",
+      "proof": "No exact native geometry anywhere in finite route Y/Z slab. X translation cannot enter slab."
+    },
+    {
+      "name": "X65/-1/conservative4mm whole stroke H061",
+      "status": "PASS",
+      "proof": "No exact native geometry anywhere in finite route Y/Z slab. X translation cannot enter slab."
+    },
+    {
+      "name": "X65/-1/conservative4mm whole stroke P11",
+      "status": "PASS",
+      "proof": "No exact native geometry anywhere in finite route Y/Z slab. X translation cannot enter slab."
+    },
+    {
+      "name": "X65/-1/conservative4mm whole stroke H10",
+      "status": "PASS",
+      "proof": "No exact native geometry anywhere in finite route Y/Z slab. X translation cannot enter slab."
+    },
+    {
+      "name": "X65/1/single2mm seated P01",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "X65/1/single2mm seated P04",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "X65/1/single2mm whole stroke P04",
+      "status": "PASS",
+      "gap_lower_bound_mm": 3.5,
+      "clipped_native_bounds_mm": [
+        [
+          111.0,
+          56.5,
+          4.9999999999999964
+        ],
+        [
+          119.0,
+          63.0,
+          6.0
+        ]
+      ],
+      "complete_x_interval_mm": [
+        -30,
+        0
+      ]
+    },
+    {
+      "name": "X65/1/single2mm whole stroke H060",
+      "status": "PASS",
+      "proof": "No exact native geometry anywhere in finite route Y/Z slab. X translation cannot enter slab."
+    },
+    {
+      "name": "X65/1/single2mm whole stroke H061",
+      "status": "PASS",
+      "proof": "No exact native geometry anywhere in finite route Y/Z slab. X translation cannot enter slab."
+    },
+    {
+      "name": "X65/1/single2mm whole stroke P11",
+      "status": "PASS",
+      "proof": "No exact native geometry anywhere in finite route Y/Z slab. X translation cannot enter slab."
+    },
+    {
+      "name": "X65/1/single2mm whole stroke H10",
+      "status": "PASS",
+      "proof": "No exact native geometry anywhere in finite route Y/Z slab. X translation cannot enter slab."
+    },
+    {
+      "name": "X65/1/conservative4mm seated P01",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "X65/1/conservative4mm seated P04",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "X65/1/conservative4mm whole stroke P04",
+      "status": "PASS",
+      "gap_lower_bound_mm": 3.5,
+      "clipped_native_bounds_mm": [
+        [
+          111.0,
+          56.5,
+          4.9999999999999964
+        ],
+        [
+          119.0,
+          63.0,
+          8.0
+        ]
+      ],
+      "complete_x_interval_mm": [
+        -30,
+        0
+      ]
+    },
+    {
+      "name": "X65/1/conservative4mm whole stroke H060",
+      "status": "PASS",
+      "proof": "No exact native geometry anywhere in finite route Y/Z slab. X translation cannot enter slab."
+    },
+    {
+      "name": "X65/1/conservative4mm whole stroke H061",
+      "status": "PASS",
+      "proof": "No exact native geometry anywhere in finite route Y/Z slab. X translation cannot enter slab."
+    },
+    {
+      "name": "X65/1/conservative4mm whole stroke P11",
+      "status": "PASS",
+      "proof": "No exact native geometry anywhere in finite route Y/Z slab. X translation cannot enter slab."
+    },
+    {
+      "name": "X65/1/conservative4mm whole stroke H10",
+      "status": "PASS",
+      "proof": "No exact native geometry anywhere in finite route Y/Z slab. X translation cannot enter slab."
+    },
+    {
+      "name": "Both side slots keep declared nominal ligaments",
+      "status": "PASS",
+      "outer_mm": 6.5,
+      "inner_mm": 17.5,
+      "net_rail_reduction_mm": 4
+    },
+    {
+      "name": "Front/rear station spacing and intervening slot ligament",
+      "status": "PASS",
+      "spacing_mm": 37,
+      "slot_end_ligament_mm": 10
+    }
+  ],
+  "failures": [],
+  "source_sha256": "97e2010cc17d06eb8648cf278b9aae2fd85b6e909bd657b9b216f3b37748665f",
+  "validator_sha256": "136095a769cbc2140542502c383c73c51728e5bb1ece7f59717bb49b0c40fb94",
+  "native_step_sha256": "5964654c121d6d375011bfb24144b2e00678a7ccac430490e83349c44de5842e",
+  "limitations": [
+    "Finite ribbon routes only; closure, object/thigh and free ribbon belowZ-20 unmodeled.",
+    "Conservative4mm above-strip allowance may approach moving spring seats more closely than intended2mm single ribbon.",
+    "Slots remove material from side rails; nominal6mm floor thickness is retained without broad recess, but structural equivalence/strength is not established.",
+    "37mm station spacing provides less resistance to rocking than prior75mm spacing; actual strapped stability requires testing."
+  ]
+}

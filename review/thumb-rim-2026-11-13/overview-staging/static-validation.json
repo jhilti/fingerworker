@@ -1,0 +1,16 @@
+{
+  "status": "PASS_STATIC_OVERVIEW",
+  "revision": "R19",
+  "html_sha256": "8b2ba98cc4737a57b563611b2c4d01afb3ee637589543eedcd93fec0537641ab",
+  "html_ids": 40,
+  "duplicate_ids": [],
+  "local_file_links": 43,
+  "external_navigation_links": 2,
+  "internal_anchors": 10,
+  "embedded_images": 5,
+  "external_runtime_assets": 0,
+  "print_rows": 8,
+  "hardware_rows": 25,
+  "source_bindings_verified": true,
+  "limitation": "Structural offline checks only. Visual and interactive behavior requires separate browser preview."
+}

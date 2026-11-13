@@ -1,0 +1,69 @@
+{
+  "source_sha256": "c8ec18f08149553001ccf8173f35fe57eee6a16be0294be2d7f88577f658cf5e",
+  "native_zip_sha256": "70d4b6e8f7d9c8edb8355c09e0466573315a3c7e28b1114dd95e25cbf679c453",
+  "units": "mm",
+  "count": 10,
+  "identity": "Byte-identical fresh native Onshape STL ZIP members; original assembly coordinates.",
+  "parts": {
+    "P01": {
+      "native_member": "Fingerworker MVP - P01 PRINT STUDY - Flat132 integral frame and solid palm, no palm fasteners or sleeve.stl",
+      "output": "print-mm/P01.stl",
+      "sha256": "4e28906af6d80ebc87aa64fc7d022fdb659e7c2294ffd172016f16ea2236d545",
+      "bytes": 3198884
+    },
+    "P04": {
+      "native_member": "Fingerworker MVP - P04 PRINT STUDY - Flat132 72 mm clear pocket, R12 seat reliefs.stl",
+      "output": "print-mm/P04.stl",
+      "sha256": "fdb84301af40be4ca84b838ebc1847b18ac0b2854818e3bfe63c1085d6ff0b7c",
+      "bytes": 2591984
+    },
+    "P05": {
+      "native_member": "Fingerworker MVP - P05 PRINT STUDY - Flat132 reinforced yoke with broad integral sensing stops.stl",
+      "output": "print-mm/P05.stl",
+      "sha256": "6083038072852dafc4bf786e39c2e6d9926e0092d3037399cb4943430b41310b",
+      "bytes": 778284
+    },
+    "P060": {
+      "native_member": "Fingerworker MVP - P060 PRINT STUDY - compact rear retainer with captured adjustable shoe.stl",
+      "output": "print-mm/P060.stl",
+      "sha256": "a70fd69acfbbd9147e33debced9e0e9e9ccff51b61bcb932e3557b26bf1e1d9d",
+      "bytes": 293284
+    },
+    "P061": {
+      "native_member": "Fingerworker MVP - P061 PRINT STUDY - compact rear retainer with captured adjustable shoe.stl",
+      "output": "print-mm/P061.stl",
+      "sha256": "ec10843f85cd2df5163e8cf8e75bab815baf713ae1f4d571f4c81d42f20bbced",
+      "bytes": 293284
+    },
+    "P08": {
+      "native_member": "Fingerworker MVP - P08 PRINT - Snap electronics tray, optional M2 mount.stl",
+      "output": "print-mm/P08.stl",
+      "sha256": "29a034f53760f6cfaa3be2947f484f25bcba5884466165ec51f9fc0682762a3d",
+      "bytes": 442184
+    },
+    "P09": {
+      "native_member": "Fingerworker MVP - P09 PRINT - Snap lid with integral wire clamp.stl",
+      "output": "print-mm/P09.stl",
+      "sha256": "296eb851b02ae7f12a7f7f4f5218e5e7571881974583dbf5648ab356c11e0a05",
+      "bytes": 145084
+    },
+    "P11": {
+      "native_member": "Fingerworker MVP - P11 PRINT STUDY - guided stepped cam shoe, manually set trim minus preload.stl",
+      "output": "print-mm/P11.stl",
+      "sha256": "ee81507b31f348ae644d268f5525a825d5eecbd44f580824105b74e3a191d49b",
+      "bytes": 29984
+    },
+    "P120": {
+      "native_member": "Fingerworker MVP - P120 PRINT STUDY - captured adjustable return shoe with integral hard lands.stl",
+      "output": "print-mm/P120.stl",
+      "sha256": "d7d3f82932b6e2a04374b7f776c75559d2cf56402dd803f887ff8ffcd68165bb",
+      "bytes": 93584
+    },
+    "P121": {
+      "native_member": "Fingerworker MVP - P121 PRINT STUDY - captured adjustable return shoe with integral hard lands.stl",
+      "output": "print-mm/P121.stl",
+      "sha256": "10bd81cfa709e1d3ae60319b03f65c369fb6f202aa63739e600f547eeca86a32",
+      "bytes": 93584
+    }
+  }
+}

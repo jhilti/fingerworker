@@ -1,0 +1,51 @@
+{
+  "status": "FROZEN_LOCAL_R17_CONTACT_REGIONS",
+  "CAD_source_sha256": "780dfdbaf9c6ab4bf4bbf3ab3de0dab3f9ac7dc5f8de49cf015c51ee95cc16e4",
+  "geometry_preflight_path": "review/side-thumb-2026-11-12/mechanics/preflight.json",
+  "geometry_preflight_sha256": "26a2872345d8e4b8576f3b4acd50a337e5b3e25699427748dc84c15e962549ab",
+  "pockets": [
+    {
+      "name": "negative",
+      "center_xy_mm": [
+        -24,
+        -75
+      ],
+      "radius_mm": 14,
+      "floor_z_mm": 20,
+      "top_z_mm": 33,
+      "floor_round_mm": 1.5,
+      "mouth_round_mm": 0.4,
+      "contact_radial_allowance_mm": 0.4
+    },
+    {
+      "name": "positive",
+      "center_xy_mm": [
+        -24,
+        75
+      ],
+      "radius_mm": 14,
+      "floor_z_mm": 20,
+      "top_z_mm": 33,
+      "floor_round_mm": 1.5,
+      "mouth_round_mm": 0.4,
+      "contact_radial_allowance_mm": 0.4
+    }
+  ],
+  "allowance_basis": "Conservative radial envelope: cylinder R14 plus maximum declared mouth fillet R0.4. Lower tool round R1.5 lies inside the R14 cylinder; floor underside supports are excluded below Z20.05.",
+  "added_cheek": {
+    "x_mm": [
+      -24,
+      -8
+    ],
+    "absolute_y_mm": [
+      59,
+      65
+    ],
+    "z_mm": [
+      16.5,
+      24.1
+    ],
+    "outer_taper": "45 degrees from |Y|63/Z16.5 to |Y|65/Z18.5",
+    "corner_radius_mm": 2
+  }
+}

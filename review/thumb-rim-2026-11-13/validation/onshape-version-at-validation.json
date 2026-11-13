@@ -1,0 +1,22 @@
+{
+  "version_id": "21323818480a2406fe14f51f",
+  "name": "Flat132 R19 - rounded thumb rims and rigid screw mounts - 2026-11-13",
+  "url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/21323818480a2406fe14f51f/e/d253eb87b70818ebde8215f0",
+  "workspace_id": "34f66e4cb47ca067a1744ed5",
+  "source_sha256": "0e88e273e2e9bc436b2844a44f04b28fb094593c0af87a2127d792bbb56f016d",
+  "source_readback_exact": true,
+  "native_parts": 94,
+  "status": "PASS_NATIVE_REGENERATION_AND_EXPORT_AUDITS",
+  "pose": {
+    "user_travel_mm": 0,
+    "cam_trim_mm": 0,
+    "light_springs": true,
+    "isometric": false,
+    "show_hand": false,
+    "show_electronics": true
+  },
+  "source_commit_method": "Chrome FeatureScript editor paste and Commit; exact clipboard readback before immutable version creation",
+  "supersedes_version": "13e353d6762b6cc58530122b",
+  "step_sha256": "41e4eb637ab9e78ca54be588712bfb05ad9d8f5ae5f34467a685cc422142819f",
+  "stl_zip_sha256": "344ca98f4147832b2a324c125df42c90b9d522f1617d554154b82e82312bc8b7"
+}

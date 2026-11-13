@@ -1,0 +1,1122 @@
+{
+  "schema_version": 1,
+  "status": "ACTUAL_NATIVE_INPUT_MANIFEST",
+  "native_provenance": {
+    "workspace_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/w/3ee26cf6386f889ca7ae9519/e/d253eb87b70818ebde8215f0",
+    "feature_source_sha256": "041056629440056626b2f2f88a0db216693e48fff178687174478cb1f34227ef",
+    "association": "Operator-supplied native export/source association; original filenames and each member SHA256 are checked in report.",
+    "immutable_version_id": "4c39034c17201905fdfbb1d6",
+    "immutable_version_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/4c39034c17201905fdfbb1d6/e/d253eb87b70818ebde8215f0",
+    "version_binding_note": "Root verified the immutable native version has the same final source and geometry; removing a suppressed obsolete Delete part feature has no geometry effect."
+  },
+  "assembly": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-finished-2026-10-22/native/Flat132_R1_neutral_final.zip",
+  "feature_source": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-finished-2026-10-22/fingerworker_flat132_finished.fs",
+  "expected_device_refs": [
+    "H01",
+    "H02",
+    "H030",
+    "H031",
+    "H040",
+    "H041",
+    "H050",
+    "H051",
+    "H060",
+    "H061",
+    "H070",
+    "H071",
+    "H080",
+    "H081",
+    "H09",
+    "H09a",
+    "H09b",
+    "H10",
+    "H11",
+    "H12",
+    "H13",
+    "H15",
+    "H160",
+    "H161",
+    "H170",
+    "H171",
+    "H180",
+    "H181",
+    "H190",
+    "H191",
+    "H20",
+    "H21",
+    "H22",
+    "H23",
+    "H240",
+    "H241",
+    "H242",
+    "H243",
+    "H250",
+    "H251",
+    "H252",
+    "H253",
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P060",
+    "P061",
+    "P070a",
+    "P070b",
+    "P071a",
+    "P071b",
+    "P08",
+    "P09",
+    "P10"
+  ],
+  "expected_electronics_count": 53,
+  "volume_tolerance_mm3": 0.01,
+  "gap_search_mm": 2.0,
+  "minimum_interval_mm": 0.0625,
+  "ignore_member_patterns": [],
+  "member_ref_overrides": {},
+  "motion_overrides": {},
+  "contacts": [
+    {
+      "pair": [
+        "H01",
+        "H02"
+      ],
+      "kind": "exterior_contact",
+      "reason": "Spherical button/pusher load contact; no material overlap permitted"
+    },
+    {
+      "pair": [
+        "H01",
+        "H12"
+      ],
+      "kind": "exterior_contact",
+      "reason": "Actual flat rear support; no material overlap permitted"
+    },
+    {
+      "pair": [
+        "P02",
+        "P03"
+      ],
+      "kind": "nominal_surface_fit_mesh_artifact",
+      "maximum_intersection_volume_mm3": 1.75,
+      "reason": "Native analytic R7.75 core/sleeve surfaces coincide. Separate STL facets can overlap; exact native BRep intersection must independently be zero.",
+      "requires_exact_brep_pair": true
+    },
+    {
+      "pair": [
+        "H09a",
+        "H09b"
+      ],
+      "kind": "purchased_actuator_internal_joint",
+      "maximum_intersection_volume_mm3": 1.53,
+      "reason": "Unchanged Omron actuator previews meet at roller axle. The lever cylinder terminates at roller centre. Analytic upper bound pi*(0.45)^2*2.4=1.52682mm3; joint is not independent device-body clearance."
+    },
+    {
+      "pair": [
+        "E08",
+        "PCB_SW2"
+      ],
+      "kind": "intended_switch_actuation_travel_envelope",
+      "maximum_intersection_volume_mm3": 3.22,
+      "reason": "E08 is an explicit swept side-button actuator TRAVEL/clearance envelope, not material. It deliberately reaches the SW2 switch courtyard/height envelope. Other component/enclosure clearances remain checked."
+    },
+    {
+      "pair": [
+        "H12",
+        "H250"
+      ],
+      "kind": "nominal_screw_thread_engagement",
+      "maximum_intersection_volume_mm3": 1.9,
+      "reason": "Nominal M2 shaft R1 occupies its R0.85 tap-drill envelope over the 2.15mm backing plate. Ideal annular envelope pi*(1^2\u22120.85^2)*2.15=1.87437mm3. Helical steel thread teeth are not modeled."
+    },
+    {
+      "pair": [
+        "H12",
+        "H251"
+      ],
+      "kind": "nominal_screw_thread_engagement",
+      "maximum_intersection_volume_mm3": 1.9,
+      "reason": "Nominal M2 shaft R1 occupies its R0.85 tap-drill envelope over the 2.15mm backing plate. Ideal annular envelope pi*(1^2\u22120.85^2)*2.15=1.87437mm3. Helical steel thread teeth are not modeled."
+    },
+    {
+      "pair": [
+        "H12",
+        "H252"
+      ],
+      "kind": "nominal_screw_thread_engagement",
+      "maximum_intersection_volume_mm3": 1.9,
+      "reason": "Nominal M2 shaft R1 occupies its R0.85 tap-drill envelope over the 2.15mm backing plate. Ideal annular envelope pi*(1^2\u22120.85^2)*2.15=1.87437mm3. Helical steel thread teeth are not modeled."
+    },
+    {
+      "pair": [
+        "H12",
+        "H253"
+      ],
+      "kind": "nominal_screw_thread_engagement",
+      "maximum_intersection_volume_mm3": 1.9,
+      "reason": "Nominal M2 shaft R1 occupies its R0.85 tap-drill envelope over the 2.15mm backing plate. Ideal annular envelope pi*(1^2\u22120.85^2)*2.15=1.87437mm3. Helical steel thread teeth are not modeled."
+    },
+    {
+      "pair": [
+        "H12",
+        "H180"
+      ],
+      "kind": "nominal_screw_thread_engagement",
+      "maximum_intersection_volume_mm3": 4.35,
+      "reason": "Finished M3x0.5 thread is represented by its standard diameter2.5mm tap-drill bore; the nominal shaft radius1.5mm engages for2mm. Ideal thread-envelope annulus pi*(1.5^2\u22121.25^2)*2=4.31969mm3. Helical thread teeth are not modeled."
+    },
+    {
+      "pair": [
+        "H12",
+        "H181"
+      ],
+      "kind": "nominal_screw_thread_engagement",
+      "maximum_intersection_volume_mm3": 4.35,
+      "reason": "Finished M3x0.5 thread is represented by its standard diameter2.5mm tap-drill bore; the nominal shaft radius1.5mm engages for2mm. Ideal thread-envelope annulus pi*(1.5^2\u22121.25^2)*2=4.31969mm3. Helical thread teeth are not modeled."
+    }
+  ],
+  "sensor": {
+    "ref": "H01",
+    "canonical_placed_step": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/actual-sensor-cad-2026-10-22/sensor/TE_FX1901_actual_apex_aligned_132_mm.step",
+    "canonical_sha256": "241c8b522707e9ce3b611db3c783d6c9e3bd6e492175c530d5e9795d9dc98097",
+    "native_assembly_step": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-finished-2026-10-22/native/Flat132_R1_final_AP214.step",
+    "additional_rigid_transform": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "brep_volume_tolerance_mm3": 0.0001
+  },
+  "native_poses": [
+    {
+      "mode": "dynamic",
+      "stroke_mm": 30.0,
+      "preload_mm": 2.0,
+      "assembly": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-finished-2026-10-22/native/Flat132_R1_max30_p2_heavy_final.zip"
+    },
+    {
+      "mode": "isometric",
+      "stroke_mm": 13.0,
+      "preload_mm": 2.0,
+      "assembly": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-finished-2026-10-22/native/Flat132_R1_isometric13_p2_final.zip"
+    }
+  ],
+  "dimension_checks": [
+    {
+      "name": "132 mm fixed-frame width",
+      "type": "bounds",
+      "ref": "P01",
+      "component": "extent",
+      "axis": 1,
+      "expected_mm": 132.0,
+      "tolerance_mm": 0.02
+    },
+    {
+      "name": "72 mm finger-pocket inner width at X94/Z20",
+      "type": "ray_levels",
+      "ref": "P04",
+      "origin_mm": [
+        94,
+        -200,
+        20
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "axis": 1,
+      "level_indices": [
+        2,
+        1
+      ],
+      "expected_mm": 72.0,
+      "tolerance_mm": 0.02
+    },
+    {
+      "name": "Actual sensor axial envelope (no scale)",
+      "type": "bounds",
+      "ref": "H01",
+      "axis": 0,
+      "component": "extent",
+      "expected_mm": 7.95,
+      "tolerance_mm": 0.02
+    },
+    {
+      "name": "Actual sensor housing/lead transverse envelope Z",
+      "type": "bounds",
+      "ref": "H01",
+      "axis": 2,
+      "component": "extent",
+      "expected_mm": 25.0,
+      "tolerance_mm": 0.02
+    },
+    {
+      "name": "Sensor backing plate axial thickness",
+      "type": "ray_levels",
+      "ref": "H12",
+      "origin_mm": [
+        100,
+        0,
+        18
+      ],
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "axis": 0,
+      "level_indices": [
+        -1,
+        0
+      ],
+      "expected_mm": 2.15,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Backing collar nominal steel wall, non-lead side",
+      "type": "ray_levels",
+      "ref": "H12",
+      "origin_mm": [
+        -9,
+        -100,
+        18
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "axis": 1,
+      "level_indices": [
+        -1,
+        0
+      ],
+      "expected_mm": 0.75,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Front stainless keeper thickness",
+      "type": "ray_levels",
+      "ref": "H23",
+      "origin_mm": [
+        100,
+        0,
+        31
+      ],
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "axis": 0,
+      "level_indices": [
+        -1,
+        0
+      ],
+      "expected_mm": 0.5,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Frame floor below sensor pocket",
+      "type": "ray_levels",
+      "ref": "P01",
+      "origin_mm": [
+        -5,
+        0,
+        100
+      ],
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "axis": 2,
+      "level_indices": [
+        -1,
+        0
+      ],
+      "expected_mm": 4.7,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "H190 retention spacer length",
+      "type": "bounds",
+      "ref": "H190",
+      "axis": 1,
+      "component": "extent",
+      "expected_mm": 6.0,
+      "tolerance_mm": 0.02
+    },
+    {
+      "name": "H191 retention spacer length",
+      "type": "bounds",
+      "ref": "H191",
+      "axis": 1,
+      "component": "extent",
+      "expected_mm": 6.0,
+      "tolerance_mm": 0.02
+    },
+    {
+      "name": "Restored carriage rear roof side-1",
+      "type": "ray_levels",
+      "ref": "P04",
+      "origin_mm": [
+        114,
+        -41.99,
+        100
+      ],
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "axis": 2,
+      "level_indices": [
+        -1,
+        -2
+      ],
+      "expected_mm": 4.063065,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Closed guide-slot front ligament side-1",
+      "type": "ray_levels",
+      "ref": "P01",
+      "origin_mm": [
+        100,
+        -16.5,
+        8.5
+      ],
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "axis": 0,
+      "level_indices": [
+        -1,
+        -2
+      ],
+      "expected_mm": 2.3,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Cassette ear upper ligament side-1",
+      "type": "ray_levels",
+      "ref": "H12",
+      "origin_mm": [
+        -12.8,
+        -13,
+        100
+      ],
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "axis": 2,
+      "level_indices": [
+        -1,
+        -2
+      ],
+      "expected_mm": 1.25,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Cassette ear rear ligament side-1",
+      "type": "ray_levels",
+      "ref": "H12",
+      "origin_mm": [
+        -100,
+        -13,
+        8.5
+      ],
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "axis": 0,
+      "level_indices": [
+        1,
+        0
+      ],
+      "expected_mm": 1.45,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Restored carriage rear roof side1",
+      "type": "ray_levels",
+      "ref": "P04",
+      "origin_mm": [
+        114,
+        41.99,
+        100
+      ],
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "axis": 2,
+      "level_indices": [
+        -1,
+        -2
+      ],
+      "expected_mm": 4.063065,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Closed guide-slot front ligament side1",
+      "type": "ray_levels",
+      "ref": "P01",
+      "origin_mm": [
+        100,
+        16.5,
+        8.5
+      ],
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "axis": 0,
+      "level_indices": [
+        -1,
+        -2
+      ],
+      "expected_mm": 2.3,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Cassette ear upper ligament side1",
+      "type": "ray_levels",
+      "ref": "H12",
+      "origin_mm": [
+        -12.8,
+        13,
+        100
+      ],
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "axis": 2,
+      "level_indices": [
+        -1,
+        -2
+      ],
+      "expected_mm": 1.25,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Cassette ear rear ligament side1",
+      "type": "ray_levels",
+      "ref": "H12",
+      "origin_mm": [
+        -100,
+        13,
+        8.5
+      ],
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "axis": 0,
+      "level_indices": [
+        1,
+        0
+      ],
+      "expected_mm": 1.45,
+      "tolerance_mm": 0.025
+    }
+  ],
+  "material_and_clearance_probes": [
+    {
+      "name": "Continuous flat steel rear support centre",
+      "ref": "H12",
+      "type": "box",
+      "minimum_mm": [
+        -11.99,
+        -7,
+        10
+      ],
+      "maximum_mm": [
+        -9.86,
+        7,
+        26
+      ],
+      "expect": "solid"
+    },
+    {
+      "name": "Retained 4.7mm frame floor under cell",
+      "ref": "P01",
+      "type": "box",
+      "minimum_mm": [
+        -12,
+        -5,
+        -1.99
+      ],
+      "maximum_mm": [
+        1,
+        5,
+        2.69
+      ],
+      "expect": "solid"
+    },
+    {
+      "name": "P05 central reaction web beside pusher",
+      "ref": "P05",
+      "type": "box",
+      "minimum_mm": [
+        1.41,
+        -5,
+        14
+      ],
+      "maximum_mm": [
+        4.99,
+        -3,
+        22
+      ],
+      "expect": "solid"
+    },
+    {
+      "name": "Positive-side fixed-guide lead exit",
+      "ref": "P01",
+      "type": "box",
+      "minimum_mm": [
+        -10.19,
+        15.51,
+        12.31
+      ],
+      "maximum_mm": [
+        -8.01,
+        18.49,
+        23.99
+      ],
+      "expect": "empty"
+    },
+    {
+      "name": "Backing collar ID25.5 air envelope",
+      "ref": "H12",
+      "type": "cylinder_x",
+      "start_x_mm": -9.849,
+      "end_x_mm": -8.651,
+      "y_mm": 0,
+      "z_mm": 18,
+      "radius_mm": 12.74,
+      "expect": "empty"
+    },
+    {
+      "name": "Stainless keeper ID20 air envelope",
+      "ref": "H23",
+      "type": "cylinder_x",
+      "start_x_mm": -1.399,
+      "end_x_mm": -0.901,
+      "y_mm": 0,
+      "z_mm": 18,
+      "radius_mm": 9.99,
+      "expect": "empty"
+    },
+    {
+      "name": "Soft sleeve swept adjuster relief",
+      "ref": "P03",
+      "type": "cylinder_x",
+      "start_x_mm": -24.49,
+      "end_x_mm": -21.31,
+      "y_mm": 0,
+      "z_mm": 18,
+      "radius_mm": 3.49,
+      "expect": "empty"
+    },
+    {
+      "name": "M2 front keeper clearance hole",
+      "ref": "H23",
+      "type": "cylinder_x",
+      "start_x_mm": -1.399,
+      "end_x_mm": -0.901,
+      "y_mm": -10.5,
+      "z_mm": 7.5,
+      "radius_mm": 1.099,
+      "expect": "empty"
+    },
+    {
+      "name": "M2 panhead/yoke clearance pocket",
+      "ref": "P05",
+      "type": "cylinder_x",
+      "start_x_mm": -1.49,
+      "end_x_mm": 1.39,
+      "y_mm": -10.5,
+      "z_mm": 7.5,
+      "radius_mm": 2.59,
+      "expect": "empty"
+    },
+    {
+      "name": "M2 rear backing pilot bore",
+      "ref": "H12",
+      "type": "cylinder_x",
+      "start_x_mm": -11.99,
+      "end_x_mm": -9.86,
+      "y_mm": -10.5,
+      "z_mm": 7.5,
+      "radius_mm": 0.849,
+      "expect": "empty"
+    },
+    {
+      "name": "M2 front keeper clearance hole",
+      "ref": "H23",
+      "type": "cylinder_x",
+      "start_x_mm": -1.399,
+      "end_x_mm": -0.901,
+      "y_mm": -10.5,
+      "z_mm": 28.5,
+      "radius_mm": 1.099,
+      "expect": "empty"
+    },
+    {
+      "name": "M2 panhead/yoke clearance pocket",
+      "ref": "P05",
+      "type": "cylinder_x",
+      "start_x_mm": -1.49,
+      "end_x_mm": 1.39,
+      "y_mm": -10.5,
+      "z_mm": 28.5,
+      "radius_mm": 2.59,
+      "expect": "empty"
+    },
+    {
+      "name": "M2 rear backing pilot bore",
+      "ref": "H12",
+      "type": "cylinder_x",
+      "start_x_mm": -11.99,
+      "end_x_mm": -9.86,
+      "y_mm": -10.5,
+      "z_mm": 28.5,
+      "radius_mm": 0.849,
+      "expect": "empty"
+    },
+    {
+      "name": "M2 front keeper clearance hole",
+      "ref": "H23",
+      "type": "cylinder_x",
+      "start_x_mm": -1.399,
+      "end_x_mm": -0.901,
+      "y_mm": 10.5,
+      "z_mm": 7.5,
+      "radius_mm": 1.099,
+      "expect": "empty"
+    },
+    {
+      "name": "M2 panhead/yoke clearance pocket",
+      "ref": "P05",
+      "type": "cylinder_x",
+      "start_x_mm": -1.49,
+      "end_x_mm": 1.39,
+      "y_mm": 10.5,
+      "z_mm": 7.5,
+      "radius_mm": 2.59,
+      "expect": "empty"
+    },
+    {
+      "name": "M2 rear backing pilot bore",
+      "ref": "H12",
+      "type": "cylinder_x",
+      "start_x_mm": -11.99,
+      "end_x_mm": -9.86,
+      "y_mm": 10.5,
+      "z_mm": 7.5,
+      "radius_mm": 0.849,
+      "expect": "empty"
+    },
+    {
+      "name": "M2 front keeper clearance hole",
+      "ref": "H23",
+      "type": "cylinder_x",
+      "start_x_mm": -1.399,
+      "end_x_mm": -0.901,
+      "y_mm": 10.5,
+      "z_mm": 28.5,
+      "radius_mm": 1.099,
+      "expect": "empty"
+    },
+    {
+      "name": "M2 panhead/yoke clearance pocket",
+      "ref": "P05",
+      "type": "cylinder_x",
+      "start_x_mm": -1.49,
+      "end_x_mm": 1.39,
+      "y_mm": 10.5,
+      "z_mm": 28.5,
+      "radius_mm": 2.59,
+      "expect": "empty"
+    },
+    {
+      "name": "M2 rear backing pilot bore",
+      "ref": "H12",
+      "type": "cylinder_x",
+      "start_x_mm": -11.99,
+      "end_x_mm": -9.86,
+      "y_mm": 10.5,
+      "z_mm": 28.5,
+      "radius_mm": 0.849,
+      "expect": "empty"
+    }
+  ],
+  "service_sweeps": [
+    {
+      "name": "Complete palm/electronics module upward release",
+      "moving_refs": [
+        "P02",
+        "P03",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "removed_refs": [],
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "range_mm": [
+        0,
+        40
+      ],
+      "initial_translation_mm": [
+        0,
+        0,
+        0.001
+      ],
+      "preload_mm": 2.0,
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "fixed_refs": [
+        "H01",
+        "H02",
+        "H040",
+        "H041",
+        "H050",
+        "H051",
+        "H060",
+        "H061",
+        "H070",
+        "H071",
+        "H080",
+        "H081",
+        "H09",
+        "H09a",
+        "H09b",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H15",
+        "H160",
+        "H161",
+        "H170",
+        "H171",
+        "H180",
+        "H181",
+        "H190",
+        "H191",
+        "H20",
+        "H21",
+        "H22",
+        "H23",
+        "H240",
+        "H241",
+        "H242",
+        "H243",
+        "H250",
+        "H251",
+        "H252",
+        "H253",
+        "P01",
+        "P04",
+        "P05",
+        "P060",
+        "P061",
+        "P070a",
+        "P070b",
+        "P071a",
+        "P071b"
+      ]
+    },
+    {
+      "name": "Keeper wristward release",
+      "moving_refs": [
+        "H15"
+      ],
+      "fixed_refs": [
+        "P01"
+      ],
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "range_mm": [
+        0,
+        1.4
+      ],
+      "prerequisites": "Remove complete palm/case module, H160/H161 keeper screws, H13 adjuster first."
+    },
+    {
+      "name": "Keeper upward removal after wristward release",
+      "moving_refs": [
+        "H15"
+      ],
+      "fixed_refs": [
+        "P01"
+      ],
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "range_mm": [
+        0,
+        35
+      ],
+      "initial_translation_mm": [
+        -1.4,
+        0,
+        0
+      ],
+      "prerequisites": "Same removals as wristward release; keeper already shifted1.4mm."
+    },
+    {
+      "name": "Sensor-yoke stack forward lead-window release",
+      "moving_refs": [
+        "H01",
+        "H02",
+        "H050",
+        "H051",
+        "H12",
+        "H20",
+        "H23",
+        "H240",
+        "H241",
+        "H242",
+        "H243",
+        "H250",
+        "H251",
+        "H252",
+        "H253",
+        "P05"
+      ],
+      "fixed_refs": [
+        "H060",
+        "H061",
+        "H070",
+        "H071",
+        "H080",
+        "H081",
+        "H09",
+        "H09a",
+        "H09b",
+        "H10",
+        "H11",
+        "H13",
+        "H15",
+        "H160",
+        "H161",
+        "H170",
+        "H171",
+        "H21",
+        "H22",
+        "P01",
+        "P04"
+      ],
+      "removed_refs": [
+        "H030",
+        "H031",
+        "H040",
+        "H041",
+        "H180",
+        "H181",
+        "H190",
+        "H191",
+        "P02",
+        "P03",
+        "P060",
+        "P061",
+        "P070a",
+        "P070b",
+        "P071a",
+        "P071b",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "range_mm": [
+        0,
+        2.1
+      ],
+      "initial_translation_mm": [
+        0,
+        0,
+        0
+      ],
+      "prerequisites": "Remove palm/case module; safely release/remove springs, rear caps/bumpers and both rods; remove H18/H19 retention hardware. Keep the whole sensor cassette/keeper/yoke/pusher stack together; preload0."
+    },
+    {
+      "name": "Sensor-yoke stack final upward removal",
+      "moving_refs": [
+        "H01",
+        "H02",
+        "H050",
+        "H051",
+        "H12",
+        "H20",
+        "H23",
+        "H240",
+        "H241",
+        "H242",
+        "H243",
+        "H250",
+        "H251",
+        "H252",
+        "H253",
+        "P05"
+      ],
+      "fixed_refs": [
+        "H060",
+        "H061",
+        "H070",
+        "H071",
+        "H080",
+        "H081",
+        "H09",
+        "H09a",
+        "H09b",
+        "H10",
+        "H11",
+        "H13",
+        "H15",
+        "H160",
+        "H161",
+        "H170",
+        "H171",
+        "H21",
+        "H22",
+        "P01",
+        "P04"
+      ],
+      "removed_refs": [
+        "H030",
+        "H031",
+        "H040",
+        "H041",
+        "H180",
+        "H181",
+        "H190",
+        "H191",
+        "P02",
+        "P03",
+        "P060",
+        "P061",
+        "P070a",
+        "P070b",
+        "P071a",
+        "P071b",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "range_mm": [
+        0,
+        40
+      ],
+      "initial_translation_mm": [
+        2.1,
+        0,
+        0
+      ],
+      "prerequisites": "Remove palm/case module; safely release/remove springs, rear caps/bumpers and both rods; remove H18/H19 retention hardware. Keep the whole sensor cassette/keeper/yoke/pusher stack together; preload0."
+    },
+    {
+      "name": "Removed stack: yoke/pusher axial separation from sensor keeper",
+      "moving_refs": [
+        "P05",
+        "H02",
+        "H20",
+        "H050",
+        "H051"
+      ],
+      "fixed_refs": [
+        "H01",
+        "H12",
+        "H23",
+        "H240",
+        "H241",
+        "H242",
+        "H243",
+        "H250",
+        "H251",
+        "H252",
+        "H253"
+      ],
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "range_mm": [
+        0,
+        30
+      ],
+      "prerequisites": "Complete assembled sensor/yoke stack removed onto bench using the preceding sequence. No other device bodies in this local separation check."
+    }
+  ],
+  "exact_brep_pairs": [
+    {
+      "pair": [
+        "P02",
+        "P03"
+      ],
+      "maximum_intersection_volume_mm3": 1e-06,
+      "reason": "Verify coincident nominal TPU/core fit has no BRep material overlap"
+    }
+  ],
+  "required_native_pose_keys": [
+    "dynamic:30:2",
+    "isometric:13:2"
+  ],
+  "native_part_steps": {},
+  "localized_wall_check_meaning": "Recorded nominal local sections, not globally established material strength or minimum wall. The reinforced guide endwall is2.3mm and cassette ear roof1.25mm; retention feature durability remains unqualified."
+}

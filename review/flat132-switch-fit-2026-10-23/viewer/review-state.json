@@ -1,0 +1,4 @@
+{
+  "nominal_status": "NOMINAL_GEOMETRY_CHECKS_PASS",
+  "message": "Native clearance, legal motion/service paths and STEP checks pass. Omron remains a drawing reference with conservative tab/lug envelopes and approximate lever motion; real actuation/travel, cam reset/lock and wiring remain unqualified. 500 N is a target only."
+}

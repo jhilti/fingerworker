@@ -1,0 +1,126 @@
+{
+  "variant": "front_down",
+  "header": {
+    "time": "4h 20m 33s",
+    "weight_g": 65.21
+  },
+  "features": {
+    "Support": {
+      "segments": 23900,
+      "path_mm": 47402.943632342394,
+      "max_chord_mm": 9.335471118267156
+    },
+    "Brim": {
+      "segments": 833,
+      "path_mm": 1864.272143493789,
+      "max_chord_mm": 31.913999999999987
+    },
+    "Inner wall": {
+      "segments": 45960,
+      "path_mm": 215030.0815476947,
+      "max_chord_mm": 123.91500006456037
+    },
+    "Outer wall": {
+      "segments": 15472,
+      "path_mm": 78191.41188699394,
+      "max_chord_mm": 123.96600006453383
+    },
+    "Bottom surface": {
+      "segments": 329,
+      "path_mm": 2334.149481076611,
+      "max_chord_mm": 28.449027136266025
+    },
+    "Overhang wall": {
+      "segments": 249,
+      "path_mm": 1453.6520533961523,
+      "max_chord_mm": 56.00200000000001
+    },
+    "Internal solid infill": {
+      "segments": 10090,
+      "path_mm": 65058.382614716196,
+      "max_chord_mm": 56.00000000892859
+    },
+    "Top surface": {
+      "segments": 591,
+      "path_mm": 9720.530461697626,
+      "max_chord_mm": 33.37685428556743
+    },
+    "Support transition": {
+      "segments": 2282,
+      "path_mm": 2308.9134354162375,
+      "max_chord_mm": 4.0930000000000035
+    },
+    "Sparse infill": {
+      "segments": 150326,
+      "path_mm": 166825.0114850419,
+      "max_chord_mm": 12.92000654024601
+    },
+    "Support interface": {
+      "segments": 3067,
+      "path_mm": 2961.1322006399987,
+      "max_chord_mm": 4.555000109769476
+    },
+    "Bridge": {
+      "segments": 1869,
+      "path_mm": 13543.300361138763,
+      "max_chord_mm": 63.23600050604085
+    },
+    "Floating vertical shell": {
+      "segments": 4307,
+      "path_mm": 7204.137294786328,
+      "max_chord_mm": 73.96199999999999
+    },
+    "Gap infill": {
+      "segments": 54,
+      "path_mm": 11.440753130446637,
+      "max_chord_mm": 1.974242133072842
+    }
+  },
+  "regions": {
+    "loaded_wall": {
+      "Bridge": {
+        "segments": 72,
+        "path_mm": 2115.3196541307343,
+        "max_chord_mm": 40.25315115615173
+      },
+      "Top surface": {
+        "segments": 124,
+        "path_mm": 2137.6262268605797,
+        "max_chord_mm": 19.97293814139522
+      }
+    },
+    "floor": {
+      "Outer wall": {
+        "segments": 119,
+        "path_mm": 7592.562014405059,
+        "max_chord_mm": 64.17500012465915
+      }
+    },
+    "guide": {
+      "Outer wall": {
+        "segments": 1382,
+        "path_mm": 10667.03087656518,
+        "max_chord_mm": 36.000000000000014
+      },
+      "Overhang wall": {
+        "segments": 21,
+        "path_mm": 23.62914619407272,
+        "max_chord_mm": 2.8430000000000035
+      }
+    },
+    "left_rod_bore": {
+      "Outer wall": {
+        "segments": 80,
+        "path_mm": 460.5236819802204,
+        "max_chord_mm": 8.418934433762985
+      }
+    },
+    "right_rod_bore": {
+      "Outer wall": {
+        "segments": 87,
+        "path_mm": 495.58890976367053,
+        "max_chord_mm": 8.419666086015525
+      }
+    }
+  }
+}

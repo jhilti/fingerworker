@@ -1,0 +1,116 @@
+{
+  "status": "LOCAL_PROTOTYPE_ACCESSORY_NOT_PHYSICAL_LOAD_RELEASE",
+  "date": "2026-10-26",
+  "quantity": 2,
+  "base_cad": "Frozen R9; no Onshape or original print package changes",
+  "existing_spring": {
+    "part": "0X-DF2194",
+    "free_length_mm": 102,
+    "rate_each_N_per_mm": 3.307
+  },
+  "proposed_spring": {
+    "part": "0X-RDF2127",
+    "quantity": 2,
+    "free_length_mm": 80,
+    "rate_each_N_per_mm": 2.212,
+    "OD_mm": 16,
+    "ID_mm": 12.4,
+    "wire_mm": 1.8,
+    "catalog_L1_mm": 34.75,
+    "catalog_F1_N": 100.09,
+    "approximate_solid_length_mm": 29.92,
+    "ends": "ground",
+    "material": "1.4310",
+    "source": "https://www.febrotec.de/de-DE/druckfedern/schraubendruckfedern/0x-rdf2127/",
+    "source_checked_live": "2026-10-26 via manufacturer product page"
+  },
+  "adapter": {
+    "body_OD_mm": 16,
+    "body_length_mm": 22,
+    "through_bore_mm": 6.6,
+    "pilot_OD_mm": 11.4,
+    "pilot_extension_mm": 2,
+    "overall_height_mm": 24,
+    "spring_bearing_shoulder_mm": 22,
+    "position": "One per side on fixed/yoke steel spring seat",
+    "assembly_X_mm": "body12+p..34+p; pilot34+p..36+p; spring34+p..108-a-u",
+    "volume_mm3": 3806.4164909424653,
+    "nominal_mass_PLA_g": 4.719956448768657
+  },
+  "force_ratio_to_original": 0.6688841850619898,
+  "nominal_reduction_percent": 33.111581493801026,
+  "user_target_ratio": 0.6666666666666666,
+  "spring_installed_length_mm": "74-a-p-u",
+  "legal_domain": "0<=a+p<=2; 0<=u<=30-a-p",
+  "minimum_spring_length_mm": 44,
+  "catalog_L1_reserve_mm": 9.25,
+  "pair_force_N": "4.424*(6+a+p+u)",
+  "force_rows_zero_adjustment": [
+    {
+      "travel_mm": 0,
+      "existing_pair_N": 39.684,
+      "proposed_pair_N": 26.544000000000004,
+      "proposed_pair_kgf": 2.7067347157286132
+    },
+    {
+      "travel_mm": 10,
+      "existing_pair_N": 105.824,
+      "proposed_pair_N": 70.784,
+      "proposed_pair_kgf": 7.217959241942968
+    },
+    {
+      "travel_mm": 20,
+      "existing_pair_N": 171.964,
+      "proposed_pair_N": 115.02400000000002,
+      "proposed_pair_kgf": 11.729183768157323
+    },
+    {
+      "travel_mm": 30,
+      "existing_pair_N": 238.10399999999998,
+      "proposed_pair_N": 159.264,
+      "proposed_pair_kgf": 16.24040829437168
+    }
+  ],
+  "nominal_only": "Linear spring calculation excludes tolerance and friction. No fatigue or load rating established.",
+  "local_part_checks": {
+    "valid_BRep": true,
+    "STL_watertight": true,
+    "one_mesh_component": true,
+    "dimensions_mm": [
+      16.0,
+      15.996837615966797,
+      24.0
+    ],
+    "analytical_volume_matches": true
+  },
+  "files": {
+    "S01_spring_spacer_22mm.step": {
+      "bytes": 13197,
+      "sha256": "70176d8223d0a02c82190705e2491d4443ad529a2a8de4418051d57c5a91f009"
+    },
+    "S01_spring_spacer_22mm.stl": {
+      "bytes": 94884,
+      "sha256": "be2724e7fbf7a725786b7f9a52ae62f923ff82b8c44994e72d24cef2e4f2addd"
+    }
+  },
+  "native_geometry_audit": {
+    "path": "validation/adapter-native-audit.json",
+    "sha256": "674d1b1b9f8ff6e7ea9ac6d86d5f3862fc2f83ac3d6156a7ce9710432d6fa3ae",
+    "status": "NOMINAL_LOCAL_ADAPTER_GEOMETRY_PASS",
+    "checks": 503,
+    "failures": 0,
+    "scope": "Local exact adapter CSG and conservative continuous nominal new spring envelopes against frozen R9 native BReps. Not native Onshape regeneration or physical testing."
+  },
+  "print_project": {
+    "path": "print/bambu-softer-springs-2026-10-26/S01_22mm_spacers_H2D_04mm_PLA.3mf",
+    "sha256": "47f7da92329f3a08e87dcd869ab828bfe887fd884a685ff4c59c9f23698ed23f",
+    "copies": 2,
+    "printer": "Bambu H2D",
+    "nozzle_mm": 0.4,
+    "material": "PLA",
+    "print_seconds": 2549,
+    "estimated_PLA_g": 9.36,
+    "slicer_status": "PASS",
+    "sent_to_printer": false
+  }
+}

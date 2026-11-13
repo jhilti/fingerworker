@@ -1,0 +1,487 @@
+{
+  "status": "PASS_INDEPENDENT_PROFILE_REVIEW",
+  "reviewed_at_utc": "2026-11-04T20:09:41.595744+00:00",
+  "candidate": "B",
+  "failed_checks": 0,
+  "checks": [
+    {
+      "name": "Exactly six requested mechanical pieces",
+      "status": "PASS",
+      "refs": [
+        "P01",
+        "P04",
+        "P05",
+        "P06",
+        "P11",
+        "Q01"
+      ],
+      "omitted": [
+        "P08",
+        "P09",
+        "H040",
+        "H041"
+      ]
+    },
+    {
+      "name": "Four walls and original layer heights retained in the native project",
+      "status": "PASS"
+    },
+    {
+      "name": "Original five-layer cover and first-layer settings retained",
+      "status": "PASS"
+    },
+    {
+      "name": "Actual outer-wall and top-surface accelerations are globally 1500",
+      "status": "PASS",
+      "evidence": "Direct positive-extrusion G-code scan of final candidate B; M204 S values, not object metadata."
+    },
+    {
+      "name": "Actual inner walls use declared global 6000 acceleration",
+      "status": "PASS",
+      "limitation": "P06, P11 and Q01 do not retain their old inner-wall acceleration. No per-object acceleration protection is claimed."
+    },
+    {
+      "name": "Ignored object-acceleration metadata removed",
+      "status": "PASS"
+    },
+    {
+      "name": "P04 actual finger-contact outer and top speeds retained",
+      "status": "PASS",
+      "outer_mm_s": 60,
+      "top_mm_s": 40,
+      "limitation": "Inner walls, infill, bridges and support use higher global default acceleration; only the stated exterior features retain their acceleration."
+    },
+    {
+      "name": "P06 actual perimeter speed limits retained with faster internal acceleration declared",
+      "status": "PASS",
+      "outer_acceleration_mm_s2": 1500,
+      "inner_acceleration_mm_s2": 6000,
+      "support_enabled": "0"
+    },
+    {
+      "name": "P11 and Q01 remain solid with inherited slow speed caps",
+      "status": "PASS",
+      "limitation": "Nominal object speeds are 40; P11 inner-wall toolpaths reach 50 mm/s, as in the prior baseline. Internal acceleration is 6000 for both pieces."
+    },
+    {
+      "name": "Support geometry and brim configuration retained",
+      "status": "PASS",
+      "limitation": "Support geometry/settings are preserved; support acceleration uses the new global 6000 value."
+    },
+    {
+      "name": "Original PLA flow cap and thermal profile retained",
+      "status": "PASS",
+      "max_volumetric_speed_mm3_s": [
+        "12",
+        "12",
+        "12"
+      ]
+    },
+    {
+      "name": "Original machine profile and macros retained",
+      "status": "PASS"
+    },
+    {
+      "name": "Internal and travel accelerations remain below configured machine maxima",
+      "status": "PASS",
+      "internal_mm_s2": 6000,
+      "travel_mm_s2": 8000,
+      "scope": "Numeric limit check only; not physical surface-quality or strength certification."
+    },
+    {
+      "name": "Arc fitting disabled for connected-printer compatibility",
+      "status": "PASS"
+    },
+    {
+      "name": "Successful exact candidate slice below twelve hours",
+      "status": "PASS",
+      "estimated_seconds": 40385.6796875,
+      "estimated_duration_rounded": "11h13m06s",
+      "filament_g": 232.02490234375
+    },
+    {
+      "name": "P01 palm finish change explicitly identified",
+      "status": "PASS",
+      "palm_outer_speed_mm_s": 100,
+      "palm_top_speed_mm_s": 60,
+      "previous_outer_speed_mm_s": 60,
+      "previous_top_speed_mm_s": 40,
+      "outer_and_top_acceleration_mm_s2": 1500,
+      "limitation": "P01 retains geometry and 0.2 mm layers, but higher exterior speeds can change surface finish. Do not describe all hand-contact settings as unchanged."
+    },
+    {
+      "name": "Independent direct G-code scan agrees with feature-level toolpath report",
+      "status": "PASS",
+      "actual_model_extrusion_segments": 1372830
+    }
+  ],
+  "actual_feature_maxima": {
+    "P06": {
+      "Brim": {
+        "segments": 876,
+        "max_speed_mm_s": 20.0,
+        "max_acceleration_mm_s2": 500.0
+      },
+      "Inner wall": {
+        "segments": 58237,
+        "max_speed_mm_s": 100.0,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Outer wall": {
+        "segments": 18937,
+        "max_speed_mm_s": 60.0,
+        "max_acceleration_mm_s2": 1500.0
+      },
+      "Bottom surface": {
+        "segments": 131,
+        "max_speed_mm_s": 20.0,
+        "max_acceleration_mm_s2": 500.0
+      },
+      "Internal solid infill": {
+        "segments": 6523,
+        "max_speed_mm_s": 160.0,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Sparse infill": {
+        "segments": 11151,
+        "max_speed_mm_s": 147.39129999999997,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Floating vertical shell": {
+        "segments": 1035,
+        "max_speed_mm_s": 128.0,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Bridge": {
+        "segments": 415,
+        "max_speed_mm_s": 25.0,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Top surface": {
+        "segments": 519,
+        "max_speed_mm_s": 40.0,
+        "max_acceleration_mm_s2": 1500.0
+      },
+      "Gap infill": {
+        "segments": 122,
+        "max_speed_mm_s": 120.0,
+        "max_acceleration_mm_s2": 6000.0
+      }
+    },
+    "Q01": {
+      "Brim": {
+        "segments": 198,
+        "max_speed_mm_s": 20.0,
+        "max_acceleration_mm_s2": 500.0
+      },
+      "Inner wall": {
+        "segments": 4882,
+        "max_speed_mm_s": 40.0,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Outer wall": {
+        "segments": 2278,
+        "max_speed_mm_s": 40.0,
+        "max_acceleration_mm_s2": 1500.0
+      },
+      "Bottom surface": {
+        "segments": 79,
+        "max_speed_mm_s": 20.0,
+        "max_acceleration_mm_s2": 500.0
+      },
+      "Internal solid infill": {
+        "segments": 3050,
+        "max_speed_mm_s": 40.0,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Sparse infill": {
+        "segments": 12524,
+        "max_speed_mm_s": 40.0,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Top surface": {
+        "segments": 101,
+        "max_speed_mm_s": 40.0,
+        "max_acceleration_mm_s2": 1500.0
+      },
+      "Gap infill": {
+        "segments": 29,
+        "max_speed_mm_s": 40.0,
+        "max_acceleration_mm_s2": 6000.0
+      }
+    },
+    "P11": {
+      "Brim": {
+        "segments": 106,
+        "max_speed_mm_s": 20.0,
+        "max_acceleration_mm_s2": 500.0
+      },
+      "Inner wall": {
+        "segments": 3508,
+        "max_speed_mm_s": 50.0,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Outer wall": {
+        "segments": 2302,
+        "max_speed_mm_s": 36.61666666666667,
+        "max_acceleration_mm_s2": 1500.0
+      },
+      "Overhang wall": {
+        "segments": 2,
+        "max_speed_mm_s": 25.0,
+        "max_acceleration_mm_s2": 1500.0
+      },
+      "Bridge": {
+        "segments": 11,
+        "max_speed_mm_s": 25.0,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Internal solid infill": {
+        "segments": 385,
+        "max_speed_mm_s": 40.0,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Top surface": {
+        "segments": 19,
+        "max_speed_mm_s": 40.0,
+        "max_acceleration_mm_s2": 1500.0
+      }
+    },
+    "P04": {
+      "Support": {
+        "segments": 165405,
+        "max_speed_mm_s": 60.0,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Brim": {
+        "segments": 833,
+        "max_speed_mm_s": 20.0,
+        "max_acceleration_mm_s2": 500.0
+      },
+      "Inner wall": {
+        "segments": 61821,
+        "max_speed_mm_s": 178.17371666666668,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Outer wall": {
+        "segments": 21675,
+        "max_speed_mm_s": 60.0,
+        "max_acceleration_mm_s2": 1500.0
+      },
+      "Bottom surface": {
+        "segments": 343,
+        "max_speed_mm_s": 20.0,
+        "max_acceleration_mm_s2": 500.0
+      },
+      "Overhang wall": {
+        "segments": 521,
+        "max_speed_mm_s": 25.0,
+        "max_acceleration_mm_s2": 1500.0
+      },
+      "Internal solid infill": {
+        "segments": 10122,
+        "max_speed_mm_s": 160.0,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Top surface": {
+        "segments": 591,
+        "max_speed_mm_s": 40.0,
+        "max_acceleration_mm_s2": 1500.0
+      },
+      "Support transition": {
+        "segments": 8748,
+        "max_speed_mm_s": 25.0,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Sparse infill": {
+        "segments": 174336,
+        "max_speed_mm_s": 147.39129999999997,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Support interface": {
+        "segments": 10751,
+        "max_speed_mm_s": 40.0,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Bridge": {
+        "segments": 2014,
+        "max_speed_mm_s": 25.0,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Floating vertical shell": {
+        "segments": 4879,
+        "max_speed_mm_s": 128.0,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Gap infill": {
+        "segments": 53,
+        "max_speed_mm_s": 120.0,
+        "max_acceleration_mm_s2": 6000.0
+      }
+    },
+    "P05": {
+      "Support": {
+        "segments": 2408,
+        "max_speed_mm_s": 100.0,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Brim": {
+        "segments": 1842,
+        "max_speed_mm_s": 20.0,
+        "max_acceleration_mm_s2": 500.0
+      },
+      "Inner wall": {
+        "segments": 43152,
+        "max_speed_mm_s": 154.32098333333334,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Outer wall": {
+        "segments": 13178,
+        "max_speed_mm_s": 100.0,
+        "max_acceleration_mm_s2": 1500.0
+      },
+      "Bottom surface": {
+        "segments": 603,
+        "max_speed_mm_s": 20.0,
+        "max_acceleration_mm_s2": 500.0
+      },
+      "Internal solid infill": {
+        "segments": 7234,
+        "max_speed_mm_s": 160.0,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Sparse infill": {
+        "segments": 123129,
+        "max_speed_mm_s": 147.39129999999997,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Floating vertical shell": {
+        "segments": 1670,
+        "max_speed_mm_s": 128.0,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Bridge": {
+        "segments": 1737,
+        "max_speed_mm_s": 25.0,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Support transition": {
+        "segments": 93,
+        "max_speed_mm_s": 25.0,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Support interface": {
+        "segments": 132,
+        "max_speed_mm_s": 40.0,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Top surface": {
+        "segments": 771,
+        "max_speed_mm_s": 60.0,
+        "max_acceleration_mm_s2": 1500.0
+      },
+      "Overhang wall": {
+        "segments": 70,
+        "max_speed_mm_s": 25.0,
+        "max_acceleration_mm_s2": 1500.0
+      },
+      "Gap infill": {
+        "segments": 36,
+        "max_speed_mm_s": 120.0,
+        "max_acceleration_mm_s2": 6000.0
+      }
+    },
+    "P01": {
+      "Support": {
+        "segments": 4783,
+        "max_speed_mm_s": 100.0,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Brim": {
+        "segments": 302,
+        "max_speed_mm_s": 20.0,
+        "max_acceleration_mm_s2": 500.0
+      },
+      "Inner wall": {
+        "segments": 89609,
+        "max_speed_mm_s": 180.0,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Outer wall": {
+        "segments": 31611,
+        "max_speed_mm_s": 100.0,
+        "max_acceleration_mm_s2": 1500.0
+      },
+      "Bottom surface": {
+        "segments": 1614,
+        "max_speed_mm_s": 20.0,
+        "max_acceleration_mm_s2": 500.0
+      },
+      "Internal solid infill": {
+        "segments": 30845,
+        "max_speed_mm_s": 160.0,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Sparse infill": {
+        "segments": 408871,
+        "max_speed_mm_s": 147.39129999999997,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Floating vertical shell": {
+        "segments": 8597,
+        "max_speed_mm_s": 128.0,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Bridge": {
+        "segments": 6660,
+        "max_speed_mm_s": 25.0,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Top surface": {
+        "segments": 3215,
+        "max_speed_mm_s": 60.0,
+        "max_acceleration_mm_s2": 1500.0
+      },
+      "Gap infill": {
+        "segments": 310,
+        "max_speed_mm_s": 120.0,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Support transition": {
+        "segments": 141,
+        "max_speed_mm_s": 25.0,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Support interface": {
+        "segments": 150,
+        "max_speed_mm_s": 40.0,
+        "max_acceleration_mm_s2": 6000.0
+      },
+      "Overhang wall": {
+        "segments": 555,
+        "max_speed_mm_s": 25.0,
+        "max_acceleration_mm_s2": 1500.0
+      }
+    }
+  },
+  "layout_sha256": "7d9034af2a180b78d5a72ac450845ad6fc5f983befdd21359e6d86703afdf795",
+  "CAD_source_sha256": "82b7d65708c46cd9d4b6ac271047eac2f638f0222451df99eae0780525edd851",
+  "editable_project_sha256": "6c8d3d766ea78e08310d741d8104fa17f4d0a7ba163688030f10340c743fabe2",
+  "sliced_internal_evidence_sha256": "ec80ac1408589cf306cb67abb51df17cfe9c8a78e1976d358bbdd07e41004dc5",
+  "actual_gcode_sha256": "a90e4565fc42c3265085ca22b017a4a9add53eb6a7f2312d9bfea6eb1e83a9b4",
+  "actual_toolpath_report_sha256": "d4154a5c55ddecdf11f247955e0cbd0fc4a665dd8e9d6225bbf41296770e6a56",
+  "baseline_project_sha256": "66f59b312d726439725f279a1fc68cb35d09b219f85b8be1b8f500277dc97dd3",
+  "process_profile_sha256": "4f4fbca40d494e4e19fb9b0058013c893e8283bc651687f929a8aa1899b73f00",
+  "filament_profile_sha256": "ffed8b58c038a05344bb833158d7ebf1077331c8eb402def63b279545ffc54a0",
+  "builder_sha256": "13fbe1c074b18bb4c62da100962c6095c44d8db88feb04c764a01f1c076d2bac",
+  "slice_result_sha256": "7dbd4e73b8fc992ed5733a78a1cc98bc24ae9f92bec5c98d017e4d831fcd9179",
+  "scope": "Independent native profile plus direct actual G-code feature-acceleration/speed review. Native geometry and full spatial toolpath/support checks are separate release gates.",
+  "decision": "Accept current six-piece 20% gyroid candidate B for deadline. Use printer speed mode 100%; no global speed multiplier.",
+  "correction": "Supersedes candidate A review, which incorrectly treated per-object acceleration metadata as effective. Candidate B removes ignored metadata, sets exterior acceleration globally, and this review inspects emitted M204 values.",
+  "limits": [
+    "11h13m06s is a slicer estimate, not a guarantee against interruptions.",
+    "20% gyroid replaces 30%; four walls and cover settings remain. Unloaded assembly/fit study, with no new strength qualification.",
+    "P01 palm exterior is faster; P04 outer/top speeds and acceleration remain protected.",
+    "Internal/default acceleration is 6000 for all pieces, including P06/P11/Q01, bridges and supports; exterior/top acceleration is 1500."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "status": "SOURCE_PATCH_PREPARED_NOT_NATIVE_REGENERATED",
+  "baseline_sha256": "5ce830ff2b06cd8d318d3c44dbc1f3385697526a9a679d2a2078f64f81854237",
+  "candidate_sha256": "cf3d04460a9fbd38f364de531e8c6afcae921506f8b6ab676820892d5e755022",
+  "scope": "P120/P121 gain old P07 contact lands; four separate P07 bodies disappear. P01 unchanged.",
+  "front_contact_x_mm": 119.0,
+  "common_adjustment_x_mm": [
+    0.0,
+    -2.0
+  ],
+  "overlap_into_existing_fork_mm": 0.2,
+  "separate_parts_removed": 4,
+  "material_intent": "Rigid PLA for initial spring-free assembly; no impact/creep qualification."
+}

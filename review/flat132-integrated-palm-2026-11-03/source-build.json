@@ -1,0 +1,603 @@
+{
+  "revision": "Flat132 R10 integral frame and solid palm",
+  "file": "fingerworker_flat132_integrated_palm.fs",
+  "sha256": "5ce830ff2b06cd8d318d3c44dbc1f3385697526a9a679d2a2078f64f81854237",
+  "bytes": 126545,
+  "status": "SOURCE_CONSTRUCTION_PASS_NATIVE_REGEN_EXPORT_SERVICE_AND_PRINT_VALIDATION_PENDING",
+  "baseline_source": "review/flat132-palm-bracing-2026-10-25/fingerworker_flat132_palm_bracing.fs",
+  "baseline_source_sha256": "16972ba9341f4cdf763a5570dad82a4fbd601f0935d0a7657be85813f97ff2b1",
+  "baseline_immutable_version_id": "e8f782e27bfe45394bf4038b",
+  "source_ledger_validation": {
+    "status": "PASS",
+    "baseline_sha256": "16972ba9341f4cdf763a5570dad82a4fbd601f0935d0a7657be85813f97ff2b1",
+    "forward_replay_sha256": "5ce830ff2b06cd8d318d3c44dbc1f3385697526a9a679d2a2078f64f81854237",
+    "matches_generated_source_exactly": true,
+    "unaccounted_mutations": 0
+  },
+  "expected_native_body_count_with_electronics": 122,
+  "expected_device_body_count": 69,
+  "expected_print_part_count": 15,
+  "changed_old_refs": [
+    "P01",
+    "P02",
+    "H15",
+    "H160",
+    "H161",
+    "H170",
+    "H171"
+  ],
+  "surviving_integrated_ref": "P01",
+  "removed_separate_print_refs": [
+    "P02"
+  ],
+  "added_print_refs": [],
+  "added_hardware_refs": [],
+  "palm_attachment_hardware_removed": [
+    "2 x M4x10 palm-to-frame bolts (not modeled as separate solids in R9)",
+    "2 x M4 heat-set palm inserts (not modeled as separate solids in R9)"
+  ],
+  "legal_domain_unchanged": "a>=0,p>=0,a+p<=2,u>=0,u+a+p<=30;dynamicq=5+a+u;ISOq20-p,userapproach15-p-a",
+  "csg_change_ledger": [
+    {
+      "operation": "omit positive stocks from P01 construction",
+      "feature": "palmKey0/1",
+      "bounds_mm": [
+        [
+          [
+            -22,
+            -34.5,
+            6.3
+          ],
+          [
+            -20,
+            -28.5,
+            8
+          ]
+        ],
+        [
+          [
+            -22,
+            28.5,
+            6.3
+          ],
+          [
+            -20,
+            34.5,
+            8
+          ]
+        ]
+      ]
+    },
+    {
+      "operation": "omit subtractive tools from P01; retain stock that was drilled in R9",
+      "feature": "palmInsert0/1",
+      "tool_shape": "cylinder",
+      "radius_mm": 2.6,
+      "centers_xy_mm": [
+        [
+          -16,
+          -31.5
+        ],
+        [
+          -16,
+          31.5
+        ]
+      ],
+      "z_interval_mm": [
+        0.2,
+        7.5
+      ]
+    },
+    {
+      "operation": "omit subtractive tools from P02; retain original uncut ear/drop stock",
+      "feature": "palmKeySlot0/1",
+      "bounds_mm": [
+        [
+          [
+            -22.25,
+            -34.75,
+            6.4
+          ],
+          [
+            -19.75,
+            -28.25,
+            8.3
+          ]
+        ],
+        [
+          [
+            -22.25,
+            28.25,
+            6.4
+          ],
+          [
+            -19.75,
+            34.75,
+            8.3
+          ]
+        ]
+      ]
+    },
+    {
+      "operation": "omit subtractive tools from P02; retain original uncut ear/drop stock",
+      "feature": "palmHole0/1",
+      "tool_shape": "cylinder",
+      "radius_mm": 2.2,
+      "centers_xy_mm": [
+        [
+          -16,
+          -31.5
+        ],
+        [
+          -16,
+          31.5
+        ]
+      ],
+      "z_interval_mm": [
+        5.5,
+        31
+      ]
+    },
+    {
+      "operation": "omit subtractive tools from P02; retain original uncut ear/drop stock",
+      "feature": "palmHead0/1",
+      "tool_shape": "cylinder",
+      "radius_mm": 4,
+      "centers_xy_mm": [
+        [
+          -16,
+          -31.5
+        ],
+        [
+          -16,
+          31.5
+        ]
+      ],
+      "z_interval_mm": [
+        10.5,
+        31
+      ]
+    },
+    {
+      "operation": "extend both original drop stocks down by0.2 mm",
+      "feature": "palmClampDropLeft/Right",
+      "original_z_min_mm": 6.5,
+      "new_z_min_mm": 6.3,
+      "added_raw_boxes_mm": [
+        [
+          [
+            -23,
+            -37,
+            6.3
+          ],
+          [
+            -17,
+            -26,
+            6.5
+          ]
+        ],
+        [
+          [
+            -23,
+            26,
+            6.3
+          ],
+          [
+            -17,
+            37,
+            6.5
+          ]
+        ]
+      ],
+      "purpose": "positive overlap with existing fixed feet, not boundary-only contact"
+    },
+    {
+      "operation": "trim obsolete palm M4 front mounting stock from both feet, ears and drops",
+      "feature": "palmFootLeft/Right, palmEarLeft/Right, palmClampDropLeft/Right",
+      "old_foot_x_max_mm": -9,
+      "old_ear_drop_x_max_mm": -9.5,
+      "new_all_x_max_mm": -17,
+      "foot_and_drop_x_interval_mm": [
+        -23,
+        -17
+      ],
+      "y_intervals_mm": [
+        [
+          -37,
+          -26
+        ],
+        [
+          26,
+          37
+        ]
+      ],
+      "each_nominal_foot_join_area_mm2": 66,
+      "purpose": "clear the lateral H18/H19 service/tool corridor and eliminate a thin residual front lip; obsolete M4 joint removed"
+    },
+    {
+      "operation": "subtract two lateral Ø6.4 service passages from P01 outer front rod blocks ONLY",
+      "feature": "captureServiceBore0/1",
+      "shape": "Y-axis cylinder",
+      "axis_xz_mm": [
+        -12.8,
+        8.5
+      ],
+      "radius_mm": 3.2,
+      "y_intervals_mm": [
+        [
+          -66.5,
+          -38.8
+        ],
+        [
+          38.8,
+          66.5
+        ]
+      ],
+      "protected_geometry": "cassette guides|Y|<=20.5; floor topZ4; rod socket bottomZ14.9",
+      "nominal_material_between_service_bore_and_rod_socket_mm": 3.2,
+      "required_service_setting": "unloaded and sensor preload0, then H18/H19/2.5mm hex approach along ±Y"
+    },
+    {
+      "operation": "extend both original brace stocks forward by0.2 mm",
+      "feature": "palmBracePad0/1",
+      "original_x_max_mm": -22.75,
+      "new_x_max_mm": -22.55,
+      "added_raw_boxes_mm": [
+        [
+          [
+            -22.75,
+            -25,
+            14
+          ],
+          [
+            -22.55,
+            -18,
+            27
+          ]
+        ],
+        [
+          [
+            -22.75,
+            18,
+            14
+          ],
+          [
+            -22.55,
+            25,
+            27
+          ]
+        ]
+      ],
+      "purpose": "positive overlap with existing fixed portal, not boundary-only contact"
+    },
+    {
+      "operation": "subtract lower keeper-release notch from P02 region ONLY",
+      "feature": "palmKeeperServiceNotch",
+      "bounds_mm": [
+        [
+          -25.5,
+          -16.5,
+          9.2
+        ],
+        [
+          -23.1,
+          16.5,
+          14.7
+        ]
+      ],
+      "purpose": "H15 rearward2 mm release then upward35 mm service with fixed palm",
+      "protected_geometry": "wrist half-roundX<=-27; R9 brace roots|Y|>=16.8; fixed portal never cut by this tool"
+    },
+    {
+      "operation": "omit two old P01 front square nut traps",
+      "feature": "keeperNutTrap0/1",
+      "bounds_mm": [
+        [
+          [
+            -18,
+            -13.85,
+            21.15
+          ],
+          [
+            -15.8,
+            -8.15,
+            26.85
+          ]
+        ],
+        [
+          [
+            -18,
+            8.15,
+            21.15
+          ],
+          [
+            -15.8,
+            13.85,
+            26.85
+          ]
+        ]
+      ]
+    },
+    {
+      "operation": "cut two P01 sensor-side countersunk screw-head accesses",
+      "feature": "keeperFrontCountersink0/1 and keeperFrontHeadAccess0/1",
+      "centers_yz_mm": [
+        [
+          -11,
+          24
+        ],
+        [
+          11,
+          24
+        ]
+      ],
+      "cone_x_interval_mm": [
+        -18.5,
+        -17
+      ],
+      "cone_radii_mm": [
+        1.5,
+        3
+      ],
+      "cylindrical_access_x_interval_mm": [
+        -17,
+        -15.8
+      ],
+      "cylindrical_access_radius_mm": 3.2,
+      "existing_shaft_drill": "Ø3.4 through pilot unchanged"
+    },
+    {
+      "operation": "omit both H15 countersinks; retain plain Ø3.4 holes",
+      "feature": "keeperCountersink0/1",
+      "old_cone_x_interval_mm": [
+        -23,
+        -21.5
+      ],
+      "old_cone_radii_mm": [
+        3,
+        1.5
+      ]
+    },
+    {
+      "operation": "reverse both unchanged nominal M3x8 screw envelopes aboutX-20",
+      "refs": [
+        "H160",
+        "H161"
+      ],
+      "new_head_face_x_mm": -17,
+      "new_tip_x_mm": -25,
+      "new_shaft_x_interval_mm": [
+        -25,
+        -18.4
+      ],
+      "new_head_cone_x_interval_mm": [
+        -18.5,
+        -17
+      ],
+      "new_head_cone_radii_mm": [
+        1.5,
+        3
+      ],
+      "approach": "+X sensor side after removing sensor/yoke stack"
+    },
+    {
+      "operation": "relocate both unchanged nominal M3 square nuts behind H15",
+      "refs": [
+        "H170",
+        "H171"
+      ],
+      "old_x_interval_mm": [
+        -17.9,
+        -16.1
+      ],
+      "new_x_interval_mm": [
+        -24.8,
+        -23
+      ],
+      "centers_yz_mm": [
+        [
+          -11,
+          24
+        ],
+        [
+          11,
+          24
+        ]
+      ],
+      "nut_body_af_mm": 5.5,
+      "nominal_full_engagement_mm": 1.8,
+      "nominal_screw_tip_excess_mm": 0.2,
+      "retention": "not captive; counterhold with slim AF5.5 open-end wrench"
+    },
+    {
+      "operation": "UNION after audit/electronics construction",
+      "feature": "integratePalmIntoFrame",
+      "inputs": [
+        "P01 construction region",
+        "P02 construction region"
+      ],
+      "result": "P01 exactly one solid",
+      "assertions": [
+        "2 input solids",
+        "1 final solid"
+      ]
+    }
+  ],
+  "unchanged_geometry_contract": [
+    "All R9 bodies other than P01/P02/H15/H160/H161/H170/H171 retain their exact construction code.",
+    "P02 wrist half-round, R8 cover, R9 R1.2 root blends and wrist/envelope datums are retained; the central lower front plate has the service notch and obsolete M4 foot/ear/drop fronts shorten toX-17.",
+    "Two M2 electronics mounting pilots remain; they attach the enclosure, not the palm to the frame.",
+    "P08/P09 and0.6 mm nominal cover/lid gap remain separate and unchanged.",
+    "No P03 sleeve existed in R9 and none is introduced in R10.",
+    "No moving/sensor/keeper/electronics part is fused; central keeper/adjuster opening remains and gains only the lower palm-side notch."
+  ],
+  "audit_strategy": {
+    "when": "before final union, after all mechanism transformations; electronics audit also before final union",
+    "regions": "separate P01/P02 construction solids including the intentional positive connecting overlap",
+    "removed_pair": "Palm support / base (planned internal interface only)",
+    "all_other_pairs": "unchanged region-specific queries and contact policies",
+    "reason": "after UNION qCreatedBy(palmPad) can trace entire P01; pre-union tests avoid self-pairs and broad allowed-contact policies",
+    "post_union_checks": "exactly one final integrated solid; no region-based collision audit after union"
+  },
+  "service_change": {
+    "palm": "P02 cannot lift off; R9 palm/case40 mm upward-removal route is invalid.",
+    "nominal_candidate_sequence": [
+      "Unload and restrain mechanism; reset sensor preload to0 before cassette-retainer service.",
+      "Approach H18 retainers with standard2.5mm hex from outside ±Y through the Ø6.4 front rod-block passages; remove H18 screws and H19 spacers.",
+      "Release sensor/yoke stack forward+3.2mmX, then lift+40mmZ using the separately validated route.",
+      "Approach H160/H161 from +X sensor side; counterhold H170/H171 from above.",
+      "Remove both M3x8 screws toward +X and remove both rear square nuts from above.",
+      "Translate H15 by-2 mmX, then lift+35 mmZ; reverse for installation.",
+      "Enclosure P08/P09 remains independently detachable below fixed palm; do not force lid against cover."
+    ],
+    "counterhold_tool_requirement": "AF5.5 open-end wrench, maximum2 mm head thickness and maximum13 mm head width; rear4 mm nominal gap. Tool procurement and physical fit require confirmation.",
+    "validation_status": "Independent BRep/continuous/tool-path checks pending; sequence is not yet a verified claim."
+  },
+  "qualification": "Nominal source candidate only. Native regeneration, CSG identity, continuous motion, assembly/service access and printability are pending. No physical strength or500 N load qualification.",
+  "changes": [
+    {
+      "label": "R10 scope and service identity",
+      "count": 1,
+      "old": "/**\n * Fingerworker MVP - R9 fixed-frame palm bracing CAD prototype; load rating unverified.\n * R9 changes P02 only: two broad integral compression pads bear against\n * fixed P01 atX-22.75, not the floating yoke, cell or electronics lid.\n * Each7 x13 mm nominal bearing face is atY18..25 orY-25..-18/Z14..27.\n * Two-mm root overlap and explicitR1.2 concave root stocks join the palm.\n * Exact nominal contact needs physical fitting; do not force an interference\n * fit or preload the fixed portal when tightening the palm fasteners.\n * All other bodies, wrist contact, mounts and R8 lid gap remain unchanged.\n * Unload/restrain before removing both M4 bolts and lifting the palm/case\n * module vertically; the contact pads have no hooks or undercuts.\n * R8 changes P02 only: a2 mm flat wrist ledge extends toX-46.1 over P09.\n * The added ledge is joined rigid stock, not a sleeve or an integrated lid.\n * Its undersideZ9.5 retains0.6 mm nominal gap to the lid topZ8.9.\n * P08/P09 and all mounts, openings and R7 mechanism geometry are unchanged.\n * Remove the palm/case unit and detach the case before lifting its lid.\n * USB plug/tool fit, print process, joint strength and500 N remain unqualified.\n * R7: base and rods shorten5 mm; rear shoes adjust equally by0..2 mm.\n * Two M4x10 adjusters use captive DIN562 nuts, OD12 reaction washers\n * and accessible DIN439 jam nuts. Two M2 pins positively retain shoes.\n * Rear cap screws are now explicitly modeled; nominal hardware only.\n * With extra rest advance a, a+p<=2 and u<=30-p-a retain28..30 mm stroke.\n * q=5+a+u dynamically; ISO q=20-p, approach15-p-a. No auto synchronization.\n * Device X envelope176.5 mm includes protruding adjuster ends at a0.\n * Physical locking, setup, print strength and500 N target remain unqualified.\n * R6: former P03 palm contact stock is solid and joined into rigid P02.\n * No separate palm sleeve, core bore, bottom interface gap or retaining tabs.\n * Wrist-facing outer contact curve, palm mounts and electronics are retained.\n * Four P07 TPU return bumpers remain separate and unchanged.\n * Inherited R5 motion and selected81 mm ISO sleeves are retained.\n * R5: dynamic rest and end grip5 mm closer; full30-preload user travel.\n * R7 carriage q=5+a+u; selected81 mm ISO sleeves use q=20-p\n * and user-relative approach u=15-p-a. Rear adjustment requires equal setup.\n * New guided P11 cam shoe is manually set to camTrim-preload.\n * Added pretension, return bosses and print joints need physical checks.\n * This local source is not a validated or strength-qualified release.\n * R4 2026-10-23: SS-01GL2 manufacturer DRAWING clearance reference.\n * Main body, three solder-tab boxes and a conservative lower-lug strip\n * share H09. Lever motion remains approximate; no factory STEP claim.\n * Fixed switch keeps its R4 +4 X / +1 Y / +1.5 Z mm location.\n * R5 replaces the former horizontal M3x8 cam with a P11 shoe and\n * a vertical M3x10 clamp; actual adjustment remains manual.\n * Preserve the R3 palm fit and the R2 sensor-force path and travel limits.\n * Native regeneration and full validation are required before release.\n *\n * X = pull direction, Y = finger-bar width, Z = height above the base.\n * Purchased hardware is modeled at nominal catalogue size. Printed parts are\n * separated bodies so they can be exported and printed individually.\n * SEPARATE BRANCH STUDY 2026-10-19: flat 132 mm frame, 72 mm clear pocket,\n * 84 mm deck, 102 mm spring-axis spacing, 6 mm base, 35 mm nominal sensor-retainer envelope.\n * P02 is detachable on two M4 bolts and positive locating keys. This NEW joint\n * has unqualified stiffness/strength. Palm contact geometry and electronics\n * enclosure are retained; R5 uses81 mm ISO sleeves. Remove both M4 bolts and lift the palm\n * and case module vertically before keeper/cassette assembly or service.\n * Lower forward clamps provide0.75 mm nominal capture-head withdrawal gap.\n * Derived from protected Rev D; this study does not supersede production files.\n * Native regeneration, motion/assembly checks and physical strength validation\n * are required. No tested load capacity or functional equivalence is claimed.\n */\n",
+      "new": "/**\n * Fingerworker MVP - R10 integral frame and solid palm CAD prototype.\n * P01 includes the former P02 rigid palm, its R8 electronics cover and R9\n * portal braces as ONE continuous printed solid. There is no palm sleeve,\n * palm-to-frame joint, M4 palm fastener, locating key or mounting recess.\n * The two forward drops overlap their fixed feet by0.2 mm inZ. The two R9\n * brace ends overlap the FIXED portal by0.2 mm inX. Wrist contact geometry,\n * enclosure M2 pilots and0.6 mm nominal lid gap are retained.\n * No moving yoke, sensor/cassette, keeper or electronics body is fused.\n * The central keeper/adjuster opening is retained. Keeper M3x8 screws now\n * approach from the sensor side; their heads are recessed in P01 atX-17.\n * H15 is a plain-hole plate; H17 nuts sit behind it atX-24.8..-23.\n * A small lower front notch permits unloaded keeper removal by-2 mmX,\n * then+35 mmZ after removing the sensor stack and keeper hardware.\n * Service-access fix: obsolete palm mount feet/ears/drops stop atX-17.\n * H18/H19 cassette retainers can exit alongY through newØ6.4 passages\n * in the outer front rod blocks. Unload and reset sensor preload to0 first.\n * The former detachable-palm lift-off service route no longer exists.\n *\n * Foreign-part collision audits run on the separate construction regions\n * BEFORE the final union. Their geometry includes the positive overlaps;\n * only the internal Palm/Base pair is omitted as an intended single solid.\n * This preserves region-specific contact policies and avoids qCreatedBy\n * tracing the whole fused frame as \"palm\" during hand/electronics checks.\n * The final union has an explicit exactly-one-solid assertion.\n *\n * Inherited R7/R9 mechanism dimensions and manual setup are unchanged:\n * rear advance a and sensor preload p require a>=0,p>=0,a+p<=2;\n * dynamic user travel u obeys0<=u<=30-p-a and absolute q=5+a+u.\n * Selected81 mm ISO sleeves use q=20-p and approach15-p-a.\n * Two M4x10 rear adjusters, captive DIN562 nuts, OD12 reaction washers,\n * DIN439 jam nuts and two M2 shoe-retaining pins remain hardware.\n * P07 return bumpers remain separate; no flexible palm sleeve is required.\n * H09 is an Omron SS-01GL2 DRAWING reference, not manufacturer STEP.\n * Native regeneration, assembly/service and printability checks are required.\n * This nominal CAD prototype has no tested load rating or500 N qualification.\n *\n * X=pull direction, Y=finger-bar width, Z=height above the base.\n * Flat132 envelope:132 mm width,72 mm clear pocket,84 mm deck,\n * 102 mm spring-axis spacing,6 mm nominal floor,35 mm device height.\n * Frozen parent:R9 source SHA16972ba9341f4cdf763a5570dad82a4fbd601f0935d0a7657be85813f97ff2b1.\n */\n"
+    },
+    {
+      "label": "R10 feature name",
+      "count": 1,
+      "old": "\"Feature Name Template\" : \"Flat132 R9 - palm braced on fixed frame\"",
+      "new": "\"Feature Name Template\" : \"Flat132 R10 - integral frame and solid palm\""
+    },
+    {
+      "label": "Audit construction-region contract",
+      "count": 1,
+      "old": " * Regenerate independently with previewTravel = 0, 15 and 30 mm and showHand",
+      "new": " * R10 calls this BEFORE final P01/P02 fusion. The construction regions\n * retain their own contact policies; their intended internal connection is\n * not an interference pair. All external geometry is still checked.\n * Regenerate independently with previewTravel = 0, 15 and 30 mm and showHand"
+    },
+    {
+      "label": "Do not audit a planned fused interface as two foreign bodies",
+      "count": 1,
+      "old": "        auditSolidPair(context,\"Palm support / base\",palm,base,true),\n",
+      "new": "        // R10 Palm/Base is an internal fused interface, not a collision pair.\n"
+    },
+    {
+      "label": "Integral feet identity",
+      "count": 1,
+      "old": "        // Flat132 detachable palm: two narrow feet remain outside sensor wall\n        // |Y|24 and inside rod blocks |Y|39, with2 mm nominal gaps each side.\n        // Positive keys supplement two M4 bolts; joint strength is unqualified.\n        // Case front X-23.6 clears foot wrist edge X-23 by0.6 mm.",
+      "new": "        // R10 integral palm: retain two feet outside the sensor wall and\n        // inside the rod blocks; their former locating keys are omitted.\n        // Case frontX-23.6 clears foot wrist edgeX-23 by0.6 mm.\n        // Feet and upper drops receive0.2 mm positive vertical overlap."
+    },
+    {
+      "label": "Omit the two positive palm locating keys",
+      "count": 1,
+      "old": "        for (var side in [-1,1])\n        {\n            const s=side == -1 ? \"0\" : \"1\";\n            const y=side*31.5;\n            makeBox(context,id + (\"palmKey\"~s),vector(-22,y-3,6.3)*mm,\n                vector(-20,y+3,8)*mm);\n            baseBodies=append(baseBodies,body(id + (\"palmKey\"~s)));\n        }\n",
+      "new": ""
+    },
+    {
+      "label": "Fuse the left drop through positive foot overlap",
+      "count": 1,
+      "old": "makeBox(context,id + \"palmClampDropLeft\",vector(-23,-37,6.5)*mm,vector(-9.5,-26,9.6)*mm);",
+      "new": "makeBox(context,id + \"palmClampDropLeft\",vector(-23,-37,6.3)*mm,vector(-9.5,-26,9.6)*mm);"
+    },
+    {
+      "label": "Fuse the right drop through positive foot overlap",
+      "count": 1,
+      "old": "makeBox(context,id + \"palmClampDropRight\",vector(-23,26,6.5)*mm,vector(-9.5,37,9.6)*mm);",
+      "new": "makeBox(context,id + \"palmClampDropRight\",vector(-23,26,6.3)*mm,vector(-9.5,37,9.6)*mm);"
+    },
+    {
+      "label": "Trim obsolete M4 mounting stock: left foot",
+      "count": 1,
+      "old": "vector(-9,-26,6.5)*mm);",
+      "new": "vector(-17,-26,6.5)*mm);"
+    },
+    {
+      "label": "Trim obsolete M4 mounting stock: right foot",
+      "count": 1,
+      "old": "vector(-9,37,6.5)*mm);",
+      "new": "vector(-17,37,6.5)*mm);"
+    },
+    {
+      "label": "Trim obsolete M4 mounting stock: left upper ear",
+      "count": 1,
+      "old": "vector(-9.5,-26,14.5)*mm);",
+      "new": "vector(-17,-26,14.5)*mm);"
+    },
+    {
+      "label": "Trim obsolete M4 mounting stock: right upper ear",
+      "count": 1,
+      "old": "vector(-9.5,37,14.5)*mm);",
+      "new": "vector(-17,37,14.5)*mm);"
+    },
+    {
+      "label": "Trim obsolete M4 mounting stock: left drop",
+      "count": 1,
+      "old": "vector(-9.5,-26,9.6)*mm);",
+      "new": "vector(-17,-26,9.6)*mm);"
+    },
+    {
+      "label": "Trim obsolete M4 mounting stock: right drop",
+      "count": 1,
+      "old": "vector(-9.5,37,9.6)*mm);",
+      "new": "vector(-17,37,9.6)*mm);"
+    },
+    {
+      "label": "Omit palm key slots, M4 insert pilots, through holes and head recesses",
+      "count": 1,
+      "old": "        var insertTools=[];\n        var palmTools=[];\n        var n=0;\n        // Two M4 bolts are retained from the existing hardware set. Each wing\n        // has one locating key with0.25 mm side and0.3 mm roof clearance.\n        // Tab front X-9.5 clears connector X-8.25 by1.25 mm for vertical lift.\n        for (var side in [-1,1])\n        {\n            const s=side == -1 ? \"0\" : \"1\";\n            const y=side*31.5;\n            makeBox(context,id + (\"palmKeySlot\"~s),vector(-22.25,y-3.25,6.4)*mm,\n                vector(-19.75,y+3.25,8.3)*mm);\n            cut(context,id + (\"palmKeySlotCut\"~s),body(id + \"palmPad\"),\n                body(id + (\"palmKeySlot\"~s)));\n        }\n        for (var x in [-16])\n        {\n            for (var y in [-31.5,31.5])\n            {\n                // Six-mm inserts install flushZ6.5 and endZ0.5, leaving\n                // Pilot floorZ0.2 leaves2.2 mm bottom wall above baseZ-2.\n                // M4x10 fromZ10.5 ends0.5, with0.3 mm nominal tip clearance.\n                makeCylinder(context,id + (\"palmInsert\"~n),vector(x,y,0.2)*mm,vector(x,y,7.5)*mm,2.6*mm);\n                insertTools=append(insertTools,body(id + (\"palmInsert\"~n)));\n                makeCylinder(context,id + (\"palmHole\"~n),vector(x,y,5.5)*mm,vector(x,y,31)*mm,2.2*mm);\n                palmTools=append(palmTools,body(id + (\"palmHole\"~n)));\n                makeCylinder(context,id + (\"palmHead\"~n),vector(x,y,10.5)*mm,vector(x,y,31)*mm,4*mm);\n                palmTools=append(palmTools,body(id + (\"palmHead\"~n)));\n                n+=1;\n            }\n        }\n        cut(context,id + \"palmMountHoles\",body(id + \"palmPad\"),qUnion(palmTools));\n",
+      "new": "        // R10: no palm attachment hardware or key slots. Keep the later\n        // rear-cap and switch insert pilots in this shared tools collection.\n        var insertTools=[];\n        var n=0;\n"
+    },
+    {
+      "label": "Integral portal braces identity",
+      "count": 1,
+      "old": "        // R9: broad direct compression bearings on the FIXED P01 rear\n        // wall, which starts atX-22.75. Central H15 keeper/adjuster access\n        // remains open. The moving P05 and sensor stack are never a brace.\n        // Main pads overlap the old palm's flatX-27 root by2 mm. Each flat\n        // contact face is7 mm wide and13 mm high, without a slender lip.",
+      "new": "        // R10: retain R9 broad braces and blend roots, and extend their\n        // ends0.2 mm into the FIXED portal starting atX-22.75. This positive\n        // volume becomes one printed body at the final union, never a fit.\n        // The central H15 keeper/adjuster opening remains unchanged.\n        // Moving P05 and the sensor stack are not part of this fusion."
+    },
+    {
+      "label": "Positive portal overlap for both brace stocks",
+      "count": 1,
+      "old": "vector(-22.75,hiY,27)*mm);",
+      "new": "vector(-22.55,hiY,27)*mm);"
+    },
+    {
+      "label": "Temporary palm region label before final fusion",
+      "count": 1,
+      "old": "\"P02 PRINT STUDY - solid half-round palm with fixed-frame compression braces and electronics cover\"",
+      "new": "\"R10 construction region - solid palm and braces, fused into P01 at feature end\""
+    },
+    {
+      "label": "Reverse keeper hardware for sensor-side service",
+      "count": 1,
+      "old": "            makeBox(context,id + (\"keeperNutTrap\"~t),vector(-18,side*11-2.85,21.15)*mm,vector(-15.8,side*11+2.85,26.85)*mm);\n            cut(context,id + (\"keeperNutTrapCut\"~t),body(id + \"loadCellWall\"),body(id + (\"keeperNutTrap\"~t)));\n            makeBox(context,id + (\"keeperNut\"~t),vector(-17.9,side*11-2.75,21.25)*mm,vector(-16.1,side*11+2.75,26.75)*mm);\n            makeCylinder(context,id + (\"keeperNutBore\"~t),vector(-18.1,side*11,24)*mm,vector(-16,side*11,24)*mm,1.55*mm);\n            cut(context,id + (\"keeperNutThread\"~t),body(id + (\"keeperNut\"~t)),body(id + (\"keeperNutBore\"~t)));\n            makeCylinder(context,id + (\"keeperScrew\"~t),vector(-21.6,side*11,24)*mm,vector(-15,side*11,24)*mm,1.5*mm);\n            fCone(context,id + (\"keeperCountersink\"~t),{\"bottomCenter\":vector(-23,side*11,24)*mm,\"topCenter\":vector(-21.5,side*11,24)*mm,\"bottomRadius\":3*mm,\"topRadius\":1.5*mm});\n            cut(context,id + (\"keeperCountersinkCut\"~t),body(id + \"nutKeeper\"),body(id + (\"keeperCountersink\"~t)));\n            fCone(context,id + (\"keeperHead\"~t),{\"bottomCenter\":vector(-23,side*11,24)*mm,\"topCenter\":vector(-21.5,side*11,24)*mm,\"bottomRadius\":3*mm,\"topRadius\":1.5*mm});\n            join(context,id + (\"keeperScrewJoin\"~t),[body(id + (\"keeperScrew\"~t)),body(id + (\"keeperHead\"~t))]);\n            nameBody(context,body(id + (\"keeperScrew\"~t)),\"H16\"~t~\" M3 x 8 countersunk keeper screw - 90 deg max head diameter 6\");",
+      "new": "            // R10: remove the sensor/yoke stack first, then approach\n            // these standard M3x8 screw heads from +X. A1 mm front recess\n            // places the head face atX-17 and the screw tip atX-25.\n            // The full1.8 mm H17 rear nut is engaged, with0.2 mm tip excess.\n            // H15 is now a plain Ø3.4 plate; no reverse countersink in steel.\n            makeBox(context,id + (\"keeperNut\"~t),vector(-24.8,side*11-2.75,21.25)*mm,vector(-23,side*11+2.75,26.75)*mm);\n            makeCylinder(context,id + (\"keeperNutBore\"~t),vector(-24.9,side*11,24)*mm,vector(-22.9,side*11,24)*mm,1.55*mm);\n            cut(context,id + (\"keeperNutThread\"~t),body(id + (\"keeperNut\"~t)),body(id + (\"keeperNutBore\"~t)));\n            fCone(context,id + (\"keeperFrontCountersink\"~t),{\"bottomCenter\":vector(-18.5,side*11,24)*mm,\"topCenter\":vector(-17,side*11,24)*mm,\"bottomRadius\":1.5*mm,\"topRadius\":3*mm});\n            makeCylinder(context,id + (\"keeperFrontHeadAccess\"~t),vector(-17,side*11,24)*mm,vector(-15.8,side*11,24)*mm,3.2*mm);\n            cut(context,id + (\"keeperFrontHeadRelief\"~t),body(id + \"loadCellWall\"),qUnion([body(id + (\"keeperFrontCountersink\"~t)),body(id + (\"keeperFrontHeadAccess\"~t))]));\n            makeCylinder(context,id + (\"keeperScrew\"~t),vector(-25,side*11,24)*mm,vector(-18.4,side*11,24)*mm,1.5*mm);\n            fCone(context,id + (\"keeperHead\"~t),{\"bottomCenter\":vector(-18.5,side*11,24)*mm,\"topCenter\":vector(-17,side*11,24)*mm,\"bottomRadius\":1.5*mm,\"topRadius\":3*mm});\n            join(context,id + (\"keeperScrewJoin\"~t),[body(id + (\"keeperScrew\"~t)),body(id + (\"keeperHead\"~t))]);\n            nameBody(context,body(id + (\"keeperScrew\"~t)),\"H16\"~t~\" M3 x 8 countersunk keeper screw - sensor-side head, max diameter 6\");"
+    },
+    {
+      "label": "Keeper fastener service description",
+      "count": 1,
+      "old": "        // A 2 mm steel keeper is recessed 1 mm into the wall. Through screws\n        // react into captive steel nuts; no tapped-plastic load-bearing threads.",
+      "new": "        // A2 mm steel keeper is recessed1 mm into the wall. R10 uses\n        // sensor-side countersunk M3x8 heads in the fixed portal and rear\n        // square steel nuts held by a slim AF5.5 open-end wrench from above.\n        // These are nominal unthreaded envelopes; printed-seat strength\n        // remains unqualified. No tapped-plastic load-bearing thread is used."
+    },
+    {
+      "label": "Plain keeper plate identity",
+      "count": 1,
+      "old": "\"H15 S355 steel keeper 32 x 19 x 2 - recessed and through bolted\"",
+      "new": "\"H15 S355 steel keeper 32 x 19 x 2 - plain holes, sensor-side screws and rear nuts\""
+    },
+    {
+      "label": "Lower keeper release notch only in palm construction region",
+      "count": 1,
+      "old": "        nameBody(context,body(id + \"palmPad\"),\n            \"R10 construction region - solid palm and braces, fused into P01 at feature end\");",
+      "new": "        // R10: lower H15 edge needs2 mm rearward release before it can\n        // lift clear of the fixed portal. This small open notch affects only\n        // the palm plate's front strip; the wrist half-round atX<=-27 and\n        // brace roots at|Y|>=16.8 are untouched. Never cut the fixed portal.\n        makeBox(context,id + \"palmKeeperServiceNotch\",vector(-25.5,-16.5,9.2)*mm,\n            vector(-23.1,16.5,14.7)*mm);\n        cut(context,id + \"palmKeeperServiceClearance\",body(id + \"palmPad\"),\n            body(id + \"palmKeeperServiceNotch\"));\n        nameBody(context,body(id + \"palmPad\"),\n            \"R10 construction region - solid palm and braces, fused into P01 at feature end\");"
+    },
+    {
+      "label": "Outer front rod-block cassette-retainer service passages",
+      "count": 1,
+      "old": "        nameBody(context,body(id + \"base\"),\"P01 PRINT STUDY - Flat132 compact adjustable-rear frame, 5 mm cassette guides, 6 mm nominal floor\");",
+      "new": "        // R10 service-access fix: at PRELOAD0 the H18 M3 cassette\n        // retainers and H19 spacers need a clear lateral removal/tool route.\n        // Trimmed palm feet/ears/drops end atX-17,1 mm clear of these bores.\n        // Cut ONLY the outer front rod blocks, leaving the cassette guides,\n        // floor and high rod sockets intact. AtZ11.7 bore top, the original\n        // rod-socket bottomZ14.9 retains3.2 mm nominal intervening material.\n        for (var side in [-1,1])\n        {\n            const t=side == -1 ? \"0\" : \"1\";\n            const fromY=side == -1 ? -66.5 : 38.8;\n            const toY=side == -1 ? -38.8 : 66.5;\n            makeCylinder(context,id + (\"captureServiceBore\"~t),\n                vector(-12.8,fromY,8.5)*mm,vector(-12.8,toY,8.5)*mm,3.2*mm);\n            cut(context,id + (\"captureServiceBoreCut\"~t),body(id + \"base\"),\n                body(id + (\"captureServiceBore\"~t)));\n        }\n        nameBody(context,body(id + \"base\"),\"P01 PRINT STUDY - Flat132 compact adjustable-rear frame, 5 mm cassette guides, 6 mm nominal floor\");"
+    },
+    {
+      "label": "Final union after all audits and electronics generation",
+      "count": 1,
+      "old": "        }\n\n    }, { \"previewTravel\":0*millimeter",
+      "new": "        }\n\n        // R10 final operation: all audits and electronics creation above use\n        // distinct construction regions. After this union qCreatedBy(palmPad)\n        // can trace the whole frame, so do not run region audits below it.\n        const frameAndPalm=qBodyType(qUnion([body(id + \"base\"),body(id + \"palmPad\")]),BodyType.SOLID);\n        if (size(evaluateQuery(context,frameAndPalm)) != 2)\n            throw regenError(\"R10 requires the two complete frame/palm construction regions before final fusion.\");\n        join(context,id + \"integratePalmIntoFrame\",[body(id + \"base\"),body(id + \"palmPad\")]);\n        const integratedFrame=qBodyType(qUnion([body(id + \"base\"),body(id + \"palmPad\")]),BodyType.SOLID);\n        if (size(evaluateQuery(context,integratedFrame)) != 1)\n            throw regenError(\"R10 frame and palm must regenerate as exactly ONE continuous solid.\");\n        nameBody(context,integratedFrame,\n            \"P01 PRINT STUDY - Flat132 integral frame and solid palm, no palm fasteners or sleeve\");\n        finishBody(context,integratedFrame,color(0.27,0.30,0.28));\n        println({\"R10IntegralFramePalmSolidCount\":size(evaluateQuery(context,integratedFrame)),\n            \"palmFasteners\":0,\"palmSleeve\":false,\"palmRemovable\":false});\n\n    }, { \"previewTravel\":0*millimeter"
+    }
+  ]
+}

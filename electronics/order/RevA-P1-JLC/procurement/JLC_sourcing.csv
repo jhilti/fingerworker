@@ -1,0 +1,27 @@
+Designator,MPN,JLC_LCSC_code,Qty_per_board,Qty_for_2_boards_without_attrition,Identity_evidence,Availability,Source_URL
+"C1, C3",GRM21BR61E106KA73L,C84416,2,4,LCSC,"Not reserved; confirm stock, MOQ and attrition at JLC",https://www.lcsc.com/it/product-detail/C84416.html
+"C4, C7",GRM21BR61E226ME44L,C86816,2,4,JLC,"Not reserved; confirm stock, MOQ and attrition at JLC",https://jlcpcb.com/partdetail/MurataElectronics-GRM21BR61E226ME44L/C86816
+C2,GRM188R71H103KA01D,C77053,1,2,JLC,"Not reserved; confirm stock, MOQ and attrition at JLC",https://jlcpcb.com/partdetail/MurataElectronics-GRM188R71H103KA01D/C77053
+C5,GRM1885C1H470JA01D,,1,2,UNMAPPED - Global Sourcing quotation required,"Not reserved; confirm stock, MOQ and attrition at JLC",https://www.digikey.com/en/products/detail/murata-electronics/GRM1885C1H470JA01D/586904
+"C6, C13",GRM188R71C105KA12D,C97890,2,4,LCSC,"Not reserved; confirm stock, MOQ and attrition at JLC",https://www.lcsc.com/de/product-detail/C97890.html
+C8,GRM188R71C474KA88D,C86019,1,2,JLC,"Not reserved; confirm stock, MOQ and attrition at JLC",https://jlcpcb.com/partdetail/MurataElectronics-GRM188R71C474KA88D/C86019
+"C9, C10",GRM1885C1H472JA01D,C85980,2,4,JLC,"Not reserved; confirm stock, MOQ and attrition at JLC",https://jlcpcb.com/partdetail/MurataElectronics-GRM1885C1H472JA01D/C85980
+"C11, C12, C14, C15, C16",GRM188R71C104KA01D,C45000,5,10,JLC,"Not reserved; confirm stock, MOQ and attrition at JLC",https://jlcpcb.com/partdetail/MurataElectronics-GRM188R71C104KA01D/C45000
+"R1, R2, R5, R6, R15, R16, R20",RC0603FR-07100KL,C14675,7,14,JLC,"Not reserved; confirm stock, MOQ and attrition at JLC",https://jlcpcb.com/partdetail/C14675
+R3,RT0603BRD07680KL,C326722,1,2,LCSC,"Not reserved; confirm stock, MOQ and attrition at JLC",https://www.lcsc.com/pt/product-detail/C326722.html
+R4,RT0603BRD07200KL,C728585,1,2,LCSC,"Not reserved; confirm stock, MOQ and attrition at JLC",https://www.lcsc.com/it/product-detail/C728585.html
+"R7, R8",RT0603BRD071KL,C110776,2,4,JLC,"Not reserved; confirm stock, MOQ and attrition at JLC",https://jlcpcb.com/partdetail/YAGEO-RT0603BRD071KL/C110776
+"R9, R10",RC0603FR-07100RL,C105588,2,4,JLC,"Not reserved; confirm stock, MOQ and attrition at JLC",https://jlcpcb.com/partdetail/RC0603FR-07100RL/C105588
+"R11, R12, R13",RC0603FR-0733RL,C108661,3,6,LCSC,"Not reserved; confirm stock, MOQ and attrition at JLC",https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0603FR-0733RL_C108661.html
+"R14, R19",RC0603FR-0747KL,C105579,2,4,JLC,"Not reserved; confirm stock, MOQ and attrition at JLC",https://jlcpcb.com/partdetail/RC0603FR-0747KL/C105579
+R17,RC0603FR-074K7L,C99782,1,2,JLC,"Not reserved; confirm stock, MOQ and attrition at JLC",https://jlcpcb.com/partdetail/RC0603FR-074K7L/C99782
+"R18, R21",RC0603FR-071KL,C22548,2,4,JLC,"Not reserved; confirm stock, MOQ and attrition at JLC",https://jlcpcb.com/partdetail/RC0603FR-071KL/C22548
+U1,102010448,C17209540,1,2,JLC,"Not reserved; confirm stock, MOQ and attrition at JLC",https://jlcpcb.com/partdetail/Seeed-102010448/C17209540
+U2,TPS61041DBVR,C9846,1,2,LCSC datasheet identity; portal match required,"Not reserved; confirm stock, MOQ and attrition at JLC",https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-TPS61041DBVR_C9846.pdf
+U3,TPS7A2050PDBVR,C2864504,1,2,JLC,"Not reserved; confirm stock, MOQ and attrition at JLC",https://jlcpcb.com/partdetail/TexasInstruments-TPS7A2050PDBVR/C2864504
+U4,ADS1220IPWR,C48263,1,2,JLC,"Not reserved; confirm stock, MOQ and attrition at JLC",https://jlcpcb.com/partdetail/ADS1220IPWR/C48263
+L1,XFL3012-103MEC,C3911417,1,2,JLC,"Not reserved; confirm stock, MOQ and attrition at JLC",https://jlcpcb.com/partdetail/Coilcraft-XFL3012103MEC/C3911417
+D1,MBR0520LT1G,C23848,1,2,JLC,"Not reserved; confirm stock, MOQ and attrition at JLC",https://jlcpcb.com/partdetail/Onsemi-MBR0520LT1G/C23848
+Q1,"2N7002,215",C65189,1,2,JLC,"Not reserved; confirm stock, MOQ and attrition at JLC",https://jlcpcb.com/partdetail/2N7002%2C215/C65189
+SW2,EVQPUC02K,C79174,1,2,JLC,"Not reserved; confirm stock, MOQ and attrition at JLC",https://jlcpcb.com/partdetail/Panasonic-EVQPUC02K/C79174
+J1,S2B-PH-SM4-TB(LF)(SN),C295747,1,2,JLC,"Not reserved; confirm stock, MOQ and attrition at JLC",https://jlcpcb.com/partdetail/JST-S2B_PH_SM4_TB_LF_SN/C295747

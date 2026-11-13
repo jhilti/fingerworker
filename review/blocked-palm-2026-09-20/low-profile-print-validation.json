@@ -1,0 +1,139 @@
+{
+  "source": "Onshape, final 0 mm pose, hand off; binary STL, millimetres, Fine",
+  "source_zip_sha256": "b8ba0e3409a14216027190f2b12a1d93fa12731b5594dd1c0f1938b10490a86e",
+  "cad_source_sha256": "296ac4e790c985ddfad11f8684ee1cfee9c04584a58d905a75ffbe486b4d04c6",
+  "parts": [
+    {
+      "file": "P01_base.stl",
+      "triangles": 34448,
+      "size_mm": [
+        216.0,
+        210.0,
+        29.0
+      ],
+      "volume_mm3": 312263.862,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "fab112b5d01df4161de9f1a98f79de0c4a11d3e899df9375c7cda9652a569e79"
+    },
+    {
+      "file": "P02_palm_bolster.stl",
+      "triangles": 24804,
+      "size_mm": [
+        27.0,
+        128.0,
+        17.998
+      ],
+      "volume_mm3": 34833.31,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "dd65fd272aba64d3434bb43c203a45e930597f5ac40c1890a733b8d72f144bce"
+    },
+    {
+      "file": "P071b_return_pad_right_b_TPU.stl",
+      "triangles": 12,
+      "size_mm": [
+        6.0,
+        4.5,
+        1.5
+      ],
+      "volume_mm3": 40.5,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "b133243e632897ed5f4c7474910eacce7f15890aab255a8265c2b17ef5bb8d82"
+    },
+    {
+      "file": "P060_rear_retainer_left.stl",
+      "triangles": 2902,
+      "size_mm": [
+        8.0,
+        24.0,
+        22.0
+      ],
+      "volume_mm3": 2821.608,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "ac96581618b1c8a531040713c40f29be0ff4dce3c311f6ce3a2fd71f44244650"
+    },
+    {
+      "file": "P03_palm_sleeve_TPU.stl",
+      "triangles": 16134,
+      "size_mm": [
+        20.499,
+        15.398,
+        86.0
+      ],
+      "volume_mm3": 8415.284,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "cb016dbfcb65a066b98ce6a7a0d91395f74b58f4bddcf2190364a2930f6dd8f9"
+    },
+    {
+      "file": "P061_rear_retainer_right.stl",
+      "triangles": 2902,
+      "size_mm": [
+        8.0,
+        24.0,
+        22.0
+      ],
+      "volume_mm3": 2821.608,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "d419c77a8e257ddc0b27578f7570e4a50977148b1a12534639de503b308f9b06"
+    },
+    {
+      "file": "P04_climbing_carriage.stl",
+      "triangles": 57922,
+      "size_mm": [
+        70.0,
+        204.0,
+        23.0
+      ],
+      "volume_mm3": 221114.356,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "b85ef5bace72d785d7c7f4dd948f36e30df16758c592ea69c1dd5ce8f47f366f"
+    },
+    {
+      "file": "P070a_return_pad_left_a_TPU.stl",
+      "triangles": 12,
+      "size_mm": [
+        6.0,
+        4.5,
+        1.5
+      ],
+      "volume_mm3": 40.5,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "b133243e632897ed5f4c7474910eacce7f15890aab255a8265c2b17ef5bb8d82"
+    },
+    {
+      "file": "P05_floating_yoke.stl",
+      "triangles": 13820,
+      "size_mm": [
+        22.5,
+        180.0,
+        22.0
+      ],
+      "volume_mm3": 64361.039,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "2e4e67d17eeefb7f2e123ba0e16a8d365564a9cbea3fcec05c603ca6acdfe742"
+    },
+    {
+      "file": "P070b_return_pad_left_b_TPU.stl",
+      "triangles": 12,
+      "size_mm": [
+        6.0,
+        4.5,
+        1.5
+      ],
+      "volume_mm3": 40.5,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "b133243e632897ed5f4c7474910eacce7f15890aab255a8265c2b17ef5bb8d82"
+    },
+    {
+      "file": "P071a_return_pad_right_a_TPU.stl",
+      "triangles": 12,
+      "size_mm": [
+        6.0,
+        4.5,
+        1.5
+      ],
+      "volume_mm3": 40.5,
+      "nonmanifold_edges_at_1e-5mm": 0,
+      "sha256": "b133243e632897ed5f4c7474910eacce7f15890aab255a8265c2b17ef5bb8d82"
+    }
+  ]
+}

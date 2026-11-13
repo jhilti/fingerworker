@@ -1,0 +1,42 @@
+{
+  "status": "PASS_PUBLISHED_R19_ENTRYPOINTS",
+  "source_sha256": "0e88e273e2e9bc436b2844a44f04b28fb094593c0af87a2127d792bbb56f016d",
+  "onshape_version": "21323818480a2406fe14f51f",
+  "root_source_sha256": "0e88e273e2e9bc436b2844a44f04b28fb094593c0af87a2127d792bbb56f016d",
+  "html_sha256": "6e539d60b573213e5d0e8ca2296ca30aaad96b9ece7b95a08270e9e5cb7b2f07",
+  "final_specification_sha256": "25c1d092ad605073829772403e3049ad90656bbecd9ec96a1558fa73b2512cf3",
+  "documentation_binding_sha256": "798791b1f6e11673728f2ee4d7cced056d511a6ffb3d6f6c5f5dfe8cfe79771b",
+  "model_manifest_sha256": "25f41ebbdcc048bd107d0aa5b97ed006d5732d415d0e6e3ce40f209c32d4a94b",
+  "static_validation_sha256": "c712ffe39adcca0e4c6b1a6235bd9da9c2148c774739a855d10acb59beabd945",
+  "root_documents": [
+    {
+      "file": "README.md",
+      "sha256": "bc39370bf5193f0312a147d187156f4f7ced71d04dbaf20c974a8d46d50270c3",
+      "current_marker_first": true
+    },
+    {
+      "file": "PRINTING.md",
+      "sha256": "2773ce730bd9f88e4a1eec73d163462ae27c9615e9b3a582668ee7aeedf1742c",
+      "current_marker_first": true
+    },
+    {
+      "file": "EINKAUFSTEILE.md",
+      "sha256": "15c65935b1396eeeed9f3413daae8d7cb94ce0d1774da2e87f92f3a819f089d8",
+      "current_marker_first": true
+    },
+    {
+      "file": "DEVICE_UPGRADES.md",
+      "sha256": "004f7b96152d0d376db65e3775f6842c49f000640bff64dfc341ceccea5ff2f5",
+      "current_marker_first": true
+    },
+    {
+      "file": "print/REVISION_STATUS.md",
+      "sha256": "5e8cacc0dc065fba5b8aca3a5b3d49ae525c1992d861ef6b3db56ad5bd663679",
+      "current_marker_first": true
+    }
+  ],
+  "all_release_file_hashes_valid": true,
+  "native_display_bodies": 94,
+  "gui_verified": false,
+  "gui_status": "NOT_REQUESTED_PRINT_SETUP_DEFERRED"
+}

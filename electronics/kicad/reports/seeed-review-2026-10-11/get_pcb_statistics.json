@@ -1,0 +1,25 @@
+{
+  "tool": "get_pcb_statistics",
+  "arguments": {
+    "file_path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_pcb"
+  },
+  "result": {
+    "meta": {
+      "fastmcp": {
+        "wrap_result": true
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "# PCB Statistics: /Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_pcb\n\n## Board Information\n**Dimensions:** 27.42 x 55.46 mm\n**Layers:** 4\n**Thickness:** 0.80 mm\n\n## Elements\n**Footprints:** 48\n**Total Pads:** 147\n**Track Segments:** 309\n**Vias:** 75\n**Copper Zones:** 4\n\n## Averages\n**Pads per Footprint:** 3.1",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": {
+      "result": "# PCB Statistics: /Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_pcb\n\n## Board Information\n**Dimensions:** 27.42 x 55.46 mm\n**Layers:** 4\n**Thickness:** 0.80 mm\n\n## Elements\n**Footprints:** 48\n**Total Pads:** 147\n**Track Segments:** 309\n**Vias:** 75\n**Copper Zones:** 4\n\n## Averages\n**Pads per Footprint:** 3.1"
+    },
+    "isError": false
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "status": "PASS_FINAL_NATIVE_ENCLOSURE_TOOLPATHS",
+  "scope": "Independent actual final full-pack H2D0.4 PLA extrusion paths. Native coordinate ROI recovered from each recorded rotation, normalization and plate-local placement. No project authoring changes.",
+  "date": "2026-11-03",
+  "revision": "R11",
+  "native_sliced_archive_sha256": "269f5d8eb7410609547f56954c892a9a56e0ee8c164138815c58cda523b16a36",
+  "native_editable_project_sha256": "8f6cbdfe6967dfff52d5cd4c433c5d37583a0a1c57df82e08365510ab8f5bc44",
+  "CAD_source_sha256": "c8ec18f08149553001ccf8173f35fe57eee6a16be0294be2d7f88577f658cf5e",
+  "plate_layout_sha256": "e106f2091dda8bd884b9d0779adfdef5a96529f1098d9567a87aa554909221e5",
+  "validator_sha256": "b4068b02337ce942fc7625015562c4f92cd7ba8ba0a5351a45d9ca7fb4529669",
+  "object_metrics": {
+    "P08": {
+      "plate": 2,
+      "label_id": 4,
+      "rotation_3x3": [
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "bed_offset_mm": [
+        105.5,
+        67.0999984741211,
+        0.0
+      ],
+      "model_extrusion_segments": 17107,
+      "first_layer_extrusion_mm": 5470.353092015301,
+      "maximum_print_z_mm": 16.2,
+      "bridge_segments": 6,
+      "longest_bridge_segment_mm": 1.6750000000000043,
+      "native_stl_sha256": "29a034f53760f6cfaa3be2947f484f25bcba5884466165ec51f9fc0682762a3d"
+    },
+    "P09": {
+      "plate": 2,
+      "label_id": 5,
+      "rotation_3x3": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "bed_offset_mm": [
+        95.0,
+        113.5999984741211,
+        8.899999618530273
+      ],
+      "model_extrusion_segments": 4744,
+      "first_layer_extrusion_mm": 5395.412637150652,
+      "maximum_print_z_mm": 6.8,
+      "bridge_segments": 0,
+      "longest_bridge_segment_mm": 0,
+      "native_stl_sha256": "296eb851b02ae7f12a7f7f4f5218e5e7571881974583dbf5648ab356c11e0a05"
+    }
+  },
+  "checks": [
+    {
+      "name": "P08 starts on print bed",
+      "status": "PASS",
+      "plate": 2,
+      "label_id": 4,
+      "rotation_3x3": [
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "bed_offset_mm": [
+        105.5,
+        67.0999984741211,
+        0.0
+      ],
+      "model_extrusion_segments": 17107,
+      "first_layer_extrusion_mm": 5470.353092015301,
+      "maximum_print_z_mm": 16.2,
+      "bridge_segments": 6,
+      "longest_bridge_segment_mm": 1.6750000000000043,
+      "native_stl_sha256": "29a034f53760f6cfaa3be2947f484f25bcba5884466165ec51f9fc0682762a3d"
+    },
+    {
+      "name": "P08 no long unsupported bridge path",
+      "status": "PASS",
+      "longest_actual_bridge_tagged_segment_mm": 1.6750000000000043
+    },
+    {
+      "name": "P08 complete high palm hook side-1",
+      "status": "PASS",
+      "native_top_z_mm": 16.2,
+      "extrusion_segments": 520
+    },
+    {
+      "name": "P08 long beam is bed-connected side-1",
+      "status": "PASS",
+      "first_layer_extrusion_segments": 2,
+      "first_layer_beam_path_mm": 35.44400027985916,
+      "native_longitudinal_span_mm": 17.903,
+      "note": "Two complete long perimeter paths may cover this narrow beam; segment count alone does not measure coverage."
+    },
+    {
+      "name": "P08 open clip frame slot preserved side-1",
+      "status": "PASS",
+      "unexpected_model_extrusion_segments": 0
+    },
+    {
+      "name": "P08 complete high palm hook side1",
+      "status": "PASS",
+      "native_top_z_mm": 16.2,
+      "extrusion_segments": 511
+    },
+    {
+      "name": "P08 long beam is bed-connected side1",
+      "status": "PASS",
+      "first_layer_extrusion_segments": 2,
+      "first_layer_beam_path_mm": 35.436002804927966,
+      "native_longitudinal_span_mm": 18.009999999999998,
+      "note": "Two complete long perimeter paths may cover this narrow beam; segment count alone does not measure coverage."
+    },
+    {
+      "name": "P08 open clip frame slot preserved side1",
+      "status": "PASS",
+      "unexpected_model_extrusion_segments": 0
+    },
+    {
+      "name": "P08 USB roof has removable support/interface",
+      "status": "PASS",
+      "support_segments": 34,
+      "removal_access": "Open tray above and13mm USB port outside; no internal closed pocket introduced."
+    },
+    {
+      "name": "P08 supports are on externally accessible clip/USB surfaces",
+      "status": "PASS",
+      "clip_support_regions": [
+        {
+          "side": -1,
+          "support_segments": 41,
+          "access": "Outside open end-frame gap; clips outside electronics chamber."
+        },
+        {
+          "side": 1,
+          "support_segments": 28,
+          "access": "Outside open end-frame gap; clips outside electronics chamber."
+        }
+      ],
+      "notes": "Support accessibility derives from unchanged open tray/USB port and external end clips, with toolpaths localized in these regions. Physical cleanup remains a real print check."
+    },
+    {
+      "name": "P09 starts on print bed",
+      "status": "PASS",
+      "plate": 2,
+      "label_id": 5,
+      "rotation_3x3": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "bed_offset_mm": [
+        95.0,
+        113.5999984741211,
+        8.899999618530273
+      ],
+      "model_extrusion_segments": 4744,
+      "first_layer_extrusion_mm": 5395.412637150652,
+      "maximum_print_z_mm": 6.8,
+      "bridge_segments": 0,
+      "longest_bridge_segment_mm": 0,
+      "native_stl_sha256": "296eb851b02ae7f12a7f7f4f5218e5e7571881974583dbf5648ab356c11e0a05"
+    },
+    {
+      "name": "P09 zero bridge paths without supports",
+      "status": "PASS",
+      "bridge_segments": 0
+    },
+    {
+      "name": "P09 full flat leaf and hook negative",
+      "status": "PASS",
+      "first_layer_arm_segments": 6,
+      "hook_extrusion_segments": 158
+    },
+    {
+      "name": "P09 full flat leaf and hook positive",
+      "status": "PASS",
+      "first_layer_arm_segments": 6,
+      "hook_extrusion_segments": 158
+    },
+    {
+      "name": "P09 free leaf gap stays open negative",
+      "status": "PASS",
+      "unexpected_model_extrusion_segments": 0
+    },
+    {
+      "name": "P09 free leaf gap stays open positive",
+      "status": "PASS",
+      "unexpected_model_extrusion_segments": 0
+    },
+    {
+      "name": "P09 clip leaves require no support cleanup",
+      "status": "PASS",
+      "support_segments_in_external_arm_region": 0
+    },
+    {
+      "name": "P09 integral cable clamp present",
+      "status": "PASS",
+      "integral_clamp_extrusion_segments": 487,
+      "loose_P10_not_required": true
+    }
+  ],
+  "failed_count": 0,
+  "failures": [],
+  "limitations": [
+    "Nominal slice paths; no real PLA flexibility, fatigue, fit tolerance or cleanup force qualification.",
+    "Support accessibility is a geometric access review, not a successful physical support removal test."
+  ]
+}

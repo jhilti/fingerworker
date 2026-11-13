@@ -1,0 +1,706 @@
+{
+  "status": "PASS_LOCAL_SIDE_THUMB",
+  "source_sha256": "780dfdbaf9c6ab4bf4bbf3ab3de0dab3f9ac7dc5f8de49cf015c51ee95cc16e4",
+  "generator_sha256": "40a3129792c53e2381edd1fc473bcac1623896e3d9b6f08ffd11ebc26e964941",
+  "checks": [
+    {
+      "name": "One valid solid and shell",
+      "status": "PASS"
+    },
+    {
+      "name": "Seated separation / E01",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / E05",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / E06",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / E07",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / E08",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H01",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H02",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H030",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H031",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H040",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H041",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H050",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H051",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H060",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H061",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H09",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H09a",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H09b",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H10",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H12",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H180",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H181",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H190",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H191",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H20",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H23",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H240",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H241",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H242",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H243",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H250",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H251",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H252",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H253",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H300a",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H300b",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H301a",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H301b",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / P04",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / P05",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / P06",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / P08",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / P09",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / P11",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_C1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_C10",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_C11",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_C12",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_C13",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_C14",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_C15",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_C16",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_C2",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_C3",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_C4",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_C5",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_C6",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_C7",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_C8",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_C9",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_D1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_J1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_J2",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_J3",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_L1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_Q1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R10",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R11",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R12",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R13",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R14",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R15",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R16",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R17",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R18",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R19",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R2",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R20",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R21",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R3",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R4",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R5",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R6",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R7",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R8",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R9",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_SW2",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_U1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_U2",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_U3",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_U4",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Unchanged lower frame and catch landings",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "Unchanged central sensor and guide",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "Unchanged strap region",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "name": "Original rod bore open -51",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Removal distance to rod bore -51",
+      "status": "PASS",
+      "minimum_mm": 8.647749634661448
+    },
+    {
+      "name": "Original rod bore open 51",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Removal distance to rod bore 51",
+      "status": "PASS",
+      "minimum_mm": 8.64774963466145
+    },
+    {
+      "name": "P08 full hook flex/removal envelope -1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "P08 full hook flex/removal envelope 1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "H18 side tool route clear",
+      "status": "PASS",
+      "addition_gap_mm": 4.853892167325327
+    },
+    {
+      "name": "Full motion addition / P04",
+      "status": "PASS",
+      "gap_lower_bound_mm": 37.99999989999999
+    },
+    {
+      "name": "Full motion addition / H060",
+      "status": "PASS",
+      "gap_lower_bound_mm": 86.00581365582214
+    },
+    {
+      "name": "Full motion addition / H061",
+      "status": "PASS",
+      "gap_lower_bound_mm": 86.00581365582214
+    },
+    {
+      "name": "Full motion addition / P11",
+      "status": "PASS",
+      "gap_lower_bound_mm": 68.07481178820842
+    },
+    {
+      "name": "Full motion addition / H10",
+      "status": "PASS",
+      "gap_lower_bound_mm": 69.40147679019518
+    },
+    {
+      "name": "P01 external bounds unchanged",
+      "status": "PASS"
+    }
+  ],
+  "metrics": {
+    "revision": "R17 candidate",
+    "status": "LOCAL_PROTOTYPE_PENDING_NATIVE_REGENERATION",
+    "source_sha256": "780dfdbaf9c6ab4bf4bbf3ab3de0dab3f9ac7dc5f8de49cf015c51ee95cc16e4",
+    "baseline_source_sha256": "1f492dd841c35a14f488be418e4f4dd8dea8edb63f3d321a492dc2ec3c907ab4",
+    "baseline_native_step_sha256": "e2b588932fb73f5545baf87ffb91d98f69a29577517105ef169503693ca88b5d",
+    "changed": [
+      "P01"
+    ],
+    "new_parts": [],
+    "other_native_bodies_unchanged": 92,
+    "side_thumb": {
+      "center_x_mm": -24,
+      "center_y_mm": [
+        -75,
+        75
+      ],
+      "cutter_radius_mm": 14,
+      "cutter_bottom_z_mm": 20,
+      "cutter_top_z_mm": 40,
+      "bottom_radius_mm": 1.5,
+      "mouth_radius_mm": 0.4,
+      "maximum_nominal_side_depth_mm": 4,
+      "opening_chord_at_y65_mm": 19.595917942265423,
+      "nominal_height_mm": 13,
+      "actual_removed_bounds_mm": [
+        [
+          -28.63016755237016,
+          -65.0000001,
+          19.59999989999999
+        ],
+        [
+          -14.040080221609012,
+          65.00000010000001,
+          33.00000010000001
+        ]
+      ],
+      "cheek_x_mm": [
+        -24,
+        -8
+      ],
+      "cheek_positive_yz_profile_mm": [
+        [
+          59,
+          16.5
+        ],
+        [
+          63,
+          16.5
+        ],
+        [
+          65,
+          18.5
+        ],
+        [
+          65,
+          24.1
+        ],
+        [
+          59,
+          24.1
+        ]
+      ],
+      "cheek_lower_edge_radius_mm": 0.6,
+      "cheek_outer_corner_radius_mm": 2,
+      "existing_wrist_thumb_returns_retained": true
+    },
+    "added_mm3": 440.5682222452524,
+    "removed_mm3": 648.0281090996398,
+    "P01_volume_mm3": 167740.64770527006,
+    "minimum_removal_to_rod_bore_mm": 8.647749634661448,
+    "mouth_selection_points_mm": [
+      [
+        -28.453005912335996,
+        -61.72706745497813,
+        24.75
+      ],
+      [
+        -28.453005912335996,
+        61.72706745497813,
+        24.75
+      ],
+      [
+        -14.202041028867288,
+        -65.0,
+        22.75
+      ],
+      [
+        -14.202041028867288,
+        -65.0,
+        27.55
+      ],
+      [
+        -15.055412486471134,
+        -64.22993247169263,
+        32.577106904901
+      ],
+      [
+        -18.34988868146268,
+        -62.19077511759059,
+        33.0
+      ],
+      [
+        -20.730532411011,
+        -61.38711706960361,
+        32.93272455168294
+      ],
+      [
+        -22.711119422668474,
+        -61.05945528833343,
+        32.806698158511416
+      ],
+      [
+        -18.349888681462684,
+        62.19077511759058,
+        33.0
+      ],
+      [
+        -22.71111941823724,
+        61.05945528874312,
+        32.806698158356774
+      ],
+      [
+        -20.73053241101101,
+        61.3871170696036,
+        32.93272455168293
+      ],
+      [
+        -15.055412486775678,
+        64.22993247143972,
+        32.57710690509829
+      ],
+      [
+        -14.202041028867288,
+        65.0,
+        27.55
+      ],
+      [
+        -14.202041028867288,
+        65.0,
+        22.75
+      ]
+    ],
+    "mesh": {
+      "watertight": true,
+      "winding_consistent": true,
+      "shells": 1,
+      "zero_area_triangles_removed": 8,
+      "removed_triangle_area_mm2": 0.0,
+      "triangles": 52876,
+      "sha256": "013f0e2d9d8fd8849594e4621b9ddfb632524e9178a7caf8028073159d97551a",
+      "scope": "Only exactly zero-area triangles removed; no hole fill, remeshing or geometry modification."
+    },
+    "preserved": "P05 and other92 native bodies, sensor path, rod bores, H18 access, clips, roof and straps. Outer socket stock is locally shaped, not claimed wholly unchanged.",
+    "limitations": "Local nominal CAD prototype only. Native regeneration, native comparisons, final sliced paths and physical comfort/strength checks remain separate."
+  }
+}

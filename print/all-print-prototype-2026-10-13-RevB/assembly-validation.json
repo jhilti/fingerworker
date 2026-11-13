@@ -1,0 +1,1545 @@
+{
+  "status": "PASS",
+  "source_sha256": "f2e2d9375953d78a9e09960287ac2789f8a99d2802d01ba51978384fc98fce87",
+  "exports": [
+    {
+      "file": "P01_base_6mm_AssemblyClear_RevB_2026-10-13.stl",
+      "closed": true,
+      "single_body": true,
+      "bounds_mm": [
+        156.0,
+        180.0,
+        31.0
+      ],
+      "assembly_min_mm": [
+        -22.0,
+        -90.0,
+        -2.0
+      ],
+      "volume_mm3": 161133.1442705823,
+      "sha256": "f54371e70bdfc40e76c458fa7eb512b4a0a5b96f04b1aeaf8fd322327584f6b4"
+    },
+    {
+      "file": "P060_rear_retainer_left_RevB_2026-10-13.stl",
+      "closed": true,
+      "single_body": true,
+      "bounds_mm": [
+        8.000007629394531,
+        24.0,
+        23.5
+      ],
+      "assembly_min_mm": [
+        125.49999237060547,
+        -87.0,
+        4.5
+      ],
+      "volume_mm3": 3091.459551313523,
+      "sha256": "b765213a3e20aac48c51064bba9868dfe4ffe49b8b75d67ec0a22989cd409b9e"
+    },
+    {
+      "file": "P061_rear_retainer_right_RevB_2026-10-13.stl",
+      "closed": true,
+      "single_body": true,
+      "bounds_mm": [
+        8.000007629394531,
+        24.0,
+        23.5
+      ],
+      "assembly_min_mm": [
+        125.49999237060547,
+        63.0,
+        4.5
+      ],
+      "volume_mm3": 3091.459551313523,
+      "sha256": "850cfdd839bb237f1eb08ef72fe1035e5babdaf671bfb0ecfacf668799d1269e"
+    }
+  ],
+  "old_interference_mm3_at_offset_2": 72.0,
+  "samples": [
+    {
+      "offset_mm": 0.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 1.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 1.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 2.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 2.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 3.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 3.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 4.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 4.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 5.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 5.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 6.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 7.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 7.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 8.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 8.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 9.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 9.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 10.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 10.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 11.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 11.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 12.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 12.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 13.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 13.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 14.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 14.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 15.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 15.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 16.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 16.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 17.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 17.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 18.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 18.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 19.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 19.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 20.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 20.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 21.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 21.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 22.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 22.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 23.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 23.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 24.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 24.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 25.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 25.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 26.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 26.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 27.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 27.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 28.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 28.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 29.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 29.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 30.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 30.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 31.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 31.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 32.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 32.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 33.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 33.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 34.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 34.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 35.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 35.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 36.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 36.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 37.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 37.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 38.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 38.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 39.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 39.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 40.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 40.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 41.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 41.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 42.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 42.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 43.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 43.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 44.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 44.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 45.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 45.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 46.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 46.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 47.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 48.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 48.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 49.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 49.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 50.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 50.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 51.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 51.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 52.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 52.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 53.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 53.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 54.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 54.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 55.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 55.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 56.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 56.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 57.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 57.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 58.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 58.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 59.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 59.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 60.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 60.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 61.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 61.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 62.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 62.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 63.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 63.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 64.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 64.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 65.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 65.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 66.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 66.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 67.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 67.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 68.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 68.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 69.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 69.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 70.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 70.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 71.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 71.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 72.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 72.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 73.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 73.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 74.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 74.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 75.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 75.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 76.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 76.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 77.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 77.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 78.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 78.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 79.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 79.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 80.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 80.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 81.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 81.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 82.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 82.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 83.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 83.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 84.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 84.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 85.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 85.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 86.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 86.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 87.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 87.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 88.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 88.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 89.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 89.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 90.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 90.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 91.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 91.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 92.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 92.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 93.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 93.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 94.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 94.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 95.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 95.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 96.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 96.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 97.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 97.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 98.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 98.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 99.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 99.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 100.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 100.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 101.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 101.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 102.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 102.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 103.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 103.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 104.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 104.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 105.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 105.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 106.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 106.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 107.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 107.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 108.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 108.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 109.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 109.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 110.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 110.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 111.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 111.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 112.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 112.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 113.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 113.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 114.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 114.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 115.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 115.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 116.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 116.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 117.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 117.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 118.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 118.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 119.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 119.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 120.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 120.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 121.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 121.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 122.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 122.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 123.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 123.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 124.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 124.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 125.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 125.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 126.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 126.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 127.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 127.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 128.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 128.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 129.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 129.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 130.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 130.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 131.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 131.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 132.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 132.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 133.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 133.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 134.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 134.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 135.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 135.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 136.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 136.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 137.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 137.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 138.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 138.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 139.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 139.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 140.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 140.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 141.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 141.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 142.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 142.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 143.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 143.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 144.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 144.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 145.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 145.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 146.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 146.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 147.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 147.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 148.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 148.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 149.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 149.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 150.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 150.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 151.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 151.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 152.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 152.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 153.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 153.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 154.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 154.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 155.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 155.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 156.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 156.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 157.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 157.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 158.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 158.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 159.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 159.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 160.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 160.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 161.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 161.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 162.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 162.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 163.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 163.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 164.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 164.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 165.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 165.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 166.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 166.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 167.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 167.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 168.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 168.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 169.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 169.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 170.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 170.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 171.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 171.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 172.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 172.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 173.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 173.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 174.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 174.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 175.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 175.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 176.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 176.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 177.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 177.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 178.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 178.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 179.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 179.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 180.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": 180.5,
+      "intersection_mm3": 0.0
+    }
+  ],
+  "continuous_sweep": {
+    "offset_range_mm": [
+      0,
+      180
+    ],
+    "method": "Manifold Minkowski sum with conservative Y/Z 0.0001 mm padding",
+    "intersection_mm3": 0.0
+  },
+  "nominal_rear_foot_clearance_mm": 0.5,
+  "base_floor_thickness_mm": 6,
+  "through_window_checks": 2,
+  "through_bench_hole_checks": 4,
+  "insert_bore_checks": 4,
+  "retainers": [
+    {
+      "part": "P060",
+      "base_intersection_mm3": 0.0,
+      "seat_z_mm": 4.5
+    },
+    {
+      "part": "P061",
+      "base_intersection_mm3": 0.0,
+      "seat_z_mm": 4.5
+    }
+  ],
+  "assembly_conditions": "Rear retainers P060/P061 removed, no rods, springs or stop hardware fitted during rear insertion; slide straight at operating Z, then install hardware.",
+  "scope": "Nominal P01/P04 assembly geometry and seated P060/P061 contacts; real FDM fit and strength remain untested",
+  "onshape_operating_checks": {
+    "poses_mm": [
+      0,
+      15,
+      30
+    ],
+    "groups_per_pose": 43,
+    "positive_interferences": 0,
+    "scope": "Light springs, preload 0, electronics on, hand off; intentional/unclassified contacts retained"
+  }
+}

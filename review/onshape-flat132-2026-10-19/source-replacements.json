@@ -1,0 +1,379 @@
+{
+  "schema": "fingerworker.exact-text-replacements.v1",
+  "studySourceRevision": 6,
+  "supersededV1Sha256Utf8": "df19decc227d4c05311336dd599d7c8fb2365de3cd8e3d8d1d55aacb1ce48d21",
+  "source": "/Users/jonashilti/Documents/ChatGPT/fingerworker/fingerworker_mvp.fs",
+  "supersededV2Sha256Utf8": "09c117bc88351235400f6d255ec85ed94c0568446fd9a272c09f9954ccd0c6ff",
+  "supersededV3Sha256Utf8": "3c37cdc6dfa9dd98d9edc4b814bbb0b8948652067602bc950e9dd0c53091d885",
+  "supersededV4Sha256Utf8": "ebe75d94a8c2fbbf860971f8fd0671e0afa7641cbd2ba9e90de4ca81970818b8",
+  "supersededV5Sha256Utf8": "71adae92d90575c4fc854d0b3b1abe24682050f013b1ddcf5f7d63a0364c4b86",
+  "target": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/onshape-flat132-2026-10-19/fingerworker_flat132.fs",
+  "sourceIdentity": {
+    "utf16Length": 89361,
+    "fnv1a32": "f3b197e2",
+    "sha256Utf8": "43a2dc70e3eed4308534da7772f4b82bf845c97d6f6a53456d0d63aa9552fb33"
+  },
+  "targetIdentity": {
+    "utf16Length": 92255,
+    "fnv1a32": "ffbc7f69",
+    "sha256Utf8": "3e5de8f56211cf2ed063b6b4294da5f77fea4c3fb881fa0c13b1288eca7932cc"
+  },
+  "javascriptIdentity": "let h=2166136261;for(let i=0;i<s.length;i++)h=Math.imul(h^s.charCodeAt(i),16777619)>>>0;({utf16Length:s.length,fnv1a32:h.toString(16).padStart(8,'0')})",
+  "rules": [
+    {
+      "label": "study header",
+      "old": " * Revision 2026-10-17 Rev D: 158 mm narrow frame, 92 mm pocket, coordinated 128 mm spring axes; 6 mm base.\n * DEVELOPMENT SOURCE: see DEVICE_UPGRADES.md; old exports are superseded.\n * New geometry requires regeneration and motion verification in Onshape.",
+      "new": " * SEPARATE BRANCH STUDY 2026-10-19: flat 132 mm frame, 72 mm clear pocket,\n * 84 mm deck, 102 mm spring-axis spacing, 6 mm base, 32 mm total height.\n * P02 is detachable on two M4 bolts and positive locating keys. This NEW joint\n * has unqualified stiffness/strength. Palm contact geometry, 86 mm sleeve and\n * electronics enclosure are retained. Remove both M4 bolts and lift the palm\n * and case module vertically before keeper/cassette assembly or service.\n * Lower forward clamps provide0.75 mm nominal capture-head withdrawal gap.\n * Derived from protected Rev D; this study does not supersede production files.\n * Native regeneration, motion/assembly checks and physical strength validation\n * are required. No tested load capacity or functional equivalence is claimed.",
+      "count": 1
+    },
+    {
+      "label": "feature branch name",
+      "old": "annotation { \"Feature Type Name\" : \"FingerworkerMVP\", \"Feature Name Template\" : \"Fingerworker 30 mm printable\" }",
+      "new": "annotation { \"Feature Type Name\" : \"FingerworkerFlat132Study\", \"Feature Name Template\" : \"Flat132 study 30 mm\" }",
+      "count": 1
+    },
+    {
+      "label": "envelope comment",
+      "old": "// Envelope178.25 x158 x32; base156 x158, floor6 (Z-2 to Z4); pocket20 deep, floor2.7 above guide.",
+      "new": "// Envelope180.1 x132 x32 including enclosure; base156 x132, floor6 (Z-2 to Z4); pocket20 deep, floor2.7 above guide.",
+      "count": 1
+    },
+    {
+      "label": "base width",
+      "old": "makeBox(context,id + \"base\",vector(-22,-79,-2)*mm,vector(134,79,4)*mm);",
+      "new": "makeBox(context,id + \"base\",vector(-22,-66,-2)*mm,vector(134,66,4)*mm);",
+      "count": 1
+    },
+    {
+      "label": "base window negative outer",
+      "old": "const lowY=side == -1 ? -51 : 27;",
+      "new": "const lowY=side == -1 ? -38 : 27;",
+      "count": 1
+    },
+    {
+      "label": "base window positive outer",
+      "old": "const highY=side == -1 ? -27 : 51;",
+      "new": "const highY=side == -1 ? -27 : 38;",
+      "count": 1
+    },
+    {
+      "label": "remove old palm feet",
+      "old": "        // The roller is entirely outside the wrist end of the frame.\n        // Wrist-facing contact X-44.25, crown Z30. Two mounting ears return\n        // to the base outside the sensor wall and stop before the moving yoke.\n        makeBox(context,id + \"palmFootLeft\",vector(-21,-50,3.8)*mm,vector(-8,-29,9.5)*mm);\n        makeBox(context,id + \"palmFootRight\",vector(-21,29,3.8)*mm,vector(-8,50,9.5)*mm);\n        baseBodies=append(baseBodies,body(id + \"palmFootLeft\"));\n        baseBodies=append(baseBodies,body(id + \"palmFootRight\"));",
+      "new": "        // Flat132 detachable palm: two narrow feet remain outside sensor wall\n        // |Y|24 and inside rod blocks |Y|39, with2 mm nominal gaps each side.\n        // Positive keys supplement two M4 bolts; joint strength is unqualified.\n        // Case front X-23.6 clears foot wrist edge X-23 by0.6 mm.\n        makeBox(context,id + \"palmFootLeft\",vector(-23,-37,3.8)*mm,vector(-9,-26,6.5)*mm);\n        makeBox(context,id + \"palmFootRight\",vector(-23,26,3.8)*mm,vector(-9,37,6.5)*mm);\n        baseBodies=append(baseBodies,body(id + \"palmFootLeft\"));\n        baseBodies=append(baseBodies,body(id + \"palmFootRight\"));\n        for (var side in [-1,1])\n        {\n            const s=side == -1 ? \"0\" : \"1\";\n            const y=side*31.5;\n            makeBox(context,id + (\"palmKey\"~s),vector(-22,y-3,6.3)*mm,\n                vector(-20,y+3,8)*mm);\n            baseBodies=append(baseBodies,body(id + (\"palmKey\"~s)));\n        }",
+      "count": 1
+    },
+    {
+      "label": "remove palm ears",
+      "old": "        makeBox(context,id + \"palmEarLeft\",vector(-30,-50,9.5)*mm,vector(-8,-29,14.5)*mm);\n        makeBox(context,id + \"palmEarRight\",vector(-30,29,9.5)*mm,vector(-8,50,14.5)*mm);\n",
+      "new": "        makeBox(context,id + \"palmEarLeft\",vector(-30,-37,9.5)*mm,vector(-9.5,-26,14.5)*mm);\n        makeBox(context,id + \"palmEarRight\",vector(-30,26,9.5)*mm,vector(-9.5,37,14.5)*mm);\n        // Only the forward clamp drops belowZ9.5, retaining0.6 mm case gap\n        // atX-23. The original upper root stays above the unchanged case.\n        makeBox(context,id + \"palmClampDropLeft\",vector(-23,-37,6.5)*mm,vector(-9.5,-26,9.6)*mm);\n        makeBox(context,id + \"palmClampDropRight\",vector(-23,26,6.5)*mm,vector(-9.5,37,9.6)*mm);\n        join(context,id + \"palmEarDropJoinLeft\",[body(id + \"palmEarLeft\"),body(id + \"palmClampDropLeft\")]);\n        join(context,id + \"palmEarDropJoinRight\",[body(id + \"palmEarRight\"),body(id + \"palmClampDropRight\")]);\n",
+      "count": 1
+    },
+    {
+      "label": "remove four-M4 mounts",
+      "old": "        var insertTools=[];\n        var palmTools=[];\n        var n=0;\n        for (var x in [-15])\n        {\n            for (var y in [-45,-34,34,45])\n            {\n                makeCylinder(context,id + (\"palmInsert\"~n),vector(x,y,2.5)*mm,vector(x,y,10.5)*mm,2.6*mm);\n                insertTools=append(insertTools,body(id + (\"palmInsert\"~n)));\n                makeCylinder(context,id + (\"palmHole\"~n),vector(x,y,8.5)*mm,vector(x,y,31)*mm,2.2*mm);\n                palmTools=append(palmTools,body(id + (\"palmHole\"~n)));\n                makeCylinder(context,id + (\"palmHead\"~n),vector(x,y,13.5)*mm,vector(x,y,31)*mm,4*mm);\n                palmTools=append(palmTools,body(id + (\"palmHead\"~n)));\n                n+=1;\n            }\n        }\n        cut(context,id + \"palmMountHoles\",body(id + \"palmPad\"),qUnion(palmTools));",
+      "new": "        var insertTools=[];\n        var palmTools=[];\n        var n=0;\n        // Two M4 bolts are retained from the existing hardware set. Each wing\n        // has one locating key with0.25 mm side and0.3 mm roof clearance.\n        // Tab front X-9.5 clears connector X-8.25 by1.25 mm for vertical lift.\n        for (var side in [-1,1])\n        {\n            const s=side == -1 ? \"0\" : \"1\";\n            const y=side*31.5;\n            makeBox(context,id + (\"palmKeySlot\"~s),vector(-22.25,y-3.25,6.4)*mm,\n                vector(-19.75,y+3.25,8.3)*mm);\n            cut(context,id + (\"palmKeySlotCut\"~s),body(id + \"palmPad\"),\n                body(id + (\"palmKeySlot\"~s)));\n        }\n        for (var x in [-16])\n        {\n            for (var y in [-31.5,31.5])\n            {\n                // Six-mm inserts install flushZ6.5 and endZ0.5, leaving\n                // Pilot floorZ0.2 leaves2.2 mm bottom wall above baseZ-2.\n                // M4x10 fromZ10.5 ends0.5, with0.3 mm nominal tip clearance.\n                makeCylinder(context,id + (\"palmInsert\"~n),vector(x,y,0.2)*mm,vector(x,y,7.5)*mm,2.6*mm);\n                insertTools=append(insertTools,body(id + (\"palmInsert\"~n)));\n                makeCylinder(context,id + (\"palmHole\"~n),vector(x,y,5.5)*mm,vector(x,y,31)*mm,2.2*mm);\n                palmTools=append(palmTools,body(id + (\"palmHole\"~n)));\n                makeCylinder(context,id + (\"palmHead\"~n),vector(x,y,10.5)*mm,vector(x,y,31)*mm,4*mm);\n                palmTools=append(palmTools,body(id + (\"palmHead\"~n)));\n                n+=1;\n            }\n        }\n        cut(context,id + \"palmMountHoles\",body(id + \"palmPad\"),qUnion(palmTools));",
+      "count": 1
+    },
+    {
+      "label": "temporary palm name",
+      "old": "nameBody(context,body(id + \"palmPad\"),\"P02 PRINT - rounded palm bolster\");",
+      "new": "nameBody(context,body(id + \"palmPad\"),\"P02 PRINT STUDY - detachable keyed palm bolster, two M4 mounts\");",
+      "count": 1
+    },
+    {
+      "label": "rear bridge width",
+      "old": "makeBox(context,id + \"carriageBridge\",vector(116,-76,5)*mm,vector(124,76,24)*mm);",
+      "new": "makeBox(context,id + \"carriageBridge\",vector(116,-63,5)*mm,vector(124,63,24)*mm);",
+      "count": 1
+    },
+    {
+      "label": "arm negative outer/positive inner",
+      "old": "const loY = side == -1 ? -76 : 53;",
+      "new": "const loY = side == -1 ? -63 : 40;",
+      "count": 1
+    },
+    {
+      "label": "arm negative inner/positive outer",
+      "old": "const hiY = side == -1 ? -53 : 76;",
+      "new": "const hiY = side == -1 ? -40 : 63;",
+      "count": 1
+    },
+    {
+      "label": "central click cam",
+      "old": "makeBox(context,id + \"switchCam\",vector(64,-39,7)*mm,vector(78,-29,15)*mm);",
+      "new": "makeBox(context,id + \"switchCam\",vector(64,-2,7)*mm,vector(78,8,15)*mm);",
+      "count": 1
+    },
+    {
+      "label": "deck width",
+      "old": "makeBox(context,id + \"climbingDeck\",vector(65,-52,5)*mm,vector(124,52,30)*mm);",
+      "new": "makeBox(context,id + \"climbingDeck\",vector(65,-42,5)*mm,vector(124,42,30)*mm);",
+      "count": 1
+    },
+    {
+      "label": "pocket width",
+      "old": "makeBox(context,id + \"pocketTool\",vector(77,-46,10)*mm,vector(111,46,36)*mm);",
+      "new": "makeBox(context,id + \"pocketTool\",vector(77,-36,10)*mm,vector(111,36,36)*mm);",
+      "count": 1
+    },
+    {
+      "label": "local moving-seat clearance",
+      "old": "        movingBodies=append(movingBodies,body(id + \"carriageBridge\"));\n        nameBody(context,body(id + \"carriageBridge\"),\"P04 PRINT - RevD 92 mm clear climbing pocket and narrow central slider\");",
+      "new": "        // R12 clearance lies entirely behind pocket X111. Steel seat OD22\n        // occupies X113..116; retain its X116 planar reaction datum.\n        for (var side in [-1,1])\n        {\n            const t=side == -1 ? \"0\" : \"1\";\n            makeCylinder(context,id + (\"movingSeatRelief\"~t),\n                vector(112,side*51,18)*mm,vector(116,side*51,18)*mm,12*mm);\n            cut(context,id + (\"movingSeatReliefCut\"~t),body(id + \"carriageBridge\"),\n                body(id + (\"movingSeatRelief\"~t)));\n        }\n        movingBodies=append(movingBodies,body(id + \"carriageBridge\"));\n        nameBody(context,body(id + \"carriageBridge\"),\"P04 PRINT STUDY - Flat132 72 mm clear pocket, R12 seat reliefs\");",
+      "count": 1
+    },
+    {
+      "label": "cam screw head center",
+      "old": "vector(60,-34.5,10)*mm,vector(63,-34.5,10)*mm",
+      "new": "vector(60,2.5,10)*mm,vector(63,2.5,10)*mm",
+      "count": 1
+    },
+    {
+      "label": "cam screw shank center",
+      "old": "vector(62.9,-34.5,10)*mm,vector(75,-34.5,10)*mm",
+      "new": "vector(62.9,2.5,10)*mm,vector(75,2.5,10)*mm",
+      "count": 1
+    },
+    {
+      "label": "cam insert center",
+      "old": "vector(63.8,-34.5,10)*mm,vector(69,-34.5,10)*mm",
+      "new": "vector(63.8,2.5,10)*mm,vector(69,2.5,10)*mm",
+      "count": 1
+    },
+    {
+      "label": "blind cam bore center and end",
+      "old": "vector(63,-34.5,10)*mm,vector(79,-34.5,10)*mm",
+      "new": "vector(63,2.5,10)*mm,vector(76.5,2.5,10)*mm",
+      "count": 1
+    },
+    {
+      "label": "yoke span",
+      "old": "makeBox(context,id + \"springAnchor\",vector(-7,-76,7)*mm,vector(9,76,29)*mm);",
+      "new": "makeBox(context,id + \"springAnchor\",vector(-7,-63,7)*mm,vector(9,63,29)*mm);",
+      "count": 1
+    },
+    {
+      "label": "yoke cable relief",
+      "old": "vector(-1.5,46,21.5)*mm",
+      "new": "vector(-1.5,40,21.5)*mm",
+      "count": 1
+    },
+    {
+      "label": "yoke name",
+      "old": "\"P05 PRINT - RevD narrow reinforced floating spring yoke\"",
+      "new": "\"P05 PRINT STUDY - Flat132 reinforced floating spring yoke\"",
+      "count": 1
+    },
+    {
+      "label": "sensor cable route",
+      "old": "vector(-5.25,39,18)*mm",
+      "new": "vector(-5.25,33,18)*mm",
+      "count": 1
+    },
+    {
+      "label": "sensor connector route",
+      "old": "vector(-8.25,36.5,15)*mm,vector(-2.25,44.5,21)*mm",
+      "new": "vector(-8.25,30.5,15)*mm,vector(-2.25,38.5,21)*mm",
+      "count": 1
+    },
+    {
+      "label": "spring rod support axes",
+      "old": "const y = side*64;",
+      "new": "const y = side*51;",
+      "count": 1
+    },
+    {
+      "label": "switch pedestal center shift",
+      "old": "vector(13,-55,3.8)*mm,vector(25,-33,6)*mm",
+      "new": "vector(13,-18,3.8)*mm,vector(25,4,6)*mm",
+      "count": 1
+    },
+    {
+      "label": "switch case center shift",
+      "old": "vector(14,-54,6)*mm,vector(24.2,-34.2,12.4)*mm",
+      "new": "vector(14,-17,6)*mm,vector(24.2,2.8,12.4)*mm",
+      "count": 1
+    },
+    {
+      "label": "switch mount axes shift",
+      "old": "for (var y in [-48.9,-39.4])",
+      "new": "for (var y in [-11.9,-2.4])",
+      "count": 1
+    },
+    {
+      "label": "switch mount suffix shift",
+      "old": "const s=y == -48.9 ? \"0\" : \"1\";",
+      "new": "const s=y == -11.9 ? \"0\" : \"1\";",
+      "count": 1
+    },
+    {
+      "label": "switch roller hinge shift",
+      "old": "const rollerY=-51.1*mm+",
+      "new": "const rollerY=-14.1*mm+",
+      "count": 1
+    },
+    {
+      "label": "switch lever hinge shift",
+      "old": "vector(25.5,-51.1,9.2)*mm",
+      "new": "vector(25.5,-14.1,9.2)*mm",
+      "count": 1
+    },
+    {
+      "label": "front bench mount X",
+      "old": "for (var x in [20,127])",
+      "new": "for (var x in [16,127])",
+      "count": 1
+    },
+    {
+      "label": "bench mount Y",
+      "old": "for (var y in [-10,10])",
+      "new": "for (var y in [-28,28])",
+      "count": 1
+    },
+    {
+      "label": "bench common coordinates",
+      "old": "x < 100 ? y : y*3.9",
+      "new": "y",
+      "count": 4
+    },
+    {
+      "label": "integral frame name",
+      "old": "\"P01 PRINT - RevD 156 x 158 narrow fixed frame - 6 mm floor, clear rear insertion\"",
+      "new": "\"P01 PRINT STUDY - Flat132 fixed frame, keyed detachable palm feet, 6 mm floor\"",
+      "count": 1
+    },
+    {
+      "label": "central switch frame audit",
+      "old": "        auditSolidPair(context,\"Switch actuator / case\",actuator,body(id + \"switchBody\"),false),",
+      "new": "        auditSolidPair(context,\"Switch actuator / case\",actuator,body(id + \"switchBody\"),false),\n        auditSolidPair(context,\"Switch case and actuator / fixed frame\",qUnion([body(id + \"switchBody\"),actuator]),base,true),",
+      "count": 1
+    }
+  ],
+  "status": "LOCAL SOURCE ONLY - requires native Onshape regeneration and validation",
+  "expectedNominalAssemblyPartsWithoutElectronicsReferencesOrHand": 51,
+  "palmMount": {
+    "type": "detachable P02 with two M4 bolts and positive keys",
+    "separateP02": true,
+    "footX": [
+      -23,
+      -9
+    ],
+    "absY": [
+      26,
+      37
+    ],
+    "footZ": [
+      3.8,
+      6.5
+    ],
+    "wingX": [
+      -30,
+      -9.5
+    ],
+    "wingZ": [
+      9.5,
+      14.5
+    ],
+    "wingForwardDropX": [
+      -23,
+      -9.5
+    ],
+    "wingForwardDropZ": [
+      6.5,
+      9.6
+    ],
+    "boltCenters": [
+      [
+        -16,
+        -31.5
+      ],
+      [
+        -16,
+        31.5
+      ]
+    ],
+    "keyX": [
+      -22,
+      -20
+    ],
+    "keyAbsY": [
+      28.5,
+      34.5
+    ],
+    "keyZ": [
+      6.3,
+      8
+    ],
+    "slotSideClearance": 0.25,
+    "slotRoofClearance": 0.3,
+    "insertLength": 6,
+    "insertInstalledZ": [
+      0.5,
+      6.5
+    ],
+    "insertPilotZ": [
+      0.2,
+      7.5
+    ],
+    "baseBottomWall": 2.2,
+    "boltM4Length": 10,
+    "boltUnderHeadZ": 10.5,
+    "boltTipZ": 0.5,
+    "boltTipNominalAxialClearance": 0.3,
+    "captureHeadWithdrawNominalVerticalGap": 0.75,
+    "assemblySequence": "Set synchronized preload to 2 mm before palm removal so the rear M6 shaft clears the palm plate. Remove both M4 bolts, lift the palm and case module vertically, then service keeper or cassette.",
+    "strengthValidated": false
+  },
+  "camBore": {
+    "axisY": 2.5,
+    "axisZ": 10,
+    "endX": 76.5,
+    "screwEndX": 75,
+    "nominalRemainingWallToPocketFrontMm": 0.5
+  },
+  "benchM5": {
+    "front": [
+      [
+        16,
+        -28
+      ],
+      [
+        16,
+        28
+      ]
+    ],
+    "rear": [
+      [
+        127,
+        -28
+      ],
+      [
+        127,
+        28
+      ]
+    ],
+    "requiresFlush90DegreeHeadMaxDiameterMm": 10
+  },
+  "unchanged": [
+    "palm contact geometry",
+    "86 mm TPU sleeve",
+    "electronics enclosure and PCB",
+    "22 mm spring seats",
+    "24 mm rod supports",
+    "6 mm rods",
+    "ordered spring pair",
+    "30 mm travel",
+    "0..2 mm preload",
+    "86 mm isometric lock mode",
+    "central guide",
+    "sensor load path"
+  ],
+  "unqualified": [
+    "native regeneration",
+    "solid collision/assembly checks",
+    "load capacity",
+    "two-M4 keyed palm joint stiffness and fatigue",
+    "revised switch and cable assembly access",
+    "printability"
+  ]
+}

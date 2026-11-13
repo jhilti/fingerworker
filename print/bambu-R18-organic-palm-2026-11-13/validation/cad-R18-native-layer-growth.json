@@ -1,0 +1,931 @@
+{
+  "status": "REVIEW_GEOMETRIC_LAYER_GROWTH",
+  "source_sha256": "345b90327031276f8085e2c225c795946036d7faa4f2ac01b764101b9f4b3dd1",
+  "mesh_sha256": "be42108fa89941a0f7dbae4df4cec33a9402b8316e8c42922475309060faf554",
+  "baseline_mesh_sha256": "013f0e2d9d8fd8849594e4621b9ddfb632524e9178a7caf8028073159d97551a",
+  "validator_sha256": "886ecc72016e6fd34668ac0803c75175767d2a4db1c06134acb6e84a4d4a1677",
+  "native_mesh": true,
+  "horizontal_increment_mm": 0.1,
+  "mesh_tolerance_slack_mm": 0.025,
+  "allowed_outward_growth_mm_per_mm_z": 1,
+  "section_area_threshold_mm2": 0.01,
+  "maximum_outside_envelope_area_mm2": 0.8205268849803404,
+  "roi_xy_mm": [
+    [
+      -34,
+      -60.5
+    ],
+    [
+      -7.9,
+      60.5
+    ]
+  ],
+  "checks": [
+    {
+      "z_mm": 16.500013,
+      "new_bulge_section_area_mm2": 0.007047659304141544,
+      "outside_45deg_envelope_area_mm2": 0.0021016765150108085
+    },
+    {
+      "z_mm": 16.600013,
+      "new_bulge_section_area_mm2": 0.006497067808680081,
+      "outside_45deg_envelope_area_mm2": 0.0016666969366632145
+    },
+    {
+      "z_mm": 16.700013000000002,
+      "new_bulge_section_area_mm2": 0.0069716619525930406,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 16.800013000000003,
+      "new_bulge_section_area_mm2": 0.0045833819351347215,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 16.900013000000005,
+      "new_bulge_section_area_mm2": 0.007616743372768971,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 17.000013000000006,
+      "new_bulge_section_area_mm2": 0.00652617226938522,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 17.100013000000008,
+      "new_bulge_section_area_mm2": 0.0063368500076209045,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 17.20001300000001,
+      "new_bulge_section_area_mm2": 0.004333387563774559,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 17.30001300000001,
+      "new_bulge_section_area_mm2": 0.009192017581995362,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 17.400013000000012,
+      "new_bulge_section_area_mm2": 0.004207508811158334,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 17.500013000000013,
+      "new_bulge_section_area_mm2": 0.004144978186338473,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 17.600013000000015,
+      "new_bulge_section_area_mm2": 0.004081352880022144,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 17.700013000000016,
+      "new_bulge_section_area_mm2": 0.004016128943013767,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 17.800013000000018,
+      "new_bulge_section_area_mm2": 0.00394928478012768,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 17.90001300000002,
+      "new_bulge_section_area_mm2": 0.0038798681657284174,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 18.00001300000002,
+      "new_bulge_section_area_mm2": 0.003805932923882781,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 18.100013000000022,
+      "new_bulge_section_area_mm2": 0.0037289041492833,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 18.200013000000023,
+      "new_bulge_section_area_mm2": 0.0036549420964914372,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 18.300013000000025,
+      "new_bulge_section_area_mm2": 0.0035892085443168915,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 18.400013000000026,
+      "new_bulge_section_area_mm2": 0.0035228625101024753,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 18.500013000000028,
+      "new_bulge_section_area_mm2": 0.0034546619814696164,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 18.60001300000003,
+      "new_bulge_section_area_mm2": 0.0033877322909202263,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 18.70001300000003,
+      "new_bulge_section_area_mm2": 0.008228581439644132,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 18.800013000000032,
+      "new_bulge_section_area_mm2": 0.003277736461926758,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 18.900013000000033,
+      "new_bulge_section_area_mm2": 0.005194281419168449,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 19.000013000000035,
+      "new_bulge_section_area_mm2": 0.0031913153600511422,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 19.100013000000036,
+      "new_bulge_section_area_mm2": 0.003156238872395248,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 19.200013000000038,
+      "new_bulge_section_area_mm2": 0.0031273276650815893,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 19.30001300000004,
+      "new_bulge_section_area_mm2": 0.0031038601342389576,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 19.40001300000004,
+      "new_bulge_section_area_mm2": 0.0030859196794087527,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 19.500013000000042,
+      "new_bulge_section_area_mm2": 0.00307417740426366,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 19.600013000000043,
+      "new_bulge_section_area_mm2": 0.003070668352347237,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 19.700013000000045,
+      "new_bulge_section_area_mm2": 0.003075048038276983,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 19.800013000000046,
+      "new_bulge_section_area_mm2": 0.0030804341673708996,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 19.900013000000047,
+      "new_bulge_section_area_mm2": 0.0030915223749832577,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 20.00001300000005,
+      "new_bulge_section_area_mm2": 0.0031072329241274106,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 20.10001300000005,
+      "new_bulge_section_area_mm2": 0.0030623945033010887,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 20.20001300000005,
+      "new_bulge_section_area_mm2": 0.0030906688569967413,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 20.300013000000053,
+      "new_bulge_section_area_mm2": 0.0030888100764320157,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 20.400013000000055,
+      "new_bulge_section_area_mm2": 0.0031101905580615406,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 20.500013000000056,
+      "new_bulge_section_area_mm2": 0.0031207484494907485,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 20.600013000000057,
+      "new_bulge_section_area_mm2": 0.6704340016910472,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 20.70001300000006,
+      "new_bulge_section_area_mm2": 2.122956458798271,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 20.80001300000006,
+      "new_bulge_section_area_mm2": 4.019284587553122,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 20.90001300000006,
+      "new_bulge_section_area_mm2": 6.271242868517894,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 21.000013000000063,
+      "new_bulge_section_area_mm2": 8.769542293731988,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 21.100013000000065,
+      "new_bulge_section_area_mm2": 11.486379066501042,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 21.200013000000066,
+      "new_bulge_section_area_mm2": 14.414522377194329,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 21.300013000000067,
+      "new_bulge_section_area_mm2": 17.537951088869512,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 21.40001300000007,
+      "new_bulge_section_area_mm2": 20.840174968478784,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 21.50001300000007,
+      "new_bulge_section_area_mm2": 24.303591397196126,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 21.60001300000007,
+      "new_bulge_section_area_mm2": 27.93061595754005,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 21.700013000000073,
+      "new_bulge_section_area_mm2": 31.715852940820753,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 21.800013000000074,
+      "new_bulge_section_area_mm2": 35.70890919696962,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 21.900013000000076,
+      "new_bulge_section_area_mm2": 39.99011591788969,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 22.000013000000077,
+      "new_bulge_section_area_mm2": 44.53549178361341,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 22.10001300000008,
+      "new_bulge_section_area_mm2": 48.97674479453324,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 22.20001300000008,
+      "new_bulge_section_area_mm2": 53.34986154478801,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 22.30001300000008,
+      "new_bulge_section_area_mm2": 57.634164429830925,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 22.400013000000083,
+      "new_bulge_section_area_mm2": 61.812241885566436,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 22.500013000000084,
+      "new_bulge_section_area_mm2": 65.91313998067719,
+      "outside_45deg_envelope_area_mm2": 0.013979484205783266
+    },
+    {
+      "z_mm": 22.600013000000086,
+      "new_bulge_section_area_mm2": 70.01895770257926,
+      "outside_45deg_envelope_area_mm2": 0.0811110022582645
+    },
+    {
+      "z_mm": 22.700013000000087,
+      "new_bulge_section_area_mm2": 74.12207128467286,
+      "outside_45deg_envelope_area_mm2": 0.13733617533193387
+    },
+    {
+      "z_mm": 22.80001300000009,
+      "new_bulge_section_area_mm2": 78.22899886899779,
+      "outside_45deg_envelope_area_mm2": 0.19412794605757622
+    },
+    {
+      "z_mm": 22.90001300000009,
+      "new_bulge_section_area_mm2": 82.33131473830935,
+      "outside_45deg_envelope_area_mm2": 0.24602136906427502
+    },
+    {
+      "z_mm": 23.00001300000009,
+      "new_bulge_section_area_mm2": 86.42905285351013,
+      "outside_45deg_envelope_area_mm2": 0.29781046383405074
+    },
+    {
+      "z_mm": 23.100013000000093,
+      "new_bulge_section_area_mm2": 90.54845945819109,
+      "outside_45deg_envelope_area_mm2": 0.35013801682221135
+    },
+    {
+      "z_mm": 23.200013000000094,
+      "new_bulge_section_area_mm2": 94.65450288498828,
+      "outside_45deg_envelope_area_mm2": 0.3986714810743942
+    },
+    {
+      "z_mm": 23.300013000000096,
+      "new_bulge_section_area_mm2": 98.74826422492517,
+      "outside_45deg_envelope_area_mm2": 0.4493301230772914
+    },
+    {
+      "z_mm": 23.400013000000097,
+      "new_bulge_section_area_mm2": 102.83497424233312,
+      "outside_45deg_envelope_area_mm2": 0.49874346585673157
+    },
+    {
+      "z_mm": 23.5000130000001,
+      "new_bulge_section_area_mm2": 106.9216639924914,
+      "outside_45deg_envelope_area_mm2": 0.5511075388575397
+    },
+    {
+      "z_mm": 23.6000130000001,
+      "new_bulge_section_area_mm2": 111.00929582939047,
+      "outside_45deg_envelope_area_mm2": 0.6037463303396475
+    },
+    {
+      "z_mm": 23.7000130000001,
+      "new_bulge_section_area_mm2": 115.08391321524604,
+      "outside_45deg_envelope_area_mm2": 0.655929136779118
+    },
+    {
+      "z_mm": 23.800013000000103,
+      "new_bulge_section_area_mm2": 119.1700557106609,
+      "outside_45deg_envelope_area_mm2": 0.7084547615803476
+    },
+    {
+      "z_mm": 23.900013000000104,
+      "new_bulge_section_area_mm2": 123.29830908616519,
+      "outside_45deg_envelope_area_mm2": 0.7612321365477337
+    },
+    {
+      "z_mm": 24.000013000000106,
+      "new_bulge_section_area_mm2": 127.40596131920461,
+      "outside_45deg_envelope_area_mm2": 0.8205268849803404
+    },
+    {
+      "z_mm": 24.100013000000107,
+      "new_bulge_section_area_mm2": 131.47683953154356,
+      "outside_45deg_envelope_area_mm2": 0.00906817181937807
+    },
+    {
+      "z_mm": 24.20001300000011,
+      "new_bulge_section_area_mm2": 133.75066794186858,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 24.30001300000011,
+      "new_bulge_section_area_mm2": 135.9354151855607,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 24.40001300000011,
+      "new_bulge_section_area_mm2": 138.01583237881152,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 24.500013000000113,
+      "new_bulge_section_area_mm2": 140.03254595538638,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 24.600013000000114,
+      "new_bulge_section_area_mm2": 141.95869240403155,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 24.700013000000116,
+      "new_bulge_section_area_mm2": 143.80975860160837,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 24.800013000000117,
+      "new_bulge_section_area_mm2": 145.54958548942307,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 24.90001300000012,
+      "new_bulge_section_area_mm2": 147.20091271271792,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 25.00001300000012,
+      "new_bulge_section_area_mm2": 148.790054345018,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 25.10001300000012,
+      "new_bulge_section_area_mm2": 150.29913491331644,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 25.200013000000123,
+      "new_bulge_section_area_mm2": 151.72313184703276,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 25.300013000000124,
+      "new_bulge_section_area_mm2": 153.06363593808342,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 25.400013000000126,
+      "new_bulge_section_area_mm2": 154.31560301009722,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 25.500013000000127,
+      "new_bulge_section_area_mm2": 155.48335538460879,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 25.60001300000013,
+      "new_bulge_section_area_mm2": 156.56512703484222,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 25.70001300000013,
+      "new_bulge_section_area_mm2": 157.55261382017628,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 25.80001300000013,
+      "new_bulge_section_area_mm2": 158.4573181264952,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 25.900013000000133,
+      "new_bulge_section_area_mm2": 159.2662762335858,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 26.000013000000134,
+      "new_bulge_section_area_mm2": 159.99767800549222,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 26.100013000000136,
+      "new_bulge_section_area_mm2": 161.18122504087944,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 26.200013000000137,
+      "new_bulge_section_area_mm2": 162.28557852545765,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 26.30001300000014,
+      "new_bulge_section_area_mm2": 163.2939072689826,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 26.40001300000014,
+      "new_bulge_section_area_mm2": 164.21570671550435,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 26.50001300000014,
+      "new_bulge_section_area_mm2": 165.04358377317882,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 26.600013000000143,
+      "new_bulge_section_area_mm2": 165.781275273942,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 26.700013000000144,
+      "new_bulge_section_area_mm2": 166.42010565917687,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 26.800013000000146,
+      "new_bulge_section_area_mm2": 166.96866386629975,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 26.900013000000147,
+      "new_bulge_section_area_mm2": 167.41725030176636,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 27.00001300000015,
+      "new_bulge_section_area_mm2": 167.77146790379467,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 27.10001300000015,
+      "new_bulge_section_area_mm2": 168.01706156861846,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 27.20001300000015,
+      "new_bulge_section_area_mm2": 168.1651882170406,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 27.300013000000153,
+      "new_bulge_section_area_mm2": 168.20878208526392,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 27.400013000000154,
+      "new_bulge_section_area_mm2": 168.14052148413865,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 27.500013000000155,
+      "new_bulge_section_area_mm2": 167.94619727401206,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 27.600013000000157,
+      "new_bulge_section_area_mm2": 167.6449666684806,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 27.70001300000016,
+      "new_bulge_section_area_mm2": 167.2607805193494,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 27.80001300000016,
+      "new_bulge_section_area_mm2": 166.75191144528452,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 27.90001300000016,
+      "new_bulge_section_area_mm2": 166.14085017629782,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 28.000013000000163,
+      "new_bulge_section_area_mm2": 165.40520375992165,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 28.100013000000164,
+      "new_bulge_section_area_mm2": 164.95848908796063,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 28.200013000000165,
+      "new_bulge_section_area_mm2": 164.35590012016067,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 28.300013000000167,
+      "new_bulge_section_area_mm2": 163.49828307514548,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 28.40001300000017,
+      "new_bulge_section_area_mm2": 162.6739175063635,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 28.50001300000017,
+      "new_bulge_section_area_mm2": 162.27280533461285,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 28.60001300000017,
+      "new_bulge_section_area_mm2": 161.63392543644008,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 28.700013000000173,
+      "new_bulge_section_area_mm2": 160.72107980082313,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 28.800013000000174,
+      "new_bulge_section_area_mm2": 160.04897280161566,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 28.900013000000175,
+      "new_bulge_section_area_mm2": 159.48419935465714,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 29.000013000000177,
+      "new_bulge_section_area_mm2": 158.58474678646817,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 29.100013000000178,
+      "new_bulge_section_area_mm2": 157.6647428027398,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 29.20001300000018,
+      "new_bulge_section_area_mm2": 157.31009097701087,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 29.30001300000018,
+      "new_bulge_section_area_mm2": 156.8774635299799,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 29.400013000000182,
+      "new_bulge_section_area_mm2": 156.45978309481387,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 29.500013000000184,
+      "new_bulge_section_area_mm2": 156.11125698385732,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 29.600013000000185,
+      "new_bulge_section_area_mm2": 156.1859169015843,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 29.700013000000187,
+      "new_bulge_section_area_mm2": 156.37970313701734,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 29.800013000000188,
+      "new_bulge_section_area_mm2": 156.25671699248065,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 29.90001300000019,
+      "new_bulge_section_area_mm2": 156.6798277214691,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 30.00001300000019,
+      "new_bulge_section_area_mm2": 157.29227849177286,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 30.100013000000192,
+      "new_bulge_section_area_mm2": 157.8731925451484,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 30.200013000000194,
+      "new_bulge_section_area_mm2": 158.52771641052374,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 30.300013000000195,
+      "new_bulge_section_area_mm2": 159.86510304272596,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 30.400013000000197,
+      "new_bulge_section_area_mm2": 160.94622241788898,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 30.500013000000198,
+      "new_bulge_section_area_mm2": 161.99136490390435,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 30.6000130000002,
+      "new_bulge_section_area_mm2": 163.98456541624188,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 30.7000130000002,
+      "new_bulge_section_area_mm2": 165.77392833596127,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 30.800013000000202,
+      "new_bulge_section_area_mm2": 167.4888225622974,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 30.900013000000204,
+      "new_bulge_section_area_mm2": 170.0904766938747,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 31.000013000000205,
+      "new_bulge_section_area_mm2": 172.56329148414858,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 31.100013000000207,
+      "new_bulge_section_area_mm2": 174.99673280358863,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 31.200013000000208,
+      "new_bulge_section_area_mm2": 178.40520303083926,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 31.30001300000021,
+      "new_bulge_section_area_mm2": 181.89541034232568,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 31.40001300000021,
+      "new_bulge_section_area_mm2": 185.1746388041909,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 31.500013000000212,
+      "new_bulge_section_area_mm2": 189.64858001612527,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 31.600013000000214,
+      "new_bulge_section_area_mm2": 194.1076464989602,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 31.700013000000215,
+      "new_bulge_section_area_mm2": 198.6634537439055,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 31.800013000000217,
+      "new_bulge_section_area_mm2": 204.26293834968308,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 31.900013000000218,
+      "new_bulge_section_area_mm2": 209.02953958371546,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 32.00001300000022,
+      "new_bulge_section_area_mm2": 215.0230125962829,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 32.100013000000224,
+      "new_bulge_section_area_mm2": 220.50858519075746,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 32.200013000000226,
+      "new_bulge_section_area_mm2": 227.83646615225982,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 32.30001300000023,
+      "new_bulge_section_area_mm2": 235.57515958120482,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 32.40001300000023,
+      "new_bulge_section_area_mm2": 246.04463216894038,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 32.50001300000023,
+      "new_bulge_section_area_mm2": 257.359340294607,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 32.60001300000023,
+      "new_bulge_section_area_mm2": 273.25373274783465,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 32.70001300000023,
+      "new_bulge_section_area_mm2": 293.3698241229765,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 32.800013000000234,
+      "new_bulge_section_area_mm2": 321.0361721974223,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 32.900013000000236,
+      "new_bulge_section_area_mm2": 365.5228841519373,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 33.00001300000024,
+      "new_bulge_section_area_mm2": 1352.4390592642708,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 33.10001300000024,
+      "new_bulge_section_area_mm2": 1261.8418213039351,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 33.20001300000024,
+      "new_bulge_section_area_mm2": 1170.0827978513307,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 33.30001300000024,
+      "new_bulge_section_area_mm2": 1076.4270108516364,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 33.40001300000024,
+      "new_bulge_section_area_mm2": 980.6732995016249,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 33.500013000000244,
+      "new_bulge_section_area_mm2": 882.909420580272,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 33.600013000000246,
+      "new_bulge_section_area_mm2": 783.4786283991606,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 33.70001300000025,
+      "new_bulge_section_area_mm2": 682.2388455396897,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 33.80001300000025,
+      "new_bulge_section_area_mm2": 580.3789777259532,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 33.90001300000025,
+      "new_bulge_section_area_mm2": 480.74127697010243,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 34.00001300000025,
+      "new_bulge_section_area_mm2": 389.0256982245502,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 34.10001300000025,
+      "new_bulge_section_area_mm2": 309.10905763636794,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 34.200013000000254,
+      "new_bulge_section_area_mm2": 240.8539890469089,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 34.300013000000256,
+      "new_bulge_section_area_mm2": 178.61114211989275,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 34.40001300000026,
+      "new_bulge_section_area_mm2": 114.18694781732198,
+      "outside_45deg_envelope_area_mm2": 0.0
+    },
+    {
+      "z_mm": 34.50001300000026,
+      "new_bulge_section_area_mm2": 0.0,
+      "outside_45deg_envelope_area_mm2": 0.0
+    }
+  ],
+  "scope": "Sampled mesh-section screening of new upper palm stock only. Finite section spacing and mesh tolerance are explicit; actual native G-code support/overhang review remains required."
+}

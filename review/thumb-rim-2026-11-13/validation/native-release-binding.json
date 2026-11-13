@@ -1,0 +1,64 @@
+{
+  "status": "PASS_NATIVE_R19_SOURCE_EXPORT_REPORT_BINDING",
+  "version_id": "21323818480a2406fe14f51f",
+  "version_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/21323818480a2406fe14f51f/e/d253eb87b70818ebde8215f0",
+  "source_sha256": "0e88e273e2e9bc436b2844a44f04b28fb094593c0af87a2127d792bbb56f016d",
+  "native_step_sha256": "41e4eb637ab9e78ca54be588712bfb05ad9d8f5ae5f34467a685cc422142819f",
+  "native_zip_sha256": "344ca98f4147832b2a324c125df42c90b9d522f1617d554154b82e82312bc8b7",
+  "native_P01_stl_sha256": "444f6f1527703fcaec9f07777428c0d0ae73f0dd121028dbcd52d6cf3514a36c",
+  "native_changed_stls": {
+    "P01": {
+      "member": "Fingerworker MVP - P01 PRINT - Flat132 organic palm, rounded thumb rims, rigid rear mounts.stl",
+      "sha256": "444f6f1527703fcaec9f07777428c0d0ae73f0dd121028dbcd52d6cf3514a36c"
+    },
+    "P06L": {
+      "member": "Fingerworker MVP - P06L PRINT - rigid rear rod block, two M3 screws.stl",
+      "sha256": "28775b28ae834d77f3c60e511338284121782ffb82384183b49593670ed7fdb2"
+    },
+    "P06R": {
+      "member": "Fingerworker MVP - P06R PRINT - rigid rear rod block, two M3 screws.stl",
+      "sha256": "e393e917074857b738c8ae8a549cf847e4c0ffc7f23cdc601c8a07c708f6ef0a"
+    },
+    "P08": {
+      "member": "Fingerworker MVP - P08 PRINT - rigid electronics tray, two M2x8 screws.stl",
+      "sha256": "6fcaf5882bc94548bc38ec258bc60a548aa101df60243af4528099e545f09724"
+    }
+  },
+  "native_parts": 94,
+  "unchanged_native_bodies": 90,
+  "source_readback_exact": true,
+  "native_version_snapshot": {
+    "path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/thumb-rim-2026-11-13/validation/onshape-version-at-validation.json",
+    "sha256": "bdfef63b116427f243db323f33d9c0bdf1a6d42a3619794f55f832baaca3a315"
+  },
+  "reports": {
+    "native-integration.json": {
+      "path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/thumb-rim-2026-11-13/validation/native-integration.json",
+      "sha256": "fecf2a65c996a937433176ea9ecaca8bfb1b4c2227122a366f4235e600b6bbed",
+      "status": "PASS_NATIVE_R19_INTEGRATION"
+    },
+    "native-rim-check.json": {
+      "path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/thumb-rim-2026-11-13/validation/native-rim-check.json",
+      "sha256": "c0bf1e995330be39b16d27b957f4ed9d3bc66c9aa544c34f0874a58516ba857a",
+      "status": "PASS_NATIVE_R19_RIM_CHECK"
+    },
+    "rim-probe-check.json": {
+      "path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/thumb-rim-2026-11-13/validation/rim-probe-check.json",
+      "sha256": "410d9d115048a621526f2a59dbf9c6f798a43ad5ae3b2e1684ac6429907748f3",
+      "status": "PASS_NATIVE_R19_RIM_PROBE"
+    },
+    "native-shape-delta.json": {
+      "path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/thumb-rim-2026-11-13/validation/native-shape-delta.json",
+      "sha256": "367a982be47851abe9d039cf633f75ae103effc7b308f66a0ff9ab60d4dab5b3",
+      "status": "PASS_NATIVE_R19_SHAPE_DELTA"
+    }
+  },
+  "native_inventory_sha256": "e223e4d6967ab7252882236b2723fcd0213f84c29e994a28874c32a660dacdc4",
+  "baseline_native_release_binding_sha256": "dc5374e2b1fb6d3ee5e5a0fb15b66836e1e9747f6224bb9b15562bd26d7a69e1",
+  "validator_sha256": "060777b82ce179ba1ac51ab42da333962ec84a3e9ed00ee7247fb8c757a9dfdd",
+  "scope": "Focused native CAD source/export/interface binding. Required rearM3 and trayM2 screw fastening replaces the removed snap retention. Bambu machine settings, support/contact surfaces and sliced-path printability require separate fresh package checks.",
+  "limitations": [
+    "No printed comfort, durability, load or insert-retention qualification.",
+    "Variable topR2/wristR1 blends preserve the old lower lip; geometric web2.432mm minimum is a CAD dimension, not a strength rating."
+  ]
+}

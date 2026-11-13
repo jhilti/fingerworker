@@ -1,0 +1,9 @@
+{
+  "version_id": "e8453217d87e9cfdc9a33f65",
+  "name": "Flat132 R15 - inboard strap slots - 2026-11-08",
+  "url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/e8453217d87e9cfdc9a33f65/e/d253eb87b70818ebde8215f0",
+  "source_sha256": "97e2010cc17d06eb8648cf278b9aae2fd85b6e909bd657b9b216f3b37748665f",
+  "step_sha256": "5964654c121d6d375011bfb24144b2e00678a7ccac430490e83349c44de5842e",
+  "stl_zip_sha256": "0cb5a71bfd096b6ea2303cc1ee3607ce7b5393a111e24cd2032cb5d49915144e",
+  "evidence": "Created through native Chrome Onshape UI after final native geometry PASS128. Opened new version history row and read version URL from active tab. Source committed before native exports; no geometry edits between export and version creation. Native regenerated with 93 parts. R14 baseline preserved."
+}

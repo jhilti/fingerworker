@@ -1,0 +1,3038 @@
+{
+  "server": {
+    "meta": null,
+    "protocolVersion": "2025-11-25",
+    "capabilities": {
+      "experimental": {},
+      "logging": {},
+      "prompts": {
+        "listChanged": false
+      },
+      "resources": {
+        "subscribe": false,
+        "listChanged": false
+      },
+      "tools": {
+        "listChanged": true
+      },
+      "completions": null,
+      "tasks": null,
+      "extensions": {
+        "io.modelcontextprotocol/ui": {}
+      }
+    },
+    "serverInfo": {
+      "name": "kicad-mcp-server",
+      "title": null,
+      "version": "3.4.8",
+      "websiteUrl": null,
+      "icons": null
+    },
+    "instructions": "KiCad MCP Server - A server for analyzing KiCad schematics and PCBs,\n    and performing design rule checks.\n\n    Available capabilities:\n    - Schematic analysis (components, nets, symbols)\n    - PCB analysis (footprints, tracks, statistics)\n    - Design rule checking (ERC/DRC)\n    - Schematic summarization\n    - Hierarchical sheet and net tracing\n    - Pin/power/bus extraction and device tree generation\n    "
+  },
+  "upstream_commit": "4085d3f98c97b23872cb05605afa8714bb26004a",
+  "calls": [
+    {
+      "tool": "get_schematic_info",
+      "arguments": {
+        "file_path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_sch"
+      },
+      "result": {
+        "meta": {
+          "fastmcp": {
+            "wrap_result": true
+          }
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "# Schematic Information: /Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_sch\n\n## Project Information\n**Title:** FINGERWORKER | Electronics Rev A\n**Date:** 2026-09-21\n**Revision:** A\n\n## Statistics\n**Total Components:** 0\n**Total Nets:** 0\n**Hierarchical Sheets:** 3\n\n## Components by Type\n\n## Hierarchical Sheets\n- Power: Power.kicad_sch\n- Acquisition: Acquisition.kicad_sch\n- Controls: Controls.kicad_sch",
+            "annotations": null,
+            "meta": null
+          }
+        ],
+        "structuredContent": {
+          "result": "# Schematic Information: /Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_sch\n\n## Project Information\n**Title:** FINGERWORKER | Electronics Rev A\n**Date:** 2026-09-21\n**Revision:** A\n\n## Statistics\n**Total Components:** 0\n**Total Nets:** 0\n**Hierarchical Sheets:** 3\n\n## Components by Type\n\n## Hierarchical Sheets\n- Power: Power.kicad_sch\n- Acquisition: Acquisition.kicad_sch\n- Controls: Controls.kicad_sch"
+        },
+        "isError": false
+      }
+    },
+    {
+      "tool": "run_erc",
+      "arguments": {
+        "schematic_path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_sch"
+      },
+      "result": {
+        "meta": {
+          "fastmcp": {
+            "wrap_result": true
+          }
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "\u2705 **ERC Check Passed**\n\n**Schematic:** /Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_sch\n\nNo electrical violations detected!",
+            "annotations": null,
+            "meta": null
+          }
+        ],
+        "structuredContent": {
+          "result": "\u2705 **ERC Check Passed**\n\n**Schematic:** /Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_sch\n\nNo electrical violations detected!"
+        },
+        "isError": false
+      }
+    },
+    {
+      "tool": "run_drc",
+      "arguments": {
+        "pcb_path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_pcb"
+      },
+      "result": {
+        "meta": {
+          "fastmcp": {
+            "wrap_result": true
+          }
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "\u2705 **DRC Check Passed**\n\n**PCB:** /Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_pcb\n\nNo design rule violations detected!",
+            "annotations": null,
+            "meta": null
+          }
+        ],
+        "structuredContent": {
+          "result": "\u2705 **DRC Check Passed**\n\n**PCB:** /Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_pcb\n\nNo design rule violations detected!"
+        },
+        "isError": false
+      }
+    },
+    {
+      "tool": "generate_netlist",
+      "arguments": {
+        "schematic_path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_sch"
+      },
+      "result": {
+        "meta": {
+          "fastmcp": {
+            "wrap_result": true
+          }
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "\u2705 Netlist generated successfully\n\n**Output:** /tmp/Fingerworker_RevA_e3b078ee.xml\n\nYou can now use netlist-based tools:\n- `trace_netlist_connection()` - Trace component connections via netlist\n- `get_netlist_nets()` - List all nets\n- `get_netlist_components()` - List all components with their nets\n",
+            "annotations": null,
+            "meta": null
+          }
+        ],
+        "structuredContent": {
+          "result": "\u2705 Netlist generated successfully\n\n**Output:** /tmp/Fingerworker_RevA_e3b078ee.xml\n\nYou can now use netlist-based tools:\n- `trace_netlist_connection()` - Trace component connections via netlist\n- `get_netlist_nets()` - List all nets\n- `get_netlist_components()` - List all components with their nets\n"
+        },
+        "isError": false
+      }
+    },
+    {
+      "tool": "get_netlist_components",
+      "arguments": {
+        "netlist_path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/reports/full-review-netlist.xml"
+      },
+      "result": {
+        "meta": {
+          "fastmcp": {
+            "wrap_result": true
+          }
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "## Components from Netlist: /Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/reports/full-review-netlist.xml\n\n**Total Components:** 51\n\n### BT1\n**Value:** Protected 100 mAh LiPo\n**Library:** Fingerworker\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| + | VBAT |\n| - | GND |\n\n### C1\n**Value:** 10 uF\n**Library:** Fingerworker\n**Footprint:** Fingerworker:C_0805_2012Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | V3V3 |\n| 2 | GND |\n\n### C10\n**Value:** 4.7 nF\n**Library:** Fingerworker\n**Footprint:** Fingerworker:C_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | AIN_N |\n| 2 | GND |\n\n### C11\n**Value:** 100 nF\n**Library:** Fingerworker\n**Footprint:** Fingerworker:C_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | REF_P |\n| 2 | REF_N |\n\n### C12\n**Value:** 100 nF\n**Library:** Fingerworker\n**Footprint:** Fingerworker:C_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | V5A |\n| 2 | GND |\n\n### C13\n**Value:** 1 uF\n**Library:** Fingerworker\n**Footprint:** Fingerworker:C_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | V5A |\n| 2 | GND |\n\n### C14\n**Value:** 100 nF\n**Library:** Fingerworker\n**Footprint:** Fingerworker:C_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | V3V3 |\n| 2 | GND |\n\n### C15\n**Value:** 100 nF\n**Library:** Fingerworker\n**Footprint:** Fingerworker:C_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | END_GATE |\n| 2 | GND |\n\n### C16\n**Value:** 100 nF\n**Library:** Fingerworker\n**Footprint:** Fingerworker:C_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | BUTTON_N |\n| 2 | GND |\n\n### C2\n**Value:** 10 nF\n**Library:** Fingerworker\n**Footprint:** Fingerworker:C_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | USB_PRESENT |\n| 2 | GND |\n\n### C3\n**Value:** 10 uF\n**Library:** Fingerworker\n**Footprint:** Fingerworker:C_0805_2012Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | V3V3 |\n| 2 | GND |\n\n### C4\n**Value:** 10 uF\n**Library:** Fingerworker\n**Footprint:** Fingerworker:C_0805_2012Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | VBOOST |\n| 2 | GND |\n\n### C5\n**Value:** 47 pF\n**Library:** Fingerworker\n**Footprint:** Fingerworker:C_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | VBOOST |\n| 2 | BOOST_FB |\n\n### C6\n**Value:** 1 uF\n**Library:** Fingerworker\n**Footprint:** Fingerworker:C_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | VBOOST |\n| 2 | GND |\n\n### C7\n**Value:** 4.7 uF\n**Library:** Fingerworker\n**Footprint:** Fingerworker:C_0805_2012Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | V5A |\n| 2 | GND |\n\n### C8\n**Value:** 470 nF\n**Library:** Fingerworker\n**Footprint:** Fingerworker:C_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | AIN_P |\n| 2 | AIN_N |\n\n### C9\n**Value:** 4.7 nF\n**Library:** Fingerworker\n**Footprint:** Fingerworker:C_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | AIN_P |\n| 2 | GND |\n\n### D1\n**Value:** MBR0520LT1G\n**Library:** Fingerworker\n**Footprint:** Fingerworker:D_SOD-123\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | VBOOST |\n| 2 | BOOST_SW |\n\n### H1\n**Value:** Force sensor 200 lbf\n**Library:** Fingerworker\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| BLACK | GND |\n| RED | V5A |\n| WHITE | SIG_N |\n| YELLOW | SIG_P |\n\n### J1\n**Value:** JST_PH_2\n**Library:** Fingerworker\n**Footprint:** Fingerworker:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | VBAT |\n| 2 | GND |\n\n### J2\n**Value:** FORCE_4\n**Library:** Fingerworker\n**Footprint:** Fingerworker:SolderWire_4x2mm_P2.54\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | V5A |\n| 2 | SIG_P |\n| 3 | SIG_N |\n| 4 | GND |\n| 5 | EXC_SENSE_P |\n| 6 | EXC_SENSE_N |\n\n### J3\n**Value:** END_2\n**Library:** Fingerworker\n**Footprint:** Fingerworker:SolderWire_2x2mm_P2.54\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | END_CONTACT |\n| 2 | GND |\n\n### L1\n**Value:** 10 uH\n**Library:** Fingerworker\n**Footprint:** Fingerworker:L_Coilcraft_XFL3012\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | V3V3 |\n| 2 | BOOST_SW |\n\n### Q1\n**Value:** 2N7002\n**Library:** Fingerworker\n**Footprint:** Fingerworker:SOT-23\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | END_GATE |\n| 2 | GND |\n| 3 | ENDSTOP_N |\n\n### R1\n**Value:** 100 k\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | VBUS_USB |\n| 2 | USB_PRESENT |\n\n### R10\n**Value:** 100 R\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | EXC_SENSE_N |\n| 2 | REF_N |\n\n### R11\n**Value:** 33 R\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | SPI_SCK_MCU |\n| 2 | SPI_SCK_ADC |\n\n### R12\n**Value:** 33 R\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | SPI_MOSI_MCU |\n| 2 | SPI_MOSI_ADC |\n\n### R13\n**Value:** 33 R\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | ADC_CS_MCU |\n| 2 | ADC_CS_N |\n\n### R14\n**Value:** 47 k\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | V3V3 |\n| 2 | ADC_CS_N |\n\n### R15\n**Value:** 100 k\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | SPI_SCK_ADC |\n| 2 | GND |\n\n### R16\n**Value:** 100 k\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | SPI_MOSI_ADC |\n| 2 | GND |\n\n### R17\n**Value:** 4.7 k\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | V5A |\n| 2 | END_CONTACT |\n\n### R18\n**Value:** 1 k\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | END_CONTACT |\n| 2 | END_GATE |\n\n### R19\n**Value:** 47 k\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | V3V3 |\n| 2 | ENDSTOP_N |\n\n### R2\n**Value:** 100 k\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | USB_PRESENT |\n| 2 | GND |\n\n### R20\n**Value:** 100 k\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | V3V3 |\n| 2 | BUTTON_N |\n\n### R21\n**Value:** 1 k\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | BUTTON_RAW |\n| 2 | BUTTON_N |\n\n### R3\n**Value:** 680 k\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | VBOOST |\n| 2 | BOOST_FB |\n\n### R4\n**Value:** 200 k\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | BOOST_FB |\n| 2 | GND |\n\n### R5\n**Value:** 100 k\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | BOOST_EN |\n| 2 | GND |\n\n### R6\n**Value:** 100 k\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | ANALOG_EN |\n| 2 | GND |\n\n### R7\n**Value:** 1 k\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | SIG_P |\n| 2 | AIN_P |\n\n### R8\n**Value:** 1 k\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | SIG_N |\n| 2 | AIN_N |\n\n### R9\n**Value:** 100 R\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | EXC_SENSE_P |\n| 2 | REF_P |\n\n### SW1\n**Value:** Existing end switch\n**Library:** Fingerworker\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| COM | GND |\n| NC | END_CONTACT |\n| NO | unconnected-(SW1-PadNO) |\n\n### SW2\n**Value:** EVQPUC02K\n**Library:** Fingerworker\n**Footprint:** Fingerworker:Panasonic_EVQPUL_EVQPUC\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | BUTTON_RAW |\n| 2 | GND |\n\n### U1\n**Value:** XIAO_nRF52840\n**Library:** Fingerworker\n**Footprint:** Fingerworker:Seeed_XIAO_nRF52840_SMD\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | BOOST_EN |\n| 10 | SPI_MISO |\n| 11 | SPI_MOSI_MCU |\n| 12 | V3V3 |\n| 13 | GND |\n| 14 | VBUS_USB |\n| 15 | unconnected-(U1-SWDIO-Pad15) |\n| 16 | unconnected-(U1-SWCLK-Pad16) |\n| 17 | unconnected-(U1-RESET_N-Pad17) |\n| 18 | GND |\n| 19 | VBAT |\n| 2 | ANALOG_EN |\n| 20 | GND |\n| 21 | unconnected-(U1-NFC1-Pad21) |\n| 22 | unconnected-(U1-NFC2-Pad22) |\n| 3 | ADC_CS_MCU |\n| 4 | ADC_DRDY_N |\n| 5 | BUTTON_N |\n| 6 | ENDSTOP_N |\n| 7 | USB_PRESENT |\n| 8 | unconnected-(U1-D7_{slash}_P1.12-Pad8) |\n| 9 | SPI_SCK_MCU |\n\n### U2\n**Value:** TPS61041DBVR\n**Library:** Fingerworker\n**Footprint:** Fingerworker:SOT-23-5\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | BOOST_SW |\n| 2 | GND |\n| 3 | BOOST_FB |\n| 4 | BOOST_EN |\n| 5 | V3V3 |\n\n### U3\n**Value:** TPS7A2050PDBVR\n**Library:** Fingerworker\n**Footprint:** Fingerworker:SOT-23-5\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | VBOOST |\n| 2 | GND |\n| 3 | ANALOG_EN |\n| 4 | unconnected-(U3-NC-Pad4) |\n| 5 | V5A |\n\n### U4\n**Value:** ADS1220IPWR\n**Library:** Fingerworker\n**Footprint:** Fingerworker:TSSOP-16_4.4x5mm_P0.65mm\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | SPI_SCK_ADC |\n| 10 | AIN_N |\n| 11 | AIN_P |\n| 12 | V5A |\n| 13 | V3V3 |\n| 14 | ADC_DRDY_N |\n| 15 | SPI_MISO |\n| 16 | SPI_MOSI_ADC |\n| 2 | ADC_CS_N |\n| 3 | GND |\n| 4 | GND |\n| 5 | GND |\n| 6 | unconnected-(U4-AIN3_{slash}_REFN1-Pad6) |\n| 7 | unconnected-(U4-AIN2-Pad7) |\n| 8 | REF_N |\n| 9 | REF_P |\n",
+            "annotations": null,
+            "meta": null
+          }
+        ],
+        "structuredContent": {
+          "result": "## Components from Netlist: /Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/reports/full-review-netlist.xml\n\n**Total Components:** 51\n\n### BT1\n**Value:** Protected 100 mAh LiPo\n**Library:** Fingerworker\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| + | VBAT |\n| - | GND |\n\n### C1\n**Value:** 10 uF\n**Library:** Fingerworker\n**Footprint:** Fingerworker:C_0805_2012Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | V3V3 |\n| 2 | GND |\n\n### C10\n**Value:** 4.7 nF\n**Library:** Fingerworker\n**Footprint:** Fingerworker:C_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | AIN_N |\n| 2 | GND |\n\n### C11\n**Value:** 100 nF\n**Library:** Fingerworker\n**Footprint:** Fingerworker:C_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | REF_P |\n| 2 | REF_N |\n\n### C12\n**Value:** 100 nF\n**Library:** Fingerworker\n**Footprint:** Fingerworker:C_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | V5A |\n| 2 | GND |\n\n### C13\n**Value:** 1 uF\n**Library:** Fingerworker\n**Footprint:** Fingerworker:C_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | V5A |\n| 2 | GND |\n\n### C14\n**Value:** 100 nF\n**Library:** Fingerworker\n**Footprint:** Fingerworker:C_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | V3V3 |\n| 2 | GND |\n\n### C15\n**Value:** 100 nF\n**Library:** Fingerworker\n**Footprint:** Fingerworker:C_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | END_GATE |\n| 2 | GND |\n\n### C16\n**Value:** 100 nF\n**Library:** Fingerworker\n**Footprint:** Fingerworker:C_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | BUTTON_N |\n| 2 | GND |\n\n### C2\n**Value:** 10 nF\n**Library:** Fingerworker\n**Footprint:** Fingerworker:C_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | USB_PRESENT |\n| 2 | GND |\n\n### C3\n**Value:** 10 uF\n**Library:** Fingerworker\n**Footprint:** Fingerworker:C_0805_2012Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | V3V3 |\n| 2 | GND |\n\n### C4\n**Value:** 10 uF\n**Library:** Fingerworker\n**Footprint:** Fingerworker:C_0805_2012Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | VBOOST |\n| 2 | GND |\n\n### C5\n**Value:** 47 pF\n**Library:** Fingerworker\n**Footprint:** Fingerworker:C_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | VBOOST |\n| 2 | BOOST_FB |\n\n### C6\n**Value:** 1 uF\n**Library:** Fingerworker\n**Footprint:** Fingerworker:C_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | VBOOST |\n| 2 | GND |\n\n### C7\n**Value:** 4.7 uF\n**Library:** Fingerworker\n**Footprint:** Fingerworker:C_0805_2012Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | V5A |\n| 2 | GND |\n\n### C8\n**Value:** 470 nF\n**Library:** Fingerworker\n**Footprint:** Fingerworker:C_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | AIN_P |\n| 2 | AIN_N |\n\n### C9\n**Value:** 4.7 nF\n**Library:** Fingerworker\n**Footprint:** Fingerworker:C_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | AIN_P |\n| 2 | GND |\n\n### D1\n**Value:** MBR0520LT1G\n**Library:** Fingerworker\n**Footprint:** Fingerworker:D_SOD-123\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | VBOOST |\n| 2 | BOOST_SW |\n\n### H1\n**Value:** Force sensor 200 lbf\n**Library:** Fingerworker\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| BLACK | GND |\n| RED | V5A |\n| WHITE | SIG_N |\n| YELLOW | SIG_P |\n\n### J1\n**Value:** JST_PH_2\n**Library:** Fingerworker\n**Footprint:** Fingerworker:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | VBAT |\n| 2 | GND |\n\n### J2\n**Value:** FORCE_4\n**Library:** Fingerworker\n**Footprint:** Fingerworker:SolderWire_4x2mm_P2.54\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | V5A |\n| 2 | SIG_P |\n| 3 | SIG_N |\n| 4 | GND |\n| 5 | EXC_SENSE_P |\n| 6 | EXC_SENSE_N |\n\n### J3\n**Value:** END_2\n**Library:** Fingerworker\n**Footprint:** Fingerworker:SolderWire_2x2mm_P2.54\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | END_CONTACT |\n| 2 | GND |\n\n### L1\n**Value:** 10 uH\n**Library:** Fingerworker\n**Footprint:** Fingerworker:L_Coilcraft_XFL3012\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | V3V3 |\n| 2 | BOOST_SW |\n\n### Q1\n**Value:** 2N7002\n**Library:** Fingerworker\n**Footprint:** Fingerworker:SOT-23\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | END_GATE |\n| 2 | GND |\n| 3 | ENDSTOP_N |\n\n### R1\n**Value:** 100 k\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | VBUS_USB |\n| 2 | USB_PRESENT |\n\n### R10\n**Value:** 100 R\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | EXC_SENSE_N |\n| 2 | REF_N |\n\n### R11\n**Value:** 33 R\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | SPI_SCK_MCU |\n| 2 | SPI_SCK_ADC |\n\n### R12\n**Value:** 33 R\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | SPI_MOSI_MCU |\n| 2 | SPI_MOSI_ADC |\n\n### R13\n**Value:** 33 R\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | ADC_CS_MCU |\n| 2 | ADC_CS_N |\n\n### R14\n**Value:** 47 k\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | V3V3 |\n| 2 | ADC_CS_N |\n\n### R15\n**Value:** 100 k\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | SPI_SCK_ADC |\n| 2 | GND |\n\n### R16\n**Value:** 100 k\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | SPI_MOSI_ADC |\n| 2 | GND |\n\n### R17\n**Value:** 4.7 k\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | V5A |\n| 2 | END_CONTACT |\n\n### R18\n**Value:** 1 k\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | END_CONTACT |\n| 2 | END_GATE |\n\n### R19\n**Value:** 47 k\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | V3V3 |\n| 2 | ENDSTOP_N |\n\n### R2\n**Value:** 100 k\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | USB_PRESENT |\n| 2 | GND |\n\n### R20\n**Value:** 100 k\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | V3V3 |\n| 2 | BUTTON_N |\n\n### R21\n**Value:** 1 k\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | BUTTON_RAW |\n| 2 | BUTTON_N |\n\n### R3\n**Value:** 680 k\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | VBOOST |\n| 2 | BOOST_FB |\n\n### R4\n**Value:** 200 k\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | BOOST_FB |\n| 2 | GND |\n\n### R5\n**Value:** 100 k\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | BOOST_EN |\n| 2 | GND |\n\n### R6\n**Value:** 100 k\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | ANALOG_EN |\n| 2 | GND |\n\n### R7\n**Value:** 1 k\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | SIG_P |\n| 2 | AIN_P |\n\n### R8\n**Value:** 1 k\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | SIG_N |\n| 2 | AIN_N |\n\n### R9\n**Value:** 100 R\n**Library:** Fingerworker\n**Footprint:** Fingerworker:R_0603_1608Metric\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | EXC_SENSE_P |\n| 2 | REF_P |\n\n### SW1\n**Value:** Existing end switch\n**Library:** Fingerworker\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| COM | GND |\n| NC | END_CONTACT |\n| NO | unconnected-(SW1-PadNO) |\n\n### SW2\n**Value:** EVQPUC02K\n**Library:** Fingerworker\n**Footprint:** Fingerworker:Panasonic_EVQPUL_EVQPUC\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | BUTTON_RAW |\n| 2 | GND |\n\n### U1\n**Value:** XIAO_nRF52840\n**Library:** Fingerworker\n**Footprint:** Fingerworker:Seeed_XIAO_nRF52840_SMD\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | BOOST_EN |\n| 10 | SPI_MISO |\n| 11 | SPI_MOSI_MCU |\n| 12 | V3V3 |\n| 13 | GND |\n| 14 | VBUS_USB |\n| 15 | unconnected-(U1-SWDIO-Pad15) |\n| 16 | unconnected-(U1-SWCLK-Pad16) |\n| 17 | unconnected-(U1-RESET_N-Pad17) |\n| 18 | GND |\n| 19 | VBAT |\n| 2 | ANALOG_EN |\n| 20 | GND |\n| 21 | unconnected-(U1-NFC1-Pad21) |\n| 22 | unconnected-(U1-NFC2-Pad22) |\n| 3 | ADC_CS_MCU |\n| 4 | ADC_DRDY_N |\n| 5 | BUTTON_N |\n| 6 | ENDSTOP_N |\n| 7 | USB_PRESENT |\n| 8 | unconnected-(U1-D7_{slash}_P1.12-Pad8) |\n| 9 | SPI_SCK_MCU |\n\n### U2\n**Value:** TPS61041DBVR\n**Library:** Fingerworker\n**Footprint:** Fingerworker:SOT-23-5\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | BOOST_SW |\n| 2 | GND |\n| 3 | BOOST_FB |\n| 4 | BOOST_EN |\n| 5 | V3V3 |\n\n### U3\n**Value:** TPS7A2050PDBVR\n**Library:** Fingerworker\n**Footprint:** Fingerworker:SOT-23-5\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | VBOOST |\n| 2 | GND |\n| 3 | ANALOG_EN |\n| 4 | unconnected-(U3-NC-Pad4) |\n| 5 | V5A |\n\n### U4\n**Value:** ADS1220IPWR\n**Library:** Fingerworker\n**Footprint:** Fingerworker:TSSOP-16_4.4x5mm_P0.65mm\n\n**Pin Connections:**\n\n| Pin | Net |\n|-----|-----|\n| 1 | SPI_SCK_ADC |\n| 10 | AIN_N |\n| 11 | AIN_P |\n| 12 | V5A |\n| 13 | V3V3 |\n| 14 | ADC_DRDY_N |\n| 15 | SPI_MISO |\n| 16 | SPI_MOSI_ADC |\n| 2 | ADC_CS_N |\n| 3 | GND |\n| 4 | GND |\n| 5 | GND |\n| 6 | unconnected-(U4-AIN3_{slash}_REFN1-Pad6) |\n| 7 | unconnected-(U4-AIN2-Pad7) |\n| 8 | REF_N |\n| 9 | REF_P |\n"
+        },
+        "isError": false
+      }
+    },
+    {
+      "tool": "get_netlist_nets",
+      "arguments": {
+        "netlist_path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/reports/full-review-netlist.xml"
+      },
+      "result": {
+        "meta": {
+          "fastmcp": {
+            "wrap_result": true
+          }
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "## Nets from Netlist: /Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/reports/full-review-netlist.xml\n\n**Total Nets:** 42\n\n### ADC_CS_MCU\n**Code:** 1\n**Connections:** 2 pins\n\n| Reference | Pin |\n|-----------|-----|\n| R13 | 1 |\n| U1 | 3 |\n\n### ADC_CS_N\n**Code:** 2\n**Connections:** 3 pins\n\n| Reference | Pin |\n|-----------|-----|\n| R13 | 2 |\n| R14 | 2 |\n| U4 | 2 |\n\n### ADC_DRDY_N\n**Code:** 3\n**Connections:** 2 pins\n\n| Reference | Pin |\n|-----------|-----|\n| U1 | 4 |\n| U4 | 14 |\n\n### AIN_N\n**Code:** 4\n**Connections:** 4 pins\n\n| Reference | Pin |\n|-----------|-----|\n| C10 | 1 |\n| C8 | 2 |\n| R8 | 2 |\n| U4 | 10 |\n\n### AIN_P\n**Code:** 5\n**Connections:** 4 pins\n\n| Reference | Pin |\n|-----------|-----|\n| C8 | 1 |\n| C9 | 1 |\n| R7 | 2 |\n| U4 | 11 |\n\n### ANALOG_EN\n**Code:** 6\n**Connections:** 3 pins\n\n| Reference | Pin |\n|-----------|-----|\n| R6 | 1 |\n| U1 | 2 |\n| U3 | 3 |\n\n### BOOST_EN\n**Code:** 7\n**Connections:** 3 pins\n\n| Reference | Pin |\n|-----------|-----|\n| R5 | 1 |\n| U1 | 1 |\n| U2 | 4 |\n\n### BOOST_FB\n**Code:** 8\n**Connections:** 4 pins\n\n| Reference | Pin |\n|-----------|-----|\n| C5 | 2 |\n| R3 | 2 |\n| R4 | 1 |\n| U2 | 3 |\n\n### BOOST_SW\n**Code:** 9\n**Connections:** 3 pins\n\n| Reference | Pin |\n|-----------|-----|\n| D1 | 2 |\n| L1 | 2 |\n| U2 | 1 |\n\n### BUTTON_N\n**Code:** 10\n**Connections:** 4 pins\n\n| Reference | Pin |\n|-----------|-----|\n| C16 | 1 |\n| R20 | 2 |\n| R21 | 2 |\n| U1 | 5 |\n\n### BUTTON_RAW\n**Code:** 11\n**Connections:** 2 pins\n\n| Reference | Pin |\n|-----------|-----|\n| R21 | 1 |\n| SW2 | 1 |\n\n### ENDSTOP_N\n**Code:** 12\n**Connections:** 3 pins\n\n| Reference | Pin |\n|-----------|-----|\n| Q1 | 3 |\n| R19 | 2 |\n| U1 | 6 |\n\n### END_CONTACT\n**Code:** 13\n**Connections:** 4 pins\n\n| Reference | Pin |\n|-----------|-----|\n| J3 | 1 |\n| R17 | 2 |\n| R18 | 1 |\n| SW1 | NC |\n\n### END_GATE\n**Code:** 14\n**Connections:** 3 pins\n\n| Reference | Pin |\n|-----------|-----|\n| C15 | 1 |\n| Q1 | 1 |\n| R18 | 2 |\n\n### EXC_SENSE_N\n**Code:** 15\n**Connections:** 2 pins\n\n| Reference | Pin |\n|-----------|-----|\n| J2 | 6 |\n| R10 | 1 |\n\n### EXC_SENSE_P\n**Code:** 16\n**Connections:** 2 pins\n\n| Reference | Pin |\n|-----------|-----|\n| J2 | 5 |\n| R9 | 1 |\n\n### GND\n**Code:** 17\n**Connections:** 35 pins\n\n| Reference | Pin |\n|-----------|-----|\n| BT1 | - |\n| C1 | 2 |\n| C10 | 2 |\n| C12 | 2 |\n| C13 | 2 |\n| C14 | 2 |\n| C15 | 2 |\n| C16 | 2 |\n| C2 | 2 |\n| C3 | 2 |\n| ... | (25 more) |\n\n### REF_N\n**Code:** 18\n**Connections:** 3 pins\n\n| Reference | Pin |\n|-----------|-----|\n| C11 | 2 |\n| R10 | 2 |\n| U4 | 8 |\n\n### REF_P\n**Code:** 19\n**Connections:** 3 pins\n\n| Reference | Pin |\n|-----------|-----|\n| C11 | 1 |\n| R9 | 2 |\n| U4 | 9 |\n\n### SIG_N\n**Code:** 20\n**Connections:** 3 pins\n\n| Reference | Pin |\n|-----------|-----|\n| H1 | WHITE |\n| J2 | 3 |\n| R8 | 1 |\n\n### SIG_P\n**Code:** 21\n**Connections:** 3 pins\n\n| Reference | Pin |\n|-----------|-----|\n| H1 | YELLOW |\n| J2 | 2 |\n| R7 | 1 |\n\n### SPI_MISO\n**Code:** 22\n**Connections:** 2 pins\n\n| Reference | Pin |\n|-----------|-----|\n| U1 | 10 |\n| U4 | 15 |\n\n### SPI_MOSI_ADC\n**Code:** 23\n**Connections:** 3 pins\n\n| Reference | Pin |\n|-----------|-----|\n| R12 | 2 |\n| R16 | 1 |\n| U4 | 16 |\n\n### SPI_MOSI_MCU\n**Code:** 24\n**Connections:** 2 pins\n\n| Reference | Pin |\n|-----------|-----|\n| R12 | 1 |\n| U1 | 11 |\n\n### SPI_SCK_ADC\n**Code:** 25\n**Connections:** 3 pins\n\n| Reference | Pin |\n|-----------|-----|\n| R11 | 2 |\n| R15 | 1 |\n| U4 | 1 |\n\n### SPI_SCK_MCU\n**Code:** 26\n**Connections:** 2 pins\n\n| Reference | Pin |\n|-----------|-----|\n| R11 | 1 |\n| U1 | 9 |\n\n### USB_PRESENT\n**Code:** 27\n**Connections:** 4 pins\n\n| Reference | Pin |\n|-----------|-----|\n| C2 | 1 |\n| R1 | 2 |\n| R2 | 1 |\n| U1 | 7 |\n\n### V3V3\n**Code:** 28\n**Connections:** 10 pins\n\n| Reference | Pin |\n|-----------|-----|\n| C1 | 1 |\n| C14 | 1 |\n| C3 | 1 |\n| L1 | 1 |\n| R14 | 1 |\n| R19 | 1 |\n| R20 | 1 |\n| U1 | 12 |\n| U2 | 5 |\n| U4 | 13 |\n\n### V5A\n**Code:** 29\n**Connections:** 8 pins\n\n| Reference | Pin |\n|-----------|-----|\n| C12 | 1 |\n| C13 | 1 |\n| C7 | 1 |\n| H1 | RED |\n| J2 | 1 |\n| R17 | 1 |\n| U3 | 5 |\n| U4 | 12 |\n\n### VBAT\n**Code:** 30\n**Connections:** 3 pins\n\n| Reference | Pin |\n|-----------|-----|\n| BT1 | + |\n| J1 | 1 |\n| U1 | 19 |\n\n### VBOOST\n**Code:** 31\n**Connections:** 6 pins\n\n| Reference | Pin |\n|-----------|-----|\n| C4 | 1 |\n| C5 | 1 |\n| C6 | 1 |\n| D1 | 1 |\n| R3 | 1 |\n| U3 | 1 |\n\n### VBUS_USB\n**Code:** 32\n**Connections:** 2 pins\n\n| Reference | Pin |\n|-----------|-----|\n| R1 | 1 |\n| U1 | 14 |\n\n### unconnected-(SW1-PadNO)\n**Code:** 33\n**Connections:** 1 pins\n\n| Reference | Pin |\n|-----------|-----|\n| SW1 | NO |\n\n### unconnected-(U1-D7_{slash}_P1.12-Pad8)\n**Code:** 34\n**Connections:** 1 pins\n\n| Reference | Pin |\n|-----------|-----|\n| U1 | 8 |\n\n### unconnected-(U1-NFC1-Pad21)\n**Code:** 35\n**Connections:** 1 pins\n\n| Reference | Pin |\n|-----------|-----|\n| U1 | 21 |\n\n### unconnected-(U1-NFC2-Pad22)\n**Code:** 36\n**Connections:** 1 pins\n\n| Reference | Pin |\n|-----------|-----|\n| U1 | 22 |\n\n### unconnected-(U1-RESET_N-Pad17)\n**Code:** 37\n**Connections:** 1 pins\n\n| Reference | Pin |\n|-----------|-----|\n| U1 | 17 |\n\n### unconnected-(U1-SWCLK-Pad16)\n**Code:** 38\n**Connections:** 1 pins\n\n| Reference | Pin |\n|-----------|-----|\n| U1 | 16 |\n\n### unconnected-(U1-SWDIO-Pad15)\n**Code:** 39\n**Connections:** 1 pins\n\n| Reference | Pin |\n|-----------|-----|\n| U1 | 15 |\n\n### unconnected-(U3-NC-Pad4)\n**Code:** 40\n**Connections:** 1 pins\n\n| Reference | Pin |\n|-----------|-----|\n| U3 | 4 |\n\n### unconnected-(U4-AIN2-Pad7)\n**Code:** 41\n**Connections:** 1 pins\n\n| Reference | Pin |\n|-----------|-----|\n| U4 | 7 |\n\n### unconnected-(U4-AIN3_{slash}_REFN1-Pad6)\n**Code:** 42\n**Connections:** 1 pins\n\n| Reference | Pin |\n|-----------|-----|\n| U4 | 6 |\n",
+            "annotations": null,
+            "meta": null
+          }
+        ],
+        "structuredContent": {
+          "result": "## Nets from Netlist: /Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/reports/full-review-netlist.xml\n\n**Total Nets:** 42\n\n### ADC_CS_MCU\n**Code:** 1\n**Connections:** 2 pins\n\n| Reference | Pin |\n|-----------|-----|\n| R13 | 1 |\n| U1 | 3 |\n\n### ADC_CS_N\n**Code:** 2\n**Connections:** 3 pins\n\n| Reference | Pin |\n|-----------|-----|\n| R13 | 2 |\n| R14 | 2 |\n| U4 | 2 |\n\n### ADC_DRDY_N\n**Code:** 3\n**Connections:** 2 pins\n\n| Reference | Pin |\n|-----------|-----|\n| U1 | 4 |\n| U4 | 14 |\n\n### AIN_N\n**Code:** 4\n**Connections:** 4 pins\n\n| Reference | Pin |\n|-----------|-----|\n| C10 | 1 |\n| C8 | 2 |\n| R8 | 2 |\n| U4 | 10 |\n\n### AIN_P\n**Code:** 5\n**Connections:** 4 pins\n\n| Reference | Pin |\n|-----------|-----|\n| C8 | 1 |\n| C9 | 1 |\n| R7 | 2 |\n| U4 | 11 |\n\n### ANALOG_EN\n**Code:** 6\n**Connections:** 3 pins\n\n| Reference | Pin |\n|-----------|-----|\n| R6 | 1 |\n| U1 | 2 |\n| U3 | 3 |\n\n### BOOST_EN\n**Code:** 7\n**Connections:** 3 pins\n\n| Reference | Pin |\n|-----------|-----|\n| R5 | 1 |\n| U1 | 1 |\n| U2 | 4 |\n\n### BOOST_FB\n**Code:** 8\n**Connections:** 4 pins\n\n| Reference | Pin |\n|-----------|-----|\n| C5 | 2 |\n| R3 | 2 |\n| R4 | 1 |\n| U2 | 3 |\n\n### BOOST_SW\n**Code:** 9\n**Connections:** 3 pins\n\n| Reference | Pin |\n|-----------|-----|\n| D1 | 2 |\n| L1 | 2 |\n| U2 | 1 |\n\n### BUTTON_N\n**Code:** 10\n**Connections:** 4 pins\n\n| Reference | Pin |\n|-----------|-----|\n| C16 | 1 |\n| R20 | 2 |\n| R21 | 2 |\n| U1 | 5 |\n\n### BUTTON_RAW\n**Code:** 11\n**Connections:** 2 pins\n\n| Reference | Pin |\n|-----------|-----|\n| R21 | 1 |\n| SW2 | 1 |\n\n### ENDSTOP_N\n**Code:** 12\n**Connections:** 3 pins\n\n| Reference | Pin |\n|-----------|-----|\n| Q1 | 3 |\n| R19 | 2 |\n| U1 | 6 |\n\n### END_CONTACT\n**Code:** 13\n**Connections:** 4 pins\n\n| Reference | Pin |\n|-----------|-----|\n| J3 | 1 |\n| R17 | 2 |\n| R18 | 1 |\n| SW1 | NC |\n\n### END_GATE\n**Code:** 14\n**Connections:** 3 pins\n\n| Reference | Pin |\n|-----------|-----|\n| C15 | 1 |\n| Q1 | 1 |\n| R18 | 2 |\n\n### EXC_SENSE_N\n**Code:** 15\n**Connections:** 2 pins\n\n| Reference | Pin |\n|-----------|-----|\n| J2 | 6 |\n| R10 | 1 |\n\n### EXC_SENSE_P\n**Code:** 16\n**Connections:** 2 pins\n\n| Reference | Pin |\n|-----------|-----|\n| J2 | 5 |\n| R9 | 1 |\n\n### GND\n**Code:** 17\n**Connections:** 35 pins\n\n| Reference | Pin |\n|-----------|-----|\n| BT1 | - |\n| C1 | 2 |\n| C10 | 2 |\n| C12 | 2 |\n| C13 | 2 |\n| C14 | 2 |\n| C15 | 2 |\n| C16 | 2 |\n| C2 | 2 |\n| C3 | 2 |\n| ... | (25 more) |\n\n### REF_N\n**Code:** 18\n**Connections:** 3 pins\n\n| Reference | Pin |\n|-----------|-----|\n| C11 | 2 |\n| R10 | 2 |\n| U4 | 8 |\n\n### REF_P\n**Code:** 19\n**Connections:** 3 pins\n\n| Reference | Pin |\n|-----------|-----|\n| C11 | 1 |\n| R9 | 2 |\n| U4 | 9 |\n\n### SIG_N\n**Code:** 20\n**Connections:** 3 pins\n\n| Reference | Pin |\n|-----------|-----|\n| H1 | WHITE |\n| J2 | 3 |\n| R8 | 1 |\n\n### SIG_P\n**Code:** 21\n**Connections:** 3 pins\n\n| Reference | Pin |\n|-----------|-----|\n| H1 | YELLOW |\n| J2 | 2 |\n| R7 | 1 |\n\n### SPI_MISO\n**Code:** 22\n**Connections:** 2 pins\n\n| Reference | Pin |\n|-----------|-----|\n| U1 | 10 |\n| U4 | 15 |\n\n### SPI_MOSI_ADC\n**Code:** 23\n**Connections:** 3 pins\n\n| Reference | Pin |\n|-----------|-----|\n| R12 | 2 |\n| R16 | 1 |\n| U4 | 16 |\n\n### SPI_MOSI_MCU\n**Code:** 24\n**Connections:** 2 pins\n\n| Reference | Pin |\n|-----------|-----|\n| R12 | 1 |\n| U1 | 11 |\n\n### SPI_SCK_ADC\n**Code:** 25\n**Connections:** 3 pins\n\n| Reference | Pin |\n|-----------|-----|\n| R11 | 2 |\n| R15 | 1 |\n| U4 | 1 |\n\n### SPI_SCK_MCU\n**Code:** 26\n**Connections:** 2 pins\n\n| Reference | Pin |\n|-----------|-----|\n| R11 | 1 |\n| U1 | 9 |\n\n### USB_PRESENT\n**Code:** 27\n**Connections:** 4 pins\n\n| Reference | Pin |\n|-----------|-----|\n| C2 | 1 |\n| R1 | 2 |\n| R2 | 1 |\n| U1 | 7 |\n\n### V3V3\n**Code:** 28\n**Connections:** 10 pins\n\n| Reference | Pin |\n|-----------|-----|\n| C1 | 1 |\n| C14 | 1 |\n| C3 | 1 |\n| L1 | 1 |\n| R14 | 1 |\n| R19 | 1 |\n| R20 | 1 |\n| U1 | 12 |\n| U2 | 5 |\n| U4 | 13 |\n\n### V5A\n**Code:** 29\n**Connections:** 8 pins\n\n| Reference | Pin |\n|-----------|-----|\n| C12 | 1 |\n| C13 | 1 |\n| C7 | 1 |\n| H1 | RED |\n| J2 | 1 |\n| R17 | 1 |\n| U3 | 5 |\n| U4 | 12 |\n\n### VBAT\n**Code:** 30\n**Connections:** 3 pins\n\n| Reference | Pin |\n|-----------|-----|\n| BT1 | + |\n| J1 | 1 |\n| U1 | 19 |\n\n### VBOOST\n**Code:** 31\n**Connections:** 6 pins\n\n| Reference | Pin |\n|-----------|-----|\n| C4 | 1 |\n| C5 | 1 |\n| C6 | 1 |\n| D1 | 1 |\n| R3 | 1 |\n| U3 | 1 |\n\n### VBUS_USB\n**Code:** 32\n**Connections:** 2 pins\n\n| Reference | Pin |\n|-----------|-----|\n| R1 | 1 |\n| U1 | 14 |\n\n### unconnected-(SW1-PadNO)\n**Code:** 33\n**Connections:** 1 pins\n\n| Reference | Pin |\n|-----------|-----|\n| SW1 | NO |\n\n### unconnected-(U1-D7_{slash}_P1.12-Pad8)\n**Code:** 34\n**Connections:** 1 pins\n\n| Reference | Pin |\n|-----------|-----|\n| U1 | 8 |\n\n### unconnected-(U1-NFC1-Pad21)\n**Code:** 35\n**Connections:** 1 pins\n\n| Reference | Pin |\n|-----------|-----|\n| U1 | 21 |\n\n### unconnected-(U1-NFC2-Pad22)\n**Code:** 36\n**Connections:** 1 pins\n\n| Reference | Pin |\n|-----------|-----|\n| U1 | 22 |\n\n### unconnected-(U1-RESET_N-Pad17)\n**Code:** 37\n**Connections:** 1 pins\n\n| Reference | Pin |\n|-----------|-----|\n| U1 | 17 |\n\n### unconnected-(U1-SWCLK-Pad16)\n**Code:** 38\n**Connections:** 1 pins\n\n| Reference | Pin |\n|-----------|-----|\n| U1 | 16 |\n\n### unconnected-(U1-SWDIO-Pad15)\n**Code:** 39\n**Connections:** 1 pins\n\n| Reference | Pin |\n|-----------|-----|\n| U1 | 15 |\n\n### unconnected-(U3-NC-Pad4)\n**Code:** 40\n**Connections:** 1 pins\n\n| Reference | Pin |\n|-----------|-----|\n| U3 | 4 |\n\n### unconnected-(U4-AIN2-Pad7)\n**Code:** 41\n**Connections:** 1 pins\n\n| Reference | Pin |\n|-----------|-----|\n| U4 | 7 |\n\n### unconnected-(U4-AIN3_{slash}_REFN1-Pad6)\n**Code:** 42\n**Connections:** 1 pins\n\n| Reference | Pin |\n|-----------|-----|\n| U4 | 6 |\n"
+        },
+        "isError": false
+      }
+    },
+    {
+      "tool": "get_pcb_statistics",
+      "arguments": {
+        "file_path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_pcb"
+      },
+      "result": {
+        "meta": {
+          "fastmcp": {
+            "wrap_result": true
+          }
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "# PCB Statistics: /Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_pcb\n\n## Board Information\n**Dimensions:** 27.42 x 55.46 mm\n**Layers:** 4\n**Thickness:** 0.80 mm\n\n## Elements\n**Footprints:** 48\n**Total Pads:** 147\n**Track Segments:** 309\n**Vias:** 75\n**Copper Zones:** 4\n\n## Averages\n**Pads per Footprint:** 3.1",
+            "annotations": null,
+            "meta": null
+          }
+        ],
+        "structuredContent": {
+          "result": "# PCB Statistics: /Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_pcb\n\n## Board Information\n**Dimensions:** 27.42 x 55.46 mm\n**Layers:** 4\n**Thickness:** 0.80 mm\n\n## Elements\n**Footprints:** 48\n**Total Pads:** 147\n**Track Segments:** 309\n**Vias:** 75\n**Copper Zones:** 4\n\n## Averages\n**Pads per Footprint:** 3.1"
+        },
+        "isError": false
+      }
+    },
+    {
+      "tool": "list_pcb_footprints",
+      "arguments": {
+        "file_path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_pcb"
+      },
+      "result": {
+        "meta": {
+          "fastmcp": {
+            "wrap_result": true
+          }
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "# Footprints in /Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_pcb\nTotal: 48 footprint(s)\n\n| Reference | Value | Footprint | Layer | Position | Rotation | Pads |\n|-----------|-------|-----------|-------|----------|----------|------|\n| U4 | ADS1220IPWR | TSSOP-16_4.4x5mm_P0.65mm | F.Cu | (110.00, 129.00) | 0.0\u00b0 | 0 |\n| J1 | JST_PH_2 | JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal | F.Cu | (111.50, 143.00) | 0.0\u00b0 | 0 |\n| C14 | 100 nF | C_0603_1608Metric | F.Cu | (115.00, 127.30) | 90.0\u00b0 | 0 |\n| R1 | 100 k | R_0603_1608Metric | F.Cu | (117.25, 144.25) | 90.0\u00b0 | 0 |\n| C3 | 10 uF | C_0805_2012Metric | F.Cu | (106.80, 114.70) | 0.0\u00b0 | 0 |\n| U1 | XIAO_nRF52840 | Seeed_XIAO_nRF52840_SMD | F.Cu | (100.83, 101.04) | 0.0\u00b0 | 0 |\n| U2 | TPS61041DBVR | SOT-23-5 | F.Cu | (106.80, 118.20) | 90.0\u00b0 | 0 |\n| C16 | 100 nF | C_0603_1608Metric | F.Cu | (107.75, 136.50) | 0.0\u00b0 | 0 |\n| C2 | 10 nF | C_0603_1608Metric | F.Cu | (117.25, 141.00) | 90.0\u00b0 | 0 |\n| R14 | 47 k | R_0603_1608Metric | F.Cu | (117.25, 124.50) | 90.0\u00b0 | 0 |\n| R4 | 200 k | R_0603_1608Metric | F.Cu | (109.50, 121.50) | -90.0\u00b0 | 0 |\n| R15 | 100 k | R_0603_1608Metric | F.Cu | (114.00, 115.00) | 0.0\u00b0 | 0 |\n| C5 | 47 pF | C_0603_1608Metric | F.Cu | (111.25, 118.00) | -90.0\u00b0 | 0 |\n| C4 | 10 uF | C_0805_2012Metric | F.Cu | (102.25, 122.00) | 0.0\u00b0 | 0 |\n| R2 | 100 k | R_0603_1608Metric | F.Cu | (114.50, 136.75) | 0.0\u00b0 | 0 |\n| C12 | 100 nF | C_0603_1608Metric | F.Cu | (115.00, 130.50) | -90.0\u00b0 | 0 |\n| R18 | 1 k | R_0603_1608Metric | F.Cu | (105.00, 143.00) | 0.0\u00b0 | 0 |\n| R16 | 100 k | R_0603_1608Metric | F.Cu | (118.25, 121.00) | 90.0\u00b0 | 0 |\n| D1 | MBR0520LT1G | D_SOD-123 | F.Cu | (102.40, 119.60) | 0.0\u00b0 | 0 |\n| C6 | 1 uF | C_0603_1608Metric | F.Cu | (115.50, 124.15) | -90.0\u00b0 | 0 |\n| R20 | 100 k | R_0603_1608Metric | F.Cu | (105.00, 144.75) | 0.0\u00b0 | 0 |\n| C8 | 470 nF | C_0603_1608Metric | F.Cu | (112.25, 134.00) | -90.0\u00b0 | 0 |\n| SW2 | EVQPUC02K | Panasonic_EVQPUL_EVQPUC | F.Cu | (103.50, 127.90) | 90.0\u00b0 | 0 |\n| R13 | 33 R | R_0603_1608Metric | F.Cu | (117.80, 138.25) | 0.0\u00b0 | 0 |\n| C1 | 10 uF | C_0805_2012Metric | F.Cu | (110.50, 114.00) | 0.0\u00b0 | 0 |\n| J2 | FORCE_4 | SolderWire_4x2mm_P2.54 | F.Cu | (117.80, 131.80) | 0.0\u00b0 | 0 |\n| C10 | 4.7 nF | C_0603_1608Metric | F.Cu | (108.75, 134.00) | -90.0\u00b0 | 0 |\n| R3 | 680 k | R_0603_1608Metric | F.Cu | (109.50, 118.00) | -90.0\u00b0 | 0 |\n| R5 | 100 k | R_0603_1608Metric | F.Cu | (117.25, 115.00) | 0.0\u00b0 | 0 |\n| J3 | END_2 | SolderWire_2x2mm_P2.54 | F.Cu | (102.00, 143.00) | 0.0\u00b0 | 0 |\n| R11 | 33 R | R_0603_1608Metric | F.Cu | (107.00, 124.25) | 90.0\u00b0 | 0 |\n| R10 | 100 R | R_0603_1608Metric | F.Cu | (104.50, 135.75) | 180.0\u00b0 | 0 |\n| C15 | 100 nF | C_0603_1608Metric | F.Cu | (101.00, 136.00) | 90.0\u00b0 | 0 |\n| C9 | 4.7 nF | C_0603_1608Metric | F.Cu | (110.50, 134.00) | -90.0\u00b0 | 0 |\n| R6 | 100 k | R_0603_1608Metric | F.Cu | (118.25, 117.75) | 90.0\u00b0 | 0 |\n| C7 | 4.7 uF | C_0805_2012Metric | F.Cu | (115.50, 117.05) | 0.0\u00b0 | 0 |\n| C13 | 1 uF | C_0603_1608Metric | F.Cu | (111.50, 124.50) | 0.0\u00b0 | 0 |\n| Q1 | 2N7002 | SOT-23 | F.Cu | (104.00, 138.50) | 0.0\u00b0 | 0 |\n| L1 | 10 uH | L_Coilcraft_XFL3012 | F.Cu | (102.75, 115.70) | 0.0\u00b0 | 0 |\n| C11 | 100 nF | C_0603_1608Metric | F.Cu | (107.00, 134.00) | 90.0\u00b0 | 0 |\n| R19 | 47 k | R_0603_1608Metric | F.Cu | (111.00, 136.50) | 0.0\u00b0 | 0 |\n| R21 | 1 k | R_0603_1608Metric | F.Cu | (104.00, 146.50) | 0.0\u00b0 | 0 |\n| R12 | 33 R | R_0603_1608Metric | F.Cu | (111.25, 122.00) | 90.0\u00b0 | 0 |\n| R9 | 100 R | R_0603_1608Metric | F.Cu | (104.50, 134.00) | 180.0\u00b0 | 0 |\n| U3 | TPS7A2050PDBVR | SOT-23-5 | F.Cu | (115.50, 120.40) | 90.0\u00b0 | 0 |\n| R17 | 4.7 k | R_0603_1608Metric | F.Cu | (105.00, 141.25) | 0.0\u00b0 | 0 |\n| R7 | 1 k | R_0603_1608Metric | F.Cu | (114.80, 133.00) | 180.0\u00b0 | 0 |\n| R8 | 1 k | R_0603_1608Metric | F.Cu | (114.80, 135.00) | 180.0\u00b0 | 0 |",
+            "annotations": null,
+            "meta": null
+          }
+        ],
+        "structuredContent": {
+          "result": "# Footprints in /Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_pcb\nTotal: 48 footprint(s)\n\n| Reference | Value | Footprint | Layer | Position | Rotation | Pads |\n|-----------|-------|-----------|-------|----------|----------|------|\n| U4 | ADS1220IPWR | TSSOP-16_4.4x5mm_P0.65mm | F.Cu | (110.00, 129.00) | 0.0\u00b0 | 0 |\n| J1 | JST_PH_2 | JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal | F.Cu | (111.50, 143.00) | 0.0\u00b0 | 0 |\n| C14 | 100 nF | C_0603_1608Metric | F.Cu | (115.00, 127.30) | 90.0\u00b0 | 0 |\n| R1 | 100 k | R_0603_1608Metric | F.Cu | (117.25, 144.25) | 90.0\u00b0 | 0 |\n| C3 | 10 uF | C_0805_2012Metric | F.Cu | (106.80, 114.70) | 0.0\u00b0 | 0 |\n| U1 | XIAO_nRF52840 | Seeed_XIAO_nRF52840_SMD | F.Cu | (100.83, 101.04) | 0.0\u00b0 | 0 |\n| U2 | TPS61041DBVR | SOT-23-5 | F.Cu | (106.80, 118.20) | 90.0\u00b0 | 0 |\n| C16 | 100 nF | C_0603_1608Metric | F.Cu | (107.75, 136.50) | 0.0\u00b0 | 0 |\n| C2 | 10 nF | C_0603_1608Metric | F.Cu | (117.25, 141.00) | 90.0\u00b0 | 0 |\n| R14 | 47 k | R_0603_1608Metric | F.Cu | (117.25, 124.50) | 90.0\u00b0 | 0 |\n| R4 | 200 k | R_0603_1608Metric | F.Cu | (109.50, 121.50) | -90.0\u00b0 | 0 |\n| R15 | 100 k | R_0603_1608Metric | F.Cu | (114.00, 115.00) | 0.0\u00b0 | 0 |\n| C5 | 47 pF | C_0603_1608Metric | F.Cu | (111.25, 118.00) | -90.0\u00b0 | 0 |\n| C4 | 10 uF | C_0805_2012Metric | F.Cu | (102.25, 122.00) | 0.0\u00b0 | 0 |\n| R2 | 100 k | R_0603_1608Metric | F.Cu | (114.50, 136.75) | 0.0\u00b0 | 0 |\n| C12 | 100 nF | C_0603_1608Metric | F.Cu | (115.00, 130.50) | -90.0\u00b0 | 0 |\n| R18 | 1 k | R_0603_1608Metric | F.Cu | (105.00, 143.00) | 0.0\u00b0 | 0 |\n| R16 | 100 k | R_0603_1608Metric | F.Cu | (118.25, 121.00) | 90.0\u00b0 | 0 |\n| D1 | MBR0520LT1G | D_SOD-123 | F.Cu | (102.40, 119.60) | 0.0\u00b0 | 0 |\n| C6 | 1 uF | C_0603_1608Metric | F.Cu | (115.50, 124.15) | -90.0\u00b0 | 0 |\n| R20 | 100 k | R_0603_1608Metric | F.Cu | (105.00, 144.75) | 0.0\u00b0 | 0 |\n| C8 | 470 nF | C_0603_1608Metric | F.Cu | (112.25, 134.00) | -90.0\u00b0 | 0 |\n| SW2 | EVQPUC02K | Panasonic_EVQPUL_EVQPUC | F.Cu | (103.50, 127.90) | 90.0\u00b0 | 0 |\n| R13 | 33 R | R_0603_1608Metric | F.Cu | (117.80, 138.25) | 0.0\u00b0 | 0 |\n| C1 | 10 uF | C_0805_2012Metric | F.Cu | (110.50, 114.00) | 0.0\u00b0 | 0 |\n| J2 | FORCE_4 | SolderWire_4x2mm_P2.54 | F.Cu | (117.80, 131.80) | 0.0\u00b0 | 0 |\n| C10 | 4.7 nF | C_0603_1608Metric | F.Cu | (108.75, 134.00) | -90.0\u00b0 | 0 |\n| R3 | 680 k | R_0603_1608Metric | F.Cu | (109.50, 118.00) | -90.0\u00b0 | 0 |\n| R5 | 100 k | R_0603_1608Metric | F.Cu | (117.25, 115.00) | 0.0\u00b0 | 0 |\n| J3 | END_2 | SolderWire_2x2mm_P2.54 | F.Cu | (102.00, 143.00) | 0.0\u00b0 | 0 |\n| R11 | 33 R | R_0603_1608Metric | F.Cu | (107.00, 124.25) | 90.0\u00b0 | 0 |\n| R10 | 100 R | R_0603_1608Metric | F.Cu | (104.50, 135.75) | 180.0\u00b0 | 0 |\n| C15 | 100 nF | C_0603_1608Metric | F.Cu | (101.00, 136.00) | 90.0\u00b0 | 0 |\n| C9 | 4.7 nF | C_0603_1608Metric | F.Cu | (110.50, 134.00) | -90.0\u00b0 | 0 |\n| R6 | 100 k | R_0603_1608Metric | F.Cu | (118.25, 117.75) | 90.0\u00b0 | 0 |\n| C7 | 4.7 uF | C_0805_2012Metric | F.Cu | (115.50, 117.05) | 0.0\u00b0 | 0 |\n| C13 | 1 uF | C_0603_1608Metric | F.Cu | (111.50, 124.50) | 0.0\u00b0 | 0 |\n| Q1 | 2N7002 | SOT-23 | F.Cu | (104.00, 138.50) | 0.0\u00b0 | 0 |\n| L1 | 10 uH | L_Coilcraft_XFL3012 | F.Cu | (102.75, 115.70) | 0.0\u00b0 | 0 |\n| C11 | 100 nF | C_0603_1608Metric | F.Cu | (107.00, 134.00) | 90.0\u00b0 | 0 |\n| R19 | 47 k | R_0603_1608Metric | F.Cu | (111.00, 136.50) | 0.0\u00b0 | 0 |\n| R21 | 1 k | R_0603_1608Metric | F.Cu | (104.00, 146.50) | 0.0\u00b0 | 0 |\n| R12 | 33 R | R_0603_1608Metric | F.Cu | (111.25, 122.00) | 90.0\u00b0 | 0 |\n| R9 | 100 R | R_0603_1608Metric | F.Cu | (104.50, 134.00) | 180.0\u00b0 | 0 |\n| U3 | TPS7A2050PDBVR | SOT-23-5 | F.Cu | (115.50, 120.40) | 90.0\u00b0 | 0 |\n| R17 | 4.7 k | R_0603_1608Metric | F.Cu | (105.00, 141.25) | 0.0\u00b0 | 0 |\n| R7 | 1 k | R_0603_1608Metric | F.Cu | (114.80, 133.00) | 180.0\u00b0 | 0 |\n| R8 | 1 k | R_0603_1608Metric | F.Cu | (114.80, 135.00) | 180.0\u00b0 | 0 |"
+        },
+        "isError": false
+      }
+    },
+    {
+      "tool": "analyze_pcb_nets",
+      "arguments": {
+        "file_path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_pcb"
+      },
+      "result": {
+        "meta": {
+          "fastmcp": {
+            "wrap_result": true
+          }
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "# PCB Routing Analysis: /Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_pcb\n\n\u26a0\ufe0f pcbnew not available \u2014 text-based analysis (limited precision)\n\n## Overview\n**Track Segments:** 309\n**Vias:** 75\n**Copper Zones:** 4\n\n## Track Width Distribution\n| Width | Count |\n|-------|-------|\n| 0.200mm | 222x |\n| 0.400mm | 87x |\n\n## Via Drill Distribution\n**Total vias:** 75\n\n| Drill Size | Count |\n|------------|-------|\n| 0.300mm | 75x |\n\n## Top 20 Nets by Track Length\n| Net | Length (mm) | Segments | Widths | Layers |\n|-----|-------------|----------|--------|--------|\n| V3V3 | 82.94 | 36 | 0.400 | B.Cu, F.Cu, In2.Cu |\n| VBAT | 64.61 | 11 | 0.400 | F.Cu, In2.Cu |\n| VBUS_USB | 64.57 | 7 | 0.200 | B.Cu, F.Cu |\n| ADC_CS_MCU | 63.40 | 9 | 0.200 | F.Cu, In2.Cu |\n| USB_PRESENT | 60.26 | 13 | 0.200 | F.Cu, In2.Cu |\n| BUTTON_N | 60.03 | 15 | 0.200 | F.Cu, In2.Cu |\n| ENDSTOP_N | 57.35 | 19 | 0.200 | F.Cu, In2.Cu |\n| BOOST_EN | 51.65 | 12 | 0.200 | F.Cu, In2.Cu |\n| ADC_DRDY_N | 46.73 | 14 | 0.200 | F.Cu, In2.Cu |\n| ANALOG_EN | 44.73 | 14 | 0.200 | F.Cu, In2.Cu |\n| SPI_MISO | 40.68 | 14 | 0.200 | F.Cu, In2.Cu |\n| V5A | 39.76 | 22 | 0.400 | F.Cu, In2.Cu |\n| SPI_MOSI_MCU | 38.31 | 9 | 0.200 | F.Cu, In2.Cu |\n| SPI_SCK_MCU | 35.78 | 8 | 0.200 | F.Cu, In2.Cu |\n| ADC_CS_N | 30.12 | 15 | 0.200 | B.Cu, F.Cu, In2.Cu |\n| BUTTON_RAW | 24.43 | 12 | 0.200 | F.Cu, In2.Cu |\n| EXC_SENSE_N | 23.98 | 11 | 0.200 | F.Cu, In2.Cu |\n| VBOOST | 16.14 | 9 | 0.400 | F.Cu, In2.Cu |\n| SPI_SCK_ADC | 14.83 | 7 | 0.200 | F.Cu, In2.Cu |\n| END_GATE | 14.64 | 14 | 0.200 | F.Cu |",
+            "annotations": null,
+            "meta": null
+          }
+        ],
+        "structuredContent": {
+          "result": "# PCB Routing Analysis: /Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_pcb\n\n\u26a0\ufe0f pcbnew not available \u2014 text-based analysis (limited precision)\n\n## Overview\n**Track Segments:** 309\n**Vias:** 75\n**Copper Zones:** 4\n\n## Track Width Distribution\n| Width | Count |\n|-------|-------|\n| 0.200mm | 222x |\n| 0.400mm | 87x |\n\n## Via Drill Distribution\n**Total vias:** 75\n\n| Drill Size | Count |\n|------------|-------|\n| 0.300mm | 75x |\n\n## Top 20 Nets by Track Length\n| Net | Length (mm) | Segments | Widths | Layers |\n|-----|-------------|----------|--------|--------|\n| V3V3 | 82.94 | 36 | 0.400 | B.Cu, F.Cu, In2.Cu |\n| VBAT | 64.61 | 11 | 0.400 | F.Cu, In2.Cu |\n| VBUS_USB | 64.57 | 7 | 0.200 | B.Cu, F.Cu |\n| ADC_CS_MCU | 63.40 | 9 | 0.200 | F.Cu, In2.Cu |\n| USB_PRESENT | 60.26 | 13 | 0.200 | F.Cu, In2.Cu |\n| BUTTON_N | 60.03 | 15 | 0.200 | F.Cu, In2.Cu |\n| ENDSTOP_N | 57.35 | 19 | 0.200 | F.Cu, In2.Cu |\n| BOOST_EN | 51.65 | 12 | 0.200 | F.Cu, In2.Cu |\n| ADC_DRDY_N | 46.73 | 14 | 0.200 | F.Cu, In2.Cu |\n| ANALOG_EN | 44.73 | 14 | 0.200 | F.Cu, In2.Cu |\n| SPI_MISO | 40.68 | 14 | 0.200 | F.Cu, In2.Cu |\n| V5A | 39.76 | 22 | 0.400 | F.Cu, In2.Cu |\n| SPI_MOSI_MCU | 38.31 | 9 | 0.200 | F.Cu, In2.Cu |\n| SPI_SCK_MCU | 35.78 | 8 | 0.200 | F.Cu, In2.Cu |\n| ADC_CS_N | 30.12 | 15 | 0.200 | B.Cu, F.Cu, In2.Cu |\n| BUTTON_RAW | 24.43 | 12 | 0.200 | F.Cu, In2.Cu |\n| EXC_SENSE_N | 23.98 | 11 | 0.200 | F.Cu, In2.Cu |\n| VBOOST | 16.14 | 9 | 0.400 | F.Cu, In2.Cu |\n| SPI_SCK_ADC | 14.83 | 7 | 0.200 | F.Cu, In2.Cu |\n| END_GATE | 14.64 | 14 | 0.200 | F.Cu |"
+        },
+        "isError": false
+      }
+    },
+    {
+      "tool": "analyze_pcb_signal_integrity",
+      "arguments": {
+        "file_path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_pcb"
+      },
+      "result": {
+        "meta": {
+          "fastmcp": {
+            "wrap_result": true
+          }
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "# Signal Integrity Analysis: /Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_pcb\n\n\u26a0\ufe0f pcbnew not available \u2014 text-based analysis (limited)\n\n## Differential Pair Analysis\n| Pair | Net P | Net N | Length P | Length N | Delta | Status |\n|------|-------|-------|----------|----------|--------|---------|\n| SIG | SIG_P | SIG_N | 3.371 mm | 2.974 mm | 0.396 mm | \u26a0\ufe0f Marginal |\n\n## Longest Signal Nets (Top 15)\n| Net | Length (mm) | Segments | Layers |\n|-----|-------------|----------|--------|\n| VBAT | 64.61 | 11 | F.Cu, In2.Cu |\n| ADC_CS_MCU | 63.40 | 9 | F.Cu, In2.Cu |\n| USB_PRESENT | 60.26 | 13 | F.Cu, In2.Cu |\n| BUTTON_N | 60.03 | 15 | F.Cu, In2.Cu |\n| ENDSTOP_N | 57.35 | 19 | F.Cu, In2.Cu |\n| BOOST_EN | 51.65 | 12 | F.Cu, In2.Cu |\n| ADC_DRDY_N | 46.73 | 14 | F.Cu, In2.Cu |\n| ANALOG_EN | 44.73 | 14 | F.Cu, In2.Cu |\n| SPI_MISO | 40.68 | 14 | F.Cu, In2.Cu |\n| V5A | 39.76 | 22 | F.Cu, In2.Cu |\n| SPI_MOSI_MCU | 38.31 | 9 | F.Cu, In2.Cu |\n| SPI_SCK_MCU | 35.78 | 8 | F.Cu, In2.Cu |\n| ADC_CS_N | 30.12 | 15 | B.Cu, F.Cu, In2.Cu |\n| BUTTON_RAW | 24.43 | 12 | F.Cu, In2.Cu |\n| EXC_SENSE_N | 23.98 | 11 | F.Cu, In2.Cu |",
+            "annotations": null,
+            "meta": null
+          }
+        ],
+        "structuredContent": {
+          "result": "# Signal Integrity Analysis: /Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_pcb\n\n\u26a0\ufe0f pcbnew not available \u2014 text-based analysis (limited)\n\n## Differential Pair Analysis\n| Pair | Net P | Net N | Length P | Length N | Delta | Status |\n|------|-------|-------|----------|----------|--------|---------|\n| SIG | SIG_P | SIG_N | 3.371 mm | 2.974 mm | 0.396 mm | \u26a0\ufe0f Marginal |\n\n## Longest Signal Nets (Top 15)\n| Net | Length (mm) | Segments | Layers |\n|-----|-------------|----------|--------|\n| VBAT | 64.61 | 11 | F.Cu, In2.Cu |\n| ADC_CS_MCU | 63.40 | 9 | F.Cu, In2.Cu |\n| USB_PRESENT | 60.26 | 13 | F.Cu, In2.Cu |\n| BUTTON_N | 60.03 | 15 | F.Cu, In2.Cu |\n| ENDSTOP_N | 57.35 | 19 | F.Cu, In2.Cu |\n| BOOST_EN | 51.65 | 12 | F.Cu, In2.Cu |\n| ADC_DRDY_N | 46.73 | 14 | F.Cu, In2.Cu |\n| ANALOG_EN | 44.73 | 14 | F.Cu, In2.Cu |\n| SPI_MISO | 40.68 | 14 | F.Cu, In2.Cu |\n| V5A | 39.76 | 22 | F.Cu, In2.Cu |\n| SPI_MOSI_MCU | 38.31 | 9 | F.Cu, In2.Cu |\n| SPI_SCK_MCU | 35.78 | 8 | F.Cu, In2.Cu |\n| ADC_CS_N | 30.12 | 15 | B.Cu, F.Cu, In2.Cu |\n| BUTTON_RAW | 24.43 | 12 | F.Cu, In2.Cu |\n| EXC_SENSE_N | 23.98 | 11 | F.Cu, In2.Cu |"
+        },
+        "isError": false
+      }
+    },
+    {
+      "tool": "analyze_pcb_power_integrity",
+      "arguments": {
+        "file_path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_pcb"
+      },
+      "result": {
+        "meta": {
+          "fastmcp": {
+            "wrap_result": true
+          }
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "# Power Integrity Analysis: /Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_pcb\n\n\u26a0\ufe0f pcbnew not available \u2014 text-based analysis (limited)\n\n## GND Copper Zones\n| Net | Layer |\n|-----|-------|\n| GND | F.Cu |\n| GND | B.Cu |\n| GND | In1.Cu |\n| GND | In2.Cu |\n\n**GND Coverage:** 4 zones across 4 layers\n\n## Power Net Track Routing\n| Net | Length (mm) | Segments | Min Width | Max Width |\n|-----|-------------|----------|-----------|-----------|\n| VBUS_USB | 64.57 | 7 | 0.2000 mm | 0.2000 mm |",
+            "annotations": null,
+            "meta": null
+          }
+        ],
+        "structuredContent": {
+          "result": "# Power Integrity Analysis: /Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_pcb\n\n\u26a0\ufe0f pcbnew not available \u2014 text-based analysis (limited)\n\n## GND Copper Zones\n| Net | Layer |\n|-----|-------|\n| GND | F.Cu |\n| GND | B.Cu |\n| GND | In1.Cu |\n| GND | In2.Cu |\n\n**GND Coverage:** 4 zones across 4 layers\n\n## Power Net Track Routing\n| Net | Length (mm) | Segments | Min Width | Max Width |\n|-----|-------------|----------|-----------|-----------|\n| VBUS_USB | 64.57 | 7 | 0.2000 mm | 0.2000 mm |"
+        },
+        "isError": false
+      }
+    },
+    {
+      "tool": "get_native_pcb_review",
+      "arguments": {
+        "file_path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_pcb"
+      },
+      "result": {
+        "meta": null,
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"pcb_path\":\"/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_pcb\",\"sha256\":\"f81673234b879ec3c2a5052191d7fba211d4e67b89366dbde8edba442cd08a8d\",\"kicad_version\":\"10.0.6\",\"outline_centerline_dimensions_mm\":[19.5,68.5],\"edge_stroke_bounding_box_dimensions_mm\":[19.55,68.55],\"thickness_mm\":0.8,\"footprint_count\":48,\"track_count\":464,\"via_count\":75,\"tracks_by_layer\":{\"F.Cu\":257,\"In2.Cu\":137,\"B.Cu\":70},\"nets\":{\"ADC_CS_MCU\":{\"total_segment_length_mm\":66.46754286836095,\"segments\":11,\"min_width_mm\":0.15,\"max_width_mm\":0.2,\"layers\":[\"F.Cu\",\"In2.Cu\"],\"vias\":2},\"ADC_CS_N\":{\"total_segment_length_mm\":30.121746519762993,\"segments\":15,\"min_width_mm\":0.2,\"max_width_mm\":0.2,\"layers\":[\"B.Cu\",\"F.Cu\",\"In2.Cu\"],\"vias\":3},\"ADC_DRDY_N\":{\"total_segment_length_mm\":49.922331008923855,\"segments\":16,\"min_width_mm\":0.15,\"max_width_mm\":0.2,\"layers\":[\"F.Cu\",\"In2.Cu\"],\"vias\":2},\"AIN_N\":{\"total_segment_length_mm\":15.325546532517448,\"segments\":11,\"min_width_mm\":0.15,\"max_width_mm\":0.2,\"layers\":[\"B.Cu\",\"F.Cu\"],\"vias\":2},\"AIN_P\":{\"total_segment_length_mm\":9.715319459305203,\"segments\":8,\"min_width_mm\":0.15,\"max_width_mm\":0.2,\"layers\":[\"B.Cu\",\"F.Cu\"],\"vias\":2},\"ANALOG_EN\":{\"total_segment_length_mm\":46.86110062673699,\"segments\":15,\"min_width_mm\":0.15,\"max_width_mm\":0.2,\"layers\":[\"F.Cu\",\"In2.Cu\"],\"vias\":2},\"BOOST_EN\":{\"total_segment_length_mm\":51.65403965509111,\"segments\":12,\"min_width_mm\":0.2,\"max_width_mm\":0.2,\"layers\":[\"F.Cu\",\"In2.Cu\"],\"vias\":3},\"BOOST_FB\":{\"total_segment_length_mm\":5.521292911401648,\"segments\":6,\"min_width_mm\":0.2,\"max_width_mm\":0.2,\"layers\":[\"F.Cu\"],\"vias\":0},\"BOOST_SW\":{\"total_segment_length_mm\":5.772104255869606,\"segments\":5,\"min_width_mm\":0.4,\"max_width_mm\":0.4,\"layers\":[\"F.Cu\"],\"vias\":0},\"BUTTON_N\":{\"total_segment_length_mm\":60.02918513841819,\"segments\":15,\"min_width_mm\":0.2,\"max_width_mm\":0.2,\"layers\":[\"F.Cu\",\"In2.Cu\"],\"vias\":2},\"BUTTON_RAW\":{\"total_segment_length_mm\":24.425101653663383,\"segments\":12,\"min_width_mm\":0.2,\"max_width_mm\":0.2,\"layers\":[\"F.Cu\",\"In2.Cu\"],\"vias\":2},\"ENDSTOP_N\":{\"total_segment_length_mm\":57.353816629266134,\"segments\":19,\"min_width_mm\":0.2,\"max_width_mm\":0.2,\"layers\":[\"F.Cu\",\"In2.Cu\"],\"vias\":3},\"END_CONTACT\":{\"total_segment_length_mm\":5.150216013351647,\"segments\":5,\"min_width_mm\":0.2,\"max_width_mm\":0.2,\"layers\":[\"F.Cu\"],\"vias\":0},\"END_GATE\":{\"total_segment_length_mm\":14.640174969408088,\"segments\":14,\"min_width_mm\":0.2,\"max_width_mm\":0.2,\"layers\":[\"F.Cu\"],\"vias\":0},\"EXC_SENSE_N\":{\"total_segment_length_mm\":24.94734741605013,\"segments\":13,\"min_width_mm\":0.15,\"max_width_mm\":0.2,\"layers\":[\"F.Cu\",\"In2.Cu\"],\"vias\":2},\"EXC_SENSE_P\":{\"total_segment_length_mm\":32.2155969125511,\"segments\":48,\"min_width_mm\":0.15,\"max_width_mm\":0.15,\"layers\":[\"B.Cu\",\"F.Cu\"],\"vias\":2},\"GND\":{\"total_segment_length_mm\":23.418811469464508,\"segments\":26,\"min_width_mm\":0.25,\"max_width_mm\":0.5,\"layers\":[\"F.Cu\"],\"vias\":13},\"REF_N\":{\"total_segment_length_mm\":9.065711360926263,\"segments\":17,\"min_width_mm\":0.15,\"max_width_mm\":0.2,\"layers\":[\"F.Cu\"],\"vias\":0},\"REF_P\":{\"total_segment_length_mm\":12.090524358722563,\"segments\":9,\"min_width_mm\":0.2,\"max_width_mm\":0.2,\"layers\":[\"F.Cu\",\"In2.Cu\"],\"vias\":2},\"SIG_N\":{\"total_segment_length_mm\":2.9744321753800738,\"segments\":2,\"min_width_mm\":0.2,\"max_width_mm\":0.2,\"layers\":[\"F.Cu\"],\"vias\":0},\"SIG_P\":{\"total_segment_length_mm\":3.3709144981614823,\"segments\":2,\"min_width_mm\":0.2,\"max_width_mm\":0.2,\"layers\":[\"F.Cu\"],\"vias\":0},\"SPI_MISO\":{\"total_segment_length_mm\":40.6790616429859,\"segments\":14,\"min_width_mm\":0.2,\"max_width_mm\":0.2,\"layers\":[\"F.Cu\",\"In2.Cu\"],\"vias\":4},\"SPI_MOSI_ADC\":{\"total_segment_length_mm\":13.658107347833875,\"segments\":13,\"min_width_mm\":0.2,\"max_width_mm\":0.2,\"layers\":[\"F.Cu\",\"In2.Cu\"],\"vias\":2},\"SPI_MOSI_MCU\":{\"total_segment_length_mm\":38.30879782553022,\"segments\":9,\"min_width_mm\":0.2,\"max_width_mm\":0.2,\"layers\":[\"F.Cu\",\"In2.Cu\"],\"vias\":2},\"SPI_SCK_ADC\":{\"total_segment_length_mm\":14.82857795879289,\"segments\":7,\"min_width_mm\":0.2,\"max_width_mm\":0.2,\"layers\":[\"F.Cu\",\"In2.Cu\"],\"vias\":2},\"SPI_SCK_MCU\":{\"total_segment_length_mm\":38.24383529514872,\"segments\":10,\"min_width_mm\":0.15,\"max_width_mm\":0.2,\"layers\":[\"F.Cu\",\"In2.Cu\"],\"vias\":2},\"USB_PRESENT\":{\"total_segment_length_mm\":60.259303036101066,\"segments\":13,\"min_width_mm\":0.2,\"max_width_mm\":0.2,\"layers\":[\"F.Cu\",\"In2.Cu\"],\"vias\":3},\"V3V3\":{\"total_segment_length_mm\":132.28046559722233,\"segments\":58,\"min_width_mm\":0.25,\"max_width_mm\":0.4,\"layers\":[\"B.Cu\",\"F.Cu\",\"In2.Cu\"],\"vias\":8},\"V5A\":{\"total_segment_length_mm\":44.27200528820483,\"segments\":26,\"min_width_mm\":0.25,\"max_width_mm\":0.4,\"layers\":[\"F.Cu\",\"In2.Cu\"],\"vias\":4},\"VBAT\":{\"total_segment_length_mm\":64.6053744290699,\"segments\":11,\"min_width_mm\":0.4,\"max_width_mm\":0.4,\"layers\":[\"F.Cu\",\"In2.Cu\"],\"vias\":2},\"VBOOST\":{\"total_segment_length_mm\":22.76503209699652,\"segments\":15,\"min_width_mm\":0.25,\"max_width_mm\":0.4,\"layers\":[\"F.Cu\",\"In2.Cu\"],\"vias\":2},\"VBUS_USB\":{\"total_segment_length_mm\":64.57343818643592,\"segments\":7,\"min_width_mm\":0.2,\"max_width_mm\":0.2,\"layers\":[\"B.Cu\",\"F.Cu\"],\"vias\":2}},\"footprints\":{\"C1\":{\"value\":\"10 uF\",\"position_mm\":[110.5,114.0],\"rotation_degrees\":0.0,\"pads\":{\"1\":{\"net\":\"V3V3\",\"position_mm\":[109.55,114.0],\"size_mm\":[1.0,1.45]},\"2\":{\"net\":\"GND\",\"position_mm\":[111.45,114.0],\"size_mm\":[1.0,1.45]}}},\"C10\":{\"value\":\"4.7 nF\",\"position_mm\":[108.75,134.0],\"rotation_degrees\":-90.0,\"pads\":{\"1\":{\"net\":\"AIN_N\",\"position_mm\":[108.75,133.225],\"size_mm\":[0.9,0.95]},\"2\":{\"net\":\"GND\",\"position_mm\":[108.75,134.775],\"size_mm\":[0.9,0.95]}}},\"C11\":{\"value\":\"100 nF\",\"position_mm\":[107.0,134.0],\"rotation_degrees\":90.0,\"pads\":{\"1\":{\"net\":\"REF_P\",\"position_mm\":[107.0,134.775],\"size_mm\":[0.9,0.95]},\"2\":{\"net\":\"REF_N\",\"position_mm\":[107.0,133.225],\"size_mm\":[0.9,0.95]}}},\"C12\":{\"value\":\"100 nF\",\"position_mm\":[115.0,130.5],\"rotation_degrees\":-90.0,\"pads\":{\"1\":{\"net\":\"V5A\",\"position_mm\":[115.0,129.725],\"size_mm\":[0.9,0.95]},\"2\":{\"net\":\"GND\",\"position_mm\":[115.0,131.275],\"size_mm\":[0.9,0.95]}}},\"C13\":{\"value\":\"1 uF\",\"position_mm\":[111.5,124.5],\"rotation_degrees\":0.0,\"pads\":{\"1\":{\"net\":\"V5A\",\"position_mm\":[110.725,124.5],\"size_mm\":[0.9,0.95]},\"2\":{\"net\":\"GND\",\"position_mm\":[112.275,124.5],\"size_mm\":[0.9,0.95]}}},\"C14\":{\"value\":\"100 nF\",\"position_mm\":[115.0,127.3],\"rotation_degrees\":90.0,\"pads\":{\"1\":{\"net\":\"V3V3\",\"position_mm\":[115.0,128.075],\"size_mm\":[0.9,0.95]},\"2\":{\"net\":\"GND\",\"position_mm\":[115.0,126.525],\"size_mm\":[0.9,0.95]}}},\"C15\":{\"value\":\"100 nF\",\"position_mm\":[101.0,136.0],\"rotation_degrees\":90.0,\"pads\":{\"1\":{\"net\":\"END_GATE\",\"position_mm\":[101.0,136.775],\"size_mm\":[0.9,0.95]},\"2\":{\"net\":\"GND\",\"position_mm\":[101.0,135.225],\"size_mm\":[0.9,0.95]}}},\"C16\":{\"value\":\"100 nF\",\"position_mm\":[107.75,136.5],\"rotation_degrees\":0.0,\"pads\":{\"1\":{\"net\":\"BUTTON_N\",\"position_mm\":[106.975,136.5],\"size_mm\":[0.9,0.95]},\"2\":{\"net\":\"GND\",\"position_mm\":[108.525,136.5],\"size_mm\":[0.9,0.95]}}},\"C2\":{\"value\":\"10 nF\",\"position_mm\":[117.25,141.0],\"rotation_degrees\":90.0,\"pads\":{\"1\":{\"net\":\"USB_PRESENT\",\"position_mm\":[117.25,141.775],\"size_mm\":[0.9,0.95]},\"2\":{\"net\":\"GND\",\"position_mm\":[117.25,140.225],\"size_mm\":[0.9,0.95]}}},\"C3\":{\"value\":\"10 uF\",\"position_mm\":[106.8,114.7],\"rotation_degrees\":0.0,\"pads\":{\"1\":{\"net\":\"V3V3\",\"position_mm\":[105.85,114.7],\"size_mm\":[1.0,1.45]},\"2\":{\"net\":\"GND\",\"position_mm\":[107.75,114.7],\"size_mm\":[1.0,1.45]}}},\"C4\":{\"value\":\"10 uF\",\"position_mm\":[102.25,122.0],\"rotation_degrees\":0.0,\"pads\":{\"1\":{\"net\":\"VBOOST\",\"position_mm\":[101.3,122.0],\"size_mm\":[1.0,1.45]},\"2\":{\"net\":\"GND\",\"position_mm\":[103.2,122.0],\"size_mm\":[1.0,1.45]}}},\"C5\":{\"value\":\"47 pF\",\"position_mm\":[111.25,118.0],\"rotation_degrees\":-90.0,\"pads\":{\"1\":{\"net\":\"VBOOST\",\"position_mm\":[111.25,117.225],\"size_mm\":[0.9,0.95]},\"2\":{\"net\":\"BOOST_FB\",\"position_mm\":[111.25,118.775],\"size_mm\":[0.9,0.95]}}},\"C6\":{\"value\":\"1 uF\",\"position_mm\":[115.5,124.15],\"rotation_degrees\":-90.0,\"pads\":{\"1\":{\"net\":\"VBOOST\",\"position_mm\":[115.5,123.375],\"size_mm\":[0.9,0.95]},\"2\":{\"net\":\"GND\",\"position_mm\":[115.5,124.925],\"size_mm\":[0.9,0.95]}}},\"C7\":{\"value\":\"4.7 uF\",\"position_mm\":[115.5,117.05],\"rotation_degrees\":0.0,\"pads\":{\"1\":{\"net\":\"V5A\",\"position_mm\":[114.55,117.05],\"size_mm\":[1.0,1.45]},\"2\":{\"net\":\"GND\",\"position_mm\":[116.45,117.05],\"size_mm\":[1.0,1.45]}}},\"C8\":{\"value\":\"470 nF\",\"position_mm\":[112.25,134.0],\"rotation_degrees\":-90.0,\"pads\":{\"1\":{\"net\":\"AIN_P\",\"position_mm\":[112.25,133.225],\"size_mm\":[0.9,0.95]},\"2\":{\"net\":\"AIN_N\",\"position_mm\":[112.25,134.775],\"size_mm\":[0.9,0.95]}}},\"C9\":{\"value\":\"4.7 nF\",\"position_mm\":[110.5,134.0],\"rotation_degrees\":-90.0,\"pads\":{\"1\":{\"net\":\"AIN_P\",\"position_mm\":[110.5,133.225],\"size_mm\":[0.9,0.95]},\"2\":{\"net\":\"GND\",\"position_mm\":[110.5,134.775],\"size_mm\":[0.9,0.95]}}},\"D1\":{\"value\":\"MBR0520LT1G\",\"position_mm\":[102.4,119.6],\"rotation_degrees\":0.0,\"pads\":{\"1\":{\"net\":\"VBOOST\",\"position_mm\":[100.75,119.6],\"size_mm\":[0.9,1.2]},\"2\":{\"net\":\"BOOST_SW\",\"position_mm\":[104.05,119.6],\"size_mm\":[0.9,1.2]}}},\"J1\":{\"value\":\"JST_PH_2\",\"position_mm\":[111.5,143.0],\"rotation_degrees\":0.0,\"pads\":{\"1\":{\"net\":\"VBAT\",\"position_mm\":[110.5,140.15],\"size_mm\":[1.0,3.5]},\"2\":{\"net\":\"GND\",\"position_mm\":[112.5,140.15],\"size_mm\":[1.0,3.5]},\"MP\":{\"net\":\"\",\"position_mm\":[114.85,145.9],\"size_mm\":[1.5,3.4]}}},\"J2\":{\"value\":\"FORCE_4\",\"position_mm\":[117.8,131.8],\"rotation_degrees\":0.0,\"pads\":{\"1\":{\"net\":\"V5A\",\"position_mm\":[117.8,127.99],\"size_mm\":[2.0,1.7]},\"2\":{\"net\":\"SIG_P\",\"position_mm\":[117.8,130.53],\"size_mm\":[2.0,1.7]},\"3\":{\"net\":\"SIG_N\",\"position_mm\":[117.8,133.07],\"size_mm\":[2.0,1.7]},\"4\":{\"net\":\"GND\",\"position_mm\":[117.8,135.61],\"size_mm\":[2.0,1.7]},\"5\":{\"net\":\"EXC_SENSE_P\",\"position_mm\":[117.8,126.85],\"size_mm\":[0.6,0.3]},\"6\":{\"net\":\"EXC_SENSE_N\",\"position_mm\":[117.8,136.75],\"size_mm\":[0.6,0.3]}}},\"J3\":{\"value\":\"END_2\",\"position_mm\":[102.0,143.0],\"rotation_degrees\":0.0,\"pads\":{\"1\":{\"net\":\"END_CONTACT\",\"position_mm\":[102.0,141.73],\"size_mm\":[2.0,1.7]},\"2\":{\"net\":\"GND\",\"position_mm\":[102.0,144.27],\"size_mm\":[2.0,1.7]}}},\"L1\":{\"value\":\"10 uH\",\"position_mm\":[102.75,115.7],\"rotation_degrees\":0.0,\"pads\":{\"1\":{\"net\":\"V3V3\",\"position_mm\":[101.735,115.7],\"size_mm\":[1.0,2.9]},\"2\":{\"net\":\"BOOST_SW\",\"position_mm\":[103.765,115.7],\"size_mm\":[1.0,2.9]}}},\"Q1\":{\"value\":\"2N7002\",\"position_mm\":[104.0,138.5],\"rotation_degrees\":0.0,\"pads\":{\"1\":{\"net\":\"END_GATE\",\"position_mm\":[103.0625,137.55],\"size_mm\":[1.475,0.6]},\"2\":{\"net\":\"GND\",\"position_mm\":[103.0625,139.45],\"size_mm\":[1.475,0.6]},\"3\":{\"net\":\"ENDSTOP_N\",\"position_mm\":[104.9375,138.5],\"size_mm\":[1.475,0.6]}}},\"R1\":{\"value\":\"100 k\",\"position_mm\":[117.25,144.25],\"rotation_degrees\":90.0,\"pads\":{\"1\":{\"net\":\"VBUS_USB\",\"position_mm\":[117.25,145.075],\"size_mm\":[0.8,0.95]},\"2\":{\"net\":\"USB_PRESENT\",\"position_mm\":[117.25,143.425],\"size_mm\":[0.8,0.95]}}},\"R10\":{\"value\":\"100 R\",\"position_mm\":[104.5,135.75],\"rotation_degrees\":180.0,\"pads\":{\"1\":{\"net\":\"EXC_SENSE_N\",\"position_mm\":[105.325,135.75],\"size_mm\":[0.8,0.95]},\"2\":{\"net\":\"REF_N\",\"position_mm\":[103.675,135.75],\"size_mm\":[0.8,0.95]}}},\"R11\":{\"value\":\"33 R\",\"position_mm\":[107.0,124.25],\"rotation_degrees\":90.0,\"pads\":{\"1\":{\"net\":\"SPI_SCK_MCU\",\"position_mm\":[107.0,125.075],\"size_mm\":[0.8,0.95]},\"2\":{\"net\":\"SPI_SCK_ADC\",\"position_mm\":[107.0,123.425],\"size_mm\":[0.8,0.95]}}},\"R12\":{\"value\":\"33 R\",\"position_mm\":[111.25,122.0],\"rotation_degrees\":90.0,\"pads\":{\"1\":{\"net\":\"SPI_MOSI_MCU\",\"position_mm\":[111.25,122.825],\"size_mm\":[0.8,0.95]},\"2\":{\"net\":\"SPI_MOSI_ADC\",\"position_mm\":[111.25,121.175],\"size_mm\":[0.8,0.95]}}},\"R13\":{\"value\":\"33 R\",\"position_mm\":[117.8,138.25],\"rotation_degrees\":0.0,\"pads\":{\"1\":{\"net\":\"ADC_CS_MCU\",\"position_mm\":[116.975,138.25],\"size_mm\":[0.8,0.95]},\"2\":{\"net\":\"ADC_CS_N\",\"position_mm\":[118.625,138.25],\"size_mm\":[0.8,0.95]}}},\"R14\":{\"value\":\"47 k\",\"position_mm\":[117.25,124.5],\"rotation_degrees\":90.0,\"pads\":{\"1\":{\"net\":\"V3V3\",\"position_mm\":[117.25,125.325],\"size_mm\":[0.8,0.95]},\"2\":{\"net\":\"ADC_CS_N\",\"position_mm\":[117.25,123.675],\"size_mm\":[0.8,0.95]}}},\"R15\":{\"value\":\"100 k\",\"position_mm\":[114.0,115.0],\"rotation_degrees\":0.0,\"pads\":{\"1\":{\"net\":\"SPI_SCK_ADC\",\"position_mm\":[113.175,115.0],\"size_mm\":[0.8,0.95]},\"2\":{\"net\":\"GND\",\"position_mm\":[114.825,115.0],\"size_mm\":[0.8,0.95]}}},\"R16\":{\"value\":\"100 k\",\"position_mm\":[118.25,121.0],\"rotation_degrees\":90.0,\"pads\":{\"1\":{\"net\":\"SPI_MOSI_ADC\",\"position_mm\":[118.25,121.825],\"size_mm\":[0.8,0.95]},\"2\":{\"net\":\"GND\",\"position_mm\":[118.25,120.175],\"size_mm\":[0.8,0.95]}}},\"R17\":{\"value\":\"4.7 k\",\"position_mm\":[105.0,141.25],\"rotation_degrees\":0.0,\"pads\":{\"1\":{\"net\":\"V5A\",\"position_mm\":[104.175,141.25],\"size_mm\":[0.8,0.95]},\"2\":{\"net\":\"END_CONTACT\",\"position_mm\":[105.825,141.25],\"size_mm\":[0.8,0.95]}}},\"R18\":{\"value\":\"1 k\",\"position_mm\":[105.0,143.0],\"rotation_degrees\":0.0,\"pads\":{\"1\":{\"net\":\"END_CONTACT\",\"position_mm\":[104.175,143.0],\"size_mm\":[0.8,0.95]},\"2\":{\"net\":\"END_GATE\",\"position_mm\":[105.825,143.0],\"size_mm\":[0.8,0.95]}}},\"R19\":{\"value\":\"47 k\",\"position_mm\":[111.0,136.5],\"rotation_degrees\":0.0,\"pads\":{\"1\":{\"net\":\"V3V3\",\"position_mm\":[110.175,136.5],\"size_mm\":[0.8,0.95]},\"2\":{\"net\":\"ENDSTOP_N\",\"position_mm\":[111.825,136.5],\"size_mm\":[0.8,0.95]}}},\"R2\":{\"value\":\"100 k\",\"position_mm\":[114.5,136.75],\"rotation_degrees\":0.0,\"pads\":{\"1\":{\"net\":\"USB_PRESENT\",\"position_mm\":[113.675,136.75],\"size_mm\":[0.8,0.95]},\"2\":{\"net\":\"GND\",\"position_mm\":[115.325,136.75],\"size_mm\":[0.8,0.95]}}},\"R20\":{\"value\":\"100 k\",\"position_mm\":[105.0,144.75],\"rotation_degrees\":0.0,\"pads\":{\"1\":{\"net\":\"V3V3\",\"position_mm\":[104.175,144.75],\"size_mm\":[0.8,0.95]},\"2\":{\"net\":\"BUTTON_N\",\"position_mm\":[105.825,144.75],\"size_mm\":[0.8,0.95]}}},\"R21\":{\"value\":\"1 k\",\"position_mm\":[104.0,146.5],\"rotation_degrees\":0.0,\"pads\":{\"1\":{\"net\":\"BUTTON_RAW\",\"position_mm\":[103.175,146.5],\"size_mm\":[0.8,0.95]},\"2\":{\"net\":\"BUTTON_N\",\"position_mm\":[104.825,146.5],\"size_mm\":[0.8,0.95]}}},\"R3\":{\"value\":\"680 k\",\"position_mm\":[109.5,118.0],\"rotation_degrees\":-90.0,\"pads\":{\"1\":{\"net\":\"VBOOST\",\"position_mm\":[109.5,117.175],\"size_mm\":[0.8,0.95]},\"2\":{\"net\":\"BOOST_FB\",\"position_mm\":[109.5,118.825],\"size_mm\":[0.8,0.95]}}},\"R4\":{\"value\":\"200 k\",\"position_mm\":[109.5,121.5],\"rotation_degrees\":-90.0,\"pads\":{\"1\":{\"net\":\"BOOST_FB\",\"position_mm\":[109.5,120.675],\"size_mm\":[0.8,0.95]},\"2\":{\"net\":\"GND\",\"position_mm\":[109.5,122.325],\"size_mm\":[0.8,0.95]}}},\"R5\":{\"value\":\"100 k\",\"position_mm\":[117.25,115.0],\"rotation_degrees\":0.0,\"pads\":{\"1\":{\"net\":\"BOOST_EN\",\"position_mm\":[116.425,115.0],\"size_mm\":[0.8,0.95]},\"2\":{\"net\":\"GND\",\"position_mm\":[118.075,115.0],\"size_mm\":[0.8,0.95]}}},\"R6\":{\"value\":\"100 k\",\"position_mm\":[118.25,117.75],\"rotation_degrees\":90.0,\"pads\":{\"1\":{\"net\":\"ANALOG_EN\",\"position_mm\":[118.25,118.575],\"size_mm\":[0.8,0.95]},\"2\":{\"net\":\"GND\",\"position_mm\":[118.25,116.925],\"size_mm\":[0.8,0.95]}}},\"R7\":{\"value\":\"1 k\",\"position_mm\":[114.8,133.0],\"rotation_degrees\":180.0,\"pads\":{\"1\":{\"net\":\"SIG_P\",\"position_mm\":[115.625,133.0],\"size_mm\":[0.8,0.95]},\"2\":{\"net\":\"AIN_P\",\"position_mm\":[113.975,133.0],\"size_mm\":[0.8,0.95]}}},\"R8\":{\"value\":\"1 k\",\"position_mm\":[114.8,135.0],\"rotation_degrees\":180.0,\"pads\":{\"1\":{\"net\":\"SIG_N\",\"position_mm\":[115.625,135.0],\"size_mm\":[0.8,0.95]},\"2\":{\"net\":\"AIN_N\",\"position_mm\":[113.975,135.0],\"size_mm\":[0.8,0.95]}}},\"R9\":{\"value\":\"100 R\",\"position_mm\":[104.5,134.0],\"rotation_degrees\":180.0,\"pads\":{\"1\":{\"net\":\"EXC_SENSE_P\",\"position_mm\":[105.325,134.0],\"size_mm\":[0.8,0.95]},\"2\":{\"net\":\"REF_P\",\"position_mm\":[103.675,134.0],\"size_mm\":[0.8,0.95]}}},\"SW2\":{\"value\":\"EVQPUC02K\",\"position_mm\":[103.5,127.9],\"rotation_degrees\":90.0,\"pads\":{\"\":{\"net\":\"\",\"position_mm\":[104.875,127.9],\"size_mm\":[0.75,0.75]},\"1\":{\"net\":\"BUTTON_RAW\",\"position_mm\":[102.65,125.275],\"size_mm\":[1.55,1.0]},\"2\":{\"net\":\"GND\",\"position_mm\":[104.35,125.275],\"size_mm\":[1.55,1.0]}}},\"U1\":{\"value\":\"XIAO_nRF52840\",\"position_mm\":[100.8325,101.041],\"rotation_degrees\":0.0,\"pads\":{\"1\":{\"net\":\"BOOST_EN\",\"position_mm\":[101.6675,82.921],\"size_mm\":[2.75,2.0]},\"2\":{\"net\":\"ANALOG_EN\",\"position_mm\":[101.6675,85.461],\"size_mm\":[2.75,2.0]},\"3\":{\"net\":\"ADC_CS_MCU\",\"position_mm\":[101.6675,88.001],\"size_mm\":[2.75,2.0]},\"4\":{\"net\":\"ADC_DRDY_N\",\"position_mm\":[101.6675,90.541],\"size_mm\":[2.75,2.0]},\"5\":{\"net\":\"BUTTON_N\",\"position_mm\":[101.6675,93.081],\"size_mm\":[2.75,2.0]},\"6\":{\"net\":\"ENDSTOP_N\",\"position_mm\":[101.6675,95.621],\"size_mm\":[2.75,2.0]},\"7\":{\"net\":\"USB_PRESENT\",\"position_mm\":[101.6675,98.161],\"size_mm\":[2.75,2.0]},\"8\":{\"net\":\"unconnected-(U1-D7_{slash}_P1.12-Pad8)\",\"position_mm\":[117.8325,98.161],\"size_mm\":[2.75,2.0]},\"9\":{\"net\":\"SPI_SCK_MCU\",\"position_mm\":[117.8325,95.621],\"size_mm\":[2.75,2.0]},\"10\":{\"net\":\"SPI_MISO\",\"position_mm\":[117.8325,93.081],\"size_mm\":[2.75,2.0]},\"11\":{\"net\":\"SPI_MOSI_MCU\",\"position_mm\":[117.8325,90.541],\"size_mm\":[2.75,2.0]},\"12\":{\"net\":\"V3V3\",\"position_mm\":[117.8325,88.001],\"size_mm\":[2.75,2.0]},\"13\":{\"net\":\"GND\",\"position_mm\":[117.8325,85.461],\"size_mm\":[2.75,2.0]},\"14\":{\"net\":\"VBUS_USB\",\"position_mm\":[117.8325,82.921],\"size_mm\":[2.75,2.0]},\"15\":{\"net\":\"unconnected-(U1-SWDIO-Pad15)\",\"position_mm\":[108.4525,81.9725],\"size_mm\":[1.7,1.7]},\"16\":{\"net\":\"unconnected-(U1-SWCLK-Pad16)\",\"position_mm\":[110.9925,81.9725],\"size_mm\":[1.7,1.7]},\"17\":{\"net\":\"unconnected-(U1-RESET_N-Pad17)\",\"position_mm\":[108.4525,84.5125],\"size_mm\":[1.7,1.7]},\"18\":{\"net\":\"GND\",\"position_mm\":[110.9925,84.5125],\"size_mm\":[1.7,1.7]},\"19\":{\"net\":\"VBAT\",\"position_mm\":[105.2775,90.2275],\"size_mm\":[2.5,1.1]},\"20\":{\"net\":\"GND\",\"position_mm\":[105.2775,88.3225],\"size_mm\":[2.5,1.1]},\"21\":{\"net\":\"unconnected-(U1-NFC1-Pad21)\",\"position_mm\":[113.5325,99.7779],\"size_mm\":[2.5,1.1]},\"22\":{\"net\":\"unconnected-(U1-NFC2-Pad22)\",\"position_mm\":[115.4375,99.7779],\"size_mm\":[2.5,1.1]}}},\"U2\":{\"value\":\"TPS61041DBVR\",\"position_mm\":[106.8,118.2],\"rotation_degrees\":90.0,\"pads\":{\"1\":{\"net\":\"BOOST_SW\",\"position_mm\":[105.85,119.3375],\"size_mm\":[1.325,0.6]},\"2\":{\"net\":\"GND\",\"position_mm\":[106.8,119.3375],\"size_mm\":[1.325,0.6]},\"3\":{\"net\":\"BOOST_FB\",\"position_mm\":[107.75,119.3375],\"size_mm\":[1.325,0.6]},\"4\":{\"net\":\"BOOST_EN\",\"position_mm\":[107.75,117.0625],\"size_mm\":[1.325,0.6]},\"5\":{\"net\":\"V3V3\",\"position_mm\":[105.85,117.0625],\"size_mm\":[1.325,0.6]}}},\"U3\":{\"value\":\"TPS7A2050PDBVR\",\"position_mm\":[115.5,120.4],\"rotation_degrees\":90.0,\"pads\":{\"1\":{\"net\":\"VBOOST\",\"position_mm\":[114.55,121.5375],\"size_mm\":[1.325,0.6]},\"2\":{\"net\":\"GND\",\"position_mm\":[115.5,121.5375],\"size_mm\":[1.325,0.6]},\"3\":{\"net\":\"ANALOG_EN\",\"position_mm\":[116.45,121.5375],\"size_mm\":[1.325,0.6]},\"4\":{\"net\":\"unconnected-(U3-NC-Pad4)\",\"position_mm\":[116.45,119.2625],\"size_mm\":[1.325,0.6]},\"5\":{\"net\":\"V5A\",\"position_mm\":[114.55,119.2625],\"size_mm\":[1.325,0.6]}}},\"U4\":{\"value\":\"ADS1220IPWR\",\"position_mm\":[110.0,129.0],\"rotation_degrees\":0.0,\"pads\":{\"1\":{\"net\":\"SPI_SCK_ADC\",\"position_mm\":[107.1375,126.725],\"size_mm\":[1.475,0.4]},\"2\":{\"net\":\"ADC_CS_N\",\"position_mm\":[107.1375,127.375],\"size_mm\":[1.475,0.4]},\"3\":{\"net\":\"GND\",\"position_mm\":[107.1375,128.025],\"size_mm\":[1.475,0.4]},\"4\":{\"net\":\"GND\",\"position_mm\":[107.1375,128.675],\"size_mm\":[1.475,0.4]},\"5\":{\"net\":\"GND\",\"position_mm\":[107.1375,129.325],\"size_mm\":[1.475,0.4]},\"6\":{\"net\":\"unconnected-(U4-AIN3_{slash}_REFN1-Pad6)\",\"position_mm\":[107.1375,129.975],\"size_mm\":[1.475,0.4]},\"7\":{\"net\":\"unconnected-(U4-AIN2-Pad7)\",\"position_mm\":[107.1375,130.625],\"size_mm\":[1.475,0.4]},\"8\":{\"net\":\"REF_N\",\"position_mm\":[107.1375,131.275],\"size_mm\":[1.475,0.4]},\"9\":{\"net\":\"REF_P\",\"position_mm\":[112.8625,131.275],\"size_mm\":[1.475,0.4]},\"10\":{\"net\":\"AIN_N\",\"position_mm\":[112.8625,130.625],\"size_mm\":[1.475,0.4]},\"11\":{\"net\":\"AIN_P\",\"position_mm\":[112.8625,129.975],\"size_mm\":[1.475,0.4]},\"12\":{\"net\":\"V5A\",\"position_mm\":[112.8625,129.325],\"size_mm\":[1.475,0.4]},\"13\":{\"net\":\"V3V3\",\"position_mm\":[112.8625,128.675],\"size_mm\":[1.475,0.4]},\"14\":{\"net\":\"ADC_DRDY_N\",\"position_mm\":[112.8625,128.025],\"size_mm\":[1.475,0.4]},\"15\":{\"net\":\"SPI_MISO\",\"position_mm\":[112.8625,127.375],\"size_mm\":[1.475,0.4]},\"16\":{\"net\":\"SPI_MOSI_ADC\",\"position_mm\":[112.8625,126.725],\"size_mm\":[1.475,0.4]}}}},\"zones\":[{\"name\":\"GND top\",\"net\":\"GND\",\"rule_area\":false,\"layers\":[\"F.Cu\"],\"filled_islands\":4},{\"name\":\"RF antenna underside - no copper\",\"net\":\"\",\"rule_area\":true,\"layers\":[\"F.Cu\",\"In1.Cu\",\"In2.Cu\",\"B.Cu\"],\"filled_islands\":0},{\"name\":\"RF free extension - confirm on hardware\",\"net\":\"\",\"rule_area\":true,\"layers\":[\"F.Cu\",\"In1.Cu\",\"In2.Cu\",\"B.Cu\"],\"filled_islands\":0},{\"name\":\"GND return plane\",\"net\":\"GND\",\"rule_area\":false,\"layers\":[\"B.Cu\"],\"filled_islands\":1},{\"name\":\"GND return plane\",\"net\":\"GND\",\"rule_area\":false,\"layers\":[\"In1.Cu\"],\"filled_islands\":1},{\"name\":\"GND return plane\",\"net\":\"GND\",\"rule_area\":false,\"layers\":[\"In2.Cu\"],\"filled_islands\":7}],\"decoupling_pad_center_distances_mm\":{\"U4.12 to C12.1\":2.1746048491622565,\"U4.13 to C14.1\":2.2201140173423526,\"U4.12 to C13.1\":5.277265508764932,\"U3.5 to C7.1\":2.2125,\"U3.1 to C6.1\":2.06855172765875,\"U2.5 to C3.1\":2.3625},\"gnd_pad_nearest_via_mm\":{\"U4.3\":0.9830596370515882,\"U4.4\":0.7375,\"U4.5\":0.9830596370515882,\"C14.2\":0.8663861725581729,\"C3.2\":1.1,\"U2.2\":0.8625,\"C4.2\":0.85,\"C12.2\":0.725,\"C7.2\":0.85,\"U3.2\":0.8125},\"via_in_pad\":[{\"ref\":\"U4\",\"pad\":\"4\",\"net\":\"GND\",\"position_mm\":[106.4,128.675]},{\"ref\":\"U1\",\"pad\":\"12\",\"net\":\"V3V3\",\"position_mm\":[117.3,88.55]}]}",
+            "annotations": null,
+            "meta": null
+          }
+        ],
+        "structuredContent": {
+          "pcb_path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_pcb",
+          "sha256": "f81673234b879ec3c2a5052191d7fba211d4e67b89366dbde8edba442cd08a8d",
+          "kicad_version": "10.0.6",
+          "outline_centerline_dimensions_mm": [
+            19.5,
+            68.5
+          ],
+          "edge_stroke_bounding_box_dimensions_mm": [
+            19.55,
+            68.55
+          ],
+          "thickness_mm": 0.8,
+          "footprint_count": 48,
+          "track_count": 464,
+          "via_count": 75,
+          "tracks_by_layer": {
+            "F.Cu": 257,
+            "In2.Cu": 137,
+            "B.Cu": 70
+          },
+          "nets": {
+            "ADC_CS_MCU": {
+              "total_segment_length_mm": 66.46754286836095,
+              "segments": 11,
+              "min_width_mm": 0.15,
+              "max_width_mm": 0.2,
+              "layers": [
+                "F.Cu",
+                "In2.Cu"
+              ],
+              "vias": 2
+            },
+            "ADC_CS_N": {
+              "total_segment_length_mm": 30.121746519762993,
+              "segments": 15,
+              "min_width_mm": 0.2,
+              "max_width_mm": 0.2,
+              "layers": [
+                "B.Cu",
+                "F.Cu",
+                "In2.Cu"
+              ],
+              "vias": 3
+            },
+            "ADC_DRDY_N": {
+              "total_segment_length_mm": 49.922331008923855,
+              "segments": 16,
+              "min_width_mm": 0.15,
+              "max_width_mm": 0.2,
+              "layers": [
+                "F.Cu",
+                "In2.Cu"
+              ],
+              "vias": 2
+            },
+            "AIN_N": {
+              "total_segment_length_mm": 15.325546532517448,
+              "segments": 11,
+              "min_width_mm": 0.15,
+              "max_width_mm": 0.2,
+              "layers": [
+                "B.Cu",
+                "F.Cu"
+              ],
+              "vias": 2
+            },
+            "AIN_P": {
+              "total_segment_length_mm": 9.715319459305203,
+              "segments": 8,
+              "min_width_mm": 0.15,
+              "max_width_mm": 0.2,
+              "layers": [
+                "B.Cu",
+                "F.Cu"
+              ],
+              "vias": 2
+            },
+            "ANALOG_EN": {
+              "total_segment_length_mm": 46.86110062673699,
+              "segments": 15,
+              "min_width_mm": 0.15,
+              "max_width_mm": 0.2,
+              "layers": [
+                "F.Cu",
+                "In2.Cu"
+              ],
+              "vias": 2
+            },
+            "BOOST_EN": {
+              "total_segment_length_mm": 51.65403965509111,
+              "segments": 12,
+              "min_width_mm": 0.2,
+              "max_width_mm": 0.2,
+              "layers": [
+                "F.Cu",
+                "In2.Cu"
+              ],
+              "vias": 3
+            },
+            "BOOST_FB": {
+              "total_segment_length_mm": 5.521292911401648,
+              "segments": 6,
+              "min_width_mm": 0.2,
+              "max_width_mm": 0.2,
+              "layers": [
+                "F.Cu"
+              ],
+              "vias": 0
+            },
+            "BOOST_SW": {
+              "total_segment_length_mm": 5.772104255869606,
+              "segments": 5,
+              "min_width_mm": 0.4,
+              "max_width_mm": 0.4,
+              "layers": [
+                "F.Cu"
+              ],
+              "vias": 0
+            },
+            "BUTTON_N": {
+              "total_segment_length_mm": 60.02918513841819,
+              "segments": 15,
+              "min_width_mm": 0.2,
+              "max_width_mm": 0.2,
+              "layers": [
+                "F.Cu",
+                "In2.Cu"
+              ],
+              "vias": 2
+            },
+            "BUTTON_RAW": {
+              "total_segment_length_mm": 24.425101653663383,
+              "segments": 12,
+              "min_width_mm": 0.2,
+              "max_width_mm": 0.2,
+              "layers": [
+                "F.Cu",
+                "In2.Cu"
+              ],
+              "vias": 2
+            },
+            "ENDSTOP_N": {
+              "total_segment_length_mm": 57.353816629266134,
+              "segments": 19,
+              "min_width_mm": 0.2,
+              "max_width_mm": 0.2,
+              "layers": [
+                "F.Cu",
+                "In2.Cu"
+              ],
+              "vias": 3
+            },
+            "END_CONTACT": {
+              "total_segment_length_mm": 5.150216013351647,
+              "segments": 5,
+              "min_width_mm": 0.2,
+              "max_width_mm": 0.2,
+              "layers": [
+                "F.Cu"
+              ],
+              "vias": 0
+            },
+            "END_GATE": {
+              "total_segment_length_mm": 14.640174969408088,
+              "segments": 14,
+              "min_width_mm": 0.2,
+              "max_width_mm": 0.2,
+              "layers": [
+                "F.Cu"
+              ],
+              "vias": 0
+            },
+            "EXC_SENSE_N": {
+              "total_segment_length_mm": 24.94734741605013,
+              "segments": 13,
+              "min_width_mm": 0.15,
+              "max_width_mm": 0.2,
+              "layers": [
+                "F.Cu",
+                "In2.Cu"
+              ],
+              "vias": 2
+            },
+            "EXC_SENSE_P": {
+              "total_segment_length_mm": 32.2155969125511,
+              "segments": 48,
+              "min_width_mm": 0.15,
+              "max_width_mm": 0.15,
+              "layers": [
+                "B.Cu",
+                "F.Cu"
+              ],
+              "vias": 2
+            },
+            "GND": {
+              "total_segment_length_mm": 23.418811469464508,
+              "segments": 26,
+              "min_width_mm": 0.25,
+              "max_width_mm": 0.5,
+              "layers": [
+                "F.Cu"
+              ],
+              "vias": 13
+            },
+            "REF_N": {
+              "total_segment_length_mm": 9.065711360926263,
+              "segments": 17,
+              "min_width_mm": 0.15,
+              "max_width_mm": 0.2,
+              "layers": [
+                "F.Cu"
+              ],
+              "vias": 0
+            },
+            "REF_P": {
+              "total_segment_length_mm": 12.090524358722563,
+              "segments": 9,
+              "min_width_mm": 0.2,
+              "max_width_mm": 0.2,
+              "layers": [
+                "F.Cu",
+                "In2.Cu"
+              ],
+              "vias": 2
+            },
+            "SIG_N": {
+              "total_segment_length_mm": 2.9744321753800738,
+              "segments": 2,
+              "min_width_mm": 0.2,
+              "max_width_mm": 0.2,
+              "layers": [
+                "F.Cu"
+              ],
+              "vias": 0
+            },
+            "SIG_P": {
+              "total_segment_length_mm": 3.3709144981614823,
+              "segments": 2,
+              "min_width_mm": 0.2,
+              "max_width_mm": 0.2,
+              "layers": [
+                "F.Cu"
+              ],
+              "vias": 0
+            },
+            "SPI_MISO": {
+              "total_segment_length_mm": 40.6790616429859,
+              "segments": 14,
+              "min_width_mm": 0.2,
+              "max_width_mm": 0.2,
+              "layers": [
+                "F.Cu",
+                "In2.Cu"
+              ],
+              "vias": 4
+            },
+            "SPI_MOSI_ADC": {
+              "total_segment_length_mm": 13.658107347833875,
+              "segments": 13,
+              "min_width_mm": 0.2,
+              "max_width_mm": 0.2,
+              "layers": [
+                "F.Cu",
+                "In2.Cu"
+              ],
+              "vias": 2
+            },
+            "SPI_MOSI_MCU": {
+              "total_segment_length_mm": 38.30879782553022,
+              "segments": 9,
+              "min_width_mm": 0.2,
+              "max_width_mm": 0.2,
+              "layers": [
+                "F.Cu",
+                "In2.Cu"
+              ],
+              "vias": 2
+            },
+            "SPI_SCK_ADC": {
+              "total_segment_length_mm": 14.82857795879289,
+              "segments": 7,
+              "min_width_mm": 0.2,
+              "max_width_mm": 0.2,
+              "layers": [
+                "F.Cu",
+                "In2.Cu"
+              ],
+              "vias": 2
+            },
+            "SPI_SCK_MCU": {
+              "total_segment_length_mm": 38.24383529514872,
+              "segments": 10,
+              "min_width_mm": 0.15,
+              "max_width_mm": 0.2,
+              "layers": [
+                "F.Cu",
+                "In2.Cu"
+              ],
+              "vias": 2
+            },
+            "USB_PRESENT": {
+              "total_segment_length_mm": 60.259303036101066,
+              "segments": 13,
+              "min_width_mm": 0.2,
+              "max_width_mm": 0.2,
+              "layers": [
+                "F.Cu",
+                "In2.Cu"
+              ],
+              "vias": 3
+            },
+            "V3V3": {
+              "total_segment_length_mm": 132.28046559722233,
+              "segments": 58,
+              "min_width_mm": 0.25,
+              "max_width_mm": 0.4,
+              "layers": [
+                "B.Cu",
+                "F.Cu",
+                "In2.Cu"
+              ],
+              "vias": 8
+            },
+            "V5A": {
+              "total_segment_length_mm": 44.27200528820483,
+              "segments": 26,
+              "min_width_mm": 0.25,
+              "max_width_mm": 0.4,
+              "layers": [
+                "F.Cu",
+                "In2.Cu"
+              ],
+              "vias": 4
+            },
+            "VBAT": {
+              "total_segment_length_mm": 64.6053744290699,
+              "segments": 11,
+              "min_width_mm": 0.4,
+              "max_width_mm": 0.4,
+              "layers": [
+                "F.Cu",
+                "In2.Cu"
+              ],
+              "vias": 2
+            },
+            "VBOOST": {
+              "total_segment_length_mm": 22.76503209699652,
+              "segments": 15,
+              "min_width_mm": 0.25,
+              "max_width_mm": 0.4,
+              "layers": [
+                "F.Cu",
+                "In2.Cu"
+              ],
+              "vias": 2
+            },
+            "VBUS_USB": {
+              "total_segment_length_mm": 64.57343818643592,
+              "segments": 7,
+              "min_width_mm": 0.2,
+              "max_width_mm": 0.2,
+              "layers": [
+                "B.Cu",
+                "F.Cu"
+              ],
+              "vias": 2
+            }
+          },
+          "footprints": {
+            "C1": {
+              "value": "10 uF",
+              "position_mm": [
+                110.5,
+                114.0
+              ],
+              "rotation_degrees": 0.0,
+              "pads": {
+                "1": {
+                  "net": "V3V3",
+                  "position_mm": [
+                    109.55,
+                    114.0
+                  ],
+                  "size_mm": [
+                    1.0,
+                    1.45
+                  ]
+                },
+                "2": {
+                  "net": "GND",
+                  "position_mm": [
+                    111.45,
+                    114.0
+                  ],
+                  "size_mm": [
+                    1.0,
+                    1.45
+                  ]
+                }
+              }
+            },
+            "C10": {
+              "value": "4.7 nF",
+              "position_mm": [
+                108.75,
+                134.0
+              ],
+              "rotation_degrees": -90.0,
+              "pads": {
+                "1": {
+                  "net": "AIN_N",
+                  "position_mm": [
+                    108.75,
+                    133.225
+                  ],
+                  "size_mm": [
+                    0.9,
+                    0.95
+                  ]
+                },
+                "2": {
+                  "net": "GND",
+                  "position_mm": [
+                    108.75,
+                    134.775
+                  ],
+                  "size_mm": [
+                    0.9,
+                    0.95
+                  ]
+                }
+              }
+            },
+            "C11": {
+              "value": "100 nF",
+              "position_mm": [
+                107.0,
+                134.0
+              ],
+              "rotation_degrees": 90.0,
+              "pads": {
+                "1": {
+                  "net": "REF_P",
+                  "position_mm": [
+                    107.0,
+                    134.775
+                  ],
+                  "size_mm": [
+                    0.9,
+                    0.95
+                  ]
+                },
+                "2": {
+                  "net": "REF_N",
+                  "position_mm": [
+                    107.0,
+                    133.225
+                  ],
+                  "size_mm": [
+                    0.9,
+                    0.95
+                  ]
+                }
+              }
+            },
+            "C12": {
+              "value": "100 nF",
+              "position_mm": [
+                115.0,
+                130.5
+              ],
+              "rotation_degrees": -90.0,
+              "pads": {
+                "1": {
+                  "net": "V5A",
+                  "position_mm": [
+                    115.0,
+                    129.725
+                  ],
+                  "size_mm": [
+                    0.9,
+                    0.95
+                  ]
+                },
+                "2": {
+                  "net": "GND",
+                  "position_mm": [
+                    115.0,
+                    131.275
+                  ],
+                  "size_mm": [
+                    0.9,
+                    0.95
+                  ]
+                }
+              }
+            },
+            "C13": {
+              "value": "1 uF",
+              "position_mm": [
+                111.5,
+                124.5
+              ],
+              "rotation_degrees": 0.0,
+              "pads": {
+                "1": {
+                  "net": "V5A",
+                  "position_mm": [
+                    110.725,
+                    124.5
+                  ],
+                  "size_mm": [
+                    0.9,
+                    0.95
+                  ]
+                },
+                "2": {
+                  "net": "GND",
+                  "position_mm": [
+                    112.275,
+                    124.5
+                  ],
+                  "size_mm": [
+                    0.9,
+                    0.95
+                  ]
+                }
+              }
+            },
+            "C14": {
+              "value": "100 nF",
+              "position_mm": [
+                115.0,
+                127.3
+              ],
+              "rotation_degrees": 90.0,
+              "pads": {
+                "1": {
+                  "net": "V3V3",
+                  "position_mm": [
+                    115.0,
+                    128.075
+                  ],
+                  "size_mm": [
+                    0.9,
+                    0.95
+                  ]
+                },
+                "2": {
+                  "net": "GND",
+                  "position_mm": [
+                    115.0,
+                    126.525
+                  ],
+                  "size_mm": [
+                    0.9,
+                    0.95
+                  ]
+                }
+              }
+            },
+            "C15": {
+              "value": "100 nF",
+              "position_mm": [
+                101.0,
+                136.0
+              ],
+              "rotation_degrees": 90.0,
+              "pads": {
+                "1": {
+                  "net": "END_GATE",
+                  "position_mm": [
+                    101.0,
+                    136.775
+                  ],
+                  "size_mm": [
+                    0.9,
+                    0.95
+                  ]
+                },
+                "2": {
+                  "net": "GND",
+                  "position_mm": [
+                    101.0,
+                    135.225
+                  ],
+                  "size_mm": [
+                    0.9,
+                    0.95
+                  ]
+                }
+              }
+            },
+            "C16": {
+              "value": "100 nF",
+              "position_mm": [
+                107.75,
+                136.5
+              ],
+              "rotation_degrees": 0.0,
+              "pads": {
+                "1": {
+                  "net": "BUTTON_N",
+                  "position_mm": [
+                    106.975,
+                    136.5
+                  ],
+                  "size_mm": [
+                    0.9,
+                    0.95
+                  ]
+                },
+                "2": {
+                  "net": "GND",
+                  "position_mm": [
+                    108.525,
+                    136.5
+                  ],
+                  "size_mm": [
+                    0.9,
+                    0.95
+                  ]
+                }
+              }
+            },
+            "C2": {
+              "value": "10 nF",
+              "position_mm": [
+                117.25,
+                141.0
+              ],
+              "rotation_degrees": 90.0,
+              "pads": {
+                "1": {
+                  "net": "USB_PRESENT",
+                  "position_mm": [
+                    117.25,
+                    141.775
+                  ],
+                  "size_mm": [
+                    0.9,
+                    0.95
+                  ]
+                },
+                "2": {
+                  "net": "GND",
+                  "position_mm": [
+                    117.25,
+                    140.225
+                  ],
+                  "size_mm": [
+                    0.9,
+                    0.95
+                  ]
+                }
+              }
+            },
+            "C3": {
+              "value": "10 uF",
+              "position_mm": [
+                106.8,
+                114.7
+              ],
+              "rotation_degrees": 0.0,
+              "pads": {
+                "1": {
+                  "net": "V3V3",
+                  "position_mm": [
+                    105.85,
+                    114.7
+                  ],
+                  "size_mm": [
+                    1.0,
+                    1.45
+                  ]
+                },
+                "2": {
+                  "net": "GND",
+                  "position_mm": [
+                    107.75,
+                    114.7
+                  ],
+                  "size_mm": [
+                    1.0,
+                    1.45
+                  ]
+                }
+              }
+            },
+            "C4": {
+              "value": "10 uF",
+              "position_mm": [
+                102.25,
+                122.0
+              ],
+              "rotation_degrees": 0.0,
+              "pads": {
+                "1": {
+                  "net": "VBOOST",
+                  "position_mm": [
+                    101.3,
+                    122.0
+                  ],
+                  "size_mm": [
+                    1.0,
+                    1.45
+                  ]
+                },
+                "2": {
+                  "net": "GND",
+                  "position_mm": [
+                    103.2,
+                    122.0
+                  ],
+                  "size_mm": [
+                    1.0,
+                    1.45
+                  ]
+                }
+              }
+            },
+            "C5": {
+              "value": "47 pF",
+              "position_mm": [
+                111.25,
+                118.0
+              ],
+              "rotation_degrees": -90.0,
+              "pads": {
+                "1": {
+                  "net": "VBOOST",
+                  "position_mm": [
+                    111.25,
+                    117.225
+                  ],
+                  "size_mm": [
+                    0.9,
+                    0.95
+                  ]
+                },
+                "2": {
+                  "net": "BOOST_FB",
+                  "position_mm": [
+                    111.25,
+                    118.775
+                  ],
+                  "size_mm": [
+                    0.9,
+                    0.95
+                  ]
+                }
+              }
+            },
+            "C6": {
+              "value": "1 uF",
+              "position_mm": [
+                115.5,
+                124.15
+              ],
+              "rotation_degrees": -90.0,
+              "pads": {
+                "1": {
+                  "net": "VBOOST",
+                  "position_mm": [
+                    115.5,
+                    123.375
+                  ],
+                  "size_mm": [
+                    0.9,
+                    0.95
+                  ]
+                },
+                "2": {
+                  "net": "GND",
+                  "position_mm": [
+                    115.5,
+                    124.925
+                  ],
+                  "size_mm": [
+                    0.9,
+                    0.95
+                  ]
+                }
+              }
+            },
+            "C7": {
+              "value": "4.7 uF",
+              "position_mm": [
+                115.5,
+                117.05
+              ],
+              "rotation_degrees": 0.0,
+              "pads": {
+                "1": {
+                  "net": "V5A",
+                  "position_mm": [
+                    114.55,
+                    117.05
+                  ],
+                  "size_mm": [
+                    1.0,
+                    1.45
+                  ]
+                },
+                "2": {
+                  "net": "GND",
+                  "position_mm": [
+                    116.45,
+                    117.05
+                  ],
+                  "size_mm": [
+                    1.0,
+                    1.45
+                  ]
+                }
+              }
+            },
+            "C8": {
+              "value": "470 nF",
+              "position_mm": [
+                112.25,
+                134.0
+              ],
+              "rotation_degrees": -90.0,
+              "pads": {
+                "1": {
+                  "net": "AIN_P",
+                  "position_mm": [
+                    112.25,
+                    133.225
+                  ],
+                  "size_mm": [
+                    0.9,
+                    0.95
+                  ]
+                },
+                "2": {
+                  "net": "AIN_N",
+                  "position_mm": [
+                    112.25,
+                    134.775
+                  ],
+                  "size_mm": [
+                    0.9,
+                    0.95
+                  ]
+                }
+              }
+            },
+            "C9": {
+              "value": "4.7 nF",
+              "position_mm": [
+                110.5,
+                134.0
+              ],
+              "rotation_degrees": -90.0,
+              "pads": {
+                "1": {
+                  "net": "AIN_P",
+                  "position_mm": [
+                    110.5,
+                    133.225
+                  ],
+                  "size_mm": [
+                    0.9,
+                    0.95
+                  ]
+                },
+                "2": {
+                  "net": "GND",
+                  "position_mm": [
+                    110.5,
+                    134.775
+                  ],
+                  "size_mm": [
+                    0.9,
+                    0.95
+                  ]
+                }
+              }
+            },
+            "D1": {
+              "value": "MBR0520LT1G",
+              "position_mm": [
+                102.4,
+                119.6
+              ],
+              "rotation_degrees": 0.0,
+              "pads": {
+                "1": {
+                  "net": "VBOOST",
+                  "position_mm": [
+                    100.75,
+                    119.6
+                  ],
+                  "size_mm": [
+                    0.9,
+                    1.2
+                  ]
+                },
+                "2": {
+                  "net": "BOOST_SW",
+                  "position_mm": [
+                    104.05,
+                    119.6
+                  ],
+                  "size_mm": [
+                    0.9,
+                    1.2
+                  ]
+                }
+              }
+            },
+            "J1": {
+              "value": "JST_PH_2",
+              "position_mm": [
+                111.5,
+                143.0
+              ],
+              "rotation_degrees": 0.0,
+              "pads": {
+                "1": {
+                  "net": "VBAT",
+                  "position_mm": [
+                    110.5,
+                    140.15
+                  ],
+                  "size_mm": [
+                    1.0,
+                    3.5
+                  ]
+                },
+                "2": {
+                  "net": "GND",
+                  "position_mm": [
+                    112.5,
+                    140.15
+                  ],
+                  "size_mm": [
+                    1.0,
+                    3.5
+                  ]
+                },
+                "MP": {
+                  "net": "",
+                  "position_mm": [
+                    114.85,
+                    145.9
+                  ],
+                  "size_mm": [
+                    1.5,
+                    3.4
+                  ]
+                }
+              }
+            },
+            "J2": {
+              "value": "FORCE_4",
+              "position_mm": [
+                117.8,
+                131.8
+              ],
+              "rotation_degrees": 0.0,
+              "pads": {
+                "1": {
+                  "net": "V5A",
+                  "position_mm": [
+                    117.8,
+                    127.99
+                  ],
+                  "size_mm": [
+                    2.0,
+                    1.7
+                  ]
+                },
+                "2": {
+                  "net": "SIG_P",
+                  "position_mm": [
+                    117.8,
+                    130.53
+                  ],
+                  "size_mm": [
+                    2.0,
+                    1.7
+                  ]
+                },
+                "3": {
+                  "net": "SIG_N",
+                  "position_mm": [
+                    117.8,
+                    133.07
+                  ],
+                  "size_mm": [
+                    2.0,
+                    1.7
+                  ]
+                },
+                "4": {
+                  "net": "GND",
+                  "position_mm": [
+                    117.8,
+                    135.61
+                  ],
+                  "size_mm": [
+                    2.0,
+                    1.7
+                  ]
+                },
+                "5": {
+                  "net": "EXC_SENSE_P",
+                  "position_mm": [
+                    117.8,
+                    126.85
+                  ],
+                  "size_mm": [
+                    0.6,
+                    0.3
+                  ]
+                },
+                "6": {
+                  "net": "EXC_SENSE_N",
+                  "position_mm": [
+                    117.8,
+                    136.75
+                  ],
+                  "size_mm": [
+                    0.6,
+                    0.3
+                  ]
+                }
+              }
+            },
+            "J3": {
+              "value": "END_2",
+              "position_mm": [
+                102.0,
+                143.0
+              ],
+              "rotation_degrees": 0.0,
+              "pads": {
+                "1": {
+                  "net": "END_CONTACT",
+                  "position_mm": [
+                    102.0,
+                    141.73
+                  ],
+                  "size_mm": [
+                    2.0,
+                    1.7
+                  ]
+                },
+                "2": {
+                  "net": "GND",
+                  "position_mm": [
+                    102.0,
+                    144.27
+                  ],
+                  "size_mm": [
+                    2.0,
+                    1.7
+                  ]
+                }
+              }
+            },
+            "L1": {
+              "value": "10 uH",
+              "position_mm": [
+                102.75,
+                115.7
+              ],
+              "rotation_degrees": 0.0,
+              "pads": {
+                "1": {
+                  "net": "V3V3",
+                  "position_mm": [
+                    101.735,
+                    115.7
+                  ],
+                  "size_mm": [
+                    1.0,
+                    2.9
+                  ]
+                },
+                "2": {
+                  "net": "BOOST_SW",
+                  "position_mm": [
+                    103.765,
+                    115.7
+                  ],
+                  "size_mm": [
+                    1.0,
+                    2.9
+                  ]
+                }
+              }
+            },
+            "Q1": {
+              "value": "2N7002",
+              "position_mm": [
+                104.0,
+                138.5
+              ],
+              "rotation_degrees": 0.0,
+              "pads": {
+                "1": {
+                  "net": "END_GATE",
+                  "position_mm": [
+                    103.0625,
+                    137.55
+                  ],
+                  "size_mm": [
+                    1.475,
+                    0.6
+                  ]
+                },
+                "2": {
+                  "net": "GND",
+                  "position_mm": [
+                    103.0625,
+                    139.45
+                  ],
+                  "size_mm": [
+                    1.475,
+                    0.6
+                  ]
+                },
+                "3": {
+                  "net": "ENDSTOP_N",
+                  "position_mm": [
+                    104.9375,
+                    138.5
+                  ],
+                  "size_mm": [
+                    1.475,
+                    0.6
+                  ]
+                }
+              }
+            },
+            "R1": {
+              "value": "100 k",
+              "position_mm": [
+                117.25,
+                144.25
+              ],
+              "rotation_degrees": 90.0,
+              "pads": {
+                "1": {
+                  "net": "VBUS_USB",
+                  "position_mm": [
+                    117.25,
+                    145.075
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                },
+                "2": {
+                  "net": "USB_PRESENT",
+                  "position_mm": [
+                    117.25,
+                    143.425
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                }
+              }
+            },
+            "R10": {
+              "value": "100 R",
+              "position_mm": [
+                104.5,
+                135.75
+              ],
+              "rotation_degrees": 180.0,
+              "pads": {
+                "1": {
+                  "net": "EXC_SENSE_N",
+                  "position_mm": [
+                    105.325,
+                    135.75
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                },
+                "2": {
+                  "net": "REF_N",
+                  "position_mm": [
+                    103.675,
+                    135.75
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                }
+              }
+            },
+            "R11": {
+              "value": "33 R",
+              "position_mm": [
+                107.0,
+                124.25
+              ],
+              "rotation_degrees": 90.0,
+              "pads": {
+                "1": {
+                  "net": "SPI_SCK_MCU",
+                  "position_mm": [
+                    107.0,
+                    125.075
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                },
+                "2": {
+                  "net": "SPI_SCK_ADC",
+                  "position_mm": [
+                    107.0,
+                    123.425
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                }
+              }
+            },
+            "R12": {
+              "value": "33 R",
+              "position_mm": [
+                111.25,
+                122.0
+              ],
+              "rotation_degrees": 90.0,
+              "pads": {
+                "1": {
+                  "net": "SPI_MOSI_MCU",
+                  "position_mm": [
+                    111.25,
+                    122.825
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                },
+                "2": {
+                  "net": "SPI_MOSI_ADC",
+                  "position_mm": [
+                    111.25,
+                    121.175
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                }
+              }
+            },
+            "R13": {
+              "value": "33 R",
+              "position_mm": [
+                117.8,
+                138.25
+              ],
+              "rotation_degrees": 0.0,
+              "pads": {
+                "1": {
+                  "net": "ADC_CS_MCU",
+                  "position_mm": [
+                    116.975,
+                    138.25
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                },
+                "2": {
+                  "net": "ADC_CS_N",
+                  "position_mm": [
+                    118.625,
+                    138.25
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                }
+              }
+            },
+            "R14": {
+              "value": "47 k",
+              "position_mm": [
+                117.25,
+                124.5
+              ],
+              "rotation_degrees": 90.0,
+              "pads": {
+                "1": {
+                  "net": "V3V3",
+                  "position_mm": [
+                    117.25,
+                    125.325
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                },
+                "2": {
+                  "net": "ADC_CS_N",
+                  "position_mm": [
+                    117.25,
+                    123.675
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                }
+              }
+            },
+            "R15": {
+              "value": "100 k",
+              "position_mm": [
+                114.0,
+                115.0
+              ],
+              "rotation_degrees": 0.0,
+              "pads": {
+                "1": {
+                  "net": "SPI_SCK_ADC",
+                  "position_mm": [
+                    113.175,
+                    115.0
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                },
+                "2": {
+                  "net": "GND",
+                  "position_mm": [
+                    114.825,
+                    115.0
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                }
+              }
+            },
+            "R16": {
+              "value": "100 k",
+              "position_mm": [
+                118.25,
+                121.0
+              ],
+              "rotation_degrees": 90.0,
+              "pads": {
+                "1": {
+                  "net": "SPI_MOSI_ADC",
+                  "position_mm": [
+                    118.25,
+                    121.825
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                },
+                "2": {
+                  "net": "GND",
+                  "position_mm": [
+                    118.25,
+                    120.175
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                }
+              }
+            },
+            "R17": {
+              "value": "4.7 k",
+              "position_mm": [
+                105.0,
+                141.25
+              ],
+              "rotation_degrees": 0.0,
+              "pads": {
+                "1": {
+                  "net": "V5A",
+                  "position_mm": [
+                    104.175,
+                    141.25
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                },
+                "2": {
+                  "net": "END_CONTACT",
+                  "position_mm": [
+                    105.825,
+                    141.25
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                }
+              }
+            },
+            "R18": {
+              "value": "1 k",
+              "position_mm": [
+                105.0,
+                143.0
+              ],
+              "rotation_degrees": 0.0,
+              "pads": {
+                "1": {
+                  "net": "END_CONTACT",
+                  "position_mm": [
+                    104.175,
+                    143.0
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                },
+                "2": {
+                  "net": "END_GATE",
+                  "position_mm": [
+                    105.825,
+                    143.0
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                }
+              }
+            },
+            "R19": {
+              "value": "47 k",
+              "position_mm": [
+                111.0,
+                136.5
+              ],
+              "rotation_degrees": 0.0,
+              "pads": {
+                "1": {
+                  "net": "V3V3",
+                  "position_mm": [
+                    110.175,
+                    136.5
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                },
+                "2": {
+                  "net": "ENDSTOP_N",
+                  "position_mm": [
+                    111.825,
+                    136.5
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                }
+              }
+            },
+            "R2": {
+              "value": "100 k",
+              "position_mm": [
+                114.5,
+                136.75
+              ],
+              "rotation_degrees": 0.0,
+              "pads": {
+                "1": {
+                  "net": "USB_PRESENT",
+                  "position_mm": [
+                    113.675,
+                    136.75
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                },
+                "2": {
+                  "net": "GND",
+                  "position_mm": [
+                    115.325,
+                    136.75
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                }
+              }
+            },
+            "R20": {
+              "value": "100 k",
+              "position_mm": [
+                105.0,
+                144.75
+              ],
+              "rotation_degrees": 0.0,
+              "pads": {
+                "1": {
+                  "net": "V3V3",
+                  "position_mm": [
+                    104.175,
+                    144.75
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                },
+                "2": {
+                  "net": "BUTTON_N",
+                  "position_mm": [
+                    105.825,
+                    144.75
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                }
+              }
+            },
+            "R21": {
+              "value": "1 k",
+              "position_mm": [
+                104.0,
+                146.5
+              ],
+              "rotation_degrees": 0.0,
+              "pads": {
+                "1": {
+                  "net": "BUTTON_RAW",
+                  "position_mm": [
+                    103.175,
+                    146.5
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                },
+                "2": {
+                  "net": "BUTTON_N",
+                  "position_mm": [
+                    104.825,
+                    146.5
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                }
+              }
+            },
+            "R3": {
+              "value": "680 k",
+              "position_mm": [
+                109.5,
+                118.0
+              ],
+              "rotation_degrees": -90.0,
+              "pads": {
+                "1": {
+                  "net": "VBOOST",
+                  "position_mm": [
+                    109.5,
+                    117.175
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                },
+                "2": {
+                  "net": "BOOST_FB",
+                  "position_mm": [
+                    109.5,
+                    118.825
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                }
+              }
+            },
+            "R4": {
+              "value": "200 k",
+              "position_mm": [
+                109.5,
+                121.5
+              ],
+              "rotation_degrees": -90.0,
+              "pads": {
+                "1": {
+                  "net": "BOOST_FB",
+                  "position_mm": [
+                    109.5,
+                    120.675
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                },
+                "2": {
+                  "net": "GND",
+                  "position_mm": [
+                    109.5,
+                    122.325
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                }
+              }
+            },
+            "R5": {
+              "value": "100 k",
+              "position_mm": [
+                117.25,
+                115.0
+              ],
+              "rotation_degrees": 0.0,
+              "pads": {
+                "1": {
+                  "net": "BOOST_EN",
+                  "position_mm": [
+                    116.425,
+                    115.0
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                },
+                "2": {
+                  "net": "GND",
+                  "position_mm": [
+                    118.075,
+                    115.0
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                }
+              }
+            },
+            "R6": {
+              "value": "100 k",
+              "position_mm": [
+                118.25,
+                117.75
+              ],
+              "rotation_degrees": 90.0,
+              "pads": {
+                "1": {
+                  "net": "ANALOG_EN",
+                  "position_mm": [
+                    118.25,
+                    118.575
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                },
+                "2": {
+                  "net": "GND",
+                  "position_mm": [
+                    118.25,
+                    116.925
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                }
+              }
+            },
+            "R7": {
+              "value": "1 k",
+              "position_mm": [
+                114.8,
+                133.0
+              ],
+              "rotation_degrees": 180.0,
+              "pads": {
+                "1": {
+                  "net": "SIG_P",
+                  "position_mm": [
+                    115.625,
+                    133.0
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                },
+                "2": {
+                  "net": "AIN_P",
+                  "position_mm": [
+                    113.975,
+                    133.0
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                }
+              }
+            },
+            "R8": {
+              "value": "1 k",
+              "position_mm": [
+                114.8,
+                135.0
+              ],
+              "rotation_degrees": 180.0,
+              "pads": {
+                "1": {
+                  "net": "SIG_N",
+                  "position_mm": [
+                    115.625,
+                    135.0
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                },
+                "2": {
+                  "net": "AIN_N",
+                  "position_mm": [
+                    113.975,
+                    135.0
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                }
+              }
+            },
+            "R9": {
+              "value": "100 R",
+              "position_mm": [
+                104.5,
+                134.0
+              ],
+              "rotation_degrees": 180.0,
+              "pads": {
+                "1": {
+                  "net": "EXC_SENSE_P",
+                  "position_mm": [
+                    105.325,
+                    134.0
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                },
+                "2": {
+                  "net": "REF_P",
+                  "position_mm": [
+                    103.675,
+                    134.0
+                  ],
+                  "size_mm": [
+                    0.8,
+                    0.95
+                  ]
+                }
+              }
+            },
+            "SW2": {
+              "value": "EVQPUC02K",
+              "position_mm": [
+                103.5,
+                127.9
+              ],
+              "rotation_degrees": 90.0,
+              "pads": {
+                "": {
+                  "net": "",
+                  "position_mm": [
+                    104.875,
+                    127.9
+                  ],
+                  "size_mm": [
+                    0.75,
+                    0.75
+                  ]
+                },
+                "1": {
+                  "net": "BUTTON_RAW",
+                  "position_mm": [
+                    102.65,
+                    125.275
+                  ],
+                  "size_mm": [
+                    1.55,
+                    1.0
+                  ]
+                },
+                "2": {
+                  "net": "GND",
+                  "position_mm": [
+                    104.35,
+                    125.275
+                  ],
+                  "size_mm": [
+                    1.55,
+                    1.0
+                  ]
+                }
+              }
+            },
+            "U1": {
+              "value": "XIAO_nRF52840",
+              "position_mm": [
+                100.8325,
+                101.041
+              ],
+              "rotation_degrees": 0.0,
+              "pads": {
+                "1": {
+                  "net": "BOOST_EN",
+                  "position_mm": [
+                    101.6675,
+                    82.921
+                  ],
+                  "size_mm": [
+                    2.75,
+                    2.0
+                  ]
+                },
+                "2": {
+                  "net": "ANALOG_EN",
+                  "position_mm": [
+                    101.6675,
+                    85.461
+                  ],
+                  "size_mm": [
+                    2.75,
+                    2.0
+                  ]
+                },
+                "3": {
+                  "net": "ADC_CS_MCU",
+                  "position_mm": [
+                    101.6675,
+                    88.001
+                  ],
+                  "size_mm": [
+                    2.75,
+                    2.0
+                  ]
+                },
+                "4": {
+                  "net": "ADC_DRDY_N",
+                  "position_mm": [
+                    101.6675,
+                    90.541
+                  ],
+                  "size_mm": [
+                    2.75,
+                    2.0
+                  ]
+                },
+                "5": {
+                  "net": "BUTTON_N",
+                  "position_mm": [
+                    101.6675,
+                    93.081
+                  ],
+                  "size_mm": [
+                    2.75,
+                    2.0
+                  ]
+                },
+                "6": {
+                  "net": "ENDSTOP_N",
+                  "position_mm": [
+                    101.6675,
+                    95.621
+                  ],
+                  "size_mm": [
+                    2.75,
+                    2.0
+                  ]
+                },
+                "7": {
+                  "net": "USB_PRESENT",
+                  "position_mm": [
+                    101.6675,
+                    98.161
+                  ],
+                  "size_mm": [
+                    2.75,
+                    2.0
+                  ]
+                },
+                "8": {
+                  "net": "unconnected-(U1-D7_{slash}_P1.12-Pad8)",
+                  "position_mm": [
+                    117.8325,
+                    98.161
+                  ],
+                  "size_mm": [
+                    2.75,
+                    2.0
+                  ]
+                },
+                "9": {
+                  "net": "SPI_SCK_MCU",
+                  "position_mm": [
+                    117.8325,
+                    95.621
+                  ],
+                  "size_mm": [
+                    2.75,
+                    2.0
+                  ]
+                },
+                "10": {
+                  "net": "SPI_MISO",
+                  "position_mm": [
+                    117.8325,
+                    93.081
+                  ],
+                  "size_mm": [
+                    2.75,
+                    2.0
+                  ]
+                },
+                "11": {
+                  "net": "SPI_MOSI_MCU",
+                  "position_mm": [
+                    117.8325,
+                    90.541
+                  ],
+                  "size_mm": [
+                    2.75,
+                    2.0
+                  ]
+                },
+                "12": {
+                  "net": "V3V3",
+                  "position_mm": [
+                    117.8325,
+                    88.001
+                  ],
+                  "size_mm": [
+                    2.75,
+                    2.0
+                  ]
+                },
+                "13": {
+                  "net": "GND",
+                  "position_mm": [
+                    117.8325,
+                    85.461
+                  ],
+                  "size_mm": [
+                    2.75,
+                    2.0
+                  ]
+                },
+                "14": {
+                  "net": "VBUS_USB",
+                  "position_mm": [
+                    117.8325,
+                    82.921
+                  ],
+                  "size_mm": [
+                    2.75,
+                    2.0
+                  ]
+                },
+                "15": {
+                  "net": "unconnected-(U1-SWDIO-Pad15)",
+                  "position_mm": [
+                    108.4525,
+                    81.9725
+                  ],
+                  "size_mm": [
+                    1.7,
+                    1.7
+                  ]
+                },
+                "16": {
+                  "net": "unconnected-(U1-SWCLK-Pad16)",
+                  "position_mm": [
+                    110.9925,
+                    81.9725
+                  ],
+                  "size_mm": [
+                    1.7,
+                    1.7
+                  ]
+                },
+                "17": {
+                  "net": "unconnected-(U1-RESET_N-Pad17)",
+                  "position_mm": [
+                    108.4525,
+                    84.5125
+                  ],
+                  "size_mm": [
+                    1.7,
+                    1.7
+                  ]
+                },
+                "18": {
+                  "net": "GND",
+                  "position_mm": [
+                    110.9925,
+                    84.5125
+                  ],
+                  "size_mm": [
+                    1.7,
+                    1.7
+                  ]
+                },
+                "19": {
+                  "net": "VBAT",
+                  "position_mm": [
+                    105.2775,
+                    90.2275
+                  ],
+                  "size_mm": [
+                    2.5,
+                    1.1
+                  ]
+                },
+                "20": {
+                  "net": "GND",
+                  "position_mm": [
+                    105.2775,
+                    88.3225
+                  ],
+                  "size_mm": [
+                    2.5,
+                    1.1
+                  ]
+                },
+                "21": {
+                  "net": "unconnected-(U1-NFC1-Pad21)",
+                  "position_mm": [
+                    113.5325,
+                    99.7779
+                  ],
+                  "size_mm": [
+                    2.5,
+                    1.1
+                  ]
+                },
+                "22": {
+                  "net": "unconnected-(U1-NFC2-Pad22)",
+                  "position_mm": [
+                    115.4375,
+                    99.7779
+                  ],
+                  "size_mm": [
+                    2.5,
+                    1.1
+                  ]
+                }
+              }
+            },
+            "U2": {
+              "value": "TPS61041DBVR",
+              "position_mm": [
+                106.8,
+                118.2
+              ],
+              "rotation_degrees": 90.0,
+              "pads": {
+                "1": {
+                  "net": "BOOST_SW",
+                  "position_mm": [
+                    105.85,
+                    119.3375
+                  ],
+                  "size_mm": [
+                    1.325,
+                    0.6
+                  ]
+                },
+                "2": {
+                  "net": "GND",
+                  "position_mm": [
+                    106.8,
+                    119.3375
+                  ],
+                  "size_mm": [
+                    1.325,
+                    0.6
+                  ]
+                },
+                "3": {
+                  "net": "BOOST_FB",
+                  "position_mm": [
+                    107.75,
+                    119.3375
+                  ],
+                  "size_mm": [
+                    1.325,
+                    0.6
+                  ]
+                },
+                "4": {
+                  "net": "BOOST_EN",
+                  "position_mm": [
+                    107.75,
+                    117.0625
+                  ],
+                  "size_mm": [
+                    1.325,
+                    0.6
+                  ]
+                },
+                "5": {
+                  "net": "V3V3",
+                  "position_mm": [
+                    105.85,
+                    117.0625
+                  ],
+                  "size_mm": [
+                    1.325,
+                    0.6
+                  ]
+                }
+              }
+            },
+            "U3": {
+              "value": "TPS7A2050PDBVR",
+              "position_mm": [
+                115.5,
+                120.4
+              ],
+              "rotation_degrees": 90.0,
+              "pads": {
+                "1": {
+                  "net": "VBOOST",
+                  "position_mm": [
+                    114.55,
+                    121.5375
+                  ],
+                  "size_mm": [
+                    1.325,
+                    0.6
+                  ]
+                },
+                "2": {
+                  "net": "GND",
+                  "position_mm": [
+                    115.5,
+                    121.5375
+                  ],
+                  "size_mm": [
+                    1.325,
+                    0.6
+                  ]
+                },
+                "3": {
+                  "net": "ANALOG_EN",
+                  "position_mm": [
+                    116.45,
+                    121.5375
+                  ],
+                  "size_mm": [
+                    1.325,
+                    0.6
+                  ]
+                },
+                "4": {
+                  "net": "unconnected-(U3-NC-Pad4)",
+                  "position_mm": [
+                    116.45,
+                    119.2625
+                  ],
+                  "size_mm": [
+                    1.325,
+                    0.6
+                  ]
+                },
+                "5": {
+                  "net": "V5A",
+                  "position_mm": [
+                    114.55,
+                    119.2625
+                  ],
+                  "size_mm": [
+                    1.325,
+                    0.6
+                  ]
+                }
+              }
+            },
+            "U4": {
+              "value": "ADS1220IPWR",
+              "position_mm": [
+                110.0,
+                129.0
+              ],
+              "rotation_degrees": 0.0,
+              "pads": {
+                "1": {
+                  "net": "SPI_SCK_ADC",
+                  "position_mm": [
+                    107.1375,
+                    126.725
+                  ],
+                  "size_mm": [
+                    1.475,
+                    0.4
+                  ]
+                },
+                "2": {
+                  "net": "ADC_CS_N",
+                  "position_mm": [
+                    107.1375,
+                    127.375
+                  ],
+                  "size_mm": [
+                    1.475,
+                    0.4
+                  ]
+                },
+                "3": {
+                  "net": "GND",
+                  "position_mm": [
+                    107.1375,
+                    128.025
+                  ],
+                  "size_mm": [
+                    1.475,
+                    0.4
+                  ]
+                },
+                "4": {
+                  "net": "GND",
+                  "position_mm": [
+                    107.1375,
+                    128.675
+                  ],
+                  "size_mm": [
+                    1.475,
+                    0.4
+                  ]
+                },
+                "5": {
+                  "net": "GND",
+                  "position_mm": [
+                    107.1375,
+                    129.325
+                  ],
+                  "size_mm": [
+                    1.475,
+                    0.4
+                  ]
+                },
+                "6": {
+                  "net": "unconnected-(U4-AIN3_{slash}_REFN1-Pad6)",
+                  "position_mm": [
+                    107.1375,
+                    129.975
+                  ],
+                  "size_mm": [
+                    1.475,
+                    0.4
+                  ]
+                },
+                "7": {
+                  "net": "unconnected-(U4-AIN2-Pad7)",
+                  "position_mm": [
+                    107.1375,
+                    130.625
+                  ],
+                  "size_mm": [
+                    1.475,
+                    0.4
+                  ]
+                },
+                "8": {
+                  "net": "REF_N",
+                  "position_mm": [
+                    107.1375,
+                    131.275
+                  ],
+                  "size_mm": [
+                    1.475,
+                    0.4
+                  ]
+                },
+                "9": {
+                  "net": "REF_P",
+                  "position_mm": [
+                    112.8625,
+                    131.275
+                  ],
+                  "size_mm": [
+                    1.475,
+                    0.4
+                  ]
+                },
+                "10": {
+                  "net": "AIN_N",
+                  "position_mm": [
+                    112.8625,
+                    130.625
+                  ],
+                  "size_mm": [
+                    1.475,
+                    0.4
+                  ]
+                },
+                "11": {
+                  "net": "AIN_P",
+                  "position_mm": [
+                    112.8625,
+                    129.975
+                  ],
+                  "size_mm": [
+                    1.475,
+                    0.4
+                  ]
+                },
+                "12": {
+                  "net": "V5A",
+                  "position_mm": [
+                    112.8625,
+                    129.325
+                  ],
+                  "size_mm": [
+                    1.475,
+                    0.4
+                  ]
+                },
+                "13": {
+                  "net": "V3V3",
+                  "position_mm": [
+                    112.8625,
+                    128.675
+                  ],
+                  "size_mm": [
+                    1.475,
+                    0.4
+                  ]
+                },
+                "14": {
+                  "net": "ADC_DRDY_N",
+                  "position_mm": [
+                    112.8625,
+                    128.025
+                  ],
+                  "size_mm": [
+                    1.475,
+                    0.4
+                  ]
+                },
+                "15": {
+                  "net": "SPI_MISO",
+                  "position_mm": [
+                    112.8625,
+                    127.375
+                  ],
+                  "size_mm": [
+                    1.475,
+                    0.4
+                  ]
+                },
+                "16": {
+                  "net": "SPI_MOSI_ADC",
+                  "position_mm": [
+                    112.8625,
+                    126.725
+                  ],
+                  "size_mm": [
+                    1.475,
+                    0.4
+                  ]
+                }
+              }
+            }
+          },
+          "zones": [
+            {
+              "name": "GND top",
+              "net": "GND",
+              "rule_area": false,
+              "layers": [
+                "F.Cu"
+              ],
+              "filled_islands": 4
+            },
+            {
+              "name": "RF antenna underside - no copper",
+              "net": "",
+              "rule_area": true,
+              "layers": [
+                "F.Cu",
+                "In1.Cu",
+                "In2.Cu",
+                "B.Cu"
+              ],
+              "filled_islands": 0
+            },
+            {
+              "name": "RF free extension - confirm on hardware",
+              "net": "",
+              "rule_area": true,
+              "layers": [
+                "F.Cu",
+                "In1.Cu",
+                "In2.Cu",
+                "B.Cu"
+              ],
+              "filled_islands": 0
+            },
+            {
+              "name": "GND return plane",
+              "net": "GND",
+              "rule_area": false,
+              "layers": [
+                "B.Cu"
+              ],
+              "filled_islands": 1
+            },
+            {
+              "name": "GND return plane",
+              "net": "GND",
+              "rule_area": false,
+              "layers": [
+                "In1.Cu"
+              ],
+              "filled_islands": 1
+            },
+            {
+              "name": "GND return plane",
+              "net": "GND",
+              "rule_area": false,
+              "layers": [
+                "In2.Cu"
+              ],
+              "filled_islands": 7
+            }
+          ],
+          "decoupling_pad_center_distances_mm": {
+            "U4.12 to C12.1": 2.1746048491622565,
+            "U4.13 to C14.1": 2.2201140173423526,
+            "U4.12 to C13.1": 5.277265508764932,
+            "U3.5 to C7.1": 2.2125,
+            "U3.1 to C6.1": 2.06855172765875,
+            "U2.5 to C3.1": 2.3625
+          },
+          "gnd_pad_nearest_via_mm": {
+            "U4.3": 0.9830596370515882,
+            "U4.4": 0.7375,
+            "U4.5": 0.9830596370515882,
+            "C14.2": 0.8663861725581729,
+            "C3.2": 1.1,
+            "U2.2": 0.8625,
+            "C4.2": 0.85,
+            "C12.2": 0.725,
+            "C7.2": 0.85,
+            "U3.2": 0.8125
+          },
+          "via_in_pad": [
+            {
+              "ref": "U4",
+              "pad": "4",
+              "net": "GND",
+              "position_mm": [
+                106.4,
+                128.675
+              ]
+            },
+            {
+              "ref": "U1",
+              "pad": "12",
+              "net": "V3V3",
+              "position_mm": [
+                117.3,
+                88.55
+              ]
+            }
+          ]
+        },
+        "isError": false
+      }
+    },
+    {
+      "tool": "trace_netlist_connection",
+      "arguments": {
+        "netlist_path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/reports/full-review-netlist.xml",
+        "reference": "U1"
+      },
+      "result": {
+        "meta": {
+          "fastmcp": {
+            "wrap_result": true
+          }
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "## Netlist Connection Trace: U1\n\n**Total Nets:** 20\n\n### Net: ADC_CS_MCU\n**Pins:** 3\n\n| Reference | Pin |\n|-----------|-----|\n| R13 | 1 |\n\n### Net: ADC_DRDY_N\n**Pins:** 4\n\n| Reference | Pin |\n|-----------|-----|\n| U4 | 14 |\n\n### Net: ANALOG_EN\n**Pins:** 2\n\n| Reference | Pin |\n|-----------|-----|\n| R6 | 1 |\n| U3 | 3 |\n\n### Net: BOOST_EN\n**Pins:** 1\n\n| Reference | Pin |\n|-----------|-----|\n| R5 | 1 |\n| U2 | 4 |\n\n### Net: BUTTON_N\n**Pins:** 5\n\n| Reference | Pin |\n|-----------|-----|\n| C16 | 1 |\n| R20 | 2 |\n| R21 | 2 |\n\n### Net: ENDSTOP_N\n**Pins:** 6\n\n| Reference | Pin |\n|-----------|-----|\n| Q1 | 3 |\n| R19 | 2 |\n\n### Net: GND\n**Pins:** 13, 18, 20\n\n| Reference | Pin |\n|-----------|-----|\n| BT1 | - |\n| C1 | 2 |\n| C10 | 2 |\n| C12 | 2 |\n| C13 | 2 |\n| C14 | 2 |\n| C15 | 2 |\n| C16 | 2 |\n| C2 | 2 |\n| C3 | 2 |\n| C4 | 2 |\n| C6 | 2 |\n| C7 | 2 |\n| C9 | 2 |\n| H1 | BLACK |\n| J1 | 2 |\n| J2 | 4 |\n| J3 | 2 |\n| Q1 | 2 |\n| R15 | 2 |\n| R16 | 2 |\n| R2 | 2 |\n| R4 | 2 |\n| R5 | 2 |\n| R6 | 2 |\n| SW1 | COM |\n| SW2 | 2 |\n| U2 | 2 |\n| U3 | 2 |\n| U4 | 3 |\n| U4 | 4 |\n| U4 | 5 |\n\n### Net: SPI_MISO\n**Pins:** 10\n\n| Reference | Pin |\n|-----------|-----|\n| U4 | 15 |\n\n### Net: SPI_MOSI_MCU\n**Pins:** 11\n\n| Reference | Pin |\n|-----------|-----|\n| R12 | 1 |\n\n### Net: SPI_SCK_MCU\n**Pins:** 9\n\n| Reference | Pin |\n|-----------|-----|\n| R11 | 1 |\n\n### Net: USB_PRESENT\n**Pins:** 7\n\n| Reference | Pin |\n|-----------|-----|\n| C2 | 1 |\n| R1 | 2 |\n| R2 | 1 |\n\n### Net: V3V3\n**Pins:** 12\n\n| Reference | Pin |\n|-----------|-----|\n| C1 | 1 |\n| C14 | 1 |\n| C3 | 1 |\n| L1 | 1 |\n| R14 | 1 |\n| R19 | 1 |\n| R20 | 1 |\n| U2 | 5 |\n| U4 | 13 |\n\n### Net: VBAT\n**Pins:** 19\n\n| Reference | Pin |\n|-----------|-----|\n| BT1 | + |\n| J1 | 1 |\n\n### Net: VBUS_USB\n**Pins:** 14\n\n| Reference | Pin |\n|-----------|-----|\n| R1 | 1 |\n\n### Net: unconnected-(U1-D7_{slash}_P1.12-Pad8)\n**Pins:** 8\n\nNo other components on this net.\n\n### Net: unconnected-(U1-NFC1-Pad21)\n**Pins:** 21\n\nNo other components on this net.\n\n### Net: unconnected-(U1-NFC2-Pad22)\n**Pins:** 22\n\nNo other components on this net.\n\n### Net: unconnected-(U1-RESET_N-Pad17)\n**Pins:** 17\n\nNo other components on this net.\n\n### Net: unconnected-(U1-SWCLK-Pad16)\n**Pins:** 16\n\nNo other components on this net.\n\n### Net: unconnected-(U1-SWDIO-Pad15)\n**Pins:** 15\n\nNo other components on this net.\n",
+            "annotations": null,
+            "meta": null
+          }
+        ],
+        "structuredContent": {
+          "result": "## Netlist Connection Trace: U1\n\n**Total Nets:** 20\n\n### Net: ADC_CS_MCU\n**Pins:** 3\n\n| Reference | Pin |\n|-----------|-----|\n| R13 | 1 |\n\n### Net: ADC_DRDY_N\n**Pins:** 4\n\n| Reference | Pin |\n|-----------|-----|\n| U4 | 14 |\n\n### Net: ANALOG_EN\n**Pins:** 2\n\n| Reference | Pin |\n|-----------|-----|\n| R6 | 1 |\n| U3 | 3 |\n\n### Net: BOOST_EN\n**Pins:** 1\n\n| Reference | Pin |\n|-----------|-----|\n| R5 | 1 |\n| U2 | 4 |\n\n### Net: BUTTON_N\n**Pins:** 5\n\n| Reference | Pin |\n|-----------|-----|\n| C16 | 1 |\n| R20 | 2 |\n| R21 | 2 |\n\n### Net: ENDSTOP_N\n**Pins:** 6\n\n| Reference | Pin |\n|-----------|-----|\n| Q1 | 3 |\n| R19 | 2 |\n\n### Net: GND\n**Pins:** 13, 18, 20\n\n| Reference | Pin |\n|-----------|-----|\n| BT1 | - |\n| C1 | 2 |\n| C10 | 2 |\n| C12 | 2 |\n| C13 | 2 |\n| C14 | 2 |\n| C15 | 2 |\n| C16 | 2 |\n| C2 | 2 |\n| C3 | 2 |\n| C4 | 2 |\n| C6 | 2 |\n| C7 | 2 |\n| C9 | 2 |\n| H1 | BLACK |\n| J1 | 2 |\n| J2 | 4 |\n| J3 | 2 |\n| Q1 | 2 |\n| R15 | 2 |\n| R16 | 2 |\n| R2 | 2 |\n| R4 | 2 |\n| R5 | 2 |\n| R6 | 2 |\n| SW1 | COM |\n| SW2 | 2 |\n| U2 | 2 |\n| U3 | 2 |\n| U4 | 3 |\n| U4 | 4 |\n| U4 | 5 |\n\n### Net: SPI_MISO\n**Pins:** 10\n\n| Reference | Pin |\n|-----------|-----|\n| U4 | 15 |\n\n### Net: SPI_MOSI_MCU\n**Pins:** 11\n\n| Reference | Pin |\n|-----------|-----|\n| R12 | 1 |\n\n### Net: SPI_SCK_MCU\n**Pins:** 9\n\n| Reference | Pin |\n|-----------|-----|\n| R11 | 1 |\n\n### Net: USB_PRESENT\n**Pins:** 7\n\n| Reference | Pin |\n|-----------|-----|\n| C2 | 1 |\n| R1 | 2 |\n| R2 | 1 |\n\n### Net: V3V3\n**Pins:** 12\n\n| Reference | Pin |\n|-----------|-----|\n| C1 | 1 |\n| C14 | 1 |\n| C3 | 1 |\n| L1 | 1 |\n| R14 | 1 |\n| R19 | 1 |\n| R20 | 1 |\n| U2 | 5 |\n| U4 | 13 |\n\n### Net: VBAT\n**Pins:** 19\n\n| Reference | Pin |\n|-----------|-----|\n| BT1 | + |\n| J1 | 1 |\n\n### Net: VBUS_USB\n**Pins:** 14\n\n| Reference | Pin |\n|-----------|-----|\n| R1 | 1 |\n\n### Net: unconnected-(U1-D7_{slash}_P1.12-Pad8)\n**Pins:** 8\n\nNo other components on this net.\n\n### Net: unconnected-(U1-NFC1-Pad21)\n**Pins:** 21\n\nNo other components on this net.\n\n### Net: unconnected-(U1-NFC2-Pad22)\n**Pins:** 22\n\nNo other components on this net.\n\n### Net: unconnected-(U1-RESET_N-Pad17)\n**Pins:** 17\n\nNo other components on this net.\n\n### Net: unconnected-(U1-SWCLK-Pad16)\n**Pins:** 16\n\nNo other components on this net.\n\n### Net: unconnected-(U1-SWDIO-Pad15)\n**Pins:** 15\n\nNo other components on this net.\n"
+        },
+        "isError": false
+      }
+    },
+    {
+      "tool": "trace_netlist_connection",
+      "arguments": {
+        "netlist_path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/reports/full-review-netlist.xml",
+        "reference": "U2"
+      },
+      "result": {
+        "meta": {
+          "fastmcp": {
+            "wrap_result": true
+          }
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "## Netlist Connection Trace: U2\n\n**Total Nets:** 5\n\n### Net: BOOST_EN\n**Pins:** 4\n\n| Reference | Pin |\n|-----------|-----|\n| R5 | 1 |\n| U1 | 1 |\n\n### Net: BOOST_FB\n**Pins:** 3\n\n| Reference | Pin |\n|-----------|-----|\n| C5 | 2 |\n| R3 | 2 |\n| R4 | 1 |\n\n### Net: BOOST_SW\n**Pins:** 1\n\n| Reference | Pin |\n|-----------|-----|\n| D1 | 2 |\n| L1 | 2 |\n\n### Net: GND\n**Pins:** 2\n\n| Reference | Pin |\n|-----------|-----|\n| BT1 | - |\n| C1 | 2 |\n| C10 | 2 |\n| C12 | 2 |\n| C13 | 2 |\n| C14 | 2 |\n| C15 | 2 |\n| C16 | 2 |\n| C2 | 2 |\n| C3 | 2 |\n| C4 | 2 |\n| C6 | 2 |\n| C7 | 2 |\n| C9 | 2 |\n| H1 | BLACK |\n| J1 | 2 |\n| J2 | 4 |\n| J3 | 2 |\n| Q1 | 2 |\n| R15 | 2 |\n| R16 | 2 |\n| R2 | 2 |\n| R4 | 2 |\n| R5 | 2 |\n| R6 | 2 |\n| SW1 | COM |\n| SW2 | 2 |\n| U1 | 13 |\n| U1 | 18 |\n| U1 | 20 |\n| U3 | 2 |\n| U4 | 3 |\n| U4 | 4 |\n| U4 | 5 |\n\n### Net: V3V3\n**Pins:** 5\n\n| Reference | Pin |\n|-----------|-----|\n| C1 | 1 |\n| C14 | 1 |\n| C3 | 1 |\n| L1 | 1 |\n| R14 | 1 |\n| R19 | 1 |\n| R20 | 1 |\n| U1 | 12 |\n| U4 | 13 |\n",
+            "annotations": null,
+            "meta": null
+          }
+        ],
+        "structuredContent": {
+          "result": "## Netlist Connection Trace: U2\n\n**Total Nets:** 5\n\n### Net: BOOST_EN\n**Pins:** 4\n\n| Reference | Pin |\n|-----------|-----|\n| R5 | 1 |\n| U1 | 1 |\n\n### Net: BOOST_FB\n**Pins:** 3\n\n| Reference | Pin |\n|-----------|-----|\n| C5 | 2 |\n| R3 | 2 |\n| R4 | 1 |\n\n### Net: BOOST_SW\n**Pins:** 1\n\n| Reference | Pin |\n|-----------|-----|\n| D1 | 2 |\n| L1 | 2 |\n\n### Net: GND\n**Pins:** 2\n\n| Reference | Pin |\n|-----------|-----|\n| BT1 | - |\n| C1 | 2 |\n| C10 | 2 |\n| C12 | 2 |\n| C13 | 2 |\n| C14 | 2 |\n| C15 | 2 |\n| C16 | 2 |\n| C2 | 2 |\n| C3 | 2 |\n| C4 | 2 |\n| C6 | 2 |\n| C7 | 2 |\n| C9 | 2 |\n| H1 | BLACK |\n| J1 | 2 |\n| J2 | 4 |\n| J3 | 2 |\n| Q1 | 2 |\n| R15 | 2 |\n| R16 | 2 |\n| R2 | 2 |\n| R4 | 2 |\n| R5 | 2 |\n| R6 | 2 |\n| SW1 | COM |\n| SW2 | 2 |\n| U1 | 13 |\n| U1 | 18 |\n| U1 | 20 |\n| U3 | 2 |\n| U4 | 3 |\n| U4 | 4 |\n| U4 | 5 |\n\n### Net: V3V3\n**Pins:** 5\n\n| Reference | Pin |\n|-----------|-----|\n| C1 | 1 |\n| C14 | 1 |\n| C3 | 1 |\n| L1 | 1 |\n| R14 | 1 |\n| R19 | 1 |\n| R20 | 1 |\n| U1 | 12 |\n| U4 | 13 |\n"
+        },
+        "isError": false
+      }
+    },
+    {
+      "tool": "trace_netlist_connection",
+      "arguments": {
+        "netlist_path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/reports/full-review-netlist.xml",
+        "reference": "U3"
+      },
+      "result": {
+        "meta": {
+          "fastmcp": {
+            "wrap_result": true
+          }
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "## Netlist Connection Trace: U3\n\n**Total Nets:** 5\n\n### Net: ANALOG_EN\n**Pins:** 3\n\n| Reference | Pin |\n|-----------|-----|\n| R6 | 1 |\n| U1 | 2 |\n\n### Net: GND\n**Pins:** 2\n\n| Reference | Pin |\n|-----------|-----|\n| BT1 | - |\n| C1 | 2 |\n| C10 | 2 |\n| C12 | 2 |\n| C13 | 2 |\n| C14 | 2 |\n| C15 | 2 |\n| C16 | 2 |\n| C2 | 2 |\n| C3 | 2 |\n| C4 | 2 |\n| C6 | 2 |\n| C7 | 2 |\n| C9 | 2 |\n| H1 | BLACK |\n| J1 | 2 |\n| J2 | 4 |\n| J3 | 2 |\n| Q1 | 2 |\n| R15 | 2 |\n| R16 | 2 |\n| R2 | 2 |\n| R4 | 2 |\n| R5 | 2 |\n| R6 | 2 |\n| SW1 | COM |\n| SW2 | 2 |\n| U1 | 13 |\n| U1 | 18 |\n| U1 | 20 |\n| U2 | 2 |\n| U4 | 3 |\n| U4 | 4 |\n| U4 | 5 |\n\n### Net: V5A\n**Pins:** 5\n\n| Reference | Pin |\n|-----------|-----|\n| C12 | 1 |\n| C13 | 1 |\n| C7 | 1 |\n| H1 | RED |\n| J2 | 1 |\n| R17 | 1 |\n| U4 | 12 |\n\n### Net: VBOOST\n**Pins:** 1\n\n| Reference | Pin |\n|-----------|-----|\n| C4 | 1 |\n| C5 | 1 |\n| C6 | 1 |\n| D1 | 1 |\n| R3 | 1 |\n\n### Net: unconnected-(U3-NC-Pad4)\n**Pins:** 4\n\nNo other components on this net.\n",
+            "annotations": null,
+            "meta": null
+          }
+        ],
+        "structuredContent": {
+          "result": "## Netlist Connection Trace: U3\n\n**Total Nets:** 5\n\n### Net: ANALOG_EN\n**Pins:** 3\n\n| Reference | Pin |\n|-----------|-----|\n| R6 | 1 |\n| U1 | 2 |\n\n### Net: GND\n**Pins:** 2\n\n| Reference | Pin |\n|-----------|-----|\n| BT1 | - |\n| C1 | 2 |\n| C10 | 2 |\n| C12 | 2 |\n| C13 | 2 |\n| C14 | 2 |\n| C15 | 2 |\n| C16 | 2 |\n| C2 | 2 |\n| C3 | 2 |\n| C4 | 2 |\n| C6 | 2 |\n| C7 | 2 |\n| C9 | 2 |\n| H1 | BLACK |\n| J1 | 2 |\n| J2 | 4 |\n| J3 | 2 |\n| Q1 | 2 |\n| R15 | 2 |\n| R16 | 2 |\n| R2 | 2 |\n| R4 | 2 |\n| R5 | 2 |\n| R6 | 2 |\n| SW1 | COM |\n| SW2 | 2 |\n| U1 | 13 |\n| U1 | 18 |\n| U1 | 20 |\n| U2 | 2 |\n| U4 | 3 |\n| U4 | 4 |\n| U4 | 5 |\n\n### Net: V5A\n**Pins:** 5\n\n| Reference | Pin |\n|-----------|-----|\n| C12 | 1 |\n| C13 | 1 |\n| C7 | 1 |\n| H1 | RED |\n| J2 | 1 |\n| R17 | 1 |\n| U4 | 12 |\n\n### Net: VBOOST\n**Pins:** 1\n\n| Reference | Pin |\n|-----------|-----|\n| C4 | 1 |\n| C5 | 1 |\n| C6 | 1 |\n| D1 | 1 |\n| R3 | 1 |\n\n### Net: unconnected-(U3-NC-Pad4)\n**Pins:** 4\n\nNo other components on this net.\n"
+        },
+        "isError": false
+      }
+    },
+    {
+      "tool": "trace_netlist_connection",
+      "arguments": {
+        "netlist_path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/reports/full-review-netlist.xml",
+        "reference": "U4"
+      },
+      "result": {
+        "meta": {
+          "fastmcp": {
+            "wrap_result": true
+          }
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "## Netlist Connection Trace: U4\n\n**Total Nets:** 14\n\n### Net: ADC_CS_N\n**Pins:** 2\n\n| Reference | Pin |\n|-----------|-----|\n| R13 | 2 |\n| R14 | 2 |\n\n### Net: ADC_DRDY_N\n**Pins:** 14\n\n| Reference | Pin |\n|-----------|-----|\n| U1 | 4 |\n\n### Net: AIN_N\n**Pins:** 10\n\n| Reference | Pin |\n|-----------|-----|\n| C10 | 1 |\n| C8 | 2 |\n| R8 | 2 |\n\n### Net: AIN_P\n**Pins:** 11\n\n| Reference | Pin |\n|-----------|-----|\n| C8 | 1 |\n| C9 | 1 |\n| R7 | 2 |\n\n### Net: GND\n**Pins:** 3, 4, 5\n\n| Reference | Pin |\n|-----------|-----|\n| BT1 | - |\n| C1 | 2 |\n| C10 | 2 |\n| C12 | 2 |\n| C13 | 2 |\n| C14 | 2 |\n| C15 | 2 |\n| C16 | 2 |\n| C2 | 2 |\n| C3 | 2 |\n| C4 | 2 |\n| C6 | 2 |\n| C7 | 2 |\n| C9 | 2 |\n| H1 | BLACK |\n| J1 | 2 |\n| J2 | 4 |\n| J3 | 2 |\n| Q1 | 2 |\n| R15 | 2 |\n| R16 | 2 |\n| R2 | 2 |\n| R4 | 2 |\n| R5 | 2 |\n| R6 | 2 |\n| SW1 | COM |\n| SW2 | 2 |\n| U1 | 13 |\n| U1 | 18 |\n| U1 | 20 |\n| U2 | 2 |\n| U3 | 2 |\n\n### Net: REF_N\n**Pins:** 8\n\n| Reference | Pin |\n|-----------|-----|\n| C11 | 2 |\n| R10 | 2 |\n\n### Net: REF_P\n**Pins:** 9\n\n| Reference | Pin |\n|-----------|-----|\n| C11 | 1 |\n| R9 | 2 |\n\n### Net: SPI_MISO\n**Pins:** 15\n\n| Reference | Pin |\n|-----------|-----|\n| U1 | 10 |\n\n### Net: SPI_MOSI_ADC\n**Pins:** 16\n\n| Reference | Pin |\n|-----------|-----|\n| R12 | 2 |\n| R16 | 1 |\n\n### Net: SPI_SCK_ADC\n**Pins:** 1\n\n| Reference | Pin |\n|-----------|-----|\n| R11 | 2 |\n| R15 | 1 |\n\n### Net: V3V3\n**Pins:** 13\n\n| Reference | Pin |\n|-----------|-----|\n| C1 | 1 |\n| C14 | 1 |\n| C3 | 1 |\n| L1 | 1 |\n| R14 | 1 |\n| R19 | 1 |\n| R20 | 1 |\n| U1 | 12 |\n| U2 | 5 |\n\n### Net: V5A\n**Pins:** 12\n\n| Reference | Pin |\n|-----------|-----|\n| C12 | 1 |\n| C13 | 1 |\n| C7 | 1 |\n| H1 | RED |\n| J2 | 1 |\n| R17 | 1 |\n| U3 | 5 |\n\n### Net: unconnected-(U4-AIN2-Pad7)\n**Pins:** 7\n\nNo other components on this net.\n\n### Net: unconnected-(U4-AIN3_{slash}_REFN1-Pad6)\n**Pins:** 6\n\nNo other components on this net.\n",
+            "annotations": null,
+            "meta": null
+          }
+        ],
+        "structuredContent": {
+          "result": "## Netlist Connection Trace: U4\n\n**Total Nets:** 14\n\n### Net: ADC_CS_N\n**Pins:** 2\n\n| Reference | Pin |\n|-----------|-----|\n| R13 | 2 |\n| R14 | 2 |\n\n### Net: ADC_DRDY_N\n**Pins:** 14\n\n| Reference | Pin |\n|-----------|-----|\n| U1 | 4 |\n\n### Net: AIN_N\n**Pins:** 10\n\n| Reference | Pin |\n|-----------|-----|\n| C10 | 1 |\n| C8 | 2 |\n| R8 | 2 |\n\n### Net: AIN_P\n**Pins:** 11\n\n| Reference | Pin |\n|-----------|-----|\n| C8 | 1 |\n| C9 | 1 |\n| R7 | 2 |\n\n### Net: GND\n**Pins:** 3, 4, 5\n\n| Reference | Pin |\n|-----------|-----|\n| BT1 | - |\n| C1 | 2 |\n| C10 | 2 |\n| C12 | 2 |\n| C13 | 2 |\n| C14 | 2 |\n| C15 | 2 |\n| C16 | 2 |\n| C2 | 2 |\n| C3 | 2 |\n| C4 | 2 |\n| C6 | 2 |\n| C7 | 2 |\n| C9 | 2 |\n| H1 | BLACK |\n| J1 | 2 |\n| J2 | 4 |\n| J3 | 2 |\n| Q1 | 2 |\n| R15 | 2 |\n| R16 | 2 |\n| R2 | 2 |\n| R4 | 2 |\n| R5 | 2 |\n| R6 | 2 |\n| SW1 | COM |\n| SW2 | 2 |\n| U1 | 13 |\n| U1 | 18 |\n| U1 | 20 |\n| U2 | 2 |\n| U3 | 2 |\n\n### Net: REF_N\n**Pins:** 8\n\n| Reference | Pin |\n|-----------|-----|\n| C11 | 2 |\n| R10 | 2 |\n\n### Net: REF_P\n**Pins:** 9\n\n| Reference | Pin |\n|-----------|-----|\n| C11 | 1 |\n| R9 | 2 |\n\n### Net: SPI_MISO\n**Pins:** 15\n\n| Reference | Pin |\n|-----------|-----|\n| U1 | 10 |\n\n### Net: SPI_MOSI_ADC\n**Pins:** 16\n\n| Reference | Pin |\n|-----------|-----|\n| R12 | 2 |\n| R16 | 1 |\n\n### Net: SPI_SCK_ADC\n**Pins:** 1\n\n| Reference | Pin |\n|-----------|-----|\n| R11 | 2 |\n| R15 | 1 |\n\n### Net: V3V3\n**Pins:** 13\n\n| Reference | Pin |\n|-----------|-----|\n| C1 | 1 |\n| C14 | 1 |\n| C3 | 1 |\n| L1 | 1 |\n| R14 | 1 |\n| R19 | 1 |\n| R20 | 1 |\n| U1 | 12 |\n| U2 | 5 |\n\n### Net: V5A\n**Pins:** 12\n\n| Reference | Pin |\n|-----------|-----|\n| C12 | 1 |\n| C13 | 1 |\n| C7 | 1 |\n| H1 | RED |\n| J2 | 1 |\n| R17 | 1 |\n| U3 | 5 |\n\n### Net: unconnected-(U4-AIN2-Pad7)\n**Pins:** 7\n\nNo other components on this net.\n\n### Net: unconnected-(U4-AIN3_{slash}_REFN1-Pad6)\n**Pins:** 6\n\nNo other components on this net.\n"
+        },
+        "isError": false
+      }
+    },
+    {
+      "tool": "trace_netlist_connection",
+      "arguments": {
+        "netlist_path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/reports/full-review-netlist.xml",
+        "reference": "Q1"
+      },
+      "result": {
+        "meta": {
+          "fastmcp": {
+            "wrap_result": true
+          }
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "## Netlist Connection Trace: Q1\n\n**Total Nets:** 3\n\n### Net: ENDSTOP_N\n**Pins:** 3\n\n| Reference | Pin |\n|-----------|-----|\n| R19 | 2 |\n| U1 | 6 |\n\n### Net: END_GATE\n**Pins:** 1\n\n| Reference | Pin |\n|-----------|-----|\n| C15 | 1 |\n| R18 | 2 |\n\n### Net: GND\n**Pins:** 2\n\n| Reference | Pin |\n|-----------|-----|\n| BT1 | - |\n| C1 | 2 |\n| C10 | 2 |\n| C12 | 2 |\n| C13 | 2 |\n| C14 | 2 |\n| C15 | 2 |\n| C16 | 2 |\n| C2 | 2 |\n| C3 | 2 |\n| C4 | 2 |\n| C6 | 2 |\n| C7 | 2 |\n| C9 | 2 |\n| H1 | BLACK |\n| J1 | 2 |\n| J2 | 4 |\n| J3 | 2 |\n| R15 | 2 |\n| R16 | 2 |\n| R2 | 2 |\n| R4 | 2 |\n| R5 | 2 |\n| R6 | 2 |\n| SW1 | COM |\n| SW2 | 2 |\n| U1 | 13 |\n| U1 | 18 |\n| U1 | 20 |\n| U2 | 2 |\n| U3 | 2 |\n| U4 | 3 |\n| U4 | 4 |\n| U4 | 5 |\n",
+            "annotations": null,
+            "meta": null
+          }
+        ],
+        "structuredContent": {
+          "result": "## Netlist Connection Trace: Q1\n\n**Total Nets:** 3\n\n### Net: ENDSTOP_N\n**Pins:** 3\n\n| Reference | Pin |\n|-----------|-----|\n| R19 | 2 |\n| U1 | 6 |\n\n### Net: END_GATE\n**Pins:** 1\n\n| Reference | Pin |\n|-----------|-----|\n| C15 | 1 |\n| R18 | 2 |\n\n### Net: GND\n**Pins:** 2\n\n| Reference | Pin |\n|-----------|-----|\n| BT1 | - |\n| C1 | 2 |\n| C10 | 2 |\n| C12 | 2 |\n| C13 | 2 |\n| C14 | 2 |\n| C15 | 2 |\n| C16 | 2 |\n| C2 | 2 |\n| C3 | 2 |\n| C4 | 2 |\n| C6 | 2 |\n| C7 | 2 |\n| C9 | 2 |\n| H1 | BLACK |\n| J1 | 2 |\n| J2 | 4 |\n| J3 | 2 |\n| R15 | 2 |\n| R16 | 2 |\n| R2 | 2 |\n| R4 | 2 |\n| R5 | 2 |\n| R6 | 2 |\n| SW1 | COM |\n| SW2 | 2 |\n| U1 | 13 |\n| U1 | 18 |\n| U1 | 20 |\n| U2 | 2 |\n| U3 | 2 |\n| U4 | 3 |\n| U4 | 4 |\n| U4 | 5 |\n"
+        },
+        "isError": false
+      }
+    },
+    {
+      "tool": "trace_netlist_connection",
+      "arguments": {
+        "netlist_path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/reports/full-review-netlist.xml",
+        "reference": "J2"
+      },
+      "result": {
+        "meta": {
+          "fastmcp": {
+            "wrap_result": true
+          }
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "## Netlist Connection Trace: J2\n\n**Total Nets:** 6\n\n### Net: EXC_SENSE_N\n**Pins:** 6\n\n| Reference | Pin |\n|-----------|-----|\n| R10 | 1 |\n\n### Net: EXC_SENSE_P\n**Pins:** 5\n\n| Reference | Pin |\n|-----------|-----|\n| R9 | 1 |\n\n### Net: GND\n**Pins:** 4\n\n| Reference | Pin |\n|-----------|-----|\n| BT1 | - |\n| C1 | 2 |\n| C10 | 2 |\n| C12 | 2 |\n| C13 | 2 |\n| C14 | 2 |\n| C15 | 2 |\n| C16 | 2 |\n| C2 | 2 |\n| C3 | 2 |\n| C4 | 2 |\n| C6 | 2 |\n| C7 | 2 |\n| C9 | 2 |\n| H1 | BLACK |\n| J1 | 2 |\n| J3 | 2 |\n| Q1 | 2 |\n| R15 | 2 |\n| R16 | 2 |\n| R2 | 2 |\n| R4 | 2 |\n| R5 | 2 |\n| R6 | 2 |\n| SW1 | COM |\n| SW2 | 2 |\n| U1 | 13 |\n| U1 | 18 |\n| U1 | 20 |\n| U2 | 2 |\n| U3 | 2 |\n| U4 | 3 |\n| U4 | 4 |\n| U4 | 5 |\n\n### Net: SIG_N\n**Pins:** 3\n\n| Reference | Pin |\n|-----------|-----|\n| H1 | WHITE |\n| R8 | 1 |\n\n### Net: SIG_P\n**Pins:** 2\n\n| Reference | Pin |\n|-----------|-----|\n| H1 | YELLOW |\n| R7 | 1 |\n\n### Net: V5A\n**Pins:** 1\n\n| Reference | Pin |\n|-----------|-----|\n| C12 | 1 |\n| C13 | 1 |\n| C7 | 1 |\n| H1 | RED |\n| R17 | 1 |\n| U3 | 5 |\n| U4 | 12 |\n",
+            "annotations": null,
+            "meta": null
+          }
+        ],
+        "structuredContent": {
+          "result": "## Netlist Connection Trace: J2\n\n**Total Nets:** 6\n\n### Net: EXC_SENSE_N\n**Pins:** 6\n\n| Reference | Pin |\n|-----------|-----|\n| R10 | 1 |\n\n### Net: EXC_SENSE_P\n**Pins:** 5\n\n| Reference | Pin |\n|-----------|-----|\n| R9 | 1 |\n\n### Net: GND\n**Pins:** 4\n\n| Reference | Pin |\n|-----------|-----|\n| BT1 | - |\n| C1 | 2 |\n| C10 | 2 |\n| C12 | 2 |\n| C13 | 2 |\n| C14 | 2 |\n| C15 | 2 |\n| C16 | 2 |\n| C2 | 2 |\n| C3 | 2 |\n| C4 | 2 |\n| C6 | 2 |\n| C7 | 2 |\n| C9 | 2 |\n| H1 | BLACK |\n| J1 | 2 |\n| J3 | 2 |\n| Q1 | 2 |\n| R15 | 2 |\n| R16 | 2 |\n| R2 | 2 |\n| R4 | 2 |\n| R5 | 2 |\n| R6 | 2 |\n| SW1 | COM |\n| SW2 | 2 |\n| U1 | 13 |\n| U1 | 18 |\n| U1 | 20 |\n| U2 | 2 |\n| U3 | 2 |\n| U4 | 3 |\n| U4 | 4 |\n| U4 | 5 |\n\n### Net: SIG_N\n**Pins:** 3\n\n| Reference | Pin |\n|-----------|-----|\n| H1 | WHITE |\n| R8 | 1 |\n\n### Net: SIG_P\n**Pins:** 2\n\n| Reference | Pin |\n|-----------|-----|\n| H1 | YELLOW |\n| R7 | 1 |\n\n### Net: V5A\n**Pins:** 1\n\n| Reference | Pin |\n|-----------|-----|\n| C12 | 1 |\n| C13 | 1 |\n| C7 | 1 |\n| H1 | RED |\n| R17 | 1 |\n| U3 | 5 |\n| U4 | 12 |\n"
+        },
+        "isError": false
+      }
+    },
+    {
+      "tool": "trace_netlist_connection",
+      "arguments": {
+        "netlist_path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/reports/full-review-netlist.xml",
+        "reference": "J3"
+      },
+      "result": {
+        "meta": {
+          "fastmcp": {
+            "wrap_result": true
+          }
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "## Netlist Connection Trace: J3\n\n**Total Nets:** 2\n\n### Net: END_CONTACT\n**Pins:** 1\n\n| Reference | Pin |\n|-----------|-----|\n| R17 | 2 |\n| R18 | 1 |\n| SW1 | NC |\n\n### Net: GND\n**Pins:** 2\n\n| Reference | Pin |\n|-----------|-----|\n| BT1 | - |\n| C1 | 2 |\n| C10 | 2 |\n| C12 | 2 |\n| C13 | 2 |\n| C14 | 2 |\n| C15 | 2 |\n| C16 | 2 |\n| C2 | 2 |\n| C3 | 2 |\n| C4 | 2 |\n| C6 | 2 |\n| C7 | 2 |\n| C9 | 2 |\n| H1 | BLACK |\n| J1 | 2 |\n| J2 | 4 |\n| Q1 | 2 |\n| R15 | 2 |\n| R16 | 2 |\n| R2 | 2 |\n| R4 | 2 |\n| R5 | 2 |\n| R6 | 2 |\n| SW1 | COM |\n| SW2 | 2 |\n| U1 | 13 |\n| U1 | 18 |\n| U1 | 20 |\n| U2 | 2 |\n| U3 | 2 |\n| U4 | 3 |\n| U4 | 4 |\n| U4 | 5 |\n",
+            "annotations": null,
+            "meta": null
+          }
+        ],
+        "structuredContent": {
+          "result": "## Netlist Connection Trace: J3\n\n**Total Nets:** 2\n\n### Net: END_CONTACT\n**Pins:** 1\n\n| Reference | Pin |\n|-----------|-----|\n| R17 | 2 |\n| R18 | 1 |\n| SW1 | NC |\n\n### Net: GND\n**Pins:** 2\n\n| Reference | Pin |\n|-----------|-----|\n| BT1 | - |\n| C1 | 2 |\n| C10 | 2 |\n| C12 | 2 |\n| C13 | 2 |\n| C14 | 2 |\n| C15 | 2 |\n| C16 | 2 |\n| C2 | 2 |\n| C3 | 2 |\n| C4 | 2 |\n| C6 | 2 |\n| C7 | 2 |\n| C9 | 2 |\n| H1 | BLACK |\n| J1 | 2 |\n| J2 | 4 |\n| Q1 | 2 |\n| R15 | 2 |\n| R16 | 2 |\n| R2 | 2 |\n| R4 | 2 |\n| R5 | 2 |\n| R6 | 2 |\n| SW1 | COM |\n| SW2 | 2 |\n| U1 | 13 |\n| U1 | 18 |\n| U1 | 20 |\n| U2 | 2 |\n| U3 | 2 |\n| U4 | 3 |\n| U4 | 4 |\n| U4 | 5 |\n"
+        },
+        "isError": false
+      }
+    }
+  ]
+}

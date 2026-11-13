@@ -1,0 +1,625 @@
+{
+  "status": "PASS_LOCAL_REAR_GATE_PREFLIGHT",
+  "baseline_step_sha256": "4c7b412eb5700e6ff8dc985c7ab8182e5acc7003a645ecac3291e88fe455d6e7",
+  "printed_body_change": "4 to1; device10 to7; fit-test13 to10",
+  "removed_hardware_refs": [
+    "H260",
+    "H261",
+    "H270",
+    "H271",
+    "H280",
+    "H281",
+    "H290",
+    "H291",
+    "H310",
+    "H311",
+    "H320",
+    "H321"
+  ],
+  "checks": [
+    {
+      "name": "P06 valid one solid",
+      "status": "PASS",
+      "solids": 1,
+      "bounds_mm": [
+        [
+          104.8,
+          -67.6,
+          4.5
+        ],
+        [
+          129.0,
+          67.6,
+          28.0
+        ]
+      ],
+      "volume_mm3": 12022.124029082368
+    },
+    {
+      "name": "P01 valid one solid",
+      "status": "PASS",
+      "solids": 1,
+      "bounds_mm": [
+        [
+          -46.1,
+          -66.2,
+          -2.0000001
+        ],
+        [
+          129.0000001,
+          66.2,
+          33.0000001
+        ]
+      ],
+      "volume_mm3": 162891.0481001681
+    },
+    {
+      "name": "new gate seated / E01",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / E05",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / E06",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / E07",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / E08",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H01",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H02",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H030",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H031",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H040",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H041",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H050",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H051",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H060",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H061",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H09",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H09a",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H09b",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H10",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H11",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H12",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H13",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H15",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H160",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H161",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H170",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H171",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H180",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H181",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H190",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H191",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H20",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H21",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H22",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H23",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H240",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H241",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H242",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H243",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H250",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H251",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H252",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H253",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H300a",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H300b",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H301a",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / H301b",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / P04",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / P05",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / P08",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / P09",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / P11",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_C1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_C10",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_C11",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_C12",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_C13",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_C14",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_C15",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_C16",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_C2",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_C3",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_C4",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_C5",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_C6",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_C7",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_C8",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_C9",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_D1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_J1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_J2",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_J3",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_L1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_Q1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_R1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_R10",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_R11",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_R12",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_R13",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_R14",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_R15",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_R16",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_R17",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_R18",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_R19",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_R2",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_R20",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_R21",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_R3",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_R4",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_R5",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_R6",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_R7",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_R8",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_R9",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_SW2",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_U1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_U2",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_U3",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / PCB_U4",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "new gate seated / modified frame",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "continuous complete P04 travel by separating planes",
+      "status": "PASS",
+      "core_xmin_mm": 119,
+      "carriage_xmax_expression": "119-u",
+      "u_range_mm": [
+        0,
+        30
+      ],
+      "latch_abs_ymin_mm": 65.6,
+      "carriage_abs_ymax_mm": 63,
+      "method": "Exact separating coordinate half-spaces"
+    },
+    {
+      "name": "released gate axial +X12 assembly path",
+      "status": "PASS",
+      "max_overlap_mm3": 0.0,
+      "worst": null,
+      "samples": 49,
+      "note": "Both hooks shifted out0.9mm; beam bending envelope checked separately; remove H30 first."
+    },
+    {
+      "name": "beam complete deflection/assembly envelope -1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "positive axial capture -1",
+      "status": "PASS",
+      "overlap_after_0_3mm_withdrawal_mm3": 0.17999999999999233,
+      "nominal_backlash_mm": 0.2
+    },
+    {
+      "name": "beam complete deflection/assembly envelope 1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "positive axial capture 1",
+      "status": "PASS",
+      "overlap_after_0_3mm_withdrawal_mm3": 0.17999999999999233,
+      "nominal_backlash_mm": 0.2
+    },
+    {
+      "name": "nominal cantilever strain <=0.5percent",
+      "status": "PASS",
+      "nominal_strain": 0.004999999999999999,
+      "effective_length_mm": 18,
+      "thickness_mm": 1.2,
+      "release_deflection_mm": 0.9,
+      "scope": "Elementary beam estimate, not PLA validation"
+    }
+  ],
+  "limits": "Local CSG proposal only; needs native CAD regeneration, exact export identity, full print slice, actual PLA fit and loaded validation.",
+  "files_sha256": {
+    "review/simplification-2026-11-03/mechanics/build_rear_gate.py": "59327252486051d860ec994bc4052df19521db9928dec8cb68143c3ad77fb6a1",
+    "review/simplification-2026-11-03/mechanics/rear-gate-candidate.fs": "136d57572881090aa001bbe49c6a09da9e51a84edeedf369c68c8098a3fd5fbc",
+    "review/simplification-2026-11-03/mechanics/P01.step": "1524b558f979f971b911e5ec52a6b642daa25fbdab080f2fe6191d699bf00990",
+    "review/simplification-2026-11-03/mechanics/P01.stl": "54e068a43e89863cb63d648a9db72d47e60928bd72b4251d592e50b856e20e2d",
+    "review/simplification-2026-11-03/mechanics/P06.step": "bb14155701c635c188b95e5421d549846165f95f3d5208bc4e3ea7cc8bb759b9",
+    "review/simplification-2026-11-03/mechanics/P06.stl": "5421375b57ec2c41e6dc94cfabab3673d3e2157a07f27ae62e3408d14b2cc09f"
+  },
+  "source_baseline_sha256": "c8ec18f08149553001ccf8173f35fe57eee6a16be0294be2d7f88577f658cf5e",
+  "integration_api": "review/simplification-2026-11-03/rear_gate.py: expected(old), patch_source(source)"
+}

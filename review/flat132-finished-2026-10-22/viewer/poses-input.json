@@ -1,0 +1,40 @@
+{
+  "source_sha256": "041056629440056626b2f2f88a0db216693e48fff178687174478cb1f34227ef",
+  "poses": [
+    {
+      "id": "neutral",
+      "label": "Neutral \u00b7 0 mm stroke / preload \u00b7 light",
+      "archive": "native/Flat132_R1_neutral_final.zip",
+      "sha256": "f22ebe6f8d2852a31c4345dff9062adc557274f2d94152d9459822a2bdd1683e",
+      "stroke_mm": 0,
+      "preload_mm": 0,
+      "isometric": false,
+      "spring": "light"
+    },
+    {
+      "id": "max",
+      "label": "Maximum \u00b7 30 mm stroke / 2 mm preload \u00b7 heavy",
+      "archive": "native/Flat132_R1_max30_p2_heavy_final.zip",
+      "sha256": "03b3d0c480ffb23aca9a590235d8c9a419d10b51bebcbeb72ef6683e8219ec40",
+      "stroke_mm": 30,
+      "preload_mm": 2,
+      "isometric": false,
+      "spring": "heavy"
+    },
+    {
+      "id": "iso",
+      "label": "Isometric \u00b7 13 mm setting / 2 mm preload \u00b7 lock sleeves",
+      "archive": "native/Flat132_R1_isometric13_p2_final.zip",
+      "sha256": "6539c0800dffa49279cd5eee74d8d6781ab63f18b6f837fa4b78c0e0a762f37f",
+      "stroke_mm": 13,
+      "preload_mm": 2,
+      "isometric": true,
+      "spring": "lock_sleeves"
+    }
+  ],
+  "prototype_package": {
+    "path": "deliverables/Flat132_R1_CAD_Prototype.zip",
+    "sha256": "e1a3f04c927be5975b058c0087af17f54c1643b0b58277cfbf3185aff07ba820",
+    "bytes": 119229842
+  }
+}

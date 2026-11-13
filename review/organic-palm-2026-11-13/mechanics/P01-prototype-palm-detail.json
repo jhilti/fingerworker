@@ -1,0 +1,9 @@
+{
+  "status": "RENDERED_LOCAL_R18_PROTOTYPE",
+  "source_sha256": "345b90327031276f8085e2c225c795946036d7faa4f2ac01b764101b9f4b3dd1",
+  "candidate_stl_sha256": "4504696f366a82b7edefda6279669fafd42ffad97e5d157df426f7626b575628",
+  "image_sha256": "4b226fb4873a98e0584bae21c367e8a179b96bf2c512c5fc78a51df97502abc8",
+  "renderer_sha256": "6d9793cab2fefcdf7fcec4ac6003168fd7f7390fc5a8535a8b6219f9219a387d",
+  "P05_native_stl_sha256": "cb052e7c3406a210ef052b7d52c7ac4d77416327f6fc9614eecc1553d48837d9",
+  "scope": "Actual local CSG preview; simplified display meshes only. Detail contains unchanged native R16 P05 in grey. Camera crop only, no geometry clipping. Native Onshape regeneration pending."
+}

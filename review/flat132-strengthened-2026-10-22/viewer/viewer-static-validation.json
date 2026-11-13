@@ -1,0 +1,68 @@
+{
+  "status": "PASS_STATIC_SOURCE_BINDING",
+  "viewer_sha256": "85b4b14c04f7617852d956b71dd71bc692455baf380dc5fb179d07dafd6484d2",
+  "source_sha256": "d5eca2f3d87bf4b9a47c1987ee91ba1d56e8c87003eca101677a148a2e605654",
+  "source_alias": {
+    "certificate": "source-ui-guard-only-certificate.json",
+    "certificate_sha256": "d6665a350ed6a346a8e5a6df93f5e3e7dd17dfc725e3279f1dad8d8b4f119522",
+    "prior_geometry_source_sha256": "6c877ec401051cdf840a93bb28dfeb9c3fb5a13f5324c93b567c8f87e0dfa2ad",
+    "current_guard_source_sha256": "d5eca2f3d87bf4b9a47c1987ee91ba1d56e8c87003eca101677a148a2e605654",
+    "coordinate_or_geometry_expression_changes": false,
+    "validation_domain_extension": false,
+    "ui_guard_tolerance_mm": 1e-06
+  },
+  "poses": [
+    {
+      "pose": "neutral",
+      "native_device_parts": 52,
+      "obsolete_stop_hardware_absent": true,
+      "source_archive_sha256": "bf4ab87c8474b12025746b6db75c96efecca79d6816202950baadf864aeb5992",
+      "native_export_source_sha256": "6c877ec401051cdf840a93bb28dfeb9c3fb5a13f5324c93b567c8f87e0dfa2ad",
+      "stroke_mm": 0,
+      "preload_mm": 0
+    },
+    {
+      "pose": "max",
+      "native_device_parts": 52,
+      "obsolete_stop_hardware_absent": true,
+      "source_archive_sha256": "0925be2fd2c8054c90e5940ef22b6fc77f20eb29382560ed490a0011f8bceaa7",
+      "native_export_source_sha256": "d5eca2f3d87bf4b9a47c1987ee91ba1d56e8c87003eca101677a148a2e605654",
+      "stroke_mm": 28,
+      "preload_mm": 2
+    },
+    {
+      "pose": "iso",
+      "native_device_parts": 52,
+      "obsolete_stop_hardware_absent": true,
+      "source_archive_sha256": "c417707ae49b851d9344ed12032bb67f40e33d979a4d4fd02a4f9a0947d70090",
+      "native_export_source_sha256": "d5eca2f3d87bf4b9a47c1987ee91ba1d56e8c87003eca101677a148a2e605654",
+      "stroke_mm": 13,
+      "preload_mm": 2
+    }
+  ],
+  "nominal_collision_qa": "NOMINAL_GEOMETRY_CHECKS_PASS",
+  "ui_qa": "PARENT_CONFIRMED_FULL_NEUTRAL_REINFORCED_SUPPORT_SECTION_YOKE_MAXIMUM_ISOMETRIC",
+  "fabrication_geometry_modified": false,
+  "reinforced_preset": "Display-only X<=48 mm cutaway with open faces, complete native full assembly remains available",
+  "hand_assumption_confirmation": {
+    "user_confirmed_approximate_reference": true,
+    "retained_clear_opening_mm": 72,
+    "physical_fit_validated": false,
+    "comfort_validated": false
+  },
+  "validation_report_sha256": "ae990b27d6335885e66eb53b967f8cf4a83846fb446100f649e371f6636efae3",
+  "validated_source_sha256": "d5eca2f3d87bf4b9a47c1987ee91ba1d56e8c87003eca101677a148a2e605654",
+  "step": {
+    "path": "native/Flat132_R2_final_AP214.step",
+    "sha256": "31b4df767555af39219028c5363b12f277e60b7a0c0d784b868e4bb20dc47859",
+    "native_export_source_sha256": "6c877ec401051cdf840a93bb28dfeb9c3fb5a13f5324c93b567c8f87e0dfa2ad"
+  },
+  "frozen_onshape_version": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/9bdcf9c3c67638228b40378b/e/d253eb87b70818ebde8215f0",
+  "package_ready": true,
+  "prototype_package": {
+    "path": "deliverables/Flat132_R2_Printed_Reinforcement.zip",
+    "sha256": "369ff73970acbf667c682cd1ba24a733c2b6c8ffbdcf43aeca9f83234852a9f1",
+    "bytes": 2165284
+  },
+  "geometry_or_source_changed_for_package_activation": false
+}

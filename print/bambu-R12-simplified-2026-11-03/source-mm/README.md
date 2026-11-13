@@ -1,0 +1,1 @@
+Native Geräte-STLs und die gesondert geprüften Passhilfen in Millimetern. Für den Druck das 3MF-Projekt oder STL-print-oriented verwenden. H040/H041 und Q01 sind ausschließlich unbelastete Form-/Montagehilfen. Die neue Q01 gehört zum festen R12-Sensordatum; ältere Q01 nicht verwenden.

@@ -1,0 +1,11 @@
+{
+  "path": "deliverables/Flat132_R9_Palm_Bracing.zip",
+  "sha256": "18a00f13fc928ac4f9fe4f9af08e4345cd3b18aecf70dca92f941c486b09d7bf",
+  "bytes": 60126511,
+  "members": 145,
+  "CRC": "PASS",
+  "all_member_SHA256": "PASS",
+  "print_STLs": 16,
+  "device_STLs": 70,
+  "ISO_sleeve_reference_STLs": 2
+}

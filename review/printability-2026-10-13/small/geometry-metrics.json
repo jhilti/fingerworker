@@ -1,0 +1,266 @@
+{
+  "H02": {
+    "file": "print/all-print-prototype-2026-10-13-RevD/PETG/H02_Pusher_PRINT_MOCKUP.stl",
+    "source_sha256": "851a849db3adf0962856f468e33433bed54cf5e4401e9c1e1fcf15038abe7ea7",
+    "current": {
+      "size_mm": [
+        9.399999618530273,
+        7.999104657152202,
+        8.0
+      ],
+      "bed_contact_area_mm2": 0.0,
+      "elevated_horizontal_down_area_mm2": 0.0,
+      "steeper_than_45deg_overhang_area_mm2": 27.303909156387245,
+      "volume_mm3": 120.06946465490087
+    },
+    "candidate": {
+      "size_mm": [
+        8.0,
+        7.999104657152202,
+        9.399999618530273
+      ],
+      "bed_contact_area_mm2": 12.564495866006382,
+      "elevated_horizontal_down_area_mm2": 37.69348718295289,
+      "steeper_than_45deg_overhang_area_mm2": 37.69348718295289,
+      "volume_mm3": 120.06946465490087
+    },
+    "rotation_degrees": -90,
+    "axis": [
+      0,
+      1,
+      0
+    ],
+    "candidate_file": "review/printability-2026-10-13/small/candidate/H02_Pusher_PRINT_MOCKUP.stl"
+  },
+  "H04": {
+    "file": "print/all-print-prototype-2026-10-13-RevD/PETG/H04_Guide_rod_PRINT_MOCKUP.stl",
+    "source_sha256": "557b5597802defc8b2412857ea45c64c0b8150a5aa3ef730204988b0fbce0eab",
+    "current": {
+      "size_mm": [
+        146.0,
+        5.999328612058889,
+        6.0
+      ],
+      "bed_contact_area_mm2": 0.0,
+      "elevated_horizontal_down_area_mm2": 0.0,
+      "steeper_than_45deg_overhang_area_mm2": 681.430927874258,
+      "volume_mm3": 4127.4368989037475
+    }
+  },
+  "H05": {
+    "file": "print/all-print-prototype-2026-10-13-RevD/PETG/H05_Fixed_spring_seat_PRINT_MOCKUP.stl",
+    "source_sha256": "04015c3386d6c5f128abdffe551d6a896c7c26aa0c8648affdcdc4c70ee2fd7b",
+    "current": {
+      "size_mm": [
+        22.0,
+        21.997538880095817,
+        3.0
+      ],
+      "bed_contact_area_mm2": 345.8691576241008,
+      "elevated_horizontal_down_area_mm2": 0.0,
+      "steeper_than_45deg_overhang_area_mm2": 0.0,
+      "volume_mm3": 1037.607472872302
+    }
+  },
+  "H06": {
+    "file": "print/all-print-prototype-2026-10-13-RevD/PETG/H06_Moving_spring_seat_PRINT_MOCKUP.stl",
+    "source_sha256": "f1c49b8ec9870c2b6277f137830b8b652b98e5035028f53221f9fe8b4a861c16",
+    "current": {
+      "size_mm": [
+        22.0,
+        21.997538880095817,
+        3.0
+      ],
+      "bed_contact_area_mm2": 329.8180143376144,
+      "elevated_horizontal_down_area_mm2": 0.0,
+      "steeper_than_45deg_overhang_area_mm2": 0.0,
+      "volume_mm3": 989.4540430128427
+    }
+  },
+  "H12": {
+    "file": "print/all-print-prototype-2026-10-13-RevD/PETG/H12_Sensor_cassette_PRINT_MOCKUP.stl",
+    "source_sha256": "c4f845604bbf81383cb8bec857d38c0cb616b41aa80518fb9a61db88a5de59a3",
+    "current": {
+      "size_mm": [
+        21.0,
+        27.0,
+        7.199999809265137
+      ],
+      "bed_contact_area_mm2": 35.0,
+      "elevated_horizontal_down_area_mm2": 531.9693156826224,
+      "steeper_than_45deg_overhang_area_mm2": 545.89834460529,
+      "volume_mm3": 2062.8916019452063
+    },
+    "candidate": {
+      "size_mm": [
+        7.199999809265137,
+        27.0,
+        21.0
+      ],
+      "bed_contact_area_mm2": 130.39999389648438,
+      "elevated_horizontal_down_area_mm2": 0.0,
+      "steeper_than_45deg_overhang_area_mm2": 32.28171261973477,
+      "volume_mm3": 2062.8916019452063
+    },
+    "rotation_degrees": 90,
+    "axis": [
+      0,
+      1,
+      0
+    ],
+    "candidate_file": "review/printability-2026-10-13/small/candidate/H12_Sensor_cassette_PRINT_MOCKUP.stl"
+  },
+  "H13": {
+    "file": "print/all-print-prototype-2026-10-13-RevD/PETG/H13_Handwheel_ONLY_PRINT_MOCKUP.stl",
+    "source_sha256": "050521dfc35e5700f4880f693efaee5be25c89405836b116e42d5e43c77db20c",
+    "current": {
+      "size_mm": [
+        22.0,
+        21.99753761291504,
+        2.799999952316284
+      ],
+      "bed_contact_area_mm2": 347.9108946642309,
+      "elevated_horizontal_down_area_mm2": 0.0,
+      "steeper_than_45deg_overhang_area_mm2": 0.0,
+      "volume_mm3": 974.1504884701625
+    }
+  },
+  "H14": {
+    "file": "print/all-print-prototype-2026-10-13-RevD/PETG/H14_Isometric_sleeve_PRINT_MOCKUP.stl",
+    "source_sha256": "9a0fb79155aa67db0ecab051e8731aef643412cef3ce1d56d9bb3a83f53851c4",
+    "current": {
+      "size_mm": [
+        16.0,
+        15.998209314304404,
+        86.0
+      ],
+      "bed_contact_area_mm2": 150.77394873181157,
+      "elevated_horizontal_down_area_mm2": 0.0,
+      "steeper_than_45deg_overhang_area_mm2": 0.0,
+      "volume_mm3": 12966.559590935794
+    }
+  },
+  "H15": {
+    "file": "print/all-print-prototype-2026-10-13-RevD/PETG/H15_Keeper_PRINT_MOCKUP.stl",
+    "source_sha256": "ae611dcbf36340d92826e60db4b37715d2b39525525b6944684cba6373d36406",
+    "current": {
+      "size_mm": [
+        19.0,
+        32.0,
+        2.0
+      ],
+      "bed_contact_area_mm2": 519.2946594905279,
+      "elevated_horizontal_down_area_mm2": 0.0,
+      "steeper_than_45deg_overhang_area_mm2": 5.373235518325803,
+      "volume_mm3": 1087.5062018140034
+    },
+    "candidate": {
+      "size_mm": [
+        19.0,
+        32.0,
+        2.000000000000004
+      ],
+      "bed_contact_area_mm2": 549.2791929252111,
+      "elevated_horizontal_down_area_mm2": 0.0,
+      "steeper_than_45deg_overhang_area_mm2": 9.04524206536614,
+      "volume_mm3": 1087.5062018140034
+    },
+    "rotation_degrees": 180,
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "candidate_file": "review/printability-2026-10-13/small/candidate/H15_Keeper_PRINT_MOCKUP.stl"
+  },
+  "H19": {
+    "file": "print/all-print-prototype-2026-10-13-RevD/PETG/H19_Spacer_PRINT_MOCKUP.stl",
+    "source_sha256": "36dc042fdd79fea6a8aa7545808cdf891253d7a207e514500bb34bd07364f66e",
+    "current": {
+      "size_mm": [
+        4.0,
+        3.999552328576101,
+        4.0
+      ],
+      "bed_contact_area_mm2": 4.5232185683673745,
+      "elevated_horizontal_down_area_mm2": 0.0,
+      "steeper_than_45deg_overhang_area_mm2": 0.0,
+      "volume_mm3": 18.092874273469505
+    }
+  },
+  "H22": {
+    "file": "print/all-print-prototype-2026-10-13-RevD/PETG/H22_Brass_pad_PRINT_MOCKUP.stl",
+    "source_sha256": "72d1e9703b963f9020908e41f1da777c98681b79adf7b1444242d42c36ba9044",
+    "current": {
+      "size_mm": [
+        2.5,
+        2.4997201755613787,
+        1.0
+      ],
+      "bed_contact_area_mm2": 4.908006154605367,
+      "elevated_horizontal_down_area_mm2": 0.0,
+      "steeper_than_45deg_overhang_area_mm2": 0.0,
+      "volume_mm3": 4.908006154605366
+    }
+  },
+  "P070a": {
+    "file": "print/all-print-prototype-2026-10-13-RevD/PETG/P070a_return_pad_left_a_PETG_MOCKUP.stl",
+    "source_sha256": "550c72e767fa284f65b975cb46274fb3bcd2c9abe26cb755d3f8a399b8668ba8",
+    "current": {
+      "size_mm": [
+        6.0,
+        4.5,
+        1.4999923706054688
+      ],
+      "bed_contact_area_mm2": 27.0,
+      "elevated_horizontal_down_area_mm2": 0.0,
+      "steeper_than_45deg_overhang_area_mm2": 0.0,
+      "volume_mm3": 40.499794006347656
+    }
+  },
+  "P070b": {
+    "file": "print/all-print-prototype-2026-10-13-RevD/PETG/P070b_return_pad_left_b_PETG_MOCKUP.stl",
+    "source_sha256": "550c72e767fa284f65b975cb46274fb3bcd2c9abe26cb755d3f8a399b8668ba8",
+    "current": {
+      "size_mm": [
+        6.0,
+        4.5,
+        1.4999923706054688
+      ],
+      "bed_contact_area_mm2": 27.0,
+      "elevated_horizontal_down_area_mm2": 0.0,
+      "steeper_than_45deg_overhang_area_mm2": 0.0,
+      "volume_mm3": 40.499794006347656
+    }
+  },
+  "P071a": {
+    "file": "print/all-print-prototype-2026-10-13-RevD/PETG/P071a_return_pad_right_a_PETG_MOCKUP.stl",
+    "source_sha256": "550c72e767fa284f65b975cb46274fb3bcd2c9abe26cb755d3f8a399b8668ba8",
+    "current": {
+      "size_mm": [
+        6.0,
+        4.5,
+        1.4999923706054688
+      ],
+      "bed_contact_area_mm2": 27.0,
+      "elevated_horizontal_down_area_mm2": 0.0,
+      "steeper_than_45deg_overhang_area_mm2": 0.0,
+      "volume_mm3": 40.499794006347656
+    }
+  },
+  "P071b": {
+    "file": "print/all-print-prototype-2026-10-13-RevD/PETG/P071b_return_pad_right_b_PETG_MOCKUP.stl",
+    "source_sha256": "550c72e767fa284f65b975cb46274fb3bcd2c9abe26cb755d3f8a399b8668ba8",
+    "current": {
+      "size_mm": [
+        6.0,
+        4.5,
+        1.4999923706054688
+      ],
+      "bed_contact_area_mm2": 27.0,
+      "elevated_horizontal_down_area_mm2": 0.0,
+      "steeper_than_45deg_overhang_area_mm2": 0.0,
+      "volume_mm3": 40.499794006347656
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "status": "PASS_PARAMETERIZED_BUILDER_WITHOUT_NEW_REVISION_OUTPUT",
+  "r19_html_preserved_sha256": "1cd2da151709d9b7eed517f4580dfed1b4b53438f7b915a527fd25e321d23db3",
+  "r19_zip_sha256": "9c043d2eb26180b024fcdc8f468507af854fba21392ef1e3cb4154327173dd82",
+  "r19_default_render_byte_identical": true,
+  "r19_frozen_manifest_preserved_sha256": "0ac27eeca0ec7526cd034e1563191b1fd49140aed691cf73872530abdecc2802",
+  "non_r19_requires_explicit_bound_inputs": true,
+  "static_checks": {
+    "required_ids_present": true,
+    "unique_ids": true,
+    "no_external_resource_references": true,
+    "no_unresolved_placeholders": true,
+    "no_local_file_or_preview_urls": true,
+    "no_network_api_calls": true,
+    "embedded_fallback": true,
+    "touch_controls_present": true
+  },
+  "browser_validation_from_parent": {
+    "all_bodies": 94,
+    "mechanics": 39,
+    "inside": 92,
+    "printed_parts": 8,
+    "mobile_viewport": [
+      390,
+      844
+    ],
+    "mobile_document_width": 390,
+    "reset_accessible_name_fixed": true,
+    "rotate_zoom_visually_passed": true,
+    "browser_error_logs": []
+  },
+  "builder_options": [
+    "--revision",
+    "--manifest",
+    "--model",
+    "--fallback",
+    "--highlights",
+    "--date",
+    "--output",
+    "--report",
+    "--check-only",
+    "--overwrite"
+  ],
+  "r20_generated": false,
+  "printing_setup_changed": false,
+  "note": "Existing R19 HTML/ZIP and release build-manifest were not rewritten. New revision inputs must have BOUND_TO_RELEASED_<revision>, native ZIP and payload hashes, unique body IDs and matching group counts. Highlight strings are HTML-escaped."
+}

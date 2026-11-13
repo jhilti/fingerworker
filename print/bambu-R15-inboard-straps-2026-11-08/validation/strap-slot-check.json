@@ -1,0 +1,2105 @@
+{
+  "status": "PASS_R15_STRAP_SLOT_PRINT_PATHS",
+  "checks": [
+    {
+      "name": "Native25x2mm through passage X28_Y-57.5",
+      "status": "PASS",
+      "exact_probe_bounds_mm": [
+        [
+          15.5,
+          -58.5,
+          -2.01
+        ],
+        [
+          40.5,
+          -56.5,
+          4.01
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "valid_boolean": true
+    },
+    {
+      "name": "Actual25x2mm passage remains open X28_Y-57.5",
+      "status": "PASS",
+      "nearby_model_layers": 30,
+      "model_intrusions": [],
+      "method": "Complete horizontal bead footprints include width and circular-path tessellation at0.05mm maximum chord length. The25x2mm core remains inside the rounded27x4mm CAD slot at all base layers."
+    },
+    {
+      "name": "No support or brim inside slot X28_Y-57.5",
+      "status": "PASS",
+      "support_intrusions": [],
+      "brim_intrusions": [],
+      "nominal_slot_length_mm": 27,
+      "nominal_slot_width_mm": 4,
+      "edge_coordinate_tolerance_mm": 0.03
+    },
+    {
+      "name": "Native solid core defined outer load bar X28_Y-57.5",
+      "status": "PASS",
+      "core_bounds_mm": [
+        [
+          14.5,
+          -64.8,
+          -1.0
+        ],
+        [
+          41.5,
+          -60.5,
+          3.0
+        ]
+      ],
+      "missing_native_solid_mm3": 0.0,
+      "valid_boolean": true
+    },
+    {
+      "name": "Actual solid infill throughout outer load bar X28_Y-57.5",
+      "status": "PASS",
+      "tested_interior_layers": 20,
+      "minimum_complete_bead_coverage": 0.9878032474274195,
+      "required_fraction": 0.98,
+      "features": {
+        "Inner wall": 307,
+        "Internal solid infill": 20,
+        "Sparse infill": 2052,
+        "Floating vertical shell": 2
+      },
+      "per_layer": [
+        {
+          "native_top_z_mm": -0.8,
+          "covered_fraction": 0.9878032474274195
+        },
+        {
+          "native_top_z_mm": -0.6,
+          "covered_fraction": 0.9886683275536284
+        },
+        {
+          "native_top_z_mm": -0.4,
+          "covered_fraction": 0.9943716252761826
+        },
+        {
+          "native_top_z_mm": -0.2,
+          "covered_fraction": 0.9947508263507888
+        },
+        {
+          "native_top_z_mm": 0.0,
+          "covered_fraction": 0.9943591995435145
+        },
+        {
+          "native_top_z_mm": 0.2,
+          "covered_fraction": 0.9947597228027861
+        },
+        {
+          "native_top_z_mm": 0.4,
+          "covered_fraction": 0.9944550196817531
+        },
+        {
+          "native_top_z_mm": 0.6,
+          "covered_fraction": 0.9945699009210047
+        },
+        {
+          "native_top_z_mm": 0.8,
+          "covered_fraction": 0.9943562243128404
+        },
+        {
+          "native_top_z_mm": 1.0,
+          "covered_fraction": 0.9944255866534883
+        },
+        {
+          "native_top_z_mm": 1.2,
+          "covered_fraction": 0.9943617557184599
+        },
+        {
+          "native_top_z_mm": 1.4,
+          "covered_fraction": 0.9946659377582467
+        },
+        {
+          "native_top_z_mm": 1.6,
+          "covered_fraction": 0.9943054879266895
+        },
+        {
+          "native_top_z_mm": 1.8,
+          "covered_fraction": 0.9945431710817657
+        },
+        {
+          "native_top_z_mm": 2.0,
+          "covered_fraction": 0.9943543732979323
+        },
+        {
+          "native_top_z_mm": 2.2,
+          "covered_fraction": 0.9945007543716171
+        },
+        {
+          "native_top_z_mm": 2.4,
+          "covered_fraction": 0.9942333516517744
+        },
+        {
+          "native_top_z_mm": 2.6,
+          "covered_fraction": 0.9946656881450858
+        },
+        {
+          "native_top_z_mm": 2.8,
+          "covered_fraction": 0.9915921432710446
+        },
+        {
+          "native_top_z_mm": 3.0,
+          "covered_fraction": 0.9912176585359956
+        }
+      ],
+      "method": "Each interior layer of a native-verified solid rectangular bar/root core is compared with the union of complete emitted model bead footprints. This verifies local material coverage rather than trusting modifier metadata; it is not a strength calculation."
+    },
+    {
+      "name": "Native solid core defined inner stock X28_Y-57.5",
+      "status": "PASS",
+      "core_bounds_mm": [
+        [
+          14.5,
+          -54.5,
+          -1.0
+        ],
+        [
+          41.5,
+          -52.8,
+          3.0
+        ]
+      ],
+      "missing_native_solid_mm3": 0.0,
+      "valid_boolean": true
+    },
+    {
+      "name": "Actual solid infill throughout inner stock X28_Y-57.5",
+      "status": "PASS",
+      "tested_interior_layers": 20,
+      "minimum_complete_bead_coverage": 0.9840364503344851,
+      "required_fraction": 0.98,
+      "features": {
+        "Inner wall": 296,
+        "Internal solid infill": 18,
+        "Sparse infill": 1528
+      },
+      "per_layer": [
+        {
+          "native_top_z_mm": -0.8,
+          "covered_fraction": 0.9840364503344851
+        },
+        {
+          "native_top_z_mm": -0.6,
+          "covered_fraction": 0.9873558368415734
+        },
+        {
+          "native_top_z_mm": -0.4,
+          "covered_fraction": 0.9923706414093731
+        },
+        {
+          "native_top_z_mm": -0.2,
+          "covered_fraction": 0.9934893115453707
+        },
+        {
+          "native_top_z_mm": 0.0,
+          "covered_fraction": 0.9923524854212268
+        },
+        {
+          "native_top_z_mm": 0.2,
+          "covered_fraction": 0.993510133700421
+        },
+        {
+          "native_top_z_mm": 0.4,
+          "covered_fraction": 0.9923429156043609
+        },
+        {
+          "native_top_z_mm": 0.6,
+          "covered_fraction": 0.9934986176122865
+        },
+        {
+          "native_top_z_mm": 0.8,
+          "covered_fraction": 0.9923890402514197
+        },
+        {
+          "native_top_z_mm": 1.0,
+          "covered_fraction": 0.9935045350032108
+        },
+        {
+          "native_top_z_mm": 1.2,
+          "covered_fraction": 0.9923468657961969
+        },
+        {
+          "native_top_z_mm": 1.4,
+          "covered_fraction": 0.9935006348014056
+        },
+        {
+          "native_top_z_mm": 1.6,
+          "covered_fraction": 0.9923925465428185
+        },
+        {
+          "native_top_z_mm": 1.8,
+          "covered_fraction": 0.9935893106764382
+        },
+        {
+          "native_top_z_mm": 2.0,
+          "covered_fraction": 0.9924387850428062
+        },
+        {
+          "native_top_z_mm": 2.2,
+          "covered_fraction": 0.9935612922027133
+        },
+        {
+          "native_top_z_mm": 2.4,
+          "covered_fraction": 0.9924592129065025
+        },
+        {
+          "native_top_z_mm": 2.6,
+          "covered_fraction": 0.9934763295213129
+        },
+        {
+          "native_top_z_mm": 2.8,
+          "covered_fraction": 0.9925938854202899
+        },
+        {
+          "native_top_z_mm": 3.0,
+          "covered_fraction": 0.9938328901603217
+        }
+      ],
+      "method": "Each interior layer of a native-verified solid rectangular bar/root core is compared with the union of complete emitted model bead footprints. This verifies local material coverage rather than trusting modifier metadata; it is not a strength calculation."
+    },
+    {
+      "name": "Native solid core defined front end ligament X28_Y-57.5",
+      "status": "PASS",
+      "core_bounds_mm": [
+        [
+          10.5,
+          -59.5,
+          -1.0
+        ],
+        [
+          12.5,
+          -55.5,
+          3.0
+        ]
+      ],
+      "missing_native_solid_mm3": 0.0,
+      "valid_boolean": true
+    },
+    {
+      "name": "Actual solid infill throughout front end ligament X28_Y-57.5",
+      "status": "PASS",
+      "tested_interior_layers": 20,
+      "minimum_complete_bead_coverage": 0.9921945224507739,
+      "required_fraction": 0.98,
+      "features": {
+        "Internal solid infill": 4,
+        "Sparse infill": 242
+      },
+      "per_layer": [
+        {
+          "native_top_z_mm": -0.8,
+          "covered_fraction": 0.9921945224507739
+        },
+        {
+          "native_top_z_mm": -0.6,
+          "covered_fraction": 0.9979156716445177
+        },
+        {
+          "native_top_z_mm": -0.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": -0.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 3.0,
+          "covered_fraction": 1.0000000000000002
+        }
+      ],
+      "method": "Each interior layer of a native-verified solid rectangular bar/root core is compared with the union of complete emitted model bead footprints. This verifies local material coverage rather than trusting modifier metadata; it is not a strength calculation."
+    },
+    {
+      "name": "Native solid core defined rear end ligament X28_Y-57.5",
+      "status": "PASS",
+      "core_bounds_mm": [
+        [
+          43.5,
+          -59.5,
+          -1.0
+        ],
+        [
+          45.5,
+          -55.5,
+          3.0
+        ]
+      ],
+      "missing_native_solid_mm3": 0.0,
+      "valid_boolean": true
+    },
+    {
+      "name": "Actual solid infill throughout rear end ligament X28_Y-57.5",
+      "status": "PASS",
+      "tested_interior_layers": 20,
+      "minimum_complete_bead_coverage": 0.9916050232657962,
+      "required_fraction": 0.98,
+      "features": {
+        "Internal solid infill": 6,
+        "Sparse infill": 241
+      },
+      "per_layer": [
+        {
+          "native_top_z_mm": -0.8,
+          "covered_fraction": 0.9916050232657962
+        },
+        {
+          "native_top_z_mm": -0.6,
+          "covered_fraction": 0.9980858481535316
+        },
+        {
+          "native_top_z_mm": -0.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": -0.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 3.0,
+          "covered_fraction": 1.0
+        }
+      ],
+      "method": "Each interior layer of a native-verified solid rectangular bar/root core is compared with the union of complete emitted model bead footprints. This verifies local material coverage rather than trusting modifier metadata; it is not a strength calculation."
+    },
+    {
+      "name": "Native25x2mm through passage X28_Y57.5",
+      "status": "PASS",
+      "exact_probe_bounds_mm": [
+        [
+          15.5,
+          56.5,
+          -2.01
+        ],
+        [
+          40.5,
+          58.5,
+          4.01
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "valid_boolean": true
+    },
+    {
+      "name": "Actual25x2mm passage remains open X28_Y57.5",
+      "status": "PASS",
+      "nearby_model_layers": 30,
+      "model_intrusions": [],
+      "method": "Complete horizontal bead footprints include width and circular-path tessellation at0.05mm maximum chord length. The25x2mm core remains inside the rounded27x4mm CAD slot at all base layers."
+    },
+    {
+      "name": "No support or brim inside slot X28_Y57.5",
+      "status": "PASS",
+      "support_intrusions": [],
+      "brim_intrusions": [],
+      "nominal_slot_length_mm": 27,
+      "nominal_slot_width_mm": 4,
+      "edge_coordinate_tolerance_mm": 0.03
+    },
+    {
+      "name": "Native solid core defined outer load bar X28_Y57.5",
+      "status": "PASS",
+      "core_bounds_mm": [
+        [
+          14.5,
+          60.5,
+          -1.0
+        ],
+        [
+          41.5,
+          64.8,
+          3.0
+        ]
+      ],
+      "missing_native_solid_mm3": 0.0,
+      "valid_boolean": true
+    },
+    {
+      "name": "Actual solid infill throughout outer load bar X28_Y57.5",
+      "status": "PASS",
+      "tested_interior_layers": 20,
+      "minimum_complete_bead_coverage": 0.9883455981086209,
+      "required_fraction": 0.98,
+      "features": {
+        "Inner wall": 348,
+        "Internal solid infill": 19,
+        "Sparse infill": 2055,
+        "Floating vertical shell": 2
+      },
+      "per_layer": [
+        {
+          "native_top_z_mm": -0.8,
+          "covered_fraction": 0.9883455981086209
+        },
+        {
+          "native_top_z_mm": -0.6,
+          "covered_fraction": 0.9893101562940357
+        },
+        {
+          "native_top_z_mm": -0.4,
+          "covered_fraction": 0.9945109614542013
+        },
+        {
+          "native_top_z_mm": -0.2,
+          "covered_fraction": 0.9943937319943013
+        },
+        {
+          "native_top_z_mm": 0.0,
+          "covered_fraction": 0.994724255317491
+        },
+        {
+          "native_top_z_mm": 0.2,
+          "covered_fraction": 0.9946343283658623
+        },
+        {
+          "native_top_z_mm": 0.4,
+          "covered_fraction": 0.9944947922635006
+        },
+        {
+          "native_top_z_mm": 0.6,
+          "covered_fraction": 0.9943682000197872
+        },
+        {
+          "native_top_z_mm": 0.8,
+          "covered_fraction": 0.9945370325566064
+        },
+        {
+          "native_top_z_mm": 1.0,
+          "covered_fraction": 0.9947376931437845
+        },
+        {
+          "native_top_z_mm": 1.2,
+          "covered_fraction": 0.9945377010483573
+        },
+        {
+          "native_top_z_mm": 1.4,
+          "covered_fraction": 0.9947022559854949
+        },
+        {
+          "native_top_z_mm": 1.6,
+          "covered_fraction": 0.9945415507523193
+        },
+        {
+          "native_top_z_mm": 1.8,
+          "covered_fraction": 0.9944661178545733
+        },
+        {
+          "native_top_z_mm": 2.0,
+          "covered_fraction": 0.9948148420780163
+        },
+        {
+          "native_top_z_mm": 2.2,
+          "covered_fraction": 0.9944514013842298
+        },
+        {
+          "native_top_z_mm": 2.4,
+          "covered_fraction": 0.9945650822008277
+        },
+        {
+          "native_top_z_mm": 2.6,
+          "covered_fraction": 0.9944570890321078
+        },
+        {
+          "native_top_z_mm": 2.8,
+          "covered_fraction": 0.9915864047125894
+        },
+        {
+          "native_top_z_mm": 3.0,
+          "covered_fraction": 0.9918362277204154
+        }
+      ],
+      "method": "Each interior layer of a native-verified solid rectangular bar/root core is compared with the union of complete emitted model bead footprints. This verifies local material coverage rather than trusting modifier metadata; it is not a strength calculation."
+    },
+    {
+      "name": "Native solid core defined inner stock X28_Y57.5",
+      "status": "PASS",
+      "core_bounds_mm": [
+        [
+          14.5,
+          52.8,
+          -1.0
+        ],
+        [
+          41.5,
+          54.5,
+          3.0
+        ]
+      ],
+      "missing_native_solid_mm3": 0.0,
+      "valid_boolean": true
+    },
+    {
+      "name": "Actual solid infill throughout inner stock X28_Y57.5",
+      "status": "PASS",
+      "tested_interior_layers": 20,
+      "minimum_complete_bead_coverage": 0.9843446017648856,
+      "required_fraction": 0.98,
+      "features": {
+        "Inner wall": 283,
+        "Internal solid infill": 18,
+        "Sparse infill": 1550
+      },
+      "per_layer": [
+        {
+          "native_top_z_mm": -0.8,
+          "covered_fraction": 0.9843446017648856
+        },
+        {
+          "native_top_z_mm": -0.6,
+          "covered_fraction": 0.986062285463072
+        },
+        {
+          "native_top_z_mm": -0.4,
+          "covered_fraction": 0.99233401995995
+        },
+        {
+          "native_top_z_mm": -0.2,
+          "covered_fraction": 0.9920164336093753
+        },
+        {
+          "native_top_z_mm": 0.0,
+          "covered_fraction": 0.9924985043751291
+        },
+        {
+          "native_top_z_mm": 0.2,
+          "covered_fraction": 0.9918947474054162
+        },
+        {
+          "native_top_z_mm": 0.4,
+          "covered_fraction": 0.9925949659906784
+        },
+        {
+          "native_top_z_mm": 0.6,
+          "covered_fraction": 0.992042220034782
+        },
+        {
+          "native_top_z_mm": 0.8,
+          "covered_fraction": 0.9924128537128264
+        },
+        {
+          "native_top_z_mm": 1.0,
+          "covered_fraction": 0.9922234789759811
+        },
+        {
+          "native_top_z_mm": 1.2,
+          "covered_fraction": 0.9925785070208355
+        },
+        {
+          "native_top_z_mm": 1.4,
+          "covered_fraction": 0.9921817988581821
+        },
+        {
+          "native_top_z_mm": 1.6,
+          "covered_fraction": 0.9923717664889081
+        },
+        {
+          "native_top_z_mm": 1.8,
+          "covered_fraction": 0.9920146008218073
+        },
+        {
+          "native_top_z_mm": 2.0,
+          "covered_fraction": 0.992369301129127
+        },
+        {
+          "native_top_z_mm": 2.2,
+          "covered_fraction": 0.9922110764410808
+        },
+        {
+          "native_top_z_mm": 2.4,
+          "covered_fraction": 0.9922943038418792
+        },
+        {
+          "native_top_z_mm": 2.6,
+          "covered_fraction": 0.991827519543046
+        },
+        {
+          "native_top_z_mm": 2.8,
+          "covered_fraction": 0.9931014939996701
+        },
+        {
+          "native_top_z_mm": 3.0,
+          "covered_fraction": 0.9923719547539487
+        }
+      ],
+      "method": "Each interior layer of a native-verified solid rectangular bar/root core is compared with the union of complete emitted model bead footprints. This verifies local material coverage rather than trusting modifier metadata; it is not a strength calculation."
+    },
+    {
+      "name": "Native solid core defined front end ligament X28_Y57.5",
+      "status": "PASS",
+      "core_bounds_mm": [
+        [
+          10.5,
+          55.5,
+          -1.0
+        ],
+        [
+          12.5,
+          59.5,
+          3.0
+        ]
+      ],
+      "missing_native_solid_mm3": 0.0,
+      "valid_boolean": true
+    },
+    {
+      "name": "Actual solid infill throughout front end ligament X28_Y57.5",
+      "status": "PASS",
+      "tested_interior_layers": 20,
+      "minimum_complete_bead_coverage": 0.990948483893062,
+      "required_fraction": 0.98,
+      "features": {
+        "Internal solid infill": 4,
+        "Sparse infill": 240
+      },
+      "per_layer": [
+        {
+          "native_top_z_mm": -0.8,
+          "covered_fraction": 0.990948483893062
+        },
+        {
+          "native_top_z_mm": -0.6,
+          "covered_fraction": 0.9980491855446066
+        },
+        {
+          "native_top_z_mm": -0.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": -0.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.0,
+          "covered_fraction": 0.9999999999999999
+        },
+        {
+          "native_top_z_mm": 1.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.8,
+          "covered_fraction": 0.9999999999999999
+        },
+        {
+          "native_top_z_mm": 2.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.6,
+          "covered_fraction": 0.9999999999999999
+        },
+        {
+          "native_top_z_mm": 2.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 3.0,
+          "covered_fraction": 0.9999999999999999
+        }
+      ],
+      "method": "Each interior layer of a native-verified solid rectangular bar/root core is compared with the union of complete emitted model bead footprints. This verifies local material coverage rather than trusting modifier metadata; it is not a strength calculation."
+    },
+    {
+      "name": "Native solid core defined rear end ligament X28_Y57.5",
+      "status": "PASS",
+      "core_bounds_mm": [
+        [
+          43.5,
+          55.5,
+          -1.0
+        ],
+        [
+          45.5,
+          59.5,
+          3.0
+        ]
+      ],
+      "missing_native_solid_mm3": 0.0,
+      "valid_boolean": true
+    },
+    {
+      "name": "Actual solid infill throughout rear end ligament X28_Y57.5",
+      "status": "PASS",
+      "tested_interior_layers": 20,
+      "minimum_complete_bead_coverage": 0.992062002570776,
+      "required_fraction": 0.98,
+      "features": {
+        "Internal solid infill": 4,
+        "Sparse infill": 242
+      },
+      "per_layer": [
+        {
+          "native_top_z_mm": -0.8,
+          "covered_fraction": 0.992062002570776
+        },
+        {
+          "native_top_z_mm": -0.6,
+          "covered_fraction": 0.9982220541726289
+        },
+        {
+          "native_top_z_mm": -0.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": -0.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.4,
+          "covered_fraction": 1.0000000000000002
+        },
+        {
+          "native_top_z_mm": 1.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 3.0,
+          "covered_fraction": 1.0
+        }
+      ],
+      "method": "Each interior layer of a native-verified solid rectangular bar/root core is compared with the union of complete emitted model bead footprints. This verifies local material coverage rather than trusting modifier metadata; it is not a strength calculation."
+    },
+    {
+      "name": "Native25x2mm through passage X65_Y-57.5",
+      "status": "PASS",
+      "exact_probe_bounds_mm": [
+        [
+          52.5,
+          -58.5,
+          -2.01
+        ],
+        [
+          77.5,
+          -56.5,
+          4.01
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "valid_boolean": true
+    },
+    {
+      "name": "Actual25x2mm passage remains open X65_Y-57.5",
+      "status": "PASS",
+      "nearby_model_layers": 30,
+      "model_intrusions": [],
+      "method": "Complete horizontal bead footprints include width and circular-path tessellation at0.05mm maximum chord length. The25x2mm core remains inside the rounded27x4mm CAD slot at all base layers."
+    },
+    {
+      "name": "No support or brim inside slot X65_Y-57.5",
+      "status": "PASS",
+      "support_intrusions": [],
+      "brim_intrusions": [],
+      "nominal_slot_length_mm": 27,
+      "nominal_slot_width_mm": 4,
+      "edge_coordinate_tolerance_mm": 0.03
+    },
+    {
+      "name": "Native solid core defined outer load bar X65_Y-57.5",
+      "status": "PASS",
+      "core_bounds_mm": [
+        [
+          51.5,
+          -64.8,
+          -1.0
+        ],
+        [
+          78.5,
+          -60.5,
+          3.0
+        ]
+      ],
+      "missing_native_solid_mm3": 0.0,
+      "valid_boolean": true
+    },
+    {
+      "name": "Actual solid infill throughout outer load bar X65_Y-57.5",
+      "status": "PASS",
+      "tested_interior_layers": 20,
+      "minimum_complete_bead_coverage": 0.9881786089297604,
+      "required_fraction": 0.98,
+      "features": {
+        "Inner wall": 316,
+        "Internal solid infill": 20,
+        "Sparse infill": 2056,
+        "Floating vertical shell": 2
+      },
+      "per_layer": [
+        {
+          "native_top_z_mm": -0.8,
+          "covered_fraction": 0.9881786089297604
+        },
+        {
+          "native_top_z_mm": -0.6,
+          "covered_fraction": 0.9887128073504912
+        },
+        {
+          "native_top_z_mm": -0.4,
+          "covered_fraction": 0.9946550678091621
+        },
+        {
+          "native_top_z_mm": -0.2,
+          "covered_fraction": 0.9945466720376944
+        },
+        {
+          "native_top_z_mm": 0.0,
+          "covered_fraction": 0.9946286651415407
+        },
+        {
+          "native_top_z_mm": 0.2,
+          "covered_fraction": 0.9944266230761571
+        },
+        {
+          "native_top_z_mm": 0.4,
+          "covered_fraction": 0.9945467841639608
+        },
+        {
+          "native_top_z_mm": 0.6,
+          "covered_fraction": 0.9944576826178375
+        },
+        {
+          "native_top_z_mm": 0.8,
+          "covered_fraction": 0.9944429554629802
+        },
+        {
+          "native_top_z_mm": 1.0,
+          "covered_fraction": 0.9945647477331805
+        },
+        {
+          "native_top_z_mm": 1.2,
+          "covered_fraction": 0.9944560541844955
+        },
+        {
+          "native_top_z_mm": 1.4,
+          "covered_fraction": 0.9943921157590444
+        },
+        {
+          "native_top_z_mm": 1.6,
+          "covered_fraction": 0.9945606236384498
+        },
+        {
+          "native_top_z_mm": 1.8,
+          "covered_fraction": 0.9944520663471068
+        },
+        {
+          "native_top_z_mm": 2.0,
+          "covered_fraction": 0.9945622065559254
+        },
+        {
+          "native_top_z_mm": 2.2,
+          "covered_fraction": 0.9945617002847921
+        },
+        {
+          "native_top_z_mm": 2.4,
+          "covered_fraction": 0.9944031110080567
+        },
+        {
+          "native_top_z_mm": 2.6,
+          "covered_fraction": 0.9943873208048812
+        },
+        {
+          "native_top_z_mm": 2.8,
+          "covered_fraction": 0.9913532021144111
+        },
+        {
+          "native_top_z_mm": 3.0,
+          "covered_fraction": 0.9911895475294482
+        }
+      ],
+      "method": "Each interior layer of a native-verified solid rectangular bar/root core is compared with the union of complete emitted model bead footprints. This verifies local material coverage rather than trusting modifier metadata; it is not a strength calculation."
+    },
+    {
+      "name": "Native solid core defined inner stock X65_Y-57.5",
+      "status": "PASS",
+      "core_bounds_mm": [
+        [
+          51.5,
+          -54.5,
+          -1.0
+        ],
+        [
+          78.5,
+          -52.8,
+          3.0
+        ]
+      ],
+      "missing_native_solid_mm3": 0.0,
+      "valid_boolean": true
+    },
+    {
+      "name": "Actual solid infill throughout inner stock X65_Y-57.5",
+      "status": "PASS",
+      "tested_interior_layers": 20,
+      "minimum_complete_bead_coverage": 0.9845015170798631,
+      "required_fraction": 0.98,
+      "features": {
+        "Inner wall": 327,
+        "Internal solid infill": 19,
+        "Sparse infill": 1549
+      },
+      "per_layer": [
+        {
+          "native_top_z_mm": -0.8,
+          "covered_fraction": 0.9845015170798631
+        },
+        {
+          "native_top_z_mm": -0.6,
+          "covered_fraction": 0.9872739542904234
+        },
+        {
+          "native_top_z_mm": -0.4,
+          "covered_fraction": 0.9926974014014892
+        },
+        {
+          "native_top_z_mm": -0.2,
+          "covered_fraction": 0.9923962897344025
+        },
+        {
+          "native_top_z_mm": 0.0,
+          "covered_fraction": 0.9927327299804399
+        },
+        {
+          "native_top_z_mm": 0.2,
+          "covered_fraction": 0.9923897212823766
+        },
+        {
+          "native_top_z_mm": 0.4,
+          "covered_fraction": 0.9927521936285025
+        },
+        {
+          "native_top_z_mm": 0.6,
+          "covered_fraction": 0.9923430785880868
+        },
+        {
+          "native_top_z_mm": 0.8,
+          "covered_fraction": 0.9927104808342737
+        },
+        {
+          "native_top_z_mm": 1.0,
+          "covered_fraction": 0.9923442962195429
+        },
+        {
+          "native_top_z_mm": 1.2,
+          "covered_fraction": 0.9927150325730008
+        },
+        {
+          "native_top_z_mm": 1.4,
+          "covered_fraction": 0.9924366831036467
+        },
+        {
+          "native_top_z_mm": 1.6,
+          "covered_fraction": 0.99275456643076
+        },
+        {
+          "native_top_z_mm": 1.8,
+          "covered_fraction": 0.9924519406847117
+        },
+        {
+          "native_top_z_mm": 2.0,
+          "covered_fraction": 0.9927915344807193
+        },
+        {
+          "native_top_z_mm": 2.2,
+          "covered_fraction": 0.9924737813786866
+        },
+        {
+          "native_top_z_mm": 2.4,
+          "covered_fraction": 0.9927917650973886
+        },
+        {
+          "native_top_z_mm": 2.6,
+          "covered_fraction": 0.9924662862945643
+        },
+        {
+          "native_top_z_mm": 2.8,
+          "covered_fraction": 0.9927441802369481
+        },
+        {
+          "native_top_z_mm": 3.0,
+          "covered_fraction": 0.9936283428053211
+        }
+      ],
+      "method": "Each interior layer of a native-verified solid rectangular bar/root core is compared with the union of complete emitted model bead footprints. This verifies local material coverage rather than trusting modifier metadata; it is not a strength calculation."
+    },
+    {
+      "name": "Native solid core defined front end ligament X65_Y-57.5",
+      "status": "PASS",
+      "core_bounds_mm": [
+        [
+          47.5,
+          -59.5,
+          -1.0
+        ],
+        [
+          49.5,
+          -55.5,
+          3.0
+        ]
+      ],
+      "missing_native_solid_mm3": 0.0,
+      "valid_boolean": true
+    },
+    {
+      "name": "Actual solid infill throughout front end ligament X65_Y-57.5",
+      "status": "PASS",
+      "tested_interior_layers": 20,
+      "minimum_complete_bead_coverage": 0.9925104149780025,
+      "required_fraction": 0.98,
+      "features": {
+        "Internal solid infill": 4,
+        "Sparse infill": 243
+      },
+      "per_layer": [
+        {
+          "native_top_z_mm": -0.8,
+          "covered_fraction": 0.9925104149780025
+        },
+        {
+          "native_top_z_mm": -0.6,
+          "covered_fraction": 0.9979047849275522
+        },
+        {
+          "native_top_z_mm": -0.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": -0.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.2,
+          "covered_fraction": 0.9999999999999998
+        },
+        {
+          "native_top_z_mm": 0.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.6,
+          "covered_fraction": 0.9999999999999999
+        },
+        {
+          "native_top_z_mm": 0.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.4,
+          "covered_fraction": 1.0000000000000002
+        },
+        {
+          "native_top_z_mm": 1.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.8,
+          "covered_fraction": 0.9999999999999999
+        },
+        {
+          "native_top_z_mm": 2.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.6,
+          "covered_fraction": 1.0000000000000002
+        },
+        {
+          "native_top_z_mm": 2.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 3.0,
+          "covered_fraction": 1.0
+        }
+      ],
+      "method": "Each interior layer of a native-verified solid rectangular bar/root core is compared with the union of complete emitted model bead footprints. This verifies local material coverage rather than trusting modifier metadata; it is not a strength calculation."
+    },
+    {
+      "name": "Native solid core defined rear end ligament X65_Y-57.5",
+      "status": "PASS",
+      "core_bounds_mm": [
+        [
+          80.5,
+          -59.5,
+          -1.0
+        ],
+        [
+          82.5,
+          -55.5,
+          3.0
+        ]
+      ],
+      "missing_native_solid_mm3": 0.0,
+      "valid_boolean": true
+    },
+    {
+      "name": "Actual solid infill throughout rear end ligament X65_Y-57.5",
+      "status": "PASS",
+      "tested_interior_layers": 20,
+      "minimum_complete_bead_coverage": 0.990805721353558,
+      "required_fraction": 0.98,
+      "features": {
+        "Internal solid infill": 4,
+        "Sparse infill": 240
+      },
+      "per_layer": [
+        {
+          "native_top_z_mm": -0.8,
+          "covered_fraction": 0.990805721353558
+        },
+        {
+          "native_top_z_mm": -0.6,
+          "covered_fraction": 0.998111269545844
+        },
+        {
+          "native_top_z_mm": -0.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": -0.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 3.0,
+          "covered_fraction": 1.0
+        }
+      ],
+      "method": "Each interior layer of a native-verified solid rectangular bar/root core is compared with the union of complete emitted model bead footprints. This verifies local material coverage rather than trusting modifier metadata; it is not a strength calculation."
+    },
+    {
+      "name": "Native25x2mm through passage X65_Y57.5",
+      "status": "PASS",
+      "exact_probe_bounds_mm": [
+        [
+          52.5,
+          56.5,
+          -2.01
+        ],
+        [
+          77.5,
+          58.5,
+          4.01
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "valid_boolean": true
+    },
+    {
+      "name": "Actual25x2mm passage remains open X65_Y57.5",
+      "status": "PASS",
+      "nearby_model_layers": 30,
+      "model_intrusions": [],
+      "method": "Complete horizontal bead footprints include width and circular-path tessellation at0.05mm maximum chord length. The25x2mm core remains inside the rounded27x4mm CAD slot at all base layers."
+    },
+    {
+      "name": "No support or brim inside slot X65_Y57.5",
+      "status": "PASS",
+      "support_intrusions": [],
+      "brim_intrusions": [],
+      "nominal_slot_length_mm": 27,
+      "nominal_slot_width_mm": 4,
+      "edge_coordinate_tolerance_mm": 0.03
+    },
+    {
+      "name": "Native solid core defined outer load bar X65_Y57.5",
+      "status": "PASS",
+      "core_bounds_mm": [
+        [
+          51.5,
+          60.5,
+          -1.0
+        ],
+        [
+          78.5,
+          64.8,
+          3.0
+        ]
+      ],
+      "missing_native_solid_mm3": 0.0,
+      "valid_boolean": true
+    },
+    {
+      "name": "Actual solid infill throughout outer load bar X65_Y57.5",
+      "status": "PASS",
+      "tested_interior_layers": 20,
+      "minimum_complete_bead_coverage": 0.9878813671683847,
+      "required_fraction": 0.98,
+      "features": {
+        "Inner wall": 331,
+        "Internal solid infill": 20,
+        "Sparse infill": 2044,
+        "Floating vertical shell": 2
+      },
+      "per_layer": [
+        {
+          "native_top_z_mm": -0.8,
+          "covered_fraction": 0.9878813671683847
+        },
+        {
+          "native_top_z_mm": -0.6,
+          "covered_fraction": 0.9892358186040429
+        },
+        {
+          "native_top_z_mm": -0.4,
+          "covered_fraction": 0.9942996982918437
+        },
+        {
+          "native_top_z_mm": -0.2,
+          "covered_fraction": 0.994562746196048
+        },
+        {
+          "native_top_z_mm": 0.0,
+          "covered_fraction": 0.9944602157550283
+        },
+        {
+          "native_top_z_mm": 0.2,
+          "covered_fraction": 0.9947255030238557
+        },
+        {
+          "native_top_z_mm": 0.4,
+          "covered_fraction": 0.9942888455862967
+        },
+        {
+          "native_top_z_mm": 0.6,
+          "covered_fraction": 0.9945611308721185
+        },
+        {
+          "native_top_z_mm": 0.8,
+          "covered_fraction": 0.9943948694211203
+        },
+        {
+          "native_top_z_mm": 1.0,
+          "covered_fraction": 0.9948246869767499
+        },
+        {
+          "native_top_z_mm": 1.2,
+          "covered_fraction": 0.9943920598963438
+        },
+        {
+          "native_top_z_mm": 1.4,
+          "covered_fraction": 0.9948277893018891
+        },
+        {
+          "native_top_z_mm": 1.6,
+          "covered_fraction": 0.9944118290141435
+        },
+        {
+          "native_top_z_mm": 1.8,
+          "covered_fraction": 0.9946821068623077
+        },
+        {
+          "native_top_z_mm": 2.0,
+          "covered_fraction": 0.9945892000630453
+        },
+        {
+          "native_top_z_mm": 2.2,
+          "covered_fraction": 0.9946834158196406
+        },
+        {
+          "native_top_z_mm": 2.4,
+          "covered_fraction": 0.9944306343634435
+        },
+        {
+          "native_top_z_mm": 2.6,
+          "covered_fraction": 0.9946632933585486
+        },
+        {
+          "native_top_z_mm": 2.8,
+          "covered_fraction": 0.9914816244480987
+        },
+        {
+          "native_top_z_mm": 3.0,
+          "covered_fraction": 0.9917883388819
+        }
+      ],
+      "method": "Each interior layer of a native-verified solid rectangular bar/root core is compared with the union of complete emitted model bead footprints. This verifies local material coverage rather than trusting modifier metadata; it is not a strength calculation."
+    },
+    {
+      "name": "Native solid core defined inner stock X65_Y57.5",
+      "status": "PASS",
+      "core_bounds_mm": [
+        [
+          51.5,
+          52.8,
+          -1.0
+        ],
+        [
+          78.5,
+          54.5,
+          3.0
+        ]
+      ],
+      "missing_native_solid_mm3": 0.0,
+      "valid_boolean": true
+    },
+    {
+      "name": "Actual solid infill throughout inner stock X65_Y57.5",
+      "status": "PASS",
+      "tested_interior_layers": 20,
+      "minimum_complete_bead_coverage": 0.9839639090292447,
+      "required_fraction": 0.98,
+      "features": {
+        "Inner wall": 306,
+        "Internal solid infill": 19,
+        "Sparse infill": 1533
+      },
+      "per_layer": [
+        {
+          "native_top_z_mm": -0.8,
+          "covered_fraction": 0.9839639090292447
+        },
+        {
+          "native_top_z_mm": -0.6,
+          "covered_fraction": 0.9859863972287678
+        },
+        {
+          "native_top_z_mm": -0.4,
+          "covered_fraction": 0.9919712002119612
+        },
+        {
+          "native_top_z_mm": -0.2,
+          "covered_fraction": 0.9932291128511257
+        },
+        {
+          "native_top_z_mm": 0.0,
+          "covered_fraction": 0.9919672798749858
+        },
+        {
+          "native_top_z_mm": 0.2,
+          "covered_fraction": 0.9929631739369235
+        },
+        {
+          "native_top_z_mm": 0.4,
+          "covered_fraction": 0.9917660858186782
+        },
+        {
+          "native_top_z_mm": 0.6,
+          "covered_fraction": 0.9929286383537476
+        },
+        {
+          "native_top_z_mm": 0.8,
+          "covered_fraction": 0.9919977769947129
+        },
+        {
+          "native_top_z_mm": 1.0,
+          "covered_fraction": 0.9928669994323732
+        },
+        {
+          "native_top_z_mm": 1.2,
+          "covered_fraction": 0.9919584229794215
+        },
+        {
+          "native_top_z_mm": 1.4,
+          "covered_fraction": 0.9930089696834977
+        },
+        {
+          "native_top_z_mm": 1.6,
+          "covered_fraction": 0.9919027427336299
+        },
+        {
+          "native_top_z_mm": 1.8,
+          "covered_fraction": 0.9930119602181651
+        },
+        {
+          "native_top_z_mm": 2.0,
+          "covered_fraction": 0.9920098334600289
+        },
+        {
+          "native_top_z_mm": 2.2,
+          "covered_fraction": 0.9932393179468981
+        },
+        {
+          "native_top_z_mm": 2.4,
+          "covered_fraction": 0.9920052975862415
+        },
+        {
+          "native_top_z_mm": 2.6,
+          "covered_fraction": 0.9932791119575352
+        },
+        {
+          "native_top_z_mm": 2.8,
+          "covered_fraction": 0.9933720852935035
+        },
+        {
+          "native_top_z_mm": 3.0,
+          "covered_fraction": 0.9928317298424221
+        }
+      ],
+      "method": "Each interior layer of a native-verified solid rectangular bar/root core is compared with the union of complete emitted model bead footprints. This verifies local material coverage rather than trusting modifier metadata; it is not a strength calculation."
+    },
+    {
+      "name": "Native solid core defined front end ligament X65_Y57.5",
+      "status": "PASS",
+      "core_bounds_mm": [
+        [
+          47.5,
+          55.5,
+          -1.0
+        ],
+        [
+          49.5,
+          59.5,
+          3.0
+        ]
+      ],
+      "missing_native_solid_mm3": 0.0,
+      "valid_boolean": true
+    },
+    {
+      "name": "Actual solid infill throughout front end ligament X65_Y57.5",
+      "status": "PASS",
+      "tested_interior_layers": 20,
+      "minimum_complete_bead_coverage": 0.9922255738872173,
+      "required_fraction": 0.98,
+      "features": {
+        "Internal solid infill": 4,
+        "Sparse infill": 240
+      },
+      "per_layer": [
+        {
+          "native_top_z_mm": -0.8,
+          "covered_fraction": 0.9922255738872173
+        },
+        {
+          "native_top_z_mm": -0.6,
+          "covered_fraction": 0.9978469990876064
+        },
+        {
+          "native_top_z_mm": -0.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": -0.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 3.0,
+          "covered_fraction": 1.0
+        }
+      ],
+      "method": "Each interior layer of a native-verified solid rectangular bar/root core is compared with the union of complete emitted model bead footprints. This verifies local material coverage rather than trusting modifier metadata; it is not a strength calculation."
+    },
+    {
+      "name": "Native solid core defined rear end ligament X65_Y57.5",
+      "status": "PASS",
+      "core_bounds_mm": [
+        [
+          80.5,
+          55.5,
+          -1.0
+        ],
+        [
+          82.5,
+          59.5,
+          3.0
+        ]
+      ],
+      "missing_native_solid_mm3": 0.0,
+      "valid_boolean": true
+    },
+    {
+      "name": "Actual solid infill throughout rear end ligament X65_Y57.5",
+      "status": "PASS",
+      "tested_interior_layers": 20,
+      "minimum_complete_bead_coverage": 0.9927187347885064,
+      "required_fraction": 0.98,
+      "features": {
+        "Internal solid infill": 4,
+        "Sparse infill": 239
+      },
+      "per_layer": [
+        {
+          "native_top_z_mm": -0.8,
+          "covered_fraction": 0.9927187347885064
+        },
+        {
+          "native_top_z_mm": -0.6,
+          "covered_fraction": 0.9981475733968782
+        },
+        {
+          "native_top_z_mm": -0.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": -0.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.2,
+          "covered_fraction": 0.9999999999999999
+        },
+        {
+          "native_top_z_mm": 0.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 0.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 1.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 2.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "native_top_z_mm": 3.0,
+          "covered_fraction": 1.0
+        }
+      ],
+      "method": "Each interior layer of a native-verified solid rectangular bar/root core is compared with the union of complete emitted model bead footprints. This verifies local material coverage rather than trusting modifier metadata; it is not a strength calculation."
+    },
+    {
+      "name": "Source slice and layout remained unchanged",
+      "status": "PASS"
+    }
+  ],
+  "failures": [],
+  "failed_count": 0,
+  "metrics": [
+    {
+      "slot": "X28_Y-57.5",
+      "nearby_extrusion_segments": 6349,
+      "model_layers": [
+        -1.8,
+        -1.6,
+        -1.4,
+        -1.2,
+        -1.0,
+        -0.8,
+        -0.6,
+        -0.4,
+        -0.2,
+        0.0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1.0,
+        1.2,
+        1.4,
+        1.6,
+        1.8,
+        2.0,
+        2.2,
+        2.4,
+        2.6,
+        2.8,
+        3.0,
+        3.2,
+        3.4,
+        3.6,
+        3.8,
+        4.0
+      ]
+    },
+    {
+      "slot": "X28_Y57.5",
+      "nearby_extrusion_segments": 6370,
+      "model_layers": [
+        -1.8,
+        -1.6,
+        -1.4,
+        -1.2,
+        -1.0,
+        -0.8,
+        -0.6,
+        -0.4,
+        -0.2,
+        0.0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1.0,
+        1.2,
+        1.4,
+        1.6,
+        1.8,
+        2.0,
+        2.2,
+        2.4,
+        2.6,
+        2.8,
+        3.0,
+        3.2,
+        3.4,
+        3.6,
+        3.8,
+        4.0
+      ]
+    },
+    {
+      "slot": "X65_Y-57.5",
+      "nearby_extrusion_segments": 6238,
+      "model_layers": [
+        -1.8,
+        -1.6,
+        -1.4,
+        -1.2,
+        -1.0,
+        -0.8,
+        -0.6,
+        -0.4,
+        -0.2,
+        0.0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1.0,
+        1.2,
+        1.4,
+        1.6,
+        1.8,
+        2.0,
+        2.2,
+        2.4,
+        2.6,
+        2.8,
+        3.0,
+        3.2,
+        3.4,
+        3.6,
+        3.8,
+        4.0
+      ]
+    },
+    {
+      "slot": "X65_Y57.5",
+      "nearby_extrusion_segments": 6263,
+      "model_layers": [
+        -1.8,
+        -1.6,
+        -1.4,
+        -1.2,
+        -1.0,
+        -0.8,
+        -0.6,
+        -0.4,
+        -0.2,
+        0.0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1.0,
+        1.2,
+        1.4,
+        1.6,
+        1.8,
+        2.0,
+        2.2,
+        2.4,
+        2.6,
+        2.8,
+        3.0,
+        3.2,
+        3.4,
+        3.6,
+        3.8,
+        4.0
+      ]
+    }
+  ],
+  "native_step_sha256": "5964654c121d6d375011bfb24144b2e00678a7ccac430490e83349c44de5842e",
+  "CAD_source_sha256": "97e2010cc17d06eb8648cf278b9aae2fd85b6e909bd657b9b216f3b37748665f",
+  "layout_sha256": "15bae7c934c2f575c510262389da0e052d751dec861b9fbdd5b66ccfbd88324e",
+  "sliced_archive_sha256": "a121127456c1da2cdb51b6cc53c52e4b02b5afb1a10c52a2cc875619dc414551",
+  "validator_sha256": "cd0e9be9cc8f7d55c6d46cb797bb49f93460c00e1061f0de34a9799e905aa79c",
+  "strap_print_regions_sha256": "5413487f5f5e4944f0a29b7ede49d96ea3f76dea17c1ce19b6b16ea322324b60",
+  "scope": "Four inboard through-slot passages for25mm-wide single2mm webbing; no support/brim inside the openings; actual dense interior outer-bar, inner-stock and both end-ligament coverage in all four local100% modifiers. Doubled4mm folds belong outside the slots and are checked by the separate routing audit.",
+  "limitations": "Nominal CAD and emitted paths only. Printed tolerances, actual strap dimensions, strap tension and PLA strength require physical verification."
+}

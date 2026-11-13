@@ -1,0 +1,22 @@
+{
+  "file": "fingerworker_flat132_strengthened.fs",
+  "bytes": 103162,
+  "sha256": "d5eca2f3d87bf4b9a47c1987ee91ba1d56e8c87003eca101677a148a2e605654",
+  "base_source_sha256": "041056629440056626b2f2f88a0db216693e48fff178687174478cb1f34227ef",
+  "scope": "Printed reaction wall/guide/gusset/roof strengthening, integral P05 stop arms, removed fixed stops, manually configured click cam.",
+  "target_force_N": 500,
+  "strength_rating_verified": false,
+  "dynamic_domain": "0 <= preload <= 2 mm; 0 <= travel <= 30 mm - preload",
+  "cam_setup": "Manually reset existing H10 cam by -preload after any preload change; preview represents that setup, no automatic linkage.",
+  "removed_refs": [
+    "H070",
+    "H071",
+    "H080",
+    "H081"
+  ],
+  "expected_device_parts": 52,
+  "native_compile_correction": "Use hierarchical FeatureScript child Id for reactionButtress opExtrude body in cut and join; no geometric change.",
+  "input_guard_roundoff_mm": 1e-06,
+  "validated_physical_domain": "s>=0; 0<=p<=2; s+p<=30, exact",
+  "guard_only_change_from_sha256": "6c877ec401051cdf840a93bb28dfeb9c3fb5a13f5324c93b567c8f87e0dfa2ad"
+}

@@ -1,0 +1,668 @@
+{
+  "status": "PASS",
+  "prerequisites": "Unload/restrain, set rearadvance0/preload2, remove both palm M4 screws; lift complete palm/case module40mm. Fixed P01 pads slide vertically with nominal zero-volume boundary contact. Bench detach case by two underside M2 screws and lower module20mm. P09 opening remains inherited after P02 is absent; never open installed lid against palm.",
+  "checks": [
+    {
+      "name": "Complete40mm upward brace release versus H01",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H02",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Upward40mm release versus source envelope H030",
+      "status": "PASS",
+      "minimum_axial_clearance_mm": 34.75
+    },
+    {
+      "name": "Upward40mm release versus source envelope H031",
+      "status": "PASS",
+      "minimum_axial_clearance_mm": 34.75
+    },
+    {
+      "name": "Complete40mm upward brace release versus H040",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H041",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H050",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H051",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H060",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H061",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H09",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Upward40mm release versus source envelope H09a",
+      "status": "PASS",
+      "minimum_axial_clearance_mm": 51.8
+    },
+    {
+      "name": "Upward40mm release versus source envelope H09b",
+      "status": "PASS",
+      "minimum_axial_clearance_mm": 51.8
+    },
+    {
+      "name": "Complete40mm upward brace release versus H10",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H11",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H12",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H13",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H15",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H160",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H161",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H170",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H171",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H180",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H181",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H190",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H191",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H20",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H21",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H22",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H23",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H240",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H241",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H242",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H243",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H250",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H251",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H252",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H253",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H260",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H261",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H270",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H271",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H280",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H281",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H290",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H291",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H300a",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H300b",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H301a",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H301b",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H310",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H311",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H320",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus H321",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus P01",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": true
+    },
+    {
+      "name": "Complete40mm upward brace release versus P04",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus P05",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus P060",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus P061",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus P070a",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus P070b",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus P071a",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus P071b",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus P11",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus P120",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Complete40mm upward brace release versus P121",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0,
+      "intentional_sliding_boundary_contact": false
+    },
+    {
+      "name": "Detached case20mm downward versus added stock E01",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock E05",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock E07",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock P08",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock P09",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock P10",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_C1",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_C10",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_C11",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_C12",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_C13",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_C14",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_C15",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_C16",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_C2",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_C3",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_C4",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_C5",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_C6",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_C7",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_C8",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_C9",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_D1",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_J1",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_J2",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_J3",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_L1",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_Q1",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_R1",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_R10",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_R11",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_R12",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_R13",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_R14",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_R15",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_R16",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_R17",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_R18",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_R19",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_R2",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_R20",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_R21",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_R3",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_R4",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_R5",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_R6",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_R7",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_R8",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_R9",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_SW2",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_U1",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_U2",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_U3",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Detached case20mm downward versus added stock PCB_U4",
+      "status": "PASS",
+      "intersection_upper_bound_mm3": 0.0
+    }
+  ]
+}

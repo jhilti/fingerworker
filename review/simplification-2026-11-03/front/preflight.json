@@ -1,0 +1,252 @@
+{
+  "status": "PASS_LOCAL_FIXED_FRONT_PREFLIGHT",
+  "removed_refs": [
+    "H11",
+    "H13",
+    "H15",
+    "H160",
+    "H161",
+    "H170",
+    "H171",
+    "H21",
+    "H22"
+  ],
+  "baseline_step_sha256": "4c7b412eb5700e6ff8dc985c7ab8182e5acc7003a645ecac3291e88fe455d6e7",
+  "checks": [
+    {
+      "name": "Fixed P01 is a valid single solid",
+      "status": "PASS",
+      "solids": 1,
+      "volume_mm3": 166330.1513305073,
+      "bounds_mm": [
+        [
+          -46.1,
+          -66.0,
+          -2.0000001
+        ],
+        [
+          129.0,
+          66.0,
+          33.0000001
+        ]
+      ]
+    },
+    {
+      "name": "Added fixed stock / H01",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_valid": true
+    },
+    {
+      "name": "Added fixed stock / H12",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_valid": true
+    },
+    {
+      "name": "Added fixed stock / H180",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_valid": true
+    },
+    {
+      "name": "Added fixed stock / H181",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_valid": true
+    },
+    {
+      "name": "Added fixed stock / H190",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_valid": true
+    },
+    {
+      "name": "Added fixed stock / H191",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_valid": true
+    },
+    {
+      "name": "Added fixed stock / H240",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_valid": true
+    },
+    {
+      "name": "Added fixed stock / H241",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_valid": true
+    },
+    {
+      "name": "Added fixed stock / H242",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_valid": true
+    },
+    {
+      "name": "Added fixed stock / H243",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_valid": true
+    },
+    {
+      "name": "Added fixed stock / H250",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_valid": true
+    },
+    {
+      "name": "Added fixed stock / H251",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_valid": true
+    },
+    {
+      "name": "Added fixed stock / H252",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_valid": true
+    },
+    {
+      "name": "Added fixed stock / H253",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_valid": true
+    },
+    {
+      "name": "Added fixed stock / P08",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_valid": true
+    },
+    {
+      "name": "Added fixed stock / P09",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_valid": true
+    },
+    {
+      "name": "Added fixed stock / PCB_J2",
+      "status": "PASS",
+      "intersection_mm3": 0.0,
+      "boolean_valid": true
+    },
+    {
+      "name": "H12 directly bears on fixed reaction plane",
+      "status": "PASS",
+      "contact_area_mm2": 454.4,
+      "rear_datum_x_mm": -12,
+      "gap_mm": 0.0,
+      "area_method": "Two valid thin-overlap volume/depth probes on translated support copies; actual nominal parts have zero overlap.",
+      "probes": [
+        {
+          "depth_mm": 0.001,
+          "area_mm2": 454.39999999971394,
+          "boolean_valid": true
+        },
+        {
+          "depth_mm": 0.01,
+          "area_mm2": 454.3999999999331,
+          "boolean_valid": true
+        }
+      ]
+    },
+    {
+      "name": "Support does not bypass sensor through P05",
+      "status": "PASS",
+      "gap_mm": 6.594694837519018
+    },
+    {
+      "name": "Support does not bypass sensor through H01",
+      "status": "PASS",
+      "gap_mm": 2.1500000000000004
+    },
+    {
+      "name": "Support does not bypass sensor through H02",
+      "status": "PASS",
+      "gap_mm": 10.100000000000003
+    },
+    {
+      "name": "Support does not bypass sensor through H23",
+      "status": "PASS",
+      "gap_mm": 10.6
+    },
+    {
+      "name": "Support does not bypass sensor through H250",
+      "status": "PASS",
+      "gap_mm": 0.5
+    },
+    {
+      "name": "Support does not bypass sensor through H251",
+      "status": "PASS",
+      "gap_mm": 1.5
+    },
+    {
+      "name": "Support does not bypass sensor through H252",
+      "status": "PASS",
+      "gap_mm": 0.5
+    },
+    {
+      "name": "Support does not bypass sensor through H253",
+      "status": "PASS",
+      "gap_mm": 1.5
+    },
+    {
+      "name": "Complete sensor-yoke stack service clears new stocks",
+      "status": "PASS",
+      "max_overlap_mm3": 0.0,
+      "worst": null,
+      "forward_mm": 3.2,
+      "up_mm": 40,
+      "poses": 58,
+      "prerequisites": "Unload/remove springs, rods, rear gate and H18/H19; retain sensor keeper assembly."
+    },
+    {
+      "name": "H180 outward service through fixed circular guide",
+      "status": "PASS",
+      "max_overlap_mm3": 0.0,
+      "travel_mm": 55,
+      "poses": 56
+    },
+    {
+      "name": "H190 outward service through fixed circular guide",
+      "status": "PASS",
+      "max_overlap_mm3": 0.0,
+      "travel_mm": 55,
+      "poses": 56
+    },
+    {
+      "name": "H181 outward service through fixed circular guide",
+      "status": "PASS",
+      "max_overlap_mm3": 0.0,
+      "travel_mm": 55,
+      "poses": 56
+    },
+    {
+      "name": "H191 outward service through fixed circular guide",
+      "status": "PASS",
+      "max_overlap_mm3": 0.0,
+      "travel_mm": 55,
+      "poses": 56
+    }
+  ],
+  "fixed_parameters": {
+    "preload_mm": 0,
+    "rear_advance_mm": 0,
+    "user_travel_mm": [
+      0,
+      30
+    ],
+    "isometric_approach_mm": 15
+  },
+  "unchanged_hardware": "H12/H01/H02/H18/H19/H20/H23/H24/H25 exact original shapes; only9 obsolete preload bodies deleted.",
+  "limitations": "Local nominal CSG and service checks only. Actual native CAD/export and print paths still required. PLA load, creep and sensor performance remain unqualified.",
+  "files_sha256": {
+    "review/simplification-2026-11-03/front_fixed.py": "5a0e05708d78eac67eba4bcaa34ac192b88a777098c2a13cd63dc8a3c297f240",
+    "review/simplification-2026-11-03/front/R12_rear_and_fixed_front_candidate.fs": "bb858b3646d4262d3330c74ba9d89e79bdb91fc08fe087a4d036942b1df7ad3b",
+    "review/simplification-2026-11-03/front/P01_fixed_front.step": "0f4f7cc652148423673dbd82b9563543ee117844147aced20d9615a1a1e0458c",
+    "review/simplification-2026-11-03/front/P01_fixed_front.stl": "f6969d7e87488695f086432f51431da26a10548fc64084c6e1e78de7d55047c7"
+  }
+}

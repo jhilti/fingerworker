@@ -1,0 +1,1969 @@
+{
+  "revision": "A",
+  "date": "2026-09-21",
+  "parts": [
+    {
+      "ref": "U1",
+      "value": "XIAO nRF52840",
+      "mpn": "Seeed 102010448",
+      "package": "21 x 17.8 mm module; no headers",
+      "pins": {
+        "1": {
+          "name": "D0 / P0.02",
+          "net": "BOOST_EN"
+        },
+        "2": {
+          "name": "D1 / P0.03",
+          "net": "ANALOG_EN"
+        },
+        "3": {
+          "name": "D2 / P0.28",
+          "net": "ADC_CS_MCU"
+        },
+        "4": {
+          "name": "D3 / P0.29",
+          "net": "ADC_DRDY_N"
+        },
+        "5": {
+          "name": "D4 / P0.04",
+          "net": "BUTTON_N"
+        },
+        "6": {
+          "name": "D5 / P0.05",
+          "net": "ENDSTOP_N"
+        },
+        "7": {
+          "name": "D6 / P1.11",
+          "net": "USB_PRESENT"
+        },
+        "8": {
+          "name": "D7 / P1.12",
+          "net": null
+        },
+        "9": {
+          "name": "D8 / P1.13",
+          "net": "SPI_SCK_MCU"
+        },
+        "10": {
+          "name": "D9 / P1.14",
+          "net": "SPI_MISO"
+        },
+        "11": {
+          "name": "D10 / P1.15",
+          "net": "SPI_MOSI_MCU"
+        },
+        "12": {
+          "name": "3V3 OUT",
+          "net": "V3V3"
+        },
+        "13": {
+          "name": "GND",
+          "net": "GND"
+        },
+        "14": {
+          "name": "VBUS / 5V",
+          "net": "VBUS_USB"
+        },
+        "BAT+": {
+          "name": "bottom BAT+",
+          "net": "VBAT"
+        },
+        "BAT-": {
+          "name": "bottom BAT-",
+          "net": "GND"
+        }
+      },
+      "page": 1,
+      "kind": "ic",
+      "note": "Onboard USB, charger and USB/battery source selection. Check delivered board revision.",
+      "source": "https://files.seeedstudio.com/wiki/XIAO-BLE/Res/260828_XIAO_nRF52840.pdf"
+    },
+    {
+      "ref": "J1",
+      "value": "LiPo socket",
+      "mpn": "S2B-PH-SM4-TB(LF)(SN)",
+      "package": "JST PH; side-entry SMT",
+      "pins": {
+        "1": {
+          "name": "battery +",
+          "net": "VBAT"
+        },
+        "2": {
+          "name": "battery -",
+          "net": "GND"
+        }
+      },
+      "page": 1,
+      "kind": "connector",
+      "note": "Design assigns pin 1 positive. Verify pad numbering against actual battery harness before routing.",
+      "source": "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
+    },
+    {
+      "ref": "BT1",
+      "value": "Protected 100 mAh LiPo",
+      "mpn": "Adafruit 1570",
+      "package": "OFF BOARD; nominal 11.5 x 31 x 3.8 mm",
+      "pins": {
+        "+": {
+          "name": "red +",
+          "net": "VBAT"
+        },
+        "-": {
+          "name": "black -",
+          "net": "GND"
+        }
+      },
+      "page": 1,
+      "kind": "external",
+      "note": "Connect through J1; symbol shows electrical relationship, not a second battery path.",
+      "source": "https://cdn-shop.adafruit.com/product-files/1570/1570datasheet.pdf"
+    },
+    {
+      "ref": "C1",
+      "value": "10 uF",
+      "mpn": "Specification controlled",
+      "package": "0805; X5R/X7R; >=16 V; effective >=4.7 uF at 3.3 V",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "V3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 1,
+      "kind": "capacitor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "R1",
+      "value": "100 k",
+      "mpn": "Specification controlled",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "VBUS_USB"
+        },
+        "2": {
+          "name": "2",
+          "net": "USB_PRESENT"
+        }
+      },
+      "page": 1,
+      "kind": "resistor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "R2",
+      "value": "100 k",
+      "mpn": "Specification controlled",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "USB_PRESENT"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 1,
+      "kind": "resistor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "C2",
+      "value": "10 nF",
+      "mpn": "Specification controlled",
+      "package": "0603; X7R; >=16 V",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "USB_PRESENT"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 1,
+      "kind": "capacitor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "U2",
+      "value": "Boost ~5.43 V",
+      "mpn": "TPS61041DBVR",
+      "package": "SOT-23-5 / DBV",
+      "pins": {
+        "1": {
+          "name": "SW",
+          "net": "BOOST_SW"
+        },
+        "2": {
+          "name": "GND",
+          "net": "GND"
+        },
+        "3": {
+          "name": "FB",
+          "net": "BOOST_FB"
+        },
+        "4": {
+          "name": "EN",
+          "net": "BOOST_EN"
+        },
+        "5": {
+          "name": "VIN",
+          "net": "V3V3"
+        }
+      },
+      "page": 2,
+      "kind": "ic",
+      "note": "",
+      "source": "https://www.ti.com/lit/ds/symlink/tps61041.pdf"
+    },
+    {
+      "ref": "L1",
+      "value": "10 uH",
+      "mpn": "XFL3012-103MEC",
+      "package": "3 x 3 x 1.2 mm; shielded",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "V3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "BOOST_SW"
+        }
+      },
+      "page": 2,
+      "kind": "inductor",
+      "note": "",
+      "source": "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xfl/xfl3012/xfl3012-103/"
+    },
+    {
+      "ref": "D1",
+      "value": "Schottky 0.5 A / 20 V",
+      "mpn": "MBR0520LT1G",
+      "package": "SOD-123",
+      "pins": {
+        "1": {
+          "name": "K",
+          "net": "VBOOST"
+        },
+        "2": {
+          "name": "A",
+          "net": "BOOST_SW"
+        }
+      },
+      "page": 2,
+      "kind": "diode",
+      "note": "",
+      "source": "https://www.onsemi.com/pdf/datasheet/mbr0520lt1-d.pdf"
+    },
+    {
+      "ref": "R3",
+      "value": "680 k",
+      "mpn": "Specification controlled",
+      "package": "0603; 0.1%; >=0.1 W; thin film",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "VBOOST"
+        },
+        "2": {
+          "name": "2",
+          "net": "BOOST_FB"
+        }
+      },
+      "page": 2,
+      "kind": "resistor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "R4",
+      "value": "200 k",
+      "mpn": "Specification controlled",
+      "package": "0603; 0.1%; >=0.1 W; thin film",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "BOOST_FB"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 2,
+      "kind": "resistor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "R5",
+      "value": "100 k",
+      "mpn": "Specification controlled",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "BOOST_EN"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 2,
+      "kind": "resistor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "C3",
+      "value": "10 uF",
+      "mpn": "Specification controlled",
+      "package": "0805; X5R/X7R; >=16 V; effective >=4.7 uF at 3.3 V",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "V3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 2,
+      "kind": "capacitor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "C4",
+      "value": "22 uF",
+      "mpn": "Specification controlled",
+      "package": "0805; X5R/X7R; >=25 V; effective >=4.7 uF at 5.5 V",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "VBOOST"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 2,
+      "kind": "capacitor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "C5",
+      "value": "47 pF",
+      "mpn": "Specification controlled",
+      "package": "0603; C0G; 5%; >=25 V; tune after ripple test",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "VBOOST"
+        },
+        "2": {
+          "name": "2",
+          "net": "BOOST_FB"
+        }
+      },
+      "page": 2,
+      "kind": "capacitor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "U3",
+      "value": "Quiet 5 V / output discharge",
+      "mpn": "TPS7A2050PDBVR",
+      "package": "SOT-23-5 / DBV",
+      "pins": {
+        "1": {
+          "name": "IN",
+          "net": "VBOOST"
+        },
+        "2": {
+          "name": "GND",
+          "net": "GND"
+        },
+        "3": {
+          "name": "EN",
+          "net": "ANALOG_EN"
+        },
+        "4": {
+          "name": "NC",
+          "net": null
+        },
+        "5": {
+          "name": "OUT",
+          "net": "V5A"
+        }
+      },
+      "page": 2,
+      "kind": "ic",
+      "note": "",
+      "source": "https://www.ti.com/lit/ds/symlink/tps7a20.pdf"
+    },
+    {
+      "ref": "R6",
+      "value": "100 k",
+      "mpn": "Specification controlled",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "ANALOG_EN"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 2,
+      "kind": "resistor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "C6",
+      "value": "1 uF",
+      "mpn": "Specification controlled",
+      "package": "0603; X7R; >=16 V; adjacent to U3",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "VBOOST"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 2,
+      "kind": "capacitor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "C7",
+      "value": "22 uF",
+      "mpn": "Specification controlled",
+      "package": "0805; X5R/X7R; >=25 V; effective >=1 uF at 5 V",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "V5A"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 2,
+      "kind": "capacitor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "U4",
+      "value": "24-bit ADC / PGA",
+      "mpn": "ADS1220IPWR",
+      "package": "TSSOP-16 / PW; 5 x 6.4 mm including leads",
+      "pins": {
+        "1": {
+          "name": "SCLK",
+          "net": "SPI_SCK_ADC"
+        },
+        "2": {
+          "name": "CS_N",
+          "net": "ADC_CS_N"
+        },
+        "3": {
+          "name": "CLK",
+          "net": "GND"
+        },
+        "4": {
+          "name": "DGND",
+          "net": "GND"
+        },
+        "5": {
+          "name": "AVSS",
+          "net": "GND"
+        },
+        "6": {
+          "name": "AIN3 / REFN1",
+          "net": null
+        },
+        "7": {
+          "name": "AIN2",
+          "net": null
+        },
+        "8": {
+          "name": "REFN0",
+          "net": "REF_N"
+        },
+        "9": {
+          "name": "REFP0",
+          "net": "REF_P"
+        },
+        "10": {
+          "name": "AIN1",
+          "net": "AIN_N"
+        },
+        "11": {
+          "name": "AIN0 / REFP1",
+          "net": "AIN_P"
+        },
+        "12": {
+          "name": "AVDD",
+          "net": "V5A"
+        },
+        "13": {
+          "name": "DVDD",
+          "net": "V3V3"
+        },
+        "14": {
+          "name": "DRDY_N",
+          "net": "ADC_DRDY_N"
+        },
+        "15": {
+          "name": "DOUT",
+          "net": "SPI_MISO"
+        },
+        "16": {
+          "name": "DIN",
+          "net": "SPI_MOSI_ADC"
+        }
+      },
+      "page": 3,
+      "kind": "ic",
+      "note": "",
+      "source": "https://www.ti.com/lit/ds/symlink/ads1220.pdf"
+    },
+    {
+      "ref": "J2",
+      "value": "Force sensor landing",
+      "mpn": "4 labelled solder pads",
+      "package": "PCB pads + printed strain relief",
+      "pins": {
+        "1": {
+          "name": "EXC+ red",
+          "net": "V5A"
+        },
+        "2": {
+          "name": "SIG+ yellow",
+          "net": "SIG_P"
+        },
+        "3": {
+          "name": "SIG- white",
+          "net": "SIG_N"
+        },
+        "4": {
+          "name": "EXC- black",
+          "net": "GND"
+        },
+        "5": {
+          "name": "Sense+ internal",
+          "net": "EXC_SENSE_P"
+        },
+        "6": {
+          "name": "Sense- internal",
+          "net": "EXC_SENSE_N"
+        }
+      },
+      "page": 3,
+      "kind": "connector",
+      "note": "4-wire connection; Internal net ties join pads 1/5 and 4/6; sense traces reach the excitation solder lands only. Wire colors per TE family sheet.",
+      "source": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocFormat=pdf&DocLang=English&DocNm=FX19&DocType=Data+Sheet&PartCntxt=FX1901-0001-0200-L"
+    },
+    {
+      "ref": "H1",
+      "value": "Force sensor 200 lbf",
+      "mpn": "FX1901-0001-0200-L",
+      "package": "EXISTING / OFF BOARD",
+      "pins": {
+        "RED": {
+          "name": "V+",
+          "net": "V5A"
+        },
+        "YELLOW": {
+          "name": "O+",
+          "net": "SIG_P"
+        },
+        "WHITE": {
+          "name": "O-",
+          "net": "SIG_N"
+        },
+        "BLACK": {
+          "name": "V-",
+          "net": "GND"
+        }
+      },
+      "page": 3,
+      "kind": "external",
+      "note": "",
+      "source": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocFormat=pdf&DocLang=English&DocNm=FX19&DocType=Data+Sheet&PartCntxt=FX1901-0001-0200-L"
+    },
+    {
+      "ref": "R7",
+      "value": "1 k",
+      "mpn": "Specification controlled",
+      "package": "0603; 0.1%; matched pair with R8",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "SIG_P"
+        },
+        "2": {
+          "name": "2",
+          "net": "AIN_P"
+        }
+      },
+      "page": 3,
+      "kind": "resistor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "R8",
+      "value": "1 k",
+      "mpn": "Specification controlled",
+      "package": "0603; 0.1%; matched pair with R7",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "SIG_N"
+        },
+        "2": {
+          "name": "2",
+          "net": "AIN_N"
+        }
+      },
+      "page": 3,
+      "kind": "resistor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "C8",
+      "value": "470 nF",
+      "mpn": "Specification controlled",
+      "package": "0603; X7R; 10%; >=16 V",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "AIN_P"
+        },
+        "2": {
+          "name": "2",
+          "net": "AIN_N"
+        }
+      },
+      "page": 3,
+      "kind": "capacitor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "C9",
+      "value": "4.7 nF",
+      "mpn": "Specification controlled",
+      "package": "0603; C0G; 5%; >=25 V",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "AIN_P"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 3,
+      "kind": "capacitor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "C10",
+      "value": "4.7 nF",
+      "mpn": "Specification controlled",
+      "package": "0603; C0G; 5%; >=25 V",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "AIN_N"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 3,
+      "kind": "capacitor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "R9",
+      "value": "100 R",
+      "mpn": "Specification controlled",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "EXC_SENSE_P"
+        },
+        "2": {
+          "name": "2",
+          "net": "REF_P"
+        }
+      },
+      "page": 3,
+      "kind": "resistor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "R10",
+      "value": "100 R",
+      "mpn": "Specification controlled",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "EXC_SENSE_N"
+        },
+        "2": {
+          "name": "2",
+          "net": "REF_N"
+        }
+      },
+      "page": 3,
+      "kind": "resistor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "C11",
+      "value": "100 nF",
+      "mpn": "Specification controlled",
+      "package": "0603; X7R; >=16 V",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "REF_P"
+        },
+        "2": {
+          "name": "2",
+          "net": "REF_N"
+        }
+      },
+      "page": 3,
+      "kind": "capacitor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "C12",
+      "value": "100 nF",
+      "mpn": "Specification controlled",
+      "package": "0603; X7R; >=16 V; at U4.12",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "V5A"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 3,
+      "kind": "capacitor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "C13",
+      "value": "1 uF",
+      "mpn": "Specification controlled",
+      "package": "0603; X7R; >=16 V; at U4.12",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "V5A"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 3,
+      "kind": "capacitor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "C14",
+      "value": "100 nF",
+      "mpn": "Specification controlled",
+      "package": "0603; X7R; >=16 V; at U4.13",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "V3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 3,
+      "kind": "capacitor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "R11",
+      "value": "33 R",
+      "mpn": "Specification controlled",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "SPI_SCK_MCU"
+        },
+        "2": {
+          "name": "2",
+          "net": "SPI_SCK_ADC"
+        }
+      },
+      "page": 3,
+      "kind": "resistor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "R12",
+      "value": "33 R",
+      "mpn": "Specification controlled",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "SPI_MOSI_MCU"
+        },
+        "2": {
+          "name": "2",
+          "net": "SPI_MOSI_ADC"
+        }
+      },
+      "page": 3,
+      "kind": "resistor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "R13",
+      "value": "33 R",
+      "mpn": "Specification controlled",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "ADC_CS_MCU"
+        },
+        "2": {
+          "name": "2",
+          "net": "ADC_CS_N"
+        }
+      },
+      "page": 3,
+      "kind": "resistor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "R14",
+      "value": "47 k",
+      "mpn": "Specification controlled",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "V3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "ADC_CS_N"
+        }
+      },
+      "page": 3,
+      "kind": "resistor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "R15",
+      "value": "100 k",
+      "mpn": "Specification controlled",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "SPI_SCK_ADC"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 3,
+      "kind": "resistor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "R16",
+      "value": "100 k",
+      "mpn": "Specification controlled",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "SPI_MOSI_ADC"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 3,
+      "kind": "resistor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "J3",
+      "value": "End switch landing",
+      "mpn": "2 labelled solder pads",
+      "package": "PCB pads + printed strain relief",
+      "pins": {
+        "1": {
+          "name": "NC",
+          "net": "END_CONTACT"
+        },
+        "2": {
+          "name": "COM",
+          "net": "GND"
+        }
+      },
+      "page": 4,
+      "kind": "connector",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "SW1",
+      "value": "Existing end switch",
+      "mpn": "Omron SS-01GL2",
+      "package": "OFF BOARD / solder terminals",
+      "pins": {
+        "NC": {
+          "name": "NC",
+          "net": "END_CONTACT"
+        },
+        "COM": {
+          "name": "COM",
+          "net": "GND"
+        },
+        "NO": {
+          "name": "NO",
+          "net": null
+        }
+      },
+      "page": 4,
+      "kind": "external",
+      "note": "",
+      "source": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-ss.pdf"
+    },
+    {
+      "ref": "Q1",
+      "value": "5 V to 3.3 V sense",
+      "mpn": "2N7002,215",
+      "package": "Nexperia SOT-23",
+      "pins": {
+        "1": {
+          "name": "G",
+          "net": "END_GATE"
+        },
+        "2": {
+          "name": "S",
+          "net": "GND"
+        },
+        "3": {
+          "name": "D",
+          "net": "ENDSTOP_N"
+        }
+      },
+      "page": 4,
+      "kind": "ic",
+      "note": "",
+      "source": "https://assets.nexperia.com/documents/data-sheet/2N7002.pdf"
+    },
+    {
+      "ref": "R17",
+      "value": "4.7 k",
+      "mpn": "Specification controlled",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "V5A"
+        },
+        "2": {
+          "name": "2",
+          "net": "END_CONTACT"
+        }
+      },
+      "page": 4,
+      "kind": "resistor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "R18",
+      "value": "1 k",
+      "mpn": "Specification controlled",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "END_CONTACT"
+        },
+        "2": {
+          "name": "2",
+          "net": "END_GATE"
+        }
+      },
+      "page": 4,
+      "kind": "resistor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "C15",
+      "value": "100 nF",
+      "mpn": "Specification controlled",
+      "package": "0603; X7R; >=16 V",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "END_GATE"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 4,
+      "kind": "capacitor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "R19",
+      "value": "47 k",
+      "mpn": "Specification controlled",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "V3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "ENDSTOP_N"
+        }
+      },
+      "page": 4,
+      "kind": "resistor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "SW2",
+      "value": "Wake / tare / sleep",
+      "mpn": "Panasonic EVQPUC02K",
+      "package": "4.7 x 4.5 x 1.65 mm; side push",
+      "pins": {
+        "A": {
+          "name": "contact A",
+          "net": "BUTTON_RAW"
+        },
+        "B": {
+          "name": "contact B",
+          "net": "GND"
+        }
+      },
+      "page": 4,
+      "kind": "switch",
+      "note": "Functional contact IDs; physical duplicate contacts and shell mapping to follow official footprint.",
+      "source": "https://industry.panasonic.com/global/en/products/control/switch/light-touch/number/evqpuc02k"
+    },
+    {
+      "ref": "R20",
+      "value": "100 k",
+      "mpn": "Specification controlled",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "V3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "BUTTON_N"
+        }
+      },
+      "page": 4,
+      "kind": "resistor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "R21",
+      "value": "1 k",
+      "mpn": "Specification controlled",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "BUTTON_RAW"
+        },
+        "2": {
+          "name": "2",
+          "net": "BUTTON_N"
+        }
+      },
+      "page": 4,
+      "kind": "resistor",
+      "note": "",
+      "source": ""
+    },
+    {
+      "ref": "C16",
+      "value": "100 nF",
+      "mpn": "Specification controlled",
+      "package": "0603; X7R; >=16 V",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "BUTTON_N"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 4,
+      "kind": "capacitor",
+      "note": "",
+      "source": ""
+    }
+  ],
+  "nets": {
+    "ADC_CS_MCU": [
+      {
+        "ref": "U1",
+        "pin": "3",
+        "name": "D2 / P0.28"
+      },
+      {
+        "ref": "R13",
+        "pin": "1",
+        "name": "1"
+      }
+    ],
+    "ADC_CS_N": [
+      {
+        "ref": "U4",
+        "pin": "2",
+        "name": "CS_N"
+      },
+      {
+        "ref": "R13",
+        "pin": "2",
+        "name": "2"
+      },
+      {
+        "ref": "R14",
+        "pin": "2",
+        "name": "2"
+      }
+    ],
+    "ADC_DRDY_N": [
+      {
+        "ref": "U1",
+        "pin": "4",
+        "name": "D3 / P0.29"
+      },
+      {
+        "ref": "U4",
+        "pin": "14",
+        "name": "DRDY_N"
+      }
+    ],
+    "AIN_N": [
+      {
+        "ref": "U4",
+        "pin": "10",
+        "name": "AIN1"
+      },
+      {
+        "ref": "R8",
+        "pin": "2",
+        "name": "2"
+      },
+      {
+        "ref": "C8",
+        "pin": "2",
+        "name": "2"
+      },
+      {
+        "ref": "C10",
+        "pin": "1",
+        "name": "1"
+      }
+    ],
+    "AIN_P": [
+      {
+        "ref": "U4",
+        "pin": "11",
+        "name": "AIN0 / REFP1"
+      },
+      {
+        "ref": "R7",
+        "pin": "2",
+        "name": "2"
+      },
+      {
+        "ref": "C8",
+        "pin": "1",
+        "name": "1"
+      },
+      {
+        "ref": "C9",
+        "pin": "1",
+        "name": "1"
+      }
+    ],
+    "ANALOG_EN": [
+      {
+        "ref": "U1",
+        "pin": "2",
+        "name": "D1 / P0.03"
+      },
+      {
+        "ref": "U3",
+        "pin": "3",
+        "name": "EN"
+      },
+      {
+        "ref": "R6",
+        "pin": "1",
+        "name": "1"
+      }
+    ],
+    "BOOST_EN": [
+      {
+        "ref": "U1",
+        "pin": "1",
+        "name": "D0 / P0.02"
+      },
+      {
+        "ref": "U2",
+        "pin": "4",
+        "name": "EN"
+      },
+      {
+        "ref": "R5",
+        "pin": "1",
+        "name": "1"
+      }
+    ],
+    "BOOST_FB": [
+      {
+        "ref": "U2",
+        "pin": "3",
+        "name": "FB"
+      },
+      {
+        "ref": "R3",
+        "pin": "2",
+        "name": "2"
+      },
+      {
+        "ref": "R4",
+        "pin": "1",
+        "name": "1"
+      },
+      {
+        "ref": "C5",
+        "pin": "2",
+        "name": "2"
+      }
+    ],
+    "BOOST_SW": [
+      {
+        "ref": "U2",
+        "pin": "1",
+        "name": "SW"
+      },
+      {
+        "ref": "L1",
+        "pin": "2",
+        "name": "2"
+      },
+      {
+        "ref": "D1",
+        "pin": "2",
+        "name": "A"
+      }
+    ],
+    "BUTTON_N": [
+      {
+        "ref": "U1",
+        "pin": "5",
+        "name": "D4 / P0.04"
+      },
+      {
+        "ref": "R20",
+        "pin": "2",
+        "name": "2"
+      },
+      {
+        "ref": "R21",
+        "pin": "2",
+        "name": "2"
+      },
+      {
+        "ref": "C16",
+        "pin": "1",
+        "name": "1"
+      }
+    ],
+    "BUTTON_RAW": [
+      {
+        "ref": "SW2",
+        "pin": "A",
+        "name": "contact A"
+      },
+      {
+        "ref": "R21",
+        "pin": "1",
+        "name": "1"
+      }
+    ],
+    "ENDSTOP_N": [
+      {
+        "ref": "U1",
+        "pin": "6",
+        "name": "D5 / P0.05"
+      },
+      {
+        "ref": "Q1",
+        "pin": "3",
+        "name": "D"
+      },
+      {
+        "ref": "R19",
+        "pin": "2",
+        "name": "2"
+      }
+    ],
+    "END_CONTACT": [
+      {
+        "ref": "J3",
+        "pin": "1",
+        "name": "NC"
+      },
+      {
+        "ref": "SW1",
+        "pin": "NC",
+        "name": "NC"
+      },
+      {
+        "ref": "R17",
+        "pin": "2",
+        "name": "2"
+      },
+      {
+        "ref": "R18",
+        "pin": "1",
+        "name": "1"
+      }
+    ],
+    "END_GATE": [
+      {
+        "ref": "Q1",
+        "pin": "1",
+        "name": "G"
+      },
+      {
+        "ref": "R18",
+        "pin": "2",
+        "name": "2"
+      },
+      {
+        "ref": "C15",
+        "pin": "1",
+        "name": "1"
+      }
+    ],
+    "EXC_SENSE_N": [
+      {
+        "ref": "J2",
+        "pin": "6",
+        "name": "Sense- internal"
+      },
+      {
+        "ref": "R10",
+        "pin": "1",
+        "name": "1"
+      }
+    ],
+    "EXC_SENSE_P": [
+      {
+        "ref": "J2",
+        "pin": "5",
+        "name": "Sense+ internal"
+      },
+      {
+        "ref": "R9",
+        "pin": "1",
+        "name": "1"
+      }
+    ],
+    "GND": [
+      {
+        "ref": "U1",
+        "pin": "13",
+        "name": "GND"
+      },
+      {
+        "ref": "U1",
+        "pin": "BAT-",
+        "name": "bottom BAT-"
+      },
+      {
+        "ref": "J1",
+        "pin": "2",
+        "name": "battery -"
+      },
+      {
+        "ref": "BT1",
+        "pin": "-",
+        "name": "black -"
+      },
+      {
+        "ref": "C1",
+        "pin": "2",
+        "name": "2"
+      },
+      {
+        "ref": "R2",
+        "pin": "2",
+        "name": "2"
+      },
+      {
+        "ref": "C2",
+        "pin": "2",
+        "name": "2"
+      },
+      {
+        "ref": "U2",
+        "pin": "2",
+        "name": "GND"
+      },
+      {
+        "ref": "R4",
+        "pin": "2",
+        "name": "2"
+      },
+      {
+        "ref": "R5",
+        "pin": "2",
+        "name": "2"
+      },
+      {
+        "ref": "C3",
+        "pin": "2",
+        "name": "2"
+      },
+      {
+        "ref": "C4",
+        "pin": "2",
+        "name": "2"
+      },
+      {
+        "ref": "U3",
+        "pin": "2",
+        "name": "GND"
+      },
+      {
+        "ref": "R6",
+        "pin": "2",
+        "name": "2"
+      },
+      {
+        "ref": "C6",
+        "pin": "2",
+        "name": "2"
+      },
+      {
+        "ref": "C7",
+        "pin": "2",
+        "name": "2"
+      },
+      {
+        "ref": "U4",
+        "pin": "3",
+        "name": "CLK"
+      },
+      {
+        "ref": "U4",
+        "pin": "4",
+        "name": "DGND"
+      },
+      {
+        "ref": "U4",
+        "pin": "5",
+        "name": "AVSS"
+      },
+      {
+        "ref": "J2",
+        "pin": "4",
+        "name": "EXC- black"
+      },
+      {
+        "ref": "H1",
+        "pin": "BLACK",
+        "name": "V-"
+      },
+      {
+        "ref": "C9",
+        "pin": "2",
+        "name": "2"
+      },
+      {
+        "ref": "C10",
+        "pin": "2",
+        "name": "2"
+      },
+      {
+        "ref": "C12",
+        "pin": "2",
+        "name": "2"
+      },
+      {
+        "ref": "C13",
+        "pin": "2",
+        "name": "2"
+      },
+      {
+        "ref": "C14",
+        "pin": "2",
+        "name": "2"
+      },
+      {
+        "ref": "R15",
+        "pin": "2",
+        "name": "2"
+      },
+      {
+        "ref": "R16",
+        "pin": "2",
+        "name": "2"
+      },
+      {
+        "ref": "J3",
+        "pin": "2",
+        "name": "COM"
+      },
+      {
+        "ref": "SW1",
+        "pin": "COM",
+        "name": "COM"
+      },
+      {
+        "ref": "Q1",
+        "pin": "2",
+        "name": "S"
+      },
+      {
+        "ref": "C15",
+        "pin": "2",
+        "name": "2"
+      },
+      {
+        "ref": "SW2",
+        "pin": "B",
+        "name": "contact B"
+      },
+      {
+        "ref": "C16",
+        "pin": "2",
+        "name": "2"
+      }
+    ],
+    "REF_N": [
+      {
+        "ref": "U4",
+        "pin": "8",
+        "name": "REFN0"
+      },
+      {
+        "ref": "R10",
+        "pin": "2",
+        "name": "2"
+      },
+      {
+        "ref": "C11",
+        "pin": "2",
+        "name": "2"
+      }
+    ],
+    "REF_P": [
+      {
+        "ref": "U4",
+        "pin": "9",
+        "name": "REFP0"
+      },
+      {
+        "ref": "R9",
+        "pin": "2",
+        "name": "2"
+      },
+      {
+        "ref": "C11",
+        "pin": "1",
+        "name": "1"
+      }
+    ],
+    "SIG_N": [
+      {
+        "ref": "J2",
+        "pin": "3",
+        "name": "SIG- white"
+      },
+      {
+        "ref": "H1",
+        "pin": "WHITE",
+        "name": "O-"
+      },
+      {
+        "ref": "R8",
+        "pin": "1",
+        "name": "1"
+      }
+    ],
+    "SIG_P": [
+      {
+        "ref": "J2",
+        "pin": "2",
+        "name": "SIG+ yellow"
+      },
+      {
+        "ref": "H1",
+        "pin": "YELLOW",
+        "name": "O+"
+      },
+      {
+        "ref": "R7",
+        "pin": "1",
+        "name": "1"
+      }
+    ],
+    "SPI_MISO": [
+      {
+        "ref": "U1",
+        "pin": "10",
+        "name": "D9 / P1.14"
+      },
+      {
+        "ref": "U4",
+        "pin": "15",
+        "name": "DOUT"
+      }
+    ],
+    "SPI_MOSI_ADC": [
+      {
+        "ref": "U4",
+        "pin": "16",
+        "name": "DIN"
+      },
+      {
+        "ref": "R12",
+        "pin": "2",
+        "name": "2"
+      },
+      {
+        "ref": "R16",
+        "pin": "1",
+        "name": "1"
+      }
+    ],
+    "SPI_MOSI_MCU": [
+      {
+        "ref": "U1",
+        "pin": "11",
+        "name": "D10 / P1.15"
+      },
+      {
+        "ref": "R12",
+        "pin": "1",
+        "name": "1"
+      }
+    ],
+    "SPI_SCK_ADC": [
+      {
+        "ref": "U4",
+        "pin": "1",
+        "name": "SCLK"
+      },
+      {
+        "ref": "R11",
+        "pin": "2",
+        "name": "2"
+      },
+      {
+        "ref": "R15",
+        "pin": "1",
+        "name": "1"
+      }
+    ],
+    "SPI_SCK_MCU": [
+      {
+        "ref": "U1",
+        "pin": "9",
+        "name": "D8 / P1.13"
+      },
+      {
+        "ref": "R11",
+        "pin": "1",
+        "name": "1"
+      }
+    ],
+    "USB_PRESENT": [
+      {
+        "ref": "U1",
+        "pin": "7",
+        "name": "D6 / P1.11"
+      },
+      {
+        "ref": "R1",
+        "pin": "2",
+        "name": "2"
+      },
+      {
+        "ref": "R2",
+        "pin": "1",
+        "name": "1"
+      },
+      {
+        "ref": "C2",
+        "pin": "1",
+        "name": "1"
+      }
+    ],
+    "V3V3": [
+      {
+        "ref": "U1",
+        "pin": "12",
+        "name": "3V3 OUT"
+      },
+      {
+        "ref": "C1",
+        "pin": "1",
+        "name": "1"
+      },
+      {
+        "ref": "U2",
+        "pin": "5",
+        "name": "VIN"
+      },
+      {
+        "ref": "L1",
+        "pin": "1",
+        "name": "1"
+      },
+      {
+        "ref": "C3",
+        "pin": "1",
+        "name": "1"
+      },
+      {
+        "ref": "U4",
+        "pin": "13",
+        "name": "DVDD"
+      },
+      {
+        "ref": "C14",
+        "pin": "1",
+        "name": "1"
+      },
+      {
+        "ref": "R14",
+        "pin": "1",
+        "name": "1"
+      },
+      {
+        "ref": "R19",
+        "pin": "1",
+        "name": "1"
+      },
+      {
+        "ref": "R20",
+        "pin": "1",
+        "name": "1"
+      }
+    ],
+    "V5A": [
+      {
+        "ref": "U3",
+        "pin": "5",
+        "name": "OUT"
+      },
+      {
+        "ref": "C7",
+        "pin": "1",
+        "name": "1"
+      },
+      {
+        "ref": "U4",
+        "pin": "12",
+        "name": "AVDD"
+      },
+      {
+        "ref": "J2",
+        "pin": "1",
+        "name": "EXC+ red"
+      },
+      {
+        "ref": "H1",
+        "pin": "RED",
+        "name": "V+"
+      },
+      {
+        "ref": "C12",
+        "pin": "1",
+        "name": "1"
+      },
+      {
+        "ref": "C13",
+        "pin": "1",
+        "name": "1"
+      },
+      {
+        "ref": "R17",
+        "pin": "1",
+        "name": "1"
+      }
+    ],
+    "VBAT": [
+      {
+        "ref": "U1",
+        "pin": "BAT+",
+        "name": "bottom BAT+"
+      },
+      {
+        "ref": "J1",
+        "pin": "1",
+        "name": "battery +"
+      },
+      {
+        "ref": "BT1",
+        "pin": "+",
+        "name": "red +"
+      }
+    ],
+    "VBOOST": [
+      {
+        "ref": "D1",
+        "pin": "1",
+        "name": "K"
+      },
+      {
+        "ref": "R3",
+        "pin": "1",
+        "name": "1"
+      },
+      {
+        "ref": "C4",
+        "pin": "1",
+        "name": "1"
+      },
+      {
+        "ref": "C5",
+        "pin": "1",
+        "name": "1"
+      },
+      {
+        "ref": "U3",
+        "pin": "1",
+        "name": "IN"
+      },
+      {
+        "ref": "C6",
+        "pin": "1",
+        "name": "1"
+      }
+    ],
+    "VBUS_USB": [
+      {
+        "ref": "U1",
+        "pin": "14",
+        "name": "VBUS / 5V"
+      },
+      {
+        "ref": "R1",
+        "pin": "1",
+        "name": "1"
+      }
+    ]
+  },
+  "sources": {
+    "xiao": "https://files.seeedstudio.com/wiki/XIAO-BLE/Res/260828_XIAO_nRF52840.pdf",
+    "adc": "https://www.ti.com/lit/ds/symlink/ads1220.pdf",
+    "boost": "https://www.ti.com/lit/ds/symlink/tps61041.pdf",
+    "ldo": "https://www.ti.com/lit/ds/symlink/tps7a20.pdf",
+    "sensor": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocFormat=pdf&DocLang=English&DocNm=FX19&DocType=Data+Sheet&PartCntxt=FX1901-0001-0200-L",
+    "switch": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-ss.pdf",
+    "battery": "https://cdn-shop.adafruit.com/product-files/1570/1570datasheet.pdf",
+    "jst": "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf",
+    "button": "https://industry.panasonic.com/global/en/products/control/switch/light-touch/number/evqpuc02k",
+    "mosfet": "https://assets.nexperia.com/documents/data-sheet/2N7002.pdf",
+    "diode": "https://www.onsemi.com/pdf/datasheet/mbr0520lt1-d.pdf",
+    "inductor": "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xfl/xfl3012/xfl3012-103/"
+  }
+}

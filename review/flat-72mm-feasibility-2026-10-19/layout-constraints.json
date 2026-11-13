@@ -1,0 +1,143 @@
+{
+  "status": "ANALYSIS_ONLY",
+  "date": "2026-10-19",
+  "accepted_user_requirement": "72 mm clear finger width; this overrides the earlier92 mm design/scan-derived target.",
+  "baseline_source_sha256": "43a2dc70e3eed4308534da7772f4b82bf845c97d6f6a53456d0d63aa9552fb33",
+  "scope": "Independent dimensional feasibility for a flat32 mm-height device with existing purchased spring/rod/seat/lock hardware; no full model, Onshape change or qualification.",
+  "kept_nominal_hardware_and_geometry": {
+    "clear_opening_mm": 72,
+    "pocket_depth_mm": 20,
+    "grip_wall_each_mm": 6,
+    "grip_deck_width_mm": 84,
+    "seat_od_mm": 22,
+    "rod_od_mm": 6,
+    "rod_length_mm": 146,
+    "spring_pairs": [
+      "0X-DF2194",
+      "0X-DF2185"
+    ],
+    "max_spring_od_mm": 14.8,
+    "lock_od_id_length_mm": [
+      16,
+      8,
+      86
+    ],
+    "rear_support_width_mm": 24,
+    "outer_border_mm": 3,
+    "stroke_mm": 30,
+    "preload_mm": [
+      0,
+      2
+    ],
+    "height_mm": 32
+  },
+  "simple_bounds": {
+    "unrelieved_formula": "72+12+2*(11+1+12+3)=138 mm",
+    "local_relief_formula": "deck_half42 + lock_radius8 + clearance1 => spring_axis51; 2*(51+12+3)=132 mm",
+    "local_relief": "A localR12 moving-seat relief behindthe protected pocket can accommodate the22mm seats while preserving the72mm opening; actual ligament/assembly checks remain required.",
+    "zero_wall_mathematical_bound": "72+2*(8+1+12+3)=120 mm using onlyOD16 lock clearance, zero pocket sidewall; not a practical design.",
+    "100mm_same_stack": "100 mm with24mm supports+3mm borders leaves axes atY\u00b135; OD16 locks would extend inward toY\u00b127, inside a72mm openingY\u00b136. Thus100 mm cannot keep this same axial/height stack without moving components away fromthe grip zone."
+  },
+  "front_mount_corridor": {
+    "sensor_wall_outer_abs_y_mm": 24,
+    "desired_gap_each_side_mm": 2,
+    "palm_ear_width_mm": 21,
+    "two_M4_hole_pitch_mm": 11,
+    "head_counterbore_od_mm": 8,
+    "head_to_ear_edge_ligament_mm": 1,
+    "layouts": [
+      {
+        "frame_width_mm": 138,
+        "spring_axis_abs_y_mm": 54,
+        "front_support_inner_abs_y_mm": 42,
+        "available_palm_ear_corridor_mm": [
+          26,
+          40
+        ],
+        "available_ear_width_mm": 14,
+        "original_ear_width_mm": 21,
+        "original_two_M4_rows_fit": false,
+        "coil_OD14_8_to_deck_gap_mm": 4.600000000000001,
+        "lock_OD16_to_deck_gap_mm": 4.0,
+        "seat_OD22_to_deck_gap_unrelieved_mm": 1.0
+      },
+      {
+        "frame_width_mm": 132,
+        "spring_axis_abs_y_mm": 51,
+        "front_support_inner_abs_y_mm": 39,
+        "available_palm_ear_corridor_mm": [
+          26,
+          37
+        ],
+        "available_ear_width_mm": 11,
+        "original_ear_width_mm": 21,
+        "original_two_M4_rows_fit": false,
+        "coil_OD14_8_to_deck_gap_mm": 1.6000000000000014,
+        "lock_OD16_to_deck_gap_mm": 1.0,
+        "seat_OD22_to_deck_gap_unrelieved_mm": -2.0
+      },
+      {
+        "frame_width_mm": 152,
+        "spring_axis_abs_y_mm": 61,
+        "front_support_inner_abs_y_mm": 49,
+        "available_palm_ear_corridor_mm": [
+          26,
+          47
+        ],
+        "available_ear_width_mm": 21,
+        "original_ear_width_mm": 21,
+        "original_two_M4_rows_fit": true,
+        "coil_OD14_8_to_deck_gap_mm": 11.600000000000001,
+        "lock_OD16_to_deck_gap_mm": 11.0,
+        "seat_OD22_to_deck_gap_unrelieved_mm": 8.0
+      }
+    ],
+    "unchanged_mount_lower_bound": "26+21+2+12=61 mm spring axis; frame2*(61+12+3)=152 mm evenif the finger opening is only72 mm.",
+    "132_ear_shift_problem": "Moving the existing21mm ears inward13 mm givesY16..37. They overlap the fixed sensor wallY0..24; M4heads and bores also intrude into it. This is a real redesign requirement, not a safe parameter shift.",
+    "138_ear_shift_problem": "Only14mm remains between the sensor wall and front rod support, still7mm less than the existing21mm ear.",
+    "possible_new_mount": "A singleM4 per side can geometricallyfit an11mm wing atY26..37 withcenter\u00b131.5 and1.5mm nominal head edge margin. This halves bolt count and is not an equivalent joint; a different bracket/anchor/load-spreading design must be qualified.",
+    "longitudinal_hole_pair": "TwoM4counterbores do notfit within the current13mm-X by11mm-Y wing while retaining edge margins. Moving anchors alongX interacts with the existing enclosure onthe wrist side and P05yoke onthe front side.",
+    "front_block_stagger": "Simply moving fixed rod blocks forward runs into the floating yoke or compression springs; moving them rearward enters the palm/core/enclosure and changes146mm rod engagement. Longitudinal staggering is a new architecture, not automatically feasible."
+  },
+  "click_and_stop_constraints": {
+    "existing_switch_body_envelope_mm": [
+      [
+        14,
+        -54,
+        6
+      ],
+      [
+        24.2,
+        -34.2,
+        12.4
+      ]
+    ],
+    "existing_spring_axis_abs_y_mm": 64,
+    "candidate_axes_abs_y_mm": [
+      51,
+      54
+    ],
+    "coil_envelope_conflict": "At the narrower axes, the present switchbody overlaps the lower inner sector ofthe spring envelope over multiple coil pitches.",
+    "naive_inward_click_shift": "Moving the switch and cam inward7..10mm clears the spring but moves the cam head nearY\u221227.5..\u221224.5 into the negativeM4 stop blockY\u221229..\u221219 at roughly29..30mm stroke.",
+    "coordinated_option": "Shift the entire switch/pedestal/lever/roller/cam feature andH10 about+37mmY, putting camY+2.5 and bodyY\u221217..2.8. This can clear both side springs and stop rows in principle. The existing female guide cut must also be applied to the relocated cam underside.",
+    "further_conflicts": "The central switch position conflicts with the existing front bench mounting/countersinks and insert locations. Relocate optional bench mounts and verify installation/tool access, all0..30mm travel, preload0..2, and NCactivation lead beforethe hard stop.",
+    "electrical_effect": "Same NCswitch/contact and firmware interface can be retained nominally; physical trip position and wire routing need requalification."
+  },
+  "palm_and_electronics_envelopes": {
+    "existing_palm_plate_width_mm": 128,
+    "existing_enclosure_with_mount_span_mm": 124,
+    "fit_inside132_nominally": true,
+    "caveat": "Their global width fits, but global bounding-boxfit doesnot resolve the front ear/rod/sensor-wall interference or mounting strength."
+  },
+  "candidate_recommendation": {
+    "132mm": "Credible flat packaging target to model only after designing a new palm attachment and coordinated central click/bench arrangement. Retain current spring/seats/rods/locks and protected72mm grip; no full-model or strength pass claimed.",
+    "138mm": "Simpler unrelieved spring-seat packaging, but still requires a new palm attachment and click layout; original mount cannot be preserved.",
+    "152mm": "Available if keeping original-width palm ears and nominal2mm front clearances is moreimportant than further width reduction.",
+    "100mm": "Not established flat with the same compact spring stack; requires major longitudinal rearrangement, a new transmission, different hardware or different operating modes."
+  },
+  "limitations": [
+    "Nominal scalarforce law1:1 and spring lengths can remain unchanged at132/138, but friction, off-axis response, stiffness, fatigue and accuracy are not established.",
+    "The72mm opening is treated as the user-specified requirement; the previous92mm assumption is not reimposed. Physical fit still needs a prototype.",
+    "No current CAD, prior study, production package, firmware or Onshape state is edited."
+  ]
+}

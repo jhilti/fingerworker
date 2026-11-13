@@ -1,0 +1,248 @@
+{
+  "status": "INCOMPLETE",
+  "scope": "Nominal native solid geometry, no fabricated material/load/fatigue/comfort qualification",
+  "validator_sha256": "192e9233372d2bc0d1a253032a8d0ea7f384e0cd6537f7679b7c2c0ef6da51e5",
+  "manifest_sha256": "aa2654d9756d70b9bf338420f00f2050260829a32c45a5b5987b087529fc7a72",
+  "manifest": {
+    "schema_version": 1,
+    "status": "TEMPLATE_NOT_VALIDATION",
+    "native_provenance": {
+      "workspace_url": "PENDING",
+      "feature_source_sha256": "PENDING"
+    },
+    "assembly": "PENDING_NATIVE_NEUTRAL_STL.zip",
+    "feature_source": "PENDING_REVISED_SOURCE.fs",
+    "expected_device_refs": [
+      "H01",
+      "H02",
+      "H030",
+      "H031",
+      "H040",
+      "H041",
+      "H050",
+      "H051",
+      "H060",
+      "H061",
+      "H070",
+      "H071",
+      "H080",
+      "H081",
+      "H09",
+      "H09a",
+      "H09b",
+      "H10",
+      "H11",
+      "H12",
+      "H13",
+      "H15",
+      "H160",
+      "H161",
+      "H170",
+      "H171",
+      "H180",
+      "H181",
+      "H190",
+      "H191",
+      "H20",
+      "H21",
+      "H22",
+      "P01",
+      "P02",
+      "P03",
+      "P04",
+      "P05",
+      "P060",
+      "P061",
+      "P070a",
+      "P070b",
+      "P071a",
+      "P071b",
+      "P08",
+      "P09",
+      "P10"
+    ],
+    "expected_electronics_count": 53,
+    "volume_tolerance_mm3": 0.01,
+    "gap_search_mm": 2.0,
+    "minimum_interval_mm": 0.0625,
+    "ignore_member_patterns": [],
+    "member_ref_overrides": {},
+    "motion_overrides": {},
+    "contacts": [
+      {
+        "pair": [
+          "H01",
+          "H02"
+        ],
+        "kind": "exterior_contact",
+        "reason": "Spherical load button/pusher contact: no volume overlap permitted"
+      },
+      {
+        "pair": [
+          "H01",
+          "H12"
+        ],
+        "kind": "exterior_contact",
+        "reason": "Rear support contact: no volume overlap permitted"
+      },
+      {
+        "pair": [
+          "P02",
+          "P03"
+        ],
+        "kind": "nominal_soft_fit",
+        "maximum_intersection_volume_mm3": 0.01,
+        "reason": "Set only after exact matching nominal surfaces are independently established; do not grandfather a changed interference"
+      }
+    ],
+    "sensor": {
+      "ref": "H01",
+      "canonical_placed_step": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/actual-sensor-cad-2026-10-22/sensor/TE_FX1901_actual_apex_aligned_132_mm.step",
+      "canonical_sha256": "241c8b522707e9ce3b611db3c783d6c9e3bd6e492175c530d5e9795d9dc98097",
+      "native_assembly_step": "PENDING_NATIVE_ASSEMBLY.step",
+      "additional_rigid_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "brep_volume_tolerance_mm3": 0.0001
+    },
+    "native_poses": [
+      {
+        "mode": "dynamic",
+        "stroke_mm": 25,
+        "preload_mm": 0,
+        "assembly": "PENDING_NATIVE_POSE.zip"
+      },
+      {
+        "mode": "dynamic",
+        "stroke_mm": 27,
+        "preload_mm": 0,
+        "assembly": "PENDING_NATIVE_POSE.zip"
+      },
+      {
+        "mode": "dynamic",
+        "stroke_mm": 30,
+        "preload_mm": 0,
+        "assembly": "PENDING_NATIVE_POSE.zip"
+      },
+      {
+        "mode": "dynamic",
+        "stroke_mm": 30,
+        "preload_mm": 2,
+        "assembly": "PENDING_NATIVE_POSE.zip"
+      },
+      {
+        "mode": "isometric",
+        "stroke_mm": 15,
+        "preload_mm": 0,
+        "assembly": "PENDING_NATIVE_ISOMETRIC.zip"
+      },
+      {
+        "mode": "isometric",
+        "stroke_mm": 13,
+        "preload_mm": 2,
+        "assembly": "PENDING_NATIVE_ISOMETRIC.zip"
+      }
+    ],
+    "dimension_checks": [
+      {
+        "name": "132 mm fixed-frame width",
+        "type": "bounds",
+        "ref": "P01",
+        "component": "extent",
+        "axis": 1,
+        "expected_mm": 132.0,
+        "tolerance_mm": 0.02
+      },
+      {
+        "name": "72 mm finger-pocket inner width at X94/Z20",
+        "type": "ray_levels",
+        "ref": "P04",
+        "origin_mm": [
+          94,
+          -200,
+          20
+        ],
+        "direction": [
+          0,
+          1,
+          0
+        ],
+        "axis": 1,
+        "level_indices": [
+          2,
+          1
+        ],
+        "expected_mm": 72.0,
+        "tolerance_mm": 0.02
+      }
+    ],
+    "material_and_clearance_probes": [],
+    "required_native_pose_keys": [
+      "dynamic:25:0",
+      "dynamic:27:0",
+      "dynamic:30:0",
+      "dynamic:30:2",
+      "isometric:15:0",
+      "isometric:13:2"
+    ]
+  },
+  "runtime": {
+    "numpy": "2.5.4",
+    "trimesh": "5.1.1",
+    "manifold3d": "3.5.4",
+    "cadquery-ocp": "8.0.1.1.0"
+  },
+  "limitations": [
+    "Native exports and source association are operator-declared and hash-bound; this script does not regenerate Onshape.",
+    "STL intersection tolerance is numerical, not a permitted design penetration or print clearance.",
+    "Discrete articulated pose checks do not certify continuous switch articulation; source kinematics and physical switch still need review.",
+    "Selected wall-ray/probe checks do not establish a global minimum wall or strength.",
+    "No hand-volume clearance is inferred from an open scan in a provisional registration. No comfort qualification.",
+    "No spring fatigue/coil-bind or load-cell electrical/calibration qualification is established."
+  ],
+  "preflight": [
+    {
+      "name": "Native input availability",
+      "status": "UNCHECKED",
+      "reason": "FileNotFoundError(2, 'No such file or directory')"
+    }
+  ],
+  "mesh_inventory": {},
+  "static_pairs": [],
+  "continuous_pairs": [],
+  "native_poses": [],
+  "dimension_checks": [],
+  "material_and_clearance_probes": [],
+  "spring_envelopes": [],
+  "failed_checks": 0,
+  "unresolved_checks": 2,
+  "elapsed_seconds": 0.005829166853800416,
+  "articulated_continuous_qualification": "NOT_ESTABLISHED; regenerated discrete poses only",
+  "manufacture_release": "NOT_ISSUED_BY_GEOMETRY_SCRIPT",
+  "status_counts": {
+    "UNCHECKED": 2
+  }
+}

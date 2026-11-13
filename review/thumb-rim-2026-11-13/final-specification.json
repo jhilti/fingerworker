@@ -1,0 +1,1346 @@
+{
+  "revision": "Flat132 R19 rounded thumb rims and rigid mounts",
+  "date": "2026-11-13",
+  "status": "PASS_NATIVE_CAD_PRINT_SETUP_DEFERRED",
+  "source_sha256": "0e88e273e2e9bc436b2844a44f04b28fb094593c0af87a2127d792bbb56f016d",
+  "onshape_version": "21323818480a2406fe14f51f",
+  "onshape_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/21323818480a2406fe14f51f/e/d253eb87b70818ebde8215f0",
+  "changed": [
+    "P01",
+    "P06",
+    "P08"
+  ],
+  "new": [
+    "P06L",
+    "P06R"
+  ],
+  "removed": [
+    "P06"
+  ],
+  "native_solids": 94,
+  "unchanged_exact_native_breps": 90,
+  "changed_mechanical_parts": [
+    "P01",
+    "P06L",
+    "P06R"
+  ],
+  "optional_electronics_parts": [
+    "P08"
+  ],
+  "printed_device_bodies": 8,
+  "verification": {
+    "review/thumb-rim-2026-11-13/validation/native-integration.json": {
+      "status": "PASS_NATIVE_R19_INTEGRATION",
+      "sha256": "fecf2a65c996a937433176ea9ecaca8bfb1b4c2227122a366f4235e600b6bbed"
+    },
+    "review/thumb-rim-2026-11-13/validation/native-rim-check.json": {
+      "status": "PASS_NATIVE_R19_RIM_CHECK",
+      "sha256": "c0bf1e995330be39b16d27b957f4ed9d3bc66c9aa544c34f0874a58516ba857a"
+    },
+    "review/thumb-rim-2026-11-13/validation/native-release-binding.json": {
+      "status": "PASS_NATIVE_R19_SOURCE_EXPORT_REPORT_BINDING",
+      "sha256": "a6c74eb45f10d05f749df06dc2c7a69020f89eea2ba8d6e152f35fe54afff56d"
+    }
+  },
+  "design": {
+    "revision": "R19",
+    "source_sha256": "0e88e273e2e9bc436b2844a44f04b28fb094593c0af87a2127d792bbb56f016d",
+    "onshape_version": "21323818480a2406fe14f51f",
+    "palm": {
+      "organic_shape": "R18 native loft retained",
+      "crown_z_mm": 34.5,
+      "wrist_extent_x_mm": -31,
+      "upper_rim_radius_controls_mm": 2,
+      "wrist_rim_radius_controls_mm": 1,
+      "lower_rim_radius_mm": 0.4,
+      "variable_transition": true
+    },
+    "rigid_mounts": {
+      "status": "PASS_LOCAL_RIGID_MOUNTS",
+      "baseline_step_sha256": "0d9ebb0777c35ebf687c59578362a1323a9cab3a00922be858c1d03695f023ee",
+      "generator_sha256": "7b8224a69351d31e42621610e363e2ec4d4d7e20f3832e99799a98bc8a88f5db",
+      "changed_refs": [
+        "P01",
+        "P06",
+        "P08"
+      ],
+      "new_refs": [
+        "P06L",
+        "P06R"
+      ],
+      "removed_ref": "P06",
+      "native_part_count_expected": 94,
+      "rear": {
+        "blocks": 2,
+        "identical_translated_y_mm": 102,
+        "dimensions_mm": [
+          10,
+          28,
+          23.5
+        ],
+        "fasteners": "4 existing M3x8,2 per block; existing M3 inserts",
+        "rod_socket": "unchanged6.2mm socket and teardrop roof",
+        "assembly": "Slide each block axially over its rod, seat on original feet, fit both screws. Remove screws before+X12mm withdrawal."
+      },
+      "tray": {
+        "fasteners": "2 M2x8 screws and existing M2 OD3.2 x3mm inserts",
+        "hole_centers_mm": [
+          [
+            -26.5,
+            -59
+          ],
+          [
+            -26.5,
+            59
+          ]
+        ],
+        "through_diameter_mm": 2.2,
+        "flat_land_z_mm": [
+          4,
+          9.5
+        ],
+        "nominal_engagement_mm": 2.5,
+        "insert_cavity_z_mm": [
+          9.5,
+          13.5
+        ],
+        "insert_envelope_z_mm": [
+          9.5,
+          12.5
+        ],
+        "screw_head_envelope": {
+          "diameter_mm": 3.8,
+          "height_mm": 1.6,
+          "bearing_plane_z_mm": 4
+        },
+        "driver_approach_diameter_mm": 5,
+        "screw_washer": false,
+        "pad_xy_mm": [
+          5,
+          8
+        ],
+        "root_xy_mm": [
+          5.2,
+          2.2
+        ],
+        "release": "Remove2M2 screws, lower tray20mm; no flexing.",
+        "P09_lid_unchanged": true
+      },
+      "source_patch_ranges": [
+        "P08 old ears24..31 and R11Traypalm clips replaced by rigid ears",
+        "P06 bridge/latches/frame catches removed; original2rod blocks kept",
+        "audit rear query covers both blocks"
+      ],
+      "checks": [
+        {
+          "name": "Valid single solid P06L",
+          "status": "PASS"
+        },
+        {
+          "name": "Valid single solid P06R",
+          "status": "PASS"
+        },
+        {
+          "name": "Valid single solid P08",
+          "status": "PASS"
+        },
+        {
+          "name": "Valid single solid P01_without_rear_catches",
+          "status": "PASS"
+        },
+        {
+          "name": "Rear blocks identical after102mm Y translation",
+          "status": "PASS"
+        },
+        {
+          "name": "Rear support stock is unchanged P06L",
+          "status": "PASS"
+        },
+        {
+          "name": "Rear support stock is unchanged P06R",
+          "status": "PASS"
+        },
+        {
+          "name": "P06L seated overlap does not increase P01",
+          "status": "PASS",
+          "overlap_mm3": 0.0,
+          "baseline_mm3": 0.0
+        },
+        {
+          "name": "P06L seated overlap does not increase P04",
+          "status": "PASS",
+          "overlap_mm3": 0.0,
+          "baseline_mm3": 0.0
+        },
+        {
+          "name": "P06L seated overlap does not increase P05",
+          "status": "PASS",
+          "overlap_mm3": 0.0,
+          "baseline_mm3": 0.0
+        },
+        {
+          "name": "P06L seated overlap does not increase P09",
+          "status": "PASS",
+          "overlap_mm3": 0.0,
+          "baseline_mm3": 0.0
+        },
+        {
+          "name": "P06L seated overlap does not increase E01",
+          "status": "PASS",
+          "overlap_mm3": 0.0,
+          "baseline_mm3": 0.0
+        },
+        {
+          "name": "P06L seated overlap does not increase E05",
+          "status": "PASS",
+          "overlap_mm3": 0.0,
+          "baseline_mm3": 0.0
+        },
+        {
+          "name": "P06L seated overlap does not increase E06",
+          "status": "PASS",
+          "overlap_mm3": 0.0,
+          "baseline_mm3": 0.0
+        },
+        {
+          "name": "P06L seated overlap does not increase E07",
+          "status": "PASS",
+          "overlap_mm3": 0.0,
+          "baseline_mm3": 0.0
+        },
+        {
+          "name": "P06L seated overlap does not increase E08",
+          "status": "PASS",
+          "overlap_mm3": 0.0,
+          "baseline_mm3": 0.0
+        },
+        {
+          "name": "P06R seated overlap does not increase P01",
+          "status": "PASS",
+          "overlap_mm3": 0.0,
+          "baseline_mm3": 0.0
+        },
+        {
+          "name": "P06R seated overlap does not increase P04",
+          "status": "PASS",
+          "overlap_mm3": 0.0,
+          "baseline_mm3": 0.0
+        },
+        {
+          "name": "P06R seated overlap does not increase P05",
+          "status": "PASS",
+          "overlap_mm3": 0.0,
+          "baseline_mm3": 0.0
+        },
+        {
+          "name": "P06R seated overlap does not increase P09",
+          "status": "PASS",
+          "overlap_mm3": 0.0,
+          "baseline_mm3": 0.0
+        },
+        {
+          "name": "P06R seated overlap does not increase E01",
+          "status": "PASS",
+          "overlap_mm3": 0.0,
+          "baseline_mm3": 0.0
+        },
+        {
+          "name": "P06R seated overlap does not increase E05",
+          "status": "PASS",
+          "overlap_mm3": 0.0,
+          "baseline_mm3": 0.0
+        },
+        {
+          "name": "P06R seated overlap does not increase E06",
+          "status": "PASS",
+          "overlap_mm3": 0.0,
+          "baseline_mm3": 0.0
+        },
+        {
+          "name": "P06R seated overlap does not increase E07",
+          "status": "PASS",
+          "overlap_mm3": 0.0,
+          "baseline_mm3": 0.0
+        },
+        {
+          "name": "P06R seated overlap does not increase E08",
+          "status": "PASS",
+          "overlap_mm3": 0.0,
+          "baseline_mm3": 0.0
+        },
+        {
+          "name": "P08 seated overlap does not increase P01",
+          "status": "PASS",
+          "overlap_mm3": 0.0,
+          "baseline_mm3": 0.0
+        },
+        {
+          "name": "P08 seated overlap does not increase P04",
+          "status": "PASS",
+          "overlap_mm3": 0.0,
+          "baseline_mm3": 0.0
+        },
+        {
+          "name": "P08 seated overlap does not increase P05",
+          "status": "PASS",
+          "overlap_mm3": 0.0,
+          "baseline_mm3": 0.0
+        },
+        {
+          "name": "P08 seated overlap does not increase P09",
+          "status": "PASS",
+          "overlap_mm3": 0.0,
+          "baseline_mm3": 0.0
+        },
+        {
+          "name": "P08 seated overlap does not increase E01",
+          "status": "PASS",
+          "overlap_mm3": 0.0,
+          "baseline_mm3": 0.0
+        },
+        {
+          "name": "P08 seated overlap does not increase E05",
+          "status": "PASS",
+          "overlap_mm3": 0.0,
+          "baseline_mm3": 0.0
+        },
+        {
+          "name": "P08 seated overlap does not increase E06",
+          "status": "PASS",
+          "overlap_mm3": 0.0,
+          "baseline_mm3": 0.0
+        },
+        {
+          "name": "P08 seated overlap does not increase E07",
+          "status": "PASS",
+          "overlap_mm3": 0.0,
+          "baseline_mm3": 0.0
+        },
+        {
+          "name": "P08 seated overlap does not increase E08",
+          "status": "PASS",
+          "overlap_mm3": 0.0,
+          "baseline_mm3": 0.0
+        },
+        {
+          "name": "M2 head seating clearance -1 P08",
+          "status": "PASS"
+        },
+        {
+          "name": "5mm driver approach from below -1 P08",
+          "status": "PASS"
+        },
+        {
+          "name": "M2 head seating clearance -1 P01",
+          "status": "PASS"
+        },
+        {
+          "name": "5mm driver approach from below -1 P01",
+          "status": "PASS"
+        },
+        {
+          "name": "M2 head seating clearance -1 P09",
+          "status": "PASS"
+        },
+        {
+          "name": "5mm driver approach from below -1 P09",
+          "status": "PASS"
+        },
+        {
+          "name": "M2x8 shank through ear and into pilot -1",
+          "status": "PASS"
+        },
+        {
+          "name": "Existing3.2x3mm insert cavity retained -1",
+          "status": "PASS"
+        },
+        {
+          "name": "M2 head seating clearance 1 P08",
+          "status": "PASS"
+        },
+        {
+          "name": "5mm driver approach from below 1 P08",
+          "status": "PASS"
+        },
+        {
+          "name": "M2 head seating clearance 1 P01",
+          "status": "PASS"
+        },
+        {
+          "name": "5mm driver approach from below 1 P01",
+          "status": "PASS"
+        },
+        {
+          "name": "M2 head seating clearance 1 P09",
+          "status": "PASS"
+        },
+        {
+          "name": "5mm driver approach from below 1 P09",
+          "status": "PASS"
+        },
+        {
+          "name": "M2x8 shank through ear and into pilot 1",
+          "status": "PASS"
+        },
+        {
+          "name": "Existing3.2x3mm insert cavity retained 1",
+          "status": "PASS"
+        },
+        {
+          "name": "Rigid tray downward withdrawal 0",
+          "status": "PASS",
+          "overlap_mm3": 0.0
+        },
+        {
+          "name": "Rigid tray downward withdrawal -0.25",
+          "status": "PASS",
+          "overlap_mm3": 0.0
+        },
+        {
+          "name": "Rigid tray downward withdrawal -1",
+          "status": "PASS",
+          "overlap_mm3": 0.0
+        },
+        {
+          "name": "Rigid tray downward withdrawal -5",
+          "status": "PASS",
+          "overlap_mm3": 0.0
+        },
+        {
+          "name": "Rigid tray downward withdrawal -10",
+          "status": "PASS",
+          "overlap_mm3": 0.0
+        },
+        {
+          "name": "Rigid tray downward withdrawal -20",
+          "status": "PASS",
+          "overlap_mm3": 0.0
+        }
+      ],
+      "failures": [],
+      "limitations": [
+        "Nominal CAD and screw engagement only; no printed strength, heat-set insert retention or loaded hardware qualification."
+      ],
+      "label_only_followup": "Source transformation labels require screws; geometry/check definitions unchanged."
+    },
+    "native_rim_measurements": {
+      "status": "PASS_NATIVE_R19_RIM_CHECK",
+      "source_sha256": "0e88e273e2e9bc436b2844a44f04b28fb094593c0af87a2127d792bbb56f016d",
+      "version_id": "21323818480a2406fe14f51f",
+      "native_step_sha256": "41e4eb637ab9e78ca54be588712bfb05ad9d8f5ae5f34467a685cc422142819f",
+      "native_zip_sha256": "344ca98f4147832b2a324c125df42c90b9d522f1617d554154b82e82312bc8b7",
+      "probe_report_sha256": "410d9d115048a621526f2a59dbf9c6f798a43ad5ae3b2e1684ac6429907748f3",
+      "native_integration_sha256": "fecf2a65c996a937433176ea9ecaca8bfb1b4c2227122a366f4235e600b6bbed",
+      "method": "The complete front region of final native P01 is geometrically identical to the isolated measured native rim probe.",
+      "probe_measurements": {
+        "status": "PASS_NATIVE_R19_RIM_PROBE",
+        "source_sha256": "b5dd5d89f56a76fbb0dd57891c3835278440a3747937f94eab8598030d076448",
+        "native_step_sha256": "1d93e676b9d83e26aaadba80ad6021640d0c15f43e9653c8edabbdf9b075bec2",
+        "baseline_native_step_sha256": "0d9ebb0777c35ebf687c59578362a1323a9cab3a00922be858c1d03695f023ee",
+        "baseline_release_binding_sha256": "dc5374e2b1fb6d3ee5e5a0fb15b66836e1e9747f6224bb9b15562bd26d7a69e1",
+        "probe_binding_sha256": "b097fe747a9fc83ed22ab4a1cddcc23402000168c6e74778c0a3d09c93715a50",
+        "validator_sha256": "9d5038602a829227a4ebee5d28048c6b7bdbf17869ec1c03f8553ddd0ecdf472",
+        "functional_boolean_boundary_tolerance_mm": 1e-06,
+        "checks": [
+          {
+            "name": "One valid native P01 solid and shell",
+            "status": "PASS"
+          },
+          {
+            "name": "Protected native region unchanged: lower_frame",
+            "status": "PASS",
+            "bounds_mm": [
+              [
+                -50,
+                -70,
+                -5
+              ],
+              [
+                140,
+                70,
+                21.49
+              ]
+            ],
+            "added_solids": 0,
+            "removed_solids": 0,
+            "added_faces": 0,
+            "removed_faces": 0
+          },
+          {
+            "name": "Protected native region unchanged: central_palm_and_sensor",
+            "status": "PASS",
+            "bounds_mm": [
+              [
+                -50,
+                -58.7,
+                -5
+              ],
+              [
+                140,
+                58.7,
+                40
+              ]
+            ],
+            "added_solids": 0,
+            "removed_solids": 0,
+            "added_faces": 0,
+            "removed_faces": 0
+          },
+          {
+            "name": "Protected native region unchanged: front_of_rims",
+            "status": "PASS",
+            "bounds_mm": [
+              [
+                -12,
+                -70,
+                21.49
+              ],
+              [
+                140,
+                70,
+                40
+              ]
+            ],
+            "added_solids": 0,
+            "removed_solids": 0,
+            "added_faces": 0,
+            "removed_faces": 0
+          },
+          {
+            "name": "Protected native region unchanged: wristward_of_rims",
+            "status": "PASS",
+            "bounds_mm": [
+              [
+                -50,
+                -70,
+                21.49
+              ],
+              [
+                -32,
+                70,
+                40
+              ]
+            ],
+            "added_solids": 0,
+            "removed_solids": 0,
+            "added_faces": 0,
+            "removed_faces": 0
+          },
+          {
+            "name": "Protected native region unchanged: above_rims",
+            "status": "PASS",
+            "bounds_mm": [
+              [
+                -50,
+                -70,
+                33.2
+              ],
+              [
+                140,
+                70,
+                40
+              ]
+            ],
+            "added_solids": 0,
+            "removed_solids": 0,
+            "added_faces": 0,
+            "removed_faces": 0
+          },
+          {
+            "name": "Entire possible rim-change domain clears full travel P04",
+            "status": "PASS",
+            "clearance_lower_bound_mm": 41.9999999,
+            "travel_interval_mm": [
+              -30,
+              0
+            ]
+          },
+          {
+            "name": "Entire possible rim-change domain clears full travel H060",
+            "status": "PASS",
+            "clearance_lower_bound_mm": 89.9999999,
+            "travel_interval_mm": [
+              -30,
+              0
+            ]
+          },
+          {
+            "name": "Entire possible rim-change domain clears full travel H061",
+            "status": "PASS",
+            "clearance_lower_bound_mm": 89.9999999,
+            "travel_interval_mm": [
+              -30,
+              0
+            ]
+          },
+          {
+            "name": "Entire possible rim-change domain clears full travel P11",
+            "status": "PASS",
+            "clearance_lower_bound_mm": 67.20781278617837,
+            "travel_interval_mm": [
+              -30.8,
+              0.8
+            ]
+          },
+          {
+            "name": "Entire possible rim-change domain clears full travel H10",
+            "status": "PASS",
+            "clearance_lower_bound_mm": 68.42956218419054,
+            "travel_interval_mm": [
+              -30.8,
+              0.8
+            ]
+          },
+          {
+            "name": "Previously measured lower lip sections retained",
+            "status": "PASS",
+            "section_count": 58,
+            "missing_sections": [],
+            "maximum_section_change_mm": 0.0,
+            "baseline_minimum_sampled_thickness_mm": 1.1988819441732126,
+            "new_minimum_sampled_thickness_mm": 1.1988819441732126
+          },
+          {
+            "name": "Remaining wrist-return web -1",
+            "status": "PASS",
+            "baseline_web_mm": 3.0895691150462334,
+            "new_minimum_web_mm": 2.432380421135899,
+            "declared_geometric_minimum_mm": 2.4,
+            "native_surface_distances": [
+              {
+                "face_zero_index": 348,
+                "distance_to_pocket_mm": 8.738300946138745
+              },
+              {
+                "face_zero_index": 350,
+                "distance_to_pocket_mm": 6.628675202870783
+              },
+              {
+                "face_zero_index": 354,
+                "distance_to_pocket_mm": 2.432380421135899
+              }
+            ],
+            "meaning": "CAD spacing between continuous new rim surfaces and retained pocket void; no strength qualification"
+          },
+          {
+            "name": "Remaining wrist-return web 1",
+            "status": "PASS",
+            "baseline_web_mm": 3.0895691150462334,
+            "new_minimum_web_mm": 2.4333268328422797,
+            "declared_geometric_minimum_mm": 2.4,
+            "native_surface_distances": [
+              {
+                "face_zero_index": 342,
+                "distance_to_pocket_mm": 2.4333268328422797
+              },
+              {
+                "face_zero_index": 346,
+                "distance_to_pocket_mm": 6.6297180917015295
+              },
+              {
+                "face_zero_index": 347,
+                "distance_to_pocket_mm": 8.738300946138745
+              }
+            ],
+            "meaning": "CAD spacing between continuous new rim surfaces and retained pocket void; no strength qualification"
+          },
+          {
+            "name": "Upper rim witness 364",
+            "status": "PASS",
+            "baseline_face_index": 364,
+            "baseline_point_mm": [
+              -22.544700438394266,
+              -60.99217980935462,
+              32.75556817095858
+            ],
+            "nearest_new_point_mm": [
+              -22.499035513295624,
+              -60.55263727345552,
+              32.350828046435446
+            ],
+            "witness_displacement_mm": 0.5992474402514216,
+            "target_peak_radius_mm": 2,
+            "face_zero_index": 348,
+            "equivalent_minimum_radius_mm": 2.0,
+            "surface_projection_distance_mm": 0.0,
+            "principal_curvatures_per_mm": [
+              0.05076988097480232,
+              -0.5
+            ],
+            "principal_radii_mm": [
+              19.69671743954475,
+              2.0
+            ]
+          },
+          {
+            "name": "Upper rim witness 366",
+            "status": "PASS",
+            "baseline_face_index": 366,
+            "baseline_point_mm": [
+              -20.64523341831539,
+              -61.29237134938883,
+              32.834727012495
+            ],
+            "nearest_new_point_mm": [
+              -20.537406824126833,
+              -60.85179020139891,
+              32.39390040639718
+            ],
+            "witness_displacement_mm": 0.6325080387015971,
+            "target_peak_radius_mm": 2,
+            "face_zero_index": 348,
+            "equivalent_minimum_radius_mm": 2.0,
+            "surface_projection_distance_mm": 0.0,
+            "principal_curvatures_per_mm": [
+              0.04923323459196209,
+              -0.5
+            ],
+            "principal_radii_mm": [
+              20.311482848686563,
+              2.0
+            ]
+          },
+          {
+            "name": "Upper rim witness 362",
+            "status": "PASS",
+            "baseline_face_index": 362,
+            "baseline_point_mm": [
+              -27.19685577151489,
+              -61.27761441161242,
+              31.34631744192306
+            ],
+            "nearest_new_point_mm": [
+              -27.07384874048919,
+              -60.92652867539393,
+              31.106857455504304
+            ],
+            "witness_displacement_mm": 0.44241723401502403,
+            "target_peak_radius_mm": 2,
+            "face_zero_index": 350,
+            "equivalent_minimum_radius_mm": 1.5088424893831092,
+            "surface_projection_distance_mm": 0.0,
+            "principal_curvatures_per_mm": [
+              -0.11838196743686241,
+              -0.6627597029089831
+            ],
+            "principal_radii_mm": [
+              8.447232476798781,
+              1.5088424893831092
+            ]
+          },
+          {
+            "name": "Upper rim witness 365",
+            "status": "PASS",
+            "baseline_face_index": 365,
+            "baseline_point_mm": [
+              -18.069032542190914,
+              -62.18915479388106,
+              32.88284271247461
+            ],
+            "nearest_new_point_mm": [
+              -17.87214982831134,
+              -61.7638896092018,
+              32.41421356237309
+            ],
+            "witness_displacement_mm": 0.6627416997969469,
+            "target_peak_radius_mm": 2,
+            "face_zero_index": 348,
+            "equivalent_minimum_radius_mm": 2.0,
+            "surface_projection_distance_mm": 3.552713678800501e-15,
+            "principal_curvatures_per_mm": [
+              0.048479167318837814,
+              -0.5
+            ],
+            "principal_radii_mm": [
+              20.627416997969448,
+              2.0
+            ]
+          },
+          {
+            "name": "Wrist rim witness 360",
+            "status": "PASS",
+            "baseline_face_index": 360,
+            "baseline_point_mm": [
+              -28.42919076794086,
+              -61.6215216285966,
+              24.75
+            ],
+            "nearest_new_point_mm": [
+              -28.344067463213864,
+              -61.43432324475225,
+              24.749992644254792
+            ],
+            "witness_displacement_mm": 0.20564340975505951,
+            "target_peak_radius_mm": 1,
+            "face_zero_index": 354,
+            "equivalent_minimum_radius_mm": 0.9999999998863407,
+            "surface_projection_distance_mm": 1.0658141036401503e-14,
+            "principal_curvatures_per_mm": [
+              0.13719726643064242,
+              -1.0000000001136593
+            ],
+            "principal_radii_mm": [
+              7.288774958978733,
+              0.9999999998863407
+            ]
+          },
+          {
+            "name": "Upper rim witness 363",
+            "status": "PASS",
+            "baseline_face_index": 363,
+            "baseline_point_mm": [
+              -14.894625878047082,
+              -64.28915873032966,
+              32.45963720231145
+            ],
+            "nearest_new_point_mm": [
+              -14.672352251766851,
+              -64.02769363316449,
+              32.20168878597325
+            ],
+            "witness_displacement_mm": 0.42930985018601525,
+            "target_peak_radius_mm": 2,
+            "face_zero_index": 348,
+            "equivalent_minimum_radius_mm": 2.0,
+            "surface_projection_distance_mm": 7.944109290391274e-15,
+            "principal_curvatures_per_mm": [
+              0.05550664075928453,
+              -0.5
+            ],
+            "principal_radii_mm": [
+              18.015862360265988,
+              2.0
+            ]
+          },
+          {
+            "name": "Upper rim witness 341",
+            "status": "PASS",
+            "baseline_face_index": 341,
+            "baseline_point_mm": [
+              -22.544700438393907,
+              60.99217980935025,
+              32.755568170955215
+            ],
+            "nearest_new_point_mm": [
+              -22.499035513295695,
+              60.55263727345526,
+              32.350828046435716
+            ],
+            "witness_displacement_mm": 0.599247440245914,
+            "target_peak_radius_mm": 2,
+            "face_zero_index": 347,
+            "equivalent_minimum_radius_mm": 2.0,
+            "surface_projection_distance_mm": 0.0,
+            "principal_curvatures_per_mm": [
+              0.05076988097479301,
+              -0.5
+            ],
+            "principal_radii_mm": [
+              19.69671743954836,
+              2.0
+            ]
+          },
+          {
+            "name": "Upper rim witness 342",
+            "status": "PASS",
+            "baseline_face_index": 342,
+            "baseline_point_mm": [
+              -20.64523341831539,
+              61.29237134938883,
+              32.834727012494994
+            ],
+            "nearest_new_point_mm": [
+              -20.537406824126837,
+              60.85179020139891,
+              32.39390040639718
+            ],
+            "witness_displacement_mm": 0.6325080387015916,
+            "target_peak_radius_mm": 2,
+            "face_zero_index": 347,
+            "equivalent_minimum_radius_mm": 1.9999999999999996,
+            "surface_projection_distance_mm": 0.0,
+            "principal_curvatures_per_mm": [
+              0.049233234591962105,
+              -0.5000000000000001
+            ],
+            "principal_radii_mm": [
+              20.311482848686556,
+              1.9999999999999996
+            ]
+          },
+          {
+            "name": "Upper rim witness 343",
+            "status": "PASS",
+            "baseline_face_index": 343,
+            "baseline_point_mm": [
+              -27.196855742574627,
+              61.27761432298125,
+              31.346317397540123
+            ],
+            "nearest_new_point_mm": [
+              -27.07337049159857,
+              60.925762891014465,
+              31.105933030509185
+            ],
+            "witness_displacement_mm": 0.4436582933954486,
+            "target_peak_radius_mm": 2,
+            "face_zero_index": 346,
+            "equivalent_minimum_radius_mm": 1.5091726222881525,
+            "surface_projection_distance_mm": 1.464821375527116e-14,
+            "principal_curvatures_per_mm": [
+              -0.11403379967482224,
+              -0.6626147236118267
+            ],
+            "principal_radii_mm": [
+              8.769329820207613,
+              1.5091726222881525
+            ]
+          },
+          {
+            "name": "Upper rim witness 344",
+            "status": "PASS",
+            "baseline_face_index": 344,
+            "baseline_point_mm": [
+              -18.06903254219091,
+              62.189154793881066,
+              32.88284271247461
+            ],
+            "nearest_new_point_mm": [
+              -17.872149828311333,
+              61.763889609201804,
+              32.41421356237309
+            ],
+            "witness_displacement_mm": 0.6627416997969479,
+            "target_peak_radius_mm": 2,
+            "face_zero_index": 347,
+            "equivalent_minimum_radius_mm": 2.0000000000000004,
+            "surface_projection_distance_mm": 0.0,
+            "principal_curvatures_per_mm": [
+              0.04847916731883781,
+              -0.49999999999999994
+            ],
+            "principal_radii_mm": [
+              20.627416997969448,
+              2.0000000000000004
+            ]
+          },
+          {
+            "name": "Wrist rim witness 345",
+            "status": "PASS",
+            "baseline_face_index": 345,
+            "baseline_point_mm": [
+              -28.42919076794086,
+              61.6215216285966,
+              24.75
+            ],
+            "nearest_new_point_mm": [
+              -28.344067463213854,
+              61.43432324475227,
+              24.74999264425489
+            ],
+            "witness_displacement_mm": 0.2056434097550445,
+            "target_peak_radius_mm": 1,
+            "face_zero_index": 342,
+            "equivalent_minimum_radius_mm": 0.9999999998864753,
+            "surface_projection_distance_mm": 7.944109290391274e-15,
+            "principal_curvatures_per_mm": [
+              0.13719726643042132,
+              -1.0000000001135247
+            ],
+            "principal_radii_mm": [
+              7.288774958990479,
+              0.9999999998864753
+            ]
+          },
+          {
+            "name": "Upper rim witness 346",
+            "status": "PASS",
+            "baseline_face_index": 346,
+            "baseline_point_mm": [
+              -14.894623594003583,
+              64.28915387153762,
+              32.459634376874696
+            ],
+            "nearest_new_point_mm": [
+              -14.672353075978844,
+              64.02769237765706,
+              32.20168934837546
+            ],
+            "witness_displacement_mm": 0.4293040108043623,
+            "target_peak_radius_mm": 2,
+            "face_zero_index": 347,
+            "equivalent_minimum_radius_mm": 2.0,
+            "surface_projection_distance_mm": 0.0,
+            "principal_curvatures_per_mm": [
+              0.055506624453112614,
+              -0.5
+            ],
+            "principal_radii_mm": [
+              18.0158676527829,
+              2.0
+            ]
+          }
+        ],
+        "rim_measurements": [
+          {
+            "baseline_face_index": 364,
+            "baseline_point_mm": [
+              -22.544700438394266,
+              -60.99217980935462,
+              32.75556817095858
+            ],
+            "nearest_new_point_mm": [
+              -22.499035513295624,
+              -60.55263727345552,
+              32.350828046435446
+            ],
+            "witness_displacement_mm": 0.5992474402514216,
+            "target_peak_radius_mm": 2,
+            "face_zero_index": 348,
+            "equivalent_minimum_radius_mm": 2.0,
+            "surface_projection_distance_mm": 0.0,
+            "principal_curvatures_per_mm": [
+              0.05076988097480232,
+              -0.5
+            ],
+            "principal_radii_mm": [
+              19.69671743954475,
+              2.0
+            ]
+          },
+          {
+            "baseline_face_index": 366,
+            "baseline_point_mm": [
+              -20.64523341831539,
+              -61.29237134938883,
+              32.834727012495
+            ],
+            "nearest_new_point_mm": [
+              -20.537406824126833,
+              -60.85179020139891,
+              32.39390040639718
+            ],
+            "witness_displacement_mm": 0.6325080387015971,
+            "target_peak_radius_mm": 2,
+            "face_zero_index": 348,
+            "equivalent_minimum_radius_mm": 2.0,
+            "surface_projection_distance_mm": 0.0,
+            "principal_curvatures_per_mm": [
+              0.04923323459196209,
+              -0.5
+            ],
+            "principal_radii_mm": [
+              20.311482848686563,
+              2.0
+            ]
+          },
+          {
+            "baseline_face_index": 362,
+            "baseline_point_mm": [
+              -27.19685577151489,
+              -61.27761441161242,
+              31.34631744192306
+            ],
+            "nearest_new_point_mm": [
+              -27.07384874048919,
+              -60.92652867539393,
+              31.106857455504304
+            ],
+            "witness_displacement_mm": 0.44241723401502403,
+            "target_peak_radius_mm": 2,
+            "face_zero_index": 350,
+            "equivalent_minimum_radius_mm": 1.5088424893831092,
+            "surface_projection_distance_mm": 0.0,
+            "principal_curvatures_per_mm": [
+              -0.11838196743686241,
+              -0.6627597029089831
+            ],
+            "principal_radii_mm": [
+              8.447232476798781,
+              1.5088424893831092
+            ]
+          },
+          {
+            "baseline_face_index": 365,
+            "baseline_point_mm": [
+              -18.069032542190914,
+              -62.18915479388106,
+              32.88284271247461
+            ],
+            "nearest_new_point_mm": [
+              -17.87214982831134,
+              -61.7638896092018,
+              32.41421356237309
+            ],
+            "witness_displacement_mm": 0.6627416997969469,
+            "target_peak_radius_mm": 2,
+            "face_zero_index": 348,
+            "equivalent_minimum_radius_mm": 2.0,
+            "surface_projection_distance_mm": 3.552713678800501e-15,
+            "principal_curvatures_per_mm": [
+              0.048479167318837814,
+              -0.5
+            ],
+            "principal_radii_mm": [
+              20.627416997969448,
+              2.0
+            ]
+          },
+          {
+            "baseline_face_index": 360,
+            "baseline_point_mm": [
+              -28.42919076794086,
+              -61.6215216285966,
+              24.75
+            ],
+            "nearest_new_point_mm": [
+              -28.344067463213864,
+              -61.43432324475225,
+              24.749992644254792
+            ],
+            "witness_displacement_mm": 0.20564340975505951,
+            "target_peak_radius_mm": 1,
+            "face_zero_index": 354,
+            "equivalent_minimum_radius_mm": 0.9999999998863407,
+            "surface_projection_distance_mm": 1.0658141036401503e-14,
+            "principal_curvatures_per_mm": [
+              0.13719726643064242,
+              -1.0000000001136593
+            ],
+            "principal_radii_mm": [
+              7.288774958978733,
+              0.9999999998863407
+            ]
+          },
+          {
+            "baseline_face_index": 363,
+            "baseline_point_mm": [
+              -14.894625878047082,
+              -64.28915873032966,
+              32.45963720231145
+            ],
+            "nearest_new_point_mm": [
+              -14.672352251766851,
+              -64.02769363316449,
+              32.20168878597325
+            ],
+            "witness_displacement_mm": 0.42930985018601525,
+            "target_peak_radius_mm": 2,
+            "face_zero_index": 348,
+            "equivalent_minimum_radius_mm": 2.0,
+            "surface_projection_distance_mm": 7.944109290391274e-15,
+            "principal_curvatures_per_mm": [
+              0.05550664075928453,
+              -0.5
+            ],
+            "principal_radii_mm": [
+              18.015862360265988,
+              2.0
+            ]
+          },
+          {
+            "baseline_face_index": 341,
+            "baseline_point_mm": [
+              -22.544700438393907,
+              60.99217980935025,
+              32.755568170955215
+            ],
+            "nearest_new_point_mm": [
+              -22.499035513295695,
+              60.55263727345526,
+              32.350828046435716
+            ],
+            "witness_displacement_mm": 0.599247440245914,
+            "target_peak_radius_mm": 2,
+            "face_zero_index": 347,
+            "equivalent_minimum_radius_mm": 2.0,
+            "surface_projection_distance_mm": 0.0,
+            "principal_curvatures_per_mm": [
+              0.05076988097479301,
+              -0.5
+            ],
+            "principal_radii_mm": [
+              19.69671743954836,
+              2.0
+            ]
+          },
+          {
+            "baseline_face_index": 342,
+            "baseline_point_mm": [
+              -20.64523341831539,
+              61.29237134938883,
+              32.834727012494994
+            ],
+            "nearest_new_point_mm": [
+              -20.537406824126837,
+              60.85179020139891,
+              32.39390040639718
+            ],
+            "witness_displacement_mm": 0.6325080387015916,
+            "target_peak_radius_mm": 2,
+            "face_zero_index": 347,
+            "equivalent_minimum_radius_mm": 1.9999999999999996,
+            "surface_projection_distance_mm": 0.0,
+            "principal_curvatures_per_mm": [
+              0.049233234591962105,
+              -0.5000000000000001
+            ],
+            "principal_radii_mm": [
+              20.311482848686556,
+              1.9999999999999996
+            ]
+          },
+          {
+            "baseline_face_index": 343,
+            "baseline_point_mm": [
+              -27.196855742574627,
+              61.27761432298125,
+              31.346317397540123
+            ],
+            "nearest_new_point_mm": [
+              -27.07337049159857,
+              60.925762891014465,
+              31.105933030509185
+            ],
+            "witness_displacement_mm": 0.4436582933954486,
+            "target_peak_radius_mm": 2,
+            "face_zero_index": 346,
+            "equivalent_minimum_radius_mm": 1.5091726222881525,
+            "surface_projection_distance_mm": 1.464821375527116e-14,
+            "principal_curvatures_per_mm": [
+              -0.11403379967482224,
+              -0.6626147236118267
+            ],
+            "principal_radii_mm": [
+              8.769329820207613,
+              1.5091726222881525
+            ]
+          },
+          {
+            "baseline_face_index": 344,
+            "baseline_point_mm": [
+              -18.06903254219091,
+              62.189154793881066,
+              32.88284271247461
+            ],
+            "nearest_new_point_mm": [
+              -17.872149828311333,
+              61.763889609201804,
+              32.41421356237309
+            ],
+            "witness_displacement_mm": 0.6627416997969479,
+            "target_peak_radius_mm": 2,
+            "face_zero_index": 347,
+            "equivalent_minimum_radius_mm": 2.0000000000000004,
+            "surface_projection_distance_mm": 0.0,
+            "principal_curvatures_per_mm": [
+              0.04847916731883781,
+              -0.49999999999999994
+            ],
+            "principal_radii_mm": [
+              20.627416997969448,
+              2.0000000000000004
+            ]
+          },
+          {
+            "baseline_face_index": 345,
+            "baseline_point_mm": [
+              -28.42919076794086,
+              61.6215216285966,
+              24.75
+            ],
+            "nearest_new_point_mm": [
+              -28.344067463213854,
+              61.43432324475227,
+              24.74999264425489
+            ],
+            "witness_displacement_mm": 0.2056434097550445,
+            "target_peak_radius_mm": 1,
+            "face_zero_index": 342,
+            "equivalent_minimum_radius_mm": 0.9999999998864753,
+            "surface_projection_distance_mm": 7.944109290391274e-15,
+            "principal_curvatures_per_mm": [
+              0.13719726643042132,
+              -1.0000000001135247
+            ],
+            "principal_radii_mm": [
+              7.288774958990479,
+              0.9999999998864753
+            ]
+          },
+          {
+            "baseline_face_index": 346,
+            "baseline_point_mm": [
+              -14.894623594003583,
+              64.28915387153762,
+              32.459634376874696
+            ],
+            "nearest_new_point_mm": [
+              -14.672353075978844,
+              64.02769237765706,
+              32.20168934837546
+            ],
+            "witness_displacement_mm": 0.4293040108043623,
+            "target_peak_radius_mm": 2,
+            "face_zero_index": 347,
+            "equivalent_minimum_radius_mm": 2.0,
+            "surface_projection_distance_mm": 0.0,
+            "principal_curvatures_per_mm": [
+              0.055506624453112614,
+              -0.5
+            ],
+            "principal_radii_mm": [
+              18.0158676527829,
+              2.0
+            ]
+          }
+        ],
+        "failures": [],
+        "scope": "Focused rim-only native checkpoint. Whole-frame stock subtraction is deliberately not used: coincident freeform face classification was unreliable; five exact protected-region comparisons confine the change and conservative full-travel envelopes cover all possible stock in that domain. R1/R2 are variable-radius targets; measured curvature varies in corner transitions. Final assembly identities and rigid mounting changes require the final integrated export. No blanket strength qualification."
+      },
+      "final_front_comparison": {
+        "name": "Complete front frame and reviewed variable rims",
+        "status": "PASS",
+        "valid": true,
+        "left_only_solids": 0,
+        "right_only_solids": 0,
+        "left_only_faces": 0,
+        "right_only_faces": 0,
+        "symmetric_difference_mm3": 0.0,
+        "empty": true
+      }
+    },
+    "print_status": "PRINT_SETUP_DEFERRED_BY_USER"
+  },
+  "overview_assets": {
+    "cad_image": "review/thumb-rim-2026-11-13/evidence/P01-final-native.png",
+    "cad_image_provenance": "review/thumb-rim-2026-11-13/evidence/P01-final-native-provenance.json",
+    "strap_image": "review/thumb-rim-2026-11-13/evidence/strap-routing.svg"
+  },
+  "files_sha256": {
+    "review/thumb-rim-2026-11-13/fingerworker_R19_thumb_rim.fs": "0e88e273e2e9bc436b2844a44f04b28fb094593c0af87a2127d792bbb56f016d",
+    "review/thumb-rim-2026-11-13/native/Flat132_R19_final_AP214.step": "41e4eb637ab9e78ca54be588712bfb05ad9d8f5ae5f34467a685cc422142819f",
+    "review/thumb-rim-2026-11-13/native/Flat132_R19_neutral_final.zip": "344ca98f4147832b2a324c125df42c90b9d522f1617d554154b82e82312bc8b7",
+    "review/thumb-rim-2026-11-13/mechanics/design-specification.json": "ed56fa4e565ddbf4d4ea002c12a4a9ac21c6ed7c0f9a0d765ca483fceba17dff",
+    "review/thumb-rim-2026-11-13/evidence/P01-final-native.png": "148f075fec2d5079483ebf444537b39489bf5aa0d617598f1236ef997eefacaf",
+    "review/thumb-rim-2026-11-13/evidence/P01-final-native-provenance.json": "9a64f586c30bf3dc347ea958d8da9c35616c83d6458c18dff396cd10a7af00ce",
+    "review/thumb-rim-2026-11-13/evidence/P01-final-native-detail.png": "cc73c5a85825a546ab70badb6b942526d24c7706a64ccb8c4ee459cbaa717308",
+    "review/thumb-rim-2026-11-13/evidence/P01-final-native-detail.json": "4acd2df627fb93cee22fb3681360f3586283e550918c11191450d0281fb093ee",
+    "review/thumb-rim-2026-11-13/evidence/assembly-final-native.png": "fd059582702345fdb08c31ffe5dcc77f53fcc9ce57885f6164a668fa7576227b",
+    "review/thumb-rim-2026-11-13/evidence/assembly-final-native.json": "fe8bd62ada6d6325a177e02b833958a2b2c7ee8ac39b59146cb7de4a71381b33",
+    "review/thumb-rim-2026-11-13/evidence/rigid-parts-final-native.png": "5225bae308cad25da525e278f4d2eaed4d885a2b17815e88b3f0e503f00c9447",
+    "review/thumb-rim-2026-11-13/evidence/rigid-parts-final-native.json": "727e2e627e157b3c2a21662c21d4405d075abc711c2867bf6600a9e6de9d096c",
+    "review/thumb-rim-2026-11-13/evidence/strap-routing.svg": "983986498970c02b2e5998d031b635601e2cea8d142959d8046d3b685641a4a3",
+    "review/thumb-rim-2026-11-13/evidence/strap-routing-provenance.json": "0fcb4260c5af0732b032c39ba668652feeffb200af293dd3dd0b7d32e9d303e3",
+    "review/thumb-rim-2026-11-13/README.md": "9166c07353a78449c385a51ed10b5f189418e60a8d75f7cb7c4284cee048a9aa",
+    "review/thumb-rim-2026-11-13/MONTAGE.md": "1eecf8e0efbdec0bdf1e928688bf40b60ae3d5f9092c1c3a1b73cffcd0c9d149",
+    "review/thumb-rim-2026-11-13/parts-review.md": "7638737854bb574b379ecd3430f5f38953157b11962c76f1620f1486346a2c34",
+    "review/thumb-rim-2026-11-13/BOM_Aenderungen.csv": "63d7dabe3fe24cc231ede3a0d588a1454f230745c9b3662b52cdaf5eea2d0383"
+  },
+  "print_setup_status": "PRINT_SETUP_DEFERRED_BY_USER",
+  "print_ready": false,
+  "gui_verified": false,
+  "gui_status": "NOT_REQUESTED_PRINT_SETUP_DEFERRED",
+  "gui_summary": "Druckvorbereitung auf deinen Wunsch zurückgestellt. Kein neues R19-Bambu-Projekt oder neuer Slice freigegeben.",
+  "limitations": "Native nominal CAD only; actual comfort, fit, insert retention, strength and lifetime require physical evaluation."
+}

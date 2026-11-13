@@ -1,0 +1,625 @@
+{
+  "status": "ACTUAL_STOCK_DIMENSIONS_REQUIRED",
+  "date": "2026-10-23",
+  "scope": "Read-only source audit; frozen R3 source/CAD not edited. No insert stock identified; no fit approval, heat-tool access certificate, BRep validation or load rating.",
+  "sources": [
+    {
+      "path": "review/flat132-palm-fit-2026-10-23/fingerworker_flat132_palm_fit.fs",
+      "sha256": "4665c3ec4e983e478d34c6cfe923b3b60e6c8848f36b7c54b55b1989eaab6326"
+    },
+    {
+      "path": "EINKAUFSTEILE.md",
+      "sha256": "49b066eabf151be663f12ada93c831fd194c6506aeb33c0dd224a8495e194a5b"
+    },
+    {
+      "path": "mechanical/manufacturing-2026-10-11/README.md",
+      "sha256": "a5fd504582e290e66395c8cff76df617fde1b401f5f808f9abb5a95b8b77b7e4"
+    }
+  ],
+  "source_sha256": "4665c3ec4e983e478d34c6cfe923b3b60e6c8848f36b7c54b55b1989eaab6326",
+  "source_bytes": 104007,
+  "counts": {
+    "intended_existing_insert_locations": 11,
+    "by_thread": {
+      "M4": 2,
+      "M3": 5,
+      "M2": 4
+    },
+    "modeled_separate_insert_solids": 0,
+    "modeled_screws_for_these_interfaces": 1,
+    "unmodeled_screws_for_these_interfaces": 10,
+    "additional_tapped_plastic_M1_6_locations_not_in_insert_count": 5
+  },
+  "count_verification": "FS loop expansion: palm1x2=2; rear2x2=4; cam1=1; switch2=2; enclosurePalm2=2. All five generating cylinder patterns occur exactly once. insertTools are consumed in baseInserts; camInsertTool and enclosurePalmPilot tools are consumed by cuts. No insert nameBody/retained hardware body is created.",
+  "locations": [
+    {
+      "id": "palm_M4_0",
+      "group": "palm_M4",
+      "thread": "M4",
+      "host": "P01 fixed palm feet/base",
+      "entry_centre_mm": [
+        -16,
+        -31.5,
+        6.5
+      ],
+      "tool_id": "palmInsert0",
+      "pilot_diameter_mm": 5.2,
+      "geometric_blind_depth_mm": 6.3,
+      "intended_insert_length_mm": 6,
+      "installation_direction": [
+        0,
+        0,
+        -1
+      ],
+      "status": "ACTUAL_STOCK_DIMENSIONS_REQUIRED"
+    },
+    {
+      "id": "palm_M4_1",
+      "group": "palm_M4",
+      "thread": "M4",
+      "host": "P01 fixed palm feet/base",
+      "entry_centre_mm": [
+        -16,
+        31.5,
+        6.5
+      ],
+      "tool_id": "palmInsert1",
+      "pilot_diameter_mm": 5.2,
+      "geometric_blind_depth_mm": 6.3,
+      "intended_insert_length_mm": 6,
+      "installation_direction": [
+        0,
+        0,
+        -1
+      ],
+      "status": "ACTUAL_STOCK_DIMENSIONS_REQUIRED"
+    },
+    {
+      "id": "rear_M3_0",
+      "group": "rear_M3",
+      "thread": "M3",
+      "host": "P01 rear feet; mating P060/P061 removable retainers",
+      "entry_centre_mm": [
+        129.5,
+        -59,
+        4.5
+      ],
+      "tool_id": "rearInsert0a",
+      "pilot_diameter_mm": 4.2,
+      "geometric_blind_depth_mm": 4,
+      "intended_insert_length_mm": 4,
+      "installation_direction": [
+        0,
+        0,
+        -1
+      ],
+      "status": "ACTUAL_STOCK_DIMENSIONS_REQUIRED"
+    },
+    {
+      "id": "rear_M3_1",
+      "group": "rear_M3",
+      "thread": "M3",
+      "host": "P01 rear feet; mating P060/P061 removable retainers",
+      "entry_centre_mm": [
+        129.5,
+        -43,
+        4.5
+      ],
+      "tool_id": "rearInsert0b",
+      "pilot_diameter_mm": 4.2,
+      "geometric_blind_depth_mm": 4,
+      "intended_insert_length_mm": 4,
+      "installation_direction": [
+        0,
+        0,
+        -1
+      ],
+      "status": "ACTUAL_STOCK_DIMENSIONS_REQUIRED"
+    },
+    {
+      "id": "rear_M3_2",
+      "group": "rear_M3",
+      "thread": "M3",
+      "host": "P01 rear feet; mating P060/P061 removable retainers",
+      "entry_centre_mm": [
+        129.5,
+        43,
+        4.5
+      ],
+      "tool_id": "rearInsert1a",
+      "pilot_diameter_mm": 4.2,
+      "geometric_blind_depth_mm": 4,
+      "intended_insert_length_mm": 4,
+      "installation_direction": [
+        0,
+        0,
+        -1
+      ],
+      "status": "ACTUAL_STOCK_DIMENSIONS_REQUIRED"
+    },
+    {
+      "id": "rear_M3_3",
+      "group": "rear_M3",
+      "thread": "M3",
+      "host": "P01 rear feet; mating P060/P061 removable retainers",
+      "entry_centre_mm": [
+        129.5,
+        59,
+        4.5
+      ],
+      "tool_id": "rearInsert1b",
+      "pilot_diameter_mm": 4.2,
+      "geometric_blind_depth_mm": 4,
+      "intended_insert_length_mm": 4,
+      "installation_direction": [
+        0,
+        0,
+        -1
+      ],
+      "status": "ACTUAL_STOCK_DIMENSIONS_REQUIRED"
+    },
+    {
+      "id": "cam_M3_0",
+      "group": "cam_M3",
+      "thread": "M3",
+      "host": "P04 moving carriage/cam lug",
+      "entry_centre_mm": [
+        64,
+        2.5,
+        10
+      ],
+      "tool_id": "camInsertTool",
+      "pilot_diameter_mm": 4.2,
+      "geometric_blind_depth_mm": 5,
+      "intended_insert_length_mm": 4,
+      "installation_direction": [
+        1,
+        0,
+        0
+      ],
+      "status": "ACTUAL_STOCK_DIMENSIONS_REQUIRED"
+    },
+    {
+      "id": "switch_M2_0",
+      "group": "switch_M2",
+      "thread": "M2",
+      "host": "P01 fixed switch pedestal",
+      "entry_centre_mm": [
+        16.5,
+        -11.9,
+        6
+      ],
+      "tool_id": "switchInsert0",
+      "pilot_diameter_mm": 3.2,
+      "geometric_blind_depth_mm": 4,
+      "intended_insert_length_mm": 3,
+      "installation_direction": [
+        0,
+        0,
+        -1
+      ],
+      "status": "ACTUAL_STOCK_DIMENSIONS_REQUIRED"
+    },
+    {
+      "id": "switch_M2_1",
+      "group": "switch_M2",
+      "thread": "M2",
+      "host": "P01 fixed switch pedestal",
+      "entry_centre_mm": [
+        16.5,
+        -2.4,
+        6
+      ],
+      "tool_id": "switchInsert1",
+      "pilot_diameter_mm": 3.2,
+      "geometric_blind_depth_mm": 4,
+      "intended_insert_length_mm": 3,
+      "installation_direction": [
+        0,
+        0,
+        -1
+      ],
+      "status": "ACTUAL_STOCK_DIMENSIONS_REQUIRED"
+    },
+    {
+      "id": "case_M2_0",
+      "group": "case_M2",
+      "thread": "M2",
+      "host": "P02 underside; supports P08 electronics tray",
+      "entry_centre_mm": [
+        -26.5,
+        -59,
+        9.5
+      ],
+      "tool_id": "enclosurePalmPilot0",
+      "pilot_diameter_mm": 3.2,
+      "geometric_blind_depth_mm": 4,
+      "intended_insert_length_mm": 4,
+      "installation_direction": [
+        0,
+        0,
+        1
+      ],
+      "status": "ACTUAL_STOCK_DIMENSIONS_REQUIRED"
+    },
+    {
+      "id": "case_M2_1",
+      "group": "case_M2",
+      "thread": "M2",
+      "host": "P02 underside; supports P08 electronics tray",
+      "entry_centre_mm": [
+        -26.5,
+        59,
+        9.5
+      ],
+      "tool_id": "enclosurePalmPilot1",
+      "pilot_diameter_mm": 3.2,
+      "geometric_blind_depth_mm": 4,
+      "intended_insert_length_mm": 4,
+      "installation_direction": [
+        0,
+        0,
+        1
+      ],
+      "status": "ACTUAL_STOCK_DIMENSIONS_REQUIRED"
+    }
+  ],
+  "groups": [
+    {
+      "id": "palm_M4",
+      "count": 2,
+      "host": "P01 fixed palm feet/base",
+      "thread": "M4 (pitch not explicitly specified in current FS)",
+      "centres_mm": [
+        [
+          -16,
+          -31.5,
+          6.5
+        ],
+        [
+          -16,
+          31.5,
+          6.5
+        ]
+      ],
+      "axis": "Z",
+      "installation_direction": [
+        0,
+        0,
+        -1
+      ],
+      "entry_surface_coordinate_mm": 6.5,
+      "tool_axial_extents_mm": [
+        0.2,
+        7.5
+      ],
+      "pilot_diameter_mm": 5.2,
+      "geometric_blind_depth_mm": 6.3,
+      "intended_insert_length_mm": 6,
+      "assumed_flush_insert_extents_mm": [
+        0.5,
+        6.5
+      ],
+      "nominal_extra_depth_beyond_insert_mm": 0.3,
+      "remaining_bottom_wall_mm": 2.2,
+      "fastener": "2x M4x10 socket-head screws; head envelope Ø7x4 from prior 132 study",
+      "screw_underhead_coordinate_mm": 10.5,
+      "screw_tip_coordinate_mm": 0.5,
+      "nominal_thread_engagement_mm": 6,
+      "screw_tip_to_pilot_floor_mm": 0.3,
+      "source_lines": [
+        901,
+        932
+      ],
+      "tool_ids": [
+        "palmInsert0",
+        "palmInsert1"
+      ],
+      "access": "Install from above (-Z) with P02 and electronics module removed. P02 has Ø4.4 clearance bores and Ø8 head-access pockets. No thermal tool envelope validated.",
+      "qualification": "Existing keyed two-screw palm joint is load-bearing and physically unqualified; matching stock requires fit/retention checks."
+    },
+    {
+      "id": "rear_M3",
+      "count": 4,
+      "host": "P01 rear feet; mating P060/P061 removable retainers",
+      "thread": "M3 (pitch not explicitly specified for inserts)",
+      "centres_mm": [
+        [
+          129.5,
+          -59,
+          4.5
+        ],
+        [
+          129.5,
+          -43,
+          4.5
+        ],
+        [
+          129.5,
+          43,
+          4.5
+        ],
+        [
+          129.5,
+          59,
+          4.5
+        ]
+      ],
+      "axis": "Z",
+      "installation_direction": [
+        0,
+        0,
+        -1
+      ],
+      "entry_surface_coordinate_mm": 4.5,
+      "tool_axial_extents_mm": [
+        0.5,
+        4.6
+      ],
+      "pilot_diameter_mm": 4.2,
+      "geometric_blind_depth_mm": 4,
+      "intended_insert_length_mm": 4,
+      "assumed_flush_insert_extents_mm": [
+        0.5,
+        4.5
+      ],
+      "nominal_extra_depth_beyond_insert_mm": 0,
+      "remaining_bottom_wall_mm": 2.5,
+      "fastener": "4x M3x8 socket-head screws from existing purchasing list; no corresponding screw bodies in FS",
+      "screw_underhead_coordinate_mm": 10,
+      "screw_tip_coordinate_mm": 2,
+      "nominal_thread_engagement_mm": 2.5,
+      "screw_tip_to_pilot_floor_mm": 1.5,
+      "source_lines": [
+        1343,
+        1365
+      ],
+      "tool_ids": [
+        "rearInsert0a",
+        "rearInsert0b",
+        "rearInsert1a",
+        "rearInsert1b"
+      ],
+      "access": "Install from above (-Z) before fitting removable rear blocks. Ø3.4 through holes and Ø6.4 head pockets in rear blocks remain.",
+      "qualification": "Real insert length and melt displacement need review because nominal L4 consumes the full geometric blind depth. Rear retention and screw engagement remain prototype qualifications."
+    },
+    {
+      "id": "cam_M3",
+      "count": 1,
+      "host": "P04 moving carriage/cam lug",
+      "thread": "M3 (pitch not explicitly specified for insert)",
+      "centres_mm": [
+        [
+          64,
+          2.5,
+          10
+        ]
+      ],
+      "axis": "X",
+      "installation_direction": [
+        1,
+        0,
+        0
+      ],
+      "entry_surface_coordinate_mm": 64,
+      "tool_axial_extents_mm": [
+        63.8,
+        69
+      ],
+      "pilot_diameter_mm": 4.2,
+      "geometric_blind_depth_mm": 5,
+      "intended_insert_length_mm": 4,
+      "assumed_flush_insert_extents_mm": [
+        64,
+        68
+      ],
+      "nominal_extra_depth_beyond_insert_mm": 1,
+      "remaining_axial_material_after_large_pilot_mm": 9,
+      "fastener": "H10 M3x12 manual click cam, modeled; head spans X60..63 at preload0",
+      "screw_underhead_coordinate_mm": 63,
+      "screw_tip_coordinate_mm": 75,
+      "nominal_thread_engagement_mm": 4,
+      "engagement_preload_range_mm": [
+        0,
+        2
+      ],
+      "tip_beyond_insert_far_face_mm": [
+        5,
+        7
+      ],
+      "source_lines": [
+        1023,
+        1038
+      ],
+      "tool_ids": [
+        "camInsertTool"
+      ],
+      "access": "Install axially from the wrist/front (-X side, insertion +X) before carriage is installed. Ø3.4 through passage continues X63..76.5 beyond the Ø4.2 pocket. The screw and cam lug translate -stroke; screw additionally backs out -preload.",
+      "qualification": "Large pocket is blind only relative to its Ø4.2 diameter: a smaller screw clearance bore continues through. Preserve manual reset by preload and switch adjustment; insert is not an automatic coupling or lock."
+    },
+    {
+      "id": "switch_M2",
+      "count": 2,
+      "host": "P01 fixed switch pedestal",
+      "thread": "M2 (pitch not explicitly specified for insert)",
+      "centres_mm": [
+        [
+          16.5,
+          -11.9,
+          6
+        ],
+        [
+          16.5,
+          -2.4,
+          6
+        ]
+      ],
+      "axis": "Z",
+      "installation_direction": [
+        0,
+        0,
+        -1
+      ],
+      "entry_surface_coordinate_mm": 6,
+      "tool_axial_extents_mm": [
+        2,
+        6.2
+      ],
+      "pilot_diameter_mm": 3.2,
+      "geometric_blind_depth_mm": 4,
+      "intended_insert_length_mm": 3,
+      "assumed_flush_insert_extents_mm": [
+        3,
+        6
+      ],
+      "nominal_extra_depth_beyond_insert_mm": 1,
+      "remaining_bottom_wall_mm": 4,
+      "fastener": "2x M2x10 plus thin washers from existing purchasing list; screw bodies and washer thickness absent in FS",
+      "screw_underhead_coordinate_mm": "12.4 + washer thickness w",
+      "screw_tip_coordinate_mm": "2.4 + washer thickness w",
+      "nominal_thread_engagement_mm": "min(3, 3.6-w), for 0<=w<3.6; 3mm when w<=0.6mm",
+      "screw_tip_to_pilot_floor_mm": "0.4 + washer thickness w",
+      "source_lines": [
+        1386,
+        1400
+      ],
+      "tool_ids": [
+        "switchInsert0",
+        "switchInsert1"
+      ],
+      "access": "Install from above (-Z) before mounting H09 switch. Switch body is Z6..12.4 and mounting holes Ø2.35.",
+      "qualification": "Actual switch fastening and washer/screw stack must be checked. Preserve the switch and firmware failsafe behavior."
+    },
+    {
+      "id": "case_M2",
+      "count": 2,
+      "host": "P02 underside; supports P08 electronics tray",
+      "thread": "M2 (pitch not explicitly specified for insert)",
+      "centres_mm": [
+        [
+          -26.5,
+          -59,
+          9.5
+        ],
+        [
+          -26.5,
+          59,
+          9.5
+        ]
+      ],
+      "axis": "Z",
+      "installation_direction": [
+        0,
+        0,
+        1
+      ],
+      "entry_surface_coordinate_mm": 9.5,
+      "tool_axial_extents_mm": [
+        9.4,
+        13.5
+      ],
+      "pilot_diameter_mm": 3.2,
+      "geometric_blind_depth_mm": 4,
+      "intended_insert_length_mm": 4,
+      "assumed_flush_insert_extents_mm": [
+        9.5,
+        13.5
+      ],
+      "nominal_extra_depth_beyond_insert_mm": 0,
+      "remaining_top_wall_mm": 1,
+      "fastener": "2x M2x6, head max Ø4x2, per enclosure manufacturing notes; screw bodies absent in FS",
+      "screw_underhead_coordinate_mm": 7,
+      "screw_tip_coordinate_mm": 13,
+      "nominal_thread_engagement_mm": 3.5,
+      "screw_tip_to_pilot_floor_mm": 0.5,
+      "source_lines": [
+        891,
+        900
+      ],
+      "tool_ids": [
+        "enclosurePalmPilot0",
+        "enclosurePalmPilot1"
+      ],
+      "access": "Install upward (+Z) from below P02 with the electronics tray detached; screws also enter upward through the tray ears. Enclosure lid screws become accessible only after tray removal.",
+      "qualification": "Lowest-load existing insert interface. L4 consumes the full geometric depth, leaving only1mm to plate top: do not deepen or enlarge without stock dimensions and wall check."
+    }
+  ],
+  "other_existing_threads": {
+    "electronics_M1_6": {
+      "host": "P08 electronics tray",
+      "count": 5,
+      "pilot_diameter_mm": 1.25,
+      "boss_outer_diameter_mm": 3.2,
+      "radial_plastic_wall_before_new_insert_mm": 0.975,
+      "lid_positions_mm": [
+        [
+          -43.2,
+          18,
+          8.1
+        ],
+        [
+          -43.2,
+          50,
+          8.1
+        ],
+        [
+          -26.5,
+          50,
+          8.1
+        ]
+      ],
+      "lid_geometric_blind_depth_mm": 4.3,
+      "lid_screws": "3x M1.6x5 90deg countersunk, maximum headØ3; flush topZ8.9 implies tipZ3.9, nominal engagement4.2 and floor gap0.1mm. These are geometric calculations, not fastener tolerance approval.",
+      "clamp_positions_mm": [
+        [
+          -26.5,
+          24,
+          3.4
+        ],
+        [
+          -26.5,
+          31,
+          3.4
+        ]
+      ],
+      "clamp_geometric_blind_depth_mm": 2.2,
+      "clamp_screws": "2x M1.6x3 pan/socket head maxØ3x1.3; underhead seatZ4.4 implies tipZ1.4, nominal engagement2.0 and floor gap0.2mm.",
+      "source_lines": [
+        517,
+        546,
+        562,
+        573,
+        580,
+        584
+      ],
+      "current_service": "Existing enclosure instruction specifies hand-tapping M1.6x0.35 directly into the plastic pilots. These are not insert pockets.",
+      "conversion": "Requires stock-specific new pocket/boss design and electronics/PCB/cover clearance review. Do not relabel as heat-set or simply enlarge existing Ø1.25 holes."
+    },
+    "steel_interfaces_preserve": [
+      "H11 custom steel M6x1 nut and its M3 radial lock",
+      "H15 steel keeper with H160/H161 M3x8 screws into H170/H171 captive steel square nuts",
+      "H20 M3 steel square nut retaining H02 pusher",
+      "H12 steel M2 keeper threads and side M3 cassette retention threads"
+    ]
+  },
+  "recommendation": {
+    "first_scope": "Match real stock to the11 existing intended insert pilots and add explicit stock-specific insert reference bodies/BOM only after OD/length/flange/taper data arrive. Adding11 independent insert solids would change displayed/body counts and must be included in subsequent inventory validation.",
+    "prioritize": "Begin with P02 case mounting M2 locations; other existing insert interfaces follow once actual dimensions fit. This is a location plan, not approval to install unknown stock.",
+    "preserve": "Do not replace the steel nut/keeper load path with heat-set inserts; do not alter P01 reinforced portal/P05 integral sensing stops or firmware behavior. Palm joint, rear retention, cam setting and all physical load capability remain unqualified.",
+    "required_stock_data": [
+      "Thread size for each available insert",
+      "Manufacturer/part number or drawing",
+      "Overall length",
+      "Maximum knurl OD and insertion pilot recommendation",
+      "Flange OD/thickness if present",
+      "Taper orientation and installed flush position"
+    ],
+    "next_checks": [
+      "Stock-specific pilot diameters/depths, chamfers and melt-displacement allowance",
+      "Minimum remaining walls and actual insert OD clearances",
+      "Effective full internal thread engagement vs actual screw length/washer/head stack",
+      "Iron tip approach with parts disassembled and sensitive electronics removed",
+      "Subsequent native validity/collision/inventory checks after authorized geometry integration"
+    ]
+  }
+}

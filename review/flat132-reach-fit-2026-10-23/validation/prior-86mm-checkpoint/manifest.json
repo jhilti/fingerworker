@@ -1,0 +1,2839 @@
+{
+  "schema_version": 2,
+  "status": "ACTUAL_NATIVE_R5_INPUT_MANIFEST",
+  "native_provenance": {
+    "workspace_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/w/8814bbef4dcfadf295de5070/e/d253eb87b70818ebde8215f0",
+    "feature_source_sha256": "61885fd717b30eaf1dfc39a1f7f65f017bfc1b4ac077c3e3493399ef3373a9a3",
+    "association": "Root operator verified exact native source readback/regeneration; export association remains operator-declared and hash-bound."
+  },
+  "assembly": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/native/Flat132_R5_neutral_final.zip",
+  "feature_source": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/fingerworker_flat132_reach_fit.fs",
+  "expected_device_refs": [
+    "H01",
+    "H02",
+    "H030",
+    "H031",
+    "H040",
+    "H041",
+    "H050",
+    "H051",
+    "H060",
+    "H061",
+    "H09",
+    "H09a",
+    "H09b",
+    "H10",
+    "H11",
+    "H12",
+    "H13",
+    "H15",
+    "H160",
+    "H161",
+    "H170",
+    "H171",
+    "H180",
+    "H181",
+    "H190",
+    "H191",
+    "H20",
+    "H21",
+    "H22",
+    "H23",
+    "H240",
+    "H241",
+    "H242",
+    "H243",
+    "H250",
+    "H251",
+    "H252",
+    "H253",
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P060",
+    "P061",
+    "P070a",
+    "P070b",
+    "P071a",
+    "P071b",
+    "P08",
+    "P09",
+    "P10",
+    "P11"
+  ],
+  "expected_electronics_count": 53,
+  "volume_tolerance_mm3": 0.01,
+  "gap_search_mm": 2.0,
+  "minimum_interval_mm": 0.0625,
+  "ignore_member_patterns": [],
+  "member_ref_overrides": {},
+  "motion_overrides": {
+    "H10": [
+      -1.0,
+      -1.0,
+      1.0
+    ],
+    "P11": [
+      -1.0,
+      -1.0,
+      1.0
+    ]
+  },
+  "contacts": [
+    {
+      "pair": [
+        "H01",
+        "H02"
+      ],
+      "kind": "exterior_contact",
+      "reason": "Spherical button/pusher load contact; no material overlap permitted"
+    },
+    {
+      "pair": [
+        "H01",
+        "H12"
+      ],
+      "kind": "exterior_contact",
+      "reason": "Actual flat rear support; no material overlap permitted"
+    },
+    {
+      "pair": [
+        "P02",
+        "P03"
+      ],
+      "kind": "nominal_surface_fit_mesh_artifact",
+      "maximum_intersection_volume_mm3": 1.75,
+      "reason": "Native analytic R7.75 wrist-facing D-core/cap surfaces and the X-27 return-band plane coincide. Separate STL facets can overlap; exact native BRep intersection must independently be zero.",
+      "requires_exact_brep_pair": true
+    },
+    {
+      "pair": [
+        "H09a",
+        "H09b"
+      ],
+      "kind": "drawing_reference_actuator_internal_joint",
+      "maximum_intersection_volume_mm3": 1.53,
+      "reason": "Unchanged illustrative fixed-length lever cylinder terminates at roller axle. Bound pi*.45\u00b2*2.4=1.52682mm3 is confined to this source-preview joint, not an actual factory mechanism or general clearance waiver."
+    },
+    {
+      "pair": [
+        "E08",
+        "PCB_SW2"
+      ],
+      "kind": "intended_switch_actuation_travel_envelope",
+      "maximum_intersection_volume_mm3": 3.22,
+      "reason": "E08 is an explicit swept side-button actuator TRAVEL/clearance envelope, not material. It deliberately reaches the SW2 switch courtyard/height envelope. Other component/enclosure clearances remain checked."
+    },
+    {
+      "pair": [
+        "H12",
+        "H250"
+      ],
+      "kind": "nominal_screw_thread_engagement",
+      "maximum_intersection_volume_mm3": 1.9,
+      "reason": "Nominal M2 shaft R1 occupies its R0.85 tap-drill envelope over the 2.15mm backing plate. Ideal annular envelope pi*(1^2\u22120.85^2)*2.15=1.87437mm3. Helical steel thread teeth are not modeled."
+    },
+    {
+      "pair": [
+        "H12",
+        "H251"
+      ],
+      "kind": "nominal_screw_thread_engagement",
+      "maximum_intersection_volume_mm3": 1.9,
+      "reason": "Nominal M2 shaft R1 occupies its R0.85 tap-drill envelope over the 2.15mm backing plate. Ideal annular envelope pi*(1^2\u22120.85^2)*2.15=1.87437mm3. Helical steel thread teeth are not modeled."
+    },
+    {
+      "pair": [
+        "H12",
+        "H252"
+      ],
+      "kind": "nominal_screw_thread_engagement",
+      "maximum_intersection_volume_mm3": 1.9,
+      "reason": "Nominal M2 shaft R1 occupies its R0.85 tap-drill envelope over the 2.15mm backing plate. Ideal annular envelope pi*(1^2\u22120.85^2)*2.15=1.87437mm3. Helical steel thread teeth are not modeled."
+    },
+    {
+      "pair": [
+        "H12",
+        "H253"
+      ],
+      "kind": "nominal_screw_thread_engagement",
+      "maximum_intersection_volume_mm3": 1.9,
+      "reason": "Nominal M2 shaft R1 occupies its R0.85 tap-drill envelope over the 2.15mm backing plate. Ideal annular envelope pi*(1^2\u22120.85^2)*2.15=1.87437mm3. Helical steel thread teeth are not modeled."
+    },
+    {
+      "pair": [
+        "H12",
+        "H180"
+      ],
+      "kind": "nominal_screw_thread_engagement",
+      "maximum_intersection_volume_mm3": 4.35,
+      "reason": "Finished M3x0.5 thread is represented by its standard diameter2.5mm tap-drill bore; the nominal shaft radius1.5mm engages for2mm. Ideal thread-envelope annulus pi*(1.5^2\u22121.25^2)*2=4.31969mm3. Helical thread teeth are not modeled."
+    },
+    {
+      "pair": [
+        "H12",
+        "H181"
+      ],
+      "kind": "nominal_screw_thread_engagement",
+      "maximum_intersection_volume_mm3": 4.35,
+      "reason": "Finished M3x0.5 thread is represented by its standard diameter2.5mm tap-drill bore; the nominal shaft radius1.5mm engages for2mm. Ideal thread-envelope annulus pi*(1.5^2\u22121.25^2)*2=4.31969mm3. Helical thread teeth are not modeled."
+    }
+  ],
+  "sensor": {
+    "ref": "H01",
+    "canonical_placed_step": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-palm-fit-2026-10-23/sensor/TE_FX1901_actual_apex_aligned_132_mm.step",
+    "canonical_sha256": "241c8b522707e9ce3b611db3c783d6c9e3bd6e492175c530d5e9795d9dc98097",
+    "native_assembly_step": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/native/Flat132_R5_final_AP214.step",
+    "additional_rigid_transform": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "brep_volume_tolerance_mm3": 0.0001
+  },
+  "native_poses": [
+    {
+      "mode": "dynamic",
+      "stroke_mm": 28.0,
+      "preload_mm": 2.0,
+      "trim_mm": 0.0,
+      "actual_carriage_offset_mm": 33.0,
+      "assembly": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/native/Flat132_R5_max28_p2_heavy_final.zip"
+    },
+    {
+      "mode": "isometric",
+      "stroke_mm": 8.0,
+      "preload_mm": 2.0,
+      "trim_mm": 0.0,
+      "actual_carriage_offset_mm": 13.0,
+      "assembly": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/native/Flat132_R5_isometric8_p2_86_final.zip"
+    },
+    {
+      "mode": "dynamic",
+      "stroke_mm": 28.0,
+      "preload_mm": 2.0,
+      "trim_mm": -0.8,
+      "actual_carriage_offset_mm": 33.0,
+      "assembly": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/native/Flat132_R5_max28_p2_trimN08_final.zip"
+    },
+    {
+      "mode": "dynamic",
+      "stroke_mm": 30.0,
+      "preload_mm": 0.0,
+      "trim_mm": 0.8,
+      "actual_carriage_offset_mm": 35.0,
+      "assembly": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/native/Flat132_R5_max30_p0_trimP08_final.zip"
+    }
+  ],
+  "dimension_checks": [
+    {
+      "name": "132 mm fixed-frame width",
+      "type": "bounds",
+      "ref": "P01",
+      "component": "extent",
+      "axis": 1,
+      "expected_mm": 132.0,
+      "tolerance_mm": 0.02
+    },
+    {
+      "name": "72 mm finger-pocket inner width at X94/Z20",
+      "type": "ray_levels",
+      "ref": "P04",
+      "origin_mm": [
+        89.0,
+        -200,
+        20
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "axis": 1,
+      "level_indices": [
+        2,
+        1
+      ],
+      "expected_mm": 72.0,
+      "tolerance_mm": 0.02
+    },
+    {
+      "name": "Actual sensor axial envelope (no scale)",
+      "type": "bounds",
+      "ref": "H01",
+      "axis": 0,
+      "component": "extent",
+      "expected_mm": 7.95,
+      "tolerance_mm": 0.02
+    },
+    {
+      "name": "Actual sensor housing/lead transverse envelope Z",
+      "type": "bounds",
+      "ref": "H01",
+      "axis": 2,
+      "component": "extent",
+      "expected_mm": 25.0,
+      "tolerance_mm": 0.02
+    },
+    {
+      "name": "Sensor backing plate axial thickness",
+      "type": "ray_levels",
+      "ref": "H12",
+      "origin_mm": [
+        100,
+        0,
+        18
+      ],
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "axis": 0,
+      "level_indices": [
+        -1,
+        0
+      ],
+      "expected_mm": 2.15,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Backing collar nominal steel wall, non-lead side",
+      "type": "ray_levels",
+      "ref": "H12",
+      "origin_mm": [
+        -9,
+        -100,
+        18
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "axis": 1,
+      "level_indices": [
+        -1,
+        0
+      ],
+      "expected_mm": 0.75,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Front stainless keeper thickness",
+      "type": "ray_levels",
+      "ref": "H23",
+      "origin_mm": [
+        100,
+        0,
+        31
+      ],
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "axis": 0,
+      "level_indices": [
+        -1,
+        0
+      ],
+      "expected_mm": 0.5,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Frame floor below sensor pocket",
+      "type": "ray_levels",
+      "ref": "P01",
+      "origin_mm": [
+        -5,
+        0,
+        100
+      ],
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "axis": 2,
+      "level_indices": [
+        -1,
+        0
+      ],
+      "expected_mm": 4.7,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "H190 retention spacer length",
+      "type": "bounds",
+      "ref": "H190",
+      "axis": 1,
+      "component": "extent",
+      "expected_mm": 6.0,
+      "tolerance_mm": 0.02
+    },
+    {
+      "name": "H191 retention spacer length",
+      "type": "bounds",
+      "ref": "H191",
+      "axis": 1,
+      "component": "extent",
+      "expected_mm": 6.0,
+      "tolerance_mm": 0.02
+    },
+    {
+      "name": "Restored carriage rear roof side-1",
+      "type": "ray_levels",
+      "ref": "P04",
+      "origin_mm": [
+        109.0,
+        -41.99,
+        100
+      ],
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "axis": 2,
+      "level_indices": [
+        -1,
+        -2
+      ],
+      "expected_mm": 4.063065,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Closed guide-slot front ligament side-1",
+      "type": "ray_levels",
+      "ref": "P01",
+      "origin_mm": [
+        100,
+        -16.5,
+        8.5
+      ],
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "axis": 0,
+      "level_indices": [
+        -1,
+        -2
+      ],
+      "expected_mm": 2.3,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Cassette ear upper ligament side-1",
+      "type": "ray_levels",
+      "ref": "H12",
+      "origin_mm": [
+        -12.8,
+        -13,
+        100
+      ],
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "axis": 2,
+      "level_indices": [
+        -1,
+        -2
+      ],
+      "expected_mm": 1.25,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Cassette ear rear ligament side-1",
+      "type": "ray_levels",
+      "ref": "H12",
+      "origin_mm": [
+        -100,
+        -13,
+        8.5
+      ],
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "axis": 0,
+      "level_indices": [
+        1,
+        0
+      ],
+      "expected_mm": 1.45,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Restored carriage rear roof side1",
+      "type": "ray_levels",
+      "ref": "P04",
+      "origin_mm": [
+        109.0,
+        41.99,
+        100
+      ],
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "axis": 2,
+      "level_indices": [
+        -1,
+        -2
+      ],
+      "expected_mm": 4.063065,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Closed guide-slot front ligament side1",
+      "type": "ray_levels",
+      "ref": "P01",
+      "origin_mm": [
+        100,
+        16.5,
+        8.5
+      ],
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "axis": 0,
+      "level_indices": [
+        -1,
+        -2
+      ],
+      "expected_mm": 2.3,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Cassette ear upper ligament side1",
+      "type": "ray_levels",
+      "ref": "H12",
+      "origin_mm": [
+        -12.8,
+        13,
+        100
+      ],
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "axis": 2,
+      "level_indices": [
+        -1,
+        -2
+      ],
+      "expected_mm": 1.25,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Cassette ear rear ligament side1",
+      "type": "ray_levels",
+      "ref": "H12",
+      "origin_mm": [
+        -100,
+        13,
+        8.5
+      ],
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "axis": 0,
+      "level_indices": [
+        1,
+        0
+      ],
+      "expected_mm": 1.45,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Strengthened reaction wall depth at Y0/Z6",
+      "type": "ray_levels",
+      "ref": "P01",
+      "origin_mm": [
+        -100,
+        0,
+        6
+      ],
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "axis": 0,
+      "level_indices": [
+        1,
+        0
+      ],
+      "expected_mm": 6.75,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Upper reaction bridge roof at X-14/Y0",
+      "type": "ray_levels",
+      "ref": "P01",
+      "origin_mm": [
+        -14,
+        0,
+        100
+      ],
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "axis": 2,
+      "level_indices": [
+        -1,
+        -2
+      ],
+      "expected_mm": 3.0,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Strengthened negative cassette guide width at X-9.2/Z27",
+      "type": "ray_levels",
+      "ref": "P01",
+      "origin_mm": [
+        -9.2,
+        -100,
+        27
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "axis": 1,
+      "level_indices": [
+        3,
+        2
+      ],
+      "expected_mm": 5.0,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Strengthened positive cassette guide width at X-9.2/Z27",
+      "type": "ray_levels",
+      "ref": "P01",
+      "origin_mm": [
+        -9.2,
+        -100,
+        27
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "axis": 1,
+      "level_indices": [
+        5,
+        4
+      ],
+      "expected_mm": 5.0,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Upper driver access diameter at X-19/Z32",
+      "type": "ray_levels",
+      "ref": "P01",
+      "origin_mm": [
+        -19,
+        -100,
+        32
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "axis": 1,
+      "level_indices": [
+        2,
+        1
+      ],
+      "expected_mm": 6.2,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Fixed frame overall Z extent remains 35 mm",
+      "type": "bounds",
+      "ref": "P01",
+      "axis": 2,
+      "component": "extent",
+      "expected_mm": 35.0,
+      "tolerance_mm": 0.02
+    },
+    {
+      "name": "Integral sensing-stop front datum at neutral",
+      "type": "bounds",
+      "ref": "P05",
+      "axis": 0,
+      "component": "maximum",
+      "expected_mm": 30.0,
+      "tolerance_mm": 0.02
+    },
+    {
+      "name": "Negative printed sensing stop bearing width",
+      "type": "ray_levels",
+      "ref": "P05",
+      "origin_mm": [
+        29.0,
+        -100,
+        18
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "axis": 1,
+      "level_indices": [
+        1,
+        0
+      ],
+      "expected_mm": 14.0,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Positive printed sensing stop bearing width",
+      "type": "ray_levels",
+      "ref": "P05",
+      "origin_mm": [
+        29.0,
+        -100,
+        18
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "axis": 1,
+      "level_indices": [
+        3,
+        2
+      ],
+      "expected_mm": 14.0,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Negative printed stop arm root width",
+      "type": "ray_levels",
+      "ref": "P05",
+      "origin_mm": [
+        20,
+        -100,
+        18
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "axis": 1,
+      "level_indices": [
+        1,
+        0
+      ],
+      "expected_mm": 10.0,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Positive printed stop arm root width",
+      "type": "ray_levels",
+      "ref": "P05",
+      "origin_mm": [
+        20,
+        -100,
+        18
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "axis": 1,
+      "level_indices": [
+        3,
+        2
+      ],
+      "expected_mm": 10.0,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Printed sensing stop bearing height side-1",
+      "type": "ray_levels",
+      "ref": "P05",
+      "origin_mm": [
+        29.0,
+        -24,
+        100
+      ],
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "axis": 2,
+      "level_indices": [
+        -1,
+        0
+      ],
+      "expected_mm": 22.0,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Printed sensing stop bearing height side1",
+      "type": "ray_levels",
+      "ref": "P05",
+      "origin_mm": [
+        29.0,
+        24,
+        100
+      ],
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "axis": 2,
+      "level_indices": [
+        -1,
+        0
+      ],
+      "expected_mm": 22.0,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Rigid palm plate wrist edge X",
+      "type": "bounds",
+      "ref": "P02",
+      "axis": 0,
+      "component": "minimum",
+      "expected_mm": -37.25,
+      "tolerance_mm": 0.02
+    },
+    {
+      "name": "TPU palm wrist tangent X",
+      "type": "bounds",
+      "ref": "P03",
+      "axis": 0,
+      "component": "minimum",
+      "expected_mm": -37.25,
+      "tolerance_mm": 0.02
+    },
+    {
+      "name": "TPU return-band front face X",
+      "type": "bounds",
+      "ref": "P03",
+      "axis": 0,
+      "component": "maximum",
+      "expected_mm": -24.5,
+      "tolerance_mm": 0.02
+    },
+    {
+      "name": "Rigid D-core flat front at centre height",
+      "type": "ray_levels",
+      "ref": "P02",
+      "origin_mm": [
+        100,
+        0,
+        19.75
+      ],
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "axis": 0,
+      "level_indices": [
+        -1
+      ],
+      "expected_mm": -27.0,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Rigid wrist-facing half-core depth",
+      "type": "ray_levels",
+      "ref": "P02",
+      "origin_mm": [
+        100,
+        0,
+        19.75
+      ],
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "axis": 0,
+      "level_indices": [
+        -1,
+        0
+      ],
+      "expected_mm": 7.75,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Central TPU cap flat front without return bands",
+      "type": "ray_levels",
+      "ref": "P03",
+      "origin_mm": [
+        100,
+        0,
+        28.5
+      ],
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "axis": 0,
+      "level_indices": [
+        -1
+      ],
+      "expected_mm": -27.0,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Negative TPU return-band width",
+      "type": "ray_levels",
+      "ref": "P03",
+      "origin_mm": [
+        -25.5,
+        -100,
+        20
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "axis": 1,
+      "level_indices": [
+        1,
+        0
+      ],
+      "expected_mm": 4.0,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Positive TPU return-band width",
+      "type": "ray_levels",
+      "ref": "P03",
+      "origin_mm": [
+        -25.5,
+        -100,
+        20
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "axis": 1,
+      "level_indices": [
+        3,
+        2
+      ],
+      "expected_mm": 4.0,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "P02 wrist edge unchanged from R3",
+      "type": "bounds_difference_from_baseline",
+      "ref": "P02",
+      "axis": 0,
+      "component": "minimum",
+      "expected_mm": 0.0,
+      "tolerance_mm": 0.02
+    },
+    {
+      "name": "P03 wrist edge unchanged from R3",
+      "type": "bounds_difference_from_baseline",
+      "ref": "P03",
+      "axis": 0,
+      "component": "minimum",
+      "expected_mm": 0.0,
+      "tolerance_mm": 0.02
+    },
+    {
+      "name": "TPU front-return depth side-1",
+      "type": "ray_levels",
+      "ref": "P03",
+      "origin_mm": [
+        100,
+        -41,
+        20
+      ],
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "axis": 0,
+      "level_indices": [
+        -1,
+        -2
+      ],
+      "expected_mm": 2.5,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "TPU front-return depth side1",
+      "type": "ray_levels",
+      "ref": "P03",
+      "origin_mm": [
+        100,
+        41,
+        20
+      ],
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "axis": 0,
+      "level_indices": [
+        -1,
+        -2
+      ],
+      "expected_mm": 2.5,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Drawing switch main-plus-terminal axial envelope",
+      "type": "bounds",
+      "ref": "H09",
+      "axis": 0,
+      "component": "extent",
+      "expected_mm": 14.1,
+      "tolerance_mm": 0.02
+    },
+    {
+      "name": "Drawing switch transverse body envelope",
+      "type": "bounds",
+      "ref": "H09",
+      "axis": 1,
+      "component": "extent",
+      "expected_mm": 19.8,
+      "tolerance_mm": 0.02
+    },
+    {
+      "name": "Drawing switch thickness",
+      "type": "bounds",
+      "ref": "H09",
+      "axis": 2,
+      "component": "extent",
+      "expected_mm": 6.4,
+      "tolerance_mm": 0.02
+    },
+    {
+      "name": "Shifted drawing switch terminal front X",
+      "type": "bounds",
+      "ref": "H09",
+      "axis": 0,
+      "component": "minimum",
+      "expected_mm": 14.1,
+      "tolerance_mm": 0.02
+    },
+    {
+      "name": "Shifted drawing switch bottom Z",
+      "type": "bounds",
+      "ref": "H09",
+      "axis": 2,
+      "component": "minimum",
+      "expected_mm": 7.5,
+      "tolerance_mm": 0.02
+    },
+    {
+      "name": "Switch pedestal top at X27/Y0",
+      "type": "ray_levels",
+      "ref": "P01",
+      "origin_mm": [
+        27,
+        0,
+        100
+      ],
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "axis": 2,
+      "level_indices": [
+        -1
+      ],
+      "expected_mm": 7.5,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "R5 closer-rest carriage front X",
+      "ref": "P04",
+      "type": "bounds",
+      "axis": 0,
+      "component": "minimum",
+      "expected_mm": 60.0,
+      "tolerance_mm": 0.02
+    },
+    {
+      "name": "R5 carriage rear plane at closer rest",
+      "ref": "P04",
+      "type": "bounds",
+      "axis": 0,
+      "component": "maximum",
+      "expected_mm": 119.0,
+      "tolerance_mm": 0.02
+    },
+    {
+      "name": "New stepped shoe front upper boss X at neutral",
+      "ref": "P11",
+      "type": "bounds",
+      "axis": 0,
+      "component": "minimum",
+      "expected_mm": 62.5,
+      "tolerance_mm": 0.02
+    },
+    {
+      "name": "New shoe rear plane at neutral",
+      "ref": "P11",
+      "type": "bounds",
+      "axis": 0,
+      "component": "maximum",
+      "expected_mm": 68.5,
+      "tolerance_mm": 0.02
+    },
+    {
+      "name": "New shoe body height",
+      "ref": "P11",
+      "type": "bounds",
+      "axis": 2,
+      "component": "extent",
+      "expected_mm": 10.0,
+      "tolerance_mm": 0.02
+    },
+    {
+      "name": "Vertical M3x10 complete envelope height",
+      "ref": "H10",
+      "type": "bounds",
+      "axis": 2,
+      "component": "extent",
+      "expected_mm": 13.0,
+      "tolerance_mm": 0.02
+    },
+    {
+      "name": "Vertical clamp head top below grip lip",
+      "ref": "H10",
+      "type": "bounds",
+      "axis": 2,
+      "component": "maximum",
+      "expected_mm": 28.0,
+      "tolerance_mm": 0.02
+    },
+    {
+      "name": "Vertical clamp axis X neutral",
+      "ref": "H10",
+      "type": "bounds",
+      "axis": 0,
+      "component": "center",
+      "expected_mm": 65.5,
+      "tolerance_mm": 0.02
+    },
+    {
+      "name": "Intact1.3mm guide roof under new shoe well",
+      "ref": "P04",
+      "type": "ray_levels",
+      "origin_mm": [
+        65,
+        0,
+        100
+      ],
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "axis": 2,
+      "level_indices": [
+        1,
+        0
+      ],
+      "expected_mm": 1.3,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Restored2.2mm rear wall between shoe well and pocket",
+      "ref": "P04",
+      "type": "ray_levels",
+      "origin_mm": [
+        100,
+        0,
+        17
+      ],
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "axis": 0,
+      "level_indices": [
+        1,
+        0
+      ],
+      "expected_mm": 2.2,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Shoe insert front X ligament",
+      "ref": "P11",
+      "type": "ray_levels",
+      "origin_mm": [
+        100,
+        3.5,
+        17
+      ],
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "axis": 0,
+      "level_indices": [
+        1,
+        0
+      ],
+      "expected_mm": 0.9,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Shoe insert rear X ligament",
+      "ref": "P11",
+      "type": "ray_levels",
+      "origin_mm": [
+        100,
+        3.5,
+        17
+      ],
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "axis": 0,
+      "level_indices": [
+        -1,
+        -2
+      ],
+      "expected_mm": 0.9,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Shoe insert pilot floor stock",
+      "ref": "P11",
+      "type": "ray_levels",
+      "origin_mm": [
+        65.5,
+        3.5,
+        100
+      ],
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "axis": 2,
+      "level_indices": [
+        -1,
+        0
+      ],
+      "expected_mm": 5.5,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Extended guide front datum at Y10/Z5",
+      "ref": "P01",
+      "type": "ray_levels",
+      "origin_mm": [
+        -100,
+        10,
+        5
+      ],
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "axis": 0,
+      "level_indices": [
+        -2
+      ],
+      "expected_mm": 29.0,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Extended guide total axial length at Y10/Z5",
+      "ref": "P01",
+      "type": "ray_levels",
+      "origin_mm": [
+        -100,
+        10,
+        5
+      ],
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "axis": 0,
+      "level_indices": [
+        -1,
+        -2
+      ],
+      "expected_mm": 95.0,
+      "tolerance_mm": 0.025
+    },
+    {
+      "name": "Rigid return extension front P060",
+      "ref": "P060",
+      "type": "bounds",
+      "axis": 0,
+      "component": "minimum",
+      "expected_mm": 120.5,
+      "tolerance_mm": 0.02
+    },
+    {
+      "name": "Rigid return extension front P061",
+      "ref": "P061",
+      "type": "bounds",
+      "axis": 0,
+      "component": "minimum",
+      "expected_mm": 120.5,
+      "tolerance_mm": 0.02
+    }
+  ],
+  "material_and_clearance_probes": [
+    {
+      "name": "Continuous flat steel rear support centre",
+      "ref": "H12",
+      "type": "box",
+      "minimum_mm": [
+        -11.99,
+        -7,
+        10
+      ],
+      "maximum_mm": [
+        -9.86,
+        7,
+        26
+      ],
+      "expect": "solid"
+    },
+    {
+      "name": "Retained 4.7mm frame floor under cell",
+      "ref": "P01",
+      "type": "box",
+      "minimum_mm": [
+        -12,
+        -5,
+        -1.99
+      ],
+      "maximum_mm": [
+        1,
+        5,
+        2.69
+      ],
+      "expect": "solid"
+    },
+    {
+      "name": "P05 central reaction web beside pusher",
+      "ref": "P05",
+      "type": "box",
+      "minimum_mm": [
+        1.41,
+        -5,
+        14
+      ],
+      "maximum_mm": [
+        4.99,
+        -3,
+        22
+      ],
+      "expect": "solid"
+    },
+    {
+      "name": "Positive-side fixed-guide lead exit",
+      "ref": "P01",
+      "type": "box",
+      "minimum_mm": [
+        -10.19,
+        15.51,
+        12.31
+      ],
+      "maximum_mm": [
+        -8.01,
+        18.49,
+        23.99
+      ],
+      "expect": "empty"
+    },
+    {
+      "name": "Backing collar ID25.5 air envelope",
+      "ref": "H12",
+      "type": "cylinder_x",
+      "start_x_mm": -9.849,
+      "end_x_mm": -8.651,
+      "y_mm": 0,
+      "z_mm": 18,
+      "radius_mm": 12.74,
+      "expect": "empty"
+    },
+    {
+      "name": "Stainless keeper ID20 air envelope",
+      "ref": "H23",
+      "type": "cylinder_x",
+      "start_x_mm": -1.399,
+      "end_x_mm": -0.901,
+      "y_mm": 0,
+      "z_mm": 18,
+      "radius_mm": 9.99,
+      "expect": "empty"
+    },
+    {
+      "name": "Half-round cap adjuster clearance envelope",
+      "ref": "P03",
+      "type": "cylinder_x",
+      "start_x_mm": -24.49,
+      "end_x_mm": -21.31,
+      "y_mm": 0,
+      "z_mm": 18,
+      "radius_mm": 3.49,
+      "expect": "empty"
+    },
+    {
+      "name": "M2 front keeper clearance hole",
+      "ref": "H23",
+      "type": "cylinder_x",
+      "start_x_mm": -1.399,
+      "end_x_mm": -0.901,
+      "y_mm": -10.5,
+      "z_mm": 7.5,
+      "radius_mm": 1.099,
+      "expect": "empty"
+    },
+    {
+      "name": "M2 panhead/yoke clearance pocket",
+      "ref": "P05",
+      "type": "cylinder_x",
+      "start_x_mm": -1.49,
+      "end_x_mm": 1.39,
+      "y_mm": -10.5,
+      "z_mm": 7.5,
+      "radius_mm": 2.59,
+      "expect": "empty"
+    },
+    {
+      "name": "M2 rear backing pilot bore",
+      "ref": "H12",
+      "type": "cylinder_x",
+      "start_x_mm": -11.99,
+      "end_x_mm": -9.86,
+      "y_mm": -10.5,
+      "z_mm": 7.5,
+      "radius_mm": 0.849,
+      "expect": "empty"
+    },
+    {
+      "name": "M2 front keeper clearance hole",
+      "ref": "H23",
+      "type": "cylinder_x",
+      "start_x_mm": -1.399,
+      "end_x_mm": -0.901,
+      "y_mm": -10.5,
+      "z_mm": 28.5,
+      "radius_mm": 1.099,
+      "expect": "empty"
+    },
+    {
+      "name": "M2 panhead/yoke clearance pocket",
+      "ref": "P05",
+      "type": "cylinder_x",
+      "start_x_mm": -1.49,
+      "end_x_mm": 1.39,
+      "y_mm": -10.5,
+      "z_mm": 28.5,
+      "radius_mm": 2.59,
+      "expect": "empty"
+    },
+    {
+      "name": "M2 rear backing pilot bore",
+      "ref": "H12",
+      "type": "cylinder_x",
+      "start_x_mm": -11.99,
+      "end_x_mm": -9.86,
+      "y_mm": -10.5,
+      "z_mm": 28.5,
+      "radius_mm": 0.849,
+      "expect": "empty"
+    },
+    {
+      "name": "M2 front keeper clearance hole",
+      "ref": "H23",
+      "type": "cylinder_x",
+      "start_x_mm": -1.399,
+      "end_x_mm": -0.901,
+      "y_mm": 10.5,
+      "z_mm": 7.5,
+      "radius_mm": 1.099,
+      "expect": "empty"
+    },
+    {
+      "name": "M2 panhead/yoke clearance pocket",
+      "ref": "P05",
+      "type": "cylinder_x",
+      "start_x_mm": -1.49,
+      "end_x_mm": 1.39,
+      "y_mm": 10.5,
+      "z_mm": 7.5,
+      "radius_mm": 2.59,
+      "expect": "empty"
+    },
+    {
+      "name": "M2 rear backing pilot bore",
+      "ref": "H12",
+      "type": "cylinder_x",
+      "start_x_mm": -11.99,
+      "end_x_mm": -9.86,
+      "y_mm": 10.5,
+      "z_mm": 7.5,
+      "radius_mm": 0.849,
+      "expect": "empty"
+    },
+    {
+      "name": "M2 front keeper clearance hole",
+      "ref": "H23",
+      "type": "cylinder_x",
+      "start_x_mm": -1.399,
+      "end_x_mm": -0.901,
+      "y_mm": 10.5,
+      "z_mm": 28.5,
+      "radius_mm": 1.099,
+      "expect": "empty"
+    },
+    {
+      "name": "M2 panhead/yoke clearance pocket",
+      "ref": "P05",
+      "type": "cylinder_x",
+      "start_x_mm": -1.49,
+      "end_x_mm": 1.39,
+      "y_mm": 10.5,
+      "z_mm": 28.5,
+      "radius_mm": 2.59,
+      "expect": "empty"
+    },
+    {
+      "name": "M2 rear backing pilot bore",
+      "ref": "H12",
+      "type": "cylinder_x",
+      "start_x_mm": -11.99,
+      "end_x_mm": -9.86,
+      "y_mm": 10.5,
+      "z_mm": 28.5,
+      "radius_mm": 0.849,
+      "expect": "empty"
+    },
+    {
+      "name": "Five mm guide stock behind lead notch side-1",
+      "ref": "P01",
+      "type": "box",
+      "minimum_mm": [
+        -15.99,
+        -20.49,
+        12.01
+      ],
+      "maximum_mm": [
+        -13.01,
+        -15.51,
+        28.99
+      ],
+      "expect": "solid"
+    },
+    {
+      "name": "Upper reaction buttress continuous stock side-1",
+      "ref": "P01",
+      "type": "box",
+      "minimum_mm": [
+        -15.99,
+        -25.39,
+        12.01
+      ],
+      "maximum_mm": [
+        -13.01,
+        -20.51,
+        28.99
+      ],
+      "expect": "solid"
+    },
+    {
+      "name": "Five mm guide stock behind lead notch side1",
+      "ref": "P01",
+      "type": "box",
+      "minimum_mm": [
+        -15.99,
+        15.51,
+        12.01
+      ],
+      "maximum_mm": [
+        -13.01,
+        20.49,
+        28.99
+      ],
+      "expect": "solid"
+    },
+    {
+      "name": "Upper reaction buttress continuous stock side1",
+      "ref": "P01",
+      "type": "box",
+      "minimum_mm": [
+        -15.99,
+        20.51,
+        12.01
+      ],
+      "maximum_mm": [
+        -13.01,
+        25.39,
+        28.99
+      ],
+      "expect": "solid"
+    },
+    {
+      "name": "Positive lead exit through widened guide and buttress",
+      "ref": "P01",
+      "type": "box",
+      "minimum_mm": [
+        -10.34,
+        15.51,
+        12.31
+      ],
+      "maximum_mm": [
+        -7.61,
+        25.39,
+        23.99
+      ],
+      "expect": "empty"
+    },
+    {
+      "name": "Upper bridge continuous front strip beyond driver-access front X-15.9",
+      "ref": "P01",
+      "type": "box",
+      "minimum_mm": [
+        -15.89,
+        -25.39,
+        30.01
+      ],
+      "maximum_mm": [
+        -12.51,
+        25.39,
+        32.99
+      ],
+      "expect": "solid"
+    },
+    {
+      "name": "Broad integral printed stop face stock side-1",
+      "ref": "P05",
+      "type": "box",
+      "minimum_mm": [
+        25.01,
+        -30.99,
+        7.01
+      ],
+      "maximum_mm": [
+        29.99,
+        -17.01,
+        28.99
+      ],
+      "expect": "solid"
+    },
+    {
+      "name": "Axial printed stop-arm root stock side-1",
+      "ref": "P05",
+      "type": "box",
+      "minimum_mm": [
+        8.51,
+        -28.99,
+        7.01
+      ],
+      "maximum_mm": [
+        24.99,
+        -19.01,
+        28.99
+      ],
+      "expect": "solid"
+    },
+    {
+      "name": "Broad integral printed stop face stock side1",
+      "ref": "P05",
+      "type": "box",
+      "minimum_mm": [
+        25.01,
+        17.01,
+        7.01
+      ],
+      "maximum_mm": [
+        29.99,
+        30.99,
+        28.99
+      ],
+      "expect": "solid"
+    },
+    {
+      "name": "Axial printed stop-arm root stock side1",
+      "ref": "P05",
+      "type": "box",
+      "minimum_mm": [
+        8.51,
+        19.01,
+        7.01
+      ],
+      "maximum_mm": [
+        24.99,
+        28.99,
+        28.99
+      ],
+      "expect": "solid"
+    },
+    {
+      "name": "Continuous TPU front-return stock side-1",
+      "ref": "P03",
+      "type": "box",
+      "minimum_mm": [
+        -26.99,
+        -42.99,
+        14.61
+      ],
+      "maximum_mm": [
+        -24.51,
+        -39.01,
+        29.99
+      ],
+      "expect": "solid"
+    },
+    {
+      "name": "Continuous TPU front-return stock side1",
+      "ref": "P03",
+      "type": "box",
+      "minimum_mm": [
+        -26.99,
+        39.01,
+        14.61
+      ],
+      "maximum_mm": [
+        -24.51,
+        42.99,
+        29.99
+      ],
+      "expect": "solid"
+    },
+    {
+      "name": "Central rigid half-core front removed",
+      "ref": "P02",
+      "type": "box",
+      "minimum_mm": [
+        -26.99,
+        -5,
+        15
+      ],
+      "maximum_mm": [
+        -23.5,
+        5,
+        25
+      ],
+      "expect": "empty"
+    },
+    {
+      "name": "Central TPU half-cap front removed",
+      "ref": "P03",
+      "type": "box",
+      "minimum_mm": [
+        -26.99,
+        -38,
+        14.61
+      ],
+      "maximum_mm": [
+        -24.49,
+        38,
+        29.99
+      ],
+      "expect": "empty"
+    },
+    {
+      "name": "Unchanged5 mm palm plate ahead of wrist edge",
+      "ref": "P02",
+      "type": "box",
+      "minimum_mm": [
+        -36.9,
+        -20,
+        9.51
+      ],
+      "maximum_mm": [
+        -29.9,
+        20,
+        14.49
+      ],
+      "expect": "solid"
+    },
+    {
+      "name": "R4 raised switch pedestal stock",
+      "ref": "P01",
+      "type": "box",
+      "minimum_mm": [
+        17.01,
+        -16.49,
+        4.01
+      ],
+      "maximum_mm": [
+        28.99,
+        -12.51,
+        7.49
+      ],
+      "expect": "solid"
+    },
+    {
+      "name": "R4 removed old pedestal front extension",
+      "ref": "P01",
+      "type": "box",
+      "minimum_mm": [
+        13.01,
+        -17.99,
+        4.01
+      ],
+      "maximum_mm": [
+        16.99,
+        3.99,
+        5.99
+      ],
+      "expect": "empty"
+    },
+    {
+      "name": "Drawing solder-tab envelope -14.4",
+      "ref": "H09",
+      "type": "box",
+      "minimum_mm": [
+        14.11,
+        -14.64,
+        9.11
+      ],
+      "maximum_mm": [
+        17.99,
+        -14.16,
+        12.29
+      ],
+      "expect": "solid"
+    },
+    {
+      "name": "Drawing solder-tab envelope -5.6",
+      "ref": "H09",
+      "type": "box",
+      "minimum_mm": [
+        14.11,
+        -5.84,
+        9.11
+      ],
+      "maximum_mm": [
+        17.99,
+        -5.359999999999999,
+        12.29
+      ],
+      "expect": "solid"
+    },
+    {
+      "name": "Drawing solder-tab envelope 1.7",
+      "ref": "H09",
+      "type": "box",
+      "minimum_mm": [
+        14.11,
+        1.46,
+        9.11
+      ],
+      "maximum_mm": [
+        17.99,
+        1.94,
+        12.29
+      ],
+      "expect": "solid"
+    },
+    {
+      "name": "Conservative lower-lug full-width strip",
+      "ref": "H09",
+      "type": "box",
+      "minimum_mm": [
+        17.61,
+        -15.99,
+        7.51
+      ],
+      "maximum_mm": [
+        17.99,
+        3.79,
+        13.89
+      ],
+      "expect": "solid"
+    },
+    {
+      "name": "Retained guide roof under full shoe well",
+      "ref": "P04",
+      "type": "box",
+      "minimum_mm": [
+        60.01,
+        -0.99,
+        7.31
+      ],
+      "maximum_mm": [
+        69.79,
+        7.99,
+        8.59
+      ],
+      "expect": "solid"
+    },
+    {
+      "name": "Restored rear well wall after removing all old horizontal bores",
+      "ref": "P04",
+      "type": "box",
+      "minimum_mm": [
+        69.81,
+        -0.5,
+        9
+      ],
+      "maximum_mm": [
+        71.99,
+        7.5,
+        18.9
+      ],
+      "expect": "solid"
+    },
+    {
+      "name": "Stepped shoe forward upper boss stock",
+      "ref": "P11",
+      "type": "box",
+      "minimum_mm": [
+        62.51,
+        -0.69,
+        13.21
+      ],
+      "maximum_mm": [
+        63.39,
+        7.69,
+        18.99
+      ],
+      "expect": "solid"
+    },
+    {
+      "name": "Stepped shoe lower switch-contact face stock",
+      "ref": "P11",
+      "type": "box",
+      "minimum_mm": [
+        64.01,
+        -0.69,
+        9.01
+      ],
+      "maximum_mm": [
+        64.19,
+        7.69,
+        12.29
+      ],
+      "expect": "solid"
+    },
+    {
+      "name": "P11 diameter4.2 blind insert pilot",
+      "ref": "P11",
+      "type": "cylinder_z",
+      "x_mm": 65.5,
+      "y_mm": 3.5,
+      "start_z_mm": 14.501,
+      "end_z_mm": 18.999,
+      "radius_mm": 2.099,
+      "expect": "empty"
+    },
+    {
+      "name": "Vertical clamp top driver clearance at neutral",
+      "ref": "P04",
+      "type": "cylinder_z",
+      "x_mm": 65.5,
+      "y_mm": 3.5,
+      "start_z_mm": 28.01,
+      "end_z_mm": 35.0,
+      "radius_mm": 1.999,
+      "expect": "empty"
+    },
+    {
+      "name": "Added central guide stock before old X34 datum",
+      "ref": "P01",
+      "type": "box",
+      "minimum_mm": [
+        29.01,
+        -10,
+        4.01
+      ],
+      "maximum_mm": [
+        33.99,
+        10,
+        6.99
+      ],
+      "expect": "solid"
+    },
+    {
+      "name": "Rigid return boss stock P060/-1",
+      "ref": "P060",
+      "type": "box",
+      "minimum_mm": [
+        120.51,
+        -60.74,
+        14.01
+      ],
+      "maximum_mm": [
+        125.49,
+        -56.26,
+        19.99
+      ],
+      "expect": "solid"
+    },
+    {
+      "name": "Rigid return boss stock P060/1",
+      "ref": "P060",
+      "type": "box",
+      "minimum_mm": [
+        120.51,
+        -45.74,
+        14.01
+      ],
+      "maximum_mm": [
+        125.49,
+        -41.26,
+        19.99
+      ],
+      "expect": "solid"
+    },
+    {
+      "name": "Rigid return boss stock P061/-1",
+      "ref": "P061",
+      "type": "box",
+      "minimum_mm": [
+        120.51,
+        41.26,
+        14.01
+      ],
+      "maximum_mm": [
+        125.49,
+        45.74,
+        19.99
+      ],
+      "expect": "solid"
+    },
+    {
+      "name": "Rigid return boss stock P061/1",
+      "ref": "P061",
+      "type": "box",
+      "minimum_mm": [
+        120.51,
+        56.26,
+        14.01
+      ],
+      "maximum_mm": [
+        125.49,
+        60.74,
+        19.99
+      ],
+      "expect": "solid"
+    }
+  ],
+  "service_sweeps": [
+    {
+      "name": "Complete palm/electronics module upward release",
+      "moving_refs": [
+        "P02",
+        "P03",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "removed_refs": [],
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "range_mm": [
+        0,
+        40
+      ],
+      "initial_translation_mm": [
+        0,
+        0,
+        0.001
+      ],
+      "preload_mm": 2.0,
+      "prerequisites": "Release H21 preload lock, restrain/remove spring energy, set preload2mm, remove both palm M4s. Electronics reference bodies are part of the module and excluded as fixed obstacles.",
+      "fixed_refs": [
+        "H01",
+        "H02",
+        "H040",
+        "H041",
+        "H050",
+        "H051",
+        "H060",
+        "H061",
+        "H09",
+        "H09a",
+        "H09b",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H15",
+        "H160",
+        "H161",
+        "H170",
+        "H171",
+        "H180",
+        "H181",
+        "H190",
+        "H191",
+        "H20",
+        "H21",
+        "H22",
+        "H23",
+        "H240",
+        "H241",
+        "H242",
+        "H243",
+        "H250",
+        "H251",
+        "H252",
+        "H253",
+        "P01",
+        "P04",
+        "P05",
+        "P060",
+        "P061",
+        "P070a",
+        "P070b",
+        "P071a",
+        "P071b",
+        "P11"
+      ]
+    },
+    {
+      "name": "Keeper wristward release",
+      "moving_refs": [
+        "H15"
+      ],
+      "fixed_refs": [
+        "P01"
+      ],
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "range_mm": [
+        0,
+        2.0
+      ],
+      "prerequisites": "Remove complete palm/case module, H160/H161 keeper screws, H13 adjuster first."
+    },
+    {
+      "name": "Keeper upward removal after wristward release",
+      "moving_refs": [
+        "H15"
+      ],
+      "fixed_refs": [
+        "P01"
+      ],
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "range_mm": [
+        0,
+        35
+      ],
+      "initial_translation_mm": [
+        -2.0,
+        0,
+        0
+      ],
+      "prerequisites": "Same removals as wristward release; keeper already shifted 2.0 mm."
+    },
+    {
+      "name": "Sensor-yoke stack forward lead-window release",
+      "moving_refs": [
+        "H01",
+        "H02",
+        "H050",
+        "H051",
+        "H12",
+        "H20",
+        "H23",
+        "H240",
+        "H241",
+        "H242",
+        "H243",
+        "H250",
+        "H251",
+        "H252",
+        "H253",
+        "P05"
+      ],
+      "fixed_refs": [
+        "H060",
+        "H061",
+        "H09",
+        "H09a",
+        "H09b",
+        "H10",
+        "H11",
+        "H13",
+        "H15",
+        "H160",
+        "H161",
+        "H170",
+        "H171",
+        "H21",
+        "H22",
+        "P01",
+        "P04",
+        "P11"
+      ],
+      "removed_refs": [
+        "H030",
+        "H031",
+        "H040",
+        "H041",
+        "H180",
+        "H181",
+        "H190",
+        "H191",
+        "P02",
+        "P03",
+        "P060",
+        "P061",
+        "P070a",
+        "P070b",
+        "P071a",
+        "P071b",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "range_mm": [
+        0,
+        3.5
+      ],
+      "initial_translation_mm": [
+        0,
+        0,
+        0
+      ],
+      "prerequisites": "Remove palm/case module; safely release/remove springs, rear caps/bumpers and both rods; remove H18/H19 retention hardware. Keep the whole sensor cassette/keeper/yoke/pusher stack together; preload0."
+    },
+    {
+      "name": "Sensor-yoke stack final upward removal",
+      "moving_refs": [
+        "H01",
+        "H02",
+        "H050",
+        "H051",
+        "H12",
+        "H20",
+        "H23",
+        "H240",
+        "H241",
+        "H242",
+        "H243",
+        "H250",
+        "H251",
+        "H252",
+        "H253",
+        "P05"
+      ],
+      "fixed_refs": [
+        "H060",
+        "H061",
+        "H09",
+        "H09a",
+        "H09b",
+        "H10",
+        "H11",
+        "H13",
+        "H15",
+        "H160",
+        "H161",
+        "H170",
+        "H171",
+        "H21",
+        "H22",
+        "P01",
+        "P04",
+        "P11"
+      ],
+      "removed_refs": [
+        "H030",
+        "H031",
+        "H040",
+        "H041",
+        "H180",
+        "H181",
+        "H190",
+        "H191",
+        "P02",
+        "P03",
+        "P060",
+        "P061",
+        "P070a",
+        "P070b",
+        "P071a",
+        "P071b",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "range_mm": [
+        0,
+        40
+      ],
+      "initial_translation_mm": [
+        3.5,
+        0,
+        0
+      ],
+      "prerequisites": "Remove palm/case module; safely release/remove springs, rear caps/bumpers and both rods; remove H18/H19 retention hardware. Keep the whole sensor cassette/keeper/yoke/pusher stack together; preload0."
+    },
+    {
+      "name": "Removed stack: yoke/pusher axial separation from sensor keeper",
+      "moving_refs": [
+        "P05",
+        "H02",
+        "H20",
+        "H050",
+        "H051"
+      ],
+      "fixed_refs": [
+        "H01",
+        "H12",
+        "H23",
+        "H240",
+        "H241",
+        "H242",
+        "H243",
+        "H250",
+        "H251",
+        "H252",
+        "H253"
+      ],
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "range_mm": [
+        0,
+        30
+      ],
+      "prerequisites": "Complete assembled sensor/yoke stack removed onto bench using the preceding sequence. No other device bodies in this local separation check."
+    },
+    {
+      "name": "Vertical cam clamp upward removal",
+      "moving_refs": [
+        "H10"
+      ],
+      "fixed_refs": [
+        "H01",
+        "H02",
+        "H040",
+        "H041",
+        "H050",
+        "H051",
+        "H060",
+        "H061",
+        "H09",
+        "H09a",
+        "H09b",
+        "H11",
+        "H12",
+        "H13",
+        "H15",
+        "H160",
+        "H161",
+        "H170",
+        "H171",
+        "H180",
+        "H181",
+        "H190",
+        "H191",
+        "H20",
+        "H21",
+        "H22",
+        "H23",
+        "H240",
+        "H241",
+        "H242",
+        "H243",
+        "H250",
+        "H251",
+        "H252",
+        "H253",
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P060",
+        "P061",
+        "P070a",
+        "P070b",
+        "P071a",
+        "P071b",
+        "P08",
+        "P09",
+        "P10",
+        "P11"
+      ],
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "range_mm": [
+        0,
+        20
+      ],
+      "moving_convex_cover": {
+        "moving_ref": "H10",
+        "covers": [
+          {
+            "type": "cylinder_z",
+            "x_mm": 65.5,
+            "y_mm": 3.5,
+            "start_z_mm": 25.0,
+            "end_z_mm": 28.0,
+            "radius_mm": 2.75001
+          },
+          {
+            "type": "cylinder_z",
+            "x_mm": 65.5,
+            "y_mm": 3.5,
+            "start_z_mm": 15.0,
+            "end_z_mm": 25.1,
+            "radius_mm": 1.50001
+          }
+        ]
+      },
+      "prerequisites": "Usertravel0/preload0/trim0; restrain/remove spring energy and unscrew H10 completely. Nominal rigid hardware envelope only."
+    },
+    {
+      "name": "Unclamped stepped shoe forward release",
+      "moving_refs": [
+        "P11"
+      ],
+      "fixed_refs": [
+        "H01",
+        "H02",
+        "H040",
+        "H041",
+        "H050",
+        "H051",
+        "H060",
+        "H061",
+        "H09",
+        "H09a",
+        "H09b",
+        "H11",
+        "H12",
+        "H13",
+        "H15",
+        "H160",
+        "H161",
+        "H170",
+        "H171",
+        "H180",
+        "H181",
+        "H190",
+        "H191",
+        "H20",
+        "H21",
+        "H22",
+        "H23",
+        "H240",
+        "H241",
+        "H242",
+        "H243",
+        "H250",
+        "H251",
+        "H252",
+        "H253",
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P060",
+        "P061",
+        "P070a",
+        "P070b",
+        "P071a",
+        "P071b",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "removed_refs": [
+        "H10"
+      ],
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "range_mm": [
+        0,
+        9
+      ],
+      "prerequisites": "Usertravel0/preload0/trim0; spring energy removed, vertical H10 fully removed. Slide shoe9mm wristward through the open-front well; do not lift through the narrow roof slot."
+    },
+    {
+      "name": "Stepped shoe upward removal after forward release",
+      "moving_refs": [
+        "P11"
+      ],
+      "fixed_refs": [
+        "H01",
+        "H02",
+        "H040",
+        "H041",
+        "H050",
+        "H051",
+        "H060",
+        "H061",
+        "H09",
+        "H09a",
+        "H09b",
+        "H11",
+        "H12",
+        "H13",
+        "H15",
+        "H160",
+        "H161",
+        "H170",
+        "H171",
+        "H180",
+        "H181",
+        "H190",
+        "H191",
+        "H20",
+        "H21",
+        "H22",
+        "H23",
+        "H240",
+        "H241",
+        "H242",
+        "H243",
+        "H250",
+        "H251",
+        "H252",
+        "H253",
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P060",
+        "P061",
+        "P070a",
+        "P070b",
+        "P071a",
+        "P071b",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "removed_refs": [
+        "H10"
+      ],
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "range_mm": [
+        0,
+        25
+      ],
+      "initial_translation_mm": [
+        -9,
+        0,
+        0
+      ],
+      "prerequisites": "Same safe-unloaded neutral setup and H10 removal; shoe already slid9mm wristward and lies0.5mm outside the carriage front."
+    }
+  ],
+  "exact_brep_pairs": [
+    {
+      "pair": [
+        "P02",
+        "P03"
+      ],
+      "maximum_intersection_volume_mm3": 1e-06,
+      "reason": "Verify coincident nominal TPU/core fit has no BRep material overlap"
+    }
+  ],
+  "required_native_pose_keys": [
+    "dynamic:28:2:0",
+    "isometric:8:2:0",
+    "dynamic:28:2:-0.8",
+    "dynamic:30:0:0.8"
+  ],
+  "configuration_domain_description": "u>=0,0<=p<=2,u+p<=30,-0.8<=camTrim e<=0.8. Actual carriage offset=5+u; cam shoe/clamp setting=e-p before actual carriage translation. Configuration geometry only, not real switch operating-travel qualification.",
+  "actuator_effective_travel_coefficients": [
+    1.0,
+    1.0,
+    -1.0
+  ],
+  "continuous_transverse_partitions": [
+    {
+      "pair": [
+        "P04",
+        "P05"
+      ],
+      "axis": 1,
+      "planes_mm": [
+        -31.0,
+        -17.0,
+        17.0,
+        31.0
+      ],
+      "reason": "Exact complete Y-slab partition separates central cam protrusion from broad endpoint stop faces; never waives overlap."
+    }
+  ],
+  "native_part_steps": {},
+  "baseline_native_comparison": {
+    "assembly": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-switch-fit-2026-10-23/native/Flat132_R4_neutral_final.zip",
+    "assembly_sha256": "4278ba5000a141daa466628d03a2cc08e10267368d6a95dbcdb9546f9ccc63cc",
+    "only_changed_refs": [
+      "P01",
+      "P04",
+      "P05",
+      "P060",
+      "P061",
+      "H10",
+      "H030",
+      "H031"
+    ],
+    "added_refs": [
+      "P11"
+    ],
+    "removed_refs": [],
+    "new_to_baseline_rigid_translation_mm": {
+      "H060": [
+        5.0,
+        0.0,
+        0.0
+      ],
+      "H061": [
+        5.0,
+        0.0,
+        0.0
+      ],
+      "P070a": [
+        5.0,
+        0.0,
+        0.0
+      ],
+      "P070b": [
+        5.0,
+        0.0,
+        0.0
+      ],
+      "P071a": [
+        5.0,
+        0.0,
+        0.0
+      ],
+      "P071b": [
+        5.0,
+        0.0,
+        0.0
+      ]
+    },
+    "permitted_triangle_order_only_refs": "ALL_EXCEPT_EXPECTED_GEOMETRY_CHANGES",
+    "permitted_coplanar_retriangulation_refs": [
+      "P070a",
+      "P070b",
+      "P071a",
+      "P071b"
+    ],
+    "require_each_expected_change": true,
+    "meaning": "Only rail-extension P01,shoe-well P04,shortened-stop P05,return-boss retainers P060/P061,vertical H10 and indicative coils may change existing geometry; P11 is the only added body. Six unchanged seats/pads may move exactly-5X. All other bodies retain exact native triangle coordinates; no rounding or arbitrary registration."
+  },
+  "design_target": {
+    "maximum_hand_force_N": 500,
+    "qualification": "DESIGN_TARGET_ONLY; geometry checks do not establish a print/material load rating",
+    "fit_scope": "R5 dynamic rest/end grip shifted5mm toward unchanged palm while retaining30-p user travel. P05 face endsX30,primary web/root retained; P01guide extended toX29; return bosses establish closer rest. P11 is an actuation-only printed shoe, with vertical H10 manual clamp; source-approximate trim does not qualify physical switch OP/total travel."
+  },
+  "localized_wall_check_meaning": "Recorded nominal local sections, not global material strength or a global minimum wall. R2 reaction wall local depth 6.75 mm, guide widths 5 mm and top bridge 3 mm; fixed-guide end wall remains 2.3 mm and non-primary cassette ear roof 1.25 mm. Print orientation, material, strength, fatigue and retention durability remain unqualified.",
+  "native_export_files_sha256": {
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/native/Flat132_R5_neutral_final.zip": "2f4a8634c42317d10dfe93a8e113a254ef4d5f05d70b8f6330f23a9f5866e7a5",
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/native/Flat132_R5_final_AP214.step": "6308aae470551c220c91689f746cd7204d38ce6938aa907531423f2d78c2af40",
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/native/Flat132_R5_max28_p2_heavy_final.zip": "7c36db8d0101dc8d445c6f2476dcb38a51721431dcb4a052c59b7f80b0a33fb7",
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/native/Flat132_R5_isometric8_p2_86_final.zip": "90b46f11f45b67f5384631141ba6f96e88d155eb43792441eb2333d729a010a6",
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/native/Flat132_R5_max28_p2_trimN08_final.zip": "a0e5b8604e827dbb3b4ae781d30083c3fa2a4e21bd604050230a46248c48e64d",
+    "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-fit-2026-10-23/native/Flat132_R5_max30_p0_trimP08_final.zip": "10b8bd03c97ef529d8504d36c699356bc1598a9d528dcf62bd5be1a939e13a81"
+  },
+  "configuration_domain_vertices_user_preload_trim_mm": [
+    [
+      0.0,
+      0.0,
+      -0.8
+    ],
+    [
+      0.0,
+      0.0,
+      0.8
+    ],
+    [
+      30.0,
+      0.0,
+      -0.8
+    ],
+    [
+      30.0,
+      0.0,
+      0.8
+    ],
+    [
+      28.0,
+      2.0,
+      -0.8
+    ],
+    [
+      28.0,
+      2.0,
+      0.8
+    ],
+    [
+      0.0,
+      2.0,
+      -0.8
+    ],
+    [
+      0.0,
+      2.0,
+      0.8
+    ]
+  ],
+  "continuous_preferred_moving_ref_pairs": [
+    {
+      "pair": [
+        "P11",
+        "P04"
+      ],
+      "moving_ref": "P11",
+      "reason": "The swept shoe hull is contained by its well; relative frame change is exact."
+    }
+  ],
+  "continuous_convex_moving_covers": [
+    {
+      "pair": [
+        "H10",
+        "P04"
+      ],
+      "moving_ref": "H10",
+      "covers": [
+        {
+          "type": "cylinder_z",
+          "x_mm": 65.5,
+          "y_mm": 3.5,
+          "start_z_mm": 25.0,
+          "end_z_mm": 28.0,
+          "radius_mm": 2.75001
+        },
+        {
+          "type": "cylinder_z",
+          "x_mm": 65.5,
+          "y_mm": 3.5,
+          "start_z_mm": 15.0,
+          "end_z_mm": 25.1,
+          "radius_mm": 1.50001
+        }
+      ],
+      "reason": "Two outward conservative convex cylinders contain every native clamp triangle and its full solid. Each swept hull is checked; no hull wedge or material erosion."
+    }
+  ],
+  "rest_offset_mm": 5.0,
+  "isometric_sleeve_length_mm": 86.0,
+  "isometric_user_stroke_plus_preload_mm": 10.0,
+  "isometric_description": "Existing86mm sleeves retained: actual carriage offset15-p, user-relative approach10-p. Absolute isometric grip remains R4; it does not gain the5mm dynamic endpoint shift.",
+  "reach_fit_reference": {
+    "rest_offset_mm": 5.0,
+    "retained_user_travel_max_p0_p2_mm": [
+      30.0,
+      28.0
+    ],
+    "minimum_spring_length_mm": 66.0,
+    "spring_tradeoff": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-reach-study-2026-10-23/spring-tradeoff.json",
+    "camTrim_range_mm": [
+      -0.8,
+      0.8
+    ],
+    "shoe_setting": "e-p, then translate with actual carriage5+u",
+    "source_actuator_Q": "u+p-e",
+    "native_device_count": 53,
+    "native_total_count": 106,
+    "print_part_count": 15,
+    "manufacture_release": false
+  }
+}

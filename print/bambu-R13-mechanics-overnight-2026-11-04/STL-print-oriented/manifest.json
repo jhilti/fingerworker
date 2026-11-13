@@ -1,0 +1,68 @@
+{
+  "objects": 6,
+  "device_parts": 5,
+  "unloaded_fixtures": 1,
+  "identity": "Unchanged R13 geometry; rigid print placement only.",
+  "parts": [
+    {
+      "ref": "P01",
+      "quantity": 1,
+      "plate": 1,
+      "material": "PLA",
+      "category": "device",
+      "intent": "SMOOTH CONTINUOUS PALM RAIL AND FRAME - UNLOADED FIT STUDY",
+      "file": "P01.stl",
+      "sha256": "1c035b9bcdffc1525e34c329e11a2aaada5999bc4991c656eac52a8f5f91bbb1"
+    },
+    {
+      "ref": "P04",
+      "quantity": 1,
+      "plate": 1,
+      "material": "PLA",
+      "category": "device",
+      "intent": "R13 PLA assembly study - unchanged device geometry from R12",
+      "file": "P04.stl",
+      "sha256": "7474ebae367cf4871fb7ede782bad9c34bbfaa2c00e2cccca8fecaf3246e1381"
+    },
+    {
+      "ref": "P05",
+      "quantity": 1,
+      "plate": 1,
+      "material": "PLA",
+      "category": "device",
+      "intent": "R13 PLA assembly study - unchanged device geometry from R12",
+      "file": "P05.stl",
+      "sha256": "8ef67eea304109a9511183e1f5cc8a9e535797b07fb83081b13aad49f7894339"
+    },
+    {
+      "ref": "P11",
+      "quantity": 1,
+      "plate": 1,
+      "material": "PLA",
+      "category": "device",
+      "intent": "R13 PLA assembly study - unchanged device geometry from R12",
+      "file": "P11.stl",
+      "sha256": "0bed6889942d67e7bbad3634e4b5d817f7c78e0d4271af751420248f1f420f2b"
+    },
+    {
+      "ref": "Q01",
+      "quantity": 1,
+      "plate": 1,
+      "material": "PLA",
+      "category": "unloaded_fixture",
+      "intent": "RETAINED R12 FIXED SUPPORT PROXY - UNLOADED ONLY",
+      "file": "Q01.stl",
+      "sha256": "6c0a48443c6e589e1b6dd02424950680284d5f6d0c2f9200f5deb52b0b6e313e"
+    },
+    {
+      "ref": "P06",
+      "quantity": 1,
+      "plate": 1,
+      "material": "PLA",
+      "category": "device",
+      "intent": "R13 PLA assembly study - unchanged device geometry from R12",
+      "file": "P06.stl",
+      "sha256": "df12f2ecd6d06c0528e2db02be8843effcbf3351b16dace34fefa9bc59530fc1"
+    }
+  ]
+}

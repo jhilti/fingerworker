@@ -1,0 +1,629 @@
+{
+  "status": "PASS_CONNECTED_GEOMETRY_AND_SETTINGS",
+  "checks": [
+    {
+      "name": "baseline immutable generic project",
+      "passed": true
+    },
+    {
+      "name": "ready project exact UI save",
+      "passed": true
+    },
+    {
+      "name": "single six-object millimeter plate",
+      "passed": true
+    },
+    {
+      "name": "by layer sequence retained",
+      "passed": true
+    },
+    {
+      "name": "P01 one mesh",
+      "passed": true
+    },
+    {
+      "name": "P01 exact vertices and faces",
+      "passed": true
+    },
+    {
+      "name": "P01 exact component transforms",
+      "passed": true
+    },
+    {
+      "name": "P01 exact plate placement",
+      "passed": true
+    },
+    {
+      "name": "P01 remains printable",
+      "passed": true
+    },
+    {
+      "name": "P01 exact object process settings",
+      "passed": true,
+      "changes": {}
+    },
+    {
+      "name": "P01 no brim",
+      "passed": true
+    },
+    {
+      "name": "P01 same modifier count",
+      "passed": true
+    },
+    {
+      "name": "P01 modifier 0 effective geometry and placement within export precision",
+      "passed": true,
+      "max_coordinate_difference_mm": 0.0
+    },
+    {
+      "name": "P01 modifier 0 exact effective density settings",
+      "passed": true
+    },
+    {
+      "name": "P01 modifier 1 effective geometry and placement within export precision",
+      "passed": true,
+      "max_coordinate_difference_mm": 0.0
+    },
+    {
+      "name": "P01 modifier 1 exact effective density settings",
+      "passed": true
+    },
+    {
+      "name": "P01 modifier 2 effective geometry and placement within export precision",
+      "passed": true,
+      "max_coordinate_difference_mm": 9.999999974752427e-07
+    },
+    {
+      "name": "P01 modifier 2 exact effective density settings",
+      "passed": true
+    },
+    {
+      "name": "P01 modifier 3 effective geometry and placement within export precision",
+      "passed": true,
+      "max_coordinate_difference_mm": 9.999999974752427e-07
+    },
+    {
+      "name": "P01 modifier 3 exact effective density settings",
+      "passed": true
+    },
+    {
+      "name": "P04 one mesh",
+      "passed": true
+    },
+    {
+      "name": "P04 exact vertices and faces",
+      "passed": true
+    },
+    {
+      "name": "P04 exact component transforms",
+      "passed": true
+    },
+    {
+      "name": "P04 exact plate placement",
+      "passed": true
+    },
+    {
+      "name": "P04 remains printable",
+      "passed": true
+    },
+    {
+      "name": "P04 exact object process settings",
+      "passed": true,
+      "changes": {}
+    },
+    {
+      "name": "P04 no brim",
+      "passed": true
+    },
+    {
+      "name": "P04 same modifier count",
+      "passed": true
+    },
+    {
+      "name": "P05 one mesh",
+      "passed": true
+    },
+    {
+      "name": "P05 exact vertices and faces",
+      "passed": true
+    },
+    {
+      "name": "P05 exact component transforms",
+      "passed": true
+    },
+    {
+      "name": "P05 exact plate placement",
+      "passed": true
+    },
+    {
+      "name": "P05 remains printable",
+      "passed": true
+    },
+    {
+      "name": "P05 exact object process settings",
+      "passed": true,
+      "changes": {}
+    },
+    {
+      "name": "P05 no brim",
+      "passed": true
+    },
+    {
+      "name": "P05 same modifier count",
+      "passed": true
+    },
+    {
+      "name": "P11 one mesh",
+      "passed": true
+    },
+    {
+      "name": "P11 exact vertices and faces",
+      "passed": true
+    },
+    {
+      "name": "P11 exact component transforms",
+      "passed": true
+    },
+    {
+      "name": "P11 exact plate placement",
+      "passed": true
+    },
+    {
+      "name": "P11 remains printable",
+      "passed": true
+    },
+    {
+      "name": "P11 exact object process settings",
+      "passed": true,
+      "changes": {}
+    },
+    {
+      "name": "P11 no brim",
+      "passed": true
+    },
+    {
+      "name": "P11 same modifier count",
+      "passed": true
+    },
+    {
+      "name": "Q01 one mesh",
+      "passed": true
+    },
+    {
+      "name": "Q01 exact vertices and faces",
+      "passed": true
+    },
+    {
+      "name": "Q01 exact component transforms",
+      "passed": true
+    },
+    {
+      "name": "Q01 exact plate placement",
+      "passed": true
+    },
+    {
+      "name": "Q01 remains printable",
+      "passed": true
+    },
+    {
+      "name": "Q01 exact object process settings",
+      "passed": true,
+      "changes": {}
+    },
+    {
+      "name": "Q01 no brim",
+      "passed": true
+    },
+    {
+      "name": "Q01 same modifier count",
+      "passed": true
+    },
+    {
+      "name": "P06 one mesh",
+      "passed": true
+    },
+    {
+      "name": "P06 exact vertices and faces",
+      "passed": true
+    },
+    {
+      "name": "P06 exact component transforms",
+      "passed": true
+    },
+    {
+      "name": "P06 exact plate placement",
+      "passed": true
+    },
+    {
+      "name": "P06 remains printable",
+      "passed": true
+    },
+    {
+      "name": "P06 exact object process settings",
+      "passed": true,
+      "changes": {}
+    },
+    {
+      "name": "P06 no brim",
+      "passed": true
+    },
+    {
+      "name": "P06 same modifier count",
+      "passed": true
+    },
+    {
+      "name": "global protected layer_height",
+      "passed": true
+    },
+    {
+      "name": "global protected initial_layer_print_height",
+      "passed": true
+    },
+    {
+      "name": "global protected wall_loops",
+      "passed": true
+    },
+    {
+      "name": "global protected top_shell_layers",
+      "passed": true
+    },
+    {
+      "name": "global protected bottom_shell_layers",
+      "passed": true
+    },
+    {
+      "name": "global protected top_shell_thickness",
+      "passed": true
+    },
+    {
+      "name": "global protected sparse_infill_density",
+      "passed": true
+    },
+    {
+      "name": "global protected sparse_infill_pattern",
+      "passed": true
+    },
+    {
+      "name": "global protected enable_arc_fitting",
+      "passed": true
+    },
+    {
+      "name": "global protected default_acceleration",
+      "passed": true
+    },
+    {
+      "name": "global protected inner_wall_acceleration",
+      "passed": true
+    },
+    {
+      "name": "global protected outer_wall_acceleration",
+      "passed": true
+    },
+    {
+      "name": "global protected top_surface_acceleration",
+      "passed": true
+    },
+    {
+      "name": "global protected outer_wall_speed",
+      "passed": true
+    },
+    {
+      "name": "global protected inner_wall_speed",
+      "passed": true
+    },
+    {
+      "name": "global protected top_surface_speed",
+      "passed": true
+    },
+    {
+      "name": "global protected sparse_infill_speed",
+      "passed": true
+    },
+    {
+      "name": "global protected bridge_speed",
+      "passed": true
+    },
+    {
+      "name": "global protected support_speed",
+      "passed": true
+    },
+    {
+      "name": "global protected support_interface_speed",
+      "passed": true
+    },
+    {
+      "name": "global protected support_type",
+      "passed": true
+    },
+    {
+      "name": "global protected support_style",
+      "passed": true
+    },
+    {
+      "name": "global protected support_top_z_distance",
+      "passed": true
+    },
+    {
+      "name": "global protected support_bottom_z_distance",
+      "passed": true
+    },
+    {
+      "name": "global protected support_on_build_plate_only",
+      "passed": true
+    },
+    {
+      "name": "global protected brim_type",
+      "passed": true
+    },
+    {
+      "name": "global protected brim_width",
+      "passed": true
+    },
+    {
+      "name": "global protected machine_start_gcode",
+      "passed": true
+    },
+    {
+      "name": "global protected machine_end_gcode",
+      "passed": true
+    },
+    {
+      "name": "global protected change_filament_gcode",
+      "passed": true
+    },
+    {
+      "name": "global protected nozzle_diameter",
+      "passed": true
+    },
+    {
+      "name": "global protected nozzle_type",
+      "passed": true
+    },
+    {
+      "name": "global protected printer_model",
+      "passed": true
+    },
+    {
+      "name": "global protected curr_bed_type",
+      "passed": true
+    },
+    {
+      "name": "global protected printable_area",
+      "passed": true
+    },
+    {
+      "name": "global protected printable_height",
+      "passed": true
+    },
+    {
+      "name": "global protected support_filament",
+      "passed": true
+    },
+    {
+      "name": "global protected support_interface_filament",
+      "passed": true
+    },
+    {
+      "name": "active project material is PLA Basic",
+      "passed": true
+    },
+    {
+      "name": "all six objects assigned first material",
+      "passed": true
+    },
+    {
+      "name": "global support uses object filament",
+      "passed": true
+    }
+  ],
+  "failed_checks": 0,
+  "failures": [],
+  "source_sha256": "97e2010cc17d06eb8648cf278b9aae2fd85b6e909bd657b9b216f3b37748665f",
+  "baseline_project_sha256": "860843b3df9f988d67db68bae78e30dd8f2d7fc0fbe8e4c810ef78087e17eaa1",
+  "connected_project_sha256": "b8eeb41a267ef7808fde1a6ee5a036eed1ef9a24f7610044177396576bca23d7",
+  "connected_sliced_archive_sha256": "d077b2ff3f6340495e3c6914a3aa4bb674d00c2c64635fe523878e370c63e15c",
+  "validator_sha256": "b79c9c1d67bb9bf014d23d5a24871ed82657cde25b8cba01dc276ee1e8f7674f",
+  "extracted_inspector_sha256": "153895bf1d43394561777bebc70b2366fce5bfb45db55d5bbc9601b8526a896e",
+  "object_changed_values": {
+    "P01": {},
+    "P04": {},
+    "P05": {},
+    "P11": {},
+    "Q01": {},
+    "P06": {}
+  },
+  "modifier_source_metadata_changes": [
+    {
+      "name": "Inboard slot X28_Y-57.5 - local100% infill",
+      "generic_source_matrix": "1 0 0 -13.44999885559082 0 1 0 -59 0 0 1 -14.5 0 0 0 1",
+      "ready_source_matrix": "1 0 0 -26.899997755590821 0 1 0 -118 0 0 1 -29 0 0 0 1",
+      "interpretation": "Source-file matrix metadata is rewritten on GUI save. Operational component transform and transformed mesh are independently checked; actual dense extrusion cores require the separate connected toolpath audit."
+    },
+    {
+      "name": "Inboard slot X28_Y57.5 - local100% infill",
+      "generic_source_matrix": "1 0 0 -13.44999885559082 0 1 0 59 0 0 1 -14.5 0 0 0 1",
+      "ready_source_matrix": "1 0 0 -26.899997755590821 0 1 0 118 0 0 1 -29 0 0 0 1",
+      "interpretation": "Source-file matrix metadata is rewritten on GUI save. Operational component transform and transformed mesh are independently checked; actual dense extrusion cores require the separate connected toolpath audit."
+    },
+    {
+      "name": "Inboard slot X65_Y-57.5 - local100% infill",
+      "generic_source_matrix": "1 0 0 23.550000190734863 0 1 0 -59 0 0 1 -14.5 0 0 0 1",
+      "ready_source_matrix": "1 0 0 47.100001344409179 0 1 0 -118 0 0 1 -29 0 0 0 1",
+      "interpretation": "Source-file matrix metadata is rewritten on GUI save. Operational component transform and transformed mesh are independently checked; actual dense extrusion cores require the separate connected toolpath audit."
+    },
+    {
+      "name": "Inboard slot X65_Y57.5 - local100% infill",
+      "generic_source_matrix": "1 0 0 23.550000190734863 0 1 0 59 0 0 1 -14.5 0 0 0 1",
+      "ready_source_matrix": "1 0 0 47.100001344409179 0 1 0 118 0 0 1 -29 0 0 0 1",
+      "interpretation": "Source-file matrix metadata is rewritten on GUI save. Operational component transform and transformed mesh are independently checked; actual dense extrusion cores require the separate connected toolpath audit."
+    }
+  ],
+  "global_changed_keys": [
+    "activate_air_filtration",
+    "additional_cooling_fan_speed",
+    "additional_fan_full_speed_layer",
+    "chamber_temperatures",
+    "circle_compensation_speed",
+    "close_additional_fan_first_x_layers",
+    "close_fan_the_first_x_layers",
+    "compatible_printers",
+    "compatible_printers_condition",
+    "complete_print_exhaust_fan_speed",
+    "cool_plate_temp",
+    "cool_plate_temp_initial_layer",
+    "cooling_perimeter_transition_distance",
+    "cooling_slowdown_logic",
+    "counter_coef_1",
+    "counter_coef_2",
+    "counter_coef_3",
+    "counter_limit_max",
+    "counter_limit_min",
+    "default_filament_colour",
+    "diameter_limit",
+    "different_settings_to_system",
+    "during_print_exhaust_fan_speed",
+    "enable_overhang_bridge_fan",
+    "enable_pressure_advance",
+    "eng_plate_temp",
+    "eng_plate_temp_initial_layer",
+    "extruder_ams_count",
+    "fan_cooling_layer_time",
+    "fan_max_speed",
+    "fan_min_speed",
+    "filament_adaptive_volumetric_speed",
+    "filament_adhesiveness_category",
+    "filament_bridge_speed",
+    "filament_change_length",
+    "filament_change_length_nc",
+    "filament_colour",
+    "filament_colour_type",
+    "filament_cooling_before_tower",
+    "filament_cost",
+    "filament_density",
+    "filament_deretraction_speed",
+    "filament_dev_ams_drying_ams_limitations",
+    "filament_dev_ams_drying_heat_distortion_temperature",
+    "filament_dev_ams_drying_temperature",
+    "filament_dev_ams_drying_time",
+    "filament_dev_chamber_drying_bed_temperature",
+    "filament_dev_chamber_drying_time",
+    "filament_dev_drying_cooling_temperature",
+    "filament_dev_drying_softening_temperature",
+    "filament_diameter",
+    "filament_enable_overhang_speed",
+    "filament_end_gcode",
+    "filament_extruder_compatibility",
+    "filament_extruder_variant",
+    "filament_flow_ratio",
+    "filament_flush_temp",
+    "filament_flush_temp_fast",
+    "filament_flush_volumetric_speed",
+    "filament_ids",
+    "filament_is_support",
+    "filament_long_retractions_when_cut",
+    "filament_map",
+    "filament_map_2",
+    "filament_max_volumetric_speed",
+    "filament_metal_stickiness",
+    "filament_minimal_purge_on_wipe_tower",
+    "filament_multi_colour",
+    "filament_overhang_1_4_speed",
+    "filament_overhang_2_4_speed",
+    "filament_overhang_3_4_speed",
+    "filament_overhang_4_4_speed",
+    "filament_overhang_totally_speed",
+    "filament_pre_cooling_temperature",
+    "filament_pre_cooling_temperature_nc",
+    "filament_preheat_temperature_delta",
+    "filament_prime_volume",
+    "filament_prime_volume_nc",
+    "filament_printable",
+    "filament_ramming_travel_time",
+    "filament_ramming_travel_time_nc",
+    "filament_ramming_volumetric_speed",
+    "filament_ramming_volumetric_speed_nc",
+    "filament_retract_before_wipe",
+    "filament_retract_length_nc",
+    "filament_retract_restart_extra",
+    "filament_retract_when_changing_layer",
+    "filament_retraction_distances_when_cut",
+    "filament_retraction_length",
+    "filament_retraction_minimum_travel",
+    "filament_retraction_speed",
+    "filament_scarf_gap",
+    "filament_scarf_height",
+    "filament_scarf_length",
+    "filament_scarf_seam_type",
+    "filament_self_index",
+    "filament_settings_id",
+    "filament_shrink",
+    "filament_soluble",
+    "filament_start_gcode",
+    "filament_tower_interface_pre_extrusion_dist",
+    "filament_tower_interface_pre_extrusion_length",
+    "filament_tower_interface_print_temp",
+    "filament_tower_interface_purge_volume",
+    "filament_tower_ironing_area",
+    "filament_type",
+    "filament_velocity_adaptation_factor",
+    "filament_vendor",
+    "filament_wipe",
+    "filament_wipe_distance",
+    "filament_z_hop",
+    "filament_z_hop_types",
+    "first_x_layer_fan_speed",
+    "first_x_layer_part_fan_speed",
+    "flush_volumes_matrix",
+    "flush_volumes_vector",
+    "full_fan_speed_layer",
+    "hole_coef_1",
+    "hole_coef_2",
+    "hole_coef_3",
+    "hole_limit_max",
+    "hole_limit_min",
+    "host_type",
+    "hot_plate_temp",
+    "hot_plate_temp_initial_layer",
+    "impact_strength_z",
+    "inherits_group",
+    "ironing_fan_speed",
+    "long_retractions_when_ec",
+    "no_slow_down_for_cooling_on_outwalls",
+    "nozzle_temperature",
+    "nozzle_temperature_initial_layer",
+    "nozzle_temperature_range_high",
+    "nozzle_temperature_range_low",
+    "overhang_fan_speed",
+    "overhang_fan_threshold",
+    "overhang_threshold_participating_cooling",
+    "override_process_overhang_speed",
+    "pre_start_fan_time",
+    "pressure_advance",
+    "print_settings_id",
+    "printhost_authorization_type",
+    "printhost_ssl_ignore_revoke",
+    "reduce_fan_stop_start_freq",
+    "required_nozzle_HRC",
+    "retraction_distances_when_ec",
+    "slow_down_for_layer_cooling",
+    "slow_down_layer_time",
+    "slow_down_min_speed",
+    "supertack_plate_temp",
+    "supertack_plate_temp_initial_layer",
+    "temperature_vitrification",
+    "textured_plate_temp",
+    "textured_plate_temp_initial_layer",
+    "volumetric_speed_coefficients",
+    "wipe_tower_x"
+  ],
+  "used_material_settings": {
+    "filament_type": "PLA",
+    "filament_settings_id": "Bambu PLA Basic @BBL H2D",
+    "filament_max_volumetric_speed": "25",
+    "filament_flow_ratio": "0.98",
+    "filament_density": "1.26",
+    "nozzle_temperature": "220",
+    "nozzle_temperature_initial_layer": "220"
+  },
+  "scope": "Exact six saved printable meshes/topology and placements, four effective density modifiers within1e-5mm export precision and all object overrides compared to validated generic project. Protected global geometry/speed/support/machine values retained. Material inventory/profiles intentionally changed by connected AMS sync; active material1 is PLA Basic. Actual extrusion paths and tool usage audited separately."
+}

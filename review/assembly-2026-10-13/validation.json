@@ -1,0 +1,29 @@
+{
+  "status": "REMOVAL_AND_MESH_PASS",
+  "source_sha256": "2bafbad135b30ac9544e803bb7ffc1fffffdfb2793dffdac76e4185ee17bd28b",
+  "stl_sha256": "55e68176869f4e4e3fd844b64298c88b3849cdaf305653d55d1e3ffe1ce13639",
+  "live_onshape_saved": true,
+  "bounds_mm": [
+    156.0,
+    180.0,
+    29.0
+  ],
+  "closed": true,
+  "remaining_assembly_issue": {
+    "description": "Straight rear insertion at unchanged operating height intersects fixed rear retainer feet, even with removable retainers removed. Eye removal alone does not prove assembly.",
+    "offset_mm": 2,
+    "intersection_mm3": 72.0,
+    "bounds_mm": [
+      [
+        124.5,
+        -87.0,
+        5.0
+      ],
+      [
+        126.0,
+        87.0,
+        6.0
+      ]
+    ]
+  }
+}

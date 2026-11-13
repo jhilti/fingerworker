@@ -1,0 +1,26 @@
+{
+  "tool": "trace_netlist_connection",
+  "arguments": {
+    "netlist_path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/reports/full-review-netlist.xml",
+    "reference": "U4"
+  },
+  "result": {
+    "meta": {
+      "fastmcp": {
+        "wrap_result": true
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "## Netlist Connection Trace: U4\n\n**Total Nets:** 14\n\n### Net: ADC_CS_N\n**Pins:** 2\n\n| Reference | Pin |\n|-----------|-----|\n| R13 | 2 |\n| R14 | 2 |\n\n### Net: ADC_DRDY_N\n**Pins:** 14\n\n| Reference | Pin |\n|-----------|-----|\n| U1 | 4 |\n\n### Net: AIN_N\n**Pins:** 10\n\n| Reference | Pin |\n|-----------|-----|\n| C10 | 1 |\n| C8 | 2 |\n| R8 | 2 |\n\n### Net: AIN_P\n**Pins:** 11\n\n| Reference | Pin |\n|-----------|-----|\n| C8 | 1 |\n| C9 | 1 |\n| R7 | 2 |\n\n### Net: GND\n**Pins:** 3, 4, 5\n\n| Reference | Pin |\n|-----------|-----|\n| BT1 | - |\n| C1 | 2 |\n| C10 | 2 |\n| C12 | 2 |\n| C13 | 2 |\n| C14 | 2 |\n| C15 | 2 |\n| C16 | 2 |\n| C2 | 2 |\n| C3 | 2 |\n| C4 | 2 |\n| C6 | 2 |\n| C7 | 2 |\n| C9 | 2 |\n| H1 | BLACK |\n| J1 | 2 |\n| J2 | 4 |\n| J3 | 2 |\n| Q1 | 2 |\n| R15 | 2 |\n| R16 | 2 |\n| R2 | 2 |\n| R4 | 2 |\n| R5 | 2 |\n| R6 | 2 |\n| SW1 | COM |\n| SW2 | 2 |\n| U1 | 13 |\n| U1 | 18 |\n| U1 | 20 |\n| U2 | 2 |\n| U3 | 2 |\n\n### Net: REF_N\n**Pins:** 8\n\n| Reference | Pin |\n|-----------|-----|\n| C11 | 2 |\n| R10 | 2 |\n\n### Net: REF_P\n**Pins:** 9\n\n| Reference | Pin |\n|-----------|-----|\n| C11 | 1 |\n| R9 | 2 |\n\n### Net: SPI_MISO\n**Pins:** 15\n\n| Reference | Pin |\n|-----------|-----|\n| U1 | 10 |\n\n### Net: SPI_MOSI_ADC\n**Pins:** 16\n\n| Reference | Pin |\n|-----------|-----|\n| R12 | 2 |\n| R16 | 1 |\n\n### Net: SPI_SCK_ADC\n**Pins:** 1\n\n| Reference | Pin |\n|-----------|-----|\n| R11 | 2 |\n| R15 | 1 |\n\n### Net: V3V3\n**Pins:** 13\n\n| Reference | Pin |\n|-----------|-----|\n| C1 | 1 |\n| C14 | 1 |\n| C3 | 1 |\n| L1 | 1 |\n| R14 | 1 |\n| R19 | 1 |\n| R20 | 1 |\n| U1 | 12 |\n| U2 | 5 |\n\n### Net: V5A\n**Pins:** 12\n\n| Reference | Pin |\n|-----------|-----|\n| C12 | 1 |\n| C13 | 1 |\n| C7 | 1 |\n| H1 | RED |\n| J2 | 1 |\n| R17 | 1 |\n| U3 | 5 |\n\n### Net: unconnected-(U4-AIN2-Pad7)\n**Pins:** 7\n\nNo other components on this net.\n\n### Net: unconnected-(U4-AIN3_{slash}_REFN1-Pad6)\n**Pins:** 6\n\nNo other components on this net.\n",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": {
+      "result": "## Netlist Connection Trace: U4\n\n**Total Nets:** 14\n\n### Net: ADC_CS_N\n**Pins:** 2\n\n| Reference | Pin |\n|-----------|-----|\n| R13 | 2 |\n| R14 | 2 |\n\n### Net: ADC_DRDY_N\n**Pins:** 14\n\n| Reference | Pin |\n|-----------|-----|\n| U1 | 4 |\n\n### Net: AIN_N\n**Pins:** 10\n\n| Reference | Pin |\n|-----------|-----|\n| C10 | 1 |\n| C8 | 2 |\n| R8 | 2 |\n\n### Net: AIN_P\n**Pins:** 11\n\n| Reference | Pin |\n|-----------|-----|\n| C8 | 1 |\n| C9 | 1 |\n| R7 | 2 |\n\n### Net: GND\n**Pins:** 3, 4, 5\n\n| Reference | Pin |\n|-----------|-----|\n| BT1 | - |\n| C1 | 2 |\n| C10 | 2 |\n| C12 | 2 |\n| C13 | 2 |\n| C14 | 2 |\n| C15 | 2 |\n| C16 | 2 |\n| C2 | 2 |\n| C3 | 2 |\n| C4 | 2 |\n| C6 | 2 |\n| C7 | 2 |\n| C9 | 2 |\n| H1 | BLACK |\n| J1 | 2 |\n| J2 | 4 |\n| J3 | 2 |\n| Q1 | 2 |\n| R15 | 2 |\n| R16 | 2 |\n| R2 | 2 |\n| R4 | 2 |\n| R5 | 2 |\n| R6 | 2 |\n| SW1 | COM |\n| SW2 | 2 |\n| U1 | 13 |\n| U1 | 18 |\n| U1 | 20 |\n| U2 | 2 |\n| U3 | 2 |\n\n### Net: REF_N\n**Pins:** 8\n\n| Reference | Pin |\n|-----------|-----|\n| C11 | 2 |\n| R10 | 2 |\n\n### Net: REF_P\n**Pins:** 9\n\n| Reference | Pin |\n|-----------|-----|\n| C11 | 1 |\n| R9 | 2 |\n\n### Net: SPI_MISO\n**Pins:** 15\n\n| Reference | Pin |\n|-----------|-----|\n| U1 | 10 |\n\n### Net: SPI_MOSI_ADC\n**Pins:** 16\n\n| Reference | Pin |\n|-----------|-----|\n| R12 | 2 |\n| R16 | 1 |\n\n### Net: SPI_SCK_ADC\n**Pins:** 1\n\n| Reference | Pin |\n|-----------|-----|\n| R11 | 2 |\n| R15 | 1 |\n\n### Net: V3V3\n**Pins:** 13\n\n| Reference | Pin |\n|-----------|-----|\n| C1 | 1 |\n| C14 | 1 |\n| C3 | 1 |\n| L1 | 1 |\n| R14 | 1 |\n| R19 | 1 |\n| R20 | 1 |\n| U1 | 12 |\n| U2 | 5 |\n\n### Net: V5A\n**Pins:** 12\n\n| Reference | Pin |\n|-----------|-----|\n| C12 | 1 |\n| C13 | 1 |\n| C7 | 1 |\n| H1 | RED |\n| J2 | 1 |\n| R17 | 1 |\n| U3 | 5 |\n\n### Net: unconnected-(U4-AIN2-Pad7)\n**Pins:** 7\n\nNo other components on this net.\n\n### Net: unconnected-(U4-AIN3_{slash}_REFN1-Pad6)\n**Pins:** 6\n\nNo other components on this net.\n"
+    },
+    "isError": false
+  }
+}

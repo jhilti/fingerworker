@@ -1,0 +1,72 @@
+[
+  {
+    "label": "removed",
+    "fuzzy_mm": 0,
+    "done": true,
+    "valid": false,
+    "volume_mm3": 165262.23766113303
+  },
+  {
+    "label": "added",
+    "fuzzy_mm": 0,
+    "done": true,
+    "valid": true,
+    "volume_mm3": 10869.758875091948
+  },
+  {
+    "label": "removed",
+    "fuzzy_mm": 1e-08,
+    "done": true,
+    "valid": false,
+    "volume_mm3": 165262.23766113303
+  },
+  {
+    "label": "added",
+    "fuzzy_mm": 1e-08,
+    "done": true,
+    "valid": true,
+    "volume_mm3": 10869.758875091948
+  },
+  {
+    "label": "removed",
+    "fuzzy_mm": 1e-07,
+    "done": true,
+    "valid": false,
+    "volume_mm3": 165262.23766113303
+  },
+  {
+    "label": "added",
+    "fuzzy_mm": 1e-07,
+    "done": true,
+    "valid": true,
+    "volume_mm3": 10869.758875091948
+  },
+  {
+    "label": "removed",
+    "fuzzy_mm": 1e-06,
+    "done": true,
+    "valid": false,
+    "volume_mm3": 165262.23765937763
+  },
+  {
+    "label": "added",
+    "fuzzy_mm": 1e-06,
+    "done": true,
+    "valid": true,
+    "volume_mm3": 10869.758877379312
+  },
+  {
+    "label": "removed",
+    "fuzzy_mm": 1e-05,
+    "done": true,
+    "valid": false,
+    "volume_mm3": 165262.23765937763
+  },
+  {
+    "label": "added",
+    "fuzzy_mm": 1e-05,
+    "done": true,
+    "valid": true,
+    "volume_mm3": 10869.758877379312
+  }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "pair": [
+      "P04",
+      "H070"
+    ],
+    "relative_x_range_mm": [
+      -30.0,
+      0.0
+    ],
+    "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+    "certified_intervals": 1,
+    "intersections": [],
+    "unresolved_intervals": [],
+    "samples": [],
+    "method": "Exact transverse slab + swept axial bounds",
+    "clipped_bounds_mm": [
+      [
+        65.0,
+        -26.0,
+        16.0
+      ],
+      [
+        124.0,
+        -22.0,
+        20.0
+      ]
+    ],
+    "maximum_sampled_volume_mm3": 0.0
+  },
+  {
+    "pair": [
+      "P04",
+      "H071"
+    ],
+    "relative_x_range_mm": [
+      -30.0,
+      0.0
+    ],
+    "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+    "certified_intervals": 1,
+    "intersections": [],
+    "unresolved_intervals": [],
+    "samples": [],
+    "method": "Exact transverse slab + swept axial bounds",
+    "clipped_bounds_mm": [
+      [
+        65.0,
+        22.0,
+        16.0
+      ],
+      [
+        124.0,
+        26.0,
+        20.0
+      ]
+    ],
+    "maximum_sampled_volume_mm3": 0.0
+  },
+  {
+    "pair": [
+      "H190",
+      "P01"
+    ],
+    "relative_x_range_mm": [
+      0.0,
+      2.0
+    ],
+    "status": "CONTINUOUS_CLEARANCE_AT_NUMERICAL_VOLUME_TOLERANCE",
+    "certified_intervals": 1,
+    "intersections": [],
+    "unresolved_intervals": [],
+    "samples": [],
+    "method": "Conservative complete swept convex-hull intersection volume bounds every pose",
+    "complete_swept_envelope_intersection_upper_bound_mm3": 8.383482574198176e-08,
+    "maximum_sampled_volume_mm3": 0.0
+  },
+  {
+    "pair": [
+      "H191",
+      "P01"
+    ],
+    "relative_x_range_mm": [
+      0.0,
+      2.0
+    ],
+    "status": "CONTINUOUS_CLEARANCE_AT_NUMERICAL_VOLUME_TOLERANCE",
+    "certified_intervals": 1,
+    "intersections": [],
+    "unresolved_intervals": [],
+    "samples": [],
+    "method": "Conservative complete swept convex-hull intersection volume bounds every pose",
+    "complete_swept_envelope_intersection_upper_bound_mm3": 8.383482576968313e-08,
+    "maximum_sampled_volume_mm3": 0.0
+  }
+]

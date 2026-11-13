@@ -1,0 +1,9 @@
+board_manager:
+  additional_urls:
+    - https://files.seeedstudio.com/arduino/package_seeeduino_boards_index.json
+directories:
+  data: /tmp/fingerworker-arduino/data
+  downloads: /tmp/fingerworker-arduino/downloads
+  user: /tmp/fingerworker-arduino/user
+build_cache:
+  path: /tmp/fingerworker-arduino/cache

@@ -1,0 +1,231 @@
+{
+  "status": "PASS_GEOMETRY_AND_TOOLPATHS",
+  "date": "2026-10-13",
+  "printer": "H2D",
+  "material": "PETG",
+  "nozzle_mm": 0.4,
+  "device_types": 25,
+  "device_pieces": 30,
+  "fit_coupons": 2,
+  "plates": 6,
+  "decisions": [
+    {
+      "part": "P01",
+      "quantity": 1,
+      "description": "Grundplatte 6 mm, freier Einschub",
+      "orientation": "Unterseite unten",
+      "support": "Bett; Brim 5 mm",
+      "note": "45°-Führung, offene Fenster; kurze Querbohrungen bei 25 mm/s. Brim gegen abhebende PETG-Ecken."
+    },
+    {
+      "part": "P02",
+      "quantity": 1,
+      "description": "P02_Palm_mount_RevA",
+      "orientation": "Platte unten, Kern oben",
+      "support": "Bett; kein Brim",
+      "note": "Große ebene Auflage; M4-Löcher senkrecht. Stützen unter dem runden Kern und aus M2-Piloten entfernen."
+    },
+    {
+      "part": "P03a",
+      "quantity": 1,
+      "description": "Starre Handballen-Halbschale links",
+      "orientation": "Längsachse senkrecht",
+      "support": "Keine; Brim 8 mm",
+      "note": "86 mm hohe linke Schale; maximal 60 mm/s, 1500 mm/s². Brim vorsichtig abtrennen."
+    },
+    {
+      "part": "P03b",
+      "quantity": 1,
+      "description": "Starre Handballen-Halbschale rechts",
+      "orientation": "Längsachse senkrecht",
+      "support": "Keine; Brim 8 mm",
+      "note": "86 mm hohe rechte Schale; maximal 60 mm/s, 1500 mm/s². Für Montage mit Klebeband halten."
+    },
+    {
+      "part": "P04",
+      "quantity": 1,
+      "description": "P04_climbing_carriage",
+      "orientation": "Hintere Stirnseite unten",
+      "support": "Auch auf Modell; Brim 5 mm",
+      "note": "Neu gedreht: keine breite Decke über der Führung. Stützen durch seitliche Griffmulde und offene Führungsunterseite entfernen."
+    },
+    {
+      "part": "P05",
+      "quantity": 1,
+      "description": "P05_floating_yoke",
+      "orientation": "Hintere Rippe unten",
+      "support": "Nur Bett; Brim 5 mm",
+      "note": "Neu gedreht: Führungs- und Druckstiftbohrungen stützenfrei. Schulterstützen entfernen; kurze 5,7-mm-Muttertaschenbrücke."
+    },
+    {
+      "part": "P060",
+      "quantity": 1,
+      "description": "Hinterer Halter links, tiefere Auflage",
+      "orientation": "Sockelfläche unten",
+      "support": "Keine; kein Brim",
+      "note": "Schrauben-/Kopfkanäle bleiben senkrecht. Kurze Ø6,2-mm-Stabbohrungsbrücke bei 25 mm/s; keine Innenstützen."
+    },
+    {
+      "part": "P061",
+      "quantity": 1,
+      "description": "Hinterer Halter rechts, tiefere Auflage",
+      "orientation": "Sockelfläche unten",
+      "support": "Keine; kein Brim",
+      "note": "Wie P060. Geprüfte Rückseite-unten-Drehung wegen schwebender Wände und ungünstiger Kopfkanäle verworfen."
+    },
+    {
+      "part": "P070a",
+      "quantity": 1,
+      "description": "Starrer Rücklaufpuffer zur Formprüfung",
+      "orientation": "Flache Rechteckseite unten",
+      "support": "Keine; Brim 2 mm",
+      "note": "0,1-mm-Schichten nur an diesem Objekt; echte Höhe 1,50 mm. Harte Formprobe, kein Elastomer."
+    },
+    {
+      "part": "P070b",
+      "quantity": 1,
+      "description": "Starrer Rücklaufpuffer zur Formprüfung",
+      "orientation": "Flache Rechteckseite unten",
+      "support": "Keine; Brim 2 mm",
+      "note": "0,1-mm-Schichten nur an diesem Objekt; echte Höhe 1,50 mm. Maximal 40 mm/s."
+    },
+    {
+      "part": "P071a",
+      "quantity": 1,
+      "description": "Starrer Rücklaufpuffer zur Formprüfung",
+      "orientation": "Flache Rechteckseite unten",
+      "support": "Keine; Brim 2 mm",
+      "note": "0,1-mm-Schichten nur an diesem Objekt; echte Höhe 1,50 mm. Maximal 40 mm/s."
+    },
+    {
+      "part": "P071b",
+      "quantity": 1,
+      "description": "Starrer Rücklaufpuffer zur Formprüfung",
+      "orientation": "Flache Rechteckseite unten",
+      "support": "Keine; Brim 2 mm",
+      "note": "0,1-mm-Schichten nur an diesem Objekt; echte Höhe 1,50 mm. Maximal 40 mm/s."
+    },
+    {
+      "part": "P08",
+      "quantity": 1,
+      "description": "P08_Electronics_tray",
+      "orientation": "Wannenboden unten",
+      "support": "Auch auf Modell; kein Brim",
+      "note": "USB-Dach jetzt unterstützt: 65 Bahnen direkt darunter. Stützen über offene Wanne/Port entnehmen; 0,3-mm-Stoppkanten schonen."
+    },
+    {
+      "part": "P09",
+      "quantity": 1,
+      "description": "P09_Electronics_lid",
+      "orientation": "Glatte Außenseite unten",
+      "support": "Keine; kein Brim",
+      "note": "Rippen oben, 0,8-mm-Grundhaut auf dem Bett. Keine freie Decke unter den Rippen."
+    },
+    {
+      "part": "P10",
+      "quantity": 1,
+      "description": "P10_Wire_clamp",
+      "orientation": "Klemme flach",
+      "support": "Keine; Brim 2 mm",
+      "note": "Kleine, 1 mm hohe Form; maximal 40 mm/s. Brim und Lochränder vorsichtig säubern."
+    },
+    {
+      "part": "H02",
+      "quantity": 1,
+      "description": "Druckstift, Anschauung ohne Gewindefunktion",
+      "orientation": "Ø4-Kontaktende unten",
+      "support": "Bett; Brim 3 mm",
+      "note": "Neu aufrecht; größere direkte Erstschicht statt runder Linienauflage. Schulterstützen außen abnehmen; glatter Gewindeersatz."
+    },
+    {
+      "part": "H04",
+      "quantity": 2,
+      "description": "Führungsstab Ø6 × 146, Anschauung",
+      "orientation": "Stab liegend",
+      "support": "Automatisch; Brim 3 mm",
+      "note": "Lange direkte Erstschichtbahn trägt den Ø6-mm-Stab. Keine tatsächlichen Stütz-/Brückenbahnen; Unterseite entgraten."
+    },
+    {
+      "part": "H05",
+      "quantity": 2,
+      "description": "Fester Federsitz",
+      "orientation": "Scheibenfläche unten",
+      "support": "Keine; kein Brim",
+      "note": "Große Ringauflage, Bohrung senkrecht. Kein erhöhtes geschlossenes Dach."
+    },
+    {
+      "part": "H06",
+      "quantity": 2,
+      "description": "Beweglicher Federsitz",
+      "orientation": "Scheibenfläche unten",
+      "support": "Keine; kein Brim",
+      "note": "Wie H05; Nennform und Bohrungsdurchmesser bleiben erhalten."
+    },
+    {
+      "part": "H12",
+      "quantity": 1,
+      "description": "Sensorkassette",
+      "orientation": "Flache Seitenkante unten",
+      "support": "Auch auf Modell; Brim 3 mm",
+      "note": "Neu seitlich: Auflage 35 auf 130 mm². Stützen aus seitlich offener 1,6-mm-Sensortasche entfernen."
+    },
+    {
+      "part": "H13",
+      "quantity": 1,
+      "description": "Handrad Ø22 × 2,8, Bohrung Ø6,4; ohne Schraubenschaft",
+      "orientation": "Handradfläche unten",
+      "support": "Keine; kein Brim",
+      "note": "Einfacher Ring, Ø6,4-Bohrung senkrecht. Nur Radform, kein Schraubenschaft."
+    },
+    {
+      "part": "H14",
+      "quantity": 2,
+      "description": "Optionale Isometriehülse",
+      "orientation": "Stirnfläche unten, axial",
+      "support": "Keine; Brim 3 mm",
+      "note": "Ø16/Ø8 × 86 mm; stabile Ringauflage. Maximal 60 mm/s und 1500 mm/s²."
+    },
+    {
+      "part": "H15",
+      "quantity": 1,
+      "description": "Halteplatte",
+      "orientation": "Bisherige Rückseite unten",
+      "support": "Keine; kein Brim",
+      "note": "Keine Brücken. Alternative 180°-Drehung erzeugte zusätzliche Brücken und wurde verworfen."
+    },
+    {
+      "part": "H19",
+      "quantity": 2,
+      "description": "Abstandshülse",
+      "orientation": "Hülse axial, Stirnfläche unten",
+      "support": "Keine; Brim 3 mm",
+      "note": "0,4-mm-Wand wird vollständig mit Arachne gedruckt. Maximal 40 mm/s; dünne Hülse beim Entnehmen schonen."
+    },
+    {
+      "part": "H22",
+      "quantity": 1,
+      "description": "Druckstück Ø2,5 × 1, Anschauung",
+      "orientation": "Flache Scheibenfläche unten",
+      "support": "Keine; Brim 3 mm",
+      "note": "Sehr kleines Ø2,5 × 1-mm-Teil. Vollständige Bahnen bis 1,00 mm, maximal 40 mm/s; mit Brim abnehmen."
+    },
+    {
+      "part": "CouponMale",
+      "quantity": 1,
+      "description": "Führungs-Passprobe",
+      "orientation": "Sockel unten",
+      "support": "Keine; kein Brim",
+      "note": "Unveränderte Probe, 100 % Füllung. Bereits gedrucktes Exemplar bleibt verwendbar."
+    },
+    {
+      "part": "CouponFemale",
+      "quantity": 1,
+      "description": "Führungs-Passprobe",
+      "orientation": "Geschlossene Rückseite unten",
+      "support": "Keine; kein Brim",
+      "note": "Kanal oben; keine Brückenbahnen. Zum Passungstest nach dem Druck umdrehen; Maße unverändert."
+    }
+  ],
+  "exact_geometry": "Only P04/P05/H12/H02 rigidly reoriented; nominal device shape and CAD Rev C unchanged",
+  "qualifications": "Spring-free form and assembly assessment; physical adhesion, fit and support release require the printed sample"
+}

@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "female_object_label": 2,
+  "results": [
+    {
+      "project": "RevD",
+      "female_bridge_tagged_extrusion_segments": 134,
+      "max_segment_length_mm": 36.56800000000001,
+      "z_mm": [
+        2.6,
+        4.2
+      ]
+    },
+    {
+      "project": "RevE",
+      "female_bridge_tagged_extrusion_segments": 0,
+      "max_segment_length_mm": 0,
+      "z_mm": []
+    }
+  ],
+  "interpretation": "Former long bridge over the empty guide channel is removed. Rev E female coupon has no Bridge-tagged extrusion paths; coupons are solid."
+}

@@ -1,0 +1,4108 @@
+{
+  "RevE": {
+    "1:1:CouponMale": {
+      "key": "CouponMale",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 441,
+          "length_mm": 10608.972000000005,
+          "min_z_mm": 0.2,
+          "max_z_mm": 5.8,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.49999
+        },
+        "Outer wall": {
+          "extrusion_segments": 1047,
+          "length_mm": 3876.2440054766894,
+          "min_z_mm": 0.2,
+          "max_z_mm": 6.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Bottom surface": {
+          "extrusion_segments": 193,
+          "length_mm": 2170.673055772489,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.502,
+          "max_width_mm": 0.502
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 2823,
+          "length_mm": 24094.365254270986,
+          "min_z_mm": 0.4,
+          "max_z_mm": 5.8,
+          "min_width_mm": 0.42073,
+          "max_width_mm": 0.45208
+        },
+        "Sparse infill": {
+          "extrusion_segments": 66836,
+          "length_mm": 33146.6165657163,
+          "min_z_mm": 1.2,
+          "max_z_mm": 5.0,
+          "min_width_mm": 0.45,
+          "max_width_mm": 0.45
+        },
+        "Top surface": {
+          "extrusion_segments": 248,
+          "length_mm": 3618.463390602594,
+          "min_z_mm": 3.0,
+          "max_z_mm": 6.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Floating vertical shell": {
+          "extrusion_segments": 12,
+          "length_mm": 159.38399999999993,
+          "min_z_mm": 3.6,
+          "max_z_mm": 3.8,
+          "min_width_mm": 0.37781,
+          "max_width_mm": 0.5127
+        }
+      },
+      "first_layer_segments": 213,
+      "first_layer_length_mm": 2711.6970557724885,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "1:2:CouponFemale": {
+      "key": "CouponFemale",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 522,
+          "length_mm": 9409.595999999998,
+          "min_z_mm": 0.2,
+          "max_z_mm": 4.8,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.49999
+        },
+        "Outer wall": {
+          "extrusion_segments": 743,
+          "length_mm": 3511.606006524673,
+          "min_z_mm": 0.2,
+          "max_z_mm": 5.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Bottom surface": {
+          "extrusion_segments": 193,
+          "length_mm": 2170.673348817252,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.502,
+          "max_width_mm": 0.502
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 1996,
+          "length_mm": 22789.48194491487,
+          "min_z_mm": 0.4,
+          "max_z_mm": 4.8,
+          "min_width_mm": 0.39104,
+          "max_width_mm": 0.59104
+        },
+        "Sparse infill": {
+          "extrusion_segments": 22855,
+          "length_mm": 10963.508733500412,
+          "min_z_mm": 1.2,
+          "max_z_mm": 4.0,
+          "min_width_mm": 0.45,
+          "max_width_mm": 0.45
+        },
+        "Top surface": {
+          "extrusion_segments": 246,
+          "length_mm": 3495.226702496888,
+          "min_z_mm": 2.8,
+          "max_z_mm": 5.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Floating vertical shell": {
+          "extrusion_segments": 38,
+          "length_mm": 481.3520000000002,
+          "min_z_mm": 3.4,
+          "max_z_mm": 4.2,
+          "min_width_mm": 0.37781,
+          "max_width_mm": 0.5127
+        }
+      },
+      "first_layer_segments": 213,
+      "first_layer_length_mm": 2711.697348817252,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "2:3:P01": {
+      "key": "P01",
+      "features": {
+        "Support": {
+          "extrusion_segments": 646,
+          "length_mm": 3025.4637524521736,
+          "min_z_mm": 0.2,
+          "max_z_mm": 4.7475,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.5
+        },
+        "Inner wall": {
+          "extrusion_segments": 77469,
+          "length_mm": 241580.66727777765,
+          "min_z_mm": 0.2,
+          "max_z_mm": 30.8,
+          "min_width_mm": 0.35838,
+          "max_width_mm": 0.73176
+        },
+        "Outer wall": {
+          "extrusion_segments": 29060,
+          "length_mm": 90768.92265063546,
+          "min_z_mm": 0.2,
+          "max_z_mm": 31.0,
+          "min_width_mm": 0.38292,
+          "max_width_mm": 0.55045
+        },
+        "Bottom surface": {
+          "extrusion_segments": 1859,
+          "length_mm": 41162.27214652102,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.50081,
+          "max_width_mm": 0.50081
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 26709,
+          "length_mm": 374883.12583245273,
+          "min_z_mm": 0.4,
+          "max_z_mm": 30.8,
+          "min_width_mm": 0.35292,
+          "max_width_mm": 0.61024
+        },
+        "Sparse infill": {
+          "extrusion_segments": 291284,
+          "length_mm": 341988.02369110764,
+          "min_z_mm": 1.2,
+          "max_z_mm": 30.0,
+          "min_width_mm": 0.45,
+          "max_width_mm": 0.45
+        },
+        "Floating vertical shell": {
+          "extrusion_segments": 1725,
+          "length_mm": 6024.076890066908,
+          "min_z_mm": 1.8,
+          "max_z_mm": 30.2,
+          "min_width_mm": 0.35227,
+          "max_width_mm": 0.65601
+        },
+        "Bridge": {
+          "extrusion_segments": 4732,
+          "length_mm": 47805.83356488696,
+          "min_z_mm": 1.8,
+          "max_z_mm": 30.2,
+          "min_width_mm": 0.40044,
+          "max_width_mm": 0.4954
+        },
+        "Top surface": {
+          "extrusion_segments": 2862,
+          "length_mm": 57626.80206863607,
+          "min_z_mm": 2.6,
+          "max_z_mm": 31.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 275,
+          "length_mm": 68.29114976336272,
+          "min_z_mm": 2.6,
+          "max_z_mm": 31.0,
+          "min_width_mm": 0.0888073,
+          "max_width_mm": 0.396869
+        },
+        "Support transition": {
+          "extrusion_segments": 54,
+          "length_mm": 273.43793454796787,
+          "min_z_mm": 5.015,
+          "max_z_mm": 5.015,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Support interface": {
+          "extrusion_segments": 92,
+          "length_mm": 526.8643273898722,
+          "min_z_mm": 5.2825,
+          "max_z_mm": 5.55,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Overhang wall": {
+          "extrusion_segments": 241,
+          "length_mm": 585.9286526513537,
+          "min_z_mm": 6.0,
+          "max_z_mm": 30.4,
+          "min_width_mm": 0.38292,
+          "max_width_mm": 0.7317
+        }
+      },
+      "first_layer_segments": 2693,
+      "first_layer_length_mm": 46097.63737329648,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 95.9819907117997,
+      "bridge_segments": 4732,
+      "bridge_length_mm": 47805.83356488696
+    },
+    "2:4:H04": {
+      "key": "H04",
+      "features": {
+        "Outer wall": {
+          "extrusion_segments": 582,
+          "length_mm": 8697.261000044658,
+          "min_z_mm": 0.2,
+          "max_z_mm": 6.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.63837
+        },
+        "Inner wall": {
+          "extrusion_segments": 428,
+          "length_mm": 24103.40000000001,
+          "min_z_mm": 0.4,
+          "max_z_mm": 5.8,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.54478
+        },
+        "Overhang wall": {
+          "extrusion_segments": 6,
+          "length_mm": 291.6819999999999,
+          "min_z_mm": 0.4,
+          "max_z_mm": 0.4,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.41999
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 66,
+          "length_mm": 4563.483999999998,
+          "min_z_mm": 0.8,
+          "max_z_mm": 5.4,
+          "min_width_mm": 0.34889,
+          "max_width_mm": 0.6226
+        },
+        "Sparse infill": {
+          "extrusion_segments": 19393,
+          "length_mm": 9121.231627028015,
+          "min_z_mm": 1.8,
+          "max_z_mm": 4.4,
+          "min_width_mm": 0.45,
+          "max_width_mm": 0.45
+        },
+        "Floating vertical shell": {
+          "extrusion_segments": 27,
+          "length_mm": 2280.2160000000003,
+          "min_z_mm": 3.8,
+          "max_z_mm": 4.8,
+          "min_width_mm": 0.38292,
+          "max_width_mm": 0.6226
+        },
+        "Top surface": {
+          "extrusion_segments": 272,
+          "length_mm": 268.8299821934999,
+          "min_z_mm": 6.0,
+          "max_z_mm": 6.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        }
+      },
+      "first_layer_segments": 5,
+      "first_layer_length_mm": 291.254,
+      "first_layer_min_width_mm": 0.63837,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "2:21:H04": {
+      "key": "H04",
+      "features": {
+        "Brim": {
+          "extrusion_segments": 395,
+          "length_mm": 3650.151275451015,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.5,
+          "max_width_mm": 0.5
+        },
+        "Outer wall": {
+          "extrusion_segments": 582,
+          "length_mm": 8697.261000044658,
+          "min_z_mm": 0.2,
+          "max_z_mm": 6.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.63837
+        },
+        "Inner wall": {
+          "extrusion_segments": 428,
+          "length_mm": 24103.40000000001,
+          "min_z_mm": 0.4,
+          "max_z_mm": 5.8,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.54478
+        },
+        "Overhang wall": {
+          "extrusion_segments": 6,
+          "length_mm": 291.6819999999999,
+          "min_z_mm": 0.4,
+          "max_z_mm": 0.4,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.41999
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 66,
+          "length_mm": 4563.483999999998,
+          "min_z_mm": 0.8,
+          "max_z_mm": 5.4,
+          "min_width_mm": 0.34889,
+          "max_width_mm": 0.6226
+        },
+        "Sparse infill": {
+          "extrusion_segments": 19393,
+          "length_mm": 9121.240395774177,
+          "min_z_mm": 1.8,
+          "max_z_mm": 4.4,
+          "min_width_mm": 0.45,
+          "max_width_mm": 0.45
+        },
+        "Floating vertical shell": {
+          "extrusion_segments": 27,
+          "length_mm": 2280.2160000000003,
+          "min_z_mm": 3.8,
+          "max_z_mm": 4.8,
+          "min_width_mm": 0.38292,
+          "max_width_mm": 0.6226
+        },
+        "Top surface": {
+          "extrusion_segments": 272,
+          "length_mm": 268.8299821935,
+          "min_z_mm": 6.0,
+          "max_z_mm": 6.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        }
+      },
+      "first_layer_segments": 5,
+      "first_layer_length_mm": 291.254,
+      "first_layer_min_width_mm": 0.63837,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "3:6:P04": {
+      "key": "P04",
+      "features": {
+        "Support": {
+          "extrusion_segments": 597,
+          "length_mm": 8730.677948424338,
+          "min_z_mm": 0.2,
+          "max_z_mm": 1.49167,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.5
+        },
+        "Inner wall": {
+          "extrusion_segments": 22533,
+          "length_mm": 245564.0280566572,
+          "min_z_mm": 0.2,
+          "max_z_mm": 24.8,
+          "min_width_mm": 0.35921,
+          "max_width_mm": 0.49999
+        },
+        "Outer wall": {
+          "extrusion_segments": 8689,
+          "length_mm": 83564.98688978671,
+          "min_z_mm": 0.2,
+          "max_z_mm": 25.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Bottom surface": {
+          "extrusion_segments": 758,
+          "length_mm": 10516.397085981256,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.50096,
+          "max_width_mm": 0.50215
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 10577,
+          "length_mm": 122205.803103179,
+          "min_z_mm": 0.4,
+          "max_z_mm": 24.8,
+          "min_width_mm": 0.37696,
+          "max_width_mm": 0.62902
+        },
+        "Sparse infill": {
+          "extrusion_segments": 265426,
+          "length_mm": 311789.3346272761,
+          "min_z_mm": 1.2,
+          "max_z_mm": 24.0,
+          "min_width_mm": 0.45,
+          "max_width_mm": 0.45
+        },
+        "Support transition": {
+          "extrusion_segments": 173,
+          "length_mm": 2447.8926108133883,
+          "min_z_mm": 1.23333,
+          "max_z_mm": 1.75,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Floating vertical shell": {
+          "extrusion_segments": 2185,
+          "length_mm": 12791.1342376676,
+          "min_z_mm": 1.4,
+          "max_z_mm": 24.0,
+          "min_width_mm": 0.35208,
+          "max_width_mm": 0.667135
+        },
+        "Support interface": {
+          "extrusion_segments": 334,
+          "length_mm": 4900.146626097003,
+          "min_z_mm": 1.49167,
+          "max_z_mm": 2.15,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Overhang wall": {
+          "extrusion_segments": 58,
+          "length_mm": 384.29600000000073,
+          "min_z_mm": 2.2,
+          "max_z_mm": 17.2,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.44999
+        },
+        "Bridge": {
+          "extrusion_segments": 2533,
+          "length_mm": 20255.603135820835,
+          "min_z_mm": 2.2,
+          "max_z_mm": 24.2,
+          "min_width_mm": 0.40048,
+          "max_width_mm": 0.44982
+        },
+        "Top surface": {
+          "extrusion_segments": 1005,
+          "length_mm": 15768.560426334916,
+          "min_z_mm": 3.0,
+          "max_z_mm": 25.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 69,
+          "length_mm": 18.356826217838893,
+          "min_z_mm": 3.0,
+          "max_z_mm": 25.0,
+          "min_width_mm": 0.0943706,
+          "max_width_mm": 0.381492
+        }
+      },
+      "first_layer_segments": 982,
+      "first_layer_length_mm": 12581.638207032049,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 55.89960157281982,
+      "bridge_segments": 2533,
+      "bridge_length_mm": 20255.603135820835
+    },
+    "3:7:P05": {
+      "key": "P05",
+      "features": {
+        "Support": {
+          "extrusion_segments": 1570,
+          "length_mm": 8407.420000000175,
+          "min_z_mm": 0.2,
+          "max_z_mm": 7.535,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.5
+        },
+        "Inner wall": {
+          "extrusion_segments": 21557,
+          "length_mm": 134270.1839562315,
+          "min_z_mm": 0.2,
+          "max_z_mm": 21.8,
+          "min_width_mm": 0.43172,
+          "max_width_mm": 0.49999
+        },
+        "Outer wall": {
+          "extrusion_segments": 9915,
+          "length_mm": 46043.80195087483,
+          "min_z_mm": 0.2,
+          "max_z_mm": 22.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Bottom surface": {
+          "extrusion_segments": 557,
+          "length_mm": 4501.848279800027,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.50159,
+          "max_width_mm": 0.50159
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 6950,
+          "length_mm": 50335.28087743621,
+          "min_z_mm": 0.4,
+          "max_z_mm": 21.8,
+          "min_width_mm": 0.372866,
+          "max_width_mm": 0.63464
+        },
+        "Top surface": {
+          "extrusion_segments": 895,
+          "length_mm": 9981.147401985714,
+          "min_z_mm": 0.8,
+          "max_z_mm": 22.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 41,
+          "length_mm": 9.049107219400543,
+          "min_z_mm": 0.8,
+          "max_z_mm": 22.0,
+          "min_width_mm": 0.0891589,
+          "max_width_mm": 0.361924
+        },
+        "Sparse infill": {
+          "extrusion_segments": 129500,
+          "length_mm": 150752.91608804726,
+          "min_z_mm": 1.2,
+          "max_z_mm": 21.0,
+          "min_width_mm": 0.45,
+          "max_width_mm": 0.45
+        },
+        "Floating vertical shell": {
+          "extrusion_segments": 2606,
+          "length_mm": 8401.824452918769,
+          "min_z_mm": 1.4,
+          "max_z_mm": 21.2,
+          "min_width_mm": 0.350678,
+          "max_width_mm": 0.65338
+        },
+        "Bridge": {
+          "extrusion_segments": 2172,
+          "length_mm": 9743.995898205616,
+          "min_z_mm": 6.8,
+          "max_z_mm": 21.4,
+          "min_width_mm": 0.40003,
+          "max_width_mm": 0.49
+        },
+        "Support transition": {
+          "extrusion_segments": 16,
+          "length_mm": 651.2409999999999,
+          "min_z_mm": 7.80667,
+          "max_z_mm": 7.80667,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Support interface": {
+          "extrusion_segments": 26,
+          "length_mm": 1139.0179999999998,
+          "min_z_mm": 8.07833,
+          "max_z_mm": 8.35,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Overhang wall": {
+          "extrusion_segments": 88,
+          "length_mm": 747.596026233368,
+          "min_z_mm": 8.8,
+          "max_z_mm": 21.4,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.44999
+        }
+      },
+      "first_layer_segments": 641,
+      "first_layer_length_mm": 5980.274853988005,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 72.675,
+      "bridge_segments": 2172,
+      "bridge_length_mm": 9743.995898205616
+    },
+    "3:8:P02": {
+      "key": "P02",
+      "features": {
+        "Support": {
+          "extrusion_segments": 84,
+          "length_mm": 206.02349191567026,
+          "min_z_mm": 0.2,
+          "max_z_mm": 2.93077,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.5
+        },
+        "Inner wall": {
+          "extrusion_segments": 20986,
+          "length_mm": 80725.83318885691,
+          "min_z_mm": 0.2,
+          "max_z_mm": 17.8,
+          "min_width_mm": 0.34603,
+          "max_width_mm": 0.72462
+        },
+        "Outer wall": {
+          "extrusion_segments": 7445,
+          "length_mm": 27457.288905415346,
+          "min_z_mm": 0.2,
+          "max_z_mm": 18.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.5923
+        },
+        "Bottom surface": {
+          "extrusion_segments": 614,
+          "length_mm": 5215.683498497526,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.50096,
+          "max_width_mm": 0.50096
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 6709,
+          "length_mm": 44048.51109946619,
+          "min_z_mm": 0.4,
+          "max_z_mm": 17.8,
+          "min_width_mm": 0.35119,
+          "max_width_mm": 0.64353
+        },
+        "Sparse infill": {
+          "extrusion_segments": 69385,
+          "length_mm": 80885.45905984775,
+          "min_z_mm": 1.2,
+          "max_z_mm": 17.0,
+          "min_width_mm": 0.45,
+          "max_width_mm": 0.45
+        },
+        "Floating vertical shell": {
+          "extrusion_segments": 1383,
+          "length_mm": 13036.922016301258,
+          "min_z_mm": 3.2,
+          "max_z_mm": 17.2,
+          "min_width_mm": 0.339481,
+          "max_width_mm": 0.63324
+        },
+        "Support transition": {
+          "extrusion_segments": 14,
+          "length_mm": 18.445989395587056,
+          "min_z_mm": 3.20385,
+          "max_z_mm": 3.20385,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Bridge": {
+          "extrusion_segments": 997,
+          "length_mm": 4377.572676041637,
+          "min_z_mm": 3.4,
+          "max_z_mm": 4.2,
+          "min_width_mm": 0.40092,
+          "max_width_mm": 0.42259
+        },
+        "Support interface": {
+          "extrusion_segments": 15,
+          "length_mm": 20.500937178867183,
+          "min_z_mm": 3.47692,
+          "max_z_mm": 3.75,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Top surface": {
+          "extrusion_segments": 990,
+          "length_mm": 5405.924709313108,
+          "min_z_mm": 4.0,
+          "max_z_mm": 18.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 148,
+          "length_mm": 36.70474540851113,
+          "min_z_mm": 4.0,
+          "max_z_mm": 18.0,
+          "min_width_mm": 0.0895508,
+          "max_width_mm": 0.323335
+        }
+      },
+      "first_layer_segments": 1481,
+      "first_layer_length_mm": 7000.794794954733,
+      "first_layer_min_width_mm": 0.36906,
+      "bridge_max_segment_mm": 34.13194053961773,
+      "bridge_segments": 997,
+      "bridge_length_mm": 4377.572676041637
+    },
+    "3:9:P060": {
+      "key": "P060",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 15287,
+          "length_mm": 17531.54987386448,
+          "min_z_mm": 0.2,
+          "max_z_mm": 23.4,
+          "min_width_mm": 0.38348,
+          "max_width_mm": 0.67028
+        },
+        "Outer wall": {
+          "extrusion_segments": 11835,
+          "length_mm": 12192.347539650395,
+          "min_z_mm": 0.2,
+          "max_z_mm": 23.6,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Bottom surface": {
+          "extrusion_segments": 39,
+          "length_mm": 79.28456549224191,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.51927,
+          "max_width_mm": 0.51927
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 720,
+          "length_mm": 1241.9665509293864,
+          "min_z_mm": 0.4,
+          "max_z_mm": 23.4,
+          "min_width_mm": 0.37217,
+          "max_width_mm": 0.54322
+        },
+        "Sparse infill": {
+          "extrusion_segments": 2062,
+          "length_mm": 2241.534052335427,
+          "min_z_mm": 1.2,
+          "max_z_mm": 22.6,
+          "min_width_mm": 0.45,
+          "max_width_mm": 0.45
+        },
+        "Floating vertical shell": {
+          "extrusion_segments": 281,
+          "length_mm": 276.51986641787965,
+          "min_z_mm": 5.0,
+          "max_z_mm": 22.6,
+          "min_width_mm": 0.38292,
+          "max_width_mm": 0.537835
+        },
+        "Bridge": {
+          "extrusion_segments": 91,
+          "length_mm": 212.5305362220606,
+          "min_z_mm": 9.6,
+          "max_z_mm": 22.8,
+          "min_width_mm": 0.41031,
+          "max_width_mm": 0.4498
+        },
+        "Top surface": {
+          "extrusion_segments": 80,
+          "length_mm": 300.0727873280442,
+          "min_z_mm": 10.4,
+          "max_z_mm": 23.6,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 65,
+          "length_mm": 11.262804413719273,
+          "min_z_mm": 10.4,
+          "max_z_mm": 23.6,
+          "min_width_mm": 0.105159,
+          "max_width_mm": 0.282379
+        },
+        "Overhang wall": {
+          "extrusion_segments": 8,
+          "length_mm": 15.491999999999933,
+          "min_z_mm": 16.6,
+          "max_z_mm": 16.8,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.44999
+        }
+      },
+      "first_layer_segments": 264,
+      "first_layer_length_mm": 341.009803106018,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 6.465999999999994,
+      "bridge_segments": 91,
+      "bridge_length_mm": 212.5305362220606
+    },
+    "3:10:P061": {
+      "key": "P061",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 15163,
+          "length_mm": 17530.793405277884,
+          "min_z_mm": 0.2,
+          "max_z_mm": 23.4,
+          "min_width_mm": 0.3813,
+          "max_width_mm": 0.67434
+        },
+        "Outer wall": {
+          "extrusion_segments": 11849,
+          "length_mm": 12192.328876019797,
+          "min_z_mm": 0.2,
+          "max_z_mm": 23.6,
+          "min_width_mm": 0.41998,
+          "max_width_mm": 0.49999
+        },
+        "Bottom surface": {
+          "extrusion_segments": 39,
+          "length_mm": 79.22777806045853,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.51958,
+          "max_width_mm": 0.51958
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 723,
+          "length_mm": 1243.1711765277894,
+          "min_z_mm": 0.4,
+          "max_z_mm": 23.4,
+          "min_width_mm": 0.37346,
+          "max_width_mm": 0.54322
+        },
+        "Sparse infill": {
+          "extrusion_segments": 2055,
+          "length_mm": 2241.6077191495565,
+          "min_z_mm": 1.2,
+          "max_z_mm": 22.6,
+          "min_width_mm": 0.45,
+          "max_width_mm": 0.45
+        },
+        "Floating vertical shell": {
+          "extrusion_segments": 283,
+          "length_mm": 276.4463300478207,
+          "min_z_mm": 5.0,
+          "max_z_mm": 22.6,
+          "min_width_mm": 0.38292,
+          "max_width_mm": 0.53784
+        },
+        "Bridge": {
+          "extrusion_segments": 90,
+          "length_mm": 212.48169597938286,
+          "min_z_mm": 9.6,
+          "max_z_mm": 22.8,
+          "min_width_mm": 0.4103,
+          "max_width_mm": 0.4498
+        },
+        "Top surface": {
+          "extrusion_segments": 80,
+          "length_mm": 299.99359173024504,
+          "min_z_mm": 10.4,
+          "max_z_mm": 23.6,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 64,
+          "length_mm": 11.259952538250527,
+          "min_z_mm": 10.4,
+          "max_z_mm": 23.6,
+          "min_width_mm": 0.105155,
+          "max_width_mm": 0.282173
+        },
+        "Overhang wall": {
+          "extrusion_segments": 8,
+          "length_mm": 15.491999999999933,
+          "min_z_mm": 16.6,
+          "max_z_mm": 16.8,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.44999
+        }
+      },
+      "first_layer_segments": 256,
+      "first_layer_length_mm": 340.93500653418516,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 6.465999999999994,
+      "bridge_segments": 90,
+      "bridge_length_mm": 212.48169597938286
+    },
+    "4:11:P08": {
+      "key": "P08",
+      "features": {
+        "Support": {
+          "extrusion_segments": 501,
+          "length_mm": 1941.2276390819493,
+          "min_z_mm": 0.2,
+          "max_z_mm": 7.35,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.5
+        },
+        "Inner wall": {
+          "extrusion_segments": 4555,
+          "length_mm": 5614.642564097832,
+          "min_z_mm": 0.2,
+          "max_z_mm": 9.0,
+          "min_width_mm": 0.35508,
+          "max_width_mm": 0.72776
+        },
+        "Outer wall": {
+          "extrusion_segments": 7518,
+          "length_mm": 22190.78777156286,
+          "min_z_mm": 0.2,
+          "max_z_mm": 9.6,
+          "min_width_mm": 0.38292,
+          "max_width_mm": 0.60357
+        },
+        "Bottom surface": {
+          "extrusion_segments": 383,
+          "length_mm": 4326.217140230683,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.50006,
+          "max_width_mm": 0.50006
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 1728,
+          "length_mm": 18193.51406190892,
+          "min_z_mm": 0.4,
+          "max_z_mm": 8.8,
+          "min_width_mm": 0.391747,
+          "max_width_mm": 0.42278
+        },
+        "Top surface": {
+          "extrusion_segments": 461,
+          "length_mm": 5768.364287775403,
+          "min_z_mm": 1.0,
+          "max_z_mm": 9.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 30,
+          "length_mm": 7.698295426349035,
+          "min_z_mm": 1.0,
+          "max_z_mm": 9.0,
+          "min_width_mm": 0.0972444,
+          "max_width_mm": 0.325007
+        },
+        "Overhang wall": {
+          "extrusion_segments": 318,
+          "length_mm": 209.7255168630096,
+          "min_z_mm": 5.6,
+          "max_z_mm": 8.4,
+          "min_width_mm": 0.40414,
+          "max_width_mm": 0.71222
+        },
+        "Support transition": {
+          "extrusion_segments": 60,
+          "length_mm": 152.59404056953412,
+          "min_z_mm": 6.20417,
+          "max_z_mm": 7.55,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Support interface": {
+          "extrusion_segments": 102,
+          "length_mm": 275.1322924184337,
+          "min_z_mm": 6.47708,
+          "max_z_mm": 7.95,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Bridge": {
+          "extrusion_segments": 7,
+          "length_mm": 7.604000000000006,
+          "min_z_mm": 8.4,
+          "max_z_mm": 8.4,
+          "min_width_mm": 0.4954,
+          "max_width_mm": 0.4954
+        }
+      },
+      "first_layer_segments": 403,
+      "first_layer_length_mm": 5351.241140230676,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 1.6750000000000043,
+      "bridge_segments": 7,
+      "bridge_length_mm": 7.604000000000006
+    },
+    "4:12:P09": {
+      "key": "P09",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 1023,
+          "length_mm": 4617.998095973941,
+          "min_z_mm": 0.2,
+          "max_z_mm": 6.6,
+          "min_width_mm": 0.38159,
+          "max_width_mm": 0.68406
+        },
+        "Outer wall": {
+          "extrusion_segments": 587,
+          "length_mm": 2628.457877872341,
+          "min_z_mm": 0.2,
+          "max_z_mm": 6.8,
+          "min_width_mm": 0.38292,
+          "max_width_mm": 0.65089
+        },
+        "Bottom surface": {
+          "extrusion_segments": 385,
+          "length_mm": 4144.019608619232,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.50155,
+          "max_width_mm": 0.50155
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 961,
+          "length_mm": 10620.885795158772,
+          "min_z_mm": 0.4,
+          "max_z_mm": 0.6,
+          "min_width_mm": 0.42061,
+          "max_width_mm": 0.42114
+        },
+        "Top surface": {
+          "extrusion_segments": 385,
+          "length_mm": 6199.005047556251,
+          "min_z_mm": 0.8,
+          "max_z_mm": 6.8,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 11,
+          "length_mm": 2.831605122482371,
+          "min_z_mm": 0.8,
+          "max_z_mm": 0.8,
+          "min_width_mm": 0.1114,
+          "max_width_mm": 0.184171
+        }
+      },
+      "first_layer_segments": 753,
+      "first_layer_length_mm": 5267.3328526699215,
+      "first_layer_min_width_mm": 0.38159,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "4:13:P10": {
+      "key": "P10",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 130,
+          "length_mm": 105.55147995407523,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.8,
+          "min_width_mm": 0.37486,
+          "max_width_mm": 0.56331
+        },
+        "Outer wall": {
+          "extrusion_segments": 367,
+          "length_mm": 192.878792166147,
+          "min_z_mm": 0.2,
+          "max_z_mm": 1.0,
+          "min_width_mm": 0.40184,
+          "max_width_mm": 0.58638
+        },
+        "Top surface": {
+          "extrusion_segments": 12,
+          "length_mm": 29.03168337740105,
+          "min_z_mm": 1.0,
+          "max_z_mm": 1.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 4,
+          "length_mm": 0.692497497296137,
+          "min_z_mm": 1.0,
+          "max_z_mm": 1.0,
+          "min_width_mm": 0.105513,
+          "max_width_mm": 0.108796
+        }
+      },
+      "first_layer_segments": 136,
+      "first_layer_length_mm": 56.13422841187908,
+      "first_layer_min_width_mm": 0.404925,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "4:14:H12": {
+      "key": "H12",
+      "features": {
+        "Support": {
+          "extrusion_segments": 468,
+          "length_mm": 3621.6932672710695,
+          "min_z_mm": 0.2,
+          "max_z_mm": 2.125,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.5
+        },
+        "Inner wall": {
+          "extrusion_segments": 1666,
+          "length_mm": 6450.789901971334,
+          "min_z_mm": 0.2,
+          "max_z_mm": 7.0,
+          "min_width_mm": 0.31167,
+          "max_width_mm": 0.7316
+        },
+        "Outer wall": {
+          "extrusion_segments": 810,
+          "length_mm": 2712.066310982257,
+          "min_z_mm": 0.2,
+          "max_z_mm": 7.2,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Support transition": {
+          "extrusion_segments": 74,
+          "length_mm": 740.1287546266849,
+          "min_z_mm": 2.4,
+          "max_z_mm": 2.4,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Support interface": {
+          "extrusion_segments": 130,
+          "length_mm": 1468.3177564171633,
+          "min_z_mm": 2.675,
+          "max_z_mm": 2.95,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Overhang wall": {
+          "extrusion_segments": 84,
+          "length_mm": 327.98149087354255,
+          "min_z_mm": 3.4,
+          "max_z_mm": 3.6,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.6046
+        },
+        "Bridge": {
+          "extrusion_segments": 144,
+          "length_mm": 1156.2297161978531,
+          "min_z_mm": 3.4,
+          "max_z_mm": 3.6,
+          "min_width_mm": 0.4234,
+          "max_width_mm": 0.42613
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 1385,
+          "length_mm": 8245.355380440962,
+          "min_z_mm": 3.6,
+          "max_z_mm": 7.0,
+          "min_width_mm": 0.30316,
+          "max_width_mm": 0.67285
+        },
+        "Sparse infill": {
+          "extrusion_segments": 10304,
+          "length_mm": 4863.540225965739,
+          "min_z_mm": 4.4,
+          "max_z_mm": 6.2,
+          "min_width_mm": 0.45,
+          "max_width_mm": 0.45
+        },
+        "Floating vertical shell": {
+          "extrusion_segments": 193,
+          "length_mm": 578.808389246256,
+          "min_z_mm": 4.8,
+          "max_z_mm": 6.4,
+          "min_width_mm": 0.303549,
+          "max_width_mm": 0.609915
+        },
+        "Top surface": {
+          "extrusion_segments": 170,
+          "length_mm": 1401.2233059677822,
+          "min_z_mm": 5.6,
+          "max_z_mm": 7.2,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 34,
+          "length_mm": 7.451624292054569,
+          "min_z_mm": 5.6,
+          "max_z_mm": 7.2,
+          "min_width_mm": 0.0897135,
+          "max_width_mm": 0.220653
+        }
+      },
+      "first_layer_segments": 32,
+      "first_layer_length_mm": 63.50400000000003,
+      "first_layer_min_width_mm": 0.45758,
+      "bridge_max_segment_mm": 23.674999999999997,
+      "bridge_segments": 144,
+      "bridge_length_mm": 1156.2297161978531
+    },
+    "4:15:H15": {
+      "key": "H15",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 2707,
+          "length_mm": 3991.0818819657648,
+          "min_z_mm": 0.2,
+          "max_z_mm": 1.8,
+          "min_width_mm": 0.36073,
+          "max_width_mm": 0.62952
+        },
+        "Outer wall": {
+          "extrusion_segments": 937,
+          "length_mm": 1523.7417630557366,
+          "min_z_mm": 0.2,
+          "max_z_mm": 2.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.54312
+        },
+        "Bottom surface": {
+          "extrusion_segments": 167,
+          "length_mm": 534.9842690879412,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.50778,
+          "max_width_mm": 0.50778
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 1747,
+          "length_mm": 6466.872930743478,
+          "min_z_mm": 0.4,
+          "max_z_mm": 1.8,
+          "min_width_mm": 0.38366,
+          "max_width_mm": 0.56862
+        },
+        "Top surface": {
+          "extrusion_segments": 152,
+          "length_mm": 1341.1835774654858,
+          "min_z_mm": 1.2,
+          "max_z_mm": 2.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 25,
+          "length_mm": 5.09580363071432,
+          "min_z_mm": 1.2,
+          "max_z_mm": 2.0,
+          "min_width_mm": 0.1057,
+          "max_width_mm": 0.296882
+        }
+      },
+      "first_layer_segments": 507,
+      "first_layer_length_mm": 1096.8984204550309,
+      "first_layer_min_width_mm": 0.42088,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "4:16:H13": {
+      "key": "H13",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 1362,
+          "length_mm": 3471.3848261828807,
+          "min_z_mm": 0.2,
+          "max_z_mm": 2.6,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.49999
+        },
+        "Outer wall": {
+          "extrusion_segments": 499,
+          "length_mm": 1246.3419267162076,
+          "min_z_mm": 0.2,
+          "max_z_mm": 2.8,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Bottom surface": {
+          "extrusion_segments": 131,
+          "length_mm": 381.3749343623549,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.50788,
+          "max_width_mm": 0.50788
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 1955,
+          "length_mm": 3737.3189216593564,
+          "min_z_mm": 0.4,
+          "max_z_mm": 2.6,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.443067
+        },
+        "Sparse infill": {
+          "extrusion_segments": 3855,
+          "length_mm": 1871.849977034983,
+          "min_z_mm": 1.2,
+          "max_z_mm": 1.8,
+          "min_width_mm": 0.45,
+          "max_width_mm": 0.45
+        },
+        "Floating vertical shell": {
+          "extrusion_segments": 324,
+          "length_mm": 533.8968613880404,
+          "min_z_mm": 2.0,
+          "max_z_mm": 2.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.442029
+        },
+        "Top surface": {
+          "extrusion_segments": 76,
+          "length_mm": 824.6844973604386,
+          "min_z_mm": 2.8,
+          "max_z_mm": 2.8,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 22,
+          "length_mm": 5.028128973902992,
+          "min_z_mm": 2.8,
+          "max_z_mm": 2.8,
+          "min_width_mm": 0.0955645,
+          "max_width_mm": 0.22792
+        }
+      },
+      "first_layer_segments": 231,
+      "first_layer_length_mm": 737.4689655076687,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "4:17:H02": {
+      "key": "H02",
+      "features": {
+        "Support": {
+          "extrusion_segments": 123,
+          "length_mm": 522.2627365817165,
+          "min_z_mm": 0.2,
+          "max_z_mm": 1.75,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.5
+        },
+        "Outer wall": {
+          "extrusion_segments": 1611,
+          "length_mm": 728.7690677663196,
+          "min_z_mm": 0.2,
+          "max_z_mm": 8.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.52508
+        },
+        "Overhang wall": {
+          "extrusion_segments": 22,
+          "length_mm": 34.60800000000005,
+          "min_z_mm": 0.4,
+          "max_z_mm": 2.8,
+          "min_width_mm": 0.39239,
+          "max_width_mm": 0.52146
+        },
+        "Support transition": {
+          "extrusion_segments": 29,
+          "length_mm": 90.63399999999992,
+          "min_z_mm": 1.23333,
+          "max_z_mm": 1.95,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Support interface": {
+          "extrusion_segments": 49,
+          "length_mm": 160.80899999999994,
+          "min_z_mm": 1.49167,
+          "max_z_mm": 2.35,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Inner wall": {
+          "extrusion_segments": 687,
+          "length_mm": 594.9708267422383,
+          "min_z_mm": 2.2,
+          "max_z_mm": 6.0,
+          "min_width_mm": 0.39239,
+          "max_width_mm": 0.64723
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 2,
+          "length_mm": 0.41494060960997736,
+          "min_z_mm": 4.0,
+          "max_z_mm": 4.2,
+          "min_width_mm": 0.465,
+          "max_width_mm": 0.465
+        }
+      },
+      "first_layer_segments": 5,
+      "first_layer_length_mm": 3.401999999999987,
+      "first_layer_min_width_mm": 0.52146,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "4:18:H19": {
+      "key": "H19",
+      "features": {
+        "Outer wall": {
+          "extrusion_segments": 475,
+          "length_mm": 223.53770142203174,
+          "min_z_mm": 0.2,
+          "max_z_mm": 4.0,
+          "min_width_mm": 0.38292,
+          "max_width_mm": 0.4277
+        }
+      },
+      "first_layer_segments": 24,
+      "first_layer_length_mm": 11.174082013604608,
+      "first_layer_min_width_mm": 0.38662,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "4:74:H19": {
+      "key": "H19",
+      "features": {
+        "Outer wall": {
+          "extrusion_segments": 475,
+          "length_mm": 223.53770142203174,
+          "min_z_mm": 0.2,
+          "max_z_mm": 4.0,
+          "min_width_mm": 0.38292,
+          "max_width_mm": 0.4277
+        }
+      },
+      "first_layer_segments": 24,
+      "first_layer_length_mm": 11.174082013604608,
+      "first_layer_min_width_mm": 0.38662,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "4:20:H22": {
+      "key": "H22",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 82,
+          "length_mm": 18.83470211629815,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.8,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.49999
+        },
+        "Outer wall": {
+          "extrusion_segments": 41,
+          "length_mm": 31.72701374179283,
+          "min_z_mm": 0.2,
+          "max_z_mm": 1.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Top surface": {
+          "extrusion_segments": 4,
+          "length_mm": 5.566344581500502,
+          "min_z_mm": 1.0,
+          "max_z_mm": 1.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 2,
+          "length_mm": 1.1240574778147123,
+          "min_z_mm": 1.0,
+          "max_z_mm": 1.0,
+          "min_width_mm": 0.115958,
+          "max_width_mm": 0.116466
+        }
+      },
+      "first_layer_segments": 19,
+      "first_layer_length_mm": 9.377135145979617,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "4:21:H05": {
+      "key": "H05",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 1504,
+          "length_mm": 3764.8736164612724,
+          "min_z_mm": 0.2,
+          "max_z_mm": 2.8,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.49999
+        },
+        "Outer wall": {
+          "extrusion_segments": 540,
+          "length_mm": 1344.8069414905356,
+          "min_z_mm": 0.2,
+          "max_z_mm": 3.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Bottom surface": {
+          "extrusion_segments": 132,
+          "length_mm": 376.0904832638889,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.50787,
+          "max_width_mm": 0.50787
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 2017,
+          "length_mm": 3763.7507584975538,
+          "min_z_mm": 0.4,
+          "max_z_mm": 2.8,
+          "min_width_mm": 0.391586,
+          "max_width_mm": 0.41999
+        },
+        "Sparse infill": {
+          "extrusion_segments": 4619,
+          "length_mm": 2317.893728352436,
+          "min_z_mm": 1.2,
+          "max_z_mm": 2.0,
+          "min_width_mm": 0.45,
+          "max_width_mm": 0.45
+        },
+        "Floating vertical shell": {
+          "extrusion_segments": 307,
+          "length_mm": 537.6947060384819,
+          "min_z_mm": 2.2,
+          "max_z_mm": 2.2,
+          "min_width_mm": 0.391784,
+          "max_width_mm": 0.41999
+        },
+        "Top surface": {
+          "extrusion_segments": 76,
+          "length_mm": 817.892029801079,
+          "min_z_mm": 3.0,
+          "max_z_mm": 3.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 30,
+          "length_mm": 6.806291403520525,
+          "min_z_mm": 3.0,
+          "max_z_mm": 3.0,
+          "min_width_mm": 0.0955598,
+          "max_width_mm": 0.223919
+        }
+      },
+      "first_layer_segments": 229,
+      "first_layer_length_mm": 734.7219050498092,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "4:83:H05": {
+      "key": "H05",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 1504,
+          "length_mm": 3764.873623303969,
+          "min_z_mm": 0.2,
+          "max_z_mm": 2.8,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.49999
+        },
+        "Outer wall": {
+          "extrusion_segments": 540,
+          "length_mm": 1344.807135579822,
+          "min_z_mm": 0.2,
+          "max_z_mm": 3.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Bottom surface": {
+          "extrusion_segments": 132,
+          "length_mm": 376.090483263889,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.50787,
+          "max_width_mm": 0.50787
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 2017,
+          "length_mm": 3763.7511092204636,
+          "min_z_mm": 0.4,
+          "max_z_mm": 2.8,
+          "min_width_mm": 0.391586,
+          "max_width_mm": 0.41999
+        },
+        "Sparse infill": {
+          "extrusion_segments": 4619,
+          "length_mm": 2317.8950725072655,
+          "min_z_mm": 1.2,
+          "max_z_mm": 2.0,
+          "min_width_mm": 0.45,
+          "max_width_mm": 0.45
+        },
+        "Floating vertical shell": {
+          "extrusion_segments": 307,
+          "length_mm": 537.694360156857,
+          "min_z_mm": 2.2,
+          "max_z_mm": 2.2,
+          "min_width_mm": 0.391784,
+          "max_width_mm": 0.41999
+        },
+        "Top surface": {
+          "extrusion_segments": 76,
+          "length_mm": 817.892029801079,
+          "min_z_mm": 3.0,
+          "max_z_mm": 3.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 30,
+          "length_mm": 6.80629140352051,
+          "min_z_mm": 3.0,
+          "max_z_mm": 3.0,
+          "min_width_mm": 0.0955598,
+          "max_width_mm": 0.223919
+        }
+      },
+      "first_layer_segments": 229,
+      "first_layer_length_mm": 734.7219050498092,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "4:23:H06": {
+      "key": "H06",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 1132,
+          "length_mm": 3949.839088828557,
+          "min_z_mm": 0.2,
+          "max_z_mm": 2.8,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.49999
+        },
+        "Outer wall": {
+          "extrusion_segments": 421,
+          "length_mm": 1410.8489336899095,
+          "min_z_mm": 0.2,
+          "max_z_mm": 3.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Bottom surface": {
+          "extrusion_segments": 126,
+          "length_mm": 319.95305913331515,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.50787,
+          "max_width_mm": 0.50787
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 1669,
+          "length_mm": 3290.6956886667035,
+          "min_z_mm": 0.4,
+          "max_z_mm": 2.8,
+          "min_width_mm": 0.418246,
+          "max_width_mm": 0.41999
+        },
+        "Sparse infill": {
+          "extrusion_segments": 4115,
+          "length_mm": 2044.3842933637911,
+          "min_z_mm": 1.2,
+          "max_z_mm": 2.0,
+          "min_width_mm": 0.45,
+          "max_width_mm": 0.45
+        },
+        "Floating vertical shell": {
+          "extrusion_segments": 227,
+          "length_mm": 470.1039854629997,
+          "min_z_mm": 2.2,
+          "max_z_mm": 2.2,
+          "min_width_mm": 0.418438,
+          "max_width_mm": 0.41999
+        },
+        "Top surface": {
+          "extrusion_segments": 80,
+          "length_mm": 770.5321391405997,
+          "min_z_mm": 3.0,
+          "max_z_mm": 3.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 27,
+          "length_mm": 6.2198064567990725,
+          "min_z_mm": 3.0,
+          "max_z_mm": 3.0,
+          "min_width_mm": 0.095552,
+          "max_width_mm": 0.223935
+        }
+      },
+      "first_layer_segments": 252,
+      "first_layer_length_mm": 696.1573777431538,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "4:88:H06": {
+      "key": "H06",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 1132,
+          "length_mm": 3949.839088828557,
+          "min_z_mm": 0.2,
+          "max_z_mm": 2.8,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.49999
+        },
+        "Outer wall": {
+          "extrusion_segments": 421,
+          "length_mm": 1410.8489336899095,
+          "min_z_mm": 0.2,
+          "max_z_mm": 3.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Bottom surface": {
+          "extrusion_segments": 126,
+          "length_mm": 319.95305913331515,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.50787,
+          "max_width_mm": 0.50787
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 1669,
+          "length_mm": 3290.6956886667035,
+          "min_z_mm": 0.4,
+          "max_z_mm": 2.8,
+          "min_width_mm": 0.418246,
+          "max_width_mm": 0.41999
+        },
+        "Sparse infill": {
+          "extrusion_segments": 4115,
+          "length_mm": 2044.3842933637911,
+          "min_z_mm": 1.2,
+          "max_z_mm": 2.0,
+          "min_width_mm": 0.45,
+          "max_width_mm": 0.45
+        },
+        "Floating vertical shell": {
+          "extrusion_segments": 227,
+          "length_mm": 470.1039854629997,
+          "min_z_mm": 2.2,
+          "max_z_mm": 2.2,
+          "min_width_mm": 0.418438,
+          "max_width_mm": 0.41999
+        },
+        "Top surface": {
+          "extrusion_segments": 80,
+          "length_mm": 770.5321391405997,
+          "min_z_mm": 3.0,
+          "max_z_mm": 3.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 27,
+          "length_mm": 6.2198064567990725,
+          "min_z_mm": 3.0,
+          "max_z_mm": 3.0,
+          "min_width_mm": 0.095552,
+          "max_width_mm": 0.223935
+        }
+      },
+      "first_layer_segments": 252,
+      "first_layer_length_mm": 696.1573777431538,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "5:25:H14": {
+      "key": "H14",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 51853,
+          "length_mm": 96766.01385161829,
+          "min_z_mm": 0.2,
+          "max_z_mm": 85.8,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.51039
+        },
+        "Outer wall": {
+          "extrusion_segments": 16428,
+          "length_mm": 32335.173310225597,
+          "min_z_mm": 0.2,
+          "max_z_mm": 86.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 133,
+          "length_mm": 525.9730227042721,
+          "min_z_mm": 0.4,
+          "max_z_mm": 85.8,
+          "min_width_mm": 0.428546,
+          "max_width_mm": 0.429158
+        },
+        "Sparse infill": {
+          "extrusion_segments": 67790,
+          "length_mm": 31140.693001007385,
+          "min_z_mm": 1.2,
+          "max_z_mm": 85.0,
+          "min_width_mm": 0.45,
+          "max_width_mm": 0.45
+        },
+        "Floating vertical shell": {
+          "extrusion_segments": 22,
+          "length_mm": 75.14473380731148,
+          "min_z_mm": 85.2,
+          "max_z_mm": 85.2,
+          "min_width_mm": 0.428584,
+          "max_width_mm": 0.428765
+        },
+        "Top surface": {
+          "extrusion_segments": 64,
+          "length_mm": 316.0562265576561,
+          "min_z_mm": 86.0,
+          "max_z_mm": 86.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 14,
+          "length_mm": 5.106128267703853,
+          "min_z_mm": 86.0,
+          "max_z_mm": 86.0,
+          "min_width_mm": 0.0951888,
+          "max_width_mm": 0.225863
+        }
+      },
+      "first_layer_segments": 179,
+      "first_layer_length_mm": 300.742797207563,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "5:93:H14": {
+      "key": "H14",
+      "features": {
+        "Brim": {
+          "extrusion_segments": 995,
+          "length_mm": 713.1272398796312,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.5,
+          "max_width_mm": 0.5
+        },
+        "Inner wall": {
+          "extrusion_segments": 51853,
+          "length_mm": 96766.01541237185,
+          "min_z_mm": 0.2,
+          "max_z_mm": 85.8,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.51039
+        },
+        "Outer wall": {
+          "extrusion_segments": 16428,
+          "length_mm": 32335.172162746352,
+          "min_z_mm": 0.2,
+          "max_z_mm": 86.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 133,
+          "length_mm": 525.9730227042721,
+          "min_z_mm": 0.4,
+          "max_z_mm": 85.8,
+          "min_width_mm": 0.428546,
+          "max_width_mm": 0.429158
+        },
+        "Sparse infill": {
+          "extrusion_segments": 67790,
+          "length_mm": 31140.683413759856,
+          "min_z_mm": 1.2,
+          "max_z_mm": 85.0,
+          "min_width_mm": 0.45,
+          "max_width_mm": 0.45
+        },
+        "Floating vertical shell": {
+          "extrusion_segments": 22,
+          "length_mm": 75.14473380731151,
+          "min_z_mm": 85.2,
+          "max_z_mm": 85.2,
+          "min_width_mm": 0.428584,
+          "max_width_mm": 0.428765
+        },
+        "Top surface": {
+          "extrusion_segments": 64,
+          "length_mm": 316.056226557656,
+          "min_z_mm": 86.0,
+          "max_z_mm": 86.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 14,
+          "length_mm": 5.106128267703869,
+          "min_z_mm": 86.0,
+          "max_z_mm": 86.0,
+          "min_width_mm": 0.0951888,
+          "max_width_mm": 0.225863
+        }
+      },
+      "first_layer_segments": 179,
+      "first_layer_length_mm": 300.74279720756306,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "6:27:P03a": {
+      "key": "P03a",
+      "features": {
+        "Brim": {
+          "extrusion_segments": 539,
+          "length_mm": 304.4701386023242,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.5,
+          "max_width_mm": 0.5
+        },
+        "Outer wall": {
+          "extrusion_segments": 3130,
+          "length_mm": 18184.389768907313,
+          "min_z_mm": 0.2,
+          "max_z_mm": 86.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.65607
+        },
+        "Inner wall": {
+          "extrusion_segments": 12240,
+          "length_mm": 23990.463511813472,
+          "min_z_mm": 0.4,
+          "max_z_mm": 85.8,
+          "min_width_mm": 0.40572,
+          "max_width_mm": 0.64282
+        },
+        "Top surface": {
+          "extrusion_segments": 23,
+          "length_mm": 28.883899469610128,
+          "min_z_mm": 86.0,
+          "max_z_mm": 86.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 26,
+          "length_mm": 8.246437067515659,
+          "min_z_mm": 86.0,
+          "max_z_mm": 86.0,
+          "min_width_mm": 0.098903,
+          "max_width_mm": 0.286277
+        }
+      },
+      "first_layer_segments": 42,
+      "first_layer_length_mm": 37.96570383682863,
+      "first_layer_min_width_mm": 0.61002,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "6:28:P03b": {
+      "key": "P03b",
+      "features": {
+        "Brim": {
+          "extrusion_segments": 538,
+          "length_mm": 304.48590677978154,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.5,
+          "max_width_mm": 0.5
+        },
+        "Outer wall": {
+          "extrusion_segments": 3103,
+          "length_mm": 18184.3281899441,
+          "min_z_mm": 0.2,
+          "max_z_mm": 86.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.65556
+        },
+        "Inner wall": {
+          "extrusion_segments": 14030,
+          "length_mm": 23990.411151277523,
+          "min_z_mm": 0.4,
+          "max_z_mm": 85.8,
+          "min_width_mm": 0.4054,
+          "max_width_mm": 0.6424
+        },
+        "Top surface": {
+          "extrusion_segments": 38,
+          "length_mm": 30.784604662316994,
+          "min_z_mm": 86.0,
+          "max_z_mm": 86.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 8,
+          "length_mm": 1.1361653995899732,
+          "min_z_mm": 86.0,
+          "max_z_mm": 86.0,
+          "min_width_mm": 0.0927821,
+          "max_width_mm": 0.222195
+        }
+      },
+      "first_layer_segments": 45,
+      "first_layer_length_mm": 37.94839631388706,
+      "first_layer_min_width_mm": 0.61092,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "6:29:P070a": {
+      "key": "P070a",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 90,
+          "length_mm": 224.30400000000031,
+          "min_z_mm": 0.2,
+          "max_z_mm": 1.2,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.49999
+        },
+        "Outer wall": {
+          "extrusion_segments": 35,
+          "length_mm": 133.29999999999995,
+          "min_z_mm": 0.2,
+          "max_z_mm": 1.4,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Bottom surface": {
+          "extrusion_segments": 3,
+          "length_mm": 1.785772870152074,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.53352,
+          "max_width_mm": 0.53352
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 30,
+          "length_mm": 39.579999999999984,
+          "min_z_mm": 0.4,
+          "max_z_mm": 1.2,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.54932
+        },
+        "Top surface": {
+          "extrusion_segments": 16,
+          "length_mm": 50.28236330662968,
+          "min_z_mm": 1.4,
+          "max_z_mm": 1.4,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        }
+      },
+      "first_layer_segments": 23,
+      "first_layer_length_mm": 50.80977287015215,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "6:30:P070b": {
+      "key": "P070b",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 90,
+          "length_mm": 224.30400000000031,
+          "min_z_mm": 0.2,
+          "max_z_mm": 1.2,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.49999
+        },
+        "Outer wall": {
+          "extrusion_segments": 35,
+          "length_mm": 133.29999999999995,
+          "min_z_mm": 0.2,
+          "max_z_mm": 1.4,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Bottom surface": {
+          "extrusion_segments": 3,
+          "length_mm": 1.785772870152074,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.53352,
+          "max_width_mm": 0.53352
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 30,
+          "length_mm": 39.579999999999984,
+          "min_z_mm": 0.4,
+          "max_z_mm": 1.2,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.54932
+        },
+        "Top surface": {
+          "extrusion_segments": 16,
+          "length_mm": 50.28236330662968,
+          "min_z_mm": 1.4,
+          "max_z_mm": 1.4,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        }
+      },
+      "first_layer_segments": 23,
+      "first_layer_length_mm": 50.80977287015215,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "6:31:P071a": {
+      "key": "P071a",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 90,
+          "length_mm": 224.30400000000031,
+          "min_z_mm": 0.2,
+          "max_z_mm": 1.2,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.49999
+        },
+        "Outer wall": {
+          "extrusion_segments": 35,
+          "length_mm": 133.29999999999995,
+          "min_z_mm": 0.2,
+          "max_z_mm": 1.4,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Bottom surface": {
+          "extrusion_segments": 3,
+          "length_mm": 1.785772870152074,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.53352,
+          "max_width_mm": 0.53352
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 30,
+          "length_mm": 39.579999999999984,
+          "min_z_mm": 0.4,
+          "max_z_mm": 1.2,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.54932
+        },
+        "Top surface": {
+          "extrusion_segments": 16,
+          "length_mm": 50.28236330662968,
+          "min_z_mm": 1.4,
+          "max_z_mm": 1.4,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        }
+      },
+      "first_layer_segments": 23,
+      "first_layer_length_mm": 50.80977287015215,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "6:32:P071b": {
+      "key": "P071b",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 90,
+          "length_mm": 224.30400000000031,
+          "min_z_mm": 0.2,
+          "max_z_mm": 1.2,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.49999
+        },
+        "Outer wall": {
+          "extrusion_segments": 35,
+          "length_mm": 133.29999999999995,
+          "min_z_mm": 0.2,
+          "max_z_mm": 1.4,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Bottom surface": {
+          "extrusion_segments": 3,
+          "length_mm": 1.785772870152074,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.53352,
+          "max_width_mm": 0.53352
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 30,
+          "length_mm": 39.579999999999984,
+          "min_z_mm": 0.4,
+          "max_z_mm": 1.2,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.54932
+        },
+        "Top surface": {
+          "extrusion_segments": 16,
+          "length_mm": 50.28236330662968,
+          "min_z_mm": 1.4,
+          "max_z_mm": 1.4,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        }
+      },
+      "first_layer_segments": 23,
+      "first_layer_length_mm": 50.80977287015215,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    }
+  },
+  "candidate": {
+    "1:1:P070a": {
+      "key": "P070a",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 90,
+          "length_mm": 224.30400000000066,
+          "min_z_mm": 0.2,
+          "max_z_mm": 1.2,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.49999
+        },
+        "Outer wall": {
+          "extrusion_segments": 35,
+          "length_mm": 133.29999999999956,
+          "min_z_mm": 0.2,
+          "max_z_mm": 1.4,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Bottom surface": {
+          "extrusion_segments": 3,
+          "length_mm": 1.785772870152054,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.53352,
+          "max_width_mm": 0.53352
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 30,
+          "length_mm": 39.58000000000027,
+          "min_z_mm": 0.4,
+          "max_z_mm": 1.2,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.54932
+        },
+        "Top surface": {
+          "extrusion_segments": 16,
+          "length_mm": 50.28236330662966,
+          "min_z_mm": 1.4,
+          "max_z_mm": 1.4,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        }
+      },
+      "first_layer_segments": 23,
+      "first_layer_length_mm": 50.809772870152166,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "1:2:P070b": {
+      "key": "P070b",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 90,
+          "length_mm": 224.30400000000066,
+          "min_z_mm": 0.2,
+          "max_z_mm": 1.2,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.49999
+        },
+        "Outer wall": {
+          "extrusion_segments": 35,
+          "length_mm": 133.29999999999956,
+          "min_z_mm": 0.2,
+          "max_z_mm": 1.4,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Bottom surface": {
+          "extrusion_segments": 3,
+          "length_mm": 1.785772870152054,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.53352,
+          "max_width_mm": 0.53352
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 30,
+          "length_mm": 39.58000000000027,
+          "min_z_mm": 0.4,
+          "max_z_mm": 1.2,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.54932
+        },
+        "Top surface": {
+          "extrusion_segments": 16,
+          "length_mm": 50.28236330662966,
+          "min_z_mm": 1.4,
+          "max_z_mm": 1.4,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        }
+      },
+      "first_layer_segments": 23,
+      "first_layer_length_mm": 50.809772870152166,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "1:3:P071a": {
+      "key": "P071a",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 90,
+          "length_mm": 224.30400000000066,
+          "min_z_mm": 0.2,
+          "max_z_mm": 1.2,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.49999
+        },
+        "Outer wall": {
+          "extrusion_segments": 35,
+          "length_mm": 133.29999999999956,
+          "min_z_mm": 0.2,
+          "max_z_mm": 1.4,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Bottom surface": {
+          "extrusion_segments": 3,
+          "length_mm": 1.785772870152054,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.53352,
+          "max_width_mm": 0.53352
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 30,
+          "length_mm": 39.58000000000027,
+          "min_z_mm": 0.4,
+          "max_z_mm": 1.2,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.54932
+        },
+        "Top surface": {
+          "extrusion_segments": 16,
+          "length_mm": 50.28236330662966,
+          "min_z_mm": 1.4,
+          "max_z_mm": 1.4,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        }
+      },
+      "first_layer_segments": 23,
+      "first_layer_length_mm": 50.809772870152166,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "1:4:P071b": {
+      "key": "P071b",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 90,
+          "length_mm": 224.30400000000066,
+          "min_z_mm": 0.2,
+          "max_z_mm": 1.2,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.49999
+        },
+        "Outer wall": {
+          "extrusion_segments": 35,
+          "length_mm": 133.29999999999956,
+          "min_z_mm": 0.2,
+          "max_z_mm": 1.4,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Bottom surface": {
+          "extrusion_segments": 3,
+          "length_mm": 1.785772870152054,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.53352,
+          "max_width_mm": 0.53352
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 30,
+          "length_mm": 39.58000000000027,
+          "min_z_mm": 0.4,
+          "max_z_mm": 1.2,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.54932
+        },
+        "Top surface": {
+          "extrusion_segments": 16,
+          "length_mm": 50.28236330662966,
+          "min_z_mm": 1.4,
+          "max_z_mm": 1.4,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        }
+      },
+      "first_layer_segments": 23,
+      "first_layer_length_mm": 50.809772870152166,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "1:5:H02": {
+      "key": "H02",
+      "features": {
+        "Support": {
+          "extrusion_segments": 139,
+          "length_mm": 603.6044190238546,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.975,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.5
+        },
+        "Inner wall": {
+          "extrusion_segments": 1538,
+          "length_mm": 617.8427963234739,
+          "min_z_mm": 0.2,
+          "max_z_mm": 9.2,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.58446
+        },
+        "Outer wall": {
+          "extrusion_segments": 1041,
+          "length_mm": 460.98313096099605,
+          "min_z_mm": 0.2,
+          "max_z_mm": 9.4,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 380,
+          "length_mm": 146.9652707572751,
+          "min_z_mm": 0.4,
+          "max_z_mm": 2.8,
+          "min_width_mm": 0.38449,
+          "max_width_mm": 0.51698
+        },
+        "Support transition": {
+          "extrusion_segments": 48,
+          "length_mm": 121.47148441575497,
+          "min_z_mm": 1.23333,
+          "max_z_mm": 1.23333,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Support interface": {
+          "extrusion_segments": 85,
+          "length_mm": 234.41107878807856,
+          "min_z_mm": 1.49167,
+          "max_z_mm": 1.75,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Overhang wall": {
+          "extrusion_segments": 93,
+          "length_mm": 79.70750503386999,
+          "min_z_mm": 2.2,
+          "max_z_mm": 2.2,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.44999
+        },
+        "Bridge": {
+          "extrusion_segments": 24,
+          "length_mm": 46.657011532954876,
+          "min_z_mm": 2.2,
+          "max_z_mm": 2.2,
+          "min_width_mm": 0.4476,
+          "max_width_mm": 0.4476
+        },
+        "Top surface": {
+          "extrusion_segments": 28,
+          "length_mm": 103.30405910331939,
+          "min_z_mm": 3.0,
+          "max_z_mm": 9.4,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 28,
+          "length_mm": 8.507163510734296,
+          "min_z_mm": 3.0,
+          "max_z_mm": 9.4,
+          "min_width_mm": 0.107054,
+          "max_width_mm": 0.368869
+        }
+      },
+      "first_layer_segments": 60,
+      "first_layer_length_mm": 22.42134205135774,
+      "first_layer_min_width_mm": 0.47989,
+      "bridge_max_segment_mm": 4.469979082725097,
+      "bridge_segments": 24,
+      "bridge_length_mm": 46.657011532954876
+    },
+    "1:6:H04": {
+      "key": "H04",
+      "features": {
+        "Brim": {
+          "extrusion_segments": 194,
+          "length_mm": 1825.0745556088807,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.5,
+          "max_width_mm": 0.5
+        },
+        "Outer wall": {
+          "extrusion_segments": 582,
+          "length_mm": 8697.266000068696,
+          "min_z_mm": 0.2,
+          "max_z_mm": 6.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.63837
+        },
+        "Inner wall": {
+          "extrusion_segments": 428,
+          "length_mm": 24103.428000000014,
+          "min_z_mm": 0.4,
+          "max_z_mm": 5.8,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.54478
+        },
+        "Overhang wall": {
+          "extrusion_segments": 6,
+          "length_mm": 291.67999999999995,
+          "min_z_mm": 0.4,
+          "max_z_mm": 0.4,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.41999
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 66,
+          "length_mm": 4563.479999999999,
+          "min_z_mm": 0.8,
+          "max_z_mm": 5.4,
+          "min_width_mm": 0.34889,
+          "max_width_mm": 0.6226
+        },
+        "Sparse infill": {
+          "extrusion_segments": 19393,
+          "length_mm": 9122.418385327835,
+          "min_z_mm": 1.8,
+          "max_z_mm": 4.4,
+          "min_width_mm": 0.45,
+          "max_width_mm": 0.45
+        },
+        "Floating vertical shell": {
+          "extrusion_segments": 27,
+          "length_mm": 2280.216000000001,
+          "min_z_mm": 3.8,
+          "max_z_mm": 4.8,
+          "min_width_mm": 0.38292,
+          "max_width_mm": 0.6226
+        },
+        "Top surface": {
+          "extrusion_segments": 272,
+          "length_mm": 269.02237336326147,
+          "min_z_mm": 6.0,
+          "max_z_mm": 6.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        }
+      },
+      "first_layer_segments": 5,
+      "first_layer_length_mm": 291.25600000000003,
+      "first_layer_min_width_mm": 0.63837,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "1:7:H05": {
+      "key": "H05",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 1513,
+          "length_mm": 3764.8217883963002,
+          "min_z_mm": 0.2,
+          "max_z_mm": 2.8,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.49999
+        },
+        "Outer wall": {
+          "extrusion_segments": 549,
+          "length_mm": 1344.7403678111648,
+          "min_z_mm": 0.2,
+          "max_z_mm": 3.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Bottom surface": {
+          "extrusion_segments": 132,
+          "length_mm": 376.0748127713901,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.50787,
+          "max_width_mm": 0.50787
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 1999,
+          "length_mm": 3763.764162934259,
+          "min_z_mm": 0.4,
+          "max_z_mm": 2.8,
+          "min_width_mm": 0.391645,
+          "max_width_mm": 0.41999
+        },
+        "Sparse infill": {
+          "extrusion_segments": 4625,
+          "length_mm": 2318.3655916453936,
+          "min_z_mm": 1.2,
+          "max_z_mm": 2.0,
+          "min_width_mm": 0.45,
+          "max_width_mm": 0.45
+        },
+        "Floating vertical shell": {
+          "extrusion_segments": 328,
+          "length_mm": 537.6575908614071,
+          "min_z_mm": 2.2,
+          "max_z_mm": 2.2,
+          "min_width_mm": 0.392106,
+          "max_width_mm": 0.41999
+        },
+        "Top surface": {
+          "extrusion_segments": 76,
+          "length_mm": 817.8814230947964,
+          "min_z_mm": 3.0,
+          "max_z_mm": 3.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 30,
+          "length_mm": 6.818233837587562,
+          "min_z_mm": 3.0,
+          "max_z_mm": 3.0,
+          "min_width_mm": 0.0955598,
+          "max_width_mm": 0.223919
+        }
+      },
+      "first_layer_segments": 228,
+      "first_layer_length_mm": 734.7012516455839,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "1:8:H06": {
+      "key": "H06",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 1114,
+          "length_mm": 3949.866524744613,
+          "min_z_mm": 0.2,
+          "max_z_mm": 2.8,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.49999
+        },
+        "Outer wall": {
+          "extrusion_segments": 398,
+          "length_mm": 1410.8920186417547,
+          "min_z_mm": 0.2,
+          "max_z_mm": 3.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Bottom surface": {
+          "extrusion_segments": 126,
+          "length_mm": 320.0778840725276,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.50777,
+          "max_width_mm": 0.50777
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 1612,
+          "length_mm": 3290.7632035235224,
+          "min_z_mm": 0.4,
+          "max_z_mm": 2.8,
+          "min_width_mm": 0.418067,
+          "max_width_mm": 0.41999
+        },
+        "Sparse infill": {
+          "extrusion_segments": 4109,
+          "length_mm": 2043.8070389143581,
+          "min_z_mm": 1.2,
+          "max_z_mm": 2.0,
+          "min_width_mm": 0.45,
+          "max_width_mm": 0.45
+        },
+        "Floating vertical shell": {
+          "extrusion_segments": 251,
+          "length_mm": 470.1034627913516,
+          "min_z_mm": 2.2,
+          "max_z_mm": 2.2,
+          "min_width_mm": 0.41834,
+          "max_width_mm": 0.41999
+        },
+        "Top surface": {
+          "extrusion_segments": 80,
+          "length_mm": 770.5625445686309,
+          "min_z_mm": 3.0,
+          "max_z_mm": 3.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 28,
+          "length_mm": 6.2234708728821095,
+          "min_z_mm": 3.0,
+          "max_z_mm": 3.0,
+          "min_width_mm": 0.095552,
+          "max_width_mm": 0.223935
+        }
+      },
+      "first_layer_segments": 246,
+      "first_layer_length_mm": 696.2598617708098,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "1:9:H12": {
+      "key": "H12",
+      "features": {
+        "Brim": {
+          "extrusion_segments": 340,
+          "length_mm": 493.53794093121996,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.5,
+          "max_width_mm": 0.5
+        },
+        "Inner wall": {
+          "extrusion_segments": 5437,
+          "length_mm": 15682.482366498809,
+          "min_z_mm": 0.2,
+          "max_z_mm": 20.8,
+          "min_width_mm": 0.43732,
+          "max_width_mm": 0.6961
+        },
+        "Outer wall": {
+          "extrusion_segments": 3463,
+          "length_mm": 6892.8720850342615,
+          "min_z_mm": 0.2,
+          "max_z_mm": 21.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.57323
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 990,
+          "length_mm": 1984.9709759377215,
+          "min_z_mm": 0.4,
+          "max_z_mm": 20.8,
+          "min_width_mm": 0.410697,
+          "max_width_mm": 0.625429
+        },
+        "Sparse infill": {
+          "extrusion_segments": 1073,
+          "length_mm": 441.9538167927404,
+          "min_z_mm": 1.2,
+          "max_z_mm": 20.0,
+          "min_width_mm": 0.45,
+          "max_width_mm": 0.45
+        },
+        "Floating vertical shell": {
+          "extrusion_segments": 25,
+          "length_mm": 90.01777455322683,
+          "min_z_mm": 2.4,
+          "max_z_mm": 20.2,
+          "min_width_mm": 0.42319,
+          "max_width_mm": 0.588035
+        },
+        "Top surface": {
+          "extrusion_segments": 68,
+          "length_mm": 233.5828302761742,
+          "min_z_mm": 3.0,
+          "max_z_mm": 21.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 1,
+          "length_mm": 0.3767333274346733,
+          "min_z_mm": 3.0,
+          "max_z_mm": 3.0,
+          "min_width_mm": 0.209935,
+          "max_width_mm": 0.209935
+        },
+        "Overhang wall": {
+          "extrusion_segments": 35,
+          "length_mm": 21.206000000000003,
+          "min_z_mm": 4.0,
+          "max_z_mm": 18.2,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.58025
+        },
+        "Bridge": {
+          "extrusion_segments": 3,
+          "length_mm": 14.9028849411078,
+          "min_z_mm": 18.2,
+          "max_z_mm": 18.2,
+          "min_width_mm": 0.48424,
+          "max_width_mm": 0.48424
+        }
+      },
+      "first_layer_segments": 77,
+      "first_layer_length_mm": 254.64555429803508,
+      "first_layer_min_width_mm": 0.45758,
+      "bridge_max_segment_mm": 7.3160000000000025,
+      "bridge_segments": 3,
+      "bridge_length_mm": 14.9028849411078
+    },
+    "1:10:H15": {
+      "key": "H15",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 2920,
+          "length_mm": 4024.535351252528,
+          "min_z_mm": 0.2,
+          "max_z_mm": 1.8,
+          "min_width_mm": 0.361274,
+          "max_width_mm": 0.64043
+        },
+        "Outer wall": {
+          "extrusion_segments": 1239,
+          "length_mm": 1519.069424373277,
+          "min_z_mm": 0.2,
+          "max_z_mm": 2.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.601
+        },
+        "Bottom surface": {
+          "extrusion_segments": 176,
+          "length_mm": 571.0996759583522,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.50492,
+          "max_width_mm": 0.50492
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 1760,
+          "length_mm": 6466.586175374441,
+          "min_z_mm": 0.4,
+          "max_z_mm": 1.8,
+          "min_width_mm": 0.38368,
+          "max_width_mm": 0.56864
+        },
+        "Overhang wall": {
+          "extrusion_segments": 6,
+          "length_mm": 10.036002515722277,
+          "min_z_mm": 0.8,
+          "max_z_mm": 1.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.44999
+        },
+        "Bridge": {
+          "extrusion_segments": 17,
+          "length_mm": 44.33463745788567,
+          "min_z_mm": 1.0,
+          "max_z_mm": 1.0,
+          "min_width_mm": 0.47127,
+          "max_width_mm": 0.47127
+        },
+        "Top surface": {
+          "extrusion_segments": 139,
+          "length_mm": 1207.2738157006577,
+          "min_z_mm": 2.0,
+          "max_z_mm": 2.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 31,
+          "length_mm": 6.759003327881303,
+          "min_z_mm": 2.0,
+          "max_z_mm": 2.0,
+          "min_width_mm": 0.094021,
+          "max_width_mm": 0.247544
+        }
+      },
+      "first_layer_segments": 577,
+      "first_layer_length_mm": 1160.4296878343514,
+      "first_layer_min_width_mm": 0.4618,
+      "bridge_max_segment_mm": 7.0219999999999985,
+      "bridge_segments": 17,
+      "bridge_length_mm": 44.33463745788567
+    },
+    "1:11:H19": {
+      "key": "H19",
+      "features": {
+        "Brim": {
+          "extrusion_segments": 292,
+          "length_mm": 130.2647819883677,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.5,
+          "max_width_mm": 0.5
+        },
+        "Outer wall": {
+          "extrusion_segments": 475,
+          "length_mm": 223.53616323358236,
+          "min_z_mm": 0.2,
+          "max_z_mm": 4.0,
+          "min_width_mm": 0.38292,
+          "max_width_mm": 0.42802
+        }
+      },
+      "first_layer_segments": 24,
+      "first_layer_length_mm": 11.176638186829997,
+      "first_layer_min_width_mm": 0.38376,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "1:12:H22": {
+      "key": "H22",
+      "features": {
+        "Brim": {
+          "extrusion_segments": 284,
+          "length_mm": 102.01363022262662,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.5,
+          "max_width_mm": 0.5
+        },
+        "Inner wall": {
+          "extrusion_segments": 82,
+          "length_mm": 18.83365814534158,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.8,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.49999
+        },
+        "Outer wall": {
+          "extrusion_segments": 41,
+          "length_mm": 31.724997898858305,
+          "min_z_mm": 0.2,
+          "max_z_mm": 1.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Top surface": {
+          "extrusion_segments": 4,
+          "length_mm": 5.566344947780237,
+          "min_z_mm": 1.0,
+          "max_z_mm": 1.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 2,
+          "length_mm": 1.1232380041786076,
+          "min_z_mm": 1.0,
+          "max_z_mm": 1.0,
+          "min_width_mm": 0.115958,
+          "max_width_mm": 0.116466
+        }
+      },
+      "first_layer_segments": 19,
+      "first_layer_length_mm": 9.376552336347,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "1:13:H14": {
+      "key": "H14",
+      "features": {
+        "Brim": {
+          "extrusion_segments": 497,
+          "length_mm": 356.5646914963324,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.5,
+          "max_width_mm": 0.5
+        },
+        "Inner wall": {
+          "extrusion_segments": 51007,
+          "length_mm": 96766.15842396833,
+          "min_z_mm": 0.2,
+          "max_z_mm": 85.8,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.5104
+        },
+        "Outer wall": {
+          "extrusion_segments": 16335,
+          "length_mm": 32334.77143181534,
+          "min_z_mm": 0.2,
+          "max_z_mm": 86.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 132,
+          "length_mm": 526.0141116048501,
+          "min_z_mm": 0.4,
+          "max_z_mm": 85.8,
+          "min_width_mm": 0.428072,
+          "max_width_mm": 0.429175
+        },
+        "Sparse infill": {
+          "extrusion_segments": 67831,
+          "length_mm": 31141.34717533209,
+          "min_z_mm": 1.2,
+          "max_z_mm": 85.0,
+          "min_width_mm": 0.45,
+          "max_width_mm": 0.45
+        },
+        "Floating vertical shell": {
+          "extrusion_segments": 20,
+          "length_mm": 75.16402072881718,
+          "min_z_mm": 85.2,
+          "max_z_mm": 85.2,
+          "min_width_mm": 0.428544,
+          "max_width_mm": 0.428737
+        },
+        "Top surface": {
+          "extrusion_segments": 64,
+          "length_mm": 316.0654186378537,
+          "min_z_mm": 86.0,
+          "max_z_mm": 86.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 14,
+          "length_mm": 5.107402455376027,
+          "min_z_mm": 86.0,
+          "max_z_mm": 86.0,
+          "min_width_mm": 0.0951888,
+          "max_width_mm": 0.225863
+        }
+      },
+      "first_layer_segments": 179,
+      "first_layer_length_mm": 300.7410279833867,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "1:14:H13": {
+      "key": "H13",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 1369,
+          "length_mm": 3471.4264912264557,
+          "min_z_mm": 0.2,
+          "max_z_mm": 2.6,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.49999
+        },
+        "Outer wall": {
+          "extrusion_segments": 512,
+          "length_mm": 1246.4146933419106,
+          "min_z_mm": 0.2,
+          "max_z_mm": 2.8,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Bottom surface": {
+          "extrusion_segments": 129,
+          "length_mm": 381.3987195163573,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.50788,
+          "max_width_mm": 0.50788
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 1953,
+          "length_mm": 3737.378758540317,
+          "min_z_mm": 0.4,
+          "max_z_mm": 2.6,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.443073
+        },
+        "Sparse infill": {
+          "extrusion_segments": 3855,
+          "length_mm": 1871.5478398112218,
+          "min_z_mm": 1.2,
+          "max_z_mm": 1.8,
+          "min_width_mm": 0.45,
+          "max_width_mm": 0.45
+        },
+        "Floating vertical shell": {
+          "extrusion_segments": 334,
+          "length_mm": 533.9186476410856,
+          "min_z_mm": 2.0,
+          "max_z_mm": 2.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.441423
+        },
+        "Top surface": {
+          "extrusion_segments": 76,
+          "length_mm": 824.6547989473413,
+          "min_z_mm": 2.8,
+          "max_z_mm": 2.8,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 22,
+          "length_mm": 5.033088753651821,
+          "min_z_mm": 2.8,
+          "max_z_mm": 2.8,
+          "min_width_mm": 0.0955783,
+          "max_width_mm": 0.22792
+        }
+      },
+      "first_layer_segments": 238,
+      "first_layer_length_mm": 737.5099324437251,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    }
+  },
+  "finepads": {
+    "1:1:P070a": {
+      "key": "P070a",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 195,
+          "length_mm": 482.0520000000022,
+          "min_z_mm": 0.2,
+          "max_z_mm": 1.4,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.49999
+        },
+        "Outer wall": {
+          "extrusion_segments": 70,
+          "length_mm": 268.1199999999991,
+          "min_z_mm": 0.2,
+          "max_z_mm": 1.5,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Bottom surface": {
+          "extrusion_segments": 3,
+          "length_mm": 1.785772870152054,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.53352,
+          "max_width_mm": 0.53352
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 60,
+          "length_mm": 61.967999999999165,
+          "min_z_mm": 0.3,
+          "max_z_mm": 1.4,
+          "min_width_mm": 0.57663,
+          "max_width_mm": 0.57663
+        },
+        "Top surface": {
+          "extrusion_segments": 14,
+          "length_mm": 46.57288103607078,
+          "min_z_mm": 1.5,
+          "max_z_mm": 1.5,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        }
+      },
+      "first_layer_segments": 23,
+      "first_layer_length_mm": 50.809772870152166,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "1:2:P070b": {
+      "key": "P070b",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 195,
+          "length_mm": 482.0520000000022,
+          "min_z_mm": 0.2,
+          "max_z_mm": 1.4,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.49999
+        },
+        "Outer wall": {
+          "extrusion_segments": 70,
+          "length_mm": 268.1199999999991,
+          "min_z_mm": 0.2,
+          "max_z_mm": 1.5,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Bottom surface": {
+          "extrusion_segments": 3,
+          "length_mm": 1.785772870152054,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.53352,
+          "max_width_mm": 0.53352
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 60,
+          "length_mm": 61.967999999999165,
+          "min_z_mm": 0.3,
+          "max_z_mm": 1.4,
+          "min_width_mm": 0.57663,
+          "max_width_mm": 0.57663
+        },
+        "Top surface": {
+          "extrusion_segments": 14,
+          "length_mm": 46.57288103607078,
+          "min_z_mm": 1.5,
+          "max_z_mm": 1.5,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        }
+      },
+      "first_layer_segments": 23,
+      "first_layer_length_mm": 50.809772870152166,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "1:3:P071a": {
+      "key": "P071a",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 195,
+          "length_mm": 482.0520000000022,
+          "min_z_mm": 0.2,
+          "max_z_mm": 1.4,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.49999
+        },
+        "Outer wall": {
+          "extrusion_segments": 70,
+          "length_mm": 268.1199999999991,
+          "min_z_mm": 0.2,
+          "max_z_mm": 1.5,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Bottom surface": {
+          "extrusion_segments": 3,
+          "length_mm": 1.785772870152054,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.53352,
+          "max_width_mm": 0.53352
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 60,
+          "length_mm": 61.967999999999165,
+          "min_z_mm": 0.3,
+          "max_z_mm": 1.4,
+          "min_width_mm": 0.57663,
+          "max_width_mm": 0.57663
+        },
+        "Top surface": {
+          "extrusion_segments": 14,
+          "length_mm": 46.57288103607078,
+          "min_z_mm": 1.5,
+          "max_z_mm": 1.5,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        }
+      },
+      "first_layer_segments": 23,
+      "first_layer_length_mm": 50.809772870152166,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "1:4:P071b": {
+      "key": "P071b",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 195,
+          "length_mm": 482.0520000000022,
+          "min_z_mm": 0.2,
+          "max_z_mm": 1.4,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.49999
+        },
+        "Outer wall": {
+          "extrusion_segments": 70,
+          "length_mm": 268.1199999999991,
+          "min_z_mm": 0.2,
+          "max_z_mm": 1.5,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Bottom surface": {
+          "extrusion_segments": 3,
+          "length_mm": 1.785772870152054,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.53352,
+          "max_width_mm": 0.53352
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 60,
+          "length_mm": 61.967999999999165,
+          "min_z_mm": 0.3,
+          "max_z_mm": 1.4,
+          "min_width_mm": 0.57663,
+          "max_width_mm": 0.57663
+        },
+        "Top surface": {
+          "extrusion_segments": 14,
+          "length_mm": 46.57288103607078,
+          "min_z_mm": 1.5,
+          "max_z_mm": 1.5,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        }
+      },
+      "first_layer_segments": 23,
+      "first_layer_length_mm": 50.809772870152166,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "1:5:H02": {
+      "key": "H02",
+      "features": {
+        "Support": {
+          "extrusion_segments": 139,
+          "length_mm": 603.6033080847734,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.975,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.5
+        },
+        "Inner wall": {
+          "extrusion_segments": 1538,
+          "length_mm": 617.8427963234739,
+          "min_z_mm": 0.2,
+          "max_z_mm": 9.2,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.58446
+        },
+        "Outer wall": {
+          "extrusion_segments": 1041,
+          "length_mm": 460.98313096099605,
+          "min_z_mm": 0.2,
+          "max_z_mm": 9.4,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 380,
+          "length_mm": 146.9652707572751,
+          "min_z_mm": 0.4,
+          "max_z_mm": 2.8,
+          "min_width_mm": 0.38449,
+          "max_width_mm": 0.51698
+        },
+        "Support transition": {
+          "extrusion_segments": 48,
+          "length_mm": 121.47148441575497,
+          "min_z_mm": 1.23333,
+          "max_z_mm": 1.23333,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Support interface": {
+          "extrusion_segments": 85,
+          "length_mm": 234.41107878807856,
+          "min_z_mm": 1.49167,
+          "max_z_mm": 1.75,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Overhang wall": {
+          "extrusion_segments": 93,
+          "length_mm": 79.70750503386999,
+          "min_z_mm": 2.2,
+          "max_z_mm": 2.2,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.44999
+        },
+        "Bridge": {
+          "extrusion_segments": 24,
+          "length_mm": 46.657011532954876,
+          "min_z_mm": 2.2,
+          "max_z_mm": 2.2,
+          "min_width_mm": 0.4476,
+          "max_width_mm": 0.4476
+        },
+        "Top surface": {
+          "extrusion_segments": 28,
+          "length_mm": 103.30405910331939,
+          "min_z_mm": 3.0,
+          "max_z_mm": 9.4,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 28,
+          "length_mm": 8.507163510734296,
+          "min_z_mm": 3.0,
+          "max_z_mm": 9.4,
+          "min_width_mm": 0.107054,
+          "max_width_mm": 0.368869
+        }
+      },
+      "first_layer_segments": 60,
+      "first_layer_length_mm": 22.42134205135774,
+      "first_layer_min_width_mm": 0.47989,
+      "bridge_max_segment_mm": 4.469979082725097,
+      "bridge_segments": 24,
+      "bridge_length_mm": 46.657011532954876
+    },
+    "1:6:H04": {
+      "key": "H04",
+      "features": {
+        "Brim": {
+          "extrusion_segments": 194,
+          "length_mm": 1825.0745556088807,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.5,
+          "max_width_mm": 0.5
+        },
+        "Outer wall": {
+          "extrusion_segments": 582,
+          "length_mm": 8697.266000068696,
+          "min_z_mm": 0.2,
+          "max_z_mm": 6.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.63837
+        },
+        "Inner wall": {
+          "extrusion_segments": 428,
+          "length_mm": 24103.428000000014,
+          "min_z_mm": 0.4,
+          "max_z_mm": 5.8,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.54478
+        },
+        "Overhang wall": {
+          "extrusion_segments": 6,
+          "length_mm": 291.67999999999995,
+          "min_z_mm": 0.4,
+          "max_z_mm": 0.4,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.41999
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 66,
+          "length_mm": 4563.479999999999,
+          "min_z_mm": 0.8,
+          "max_z_mm": 5.4,
+          "min_width_mm": 0.34889,
+          "max_width_mm": 0.6226
+        },
+        "Sparse infill": {
+          "extrusion_segments": 19393,
+          "length_mm": 9122.418385327835,
+          "min_z_mm": 1.8,
+          "max_z_mm": 4.4,
+          "min_width_mm": 0.45,
+          "max_width_mm": 0.45
+        },
+        "Floating vertical shell": {
+          "extrusion_segments": 27,
+          "length_mm": 2280.216000000001,
+          "min_z_mm": 3.8,
+          "max_z_mm": 4.8,
+          "min_width_mm": 0.38292,
+          "max_width_mm": 0.6226
+        },
+        "Top surface": {
+          "extrusion_segments": 272,
+          "length_mm": 269.02237336326147,
+          "min_z_mm": 6.0,
+          "max_z_mm": 6.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        }
+      },
+      "first_layer_segments": 5,
+      "first_layer_length_mm": 291.25600000000003,
+      "first_layer_min_width_mm": 0.63837,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "1:7:H05": {
+      "key": "H05",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 1513,
+          "length_mm": 3764.8217883963002,
+          "min_z_mm": 0.2,
+          "max_z_mm": 2.8,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.49999
+        },
+        "Outer wall": {
+          "extrusion_segments": 549,
+          "length_mm": 1344.7403678111648,
+          "min_z_mm": 0.2,
+          "max_z_mm": 3.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Bottom surface": {
+          "extrusion_segments": 132,
+          "length_mm": 376.0748127713901,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.50787,
+          "max_width_mm": 0.50787
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 1999,
+          "length_mm": 3763.764162934259,
+          "min_z_mm": 0.4,
+          "max_z_mm": 2.8,
+          "min_width_mm": 0.391645,
+          "max_width_mm": 0.41999
+        },
+        "Sparse infill": {
+          "extrusion_segments": 4625,
+          "length_mm": 2318.3655916453936,
+          "min_z_mm": 1.2,
+          "max_z_mm": 2.0,
+          "min_width_mm": 0.45,
+          "max_width_mm": 0.45
+        },
+        "Floating vertical shell": {
+          "extrusion_segments": 328,
+          "length_mm": 537.6575908614071,
+          "min_z_mm": 2.2,
+          "max_z_mm": 2.2,
+          "min_width_mm": 0.392106,
+          "max_width_mm": 0.41999
+        },
+        "Top surface": {
+          "extrusion_segments": 76,
+          "length_mm": 817.8814230947964,
+          "min_z_mm": 3.0,
+          "max_z_mm": 3.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 30,
+          "length_mm": 6.818233837587562,
+          "min_z_mm": 3.0,
+          "max_z_mm": 3.0,
+          "min_width_mm": 0.0955598,
+          "max_width_mm": 0.223919
+        }
+      },
+      "first_layer_segments": 228,
+      "first_layer_length_mm": 734.7012516455839,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "1:8:H06": {
+      "key": "H06",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 1114,
+          "length_mm": 3949.866524744613,
+          "min_z_mm": 0.2,
+          "max_z_mm": 2.8,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.49999
+        },
+        "Outer wall": {
+          "extrusion_segments": 398,
+          "length_mm": 1410.8920186417547,
+          "min_z_mm": 0.2,
+          "max_z_mm": 3.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Bottom surface": {
+          "extrusion_segments": 126,
+          "length_mm": 320.0778840725276,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.50777,
+          "max_width_mm": 0.50777
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 1612,
+          "length_mm": 3290.7632035235224,
+          "min_z_mm": 0.4,
+          "max_z_mm": 2.8,
+          "min_width_mm": 0.418067,
+          "max_width_mm": 0.41999
+        },
+        "Sparse infill": {
+          "extrusion_segments": 4109,
+          "length_mm": 2043.8070389143581,
+          "min_z_mm": 1.2,
+          "max_z_mm": 2.0,
+          "min_width_mm": 0.45,
+          "max_width_mm": 0.45
+        },
+        "Floating vertical shell": {
+          "extrusion_segments": 251,
+          "length_mm": 470.1034627913516,
+          "min_z_mm": 2.2,
+          "max_z_mm": 2.2,
+          "min_width_mm": 0.41834,
+          "max_width_mm": 0.41999
+        },
+        "Top surface": {
+          "extrusion_segments": 80,
+          "length_mm": 770.5625445686309,
+          "min_z_mm": 3.0,
+          "max_z_mm": 3.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 28,
+          "length_mm": 6.2234708728821095,
+          "min_z_mm": 3.0,
+          "max_z_mm": 3.0,
+          "min_width_mm": 0.095552,
+          "max_width_mm": 0.223935
+        }
+      },
+      "first_layer_segments": 246,
+      "first_layer_length_mm": 696.2598617708098,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "1:9:H12": {
+      "key": "H12",
+      "features": {
+        "Support": {
+          "extrusion_segments": 1052,
+          "length_mm": 2181.7870199714016,
+          "min_z_mm": 0.2,
+          "max_z_mm": 16.4744,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.5
+        },
+        "Brim": {
+          "extrusion_segments": 177,
+          "length_mm": 186.37535806459383,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.5,
+          "max_width_mm": 0.5
+        },
+        "Inner wall": {
+          "extrusion_segments": 5437,
+          "length_mm": 15682.482366498809,
+          "min_z_mm": 0.2,
+          "max_z_mm": 20.8,
+          "min_width_mm": 0.43732,
+          "max_width_mm": 0.6961
+        },
+        "Outer wall": {
+          "extrusion_segments": 3463,
+          "length_mm": 6892.8720850342615,
+          "min_z_mm": 0.2,
+          "max_z_mm": 21.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.57323
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 990,
+          "length_mm": 1984.9709759377215,
+          "min_z_mm": 0.4,
+          "max_z_mm": 20.8,
+          "min_width_mm": 0.410697,
+          "max_width_mm": 0.625429
+        },
+        "Sparse infill": {
+          "extrusion_segments": 1073,
+          "length_mm": 441.9538167927404,
+          "min_z_mm": 1.2,
+          "max_z_mm": 20.0,
+          "min_width_mm": 0.45,
+          "max_width_mm": 0.45
+        },
+        "Support interface": {
+          "extrusion_segments": 296,
+          "length_mm": 434.92700128668633,
+          "min_z_mm": 1.8,
+          "max_z_mm": 17.75,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Floating vertical shell": {
+          "extrusion_segments": 25,
+          "length_mm": 90.01777455322683,
+          "min_z_mm": 2.4,
+          "max_z_mm": 20.2,
+          "min_width_mm": 0.42319,
+          "max_width_mm": 0.588035
+        },
+        "Support transition": {
+          "extrusion_segments": 74,
+          "length_mm": 92.33014114913183,
+          "min_z_mm": 2.875,
+          "max_z_mm": 16.75,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Top surface": {
+          "extrusion_segments": 68,
+          "length_mm": 233.5828302761742,
+          "min_z_mm": 3.0,
+          "max_z_mm": 21.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 1,
+          "length_mm": 0.3767333274346733,
+          "min_z_mm": 3.0,
+          "max_z_mm": 3.0,
+          "min_width_mm": 0.209935,
+          "max_width_mm": 0.209935
+        },
+        "Overhang wall": {
+          "extrusion_segments": 35,
+          "length_mm": 21.206000000000003,
+          "min_z_mm": 4.0,
+          "max_z_mm": 18.2,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.58025
+        },
+        "Bridge": {
+          "extrusion_segments": 3,
+          "length_mm": 14.9028849411078,
+          "min_z_mm": 18.2,
+          "max_z_mm": 18.2,
+          "min_width_mm": 0.48424,
+          "max_width_mm": 0.48424
+        }
+      },
+      "first_layer_segments": 77,
+      "first_layer_length_mm": 254.64555429803508,
+      "first_layer_min_width_mm": 0.45758,
+      "bridge_max_segment_mm": 7.3160000000000025,
+      "bridge_segments": 3,
+      "bridge_length_mm": 14.9028849411078
+    },
+    "1:10:H15": {
+      "key": "H15",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 2920,
+          "length_mm": 4024.535351252528,
+          "min_z_mm": 0.2,
+          "max_z_mm": 1.8,
+          "min_width_mm": 0.361274,
+          "max_width_mm": 0.64043
+        },
+        "Outer wall": {
+          "extrusion_segments": 1239,
+          "length_mm": 1519.069424373277,
+          "min_z_mm": 0.2,
+          "max_z_mm": 2.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.601
+        },
+        "Bottom surface": {
+          "extrusion_segments": 176,
+          "length_mm": 571.0996759583522,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.50492,
+          "max_width_mm": 0.50492
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 1760,
+          "length_mm": 6466.586175374441,
+          "min_z_mm": 0.4,
+          "max_z_mm": 1.8,
+          "min_width_mm": 0.38368,
+          "max_width_mm": 0.56864
+        },
+        "Overhang wall": {
+          "extrusion_segments": 6,
+          "length_mm": 10.036002515722277,
+          "min_z_mm": 0.8,
+          "max_z_mm": 1.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.44999
+        },
+        "Bridge": {
+          "extrusion_segments": 17,
+          "length_mm": 44.33463745788567,
+          "min_z_mm": 1.0,
+          "max_z_mm": 1.0,
+          "min_width_mm": 0.47127,
+          "max_width_mm": 0.47127
+        },
+        "Top surface": {
+          "extrusion_segments": 139,
+          "length_mm": 1207.2738157006577,
+          "min_z_mm": 2.0,
+          "max_z_mm": 2.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 31,
+          "length_mm": 6.759003327881303,
+          "min_z_mm": 2.0,
+          "max_z_mm": 2.0,
+          "min_width_mm": 0.094021,
+          "max_width_mm": 0.247544
+        }
+      },
+      "first_layer_segments": 577,
+      "first_layer_length_mm": 1160.4296878343514,
+      "first_layer_min_width_mm": 0.4618,
+      "bridge_max_segment_mm": 7.0219999999999985,
+      "bridge_segments": 17,
+      "bridge_length_mm": 44.33463745788567
+    },
+    "1:11:H19": {
+      "key": "H19",
+      "features": {
+        "Brim": {
+          "extrusion_segments": 292,
+          "length_mm": 130.2647819883677,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.5,
+          "max_width_mm": 0.5
+        },
+        "Outer wall": {
+          "extrusion_segments": 475,
+          "length_mm": 223.53616323358236,
+          "min_z_mm": 0.2,
+          "max_z_mm": 4.0,
+          "min_width_mm": 0.38292,
+          "max_width_mm": 0.42802
+        }
+      },
+      "first_layer_segments": 24,
+      "first_layer_length_mm": 11.176638186829997,
+      "first_layer_min_width_mm": 0.38376,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "1:12:H22": {
+      "key": "H22",
+      "features": {
+        "Brim": {
+          "extrusion_segments": 284,
+          "length_mm": 102.01363022262662,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.5,
+          "max_width_mm": 0.5
+        },
+        "Inner wall": {
+          "extrusion_segments": 82,
+          "length_mm": 18.83365814534158,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.8,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.49999
+        },
+        "Outer wall": {
+          "extrusion_segments": 41,
+          "length_mm": 31.724997898858305,
+          "min_z_mm": 0.2,
+          "max_z_mm": 1.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Top surface": {
+          "extrusion_segments": 4,
+          "length_mm": 5.566344947780237,
+          "min_z_mm": 1.0,
+          "max_z_mm": 1.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 2,
+          "length_mm": 1.1232380041786076,
+          "min_z_mm": 1.0,
+          "max_z_mm": 1.0,
+          "min_width_mm": 0.115958,
+          "max_width_mm": 0.116466
+        }
+      },
+      "first_layer_segments": 19,
+      "first_layer_length_mm": 9.376552336347,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "1:13:H14": {
+      "key": "H14",
+      "features": {
+        "Brim": {
+          "extrusion_segments": 497,
+          "length_mm": 356.5646914963324,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.5,
+          "max_width_mm": 0.5
+        },
+        "Inner wall": {
+          "extrusion_segments": 51007,
+          "length_mm": 96766.15842396833,
+          "min_z_mm": 0.2,
+          "max_z_mm": 85.8,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.5104
+        },
+        "Outer wall": {
+          "extrusion_segments": 16335,
+          "length_mm": 32334.77143181534,
+          "min_z_mm": 0.2,
+          "max_z_mm": 86.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 132,
+          "length_mm": 526.0141116048501,
+          "min_z_mm": 0.4,
+          "max_z_mm": 85.8,
+          "min_width_mm": 0.428072,
+          "max_width_mm": 0.429175
+        },
+        "Sparse infill": {
+          "extrusion_segments": 67831,
+          "length_mm": 31141.34717533209,
+          "min_z_mm": 1.2,
+          "max_z_mm": 85.0,
+          "min_width_mm": 0.45,
+          "max_width_mm": 0.45
+        },
+        "Floating vertical shell": {
+          "extrusion_segments": 20,
+          "length_mm": 75.16402072881718,
+          "min_z_mm": 85.2,
+          "max_z_mm": 85.2,
+          "min_width_mm": 0.428544,
+          "max_width_mm": 0.428737
+        },
+        "Top surface": {
+          "extrusion_segments": 64,
+          "length_mm": 316.0654186378537,
+          "min_z_mm": 86.0,
+          "max_z_mm": 86.0,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 14,
+          "length_mm": 5.107402455376027,
+          "min_z_mm": 86.0,
+          "max_z_mm": 86.0,
+          "min_width_mm": 0.0951888,
+          "max_width_mm": 0.225863
+        }
+      },
+      "first_layer_segments": 179,
+      "first_layer_length_mm": 300.7410279833867,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    },
+    "1:14:H13": {
+      "key": "H13",
+      "features": {
+        "Inner wall": {
+          "extrusion_segments": 1369,
+          "length_mm": 3471.4264912264557,
+          "min_z_mm": 0.2,
+          "max_z_mm": 2.6,
+          "min_width_mm": 0.44999,
+          "max_width_mm": 0.49999
+        },
+        "Outer wall": {
+          "extrusion_segments": 512,
+          "length_mm": 1246.4146933419106,
+          "min_z_mm": 0.2,
+          "max_z_mm": 2.8,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.49999
+        },
+        "Bottom surface": {
+          "extrusion_segments": 129,
+          "length_mm": 381.3987195163573,
+          "min_z_mm": 0.2,
+          "max_z_mm": 0.2,
+          "min_width_mm": 0.50788,
+          "max_width_mm": 0.50788
+        },
+        "Internal solid infill": {
+          "extrusion_segments": 1953,
+          "length_mm": 3737.378758540317,
+          "min_z_mm": 0.4,
+          "max_z_mm": 2.6,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.443073
+        },
+        "Sparse infill": {
+          "extrusion_segments": 3855,
+          "length_mm": 1871.5478398112218,
+          "min_z_mm": 1.2,
+          "max_z_mm": 1.8,
+          "min_width_mm": 0.45,
+          "max_width_mm": 0.45
+        },
+        "Floating vertical shell": {
+          "extrusion_segments": 334,
+          "length_mm": 533.9186476410856,
+          "min_z_mm": 2.0,
+          "max_z_mm": 2.0,
+          "min_width_mm": 0.41999,
+          "max_width_mm": 0.441423
+        },
+        "Top surface": {
+          "extrusion_segments": 76,
+          "length_mm": 824.6547989473413,
+          "min_z_mm": 2.8,
+          "max_z_mm": 2.8,
+          "min_width_mm": 0.42,
+          "max_width_mm": 0.42
+        },
+        "Gap infill": {
+          "extrusion_segments": 22,
+          "length_mm": 5.033088753651821,
+          "min_z_mm": 2.8,
+          "max_z_mm": 2.8,
+          "min_width_mm": 0.0955783,
+          "max_width_mm": 0.22792
+        }
+      },
+      "first_layer_segments": 238,
+      "first_layer_length_mm": 737.5099324437251,
+      "first_layer_min_width_mm": 0.49999,
+      "bridge_max_segment_mm": 0.0,
+      "bridge_segments": 0,
+      "bridge_length_mm": 0.0
+    }
+  }
+}

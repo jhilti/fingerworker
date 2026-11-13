@@ -1,0 +1,53 @@
+{
+  "status": "PASS_STATIC_SOURCE_BOUND_VIEWER_CHECKS",
+  "scope": "Source/native/archive metadata and domain, actual native dimension readouts, required rear controls, offline embedding and JavaScript syntax; browser visual review is separate",
+  "viewer_sha256": "ea67c3a8d450272991cddc236fcba3fe143c6d355039ffd7cb9e67fe715817ba",
+  "source_sha256": "d42805e8ee10158408099bf7185e49cf9a6eb06c23c327c90c01edfcd04eaddd",
+  "native_poses": [
+    {
+      "id": "neutral",
+      "device_parts": 70,
+      "native_XYZ_span_mm": [
+        176.50001,
+        132.0,
+        35.0
+      ],
+      "native_source_sha256": "d42805e8ee10158408099bf7185e49cf9a6eb06c23c327c90c01edfcd04eaddd"
+    },
+    {
+      "id": "adjusted_rest",
+      "device_parts": 70,
+      "native_XYZ_span_mm": [
+        175.6,
+        132.0,
+        35.0
+      ],
+      "native_source_sha256": "d42805e8ee10158408099bf7185e49cf9a6eb06c23c327c90c01edfcd04eaddd"
+    },
+    {
+      "id": "max",
+      "device_parts": 70,
+      "native_XYZ_span_mm": [
+        176.50001,
+        132.0,
+        35.0
+      ],
+      "native_source_sha256": "d42805e8ee10158408099bf7185e49cf9a6eb06c23c327c90c01edfcd04eaddd"
+    },
+    {
+      "id": "iso",
+      "device_parts": 70,
+      "native_XYZ_span_mm": [
+        176.50001,
+        132.0,
+        35.0
+      ],
+      "native_source_sha256": "d42805e8ee10158408099bf7185e49cf9a6eb06c23c327c90c01edfcd04eaddd"
+    }
+  ],
+  "nominal_geometry_state": {
+    "nominal_status": "NOMINAL_GEOMETRY_CHECKS_PASS",
+    "message": "R7 native rear construction, continuous motion, captive-shoe, tool-envelope and declared service checks passed. Equal-side setup, actual tool/pad retention, printed strength and the 500 N target remain physical qualifications."
+  },
+  "package_ready": true
+}

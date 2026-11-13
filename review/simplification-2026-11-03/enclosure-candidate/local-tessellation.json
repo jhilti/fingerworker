@@ -1,0 +1,7 @@
+{
+  "raw_sha256": "6e33609ab2c962e8bd1c601688d3ca0d79253877b4853350962cd7a15d5808c7",
+  "slice_stl_sha256": "586db66bf85d0d20bdc70ee1ae41ddb1919d7e0c3ed0c49b416403019cbc9966",
+  "collapsed_triangles_removed": 8,
+  "volume_change_mm3": 0.0,
+  "scope": "Local CSG candidate only; no mesh hole filling or surface remesh. Native release must export and validate independently."
+}

@@ -1,0 +1,119 @@
+{
+  "status": "FROZEN_R18_ORGANIC_CONTACT_REGIONS",
+  "CAD_source_sha256": "345b90327031276f8085e2c225c795946036d7faa4f2ac01b764101b9f4b3dd1",
+  "design_specification_path": "review/organic-palm-2026-11-13/mechanics/design-specification.json",
+  "design_specification_sha256": "403d6a239e0bdf9d25787619183a1183e36d2d4d5424f7b63a723955533c98db",
+  "basis": "Conservative closed boxes enclosing complete wrist/contact surfaces of the frozen seven-section bolster and retained thumb returns. Actual support bead bounds must not intersect. Hidden shoulder undersides receive a separate local path-span audit.",
+  "support_exclusion_regions": [
+    {
+      "name": "wrist curve and retained back thumb returns",
+      "min_mm": [
+        -35,
+        -63,
+        14.4
+      ],
+      "max_mm": [
+        -22.45,
+        63,
+        35
+      ]
+    },
+    {
+      "name": "organic crown and upper shoulder contact",
+      "min_mm": [
+        -32,
+        -65.5,
+        27.5
+      ],
+      "max_mm": [
+        -7.5,
+        65.5,
+        35
+      ]
+    },
+    {
+      "name": "upper loft shoulder transitions",
+      "min_mm": [
+        -32,
+        -58.1,
+        25.8
+      ],
+      "max_mm": [
+        -7.5,
+        58.1,
+        35
+      ]
+    },
+    {
+      "name": "central sensor-side sloping underside",
+      "min_mm": [
+        -22.45,
+        -36,
+        19.1
+      ],
+      "max_mm": [
+        -15.5,
+        36,
+        27.4
+      ]
+    }
+  ],
+  "required_palm_outer_wall_region": {
+    "min_mm": [
+      -32.5,
+      -35,
+      15
+    ],
+    "max_mm": [
+      -27.5,
+      35,
+      32.5
+    ],
+    "minimum_layers": 50
+  },
+  "restart_observation_regions": [
+    {
+      "name": "central wrist-contact curve",
+      "min_mm": [
+        -32.5,
+        -30,
+        22
+      ],
+      "max_mm": [
+        -28,
+        30,
+        32.5
+      ]
+    }
+  ],
+  "transition_regions": [
+    {
+      "name": "negative hidden shoulder transition",
+      "xy_bounds_mm": [
+        -20,
+        -40,
+        -13,
+        -35
+      ],
+      "z_bounds_mm": [
+        23.2,
+        25.2
+      ],
+      "maximum_unbacked_perimeter_span_mm": 3
+    },
+    {
+      "name": "positive hidden shoulder transition",
+      "xy_bounds_mm": [
+        -20,
+        35,
+        -13,
+        40
+      ],
+      "z_bounds_mm": [
+        23.2,
+        25.2
+      ],
+      "maximum_unbacked_perimeter_span_mm": 3
+    }
+  ]
+}

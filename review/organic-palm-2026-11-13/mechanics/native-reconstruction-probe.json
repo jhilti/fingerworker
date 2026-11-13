@@ -1,0 +1,57 @@
+{
+  "status": "DIAGNOSTIC_ONLY",
+  "fuzzy_mm": 1e-06,
+  "native_step_sha256": "0d9ebb0777c35ebf687c59578362a1323a9cab3a00922be858c1d03695f023ee",
+  "foundation_step_sha256": "fa9a68d37e192b13045d6259a3f0eb8a9913f92805eab37982e691a60b19fa4c",
+  "results": [
+    {
+      "name": "added",
+      "valid": true,
+      "volume_default_mm3": 2758.9762802887876,
+      "volume_GK_spans_mm3": 2760.5048070586736,
+      "relative_error_estimate": 3.6588044125063073e-11
+    },
+    {
+      "name": "removed",
+      "valid": true,
+      "volume_default_mm3": 304.682822375625,
+      "volume_GK_spans_mm3": 305.01391899499055,
+      "relative_error_estimate": 5.757928804635519e-09
+    },
+    {
+      "name": "reconstructed",
+      "valid": true,
+      "volume_default_mm3": 170194.0585135635,
+      "volume_GK_spans_mm3": 170196.09769148275,
+      "relative_error_estimate": 2.4084412278786343e-11
+    },
+    {
+      "name": "native_minus_reconstruction",
+      "valid": true,
+      "volume_default_mm3": 0.0,
+      "volume_GK_spans_mm3": 0.0,
+      "relative_error_estimate": -1.0
+    },
+    {
+      "name": "reconstruction_minus_native",
+      "valid": true,
+      "volume_default_mm3": 0.0,
+      "volume_GK_spans_mm3": 0.0,
+      "relative_error_estimate": -1.0
+    },
+    {
+      "name": "added_intersects_foundation",
+      "valid": true,
+      "volume_default_mm3": 0.0,
+      "volume_GK_spans_mm3": 0.0,
+      "relative_error_estimate": -1.0
+    },
+    {
+      "name": "removed_intersects_native",
+      "valid": true,
+      "volume_default_mm3": 0.0,
+      "volume_GK_spans_mm3": 0.0,
+      "relative_error_estimate": -1.0
+    }
+  ]
+}

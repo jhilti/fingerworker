@@ -1,0 +1,113 @@
+{
+  "native_R18_step_sha256": "0d9ebb0777c35ebf687c59578362a1323a9cab3a00922be858c1d03695f023ee",
+  "faces": [
+    {
+      "native_face_index": 364,
+      "point_mm": [
+        -22.544700438394266,
+        -60.99217980935462,
+        32.75556817095858
+      ],
+      "projection_correction_mm": 5.534635343984051e-12
+    },
+    {
+      "native_face_index": 366,
+      "point_mm": [
+        -20.64523341831539,
+        -61.29237134938883,
+        32.834727012495
+      ],
+      "projection_correction_mm": 7.944109290391274e-15
+    },
+    {
+      "native_face_index": 362,
+      "point_mm": [
+        -27.19685577151489,
+        -61.27761441161242,
+        31.34631744192306
+      ],
+      "projection_correction_mm": 1.0326116899648073e-07
+    },
+    {
+      "native_face_index": 365,
+      "point_mm": [
+        -18.069032542190914,
+        -62.18915479388106,
+        32.88284271247461
+      ],
+      "projection_correction_mm": 3.552713678800501e-15
+    },
+    {
+      "native_face_index": 360,
+      "point_mm": [
+        -28.42919076794086,
+        -61.6215216285966,
+        24.75
+      ],
+      "projection_correction_mm": 0.0
+    },
+    {
+      "native_face_index": 363,
+      "point_mm": [
+        -14.894625878047082,
+        -64.28915873032966,
+        32.45963720231145
+      ],
+      "projection_correction_mm": 6.066943845140445e-06
+    },
+    {
+      "native_face_index": 341,
+      "point_mm": [
+        -22.544700438393907,
+        60.99217980935025,
+        32.755568170955215
+      ],
+      "projection_correction_mm": 7.944109290391274e-15
+    },
+    {
+      "native_face_index": 342,
+      "point_mm": [
+        -20.64523341831539,
+        61.29237134938883,
+        32.834727012494994
+      ],
+      "projection_correction_mm": 1.0658141036401503e-14
+    },
+    {
+      "native_face_index": 343,
+      "point_mm": [
+        -27.196855742574627,
+        61.27761432298125,
+        31.346317397540123
+      ],
+      "projection_correction_mm": 8.702335715267317e-15
+    },
+    {
+      "native_face_index": 344,
+      "point_mm": [
+        -18.06903254219091,
+        62.189154793881066,
+        32.88284271247461
+      ],
+      "projection_correction_mm": 7.105427357601002e-15
+    },
+    {
+      "native_face_index": 345,
+      "point_mm": [
+        -28.42919076794086,
+        61.6215216285966,
+        24.75
+      ],
+      "projection_correction_mm": 0.0
+    },
+    {
+      "native_face_index": 346,
+      "point_mm": [
+        -14.894623594003583,
+        64.28915387153762,
+        32.459634376874696
+      ],
+      "projection_correction_mm": 0.0
+    }
+  ]
+}

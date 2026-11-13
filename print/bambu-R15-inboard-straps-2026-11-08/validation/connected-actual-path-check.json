@@ -1,0 +1,1661 @@
+{
+  "status": "PASS_CONNECTED_ACTUAL_PRINT_PATHS",
+  "checks": [
+    {
+      "name": "Exactly six expected objects on one plate",
+      "status": "PASS",
+      "objects": {
+        "192": "P01",
+        "203": "P04",
+        "214": "P05",
+        "225": "P11",
+        "236": "Q01",
+        "247": "P06"
+      }
+    },
+    {
+      "name": "Only filament 1 PLA is used for models and supports",
+      "status": "PASS",
+      "used_filaments": [
+        {
+          "id": "1",
+          "tray_info_idx": "GFA00",
+          "type": "PLA",
+          "color": "#5B6579",
+          "used_m": "77.07",
+          "used_g": "233.58",
+          "group_id": "0",
+          "nozzle_diameter": "0.40",
+          "volume_type": "Standard",
+          "used_for_object": "true",
+          "used_for_support": "true",
+          "total_load_time": "26.00",
+          "total_unload_time": "0.00"
+        }
+      ]
+    },
+    {
+      "name": "Global brim and skirt disabled",
+      "status": "PASS"
+    },
+    {
+      "name": "No actual Brim or Skirt extrusion",
+      "status": "PASS",
+      "brim_segments": 0,
+      "skirt_segments": 0
+    },
+    {
+      "name": "P01 no brim and filament 1",
+      "status": "PASS"
+    },
+    {
+      "name": "P01 connected first-layer contact retained",
+      "status": "PASS",
+      "model_only_area_mm2": 16608.961726382055,
+      "baseline_mm2": 16608.961726382055,
+      "largest_connected_fraction": 1.0
+    },
+    {
+      "name": "P01 required support presence retained",
+      "status": "PASS",
+      "actual_support_segments": 5073
+    },
+    {
+      "name": "P04 no brim and filament 1",
+      "status": "PASS"
+    },
+    {
+      "name": "P04 connected first-layer contact retained",
+      "status": "PASS",
+      "model_only_area_mm2": 1497.2398998805106,
+      "baseline_mm2": 1497.2398998805106,
+      "largest_connected_fraction": 1.0
+    },
+    {
+      "name": "P04 required support presence retained",
+      "status": "PASS",
+      "actual_support_segments": 183789
+    },
+    {
+      "name": "P05 no brim and filament 1",
+      "status": "PASS"
+    },
+    {
+      "name": "P05 connected first-layer contact retained",
+      "status": "PASS",
+      "model_only_area_mm2": 2148.4679029636827,
+      "baseline_mm2": 2148.4679029636827,
+      "largest_connected_fraction": 1.0
+    },
+    {
+      "name": "P05 required support presence retained",
+      "status": "PASS",
+      "actual_support_segments": 2633
+    },
+    {
+      "name": "P11 no brim and filament 1",
+      "status": "PASS"
+    },
+    {
+      "name": "P11 connected first-layer contact retained",
+      "status": "PASS",
+      "model_only_area_mm2": 31.089927992690424,
+      "baseline_mm2": 31.089927992690424,
+      "largest_connected_fraction": 1.0
+    },
+    {
+      "name": "P11 required support presence retained",
+      "status": "PASS",
+      "actual_support_segments": 0
+    },
+    {
+      "name": "Q01 no brim and filament 1",
+      "status": "PASS"
+    },
+    {
+      "name": "Q01 connected first-layer contact retained",
+      "status": "PASS",
+      "model_only_area_mm2": 256.4554830375903,
+      "baseline_mm2": 256.4554830375903,
+      "largest_connected_fraction": 1.0
+    },
+    {
+      "name": "Q01 required support presence retained",
+      "status": "PASS",
+      "actual_support_segments": 0
+    },
+    {
+      "name": "P06 no brim and filament 1",
+      "status": "PASS"
+    },
+    {
+      "name": "P06 connected first-layer contact retained",
+      "status": "PASS",
+      "model_only_area_mm2": 822.0093400073177,
+      "baseline_mm2": 822.0093400073177,
+      "largest_connected_fraction": 1.0
+    },
+    {
+      "name": "P06 required support presence retained",
+      "status": "PASS",
+      "actual_support_segments": 0
+    },
+    {
+      "name": "Actual 25x2mm slot remains open X28_Y-57.5",
+      "status": "PASS",
+      "model_layers": 30,
+      "intrusions": []
+    },
+    {
+      "name": "No actual support inside slot X28_Y-57.5",
+      "status": "PASS",
+      "support_intrusions": 0
+    },
+    {
+      "name": "Actual solid core X28_Y-57.5 outer load bar",
+      "status": "PASS",
+      "interior_layers": 20,
+      "minimum_complete_bead_coverage": 0.9878032474274195,
+      "per_layer": [
+        {
+          "top_z_mm": -0.8,
+          "covered_fraction": 0.9878032474274195
+        },
+        {
+          "top_z_mm": -0.6,
+          "covered_fraction": 0.9886683275536284
+        },
+        {
+          "top_z_mm": -0.4,
+          "covered_fraction": 0.9943716252761826
+        },
+        {
+          "top_z_mm": -0.2,
+          "covered_fraction": 0.9947508263507888
+        },
+        {
+          "top_z_mm": 0.0,
+          "covered_fraction": 0.9943591995435145
+        },
+        {
+          "top_z_mm": 0.2,
+          "covered_fraction": 0.9947597228027861
+        },
+        {
+          "top_z_mm": 0.4,
+          "covered_fraction": 0.9944550196817531
+        },
+        {
+          "top_z_mm": 0.6,
+          "covered_fraction": 0.9945699009210047
+        },
+        {
+          "top_z_mm": 0.8,
+          "covered_fraction": 0.9943561890895899
+        },
+        {
+          "top_z_mm": 1.0,
+          "covered_fraction": 0.9944255516944822
+        },
+        {
+          "top_z_mm": 1.2,
+          "covered_fraction": 0.9943617202466338
+        },
+        {
+          "top_z_mm": 1.4,
+          "covered_fraction": 0.9946659013049428
+        },
+        {
+          "top_z_mm": 1.6,
+          "covered_fraction": 0.9943054167071944
+        },
+        {
+          "top_z_mm": 1.8,
+          "covered_fraction": 0.9945431710817657
+        },
+        {
+          "top_z_mm": 2.0,
+          "covered_fraction": 0.9943543732979323
+        },
+        {
+          "top_z_mm": 2.2,
+          "covered_fraction": 0.9945007543716171
+        },
+        {
+          "top_z_mm": 2.4,
+          "covered_fraction": 0.9942333516517744
+        },
+        {
+          "top_z_mm": 2.6,
+          "covered_fraction": 0.9946656148494514
+        },
+        {
+          "top_z_mm": 2.8,
+          "covered_fraction": 0.9915921432710446
+        },
+        {
+          "top_z_mm": 3.0,
+          "covered_fraction": 0.9912176585359956
+        }
+      ]
+    },
+    {
+      "name": "Actual solid core X28_Y-57.5 inner stock",
+      "status": "PASS",
+      "interior_layers": 20,
+      "minimum_complete_bead_coverage": 0.9840364503344851,
+      "per_layer": [
+        {
+          "top_z_mm": -0.8,
+          "covered_fraction": 0.9840364503344851
+        },
+        {
+          "top_z_mm": -0.6,
+          "covered_fraction": 0.9873558368415734
+        },
+        {
+          "top_z_mm": -0.4,
+          "covered_fraction": 0.9923706414093731
+        },
+        {
+          "top_z_mm": -0.2,
+          "covered_fraction": 0.9934893115453707
+        },
+        {
+          "top_z_mm": 0.0,
+          "covered_fraction": 0.9923524854212268
+        },
+        {
+          "top_z_mm": 0.2,
+          "covered_fraction": 0.993510133700421
+        },
+        {
+          "top_z_mm": 0.4,
+          "covered_fraction": 0.9923429156043609
+        },
+        {
+          "top_z_mm": 0.6,
+          "covered_fraction": 0.9934986176122865
+        },
+        {
+          "top_z_mm": 0.8,
+          "covered_fraction": 0.9923890402514197
+        },
+        {
+          "top_z_mm": 1.0,
+          "covered_fraction": 0.9935045350032108
+        },
+        {
+          "top_z_mm": 1.2,
+          "covered_fraction": 0.9923468657961969
+        },
+        {
+          "top_z_mm": 1.4,
+          "covered_fraction": 0.9935006348014056
+        },
+        {
+          "top_z_mm": 1.6,
+          "covered_fraction": 0.9923925465428185
+        },
+        {
+          "top_z_mm": 1.8,
+          "covered_fraction": 0.9935893106764382
+        },
+        {
+          "top_z_mm": 2.0,
+          "covered_fraction": 0.9924387850428062
+        },
+        {
+          "top_z_mm": 2.2,
+          "covered_fraction": 0.9935612922027133
+        },
+        {
+          "top_z_mm": 2.4,
+          "covered_fraction": 0.9924592129065025
+        },
+        {
+          "top_z_mm": 2.6,
+          "covered_fraction": 0.9934763295213129
+        },
+        {
+          "top_z_mm": 2.8,
+          "covered_fraction": 0.9925938854202899
+        },
+        {
+          "top_z_mm": 3.0,
+          "covered_fraction": 0.9938328901603217
+        }
+      ]
+    },
+    {
+      "name": "Actual solid core X28_Y-57.5 front end ligament",
+      "status": "PASS",
+      "interior_layers": 20,
+      "minimum_complete_bead_coverage": 0.9921945224507739,
+      "per_layer": [
+        {
+          "top_z_mm": -0.8,
+          "covered_fraction": 0.9921945224507739
+        },
+        {
+          "top_z_mm": -0.6,
+          "covered_fraction": 0.9979156716445177
+        },
+        {
+          "top_z_mm": -0.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": -0.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 3.0,
+          "covered_fraction": 1.0000000000000002
+        }
+      ]
+    },
+    {
+      "name": "Actual solid core X28_Y-57.5 rear end ligament",
+      "status": "PASS",
+      "interior_layers": 20,
+      "minimum_complete_bead_coverage": 0.9916050232657962,
+      "per_layer": [
+        {
+          "top_z_mm": -0.8,
+          "covered_fraction": 0.9916050232657962
+        },
+        {
+          "top_z_mm": -0.6,
+          "covered_fraction": 0.9980858481535316
+        },
+        {
+          "top_z_mm": -0.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": -0.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 3.0,
+          "covered_fraction": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Actual 25x2mm slot remains open X28_Y57.5",
+      "status": "PASS",
+      "model_layers": 30,
+      "intrusions": []
+    },
+    {
+      "name": "No actual support inside slot X28_Y57.5",
+      "status": "PASS",
+      "support_intrusions": 0
+    },
+    {
+      "name": "Actual solid core X28_Y57.5 outer load bar",
+      "status": "PASS",
+      "interior_layers": 20,
+      "minimum_complete_bead_coverage": 0.9883455981086209,
+      "per_layer": [
+        {
+          "top_z_mm": -0.8,
+          "covered_fraction": 0.9883455981086209
+        },
+        {
+          "top_z_mm": -0.6,
+          "covered_fraction": 0.9893101562940357
+        },
+        {
+          "top_z_mm": -0.4,
+          "covered_fraction": 0.9945109614542013
+        },
+        {
+          "top_z_mm": -0.2,
+          "covered_fraction": 0.9943937319943013
+        },
+        {
+          "top_z_mm": 0.0,
+          "covered_fraction": 0.994724255317491
+        },
+        {
+          "top_z_mm": 0.2,
+          "covered_fraction": 0.9946343283658623
+        },
+        {
+          "top_z_mm": 0.4,
+          "covered_fraction": 0.9944947922635006
+        },
+        {
+          "top_z_mm": 0.6,
+          "covered_fraction": 0.9943682000197872
+        },
+        {
+          "top_z_mm": 0.8,
+          "covered_fraction": 0.9945372435514356
+        },
+        {
+          "top_z_mm": 1.0,
+          "covered_fraction": 0.9947384138976662
+        },
+        {
+          "top_z_mm": 1.2,
+          "covered_fraction": 0.9945381250509203
+        },
+        {
+          "top_z_mm": 1.4,
+          "covered_fraction": 0.9947022559854949
+        },
+        {
+          "top_z_mm": 1.6,
+          "covered_fraction": 0.9945415507523193
+        },
+        {
+          "top_z_mm": 1.8,
+          "covered_fraction": 0.9944663253114896
+        },
+        {
+          "top_z_mm": 2.0,
+          "covered_fraction": 0.9948152049718694
+        },
+        {
+          "top_z_mm": 2.2,
+          "covered_fraction": 0.9944514013842298
+        },
+        {
+          "top_z_mm": 2.4,
+          "covered_fraction": 0.9945652936009647
+        },
+        {
+          "top_z_mm": 2.6,
+          "covered_fraction": 0.9944572980082415
+        },
+        {
+          "top_z_mm": 2.8,
+          "covered_fraction": 0.9915864047125894
+        },
+        {
+          "top_z_mm": 3.0,
+          "covered_fraction": 0.9918362277204154
+        }
+      ]
+    },
+    {
+      "name": "Actual solid core X28_Y57.5 inner stock",
+      "status": "PASS",
+      "interior_layers": 20,
+      "minimum_complete_bead_coverage": 0.9843446017648856,
+      "per_layer": [
+        {
+          "top_z_mm": -0.8,
+          "covered_fraction": 0.9843446017648856
+        },
+        {
+          "top_z_mm": -0.6,
+          "covered_fraction": 0.986062285463072
+        },
+        {
+          "top_z_mm": -0.4,
+          "covered_fraction": 0.99233401995995
+        },
+        {
+          "top_z_mm": -0.2,
+          "covered_fraction": 0.9920164336093753
+        },
+        {
+          "top_z_mm": 0.0,
+          "covered_fraction": 0.9924985043751291
+        },
+        {
+          "top_z_mm": 0.2,
+          "covered_fraction": 0.9918947474054162
+        },
+        {
+          "top_z_mm": 0.4,
+          "covered_fraction": 0.9925949659906784
+        },
+        {
+          "top_z_mm": 0.6,
+          "covered_fraction": 0.992042220034782
+        },
+        {
+          "top_z_mm": 0.8,
+          "covered_fraction": 0.9924128537128264
+        },
+        {
+          "top_z_mm": 1.0,
+          "covered_fraction": 0.9922234789759811
+        },
+        {
+          "top_z_mm": 1.2,
+          "covered_fraction": 0.9925785070208355
+        },
+        {
+          "top_z_mm": 1.4,
+          "covered_fraction": 0.9921817988581821
+        },
+        {
+          "top_z_mm": 1.6,
+          "covered_fraction": 0.9923717664889081
+        },
+        {
+          "top_z_mm": 1.8,
+          "covered_fraction": 0.9920146008218073
+        },
+        {
+          "top_z_mm": 2.0,
+          "covered_fraction": 0.992369301129127
+        },
+        {
+          "top_z_mm": 2.2,
+          "covered_fraction": 0.9922110764410808
+        },
+        {
+          "top_z_mm": 2.4,
+          "covered_fraction": 0.9922943038418792
+        },
+        {
+          "top_z_mm": 2.6,
+          "covered_fraction": 0.991827519543046
+        },
+        {
+          "top_z_mm": 2.8,
+          "covered_fraction": 0.9931014939996701
+        },
+        {
+          "top_z_mm": 3.0,
+          "covered_fraction": 0.9923719547539487
+        }
+      ]
+    },
+    {
+      "name": "Actual solid core X28_Y57.5 front end ligament",
+      "status": "PASS",
+      "interior_layers": 20,
+      "minimum_complete_bead_coverage": 0.990948483893062,
+      "per_layer": [
+        {
+          "top_z_mm": -0.8,
+          "covered_fraction": 0.990948483893062
+        },
+        {
+          "top_z_mm": -0.6,
+          "covered_fraction": 0.9980491855446066
+        },
+        {
+          "top_z_mm": -0.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": -0.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.0,
+          "covered_fraction": 0.9999999999999999
+        },
+        {
+          "top_z_mm": 1.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.8,
+          "covered_fraction": 0.9999999999999999
+        },
+        {
+          "top_z_mm": 2.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.6,
+          "covered_fraction": 0.9999999999999999
+        },
+        {
+          "top_z_mm": 2.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 3.0,
+          "covered_fraction": 0.9999999999999999
+        }
+      ]
+    },
+    {
+      "name": "Actual solid core X28_Y57.5 rear end ligament",
+      "status": "PASS",
+      "interior_layers": 20,
+      "minimum_complete_bead_coverage": 0.992062002570776,
+      "per_layer": [
+        {
+          "top_z_mm": -0.8,
+          "covered_fraction": 0.992062002570776
+        },
+        {
+          "top_z_mm": -0.6,
+          "covered_fraction": 0.9982220541726289
+        },
+        {
+          "top_z_mm": -0.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": -0.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.4,
+          "covered_fraction": 1.0000000000000002
+        },
+        {
+          "top_z_mm": 1.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 3.0,
+          "covered_fraction": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Actual 25x2mm slot remains open X65_Y-57.5",
+      "status": "PASS",
+      "model_layers": 30,
+      "intrusions": []
+    },
+    {
+      "name": "No actual support inside slot X65_Y-57.5",
+      "status": "PASS",
+      "support_intrusions": 0
+    },
+    {
+      "name": "Actual solid core X65_Y-57.5 outer load bar",
+      "status": "PASS",
+      "interior_layers": 20,
+      "minimum_complete_bead_coverage": 0.9881786089297604,
+      "per_layer": [
+        {
+          "top_z_mm": -0.8,
+          "covered_fraction": 0.9881786089297604
+        },
+        {
+          "top_z_mm": -0.6,
+          "covered_fraction": 0.9887128073504912
+        },
+        {
+          "top_z_mm": -0.4,
+          "covered_fraction": 0.9946550678091621
+        },
+        {
+          "top_z_mm": -0.2,
+          "covered_fraction": 0.9945466720376944
+        },
+        {
+          "top_z_mm": 0.0,
+          "covered_fraction": 0.9946286651415407
+        },
+        {
+          "top_z_mm": 0.2,
+          "covered_fraction": 0.9944266230761571
+        },
+        {
+          "top_z_mm": 0.4,
+          "covered_fraction": 0.9945467841639608
+        },
+        {
+          "top_z_mm": 0.6,
+          "covered_fraction": 0.9944576826178375
+        },
+        {
+          "top_z_mm": 0.8,
+          "covered_fraction": 0.9944428930038995
+        },
+        {
+          "top_z_mm": 1.0,
+          "covered_fraction": 0.9945646844862401
+        },
+        {
+          "top_z_mm": 1.2,
+          "covered_fraction": 0.9944559915697793
+        },
+        {
+          "top_z_mm": 1.4,
+          "covered_fraction": 0.9943920548924862
+        },
+        {
+          "top_z_mm": 1.6,
+          "covered_fraction": 0.9945604984102595
+        },
+        {
+          "top_z_mm": 1.8,
+          "covered_fraction": 0.9944520663471068
+        },
+        {
+          "top_z_mm": 2.0,
+          "covered_fraction": 0.9945622065559254
+        },
+        {
+          "top_z_mm": 2.2,
+          "covered_fraction": 0.9945617002847921
+        },
+        {
+          "top_z_mm": 2.4,
+          "covered_fraction": 0.9944031110080567
+        },
+        {
+          "top_z_mm": 2.6,
+          "covered_fraction": 0.9943871983576611
+        },
+        {
+          "top_z_mm": 2.8,
+          "covered_fraction": 0.9913532021144111
+        },
+        {
+          "top_z_mm": 3.0,
+          "covered_fraction": 0.9911895475294482
+        }
+      ]
+    },
+    {
+      "name": "Actual solid core X65_Y-57.5 inner stock",
+      "status": "PASS",
+      "interior_layers": 20,
+      "minimum_complete_bead_coverage": 0.9845015170798631,
+      "per_layer": [
+        {
+          "top_z_mm": -0.8,
+          "covered_fraction": 0.9845015170798631
+        },
+        {
+          "top_z_mm": -0.6,
+          "covered_fraction": 0.9872739542904234
+        },
+        {
+          "top_z_mm": -0.4,
+          "covered_fraction": 0.9926974014014892
+        },
+        {
+          "top_z_mm": -0.2,
+          "covered_fraction": 0.9923962897344025
+        },
+        {
+          "top_z_mm": 0.0,
+          "covered_fraction": 0.9927327299804399
+        },
+        {
+          "top_z_mm": 0.2,
+          "covered_fraction": 0.9923897212823766
+        },
+        {
+          "top_z_mm": 0.4,
+          "covered_fraction": 0.9927521936285025
+        },
+        {
+          "top_z_mm": 0.6,
+          "covered_fraction": 0.9923430785880868
+        },
+        {
+          "top_z_mm": 0.8,
+          "covered_fraction": 0.9927104808342737
+        },
+        {
+          "top_z_mm": 1.0,
+          "covered_fraction": 0.9923442962195429
+        },
+        {
+          "top_z_mm": 1.2,
+          "covered_fraction": 0.9927150325730008
+        },
+        {
+          "top_z_mm": 1.4,
+          "covered_fraction": 0.9924366831036467
+        },
+        {
+          "top_z_mm": 1.6,
+          "covered_fraction": 0.99275456643076
+        },
+        {
+          "top_z_mm": 1.8,
+          "covered_fraction": 0.9924519406847117
+        },
+        {
+          "top_z_mm": 2.0,
+          "covered_fraction": 0.9927915344807193
+        },
+        {
+          "top_z_mm": 2.2,
+          "covered_fraction": 0.9924737813786866
+        },
+        {
+          "top_z_mm": 2.4,
+          "covered_fraction": 0.9927917650973886
+        },
+        {
+          "top_z_mm": 2.6,
+          "covered_fraction": 0.9924662862945643
+        },
+        {
+          "top_z_mm": 2.8,
+          "covered_fraction": 0.9927441802369481
+        },
+        {
+          "top_z_mm": 3.0,
+          "covered_fraction": 0.9936283428053211
+        }
+      ]
+    },
+    {
+      "name": "Actual solid core X65_Y-57.5 front end ligament",
+      "status": "PASS",
+      "interior_layers": 20,
+      "minimum_complete_bead_coverage": 0.9925104149780025,
+      "per_layer": [
+        {
+          "top_z_mm": -0.8,
+          "covered_fraction": 0.9925104149780025
+        },
+        {
+          "top_z_mm": -0.6,
+          "covered_fraction": 0.9979047849275522
+        },
+        {
+          "top_z_mm": -0.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": -0.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.2,
+          "covered_fraction": 0.9999999999999998
+        },
+        {
+          "top_z_mm": 0.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.6,
+          "covered_fraction": 0.9999999999999999
+        },
+        {
+          "top_z_mm": 0.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.4,
+          "covered_fraction": 1.0000000000000002
+        },
+        {
+          "top_z_mm": 1.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.8,
+          "covered_fraction": 0.9999999999999999
+        },
+        {
+          "top_z_mm": 2.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.6,
+          "covered_fraction": 1.0000000000000002
+        },
+        {
+          "top_z_mm": 2.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 3.0,
+          "covered_fraction": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Actual solid core X65_Y-57.5 rear end ligament",
+      "status": "PASS",
+      "interior_layers": 20,
+      "minimum_complete_bead_coverage": 0.990805721353558,
+      "per_layer": [
+        {
+          "top_z_mm": -0.8,
+          "covered_fraction": 0.990805721353558
+        },
+        {
+          "top_z_mm": -0.6,
+          "covered_fraction": 0.998111269545844
+        },
+        {
+          "top_z_mm": -0.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": -0.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 3.0,
+          "covered_fraction": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Actual 25x2mm slot remains open X65_Y57.5",
+      "status": "PASS",
+      "model_layers": 30,
+      "intrusions": []
+    },
+    {
+      "name": "No actual support inside slot X65_Y57.5",
+      "status": "PASS",
+      "support_intrusions": 0
+    },
+    {
+      "name": "Actual solid core X65_Y57.5 outer load bar",
+      "status": "PASS",
+      "interior_layers": 20,
+      "minimum_complete_bead_coverage": 0.9878813671683847,
+      "per_layer": [
+        {
+          "top_z_mm": -0.8,
+          "covered_fraction": 0.9878813671683847
+        },
+        {
+          "top_z_mm": -0.6,
+          "covered_fraction": 0.9892358186040429
+        },
+        {
+          "top_z_mm": -0.4,
+          "covered_fraction": 0.9942996982918437
+        },
+        {
+          "top_z_mm": -0.2,
+          "covered_fraction": 0.994562746196048
+        },
+        {
+          "top_z_mm": 0.0,
+          "covered_fraction": 0.9944602157550283
+        },
+        {
+          "top_z_mm": 0.2,
+          "covered_fraction": 0.9947255030238557
+        },
+        {
+          "top_z_mm": 0.4,
+          "covered_fraction": 0.9942888455862967
+        },
+        {
+          "top_z_mm": 0.6,
+          "covered_fraction": 0.9945611308721185
+        },
+        {
+          "top_z_mm": 0.8,
+          "covered_fraction": 0.9943952462159455
+        },
+        {
+          "top_z_mm": 1.0,
+          "covered_fraction": 0.9948260604051405
+        },
+        {
+          "top_z_mm": 1.2,
+          "covered_fraction": 0.9943928172166495
+        },
+        {
+          "top_z_mm": 1.4,
+          "covered_fraction": 0.9948277893018891
+        },
+        {
+          "top_z_mm": 1.6,
+          "covered_fraction": 0.9944118290141435
+        },
+        {
+          "top_z_mm": 1.8,
+          "covered_fraction": 0.9946824926260819
+        },
+        {
+          "top_z_mm": 2.0,
+          "covered_fraction": 0.9945898636881516
+        },
+        {
+          "top_z_mm": 2.2,
+          "covered_fraction": 0.9946834158196406
+        },
+        {
+          "top_z_mm": 2.4,
+          "covered_fraction": 0.9944310118903842
+        },
+        {
+          "top_z_mm": 2.6,
+          "covered_fraction": 0.9946636819581384
+        },
+        {
+          "top_z_mm": 2.8,
+          "covered_fraction": 0.9914816244480987
+        },
+        {
+          "top_z_mm": 3.0,
+          "covered_fraction": 0.9917883388819
+        }
+      ]
+    },
+    {
+      "name": "Actual solid core X65_Y57.5 inner stock",
+      "status": "PASS",
+      "interior_layers": 20,
+      "minimum_complete_bead_coverage": 0.9839639090292447,
+      "per_layer": [
+        {
+          "top_z_mm": -0.8,
+          "covered_fraction": 0.9839639090292447
+        },
+        {
+          "top_z_mm": -0.6,
+          "covered_fraction": 0.9859863972287678
+        },
+        {
+          "top_z_mm": -0.4,
+          "covered_fraction": 0.9919712002119612
+        },
+        {
+          "top_z_mm": -0.2,
+          "covered_fraction": 0.9932291128511257
+        },
+        {
+          "top_z_mm": 0.0,
+          "covered_fraction": 0.9919672798749858
+        },
+        {
+          "top_z_mm": 0.2,
+          "covered_fraction": 0.9929631739369235
+        },
+        {
+          "top_z_mm": 0.4,
+          "covered_fraction": 0.9917660858186782
+        },
+        {
+          "top_z_mm": 0.6,
+          "covered_fraction": 0.9929286383537476
+        },
+        {
+          "top_z_mm": 0.8,
+          "covered_fraction": 0.9919977769947129
+        },
+        {
+          "top_z_mm": 1.0,
+          "covered_fraction": 0.9928669994323732
+        },
+        {
+          "top_z_mm": 1.2,
+          "covered_fraction": 0.9919584229794215
+        },
+        {
+          "top_z_mm": 1.4,
+          "covered_fraction": 0.9930089696834977
+        },
+        {
+          "top_z_mm": 1.6,
+          "covered_fraction": 0.9919027427336299
+        },
+        {
+          "top_z_mm": 1.8,
+          "covered_fraction": 0.9930119602181651
+        },
+        {
+          "top_z_mm": 2.0,
+          "covered_fraction": 0.9920098334600289
+        },
+        {
+          "top_z_mm": 2.2,
+          "covered_fraction": 0.9932393179468981
+        },
+        {
+          "top_z_mm": 2.4,
+          "covered_fraction": 0.9920052975862415
+        },
+        {
+          "top_z_mm": 2.6,
+          "covered_fraction": 0.9932791119575352
+        },
+        {
+          "top_z_mm": 2.8,
+          "covered_fraction": 0.9933720852935035
+        },
+        {
+          "top_z_mm": 3.0,
+          "covered_fraction": 0.9928317298424221
+        }
+      ]
+    },
+    {
+      "name": "Actual solid core X65_Y57.5 front end ligament",
+      "status": "PASS",
+      "interior_layers": 20,
+      "minimum_complete_bead_coverage": 0.9922255738872173,
+      "per_layer": [
+        {
+          "top_z_mm": -0.8,
+          "covered_fraction": 0.9922255738872173
+        },
+        {
+          "top_z_mm": -0.6,
+          "covered_fraction": 0.9978469990876064
+        },
+        {
+          "top_z_mm": -0.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": -0.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 3.0,
+          "covered_fraction": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Actual solid core X65_Y57.5 rear end ligament",
+      "status": "PASS",
+      "interior_layers": 20,
+      "minimum_complete_bead_coverage": 0.9927187347885064,
+      "per_layer": [
+        {
+          "top_z_mm": -0.8,
+          "covered_fraction": 0.9927187347885064
+        },
+        {
+          "top_z_mm": -0.6,
+          "covered_fraction": 0.9981475733968782
+        },
+        {
+          "top_z_mm": -0.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": -0.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.2,
+          "covered_fraction": 0.9999999999999999
+        },
+        {
+          "top_z_mm": 0.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 0.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 1.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.0,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.2,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.4,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.6,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 2.8,
+          "covered_fraction": 1.0
+        },
+        {
+          "top_z_mm": 3.0,
+          "covered_fraction": 1.0
+        }
+      ]
+    }
+  ],
+  "failed_count": 0,
+  "failures": [],
+  "metrics": {
+    "P01": {
+      "first_layer_area_mm2": 16608.961726382055,
+      "model_segments": 543873,
+      "support_segments": 5073
+    },
+    "P04": {
+      "first_layer_area_mm2": 1497.2398998805106,
+      "model_segments": 275870,
+      "support_segments": 183789
+    },
+    "P05": {
+      "first_layer_area_mm2": 2148.4679029636827,
+      "model_segments": 191666,
+      "support_segments": 2633
+    },
+    "P11": {
+      "first_layer_area_mm2": 31.089927992690424,
+      "model_segments": 6227,
+      "support_segments": 0
+    },
+    "Q01": {
+      "first_layer_area_mm2": 256.4554830375903,
+      "model_segments": 22943,
+      "support_segments": 0
+    },
+    "P06": {
+      "first_layer_area_mm2": 822.0093400073177,
+      "model_segments": 97075,
+      "support_segments": 0
+    }
+  },
+  "used_filaments": [
+    {
+      "id": "1",
+      "tray_info_idx": "GFA00",
+      "type": "PLA",
+      "color": "#5B6579",
+      "used_m": "77.07",
+      "used_g": "233.58",
+      "group_id": "0",
+      "nozzle_diameter": "0.40",
+      "volume_type": "Standard",
+      "used_for_object": "true",
+      "used_for_support": "true",
+      "total_load_time": "26.00",
+      "total_unload_time": "0.00"
+    }
+  ],
+  "project_sha256": "b8eeb41a267ef7808fde1a6ee5a036eed1ef9a24f7610044177396576bca23d7",
+  "sliced_archive_sha256": "d077b2ff3f6340495e3c6914a3aa4bb674d00c2c64635fe523878e370c63e15c",
+  "validator_sha256": "7adab9cb4f3d5d3399b3a4591bab9c7a03fa33560896e00e1310031375f53806",
+  "layout_sha256": "15bae7c934c2f575c510262389da0e052d751dec861b9fbdd5b66ccfbd88324e",
+  "strap_regions_sha256": "5413487f5f5e4944f0a29b7ede49d96ea3f76dea17c1ce19b6b16ea322324b60",
+  "inherited_native_solid_core_evidence": {
+    "path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/print/bambu-R15-inboard-straps-2026-11-08/validation/strap-slot-check.json",
+    "sha256": "fb6f4893109921dcd240927c42e8d48c88f0d23ab30a0f699c420f099fbef315"
+  },
+  "scope": "Actual connected GUI slice: six objects, only PLA, no model brims, first-layer contact, required supports, four open 25x2mm strap throats and all 16 local dense ligament cores.",
+  "limitations": [
+    "Emitted bead geometry is a nominal audit, not a physical strength or adhesion test.",
+    "Observe P11 first layer on clean textured PEI."
+  ]
+}

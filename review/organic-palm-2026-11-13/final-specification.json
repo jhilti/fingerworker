@@ -1,0 +1,780 @@
+{
+  "revision": "Flat132 R18 organic palm bolster",
+  "date": "2026-11-13",
+  "status": "PASS_NOMINAL_CAD_AND_PLA_PRINT",
+  "source_sha256": "345b90327031276f8085e2c225c795946036d7faa4f2ac01b764101b9f4b3dd1",
+  "onshape_version": "13e353d6762b6cc58530122b",
+  "onshape_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/13e353d6762b6cc58530122b/e/d253eb87b70818ebde8215f0",
+  "changed": [
+    "P01"
+  ],
+  "new": [],
+  "removed": [],
+  "native_solids": 93,
+  "unchanged_exact_native_breps": 92,
+  "new_prints_required": [
+    "P01"
+  ],
+  "fit_test_pieces": 6,
+  "primary_print_pieces": 1,
+  "plates": 1,
+  "printed_device_bodies": 7,
+  "primary_printed_device_bodies": 1,
+  "primary_unloaded_fixtures": 0,
+  "omitted_from_primary_print": [
+    "P04",
+    "P05",
+    "P06",
+    "P08",
+    "P09",
+    "P11",
+    "Q01",
+    "H040",
+    "H041"
+  ],
+  "estimates": {
+    "seconds": 20279,
+    "filament_g": 129.67
+  },
+  "secondary_estimates": {
+    "seconds": 39802,
+    "filament_g": 239.38
+  },
+  "verification": {
+    "review/organic-palm-2026-11-13/validation/native-integration.json": {
+      "status": "PASS_NATIVE_R18_INTEGRATION",
+      "sha256": "bcc84bcbecb092538c0b2956ba3d1e1f1fb19fbc043c82b641f371e48f2057b5"
+    },
+    "review/organic-palm-2026-11-13/validation/native-section-fidelity.json": {
+      "status": "PASS_NATIVE_R18_SECTION_FIDELITY",
+      "sha256": "a852724e93c755a4ca45965d36b37b00725b5d8d812ef36f4e6272323e6abd93"
+    },
+    "review/organic-palm-2026-11-13/validation/native-release-binding.json": {
+      "status": "PASS_NATIVE_R18_SOURCE_EXPORT_REPORT_BINDING",
+      "sha256": "dc5374e2b1fb6d3ee5e5a0fb15b66836e1e9747f6224bb9b15562bd26d7a69e1"
+    },
+    "review/organic-palm-2026-11-13/mechanics/preflight.json": {
+      "status": "PASS_LOCAL_ORGANIC_PALM",
+      "sha256": "30a2d2413d532b0bb9b29422e017a13e287608964d9c5f0524ccf16af67f548e"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/native-project-check.json": {
+      "status": "PASS_NATIVE_R18_ORGANIC_PALM",
+      "sha256": "60f8f29e924d774318bd91662eca2b561ae15f02dec09b9a13b81b42ccd0206b"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/toolpath-check.json": {
+      "status": "PASS_ACTUAL_R18_ORGANIC_PALM_TOOLPATHS",
+      "sha256": "40c527bb4c3da8e237cd7bf5f0078cff5474ee9429b51b11453bacb29b74d4dd"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/actual-path-check.json": {
+      "status": "PASS_R18_ACTUAL_PRINT_PATHS",
+      "sha256": "ec3ff9c729e2c585673a955f86f26ff4344009199e3411c6ddb6e1cb3a645fd5"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/connected-flow-check.json": {
+      "status": "PASS_CONNECTED_MATERIAL_FLOW",
+      "sha256": "a8c6acfe1713c640b244526cf953da561c1a68dcfb07b51fa18c75980f5964c1"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/p04-surface-check.json": {
+      "status": "PASS",
+      "sha256": "25e3314e60d6c6d33f0eb3f163c724f38722f67d6ef0448b0eb42a8720b4f08a"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/palm-contact-check.json": {
+      "status": "PASS_R18_PALM_CONTACT_SUPPORTS",
+      "sha256": "ab07d750a6820ddf4b658bd0dad63f5d09d28fadaadf13dd55d615826c261b67"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/side-thumb-check.json": {
+      "status": "PASS_R18_ORGANIC_PALM_PRINT_SURFACES",
+      "sha256": "fc083663ebe2742c97de5c6ed20970bf2849c5095e595001f13785fcc5e4cae7"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/cli-diagnostics.json": {
+      "status": "PASS_R18_OFFICIAL_H2D_DIAGNOSTICS",
+      "sha256": "8b181c895406dae0222b037d7ade3be5d38921c51359930cb33c5e2037b6c267"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/P01-replacement/native-project-check.json": {
+      "status": "PASS_NATIVE_R18_ORGANIC_PALM",
+      "sha256": "3d5d5499625c961f43f7ae0fb7803a25031b1ff54472451b445c094f8a58349a"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/P01-replacement/toolpath-check.json": {
+      "status": "PASS_ACTUAL_R18_ORGANIC_PALM_TOOLPATHS",
+      "sha256": "b047374b88940291c7020e392513e884cec07be8e3a4f8781c6c9ef3690f9ede"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/P01-replacement/actual-path-check.json": {
+      "status": "PASS_R18_ACTUAL_PRINT_PATHS",
+      "sha256": "9d706817bbf768f3491dc02c1a1019b1485a5333f09dfed1ce505fb17712d755"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/P01-replacement/connected-flow-check.json": {
+      "status": "PASS_CONNECTED_MATERIAL_FLOW",
+      "sha256": "861206a311a77d119fdcf8e55fd1f61cf0ab6ef610a9a8e3a681067b08221281"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/P01-replacement/palm-contact-check.json": {
+      "status": "PASS_R18_PALM_CONTACT_SUPPORTS",
+      "sha256": "1216a3dacc7a3688bcac4d65cd8ca44ef9c999d2153c0c32ffd2d149c40a81c6"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/P01-replacement/side-thumb-check.json": {
+      "status": "PASS_R18_ORGANIC_PALM_PRINT_SURFACES",
+      "sha256": "205e03e5c43376d85c9a76a7b8c2cb665d8e2943e05fb73c83e77c1981381227"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/P01-replacement/cli-diagnostics.json": {
+      "status": "PASS_R18_OFFICIAL_H2D_DIAGNOSTICS",
+      "sha256": "2f089297cb7ba88927bca84fa33a7e0eda032d6dcba42b9588573c31becb6fa7"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/cad-R18-native-integration.json": {
+      "status": "PASS_NATIVE_R18_INTEGRATION",
+      "sha256": "bcc84bcbecb092538c0b2956ba3d1e1f1fb19fbc043c82b641f371e48f2057b5"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/cad-R18-native-section-fidelity.json": {
+      "status": "PASS_NATIVE_R18_SECTION_FIDELITY",
+      "sha256": "a852724e93c755a4ca45965d36b37b00725b5d8d812ef36f4e6272323e6abd93"
+    },
+    "print/bambu-R18-organic-palm-2026-11-13/validation/cad-R18-native-release-binding.json": {
+      "status": "PASS_NATIVE_R18_SOURCE_EXPORT_REPORT_BINDING",
+      "sha256": "dc5374e2b1fb6d3ee5e5a0fb15b66836e1e9747f6224bb9b15562bd26d7a69e1"
+    }
+  },
+  "organic_palm": {
+    "revision": "R18 candidate",
+    "status": "LOCAL_PROTOTYPE_PENDING_NATIVE_REGENERATION",
+    "source_sha256": "345b90327031276f8085e2c225c795946036d7faa4f2ac01b764101b9f4b3dd1",
+    "baseline_R17_source_sha256": "780dfdbaf9c6ab4bf4bbf3ab3de0dab3f9ac7dc5f8de49cf015c51ee95cc16e4",
+    "changed": [
+      "P01"
+    ],
+    "new_parts": [],
+    "other_native_bodies_unchanged": 92,
+    "sections": [
+      {
+        "y_mm": -58,
+        "crown_z_mm": 33,
+        "top_left_x_mm": -24,
+        "top_right_x_mm": -12,
+        "back_radius_mm": 5,
+        "front_radius_mm": 4,
+        "floor_z_mm": 26,
+        "edges": [
+          [
+            "arc",
+            [
+              -28.58257569495584,
+              26
+            ],
+            [
+              -29,
+              28
+            ],
+            [
+              -24,
+              33
+            ]
+          ],
+          [
+            "line",
+            [
+              -24,
+              33
+            ],
+            [
+              -12,
+              33
+            ]
+          ],
+          [
+            "arc",
+            [
+              -12,
+              33
+            ],
+            [
+              -9.17157287525381,
+              31.82842712474619
+            ],
+            [
+              -8,
+              29
+            ]
+          ],
+          [
+            "line",
+            [
+              -8,
+              29
+            ],
+            [
+              -8,
+              26
+            ]
+          ],
+          [
+            "line",
+            [
+              -8,
+              26
+            ],
+            [
+              -28.58257569495584,
+              26
+            ]
+          ]
+        ]
+      },
+      {
+        "y_mm": -43,
+        "crown_z_mm": 33.7,
+        "top_left_x_mm": -23.5,
+        "top_right_x_mm": -12.7,
+        "back_radius_mm": 5.6,
+        "front_radius_mm": 4.7,
+        "floor_z_mm": 26.1,
+        "edges": [
+          [
+            "arc",
+            [
+              -28.73067873224881,
+              26.1
+            ],
+            [
+              -29.1,
+              28.1
+            ],
+            [
+              -23.5,
+              33.7
+            ]
+          ],
+          [
+            "line",
+            [
+              -23.5,
+              33.7
+            ],
+            [
+              -12.7,
+              33.7
+            ]
+          ],
+          [
+            "arc",
+            [
+              -12.7,
+              33.7
+            ],
+            [
+              -9.376598128423225,
+              32.32340187157678
+            ],
+            [
+              -7.999999999999999,
+              29.000000000000004
+            ]
+          ],
+          [
+            "line",
+            [
+              -7.999999999999999,
+              29.000000000000004
+            ],
+            [
+              -7.999999999999999,
+              26.1
+            ]
+          ],
+          [
+            "line",
+            [
+              -7.999999999999999,
+              26.1
+            ],
+            [
+              -28.73067873224881,
+              26.1
+            ]
+          ]
+        ]
+      },
+      {
+        "y_mm": -30,
+        "crown_z_mm": 34.1,
+        "top_left_x_mm": -23.5,
+        "top_right_x_mm": -20.5,
+        "back_radius_mm": 7.4,
+        "front_radius_mm": 4,
+        "floor_z_mm": 21.5,
+        "edges": [
+          [
+            "arc",
+            [
+              -28.76497863243527,
+              21.5
+            ],
+            [
+              -30.9,
+              26.700000000000003
+            ],
+            [
+              -23.5,
+              34.1
+            ]
+          ],
+          [
+            "line",
+            [
+              -23.5,
+              34.1
+            ],
+            [
+              -20.5,
+              34.1
+            ]
+          ],
+          [
+            "arc",
+            [
+              -20.5,
+              34.1
+            ],
+            [
+              -17.67157287525381,
+              32.92842712474619
+            ],
+            [
+              -16.5,
+              30.1
+            ]
+          ],
+          [
+            "line",
+            [
+              -16.5,
+              30.1
+            ],
+            [
+              -22.5,
+              21.5
+            ]
+          ],
+          [
+            "line",
+            [
+              -22.5,
+              21.5
+            ],
+            [
+              -28.76497863243527,
+              21.5
+            ]
+          ]
+        ]
+      },
+      {
+        "y_mm": 0,
+        "crown_z_mm": 34.5,
+        "top_left_x_mm": -23.5,
+        "top_right_x_mm": -20.5,
+        "back_radius_mm": 7.5,
+        "front_radius_mm": 4,
+        "floor_z_mm": 21.5,
+        "edges": [
+          [
+            "arc",
+            [
+              -28.599019513592786,
+              21.5
+            ],
+            [
+              -31.0,
+              27.0
+            ],
+            [
+              -23.5,
+              34.5
+            ]
+          ],
+          [
+            "line",
+            [
+              -23.5,
+              34.5
+            ],
+            [
+              -20.5,
+              34.5
+            ]
+          ],
+          [
+            "arc",
+            [
+              -20.5,
+              34.5
+            ],
+            [
+              -17.67157287525381,
+              33.32842712474619
+            ],
+            [
+              -16.5,
+              30.5
+            ]
+          ],
+          [
+            "line",
+            [
+              -16.5,
+              30.5
+            ],
+            [
+              -22.5,
+              21.5
+            ]
+          ],
+          [
+            "line",
+            [
+              -22.5,
+              21.5
+            ],
+            [
+              -28.599019513592786,
+              21.5
+            ]
+          ]
+        ]
+      },
+      {
+        "y_mm": 30,
+        "crown_z_mm": 34.1,
+        "top_left_x_mm": -23.5,
+        "top_right_x_mm": -20.5,
+        "back_radius_mm": 7.4,
+        "front_radius_mm": 4,
+        "floor_z_mm": 21.5,
+        "edges": [
+          [
+            "arc",
+            [
+              -28.76497863243527,
+              21.5
+            ],
+            [
+              -30.9,
+              26.700000000000003
+            ],
+            [
+              -23.5,
+              34.1
+            ]
+          ],
+          [
+            "line",
+            [
+              -23.5,
+              34.1
+            ],
+            [
+              -20.5,
+              34.1
+            ]
+          ],
+          [
+            "arc",
+            [
+              -20.5,
+              34.1
+            ],
+            [
+              -17.67157287525381,
+              32.92842712474619
+            ],
+            [
+              -16.5,
+              30.1
+            ]
+          ],
+          [
+            "line",
+            [
+              -16.5,
+              30.1
+            ],
+            [
+              -22.5,
+              21.5
+            ]
+          ],
+          [
+            "line",
+            [
+              -22.5,
+              21.5
+            ],
+            [
+              -28.76497863243527,
+              21.5
+            ]
+          ]
+        ]
+      },
+      {
+        "y_mm": 43,
+        "crown_z_mm": 33.7,
+        "top_left_x_mm": -23.5,
+        "top_right_x_mm": -12.7,
+        "back_radius_mm": 5.6,
+        "front_radius_mm": 4.7,
+        "floor_z_mm": 26.1,
+        "edges": [
+          [
+            "arc",
+            [
+              -28.73067873224881,
+              26.1
+            ],
+            [
+              -29.1,
+              28.1
+            ],
+            [
+              -23.5,
+              33.7
+            ]
+          ],
+          [
+            "line",
+            [
+              -23.5,
+              33.7
+            ],
+            [
+              -12.7,
+              33.7
+            ]
+          ],
+          [
+            "arc",
+            [
+              -12.7,
+              33.7
+            ],
+            [
+              -9.376598128423225,
+              32.32340187157678
+            ],
+            [
+              -7.999999999999999,
+              29.000000000000004
+            ]
+          ],
+          [
+            "line",
+            [
+              -7.999999999999999,
+              29.000000000000004
+            ],
+            [
+              -7.999999999999999,
+              26.1
+            ]
+          ],
+          [
+            "line",
+            [
+              -7.999999999999999,
+              26.1
+            ],
+            [
+              -28.73067873224881,
+              26.1
+            ]
+          ]
+        ]
+      },
+      {
+        "y_mm": 58,
+        "crown_z_mm": 33,
+        "top_left_x_mm": -24,
+        "top_right_x_mm": -12,
+        "back_radius_mm": 5,
+        "front_radius_mm": 4,
+        "floor_z_mm": 26,
+        "edges": [
+          [
+            "arc",
+            [
+              -28.58257569495584,
+              26
+            ],
+            [
+              -29,
+              28
+            ],
+            [
+              -24,
+              33
+            ]
+          ],
+          [
+            "line",
+            [
+              -24,
+              33
+            ],
+            [
+              -12,
+              33
+            ]
+          ],
+          [
+            "arc",
+            [
+              -12,
+              33
+            ],
+            [
+              -9.17157287525381,
+              31.82842712474619
+            ],
+            [
+              -8,
+              29
+            ]
+          ],
+          [
+            "line",
+            [
+              -8,
+              29
+            ],
+            [
+              -8,
+              26
+            ]
+          ],
+          [
+            "line",
+            [
+              -8,
+              26
+            ],
+            [
+              -28.58257569495584,
+              26
+            ]
+          ]
+        ]
+      }
+    ],
+    "crown_trim_mm": [
+      [
+        -40,
+        -58,
+        30
+      ],
+      [
+        -7.9,
+        58,
+        40
+      ]
+    ],
+    "forward_envelope_xy_mm": [
+      [
+        -40,
+        -60
+      ],
+      [
+        -8,
+        -60
+      ],
+      [
+        -8,
+        -43
+      ],
+      [
+        -16,
+        -32
+      ],
+      [
+        -16,
+        32
+      ],
+      [
+        -8,
+        43
+      ],
+      [
+        -8,
+        60
+      ],
+      [
+        -40,
+        60
+      ]
+    ],
+    "loft_bounds_mm": [
+      [
+        -31.228737178715456,
+        -58.0000001,
+        20.84859365268009
+      ],
+      [
+        -8.0,
+        58.0000001000003,
+        34.50000010000004
+      ]
+    ],
+    "P01_bounds_mm": [
+      [
+        -46.1,
+        -66.2,
+        -2.0000001
+      ],
+      [
+        129.0,
+        66.2,
+        34.50000010000004
+      ]
+    ],
+    "P01_volume_mm3": 170204.3929061029,
+    "mesh": {
+      "watertight": true,
+      "winding_consistent": true,
+      "shells": 1,
+      "zero_area_triangles_removed": 8,
+      "removed_triangle_area_mm2": 0.0,
+      "triangles": 65164,
+      "sha256": "4504696f366a82b7edefda6279669fafd42ffad97e5d157df426f7626b575628",
+      "scope": "Only exactly zero-area triangles removed; no hole fill, remeshing or geometry modification."
+    },
+    "bounds_method": "Conservative OCC bounds intersected with exact analytic clipping envelope; trimmed BSpline control hull is not physical extra stock.",
+    "interpolation_scope": "Matched section controls; native Parasolid loft is final authority and may differ between profiles from the OCC prototype."
+  },
+  "overview_assets": {
+    "cad_image": "review/organic-palm-2026-11-13/evidence/P01-final-native.png",
+    "cad_image_provenance": "review/organic-palm-2026-11-13/evidence/P01-final-native-provenance.json",
+    "strap_image": "review/organic-palm-2026-11-13/evidence/strap-routing.svg"
+  },
+  "project": "print/bambu-R18-organic-palm-2026-11-13/Fingerworker_R18_P01_Replacement_H2D_04mm_PLA_Basic.3mf",
+  "package": "print/bambu-R18-organic-palm-2026-11-13/Fingerworker_R18_P01_Replacement_H2D_04mm_PLA_Basic_Package.zip",
+  "secondary_project": "print/bambu-R18-organic-palm-2026-11-13/Fingerworker_R18_Complete_Kit_H2D_04mm_PLA_Basic.3mf",
+  "secondary_package": "print/bambu-R18-organic-palm-2026-11-13/Fingerworker_R18_Complete_Kit_H2D_04mm_PLA_Basic_Package.zip",
+  "brim_policy": "No brim on either variant; necessary supports retained.",
+  "files_sha256": {
+    "review/organic-palm-2026-11-13/fingerworker_R18_organic_palm.fs": "345b90327031276f8085e2c225c795946036d7faa4f2ac01b764101b9f4b3dd1",
+    "review/organic-palm-2026-11-13/native/Flat132_R18_final_AP214.step": "0d9ebb0777c35ebf687c59578362a1323a9cab3a00922be858c1d03695f023ee",
+    "review/organic-palm-2026-11-13/native/Flat132_R18_neutral_final.zip": "77c15eed14f8015c5bd67fdb9c2d4e89f479d84c4535468ce027f62f0e0ec0c9",
+    "review/organic-palm-2026-11-13/mechanics/design-specification.json": "c649f4b75d82e2cc66e7721a116128483b7226d45ce36d74c8a7818f5b1c6b89",
+    "review/organic-palm-2026-11-13/evidence/P01-final-native.png": "be726246eee13259fd78b0dad3759919f88408b9aa5f60d9d3a95886548fb1c8",
+    "review/organic-palm-2026-11-13/evidence/P01-final-native-provenance.json": "c8f2bcf703bd12adee4b18cb419dba89727f3ffdd279a67aa8e9ffc5275683bf",
+    "review/organic-palm-2026-11-13/evidence/strap-routing.svg": "8b5c1035f9a8830df5efeccde696592669c1e1fe9203b0a61446e4ce35f1241a",
+    "review/organic-palm-2026-11-13/evidence/strap-routing-provenance.json": "a1e785aa025379a9ff851fd85acb4138bb5d2db49028f830a7fb7418d8bc8dce",
+    "review/organic-palm-2026-11-13/README.md": "bd01c187a7e99fcce89a5b5022ae2db315469bc209e7eb68fe657c2d64529972",
+    "review/organic-palm-2026-11-13/MONTAGE.md": "50306e7f11aa938d2a19bf71ff9369e23b081c2edb2e6aefde1317c6df5156e8",
+    "review/organic-palm-2026-11-13/parts-review.md": "8befb09cac2900ca4615e3a3d073e8671af20508cec5ab51e9f06dbd343ac11d",
+    "review/organic-palm-2026-11-13/BOM_Aenderungen.csv": "1e7f4f1af6d7fe99b2e183db5a04e2567d67571486f55111d90648546982d78e",
+    "print/bambu-R18-organic-palm-2026-11-13/Fingerworker_R18_P01_Replacement_H2D_04mm_PLA_Basic.3mf": "85ad44bc0bc4b43c3e9ccd1258399cc5df1cf3a4b9b07cffae06cc02a027e85e",
+    "print/bambu-R18-organic-palm-2026-11-13/Fingerworker_R18_P01_Replacement_H2D_04mm_PLA_Basic_Package.zip": "f6dacb10f5b5bd85cf1eaf59210068a802d92a7b5bb0dc64a9b81a8dcb9a2eba",
+    "print/bambu-R18-organic-palm-2026-11-13/Fingerworker_R18_Complete_Kit_H2D_04mm_PLA_Basic.3mf": "b28cc3bc60ed52af7524fd66b81406847180edfbedc2e36dc4ffb9abba0740a4",
+    "print/bambu-R18-organic-palm-2026-11-13/Fingerworker_R18_Complete_Kit_H2D_04mm_PLA_Basic_Package.zip": "e8b6db8f25918908d5572bef56d345afbc0dcc0cd5f025e64bfd81156c9fd0aa",
+    "print/bambu-R18-organic-palm-2026-11-13/delivery-specification.json": "95d8fec1c79dd394f2e4b4c337ba753a85ffafaedef4da1f826360a4b3740050"
+  },
+  "limitations": "Nominal CAD and computed paths only; actual comfort, grip, fit, adhesion, strength and lifetime require the printed part.",
+  "gui_verified": false,
+  "gui_status": "GUI_PENDING_MAC_LOCKED",
+  "gui_summary": "Bambu Studio: Öffnen und visuelle Vorschau ausstehend, bis der Mac entsperrt ist. Native CAD- und vollständige Slice-Prüfungen sind abgeschlossen."
+}

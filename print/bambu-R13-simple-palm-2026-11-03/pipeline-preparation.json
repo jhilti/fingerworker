@@ -1,0 +1,88 @@
+{
+  "status": "PASS_R13_FINAL_NATIVE_PRINT_PIPELINE",
+  "baseline_package": "print/bambu-R12-simplified-2026-11-03/Fingerworker_R12_H2D_04mm_PLA_Fit_Test_Package.zip",
+  "baseline_zip_sha256": "3ba932d4fb98eb964be3e77724734bc472a6c0cb72806afcf8891665bf5bcf84",
+  "unchanged_profile_files": {
+    "H2D_machine.json": "3fd6a5f1eba145ba5a1fefe918a188e3540ab8ee4d91a594d45129086981db84",
+    "H2D_process.json": "64364a6fc0a957d7ec7b1e551fc81af80c921412af9ae5a64400f0a81a855ad0",
+    "project_settings_H2D.json": "61a0a980eda45e5d78d2c1b94b87e9ade8982c556db2a6030618c1476cc8382f",
+    "H2D_PLA.json": "ffed8b58c038a05344bb833158d7ebf1077331c8eb402def63b279545ffc54a0",
+    "profile-manifest.json": "909f9a557d49b9dc90b5a3967a4e58a983e543268355cff59c444032eebd45a0"
+  },
+  "changed_device_parts": [
+    "P01"
+  ],
+  "retained_device_parts": [
+    "P04",
+    "P05",
+    "P06",
+    "P08",
+    "P09",
+    "P11"
+  ],
+  "retained_fit_aids": [
+    "H040",
+    "H041",
+    "Q01"
+  ],
+  "native_expected_source": "review/palm-simplification-2026-11-03/fingerworker_R13_simple_palm.fs",
+  "unrun_required": [],
+  "no_R12_mutation": true,
+  "no_printer_transmission": true,
+  "candidate_validation": "review/palm-simplification-2026-11-03/mechanics/candidate-palm-print-check.json",
+  "selected_P01_bridge_angle": 0,
+  "rejected_bridge_angle": 180,
+  "native_source_sha256": "82b7d65708c46cd9d4b6ac271047eac2f638f0222451df99eae0780525edd851",
+  "native_step_sha256": "34503fabce855c834e2d495a33e8a4c834b651c52cc138e4d2d25ded66348530",
+  "native_R13_version": "18d76d07da0c354cee82580a",
+  "editable_project_sha256": "d540b20448c9d78bb5b0438a4f637069cf49be15de16449616b4b80136fe1fdc",
+  "sliced_internal_evidence_sha256": "5463d749a769ac93ddc487e230c0423284ad4a8a46419d368b97d1ed59010f69",
+  "candidate_archive": "checkpoints/local-palm-candidates",
+  "previews_visually_checked": [
+    "preview/R13-Druckplatten.png",
+    "preview/P04-Stuetzen.png"
+  ],
+  "release_checks": {
+    "review/palm-simplification-2026-11-03/validation/native-geometry.json": {
+      "status": "PASS_EXACT_NATIVE_R13",
+      "sha256": "5065437f06598e88e726299bba1b78b832ddc8009e97a2f0fc36222d07b2cdac"
+    },
+    "review/palm-simplification-2026-11-03/validation/native-motion.json": {
+      "status": "PASS_NATIVE_FIXED_SUPPORT_AND_FULL_TRANSLATIONAL_MOTION",
+      "sha256": "c23789eb22d3c3fc16522f130d96a608f1b1473277a3bfc49d82a4d73083d0eb"
+    },
+    "review/palm-simplification-2026-11-03/validation/service-native.json": {
+      "status": "PASS_NATIVE_R13_SENSOR_SERVICE",
+      "sha256": "b3fec8d2f3a6ae581eb9cfa465b858ef86fab7e46176137043fe49788644e385"
+    },
+    "review/palm-simplification-2026-11-03/validation/fixture-q01-check.json": {
+      "status": "PASS_Q01_NATIVE_FIT",
+      "sha256": "54f699fc219590b03059d062cd6bc5777e17e480192d2b9860d41c2fe048d416"
+    },
+    "print/bambu-R13-simple-palm-2026-11-03/validation/native-project-check.json": {
+      "status": "NATIVE_PROJECT_AND_ALL_THREE_SLICES_PASS",
+      "sha256": "393473572abc6c3946c85fcade05ac3c3ca243297ab7e7cac48c1d8aa55754ac"
+    },
+    "print/bambu-R13-simple-palm-2026-11-03/validation/toolpath-check.json": {
+      "status": "PASS_ACTUAL_R13_TOOLPATHS",
+      "sha256": "3def170115d38478c418bd9e0d589274bd40605b6dc31ef1805f287859c74a72"
+    },
+    "print/bambu-R13-simple-palm-2026-11-03/validation/print-feature-check.json": {
+      "status": "PASS_FINAL_R13_PRINT_FEATURES",
+      "sha256": "cf2ed9eedbbcc34a4a1b37454d8f6c30f28709ca64174c46d0e92a0bd3e52cff"
+    },
+    "print/bambu-R13-simple-palm-2026-11-03/validation/palm-support-check.json": {
+      "status": "PASS_FINAL_R13_PALM_SUPPORTS",
+      "sha256": "b2ed6190af45175ba2a62884f582b53c5777dd695e68e270c680964fba49a609"
+    },
+    "print/bambu-R13-simple-palm-2026-11-03/validation/p04-surface-check.json": {
+      "status": "PASS",
+      "sha256": "c6ad7a1f9b860e4a143c6bc712aca59a1578853f7e2debc53fdda9fa5f31601e"
+    },
+    "print/bambu-R13-simple-palm-2026-11-03/validation/cli-diagnostics.json": {
+      "status": "PASS_BASELINE_OFFICIAL_H2D_DIAGNOSTICS",
+      "sha256": "e95ce518a5dff704c6015f3f10130dc93f71f802d3aa90ef84c913af6c72f6ca"
+    }
+  },
+  "scope": "Final native geometry, motion, service, native editable project, all three actual slices and print feature checks complete. Delivery archive integrity is recorded separately in the release delivery-check report; no physical qualification."
+}

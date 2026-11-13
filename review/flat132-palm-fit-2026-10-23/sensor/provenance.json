@@ -1,0 +1,48 @@
+{
+  "manufacturer": "TE Connectivity",
+  "part": "FX1901-0001-0200-L",
+  "revision": "F",
+  "official_page": "https://www.te.com/en/product-FX1901-0001-0200-L.html",
+  "files": [
+    {
+      "file": "c-fx1901-0001-0200-l-f-3d.stp",
+      "sha256": "fe4aee5f64f19f4859d2cfdbf73cb24d3cd91b0987949a6fcf28ada22e46cac3",
+      "original_source": "vendor/te_fx1901/c-fx1901-0001-0200-l-f-3d.stp"
+    },
+    {
+      "file": "TE_FX1901_actual_apex_aligned_132_mm.step",
+      "sha256": "241c8b522707e9ce3b611db3c783d6c9e3bd6e492175c530d5e9795d9dc98097",
+      "original_source": "review/actual-sensor-cad-2026-10-22/sensor/TE_FX1901_actual_apex_aligned_132_mm.step"
+    }
+  ],
+  "original_to_apex_aligned_transform": [
+    [
+      0,
+      0,
+      1,
+      -1.9
+    ],
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      18
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "transform_units": "mm",
+  "scale": 1,
+  "shape_edited": false,
+  "exact_native_roundtrip_difference_mm3": 0.0
+}

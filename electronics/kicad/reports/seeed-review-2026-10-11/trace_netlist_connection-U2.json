@@ -1,0 +1,26 @@
+{
+  "tool": "trace_netlist_connection",
+  "arguments": {
+    "netlist_path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/reports/full-review-netlist.xml",
+    "reference": "U2"
+  },
+  "result": {
+    "meta": {
+      "fastmcp": {
+        "wrap_result": true
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "## Netlist Connection Trace: U2\n\n**Total Nets:** 5\n\n### Net: BOOST_EN\n**Pins:** 4\n\n| Reference | Pin |\n|-----------|-----|\n| R5 | 1 |\n| U1 | 1 |\n\n### Net: BOOST_FB\n**Pins:** 3\n\n| Reference | Pin |\n|-----------|-----|\n| C5 | 2 |\n| R3 | 2 |\n| R4 | 1 |\n\n### Net: BOOST_SW\n**Pins:** 1\n\n| Reference | Pin |\n|-----------|-----|\n| D1 | 2 |\n| L1 | 2 |\n\n### Net: GND\n**Pins:** 2\n\n| Reference | Pin |\n|-----------|-----|\n| BT1 | - |\n| C1 | 2 |\n| C10 | 2 |\n| C12 | 2 |\n| C13 | 2 |\n| C14 | 2 |\n| C15 | 2 |\n| C16 | 2 |\n| C2 | 2 |\n| C3 | 2 |\n| C4 | 2 |\n| C6 | 2 |\n| C7 | 2 |\n| C9 | 2 |\n| H1 | BLACK |\n| J1 | 2 |\n| J2 | 4 |\n| J3 | 2 |\n| Q1 | 2 |\n| R15 | 2 |\n| R16 | 2 |\n| R2 | 2 |\n| R4 | 2 |\n| R5 | 2 |\n| R6 | 2 |\n| SW1 | COM |\n| SW2 | 2 |\n| U1 | 13 |\n| U1 | 18 |\n| U1 | 20 |\n| U3 | 2 |\n| U4 | 3 |\n| U4 | 4 |\n| U4 | 5 |\n\n### Net: V3V3\n**Pins:** 5\n\n| Reference | Pin |\n|-----------|-----|\n| C1 | 1 |\n| C14 | 1 |\n| C3 | 1 |\n| L1 | 1 |\n| R14 | 1 |\n| R19 | 1 |\n| R20 | 1 |\n| U1 | 12 |\n| U4 | 13 |\n",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": {
+      "result": "## Netlist Connection Trace: U2\n\n**Total Nets:** 5\n\n### Net: BOOST_EN\n**Pins:** 4\n\n| Reference | Pin |\n|-----------|-----|\n| R5 | 1 |\n| U1 | 1 |\n\n### Net: BOOST_FB\n**Pins:** 3\n\n| Reference | Pin |\n|-----------|-----|\n| C5 | 2 |\n| R3 | 2 |\n| R4 | 1 |\n\n### Net: BOOST_SW\n**Pins:** 1\n\n| Reference | Pin |\n|-----------|-----|\n| D1 | 2 |\n| L1 | 2 |\n\n### Net: GND\n**Pins:** 2\n\n| Reference | Pin |\n|-----------|-----|\n| BT1 | - |\n| C1 | 2 |\n| C10 | 2 |\n| C12 | 2 |\n| C13 | 2 |\n| C14 | 2 |\n| C15 | 2 |\n| C16 | 2 |\n| C2 | 2 |\n| C3 | 2 |\n| C4 | 2 |\n| C6 | 2 |\n| C7 | 2 |\n| C9 | 2 |\n| H1 | BLACK |\n| J1 | 2 |\n| J2 | 4 |\n| J3 | 2 |\n| Q1 | 2 |\n| R15 | 2 |\n| R16 | 2 |\n| R2 | 2 |\n| R4 | 2 |\n| R5 | 2 |\n| R6 | 2 |\n| SW1 | COM |\n| SW2 | 2 |\n| U1 | 13 |\n| U1 | 18 |\n| U1 | 20 |\n| U3 | 2 |\n| U4 | 3 |\n| U4 | 4 |\n| U4 | 5 |\n\n### Net: V3V3\n**Pins:** 5\n\n| Reference | Pin |\n|-----------|-----|\n| C1 | 1 |\n| C14 | 1 |\n| C3 | 1 |\n| L1 | 1 |\n| R14 | 1 |\n| R19 | 1 |\n| R20 | 1 |\n| U1 | 12 |\n| U4 | 13 |\n"
+    },
+    "isError": false
+  }
+}

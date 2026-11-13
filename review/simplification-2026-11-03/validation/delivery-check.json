@@ -1,0 +1,15 @@
+{
+  "status": "PASS_FROZEN_R12_DELIVERY",
+  "archive": "print/bambu-R12-simplified-2026-11-03/Fingerworker_R12_H2D_04mm_PLA_Fit_Test_Package.zip",
+  "archive_sha256": "3ba932d4fb98eb964be3e77724734bc472a6c0cb72806afcf8891665bf5bcf84",
+  "bytes": 6614667,
+  "members": 67,
+  "manifest_members": 66,
+  "member_hashes_verified": true,
+  "no_unmanifested_files": true,
+  "editable_3mf_count": 1,
+  "print_oriented_stl_count": 10,
+  "gcode_members": [],
+  "native_motion_certificate_included": true,
+  "print_feature_checks": 65
+}

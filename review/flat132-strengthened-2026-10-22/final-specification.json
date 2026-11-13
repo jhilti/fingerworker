@@ -1,0 +1,276 @@
+{
+  "revision": "Flat132 R2 printed reinforcement and sensed stops",
+  "date": "2026-10-22",
+  "status": "CAD_PROTOTYPE_NOMINAL_GEOMETRY_CHECKS_PASS",
+  "source": {
+    "file": "fingerworker_flat132_strengthened.fs",
+    "sha256": "d5eca2f3d87bf4b9a47c1987ee91ba1d56e8c87003eca101677a148a2e605654",
+    "baseline_source_sha256": "041056629440056626b2f2f88a0db216693e48fff178687174478cb1f34227ef",
+    "prior_candidate_sha256": "2bab4e03f55910b742247d48e6682f44d7b31dd2f7fbaa57ffec11d46c010c72",
+    "change_from_prior_candidate": "Native FeatureScript query-ID hierarchy correction in two queries; geometry unchanged.",
+    "geometry_equivalent_neutral_export_source_sha256": "6c877ec401051cdf840a93bb28dfeb9c3fb5a13f5324c93b567c8f87e0dfa2ad",
+    "change_from_neutral_export": "Single UI guard roundoff tolerance addition of1e-6mm, independently certified to change no coordinates, geometry expressions or validated physical domain.",
+    "guard_only_certificate": {
+      "file": "source-ui-guard-only-certificate.json",
+      "sha256": "d6665a350ed6a346a8e5a6df93f5e3e7dd17dfc725e3279f1dad8d8b4f119522"
+    }
+  },
+  "preserved_r1": {
+    "immutable_version_id": "4c39034c17201905fdfbb1d6",
+    "url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/4c39034c17201905fdfbb1d6/e/d253eb87b70818ebde8215f0",
+    "changed": false
+  },
+  "r2_onshape": {
+    "immutable_version_id": "9bdcf9c3c67638228b40378b",
+    "url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/9bdcf9c3c67638228b40378b/e/d253eb87b70818ebde8215f0",
+    "version_name": "Flat132 R2 printed reinforcement and integral stops 2026-10-22",
+    "status": "CREATED",
+    "saved_neutral_pose": {
+      "travel_mm": 0,
+      "preload_mm": 0,
+      "light_springs": true,
+      "isometric": false,
+      "hand_reference": false,
+      "electronics_references": true,
+      "solids": 105
+    }
+  },
+  "scope": {
+    "changed_printed_refs": [
+      "P01",
+      "P05"
+    ],
+    "replace_as_matched_pair": true,
+    "other_printed_parts_expected_unchanged": 12,
+    "native_comparison_status": "PASS_OTHER_12_PRINTED_PARTS_GEOMETRY_UNCHANGED",
+    "new_metal_bracket": false,
+    "firmware_changed": false,
+    "removed_refs": [
+      "H070",
+      "H071",
+      "H080",
+      "H081"
+    ],
+    "expected_device_solids": 52,
+    "expected_electronics_references": 53,
+    "expected_total_native_solids": 105,
+    "native_comparison_note": "P04 triangle ordering differs; geometry is unchanged."
+  },
+  "envelope_mm": {
+    "frame_width": 132,
+    "clear_finger_opening": 72,
+    "overall_height": 35
+  },
+  "P01": {
+    "reaction_wall_depth_before_mm": 6,
+    "reaction_wall_depth_after_mm": 6.75,
+    "wall_bounds_mm": [
+      [
+        -22.75,
+        -25.4,
+        3.8
+      ],
+      [
+        -16,
+        25.4,
+        33
+      ]
+    ],
+    "guide_width_before_mm": 3,
+    "guide_width_after_mm": 5,
+    "upper_gussets": true,
+    "continuous_roof_bridge": true,
+    "roof_bridge_z_mm": [
+      30,
+      33
+    ],
+    "service_floor_pocket_forward_x_mm": 2.9
+  },
+  "P05": {
+    "one_integral_printed_solid": true,
+    "integral_stop_count": 2,
+    "stop_face_dimensions_mm": [
+      14,
+      22
+    ],
+    "stop_face_area_each_mm2": 308,
+    "stop_centres_y_mm": [
+      -24,
+      24
+    ],
+    "stop_front_x_at_zero_preload_mm": 35,
+    "stop_front_x_formula_mm": "35 + preload",
+    "separate_stop_brackets": false
+  },
+  "motion": {
+    "preload_mm": [
+      0,
+      2
+    ],
+    "dynamic_travel_domain": "0 <= travel <= 30 - preload",
+    "maximum_travel_mm": {
+      "preload_0": 30,
+      "preload_1": 29,
+      "preload_2": 28
+    },
+    "isometric_seated_travel_formula_mm": "15 - preload",
+    "user_confirmed_reduced_travel_at_preload": true,
+    "user_confirmed_simple_travel_range_mm": [
+      28,
+      30
+    ]
+  },
+  "manual_H10_setup": {
+    "required_after_preload_change": true,
+    "cam_offset_from_zero_preload_formula_mm": "-preload",
+    "incremental_cam_change_formula_mm": "-(new_preload - old_preload)",
+    "nominal_trip_travel_formula_mm": "29 - preload",
+    "nominal_trip_lead_before_stop_mm": 1,
+    "automatic_coupling": false,
+    "new_cam_lock": false,
+    "physical_switch_and_retention_check_required": true
+  },
+  "endpoint_force_path": [
+    "P04",
+    "P05 integral stop faces",
+    "H02",
+    "H01 actual TE sensor",
+    "H12",
+    "H13/H11/H15 keeper joint",
+    "P01"
+  ],
+  "firmware_boundary": {
+    "scope": "CAD only; current fail-closed firmware/app behavior preserved",
+    "NC_LOW_or_open_line": "Blocks qualified force and peak updates",
+    "mechanical_CAD_enables_endpoint_Newton_display": false,
+    "HARDWARE_QUALIFIED_default": false
+  },
+  "comparative_geometry": {
+    "root_Iy_increase_percent": 66.9,
+    "root_front_section_modulus_increase_percent": 68.5,
+    "meaning": "Local section geometry of reinforcement hypothesis, not whole-device strength or stiffness gain",
+    "source": "loadpath-review.md",
+    "native_confirmation_status": "LOCAL_SOURCE_SECTION_COMPARISON_ONLY_NOT_STRUCTURAL_VALIDATION"
+  },
+  "strength": {
+    "target_force_N": 500,
+    "verified_working_load_rating_N": null,
+    "rating_verified": false,
+    "qualification_required": [
+      "Actual polymer/material and print process",
+      "Layer bonding and orientation",
+      "Loaded deformation and sensor alignment",
+      "Creep and fatigue",
+      "Asymmetric and one-sided stop loading",
+      "H11/H15 keeper, fasteners and palm/base interfaces",
+      "Complete force-path friction and calibration"
+    ]
+  },
+  "service_requirements": {
+    "status": "NOMINAL_NATIVE_SERVICE_CHECKS_PASS",
+    "palm_case_module": {
+      "preload_mm": 2,
+      "remove": [
+        "Spring energy",
+        "Both palm M4 bolts"
+      ],
+      "direction": "Vertical +Z as established by R1 procedure"
+    },
+    "H15_keeper": {
+      "remove_first": [
+        "Complete palm/case module",
+        "H160/H161",
+        "H13"
+      ],
+      "wristward_x_mm": -2,
+      "then_lift_z_mm": 35
+    },
+    "complete_sensor_yoke_stack": {
+      "preload_mm": 0,
+      "remove_first": [
+        "Complete palm/case module",
+        "Springs or isometric sleeves",
+        "Rear caps and bumpers",
+        "Both guide rods",
+        "H180/H181",
+        "H190/H191"
+      ],
+      "keep_stack_together": true,
+      "forward_x_mm": 3.5,
+      "then_lift_z_mm": 40
+    }
+  },
+  "validation": {
+    "overall": "NOMINAL_GEOMETRY_CHECKS_PASS",
+    "failed_checks": 0,
+    "unresolved_checks": 0,
+    "report": {
+      "file": "validation/validation.json",
+      "sha256": "ae990b27d6335885e66eb53b967f8cf4a83846fb446100f649e371f6636efae3"
+    },
+    "native_inventory": {
+      "file": "validation/native-step-inventory.json",
+      "sha256": "69a12ba96554a6b191f5abd960ed4eeab8ec5789b2d16c4b952e1dbd8013db6f",
+      "valid_positive_solids": 105,
+      "unique_native_associations": 105,
+      "unmatched_or_ambiguous": 0
+    },
+    "source_export_identity": "PASS_FINAL_D5_SOURCE_WITH_CERTIFIED_GEOMETRY_EQUIVALENT_NEUTRAL_6C_GUARD_ALIAS",
+    "complete_motion_and_service": "NOMINAL_CHECKS_PASS",
+    "sensor_exact_symmetric_difference_mm3": 0.0,
+    "native_pose_keys": [
+      "dynamic:28:2",
+      "isometric:13:2"
+    ],
+    "native_exports": [
+      {
+        "file": "native/Flat132_R2_neutral_final.zip",
+        "sha256": "bf4ab87c8474b12025746b6db75c96efecca79d6816202950baadf864aeb5992",
+        "configuration": "Neutral0travel/0preload",
+        "included_in_compact_bundle": false
+      },
+      {
+        "file": "native/Flat132_R2_max28_p2_heavy_final.zip",
+        "sha256": "0925be2fd2c8054c90e5940ef22b6fc77f20eb29382560ed490a0011f8bceaa7",
+        "configuration": "Dynamic28travel/2preload,heavy",
+        "included_in_compact_bundle": false
+      },
+      {
+        "file": "native/Flat132_R2_isometric13_p2_final.zip",
+        "sha256": "c417707ae49b851d9344ed12032bb67f40e33d979a4d4fd02a4f9a0947d70090",
+        "configuration": "Isometric13travel/2preload",
+        "included_in_compact_bundle": false
+      },
+      {
+        "file": "native/Flat132_R2_final_AP214.step",
+        "sha256": "31b4df767555af39219028c5363b12f277e60b7a0c0d784b868e4bb20dc47859",
+        "configuration": "FullneutralAP214",
+        "included_in_compact_bundle": true
+      }
+    ]
+  },
+  "planned_deliverable": {
+    "file": "deliverables/Flat132_R2_Printed_Reinforcement.zip",
+    "status": "FINAL_COMPACT_CAD_PRINT_UPDATE",
+    "contents": [
+      "Matched P01/P05 native STL pair",
+      "Full native STEP",
+      "Final FeatureScript source",
+      "Proof images and reports",
+      "Prototype print and assembly notes"
+    ],
+    "three_large_pose_zips_included": false
+  },
+  "viewer": {
+    "url": "http://127.0.0.1:8770/viewer/viewer.html",
+    "status": "AVAILABLE_LOCAL_VIEWER"
+  },
+  "hand_reference": "Approximate visual registration; no physical hand-fit qualification",
+  "notes": [
+    "Nominal geometry checks pass; physical material, process, load, creep, fatigue and calibration qualification remain outstanding.",
+    "500N is a design target, not a verified working-load rating.",
+    "Current firmware/app NCLOW or open-line fault still blocks qualified force/peak updates; CAD alone does not enable endpoint Newton display.",
+    "H10 cam reset is manual after preload change; no automatic coupling or new cam lock.",
+    "R1 files and immutable Onshape version remain unchanged."
+  ]
+}

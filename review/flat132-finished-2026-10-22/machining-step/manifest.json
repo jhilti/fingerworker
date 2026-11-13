@@ -1,0 +1,100 @@
+{
+  "status": "VALID_NATIVE_H12_H23_HELPERS_WITH_EXPLICIT_IDENTITY_CHECK_RESULTS",
+  "scope": "Exact native solid extraction and STEP roundtrip identity only;no design changes,normalization,healing or scaling. This is prototype CAD, not a manufacturing drawing or load qualification.",
+  "feature_source": "fingerworker_flat132_finished.fs",
+  "feature_source_sha256": "041056629440056626b2f2f88a0db216693e48fff178687174478cb1f34227ef",
+  "primary_full_native_step": "native/Flat132_R1_final_AP214.step",
+  "primary_full_native_step_sha256": "6de4383e6423fd1f57bd353d8f42953ecdae841bee1e36b853fb312c679fd7ef",
+  "primary_native_stl_zip": "native/Flat132_R1_neutral_final.zip",
+  "primary_native_stl_zip_sha256": "f22ebe6f8d2852a31c4345dff9062adc557274f2d94152d9459822a2bdd1683e",
+  "native_assembly_solid_count": 109,
+  "units": "mm",
+  "coordinate_system": "Unchanged final neutral assembly coordinates, scale1, no reorientation or origin normalization",
+  "output_schema": "AP214IS",
+  "software": {
+    "cadquery-ocp": "8.0.1.1.0",
+    "numpy": "2.5.4",
+    "trimesh": "5.1.1"
+  },
+  "tolerances": "No part manufacturing tolerances assigned. Roundtrip validation thresholds are numerical checks only, not machining tolerances.",
+  "identity_method": "Unique native solid correspondence to final individual native STL using all6bounds and volume, then direct STEPControl_AsIs transfer of that native solid. Reimported STEP must be1validsolid with matching bounds,volume,area and zero minimum shape distance. Two-way Boolean comparison is recorded explicitly; an inconclusive coincidence result is not reported as zero difference.",
+  "parts": [
+    {
+      "reference": "H12",
+      "filename": "H12_sensor_backing_S355.step",
+      "sha256": "c23a38e0f3aa23d194caae55d85db3dfa7b70af5eb49b9822eaf4af633d85fca",
+      "quantity_in_device": 1,
+      "material_or_source_callout": "S355 steel, machined planar support, collar and side ears",
+      "native_step_solid_index": 9,
+      "native_stl": "assembly-mm/H12.stl",
+      "native_stl_sha256": "f8fb9caaf4aa1542c087ff3c4d80ac1d3fff8a07937e2d670cd5dfd8647f93ab",
+      "unique_association_bounds_error_mm": 5.722045894884786e-07,
+      "unique_association_volume_error_mm3": 0.02208760849907776,
+      "native_bounds_mm": [
+        [
+          -15.5,
+          -15.0000001,
+          3.0
+        ],
+        [
+          -8.65,
+          15.0000001,
+          33.0
+        ]
+      ],
+      "native_volume_mm3": 2095.2177244543227,
+      "native_area_mm2": 2426.5160444872104,
+      "native_face_count": 47,
+      "reimport_valid": true,
+      "reimport_solid_count": 1,
+      "reimport_face_count": 47,
+      "roundtrip_bounds_error_mm": 0.0,
+      "roundtrip_volume_error_mm3": 4.092726157978177e-11,
+      "roundtrip_area_error_mm2": 7.867129170335829e-11,
+      "native_minus_reimport_volume_mm3": 2095.217724454323,
+      "reimport_minus_native_volume_mm3": 0.0,
+      "minimum_shape_distance_mm": 0.0,
+      "boolean_equivalence_status": "INCONCLUSIVE_COINCIDENT_BOOLEAN_RESULT",
+      "status": "VALID_REIMPORT_IDENTITY_BOOLEAN_INCONCLUSIVE"
+    },
+    {
+      "reference": "H23",
+      "filename": "H23_loose_sensor_keeper_stainless.step",
+      "sha256": "224028282dfd4a040df6cab95a43fd1a0c4a69aad9d8bcca0e4fe6084ca098a4",
+      "quantity_in_device": 1,
+      "material_or_source_callout": "Stainless sheet, grade not assigned;0.5mm, cut and deburr",
+      "native_step_solid_index": 32,
+      "native_stl": "assembly-mm/H23.stl",
+      "native_stl_sha256": "40f35aea28c9c81b1539d6a314af61abfee9715427b89d36eb5025c4b573faca",
+      "unique_association_bounds_error_mm": 1.2384185787972513e-07,
+      "unique_association_volume_error_mm3": 0.001225637367156196,
+      "native_bounds_mm": [
+        [
+          -1.4000001,
+          -14.5,
+          3.5
+        ],
+        [
+          -0.8999999000000001,
+          14.5,
+          32.5
+        ]
+      ],
+      "native_volume_mm3": 215.74026208614347,
+      "native_area_mm2": 977.9979331250618,
+      "native_face_count": 27,
+      "reimport_valid": true,
+      "reimport_solid_count": 1,
+      "reimport_face_count": 27,
+      "roundtrip_bounds_error_mm": 0.0,
+      "roundtrip_volume_error_mm3": 5.070432962384075e-11,
+      "roundtrip_area_error_mm2": 3.2173375075217336e-11,
+      "native_minus_reimport_volume_mm3": 324.26134431664696,
+      "reimport_minus_native_volume_mm3": 0.0,
+      "minimum_shape_distance_mm": 0.0,
+      "boolean_equivalence_status": "INCONCLUSIVE_COINCIDENT_BOOLEAN_RESULT",
+      "status": "VALID_REIMPORT_IDENTITY_BOOLEAN_INCONCLUSIVE"
+    }
+  ],
+  "comparison_limitation": "For any INCONCLUSIVE_COINCIDENT_BOOLEAN_RESULT, do not infer a proved zero symmetric difference. The source solid is transferred directly without shape operations; full native assembly STEP remains the geometric authority."
+}

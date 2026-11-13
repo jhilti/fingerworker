@@ -1,0 +1,11 @@
+{
+  "path": "deliverables/Flat132_R7_Adjustable_Rear.zip",
+  "sha256": "425c3bd30ae52dea635d66bb87e0b5a1bf0eb68550ade679140e26ec575a84bd",
+  "bytes": 61526650,
+  "members": 166,
+  "crc_check": "PASS",
+  "member_sha256_checks": "PASS",
+  "assembly_STLs": 70,
+  "print_STLs": 16,
+  "ISO81_hardware_STLs": 2
+}

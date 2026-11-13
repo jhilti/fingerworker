@@ -1,0 +1,33 @@
+{
+  "candidate_step_sha256": "60600a9637e7a141fd0eb15414ca867e6088c18b48652dadbabc006a7cf79d8e",
+  "baseline_step_sha256": "34503fabce855c834e2d495a33e8a4c834b651c52cc138e4d2d25ded66348530",
+  "checks": [
+    {
+      "name": "added",
+      "boolean_valid": true,
+      "volume": 1297.3633621343943,
+      "low_boolean_valid": true,
+      "low_volume": 0.0,
+      "bounds": null
+    },
+    {
+      "name": "removed",
+      "boolean_valid": false,
+      "volume": 181619.8194275761,
+      "low_boolean_valid": false,
+      "low_volume": 21.446605848506323,
+      "bounds": [
+        [
+          -28.100000100000003,
+          57.3999999,
+          9.4999999
+        ],
+        [
+          -24.899999899999997,
+          60.6000001,
+          13.5000001
+        ]
+      ]
+    }
+  ]
+}

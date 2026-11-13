@@ -1,0 +1,28 @@
+{
+  "status": "PASS_NATIVE_R11_SOURCE_READBACK_AND_REGENERATION",
+  "date": "2026-11-03",
+  "baseline_source": "review/flat132-integrated-palm-2026-11-03/fingerworker_flat132_integrated_palm.fs",
+  "baseline_sha256": "5ce830ff2b06cd8d318d3c44dbc1f3385697526a9a679d2a2078f64f81854237",
+  "source_sha256": "c8ec18f08149553001ccf8173f35fe57eee6a16be0294be2d7f88577f658cf5e",
+  "changed": [
+    "P08",
+    "P09",
+    "P120",
+    "P121"
+  ],
+  "removed": [
+    "P10",
+    "P070a",
+    "P070b",
+    "P071a",
+    "P071b"
+  ],
+  "P01_geometry": "Unchanged R10 main frame, preserves existing print",
+  "material": "PLA",
+  "P04": "Geometry unchanged; Xmin-down bed-only slim-tree print orientation",
+  "onshape_version": "a6ea6390a313176b40101f6b",
+  "onshape_workspace": "5b2f7cd9130861b7545ad898",
+  "onshape_source_readback_exact": true,
+  "onshape_part_count": 117,
+  "onshape_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/a6ea6390a313176b40101f6b/e/d253eb87b70818ebde8215f0"
+}

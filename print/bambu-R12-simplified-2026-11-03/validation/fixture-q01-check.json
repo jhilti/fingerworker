@@ -1,0 +1,105 @@
+{
+  "status": "PASS_Q01_NATIVE_FIT",
+  "checks": [
+    {
+      "name": "Q01 seated / P01",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Q01 seated / P05",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Q01 seated / H040",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Q01 seated / H041",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "fixed X-12 reaction contact",
+      "status": "PASS",
+      "area_from_1um_penetration_mm2": 249.59999999986164,
+      "expected_mm2": 249.6,
+      "seated_gap_mm": 0.0
+    },
+    {
+      "name": "grounded Z2.7 pocket floor contact",
+      "status": "PASS",
+      "area_from_1um_penetration_mm2": 47.999999999994714,
+      "expected_mm2": 48.0,
+      "seated_gap_mm": 0.0
+    },
+    {
+      "name": "P05 X1 shoulder contact",
+      "status": "PASS",
+      "area_from_1um_penetration_mm2": 42.22300526424892,
+      "expected_mm2": 42.223005264246815,
+      "seated_gap_mm": 0.0
+    },
+    {
+      "name": "Unloaded carriage complete30mm motion",
+      "status": "PASS",
+      "maximum_overlap_mm3": 0,
+      "poses": 61
+    },
+    {
+      "name": "P05 withdraws +X12 from plain Q01 tail",
+      "status": "PASS",
+      "maximum_overlap_mm3": 0,
+      "poses": 49
+    },
+    {
+      "name": "Q01 +Z40 removal after P05 +X12",
+      "status": "PASS",
+      "maximum_overlap_mm3": 0,
+      "poses": 81
+    },
+    {
+      "name": "Support-free print geometry",
+      "status": "PASS",
+      "unsupported_steep_area_mm2": 0.0,
+      "reaction_face_down": true,
+      "integral_shoulder_taper_degrees": 45
+    },
+    {
+      "name": "One closed positive STL",
+      "status": "PASS",
+      "bounds_mm": [
+        [
+          -6.0,
+          -11.149999618530273,
+          0.0
+        ],
+        [
+          6.0,
+          11.149999618530273,
+          19.5
+        ]
+      ],
+      "volume_mm3": 1378.0242521599637
+    }
+  ],
+  "native_assembly_step_sha256": "b2c076642b22f99a251b8e2a6ac20da9f251696e892448a2651ee8b636f32021",
+  "native_P01_solid_index": 45,
+  "baseline_native_step_sha256": "4c7b412eb5700e6ff8dc985c7ab8182e5acc7003a645ecac3291e88fe455d6e7",
+  "files_sha256": {
+    "review/simplification-2026-11-03/native/P01_native.step": "c4a5eac803dcc7598aa9e8ecd5ddc9881cd8cc4cd6fc58744b224e954a110ffe",
+    "review/simplification-2026-11-03/fixture/Q01_R12_FIXED_UNLOADED_FIXTURE_assembly-mm.step": "7247562f38fe9ff79f270475464e5667169e4193e515695a2ce6a72d832516ac",
+    "review/simplification-2026-11-03/fixture/manifest.json": "163a78c678a8d720d17c116afec31b79c34ba3a3b3e9543738c5dbaab08fd7ff",
+    "review/simplification-2026-11-03/fixture/Q01_R12_FIXED_UNLOADED_FIXTURE_print-mm.stl": "02d56f443c2dd7b9348887153e087fbabb46ba6ebab36d346c34c1bc59ee5a6e",
+    "review/simplification-2026-11-03/validation/native-step-inventory.json": "2ebf8872a13ba471f488f2338f4388806dc8920484f9d7a15ee6d94fa521bb73",
+    "review/simplification-2026-11-03/native/Flat132_R12_final_AP214.step": "b2c076642b22f99a251b8e2a6ac20da9f251696e892448a2651ee8b636f32021"
+  },
+  "frame_scope": "P01 extracted from native assembly at native_P01_solid_index",
+  "limitations": [
+    "Unloaded CAD geometry only; not physical print, sensor, switch, force or lifetime qualification.",
+    "Sensor stack, springs, spring seats and isometric sleeves must be absent when Q01 is fitted.",
+    "Y-axis alignment comes from P05/rods; the foot provides vertical location, no axial latch."
+  ]
+}

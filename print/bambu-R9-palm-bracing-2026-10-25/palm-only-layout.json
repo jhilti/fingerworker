@@ -1,0 +1,27 @@
+{
+  "scope": "P02 only reprint convenience; same exact mesh/settings as full R9 project",
+  "ref": "P02",
+  "source_sha256": "8154e49606a63ce4e08fe1a6d15bac2961a0e2d48b57f76758ab73f40d1aeb02",
+  "main_seed_sha256": "88eef161c28ce1657865594d391298e86b0a990cdb4bd24552cc137a42255fbb",
+  "seed_sha256": "632988d0fd4ca0d751f8492eda6911925a2b6f369cdead9451e23dbb6d20e767",
+  "plate_xy_mm": [
+    163.25,
+    96.0
+  ],
+  "size_oriented_mm": [
+    23.5,
+    128.0,
+    36.60000228881836
+  ],
+  "settings": {
+    "brim_type": "outer_only",
+    "brim_width": "5",
+    "brim_object_gap": "0.1",
+    "enable_support": "1",
+    "support_type": "normal(auto)",
+    "support_on_build_plate_only": "1",
+    "support_top_z_distance": "0.25",
+    "support_threshold_angle": "30"
+  },
+  "scale": 1
+}

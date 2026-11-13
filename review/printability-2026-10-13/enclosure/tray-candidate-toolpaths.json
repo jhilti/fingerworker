@@ -1,0 +1,164 @@
+{
+  "Support": {
+    "segments": 1435,
+    "max_segment_mm": 22.006,
+    "total_xy_mm": 4905.911996841954,
+    "min_z_mm": 0.2,
+    "max_z_mm": 9.15
+  },
+  "Inner wall": {
+    "segments": 4556,
+    "max_segment_mm": 108.79599999999999,
+    "total_xy_mm": 5610.681009664126,
+    "min_z_mm": 0.2,
+    "max_z_mm": 9.0
+  },
+  "Outer wall": {
+    "segments": 7519,
+    "max_segment_mm": 109.57999999999998,
+    "total_xy_mm": 22190.063053814054,
+    "min_z_mm": 0.2,
+    "max_z_mm": 9.6
+  },
+  "Bottom surface": {
+    "segments": 383,
+    "max_segment_mm": 25.71110968044749,
+    "total_xy_mm": 4326.217140230683,
+    "min_z_mm": 0.2,
+    "max_z_mm": 0.2
+  },
+  "Internal solid infill": {
+    "segments": 1728,
+    "max_segment_mm": 26.878542966463055,
+    "total_xy_mm": 18193.504045465797,
+    "min_z_mm": 0.4,
+    "max_z_mm": 8.8
+  },
+  "Top surface": {
+    "segments": 461,
+    "max_segment_mm": 28.655502316309168,
+    "total_xy_mm": 5768.364287775403,
+    "min_z_mm": 1.0,
+    "max_z_mm": 9.0
+  },
+  "Gap infill": {
+    "segments": 30,
+    "max_segment_mm": 0.9256484213782232,
+    "total_xy_mm": 7.690361152513794,
+    "min_z_mm": 1.0,
+    "max_z_mm": 9.0
+  },
+  "Support interface": {
+    "segments": 526,
+    "max_segment_mm": 15.019000000000005,
+    "total_xy_mm": 1299.6861892258462,
+    "min_z_mm": 1.4,
+    "max_z_mm": 9.4
+  },
+  "Support transition": {
+    "segments": 136,
+    "max_segment_mm": 14.385999999999996,
+    "total_xy_mm": 370.3184404545777,
+    "min_z_mm": 4.613,
+    "max_z_mm": 7.55
+  },
+  "Overhang wall": {
+    "segments": 318,
+    "max_segment_mm": 12.599999999999998,
+    "total_xy_mm": 209.69202523491174,
+    "min_z_mm": 5.6,
+    "max_z_mm": 8.4
+  },
+  "Bridge": {
+    "segments": 7,
+    "max_segment_mm": 1.6750000000000043,
+    "total_xy_mm": 7.604000000000006,
+    "min_z_mm": 8.4,
+    "max_z_mm": 8.4
+  },
+  "_USB_support_proof": {
+    "segments": 95,
+    "examples": [
+      {
+        "xy": [
+          42.004,
+          46.388
+        ],
+        "z": 7.55,
+        "feature": "Support transition"
+      },
+      {
+        "xy": [
+          42.004,
+          46.462
+        ],
+        "z": 7.55,
+        "feature": "Support transition"
+      },
+      {
+        "xy": [
+          42.389,
+          46.462
+        ],
+        "z": 7.55,
+        "feature": "Support transition"
+      },
+      {
+        "xy": [
+          42.389,
+          46.388
+        ],
+        "z": 7.55,
+        "feature": "Support transition"
+      },
+      {
+        "xy": [
+          43.267,
+          46.388
+        ],
+        "z": 7.55,
+        "feature": "Support transition"
+      },
+      {
+        "xy": [
+          43.267,
+          46.462
+        ],
+        "z": 7.55,
+        "feature": "Support transition"
+      },
+      {
+        "xy": [
+          42.389,
+          46.462
+        ],
+        "z": 7.75,
+        "feature": "Support interface"
+      },
+      {
+        "xy": [
+          42.389,
+          46.462
+        ],
+        "z": 7.95,
+        "feature": "Support interface"
+      },
+      {
+        "xy": [
+          43.267,
+          47.567
+        ],
+        "z": 9.4,
+        "feature": "Support interface"
+      },
+      {
+        "xy": [
+          42.389,
+          47.737
+        ],
+        "z": 9.4,
+        "feature": "Support interface"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+Q01_UNLOADED_TEST_FIXTURE — R8 hand-fit and manual-motion prototype only
+
+Keep the R8 product CAD unchanged. Q01 fixes the nominal p=0 yoke datum for
+an unloaded, supported fit study. It is not a sensor, preload adjuster,
+force-bearing metal replacement or calibration device. Apply no springs,
+isometric load or 500 N test force. The product strength target remains
+unqualified.
+
+OMIT THE REAL SENSOR/PRELOAD STACK while Q01 is installed:
+H01 TE force sensor; H02 steel pusher; H11 preload square nut; H12 steel
+sensor cassette; H13 preload screw/thumbwheel; H15 keeper; both H16 keeper
+screws and H17 keeper nuts; both H18 cassette retention screws and H19
+preload-limit spacers; H20 pusher nut; H21 preload lock screw and H22 brass
+pad; H23 front sensor keeper; all four H24 spacers and H25 keeper screws.
+Also omit both H03 springs, both H14 isometric sleeves and the H05/H06
+spring-seat hardware. Never add any real sensor-stack parts around Q01.
+
+Insert Q01 into the empty P01 portal from the open front (+X): the 12 mm
+square plug enters the 12.4 mm square pocket, and the diameter18 flange
+rear face seats on portal material at X=-16. With the rods aligned and
+the rear caps/carriage clear as necessary, slide P05 from +X onto the
+plain diameter3 tail until its pusher face meets the shoulder at X=1.
+Install the remaining unloaded guides/carriage/rear assembly according
+to the fit-test instructions. Keep the fixture and yoke supported.
+
+The square plug and tail locate radially; neither is an axial latch and
+neither has a functional printed thread. Maintain only gentle hand
+contact in the normal compression direction. Do not lift the assembly
+by Q01 or pull the yoke off its plain tail. Set p=0 only. With both rear
+screws set equally to a=0..2 mm, manually guide the carriage through
+u=0..(30-a) mm. This checks nominal fit/reach/motion, not sensor response,
+switch timing qualification, spring preload, force transfer or strength.
+
+To remove Q01, unload/support the assembly and slide P05 toward +X clear
+of the plain tail. Withdraw Q01 toward +X out of the portal. Q01 must be
+fully removed before installing the real sensor/preload stack.
+
+PRINT AND TOLERANCES:
+Use Q01_UNLOADED_TEST_FIXTURE_print-mm.stl at 100 percent scale. It is
+already oriented with the square plug down and the fixture X axis vertical
+(18 x 18 x 28 mm nominal). PLA, 0.2 mm layers, 4 walls, 100 percent infill
+and a 3 mm brim are a suitable fit-test starting point. Allow normal
+supports also ON MODEL: supports from the bed under the flange underside
+at print Z=4.5, and accessible supports from the flange top under the small
+shoulder at Z=20.5. The lower flange shadows the shoulder, so buildplate-only
+supports cannot reach that shoulder. Clean the portal flange datum flat
+without shortening the part; the forward shoulder bearing face is upward
+and does not need support. Remove brim and seam bulges from fitting faces.
+
+Nominal locator clearance is 0.2 mm per square-pocket flat; the tail has
+0.1 mm radial clearance in the P05 bore. These are CAD clearances, not a
+printer-tolerance guarantee. Stop if the plug/tail needs force; check and
+lightly deburr support/seam artifacts before assembly. Do not sand either
+axial bearing face to make a fit. Printed guide rods are shape proxies;
+their roundness and friction do not represent ground steel rods.

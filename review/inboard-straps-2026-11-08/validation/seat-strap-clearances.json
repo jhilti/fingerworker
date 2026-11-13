@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "source_sha256": "97e2010cc17d06eb8648cf278b9aae2fd85b6e909bd657b9b216f3b37748665f",
+  "baseline_native_step_sha256": "ad1fb9bda2a999a953399451585e821181082535fdc15fe30b0b43e90b2c6054",
+  "method": "Exact swept22mm OD/8mm ID annulus across full X78..111 interval compared to finite rear strap top envelope. This swept cylinder contains every moving seat pose; native seat dimensions verified separately by native comparison.",
+  "checks": [
+    {
+      "sign": -1,
+      "seat": "H060",
+      "native_containment_missing_mm3": 0.0,
+      "top_z_mm": 6,
+      "gap_mm": 2.256472199303618,
+      "meaning": "intended single2mm overbar"
+    },
+    {
+      "sign": -1,
+      "seat": "H060",
+      "native_containment_missing_mm3": 0.0,
+      "top_z_mm": 8,
+      "gap_mm": 0.6483296759417997,
+      "meaning": "extra conservative4mm overbar"
+    },
+    {
+      "sign": 1,
+      "seat": "H061",
+      "native_containment_missing_mm3": 0.0,
+      "top_z_mm": 6,
+      "gap_mm": 2.256472199303621,
+      "meaning": "intended single2mm overbar"
+    },
+    {
+      "sign": 1,
+      "seat": "H061",
+      "native_containment_missing_mm3": 0.0,
+      "top_z_mm": 8,
+      "gap_mm": 0.6483296759417986,
+      "meaning": "extra conservative4mm overbar"
+    }
+  ]
+}

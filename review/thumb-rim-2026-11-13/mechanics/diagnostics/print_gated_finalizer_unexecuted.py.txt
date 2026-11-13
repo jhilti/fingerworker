@@ -1,0 +1,149 @@
+#!/usr/bin/env python3
+"""Bind R19 documentation to final native CAD and the sealed3/7-object print packages."""
+from pathlib import Path
+import argparse,csv,hashlib,json,re
+HERE=Path(__file__).resolve().parent;ROOT=HERE.parents[1];PACK=ROOT/'print/bambu-R19-thumb-rim-2026-11-13';SOURCE=HERE/'fingerworker_R19_thumb_rim.fs'
+sha=lambda p:hashlib.sha256(Path(p).read_bytes()).hexdigest()
+read=lambda p:json.loads(Path(p).read_text())
+def write(p,d):Path(p).write_text(json.dumps(d,indent=2,ensure_ascii=False)+'\n')
+def passed(p):
+ d=read(p);assert d['status'].startswith('PASS'),(p,d.get('status'))
+ for k in ['failures','issues','failed']:assert not d.get(k),(p,k,d[k])
+ return d
+def duration(s):return f'{s//3600} h {s%3600//60:02d} min {s%60:02d} s'
+def validate(allow_gui_pending=False):
+ sh=sha(SOURCE);v=read(HERE/'onshape-version.json');d=passed(PACK/'delivery-specification.json')
+ assert v['source_sha256']==d['CAD_source_sha256']==sh and v['version_id']==d['onshape_version']
+ assert d['primary_variant']=='replacement' and d['object_count']==3 and d['secondary_object_count']==7
+ verified={}
+ for p in [HERE/'validation/native-integration.json',HERE/'validation/native-rim-check.json',HERE/'validation/native-release-binding.json']:
+  q=passed(p)
+  if 'source_sha256' in q:assert q['source_sha256']==sh,p
+  verified[str(p.relative_to(ROOT))]=dict(status=q['status'],sha256=sha(p))
+ for p,e in {**d.get('CAD_verification',{}),**d['verification']}.items():
+  q=passed(ROOT/p);assert sha(ROOT/p)==e['sha256'],p;verified[p]=e
+ for p,h in d['files_sha256'].items():assert sha(ROOT/p)==h,p
+ inv=read(HERE/'validation/native-step-inventory.json');assert len(inv['native_part_correspondence'])==94
+ assert inv['native_step_sha256']==d['native_step_sha256']
+ for name,key in [('Flat132_R19_neutral_final.zip','native_zip_sha256'),('Flat132_R19_final_AP214.step','native_step_sha256')]:assert sha(HERE/'native'/name)==d[key]
+ gui=dict(verified=bool(d['gui_verified']),status=d['gui_status'],printer_job_started=False)
+ if gui['verified']:
+  p=PACK/'validation/replacement/gui-check.json';q=passed(p);assert q['source_sha256']==sh and q['project_sha256']==sha(ROOT/d['project']) and not q['printer_job_started'];gui['summary']=q.get('summary','Ersatzplatte in Bambu Studio sichtbar geprüft; kein Druckauftrag gesendet.')
+ else:
+  assert allow_gui_pending,'Final Bambu GUI record missing; use explicit pending mode.'
+  assert gui['status']=='GUI_PENDING_REVIEW'
+  gui['summary']='Die abschließende sichtbare Bambu-Studio-Vorschau steht noch aus. Native CAD-Geometrie und beide lokalen Slices sind geprüft. Kein Druckauftrag wurde gesendet.'
+ cad=read(HERE/'evidence/P01-final-native-provenance.json');assert cad['source_sha256']==sh and cad['native_zip_sha256']==d['native_zip_sha256'] and cad['image_sha256']==sha(HERE/'evidence/P01-final-native.png')
+ vis=passed(HERE/'evidence/P01-final-native-visual-check.json');assert vis['image_sha256']==cad['image_sha256'] and vis['source_sha256']==sh
+ optional=d['optional_electronics'];assert optional['status']=='NATIVE_STL_ONLY_NOT_SLICED' and not optional['included_in_mechanical_projects']
+ for key in ['source_stl','print_oriented_stl','manifest','instructions']:assert (ROOT/optional[key]).is_file()
+ return sh,v,d,verified,gui
+
+def prepare(data):
+ sh,v,d,verified,gui=data;url=v.get('url',v.get('version_url'));assert url and '/v/' in url
+ status='**Native R19-Geometrie und beide mechanischen PLA-Druckplatten geprüft.** Die reale Passung, Handkomfort und Belastbarkeit bleiben am Ausdruck zu prüfen.'
+ if not gui['verified']:status+=' **Die abschließende Bambu-Studio-Vorschau steht noch aus.**'
+ summary='Die obere und handgelenkseitige Kante beider Daumenmulden geht jetzt deutlich weicher in die Auflage über. Die zwei hinteren Stangenhalter sind wieder separate massive Blöcke. Dünne Schnapparme, Heckbrücke und deren Gegenhalter entfallen. Die optionale Elektronikwanne erhält feste Schraubohren statt der hohen Clips.'
+ (HERE/'README.md').write_text(f'''# Flat132 R19 – weichere Daumenränder und massive Halter
+
+Stand 13.11.2026. {status}
+
+{summary}
+
+**Empfohlener Nachdruck: P01 + P06L + P06R.** [Bambu-Projekt](../../{d['project']}) · [Ersatzpaket](../../{d['package']}). Drei Teile auf einer Platte, **{duration(d['estimated_seconds'])} / {d['estimated_grams']:.2f}g PLA**. Vorhandene P04/P05/P11/Q01 und echte Führungsstangen weiterverwenden. H2D, linke Standarddüse0,4 mm, Bambu PLA Basic, ohne Brim; notwendige PLA-Stützen bleiben aktiv. Kein Druckauftrag gestartet.
+
+Alternativ: [sieben mechanische Teile auf einer Platte](../../{d['secondary_project']}) · [Komplettpaket](../../{d['secondary_package']}). P01/P04/P05/P06L/P06R/P11 und die federfreie Passhilfe Q01, **{duration(d['secondary_estimated_seconds'])} / {d['secondary_estimated_grams']:.2f}g PLA**. Die Pakete sind Alternativen.
+
+**Elektronik bleibt vorerst außerhalb beider Druckplatten.** P08 wurde trotzdem überarbeitet und liegt als [separates ausgerichtetes STL](../../{d['optional_electronics']['print_oriented_stl']}) mit [Montagehinweisen](../../{d['optional_electronics']['instructions']}) bereit. Dafür ist noch kein Slice geprüft. P09 bleibt unverändert.
+
+**Befestigung:** beide Heckblöcke benötigen je zwei vorhandene M3×8-Schrauben mit M3-Inserts. Für die optionale P08-Wanne sind zwei M2×8 und passende M2-Inserts erforderlich. Schrauben, Muttern und echte Stangen werden nicht gedruckt.
+
+[Gespeichertes Onshape R19]({url}) · [Übersicht](../../Uebersicht.html) · [Montage](MONTAGE.md) · [Änderungsreview](parts-review.md) · [Stückliste](BOM_Aenderungen.csv) · [Nachweise](final-specification.json)
+
+![Finaler nativer R19-Grundrahmen](evidence/P01-final-native.png)
+
+P01 bleibt ein zusammenhängendes Druckteil. Die breite organische Auflage behält ihre bisherige Lage: Krone nominal Z34,5, mittlere Handgelenkseite etwa X−31. Die neuen Ränder verwenden variable Radien: oben2 mm, auf der Handgelenkseite1 mm, mit Übergang zur erhaltenen unteren0,4-mm-Rundung. Die dünne Unterlippe wird nicht pauschal auf2 mm abgerundet. Der Messkraftpfad mit separatem P05, die Stangenbohrungen,30-mm-Hub und die vier 25-mm-Gurtdurchlässe bleiben erhalten.
+''')
+ (HERE/'MONTAGE.md').write_text(f'''# R19 – Montage und Austausch
+
+{status}
+
+## Drei Teile ersetzen
+
+1. Gerät vollständig entlasten. Federn entfernen, bevor Stangenhalter oder Kraftpfad zerlegt werden. Vorhandene echte Führungsstangen weiterverwenden.
+2. P01 sowie beide massiven Heckblöcke P06L/P06R drucken. Stützen aus Dach, Bohrungen und Führungen entfernen. Die oberen Daumenränder und die Handballenfläche sollen keinen Stützenkontakt haben. Die Blöcke sind geometrisch gleich und gegeneinander102 mm entlangY versetzt.
+3. P05 und die federfreie Passhilfe Q01 ausrichten. Vorhandenen Fingergriff P04 von hinten in die zentrale Führung schieben; echte Stangen einsetzen. Mit Q01 keine Federn spannen.
+4. Je einen Heckblock axial über jede Stange schieben und auf die ursprünglichen Auflagen setzen. **Jeden Block mit zwei M3×8 befestigen: vier Schrauben insgesamt.** Die vorhandenen M3-Inserts weiterverwenden. Die Blöcke rasten nicht ein und besitzen keine dünnen Entriegelungsarme.
+5. P11 und vorhandene Klemmung weiterverwenden; nur den realen Schaltpunkt mit±0,8mm Feinweg abgleichen. Es gibt keine Vorspannverstellung.
+6. Federfrei vollen30-mm-Hub, freie Stangen und die neue Handanlage prüfen. Handballen gegen die breite Wölbung setzen, Daumen seitlich an die offene Mulde legen. Links und rechts sind gleich. Der feste P01 darf das separate Messjoch P05 nicht berühren.
+7. **Q01 vor Sensor- und Federbetrieb vollständig entfernen.** Sensor/Kassette und Federn nach dem vorhandenen Aufbau montieren. Tatsächlichen Schraubeneingriff, Insertsitz und belastetes Verhalten am realen Muster prüfen.
+
+## Heckblöcke wieder lösen
+
+Gerät entlasten, die zwei Schrauben des jeweiligen Blocks entfernen und den Block mindestens12 mm in+X über sein Stangenende abziehen. Keine Clips spreizen. Erst nach Entfernen der hinteren Halter kann der Griff aus der Führung gezogen werden.
+
+## Optionale Elektronikwanne P08
+
+P08/P09 sind in keiner der beiden mechanischen Druckplatten enthalten. Die neue P08-Datei ist separat bereitgestellt und noch nicht gesliced. P09 bleibt der vorhandene separate Klickdeckel.
+
+Die neue Wanne besitzt zwei breite feste Schraubohren. **Zwei M2×8 ohne Scheibe** von unten durch dieØ2,2-mm-Durchlässe setzen, an den vorhandenen AchsenX−26,5/Y±59. Die5,5-mm-Auflage ergibt nominal2,5 mm Eingriff in die bestehenden M2-InsertsØ3,2×3mm. Den real gelieferten Schraubenkopf und Insertsitz vor Montage prüfen. Keine M2×6 aus alten Stücklisten übernehmen.
+
+Für Service beide M2-Schrauben entfernen und die geschlossene Wanne20 mm nach unten abnehmen; keine Schnapparme biegen. P09 außerhalb des Geräts öffnen. Die Wanne ist ohne die beiden Schrauben nicht am Rahmen gehalten.
+
+## Gurte und Sensorservice
+
+Vier innenliegende27×4-mm-Schlitze bei X28/X65,Y±57,5 nehmen zwei echte25-mm-Gurte mit höchstens2 mm Dicke auf. Die Gurtpositionen liegen37mm auseinander. Beide Enden von unten durch die Öffnungen führen, außen über die Stege zurückfalten und am eigenen Gurt sichern. Kein Band über die Mechanik führen. Vor Service abnehmen.
+
+Für Sensorservice vollständig entlasten und Federn, Stangen, Heckblöcke sowie H18/H19 entfernen. Der Sensorstapel wird erst +X3,2 mm, dann +Z40mm entnommen. P05 bleibt separat. Für Isometrie bleiben die beiden81-mm-Stahlhülsen mit15-mm-Anfahrweg vorgesehen.
+
+PLA bleibt Standard; kein TPU oder PETG ist für diese Projekte erforderlich. Komfort, Kriechen und reale Arbeitslast sind nicht durch nominale CAD-Prüfungen qualifiziert.
+''')
+ (HERE/'parts-review.md').write_text(f'''# R19 – Form- und Schnittstellenreview
+
+{status}
+
+| Bereich | Änderung und erhaltene Funktion |
+|---|---|
+| P01 Daumenrand | Ursprüngliche Randrundung parametrisch durch einen variablen Übergang ersetzt; obere KontrollenR2, HandgelenkseiteR1, unterer RandR0,4 |
+| P01 Handballenform | R18-Loftprofil und Kontaktlage erhalten; Krone Z34,5, mittlere Wölbung etwa X−31 |
+| P06L/P06R | Zwei massive getrennte Stangenblöcke, je zwei erforderliche M3×8; Brücke und Schnapparme entfernt |
+| P01 Heckgegenhalter | Nicht mehr benötigte Rastnocken entfernt; ursprünglicher gerundeter Boden wieder frei |
+| P08 optional | Hohe Schnappclips durch feste Schraubohren ersetzt; zwei erforderliche M2×8 in bestehenden M2-Inserts |
+| P09 | Separater Klickdeckel mit Kabelhalter unverändert |
+| Kraftpfad/Service | P05 separat, Stangenbohrungen, Sensorzugang,30-mm-Hub und Q01-Entnahme geprüft |
+| Gurte | Vier innenliegende27×4-mm-Schlitze für zwei 25-mm-Gurte erhalten |
+| Native Teile |94 Körper; 90 bisherige Körper behalten ihre Geometrie. P06 wird durch zwei Körper ersetzt |
+| Druckumfang | Ersatzplatte3 Teile; kompletter mechanischer Passsatz7 Stücke. P08 separat, ohne Slicefreigabe |
+
+Die Rundung wird an den ursprünglichen scharfen Muldenkanten vor dem unveränderten organischen Loft erzeugt. Der native Parasolid-Export ist maßgeblich; die frühere lokale OCC-Defeaturing-Versuchsgeometrie wurde nicht freigegeben. Tatsächliche Radien, verbleibende Wand zum bestehenden Rückgriff und Bodenquerschnitte sind im [nativen Randcheck](validation/native-rim-check.json) dokumentiert. Die Rundung darf die dünne Unterlippe nicht großflächig ausdünnen.
+
+[Native Integration](validation/native-integration.json) · [Versionsbindung](validation/native-release-binding.json) · [Massive Halter: lokaler Check](latches/design-specification.json) · [Druckprüfung](../../{str(PACK.relative_to(ROOT))}/PRINT_QA_NOTES.md)
+''')
+ rows=[['Ref','Menge Geraet','Ersatzplatte','Komplettplatte','Aenderung'],['P01',1,1,1,'Weiche variable Daumenraender; Heckrastnocken entfernt.'],['P06L/P06R',2,2,2,'Separate massive Stangenbloecke; je2M3x8 erforderlich.'],['P04/P05/P11',3,0,3,'Unveraendert; vorhandene Drucke weiterverwenden.'],['Q01','Passhilfe',0,1,'Nur federfrei; vor Sensor-/Federbetrieb entfernen.'],['P08',1,0,0,'Optionales separates STL, nicht gesliced; feste2M2x8-Schraubohren.'],['P09',1,0,0,'Unveraenderter separater Klickdeckel.'],['H30',4,0,0,'Vorhandene4M3x8 plusM3-Inserts zwingend fuer Heckbloecke.'],['P08-Hardware',2,0,0,'2M2x8 ohneScheibe plusM2-Inserts3.2x3mm bei optionalerP08.'],['H040/H041',2,0,0,'Vorhandene echteStahlstangen weiterverwenden.'],['G01/G02',2,0,0,'Echte25 mm-Gurte.'],['NativeKoerper',94,'','','90bisherigeKoerper geometrischunveraendert.']]
+ with (HERE/'BOM_Aenderungen.csv').open('w',newline='') as f:csv.writer(f).writerows(rows)
+ design=dict(revision='R19',source_sha256=sh,onshape_version=v['version_id'],palm=dict(organic_shape='R18 native loft retained',crown_z_mm=34.5,wrist_extent_x_mm=-31,upper_rim_radius_controls_mm=2,wrist_rim_radius_controls_mm=1,lower_rim_radius_mm=.4,variable_transition=True),rigid_mounts=read(HERE/'latches/design-specification.json'),native_rim_measurements=read(HERE/'validation/native-rim-check.json'))
+ write(HERE/'mechanics/design-specification.json',design)
+ files=[SOURCE,HERE/'native/Flat132_R19_final_AP214.step',HERE/'native/Flat132_R19_neutral_final.zip',HERE/'mechanics/design-specification.json',HERE/'evidence/P01-final-native.png',HERE/'evidence/P01-final-native-provenance.json',HERE/'evidence/strap-routing.svg',HERE/'evidence/strap-routing-provenance.json']+[HERE/n for n in ['README.md','MONTAGE.md','parts-review.md','BOM_Aenderungen.csv']]+[ROOT/d[k] for k in ['project','package','secondary_project','secondary_package']]+[PACK/'delivery-specification.json']
+ hashes={str(p.relative_to(ROOT)):sha(p) for p in files}
+ spec=dict(revision='Flat132 R19 rounded thumb rims and rigid mounts',date='2026-11-13',status='PASS_NOMINAL_CAD_AND_PLA_PRINT',source_sha256=sh,onshape_version=v['version_id'],onshape_url=url,changed=['P01','P06','P08'],new=['P06L','P06R'],removed=['P06'],native_solids=94,unchanged_exact_native_breps=90,new_prints_required=['P01','P06L','P06R'],optional_print=['P08'],fit_test_pieces=7,primary_print_pieces=3,plates=1,printed_device_bodies=8,primary_printed_device_bodies=3,primary_unloaded_fixtures=0,primary_variant='replacement',estimates=dict(seconds=d['estimated_seconds'],filament_g=d['estimated_grams']),secondary_estimates=dict(seconds=d['secondary_estimated_seconds'],filament_g=d['secondary_estimated_grams']),verification=verified,design=design,overview_assets=dict(cad_image=str((HERE/'evidence/P01-final-native.png').relative_to(ROOT)),cad_image_provenance=str((HERE/'evidence/P01-final-native-provenance.json').relative_to(ROOT)),strap_image=str((HERE/'evidence/strap-routing.svg').relative_to(ROOT))),project=d['project'],package=d['package'],secondary_project=d['secondary_project'],secondary_package=d['secondary_package'],optional_electronics=d['optional_electronics'],brim_policy='No brim; necessary PLA supports retained.',files_sha256=hashes,gui_verified=gui['verified'],gui_status=gui['status'],gui_summary=gui['summary'],limitations='Nominal CAD and computed paths only; actual comfort, fit, adhesion, insert retention, strength and lifetime require the printed parts.')
+ write(HERE/'final-specification.json',spec);write(HERE/'documentation-ready.json',dict(status='PASS_DOCUMENTATION_BOUND_TO_R19_EVIDENCE',source_sha256=sh,onshape_version=v['version_id'],files_sha256=hashes,verification=verified,gui_verified=gui['verified'],gui_status=gui['status']));write(HERE/'source-build.json',dict(status='PASS_NATIVE_REGENERATED_AND_DOCUMENTED',source_sha256=sh,onshape_version=v['version_id'],changed=['P01','P06','P08'],native_solids=94,new_prints_required=['P01','P06L','P06R'],primary_variant='replacement',gui_verified=gui['verified'],gui_status=gui['status']))
+ print('R19 documentation staged; root entrypoints unchanged.')
+def publish(data):
+ sh,v,d,verified,gui=data;spec=passed(HERE/'final-specification.json');docs=passed(HERE/'documentation-ready.json')
+ for p,h in docs['files_sha256'].items():assert sha(ROOT/p)==h,p
+ assert (ROOT/'overview/archive-r18-final-2026-11-13/archive-manifest.json').is_file()
+ (ROOT/'fingerworker_mvp.fs').write_bytes(SOURCE.read_bytes());review=str(HERE.relative_to(ROOT))
+ block=f'''<!-- CURRENT_FLAT132_R19_START -->
+> **13.11.2026 – Flat132 R19: weichere Daumenränder und massive hintere Stangenblöcke.** Beide Daumenmulden erhalten variable Rundungen. Zwei getrennte verschraubte Blöcke ersetzen die dünne Heck-Klicktraverse. **P01 + P06L + P06R neu drucken.** Vier vorhandene M3×8-Schrauben sind erforderlich. Die optionale P08-Wanne hat feste Schraubohren für zwei M2×8; sie bleibt außerhalb der mechanischen Druckplatten. [Review]({review}/README.md) · [Montage]({review}/MONTAGE.md) · [Onshape R19]({spec['onshape_url']}).
+
+> **Dreiteiliges Ersatzpaket:** H2D, linke0,4-mm-Düse, Bambu PLA Basic, ohne Brim; notwendige Stützen bleiben. **{duration(d['estimated_seconds'])} / {d['estimated_grams']:.2f}g PLA.** [3MF]({d['project']}) · [Ersatzpaket]({d['package']}). Alternativ [sieben mechanische Teile auf einer Platte]({d['secondary_project']}) · [Komplettpaket]({d['secondary_package']}). Echte Stangen weiterverwenden. {gui['summary']} Ältere Angaben bleiben Historie.
+<!-- CURRENT_FLAT132_R19_END -->'''
+ for name in ['README.md','PRINTING.md','EINKAUFSTEILE.md','DEVICE_UPGRADES.md','print/REVISION_STATUS.md']:
+  p=ROOT/name;s=p.read_text();use=block.replace('](review/','](../review/').replace('](print/','](../print/') if name.startswith('print/') else block
+  pat=r'<!-- CURRENT_FLAT132_R(?:16|17|18|19)_START -->.*?<!-- CURRENT_FLAT132_R(?:16|17|18|19)_END -->';assert re.search(pat,s,re.S),name
+  s=re.sub(pat,use,s,count=1,flags=re.S).replace('HTML-Projektübersicht R18','HTML-Projektübersicht R19').replace('Historischer Stand R15 – für R18 die Dateien oben verwenden','Historischer Stand R15 – für R19 die Dateien oben verwenden')
+  p.write_text(s)
+ q=read(HERE/'source-build.json');q['status']='PASS_NATIVE_REGENERATED_AND_RELEASED';write(HERE/'source-build.json',q);print('Published R19 source and root documentation.')
+if __name__=='__main__':
+ p=argparse.ArgumentParser();p.add_argument('--publish',action='store_true');p.add_argument('--allow-gui-pending',action='store_true');a=p.parse_args();data=validate(a.allow_gui_pending);prepare(data)
+ if a.publish:publish(data)

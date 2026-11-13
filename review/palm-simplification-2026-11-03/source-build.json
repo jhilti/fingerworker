@@ -1,0 +1,18 @@
+{
+  "status": "PASS_NATIVE_REGENERATED_AND_RELEASED",
+  "baseline_source_sha256": "730cd21ea3aafbe43bf8eb38007b20d9cd0272659430d8a2b3b6245f33f62455",
+  "source_sha256": "82b7d65708c46cd9d4b6ac271047eac2f638f0222451df99eae0780525edd851",
+  "changed": [
+    "P01"
+  ],
+  "new": [],
+  "removed": [],
+  "device_prints": 7,
+  "fit_pieces": 10,
+  "native_solids": 93,
+  "new_prints_required": [
+    "P01"
+  ],
+  "onshape_version": "18d76d07da0c354cee82580a",
+  "native_geometry_report_sha256": "5065437f06598e88e726299bba1b78b832ddc8009e97a2f0fc36222d07b2cdac"
+}

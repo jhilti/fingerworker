@@ -1,0 +1,617 @@
+{
+  "status": "PASS",
+  "native_step_sha256": "1ab8174658dc1e45b9d25f65a03505a3eb98e454920fc3b24a6954c9dd79b09c",
+  "baseline_step_sha256": "99e73fe8a20ca5cd62b42369a625a9067feb7df6c48d6e94af3d9ac3b1a15292",
+  "checks": [
+    {
+      "ref": "E01",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "E05",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "E06",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "E07",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "E08",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H01",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H02",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H030",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H031",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H040",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H041",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H050",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H051",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H060",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H061",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H09",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H09a",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H09b",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H10",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H11",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H12",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H13",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H15",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H160",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H161",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H170",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H171",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H180",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H181",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H190",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H191",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H20",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H21",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H22",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H23",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H240",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H241",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H242",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H243",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H250",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H251",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H252",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H253",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H260",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H261",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H270",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H271",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H280",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H281",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H290",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H291",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H300a",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H300b",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H301a",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H301b",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H310",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H311",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H320",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H321",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P01",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P04",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P05",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P060",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P061",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P070a",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P070b",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P071a",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P071b",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P08",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P09",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P10",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P11",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P120",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P121",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C1",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C10",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C11",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C12",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C13",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C14",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C15",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C16",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C2",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C3",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C4",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C5",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C6",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C7",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C8",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C9",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_D1",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_J1",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_J2",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_J3",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_L1",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_Q1",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R1",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R10",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R11",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R12",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R13",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R14",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R15",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R16",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R17",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R18",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R19",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R2",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R20",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R21",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R3",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R4",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R5",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R6",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R7",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R8",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R9",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_SW2",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_U1",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_U2",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_U3",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_U4",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0
+    }
+  ]
+}

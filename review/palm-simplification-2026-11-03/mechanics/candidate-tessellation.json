@@ -1,0 +1,13 @@
+{
+  "status": "LOCAL_TENT_CANDIDATE_ONLY_ZERO_AREA_FACETS_DROPPED",
+  "input_stl": "review/palm-simplification-2026-11-03/mechanics/P01_simple_palm.stl",
+  "input_sha256": "505fa2628443370ceec7bdf0e3e638804333daadbe5977548c14dc032a434fa4",
+  "output_stl": "review/palm-simplification-2026-11-03/mechanics/P01_simple_palm_candidate-slice.stl",
+  "output_sha256": "98c2756b1ff8c7ee1f84216ed89c420aec1cbde130bd9e27683c1d056f891b26",
+  "zero_area_facets_removed": 8,
+  "volume_difference_mm3": 0.0,
+  "surface_area_difference_mm2": 7.275957614183426e-12,
+  "watertight": true,
+  "one_positive_volume": true,
+  "native_release_meshes_must_remain_unmodified": true
+}

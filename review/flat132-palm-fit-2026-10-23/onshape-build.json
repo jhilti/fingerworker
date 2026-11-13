@@ -1,0 +1,46 @@
+{
+  "document_id": "15316cc6370631845af136b2",
+  "workspace_id": "3ee26cf6386f889ca7ae9519",
+  "part_studio_id": "d253eb87b70818ebde8215f0",
+  "feature_studio_id": "f4e97d439e996d0e05f0255e",
+  "baseline_version_id": "9bdcf9c3c67638228b40378b",
+  "source_sha256": "4665c3ec4e983e478d34c6cfe923b3b60e6c8848f36b7c54b55b1989eaab6326",
+  "native_source_exact_readback_matches": true,
+  "native_regeneration": "PASS",
+  "native_parts": 105,
+  "device_parts": 52,
+  "electronics_references": 53,
+  "changed_geometry_refs": [
+    "P02",
+    "P03"
+  ],
+  "target_force_N": 500,
+  "verified_load_rating": false,
+  "firmware_modified": false,
+  "default_pose": {
+    "travel_mm": 0,
+    "preload_mm": 0,
+    "light_springs": true,
+    "isometric": false,
+    "electronics_references": true,
+    "hand_reference": false
+  },
+  "native_maximum_pose": {
+    "travel_mm": 28,
+    "preload_mm": 2,
+    "light_springs": false,
+    "isometric": false,
+    "native_regeneration": "PASS",
+    "parts": 105
+  },
+  "immutable_version_id": "9bf146edbc2e61a5c4144a35",
+  "immutable_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/9bf146edbc2e61a5c4144a35/e/d253eb87b70818ebde8215f0",
+  "neutral_default_restored_and_saved": true,
+  "native_isometric_pose": {
+    "travel_mm": 13,
+    "preload_mm": 2,
+    "isometric": true,
+    "native_regeneration": "PASS",
+    "parts": 105
+  }
+}

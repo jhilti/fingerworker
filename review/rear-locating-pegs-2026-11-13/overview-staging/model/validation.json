@@ -1,0 +1,678 @@
+{
+  "status": "PASS_STATIC_GEOMETRY_AND_EMBEDDING",
+  "revision": "R20",
+  "unique_bodies": 94,
+  "counts": {
+    "print": 8,
+    "metal": 27,
+    "buy": 6,
+    "electronics": 53
+  },
+  "native_triangles": 2614650,
+  "display_triangles": 127014,
+  "component_bytes": 1418024,
+  "component_sha256": "5bcf78da305a51b833ce29a1acdac4cf3ee069158ac7a714ead659a380842ed8",
+  "all_assets_inline": true,
+  "external_runtime_assets": 0,
+  "browser_visual_QA": "Pending final HTML browser review",
+  "checks": [
+    {
+      "id": "H01",
+      "vertices": 4051,
+      "triangles": 7000,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "H02",
+      "vertices": 1730,
+      "triangles": 1728,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "H030",
+      "vertices": 15536,
+      "triangles": 20000,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "H031",
+      "vertices": 15442,
+      "triangles": 20000,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "H040",
+      "vertices": 578,
+      "triangles": 576,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "H041",
+      "vertices": 578,
+      "triangles": 576,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "H050",
+      "vertices": 1152,
+      "triangles": 1152,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "H051",
+      "vertices": 1152,
+      "triangles": 1152,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "H060",
+      "vertices": 1152,
+      "triangles": 1152,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "H061",
+      "vertices": 1152,
+      "triangles": 1152,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "H09",
+      "vertices": 1248,
+      "triangles": 1220,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "H09a",
+      "vertices": 578,
+      "triangles": 576,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "H09b",
+      "vertices": 578,
+      "triangles": 576,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "H10",
+      "vertices": 1154,
+      "triangles": 1152,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "H12",
+      "vertices": 3549,
+      "triangles": 3500,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "H180",
+      "vertices": 1154,
+      "triangles": 1152,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "H181",
+      "vertices": 1154,
+      "triangles": 1152,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "H190",
+      "vertices": 1152,
+      "triangles": 1152,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "H191",
+      "vertices": 1152,
+      "triangles": 1152,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "H20",
+      "vertices": 600,
+      "triangles": 592,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "H23",
+      "vertices": 3368,
+      "triangles": 3344,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "H240",
+      "vertices": 1152,
+      "triangles": 1152,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "H241",
+      "vertices": 1152,
+      "triangles": 1152,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "H242",
+      "vertices": 1152,
+      "triangles": 1152,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "H243",
+      "vertices": 1152,
+      "triangles": 1152,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "H250",
+      "vertices": 1154,
+      "triangles": 1152,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "H251",
+      "vertices": 1154,
+      "triangles": 1152,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "H252",
+      "vertices": 1154,
+      "triangles": 1152,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "H253",
+      "vertices": 1154,
+      "triangles": 1152,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "H300a",
+      "vertices": 1154,
+      "triangles": 1152,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "H300b",
+      "vertices": 1154,
+      "triangles": 1152,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "H301a",
+      "vertices": 1154,
+      "triangles": 1152,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "H301b",
+      "vertices": 1154,
+      "triangles": 1152,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "P01",
+      "vertices": 10600,
+      "triangles": 14000,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "P04",
+      "vertices": 6831,
+      "triangles": 11000,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "P05",
+      "vertices": 3150,
+      "triangles": 3500,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "P06L",
+      "vertices": 3088,
+      "triangles": 3500,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "P06R",
+      "vertices": 3089,
+      "triangles": 3500,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "P08",
+      "vertices": 3625,
+      "triangles": 3500,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "P09",
+      "vertices": 2972,
+      "triangles": 2900,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "P11",
+      "vertices": 613,
+      "triangles": 598,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "E01",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "E05",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "E06",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "E07",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "E08",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_C1",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_C10",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_C11",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_C12",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_C13",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_C14",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_C15",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_C16",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_C2",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_C3",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_C4",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_C5",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_C6",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_C7",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_C8",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_C9",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_D1",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_J1",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_J2",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_J3",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_L1",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_Q1",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_R1",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_R10",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_R11",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_R12",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_R13",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_R14",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_R15",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_R16",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_R17",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_R18",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_R19",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_R2",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_R20",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_R21",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_R3",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_R4",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_R5",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_R6",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_R7",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_R8",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_R9",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_SW2",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_U1",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_U2",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_U3",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    },
+    {
+      "id": "PCB_U4",
+      "vertices": 24,
+      "triangles": 12,
+      "indices_in_range": true,
+      "native_hash_verified": true
+    }
+  ]
+}

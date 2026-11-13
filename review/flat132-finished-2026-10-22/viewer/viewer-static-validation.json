@@ -1,0 +1,50 @@
+{
+  "status": "PASS_STATIC_SOURCE_BINDING",
+  "viewer_sha256": "a28a5fb15ac883b59a500942b5ffd5576832171f42eac7986b20c22fe2d622e0",
+  "source_sha256": "041056629440056626b2f2f88a0db216693e48fff178687174478cb1f34227ef",
+  "poses": [
+    {
+      "pose": "neutral",
+      "native_parts": 56,
+      "actual_sensor": true,
+      "obsolete_proxy_absent": true,
+      "source_archive_sha256": "f22ebe6f8d2852a31c4345dff9062adc557274f2d94152d9459822a2bdd1683e"
+    },
+    {
+      "pose": "max",
+      "native_parts": 56,
+      "actual_sensor": true,
+      "obsolete_proxy_absent": true,
+      "source_archive_sha256": "03b3d0c480ffb23aca9a590235d8c9a419d10b51bebcbeb72ef6683e8219ec40"
+    },
+    {
+      "pose": "iso",
+      "native_parts": 56,
+      "actual_sensor": true,
+      "obsolete_proxy_absent": true,
+      "source_archive_sha256": "6539c0800dffa49279cd5eee74d8d6781ab63f18b6f837fa4b78c0e0a762f37f"
+    }
+  ],
+  "nominal_collision_qa": "NOMINAL_GEOMETRY_CHECKS_PASS",
+  "ui_qa": "PARENT_CONFIRMED_NEUTRAL_MAX_ISO_AND_SENSOR_VIEWS_BEFORE_FINAL_H12_PILOT_DIAMETER_REVISION",
+  "scope": "The final H12 machining pilot diameter changes three native mesh hashes; view structure and all other display groups remain the same.",
+  "hand_assumption_confirmation": {
+    "user_confirmed_approximate_reference": true,
+    "retained_clear_opening_mm": 72,
+    "physical_fit_validated": false,
+    "comfort_validated": false
+  },
+  "validation_report_sha256": "8640528b8e41fd0e6bc423a221e17df2649b63382b9bfb015f9a51edb979094c",
+  "step": {
+    "path": "native/Flat132_R1_final_AP214.step",
+    "sha256": "6de4383e6423fd1f57bd353d8f42953ecdae841bee1e36b853fb312c679fd7ef"
+  },
+  "frozen_onshape_version": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/4c39034c17201905fdfbb1d6/e/d253eb87b70818ebde8215f0",
+  "package_ready": true,
+  "prototype_package": {
+    "path": "deliverables/Flat132_R1_CAD_Prototype.zip",
+    "sha256": "e1a3f04c927be5975b058c0087af17f54c1643b0b58277cfbf3185aff07ba820",
+    "bytes": 119229842
+  },
+  "preset_selection_check": "PASS_STATIC_ONLY_ONE_ACTIVE_ARIA_PRESSED_PRESET"
+}

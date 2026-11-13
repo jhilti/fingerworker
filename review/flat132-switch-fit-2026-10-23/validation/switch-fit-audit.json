@@ -1,0 +1,2250 @@
+{
+  "status": "PASS",
+  "scope": "Independent exact native switch/pedestal/cam CSG,99 unchanged BReps, terminal separation and nominal cam shaft/insert/driver witnesses. Not factory switch CAD, actual switch travel qualification or printed strength.",
+  "auditor_sha256": "9e946311cc18473d16c12bd577ca3f4c646eb0d562d22d8f344ecfc0cf953a76",
+  "source_sha256": "b150ff3a76cfaaaaa65ee1ea09e144b7c7d64e45459a925163e56918f48bb3c5",
+  "manifest_sha256": "cb1ec212608a05dc917c28ac7897085fc3d9a8ecfe88d4f0a03f88a4cdb7ad27",
+  "native_step_sha256": "9ae3f82a0539de9acd6eb8fc371589962c0a65632afe98e7b7a4e3602ac8f255",
+  "baseline_step_sha256": "bc7f102b5f147d3647ec372ffde1c726087fe64487aa7733c78b3450901da4e3",
+  "native_provenance": {
+    "workspace_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/w/3ee26cf6386f889ca7ae9519/e/d253eb87b70818ebde8215f0",
+    "feature_source_sha256": "b150ff3a76cfaaaaa65ee1ea09e144b7c7d64e45459a925163e56918f48bb3c5",
+    "association": "Operator-supplied native export/source association; original filenames and each member SHA256 are checked in report.",
+    "immutable_version_id": "1a51bc54c29fb727dcb77016",
+    "immutable_version_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/1a51bc54c29fb727dcb77016/e/d253eb87b70818ebde8215f0",
+    "version_binding_note": "Root verified the final b150 source in the native study, regenerated105 parts, exported all four native inputs, restored neutral stroke0/preload0/light/isometricOFF/electronicsON/handOFF, and created/opened this immutable R4 checkpoint. No geometry or validation tolerance changed during provenance binding."
+  },
+  "rows": [
+    {
+      "name": "Opposite intact deck sections give identical old-hole restoration stock",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "source_uniform_Y_region_mm": [
+        -28,
+        28
+      ],
+      "old_tool_minimum_Z_mm": 7.9,
+      "guide_roof_Z_mm": 7.3
+    },
+    {
+      "name": "Exact native P01 agrees with independent source CSG reconstruction",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "tolerance_mm3": 1e-06,
+      "expected_valid": true,
+      "expected_volume_mm3": 141435.920833074,
+      "native_volume_mm3": 141435.92083307417
+    },
+    {
+      "name": "Exact native P04 agrees with independent source CSG reconstruction",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "tolerance_mm3": 1e-06,
+      "expected_valid": true,
+      "expected_volume_mm3": 78214.65363933324,
+      "native_volume_mm3": 78214.6541508721
+    },
+    {
+      "name": "Exact native H09 agrees with independent source CSG reconstruction",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "tolerance_mm3": 1e-06,
+      "expected_valid": true,
+      "expected_volume_mm3": 1304.513774625761,
+      "native_volume_mm3": 1304.5137746257608
+    },
+    {
+      "name": "Exact native H09a agrees with independent source CSG reconstruction",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "tolerance_mm3": 1e-06,
+      "expected_valid": true,
+      "expected_volume_mm3": 10.805573181868787,
+      "native_volume_mm3": 10.80557318186879
+    },
+    {
+      "name": "Exact native H09b agrees with independent source CSG reconstruction",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "tolerance_mm3": 1e-06,
+      "expected_valid": true,
+      "expected_volume_mm3": 57.90583579096705,
+      "native_volume_mm3": 57.90583579096705
+    },
+    {
+      "name": "Exact native H10 agrees with independent source CSG reconstruction",
+      "status": "PASS",
+      "symmetric_difference_mm3": 0.0,
+      "tolerance_mm3": 1e-06,
+      "expected_valid": true,
+      "expected_volume_mm3": 127.82355109293471,
+      "native_volume_mm3": 127.8235510929347
+    },
+    {
+      "name": "All99 untouched exact native BReps retained from frozen R3",
+      "status": "PASS",
+      "parts_checked": 99,
+      "maximum_symmetric_difference_mm3": 0.0,
+      "changed": []
+    },
+    {
+      "name": "Terminal -14.4 has full-preload axial separation from intact P05",
+      "status": "PASS",
+      "p05_local_front_neutral_X_mm": 9.0,
+      "maximum_preload_mm": 2.0,
+      "terminal_minimum_X_mm": 14.1,
+      "minimum_axial_gap_mm": 3.0999999999999996
+    },
+    {
+      "name": "Terminal -5.6 has full-preload axial separation from intact P05",
+      "status": "PASS",
+      "p05_local_front_neutral_X_mm": 9.0,
+      "maximum_preload_mm": 2.0,
+      "terminal_minimum_X_mm": 14.1,
+      "minimum_axial_gap_mm": 3.0999999999999996
+    },
+    {
+      "name": "Terminal 1.7 has full-preload axial separation from intact P05",
+      "status": "PASS",
+      "p05_local_front_neutral_X_mm": 9.0,
+      "maximum_preload_mm": 2.0,
+      "terminal_minimum_X_mm": 14.1,
+      "minimum_axial_gap_mm": 3.0999999999999996
+    },
+    {
+      "name": "Diameter4 nominal cam driver-shank corridor clear at stroke0 over preload0..2",
+      "status": "PASS",
+      "checks_count": 102,
+      "failed": [],
+      "corridor": {
+        "start_X_mm": 40.05,
+        "end_X_mm": 63.99,
+        "Y_mm": 3.5,
+        "Z_mm": 11.5,
+        "diameter_mm": 4.0,
+        "actual_end_X_function": "63.99-preload",
+        "actual_end_X_range_mm": [
+          61.99,
+          63.99
+        ]
+      },
+      "meaning": "Partial shaft corridor to head face only; head socket, handle approach and actual hardware/tool are unqualified"
+    },
+    {
+      "name": "Nominal M3x8 maintains complete L4 insert overlap through preload reset",
+      "status": "PASS",
+      "endpoint_values": [
+        {
+          "preload_mm": 0.0,
+          "nominal_M3x8_shaft_X_mm": [
+            67.0,
+            75.0
+          ],
+          "nominal_L4_insert_X_mm": [
+            68.0,
+            72.0
+          ],
+          "nominal_axial_overlap_mm": 4.0,
+          "shaft_beyond_insert_mm": 3.0
+        },
+        {
+          "preload_mm": 2.0,
+          "nominal_M3x8_shaft_X_mm": [
+            65.0,
+            73.0
+          ],
+          "nominal_L4_insert_X_mm": [
+            68.0,
+            72.0
+          ],
+          "nominal_axial_overlap_mm": 4.0,
+          "shaft_beyond_insert_mm": 1.0
+        }
+      ],
+      "meaning": "Nominal source shaft/insert intent only; actual insert fit, thread form and setting lock require hardware verification"
+    },
+    {
+      "name": "Head recess radial clearance and intact guide roof match source",
+      "status": "PASS",
+      "head_radial_gap_mm": 0.1499999999999999,
+      "guide_roof_Z_mm": 7.3,
+      "head_recess_minimum_Z_mm": 8.6,
+      "retained_roof_web_mm": 1.2999999999999998
+    }
+  ],
+  "tool_corridor_pairs": [
+    {
+      "ref": "E01",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "E05",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "E06",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "E07",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "E08",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "H01",
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H02",
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H040",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "H041",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "H050",
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H051",
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H060",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "H061",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "H09",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "H09a",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "H09b",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 0.2500007629394503,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": false
+    },
+    {
+      "ref": "H11",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "H12",
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H13",
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H15",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "H160",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "H161",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "H170",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "H171",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "H180",
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H181",
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H190",
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H191",
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H20",
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H21",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "H22",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "H23",
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H240",
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H241",
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H242",
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H243",
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H250",
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H251",
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H252",
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "H253",
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "P01",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true
+    },
+    {
+      "ref": "P02",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "P03",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "P04",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 1.351952154732174,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": false
+    },
+    {
+      "ref": "P05",
+      "relative_x_range_mm": [
+        0.0,
+        2.0
+      ],
+      "status": "CONTINUOUS_CLEARANCE_CERTIFIED",
+      "certified_intervals": 1,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "method": "Swept AABB separation including permitted exterior boundary touch",
+      "maximum_sampled_volume_mm3": 0.0
+    },
+    {
+      "ref": "P060",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "P061",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "P070a",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "P070b",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "P071a",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "P071b",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "P08",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "P09",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "P10",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_C1",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_C10",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_C11",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_C12",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_C13",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_C14",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_C15",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_C16",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_C2",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_C3",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_C4",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_C5",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_C6",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_C7",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_C8",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_C9",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_D1",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_J1",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_J2",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_J3",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_L1",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_Q1",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_R1",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_R10",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_R11",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_R12",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_R13",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_R14",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_R15",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_R16",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_R17",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_R18",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_R19",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_R2",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_R20",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_R21",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_R3",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_R4",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_R5",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_R6",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_R7",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_R8",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_R9",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_SW2",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_U1",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_U2",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_U3",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    },
+    {
+      "ref": "PCB_U4",
+      "relative_x_range_mm": [
+        0.0,
+        0.0
+      ],
+      "status": "CLEAR_AT_NUMERICAL_TOLERANCE",
+      "certified_intervals": 0,
+      "intersections": [],
+      "unresolved_intervals": [],
+      "samples": [],
+      "intersection_volume_mm3": 0.0,
+      "minimum_gap_mm": 2.0,
+      "gap_search_cap_mm": 2.0,
+      "gap_is_lower_bound": true,
+      "method": "AABB gap lower bound exceeds search cap"
+    }
+  ],
+  "unchanged_brep_comparison": [
+    {
+      "ref": "E01",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "E05",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "E06",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "E07",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "E08",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H01",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H02",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H030",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H031",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H040",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H041",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H050",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H051",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H060",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H061",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H11",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H12",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H13",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H15",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H160",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H161",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H170",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H171",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H180",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H181",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H190",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H191",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H20",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H21",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H22",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H23",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H240",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H241",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H242",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H243",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H250",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H251",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H252",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "H253",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P02",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P03",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P05",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P060",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P061",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P070a",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P070b",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P071a",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P071b",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P08",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P09",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "P10",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C1",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C10",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C11",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C12",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C13",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C14",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C15",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C16",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C2",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C3",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C4",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C5",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C6",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C7",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C8",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_C9",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_D1",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_J1",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_J2",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_J3",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_L1",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_Q1",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R1",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R10",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R11",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R12",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R13",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R14",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R15",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R16",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R17",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R18",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R19",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R2",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R20",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R21",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R3",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R4",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R5",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R6",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R7",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R8",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_R9",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_SW2",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_U1",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_U2",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_U3",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "ref": "PCB_U4",
+      "symmetric_difference_mm3": 0.0
+    }
+  ],
+  "limitations": [
+    "H09 terminals and lug are conservative dimensioned boxes, not exact manufacturer shapes. H09a/H09b use an approximate fixed-length rotating mechanism.",
+    "Actual solder joints, wire bends, insulation and strain relief are not modeled.",
+    "SS-01GL2 operating-position tolerance and total travel require physical cam calibration at every preload reset; nominal one-mm trip lead is not a guaranteed margin.",
+    "Actual inserts, screw/head/washer sizes, driver socket/handle fit, retention and printed500N working load remain unqualified."
+  ],
+  "provenance_metadata_update": "Immutable version association only; exact native CSG and clearance evidence unchanged."
+}

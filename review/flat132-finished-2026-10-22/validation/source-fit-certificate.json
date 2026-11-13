@@ -1,0 +1,63 @@
+{
+  "status": "EXACT_SOURCE_LEVEL_DISJOINTNESS_CERTIFIED",
+  "scope": "Reviewed final parametric source set containment with native mesh corroboration; not a native BRep roundtrip comparison",
+  "source_sha256": "041056629440056626b2f2f88a0db216693e48fff178687174478cb1f34227ef",
+  "manifest_sha256": "c38d5b3f4238f7c602f43ed3a7d92d1016ed61ae14bd2ff9f838e33d8a1882f8",
+  "native_parts": {
+    "P02": {
+      "member": "Fingerworker MVP - P02 PRINT STUDY - detachable keyed palm bolster, two M4 mounts.stl",
+      "sha256": "2daf25681bc7e8ff3b89aecabcb9278185f9688b46d41155800c45f6447d578f"
+    },
+    "P03": {
+      "member": "Fingerworker MVP - P03 TPU PRINT - 2.5 mm palm sleeve.stl",
+      "sha256": "df92f24292d5597873a8518621e48b2dc29f817f9d484af08f4f3cbf4a133678"
+    }
+  },
+  "axis_mm": {
+    "X": -34.0,
+    "Z": 19.75,
+    "direction": "Y"
+  },
+  "nominal_shared_radius_mm": 7.75,
+  "proof": [
+    "All P02 plate, ear and clamp material is at Z<=14.5. The only P02 material above that plane is contained in the radius7.75 bolster cylinder; convex fillets and all later cuts only shrink it.",
+    "P03 is created within Y=[-43,43]. The complete radius7.75 inner cylinder tool spans Y=[-44,44], beyond both sleeve ends, and is subtracted from the sleeve.",
+    "The complete sleeve bottom tool removes Z<14.6 throughout its X/Y extent. The later adjuster relief is another subtraction.",
+    "Consequently P02 plate/ear/clamp material is separated from P03 by the 0.1mm Z interval, and all remaining P02 material lies inside the very cylinder excluded from the P03 interior.",
+    "Therefore no positive-volume intersection exists in the exact parametric source. Coincident cylindrical boundary contact is the intended nominal fit."
+  ],
+  "native_corroboration": {
+    "P02_above_sleeve_bottom_maximum_vertex_radius_mm": 7.750003505123957,
+    "P03_minimum_vertex_radius_mm": 7.7499969169970635,
+    "P03_bounds_mm": [
+      [
+        -44.24971008300781,
+        -43.0,
+        14.600000381469727
+      ],
+      [
+        -23.7500057220459,
+        43.0,
+        29.997604370117188
+      ]
+    ],
+    "numeric_vertex_rounding_bound_mm": 1e-05
+  },
+  "mesh_artifact_intersection_mm3": 1.7186620932008172,
+  "step_roundtrip_status": "PASS_FROM_SEPARATE_NATIVE_BREP_REPORT",
+  "limitations": [
+    "Separate cylinder triangulations use planar chords and can show small mesh overlap even where exact analytic cylindrical surfaces coincide.",
+    "This proves nominal source non-intersection, not real print fit, friction, comfort or material qualification."
+  ],
+  "execution_manifest_sha256": "7929590aee25bcc2d53544a74878f15e6e6c0e1cbfccf424977c5a09f9494823",
+  "native_provenance": {
+    "workspace_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/w/3ee26cf6386f889ca7ae9519/e/d253eb87b70818ebde8215f0",
+    "feature_source_sha256": "041056629440056626b2f2f88a0db216693e48fff178687174478cb1f34227ef",
+    "association": "Operator-supplied native export/source association; original filenames and each member SHA256 are checked in report.",
+    "immutable_version_id": "4c39034c17201905fdfbb1d6",
+    "immutable_version_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/4c39034c17201905fdfbb1d6/e/d253eb87b70818ebde8215f0",
+    "version_binding_note": "Root verified the immutable native version has the same final source and geometry; removing a suppressed obsolete Delete part feature has no geometry effect."
+  },
+  "separate_step_roundtrip_report": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-finished-2026-10-22/validation/validation.json",
+  "metadata_update_note": "Immutable version binding only; source and native geometry unchanged."
+}

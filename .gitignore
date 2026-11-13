@@ -1,0 +1,57 @@
+# Private records and machine-local data must never be bulk-added.
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv*/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+xcuserdata/
+*.xcuserstate
+*.kicad_prl
+~*.lck
+node_modules/
+/tmp/
+/logs/
+/output/
+/result.json
+/.superdesign/
+/procurement/
+/electronics/procurement/
+/electronics/jlc-clarification-*/
+/electronics/jlc-review-*/
+/electronics/order/
+/vendor/
+/electronics/vendor/
+/assets/
+/tools/kicad-mcp-env/
+/tools/kicad-mcp-server/
+/firmware/build/
+/firmware/build-bench/
+/electronics/kicad/.config/
+/electronics/kicad/preview/
+/electronics/kicad/archive/
+# Existing reviewed files here are tracked explicitly. New historical exports,
+# raw evidence and personal-reference studies require an explicit review/add.
+/review/
+/print/
+/overview/archive*/
+# Heavy/generated CAD and printer outputs are distributed as release assets.
+*.zip
+*.3mf
+*.gcode
+*.bgcode
+*.stl
+*.step
+*.stp
+*.glb
+*.ply
+*.obj
+*.log
+*.elf
+*.hex
+*.map
+/publication/downloads/
+/publication/local-backups/

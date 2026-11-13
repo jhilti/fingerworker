@@ -1,0 +1,275 @@
+{
+  "candidate_source": "review/flat132-finished-2026-10-22/mount-proposal.fs",
+  "source_sha256": "ebc9b31fa760c11fdcf182fd88e378abae6babac2ca214b169f0bf072b6f8d50",
+  "scope": "Mount proposal only. Root integrates genuine native sensor query and performs native regeneration/audit.",
+  "preserved_datums": {
+    "sensor_spherical_apex_mm": [
+      -1.9,
+      0,
+      18
+    ],
+    "pusher_shoulder_reaction_x_mm": 1,
+    "H13_tip_x_mm": -12,
+    "preload_mm": [
+      0,
+      2
+    ],
+    "dynamic_stroke_mm": [
+      0,
+      30
+    ]
+  },
+  "H12": {
+    "material": "S355 steel, machined with flat rear support face",
+    "plate_bounds_mm": [
+      [
+        -12,
+        -15,
+        3
+      ],
+      [
+        -9.85,
+        15,
+        33
+      ]
+    ],
+    "plate_thickness_mm": 2.15,
+    "support_front_x_mm": -9.85,
+    "centre_relief_removed": true,
+    "collar": {
+      "x_mm": [
+        -9.85,
+        -8.65
+      ],
+      "ID_mm": 25.5,
+      "OD_mm": 27,
+      "radial_housing_clearance_mm": 0.25,
+      "lead_notch_bounds_mm": [
+        [
+          -10,
+          10,
+          10.5
+        ],
+        [
+          -8.5,
+          29,
+          25.5
+        ]
+      ],
+      "four_spacer_clearance_scallops_diameter_mm": 4.4,
+      "lead_notch_reason": "Flared leadbase at Y10.817..12.458,Z11.254..24.746 intersected old narrow collar notch by 2.25mm3. Wider notch measured zero local intersection."
+    },
+    "M2_tap_centres_yz_mm": [
+      [
+        -10.5,
+        7.5
+      ],
+      [
+        -10.5,
+        28.5
+      ],
+      [
+        10.5,
+        7.5
+      ],
+      [
+        10.5,
+        28.5
+      ]
+    ],
+    "M2_thread_engagement_mm": 2.15,
+    "M2_plate_edge_distance_min_mm": 4.5
+  },
+  "H23": {
+    "material": "0.5 mm stainless sheet, laser cut and deburr",
+    "x_mm": [
+      -1.4,
+      -0.9
+    ],
+    "central_opening_diameter_mm": 20,
+    "rim_axial_clearance_mm": 0.5,
+    "corner_pads_mm": [
+      8,
+      8
+    ],
+    "clearance_hole_diameter_mm": 2.2,
+    "hole_edge_distance_mm": 4,
+    "not_in_force_path": true
+  },
+  "H240_H243": {
+    "quantity": 4,
+    "material": "steel tubing, cut and face square",
+    "OD_mm": 4,
+    "ID_mm": 2.2,
+    "length_mm": 8.45,
+    "housing_radial_clearance_min_mm": 0.34924240491749714
+  },
+  "H250_H253": {
+    "quantity": 4,
+    "item": "M2 x12 panhead screw",
+    "head_diameter_max_mm": 4,
+    "head_height_max_mm": 1.6,
+    "shaft_tip_x_mm": -12.9,
+    "head_front_x_mm": 0.7,
+    "P05_pocket_front_x_mm": 1.4,
+    "nominal_axial_gap_mm": 0.7
+  },
+  "H18_H19_retention": {
+    "H18_item": "M3 x8 socket-head screw",
+    "quantity_each": 2,
+    "H19_dimensions_OD_ID_L_mm": [
+      4,
+      3.2,
+      6
+    ],
+    "axis_x_z_mm": [
+      -12.8,
+      8.5
+    ],
+    "screw_tip_abs_y_mm": 13,
+    "spacer_abs_y_mm": [
+      15,
+      21
+    ],
+    "head_abs_y_mm": [
+      21,
+      24
+    ],
+    "M3_blind_thread_abs_y_mm": [
+      11.9,
+      15.2
+    ],
+    "thread_engagement_mm": 2,
+    "manufacturing_note": "Flat-bottom blind bore / bottoming M3 tap to |Y|11.9. Full engagement |Y|13..15 is 2.0 mm, approximately four M3x0.5 turns, plus 1.1 mm runout corridor. Non-primary light cassette retention only; not a high-force stop. Confirm drawing tolerances before fabrication.",
+    "M2_shaft_to_M3_tip_axial_gap_mm": 1.5,
+    "ear_back_ligament_after_nominal_M3_cut_mm": 1.15,
+    "ear_upper_ligament_mm": 0.95,
+    "non_primary_load_path": true,
+    "palm_gap_min_mm": 2
+  },
+  "P01": {
+    "guide_bounds_mm": [
+      [
+        [
+          -16.2,
+          -18.5,
+          3.8
+        ],
+        [
+          -8,
+          -15.5,
+          29
+        ]
+      ],
+      [
+        [
+          -16.2,
+          15.5,
+          3.8
+        ],
+        [
+          -8,
+          18.5,
+          29
+        ]
+      ]
+    ],
+    "positive_guide_only_lead_notch_mm": [
+      [
+        -10.2,
+        15.3,
+        12
+      ],
+      [
+        -7.8,
+        18.7,
+        24
+      ]
+    ],
+    "capture_slots": {
+      "axis_z_mm": 8.5,
+      "x_circle_centres_mm": [
+        -12.6,
+        -11
+      ],
+      "radius_mm": 2.2,
+      "z_range_mm": [
+        6.3,
+        10.7
+      ],
+      "closed_slot_front_ligament_mm": 0.8,
+      "roof_below_lead_notch_mm": 1.3
+    },
+    "floor_pocket_bounds_mm": [
+      [
+        -12.3,
+        -15.3,
+        2.7
+      ],
+      [
+        1.4,
+        15.3,
+        4.2
+      ]
+    ],
+    "remaining_floor_thickness_mm": 4.7
+  },
+  "P05": {
+    "main_rear_relief_bounds_mm": [
+      [
+        -10.5,
+        -15.3,
+        2.5
+      ],
+      [
+        1,
+        15.3,
+        33.5
+      ]
+    ],
+    "lead_relief_bounds_mm": [
+      [
+        -10.5,
+        10,
+        12
+      ],
+      [
+        -1.4,
+        40,
+        24
+      ]
+    ],
+    "M2_head_reliefs": {
+      "diameter_mm": 5.2,
+      "x_mm": [
+        -1.5,
+        1.4
+      ],
+      "centres_yz_match_M2": true
+    },
+    "central_reaction_web_preserved_x_mm": [
+      1,
+      9
+    ]
+  },
+  "new_queries": [
+    "cellFrontKeeper",
+    "cellRetainerSpacer0",
+    "cellRetainerSpacer1",
+    "cellRetainerSpacer2",
+    "cellRetainerSpacer3",
+    "cellRetainerScrew0",
+    "cellRetainerScrew1",
+    "cellRetainerScrew2",
+    "cellRetainerScrew3"
+  ],
+  "preload_translation": "All nine added bodies included in synchronizedPreload body query. Capture hardware retained in same translation.",
+  "overall_height_mm": 35,
+  "open_engineering_items": [
+    "2.15 mm backing-plate stiffness/strength and printed yoke/frame strength unqualified; no new load rating asserted.",
+    "Flat-bottom blind M3 thread runout/detail and 2.0 mm engagement must be confirmed for light-retention use. Nominal model excludes helical threads; no retention load rating asserted.",
+    "Closed slot front wall is 0.8 mm nominal; not qualified as high-force overtravel stop.",
+    "Native compile and all-body sweep checks required by root; proposal source still contains obsolete H01 proxies until root integration."
+  ],
+  "revision": "v3"
+}

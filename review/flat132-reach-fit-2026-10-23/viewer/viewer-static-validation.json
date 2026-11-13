@@ -1,0 +1,61 @@
+{
+  "status": "STATIC_SYNTAX_AND_SOURCE_BINDING_PASS",
+  "viewer_sha256": "b8e27b3948bc7aa1e5ab456ace00f1e8fb74b2e344ac43178d8d9cc30e2aa92d",
+  "source_sha256": "d7f476fa34e862e2b0e1b5a5e91fff0f852b9308a589fafd11ce59e01269915a",
+  "geometry_origin": "NATIVE_ONSHAPE_REGEN",
+  "poses": [
+    {
+      "id": "neutral",
+      "archive_sha256": "2f4a8634c42317d10dfe93a8e113a254ef4d5f05d70b8f6330f23a9f5866e7a5",
+      "device_parts": 53
+    },
+    {
+      "id": "max",
+      "archive_sha256": "7c36db8d0101dc8d445c6f2476dcb38a51721431dcb4a052c59b7f80b0a33fb7",
+      "device_parts": 53
+    },
+    {
+      "id": "iso",
+      "archive_sha256": "e47a1d0dd271184670537dd6d1cc893164ea4e7f4046064a5fd685bc002ffa4d",
+      "device_parts": 53
+    }
+  ],
+  "cad_qa": {
+    "nominal_status": "NOMINAL_GEOMETRY_CHECKS_PASS",
+    "message": "ISO81, legal stroke/preload/calibration motion and STEP checks passed. Omron remains drawing-derived; real switch calibration, clamp locking, printed strength, fit and the 500 N target require physical qualification."
+  },
+  "browser_qa": "PENDING_PARENT_UI_QA",
+  "switch_geometry": {
+    "source": "Omron SS series manufacturer dimensioned drawing; not factory STEP",
+    "part_number": "SS-01GL2",
+    "relocation_from_R3_mm": [
+      4,
+      1,
+      1.5
+    ],
+    "drawing_source_path": "vendor/omron_ss5gl2/SS_datasheet.pdf",
+    "drawing_sha256": "b7c3cc9e838c1049d58772242b56cd06af3526ac422907769acd892668ba1a09",
+    "drawing_url": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-ss.pdf",
+    "terminal_and_lug_shape": "Conservative nominal dimensioned envelopes; exact profiles unresolved",
+    "actuator": "Illustrative hinge/roller proxy, not factory CAD or qualified mechanism",
+    "actual_TE_force_sensor_retained": true,
+    "mount_and_cam_relocated_in_native_source": true,
+    "physical_actuation_and_wiring_qualified": false,
+    "actual_operation_total_travel_cam_lock_wiring_qualified": false,
+    "new_P11_stepped_shoe": true,
+    "vertical_H10_clamp": "M3x10",
+    "calibration_mm": [
+      -0.8,
+      0.8
+    ],
+    "nominal_drawing_envelope_checks_passed": true
+  },
+  "step": {
+    "path": "native/Flat132_R5_final_AP214.step",
+    "sha256": "6308aae470551c220c91689f746cd7204d38ce6938aa907531423f2d78c2af40",
+    "geometry_origin": "NATIVE_ONSHAPE_REGEN",
+    "geometry_source_sha256": "61885fd717b30eaf1dfc39a1f7f65f017bfc1b4ac077c3e3493399ef3373a9a3"
+  },
+  "package_ready": true,
+  "javascript_syntax": "NODE_CHECK_PASS"
+}

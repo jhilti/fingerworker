@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "scope": "Small printed metal-shape mockups and hard return pads; geometric orientation and real isolated Bambu H2D/PETG slicing, no physical load qualification",
+  "changes": [
+    "H02 -90 degrees about source STL Y",
+    "H12 +90 degrees about source STL Y; normal supports anywhere",
+    "H19/H22 outer brim 3mm and slow tiny features",
+    "P07 object-specific layer_height 0.1mm for actual 1.5mm height"
+  ],
+  "unchanged": [
+    "H04",
+    "H05",
+    "H06",
+    "H13",
+    "H14",
+    "H15",
+    "P07 geometry"
+  ],
+  "rigid_transforms": [
+    {
+      "part": "H02",
+      "rigid_rotation_degrees": -90,
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "roundtrip_error_mm": 2.8565331755628464e-07,
+      "candidate_sha256": "f57c4b387f7ebf771067b3fbe68ab85cef289137074b85761e6a039ffaf8973d"
+    },
+    {
+      "part": "H12",
+      "rigid_rotation_degrees": 90,
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "roundtrip_error_mm": 9.5367431640625e-07,
+      "candidate_sha256": "2ba07d60a2227aca1073f2018da010d8d6f87f4172bf2e9611e5c93aeabe2bfb"
+    }
+  ],
+  "parts_reviewed": 14,
+  "finepad_actual_height_mm": 1.5,
+  "same_plate_tall_sleeve_layer_height_mm": 0.2,
+  "same_plate_tall_sleeve_actual_height_mm": 86,
+  "slicer": "Bambu Studio 02.08.02.61",
+  "printer": "H2D",
+  "material": "PETG",
+  "nozzle_mm": 0.4,
+  "final_settings_reviewed_by_parent": true
+}

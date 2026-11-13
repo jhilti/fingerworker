@@ -1,0 +1,329 @@
+{
+  "revision": "Flat132 R15 inboard strap slots and no model brims",
+  "date": "2026-11-08",
+  "status": "PASS_NOMINAL_CAD_AND_PLA_PRINT",
+  "source_sha256": "97e2010cc17d06eb8648cf278b9aae2fd85b6e909bd657b9b216f3b37748665f",
+  "onshape_version": "e8453217d87e9cfdc9a33f65",
+  "onshape_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/e8453217d87e9cfdc9a33f65/e/d253eb87b70818ebde8215f0",
+  "native_solids": 93,
+  "device_bodies": 40,
+  "electronics_reference_bodies": 53,
+  "printed_device_bodies": 7,
+  "fit_test_pieces": 6,
+  "plates": 1,
+  "changed": [
+    "P01"
+  ],
+  "new": [],
+  "removed": [],
+  "unchanged_exact_native_breps": 92,
+  "PLA_standard": true,
+  "second_material_required": false,
+  "P01_reprint_required": true,
+  "P04_reprint_for_surface": false,
+  "new_prints_required": [
+    "P01"
+  ],
+  "fixed_preload_adjustment_mm": 0,
+  "fixed_rear_advance_mm": 0,
+  "user_travel_mm": 30,
+  "isometric_approach_mm": 15,
+  "isometric_sleeve_length_mm": 81,
+  "rest_spring_length_mm": 96,
+  "rest_spring_compression_mm": {
+    "DF2194": 6,
+    "DF2185": 9
+  },
+  "fixed_sensor_reaction_area_mm2": 454.4,
+  "estimates": [
+    {
+      "plate": 1,
+      "seconds": 39559,
+      "grams": 230.01
+    }
+  ],
+  "verification": {
+    "review/inboard-straps-2026-11-08/validation/native-geometry.json": {
+      "status": "PASS_EXACT_NATIVE_R15",
+      "sha256": "fc3620fdbdd388d4f77095d0da093578a0321425d573a1d859ff02f9fd3b41a8"
+    },
+    "review/inboard-straps-2026-11-08/validation/native-motion.json": {
+      "status": "PASS_NATIVE_FIXED_SUPPORT_AND_FULL_TRANSLATIONAL_MOTION",
+      "sha256": "d660cbc9aba0e2d548e7c5b7f736b6b3dd71aadd4eba207daffedc8f8c22df9f"
+    },
+    "review/inboard-straps-2026-11-08/validation/service-native.json": {
+      "status": "PASS_NATIVE_R15_SENSOR_SERVICE",
+      "sha256": "d95b34c3d5b92e0d47852c2ba9514b0be6fc03f15aebed6598bcdc9d6ce39a54"
+    },
+    "review/inboard-straps-2026-11-08/validation/fixture-q01-check.json": {
+      "status": "PASS_Q01_NATIVE_FIT",
+      "sha256": "5d16f2cca48f674f4ff53dbf583cd22cebb96fbe080d80ada7315bf883625a34"
+    },
+    "review/inboard-straps-2026-11-08/validation/independent-strap-native.json": {
+      "status": "PASS_NATIVE_INDEPENDENT_STRAP_REVIEW",
+      "sha256": "f5bf1364d6526bd966bfb52834379c9e9206437f895a4f5e874e4fe37a33e5e6"
+    },
+    "review/inboard-straps-2026-11-08/mechanics/preflight.json": {
+      "status": "PASS_LOCAL_INBOARD_STRAPS",
+      "sha256": "93a2cc33e3769f269135394c9b2a281640f30f4ed4aa99af78dc5c6b5090519b"
+    },
+    "review/inboard-straps-2026-11-08/evidence/strap-routing-visual-check.json": {
+      "status": "PASS_STRAP_ROUTING_VISUAL_CHECK",
+      "sha256": "0d23c16c59aa034a0c305c815be8561ea3649464a39f2fb2ee898ad234b5af63"
+    },
+    "print/bambu-R15-inboard-straps-2026-11-08/validation/native-project-check.json": {
+      "status": "PASS_NATIVE_R15_INBOARD_STRAPS",
+      "sha256": "02b9e3b75fee578bad9d6cc4d108bbd56ef9bb08e0d5f3af535c2ac2c03fb50c"
+    },
+    "print/bambu-R15-inboard-straps-2026-11-08/validation/toolpath-check.json": {
+      "status": "PASS_ACTUAL_R15_INBOARD_STRAPS_TOOLPATHS",
+      "sha256": "1d24cda83a13899ccd5db5805c9fb5f913d91b7c298568705781638e409587aa"
+    },
+    "print/bambu-R15-inboard-straps-2026-11-08/validation/print-feature-check.json": {
+      "status": "PASS_R15_PRINT_FEATURES",
+      "sha256": "7933de29eac3e612de1bb1b2e6fba4cf6712c93b46f4f323c59ba2e8e5d7a9de"
+    },
+    "print/bambu-R15-inboard-straps-2026-11-08/validation/palm-support-check.json": {
+      "status": "PASS_R15_PALM_SUPPORTS",
+      "sha256": "a34d396217d3611dbbea831a119955c654e87955a47c98aa35db8bd8935dda18"
+    },
+    "print/bambu-R15-inboard-straps-2026-11-08/validation/strap-slot-check.json": {
+      "status": "PASS_R15_STRAP_SLOT_PRINT_PATHS",
+      "sha256": "fb6f4893109921dcd240927c42e8d48c88f0d23ab30a0f699c420f099fbef315"
+    },
+    "print/bambu-R15-inboard-straps-2026-11-08/validation/strap-routing-check.json": {
+      "status": "PASS_NATIVE_R15_STRAP_ROUTING",
+      "sha256": "5d886e72346ce9c7e2b1210db8117965fee187cf5684286549c0db8a2a35b4d1"
+    },
+    "print/bambu-R15-inboard-straps-2026-11-08/validation/p04-surface-check.json": {
+      "status": "PASS",
+      "sha256": "43210eb00d0dfdd2a761876ea16a446c02e857a04d0f015eb0f02028f3932624"
+    },
+    "print/bambu-R15-inboard-straps-2026-11-08/validation/no-brim-check.json": {
+      "status": "PASS_R15_NO_BRIM",
+      "sha256": "cb84ee402013245f963ee9ae19c93910e544e9b9bf3cbf5cdea83a20b66e709d"
+    },
+    "print/bambu-R15-inboard-straps-2026-11-08/validation/cli-diagnostics.json": {
+      "status": "PASS_R15_OFFICIAL_H2D_DIAGNOSTICS",
+      "sha256": "2ba4eaef2656f151d0958a2456853588d622e619592670608206351bc1c80cd7"
+    },
+    "print/bambu-R15-inboard-straps-2026-11-08/validation/independent-profile-review.json": {
+      "status": "PASS_INDEPENDENT_PROFILE_REVIEW",
+      "sha256": "2cfb16f17c05c1ea71f893a8bbe84a13a0efe5d23b5eb01bdd64baaa1b0ad7f4"
+    }
+  },
+  "files_sha256": {
+    "review/inboard-straps-2026-11-08/evidence/P01-final-native.png": "1683f506c2ce44aa2bcaa45a31e83e6cfc4f3b05139b73eed6a1434c8f3425af",
+    "review/inboard-straps-2026-11-08/evidence/P01-final-native-provenance.json": "40d797be7960b32b507f885be14dc093179c6fbd2f83552adedad5c93e1c0fba",
+    "review/inboard-straps-2026-11-08/fingerworker_R15_inboard_straps.fs": "97e2010cc17d06eb8648cf278b9aae2fd85b6e909bd657b9b216f3b37748665f",
+    "review/inboard-straps-2026-11-08/native/Flat132_R15_final_AP214.step": "5964654c121d6d375011bfb24144b2e00678a7ccac430490e83349c44de5842e",
+    "review/inboard-straps-2026-11-08/native/Flat132_R15_neutral_final.zip": "0cb5a71bfd096b6ea2303cc1ee3607ce7b5393a111e24cd2032cb5d49915144e",
+    "print/bambu-R15-inboard-straps-2026-11-08/Fingerworker_R15_H2D_04mm_PLA_Inboard_Straps.3mf": "860843b3df9f988d67db68bae78e30dd8f2d7fc0fbe8e4c810ef78087e17eaa1",
+    "print/bambu-R15-inboard-straps-2026-11-08/Fingerworker_R15_H2D_04mm_PLA_Inboard_Straps_Package.zip": "bd67b33f3b434be92b840c8eb78c26bcac88645281187fae61ed04326e328d80",
+    "print/bambu-R15-inboard-straps-2026-11-08/delivery-specification.json": "38c2d59630e9ff1e0fee3a496e7794f295022ea8a9b076c4e10b62cfeb03346f",
+    "review/inboard-straps-2026-11-08/documentation-ready.json": "48dcb301d1dc8b43b5dd822aa829005b5c1e70974ac75f5d33afc29dc20801b0",
+    "review/inboard-straps-2026-11-08/mechanics/design-specification.json": "0025be091206dabefa94dc0199ea30641da2c052c4355ebeabd9652063586ab4"
+  },
+  "limitations": "Nominal CAD and calculated toolpaths only. Real PLA fit, latch force, support removal, cycling, creep, sensor calibration and loaded performance require physical verification. Clips support unloaded assembly; securing screws remain for loaded use. No 500 N qualification. Q01/printed rods are unloaded fit aids only.",
+  "overview_assets": {
+    "cad_image": "review/inboard-straps-2026-11-08/evidence/P01-final-native.png",
+    "cad_image_provenance": "review/inboard-straps-2026-11-08/evidence/P01-final-native-provenance.json",
+    "strap_image": "review/inboard-straps-2026-11-08/evidence/strap-routing.svg"
+  },
+  "primary_printed_device_bodies": 5,
+  "primary_unloaded_fixtures": 1,
+  "omitted_from_primary_print": [
+    "P08",
+    "P09",
+    "H040",
+    "H041"
+  ],
+  "modifier_count": 4,
+  "local_density_modifiers": [
+    {
+      "name": "Inboard slot X28_Y-57.5 - local100% infill",
+      "native_bounds_mm": [
+        [
+          9.5,
+          -66,
+          -2
+        ],
+        [
+          46.5,
+          -52,
+          4
+        ]
+      ],
+      "sparse_infill_density": "100%",
+      "sparse_infill_pattern": "zig-zag",
+      "purpose": "Solid inboard slot bearing ligaments; does not add printed geometry"
+    },
+    {
+      "name": "Inboard slot X28_Y57.5 - local100% infill",
+      "native_bounds_mm": [
+        [
+          9.5,
+          52,
+          -2
+        ],
+        [
+          46.5,
+          66,
+          4
+        ]
+      ],
+      "sparse_infill_density": "100%",
+      "sparse_infill_pattern": "zig-zag",
+      "purpose": "Solid inboard slot bearing ligaments; does not add printed geometry"
+    },
+    {
+      "name": "Inboard slot X65_Y-57.5 - local100% infill",
+      "native_bounds_mm": [
+        [
+          46.5,
+          -66,
+          -2
+        ],
+        [
+          83.5,
+          -52,
+          4
+        ]
+      ],
+      "sparse_infill_density": "100%",
+      "sparse_infill_pattern": "zig-zag",
+      "purpose": "Solid inboard slot bearing ligaments; does not add printed geometry"
+    },
+    {
+      "name": "Inboard slot X65_Y57.5 - local100% infill",
+      "native_bounds_mm": [
+        [
+          46.5,
+          52,
+          -2
+        ],
+        [
+          83.5,
+          66,
+          4
+        ]
+      ],
+      "sparse_infill_density": "100%",
+      "sparse_infill_pattern": "zig-zag",
+      "purpose": "Solid inboard slot bearing ligaments; does not add printed geometry"
+    }
+  ],
+  "near_palm": {
+    "revision": "R15",
+    "contact_width_mm": 76,
+    "contact_depth_mm": 18,
+    "contact_envelope_mm": [
+      [
+        -34,
+        -38,
+        14.4
+      ],
+      [
+        -16,
+        38,
+        33
+      ]
+    ],
+    "crown_x_mm": [
+      -20,
+      -19
+    ],
+    "crown_z_mm": 33,
+    "wrist_radius_mm": 14,
+    "sensor_facing_radius_mm": 3,
+    "end_radius_mm": 2,
+    "nose_underside_degrees": 45,
+    "retained_original_wall_below_z_mm": 30,
+    "original_sensor_reaction_max_z_mm": 26,
+    "buttress_tip_removed_mm3": 118.34550000000004,
+    "added_mm3": 0.0,
+    "removed_mm3": 11135.845379041564,
+    "P01_volume_mm3": 164696.83488243067,
+    "baseline_P01_volume_mm3": 175832.68710652113,
+    "source_sha256": "97e2010cc17d06eb8648cf278b9aae2fd85b6e909bd657b9b216f3b37748665f",
+    "baseline_source_sha256": "9286d5a51880dc79d1e9a07135e8c905f4022a1ed757801b8430f23f51a04829",
+    "baseline_native_step_sha256": "ad1fb9bda2a999a953399451585e821181082535fdc15fe30b0b43e90b2c6054",
+    "changed": [
+      "P01"
+    ],
+    "other_native_bodies_unchanged": 92,
+    "device_printed_parts": 7,
+    "minimum_contact_to_H12_rear_plane_x_gap_mm": 4,
+    "obsolete_stock_removed": "Old outer bolster and high broad web aboveZ14.5, excluding fixed wall and original rod blocks. Wall upper rim and buttress tips sculpted only aboveZ30.",
+    "limitations": "Nominal CAD design dimensions. Authoritative native geometry, service/motion and slicing validation are separate hash-bound release reports. No new loaded-strength qualification.",
+    "strap_mount": {
+      "slot_count": 4,
+      "position_count": 2,
+      "position_x_mm": [
+        28,
+        65
+      ],
+      "position_spacing_mm": 37,
+      "slot_center_y_mm": [
+        -57.5,
+        57.5
+      ],
+      "slot_size_mm": [
+        27,
+        4
+      ],
+      "slot_plan_end_radius_mm": 2,
+      "slot_top_radius_mm": 0.8,
+      "slot_bottom_chamfer_mm": 0.8,
+      "slot_bottom_chamfer_degrees": 45,
+      "strap_width_mm": 25,
+      "strap_thickness_envelope_mm": 2,
+      "external_doubled_thickness_envelope_mm": 4,
+      "minimum_throat_chord_at_2mm_band_mm": 26.464101615137753,
+      "overall_width_mm": 132.4,
+      "main_floor_width_mm": 132,
+      "existing_latch_boss_width_mm": 132.4,
+      "eye_z_mm": [
+        -2,
+        4
+      ],
+      "original_floor_thickness_mm": 6,
+      "floor_recess_mm": 0,
+      "nominal_outer_bar_mm": 6.5,
+      "minimum_outer_bar_at_top_surface_mm": 4.2,
+      "nominal_inner_rail_mm": 17.5,
+      "slot_end_spacing_mm": 10,
+      "strap_quantity": 2,
+      "straps_printed": false,
+      "extra_printed_parts": 0,
+      "routing": "Each end rises through its inboard slot, turns over the outer bearing strip, descends outside and fastens back to itself. The free strap wraps under the chosen object; no across-top ribbon. Folded ends remain outside.",
+      "route_audit_extent_z_mm": [
+        -20,
+        8
+      ],
+      "route_audit_outer_y_mm": 70,
+      "intended_bearing_contacts": "Top of outer strip atZ4 and outside edge atY+/-66. Positive volume overlap prohibited; face contact intended.",
+      "station_selection": "X28/65 keeps the rear25mm ribbon span3.5mm before the exact native full-stroke rear-bridge startX81; front band beginsX15.5 after the fixedseat endX12. Source carriage is already advanced5mm in the native rest configuration; audit adds the full30mm stroke to that native pose. OriginalX80 rearstation would interfere with the moving bridge.",
+      "limitations": "Nominal25x2mm ribbon allowance. Physical strap fit, force capacity and creep require printed validation; smaller37mm station spacing gives less rotational restraint than R14."
+    }
+  },
+  "new_nonprinted_parts": {},
+  "gui_preview_limitation": {
+    "status": "PASS_GUI_IMPORT_AND_PLATE_LAYOUT_ONLY",
+    "opened_generic_project_sha256": "860843b3df9f988d67db68bae78e30dd8f2d7fc0fbe8e4c810ef78087e17eaa1",
+    "observed_via": "Native CUA Bambu Studio screenshot and accessibility tree on 2026-11-08",
+    "project_window_title": "Fingerworker_R15_H2D_04mm_PLA_Inboard_Straps",
+    "printer_profile": "Bambu Lab H2D",
+    "nozzles_observed": "Both 0.4 mm Standard",
+    "filament_observed": "Generic PLA",
+    "bed_observed": "Textured PEI",
+    "plate_count_observed": 1,
+    "physical_objects_observed": 6,
+    "modifiers_observed": 4,
+    "gui_sliced_preview_status": "NOT_RUN_USER_ACTIVE_FILAMENT_MAPPING",
+    "limitation": "After successful import/layout observation, local Slice click was aborted before dispatch because the user changed the app. A fresh accessibility observation showed the AMS filament synchronization dialog. The user dialog was left untouched. Final slice estimates and no-brim verification are from the official CLI and actual toolpath audits, not a GUI sliced preview.",
+    "printer_job_started": false,
+    "evidence": {}
+  },
+  "brim_policy": "All six model objects: no_brim, width0. Necessary supports retained."
+}

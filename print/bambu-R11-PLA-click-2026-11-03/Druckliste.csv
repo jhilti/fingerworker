@@ -1,0 +1,14 @@
+Ref,Menge,Platte,Material,Hinweis,STL
+P01,1,1,PLA,INTEGRATED BASE AND SOLID PALM - UNLOADED FIT STUDY,P01.stl
+P04,1,3,PLA,R11 PLA assembly study,P04.stl
+P05,1,2,PLA,R11 PLA assembly study,P05.stl
+P08,1,2,PLA,R11 PLA assembly study,P08.stl
+P09,1,2,PLA,R11 PLA assembly study,P09.stl
+H040,1,2,PLA,RIGID PLA SHAPE PROXY - NO LOAD,H040.stl
+H041,1,2,PLA,RIGID PLA SHAPE PROXY - NO LOAD,H041.stl
+P060,1,2,PLA,R11 PLA assembly study,P060.stl
+P061,1,2,PLA,R11 PLA assembly study,P061.stl
+P120,1,2,PLA,R11 PLA assembly study,P120.stl
+P121,1,2,PLA,R11 PLA assembly study,P121.stl
+P11,1,2,PLA,R11 PLA assembly study,P11.stl
+Q01,1,2,PLA,UNLOADED TEST FIXTURE - NOT A PRODUCTION PART,Q01.stl

@@ -1,0 +1,15 @@
+# Flat132 R7 — compact rear with adjustable resting grip
+
+R7 replaces the fixed rear return spacers with **two screw-adjusted return shoes**. The rear frame, caps and guide-rod ends move 5 mm forward. Including the adjusters, the physical-device X depth is **176.5 mm at a=0**, versus 180.1 mm in R6: **3.6 mm less depth**. At a=2, the fixed capture bosses set a 175.6 mm envelope. Width remains 132 mm, finger opening 72 mm and assembly height 35 mm. The one-piece rigid P02 palm and 81 mm steel isometric sleeves remain.
+
+Rear setting `a=0…2 mm` and sensor preload `p=0…2 mm` share a **combined 2 mm budget**: `a+p≤2`. Usable dynamic stroke is `30−a−p mm`, preserving **28–30 mm**. Both rear screws need equal measured setup and manual jam locking; the model has no physical synchronization. With springs unloaded, a specified FACOM through-box tool and long 2 mm hex provide a nominal mounted adjustment route. Actual tool reach/clearance, screw locking and flat-pad attachment need physical checks; details are in the print notes.
+
+**Native regeneration and independent nominal geometry checks passed, with zero failed or unresolved checks.** The final native STEP contains 123 valid solids: 70 device parts plus 53 electronics references. All four whole native poses are verified; 100 unchanged native BReps and exact source scope support reuse of the retained R6 front mechanism evidence. The changed rear receives new construction, continuous-domain clearance, capture, tool-envelope and service checks. **500 N remains an unqualified design target**; print strength, creep/fatigue, real hardware fit, calibration and hand comfort require physical qualification.
+
+The physical-device footprint excludes external USB-approach and side-button travel reference volumes (REF E06/E08), which remain in the complete STEP inventory. The viewer and device STL set contain the 70 P/H parts. The electronics enclosure/lid and solid palm are retained; the previously discussed 9 mm cover extension is not added.
+
+Read [print and assembly notes](PRINT_NOTES.md), [final specification](final-specification.json), [finalization notes](finalization-notes.md) and [validation](validation/validation-summary.md). The exact native sets contain **16 print STLs**, **70 device assembly STLs**, and **two 81 mm steel sleeve STLs** in `hardware-mm`. All remain in millimetres and original assembly coordinates, without scaling or remeshing. A closed palm CAD block does not prescribe slicer infill.
+
+[Interactive viewer](http://127.0.0.1:8775/viewer/viewer.html) · [Frozen R7 Onshape](https://cad.onshape.com/documents/15316cc6370631845af136b2/v/6dd467818da7364197461627/e/d253eb87b70818ebde8215f0) · [Native STEP](native/Flat132_R7_final_AP214.step) · [STEP/STL package](deliverables/Flat132_R7_Adjustable_Rear.zip)
+
+Source: [fingerworker_flat132_adjustable_rear.fs](fingerworker_flat132_adjustable_rear.fs), SHA256 `d42805e8ee10158408099bf7185e49cf9a6eb06c23c327c90c01edfcd04eaddd`. The [builder](build_adjustable_rear.py), [source ledger](source-build.json) and [portable build check](portable-build-check.json) preserve its exact R6 derivation. Frozen R6 remains separate.

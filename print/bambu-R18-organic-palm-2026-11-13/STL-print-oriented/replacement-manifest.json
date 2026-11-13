@@ -1,0 +1,35 @@
+{
+  "units": "mm",
+  "scale": 1,
+  "quantity_each": 1,
+  "note": "P01 alternate STL only. The replacement 3MF already contains it; do not import additionally.",
+  "parts": {
+    "P01": {
+      "file": "P01.stl",
+      "sha256": "c55b87cb74f13638486dfcd709b87a0b4a97d2d25ea905488771d12bef1654d0",
+      "source_sha256": "be42108fa89941a0f7dbae4df4cec33a9402b8316e8c42922475309060faf554",
+      "rotation_3x3": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "normalization_translation_mm": [
+        46.10000228881836,
+        66.20000457763672,
+        2.0
+      ]
+    }
+  }
+}

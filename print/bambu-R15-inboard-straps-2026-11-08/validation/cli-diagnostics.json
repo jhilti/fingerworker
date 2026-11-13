@@ -1,0 +1,107 @@
+{
+  "status": "PASS_R15_OFFICIAL_H2D_DIAGNOSTICS",
+  "classification": "All warning/error messages are compared with the frozen R13 six-piece run; each has one plate. Only the expected process-preset filename is changed to the declared embedded R15 profile name, without suppressing any message. The documented per-plate messages remain: the T1001/T65535/T65279 parser errors and nozzle-list compatibility warning. These retained vendor parser diagnostics are explicitly recorded, not described as an error-free log.",
+  "plate_count": 1,
+  "baseline_plate_count": 1,
+  "warnings_and_errors": [
+    {
+      "severity": "error",
+      "message": "Invalid T command (T1001).",
+      "count": 1,
+      "baseline_count": 1,
+      "baseline_message": "Invalid T command (T1001).",
+      "expected_count": 1,
+      "counting": "per plate"
+    },
+    {
+      "severity": "error",
+      "message": "Invalid T command (T65279).",
+      "count": 1,
+      "baseline_count": 1,
+      "baseline_message": "Invalid T command (T65279).",
+      "expected_count": 1,
+      "counting": "per plate"
+    },
+    {
+      "severity": "error",
+      "message": "Invalid T command (T65535).",
+      "count": 1,
+      "baseline_count": 1,
+      "baseline_message": "Invalid T command (T65535).",
+      "expected_count": 1,
+      "counting": "per plate"
+    },
+    {
+      "severity": "warning",
+      "message": "cli mode, Current BambuStudio Version 02.08.02.61",
+      "count": 1,
+      "baseline_count": 1,
+      "baseline_message": "cli mode, Current BambuStudio Version 02.08.02.61",
+      "expected_count": 1,
+      "counting": "per run"
+    },
+    {
+      "severity": "warning",
+      "message": "load_nozzle_infos_with_compatibility: building nozzle list from filament map and volume types",
+      "count": 1,
+      "baseline_count": 1,
+      "baseline_message": "load_nozzle_infos_with_compatibility: building nozzle list from filament map and volume types",
+      "expected_count": 1,
+      "counting": "per plate"
+    },
+    {
+      "severity": "warning",
+      "message": "no filament colors found in projects",
+      "count": 1,
+      "baseline_count": 1,
+      "baseline_message": "no filament colors found in projects",
+      "expected_count": 1,
+      "counting": "per run"
+    },
+    {
+      "severity": "warning",
+      "message": "run:2873, can not find system preset file: /private/tmp/fingerworker-bambu-r8-runtime/BambuStudio.app/Contents/Resources/profiles/BBL/machine_full/Bambu Lab H2D 0.4 nozzle.json",
+      "count": 1,
+      "baseline_count": 1,
+      "baseline_message": "run:2873, can not find system preset file: /private/tmp/fingerworker-bambu-r8-runtime/BambuStudio.app/Contents/Resources/profiles/BBL/machine_full/Bambu Lab H2D 0.4 nozzle.json",
+      "expected_count": 1,
+      "counting": "per run"
+    },
+    {
+      "severity": "warning",
+      "message": "run:2895, can not find system preset file: /private/tmp/fingerworker-bambu-r8-runtime/BambuStudio.app/Contents/Resources/profiles/BBL/process_full/Fingerworker R15 inboard straps no brim 0.20mm.json",
+      "count": 1,
+      "baseline_count": 1,
+      "baseline_message": "run:2895, can not find system preset file: /private/tmp/fingerworker-bambu-r8-runtime/BambuStudio.app/Contents/Resources/profiles/BBL/process_full/Fingerworker R13 mechanics overnight 0.20mm.json",
+      "expected_count": 1,
+      "counting": "per run"
+    }
+  ],
+  "unexpected_diagnostics": [],
+  "missing_expected_diagnostics": [],
+  "declared_process_preset_name_change": {
+    "baseline": "Fingerworker R13 mechanics overnight 0.20mm",
+    "current": "Fingerworker R15 inboard straps no brim 0.20mm"
+  },
+  "official_machine_macros_identical_to_R13": true,
+  "machine_macro_hashes": {
+    "gcode_flavor": "0327681c6d43af1719a752a088e93f5192c8740abee2bc63353fe4eff7749287",
+    "machine_start_gcode": "4ec8b2713943115211e1609afa26387ddf8879a1734f2b394d0d69d419539ef5",
+    "machine_end_gcode": "ff2fab8336b6ad542da23462dfd10a184393e5b24c08b2fa3d9b7958b6f5da61",
+    "time_lapse_gcode": "2b9c04541ef0dadc85a85aa2dd5da4af0b7af97cbd0a044ec4bb10f37bba0987",
+    "wrapping_detection_gcode": "9fd5b89fad81b7e0630add42bb742c6974e2d757cbdfd2a69492e3e4a0842847",
+    "change_filament_gcode": "2153741c80f920455d8a9023fcff2f52aa1f2a17436785bde511702f5245d092",
+    "layer_change_gcode": "a99517bc5a923d244b820f64c6d67effd0dd71c5863301bbf7578463805a4641",
+    "machine_pause_gcode": "421d0316bd5e4954c4425af1b89603412254dde55fe6eaf70c90b5b4e620fb66"
+  },
+  "cli_exit_code": 0,
+  "baseline_cli_exit_code": 0,
+  "log_sha256": "c34a7f556ef1c2f14a5c3ea3a329f69710925bf3bb6a49c5449ff253110e7b30",
+  "baseline_log_sha256": "76dce6e2d0f3f6e2e021b765a8c6d70038710b84e36d25bd82e538e641fa6b23",
+  "sliced_archive_sha256": "a121127456c1da2cdb51b6cc53c52e4b02b5afb1a10c52a2cc875619dc414551",
+  "baseline_sliced_archive_sha256": "ec80ac1408589cf306cb67abb51df17cfe9c8a78e1976d358bbdd07e41004dc5",
+  "CAD_source_sha256": "97e2010cc17d06eb8648cf278b9aae2fd85b6e909bd657b9b216f3b37748665f",
+  "layout_sha256": "15bae7c934c2f575c510262389da0e052d751dec861b9fbdd5b66ccfbd88324e",
+  "validator_sha256": "18c41ea6b1093471a66f3c8c6ab376c5e462cc1b757dff614df7fba5c8795a5d",
+  "scope": "Local slicer completion and diagnostic comparison. Editable-project validation separately checks exact settings/meshes and the complete one-plate slice. No printer job sent."
+}

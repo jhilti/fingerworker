@@ -1,0 +1,6 @@
+# Use the existing project CAD runtime:
+# /tmp/fingerworker-sensor-cad-20261022/bin/python
+cadquery-ocp
+numpy
+trimesh
+manifold3d

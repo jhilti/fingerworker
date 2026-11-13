@@ -1,0 +1,33 @@
+{
+  "status": "PASS_R20_SHARE_STATIC_AND_SOURCE_BINDING",
+  "html_sha256": "2362635e1bf85c2c536d24a2df35be29fcc17db0b073d4d8eb2344a11de2d74a",
+  "zip_sha256": "806871ba89a0a312c060a7a23cf2fd2cc98bf46877d29acac8e36c94b76a958c",
+  "native_release_binding_sha256": "f133bcfad204d4f5e6afea79212f7057538faa7d003912fed702e3b94d383e28",
+  "exact_embedded_payload": true,
+  "zip_integrity": true,
+  "r19_artifacts_unchanged": true,
+  "visibility_counts": {
+    "all": 94,
+    "mechanics": 39,
+    "inside": 92,
+    "plastic": 8
+  },
+  "static_checks": {
+    "required_ids_present": true,
+    "unique_ids": true,
+    "no_external_resource_references": true,
+    "no_unresolved_placeholders": true,
+    "no_local_file_or_preview_urls": true,
+    "no_network_api_calls": true,
+    "embedded_fallback": true,
+    "touch_controls_present": true
+  },
+  "browser_validation": "PENDING_ROOT_CHECK_R20; controls previously passed in R19",
+  "printing_setup_changed": false,
+  "build_sources_sha256": {
+    "share/r19-viewer/build.py": "4c25031adc459367bb1fcab8960fc0dcd3e51c7a02fe72063dc77c1042f3460f",
+    "share/r19-viewer/template.html": "0a7a618cf656dac822a0bf1c936f4a6f8a85f61b87b6ff9a09e4d90bc33cd288",
+    "share/r19-viewer/viewer.js": "2736389e8fea103c1d01ef1f44f45c45d97fdc7734c4b4c06d64391557c33674",
+    "share/r20-viewer/highlights.json": "aabd987027a476553b19dc0a2a5f619bcc9fc6cf20118a4666bcb36b8d5235ef"
+  }
+}

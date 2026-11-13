@@ -1,0 +1,540 @@
+{
+  "status": "PASS_LOCAL_R15_STRAP_ROUTING_CANDIDATE",
+  "checks": [
+    {
+      "name": "Finite2mm single/4mm return envelope valid 0",
+      "status": "PASS",
+      "bounds_mm": [
+        [
+          15.5,
+          -70.0,
+          -20.0
+        ],
+        [
+          40.5,
+          -56.5,
+          8.0
+        ]
+      ],
+      "station_x_mm": 28,
+      "slot_y_mm": -57.5
+    },
+    {
+      "name": "Whole motion separates strap0/P04",
+      "status": "PASS",
+      "complete_motion_bounds_mm": [
+        [
+          81.0,
+          -63.0,
+          4.9999999999999964
+        ],
+        [
+          119.0,
+          -56.5,
+          8.0
+        ]
+      ],
+      "relative_x_interval_mm": [
+        -30,
+        0
+      ],
+      "axis_separations_mm": [
+        40.5,
+        -6.5,
+        -3.0000000000000036
+      ],
+      "separating_axis": "X",
+      "clipped_native_volume_mm3": 156.0,
+      "proof": "Exact native solid is intersected with the full routeY/Z slab; itsAABB extends minimumX over the entire negative translation and maximumX over the entire positive translation. Positive separation certifies all intermediate poses, not sampled positions."
+    },
+    {
+      "name": "Whole motion separates strap0/H060",
+      "status": "PASS",
+      "translation_x_interval_mm": [
+        -30,
+        0
+      ],
+      "clipped_native_volume_mm3": 0.0,
+      "proof": "Exact complete routeY/Z slab contains no native solid volume; pureX translation cannot alter that."
+    },
+    {
+      "name": "Whole motion separates strap0/H061",
+      "status": "PASS",
+      "translation_x_interval_mm": [
+        -30,
+        0
+      ],
+      "clipped_native_volume_mm3": 0.0,
+      "proof": "Exact complete routeY/Z slab contains no native solid volume; pureX translation cannot alter that."
+    },
+    {
+      "name": "Whole motion separates strap0/P11",
+      "status": "PASS",
+      "translation_x_interval_mm": [
+        -30.8,
+        0.8
+      ],
+      "clipped_native_volume_mm3": 0.0,
+      "proof": "Exact complete routeY/Z slab contains no native solid volume; pureX translation cannot alter that."
+    },
+    {
+      "name": "Whole motion separates strap0/H10",
+      "status": "PASS",
+      "translation_x_interval_mm": [
+        -30.8,
+        0.8
+      ],
+      "clipped_native_volume_mm3": 0.0,
+      "proof": "Exact complete routeY/Z slab contains no native solid volume; pureX translation cannot alter that."
+    },
+    {
+      "name": "Whole rear-gate release separates strap0",
+      "status": "PASS",
+      "conservative_release_bounds_mm": [
+        [
+          104.70000000000002,
+          -68.5,
+          4.4999999
+        ],
+        [
+          141.0,
+          68.5,
+          28.0000001
+        ]
+      ],
+      "axis_separations_mm": [
+        64.20000000000002,
+        -12.0,
+        -3.5000001000000003
+      ],
+      "release_x_mm": [
+        0,
+        12
+      ],
+      "maximum_outward_clip_deflection_mm": 0.9
+    },
+    {
+      "name": "Seated route has no positive overlap 0",
+      "status": "PASS",
+      "exact_nearby_tests": [
+        {
+          "ref": "P01",
+          "valid_boolean": true,
+          "intersection_mm3": 0.0
+        },
+        {
+          "ref": "P05",
+          "valid_boolean": true,
+          "intersection_mm3": 0.0
+        }
+      ],
+      "all_other_parts_proved_separate_by_bounds": true,
+      "intended_contact": "Outer bearing strip topZ4 and outsideY\u00b166 edge may touch; no positive solid intersection permitted."
+    },
+    {
+      "name": "Finite2mm single/4mm return envelope valid 1",
+      "status": "PASS",
+      "bounds_mm": [
+        [
+          15.5,
+          56.5,
+          -20.0
+        ],
+        [
+          40.5,
+          70.0,
+          8.0
+        ]
+      ],
+      "station_x_mm": 28,
+      "slot_y_mm": 57.5
+    },
+    {
+      "name": "Whole motion separates strap1/P04",
+      "status": "PASS",
+      "complete_motion_bounds_mm": [
+        [
+          81.0,
+          56.5,
+          4.9999999999999964
+        ],
+        [
+          119.0,
+          63.0,
+          8.0
+        ]
+      ],
+      "relative_x_interval_mm": [
+        -30,
+        0
+      ],
+      "axis_separations_mm": [
+        40.5,
+        -6.5,
+        -3.0000000000000036
+      ],
+      "separating_axis": "X",
+      "clipped_native_volume_mm3": 156.0,
+      "proof": "Exact native solid is intersected with the full routeY/Z slab; itsAABB extends minimumX over the entire negative translation and maximumX over the entire positive translation. Positive separation certifies all intermediate poses, not sampled positions."
+    },
+    {
+      "name": "Whole motion separates strap1/H060",
+      "status": "PASS",
+      "translation_x_interval_mm": [
+        -30,
+        0
+      ],
+      "clipped_native_volume_mm3": 0.0,
+      "proof": "Exact complete routeY/Z slab contains no native solid volume; pureX translation cannot alter that."
+    },
+    {
+      "name": "Whole motion separates strap1/H061",
+      "status": "PASS",
+      "translation_x_interval_mm": [
+        -30,
+        0
+      ],
+      "clipped_native_volume_mm3": 0.0,
+      "proof": "Exact complete routeY/Z slab contains no native solid volume; pureX translation cannot alter that."
+    },
+    {
+      "name": "Whole motion separates strap1/P11",
+      "status": "PASS",
+      "translation_x_interval_mm": [
+        -30.8,
+        0.8
+      ],
+      "clipped_native_volume_mm3": 0.0,
+      "proof": "Exact complete routeY/Z slab contains no native solid volume; pureX translation cannot alter that."
+    },
+    {
+      "name": "Whole motion separates strap1/H10",
+      "status": "PASS",
+      "translation_x_interval_mm": [
+        -30.8,
+        0.8
+      ],
+      "clipped_native_volume_mm3": 0.0,
+      "proof": "Exact complete routeY/Z slab contains no native solid volume; pureX translation cannot alter that."
+    },
+    {
+      "name": "Whole rear-gate release separates strap1",
+      "status": "PASS",
+      "conservative_release_bounds_mm": [
+        [
+          104.70000000000002,
+          -68.5,
+          4.4999999
+        ],
+        [
+          141.0,
+          68.5,
+          28.0000001
+        ]
+      ],
+      "axis_separations_mm": [
+        64.20000000000002,
+        -12.0,
+        -3.5000001000000003
+      ],
+      "release_x_mm": [
+        0,
+        12
+      ],
+      "maximum_outward_clip_deflection_mm": 0.9
+    },
+    {
+      "name": "Seated route has no positive overlap 1",
+      "status": "PASS",
+      "exact_nearby_tests": [
+        {
+          "ref": "P01",
+          "valid_boolean": true,
+          "intersection_mm3": 0.0
+        },
+        {
+          "ref": "P05",
+          "valid_boolean": true,
+          "intersection_mm3": 0.0
+        }
+      ],
+      "all_other_parts_proved_separate_by_bounds": true,
+      "intended_contact": "Outer bearing strip topZ4 and outsideY\u00b166 edge may touch; no positive solid intersection permitted."
+    },
+    {
+      "name": "Finite2mm single/4mm return envelope valid 2",
+      "status": "PASS",
+      "bounds_mm": [
+        [
+          52.5,
+          -70.0,
+          -20.0
+        ],
+        [
+          77.5,
+          -56.5,
+          8.0
+        ]
+      ],
+      "station_x_mm": 65,
+      "slot_y_mm": -57.5
+    },
+    {
+      "name": "Whole motion separates strap2/P04",
+      "status": "PASS",
+      "complete_motion_bounds_mm": [
+        [
+          81.0,
+          -63.0,
+          4.9999999999999964
+        ],
+        [
+          119.0,
+          -56.5,
+          8.0
+        ]
+      ],
+      "relative_x_interval_mm": [
+        -30,
+        0
+      ],
+      "axis_separations_mm": [
+        3.5,
+        -6.5,
+        -3.0000000000000036
+      ],
+      "separating_axis": "X",
+      "clipped_native_volume_mm3": 156.0,
+      "proof": "Exact native solid is intersected with the full routeY/Z slab; itsAABB extends minimumX over the entire negative translation and maximumX over the entire positive translation. Positive separation certifies all intermediate poses, not sampled positions."
+    },
+    {
+      "name": "Whole motion separates strap2/H060",
+      "status": "PASS",
+      "translation_x_interval_mm": [
+        -30,
+        0
+      ],
+      "clipped_native_volume_mm3": 0.0,
+      "proof": "Exact complete routeY/Z slab contains no native solid volume; pureX translation cannot alter that."
+    },
+    {
+      "name": "Whole motion separates strap2/H061",
+      "status": "PASS",
+      "translation_x_interval_mm": [
+        -30,
+        0
+      ],
+      "clipped_native_volume_mm3": 0.0,
+      "proof": "Exact complete routeY/Z slab contains no native solid volume; pureX translation cannot alter that."
+    },
+    {
+      "name": "Whole motion separates strap2/P11",
+      "status": "PASS",
+      "translation_x_interval_mm": [
+        -30.8,
+        0.8
+      ],
+      "clipped_native_volume_mm3": 0.0,
+      "proof": "Exact complete routeY/Z slab contains no native solid volume; pureX translation cannot alter that."
+    },
+    {
+      "name": "Whole motion separates strap2/H10",
+      "status": "PASS",
+      "translation_x_interval_mm": [
+        -30.8,
+        0.8
+      ],
+      "clipped_native_volume_mm3": 0.0,
+      "proof": "Exact complete routeY/Z slab contains no native solid volume; pureX translation cannot alter that."
+    },
+    {
+      "name": "Whole rear-gate release separates strap2",
+      "status": "PASS",
+      "conservative_release_bounds_mm": [
+        [
+          104.70000000000002,
+          -68.5,
+          4.4999999
+        ],
+        [
+          141.0,
+          68.5,
+          28.0000001
+        ]
+      ],
+      "axis_separations_mm": [
+        27.200000000000017,
+        -12.0,
+        -3.5000001000000003
+      ],
+      "release_x_mm": [
+        0,
+        12
+      ],
+      "maximum_outward_clip_deflection_mm": 0.9
+    },
+    {
+      "name": "Seated route has no positive overlap 2",
+      "status": "PASS",
+      "exact_nearby_tests": [
+        {
+          "ref": "P01",
+          "valid_boolean": true,
+          "intersection_mm3": 0.0
+        },
+        {
+          "ref": "P04",
+          "valid_boolean": true,
+          "intersection_mm3": 0.0
+        }
+      ],
+      "all_other_parts_proved_separate_by_bounds": true,
+      "intended_contact": "Outer bearing strip topZ4 and outsideY\u00b166 edge may touch; no positive solid intersection permitted."
+    },
+    {
+      "name": "Finite2mm single/4mm return envelope valid 3",
+      "status": "PASS",
+      "bounds_mm": [
+        [
+          52.5,
+          56.5,
+          -20.0
+        ],
+        [
+          77.5,
+          70.0,
+          8.0
+        ]
+      ],
+      "station_x_mm": 65,
+      "slot_y_mm": 57.5
+    },
+    {
+      "name": "Whole motion separates strap3/P04",
+      "status": "PASS",
+      "complete_motion_bounds_mm": [
+        [
+          81.0,
+          56.5,
+          4.9999999999999964
+        ],
+        [
+          119.0,
+          63.0,
+          8.0
+        ]
+      ],
+      "relative_x_interval_mm": [
+        -30,
+        0
+      ],
+      "axis_separations_mm": [
+        3.5,
+        -6.5,
+        -3.0000000000000036
+      ],
+      "separating_axis": "X",
+      "clipped_native_volume_mm3": 156.0,
+      "proof": "Exact native solid is intersected with the full routeY/Z slab; itsAABB extends minimumX over the entire negative translation and maximumX over the entire positive translation. Positive separation certifies all intermediate poses, not sampled positions."
+    },
+    {
+      "name": "Whole motion separates strap3/H060",
+      "status": "PASS",
+      "translation_x_interval_mm": [
+        -30,
+        0
+      ],
+      "clipped_native_volume_mm3": 0.0,
+      "proof": "Exact complete routeY/Z slab contains no native solid volume; pureX translation cannot alter that."
+    },
+    {
+      "name": "Whole motion separates strap3/H061",
+      "status": "PASS",
+      "translation_x_interval_mm": [
+        -30,
+        0
+      ],
+      "clipped_native_volume_mm3": 0.0,
+      "proof": "Exact complete routeY/Z slab contains no native solid volume; pureX translation cannot alter that."
+    },
+    {
+      "name": "Whole motion separates strap3/P11",
+      "status": "PASS",
+      "translation_x_interval_mm": [
+        -30.8,
+        0.8
+      ],
+      "clipped_native_volume_mm3": 0.0,
+      "proof": "Exact complete routeY/Z slab contains no native solid volume; pureX translation cannot alter that."
+    },
+    {
+      "name": "Whole motion separates strap3/H10",
+      "status": "PASS",
+      "translation_x_interval_mm": [
+        -30.8,
+        0.8
+      ],
+      "clipped_native_volume_mm3": 0.0,
+      "proof": "Exact complete routeY/Z slab contains no native solid volume; pureX translation cannot alter that."
+    },
+    {
+      "name": "Whole rear-gate release separates strap3",
+      "status": "PASS",
+      "conservative_release_bounds_mm": [
+        [
+          104.70000000000002,
+          -68.5,
+          4.4999999
+        ],
+        [
+          141.0,
+          68.5,
+          28.0000001
+        ]
+      ],
+      "axis_separations_mm": [
+        27.200000000000017,
+        -12.0,
+        -3.5000001000000003
+      ],
+      "release_x_mm": [
+        0,
+        12
+      ],
+      "maximum_outward_clip_deflection_mm": 0.9
+    },
+    {
+      "name": "Seated route has no positive overlap 3",
+      "status": "PASS",
+      "exact_nearby_tests": [
+        {
+          "ref": "P01",
+          "valid_boolean": true,
+          "intersection_mm3": 0.0
+        },
+        {
+          "ref": "P04",
+          "valid_boolean": true,
+          "intersection_mm3": 0.0
+        }
+      ],
+      "all_other_parts_proved_separate_by_bounds": true,
+      "intended_contact": "Outer bearing strip topZ4 and outsideY\u00b166 edge may touch; no positive solid intersection permitted."
+    }
+  ],
+  "failures": [],
+  "failed_count": 0,
+  "native_step_sha256": "f7070e78540d57f518ad2f52b74fe9ac43a8fe16bd64c18e79bd662a9cee55f4",
+  "source_sha256": "97e2010cc17d06eb8648cf278b9aae2fd85b6e909bd657b9b216f3b37748665f",
+  "nominal_generator_sha256": "f71b76758044e6761b28c4229e6852d8e3a305fa6dad9058e77ead0e15fe6be6",
+  "validator_sha256": "45d32929622976694aa8fe75f47ce9ffb02e95ceef3969bdb997aa91d7540a28",
+  "strap_width_mm": 25,
+  "single_thickness_mm": 2,
+  "external_double_back_thickness_mm": 4,
+  "scope": "Four finite end routes coveringZ\u221220..8 and|Y|\u226470. Complete moving-grip/cam translations and rear-gate release are proved by exact route-slab clipping and conservative separating axes; nearby seated bodies use valid exact intersections.",
+  "limitations": [
+    "Free strap belowZ\u221220 and the actual support object/thigh are not modeled.",
+    "Use the stated external double-back route; a band across the mechanism top is not covered.",
+    "No tension, pressure, retention, PLA strength, fatigue or strap-bend qualification."
+  ]
+}

@@ -1,0 +1,531 @@
+{
+  "status": "MEASURED_R18_FLOOR_BASELINE",
+  "native_step_sha256": "0d9ebb0777c35ebf687c59578362a1323a9cab3a00922be858c1d03695f023ee",
+  "source_sha256": "345b90327031276f8085e2c225c795946036d7faa4f2ac01b764101b9f4b3dd1",
+  "minimum_sampled_floor_thickness_mm": 1.198881944173234,
+  "checks": [
+    {
+      "x_mm": -23.9,
+      "y_mm": -63.5,
+      "material_z_mm": [
+        17.0,
+        19.764324269066744
+      ],
+      "floor_thickness_mm": 2.764324269066744
+    },
+    {
+      "x_mm": -23.5,
+      "y_mm": -63.5,
+      "material_z_mm": [
+        17.0,
+        20.0
+      ],
+      "floor_thickness_mm": 3.0
+    },
+    {
+      "x_mm": -23.5,
+      "y_mm": -64,
+      "material_z_mm": [
+        17.5,
+        19.94479275042028
+      ],
+      "floor_thickness_mm": 2.44479275042028
+    },
+    {
+      "x_mm": -23,
+      "y_mm": -63.5,
+      "material_z_mm": [
+        17.0,
+        20.0
+      ],
+      "floor_thickness_mm": 3.0
+    },
+    {
+      "x_mm": -23,
+      "y_mm": -64,
+      "material_z_mm": [
+        17.5,
+        20.0
+      ],
+      "floor_thickness_mm": 2.5
+    },
+    {
+      "x_mm": -23,
+      "y_mm": -64.5,
+      "material_z_mm": [
+        17.999999999999996,
+        19.94479275042028
+      ],
+      "floor_thickness_mm": 1.9447927504202838
+    },
+    {
+      "x_mm": -22.5,
+      "y_mm": -63.5,
+      "material_z_mm": [
+        17.0,
+        20.0
+      ],
+      "floor_thickness_mm": 3.0
+    },
+    {
+      "x_mm": -22.5,
+      "y_mm": -64,
+      "material_z_mm": [
+        17.5,
+        20.0
+      ],
+      "floor_thickness_mm": 2.5
+    },
+    {
+      "x_mm": -22.5,
+      "y_mm": -64.5,
+      "material_z_mm": [
+        17.999999999999996,
+        20.0
+      ],
+      "floor_thickness_mm": 2.0000000000000036
+    },
+    {
+      "x_mm": -22.5,
+      "y_mm": -64.9,
+      "material_z_mm": [
+        18.40000000000001,
+        19.76432426906673
+      ],
+      "floor_thickness_mm": 1.3643242690667208
+    },
+    {
+      "x_mm": -22,
+      "y_mm": -63.5,
+      "material_z_mm": [
+        17.0,
+        20.0
+      ],
+      "floor_thickness_mm": 3.0
+    },
+    {
+      "x_mm": -22,
+      "y_mm": -64,
+      "material_z_mm": [
+        17.5,
+        20.0
+      ],
+      "floor_thickness_mm": 2.5
+    },
+    {
+      "x_mm": -22,
+      "y_mm": -64.5,
+      "material_z_mm": [
+        17.999999999999996,
+        20.0
+      ],
+      "floor_thickness_mm": 2.0000000000000036
+    },
+    {
+      "x_mm": -22,
+      "y_mm": -64.9,
+      "material_z_mm": [
+        18.40000000000001,
+        19.864575131106346
+      ],
+      "floor_thickness_mm": 1.4645751311063364
+    },
+    {
+      "x_mm": -22,
+      "y_mm": -64.99,
+      "material_z_mm": [
+        18.489999999999995,
+        19.68888194417323
+      ],
+      "floor_thickness_mm": 1.198881944173234
+    },
+    {
+      "x_mm": -21,
+      "y_mm": -63.5,
+      "material_z_mm": [
+        17.0,
+        20.0
+      ],
+      "floor_thickness_mm": 3.0
+    },
+    {
+      "x_mm": -21,
+      "y_mm": -64,
+      "material_z_mm": [
+        17.5,
+        20.0
+      ],
+      "floor_thickness_mm": 2.5
+    },
+    {
+      "x_mm": -21,
+      "y_mm": -64.5,
+      "material_z_mm": [
+        17.999999999999996,
+        20.0
+      ],
+      "floor_thickness_mm": 2.0000000000000036
+    },
+    {
+      "x_mm": -21,
+      "y_mm": -64.9,
+      "material_z_mm": [
+        18.40000000000001,
+        19.864575131106022
+      ],
+      "floor_thickness_mm": 1.4645751311060131
+    },
+    {
+      "x_mm": -21,
+      "y_mm": -64.99,
+      "material_z_mm": [
+        18.489999999999995,
+        19.688881944176416
+      ],
+      "floor_thickness_mm": 1.1988819441764207
+    },
+    {
+      "x_mm": -20,
+      "y_mm": -64,
+      "material_z_mm": [
+        17.5,
+        20.0
+      ],
+      "floor_thickness_mm": 2.5
+    },
+    {
+      "x_mm": -20,
+      "y_mm": -64.5,
+      "material_z_mm": [
+        17.999999999999996,
+        20.0
+      ],
+      "floor_thickness_mm": 2.0000000000000036
+    },
+    {
+      "x_mm": -20,
+      "y_mm": -64.9,
+      "material_z_mm": [
+        18.40000000000001,
+        19.864575131106022
+      ],
+      "floor_thickness_mm": 1.4645751311060131
+    },
+    {
+      "x_mm": -20,
+      "y_mm": -64.99,
+      "material_z_mm": [
+        18.489999999999995,
+        19.688881944176416
+      ],
+      "floor_thickness_mm": 1.1988819441764207
+    },
+    {
+      "x_mm": -19,
+      "y_mm": -64.5,
+      "material_z_mm": [
+        17.999999999999996,
+        20.0
+      ],
+      "floor_thickness_mm": 2.0000000000000036
+    },
+    {
+      "x_mm": -19,
+      "y_mm": -64.9,
+      "material_z_mm": [
+        18.40000000000001,
+        19.864575131106022
+      ],
+      "floor_thickness_mm": 1.4645751311060131
+    },
+    {
+      "x_mm": -19,
+      "y_mm": -64.99,
+      "material_z_mm": [
+        18.489999999999995,
+        19.688881944176416
+      ],
+      "floor_thickness_mm": 1.1988819441764207
+    },
+    {
+      "x_mm": -18,
+      "y_mm": -64.9,
+      "material_z_mm": [
+        18.40000000000001,
+        19.864575131106022
+      ],
+      "floor_thickness_mm": 1.4645751311060131
+    },
+    {
+      "x_mm": -18,
+      "y_mm": -64.99,
+      "material_z_mm": [
+        18.489999999999995,
+        19.688881944176416
+      ],
+      "floor_thickness_mm": 1.1988819441764207
+    },
+    {
+      "x_mm": -23.9,
+      "y_mm": 63.5,
+      "material_z_mm": [
+        17.0,
+        19.764324269066744
+      ],
+      "floor_thickness_mm": 2.764324269066744
+    },
+    {
+      "x_mm": -23.5,
+      "y_mm": 63.5,
+      "material_z_mm": [
+        17.0,
+        20.0
+      ],
+      "floor_thickness_mm": 3.0
+    },
+    {
+      "x_mm": -23.5,
+      "y_mm": 64,
+      "material_z_mm": [
+        17.5,
+        19.94479275042028
+      ],
+      "floor_thickness_mm": 2.44479275042028
+    },
+    {
+      "x_mm": -23,
+      "y_mm": 63.5,
+      "material_z_mm": [
+        17.0,
+        20.0
+      ],
+      "floor_thickness_mm": 3.0
+    },
+    {
+      "x_mm": -23,
+      "y_mm": 64,
+      "material_z_mm": [
+        17.5,
+        20.0
+      ],
+      "floor_thickness_mm": 2.5
+    },
+    {
+      "x_mm": -23,
+      "y_mm": 64.5,
+      "material_z_mm": [
+        17.999999999999996,
+        19.94479275042028
+      ],
+      "floor_thickness_mm": 1.9447927504202838
+    },
+    {
+      "x_mm": -22.5,
+      "y_mm": 63.5,
+      "material_z_mm": [
+        17.0,
+        20.0
+      ],
+      "floor_thickness_mm": 3.0
+    },
+    {
+      "x_mm": -22.5,
+      "y_mm": 64,
+      "material_z_mm": [
+        17.5,
+        20.0
+      ],
+      "floor_thickness_mm": 2.5
+    },
+    {
+      "x_mm": -22.5,
+      "y_mm": 64.5,
+      "material_z_mm": [
+        17.999999999999996,
+        20.0
+      ],
+      "floor_thickness_mm": 2.0000000000000036
+    },
+    {
+      "x_mm": -22.5,
+      "y_mm": 64.9,
+      "material_z_mm": [
+        18.40000000000001,
+        19.76432426906672
+      ],
+      "floor_thickness_mm": 1.3643242690667101
+    },
+    {
+      "x_mm": -22,
+      "y_mm": 63.5,
+      "material_z_mm": [
+        17.0,
+        20.0
+      ],
+      "floor_thickness_mm": 3.0
+    },
+    {
+      "x_mm": -22,
+      "y_mm": 64,
+      "material_z_mm": [
+        17.5,
+        20.0
+      ],
+      "floor_thickness_mm": 2.5
+    },
+    {
+      "x_mm": -22,
+      "y_mm": 64.5,
+      "material_z_mm": [
+        17.999999999999996,
+        20.0
+      ],
+      "floor_thickness_mm": 2.0000000000000036
+    },
+    {
+      "x_mm": -22,
+      "y_mm": 64.9,
+      "material_z_mm": [
+        18.40000000000001,
+        19.864575131106346
+      ],
+      "floor_thickness_mm": 1.4645751311063364
+    },
+    {
+      "x_mm": -22,
+      "y_mm": 64.99,
+      "material_z_mm": [
+        18.489999999999995,
+        19.68888194417323
+      ],
+      "floor_thickness_mm": 1.198881944173234
+    },
+    {
+      "x_mm": -21,
+      "y_mm": 63.5,
+      "material_z_mm": [
+        17.0,
+        20.0
+      ],
+      "floor_thickness_mm": 3.0
+    },
+    {
+      "x_mm": -21,
+      "y_mm": 64,
+      "material_z_mm": [
+        17.5,
+        20.0
+      ],
+      "floor_thickness_mm": 2.5
+    },
+    {
+      "x_mm": -21,
+      "y_mm": 64.5,
+      "material_z_mm": [
+        17.999999999999996,
+        20.0
+      ],
+      "floor_thickness_mm": 2.0000000000000036
+    },
+    {
+      "x_mm": -21,
+      "y_mm": 64.9,
+      "material_z_mm": [
+        18.40000000000001,
+        19.864575131106022
+      ],
+      "floor_thickness_mm": 1.4645751311060131
+    },
+    {
+      "x_mm": -21,
+      "y_mm": 64.99,
+      "material_z_mm": [
+        18.489999999999995,
+        19.688881944176416
+      ],
+      "floor_thickness_mm": 1.1988819441764207
+    },
+    {
+      "x_mm": -20,
+      "y_mm": 64,
+      "material_z_mm": [
+        17.5,
+        20.0
+      ],
+      "floor_thickness_mm": 2.5
+    },
+    {
+      "x_mm": -20,
+      "y_mm": 64.5,
+      "material_z_mm": [
+        17.999999999999996,
+        20.0
+      ],
+      "floor_thickness_mm": 2.0000000000000036
+    },
+    {
+      "x_mm": -20,
+      "y_mm": 64.9,
+      "material_z_mm": [
+        18.40000000000001,
+        19.864575131106022
+      ],
+      "floor_thickness_mm": 1.4645751311060131
+    },
+    {
+      "x_mm": -20,
+      "y_mm": 64.99,
+      "material_z_mm": [
+        18.489999999999995,
+        19.688881944176416
+      ],
+      "floor_thickness_mm": 1.1988819441764207
+    },
+    {
+      "x_mm": -19,
+      "y_mm": 64.5,
+      "material_z_mm": [
+        17.999999999999996,
+        20.0
+      ],
+      "floor_thickness_mm": 2.0000000000000036
+    },
+    {
+      "x_mm": -19,
+      "y_mm": 64.9,
+      "material_z_mm": [
+        18.40000000000001,
+        19.864575131106022
+      ],
+      "floor_thickness_mm": 1.4645751311060131
+    },
+    {
+      "x_mm": -19,
+      "y_mm": 64.99,
+      "material_z_mm": [
+        18.489999999999995,
+        19.688881944176416
+      ],
+      "floor_thickness_mm": 1.1988819441764207
+    },
+    {
+      "x_mm": -18,
+      "y_mm": 64.9,
+      "material_z_mm": [
+        18.40000000000001,
+        19.864575131106022
+      ],
+      "floor_thickness_mm": 1.4645751311060131
+    },
+    {
+      "x_mm": -18,
+      "y_mm": 64.99,
+      "material_z_mm": [
+        18.489999999999995,
+        19.688881944176416
+      ],
+      "floor_thickness_mm": 1.1988819441764207
+    }
+  ],
+  "scope": "Exact existing floor-ray sections; R19 must preserve the low lip and floor, and will be compared at the same points."
+}

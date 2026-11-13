@@ -1,0 +1,189 @@
+{
+  "status": "NOMINAL_GEOMETRY_CHECKS_PASS",
+  "scope": "R6 fixed solid-palm change: exact native body/source comparison and focused construction, clearance, full-domain and service checks; inherited unchanged R5 evidence remains hash-bound.",
+  "source_sha256": "62fabee79cf36d0e0b6d4cd8430700519dbc529a5ea08f70018b14b0c3f2271f",
+  "native_provenance": {
+    "workspace_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/w/6c1e8b296c3ce433e6d4783f/e/d253eb87b70818ebde8215f0",
+    "feature_source_sha256": "62fabee79cf36d0e0b6d4cd8430700519dbc529a5ea08f70018b14b0c3f2271f",
+    "association": "Root operator verified exact R6 FeatureScript source and regenerated105 parts before these exports. This audit does not regenerate Onshape.",
+    "immutable_version_id": "342570da84b0f424f988575d",
+    "immutable_version_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/342570da84b0f424f988575d/e/d253eb87b70818ebde8215f0",
+    "version_binding_note": "Root operator verified the immutable R6 FeatureScript clipboard readback byte-for-byte:62fabee79cf36d0e0b6d4cd8430700519dbc529a5ea08f70018b14b0c3f2271f,109904bytes. Before freezing, native regeneration showed105 parts and neutral user0/preload0/trim0/light springs/isometric off/electronics on/hand off. All four native export origins,poses and hashes are recorded in onshape-build.json; proof is onshape-R6-immutable-neutral.png. This binds the verified native checkpoint to the existing focused geometry PASS without claiming a new geometry recomputation."
+  },
+  "failed_checks": 0,
+  "unresolved_checks": 0,
+  "native_inventory": {
+    "whole": 105,
+    "device": 52,
+    "electronics_reference": 53,
+    "printed": 14
+  },
+  "changed_ref": "P02",
+  "removed_ref": "P03",
+  "unchanged_exact_brep_count": 104,
+  "retained_hardware": "Both H140/H141 steel16x8x81 mm isometric sleeves remain; these replace springs in ISO mode and are distinct from the removed P03 TPU palm cap.",
+  "new_palm_volume_mm3": 24704.592869971948,
+  "palm_checks": [
+    {
+      "name": "One valid connected palm solid with one boundary shell",
+      "status": "PASS",
+      "solid_count": 1,
+      "shell_count": 1,
+      "meaning": "One outer boundary shell; no enclosed internal sleeve cavity."
+    },
+    {
+      "name": "Independent filled-half-cylinder plus original P02 exact CSG",
+      "symmetric_difference_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Original P02 material and mount structure retained",
+      "missing_old_palm_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Outer wrist contact and height retained",
+      "bounds_mm": [
+        [
+          -37.2500001,
+          -64.0000001,
+          6.4999999
+        ],
+        [
+          -9.4999999,
+          64.0000001,
+          30.0000001
+        ]
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "Electronics lid nominal gap retained",
+      "pair": [
+        "P02",
+        "P09"
+      ],
+      "minimum_gap_mm": 0.5999999999999979,
+      "status": "PASS"
+    },
+    {
+      "name": "left M4 and locating key exact unchanged local geometry",
+      "symmetric_difference_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "right M4 and locating key exact unchanged local geometry",
+      "symmetric_difference_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "left enclosure insert pilot exact unchanged local geometry",
+      "symmetric_difference_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "right enclosure insert pilot exact unchanged local geometry",
+      "symmetric_difference_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Obsolete front retention return removed, side-1",
+      "remaining_probe_material_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Obsolete front retention return removed, side1",
+      "remaining_probe_material_mm3": 0.0,
+      "status": "PASS"
+    }
+  ],
+  "focused_check_counts": {
+    "continuous_palm_pairs": 102,
+    "continuous_palm_spring_envelopes": 2,
+    "palm_related_service_paths": 49,
+    "exact_palm_pairs": 104
+  },
+  "native_poses": [
+    {
+      "pose": "dynamic28_p2_heavy",
+      "archive": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-solid-palm-2026-10-23/native/Flat132_R6_max28_p2_heavy_final.zip",
+      "sha256": "0030255f56c476f6b0060053deab84231d22839de04cfffd77493ce45cb759c9",
+      "status": "PASS",
+      "part_count": 105,
+      "steel_isometric_sleeve_checks": [],
+      "scope": "Exact native triangle coordinates (only facet/vertex order ignored): changed fixed P02 matches R6 neutral;104 unchanged bodies match equivalent frozen R5 pose. No archive relabeling."
+    },
+    {
+      "pose": "isometric13_p2_81",
+      "archive": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-solid-palm-2026-10-23/native/Flat132_R6_isometric13_p2_81_final.zip",
+      "sha256": "28cf6579ae26dd6eb701f0255839bc1671070747b3fd37bf150ab7c881e8fe23",
+      "status": "PASS",
+      "part_count": 105,
+      "steel_isometric_sleeve_checks": [
+        {
+          "ref": "H140",
+          "description": "Retained steel isometric sleeve, distinct from removed P03 TPU palm cap",
+          "length_mm": 81.0,
+          "bounds_mm": [
+            [
+              14.0,
+              -59.0,
+              10.0
+            ],
+            [
+              95.0,
+              -43.0,
+              26.0
+            ]
+          ],
+          "status": "PASS"
+        },
+        {
+          "ref": "H141",
+          "description": "Retained steel isometric sleeve, distinct from removed P03 TPU palm cap",
+          "length_mm": 81.0,
+          "bounds_mm": [
+            [
+              14.0,
+              43.0,
+              10.0
+            ],
+            [
+              95.0,
+              59.0,
+              26.0
+            ]
+          ],
+          "status": "PASS"
+        }
+      ],
+      "scope": "Exact native triangle coordinates (only facet/vertex order ignored): changed fixed P02 matches R6 neutral;104 unchanged bodies match equivalent frozen R5 pose. No archive relabeling."
+    }
+  ],
+  "baseline_reuse": {
+    "source_scope_certificate": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-solid-palm-2026-10-23/validation/source-scope-certificate.json",
+    "sha256": "ba7b58285a65e43f026c99f47591ef045e8ae517fe1443395403dda9f05e5a82",
+    "baseline_summary_sha256": "a7b8f64af73a9b25a15841be144cf3d26eeb5b1929c169f4f57779cf45a9f345",
+    "meaning": "Unchanged R5 body pairs,81 mm isometric sleeves and full28–30 mm travel retain prior validation through exact source expressions and104 native BRep identities; P02 checks are newly run."
+  },
+  "evidence_files": {
+    "manifest.json": "eabe605a0cce631c09fc8056c5dc980dbf218aff07cd597aed84f9c85d53f55f",
+    "source-scope-certificate.json": "ba7b58285a65e43f026c99f47591ef045e8ae517fe1443395403dda9f05e5a82",
+    "native-step-inventory.json": "e238099ff464fdd07f667aff42bbcc864a8b42eccfeaaa4c76def95a841b0820",
+    "unchanged-native-breps.json": "0fc656d188a514863ff602c401c3ff466c38dd6325689eb72da479851177815b",
+    "palm-exact-audit.json": "e2306596b61b9b013ed3dc00f8617825baf12d9c43ae85a56498d5d7c4cf8f29",
+    "palm-path-audit.json": "b970ae6b950b662720a3e381d5e1a2527891578a95decfbdea1918d40d585449",
+    "native-pose-audit.json": "6836a913bad1563d8f4af874dc04716289d885610561e50068216b90ec8b6e3e"
+  },
+  "failures": [],
+  "unresolved": [],
+  "limitations": [
+    "500 N remains a design target, not a verified printed working-load rating.",
+    "Solid CAD stock removes the hollow sleeve, but does not prescribe slicer infill or qualify material, print orientation, creep/fatigue or comfort.",
+    "Rigid palm contact loses the previous TPU cap compliance; physical comfort remains unqualified.",
+    "The electronics enclosure/lid, USB/button access and existing insert pilots are retained; the previously discussed9 mm cover extension is not included.",
+    "Heat-set insert stock, actual fasteners, purchased switch calibration/total travel, spring fatigue and final hand fit remain physical prototype checks.",
+    "Native export/source association is root-operator declared and hash-bound; this independent script does not regenerate Onshape."
+  ],
+  "step_roundtrip_status": "COMPLETE"
+}

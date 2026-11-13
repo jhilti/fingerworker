@@ -1,0 +1,16 @@
+# Flat132 R8 — print and assembly
+
+Reprint **P02 only** to add the flat electronics-cover ledge to an existing R7 assembly. The palm remains one rigid printable block, with no TPU palm sleeve. The existing electronics enclosure and separate lid remain. The new plate reaches X−46.1 mm and occupies Z9.5–11.5 mm, leaving a 0.6 mm nominal gap above the lid at Z8.9 mm. Its curved wrist contact, half-round radius, mounting keys and fastener pilots are verified unchanged by the focused exact native audit.
+
+Keep the gap free. Palm loads must travel through the existing mounts, not through the PCB, battery, lid or connectors. Inspect the printed ledge and lid fit before assembly. Actual print tolerances, cover stiffness, cable/button/USB access, heat dissipation and hand comfort require a physical check. A closed solid P02 CAD block does not prescribe 100% infill. Filament, layers, perimeters and infill remain an unqualified process choice, and 500 N remains a design target.
+
+The verified native inventory contains 123 valid solids: 70 device bodies plus 53 electronics references, with 16 print parts and no added hardware. P02 is the only changed geometry. All four fresh whole native poses pass validation, and each print/device/hardware STL is byte-identical to its named native export member; no poses are composed from earlier versions.
+
+All R7 setup remains: rear rest setting `a=0…2 mm` and sensor preload `p=0…2 mm` share the combined limit `a+p≤2 mm`; dynamic stroke is `30−a−p mm`, or 28–30 mm. Set both rear shoes equally by measurement and lock their jam nuts while counterholding the adjusters. The specific through-box tool route and unloaded service prerequisites remain in the exact R7 reference notes. Flat P07 pads need secure compatible attachment to the shoes; no printed pad interlock is modeled. The 81 mm Ø16/Ø8 steel isometric sleeves are purchased hardware and must not be printed.
+
+P11 cam adjustment is still manual after sensor-preload changes. The drawing-based Omron switch fit, real switch calibration, actual heat-set insert stock dimensions and all fastening/retention properties need physical verification. Firmware is unchanged, including the NC-open force/peak block. The original hand-scan registration remains approximate.
+
+The physical-device footprint excludes the external USB-approach and side-button travel reference volumes REF E06/E08. These remain in the complete native STEP inventory. Print/device STL files contain P/H bodies only, in millimetres and original assembly coordinates without scaling or remeshing.
+
+
+The cover changes lid access. The checked service route uses rear setting a=0 and sensor preload p=2 with the device unloaded and carriage positively restrained. Remove both palm M4 screws and lift the complete palm/case unit 40 mm. On the bench, remove the two enclosure-to-palm M2 screws from below at X−26.5 / Y±59 mm, then lower the case/electronics 20 mm away from P02. Remove the three lid screws and lift P09 by 15 mm with the palm absent. Disconnect or secure wiring before moving modules as required; cable flexibility, slack and strain relief are not modeled and need a physical check. The declared paths pass independent nominal service certification.

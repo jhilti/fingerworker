@@ -1,0 +1,26 @@
+{
+  "status": "PASS_GENERIC_R15_RELEASE_STATIC_AND_PACKAGE",
+  "source_sha256": "97e2010cc17d06eb8648cf278b9aae2fd85b6e909bd657b9b216f3b37748665f",
+  "onshape_version": "e8453217d87e9cfdc9a33f65",
+  "archive_files_preserved": 29,
+  "files_sha256": {
+    "overview/model/validation.json": "ac59411a373f7c89e2c38740660500166225010056318a0e6765bba09bfbfb68",
+    "review/inboard-straps-2026-11-08/final-specification.json": "d7a145c481cf2a330ec19b7dd00f64185cf7498452b8cb009868bbf5ae4c3c12",
+    "print/bambu-R15-inboard-straps-2026-11-08/delivery-specification.json": "38c2d59630e9ff1e0fee3a496e7794f295022ea8a9b076c4e10b62cfeb03346f",
+    "print/bambu-R15-inboard-straps-2026-11-08/SHA256.json": "73bfc961f874babf0cf002efeff458e66dfb4a5c731cf41356362212eb6cf8f8",
+    "print/bambu-R15-inboard-straps-2026-11-08/Fingerworker_R15_H2D_04mm_PLA_Inboard_Straps_Package.zip": "bd67b33f3b434be92b840c8eb78c26bcac88645281187fae61ed04326e328d80",
+    "print/bambu-R15-inboard-straps-2026-11-08/Fingerworker_R15_H2D_04mm_PLA_Inboard_Straps.3mf": "860843b3df9f988d67db68bae78e30dd8f2d7fc0fbe8e4c810ef78087e17eaa1",
+    "review/inboard-straps-2026-11-08/checkpoints/generic-overview-before-connected/Uebersicht.html": "484e9222576e4063215eab5be571eddb0bccdd5dffef5c668ed8ad3cbe253b03",
+    "review/inboard-straps-2026-11-08/checkpoints/generic-overview-before-connected/overview/static-validation.json": "aea576bcff2f312c027451f0103fd4105543991510e078193591eeb4f0cecea6"
+  },
+  "printable_objects": 6,
+  "print_ready_stls": 6,
+  "reference_coordinate_stls": 6,
+  "editable_projects": 1,
+  "print_started": false,
+  "limits": [
+    "Static HTML validation only; no browser rendering through denied file URL.",
+    "Generic project official CLI slice10h59m19s/230.01g; separate connected-project preparation is separately audited and is not covered by this generic snapshot.",
+    "Physical adhesion, fit and strap strength still require the printed prototype."
+  ]
+}

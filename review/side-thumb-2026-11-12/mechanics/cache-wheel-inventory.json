@@ -1,0 +1,1172 @@
+[
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/9/0/c/0/7/90c0796e5f4107b06c2f6e8e95268bc6f7cb2d9d1efc01762590ba7a.body",
+    "wheel": "python_multipart-0.0.32.dist-info",
+    "bytes": 30042
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/9/1/6/f/8/916f8e59eed25dd14a24a0bf49b437757fe356d363efd6ede438087f.body",
+    "wheel": "hatchling-1.31.0.dist-info",
+    "bytes": 77747
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/9/8/0/6/4/9806464430c23d93c717be0a494a22ece76de403154ebf770ebd0e44.body",
+    "wheel": "referencing-0.37.0.dist-info",
+    "bytes": 26766
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/9/a/0/1/0/9a01005872350f78fbb1a7fd0a6750efbf7ba06780dbe6637d8e6224.body",
+    "wheel": "trame_client-4.1.4.dist-info",
+    "bytes": 568271
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/9/a/7/a/d/9a7ada0d148de70cc095630362f734269b81bc3d011e92c5300e44e6.body",
+    "wheel": "aiofile-3.12.3.dist-info",
+    "bytes": 22122
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/9/d/5/d/f/9d5dfb0dedf17094821c37079d37c9f4a1256a7dc457c1192cfa1573.body",
+    "wheel": "rich-15.0.0.dist-info",
+    "bytes": 310654
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/9/3/9/7/0/939709658b4fd91d323c719078a87a25ea64fce93224fc11951a9a84.body",
+    "wheel": "pymupdf-1.28.2.dist-info",
+    "bytes": 23875605
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/9/3/d/a/c/93dace751420225e3d2ce6424b2bbede810b5e2811478b2774542624.body",
+    "wheel": "python_dotenv-1.2.4.dist-info",
+    "bytes": 23266
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/9/b/c/b/b/9bcbb6b60bd4c0f6b60c17af6e4b342bf5ecc34a893bf3ab8b261cba.body",
+    "wheel": "rpds_py-2026.6.3.dist-info",
+    "bytes": 338542
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/9/b/c/2/4/9bc24a0d1af06cebaa67c4cf831029179fb35f7fa224a8d2dbe5006d.body",
+    "wheel": "werkzeug-3.1.9.dist-info",
+    "bytes": 228700
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/9/b/e/d/8/9bed80cf4c2167097913b4389aad04353259d11bce92cd9bb63116eb.body",
+    "wheel": "pillow-13.0.0.dist-info",
+    "bytes": 4852329
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/9/2/c/e/d/92ced34adc906ce2db35bfa8b10af18ec23fe7b659a5503990b7d775.body",
+    "wheel": "protobuf-7.35.1.dist-info",
+    "bytes": 433226
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/9/2/4/4/6/9244600f8e2b194d677e48b8b8b4b1b22a61d0b1cafabb3aa232bd86.body",
+    "wheel": "smmap-5.0.3.dist-info",
+    "bytes": 24390
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/9/2/b/b/2/92bb2bc69acaa328e8860bc9188cb3e523adc03a90488176d1e6d7d0.body",
+    "wheel": "numba-0.68.0.dist-info",
+    "bytes": 2760509
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/9/5/f/a/5/95fa58ec64d3d615835deebcf794bc4f5a83fdc796aad805d110c096.body",
+    "wheel": "reportlab-5.0.1.dist-info",
+    "bytes": 1957258
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/0/9/4/8/1/09481f34d183f10cc005b6e3106c0e2600d28c11a83cf40520b76323.body",
+    "wheel": "rpds_py-2026.9.1.dist-info",
+    "bytes": 341380
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/0/0/4/f/5/004f51e4cdaa64d7951a6294c47f410a2290cde6415bd52c394181fd.body",
+    "wheel": "pygments-2.21.0.dist-info",
+    "bytes": 1250147
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/0/6/7/d/e/067de891d4624fc09de1c690b01d8bf477f69f0ce81f8101b21b3549.body",
+    "wheel": "jinja2-3.1.6.dist-info",
+    "bytes": 134899
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/0/1/3/1/b/0131b9c7358fe474c61b4dcc31fc9e6b288aa1d560f89bd8592d8c4a.body",
+    "wheel": "pydantic_settings-2.15.0.dist-info",
+    "bytes": 69413
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/0/a/6/b/7/0a6b76df38e61ac4e1f757a1132d2c6424dcb9c23751423afee448ac.body",
+    "wheel": "requests-2.34.2.dist-info",
+    "bytes": 73075
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/0/f/4/9/8/0f4980193fb4c6530625a0a56a8eea18257ba0b8bf7efccc56b1474f.body",
+    "wheel": "contourpy-1.3.3.dist-info",
+    "bytes": 273979
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/0/c/b/f/f/0cbfff75291f05c16794a4e2c6c63bcb459c017712a63fb22148cd22.body",
+    "wheel": "iniconfig-2.3.0.dist-info",
+    "bytes": 7484
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/0/d/4/a/c/0d4ac6925c408343fa08c1050f6cc6a54cc1665e20bf3fd06508d3a4.body",
+    "wheel": "build-1.6.0.dist-info",
+    "bytes": 31187
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/0/3/c/9/0/03c9012e9fc0544461c0d8ce636dbb1f331e1a5251fe636181aefdeb.body",
+    "wheel": "numpy-2.5.4.dist-info",
+    "bytes": 5451717
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/0/3/c/c/a/03ccaae4dac580e6236ab97c534d8e30c8973b8a6b883e99df0fd0fc.body",
+    "wheel": "hatchling-1.27.0.dist-info",
+    "bytes": 75794
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/0/3/d/8/4/03d8477cfbc23bdf5c2e820da5acc5c884a68e56560b227e37095af7.body",
+    "wheel": "httpx_sse-0.4.3.dist-info",
+    "bytes": 8960
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/0/3/b/7/e/03b7e31ef41a67b4d5d0212d71d27b02703ce649d01a9d3a622a0976.body",
+    "wheel": "shellingham-1.5.4.dist-info",
+    "bytes": 9755
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/0/e/d/3/3/0ed336d749e009fe1267c844e36c442e5b3dc645d5eb9865c545b81a.body",
+    "wheel": "pluggy-1.6.0.dist-info",
+    "bytes": 20538
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/0/b/5/f/c/0b5fc3079a6e18945714926a1dc468c8b2ca1e3b0ffd46e0f797bfe6.body",
+    "wheel": "opencv_python_headless-5.0.0.93.dist-info",
+    "bytes": 48322581
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/7/9/9/a/5/799a5dd8d8db0fdf39fe88fb8deb1f278b8ba418e868a8d5aaf30138.body",
+    "wheel": "tinycss2-1.5.1.dist-info",
+    "bytes": 28404
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/7/0/0/6/0/700602cf29877894c7f91ce3e503bd344f6e888df4634a8428318780.body",
+    "wheel": "yarl-1.25.1.dist-info",
+    "bytes": 104325
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/7/0/8/2/b/7082b037b714f1acfb33d87f952b67607546c99382212dff8436e370.body",
+    "wheel": "hatchling-1.32.0.dist-info",
+    "bytes": 78435
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/7/7/4/6/9/77469a77c0c5007f8e0ef36b73b2bdb8cbe7d9c8be102fd7d4efaf35.body",
+    "wheel": "pygments-2.20.0.dist-info",
+    "bytes": 1231151
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/7/6/f/e/7/76fe73d069e96e0906f3420aae828f81dff93d0be57e474fd6037047.body",
+    "wheel": "matplotlib-3.11.1.dist-info",
+    "bytes": 9283113
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/7/6/3/0/6/7630675b410b4fafd3f98eb387d48684b922c670c1841564ccfdf3a7.body",
+    "wheel": "tzdata-2026.5.dist-info",
+    "bytes": 347996
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/7/1/d/b/4/71db475d77e12c51d82cbade9e82d978b63d9656469efe6b9670dce4.body",
+    "wheel": "runtype-0.5.3.dist-info",
+    "bytes": 31944
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/7/8/5/7/6/78576865ffef95caa7ea726dad1ecaf1b6365f3c441cc5c1878af41b.body",
+    "wheel": "altair-6.2.2.dist-info",
+    "bytes": 797613
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/7/a/8/4/b/7a84bbcaf04aeb51d28a36e7b609f8b0550ade520d30969bfcf4696e.body",
+    "wheel": "cffi-2.1.1.dist-info",
+    "bytes": 184719
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/7/d/0/6/d/7d06ddc2f8070ce09a5a2290e2020c460e8ab32b6a2c6b69fc06e979.body",
+    "wheel": "python_dateutil-2.9.0.post0.dist-info",
+    "bytes": 229892
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/7/3/f/7/1/73f7101fb1c91fe4aeac585f4161d73139507dee1da7276cbff92454.body",
+    "wheel": "py_key_value_aio-0.4.6.dist-info",
+    "bytes": 171289
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/7/3/3/c/1/733c122115609ab6009e0be7b1d5a055dd9fb7e47e93b13d9c75f624.body",
+    "wheel": "anyio-4.14.2.dist-info",
+    "bytes": 125813
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/7/e/0/1/3/7e0139bb744da111cf1c16b080919d0387ca004d8dc37698d30513ec.body",
+    "wheel": "llvmlite-0.50.0.dist-info",
+    "bytes": 40534277
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/7/e/c/f/3/7ecf3eb360e208aa95712df1bddceebdc0e3a5e0c4d3302afc19ebbd.body",
+    "wheel": "fastmcp-3.4.8.dist-info",
+    "bytes": 8018
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/7/e/d/2/4/7ed24b1660cca74e9a477150f480e1f5ad0d10186fa90dd591a321d0.body",
+    "wheel": "pypdf-6.20.0.dist-info",
+    "bytes": 401710
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/7/2/7/1/d/7271d4c0bfd6147a98a3979120c2c8d78733980ceb9db732d107c4cb.body",
+    "wheel": "exceptiongroup-1.3.1.dist-info",
+    "bytes": 16740
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/6/9/7/a/4/697a4627c58ccfb6e2b2a4469d3ea51231bd6a9b2aab4d857611fcb3.body",
+    "wheel": "librt-0.13.0.dist-info",
+    "bytes": 155238
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/6/0/a/5/a/60a5a584ca5dc67284a6ac4e80a40ca7e395d33ac6b911594dd6ab71.body",
+    "wheel": "hatchling-1.32.4.dist-info",
+    "bytes": 78748
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/6/0/2/7/4/60274625ab3ca36e1b8fd09763fde36be6edea1f24d1aec76a8ad379.body",
+    "wheel": "trame_vuetify-3.3.0.dist-info",
+    "bytes": 6794266
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/6/a/2/5/0/6a250e352e928bf32987e32412fcc06e2c0932b519dced93f6a827fd.body",
+    "wheel": "shapely-2.2.0.dist-info",
+    "bytes": 1584868
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/6/c/6/7/9/6c679b1748deb2e0a7d9b6c7138ad1b9a8106a6f4d3c6f1d087663e8.body",
+    "wheel": "contourpy-1.4.0.dist-info",
+    "bytes": 284921
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/6/c/6/e/e/6c6eeaf6757edbde690577822daacaba826c2b12ce67b57b33e8021d.body",
+    "wheel": "cycler-0.12.1.dist-info",
+    "bytes": 8321
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/6/c/a/5/9/6ca59cb1bdce526044a0eb6cc515f4f64ad5f556af1b4feea0864c66.body",
+    "wheel": "pillow-12.3.0.dist-info",
+    "bytes": 4780323
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/6/3/d/8/c/63d8c7d8811f6d35d2636c7d5f0a88d9fc689a19f922b8dec4eadc1a.body",
+    "wheel": "trimesh-5.2.0.dist-info",
+    "bytes": 751459
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/6/3/b/9/f/63b9f6e178a89eeac472dd0138458a223be56bb36c08b3964cd3c087.body",
+    "wheel": "streamlit-1.60.0.dist-info",
+    "bytes": 10419153
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/6/3/5/7/2/63572094c43a7abc98578fa57641fb31ad73c989338bfd1033f7c2f7.body",
+    "wheel": "sexpdata-1.0.2.dist-info",
+    "bytes": 10337
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/6/e/9/5/e/6e95e98189bddf937993f3feb9469906abbc5e11ade1df01509091e4.body",
+    "wheel": "tzdata-2026.6.dist-info",
+    "bytes": 348210
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/6/b/4/5/0/6b45031933f860a66862d8bbeab086b552ed37baed1b67b4fcc475ec.body",
+    "wheel": "flask-3.1.3.dist-info",
+    "bytes": 103424
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/1/7/7/6/3/177631f716b1ca6bf4bd5dbd0d1ffa46ea8f67461c8f5d028ee10345.body",
+    "wheel": "cadquery_ocp_proxy-7.9.3.1.1.dist-info",
+    "bytes": 3322
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/1/7/5/6/0/17560965c8b605b76224ccc636388cb30e79b12b123c47a6f76c5e3c.body",
+    "wheel": "mypy_extensions-1.1.0.dist-info",
+    "bytes": 4963
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/1/6/0/d/3/160d3e8f69a7eca4743b16bea3eecb80155f94e8435ce6481997004c.body",
+    "wheel": "httpcore-1.0.9.dist-info",
+    "bytes": 78784
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/1/6/8/6/8/16868cec5a7a1a0c724422b652bf8310d2e6dbc4ed98bc3eeb8fe83c.body",
+    "wheel": "pathable-0.6.0.dist-info",
+    "bytes": 18983
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/1/6/4/9/1/164918c64ff0c7635218c6b9746b2d6047b0c9c93690c39aa45b0e07.body",
+    "wheel": "kiwisolver-1.5.0.dist-info",
+    "bytes": 64068
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/1/1/2/7/e/1127e3d2d646b8b978b6f86221cfed3abb713e990a117406d3ce6b47.body",
+    "wheel": "jsonschema-4.26.0.dist-info",
+    "bytes": 90630
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/1/8/4/3/9/1843990886992e88d6f0c35768bd6fa5e0a4572b3de8e42a63f69a96.body",
+    "wheel": "pytest-9.1.1.dist-info",
+    "bytes": 386536
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/1/8/2/a/a/182aa09b24f58f176609ff58452a9c4fe564f66aca6cd3087b519d57.body",
+    "wheel": "cadquery-2.8.0.dist-info",
+    "bytes": 201893
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/1/f/6/5/7/1f65716e8a16fc913eb08ff6d9527b9cd143823eeb6ab1c4e8ac2bbd.body",
+    "wheel": "ast_serialize-0.6.0.dist-info",
+    "bytes": 1178657
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/1/f/5/9/4/1f594f07e2740d78877da02ae8bef3aa2ff4a46254466123494e2232.body",
+    "wheel": "cachetools-7.2.1.dist-info",
+    "bytes": 17006
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/1/c/f/8/b/1cf8b26f1df80963b34b3c5a6d376c253939cdcfc9db453f58f83d6d.body",
+    "wheel": "ruff-0.16.0.dist-info",
+    "bytes": 10488846
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/1/d/9/e/a/1d9ea27342956c9a853119c6c84948c32c28b9eeef8f358d2ae9f28e.body",
+    "wheel": "plotly-7.1.0.dist-info",
+    "bytes": 9692368
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/1/d/e/4/c/1de4c501d12427e0deb1ae37bf1fbcf7252675adb86dc496910d8b65.body",
+    "wheel": "pytz-2026.3.post1.dist-info",
+    "bytes": 508283
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/1/4/a/a/f/14aaf7643dce3f389cfaa2f24beba9e2d02071e4624c02c288b2a440.body",
+    "wheel": "httpx-0.28.1.dist-info",
+    "bytes": 73517
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/1/4/f/5/9/14f595bda1e1b8a685904f8db5efcb25ffbaf90585c815d7ab2b82e7.body",
+    "wheel": "markupsafe-3.0.4.dist-info",
+    "bytes": 12050
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/1/e/d/5/5/1ed556defd2a8ab2cc731547ac075b6d45780b497beca6fbad1e4b42.body",
+    "wheel": "idna-3.18.dist-info",
+    "bytes": 65455
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/1/e/2/7/a/1e27a5597415d05c3ec2271d86716e5d53dac381e637e41c101fffb6.body",
+    "wheel": "griffelib-2.3.2.dist-info",
+    "bytes": 169420
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/1/5/9/c/5/159c56e4ec3c8e71dacef647c600365ad192876d095dd29b5b5c8ace.body",
+    "wheel": "pathspec-1.1.1.dist-info",
+    "bytes": 57328
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/8/1/a/9/0/81a9029181fbdd6ce8e465362d52a44f6fb53283a10b31cf89cd0122.body",
+    "wheel": "platformdirs-4.13.0.dist-info",
+    "bytes": 32724
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/8/1/2/0/b/8120bd12424493418e5222761628009a63c132b05a7b97edd3c1b522.body",
+    "wheel": "pyjwt-2.15.1.dist-info",
+    "bytes": 33860
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/8/8/f/e/f/88fefe607c974c182ed7b0b3b2045547f93fed9af9d75d745b867a87.body",
+    "wheel": "networkx-3.6.1.dist-info",
+    "bytes": 2068504
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/8/c/d/4/6/8cd46de09fab9942ca46d5db7df4d49166a3ba9ae11a8ad0ad906daa.body",
+    "wheel": "aiosignal-1.4.0.dist-info",
+    "bytes": 7490
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/8/4/a/0/3/84a03c0fcd969f036c764cf6263cbf51ec10e4907356fe593ed27d2b.body",
+    "wheel": "cairocffi-1.7.1.dist-info",
+    "bytes": 75611
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/8/4/3/2/b/8432bfc1dfb3d31d5ca904608f6c1d8cc5e7994ddc10d05d02bf2968.body",
+    "wheel": "rtree-1.4.1.dist-info",
+    "bytes": 436325
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/8/3/d/e/5/83de5cc65dfecf3a6e4c4c0025f0873b77d3c9243e6a038bd0ca39b9.body",
+    "wheel": "jaraco.classes-3.4.0.dist-info",
+    "bytes": 6777
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/8/e/7/6/c/8e76cd01fe728a5d73004afb7b86a7815cb737dae64d7a674fbd510f.body",
+    "wheel": "trame-4.0.0.dist-info",
+    "bytes": 27303
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/8/2/7/b/d/827bdc9b3f9c9e2801891b1ecdf7383860eda5c43227d3d5aa138abe.body",
+    "wheel": "webencodings-0.6.1.dist-info",
+    "bytes": 8745
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/a/7/1/5/e/a715e58259dfa8c3960efac51ef08aed8a1c497b16ecb98c8c09d92e.body",
+    "wheel": "starlette-1.3.1.dist-info",
+    "bytes": 73632
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/a/7/2/b/0/a72b096929927e52c4b35aeb89b988447a87bb21c55c5a7e22163dac.body",
+    "wheel": "pyyaml-6.0.3.dist-info",
+    "bytes": 173973
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/a/8/e/d/f/a8edf24f79568fd3159f4511c32b859efea8625f681a15125b978d64.body",
+    "wheel": "tabulate-0.10.0.dist-info",
+    "bytes": 39814
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/a/4/5/c/7/a45c7a1a96f9120008017336a5b7815561629d67714ac8dfe4653e07.body",
+    "wheel": "ezdxf-1.4.4.dist-info",
+    "bytes": 3003336
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/a/b/4/1/2/ab412b8b578806605eacea0fa8a110d92c670d2447634dc52e0a0f58.body",
+    "wheel": "wsproto-1.3.2.dist-info",
+    "bytes": 24405
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/a/5/8/7/c/a587c03d570c3ce592cca02ccef7469850d4b48bfae442b547e7899b.body",
+    "wheel": "sse_starlette-3.5.0.dist-info",
+    "bytes": 17407
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/f/0/f/b/8/f0fb807a432776132bf98e62f0630425d52306d2ae9a2cef1793c8b7.body",
+    "wheel": "h2-4.4.1.dist-info",
+    "bytes": 62636
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/f/6/c/3/a/f6c3a995275d9e828a8abd1b849d375a595fbc7ba8431dc9fd3f8a89.body",
+    "wheel": "ast_serialize-0.9.0.dist-info",
+    "bytes": 1219313
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/f/1/f/e/a/f1fea1f64244003d70d0b033dd20ad63ce8881ef4685091cf10aceb4.body",
+    "wheel": "msgpack-1.2.3.dist-info",
+    "bytes": 90027
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/f/8/1/d/9/f81d9d44dca40362ee35d0bf6950bfc9b868a3c62511e72c34c90215.body",
+    "wheel": "trame_components-2.5.0.dist-info",
+    "bytes": 82345
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/f/8/5/c/d/f85cdb094e6b25c49400b52dd9cae23f6d1d617101cfeb9c40a54143.body",
+    "wheel": "numpy-2.5.1.dist-info",
+    "bytes": 5331516
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/f/a/7/0/9/fa7097425a3872e366a3eebe7d8a113d339126daabe29fb73b083ec4.body",
+    "wheel": "starlette-1.7.0.dist-info",
+    "bytes": 78980
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/f/a/d/3/d/fad3d58cd59f08fea0f3e33a8b37bcad06bd8984f56108d5cf3a3dfd.body",
+    "wheel": "fonttools-4.66.1.dist-info",
+    "bytes": 3097433
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/f/d/0/9/1/fd091ade4c62e84810d344308661c7b0792ab6bbe9ab9ddd9b116edf.body",
+    "wheel": "websockets-16.1.1.dist-info",
+    "bytes": 177542
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/f/3/5/5/6/f355613149211d774756a8d78609aa25de5b656eb6dbe379dd44aad1.body",
+    "wheel": "caio-0.12.9.dist-info",
+    "bytes": 49041
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/f/e/8/5/2/fe852fb1ae4e52854c1fbe9836410b09b701ce649eed0461eee1df72.body",
+    "wheel": "casadi-3.8.1.dist-info",
+    "bytes": 52036464
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/f/b/8/c/2/fb8c2dab8fda40c0e87c7029fc116e483881b24557aeb75ba6534724.body",
+    "wheel": "coverage-7.16.0.dist-info",
+    "bytes": 223553
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/f/2/0/5/6/f205600105b69e80c5e163e372487322ac5ce632110c1b0d07de0d83.body",
+    "wheel": "cadquery_ocp-7.9.3.1.1.dist-info",
+    "bytes": 62625112
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/f/2/6/b/4/f26b43b93b1cb04a3faab9b0968ad0686d731f1cf6f3422ba492fa35.body",
+    "wheel": "lxml-6.1.3.dist-info",
+    "bytes": 8602094
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/c/9/8/c/5/c98c5e85557853c7037f5ba23cb8f364f8074a535e732a5dc7bc091e.body",
+    "wheel": "jaraco_functools-4.6.0.dist-info",
+    "bytes": 11677
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/c/9/2/3/4/c92343c66b0dc7638b486b828ba26c07e51fe308e9da38034706d11f.body",
+    "wheel": "jsonschema_specifications-2025.9.1.dist-info",
+    "bytes": 18437
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/c/0/a/b/2/c0ab2f80c30a31f586b59aa3dfb6aa4551ed8c6fa2c058e725736fac.body",
+    "wheel": "charset_normalizer-3.5.2.dist-info",
+    "bytes": 367780
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/c/0/c/4/2/c0c42929b93a70a681060b2dcf22258d1098563d1cf1236f7b19d6b6.body",
+    "wheel": "scipy-1.18.1.dist-info",
+    "bytes": 20475078
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/c/8/1/b/1/c81b19d2e95a7cb8ff8fe4cbb70d2fa0360f2380759c981c54e80322.body",
+    "wheel": "typing_inspection-0.4.4.dist-info",
+    "bytes": 14750
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/c/a/3/b/d/ca3bdcf721b809a008d17825f06b6e2c28bd97b5e2bb8f3f91d9c1ab.body",
+    "wheel": "gitdb-4.0.12.dist-info",
+    "bytes": 62794
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/c/f/4/b/4/cf4b448ac8b79d3cee548e68fbb33326a7ba9bbadd88875e1619de3a.body",
+    "wheel": "manifold3d-3.5.4.dist-info",
+    "bytes": 884727
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/c/f/3/f/8/cf3f857085093702702c2996bc1326047e2bbb308bddca954509e2f9.body",
+    "wheel": "docstring_parser-0.18.0.dist-info",
+    "bytes": 22484
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/c/f/e/5/3/cfe53db609feaba2efb2139916693c3ff859e7f1e6e6e557fbd82ae0.body",
+    "wheel": "urllib3-2.7.0.dist-info",
+    "bytes": 131087
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/c/c/4/8/e/cc48e37914cd5ec9d68e4573c1c89f1f87cccbb79ce9f5d498acd9de.body",
+    "wheel": "plotly-6.9.0.dist-info",
+    "bytes": 9909646
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/c/c/4/c/3/cc4c3e9fdf54e076ca95a10546cb4a90524f41f25884511083af368d.body",
+    "wheel": "scipy-1.18.0.dist-info",
+    "bytes": 20423580
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/c/d/e/c/3/cdec3d0140a615c153130a37691576ea1707e32a1ab5e60ae5a540f4.body",
+    "wheel": "packaging-26.2.dist-info",
+    "bytes": 100195
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/c/4/4/4/c/c444cc1435a1d68adc48f19ffe2acc24a48f497bf91d67105446a6be.body",
+    "wheel": "tifffile-2026.7.14.dist-info",
+    "bytes": 270614
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/c/e/7/8/f/ce78f7862cb7f52b3972fb3cc4b44cf3bc1a7b1851ad44347b0fe95b.body",
+    "wheel": "httptools-0.8.0.dist-info",
+    "bytes": 113064
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/c/2/6/6/c/c266c407fc4d2756bae0de85d3ebec431e0adf534b2a0ddb4dff0ca6.body",
+    "wheel": "typer-0.27.3.dist-info",
+    "bytes": 123312
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/c/5/0/8/3/c50837a15752f4ba23cc6a2bf8eea64a7b02553b764e138ca6dd2fdf.body",
+    "wheel": "pyparsing-3.3.2.dist-info",
+    "bytes": 122781
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/c/5/3/f/e/c53febcf2db285b20d05a18101f3ea40f9450ef2232006f15794a631.body",
+    "wheel": "aiofiles-25.1.0.dist-info",
+    "bytes": 14668
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/d/9/a/d/7/d9ad76ec29f9c858ad203a50a64206861c264ede089577414ed2059e.body",
+    "wheel": "cssselect2-0.10.1.dist-info",
+    "bytes": 15489
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/d/0/4/d/f/d04df50d083e9243d79f55a20fc0c943a8875fb67c61ab23f3daa03c.body",
+    "wheel": "trame_vtk-2.11.17.dist-info",
+    "bytes": 851988
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/d/7/a/5/c/d7a5ce1a97af9ec58062d7904bc58bda581fe2b277db2e18d537d9ee.body",
+    "wheel": "mypy-2.3.1.dist-info",
+    "bytes": 14047547
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/d/7/c/7/b/d7c7b201440bc6973f1c0646568026c16329e8cc16617c293b96e102.body",
+    "wheel": "syrupy-5.5.3.dist-info",
+    "bytes": 54959
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/d/6/7/3/a/d673a260ac388e851ad4cbc7e67e7dc7494197a2d7762831f66dcca0.body",
+    "wheel": "pyperclip-1.11.0.dist-info",
+    "bytes": 11063
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/d/1/3/0/5/d1305619761fe7dda8bc3227d7381968fc80f1977067b4649eb41068.body",
+    "wheel": "cyclopts-5.2.0.dist-info",
+    "bytes": 289196
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/d/1/2/5/6/d12564d02d1376184fb3c6d7011e9cac0bdc6b78ff6b6eabf90b5965.body",
+    "wheel": "click-8.5.0.dist-info",
+    "bytes": 125251
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/d/8/7/4/9/d87498713c6bf3fd6cd85abc4629304b110ac53b2ab8bc415c24d41f.body",
+    "wheel": "typing_inspection-0.4.2.dist-info",
+    "bytes": 14611
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/d/8/6/b/2/d86b29a7b1000ab01326efb0eae7a7762555e9aa1dba42a07f273f64.body",
+    "wheel": "uncalled_for-0.4.1.dist-info",
+    "bytes": 14889
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/d/8/f/6/6/d8f6658f33493176286485c04b4350d8cca524052cba0aea8d4cb82e.body",
+    "wheel": "keyring-25.7.0.dist-info",
+    "bytes": 39160
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/d/8/e/b/f/d8ebf18e880c2f10e1cd90bbe3141e0be73ff78111c75033c7bc9ad0.body",
+    "wheel": "dnspython-2.9.0.dist-info",
+    "bytes": 354822
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/d/a/c/a/2/daca2884b333f4644d2065a563ce732d4148a34d025434b80c0022ad.body",
+    "wheel": "mypy-2.3.0.dist-info",
+    "bytes": 14032189
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/d/a/e/7/9/dae791c7e7f37ceeed2b1136e4c2fe2f795c6645ab088d6588854fe7.body",
+    "wheel": "itsdangerous-2.2.0.dist-info",
+    "bytes": 16234
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/d/f/1/9/7/df1972eb2d8ea3a3fe89aa6bc9e293c4aa744634b16ebe6e7af4ccf7.body",
+    "wheel": "trimesh-5.1.1.dist-info",
+    "bytes": 750449
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/d/d/f/4/5/ddf456a97a0418329d6d07dd6dfb1c6dacb87a5cc58d0ff90e449563.body",
+    "wheel": "hyperframe-6.1.0.dist-info",
+    "bytes": 13007
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/d/d/d/7/b/ddd7b772982aaa2fe44446ab6f187872e946ca63ef0cf0fc269d7b86.body",
+    "wheel": "authlib-1.8.0.dist-info",
+    "bytes": 260804
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/d/e/9/3/c/de93cf9a86fd533cb4dc1664bf35fa8f3f49c3e4c0a5c278491f76af.body",
+    "wheel": "watchfiles-1.3.0.dist-info",
+    "bytes": 397647
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/d/e/c/0/0/dec00a5b967f9707def35d1f4a40cb5707d0f92c8230d96e9f445b74.body",
+    "wheel": "imageio-2.37.4.dist-info",
+    "bytes": 318000
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/d/b/0/b/d/db0bda7c87fdf9a4ca087a429e02f5c86bf4652e9547d41fed4ee0d4.body",
+    "wheel": "pyzbar-0.1.9.dist-info",
+    "bytes": 32560
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/d/2/2/5/5/d2255f00783b7286163a5eaa1883e6b713954c895a2b209c4908fc09.body",
+    "wheel": "toml-0.10.2.dist-info",
+    "bytes": 16588
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/4/9/1/f/6/491f63d55e65a3f4cd4638d5b2c02343762ccb43161830c0e74f31c9.body",
+    "wheel": "email_validator-2.3.0.dist-info",
+    "bytes": 35604
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/4/9/f/d/9/49fd9686b2e0f83fd9282d1e6f5b2ce736be30eec0897bdb95b8bf16.body",
+    "wheel": "pycparser-3.11.dist-info",
+    "bytes": 51178
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/4/0/0/d/b/400db3c9a550719d76958c9c597bfbff6eb98533f684c02cc870de92.body",
+    "wheel": "six-1.17.0.dist-info",
+    "bytes": 11050
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/4/6/9/6/a/4696aaa16977e26e2eb515a6e626848ca8e370bcec1eb2ed96b0c16c.body",
+    "wheel": "priority-2.0.0.dist-info",
+    "bytes": 8946
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/4/1/9/6/f/4196fb32cd5477509fa68e914f1472976a27100798a6d4a646f26472.body",
+    "wheel": "certifi-2026.7.22.dist-info",
+    "bytes": 136983
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/4/f/e/a/d/4fead7217500083ca3641c2057a71888973231e8de59b9a7e0e20bc9.body",
+    "wheel": "beartype-0.23.1.dist-info",
+    "bytes": 1582101
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/4/d/5/5/c/4d55c583c7c78bf6eb2043362a4e3ef0263a43c76bba4d5899c19bd6.body",
+    "wheel": "wslink-2.6.0.dist-info",
+    "bytes": 37689
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/4/4/6/9/a/4469a36bf79442e595af87f1018809c0fbea0efea0769c7198e768ee.body",
+    "wheel": "trove_classifiers-2026.9.21.13.dist-info",
+    "bytes": 14232
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/4/4/3/9/8/443989e76bfd4e0f9f84547685a2ec07eb4699a646841aa52d66132e.body",
+    "wheel": "aiohappyeyeballs-2.7.1.dist-info",
+    "bytes": 15038
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/4/3/c/4/5/43c45f185383563af54a7a7dc4a5ccdb615c8da15f0c7aaef83c0b50.body",
+    "wheel": "pydantic_core-2.46.4.dist-info",
+    "bytes": 1951724
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/4/e/7/9/0/4e790a60c04500285a436c7c8cc1de3abb5f0cca527cc4c29a43d3f1.body",
+    "wheel": "aiohttp-3.14.5.dist-info",
+    "bytes": 548067
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/4/2/6/c/f/426cf541baaa31795dab186f9af0254a3518c1338730b2646956e25c.body",
+    "wheel": "hypercorn-0.18.0.dist-info",
+    "bytes": 61640
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/3/9/0/8/1/390812e541526ff617f5e250eb2dafd6b79c559ae0b0326af2dabdf7.body",
+    "wheel": "fonttools-4.68.0.dist-info",
+    "bytes": 3143556
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/3/9/1/9/3/3919357eca09f893629eedf3827f88304089b78068de804a1fd32edd.body",
+    "wheel": "pydantic-2.13.4.dist-info",
+    "bytes": 472262
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/3/9/3/5/0/39350ea288867224fcc726b6015bebfdd074e89389c8205fdb455fb6.body",
+    "wheel": "kicad_skip-0.2.5.dist-info",
+    "bytes": 62786
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/3/0/7/1/7/30717419a1c72cd8195a623e961019bc0d8dcd527a95f395b6dccbaa.body",
+    "wheel": "pydeck-0.9.3.dist-info",
+    "bytes": 11428091
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/3/0/e/f/1/30ef132248ab98ab0a92d2d15ee6957bdad5542ffbb630d3a32f7721.body",
+    "wheel": "h11-0.16.0.dist-info",
+    "bytes": 37515
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/3/0/e/4/6/30e468e98bb1a536c87710c33d35fc634ecb40f44a75fbe6f733d0bd.body",
+    "wheel": "tomlkit-0.15.1.dist-info",
+    "bytes": 49449
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/3/7/0/1/e/3701e0ccf2082e0e96c84ca816fe30d6b67369e67cb93e5c93c2c8cf.body",
+    "wheel": "jsonschema_path-0.5.0.dist-info",
+    "bytes": 24077
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/3/7/8/5/4/37854d7c3cfa0501762a6b65b5ef93aa92f1929de115ece58b803e6a.body",
+    "wheel": "opentelemetry_api-1.45.1.dist-info",
+    "bytes": 60256
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/3/1/3/8/0/31380b7a9928faeec1e80c38596e83d0ad676cf07ed9f0efa1aef15e.body",
+    "wheel": "pandas-3.0.5.dist-info",
+    "bytes": 9957095
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/3/8/7/3/b/3873b84e39e7d20b95f9132f69936b73cfa8253598a6948e85f9bf42.body",
+    "wheel": "matplotlib-3.11.2.dist-info",
+    "bytes": 9305583
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/3/a/0/2/0/3a020c0ecd1bc956fdd4a6371faa11563dff2500dcb34e7751c33b2c.body",
+    "wheel": "gitpython-3.1.57.dist-info",
+    "bytes": 217151
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/3/d/6/4/5/3d645138c7525100ddf84b0f22862a785cd3f453a3405b8d911c71be.body",
+    "wheel": "nlopt-2.11.0.dist-info",
+    "bytes": 615249
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/3/4/b/6/a/34b6a56a3f2bcf2d9d8857019c3c1c82a1bb047a54b8ef07c5e559a9.body",
+    "wheel": "setuptools-83.0.0.dist-info",
+    "bytes": 1008090
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/3/3/2/7/a/3327a46f678846be6cb46f3352e6fba668d9664c70a79484c770e358.body",
+    "wheel": "click-8.4.2.dist-info",
+    "bytes": 119243
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/3/3/5/e/4/335e4fae780121b49f966edba3e2b1f1f00b06637723db2e7e731f26.body",
+    "wheel": "jaraco_context-6.1.2.dist-info",
+    "bytes": 7871
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/3/2/2/d/6/322d6cbb3aed81e9991b668bc92f96ae49fbd6cb0e4af324dce94aca.body",
+    "wheel": "uvicorn-0.52.0.dist-info",
+    "bytes": 79058
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/3/5/7/6/1/35761fbb4e1e3f17fc90cc1d9ac033b1a02fb04561bf2c6d2bfb5310.body",
+    "wheel": "fast_simplification-0.2.0.dist-info",
+    "bytes": 148463
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/3/5/6/7/2/35672bc4614dc7dab1df39c8d6a7859bd2a525bc612db2fe54376116.body",
+    "wheel": "gerbonara-1.6.3.dist-info",
+    "bytes": 1093211
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/3/5/2/7/3/35273bcbb18331676831b8f5fca83bd8def26c48ecb9a10fe3e28a68.body",
+    "wheel": "charset_normalizer-3.4.9.dist-info",
+    "bytes": 319300
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/e/9/6/0/f/e960fa0fe237e14412f5fd6539e433dc1b119e58e8bc7fd176c3fcdc.body",
+    "wheel": "pytest_cov-7.1.0.dist-info",
+    "bytes": 22876
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/e/9/4/4/0/e94401d098631d1eb10a4637e6b71cddb57a241af502b4eeb5dc74ee.body",
+    "wheel": "cadquery_ocp-8.0.1.1.0.dist-info",
+    "bytes": 63342602
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/e/0/2/5/b/e025be30fc7a998342b39cfd3b094a3789f03adf1e804e450bbfe6b7.body",
+    "wheel": "librt-0.15.0.dist-info",
+    "bytes": 155267
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/e/c/a/1/f/eca1fc6c54cab6c92bf9e2e82f15f80f16e2182e47725839e4ae29d8.body",
+    "wheel": "rich_rst-2.2.0.dist-info",
+    "bytes": 279274
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/e/c/5/f/9/ec5f946e57d1ca51d8925944564a6f07b0d277c715842d2b7d33bcdd.body",
+    "wheel": "openapi_pydantic-0.6.0.dist-info",
+    "bytes": 96931
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/e/d/d/2/f/edd2f10e4c4ec22eff9c37d9ece0dee09b9d2aed582a0e33e7992bd4.body",
+    "wheel": "fastmcp_slim-3.4.8.dist-info",
+    "bytes": 784136
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/e/d/3/a/c/ed3acad79bebd48e93f9254a4702825f833ffd8119c8d2cbff43abfc.body",
+    "wheel": "build-1.5.0.dist-info",
+    "bytes": 26018
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/e/e/d/a/a/eedaa1c2b24c00e447b374569034d7eda0699abe9a5b3ff111bf022a.body",
+    "wheel": "frozenlist-1.8.0.dist-info",
+    "bytes": 50448
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/e/b/1/9/1/eb191316105c4d39809788cbc595af2313b33a8242498096126657d4.body",
+    "wheel": "pyparsing-3.3.3.dist-info",
+    "bytes": 126420
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/e/5/0/3/0/e503010ce88b2bb388d7806c951cab4dd3e436342653b4835f430bcc.body",
+    "wheel": "pip-26.1.2.dist-info",
+    "bytes": 1813144
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/e/5/4/b/e/e54beea78648a531c9bd4acac3ea860463fbe4f2f69208870a3bd9d1.body",
+    "wheel": "trame_common-1.2.9.dist-info",
+    "bytes": 24041
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/b/9/6/4/8/b964843a394e1e6b5e04fedfbf690f73e3cd0811457bf7b6c856cd8b.body",
+    "wheel": "uvicorn-0.54.0.dist-info",
+    "bytes": 87427
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/b/7/9/8/9/b7989402a05b5fe1a5bdfb1b6916dee8f6d6515db1d5b056f1ac81f2.body",
+    "wheel": "defusedxml-0.7.1.dist-info",
+    "bytes": 25604
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/b/7/d/9/a/b7d9a230086177660ab1ad8f7fa1dc27b263e590ff025ddb48285323.body",
+    "wheel": "anyio-4.15.1.dist-info",
+    "bytes": 132079
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/b/6/d/4/8/b6d48b640052566f30fac06761ba755ce5c3952c183707dbbdf921c5.body",
+    "wheel": "lazy_loader-0.5.dist-info",
+    "bytes": 8044
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/b/1/0/d/5/b10d5b4988fce24e6635419e68441a8ab030ce2dbd890e6ccd70448a.body",
+    "wheel": "propcache-0.5.4.dist-info",
+    "bytes": 52460
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/b/1/1/9/0/b11909f451f61fb29636217082b1c638b177c59eac335e0200a136e6.body",
+    "wheel": "packaging-26.3.dist-info",
+    "bytes": 129956
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/b/1/4/e/c/b14ec1286f8ec83b268f9c52cdccd1001d22496d6e01ba5b4fd8aeb4.body",
+    "wheel": "attrs-26.1.0.dist-info",
+    "bytes": 67548
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/b/1/3/1/e/b131e00d92e4352975e06dbc67dabb445bbf4ab42b456e9371e137e4.body",
+    "wheel": "confuse-2.2.1.dist-info",
+    "bytes": 28005
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/b/8/1/f/4/b81f46b2bd944e91141c15d7a2699683b69376c92a74658373c25d26.body",
+    "wheel": "pyarrow-24.0.0.dist-info",
+    "bytes": 34981559
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/b/a/1/0/d/ba10d19ff5a8d291ca2400cfd7ea11aa5e2623bdaafff8213eb009d8.body",
+    "wheel": "hpack-4.2.0.dist-info",
+    "bytes": 34246
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/b/a/d/4/1/bad41722ffd88674fca7a9778715cd89af6eeb94249d9452fee477c8.body",
+    "wheel": "pydantic-2.14.0.dist-info",
+    "bytes": 487109
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/b/f/7/5/7/bf7577f68b5e6199e3e59f396709dffc6f20dcec3686b18bad2366d8.body",
+    "wheel": "trame_server-4.1.0.dist-info",
+    "bytes": 46872
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/b/4/a/5/8/b4a58986e20c367136db5f503ec6c2cf30c23f7c802b282d77a3d819.body",
+    "wheel": "narwhals-2.27.1.dist-info",
+    "bytes": 483211
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/b/4/d/c/4/b4dc47ae9d349a950bbc69678b6f001f8a20486e60aee5a2e1823fed.body",
+    "wheel": "pycparser-3.12.dist-info",
+    "bytes": 62600
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/b/4/2/f/4/b42f4e4590056a9a4c54229011e001e9a8f4bbe98994347a085b6877.body",
+    "wheel": "jsonref-1.1.0.dist-info",
+    "bytes": 9425
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/b/e/1/e/a/be1ea0728b73a6239e4f04835fc61da3c244f8fa6b9ed120db15330d.body",
+    "wheel": "coverage-7.15.2.dist-info",
+    "bytes": 221943
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/b/e/d/4/e/bed4e7c2b407105e5c80f6f3c9c9ce06074cd1bc90409700e4489759.body",
+    "wheel": "mdurl-0.1.2.dist-info",
+    "bytes": 9979
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/b/b/9/0/8/bb908937da21f18e802ee6fc1621d8e8bd7760dbed9c074e8eb77a68.body",
+    "wheel": "fonttools-4.63.0.dist-info",
+    "bytes": 2881131
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/2/0/d/8/3/20d83649dc47d9c6fc96740e32babab82b266a2f996bebc27979763a.body",
+    "wheel": "narwhals-2.24.0.dist-info",
+    "bytes": 461030
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/2/7/4/5/2/2745241a9aeb24c7383abb6bcf188ab47d6c22661ffff119cceeabb1.body",
+    "wheel": "markupsafe-3.0.3.dist-info",
+    "bytes": 12020
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/2/6/5/b/4/265b4e95b5b52cb0f67365c67b735d0f95d6d49a7bad0b6cc530db81.body",
+    "wheel": "opencv_python-5.0.0.93.dist-info",
+    "bytes": 48322443
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/2/1/b/5/5/21b5550f87f57b1a0a562cadee39864d0f4c9956eb7abb8e48aa0e23.body",
+    "wheel": "editables-0.6.dist-info",
+    "bytes": 5438
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/2/8/4/c/2/284c29dcab21d28ad4a3cfbad4d048a8bfdecfcf375a351875c0194b.body",
+    "wheel": "kiwisolver-1.5.1.dist-info",
+    "bytes": 64660
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/2/8/3/9/a/2839a1e60014c8f0cdf9453a6036b2fef7bf06342761e3d37258b029.body",
+    "wheel": "pyproject_hooks-1.2.0.dist-info",
+    "bytes": 10216
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/2/8/3/7/a/2837a5918b0bed1201770081f5513a64d8099fd74dcb7a9fe856fcf7.body",
+    "wheel": "tomli-2.4.1.dist-info",
+    "bytes": 14583
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/2/f/0/e/4/2f0e4a41dd5656ecc2fbc3cdbc247723fa6c96407cd0a397f32de808.body",
+    "wheel": "quart-0.22.0.dist-info",
+    "bytes": 78912
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/2/f/a/a/4/2faa46ce2e2881f3e2eba67cbdda6168c4fa37f483fe9f538f2c10e2.body",
+    "wheel": "multimethod-1.12.dist-info",
+    "bytes": 10646
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/2/c/0/f/5/2c0f5252ea34f705bc312a7a027e0d3297cbb087b9c5be540c074416.body",
+    "wheel": "svglib-2.3.0.dist-info",
+    "bytes": 50602
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/2/c/6/6/7/2c667a763e0bc93c709e83228dd85ed16ae24e13705712670c4e4e72.body",
+    "wheel": "annotated_types-0.8.0.dist-info",
+    "bytes": 13427
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/2/c/8/c/0/2c8c0f4ef72c3beca8febe40d300258c361f69d16ac9f32c6b1b2d96.body",
+    "wheel": "pydantic_core-2.50.0.dist-info",
+    "bytes": 2025752
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/2/d/1/4/0/2d14081d4ede91f618f13c51c401f3f536e01081a0be761856431e36.body",
+    "wheel": "websockets-17.2.dist-info",
+    "bytes": 215703
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/2/4/d/b/9/24db9366753b8559a96fe294a29ebf32f13c5cff54739e41b20a46e8.body",
+    "wheel": "trove_classifiers-2026.6.1.19.dist-info",
+    "bytes": 14211
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/2/e/e/f/c/2eefc290e650f410245e06439d9986a9e086c5e8b61f232f1e12891f.body",
+    "wheel": "more_itertools-11.1.0.dist-info",
+    "bytes": 72226
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/2/b/1/d/2/2b1d293c3d18b4323770d2cd4fd26b0d9830fd0996d25d67d5bf7d2c.body",
+    "wheel": "python_dateutil-4.0.0.dist-info",
+    "bytes": 92853
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/2/5/e/b/1/25eb177442153b30afb344c7bc95f609fec23699a3e46dbf9c8ec47c.body",
+    "wheel": "python_dateutil-3.0.0.dist-info",
+    "bytes": 94659
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/5/9/c/5/0/59c5017976d4b09ccdcc322ecef2f9f3ffce3ba2c7411f80b22bdf62.body",
+    "wheel": "tenacity-9.1.4.dist-info",
+    "bytes": 28926
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/5/9/b/7/c/59b7c6c87c0ea58d9b0694d1ad1ae01c00c235c413b42b8e6b08c52b.body",
+    "wheel": "joserfc-1.7.5.dist-info",
+    "bytes": 71269
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/5/9/5/3/1/595319f8561b81c05ef5a907d76cc8e99f1a38b2242cfe83146d4d4a.body",
+    "wheel": "annotated_doc-0.0.5.dist-info",
+    "bytes": 5302
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/5/0/a/c/a/50aca150f7a6a363c46a17f8a38bfdd5bd243acd3a080416e31a9372.body",
+    "wheel": "ruff-0.16.6.dist-info",
+    "bytes": 9835082
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/5/7/d/3/0/57d3084b5147840c1dc529a0cf23207f4a6002823095441d7455c760.body",
+    "wheel": "cadquery_ocp_proxy-8.0.1.1.0.dist-info",
+    "bytes": 3250
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/5/8/4/a/d/584ad3af82b0ce4d7d8c3251761629aecbbd3e3529ae4f5c99149a90.body",
+    "wheel": "multidict-7.1.0.dist-info",
+    "bytes": 98294
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/5/8/e/f/3/58ef3d99328f030ea8e1d7ac1c94ac8ce03f713d52c472c9b44a139c.body",
+    "wheel": "scikit_image-0.26.0.dist-info",
+    "bytes": 12061567
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/5/a/7/3/6/5a736c7f5f7b4929329326045452bd9220984ca57f3662344663ce96.body",
+    "wheel": "fonttools-4.67.0.dist-info",
+    "bytes": 3108316
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/5/d/0/a/8/5d0a8898e86de8b7caefc5d297ec744a960ecccee3f3f8036aba71e1.body",
+    "wheel": "cairosvg-2.9.1.dist-info",
+    "bytes": 46165
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/5/d/e/7/4/5de74aa606aaf8588141cbe765382839ecb0982f091a947770ca6fa8.body",
+    "wheel": "typing_extensions-4.16.0.dist-info",
+    "bytes": 45571
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/5/4/d/a/8/54da82efbe7b1313049ee3fb61b8f7d3715d0d2e4a6f835db6ac4f9c.body",
+    "wheel": "vtk-9.6.2.dist-info",
+    "bytes": 106960169
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/5/e/a/0/6/5ea06a6dd6c278843e6cf6196d034f7e9e7de8bf5239f8df40339427.body",
+    "wheel": "mcp-1.30.0.dist-info",
+    "bytes": 234581
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/5/5/9/a/2/559a28d2d50a6d0988e3c56e5d0d411789da84005e4420f1a26bb23e.body",
+    "wheel": "markdown_it_py-4.2.0.dist-info",
+    "bytes": 91687
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/5/5/7/8/f/5578f04015bc72d34ccff0865612606d646694de3865112ddef4292f.body",
+    "wheel": "idna-3.20.dist-info",
+    "bytes": 69583
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/5/5/a/0/8/55a08c6bf6181a0acbcd79c90a53299b98279053683ce1bc8d30f2d2.body",
+    "wheel": "cryptography-50.0.2.dist-info",
+    "bytes": 3914904
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/5/5/f/7/c/55f7ca652ca47e066fa40196445d62a21ae67edc5f75a18c2d54c1e4.body",
+    "wheel": "pytest_mock-3.15.1.dist-info",
+    "bytes": 10095
+  },
+  {
+    "path": "/Users/jonashilti/Library/Caches/pip/http-v2/5/5/e/8/9/55e89b09594758366a997abbae14a69af04566121efa35f87cbadc71.body",
+    "wheel": "blinker-1.9.0.dist-info",
+    "bytes": 8458
+  }
+]

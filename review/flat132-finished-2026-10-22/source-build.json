@@ -1,0 +1,148 @@
+{
+  "file": "review/flat132-finished-2026-10-22/fingerworker_flat132_finished.fs",
+  "bytes": 100959,
+  "sha256": "041056629440056626b2f2f88a0db216693e48fff178687174478cb1f34227ef",
+  "utf16_length": 100959,
+  "fnv1a32_utf16": "a8a7c0b4",
+  "baseline_sha256": "3e5de8f56211cf2ed063b6b4294da5f77fea4c3fb881fa0c13b1288eca7932cc",
+  "replacements": [
+    {
+      "label": "comfort/roof",
+      "old": "        cut(context,id + \"openSleeve\",body(id + \"palmCushion\"),qUnion([body(id + \"sleeveCoreTool\"),body(id + \"sleeveBottomTool\")]));",
+      "new": "        cut(context,id + \"openSleeve\",body(id + \"palmCushion\"),qUnion([body(id + \"sleeveCoreTool\"),body(id + \"sleeveBottomTool\")]));\n        // Clear the M6 adjuster rear shaft over the full0..2 mm preload range.\n        // This is a local opening in the soft sleeve only; preserve the core,\n        // primary wrist contact surface, screw length and thread engagement.\n        makeCylinder(context,id + \"sleeveAdjusterRelief\",\n            vector(-24.5,0,18)*mm,vector(-21.3,0,18)*mm,3.5*mm);\n        cut(context,id + \"sleeveAdjusterClearance\",body(id + \"palmCushion\"),\n            body(id + \"sleeveAdjusterRelief\"));",
+      "count": 1
+    },
+    {
+      "label": "comfort/roof",
+      "old": "        // R12 clearance lies entirely behind pocket X111. Steel seat OD22\n        // occupies X113..116; retain its X116 planar reaction datum.",
+      "new": "        // Restore the local upper roof after deckTopRound's tangent R1 blend.\n        // Two shallow caps stay within the existing84 mm deck width andZ30.\n        // R0.35 plan corners blend each short cap; no spring-facing projection.\n        // Join before cutting R12 so the steel-seat clearance stays unchanged.\n        for (var side in [-1,1])\n        {\n            const t=side == -1 ? \"0\" : \"1\";\n            const lowY=side == -1 ? -42 : 40.5;\n            const highY=side == -1 ? -40.5 : 42;\n            makeBox(context,id + (\"rearRoofCap\"~t),\n                vector(111.5,lowY,28.5)*mm,vector(116.5,highY,30)*mm);\n            opFillet(context,id + (\"rearRoofCapPlanRound\"~t),{\n                \"entities\":qParallelEdges(qCreatedBy(id + (\"rearRoofCap\"~t),EntityType.EDGE),vector(0,0,1)),\n                \"radius\":0.35*mm,\"tangentPropagation\":true });\n            join(context,id + (\"rearRoofCapJoin\"~t),\n                [body(id + \"carriageBridge\"),body(id + (\"rearRoofCap\"~t))]);\n        }\n        // R12 clearance lies entirely behind pocket X111. Steel seat OD22\n        // occupies X113..116; retain its X116 planar reaction datum.",
+      "count": 1
+    },
+    {
+      "label": "reinforce closed preload slot ends",
+      "old": "            makeBox(context,id + (\"cassetteGuide\"~t),vector(-16.2,lo,3.8)*mm,vector(-8,lo+3,29)*mm);",
+      "new": "            makeBox(context,id + (\"cassetteGuide\"~t),vector(-16.2,lo,3.8)*mm,vector(-8,lo+3,29)*mm);\n            // Retain 2.3 mm at the closed slot end; this cap stays below the lead.\n            makeBox(context,id + (\"cassetteGuideEndCap\"~t),vector(-8.1,lo,3.8)*mm,\n                vector(-6.5,lo+3,11.7)*mm);\n            join(context,id + (\"cassetteGuideEndCapJoin\"~t),\n                [body(id + (\"cassetteGuide\"~t)),body(id + (\"cassetteGuideEndCap\"~t))]);",
+      "count": 1
+    },
+    {
+      "label": "clear strengthened preload slot caps from yoke",
+      "old": "        cut(context,id + \"yokeRelief\",body(id + \"springAnchor\"),qUnion([body(id + \"yokeSensorTool\"),body(id + \"yokeCableTool\")]));",
+      "new": "        cut(context,id + \"yokeRelief\",body(id + \"springAnchor\"),qUnion([body(id + \"yokeSensorTool\"),body(id + \"yokeCableTool\")]));\n        for (var side in [-1,1])\n        {\n            const t=side == -1 ? \"0\" : \"1\";\n            const loY=side == -1 ? -19 : 15;\n            makeBox(context,id + (\"yokeGuideCapTool\"~t),vector(-8.2,loY,3.3)*mm,\n                vector(-6.0,loY+4,12.2)*mm);\n            cut(context,id + (\"yokeGuideCapClearance\"~t),body(id + \"springAnchor\"),\n                body(id + (\"yokeGuideCapTool\"~t)));\n        }",
+      "count": 1
+    },
+    {
+      "label": "manufacturing M3 tap-drill rather than smooth clearance envelope",
+      "old": "vector(-12.8,side*11.9,8.5)*mm,vector(-12.8,side*15.2,8.5)*mm,1.55*mm",
+      "new": "vector(-12.8,side*11.9,8.5)*mm,vector(-12.8,side*15.2,8.5)*mm,1.25*mm",
+      "count": 1
+    },
+    {
+      "label": "explicit final thread callout",
+      "old": "// Flat-bottom blind M3 bore to |Y|11.9; 2 mm engaged from |Y|13..15",
+      "new": "// Flat-bottom blind pilot dia2.5, TAP M3x0.5 to |Y|11.9; 2 mm engaged from |Y|13..15",
+      "count": 1
+    },
+    {
+      "label": "actual sensor query",
+      "old": "    precondition\n    {\n",
+      "new": "    precondition\n    {\n        annotation { \"Name\" : \"Aligned official TE FX1901 solid (derive before this feature)\",\n            \"Filter\" : EntityType.BODY && BodyType.SOLID, \"MaxNumberOfPicks\" : 1 }\n        definition.actualSensor is Query;\n",
+      "count": 1
+    },
+    {
+      "label": "require real input",
+      "old": "        const mm = millimeter;\n        const preload = definition.preloadAdjustment;",
+      "new": "        const mm = millimeter;\n        if (size(evaluateQuery(context,definition.actualSensor)) != 1)\n            throw regenError(\"Select the aligned, unmodified official TE FX1901 manufacturer solid.\",[\"actualSensor\"]);\n        const sensorBox = evBox3d(context,{\"topology\":definition.actualSensor,\"tight\":true});\n        if (norm(sensorBox.minCorner-vector(-9.85,-12.5,5.5)*mm)>0.05*mm ||\n            norm(sensorBox.maxCorner-vector(-1.9,27,30.5)*mm)>0.05*mm)\n            throw regenError(\"Use the apex-aligned official STEP at its base origin; do not rescale or offset it.\",[\"actualSensor\"]);\n        nameBody(context,definition.actualSensor,\"H01 ACTUAL TE FX1901-0001-0200-L manufacturer STEP rev F\");\n        finishBody(context,definition.actualSensor,color(0.75,0.76,0.77));\n        const preload = definition.preloadAdjustment;",
+      "count": 1
+    },
+    {
+      "label": "remove obsolete proxy generation",
+      "old": "        makeCylinder(context,id + \"loadCell\",vector(-8,0,18)*mm,vector(-2.55,0,18)*mm,9.875*mm);\n        makeCylinder(context,id + \"loadCellBoss\",vector(-2.55,0,18)*mm,vector(-1.9,0,18)*mm,2.5*mm);\n        makeBox(context,id + \"loadCellOvermold\",vector(-7,8,15.5)*mm,vector(-3.5,14,20.5)*mm);\n        // Cable/connector preview rerouted inward. Retain real sensor-lead slack.\n        makeCylinder(context,id + \"loadCellCable\",vector(-5.25,8.5,18)*mm,vector(-5.25,33,18)*mm,1.2*mm);\n        makeBox(context,id + \"loadCellConnector\",vector(-8.25,30.5,15)*mm,vector(-2.25,38.5,21)*mm);\n",
+      "new": "        // H01 is the genuine STEP solid selected above, with its original shape.\n        // The full flexible lead/connector is a routing requirement, not invented CAD.\n",
+      "count": 1
+    },
+    {
+      "label": "remove loadCell proxy name",
+      "old": "        nameBody(context,body(id + \"loadCell\"),\"H01 TE FX1901-0001-0200-L compression cell\");\n",
+      "new": "",
+      "count": 1
+    },
+    {
+      "label": "remove loadCellBoss proxy name",
+      "old": "        nameBody(context,body(id + \"loadCellBoss\"),\"H01a Sensor force boss\");\n",
+      "new": "",
+      "count": 1
+    },
+    {
+      "label": "remove loadCellOvermold proxy name",
+      "old": "        nameBody(context,body(id + \"loadCellOvermold\"),\"H01b Sensor cable overmold\");\n",
+      "new": "",
+      "count": 1
+    },
+    {
+      "label": "remove loadCellCable proxy name",
+      "old": "        nameBody(context,body(id + \"loadCellCable\"),\"H01c Sensor cable\");\n",
+      "new": "",
+      "count": 1
+    },
+    {
+      "label": "remove loadCellConnector proxy name",
+      "old": "        nameBody(context,body(id + \"loadCellConnector\"),\"H01d Sensor connector\");\n",
+      "new": "",
+      "count": 1
+    },
+    {
+      "label": "genuine sensor follows synchronized preload",
+      "old": "body(id + \"sensorCassette\"),body(id + \"loadCell\"),body(id + \"loadCellBoss\"),\n                    body(id + \"loadCellOvermold\"),body(id + \"loadCellCable\"),body(id + \"loadCellConnector\"),",
+      "new": "body(id + \"sensorCassette\"),definition.actualSensor,",
+      "count": 1
+    },
+    {
+      "label": "native audit query parameter",
+      "old": "export function auditFingerworkerCollisions(context is Context, id is Id) returns array",
+      "new": "export function auditFingerworkerCollisions(context is Context, id is Id, sensor is Query) returns array",
+      "count": 1
+    },
+    {
+      "label": "remove proxy audit query",
+      "old": "    const sensor = qUnion([body(id + \"loadCell\"),body(id + \"loadCellBoss\"),\n        body(id + \"loadCellOvermold\"),body(id + \"loadCellCable\"),body(id + \"loadCellConnector\")]);\n",
+      "new": "",
+      "count": 1
+    },
+    {
+      "label": "include manufacturer part in all-device audit",
+      "old": "    const device = qBodyType(body(id), BodyType.SOLID);",
+      "new": "    const device = qBodyType(qUnion([body(id),sensor]), BodyType.SOLID);",
+      "count": 1
+    },
+    {
+      "label": "pass actual sensor to collision checks",
+      "old": "auditFingerworkerCollisions(context,id))",
+      "new": "auditFingerworkerCollisions(context,id,definition.actualSensor))",
+      "count": 1
+    },
+    {
+      "label": "electronics audit query parameter",
+      "old": "function makeElectronicsStudy(context is Context, id is Id) returns array",
+      "new": "function makeElectronicsStudy(context is Context, id is Id, actualSensor is Query) returns array",
+      "count": 1
+    },
+    {
+      "label": "electronics audit includes manufacturer solid",
+      "old": "const mechanism=qSubtraction(qBodyType(body(id),BodyType.SOLID),qUnion([electronics,hand]));",
+      "new": "const mechanism=qSubtraction(qBodyType(qUnion([body(id),actualSensor]),BodyType.SOLID),qUnion([electronics,hand]));",
+      "count": 1
+    },
+    {
+      "label": "pass real sensor to electronics checks",
+      "old": "makeElectronicsStudy(context,id))",
+      "new": "makeElectronicsStudy(context,id,definition.actualSensor))",
+      "count": 1
+    },
+    {
+      "label": "accurate sensor-base audit",
+      "old": "auditSolidPair(context,\"Sensor / base\",sensor,base,true)",
+      "new": "auditSolidPair(context,\"Sensor / base\",sensor,base,false)",
+      "count": 1
+    }
+  ]
+}

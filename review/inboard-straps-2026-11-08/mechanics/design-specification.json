@@ -1,0 +1,94 @@
+{
+  "revision": "R15",
+  "contact_width_mm": 76,
+  "contact_depth_mm": 18,
+  "contact_envelope_mm": [
+    [
+      -34,
+      -38,
+      14.4
+    ],
+    [
+      -16,
+      38,
+      33
+    ]
+  ],
+  "crown_x_mm": [
+    -20,
+    -19
+  ],
+  "crown_z_mm": 33,
+  "wrist_radius_mm": 14,
+  "sensor_facing_radius_mm": 3,
+  "end_radius_mm": 2,
+  "nose_underside_degrees": 45,
+  "retained_original_wall_below_z_mm": 30,
+  "original_sensor_reaction_max_z_mm": 26,
+  "buttress_tip_removed_mm3": 118.34550000000004,
+  "added_mm3": 0.0,
+  "removed_mm3": 11135.845379041564,
+  "P01_volume_mm3": 164696.83488243067,
+  "baseline_P01_volume_mm3": 175832.68710652113,
+  "source_sha256": "97e2010cc17d06eb8648cf278b9aae2fd85b6e909bd657b9b216f3b37748665f",
+  "baseline_source_sha256": "9286d5a51880dc79d1e9a07135e8c905f4022a1ed757801b8430f23f51a04829",
+  "baseline_native_step_sha256": "ad1fb9bda2a999a953399451585e821181082535fdc15fe30b0b43e90b2c6054",
+  "changed": [
+    "P01"
+  ],
+  "other_native_bodies_unchanged": 92,
+  "device_printed_parts": 7,
+  "minimum_contact_to_H12_rear_plane_x_gap_mm": 4,
+  "obsolete_stock_removed": "Old outer bolster and high broad web aboveZ14.5, excluding fixed wall and original rod blocks. Wall upper rim and buttress tips sculpted only aboveZ30.",
+  "limitations": "Nominal CAD design dimensions. Authoritative native geometry, service/motion and slicing validation are separate hash-bound release reports. No new loaded-strength qualification.",
+  "strap_mount": {
+    "slot_count": 4,
+    "position_count": 2,
+    "position_x_mm": [
+      28,
+      65
+    ],
+    "position_spacing_mm": 37,
+    "slot_center_y_mm": [
+      -57.5,
+      57.5
+    ],
+    "slot_size_mm": [
+      27,
+      4
+    ],
+    "slot_plan_end_radius_mm": 2,
+    "slot_top_radius_mm": 0.8,
+    "slot_bottom_chamfer_mm": 0.8,
+    "slot_bottom_chamfer_degrees": 45,
+    "strap_width_mm": 25,
+    "strap_thickness_envelope_mm": 2,
+    "external_doubled_thickness_envelope_mm": 4,
+    "minimum_throat_chord_at_2mm_band_mm": 26.464101615137753,
+    "overall_width_mm": 132.4,
+    "main_floor_width_mm": 132,
+    "existing_latch_boss_width_mm": 132.4,
+    "eye_z_mm": [
+      -2,
+      4
+    ],
+    "original_floor_thickness_mm": 6,
+    "floor_recess_mm": 0,
+    "nominal_outer_bar_mm": 6.5,
+    "minimum_outer_bar_at_top_surface_mm": 4.2,
+    "nominal_inner_rail_mm": 17.5,
+    "slot_end_spacing_mm": 10,
+    "strap_quantity": 2,
+    "straps_printed": false,
+    "extra_printed_parts": 0,
+    "routing": "Each end rises through its inboard slot, turns over the outer bearing strip, descends outside and fastens back to itself. The free strap wraps under the chosen object; no across-top ribbon. Folded ends remain outside.",
+    "route_audit_extent_z_mm": [
+      -20,
+      8
+    ],
+    "route_audit_outer_y_mm": 70,
+    "intended_bearing_contacts": "Top of outer strip atZ4 and outside edge atY+/-66. Positive volume overlap prohibited; face contact intended.",
+    "station_selection": "X28/65 keeps the rear25mm ribbon span3.5mm before the exact native full-stroke rear-bridge startX81; front band beginsX15.5 after the fixedseat endX12. Source carriage is already advanced5mm in the native rest configuration; audit adds the full30mm stroke to that native pose. OriginalX80 rearstation would interfere with the moving bridge.",
+    "limitations": "Nominal25x2mm ribbon allowance. Physical strap fit, force capacity and creep require printed validation; smaller37mm station spacing gives less rotational restraint than R14."
+  }
+}

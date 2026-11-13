@@ -1,0 +1,9 @@
+Fixed-length inverse kinematics: 61 stroke positions, 0..30 mm in 0.5 mm increments; all feasible.
+ 0 mm: 311,040 sampled hand surface points; no intrusion into conservative open mechanism, deck/pocket, plate or rounded bolster.
+15 mm: 311,040 sampled hand surface points; no intrusion into conservative open mechanism, deck/pocket, plate or rounded bolster.
+30 mm: 311,040 sampled hand surface points; no intrusion into conservative open mechanism, deck/pocket, plate or rounded bolster.
+Fingertip wall clearance = 0.100 mm; floor clearance = 0.100 mm at every pose.
+Heel-front gap = 0.100 mm at z49.25; heel bottom40.25 clears anchor top39 by1.25 mm.
+Palm bolster crown59.5 is level with pocket frame59.5. Wrist underside64 >59.5.
+Palm-volume overlap witnesses pass; exact single-body union still requires Onshape regeneration.
+Limits: numerical surface sampling and nominal envelopes; exact regenerated CAD boolean still required.

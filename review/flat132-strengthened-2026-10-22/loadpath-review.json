@@ -1,0 +1,920 @@
+{
+  "status": "ENGINEERING_LOADPATH_REVIEW_NOT_LOAD_QUALIFICATION",
+  "date": "2026-10-22",
+  "baseline_source": "review/flat132-finished-2026-10-22/fingerworker_flat132_finished.fs",
+  "baseline_source_sha256": "041056629440056626b2f2f88a0db216693e48fff178687174478cb1f34227ef",
+  "baseline_native_step": "review/flat132-finished-2026-10-22/native/Flat132_R1_final_AP214.step",
+  "baseline_native_step_sha256": "6de4383e6423fd1f57bd353d8f42953ecdae841bee1e36b853fb312c679fd7ef",
+  "baseline_native_step_solid_index": 84,
+  "proposal_source": "review/flat132-strengthened-2026-10-22/fingerworker_flat132_strengthened.fs",
+  "proposal_source_sha256": "d5eca2f3d87bf4b9a47c1987ee91ba1d56e8c87003eca101677a148a2e605654",
+  "method": "Native exact OCCT comparison: baseline R1 P01 solid84 and final R2 P01 solid66. Horizontal slabs0.001 mm high clipped toX[-23,-6.01],Y[-25.9,25.9]; section inertia and section moduli computed from BRep volume properties. P04 translated-30mm relative to P05 for exact endpoint face contact. Initial analytic reconstruction is retained as historical corroboration.",
+  "hypothesis_brep_valid": true,
+  "hypothesis_frame_volume_mm3": 143432.32128639446,
+  "material_strength_allowable": null,
+  "working_load_rating_established": false,
+  "user_requested_load_target_N": 500,
+  "sensitivity_force_N": 1000,
+  "sensitivity_meaning": "Engineering sensitivity only; not a prescribed or performed proof test.",
+  "force_path": [
+    "P04 finger carriage \u2192 spring seats and springs or lock sleeves",
+    "P05 floating yoke \u2192 H02 central pusher \u2192 actual H01 sensor",
+    "H01 rear face \u2192 H12 backing \u2192 H13 M6 adjuster \u2192 H11 nut",
+    "H11 rear face at X\u221221 \u2192 H15 keeper \u2192 H16 M3 bolts / H17 nuts \u2192 P01 reaction portal \u2192 base and palm joint"
+  ],
+  "target_reactions": {
+    "sensor_axis_z_mm": 18,
+    "base_top_z_mm": 4,
+    "base_bottom_z_mm": -2,
+    "moment_about_base_top_Nmm": 7000,
+    "moment_about_base_bottom_Nmm": 10000,
+    "keeper_bolt_axis_z_mm": 24,
+    "keeper_bolt_to_sensor_eccentricity_mm": 6,
+    "keeper_local_eccentric_moment_Nmm": 3000,
+    "warning": "Keeper bolt forces can exceed F/2 because of plate bending, contact and prying. The exact distribution is uncalculated."
+  },
+  "sections": [
+    {
+      "z_mm": 4.1,
+      "baseline": {
+        "z_mm": 4.1,
+        "area_mm2": 345.00000000019133,
+        "centroid_x_mm": -17.719565217392585,
+        "Iy_mm4": 4150.617934783549,
+        "x_bounds_mm": [
+          -22.0,
+          -6.5
+        ],
+        "section_modulus_rear_mm3": 969.672041646015,
+        "section_modulus_front_mm3": 369.94463282313785
+      },
+      "proposal": {
+        "z_mm": 4.1,
+        "area_mm2": 437.9000000002317,
+        "centroid_x_mm": -17.612325873488572,
+        "Iy_mm4": 6927.347887766291,
+        "x_bounds_mm": [
+          -22.75,
+          -6.5
+        ],
+        "section_modulus_rear_mm3": 1348.3431835467704,
+        "section_modulus_front_mm3": 623.3931551893501
+      },
+      "area_ratio": 1.2692753623188082,
+      "Iy_ratio": 1.668991942070319,
+      "rear_modulus_ratio": 1.3905146540658864,
+      "front_modulus_ratio": 1.6850985252362891
+    },
+    {
+      "z_mm": 8.5,
+      "baseline": {
+        "z_mm": 8.5,
+        "area_mm2": 309.0000002283791,
+        "centroid_x_mm": -18.40922329611183,
+        "Iy_mm4": 2634.1637255725745,
+        "x_bounds_mm": [
+          -22.0,
+          -6.5
+        ],
+        "section_modulus_rear_mm3": 733.5916273268246,
+        "section_modulus_front_mm3": 221.18686165138803
+      },
+      "proposal": {
+        "z_mm": 8.5,
+        "area_mm2": 377.9000003801386,
+        "centroid_x_mm": -18.535161411615995,
+        "Iy_mm4": 4398.530729924274,
+        "x_bounds_mm": [
+          -22.75,
+          -6.5
+        ],
+        "section_modulus_rear_mm3": 1043.582248213851,
+        "section_modulus_front_mm3": 365.47334759290703
+      },
+      "area_ratio": 1.2229773466046476,
+      "Iy_ratio": 1.6698015720219472,
+      "rear_modulus_ratio": 1.4225656473433572,
+      "front_modulus_ratio": 1.652328465010406
+    },
+    {
+      "z_mm": 11.8,
+      "baseline": {
+        "z_mm": 11.8,
+        "area_mm2": 269.9799999997577,
+        "centroid_x_mm": -17.493929179940288,
+        "Iy_mm4": 2572.119983042193,
+        "x_bounds_mm": [
+          -22.0,
+          -8.0
+        ],
+        "section_modulus_rear_mm3": 570.8121522617588,
+        "section_modulus_front_mm3": 270.9226005684582
+      },
+      "proposal": {
+        "z_mm": 11.8,
+        "area_mm2": 401.50499999971146,
+        "centroid_x_mm": -16.40340188789646,
+        "Iy_mm4": 5823.13889079705,
+        "x_bounds_mm": [
+          -22.75,
+          -7.6
+        ],
+        "section_modulus_rear_mm3": 917.5212906094993,
+        "section_modulus_front_mm3": 661.4646207170337
+      },
+      "area_ratio": 1.4871657159792273,
+      "Iy_ratio": 2.263945278287404,
+      "rear_modulus_ratio": 1.6073962107743445,
+      "front_modulus_ratio": 2.4415261751110022
+    },
+    {
+      "z_mm": 18,
+      "baseline": {
+        "z_mm": 18,
+        "area_mm2": 232.99999999945703,
+        "centroid_x_mm": -17.607038626609434,
+        "Iy_mm4": 2012.8991233143772,
+        "x_bounds_mm": [
+          -22.0,
+          -8.0
+        ],
+        "section_modulus_rear_mm3": 458.2100665640011,
+        "section_modulus_front_mm3": 209.52337151420198
+      },
+      "proposal": {
+        "z_mm": 18,
+        "area_mm2": 353.2924999991837,
+        "centroid_x_mm": -16.60893195790373,
+        "Iy_mm4": 4591.452339028746,
+        "x_bounds_mm": [
+          -22.75,
+          -8.0
+        ],
+        "section_modulus_rear_mm3": 747.6634858228085,
+        "section_modulus_front_mm3": 533.3358843443294
+      },
+      "area_ratio": 1.5162768240343647,
+      "Iy_ratio": 2.281014625049169,
+      "rear_modulus_ratio": 1.6317046271578968,
+      "front_modulus_ratio": 2.545472042044621
+    },
+    {
+      "z_mm": 24,
+      "baseline": {
+        "z_mm": 24,
+        "area_mm2": 193.78000028385978,
+        "centroid_x_mm": -17.34604190627609,
+        "Iy_mm4": 2143.048748922411,
+        "x_bounds_mm": [
+          -22.0,
+          -8.0
+        ],
+        "section_modulus_rear_mm3": 460.4787378323016,
+        "section_modulus_front_mm3": 229.30014335622687
+      },
+      "proposal": {
+        "z_mm": 24,
+        "area_mm2": 309.44450028359,
+        "centroid_x_mm": -16.422006335865206,
+        "Iy_mm4": 4364.739513014147,
+        "x_bounds_mm": [
+          -22.75,
+          -8.0
+        ],
+        "section_modulus_rear_mm3": 689.7509297065523,
+        "section_modulus_front_mm3": 518.2541236554117
+      },
+      "area_ratio": 1.5968856426375189,
+      "Iy_ratio": 2.036696325834337,
+      "rear_modulus_ratio": 1.497899627143583,
+      "front_modulus_ratio": 2.260156125808798
+    },
+    {
+      "z_mm": 27,
+      "baseline": {
+        "z_mm": 27,
+        "area_mm2": 276.9787164945132,
+        "centroid_x_mm": -17.496970610118307,
+        "Iy_mm4": 2589.58662730617,
+        "x_bounds_mm": [
+          -22.0,
+          -8.0
+        ],
+        "section_modulus_rear_mm3": 575.0765547133606,
+        "section_modulus_front_mm3": 272.67501749949196
+      },
+      "proposal": {
+        "z_mm": 27,
+        "area_mm2": 388.28471649426274,
+        "centroid_x_mm": -16.78285231244939,
+        "Iy_mm4": 4819.092268751126,
+        "x_bounds_mm": [
+          -22.75,
+          -8.0
+        ],
+        "section_modulus_rear_mm3": 807.603987882737,
+        "section_modulus_front_mm3": 548.6933056952613
+      },
+      "area_ratio": 1.401857591833972,
+      "Iy_ratio": 1.8609503995485988,
+      "rear_modulus_ratio": 1.4043417024456453,
+      "front_modulus_ratio": 2.01226100845958
+    },
+    {
+      "z_mm": 30.5,
+      "baseline": {
+        "z_mm": 30.5,
+        "area_mm2": 0
+      },
+      "proposal": {
+        "z_mm": 30.5,
+        "area_mm2": 496.75679459778104,
+        "centroid_x_mm": -17.473126980551985,
+        "Iy_mm4": 4602.2536542281405,
+        "x_bounds_mm": [
+          -22.75,
+          -11.8873775
+        ],
+        "section_modulus_rear_mm3": 872.1554673130181,
+        "section_modulus_front_mm3": 823.9276878155559
+      }
+    }
+  ],
+  "limitations": [
+    "No printer/material/orientation/process-dependent elastic modulus, allowable stress, layer bond or creep data exists for this revision.",
+    "Geometric Iy and section-modulus ratios cannot be converted into a permissible working load or a complete assembly strength factor.",
+    "R1 guide ribs already provide structural support; the original structure is not an unbraced 6 \u00d7 48 mm cantilever.",
+    "Whole-assembly native regeneration, hardware fit, continuous motion/service and lead clearance are separate checks. They must be read from the matched validation report rather than inferred from the local sections/contact calculation.",
+    "Global base flexibility, the palm joint, keeper plate and fastener prying, concentrated loads, fillets, layer anisotropy, fatigue, creep, eccentric hand loads and overloaded isometric cases remain unqualified."
+  ],
+  "cross_check": {
+    "independent_mock_stl": "review/flat132-strengthened-2026-10-22/reinforcement-P01-mock.stl",
+    "independent_mock_stl_sha256": "619dcf1861bae60ae5036b9bef0e24bef2387dad1b80ac68476bda2814cc8a58",
+    "mock_frame_volume_mm3": 143432.70988087266,
+    "analytic_frame_volume_mm3": 143432.32128639446,
+    "analytic_change_mm3": 4465.830736420699,
+    "mock_change_mm3": 4465.835608099267,
+    "change_difference_mm3": -0.004871678567724302,
+    "meaning": "The remaining whole-frame volume offset is predominantly the baseline STL tessellation error; this is a consistency cross-check, not exact identity."
+  },
+  "current_portal_provenance": {
+    "file": "review/flat132-strengthened-2026-10-22/reinforcement-proposal.fs",
+    "sha256": "64b844211e5e562e5350327e8f9b6902fd8cb77e152984461e4020b42a2d451d",
+    "difference_from_section_hypothesis": "The portal source has the same critical sampled sections. Later floor-pocket extension and corrected child feature queries are confirmed by the final native STEP section comparison."
+  },
+  "baseline_load_cases": {
+    "heavy_spring": {
+      "rate_each_N_per_mm": 3.709,
+      "free_length_mm": 105,
+      "neutral_installed_length_mm": 101,
+      "maximum_additional_preload_mm": 2,
+      "maximum_stroke_mm": 30,
+      "maximum_pair_compression_mm": 36,
+      "nominal_maximum_pair_force_N": 267.048
+    },
+    "light_spring": {
+      "rate_each_N_per_mm": 3.307,
+      "free_length_mm": 102,
+      "nominal_maximum_pair_force_N": 218.262
+    },
+    "isometric": {
+      "force_is_user_imposed": true,
+      "spring_rate_does_not_limit_force": true,
+      "target_N": 500
+    }
+  },
+  "sensed_stop_variant": {
+    "source_file": "review/flat132-strengthened-2026-10-22/sensed-stops-proposal.fs",
+    "source_sha256": "d5eca2f3d87bf4b9a47c1987ee91ba1d56e8c87003eca101677a148a2e605654",
+    "scope": "Final source for broad integral printed P05 end stops; H070/H071/H080/H081 removed. Native exact contact and P01 sections verified; physical qualification remains outstanding.",
+    "frame_travel_mm": "0 <= stroke <= 30 - preload, with 0 <= preload <= 2",
+    "maximum_frame_travel_at_preload0_mm": 30,
+    "maximum_frame_travel_at_preload2_mm": 28,
+    "isometric_frame_travel_mm": "15 - preload",
+    "stop_face_world_x_mm": "35 + preload",
+    "carriage_front_world_x_mm": "65 - stroke",
+    "primary_endstop_force_path": [
+      "P04 front wall",
+      "Broad integral P05 stop faces and arms",
+      "P05 central web",
+      "H02 pusher",
+      "H01 sensor",
+      "H12 backing",
+      "H13 adjuster",
+      "H11/H15 keeper joint",
+      "Reinforced P01 base and palm reaction"
+    ],
+    "removed_bypass": "The former P01-attached hard-stop blocks and M4 stop hardware are absent. No designed rigid hard-stop reaction connects P04 directly to P01 at the endpoint. Guide friction, off-axis contacts and deflection remain measurement errors to quantify.",
+    "arm_root_section_mm": [
+      10,
+      22
+    ],
+    "arm_root_area_mm2": 220,
+    "arm_section_centroid_z_mm": 18,
+    "bearing_face_section_mm": [
+      14,
+      22
+    ],
+    "bearing_face_area_mm2": 308,
+    "nominal_screening": [
+      {
+        "stop_load_per_arm_N": 250,
+        "arm_nominal_compressive_stress_MPa": 1.1363636363636365,
+        "flat_face_nominal_bearing_pressure_MPa": 0.8116883116883117
+      },
+      {
+        "stop_load_per_arm_N": 500,
+        "arm_nominal_compressive_stress_MPa": 2.272727272727273,
+        "flat_face_nominal_bearing_pressure_MPa": 1.6233766233766234
+      }
+    ],
+    "screening_limit": "Ideal aligned axial loading only. No polymer allowable is assigned. Uneven contact, local layer stresses, fillets, global yoke bending and guide reactions are excluded.",
+    "one_sided_500N_stop_case": {
+      "moment_about_sensor_center_Nmm": 12000,
+      "meaning": "Conservative subcomponent load case with 500 N on one stop arm. It is not 500 N per arm plus normal spring force under a 500 N total hand load. The central pusher carries axial force; guide contacts must equilibrate eccentric moment and can create friction error."
+    },
+    "maximum_spring_pair_force_N": {
+      "heavy": 252.21200000000002,
+      "light": 205.034
+    },
+    "balanced_500N_endpoint_example": {
+      "total_external_force_N": 500,
+      "heavy_spring_pair_force_N": 252.212,
+      "additional_stop_force_total_N": 247.788,
+      "additional_stop_force_per_face_N": 123.894
+    },
+    "manual_cam_setup": {
+      "physical_coupling_automatic": false,
+      "required_translation_before_carriage_stroke_mm": "-preload",
+      "head_contact_face_x_mm": "60 - preload - stroke",
+      "nominal_trip_stroke_mm": "29 - preload",
+      "nominal_before_stop_margin_mm": 1,
+      "screw": "Existing M3 x12 H10",
+      "shank_tip_before_carriage_stroke_x_mm": "75 - preload",
+      "head_back_before_carriage_stroke_x_mm": "63 - preload",
+      "insert_nominal_x_mm": [
+        63.8,
+        69
+      ],
+      "verified_nominal_reset_range_mm": [
+        0,
+        2
+      ],
+      "reset_only_head_back_clearance_to_P04_face_mm": [
+        1,
+        3
+      ],
+      "reset_only_tip_clearance_to_blind_hole_end_mm": [
+        1.5,
+        3.5
+      ],
+      "optional_fine_adjustment_screening": "A further +/-1 mm about the reset position gives total offset [-3,+1] mm. Tip range72..76 remains below the nominal hole end76.5. Head back range60..64 reaches the P04 front face64 at the maximum advance. Check the real thread, insert and tolerance; the model is not a manufactured screw engagement certificate.",
+      "setup_instruction": "After changing preload, manually back H10 out by that preload distance, secure the setting with a specified and qualified retention method, and verify NC opens before both printed stop faces contact. Re-check unloaded at both ends of the preload range. No positive lock is modeled. The CAD preview shows the correctly adjusted setup, not a mechanical coupling."
+    },
+    "firmware_interface": {
+      "reviewed_files": [
+        "firmware/Fingerworker/Logic.h",
+        "firmware/Fingerworker/Fingerworker.ino",
+        "ios/Fingerworker/Measurement.swift",
+        "electronics/FIRMWARE_CONTRACT.md"
+      ],
+      "current_behavior": "NC LOW or open cable sets Endstop bit32. Current calibrated measurement, tare and device peak require status==0; iOS Sample.valid also requires status==0. Raw ADC is still sent. Moving the mechanical stops does not itself enable qualified force display or peak accumulation at the end stop.",
+      "preserved_fail_closed_behavior": "Keep NC/open-line warning and current qualification default. Do not silently clear Endstop to make readings appear valid. A future mechanically qualified variant needs an explicit force-validity/capability policy coordinated across firmware, protocol, app and tests, while rail/ADC/timeout/saturation/calibration/battery/standby errors remain blocking.",
+      "hardware_qualified_default": false
+    },
+    "actual_native_shared_contact_mm2_each": [
+      308.0,
+      308.0
+    ],
+    "actual_native_shared_contact_mm2_total": 616.0
+  },
+  "native_step_verification": {
+    "status": "NATIVE_STEP_GEOMETRY_VERIFIED",
+    "native_step": "review/flat132-strengthened-2026-10-22/native/Flat132_R2_final_AP214.step",
+    "native_step_sha256": "31b4df767555af39219028c5363b12f277e60b7a0c0d784b868e4bb20dc47859",
+    "native_export_source_sha256": "6c877ec401051cdf840a93bb28dfeb9c3fb5a13f5324c93b567c8f87e0dfa2ad",
+    "current_final_source_sha256": "d5eca2f3d87bf4b9a47c1987ee91ba1d56e8c87003eca101677a148a2e605654",
+    "source_ui_guard_only_certificate_file": "review/flat132-strengthened-2026-10-22/source-ui-guard-only-certificate.json",
+    "source_ui_guard_only_certificate_sha256": "d6665a350ed6a346a8e5a6df93f5e3e7dd17dfc725e3279f1dad8d8b4f119522",
+    "P01_solid_index": 66,
+    "P04_solid_index": 102,
+    "P05_solid_index": 67,
+    "sections": [
+      {
+        "z_mm": 4.1,
+        "baseline": {
+          "z_mm": 4.1,
+          "area_mm2": 345.00000000019133,
+          "centroid_x_mm": -17.719565217392585,
+          "Iy_mm4": 4150.617934783549,
+          "x_bounds_mm": [
+            -22.0,
+            -6.5
+          ],
+          "section_modulus_rear_mm3": 969.672041646015,
+          "section_modulus_front_mm3": 369.94463282313785
+        },
+        "proposal": {
+          "z_mm": 4.1,
+          "area_mm2": 437.9000000002317,
+          "centroid_x_mm": -17.612325873488572,
+          "Iy_mm4": 6927.347887766291,
+          "x_bounds_mm": [
+            -22.75,
+            -6.5
+          ],
+          "section_modulus_rear_mm3": 1348.3431835467704,
+          "section_modulus_front_mm3": 623.3931551893501
+        },
+        "area_ratio": 1.2692753623188082,
+        "Iy_ratio": 1.668991942070319,
+        "rear_modulus_ratio": 1.3905146540658864,
+        "front_modulus_ratio": 1.6850985252362891
+      },
+      {
+        "z_mm": 8.5,
+        "baseline": {
+          "z_mm": 8.5,
+          "area_mm2": 309.0000002283791,
+          "centroid_x_mm": -18.40922329611183,
+          "Iy_mm4": 2634.1637255725745,
+          "x_bounds_mm": [
+            -22.0,
+            -6.5
+          ],
+          "section_modulus_rear_mm3": 733.5916273268246,
+          "section_modulus_front_mm3": 221.18686165138803
+        },
+        "proposal": {
+          "z_mm": 8.5,
+          "area_mm2": 377.9000003801386,
+          "centroid_x_mm": -18.535161411615995,
+          "Iy_mm4": 4398.530729924274,
+          "x_bounds_mm": [
+            -22.75,
+            -6.5
+          ],
+          "section_modulus_rear_mm3": 1043.582248213851,
+          "section_modulus_front_mm3": 365.47334759290703
+        },
+        "area_ratio": 1.2229773466046476,
+        "Iy_ratio": 1.6698015720219472,
+        "rear_modulus_ratio": 1.4225656473433572,
+        "front_modulus_ratio": 1.652328465010406
+      },
+      {
+        "z_mm": 11.8,
+        "baseline": {
+          "z_mm": 11.8,
+          "area_mm2": 269.9799999997577,
+          "centroid_x_mm": -17.493929179940288,
+          "Iy_mm4": 2572.119983042193,
+          "x_bounds_mm": [
+            -22.0,
+            -8.0
+          ],
+          "section_modulus_rear_mm3": 570.8121522617588,
+          "section_modulus_front_mm3": 270.9226005684582
+        },
+        "proposal": {
+          "z_mm": 11.8,
+          "area_mm2": 401.50499999971146,
+          "centroid_x_mm": -16.40340188789646,
+          "Iy_mm4": 5823.13889079705,
+          "x_bounds_mm": [
+            -22.75,
+            -7.6
+          ],
+          "section_modulus_rear_mm3": 917.5212906094993,
+          "section_modulus_front_mm3": 661.4646207170337
+        },
+        "area_ratio": 1.4871657159792273,
+        "Iy_ratio": 2.263945278287404,
+        "rear_modulus_ratio": 1.6073962107743445,
+        "front_modulus_ratio": 2.4415261751110022
+      },
+      {
+        "z_mm": 18,
+        "baseline": {
+          "z_mm": 18,
+          "area_mm2": 232.99999999945703,
+          "centroid_x_mm": -17.607038626609434,
+          "Iy_mm4": 2012.8991233143772,
+          "x_bounds_mm": [
+            -22.0,
+            -8.0
+          ],
+          "section_modulus_rear_mm3": 458.2100665640011,
+          "section_modulus_front_mm3": 209.52337151420198
+        },
+        "proposal": {
+          "z_mm": 18,
+          "area_mm2": 353.2924999991837,
+          "centroid_x_mm": -16.60893195790373,
+          "Iy_mm4": 4591.452339028746,
+          "x_bounds_mm": [
+            -22.75,
+            -8.0
+          ],
+          "section_modulus_rear_mm3": 747.6634858228085,
+          "section_modulus_front_mm3": 533.3358843443294
+        },
+        "area_ratio": 1.5162768240343647,
+        "Iy_ratio": 2.281014625049169,
+        "rear_modulus_ratio": 1.6317046271578968,
+        "front_modulus_ratio": 2.545472042044621
+      },
+      {
+        "z_mm": 24,
+        "baseline": {
+          "z_mm": 24,
+          "area_mm2": 193.78000028385978,
+          "centroid_x_mm": -17.34604190627609,
+          "Iy_mm4": 2143.048748922411,
+          "x_bounds_mm": [
+            -22.0,
+            -8.0
+          ],
+          "section_modulus_rear_mm3": 460.4787378323016,
+          "section_modulus_front_mm3": 229.30014335622687
+        },
+        "proposal": {
+          "z_mm": 24,
+          "area_mm2": 309.44450028359,
+          "centroid_x_mm": -16.422006335865206,
+          "Iy_mm4": 4364.739513014147,
+          "x_bounds_mm": [
+            -22.75,
+            -8.0
+          ],
+          "section_modulus_rear_mm3": 689.7509297065523,
+          "section_modulus_front_mm3": 518.2541236554117
+        },
+        "area_ratio": 1.5968856426375189,
+        "Iy_ratio": 2.036696325834337,
+        "rear_modulus_ratio": 1.497899627143583,
+        "front_modulus_ratio": 2.260156125808798
+      },
+      {
+        "z_mm": 27,
+        "baseline": {
+          "z_mm": 27,
+          "area_mm2": 276.9787164945132,
+          "centroid_x_mm": -17.496970610118307,
+          "Iy_mm4": 2589.58662730617,
+          "x_bounds_mm": [
+            -22.0,
+            -8.0
+          ],
+          "section_modulus_rear_mm3": 575.0765547133606,
+          "section_modulus_front_mm3": 272.67501749949196
+        },
+        "proposal": {
+          "z_mm": 27,
+          "area_mm2": 388.28471649426274,
+          "centroid_x_mm": -16.78285231244939,
+          "Iy_mm4": 4819.092268751126,
+          "x_bounds_mm": [
+            -22.75,
+            -8.0
+          ],
+          "section_modulus_rear_mm3": 807.603987882737,
+          "section_modulus_front_mm3": 548.6933056952613
+        },
+        "area_ratio": 1.401857591833972,
+        "Iy_ratio": 1.8609503995485988,
+        "rear_modulus_ratio": 1.4043417024456453,
+        "front_modulus_ratio": 2.01226100845958
+      },
+      {
+        "z_mm": 30.5,
+        "baseline": {
+          "z_mm": 30.5,
+          "area_mm2": 0
+        },
+        "proposal": {
+          "z_mm": 30.5,
+          "area_mm2": 496.75679459778104,
+          "centroid_x_mm": -17.473126980551985,
+          "Iy_mm4": 4602.2536542281405,
+          "x_bounds_mm": [
+            -22.75,
+            -11.8873775
+          ],
+          "section_modulus_rear_mm3": 872.1554673130181,
+          "section_modulus_front_mm3": 823.9276878155559
+        }
+      }
+    ],
+    "stop_contact": {
+      "method": "Translate native neutral P04 by(-30,0,0) relative to native neutral P05, then perform solid/solid intersection and planar face/face exact intersections atX35. This also represents28/p2 after removing common+2 preload translation.",
+      "P04_translation_mm": [
+        -30,
+        0,
+        0
+      ],
+      "solid_common_volume_mm3": 0.0,
+      "solid_common_surface_area_mm2": 0.0,
+      "P05_planar_faces_at_x35": [
+        {
+          "area_mm2": 308.0,
+          "center_mm": [
+            35.0,
+            -24.0,
+            18.0
+          ],
+          "normal_x": -1.0
+        },
+        {
+          "area_mm2": 308.0,
+          "center_mm": [
+            35.0,
+            24.0,
+            18.0
+          ],
+          "normal_x": -1.0
+        }
+      ],
+      "P04_planar_faces_at_x35": [
+        {
+          "area_mm2": 1627.24,
+          "center_mm": [
+            35.0,
+            -0.14195816228706093,
+            17.754048675466844
+          ],
+          "normal_x": -1.0
+        }
+      ],
+      "shared_contact_faces": [
+        {
+          "P05_face": {
+            "area_mm2": 308.0,
+            "center_mm": [
+              35.0,
+              -24.0,
+              18.0
+            ],
+            "normal_x": -1.0
+          },
+          "P04_face": {
+            "area_mm2": 1627.24,
+            "center_mm": [
+              35.0,
+              -0.14195816228706093,
+              17.754048675466844
+            ],
+            "normal_x": -1.0
+          },
+          "contact_area_mm2": 308.0,
+          "contact_center_mm": [
+            35.0,
+            -24.0,
+            18.0
+          ]
+        },
+        {
+          "P05_face": {
+            "area_mm2": 308.0,
+            "center_mm": [
+              35.0,
+              24.0,
+              18.0
+            ],
+            "normal_x": -1.0
+          },
+          "P04_face": {
+            "area_mm2": 1627.24,
+            "center_mm": [
+              35.0,
+              -0.14195816228706093,
+              17.754048675466844
+            ],
+            "normal_x": -1.0
+          },
+          "contact_area_mm2": 308.0,
+          "contact_center_mm": [
+            35.0,
+            24.0,
+            18.0
+          ]
+        }
+      ],
+      "shared_contact_area_total_mm2": 616.0,
+      "nominal_pressure_500N_balanced_MPa": 0.8116883116883117,
+      "nominal_pressure_500N_on_one_face_MPa": 1.6233766233766234,
+      "limitation": "Nominal rigid CAD contact area. Actual pressure, contact sharing, deformation, print flatness and strength remain unqualified.",
+      "status": "PASS_EXACT_CONTACT_ZERO_POSITIVE_OVERLAP"
+    },
+    "sections_vs_analytic_hypothesis_maximum_Iy_relative_difference": 4.3163735950156105e-12
+  },
+  "sections_analytic_hypothesis": [
+    {
+      "z_mm": 4.1,
+      "baseline": {
+        "z_mm": 4.1,
+        "area_mm2": 345.00000000019133,
+        "centroid_x_mm": -17.719565217392585,
+        "Iy_mm4": 4150.617934783549,
+        "x_bounds_mm": [
+          -22.0,
+          -6.5
+        ],
+        "section_modulus_rear_mm3": 969.672041646015,
+        "section_modulus_front_mm3": 369.94463282313785
+      },
+      "proposal": {
+        "z_mm": 4.1,
+        "area_mm2": 437.8999999994825,
+        "centroid_x_mm": -17.612325873490235,
+        "Iy_mm4": 6927.34788775208,
+        "x_bounds_mm": [
+          -22.75,
+          -6.499999999999998
+        ],
+        "section_modulus_rear_mm3": 1348.3431835444408,
+        "section_modulus_front_mm3": 623.3931551879778
+      },
+      "area_ratio": 1.2692753623166366,
+      "Iy_ratio": 1.668991942066895,
+      "rear_modulus_ratio": 1.3905146540634838,
+      "front_modulus_ratio": 1.6850985252325796
+    },
+    {
+      "z_mm": 8.5,
+      "baseline": {
+        "z_mm": 8.5,
+        "area_mm2": 309.0000002283791,
+        "centroid_x_mm": -18.40922329611183,
+        "Iy_mm4": 2634.1637255725745,
+        "x_bounds_mm": [
+          -22.0,
+          -6.5
+        ],
+        "section_modulus_rear_mm3": 733.5916273268246,
+        "section_modulus_front_mm3": 221.18686165138803
+      },
+      "proposal": {
+        "z_mm": 8.5,
+        "area_mm2": 377.9000003789228,
+        "centroid_x_mm": -18.535161411618247,
+        "Iy_mm4": 4398.530729905288,
+        "x_bounds_mm": [
+          -22.75,
+          -6.499999999999998
+        ],
+        "section_modulus_rear_mm3": 1043.5822482099043,
+        "section_modulus_front_mm3": 365.473347591261
+      },
+      "area_ratio": 1.222977346600713,
+      "Iy_ratio": 1.6698015720147397,
+      "rear_modulus_ratio": 1.422565647337977,
+      "front_modulus_ratio": 1.6523284650029644
+    },
+    {
+      "z_mm": 11.8,
+      "baseline": {
+        "z_mm": 11.8,
+        "area_mm2": 269.9799999997577,
+        "centroid_x_mm": -17.493929179940288,
+        "Iy_mm4": 2572.119983042193,
+        "x_bounds_mm": [
+          -22.0,
+          -8.0
+        ],
+        "section_modulus_rear_mm3": 570.8121522617588,
+        "section_modulus_front_mm3": 270.9226005684582
+      },
+      "proposal": {
+        "z_mm": 11.8,
+        "area_mm2": 401.5050000009393,
+        "centroid_x_mm": -16.403401887896404,
+        "Iy_mm4": 5823.1388908154395,
+        "x_bounds_mm": [
+          -22.75,
+          -7.6
+        ],
+        "section_modulus_rear_mm3": 917.5212906123885,
+        "section_modulus_front_mm3": 661.4646207191267
+      },
+      "area_ratio": 1.4871657159837752,
+      "Iy_ratio": 2.2639452782945533,
+      "rear_modulus_ratio": 1.6073962107794062,
+      "front_modulus_ratio": 2.441526175118728
+    },
+    {
+      "z_mm": 18,
+      "baseline": {
+        "z_mm": 18,
+        "area_mm2": 232.99999999945703,
+        "centroid_x_mm": -17.607038626609434,
+        "Iy_mm4": 2012.8991233143772,
+        "x_bounds_mm": [
+          -22.0,
+          -8.0
+        ],
+        "section_modulus_rear_mm3": 458.2100665640011,
+        "section_modulus_front_mm3": 209.52337151420198
+      },
+      "proposal": {
+        "z_mm": 18,
+        "area_mm2": 353.29249999918363,
+        "centroid_x_mm": -16.608931957903728,
+        "Iy_mm4": 4591.452339028803,
+        "x_bounds_mm": [
+          -22.75,
+          -7.999999999999998
+        ],
+        "section_modulus_rear_mm3": 747.6634858228174,
+        "section_modulus_front_mm3": 533.3358843443361
+      },
+      "area_ratio": 1.5162768240343645,
+      "Iy_ratio": 2.2810146250491976,
+      "rear_modulus_ratio": 1.631704627157916,
+      "front_modulus_ratio": 2.545472042044653
+    },
+    {
+      "z_mm": 24,
+      "baseline": {
+        "z_mm": 24,
+        "area_mm2": 193.78000028385978,
+        "centroid_x_mm": -17.34604190627609,
+        "Iy_mm4": 2143.048748922411,
+        "x_bounds_mm": [
+          -22.0,
+          -8.0
+        ],
+        "section_modulus_rear_mm3": 460.4787378323016,
+        "section_modulus_front_mm3": 229.30014335622687
+      },
+      "proposal": {
+        "z_mm": 24,
+        "area_mm2": 309.444500283587,
+        "centroid_x_mm": -16.422006335865238,
+        "Iy_mm4": 4364.739513013806,
+        "x_bounds_mm": [
+          -22.75,
+          -7.999999999999998
+        ],
+        "section_modulus_rear_mm3": 689.7509297065019,
+        "section_modulus_front_mm3": 518.2541236553691
+      },
+      "area_ratio": 1.5968856426375033,
+      "Iy_ratio": 2.0366963258341775,
+      "rear_modulus_ratio": 1.4978996271434737,
+      "front_modulus_ratio": 2.2601561258086122
+    },
+    {
+      "z_mm": 27,
+      "baseline": {
+        "z_mm": 27,
+        "area_mm2": 276.9787164945132,
+        "centroid_x_mm": -17.496970610118307,
+        "Iy_mm4": 2589.58662730617,
+        "x_bounds_mm": [
+          -22.0,
+          -8.0
+        ],
+        "section_modulus_rear_mm3": 575.0765547133606,
+        "section_modulus_front_mm3": 272.67501749949196
+      },
+      "proposal": {
+        "z_mm": 27,
+        "area_mm2": 388.2847164942494,
+        "centroid_x_mm": -16.78285231244955,
+        "Iy_mm4": 4819.092268750557,
+        "x_bounds_mm": [
+          -22.75,
+          -7.999999999999998
+        ],
+        "section_modulus_rear_mm3": 807.6039878826633,
+        "section_modulus_front_mm3": 548.6933056951865
+      },
+      "area_ratio": 1.4018575918339238,
+      "Iy_ratio": 1.8609503995483792,
+      "rear_modulus_ratio": 1.4043417024455171,
+      "front_modulus_ratio": 2.0122610084593058
+    },
+    {
+      "z_mm": 30.5,
+      "baseline": {
+        "z_mm": 30.5,
+        "area_mm2": 0
+      },
+      "proposal": {
+        "z_mm": 30.5,
+        "area_mm2": 496.7567945978408,
+        "centroid_x_mm": -17.47312698055239,
+        "Iy_mm4": 4602.253654227913,
+        "x_bounds_mm": [
+          -22.75,
+          -11.8873775
+        ],
+        "section_modulus_rear_mm3": 872.155467313042,
+        "section_modulus_front_mm3": 823.9276878154556
+      }
+    }
+  ],
+  "analytic_hypothesis_method": "OCCT native R1 P01 BRep plus analytic additions and Boolean cuts reconstructed from the frozen source coordinates. This independent geometric hypothesis is not a regenerated native proposal STEP. Horizontal slabs are 0.001 mm high and clipped to X[-23,-6.01], Y[-25.9,25.9]. Iy is the volume inertia about Y divided by slab height, with the slab Z second moment removed. Section moduli use the exact X bounds. These are local geometric comparisons, not structural FEA.",
+  "analytic_hypothesis_source_sha256": "03f795a53614885b4f5fd7c21cd8678557bcc515df5f3901cbd4ac1f2850171b"
+}

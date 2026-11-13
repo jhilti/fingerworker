@@ -1,0 +1,25 @@
+{
+  "tool": "get_schematic_info",
+  "arguments": {
+    "file_path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_sch"
+  },
+  "result": {
+    "meta": {
+      "fastmcp": {
+        "wrap_result": true
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "# Schematic Information: /Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_sch\n\n## Project Information\n**Title:** FINGERWORKER | Electronics Rev A\n**Date:** 2026-09-21\n**Revision:** A\n\n## Statistics\n**Total Components:** 0\n**Total Nets:** 0\n**Hierarchical Sheets:** 3\n\n## Components by Type\n\n## Hierarchical Sheets\n- Power: Power.kicad_sch\n- Acquisition: Acquisition.kicad_sch\n- Controls: Controls.kicad_sch",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": {
+      "result": "# Schematic Information: /Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_sch\n\n## Project Information\n**Title:** FINGERWORKER | Electronics Rev A\n**Date:** 2026-09-21\n**Revision:** A\n\n## Statistics\n**Total Components:** 0\n**Total Nets:** 0\n**Hierarchical Sheets:** 3\n\n## Components by Type\n\n## Hierarchical Sheets\n- Power: Power.kicad_sch\n- Acquisition: Acquisition.kicad_sch\n- Controls: Controls.kicad_sch"
+    },
+    "isError": false
+  }
+}

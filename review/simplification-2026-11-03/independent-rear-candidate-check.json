@@ -1,0 +1,163 @@
+{
+  "status": "PASS_MOTION_IDENTITY_INDETERMINATE",
+  "inputs": {
+    "review/simplification-2026-11-03/mechanics/P01.step": "c7a23aec3a4576994d2702a181d579c7721ee02f9af53a6d576f75e6b3a3ec54",
+    "review/simplification-2026-11-03/mechanics/P06.step": "e529188d0d50e553491c3a0992ff38ebca5161c8eac441625a8cad5738ff38ea"
+  },
+  "baseline_step_sha256": "4c7b412eb5700e6ff8dc985c7ab8182e5acc7003a645ecac3291e88fe455d6e7",
+  "checks": [
+    {
+      "name": "P01 one valid solid",
+      "status": "PASS",
+      "count": 1,
+      "bounds_mm": [
+        [
+          -46.1,
+          -66.2,
+          -2.0000001
+        ],
+        [
+          129.0000001,
+          66.2,
+          33.0000001
+        ]
+      ]
+    },
+    {
+      "name": "P06 one valid solid",
+      "status": "PASS",
+      "count": 1,
+      "bounds_mm": [
+        [
+          104.79999999999998,
+          -67.6,
+          4.5
+        ],
+        [
+          129.0,
+          67.6,
+          28.0
+        ]
+      ]
+    },
+    {
+      "name": "Original frame material preserved",
+      "status": "INDETERMINATE",
+      "reason": "OCC produced an invalid coincident-face Boolean result despite valid positive-signed inputs; result volume is unusable. Final native identity still required."
+    },
+    {
+      "name": "No added front stock through X108.1",
+      "status": "PASS",
+      "front_added_mm3": 0.0
+    },
+    {
+      "name": "Seated frame and gate no solid overlap",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated gate / P04",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated gate / P05",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated gate / H040",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated gate / H041",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated gate / H300a",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated gate / H300b",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated gate / H301a",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated gate / H301b",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "P04 full30mm exact sampled travel",
+      "status": "PASS",
+      "maximum_overlap_mm3": 0.0,
+      "worst": null,
+      "poses": 61
+    },
+    {
+      "name": "Released actual gate +X12 axial withdrawal",
+      "status": "PASS",
+      "maximum_overlap_mm3": 0.0,
+      "worst": null,
+      "poses": 49,
+      "limits": "H30 screws removed; hooks displaced0.9mm outward, bending envelope separately checked"
+    },
+    {
+      "name": "Conservative whole beam deformation envelope -1",
+      "status": "PASS",
+      "overlap_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Actual hook positive axial retention -1",
+      "status": "PASS",
+      "overlap_after_0_3mm_withdrawal_mm3": 0.17999999999999233
+    },
+    {
+      "name": "Conservative whole beam deformation envelope 1",
+      "status": "PASS",
+      "overlap_upper_bound_mm3": 0.0
+    },
+    {
+      "name": "Actual hook positive axial retention 1",
+      "status": "PASS",
+      "overlap_after_0_3mm_withdrawal_mm3": 0.1799999999999923
+    },
+    {
+      "name": "P04 axial insertion/removal with rear gate absent",
+      "status": "PASS",
+      "maximum_overlap_mm3": 0.0,
+      "worst": null,
+      "poses": 76
+    },
+    {
+      "name": "Continuous separation of new rear geometry and moving grip",
+      "status": "PASS",
+      "fixed_gate_core_xmin_mm": 119,
+      "P04_xmax_expression": "119-u",
+      "u_domain_mm": [
+        0,
+        30
+      ],
+      "gate_latch_abs_ymin_mm": 65.6,
+      "frame_catch_abs_ymin_mm": 64.2,
+      "P04_abs_ymax_mm": 63,
+      "restored_frame_zmax_mm": 4.5,
+      "P04_zmin_mm": 5,
+      "scope": "Literal checked STEP-generating dimensions; old frame motion inherited exactly"
+    }
+  ],
+  "limitations": [
+    "Exported local candidate, not yet native Onshape final geometry.",
+    "Force-path preservation is geometry/functional reasoning, not load qualification.",
+    "Nominal clip deflection model; physical PLA strains, snap forces and creep remain unmeasured.",
+    "Exact sampled insertion is accompanied by separation reasoning; no claim of a universal nonlinear motion solver."
+  ]
+}

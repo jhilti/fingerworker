@@ -1,0 +1,113 @@
+{
+  "source_sha256": "b150ff3a76cfaaaaa65ee1ea09e144b7c7d64e45459a925163e56918f48bb3c5",
+  "native_zip": "native/Flat132_R4_neutral_final.zip",
+  "native_zip_sha256": "4278ba5000a141daa466628d03a2cc08e10267368d6a95dbcdb9546f9ccc63cc",
+  "units": "mm",
+  "orientation": "Original native neutral assembly coordinates; no scaling, recentering, repair, remesh or slicing",
+  "identity": "Every output STL byte-for-byte equals its named original native ZIP member",
+  "count": 14,
+  "changed_since_R3": [
+    "P01",
+    "P04"
+  ],
+  "parts": {
+    "P01": {
+      "native_member": "Fingerworker MVP - P01 PRINT STUDY - Flat132 reinforced reaction portal, 5 mm cassette guides, 6 mm floor.stl",
+      "native_member_sha256": "0a68360f8bdb51945ae04a78e7d29f1059e644f813312e9d77bb7a3bbd194687",
+      "output": "print-mm/P01.stl",
+      "output_sha256": "0a68360f8bdb51945ae04a78e7d29f1059e644f813312e9d77bb7a3bbd194687",
+      "bytes": 1845184
+    },
+    "P02": {
+      "native_member": "Fingerworker MVP - P02 PRINT STUDY - plus7 mm wrist half-round palm, retained R2 keyed mounts.stl",
+      "native_member_sha256": "351ce5c23f8ec8ae2ae2eff2976c3c5edc977e37ee50504dab3d5068d5f1c3ea",
+      "output": "print-mm/P02.stl",
+      "output_sha256": "351ce5c23f8ec8ae2ae2eff2976c3c5edc977e37ee50504dab3d5068d5f1c3ea",
+      "bytes": 650584
+    },
+    "P03": {
+      "native_member": "Fingerworker MVP - P03 TPU PRINT - plus7 mm half-round palm cap, two front returns.stl",
+      "native_member_sha256": "ddbdc07e170299b740d517541f01bd9a1f8b67aed4dd5b843a6ef8caa9ce410f",
+      "output": "print-mm/P03.stl",
+      "output_sha256": "ddbdc07e170299b740d517541f01bd9a1f8b67aed4dd5b843a6ef8caa9ce410f",
+      "bytes": 415384
+    },
+    "P04": {
+      "native_member": "Fingerworker MVP - P04 PRINT STUDY - Flat132 72 mm clear pocket, R12 seat reliefs.stl",
+      "native_member_sha256": "74e1ffb6e2f329f93647ea9515b60739c0cec7412c3489584f6901020f8b960f",
+      "output": "print-mm/P04.stl",
+      "output_sha256": "74e1ffb6e2f329f93647ea9515b60739c0cec7412c3489584f6901020f8b960f",
+      "bytes": 2609384
+    },
+    "P05": {
+      "native_member": "Fingerworker MVP - P05 PRINT STUDY - Flat132 reinforced yoke with broad integral sensing stops.stl",
+      "native_member_sha256": "58ccc46eccb517b968ad75f0a8aab52cc853f2621410fa6bc1eecfff6d182ccd",
+      "output": "print-mm/P05.stl",
+      "output_sha256": "58ccc46eccb517b968ad75f0a8aab52cc853f2621410fa6bc1eecfff6d182ccd",
+      "bytes": 778284
+    },
+    "P060": {
+      "native_member": "Fingerworker MVP - P060 PRINT - removable rear retainer - through holes RevC.stl",
+      "native_member_sha256": "cc94f09a0b2b30b210654174f9dcc4c84103249373f4cb76e35def56f6f7c361",
+      "output": "print-mm/P060.stl",
+      "output_sha256": "cc94f09a0b2b30b210654174f9dcc4c84103249373f4cb76e35def56f6f7c361",
+      "bytes": 145184
+    },
+    "P061": {
+      "native_member": "Fingerworker MVP - P061 PRINT - removable rear retainer - through holes RevC.stl",
+      "native_member_sha256": "94e89b2a80c4b5237a77b7a0f1c211b89a4befbed4f50e0294c8c75e316c7f9a",
+      "output": "print-mm/P061.stl",
+      "output_sha256": "94e89b2a80c4b5237a77b7a0f1c211b89a4befbed4f50e0294c8c75e316c7f9a",
+      "bytes": 145184
+    },
+    "P070a": {
+      "native_member": "Fingerworker MVP - P070a TPU PRINT - return bumper.stl",
+      "native_member_sha256": "238ebfde3626cbde9e99bf4a2d5a2636b34d169608dae53b4ab4cd9c22df9437",
+      "output": "print-mm/P070a.stl",
+      "output_sha256": "238ebfde3626cbde9e99bf4a2d5a2636b34d169608dae53b4ab4cd9c22df9437",
+      "bytes": 684
+    },
+    "P070b": {
+      "native_member": "Fingerworker MVP - P070b TPU PRINT - return bumper.stl",
+      "native_member_sha256": "59cd6b3ebdc4603288f68586f4adf108bb431e03b1eca396e3e6fa27195c159f",
+      "output": "print-mm/P070b.stl",
+      "output_sha256": "59cd6b3ebdc4603288f68586f4adf108bb431e03b1eca396e3e6fa27195c159f",
+      "bytes": 684
+    },
+    "P071a": {
+      "native_member": "Fingerworker MVP - P071a TPU PRINT - return bumper.stl",
+      "native_member_sha256": "cc069ac5fb2704c0571168890bc48558b8331f49b9b31b4842f36743d9b3eaec",
+      "output": "print-mm/P071a.stl",
+      "output_sha256": "cc069ac5fb2704c0571168890bc48558b8331f49b9b31b4842f36743d9b3eaec",
+      "bytes": 684
+    },
+    "P071b": {
+      "native_member": "Fingerworker MVP - P071b TPU PRINT - return bumper.stl",
+      "native_member_sha256": "897e3fe214f97a2ef1e1b77893571f57db57071111676d9f69fa5e06ab2059ae",
+      "output": "print-mm/P071b.stl",
+      "output_sha256": "897e3fe214f97a2ef1e1b77893571f57db57071111676d9f69fa5e06ab2059ae",
+      "bytes": 684
+    },
+    "P08": {
+      "native_member": "Fingerworker MVP - P08 PRINT - Electronics tray.stl",
+      "native_member_sha256": "11f47952a86814ce1c6a80ad25edde546f99b8664a610e397851ec8ae9fe8b2a",
+      "output": "print-mm/P08.stl",
+      "output_sha256": "11f47952a86814ce1c6a80ad25edde546f99b8664a610e397851ec8ae9fe8b2a",
+      "bytes": 422184
+    },
+    "P09": {
+      "native_member": "Fingerworker MVP - P09 PRINT - Electronics lid.stl",
+      "native_member_sha256": "2b809ab1f7cc350b96862cfd7d4878ac1907bda7cf793f78aa0e445e7264084a",
+      "output": "print-mm/P09.stl",
+      "output_sha256": "2b809ab1f7cc350b96862cfd7d4878ac1907bda7cf793f78aa0e445e7264084a",
+      "bytes": 134784
+    },
+    "P10": {
+      "native_member": "Fingerworker MVP - P10 PRINT - Wire clamp.stl",
+      "native_member_sha256": "8ee66bba498b46d593a8d9c00581582cd76b35677312eb81d427f808df8b08d8",
+      "output": "print-mm/P10.stl",
+      "output_sha256": "8ee66bba498b46d593a8d9c00581582cd76b35677312eb81d427f808df8b08d8",
+      "bytes": 58684
+    }
+  }
+}

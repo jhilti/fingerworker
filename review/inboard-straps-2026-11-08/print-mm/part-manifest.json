@@ -1,0 +1,44 @@
+{
+  "source_sha256": "97e2010cc17d06eb8648cf278b9aae2fd85b6e909bd657b9b216f3b37748665f",
+  "native_zip_sha256": "0cb5a71bfd096b6ea2303cc1ee3607ce7b5393a111e24cd2032cb5d49915144e",
+  "units": "mm",
+  "count": 7,
+  "parts": {
+    "P01": {
+      "native_member": "Fingerworker MVP - P01 PRINT STUDY - Flat132 inboard strap slots, near-sensor palm, fixed sensor support.stl",
+      "sha256": "5b59cbf62b17a0bb6476de2123361a1f9a90f7ed274240d52d8c553af7836eea",
+      "bytes": 4932584
+    },
+    "P04": {
+      "native_member": "Fingerworker MVP - P04 PRINT STUDY - Flat132 72 mm clear pocket, radius12 seat reliefs.stl",
+      "sha256": "fdb84301af40be4ca84b838ebc1847b18ac0b2854818e3bfe63c1085d6ff0b7c",
+      "bytes": 2591984
+    },
+    "P05": {
+      "native_member": "Fingerworker MVP - P05 PRINT STUDY - Flat132 reinforced yoke with broad integral sensing stops.stl",
+      "sha256": "cb052e7c3406a210ef052b7d52c7ac4d77416327f6fc9614eecc1553d48837d9",
+      "bytes": 778284
+    },
+    "P06": {
+      "native_member": "Fingerworker MVP - P06 PRINT - one-piece fixed rear gate with PLA assembly latches.stl",
+      "sha256": "1bc939179f5ebcdc9fb1622f06bb143d9d6ab62051ae5df99fb8f6520fa635ae",
+      "bytes": 295084
+    },
+    "P08": {
+      "native_member": "Fingerworker MVP - P08 PRINT - Snap electronics tray, optional M2 mount.stl",
+      "sha256": "b27070667186e53c0b8f8f798019d9f366fede90ce6e41fbfc79633d0058ff9e",
+      "bytes": 384584
+    },
+    "P09": {
+      "native_member": "Fingerworker MVP - P09 PRINT - Snap lid with integral wire clamp.stl",
+      "sha256": "296eb851b02ae7f12a7f7f4f5218e5e7571881974583dbf5648ab356c11e0a05",
+      "bytes": 145084
+    },
+    "P11": {
+      "native_member": "Fingerworker MVP - P11 PRINT STUDY - guided switch cam, physical calibration trim only.stl",
+      "sha256": "ee81507b31f348ae644d268f5525a825d5eecbd44f580824105b74e3a191d49b",
+      "bytes": 29984
+    }
+  },
+  "identity": "Byte-identical native Onshape STL ZIP members in assembly coordinates."
+}

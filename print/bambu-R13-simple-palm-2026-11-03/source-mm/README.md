@@ -1,0 +1,1 @@
+Native R13-Geräte-STLs und beibehaltene Passhilfen in Millimetern. Für den Druck das 3MF-Projekt oder STL-print-oriented verwenden. Nur P01 wurde gegenüber R12 geändert. H040/H041 und Q01 sind ausschließlich unbelastete Form-/Montagehilfen. Die R12-Q01 für das feste Sensordatum bleibt unverändert; ältere Q01 aus R11 passt nicht.

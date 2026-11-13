@@ -1,0 +1,540 @@
+{
+  "status": "PASS_ONE_PLATE_R13_PRINT_FEATURES",
+  "date": "2026-11-04",
+  "revision": "R13",
+  "checks": [
+    {
+      "name": "P01 present from first layer",
+      "status": "PASS",
+      "plate": 1,
+      "label_id": 1,
+      "model_segments": 504048,
+      "first_layer_path_mm": 37784.1034649979,
+      "maximum_print_z_mm": 35.0,
+      "bridge_segments": 7291,
+      "longest_bridge_mm": 124.50600001606348,
+      "native_stl_sha256": "8dcc4dd28948800631d7716642247d4c9ad97e16f0b2437cf854304b83d18507"
+    },
+    {
+      "name": "P01 full native mesh height printed",
+      "status": "PASS",
+      "expected_print_height_mm": 35.0,
+      "actual_print_height_mm": 35.0
+    },
+    {
+      "name": "P01 fixed sensor support grows continuously from base",
+      "status": "PASS",
+      "model_segments": 1065
+    },
+    {
+      "name": "P01 fixed support vertical contact face present",
+      "status": "PASS",
+      "model_segments": 163,
+      "contact_face_height_range_mm": [
+        4.6,
+        25.8
+      ]
+    },
+    {
+      "name": "P01 fixed sensor contact face support-free",
+      "status": "PASS",
+      "support_segments": 0
+    },
+    {
+      "name": "P01 fixed support45-degree shoulder side-1",
+      "status": "PASS",
+      "model_segments": 172,
+      "support_segments": 0
+    },
+    {
+      "name": "P01 fixed support45-degree shoulder side1",
+      "status": "PASS",
+      "model_segments": 209,
+      "support_segments": 0
+    },
+    {
+      "name": "P01 obsolete front reaction roof absent",
+      "status": "PASS",
+      "unexpected_model_segments": 0
+    },
+    {
+      "name": "P01 no roof support trapped above fixed sensor pad",
+      "status": "PASS",
+      "support_segments": 0
+    },
+    {
+      "name": "P01 rear latch catch full height side-1",
+      "status": "PASS",
+      "model_segments": 378,
+      "native_top_z_mm": 7.800000000000001
+    },
+    {
+      "name": "P01 latch catch engagement face support-free side-1",
+      "status": "PASS",
+      "support_segments_on_catch_face": 0
+    },
+    {
+      "name": "P01 rear latch catch full height side1",
+      "status": "PASS",
+      "model_segments": 389,
+      "native_top_z_mm": 7.800000000000001
+    },
+    {
+      "name": "P01 latch catch engagement face support-free side1",
+      "status": "PASS",
+      "support_segments_on_catch_face": 0
+    },
+    {
+      "name": "P06 present from first layer",
+      "status": "PASS",
+      "plate": 1,
+      "label_id": 10,
+      "model_segments": 92414,
+      "first_layer_path_mm": 1796.3629094899836,
+      "maximum_print_z_mm": 23.6,
+      "bridge_segments": 370,
+      "longest_bridge_mm": 12.628100490572614,
+      "native_stl_sha256": "1bc939179f5ebcdc9fb1622f06bb143d9d6ab62051ae5df99fb8f6520fa635ae"
+    },
+    {
+      "name": "P06 full native mesh height printed",
+      "status": "PASS",
+      "expected_print_height_mm": 23.5,
+      "actual_print_height_mm": 23.6
+    },
+    {
+      "name": "P06 support disabled in actual project",
+      "status": "PASS",
+      "actual_enable_support": "0"
+    },
+    {
+      "name": "P06 no actual support in gate or clip envelope",
+      "status": "PASS",
+      "support_segments": 0
+    },
+    {
+      "name": "P06 long clip beam lies fully on bed side-1",
+      "status": "PASS",
+      "native_first_layer_X_span_mm": 18.171999999999997,
+      "first_layer_beam_path_mm": 35.945000110059425
+    },
+    {
+      "name": "P06 hook complete side-1",
+      "status": "PASS",
+      "model_segments": 134,
+      "native_top_z_mm": 7.5
+    },
+    {
+      "name": "P06 free flexure gap printed open side-1",
+      "status": "PASS",
+      "unexpected_model_segments": 0
+    },
+    {
+      "name": "P06 functional round rod passage stays empty side-1",
+      "status": "PASS",
+      "unexpected_model_centerlines_in_R2_85_mm": 0
+    },
+    {
+      "name": "P06 teardrop roof has no long unsupported span side-1",
+      "status": "PASS",
+      "roof_model_segments": 310,
+      "roof_bridge_segments": 27,
+      "longest_bridge_tagged_path_mm": 4.635999999999996,
+      "longest_actual_unbacked_centerline_mm": 0.36801000922554633,
+      "layer_evidence": [
+        {
+          "native_top_z_mm": 22.5,
+          "prior_layer_model_segments": 53,
+          "longest_actual_unbacked_centerline_mm": 0.36801000922554633
+        }
+      ],
+      "method": "Subtract prior-layer actual model extrusion footprints from bridge centerlines; tagged paths include their supported anchors."
+    },
+    {
+      "name": "P06 optional M3 bore open in actual paths Y-60.5",
+      "status": "PASS",
+      "unexpected_lower_R1_45_centerlines": 0,
+      "unexpected_upper_R2_95_centerlines": 0,
+      "method": "Full shaft remains clear throughout height; head cavity evaluated above its Z10 datum using actual layer midpoint, excluding the straddling transition layer."
+    },
+    {
+      "name": "P06 optional M3 bore open in actual paths Y-41.5",
+      "status": "PASS",
+      "unexpected_lower_R1_45_centerlines": 0,
+      "unexpected_upper_R2_95_centerlines": 0,
+      "method": "Full shaft remains clear throughout height; head cavity evaluated above its Z10 datum using actual layer midpoint, excluding the straddling transition layer."
+    },
+    {
+      "name": "P06 long clip beam lies fully on bed side1",
+      "status": "PASS",
+      "native_first_layer_X_span_mm": 18.216000000000008,
+      "first_layer_beam_path_mm": 35.98400046731483
+    },
+    {
+      "name": "P06 hook complete side1",
+      "status": "PASS",
+      "model_segments": 121,
+      "native_top_z_mm": 7.5
+    },
+    {
+      "name": "P06 free flexure gap printed open side1",
+      "status": "PASS",
+      "unexpected_model_segments": 0
+    },
+    {
+      "name": "P06 functional round rod passage stays empty side1",
+      "status": "PASS",
+      "unexpected_model_centerlines_in_R2_85_mm": 0
+    },
+    {
+      "name": "P06 teardrop roof has no long unsupported span side1",
+      "status": "PASS",
+      "roof_model_segments": 309,
+      "roof_bridge_segments": 27,
+      "longest_bridge_tagged_path_mm": 4.635999999999996,
+      "longest_actual_unbacked_centerline_mm": 0.3680100000000124,
+      "layer_evidence": [
+        {
+          "native_top_z_mm": 22.5,
+          "prior_layer_model_segments": 48,
+          "longest_actual_unbacked_centerline_mm": 0.3680100000000124
+        }
+      ],
+      "method": "Subtract prior-layer actual model extrusion footprints from bridge centerlines; tagged paths include their supported anchors."
+    },
+    {
+      "name": "P06 optional M3 bore open in actual paths Y41.5",
+      "status": "PASS",
+      "unexpected_lower_R1_45_centerlines": 0,
+      "unexpected_upper_R2_95_centerlines": 0,
+      "method": "Full shaft remains clear throughout height; head cavity evaluated above its Z10 datum using actual layer midpoint, excluding the straddling transition layer."
+    },
+    {
+      "name": "P06 optional M3 bore open in actual paths Y60.5",
+      "status": "PASS",
+      "unexpected_lower_R1_45_centerlines": 0,
+      "unexpected_upper_R2_95_centerlines": 0,
+      "method": "Full shaft remains clear throughout height; head cavity evaluated above its Z10 datum using actual layer midpoint, excluding the straddling transition layer."
+    },
+    {
+      "name": "P06 transverse bridge connected to bed",
+      "status": "PASS",
+      "first_layer_native_Y_span_mm": 134.4
+    },
+    {
+      "name": "P08 present from first layer",
+      "status": "PASS",
+      "plate": 1,
+      "label_id": 4,
+      "model_segments": 17259,
+      "first_layer_path_mm": 5470.3589297271565,
+      "maximum_print_z_mm": 16.2,
+      "bridge_segments": 6,
+      "longest_bridge_mm": 1.6750000000000114,
+      "native_stl_sha256": "b27070667186e53c0b8f8f798019d9f366fede90ce6e41fbfc79633d0058ff9e"
+    },
+    {
+      "name": "P08 full native mesh height printed",
+      "status": "PASS",
+      "expected_print_height_mm": 16.200000762939453,
+      "actual_print_height_mm": 16.2
+    },
+    {
+      "name": "P08 no long unsupported bridge path",
+      "status": "PASS",
+      "longest_actual_bridge_tagged_segment_mm": 1.6750000000000114
+    },
+    {
+      "name": "P08 retained high palm hook side-1",
+      "status": "PASS",
+      "native_top_z_mm": 16.2,
+      "segments": 520
+    },
+    {
+      "name": "P08 retained long beam bed connection side-1",
+      "status": "PASS",
+      "first_layer_path_mm": 35.444000279859154,
+      "native_X_span_mm": 17.90299999999999
+    },
+    {
+      "name": "P08 retained open clip gap side-1",
+      "status": "PASS",
+      "unexpected_model_segments": 0
+    },
+    {
+      "name": "P08 retained high palm hook side1",
+      "status": "PASS",
+      "native_top_z_mm": 16.2,
+      "segments": 511
+    },
+    {
+      "name": "P08 retained long beam bed connection side1",
+      "status": "PASS",
+      "first_layer_path_mm": 35.436002804927945,
+      "native_X_span_mm": 18.00999999999999
+    },
+    {
+      "name": "P08 retained open clip gap side1",
+      "status": "PASS",
+      "unexpected_model_segments": 0
+    },
+    {
+      "name": "P08 USB roof has accessible support",
+      "status": "PASS",
+      "support_segments": 34,
+      "access": "Open tray above and13mm USB aperture outside."
+    },
+    {
+      "name": "P09 present from first layer",
+      "status": "PASS",
+      "plate": 1,
+      "label_id": 5,
+      "model_segments": 4744,
+      "first_layer_path_mm": 5396.110517427013,
+      "maximum_print_z_mm": 6.8,
+      "bridge_segments": 0,
+      "longest_bridge_mm": 0,
+      "native_stl_sha256": "296eb851b02ae7f12a7f7f4f5218e5e7571881974583dbf5648ab356c11e0a05"
+    },
+    {
+      "name": "P09 full native mesh height printed",
+      "status": "PASS",
+      "expected_print_height_mm": 6.749999523162842,
+      "actual_print_height_mm": 6.8
+    },
+    {
+      "name": "P09 retained support-free lid",
+      "status": "PASS",
+      "actual_enable_support": "0",
+      "bridge_segments": 0
+    },
+    {
+      "name": "P09 retained flat leaf and hook negative",
+      "status": "PASS",
+      "first_layer_arm_segments": 6,
+      "hook_segments": 158
+    },
+    {
+      "name": "P09 retained flat leaf and hook positive",
+      "status": "PASS",
+      "first_layer_arm_segments": 6,
+      "hook_segments": 158
+    },
+    {
+      "name": "P09 retained free leaf gap negative",
+      "status": "PASS",
+      "unexpected_model_segments": 0
+    },
+    {
+      "name": "P09 retained free leaf gap positive",
+      "status": "PASS",
+      "unexpected_model_segments": 0
+    },
+    {
+      "name": "P09 clips need no support cleanup",
+      "status": "PASS",
+      "support_segments": 0
+    },
+    {
+      "name": "P09 retained integral cable clamp",
+      "status": "PASS",
+      "model_segments": 487
+    },
+    {
+      "name": "Q01 present from first layer",
+      "status": "PASS",
+      "plate": 1,
+      "label_id": 9,
+      "model_segments": 17197,
+      "first_layer_path_mm": 566.0352648031737,
+      "maximum_print_z_mm": 19.6,
+      "bridge_segments": 0,
+      "longest_bridge_mm": 0,
+      "native_stl_sha256": "6061e924713db0bd1a193251cd5789f44ccdd9c84518528afdec55449c6907bb"
+    },
+    {
+      "name": "Q01 full native mesh height printed",
+      "status": "PASS",
+      "expected_print_height_mm": 19.5,
+      "actual_print_height_mm": 19.6
+    },
+    {
+      "name": "Q01 layout binds current fixture manifest",
+      "status": "PASS",
+      "manifest_sha256": "163a78c678a8d720d17c116afec31b79c34ba3a3b3e9543738c5dbaab08fd7ff",
+      "expected_sha256": "163a78c678a8d720d17c116afec31b79c34ba3a3b3e9543738c5dbaab08fd7ff"
+    },
+    {
+      "name": "Q01 current fixed-datum fixture support-free",
+      "status": "PASS",
+      "actual_enable_support": "0",
+      "support_segments": 0
+    },
+    {
+      "name": "Q01 tapered shoulder avoids bridge paths",
+      "status": "PASS",
+      "bridge_segments": 0
+    },
+    {
+      "name": "Q01 broad reaction face lies on bed",
+      "status": "PASS",
+      "first_layer_centerline_XY_span_mm": [
+        11.199999999999989,
+        21.5
+      ],
+      "first_layer_extrusion_XY_span_mm": [
+        11.699989999999989,
+        21.99999
+      ],
+      "reaction_face_XY_dimensions_mm": [
+        12.0,
+        22.299999952316284
+      ],
+      "actual_elefant_foot_compensation_mm": 0.15,
+      "expected_compensated_first_layer_XY_mm": [
+        11.7,
+        21.999999952316283
+      ]
+    },
+    {
+      "name": "Q01 P05 bearing shoulder faces upward",
+      "status": "PASS",
+      "top_surface_segments": 24
+    },
+    {
+      "name": "P06 native optional M3 hole clear through final united bridge Y-60.5",
+      "status": "PASS",
+      "lower_and_upper_clearance_overlap_mm3": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "P06 native optional M3 hole clear through final united bridge Y-41.5",
+      "status": "PASS",
+      "lower_and_upper_clearance_overlap_mm3": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "P06 native optional M3 hole clear through final united bridge Y41.5",
+      "status": "PASS",
+      "lower_and_upper_clearance_overlap_mm3": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "P06 native optional M3 hole clear through final united bridge Y60.5",
+      "status": "PASS",
+      "lower_and_upper_clearance_overlap_mm3": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "P01 complete conservative catch-support outward removal side-1",
+      "status": "PASS",
+      "tested_support_segments": 0,
+      "maximum_intersection_upper_bound_mm3": 0.0,
+      "worst": null,
+      "scope": "All actual local support bead AABBs including arc extrema, swept outwards to Y\u00b190; only nominal collision accessibility, no break-away force claim."
+    },
+    {
+      "name": "P01 complete conservative catch-support outward removal side1",
+      "status": "PASS",
+      "tested_support_segments": 0,
+      "maximum_intersection_upper_bound_mm3": 0.0,
+      "worst": null,
+      "scope": "All actual local support bead AABBs including arc extrema, swept outwards to Y\u00b190; only nominal collision accessibility, no break-away force claim."
+    },
+    {
+      "name": "Inspected layout and slice stable throughout validation",
+      "status": "PASS",
+      "starting_layout_sha256": "44f0a185c5e1af6e83725e6399bbfb087733e67b517a40925fae97d03e2bf4ce",
+      "starting_slice_sha256": "b0a0906fa8a1416f2f3496dffc5d94a4987f27c56dc75a54a1b79fb8ca16d926"
+    }
+  ],
+  "failed_count": 0,
+  "failures": [],
+  "metrics": {
+    "P01": {
+      "plate": 1,
+      "label_id": 1,
+      "model_segments": 504048,
+      "first_layer_path_mm": 37784.1034649979,
+      "maximum_print_z_mm": 35.0,
+      "bridge_segments": 7291,
+      "longest_bridge_mm": 124.50600001606348,
+      "native_stl_sha256": "8dcc4dd28948800631d7716642247d4c9ad97e16f0b2437cf854304b83d18507"
+    },
+    "P01_catch_support": [
+      {
+        "side": -1,
+        "support_segments": 0,
+        "interface_segments": 0,
+        "chord_or_arc_path_mm": 0,
+        "nominal_access": "Exterior side of base; remove outwards in signed Y. No enclosed catch cavity."
+      },
+      {
+        "side": 1,
+        "support_segments": 0,
+        "interface_segments": 0,
+        "chord_or_arc_path_mm": 0,
+        "nominal_access": "Exterior side of base; remove outwards in signed Y. No enclosed catch cavity."
+      }
+    ],
+    "P06": {
+      "plate": 1,
+      "label_id": 10,
+      "model_segments": 92414,
+      "first_layer_path_mm": 1796.3629094899836,
+      "maximum_print_z_mm": 23.6,
+      "bridge_segments": 370,
+      "longest_bridge_mm": 12.628100490572614,
+      "native_stl_sha256": "1bc939179f5ebcdc9fb1622f06bb143d9d6ab62051ae5df99fb8f6520fa635ae"
+    },
+    "P08": {
+      "plate": 1,
+      "label_id": 4,
+      "model_segments": 17259,
+      "first_layer_path_mm": 5470.3589297271565,
+      "maximum_print_z_mm": 16.2,
+      "bridge_segments": 6,
+      "longest_bridge_mm": 1.6750000000000114,
+      "native_stl_sha256": "b27070667186e53c0b8f8f798019d9f366fede90ce6e41fbfc79633d0058ff9e"
+    },
+    "P09": {
+      "plate": 1,
+      "label_id": 5,
+      "model_segments": 4744,
+      "first_layer_path_mm": 5396.110517427013,
+      "maximum_print_z_mm": 6.8,
+      "bridge_segments": 0,
+      "longest_bridge_mm": 0,
+      "native_stl_sha256": "296eb851b02ae7f12a7f7f4f5218e5e7571881974583dbf5648ab356c11e0a05"
+    },
+    "Q01": {
+      "plate": 1,
+      "label_id": 9,
+      "model_segments": 17197,
+      "first_layer_path_mm": 566.0352648031737,
+      "maximum_print_z_mm": 19.6,
+      "bridge_segments": 0,
+      "longest_bridge_mm": 0,
+      "native_stl_sha256": "6061e924713db0bd1a193251cd5789f44ccdd9c84518528afdec55449c6907bb"
+    }
+  },
+  "sliced_archive_sha256": "b0a0906fa8a1416f2f3496dffc5d94a4987f27c56dc75a54a1b79fb8ca16d926",
+  "layout_sha256": "44f0a185c5e1af6e83725e6399bbfb087733e67b517a40925fae97d03e2bf4ce",
+  "CAD_source_sha256": "82b7d65708c46cd9d4b6ac271047eac2f638f0222451df99eae0780525edd851",
+  "native_step_sha256": "34503fabce855c834e2d495a33e8a4c834b651c52cc138e4d2d25ded66348530",
+  "validator_sha256": "35ff8304e1f46337a9d7902d490f0bb8ab6689a0fff58dcb0df8b2d593111e81",
+  "scope": "Actual final H2D0.4 PLA paths for fixed front support, rear gate/clips, rear frame catches, retained P08/P09 enclosure and replacement Q01 fixture.",
+  "limitations": [
+    "No physical PLA fit, fatigue, strength or support-removal-force qualification.",
+    "Feature-presence ROIs use segment midpoints; model watertightness and exact native CAD identity belong to separate validators.",
+    "Native support clearance uses complete conservative bead boxes and can reject otherwise-clear rounded paths; a positive conservative overlap must be investigated, not silently waived."
+  ]
+}

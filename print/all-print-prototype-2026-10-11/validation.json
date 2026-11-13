@@ -1,0 +1,272 @@
+{
+  "status": "PASS",
+  "unique_parts": 24,
+  "print_quantity": 29,
+  "scope": "Closed positive-volume meshes, floor orientation, quantities and provenance; no physical load qualification",
+  "meshes": [
+    {
+      "file": "TPU/P03_palm_sleeve_TPU.stl",
+      "closed": true,
+      "volume_mm3": 8415.279861654139,
+      "triangles": 15760,
+      "bounds_mm": [
+        20.499,
+        15.398,
+        86.0
+      ]
+    },
+    {
+      "file": "PETG/P04_climbing_carriage.stl",
+      "closed": true,
+      "volume_mm3": 125268.48066349736,
+      "triangles": 57600,
+      "bounds_mm": [
+        60.0,
+        174.0,
+        25.0
+      ]
+    },
+    {
+      "file": "PETG/P05_floating_yoke.stl",
+      "closed": true,
+      "volume_mm3": 62053.5286652248,
+      "triangles": 14992,
+      "bounds_mm": [
+        22.5,
+        174.0,
+        22.0
+      ]
+    },
+    {
+      "file": "PETG/P060_rear_retainer_left.stl",
+      "closed": true,
+      "volume_mm3": 2821.613434423935,
+      "triangles": 2902,
+      "bounds_mm": [
+        8.0,
+        24.0,
+        22.0
+      ]
+    },
+    {
+      "file": "PETG/P061_rear_retainer_right.stl",
+      "closed": true,
+      "volume_mm3": 2821.613434423936,
+      "triangles": 2902,
+      "bounds_mm": [
+        8.0,
+        24.0,
+        22.0
+      ]
+    },
+    {
+      "file": "TPU/P070a_return_pad_left_a_TPU.stl",
+      "closed": true,
+      "volume_mm3": 40.49973,
+      "triangles": 12,
+      "bounds_mm": [
+        6.0,
+        4.5,
+        1.5
+      ]
+    },
+    {
+      "file": "TPU/P070b_return_pad_left_b_TPU.stl",
+      "closed": true,
+      "volume_mm3": 40.49973,
+      "triangles": 12,
+      "bounds_mm": [
+        6.0,
+        4.5,
+        1.5
+      ]
+    },
+    {
+      "file": "TPU/P071a_return_pad_right_a_TPU.stl",
+      "closed": true,
+      "volume_mm3": 40.49973,
+      "triangles": 12,
+      "bounds_mm": [
+        6.0,
+        4.5,
+        1.5
+      ]
+    },
+    {
+      "file": "TPU/P071b_return_pad_right_b_TPU.stl",
+      "closed": true,
+      "volume_mm3": 40.49973,
+      "triangles": 12,
+      "bounds_mm": [
+        6.0,
+        4.5,
+        1.5
+      ]
+    },
+    {
+      "file": "PETG/P01_base_NoCord_2026-10-13.stl",
+      "closed": true,
+      "volume_mm3": 118057.37865142077,
+      "triangles": 38502,
+      "bounds_mm": [
+        156.0,
+        180.0,
+        29.0
+      ]
+    },
+    {
+      "file": "PETG/P02_Palm_mount_RevA.stl",
+      "closed": true,
+      "volume_mm3": 35654.28041300907,
+      "triangles": 41954,
+      "bounds_mm": [
+        36.25,
+        128.0,
+        18.0
+      ]
+    },
+    {
+      "file": "PETG/P08_Electronics_tray.stl",
+      "closed": true,
+      "volume_mm3": 4753.507475395391,
+      "triangles": 9108,
+      "bounds_mm": [
+        22.5,
+        124.0,
+        9.5
+      ]
+    },
+    {
+      "file": "PETG/P09_Electronics_lid.stl",
+      "closed": true,
+      "volume_mm3": 2247.0654514373623,
+      "triangles": 4354,
+      "bounds_mm": [
+        22.5,
+        110.0,
+        6.75
+      ]
+    },
+    {
+      "file": "PETG/P10_Wire_clamp.stl",
+      "closed": true,
+      "volume_mm3": 27.551957882000032,
+      "triangles": 1284,
+      "bounds_mm": [
+        3.2,
+        10.2,
+        1.0
+      ]
+    },
+    {
+      "file": "PETG/H02_Pusher_PRINT_MOCKUP.stl",
+      "closed": true,
+      "volume_mm3": 120.06947418690002,
+      "triangles": 2516,
+      "bounds_mm": [
+        9.4,
+        7.999,
+        8.0
+      ]
+    },
+    {
+      "file": "PETG/H04_Guide_rod_PRINT_MOCKUP.stl",
+      "closed": true,
+      "volume_mm3": 4127.436923677602,
+      "triangles": 836,
+      "bounds_mm": [
+        146.0,
+        5.999,
+        6.0
+      ]
+    },
+    {
+      "file": "PETG/H05_Fixed_spring_seat_PRINT_MOCKUP.stl",
+      "closed": true,
+      "volume_mm3": 1037.6076357039035,
+      "triangles": 1680,
+      "bounds_mm": [
+        22.0,
+        21.998,
+        3.0
+      ]
+    },
+    {
+      "file": "PETG/H06_Moving_spring_seat_PRINT_MOCKUP.stl",
+      "closed": true,
+      "volume_mm3": 989.4542017074002,
+      "triangles": 1680,
+      "bounds_mm": [
+        22.0,
+        21.998,
+        3.0
+      ]
+    },
+    {
+      "file": "PETG/H12_Sensor_cassette_PRINT_MOCKUP.stl",
+      "closed": true,
+      "volume_mm3": 2062.891721138362,
+      "triangles": 2572,
+      "bounds_mm": [
+        21.0,
+        27.0,
+        7.2
+      ]
+    },
+    {
+      "file": "PETG/H15_Keeper_PRINT_MOCKUP.stl",
+      "closed": true,
+      "volume_mm3": 1087.506183129747,
+      "triangles": 5704,
+      "bounds_mm": [
+        19.0,
+        32.0,
+        2.0
+      ]
+    },
+    {
+      "file": "PETG/H19_Spacer_PRINT_MOCKUP.stl",
+      "closed": true,
+      "volume_mm3": 18.09287358400001,
+      "triangles": 1680,
+      "bounds_mm": [
+        4.0,
+        4.0,
+        4.0
+      ]
+    },
+    {
+      "file": "PETG/H22_Brass_pad_PRINT_MOCKUP.stl",
+      "closed": true,
+      "volume_mm3": 4.907999562399998,
+      "triangles": 836,
+      "bounds_mm": [
+        2.5,
+        2.5,
+        1.0
+      ]
+    },
+    {
+      "file": "PETG/H14_Isometric_sleeve_PRINT_MOCKUP.stl",
+      "closed": true,
+      "volume_mm3": 12966.559025209615,
+      "triangles": 1680,
+      "bounds_mm": [
+        16.0,
+        15.998,
+        86.0
+      ]
+    },
+    {
+      "file": "PETG/H13_Handwheel_ONLY_PRINT_MOCKUP.stl",
+      "closed": true,
+      "volume_mm3": 974.150666773199,
+      "triangles": 1680,
+      "bounds_mm": [
+        22.0,
+        21.998,
+        2.8
+      ]
+    }
+  ]
+}

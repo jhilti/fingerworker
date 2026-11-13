@@ -1,0 +1,39 @@
+{
+  "status": "PASS_FLAT_ORIENTATION_SELECTED",
+  "source_sha256": "2874852b7f556f58bc98bb12ccfe18204dd8b45dd0fcea3a24d643f2bd7d4110",
+  "flat": {
+    "evidence_archive_sha256": "bcea4b909279dabe6295ebc75d208dd14df4c1dd4f7de0843bdc36e359615181",
+    "source_sha256": "2874852b7f556f58bc98bb12ccfe18204dd8b45dd0fcea3a24d643f2bd7d4110",
+    "print_size_mm": [
+      175.10000228881836,
+      132.0,
+      35.0
+    ],
+    "exact_planar_bed_contact_area_mm2": 17103.967189718314,
+    "estimated_seconds": 30055,
+    "estimated_total_grams": 132.44,
+    "actual_support_filament_e_mm": 2769.5661300000447,
+    "actual_support_mass_estimate_g": 8.260368146877518,
+    "slicer_exit_code": 0,
+    "outside": false
+  },
+  "wrist": {
+    "evidence_archive_sha256": "c78a7768548e5e87601b30b8290cff0f454cca0c91ce5cd509415a359f1a5f0f",
+    "source_sha256": "2874852b7f556f58bc98bb12ccfe18204dd8b45dd0fcea3a24d643f2bd7d4110",
+    "print_size_mm": [
+      35.0,
+      132.0,
+      175.10000228881836
+    ],
+    "exact_planar_bed_contact_area_mm2": 186.0,
+    "estimated_seconds": 33846,
+    "estimated_total_grams": 154.53,
+    "actual_support_filament_e_mm": 5186.3880799993485,
+    "actual_support_mass_estimate_g": 15.468659307070299,
+    "slicer_exit_code": 0,
+    "outside": false
+  },
+  "selected": "flat",
+  "reason": "Same native mesh: the flat floor gives the broadest planar bed contact, 35 mm build height, lower material/time and accessible external palm supports. Wrist-down raises the frame to175 mm and requires more support. The curved hand-contact surface remains upward in flat orientation.",
+  "caution": "Only the selected flat layout is shipped. Actual support release and part strength require the unloaded physical trial."
+}

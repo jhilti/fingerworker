@@ -1,0 +1,7 @@
+{
+  "status": "PASS_NATIVE_CAD_RELEASED_PRINT_SETUP_DEFERRED",
+  "source_sha256": "0e88e273e2e9bc436b2844a44f04b28fb094593c0af87a2127d792bbb56f016d",
+  "onshape_version": "21323818480a2406fe14f51f",
+  "native_solids": 94,
+  "print_setup_status": "PRINT_SETUP_DEFERRED_BY_USER"
+}

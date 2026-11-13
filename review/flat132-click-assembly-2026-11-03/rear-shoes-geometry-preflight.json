@@ -1,0 +1,66 @@
+{
+  "status": "PASS_LOCAL_EXACT_CSG_PREFLIGHT",
+  "baseline_step_sha256": "f983a713a66b07a945b0aa4cd751846810d8538dd1b9a8f1ce64e569586081ec",
+  "checks": [
+    {
+      "ref": "P120",
+      "status": "PASS",
+      "symmetric_difference_from_old_shoe_plus_old_pads_mm3": 0.0,
+      "volume_increase_mm3": 81.0,
+      "one_solid": true,
+      "bounds_mm": [
+        [
+          119.0,
+          -60.75,
+          3.299999999999999
+        ],
+        [
+          128.6,
+          -41.25,
+          26.5
+        ]
+      ],
+      "front_x_mm": 119,
+      "moving_assembly_common_x_shift_mm": [
+        0,
+        -2
+      ]
+    },
+    {
+      "ref": "P121",
+      "status": "PASS",
+      "symmetric_difference_from_old_shoe_plus_old_pads_mm3": 0.0,
+      "volume_increase_mm3": 81.00000000000011,
+      "one_solid": true,
+      "bounds_mm": [
+        [
+          119.0,
+          41.25,
+          3.299999999999999
+        ],
+        [
+          128.6,
+          60.75,
+          26.5
+        ]
+      ],
+      "front_x_mm": 119,
+      "moving_assembly_common_x_shift_mm": [
+        0,
+        -2
+      ]
+    }
+  ],
+  "meaning": "The union has exactly the old shoe+pad geometry, so prior motion clearances remain nominally unchanged. Positive Boolean overlap only lies inside old shoe stock.",
+  "all_rear_advance_values": {
+    "a_mm": [
+      0,
+      2
+    ],
+    "method": "Exact set identity commutes with the common translation T(-a). No sampling of a is needed.",
+    "integral_contact_plane_x_mm": "119-a",
+    "carriage_rear_plane_x_mm": "124-(5+a+u)=119-a-u",
+    "separation_along_x_mm": "u >= 0, nominal exterior contact at u=0"
+  },
+  "limitations": "This local CSG witness does not regenerate Onshape, certify a native export, test a print, or qualify hard-land impact/creep strength."
+}

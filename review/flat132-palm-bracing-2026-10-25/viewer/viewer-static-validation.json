@@ -1,0 +1,53 @@
+{
+  "status": "PASS_STATIC_SOURCE_BOUND_VIEWER_CHECKS",
+  "scope": "Source/native/archive metadata and domain, actual native dimension readouts, required rear and palm-bearing controls, offline embedding and JavaScript syntax; browser visual review is separate",
+  "viewer_sha256": "cc462d51f299e3d8fbc072025997492b8124a16759087bdf8703e5e03b7938bd",
+  "source_sha256": "16972ba9341f4cdf763a5570dad82a4fbd601f0935d0a7657be85813f97ff2b1",
+  "native_poses": [
+    {
+      "id": "neutral",
+      "device_parts": 70,
+      "native_XYZ_span_mm": [
+        176.50001,
+        132.0,
+        35.0
+      ],
+      "native_source_sha256": "16972ba9341f4cdf763a5570dad82a4fbd601f0935d0a7657be85813f97ff2b1"
+    },
+    {
+      "id": "adjusted_rest",
+      "device_parts": 70,
+      "native_XYZ_span_mm": [
+        175.6,
+        132.0,
+        35.0
+      ],
+      "native_source_sha256": "16972ba9341f4cdf763a5570dad82a4fbd601f0935d0a7657be85813f97ff2b1"
+    },
+    {
+      "id": "max",
+      "device_parts": 70,
+      "native_XYZ_span_mm": [
+        176.50001,
+        132.0,
+        35.0
+      ],
+      "native_source_sha256": "16972ba9341f4cdf763a5570dad82a4fbd601f0935d0a7657be85813f97ff2b1"
+    },
+    {
+      "id": "iso",
+      "device_parts": 70,
+      "native_XYZ_span_mm": [
+        176.50001,
+        132.0,
+        35.0
+      ],
+      "native_source_sha256": "16972ba9341f4cdf763a5570dad82a4fbd601f0935d0a7657be85813f97ff2b1"
+    }
+  ],
+  "nominal_geometry_state": {
+    "nominal_status": "NOMINAL_GEOMETRY_CHECKS_PASS",
+    "message": "R9 native bearing, clearance, motion and unloaded removal checks pass. Physical contact fit, stiffness and the 500 N design target remain unqualified."
+  },
+  "package_ready": true
+}

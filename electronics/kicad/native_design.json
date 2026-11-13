@@ -1,0 +1,1374 @@
+{
+  "root_uuid": "a94f1553-d4fa-5e8d-b685-21dd4e8d919b",
+  "parts": [
+    {
+      "ref": "U1",
+      "value": "XIAO_nRF52840",
+      "mpn": "102010448",
+      "package": "21 x 17.8 mm module; no headers",
+      "pins": {
+        "1": {
+          "name": "D0 / P0.02",
+          "net": "BOOST_EN"
+        },
+        "2": {
+          "name": "D1 / P0.03",
+          "net": "ANALOG_EN"
+        },
+        "3": {
+          "name": "D2 / P0.28",
+          "net": "ADC_CS_MCU"
+        },
+        "4": {
+          "name": "D3 / P0.29",
+          "net": "ADC_DRDY_N"
+        },
+        "5": {
+          "name": "D4 / P0.04",
+          "net": "BUTTON_N"
+        },
+        "6": {
+          "name": "D5 / P0.05",
+          "net": "ENDSTOP_N"
+        },
+        "7": {
+          "name": "D6 / P1.11",
+          "net": "USB_PRESENT"
+        },
+        "8": {
+          "name": "D7 / P1.12",
+          "net": null
+        },
+        "9": {
+          "name": "D8 / P1.13",
+          "net": "SPI_SCK_MCU"
+        },
+        "10": {
+          "name": "D9 / P1.14",
+          "net": "SPI_MISO"
+        },
+        "11": {
+          "name": "D10 / P1.15",
+          "net": "SPI_MOSI_MCU"
+        },
+        "12": {
+          "name": "3V3 OUT",
+          "net": "V3V3"
+        },
+        "13": {
+          "name": "GND",
+          "net": "GND"
+        },
+        "14": {
+          "name": "VBUS / 5V",
+          "net": "VBUS_USB"
+        },
+        "15": {
+          "name": "SWDIO",
+          "net": null
+        },
+        "16": {
+          "name": "SWCLK",
+          "net": null
+        },
+        "17": {
+          "name": "RESET_N",
+          "net": null
+        },
+        "18": {
+          "name": "GND",
+          "net": "GND"
+        },
+        "19": {
+          "name": "bottom BAT+",
+          "net": "VBAT"
+        },
+        "20": {
+          "name": "bottom BAT-",
+          "net": "GND"
+        },
+        "21": {
+          "name": "NFC1",
+          "net": null
+        },
+        "22": {
+          "name": "NFC2",
+          "net": null
+        }
+      },
+      "page": 1,
+      "kind": "ic",
+      "note": "Onboard USB, charger and USB/battery source selection. Check delivered board revision.",
+      "source": "https://files.seeedstudio.com/wiki/XIAO-BLE/Res/260828_XIAO_nRF52840.pdf",
+      "footprint": "Fingerworker:Seeed_XIAO_nRF52840_SMD",
+      "uuid": "95bab951-c634-5b27-84a6-7fbdd79a9d95",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/24a2fd24-08aa-59c3-8172-b24828f808d0"
+    },
+    {
+      "ref": "J1",
+      "value": "JST_PH_2",
+      "mpn": "S2B-PH-SM4-TB(LF)(SN)",
+      "package": "JST PH; side-entry SMT",
+      "pins": {
+        "1": {
+          "name": "battery +",
+          "net": "VBAT"
+        },
+        "2": {
+          "name": "battery -",
+          "net": "GND"
+        }
+      },
+      "page": 1,
+      "kind": "connector",
+      "note": "Design assigns pin 1 positive. Verify pad numbering against actual battery harness before routing.",
+      "source": "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf",
+      "footprint": "Fingerworker:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal",
+      "uuid": "f351653c-db71-5373-a274-194526b87f39",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/24a2fd24-08aa-59c3-8172-b24828f808d0"
+    },
+    {
+      "ref": "BT1",
+      "value": "Protected 100 mAh LiPo",
+      "mpn": "1570",
+      "package": "OFF BOARD; nominal 11.5 x 31 x 3.8 mm",
+      "pins": {
+        "+": {
+          "name": "red +",
+          "net": "VBAT"
+        },
+        "-": {
+          "name": "black -",
+          "net": "GND"
+        }
+      },
+      "page": 1,
+      "kind": "external",
+      "note": "Connect through J1; symbol shows electrical relationship, not a second battery path.",
+      "source": "https://cdn-shop.adafruit.com/product-files/1570/1570datasheet.pdf",
+      "uuid": "77128d53-5a94-5cfa-82f6-738feb2dcdac",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/24a2fd24-08aa-59c3-8172-b24828f808d0"
+    },
+    {
+      "ref": "C1",
+      "value": "10 uF",
+      "mpn": "GRM21BR61E106KA73L",
+      "package": "0805; X5R/X7R; >=16 V; effective >=4.7 uF at 3.3 V",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "V3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 1,
+      "kind": "capacitor",
+      "note": "",
+      "source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01A.pdf",
+      "footprint": "Fingerworker:C_0805_2012Metric",
+      "uuid": "9298ef6a-516e-50ee-8003-b7973d144e6b",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/24a2fd24-08aa-59c3-8172-b24828f808d0"
+    },
+    {
+      "ref": "R1",
+      "value": "100 k",
+      "mpn": "RC0603FR-07100KL",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "VBUS_USB"
+        },
+        "2": {
+          "name": "2",
+          "net": "USB_PRESENT"
+        }
+      },
+      "page": 1,
+      "kind": "resistor",
+      "note": "",
+      "source": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL",
+      "footprint": "Fingerworker:R_0603_1608Metric",
+      "uuid": "afd6122b-c7e4-58ea-9441-b9bea8b86247",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/24a2fd24-08aa-59c3-8172-b24828f808d0"
+    },
+    {
+      "ref": "R2",
+      "value": "100 k",
+      "mpn": "RC0603FR-07100KL",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "USB_PRESENT"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 1,
+      "kind": "resistor",
+      "note": "",
+      "source": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL",
+      "footprint": "Fingerworker:R_0603_1608Metric",
+      "uuid": "d11b9f0a-ed08-5c0c-aaa4-223a87c5ed95",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/24a2fd24-08aa-59c3-8172-b24828f808d0"
+    },
+    {
+      "ref": "C2",
+      "value": "10 nF",
+      "mpn": "GRM188R71H103KA01D",
+      "package": "0603; X7R; >=16 V",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "USB_PRESENT"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 1,
+      "kind": "capacitor",
+      "note": "",
+      "source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H103KA01-01.pdf",
+      "footprint": "Fingerworker:C_0603_1608Metric",
+      "uuid": "402e8790-ea35-5290-aee3-19f19908e186",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/24a2fd24-08aa-59c3-8172-b24828f808d0"
+    },
+    {
+      "ref": "U2",
+      "value": "TPS61041DBVR",
+      "mpn": "TPS61041DBVR",
+      "package": "SOT-23-5 / DBV",
+      "pins": {
+        "1": {
+          "name": "SW",
+          "net": "BOOST_SW"
+        },
+        "2": {
+          "name": "GND",
+          "net": "GND"
+        },
+        "3": {
+          "name": "FB",
+          "net": "BOOST_FB"
+        },
+        "4": {
+          "name": "EN",
+          "net": "BOOST_EN"
+        },
+        "5": {
+          "name": "VIN",
+          "net": "V3V3"
+        }
+      },
+      "page": 2,
+      "kind": "ic",
+      "note": "",
+      "source": "https://www.ti.com/lit/ds/symlink/tps61041.pdf",
+      "footprint": "Fingerworker:SOT-23-5",
+      "uuid": "defba61b-70c3-5eed-ba95-08e94c0151f0",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/24a2fd24-08aa-59c3-8172-b24828f808d0"
+    },
+    {
+      "ref": "L1",
+      "value": "10 uH",
+      "mpn": "XFL3012-103MEC",
+      "package": "3 x 3 x 1.2 mm; shielded",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "V3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "BOOST_SW"
+        }
+      },
+      "page": 2,
+      "kind": "inductor",
+      "note": "",
+      "source": "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xfl/xfl3012/xfl3012-103/",
+      "footprint": "Fingerworker:L_Coilcraft_XFL3012",
+      "uuid": "435373c9-dd96-569b-a21b-5d1608652765",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/24a2fd24-08aa-59c3-8172-b24828f808d0"
+    },
+    {
+      "ref": "D1",
+      "value": "MBR0520LT1G",
+      "mpn": "MBR0520LT1G",
+      "package": "SOD-123",
+      "pins": {
+        "1": {
+          "name": "K",
+          "net": "VBOOST"
+        },
+        "2": {
+          "name": "A",
+          "net": "BOOST_SW"
+        }
+      },
+      "page": 2,
+      "kind": "diode",
+      "note": "",
+      "source": "https://www.onsemi.com/pdf/datasheet/mbr0520lt1-d.pdf",
+      "footprint": "Fingerworker:D_SOD-123",
+      "uuid": "0845f90b-993f-5cd0-8420-81b3d0f4a814",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/24a2fd24-08aa-59c3-8172-b24828f808d0"
+    },
+    {
+      "ref": "R3",
+      "value": "680 k",
+      "mpn": "RT0603BRD07680KL",
+      "package": "0603; 0.1%; >=0.1 W; thin film",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "VBOOST"
+        },
+        "2": {
+          "name": "2",
+          "net": "BOOST_FB"
+        }
+      },
+      "page": 2,
+      "kind": "resistor",
+      "note": "",
+      "source": "https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD07680KL",
+      "footprint": "Fingerworker:R_0603_1608Metric",
+      "uuid": "852402e0-0474-5618-8427-bfc127618a55",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/24a2fd24-08aa-59c3-8172-b24828f808d0"
+    },
+    {
+      "ref": "R4",
+      "value": "200 k",
+      "mpn": "RT0603BRD07200KL",
+      "package": "0603; 0.1%; >=0.1 W; thin film",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "BOOST_FB"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 2,
+      "kind": "resistor",
+      "note": "",
+      "source": "https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD07200KL",
+      "footprint": "Fingerworker:R_0603_1608Metric",
+      "uuid": "44df7c9a-b9dc-5e0b-9582-68a6ebd26071",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/24a2fd24-08aa-59c3-8172-b24828f808d0"
+    },
+    {
+      "ref": "R5",
+      "value": "100 k",
+      "mpn": "RC0603FR-07100KL",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "BOOST_EN"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 2,
+      "kind": "resistor",
+      "note": "",
+      "source": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL",
+      "footprint": "Fingerworker:R_0603_1608Metric",
+      "uuid": "93b66693-9ee1-562d-96f9-9e11e2ca7572",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/24a2fd24-08aa-59c3-8172-b24828f808d0"
+    },
+    {
+      "ref": "C3",
+      "value": "10 uF",
+      "mpn": "GRM21BR61E106KA73L",
+      "package": "0805; X5R/X7R; >=16 V; effective >=4.7 uF at 3.3 V",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "V3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 2,
+      "kind": "capacitor",
+      "note": "",
+      "source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01A.pdf",
+      "footprint": "Fingerworker:C_0805_2012Metric",
+      "uuid": "2637906e-468f-5ff8-a311-d3381e43525b",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/24a2fd24-08aa-59c3-8172-b24828f808d0"
+    },
+    {
+      "ref": "C4",
+      "value": "22 uF",
+      "mpn": "GRM21BR61E226ME44L",
+      "package": "0805; X5R/X7R; >=16 V; effective >=4.7 uF at 5.5 V",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "VBOOST"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 2,
+      "kind": "capacitor",
+      "note": "",
+      "source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E226ME44-01A.pdf",
+      "footprint": "Fingerworker:C_0805_2012Metric",
+      "uuid": "fda9bbf5-0d9b-507f-908d-073c7e462028",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/24a2fd24-08aa-59c3-8172-b24828f808d0"
+    },
+    {
+      "ref": "C5",
+      "value": "47 pF",
+      "mpn": "GRM1885C1H470JA01D",
+      "package": "0603; C0G; 5%; >=25 V; tune after ripple test",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "VBOOST"
+        },
+        "2": {
+          "name": "2",
+          "net": "BOOST_FB"
+        }
+      },
+      "page": 2,
+      "kind": "capacitor",
+      "note": "",
+      "source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H470JA01-01A.pdf",
+      "footprint": "Fingerworker:C_0603_1608Metric",
+      "uuid": "ea553a68-e7c0-53da-9fa5-4a53f2ba9578",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/24a2fd24-08aa-59c3-8172-b24828f808d0"
+    },
+    {
+      "ref": "U3",
+      "value": "TPS7A2050PDBVR",
+      "mpn": "TPS7A2050PDBVR",
+      "package": "SOT-23-5 / DBV",
+      "pins": {
+        "1": {
+          "name": "IN",
+          "net": "VBOOST"
+        },
+        "2": {
+          "name": "GND",
+          "net": "GND"
+        },
+        "3": {
+          "name": "EN",
+          "net": "ANALOG_EN"
+        },
+        "4": {
+          "name": "NC",
+          "net": null
+        },
+        "5": {
+          "name": "OUT",
+          "net": "V5A"
+        }
+      },
+      "page": 2,
+      "kind": "ic",
+      "note": "",
+      "source": "https://www.ti.com/lit/ds/symlink/tps7a20.pdf",
+      "footprint": "Fingerworker:SOT-23-5",
+      "uuid": "3eae637d-aa41-529d-b2b2-c95542662faf",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/24a2fd24-08aa-59c3-8172-b24828f808d0"
+    },
+    {
+      "ref": "R6",
+      "value": "100 k",
+      "mpn": "RC0603FR-07100KL",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "ANALOG_EN"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 2,
+      "kind": "resistor",
+      "note": "",
+      "source": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL",
+      "footprint": "Fingerworker:R_0603_1608Metric",
+      "uuid": "b01966bb-0dfb-513d-b247-f1c2acf1d8c8",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/24a2fd24-08aa-59c3-8172-b24828f808d0"
+    },
+    {
+      "ref": "C6",
+      "value": "1 uF",
+      "mpn": "GRM188R71C105KA12D",
+      "package": "0603; X7R; >=16 V; adjacent to U3",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "VBOOST"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 2,
+      "kind": "capacitor",
+      "note": "",
+      "source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C105KA12-01.pdf",
+      "footprint": "Fingerworker:C_0603_1608Metric",
+      "uuid": "aeec617c-fe40-5f96-aaaf-45d62406f388",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/24a2fd24-08aa-59c3-8172-b24828f808d0"
+    },
+    {
+      "ref": "C7",
+      "value": "22 uF",
+      "mpn": "GRM21BR61E226ME44L",
+      "package": "0805; X7R; >=16 V; effective >=1 uF at 5 V",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "V5A"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 2,
+      "kind": "capacitor",
+      "note": "",
+      "source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E226ME44-01A.pdf",
+      "footprint": "Fingerworker:C_0805_2012Metric",
+      "uuid": "30488437-9003-5a30-a553-e047b844d04f",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/24a2fd24-08aa-59c3-8172-b24828f808d0"
+    },
+    {
+      "ref": "U4",
+      "value": "ADS1220IPWR",
+      "mpn": "ADS1220IPWR",
+      "package": "TSSOP-16 / PW; 5 x 6.4 mm including leads",
+      "pins": {
+        "1": {
+          "name": "SCLK",
+          "net": "SPI_SCK_ADC"
+        },
+        "2": {
+          "name": "CS_N",
+          "net": "ADC_CS_N"
+        },
+        "3": {
+          "name": "CLK",
+          "net": "GND"
+        },
+        "4": {
+          "name": "DGND",
+          "net": "GND"
+        },
+        "5": {
+          "name": "AVSS",
+          "net": "GND"
+        },
+        "6": {
+          "name": "AIN3 / REFN1",
+          "net": null
+        },
+        "7": {
+          "name": "AIN2",
+          "net": null
+        },
+        "8": {
+          "name": "REFN0",
+          "net": "REF_N"
+        },
+        "9": {
+          "name": "REFP0",
+          "net": "REF_P"
+        },
+        "10": {
+          "name": "AIN1",
+          "net": "AIN_N"
+        },
+        "11": {
+          "name": "AIN0 / REFP1",
+          "net": "AIN_P"
+        },
+        "12": {
+          "name": "AVDD",
+          "net": "V5A"
+        },
+        "13": {
+          "name": "DVDD",
+          "net": "V3V3"
+        },
+        "14": {
+          "name": "DRDY_N",
+          "net": "ADC_DRDY_N"
+        },
+        "15": {
+          "name": "DOUT",
+          "net": "SPI_MISO"
+        },
+        "16": {
+          "name": "DIN",
+          "net": "SPI_MOSI_ADC"
+        }
+      },
+      "page": 3,
+      "kind": "ic",
+      "note": "",
+      "source": "https://www.ti.com/lit/ds/symlink/ads1220.pdf",
+      "footprint": "Fingerworker:TSSOP-16_4.4x5mm_P0.65mm",
+      "uuid": "e796a9f9-e7b3-5e1f-911f-2fd7008fc165",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/d1129be9-5e86-5da5-bb3e-64d674d30046"
+    },
+    {
+      "ref": "J2",
+      "value": "FORCE_4",
+      "mpn": "4 labelled solder pads",
+      "package": "PCB pads + printed strain relief",
+      "pins": {
+        "1": {
+          "name": "EXC+ red",
+          "net": "V5A"
+        },
+        "2": {
+          "name": "SIG+ yellow",
+          "net": "SIG_P"
+        },
+        "3": {
+          "name": "SIG- white",
+          "net": "SIG_N"
+        },
+        "4": {
+          "name": "EXC- black",
+          "net": "GND"
+        },
+        "5": {
+          "name": "Sense+ internal",
+          "net": "EXC_SENSE_P"
+        },
+        "6": {
+          "name": "Sense- internal",
+          "net": "EXC_SENSE_N"
+        }
+      },
+      "page": 3,
+      "kind": "connector",
+      "note": "4-wire connection; Internal net ties join pads 1/5 and 4/6; sense traces reach the excitation solder lands only. Wire colors per TE family sheet.",
+      "source": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocFormat=pdf&DocLang=English&DocNm=FX19&DocType=Data+Sheet&PartCntxt=FX1901-0001-0200-L",
+      "footprint": "Fingerworker:SolderWire_4x2mm_P2.54",
+      "uuid": "68dfa273-ee79-5416-bedf-ae6c7ab9cf75",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/d1129be9-5e86-5da5-bb3e-64d674d30046"
+    },
+    {
+      "ref": "H1",
+      "value": "Force sensor 200 lbf",
+      "mpn": "FX1901-0001-0200-L",
+      "package": "EXISTING / OFF BOARD",
+      "pins": {
+        "RED": {
+          "name": "V+",
+          "net": "V5A"
+        },
+        "YELLOW": {
+          "name": "O+",
+          "net": "SIG_P"
+        },
+        "WHITE": {
+          "name": "O-",
+          "net": "SIG_N"
+        },
+        "BLACK": {
+          "name": "V-",
+          "net": "GND"
+        }
+      },
+      "page": 3,
+      "kind": "external",
+      "note": "",
+      "source": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocFormat=pdf&DocLang=English&DocNm=FX19&DocType=Data+Sheet&PartCntxt=FX1901-0001-0200-L",
+      "uuid": "4b1cc94c-fc1a-5439-bd94-378d7f16424c",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/d1129be9-5e86-5da5-bb3e-64d674d30046"
+    },
+    {
+      "ref": "R7",
+      "value": "1 k",
+      "mpn": "RT0603BRD071KL",
+      "package": "0603; 0.1%; matched pair with R8",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "SIG_P"
+        },
+        "2": {
+          "name": "2",
+          "net": "AIN_P"
+        }
+      },
+      "page": 3,
+      "kind": "resistor",
+      "note": "",
+      "source": "https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD071KL",
+      "footprint": "Fingerworker:R_0603_1608Metric",
+      "uuid": "8f486922-02f8-5932-82a9-a35a7488999b",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/d1129be9-5e86-5da5-bb3e-64d674d30046"
+    },
+    {
+      "ref": "R8",
+      "value": "1 k",
+      "mpn": "RT0603BRD071KL",
+      "package": "0603; 0.1%; matched pair with R7",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "SIG_N"
+        },
+        "2": {
+          "name": "2",
+          "net": "AIN_N"
+        }
+      },
+      "page": 3,
+      "kind": "resistor",
+      "note": "",
+      "source": "https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD071KL",
+      "footprint": "Fingerworker:R_0603_1608Metric",
+      "uuid": "dee4f75c-7f36-5fb6-9c17-4b0df0c5cd3e",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/d1129be9-5e86-5da5-bb3e-64d674d30046"
+    },
+    {
+      "ref": "C8",
+      "value": "470 nF",
+      "mpn": "GRM188R71C474KA88D",
+      "package": "0603; X7R; 10%; >=16 V",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "AIN_P"
+        },
+        "2": {
+          "name": "2",
+          "net": "AIN_N"
+        }
+      },
+      "page": 3,
+      "kind": "capacitor",
+      "note": "",
+      "source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C474KA88-01A.pdf",
+      "footprint": "Fingerworker:C_0603_1608Metric",
+      "uuid": "23faa93f-7ba4-5cec-a4d3-fcb0d678ac53",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/d1129be9-5e86-5da5-bb3e-64d674d30046"
+    },
+    {
+      "ref": "C9",
+      "value": "4.7 nF",
+      "mpn": "GRM1885C1H472JA01D",
+      "package": "0603; C0G; 5%; >=25 V",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "AIN_P"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 3,
+      "kind": "capacitor",
+      "note": "",
+      "source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H472JA01-01A.pdf",
+      "footprint": "Fingerworker:C_0603_1608Metric",
+      "uuid": "72c0888f-43fb-5e6e-a213-e4bf70872f90",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/d1129be9-5e86-5da5-bb3e-64d674d30046"
+    },
+    {
+      "ref": "C10",
+      "value": "4.7 nF",
+      "mpn": "GRM1885C1H472JA01D",
+      "package": "0603; C0G; 5%; >=25 V",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "AIN_N"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 3,
+      "kind": "capacitor",
+      "note": "",
+      "source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H472JA01-01A.pdf",
+      "footprint": "Fingerworker:C_0603_1608Metric",
+      "uuid": "dc029c53-34d5-5cb3-a9da-1758a171053b",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/d1129be9-5e86-5da5-bb3e-64d674d30046"
+    },
+    {
+      "ref": "R9",
+      "value": "100 R",
+      "mpn": "RC0603FR-07100RL",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "EXC_SENSE_P"
+        },
+        "2": {
+          "name": "2",
+          "net": "REF_P"
+        }
+      },
+      "page": 3,
+      "kind": "resistor",
+      "note": "",
+      "source": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100RL",
+      "footprint": "Fingerworker:R_0603_1608Metric",
+      "uuid": "6f4650ac-3200-5cff-8733-5c48be6112eb",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/d1129be9-5e86-5da5-bb3e-64d674d30046"
+    },
+    {
+      "ref": "R10",
+      "value": "100 R",
+      "mpn": "RC0603FR-07100RL",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "EXC_SENSE_N"
+        },
+        "2": {
+          "name": "2",
+          "net": "REF_N"
+        }
+      },
+      "page": 3,
+      "kind": "resistor",
+      "note": "",
+      "source": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100RL",
+      "footprint": "Fingerworker:R_0603_1608Metric",
+      "uuid": "1fd17ba1-b8f3-5c53-919a-3b1fb78aa9ed",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/d1129be9-5e86-5da5-bb3e-64d674d30046"
+    },
+    {
+      "ref": "C11",
+      "value": "100 nF",
+      "mpn": "GRM188R71C104KA01D",
+      "package": "0603; X7R; >=16 V",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "REF_P"
+        },
+        "2": {
+          "name": "2",
+          "net": "REF_N"
+        }
+      },
+      "page": 3,
+      "kind": "capacitor",
+      "note": "",
+      "source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf",
+      "footprint": "Fingerworker:C_0603_1608Metric",
+      "uuid": "8e234dbd-a77d-5b1b-b346-75533c2a11e8",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/d1129be9-5e86-5da5-bb3e-64d674d30046"
+    },
+    {
+      "ref": "C12",
+      "value": "100 nF",
+      "mpn": "GRM188R71C104KA01D",
+      "package": "0603; X7R; >=16 V; at U4.12",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "V5A"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 3,
+      "kind": "capacitor",
+      "note": "",
+      "source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf",
+      "footprint": "Fingerworker:C_0603_1608Metric",
+      "uuid": "242b8855-b246-5301-be21-bc0c483c8b10",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/d1129be9-5e86-5da5-bb3e-64d674d30046"
+    },
+    {
+      "ref": "C13",
+      "value": "1 uF",
+      "mpn": "GRM188R71C105KA12D",
+      "package": "0603; X7R; >=16 V; at U4.12",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "V5A"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 3,
+      "kind": "capacitor",
+      "note": "",
+      "source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C105KA12-01.pdf",
+      "footprint": "Fingerworker:C_0603_1608Metric",
+      "uuid": "6addf6bd-7568-50f3-8741-97a886cb348e",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/d1129be9-5e86-5da5-bb3e-64d674d30046"
+    },
+    {
+      "ref": "C14",
+      "value": "100 nF",
+      "mpn": "GRM188R71C104KA01D",
+      "package": "0603; X7R; >=16 V; at U4.13",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "V3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 3,
+      "kind": "capacitor",
+      "note": "",
+      "source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf",
+      "footprint": "Fingerworker:C_0603_1608Metric",
+      "uuid": "033de669-dca8-56c5-b017-4ffb7ce9ee4f",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/d1129be9-5e86-5da5-bb3e-64d674d30046"
+    },
+    {
+      "ref": "R11",
+      "value": "33 R",
+      "mpn": "RC0603FR-0733RL",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "SPI_SCK_MCU"
+        },
+        "2": {
+          "name": "2",
+          "net": "SPI_SCK_ADC"
+        }
+      },
+      "page": 3,
+      "kind": "resistor",
+      "note": "",
+      "source": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0733RL",
+      "footprint": "Fingerworker:R_0603_1608Metric",
+      "uuid": "eb289c8a-16a2-56e5-ba4c-121615f11010",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/d1129be9-5e86-5da5-bb3e-64d674d30046"
+    },
+    {
+      "ref": "R12",
+      "value": "33 R",
+      "mpn": "RC0603FR-0733RL",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "SPI_MOSI_MCU"
+        },
+        "2": {
+          "name": "2",
+          "net": "SPI_MOSI_ADC"
+        }
+      },
+      "page": 3,
+      "kind": "resistor",
+      "note": "",
+      "source": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0733RL",
+      "footprint": "Fingerworker:R_0603_1608Metric",
+      "uuid": "c00443c2-ce26-5d93-8547-2ce1b469558c",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/d1129be9-5e86-5da5-bb3e-64d674d30046"
+    },
+    {
+      "ref": "R13",
+      "value": "33 R",
+      "mpn": "RC0603FR-0733RL",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "ADC_CS_MCU"
+        },
+        "2": {
+          "name": "2",
+          "net": "ADC_CS_N"
+        }
+      },
+      "page": 3,
+      "kind": "resistor",
+      "note": "",
+      "source": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0733RL",
+      "footprint": "Fingerworker:R_0603_1608Metric",
+      "uuid": "9c7e1b27-1934-53c2-98ba-3eb5acb14ae8",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/d1129be9-5e86-5da5-bb3e-64d674d30046"
+    },
+    {
+      "ref": "R14",
+      "value": "47 k",
+      "mpn": "RC0603FR-0747KL",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "V3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "ADC_CS_N"
+        }
+      },
+      "page": 3,
+      "kind": "resistor",
+      "note": "",
+      "source": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0747KL",
+      "footprint": "Fingerworker:R_0603_1608Metric",
+      "uuid": "3c6a475b-f0d4-56ab-b32f-26ce2efdab89",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/d1129be9-5e86-5da5-bb3e-64d674d30046"
+    },
+    {
+      "ref": "R15",
+      "value": "100 k",
+      "mpn": "RC0603FR-07100KL",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "SPI_SCK_ADC"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 3,
+      "kind": "resistor",
+      "note": "",
+      "source": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL",
+      "footprint": "Fingerworker:R_0603_1608Metric",
+      "uuid": "c71adff5-da83-50e9-9042-86f1ebe678f9",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/d1129be9-5e86-5da5-bb3e-64d674d30046"
+    },
+    {
+      "ref": "R16",
+      "value": "100 k",
+      "mpn": "RC0603FR-07100KL",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "SPI_MOSI_ADC"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 3,
+      "kind": "resistor",
+      "note": "",
+      "source": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL",
+      "footprint": "Fingerworker:R_0603_1608Metric",
+      "uuid": "aabd5fb3-a810-5d1b-b32b-cbb209546d53",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/d1129be9-5e86-5da5-bb3e-64d674d30046"
+    },
+    {
+      "ref": "J3",
+      "value": "END_2",
+      "mpn": "2 labelled solder pads",
+      "package": "PCB pads + printed strain relief",
+      "pins": {
+        "1": {
+          "name": "NC",
+          "net": "END_CONTACT"
+        },
+        "2": {
+          "name": "COM",
+          "net": "GND"
+        }
+      },
+      "page": 4,
+      "kind": "connector",
+      "note": "",
+      "source": "",
+      "footprint": "Fingerworker:SolderWire_2x2mm_P2.54",
+      "uuid": "627ce780-8d68-549d-9498-1b2bf17a5ef0",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/a476cc04-7ee4-5020-bb06-40655657227f"
+    },
+    {
+      "ref": "SW1",
+      "value": "Existing end switch",
+      "mpn": "SS-01GL2",
+      "package": "OFF BOARD / solder terminals",
+      "pins": {
+        "NC": {
+          "name": "NC",
+          "net": "END_CONTACT"
+        },
+        "COM": {
+          "name": "COM",
+          "net": "GND"
+        },
+        "NO": {
+          "name": "NO",
+          "net": null
+        }
+      },
+      "page": 4,
+      "kind": "external",
+      "note": "",
+      "source": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-ss.pdf",
+      "uuid": "573e5a9a-7531-5e5b-984a-30f3bcb34d41",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/a476cc04-7ee4-5020-bb06-40655657227f"
+    },
+    {
+      "ref": "Q1",
+      "value": "2N7002",
+      "mpn": "2N7002,215",
+      "package": "Nexperia SOT-23",
+      "pins": {
+        "1": {
+          "name": "G",
+          "net": "END_GATE"
+        },
+        "2": {
+          "name": "S",
+          "net": "GND"
+        },
+        "3": {
+          "name": "D",
+          "net": "ENDSTOP_N"
+        }
+      },
+      "page": 4,
+      "kind": "ic",
+      "note": "",
+      "source": "https://assets.nexperia.com/documents/data-sheet/2N7002.pdf",
+      "footprint": "Fingerworker:SOT-23",
+      "uuid": "8d0050ad-4a5e-5901-bc03-bd4d98fd653c",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/a476cc04-7ee4-5020-bb06-40655657227f"
+    },
+    {
+      "ref": "R17",
+      "value": "4.7 k",
+      "mpn": "RC0603FR-074K7L",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "V5A"
+        },
+        "2": {
+          "name": "2",
+          "net": "END_CONTACT"
+        }
+      },
+      "page": 4,
+      "kind": "resistor",
+      "note": "",
+      "source": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-074K7L",
+      "footprint": "Fingerworker:R_0603_1608Metric",
+      "uuid": "5d03490a-ad40-5362-9562-43cb9c87f6ef",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/a476cc04-7ee4-5020-bb06-40655657227f"
+    },
+    {
+      "ref": "R18",
+      "value": "1 k",
+      "mpn": "RC0603FR-071KL",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "END_CONTACT"
+        },
+        "2": {
+          "name": "2",
+          "net": "END_GATE"
+        }
+      },
+      "page": 4,
+      "kind": "resistor",
+      "note": "",
+      "source": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-071KL",
+      "footprint": "Fingerworker:R_0603_1608Metric",
+      "uuid": "488696ab-2117-52b6-94f5-d6baee5af9ba",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/a476cc04-7ee4-5020-bb06-40655657227f"
+    },
+    {
+      "ref": "C15",
+      "value": "100 nF",
+      "mpn": "GRM188R71C104KA01D",
+      "package": "0603; X7R; >=16 V",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "END_GATE"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 4,
+      "kind": "capacitor",
+      "note": "",
+      "source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf",
+      "footprint": "Fingerworker:C_0603_1608Metric",
+      "uuid": "e42ae72c-76a8-5365-b1ec-adc6f1e43fbf",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/a476cc04-7ee4-5020-bb06-40655657227f"
+    },
+    {
+      "ref": "R19",
+      "value": "47 k",
+      "mpn": "RC0603FR-0747KL",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "V3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "ENDSTOP_N"
+        }
+      },
+      "page": 4,
+      "kind": "resistor",
+      "note": "",
+      "source": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0747KL",
+      "footprint": "Fingerworker:R_0603_1608Metric",
+      "uuid": "0e9ff457-5e83-5322-89d8-21630ea7c6a4",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/a476cc04-7ee4-5020-bb06-40655657227f"
+    },
+    {
+      "ref": "SW2",
+      "value": "EVQPUC02K",
+      "mpn": "EVQPUC02K",
+      "package": "4.7 x 4.5 x 1.65 mm; side push",
+      "pins": {
+        "1": {
+          "name": "contact A",
+          "net": "BUTTON_RAW"
+        },
+        "2": {
+          "name": "contact B",
+          "net": "GND"
+        }
+      },
+      "page": 4,
+      "kind": "switch",
+      "note": "Functional contact IDs; physical duplicate contacts and shell mapping to follow official footprint.",
+      "source": "https://industry.panasonic.com/global/en/products/control/switch/light-touch/number/evqpuc02k",
+      "footprint": "Fingerworker:Panasonic_EVQPUL_EVQPUC",
+      "uuid": "94c254e1-4869-5a65-823c-90c19ef6d9a0",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/a476cc04-7ee4-5020-bb06-40655657227f"
+    },
+    {
+      "ref": "R20",
+      "value": "100 k",
+      "mpn": "RC0603FR-07100KL",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "V3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "BUTTON_N"
+        }
+      },
+      "page": 4,
+      "kind": "resistor",
+      "note": "",
+      "source": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL",
+      "footprint": "Fingerworker:R_0603_1608Metric",
+      "uuid": "1171f471-8f7d-5122-b310-0883c4dc83db",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/a476cc04-7ee4-5020-bb06-40655657227f"
+    },
+    {
+      "ref": "R21",
+      "value": "1 k",
+      "mpn": "RC0603FR-071KL",
+      "package": "0603; 1%; 0.1 W",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "BUTTON_RAW"
+        },
+        "2": {
+          "name": "2",
+          "net": "BUTTON_N"
+        }
+      },
+      "page": 4,
+      "kind": "resistor",
+      "note": "",
+      "source": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-071KL",
+      "footprint": "Fingerworker:R_0603_1608Metric",
+      "uuid": "463729f5-cc24-5be6-b591-b2279c2e3c1e",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/a476cc04-7ee4-5020-bb06-40655657227f"
+    },
+    {
+      "ref": "C16",
+      "value": "100 nF",
+      "mpn": "GRM188R71C104KA01D",
+      "package": "0603; X7R; >=16 V",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "BUTTON_N"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      },
+      "page": 4,
+      "kind": "capacitor",
+      "note": "",
+      "source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf",
+      "footprint": "Fingerworker:C_0603_1608Metric",
+      "uuid": "4516d2ce-3a0e-5428-8b85-e121418c0040",
+      "sheetpath": "/a94f1553-d4fa-5e8d-b685-21dd4e8d919b/a476cc04-7ee4-5020-bb06-40655657227f"
+    }
+  ],
+  "board_mm": [
+    19.5,
+    68.5,
+    0.8
+  ],
+  "status": "A-P1 prototype fabrication issue; first-article hardware tests pending",
+  "copper_layers": 4
+}

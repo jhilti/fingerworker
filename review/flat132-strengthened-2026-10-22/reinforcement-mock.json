@@ -1,0 +1,846 @@
+{
+  "status": "LOCAL_MESH_HYPOTHESIS_ONLY",
+  "source_sha256": "041056629440056626b2f2f88a0db216693e48fff178687174478cb1f34227ef",
+  "proposal_sha256": "64b844211e5e562e5350327e8f9b6902fd8cb77e152984461e4020b42a2d451d",
+  "added_volume_mm3": 4471.23616381331,
+  "removed_P01_volume_mm3": 65.07002382230631,
+  "connected_count": 1,
+  "checks": [
+    {
+      "ref": "P070b",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "P05",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.5
+    },
+    {
+      "ref": "P05",
+      "preload_mm": 0.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.5
+    },
+    {
+      "ref": "P05",
+      "preload_mm": 1,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.7071067811865476
+    },
+    {
+      "ref": "P05",
+      "preload_mm": 1.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 1.118033988749895
+    },
+    {
+      "ref": "P05",
+      "preload_mm": 2,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 1.5811388300841898
+    },
+    {
+      "ref": "P070a",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H171",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.10000000000000142
+    },
+    {
+      "ref": "H170",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.10000000000000142
+    },
+    {
+      "ref": "P10",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "P04",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H160",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.19995145299634542
+    },
+    {
+      "ref": "H161",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.19995145299634542
+    },
+    {
+      "ref": "P071a",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "P03",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 1.0002029419011003
+    },
+    {
+      "ref": "P071b",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "P02",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.5
+    },
+    {
+      "ref": "H071",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H13",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.20000076293945312
+    },
+    {
+      "ref": "H13",
+      "preload_mm": 0.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.7000007629394531
+    },
+    {
+      "ref": "H13",
+      "preload_mm": 1,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 1.0
+    },
+    {
+      "ref": "H13",
+      "preload_mm": 1.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 1.0
+    },
+    {
+      "ref": "H13",
+      "preload_mm": 2,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 1.0
+    },
+    {
+      "ref": "H12",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.5
+    },
+    {
+      "ref": "H12",
+      "preload_mm": 0.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.5
+    },
+    {
+      "ref": "H12",
+      "preload_mm": 1,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.5
+    },
+    {
+      "ref": "H12",
+      "preload_mm": 1.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.5
+    },
+    {
+      "ref": "H12",
+      "preload_mm": 2,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.5
+    },
+    {
+      "ref": "H070",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H10",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H11",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.1999999999999993
+    },
+    {
+      "ref": "H01",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 1.2638193358685519
+    },
+    {
+      "ref": "H01",
+      "preload_mm": 0.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 1.2638193358685519
+    },
+    {
+      "ref": "H01",
+      "preload_mm": 1,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 1.2638193358685519
+    },
+    {
+      "ref": "H01",
+      "preload_mm": 1.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 1.2638193358685519
+    },
+    {
+      "ref": "H01",
+      "preload_mm": 2,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 1.2638193358685519
+    },
+    {
+      "ref": "H15",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.10000000000000142
+    },
+    {
+      "ref": "H060",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "P061",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H02",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H02",
+      "preload_mm": 0.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H02",
+      "preload_mm": 1,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H02",
+      "preload_mm": 1.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H02",
+      "preload_mm": 2,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "P060",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H061",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H050",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H050",
+      "preload_mm": 0.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H050",
+      "preload_mm": 1,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H050",
+      "preload_mm": 1.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H050",
+      "preload_mm": 2,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H252",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H252",
+      "preload_mm": 0.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H252",
+      "preload_mm": 1,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H252",
+      "preload_mm": 1.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H252",
+      "preload_mm": 2,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H253",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.5
+    },
+    {
+      "ref": "H253",
+      "preload_mm": 0.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.5099018391410345
+    },
+    {
+      "ref": "H253",
+      "preload_mm": 1,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.7810245280110092
+    },
+    {
+      "ref": "H253",
+      "preload_mm": 1.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 1.2083040764436035
+    },
+    {
+      "ref": "H253",
+      "preload_mm": 2,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 1.6763049152662053
+    },
+    {
+      "ref": "H051",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H051",
+      "preload_mm": 0.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H051",
+      "preload_mm": 1,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H051",
+      "preload_mm": 1.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H051",
+      "preload_mm": 2,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H251",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.5
+    },
+    {
+      "ref": "H251",
+      "preload_mm": 0.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.5099018391410345
+    },
+    {
+      "ref": "H251",
+      "preload_mm": 1,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.7810245280110092
+    },
+    {
+      "ref": "H251",
+      "preload_mm": 1.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 1.2083040764436035
+    },
+    {
+      "ref": "H251",
+      "preload_mm": 2,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 1.6763049152662053
+    },
+    {
+      "ref": "H250",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H250",
+      "preload_mm": 0.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H250",
+      "preload_mm": 1,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H250",
+      "preload_mm": 1.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H250",
+      "preload_mm": 2,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H081",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H240",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H240",
+      "preload_mm": 0.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H240",
+      "preload_mm": 1,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H240",
+      "preload_mm": 1.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H240",
+      "preload_mm": 2,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H20",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H20",
+      "preload_mm": 0.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H20",
+      "preload_mm": 1,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H20",
+      "preload_mm": 1.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H20",
+      "preload_mm": 2,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H21",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 2.6469779601696886e-22,
+      "gap_up_to2mm": 0.0
+    },
+    {
+      "ref": "H09",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H241",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H241",
+      "preload_mm": 0.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H241",
+      "preload_mm": 1,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H241",
+      "preload_mm": 1.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H241",
+      "preload_mm": 2,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H080",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H09b",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H041",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H243",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H243",
+      "preload_mm": 0.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H243",
+      "preload_mm": 1,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H243",
+      "preload_mm": 1.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H243",
+      "preload_mm": 2,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H23",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H23",
+      "preload_mm": 0.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H23",
+      "preload_mm": 1,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H23",
+      "preload_mm": 1.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H23",
+      "preload_mm": 2,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H22",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H242",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H242",
+      "preload_mm": 0.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H242",
+      "preload_mm": 1,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H242",
+      "preload_mm": 1.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H242",
+      "preload_mm": 2,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H09a",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H040",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H190",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 1.1595724408973555e-11,
+      "gap_up_to2mm": 0.0
+    },
+    {
+      "ref": "H190",
+      "preload_mm": 0.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.1999999999999993
+    },
+    {
+      "ref": "H190",
+      "preload_mm": 1,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.1999999999999993
+    },
+    {
+      "ref": "H190",
+      "preload_mm": 1.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.1999999999999993
+    },
+    {
+      "ref": "H190",
+      "preload_mm": 2,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 1.907312711984174e-07
+    },
+    {
+      "ref": "H191",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 1.1595835428199567e-11,
+      "gap_up_to2mm": 0.0
+    },
+    {
+      "ref": "H191",
+      "preload_mm": 0.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.1999999999999993
+    },
+    {
+      "ref": "H191",
+      "preload_mm": 1,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.1999999999999993
+    },
+    {
+      "ref": "H191",
+      "preload_mm": 1.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.1999999999999993
+    },
+    {
+      "ref": "H191",
+      "preload_mm": 2,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 1.907312711984174e-07
+    },
+    {
+      "ref": "H030",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "H031",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 2.0
+    },
+    {
+      "ref": "P09",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.8500003814697266
+    },
+    {
+      "ref": "P08",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.8500003814697266
+    },
+    {
+      "ref": "H181",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.4500007629394531
+    },
+    {
+      "ref": "H181",
+      "preload_mm": 0.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.5
+    },
+    {
+      "ref": "H181",
+      "preload_mm": 1,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.5
+    },
+    {
+      "ref": "H181",
+      "preload_mm": 1.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.5
+    },
+    {
+      "ref": "H181",
+      "preload_mm": 2,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.4999907783725728
+    },
+    {
+      "ref": "H180",
+      "preload_mm": 0,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.4500007629394531
+    },
+    {
+      "ref": "H180",
+      "preload_mm": 0.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.5
+    },
+    {
+      "ref": "H180",
+      "preload_mm": 1,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.5
+    },
+    {
+      "ref": "H180",
+      "preload_mm": 1.5,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.5
+    },
+    {
+      "ref": "H180",
+      "preload_mm": 2,
+      "added_material_overlap_mm3": 0.0,
+      "gap_up_to2mm": 0.4999907783725728
+    }
+  ],
+  "interferences": [],
+  "minimum_positive_gap": 0.10000000000000142
+}

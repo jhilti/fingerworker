@@ -1,0 +1,450 @@
+{
+  "status": "PASS_INDEPENDENT_PROFILE_REVIEW",
+  "revision": "R15",
+  "reviewed_at_utc": "2026-11-08T14:12:24.689968+00:00",
+  "failed_checks": 0,
+  "failures": [],
+  "checks": [
+    {
+      "name": "Baseline is the frozen R13 mechanical print profile retained through R14",
+      "status": "PASS"
+    },
+    {
+      "name": "Native global profile differs only in display name",
+      "status": "PASS",
+      "differences": {
+        "print_settings_id": {
+          "R13_profile": "Fingerworker R13 mechanics overnight 0.20mm",
+          "R15": "Fingerworker R15 inboard straps no brim 0.20mm"
+        }
+      }
+    },
+    {
+      "name": "Exported project settings exactly match native embedded settings",
+      "status": "PASS"
+    },
+    {
+      "name": "Every exported profile matches regenerated manifest",
+      "status": "PASS",
+      "output_profiles": {
+        "H2D_machine.json": "3fd6a5f1eba145ba5a1fefe918a188e3540ab8ee4d91a594d45129086981db84",
+        "H2D_process.json": "fdaf8862333629290307ffa9147c5d872d05a4acef2121a7df6021879887dd7a",
+        "project_settings_H2D.json": "80d0569c14ec63146b98b10252ff0d872d3a1a7bc455d1da85036be8bfb0327a",
+        "H2D_PLA.json": "ffed8b58c038a05344bb833158d7ebf1077331c8eb402def63b279545ffc54a0"
+      }
+    },
+    {
+      "name": "Declared global layers, walls, infill, flow and acceleration",
+      "status": "PASS",
+      "expected": {
+        "layer_height": "0.2",
+        "wall_loops": "4",
+        "top_shell_layers": "5",
+        "bottom_shell_layers": "5",
+        "top_shell_thickness": "1",
+        "sparse_infill_density": "20%",
+        "sparse_infill_pattern": "gyroid",
+        "enable_arc_fitting": "0",
+        "filament_max_volumetric_speed": "12",
+        "default_acceleration": "6000",
+        "inner_wall_acceleration": "6000",
+        "outer_wall_acceleration": "1500",
+        "top_surface_acceleration": "1500"
+      },
+      "actual": {
+        "layer_height": "0.2",
+        "wall_loops": "4",
+        "top_shell_layers": "5",
+        "bottom_shell_layers": "5",
+        "top_shell_thickness": "1",
+        "sparse_infill_density": "20%",
+        "sparse_infill_pattern": "gyroid",
+        "enable_arc_fitting": "0",
+        "filament_max_volumetric_speed": [
+          "12",
+          "12",
+          "12"
+        ],
+        "default_acceleration": [
+          "6000",
+          "6000",
+          "6000",
+          "6000",
+          "6000",
+          "6000",
+          "6000"
+        ],
+        "inner_wall_acceleration": [
+          "6000",
+          "6000",
+          "6000",
+          "6000",
+          "6000",
+          "6000",
+          "6000"
+        ],
+        "outer_wall_acceleration": [
+          "1500",
+          "1500",
+          "1500",
+          "1500",
+          "1500",
+          "1500",
+          "1500"
+        ],
+        "top_surface_acceleration": [
+          "1500",
+          "1500",
+          "1500",
+          "1500",
+          "1500",
+          "1500",
+          "1500"
+        ]
+      }
+    },
+    {
+      "name": "Official H2D macro strings preserved exactly",
+      "status": "PASS"
+    },
+    {
+      "name": "Temperature, nozzle and bed settings retained",
+      "status": "PASS"
+    },
+    {
+      "name": "Only intended six printable parts",
+      "status": "PASS",
+      "refs": [
+        "P01",
+        "P04",
+        "P05",
+        "P06",
+        "P11",
+        "Q01"
+      ]
+    },
+    {
+      "name": "All six model brims explicitly disabled",
+      "status": "PASS"
+    },
+    {
+      "name": "Four local solid strap-eye modifiers belong only to P01",
+      "status": "PASS",
+      "modifiers": [
+        {
+          "owner": "P01",
+          "id": "2",
+          "settings": {
+            "name": "Inboard slot X28_Y-57.5 - local100% infill",
+            "matrix": "1 0 0 -13.44999885559082 0 1 0 -59 0 0 1 -14.5 0 0 0 1",
+            "sparse_infill_density": "100%",
+            "sparse_infill_pattern": "zig-zag"
+          }
+        },
+        {
+          "owner": "P01",
+          "id": "3",
+          "settings": {
+            "name": "Inboard slot X28_Y57.5 - local100% infill",
+            "matrix": "1 0 0 -13.44999885559082 0 1 0 59 0 0 1 -14.5 0 0 0 1",
+            "sparse_infill_density": "100%",
+            "sparse_infill_pattern": "zig-zag"
+          }
+        },
+        {
+          "owner": "P01",
+          "id": "4",
+          "settings": {
+            "name": "Inboard slot X65_Y-57.5 - local100% infill",
+            "matrix": "1 0 0 23.550000190734863 0 1 0 -59 0 0 1 -14.5 0 0 0 1",
+            "sparse_infill_density": "100%",
+            "sparse_infill_pattern": "zig-zag"
+          }
+        },
+        {
+          "owner": "P01",
+          "id": "5",
+          "settings": {
+            "name": "Inboard slot X65_Y57.5 - local100% infill",
+            "matrix": "1 0 0 23.550000190734863 0 1 0 59 0 0 1 -14.5 0 0 0 1",
+            "sparse_infill_density": "100%",
+            "sparse_infill_pattern": "zig-zag"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Local solid masks match declared names and density",
+      "status": "PASS",
+      "declared_modifiers": [
+        {
+          "name": "Inboard slot X28_Y-57.5 - local100% infill",
+          "native_bounds_mm": [
+            [
+              9.5,
+              -66,
+              -2
+            ],
+            [
+              46.5,
+              -52,
+              4
+            ]
+          ],
+          "sparse_infill_density": "100%",
+          "sparse_infill_pattern": "zig-zag",
+          "purpose": "Solid inboard slot bearing ligaments; does not add printed geometry"
+        },
+        {
+          "name": "Inboard slot X28_Y57.5 - local100% infill",
+          "native_bounds_mm": [
+            [
+              9.5,
+              52,
+              -2
+            ],
+            [
+              46.5,
+              66,
+              4
+            ]
+          ],
+          "sparse_infill_density": "100%",
+          "sparse_infill_pattern": "zig-zag",
+          "purpose": "Solid inboard slot bearing ligaments; does not add printed geometry"
+        },
+        {
+          "name": "Inboard slot X65_Y-57.5 - local100% infill",
+          "native_bounds_mm": [
+            [
+              46.5,
+              -66,
+              -2
+            ],
+            [
+              83.5,
+              -52,
+              4
+            ]
+          ],
+          "sparse_infill_density": "100%",
+          "sparse_infill_pattern": "zig-zag",
+          "purpose": "Solid inboard slot bearing ligaments; does not add printed geometry"
+        },
+        {
+          "name": "Inboard slot X65_Y57.5 - local100% infill",
+          "native_bounds_mm": [
+            [
+              46.5,
+              52,
+              -2
+            ],
+            [
+              83.5,
+              66,
+              4
+            ]
+          ],
+          "sparse_infill_density": "100%",
+          "sparse_infill_pattern": "zig-zag",
+          "purpose": "Solid inboard slot bearing ligaments; does not add printed geometry"
+        }
+      ]
+    },
+    {
+      "name": "Local solid masks retain approved inboard bounds",
+      "status": "PASS"
+    },
+    {
+      "name": "No ignored object acceleration overrides present",
+      "status": "PASS",
+      "per_object": {
+        "P01": {},
+        "P04": {},
+        "P05": {},
+        "P11": {},
+        "Q01": {},
+        "P06": {}
+      }
+    },
+    {
+      "name": "P01 retained object profile except declared brim removal and P01 label",
+      "status": "PASS",
+      "differences": {
+        "brim_type": [
+          "outer_only",
+          "no_brim"
+        ],
+        "name": [
+          "P01 - SMOOTH CONTINUOUS PALM RAIL AND FRAME - UNLOADED FIT STUDY",
+          "P01 - INTEGRATED NEAR-PALM FRAME WITH INBOARD STRAP SLOTS - PLA ASSEMBLY STUDY"
+        ],
+        "brim_width": [
+          "5",
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "P04 retained object profile except declared brim removal and P01 label",
+      "status": "PASS",
+      "differences": {
+        "brim_type": [
+          "outer_only",
+          "no_brim"
+        ],
+        "brim_width": [
+          "5",
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "P05 retained object profile except declared brim removal and P01 label",
+      "status": "PASS",
+      "differences": {
+        "brim_type": [
+          "outer_only",
+          "no_brim"
+        ],
+        "brim_width": [
+          "5",
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "P11 retained object profile except declared brim removal and P01 label",
+      "status": "PASS",
+      "differences": {
+        "brim_type": [
+          "outer_only",
+          "no_brim"
+        ],
+        "brim_width": [
+          "2",
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "Q01 retained object profile except declared brim removal and P01 label",
+      "status": "PASS",
+      "differences": {
+        "brim_type": [
+          "outer_only",
+          "no_brim"
+        ],
+        "brim_width": [
+          "3",
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "P06 retained object profile except declared brim removal and P01 label",
+      "status": "PASS",
+      "differences": {
+        "brim_width": [
+          "4",
+          "0"
+        ],
+        "brim_type": [
+          "outer_only",
+          "no_brim"
+        ]
+      }
+    },
+    {
+      "name": "P04 retains protected surfaces and removable bed tree supports",
+      "status": "PASS",
+      "expected": {
+        "outer_wall_speed": "60",
+        "top_surface_speed": "40",
+        "support_speed": "60",
+        "support_type": "tree(auto)",
+        "support_style": "tree_slim",
+        "support_on_build_plate_only": "1",
+        "support_top_z_distance": "0.25",
+        "brim_width": "0"
+      }
+    },
+    {
+      "name": "P06 retains protected click-arm speeds and no supports",
+      "status": "PASS",
+      "expected": {
+        "outer_wall_speed": "60",
+        "inner_wall_speed": "100",
+        "top_surface_speed": "40",
+        "enable_support": "0",
+        "brim_width": "0"
+      }
+    },
+    {
+      "name": "P11 remains solid at0.1mm and Q01 remains solid",
+      "status": "PASS"
+    },
+    {
+      "name": "P01 support remains accessible from build plate",
+      "status": "PASS"
+    },
+    {
+      "name": "Current native-project-check.json completed without failure",
+      "status": "PASS"
+    },
+    {
+      "name": "native-project-check.json project hash matches",
+      "status": "PASS"
+    },
+    {
+      "name": "native-project-check.json layout hash matches",
+      "status": "PASS"
+    },
+    {
+      "name": "Current toolpath-check.json completed without failure",
+      "status": "PASS"
+    },
+    {
+      "name": "toolpath-check.json project hash matches",
+      "status": "PASS"
+    },
+    {
+      "name": "toolpath-check.json layout hash matches",
+      "status": "PASS"
+    },
+    {
+      "name": "Current p04-surface-check.json completed without failure",
+      "status": "PASS"
+    },
+    {
+      "name": "p04-surface-check.json layout hash matches",
+      "status": "PASS"
+    },
+    {
+      "name": "native-project-check.json slice hash matches",
+      "status": "PASS"
+    },
+    {
+      "name": "toolpath-check.json slice hash matches",
+      "status": "PASS"
+    },
+    {
+      "name": "p04-surface-check.json slice hash matches",
+      "status": "PASS"
+    }
+  ],
+  "layout_sha256": "15bae7c934c2f575c510262389da0e052d751dec861b9fbdd5b66ccfbd88324e",
+  "CAD_source_sha256": "97e2010cc17d06eb8648cf278b9aae2fd85b6e909bd657b9b216f3b37748665f",
+  "editable_project_sha256": "860843b3df9f988d67db68bae78e30dd8f2d7fc0fbe8e4c810ef78087e17eaa1",
+  "sliced_internal_evidence_sha256": "a121127456c1da2cdb51b6cc53c52e4b02b5afb1a10c52a2cc875619dc414551",
+  "baseline_project_sha256": "6c8d3d766ea78e08310d741d8104fa17f4d0a7ba163688030f10340c743fabe2",
+  "validator_sha256": "8f8c259792ba6dd933f04ffd79c11e5f4419563f2280a4b861e57553d7085dc1",
+  "profile_manifest_sha256": "fa7c9831acbeb2d71b83433b7db53fbb235dbff912d0eef36160e59c85c7ae57",
+  "bound_actual_QA_sha256": {
+    "native-project-check.json": "02b9e3b75fee578bad9d6cc4d108bbd56ef9bb08e0d5f3af535c2ac2c03fb50c",
+    "toolpath-check.json": "1d24cda83a13899ccd5db5805c9fb5f913d91b7c298568705781638e409587aa",
+    "p04-surface-check.json": "43210eb00d0dfdd2a761876ea16a446c02e857a04d0f015eb0f02028f3932624"
+  },
+  "scope": "Independent native profile inspection and exported-profile consistency. Actual extrusion/acceleration/support paths are separately checked in the hash-bound QA reports; this is not a physical surface or strength qualification.",
+  "limits": "Per-object speed metadata is not a blanket claim about actual feature speed. All parts use global internal/default6000 and exterior/top1500 acceleration; P11 actual inner speed is assessed in toolpath QA."
+}

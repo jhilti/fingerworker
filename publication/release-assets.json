@@ -1,0 +1,44 @@
+{
+  "repository": "jhilti/fingerworker",
+  "tag": "v0.20.0-prototype",
+  "current_mechanical_revision": "R20",
+  "printing_setup_changed": false,
+  "assets": [
+    {
+      "name": "Electronics_RevA_Technical_Exports.zip",
+      "bytes": 714042,
+      "sha256": "e497a2a078048e6b7c3802d006a272a600edbc4c5cf9fd8317c2da99d768c4d2",
+      "url": "https://github.com/jhilti/fingerworker/releases/download/v0.20.0-prototype/Electronics_RevA_Technical_Exports.zip"
+    },
+    {
+      "name": "Fingerworker_R20_3D.zip",
+      "bytes": 1367674,
+      "sha256": "806871ba89a0a312c060a7a23cf2fd2cc98bf46877d29acac8e36c94b76a958c",
+      "url": "https://github.com/jhilti/fingerworker/releases/download/v0.20.0-prototype/Fingerworker_R20_3D.zip"
+    },
+    {
+      "name": "Flat132_R20_final_AP214.step",
+      "bytes": 2498398,
+      "sha256": "b6ed578e66a00df5cc84b7e03d785c4235fa89457ac45a54cb75295b0806bec2",
+      "url": "https://github.com/jhilti/fingerworker/releases/download/v0.20.0-prototype/Flat132_R20_final_AP214.step"
+    },
+    {
+      "name": "Flat132_R20_neutral_final.zip",
+      "bytes": 58580146,
+      "sha256": "702d1e2194bd5fc3d1d3d6e260b4ac289ffd66ea0702c957cdb15a33745908c5",
+      "url": "https://github.com/jhilti/fingerworker/releases/download/v0.20.0-prototype/Flat132_R20_neutral_final.zip"
+    },
+    {
+      "name": "Historical_Bambu_Projects_through_R18.zip",
+      "bytes": 39192709,
+      "sha256": "713cc535893cb1c6e2cee749c6d264d5fcd11c6748750be38106f05f49a4bc37",
+      "url": "https://github.com/jhilti/fingerworker/releases/download/v0.20.0-prototype/Historical_Bambu_Projects_through_R18.zip"
+    },
+    {
+      "name": "Historical_Mechanical_Drawings_RevA.zip",
+      "bytes": 1221841,
+      "sha256": "33a13b887a5dae71f67b6753e64d447e85e05f43df087c959bc6b628dc3eb85c",
+      "url": "https://github.com/jhilti/fingerworker/releases/download/v0.20.0-prototype/Historical_Mechanical_Drawings_RevA.zip"
+    }
+  ]
+}

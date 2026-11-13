@@ -1,0 +1,62 @@
+{
+  "status": "PASS_FINAL_NATIVE_R14_PRINT_PIPELINE",
+  "revision": "R14",
+  "date": "2026-11-06",
+  "onshape_version": "05c07284f9a5edf33d05f680",
+  "CAD_source_sha256": "9286d5a51880dc79d1e9a07135e8c905f4022a1ed757801b8430f23f51a04829",
+  "scope": "Near-palm P01 plus four strap eyes for two25mm straps. Six physical pieces on one H2D0.4PLA plate; four local100%Rectilinear density masks (serialized zig-zag). Other5 native meshes and all rigid print placements preserved.",
+  "primary_refs": [
+    "P01",
+    "P04",
+    "P05",
+    "P11",
+    "Q01",
+    "P06"
+  ],
+  "object_count": 6,
+  "modifier_count": 4,
+  "native_project_sha256": "62504e043e33255dd9de14eb83e0b5781f304bf02dd1950de56c2f67519e287c",
+  "sliced_project_sha256": "962ad2e4e30c77bc488cb7eb6635e5c2f1ad5ccb93185fafc085d5389bb25d9c",
+  "layout_sha256": "5a1a4416cadcc2182cdd301965ffe738b909c1e5055679ead31b5a61b7cea8b7",
+  "estimated_seconds": 41544,
+  "estimated_grams": 242.34,
+  "validation": {
+    "native-project-check.json": {
+      "status": "PASS_NATIVE_R14_NEAR_PALM",
+      "sha256": "fe8dd331c57f5796b585c4c2b0726aff075c151387ab2c933150fd8bb5cdce19"
+    },
+    "toolpath-check.json": {
+      "status": "PASS_ACTUAL_R14_NEAR_PALM_TOOLPATHS",
+      "sha256": "8342bfbae0193d6f8fc8a83aa746f3ee56c7bcc8f24ce0630cf07f943dd4cd8b"
+    },
+    "print-feature-check.json": {
+      "status": "PASS_R14_PRINT_FEATURES",
+      "sha256": "d620cf8a88f71770c4bece092a13288d64130953910850c9b2c76c35a23e1e03"
+    },
+    "palm-support-check.json": {
+      "status": "PASS_R14_PALM_SUPPORTS",
+      "sha256": "441cbae94ac5bd914bc9ea66e31759c7425791b8c99a0ba909aafa71161dd69c"
+    },
+    "p04-surface-check.json": {
+      "status": "PASS",
+      "sha256": "70412f1628e23893814f17d9ac6b8292ad92e82046e2599e6df2dce0ed125184"
+    },
+    "cli-diagnostics.json": {
+      "status": "PASS_R14_OFFICIAL_H2D_DIAGNOSTICS",
+      "sha256": "e02292db5eb525668e0caf29a1ada43a6665ec141e908499c8a19643ff6c7c68"
+    },
+    "strap-slot-check.json": {
+      "status": "PASS_R14_STRAP_SLOT_PRINT_PATHS",
+      "sha256": "216aa487163bc33c14eba82958c409e153b8d4409aff6bc26d16f267a9f83a78"
+    },
+    "strap-routing-check.json": {
+      "status": "PASS_NATIVE_R14_STRAP_ROUTING",
+      "sha256": "59378b7c16c0fc7a5197b4b57cc2a1964807c3e8e37bafab48c115b0fed8813d"
+    }
+  },
+  "candidate_evidence_directory": "checkpoints",
+  "baseline_frozen": true,
+  "physical_qualification": false,
+  "no_printer_transmission": true,
+  "GUI_validation": "Not completed: existing unsaved user project preserved; see validation/gui-check.json. Only exported preview images were visually reviewed."
+}

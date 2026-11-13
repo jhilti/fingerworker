@@ -1,0 +1,1976 @@
+{
+  "binding_status": "BOUND_TO_RELEASED_R18",
+  "revision": "R18",
+  "date": "2026-11-13",
+  "purpose": "Display only; no manufacturing geometry or physical collision assertion.",
+  "source": "review/organic-palm-2026-11-13/native/Flat132_R18_neutral_final.zip",
+  "native_zip_sha256": "77c15eed14f8015c5bd67fdb9c2d4e89f479d84c4535468ce027f62f0e0ec0c9",
+  "source_sha256": "345b90327031276f8085e2c225c795946036d7faa4f2ac01b764101b9f4b3dd1",
+  "onshape_version": "13e353d6762b6cc58530122b",
+  "method": "VTK quadric display decimation, positions rounded to 0.01 mm; native STL coordinates retained.",
+  "parts": [
+    {
+      "id": "H01",
+      "group": "buy",
+      "native_member": "Fingerworker MVP - H01 ACTUAL TE FX1901-0001-0200-L manufacturer STEP rev F.stl",
+      "native_stl_sha256": "fe791187db3b12e1867d0a6574e6d9606340dd0251f713ff8a9bb18cbb287a83",
+      "native_triangles": 99600,
+      "display_triangles": 7000,
+      "display_vertices": 4051,
+      "bounds_mm": [
+        [
+          -9.850000381469727,
+          -12.5,
+          5.500133514404297
+        ],
+        [
+          -1.899999976158142,
+          27.0,
+          30.499866485595703
+        ]
+      ]
+    },
+    {
+      "id": "H02",
+      "group": "metal",
+      "native_member": "Fingerworker MVP - H02 Retained steel pusher- dia4 tip x1.9, dia8 shoulder x1, M3 tail x6.5.stl",
+      "native_stl_sha256": "62807ded66d818fd3b677dbaeb87af8e1e28240d3ab0db84032b8af45f0519f0",
+      "native_triangles": 1728,
+      "display_triangles": 1728,
+      "display_vertices": 1730,
+      "bounds_mm": [
+        [
+          -1.899999976158142,
+          -4.0,
+          14.0
+        ],
+        [
+          7.5,
+          4.0,
+          22.0
+        ]
+      ]
+    },
+    {
+      "id": "H030",
+      "group": "buy",
+      "native_member": "Fingerworker MVP - H030 Febrotec 0X-DF2194 14.8-10.8 x 102 mm, 3.307 N-mm - indicative coil.stl",
+      "native_stl_sha256": "d9815c4b494012eba7139a5e8d0e2b4204fca861672d6efd61b9355ad7c09716",
+      "native_triangles": 1102212,
+      "display_triangles": 20000,
+      "display_vertices": 15536,
+      "bounds_mm": [
+        [
+          12.0,
+          -58.39994812011719,
+          10.600049018859863
+        ],
+        [
+          108.0,
+          -43.60004806518555,
+          25.399948120117188
+        ]
+      ]
+    },
+    {
+      "id": "H031",
+      "group": "buy",
+      "native_member": "Fingerworker MVP - H031 Febrotec 0X-DF2194 14.8-10.8 x 102 mm, 3.307 N-mm - indicative coil.stl",
+      "native_stl_sha256": "8eef6f84f9f4abd8e4ba015352205419adaf28b5e717ac7705c42ef2fca94ddd",
+      "native_triangles": 1102212,
+      "display_triangles": 20000,
+      "display_vertices": 15442,
+      "bounds_mm": [
+        [
+          12.0,
+          43.60005187988281,
+          10.600049018859863
+        ],
+        [
+          108.0,
+          58.39994812011719,
+          25.399948120117188
+        ]
+      ]
+    },
+    {
+      "id": "H040",
+      "group": "metal",
+      "native_member": "Fingerworker MVP - H040 Steel guide rod dia 6 x 141 mm.stl",
+      "native_stl_sha256": "ed73c2217009079342531d1dd16e68c206790ab2f2ca3b5e85f41e866079d427",
+      "native_triangles": 576,
+      "display_triangles": 576,
+      "display_vertices": 578,
+      "bounds_mm": [
+        [
+          -16.0,
+          -54.0,
+          15.0
+        ],
+        [
+          125.0,
+          -48.0,
+          21.0
+        ]
+      ]
+    },
+    {
+      "id": "H041",
+      "group": "metal",
+      "native_member": "Fingerworker MVP - H041 Steel guide rod dia 6 x 141 mm.stl",
+      "native_stl_sha256": "c3b51c917e3598d19a26ff32510401be6405293cc25d02f78f5a0891912a6a19",
+      "native_triangles": 576,
+      "display_triangles": 576,
+      "display_vertices": 578,
+      "bounds_mm": [
+        [
+          -16.0,
+          48.0,
+          15.0
+        ],
+        [
+          125.0,
+          54.0,
+          21.0
+        ]
+      ]
+    },
+    {
+      "id": "H050",
+      "group": "metal",
+      "native_member": "Fingerworker MVP - H050 Fixed steel spring seat 22 x 6.6 x 3 mm.stl",
+      "native_stl_sha256": "b335142de9558ebc32d69e693b349c7115ed9b7ffddf7060116af23dd9f49182",
+      "native_triangles": 1152,
+      "display_triangles": 1152,
+      "display_vertices": 1152,
+      "bounds_mm": [
+        [
+          9.0,
+          -62.0,
+          7.0
+        ],
+        [
+          12.0,
+          -40.0,
+          29.0
+        ]
+      ]
+    },
+    {
+      "id": "H051",
+      "group": "metal",
+      "native_member": "Fingerworker MVP - H051 Fixed steel spring seat 22 x 6.6 x 3 mm.stl",
+      "native_stl_sha256": "a65b574f6c37747b5891f418c232ac46bbc6d5c7693bb054d5deafd4f37e803d",
+      "native_triangles": 1152,
+      "display_triangles": 1152,
+      "display_vertices": 1152,
+      "bounds_mm": [
+        [
+          9.0,
+          40.0,
+          7.0
+        ],
+        [
+          12.0,
+          62.0,
+          29.0
+        ]
+      ]
+    },
+    {
+      "id": "H060",
+      "group": "metal",
+      "native_member": "Fingerworker MVP - H060 Moving steel spring seat 22 x 8 x 3 mm.stl",
+      "native_stl_sha256": "686597bee65da152c663343f31bce0d0718a76fc3cd65b8143412afdd536c0f3",
+      "native_triangles": 1152,
+      "display_triangles": 1152,
+      "display_vertices": 1152,
+      "bounds_mm": [
+        [
+          108.0,
+          -62.0,
+          7.0
+        ],
+        [
+          111.0,
+          -40.0,
+          29.0
+        ]
+      ]
+    },
+    {
+      "id": "H061",
+      "group": "metal",
+      "native_member": "Fingerworker MVP - H061 Moving steel spring seat 22 x 8 x 3 mm.stl",
+      "native_stl_sha256": "b4483d3bd44de5d1c718ad600e936d9e97ca0e784f803df9245ef148c17f4e82",
+      "native_triangles": 1152,
+      "display_triangles": 1152,
+      "display_vertices": 1152,
+      "bounds_mm": [
+        [
+          108.0,
+          40.0,
+          7.0
+        ],
+        [
+          111.0,
+          62.0,
+          29.0
+        ]
+      ]
+    },
+    {
+      "id": "H09",
+      "group": "buy",
+      "native_member": "Fingerworker MVP - H09 Omron SS-01GL2 DRAWING REF - solder tabs and conservative lug envelope.stl",
+      "native_stl_sha256": "9e73e39c1ceae512e651288eb634162424bb35012a93d721fce76ff6ece98a45",
+      "native_triangles": 1220,
+      "display_triangles": 1220,
+      "display_vertices": 1248,
+      "bounds_mm": [
+        [
+          14.100000381469727,
+          -16.0,
+          7.5
+        ],
+        [
+          28.200000762939453,
+          3.799999952316284,
+          13.899999618530273
+        ]
+      ]
+    },
+    {
+      "id": "H09a",
+      "group": "buy",
+      "native_member": "Fingerworker MVP - H09a SS-01GL2 approximate lever motion - drawing reference.stl",
+      "native_stl_sha256": "b28ed291cefe3473512cebc6c4c5019a91560ebcd16c3c7215d9e981171e9568",
+      "native_triangles": 576,
+      "display_triangles": 576,
+      "display_vertices": 578,
+      "bounds_mm": [
+        [
+          29.10163688659668,
+          -13.30929946899414,
+          10.25
+        ],
+        [
+          37.798362731933594,
+          2.1455881595611572,
+          11.149999618530273
+        ]
+      ]
+    },
+    {
+      "id": "H09b",
+      "group": "buy",
+      "native_member": "Fingerworker MVP - H09b SS-01GL2 nominal roller - approximate motion.stl",
+      "native_stl_sha256": "30a2dda8df33259f498c80db52dbfacda9f83dc0d7ba250e9f03139583fbebdb",
+      "native_triangles": 576,
+      "display_triangles": 576,
+      "display_vertices": 578,
+      "bounds_mm": [
+        [
+          35.0,
+          -0.46371057629585266,
+          9.100000381469727
+        ],
+        [
+          39.79999923706055,
+          4.336289405822754,
+          12.299999237060547
+        ]
+      ]
+    },
+    {
+      "id": "H10",
+      "group": "metal",
+      "native_member": "Fingerworker MVP - H10 M3 x10 vertical cam-shoe clamp - manual setup.stl",
+      "native_stl_sha256": "37d49b7b9269d78c8f74e5dff8392edc2054728998ba77a852b156346c6048cd",
+      "native_triangles": 1152,
+      "display_triangles": 1152,
+      "display_vertices": 1154,
+      "bounds_mm": [
+        [
+          62.749996185302734,
+          0.75,
+          15.0
+        ],
+        [
+          68.25,
+          6.25,
+          28.0
+        ]
+      ]
+    },
+    {
+      "id": "H12",
+      "group": "metal",
+      "native_member": "Fingerworker MVP - H12 S355 steel planar sensor backing plate 30 x30 x2.15 with locating collar.stl",
+      "native_stl_sha256": "03cf1a4ad0283b1784eca465aadc71ab038ad9d0fd7754fede7656f1608b2d0a",
+      "native_triangles": 4890,
+      "display_triangles": 3500,
+      "display_vertices": 3549,
+      "bounds_mm": [
+        [
+          -15.5,
+          -15.0,
+          3.0
+        ],
+        [
+          -8.65000057220459,
+          15.0,
+          33.0
+        ]
+      ]
+    },
+    {
+      "id": "H180",
+      "group": "metal",
+      "native_member": "Fingerworker MVP - H180 M3 x 8 cassette retention screw.stl",
+      "native_stl_sha256": "16de8ad77dc1ea27ead8a3e014fb9986172a558939244c1bf45f19a93e2345f7",
+      "native_triangles": 1152,
+      "display_triangles": 1152,
+      "display_vertices": 1154,
+      "bounds_mm": [
+        [
+          -15.549999237060547,
+          -24.0,
+          5.75
+        ],
+        [
+          -10.049999237060547,
+          -13.0,
+          11.25
+        ]
+      ]
+    },
+    {
+      "id": "H181",
+      "group": "metal",
+      "native_member": "Fingerworker MVP - H181 M3 x 8 cassette retention screw.stl",
+      "native_stl_sha256": "9f63ada2dc79bb222bce4bf38cf24bbf7ac898039cc37a425700b6654c5442ec",
+      "native_triangles": 1152,
+      "display_triangles": 1152,
+      "display_vertices": 1154,
+      "bounds_mm": [
+        [
+          -15.549999237060547,
+          13.0,
+          5.75
+        ],
+        [
+          -10.049999237060547,
+          24.0,
+          11.25
+        ]
+      ]
+    },
+    {
+      "id": "H190",
+      "group": "metal",
+      "native_member": "Fingerworker MVP - H190 Steel spacer 4 x 3.2 x 6 - fixed cassette retention.stl",
+      "native_stl_sha256": "d9ca4d2b2d0ce8d59e3a2a225209cadecdecc554f3d47b34c65cd427fc77cccb",
+      "native_triangles": 1152,
+      "display_triangles": 1152,
+      "display_vertices": 1152,
+      "bounds_mm": [
+        [
+          -14.800000190734863,
+          -21.0,
+          6.5
+        ],
+        [
+          -10.800000190734863,
+          -15.0,
+          10.5
+        ]
+      ]
+    },
+    {
+      "id": "H191",
+      "group": "metal",
+      "native_member": "Fingerworker MVP - H191 Steel spacer 4 x 3.2 x 6 - fixed cassette retention.stl",
+      "native_stl_sha256": "a0196963403392e05e899fbcc5e4c288fe60c471908b99afdf996a6c88448d51",
+      "native_triangles": 1152,
+      "display_triangles": 1152,
+      "display_vertices": 1152,
+      "bounds_mm": [
+        [
+          -14.800000190734863,
+          15.0,
+          6.5
+        ],
+        [
+          -10.800000190734863,
+          21.0,
+          10.5
+        ]
+      ]
+    },
+    {
+      "id": "H20",
+      "group": "metal",
+      "native_member": "Fingerworker MVP - H20 M3 square nut - retains shouldered force pusher.stl",
+      "native_stl_sha256": "2d2e5d39436a6cae0ea2cb5b6d89be35acd8e1f3d0c131def66010a875642fdd",
+      "native_triangles": 592,
+      "display_triangles": 592,
+      "display_vertices": 600,
+      "bounds_mm": [
+        [
+          5.100000381469727,
+          -2.75,
+          15.25
+        ],
+        [
+          6.900000095367432,
+          2.75,
+          20.75
+        ]
+      ]
+    },
+    {
+      "id": "H23",
+      "group": "metal",
+      "native_member": "Fingerworker MVP - H23 Stainless loose sensor keeper 0.5 mm - 0.5 mm housing gap.stl",
+      "native_stl_sha256": "40f35aea28c9c81b1539d6a314af61abfee9715427b89d36eb5025c4b573faca",
+      "native_triangles": 3344,
+      "display_triangles": 3344,
+      "display_vertices": 3368,
+      "bounds_mm": [
+        [
+          -1.399999976158142,
+          -14.5,
+          3.5
+        ],
+        [
+          -0.8999999761581421,
+          14.5,
+          32.5
+        ]
+      ]
+    },
+    {
+      "id": "H240",
+      "group": "metal",
+      "native_member": "Fingerworker MVP - H240 Steel sensor keeper spacer OD4 ID2.2 x8.45.stl",
+      "native_stl_sha256": "47d548342890142bcb5ebcddf2f8f81d6d57192ee993316a09c4085a3388baa0",
+      "native_triangles": 1152,
+      "display_triangles": 1152,
+      "display_vertices": 1152,
+      "bounds_mm": [
+        [
+          -9.850000381469727,
+          -12.5,
+          5.5
+        ],
+        [
+          -1.399999976158142,
+          -8.5,
+          9.5
+        ]
+      ]
+    },
+    {
+      "id": "H241",
+      "group": "metal",
+      "native_member": "Fingerworker MVP - H241 Steel sensor keeper spacer OD4 ID2.2 x8.45.stl",
+      "native_stl_sha256": "59e999301d79693c6fe5baab742acb2dcc06c0dde4d1129789692352b982b9f0",
+      "native_triangles": 1152,
+      "display_triangles": 1152,
+      "display_vertices": 1152,
+      "bounds_mm": [
+        [
+          -9.850000381469727,
+          -12.5,
+          26.5
+        ],
+        [
+          -1.399999976158142,
+          -8.5,
+          30.5
+        ]
+      ]
+    },
+    {
+      "id": "H242",
+      "group": "metal",
+      "native_member": "Fingerworker MVP - H242 Steel sensor keeper spacer OD4 ID2.2 x8.45.stl",
+      "native_stl_sha256": "12e6358627442c89d7c4464620392160f68366bf94d42300ddd30b3dd19b3343",
+      "native_triangles": 1152,
+      "display_triangles": 1152,
+      "display_vertices": 1152,
+      "bounds_mm": [
+        [
+          -9.850000381469727,
+          8.5,
+          5.5
+        ],
+        [
+          -1.399999976158142,
+          12.5,
+          9.5
+        ]
+      ]
+    },
+    {
+      "id": "H243",
+      "group": "metal",
+      "native_member": "Fingerworker MVP - H243 Steel sensor keeper spacer OD4 ID2.2 x8.45.stl",
+      "native_stl_sha256": "55e39fa4bb88debec70f690f59b21f7690b06083f0ec57fd41b96afc289a68bd",
+      "native_triangles": 1152,
+      "display_triangles": 1152,
+      "display_vertices": 1152,
+      "bounds_mm": [
+        [
+          -9.850000381469727,
+          8.5,
+          26.5
+        ],
+        [
+          -1.399999976158142,
+          12.5,
+          30.5
+        ]
+      ]
+    },
+    {
+      "id": "H250",
+      "group": "metal",
+      "native_member": "Fingerworker MVP - H250 M2 x12 panhead sensor keeper screw - head height max1.6.stl",
+      "native_stl_sha256": "f192f29b27a42bf98543f952e881033057252cf5d9cec44f028c823fb37714af",
+      "native_triangles": 1152,
+      "display_triangles": 1152,
+      "display_vertices": 1154,
+      "bounds_mm": [
+        [
+          -12.90000057220459,
+          -12.5,
+          5.5
+        ],
+        [
+          0.699999988079071,
+          -8.5,
+          9.5
+        ]
+      ]
+    },
+    {
+      "id": "H251",
+      "group": "metal",
+      "native_member": "Fingerworker MVP - H251 M2 x12 panhead sensor keeper screw - head height max1.6.stl",
+      "native_stl_sha256": "6225495e291ee18223b2df5bc71c96768e1fe0532345ae682f590104879e7c62",
+      "native_triangles": 1152,
+      "display_triangles": 1152,
+      "display_vertices": 1154,
+      "bounds_mm": [
+        [
+          -12.90000057220459,
+          -12.5,
+          26.5
+        ],
+        [
+          0.699999988079071,
+          -8.5,
+          30.5
+        ]
+      ]
+    },
+    {
+      "id": "H252",
+      "group": "metal",
+      "native_member": "Fingerworker MVP - H252 M2 x12 panhead sensor keeper screw - head height max1.6.stl",
+      "native_stl_sha256": "6bb32be3a14bcb48e7446c85ec68b713e88608b2682e4db4376e28b109fb4d36",
+      "native_triangles": 1152,
+      "display_triangles": 1152,
+      "display_vertices": 1154,
+      "bounds_mm": [
+        [
+          -12.90000057220459,
+          8.5,
+          5.5
+        ],
+        [
+          0.699999988079071,
+          12.5,
+          9.5
+        ]
+      ]
+    },
+    {
+      "id": "H253",
+      "group": "metal",
+      "native_member": "Fingerworker MVP - H253 M2 x12 panhead sensor keeper screw - head height max1.6.stl",
+      "native_stl_sha256": "70ad37aea0489cf601c705d638dbf212b30f5fd4816130e7e65870b7973e3480",
+      "native_triangles": 1152,
+      "display_triangles": 1152,
+      "display_vertices": 1154,
+      "bounds_mm": [
+        [
+          -12.90000057220459,
+          8.5,
+          26.5
+        ],
+        [
+          0.699999988079071,
+          12.5,
+          30.5
+        ]
+      ]
+    },
+    {
+      "id": "H300a",
+      "group": "metal",
+      "native_member": "Fingerworker MVP - H300a M3x8 rear gate screw - optional fitting-functional securing.stl",
+      "native_stl_sha256": "4d8edfc9cce7cce5dc9eb421be4e39d85e86ec8467fe28a0b13a830ab2eda161",
+      "native_triangles": 1152,
+      "display_triangles": 1152,
+      "display_vertices": 1154,
+      "bounds_mm": [
+        [
+          121.75,
+          -63.249996185302734,
+          2.0
+        ],
+        [
+          127.25,
+          -57.75,
+          13.0
+        ]
+      ]
+    },
+    {
+      "id": "H300b",
+      "group": "metal",
+      "native_member": "Fingerworker MVP - H300b M3x8 rear gate screw - optional fitting-functional securing.stl",
+      "native_stl_sha256": "adb966ca9ba6dcbe9b5258ef358b9f4540e9deec12749df47aaf100c15f19e30",
+      "native_triangles": 1152,
+      "display_triangles": 1152,
+      "display_vertices": 1154,
+      "bounds_mm": [
+        [
+          121.75,
+          -44.25,
+          2.0
+        ],
+        [
+          127.25,
+          -38.75,
+          13.0
+        ]
+      ]
+    },
+    {
+      "id": "H301a",
+      "group": "metal",
+      "native_member": "Fingerworker MVP - H301a M3x8 rear gate screw - optional fitting-functional securing.stl",
+      "native_stl_sha256": "456bdc3f25a978ebf79617c27e1571eb51086366c7b311ab3f0402dbb78017f4",
+      "native_triangles": 1152,
+      "display_triangles": 1152,
+      "display_vertices": 1154,
+      "bounds_mm": [
+        [
+          121.75,
+          38.75,
+          2.0
+        ],
+        [
+          127.25,
+          44.25,
+          13.0
+        ]
+      ]
+    },
+    {
+      "id": "H301b",
+      "group": "metal",
+      "native_member": "Fingerworker MVP - H301b M3x8 rear gate screw - optional fitting-functional securing.stl",
+      "native_stl_sha256": "49a2f33f54f450042389a5517dabdbdfabcea2e8dc75ead5a84e8933bd22520c",
+      "native_triangles": 1152,
+      "display_triangles": 1152,
+      "display_vertices": 1154,
+      "bounds_mm": [
+        [
+          121.75,
+          57.75,
+          2.0
+        ],
+        [
+          127.25,
+          63.249996185302734,
+          13.0
+        ]
+      ]
+    },
+    {
+      "id": "P01",
+      "group": "print",
+      "native_member": "Fingerworker MVP - P01 PRINT STUDY - Flat132 organic palm bolster, side thumb seats, inboard straps.stl",
+      "native_stl_sha256": "be42108fa89941a0f7dbae4df4cec33a9402b8316e8c42922475309060faf554",
+      "native_triangles": 157010,
+      "display_triangles": 14000,
+      "display_vertices": 10654,
+      "bounds_mm": [
+        [
+          -46.10000228881836,
+          -66.20000457763672,
+          -2.0
+        ],
+        [
+          129.0,
+          66.20000457763672,
+          34.5
+        ]
+      ]
+    },
+    {
+      "id": "P04",
+      "group": "print",
+      "native_member": "Fingerworker MVP - P04 PRINT STUDY - Flat132 72 mm clear pocket, radius12 seat reliefs.stl",
+      "native_stl_sha256": "fdb84301af40be4ca84b838ebc1847b18ac0b2854818e3bfe63c1085d6ff0b7c",
+      "native_triangles": 51838,
+      "display_triangles": 11000,
+      "display_vertices": 6831,
+      "bounds_mm": [
+        [
+          60.0,
+          -63.0,
+          5.0
+        ],
+        [
+          119.0,
+          63.0,
+          30.0
+        ]
+      ]
+    },
+    {
+      "id": "P05",
+      "group": "print",
+      "native_member": "Fingerworker MVP - P05 PRINT STUDY - Flat132 reinforced yoke with broad integral sensing stops.stl",
+      "native_stl_sha256": "cb052e7c3406a210ef052b7d52c7ac4d77416327f6fc9614eecc1553d48837d9",
+      "native_triangles": 15564,
+      "display_triangles": 3500,
+      "display_vertices": 3153,
+      "bounds_mm": [
+        [
+          -7.0,
+          -63.0,
+          7.0
+        ],
+        [
+          30.0,
+          63.0,
+          29.0
+        ]
+      ]
+    },
+    {
+      "id": "P06",
+      "group": "print",
+      "native_member": "Fingerworker MVP - P06 PRINT - one-piece fixed rear gate with PLA assembly latches.stl",
+      "native_stl_sha256": "1bc939179f5ebcdc9fb1622f06bb143d9d6ab62051ae5df99fb8f6520fa635ae",
+      "native_triangles": 5900,
+      "display_triangles": 3500,
+      "display_vertices": 3544,
+      "bounds_mm": [
+        [
+          104.80000305175781,
+          -67.5999984741211,
+          4.5
+        ],
+        [
+          129.0,
+          67.5999984741211,
+          28.0
+        ]
+      ]
+    },
+    {
+      "id": "P08",
+      "group": "print",
+      "native_member": "Fingerworker MVP - P08 PRINT - Snap electronics tray, optional M2 mount.stl",
+      "native_stl_sha256": "b27070667186e53c0b8f8f798019d9f366fede90ce6e41fbfc79633d0058ff9e",
+      "native_triangles": 7690,
+      "display_triangles": 3500,
+      "display_vertices": 3667,
+      "bounds_mm": [
+        [
+          -47.099998474121094,
+          -65.5,
+          0.0
+        ],
+        [
+          -23.600000381469727,
+          65.5,
+          16.200000762939453
+        ]
+      ]
+    },
+    {
+      "id": "P09",
+      "group": "print",
+      "native_member": "Fingerworker MVP - P09 PRINT - Snap lid with integral wire clamp.stl",
+      "native_stl_sha256": "296eb851b02ae7f12a7f7f4f5218e5e7571881974583dbf5648ab356c11e0a05",
+      "native_triangles": 2900,
+      "display_triangles": 2900,
+      "display_vertices": 2972,
+      "bounds_mm": [
+        [
+          -48.599998474121094,
+          -55.0,
+          2.1500000953674316
+        ],
+        [
+          -23.600000381469727,
+          55.0,
+          8.899999618530273
+        ]
+      ]
+    },
+    {
+      "id": "P11",
+      "group": "print",
+      "native_member": "Fingerworker MVP - P11 PRINT STUDY - guided switch cam, physical calibration trim only.stl",
+      "native_stl_sha256": "ee81507b31f348ae644d268f5525a825d5eecbd44f580824105b74e3a191d49b",
+      "native_triangles": 598,
+      "display_triangles": 598,
+      "display_vertices": 613,
+      "bounds_mm": [
+        [
+          62.5,
+          -0.699999988079071,
+          9.0
+        ],
+        [
+          68.5,
+          7.699999809265137,
+          19.0
+        ]
+      ]
+    },
+    {
+      "id": "E01",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF E01 - KiCad PCB 19.5 x 68.5 x 0.8.stl",
+      "native_stl_sha256": "2a83d9a58e297b8a3a19349b47b4684abbdfed08eedbdf4d526fbb60d8a426ce",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -44.599998474121094,
+          -53.5,
+          1.2999999523162842
+        ],
+        [
+          -25.100000381469727,
+          15.0,
+          2.0999999046325684
+        ]
+      ]
+    },
+    {
+      "id": "E05",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF E05 - 100mAh LiPo nominal 11.5 x 31 x 3.8.stl",
+      "native_stl_sha256": "5511c0889de690ca4f9e3310adf1e478994484ef10ac2a4c8623f646b5d1c0e8",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -41.25,
+          22.0,
+          1.5
+        ],
+        [
+          -29.75,
+          53.0,
+          5.299999713897705
+        ]
+      ]
+    },
+    {
+      "id": "E06",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF E06 - USB approach clearance.stl",
+      "native_stl_sha256": "7996b59d4c1c16e0fe5afb2321dbc4e66c978d99fde7a8a462f4adfaa2e2ebb2",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -40.75,
+          -74.0,
+          2.4000000953674316
+        ],
+        [
+          -29.75,
+          -54.0,
+          7.300000190734863
+        ]
+      ]
+    },
+    {
+      "id": "E07",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF E07 - battery mating plug and lead allowance.stl",
+      "native_stl_sha256": "1e6bca53349f2c9cdfa6ba6bb71621e9198d166abd15dc02a7ea77d5ac328f57",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -37.099998474121094,
+          14.699999809265137,
+          2.450000047683716
+        ],
+        [
+          -29.100000381469727,
+          20.700000762939453,
+          7.75
+        ]
+      ]
+    },
+    {
+      "id": "E08",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF E08 - side-button actuator travel envelope.stl",
+      "native_stl_sha256": "bc14006f584cacfa18adb95492dc6935767800978380eccceece5e93ff20572b",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -46.5,
+          -7.099999904632568,
+          2.799999952316284
+        ],
+        [
+          -43.79999923706055,
+          -4.099999904632568,
+          5.100000381469727
+        ]
+      ]
+    },
+    {
+      "id": "PCB_C1",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB C1 - courtyard and height envelope.stl",
+      "native_stl_sha256": "abc6beb6ca19ecdb42da48b4083d41e2ce52bd8d7e948579dd04bd1de23dcf97",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -35.845001220703125,
+          -20.524999618530273,
+          2.0999999046325684
+        ],
+        [
+          -32.35499954223633,
+          -18.475000381469727,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_C10",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB C10 - courtyard and height envelope.stl",
+      "native_stl_sha256": "c51456a82998a382c3f92e98602f3801c7627fb554e64ad304f1e61ab4a49ed2",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -36.625,
+          -1.024999976158142,
+          2.0999999046325684
+        ],
+        [
+          -35.07500076293945,
+          2.0250000953674316,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_C11",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB C11 - courtyard and height envelope.stl",
+      "native_stl_sha256": "04d470e191143b9cea4233fecebd7ed23ab609c07e0f90a330a1b9ce7276d819",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -38.375,
+          -1.024999976158142,
+          2.0999999046325684
+        ],
+        [
+          -36.82500076293945,
+          2.0250000953674316,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_C12",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB C12 - courtyard and height envelope.stl",
+      "native_stl_sha256": "b884ef737e4dca53adac5e955d3f1de71f0730f1b1ae7442b102d0f672b8792d",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -30.375,
+          -4.525000095367432,
+          2.0999999046325684
+        ],
+        [
+          -28.825000762939453,
+          -1.475000023841858,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_C13",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB C13 - courtyard and height envelope.stl",
+      "native_stl_sha256": "ed2e9c887b7145afca8d4b4dae3405496c3d3726bb3587434784f6ab937e417d",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -34.625,
+          -9.774999618530273,
+          2.0999999046325684
+        ],
+        [
+          -31.575002670288086,
+          -8.225000381469727,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_C14",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB C14 - courtyard and height envelope.stl",
+      "native_stl_sha256": "47e6ff4f3f6d19ef1f61c3cac82170194b73c19f89ebe72aa0ca48b47c6ade56",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -30.375,
+          -7.724999904632568,
+          2.0999999046325684
+        ],
+        [
+          -28.825000762939453,
+          -4.675000190734863,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_C15",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB C15 - courtyard and height envelope.stl",
+      "native_stl_sha256": "476f0b0d73b0240b7eb9d4d7d3185aec4cada70dbadb87fe6c5a9ec4fdc4ccb2",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -44.375,
+          0.9749999642372131,
+          2.0999999046325684
+        ],
+        [
+          -42.82499694824219,
+          4.025000095367432,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_C16",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB C16 - courtyard and height envelope.stl",
+      "native_stl_sha256": "c9e5889f0956a7310421769ff6cd212cb5a6541f56bdfd2a146e476b97b66ea5",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -38.375,
+          2.2249999046325684,
+          2.0999999046325684
+        ],
+        [
+          -35.32499694824219,
+          3.7750000953674316,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_C2",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB C2 - courtyard and height envelope.stl",
+      "native_stl_sha256": "a13ac5b339417382c14d6b3ff987b838433362bfebccb21a2342347e21089b28",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -28.125,
+          5.974999904632568,
+          2.0999999046325684
+        ],
+        [
+          -26.57499885559082,
+          9.024999618530273,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_C3",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB C3 - courtyard and height envelope.stl",
+      "native_stl_sha256": "437d98dc567999e474f6d91e704dba0ec042fbc0ec927466e05abb8fd9668918",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -39.54499816894531,
+          -19.825000762939453,
+          2.0999999046325684
+        ],
+        [
+          -36.05500030517578,
+          -17.774999618530273,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_C4",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB C4 - courtyard and height envelope.stl",
+      "native_stl_sha256": "c1807d54c4d09c7d7e0e5a05dd01a83de443952ec57eedb5d0895d01e86560af",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -44.09499740600586,
+          -12.524999618530273,
+          2.0999999046325684
+        ],
+        [
+          -40.60499954223633,
+          -10.475000381469727,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_C5",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB C5 - courtyard and height envelope.stl",
+      "native_stl_sha256": "2e0ba9c851396dbd04545887cbce2c6821008ccda3d8b93d4dd6a0794d9df740",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -34.125,
+          -17.024999618530273,
+          2.0999999046325684
+        ],
+        [
+          -32.57500076293945,
+          -13.975000381469727,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_C6",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB C6 - courtyard and height envelope.stl",
+      "native_stl_sha256": "673634e02a282501eb2cacb7520e73dcef9383d5b57e39e752984ce1cb29085d",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -29.875,
+          -10.875,
+          2.0999999046325684
+        ],
+        [
+          -28.325000762939453,
+          -7.825000286102295,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_C7",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB C7 - courtyard and height envelope.stl",
+      "native_stl_sha256": "ca70fe973e4d36d25601fc8ec184c01d3a766d93ce0825d8f20daacb6705816c",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -30.844999313354492,
+          -17.475000381469727,
+          2.0999999046325684
+        ],
+        [
+          -27.354999542236328,
+          -15.425000190734863,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_C8",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB C8 - courtyard and height envelope.stl",
+      "native_stl_sha256": "7d458f87a6da2a4ba27e106e9696bb66eff06e05706a9bfc2bf350845ca51eeb",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -33.125,
+          -1.024999976158142,
+          2.0999999046325684
+        ],
+        [
+          -31.575002670288086,
+          2.0250000953674316,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_C9",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB C9 - courtyard and height envelope.stl",
+      "native_stl_sha256": "2eaf51225f00de873e962b98bf81355b34dc76689b7c5d1b797b1db6d81df19c",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -34.875,
+          -1.024999976158142,
+          2.0999999046325684
+        ],
+        [
+          -33.32500076293945,
+          2.0250000953674316,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_D1",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB D1 - courtyard and height envelope.stl",
+      "native_stl_sha256": "f56240d788c1339880f57a77b5e6fbf2b1e2b748492707df5ffb9e553544edbe",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -44.595001220703125,
+          -15.095000267028809,
+          2.0999999046325684
+        ],
+        [
+          -39.80500030517578,
+          -12.704999923706055,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_J1",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB J1 - courtyard and height envelope.stl",
+      "native_stl_sha256": "ee4a09a560631faa77e7443a7d29502618d5ce4302976817f61de73a95f5ccdc",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -37.744998931884766,
+          4.355000019073486,
+          2.0999999046325684
+        ],
+        [
+          -28.454999923706055,
+          14.645000457763672,
+          7.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_J2",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB J2 - courtyard and height envelope.stl",
+      "native_stl_sha256": "5d69a2ebc825c2d0fcbcf350e9e840222bebd4cf681e7e25f2a7330c7491381f",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -28.145000457763672,
+          -7.144999980926514,
+          2.0999999046325684
+        ],
+        [
+          -25.454999923706055,
+          3.745000123977661,
+          4.400000095367432
+        ]
+      ]
+    },
+    {
+      "id": "PCB_J3",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB J3 - courtyard and height envelope.stl",
+      "native_stl_sha256": "cb472657df5f691468e2d56acb21a83adbf5e4818231c8a9cf9ab23e01a632c8",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -43.94499969482422,
+          6.914999961853027,
+          2.0999999046325684
+        ],
+        [
+          -41.255001068115234,
+          12.085000038146973,
+          4.400000095367432
+        ]
+      ]
+    },
+    {
+      "id": "PCB_L1",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB L1 - courtyard and height envelope.stl",
+      "native_stl_sha256": "87c51680dcbf968e55ab98dd52b47aa59e171d3ad31f7c1a435a725194997e8f",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -43.744998931884766,
+          -19.69500160217285,
+          2.0999999046325684
+        ],
+        [
+          -39.95500183105469,
+          -15.905000686645508,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_Q1",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB Q1 - courtyard and height envelope.stl",
+      "native_stl_sha256": "ff79ec9864d1bbcb6f937fe9d2dd0db2531b749ec5eba87318d3f36188b3c633",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -42.57500076293945,
+          3.255000114440918,
+          2.0999999046325684
+        ],
+        [
+          -38.625,
+          6.744999885559082,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_R1",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB R1 - courtyard and height envelope.stl",
+      "native_stl_sha256": "f8e367d5b4e5fd035f504c0f576bdf0c6fc6ae966f2dafba6d53f0d438aabd6e",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -28.125,
+          9.22499942779541,
+          2.0999999046325684
+        ],
+        [
+          -26.57499885559082,
+          12.27500057220459,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_R10",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB R10 - courtyard and height envelope.stl",
+      "native_stl_sha256": "ef8db0d27c9af7fade7a0f80387e64cbf3bd54aebbf237713f5ab5f2192465c0",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -41.625,
+          1.475000023841858,
+          2.0999999046325684
+        ],
+        [
+          -38.57500076293945,
+          3.0250000953674316,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_R11",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB R11 - courtyard and height envelope.stl",
+      "native_stl_sha256": "877cff76d0c03d2dfeff6424108d591b0832f86067b8821c589ad0a96767f95f",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -38.375,
+          -10.774999618530273,
+          2.0999999046325684
+        ],
+        [
+          -36.82500076293945,
+          -7.724999904632568,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_R12",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB R12 - courtyard and height envelope.stl",
+      "native_stl_sha256": "2b040dd96e18cfab164a35336c21fecf094f24e82b56444689c3ada880116faf",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -34.125,
+          -13.024999618530273,
+          2.0999999046325684
+        ],
+        [
+          -32.57500076293945,
+          -9.975000381469727,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_R13",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB R13 - courtyard and height envelope.stl",
+      "native_stl_sha256": "54617a3858cf65e4276f566e12852c38f6cdca635390c635b035e8d4399834d3",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -28.325000762939453,
+          3.9750001430511475,
+          2.0999999046325684
+        ],
+        [
+          -25.274999618530273,
+          5.525000095367432,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_R14",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB R14 - courtyard and height envelope.stl",
+      "native_stl_sha256": "a4fb9c19414634b73a1aba7ac6652580959110b0fc1d611aff822a01aeddd70b",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -28.125,
+          -10.52500057220459,
+          2.0999999046325684
+        ],
+        [
+          -26.57499885559082,
+          -7.474999904632568,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_R15",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB R15 - courtyard and height envelope.stl",
+      "native_stl_sha256": "853675f95124e663badbfabd8b6efab2fc4f630496b6ffb564e15cd957b37a96",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -32.125,
+          -19.274999618530273,
+          2.0999999046325684
+        ],
+        [
+          -29.075000762939453,
+          -17.725000381469727,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_R16",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB R16 - courtyard and height envelope.stl",
+      "native_stl_sha256": "84ccb63c99bbe1713ea928f8a2e910bc42c6b11af86614d7cd5e93fd36da7177",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -27.125,
+          -14.024999618530273,
+          2.0999999046325684
+        ],
+        [
+          -25.575000762939453,
+          -10.975000381469727,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_R17",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB R17 - courtyard and height envelope.stl",
+      "native_stl_sha256": "7bcfd10b088a02d2f114cdf3ac2e51052d957aff2d182fd3a96640de44afc23d",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -41.125,
+          6.974999904632568,
+          2.0999999046325684
+        ],
+        [
+          -38.07500076293945,
+          8.524999618530273,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_R18",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB R18 - courtyard and height envelope.stl",
+      "native_stl_sha256": "f0b11bf83456cf1cd5f175738d9ca17435bb63acc9f8343bcfa67ccadca49ee6",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -41.125,
+          8.72499942779541,
+          2.0999999046325684
+        ],
+        [
+          -38.07500076293945,
+          10.274999618530273,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_R19",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB R19 - courtyard and height envelope.stl",
+      "native_stl_sha256": "27750aa30371a86d3f285fe1822a06509b9d5ee0b7f8a5dba9b79857cd92fd1b",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -35.125,
+          2.2249999046325684,
+          2.0999999046325684
+        ],
+        [
+          -32.07500076293945,
+          3.7750000953674316,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_R2",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB R2 - courtyard and height envelope.stl",
+      "native_stl_sha256": "e60ac2c16e963076f2ea91dc57db92c1b9f47ddf5d9a1f6440ee0a91c33ea12d",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -31.624998092651367,
+          2.4749999046325684,
+          2.0999999046325684
+        ],
+        [
+          -28.57499885559082,
+          4.025000095367432,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_R20",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB R20 - courtyard and height envelope.stl",
+      "native_stl_sha256": "636e268b621609fc666e4a4f1d79d793a4ed92533e6b1336ec960c8f6c7a03fc",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -41.125,
+          10.475000381469727,
+          2.0999999046325684
+        ],
+        [
+          -38.07500076293945,
+          12.024999618530273,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_R21",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB R21 - courtyard and height envelope.stl",
+      "native_stl_sha256": "eda8bff6e4b177f91c71f2f2e94d295e57f38c2214c6edf81a19bb4b3fb15615",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -42.125,
+          12.225000381469727,
+          2.0999999046325684
+        ],
+        [
+          -39.07499694824219,
+          13.77500057220459,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_R3",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB R3 - courtyard and height envelope.stl",
+      "native_stl_sha256": "f8d2c582ce4be620b1a87d448c58fe13a2f3159f512a5181e87ff153ef652101",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -35.875,
+          -17.024999618530273,
+          2.0999999046325684
+        ],
+        [
+          -34.32500076293945,
+          -13.975000381469727,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_R4",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB R4 - courtyard and height envelope.stl",
+      "native_stl_sha256": "c751dbb2dcd0dac2c615da538f3f91ba1528cb182ae2b760d29b4637d47cf43e",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -35.875,
+          -13.524999618530273,
+          2.0999999046325684
+        ],
+        [
+          -34.32500076293945,
+          -10.475000381469727,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_R5",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB R5 - courtyard and height envelope.stl",
+      "native_stl_sha256": "f50cb0fcd887a5c91c3735db8916392e889fab18e45e6f7bf6fac5cee6d12d14",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -28.875,
+          -19.274999618530273,
+          2.0999999046325684
+        ],
+        [
+          -25.82499885559082,
+          -17.725000381469727,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_R6",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB R6 - courtyard and height envelope.stl",
+      "native_stl_sha256": "345a4bb2b2d13499d42728bcb47013e32e270d3317c2bc9ba397b9bdd8df1358",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -27.125,
+          -17.274999618530273,
+          2.0999999046325684
+        ],
+        [
+          -25.575000762939453,
+          -14.22499942779541,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_R7",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB R7 - courtyard and height envelope.stl",
+      "native_stl_sha256": "c79f1a34d595e7deb7e68415a4631846ee00729948187635ae1031a72b253fc5",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -31.325000762939453,
+          -1.2750000953674316,
+          2.0999999046325684
+        ],
+        [
+          -28.274999618530273,
+          0.2750000059604645,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_R8",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB R8 - courtyard and height envelope.stl",
+      "native_stl_sha256": "700ed6848aa44636ef1d8de0db0cb9cafc5e4c9cae3838a240edc1c9d39ebfec",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -31.325000762939453,
+          0.7249999642372131,
+          2.0999999046325684
+        ],
+        [
+          -28.274999618530273,
+          2.2750000953674316,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_R9",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB R9 - courtyard and height envelope.stl",
+      "native_stl_sha256": "b1e68a93f87ea4689dc59409e51bd4eb45aed7ad9773ef190b5becb0d56f26ea",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -41.625,
+          -0.2750000059604645,
+          2.0999999046325684
+        ],
+        [
+          -38.57500076293945,
+          1.2750000953674316,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_SW2",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB SW2 - courtyard and height envelope.stl",
+      "native_stl_sha256": "0cb4d6fe5e2c8176345b7917d48c60344eabaac679bb486e03b5335117e73d28",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -44.39500045776367,
+          -9.545000076293945,
+          2.0999999046325684
+        ],
+        [
+          -38.80500030517578,
+          -1.6549999713897705,
+          4.599999904632568
+        ]
+      ]
+    },
+    {
+      "id": "PCB_U1",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB U1 - courtyard and height envelope.stl",
+      "native_stl_sha256": "ec923bed32eb414c5e4848bc90957401f36714e8ae4c96fa8737f7898bdfb471",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -43.8125,
+          -53.55399703979492,
+          2.0999999046325684
+        ],
+        [
+          -25.92249870300293,
+          -32.513999938964844,
+          7.099999904632568
+        ]
+      ]
+    },
+    {
+      "id": "PCB_U2",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB U2 - courtyard and height envelope.stl",
+      "native_stl_sha256": "ab2710e20dd32099213645a4b2d3165f97218cbedb2a234add59a26a889da516",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -39.54499816894531,
+          -17.395000457763672,
+          2.0999999046325684
+        ],
+        [
+          -36.05500030517578,
+          -13.204999923706055,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_U3",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB U3 - courtyard and height envelope.stl",
+      "native_stl_sha256": "b4846bf08c3123f72b479ceb93cd87dd2256e9d4c7c508a6b5bbee886f0bae36",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -30.844999313354492,
+          -15.194999694824219,
+          2.0999999046325684
+        ],
+        [
+          -27.354999542236328,
+          -11.005000114440918,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "PCB_U4",
+      "group": "electronics",
+      "native_member": "Fingerworker MVP - REF PCB U4 - courtyard and height envelope.stl",
+      "native_stl_sha256": "bf5cfc951fddc98ae277ed7a3d7a134cc61bd30ba17add264db7fff7bbdd876e",
+      "native_triangles": 12,
+      "display_triangles": 12,
+      "display_vertices": 24,
+      "bounds_mm": [
+        [
+          -38.494998931884766,
+          -7.295000076293945,
+          2.0999999046325684
+        ],
+        [
+          -30.704999923706055,
+          -1.7049999237060547,
+          3.75
+        ]
+      ]
+    }
+  ],
+  "counts": {
+    "print": 7,
+    "metal": 27,
+    "buy": 6,
+    "electronics": 53
+  },
+  "native_triangle_count": 2584430,
+  "display_triangle_count": 123514,
+  "data_sha256": "8fd910c4d2c9bb8622d3c96cd9a9f56e2176c6b40033bcc146fd9daf2b696bad",
+  "packed_bytes": 1021177
+}

@@ -1,0 +1,146 @@
+{
+  "P060": {
+    "Inner wall": {
+      "segments": 6606,
+      "max_segment_mm": 22.796,
+      "total_xy_mm": 12915.684991323715,
+      "min_z_mm": 0.2,
+      "max_z_mm": 7.8
+    },
+    "Outer wall": {
+      "segments": 3823,
+      "max_segment_mm": 23.580000000000005,
+      "total_xy_mm": 6637.448834837347,
+      "min_z_mm": 0.2,
+      "max_z_mm": 8.0
+    },
+    "Bottom surface": {
+      "segments": 117,
+      "max_segment_mm": 27.124616126315974,
+      "total_xy_mm": 857.0222981690019,
+      "min_z_mm": 0.2,
+      "max_z_mm": 0.2
+    },
+    "Internal solid infill": {
+      "segments": 1628,
+      "max_segment_mm": 28.29204943089134,
+      "total_xy_mm": 6540.82550862935,
+      "min_z_mm": 0.4,
+      "max_z_mm": 7.8
+    },
+    "Top surface": {
+      "segments": 246,
+      "max_segment_mm": 27.505039574594335,
+      "total_xy_mm": 2078.2356255909917,
+      "min_z_mm": 0.8,
+      "max_z_mm": 8.0
+    },
+    "Gap infill": {
+      "segments": 38,
+      "max_segment_mm": 0.5726464878090282,
+      "total_xy_mm": 7.997847788206642,
+      "min_z_mm": 0.8,
+      "max_z_mm": 8.0
+    },
+    "Sparse infill": {
+      "segments": 2268,
+      "max_segment_mm": 4.585000000000008,
+      "total_xy_mm": 2403.3180913529404,
+      "min_z_mm": 1.2,
+      "max_z_mm": 7.0
+    },
+    "Floating vertical shell": {
+      "segments": 653,
+      "max_segment_mm": 20.128999999999998,
+      "total_xy_mm": 839.8592877743782,
+      "min_z_mm": 1.4,
+      "max_z_mm": 7.2
+    },
+    "Bridge": {
+      "segments": 495,
+      "max_segment_mm": 11.928199612682551,
+      "total_xy_mm": 1251.4640041297052,
+      "min_z_mm": 1.6,
+      "max_z_mm": 7.4
+    },
+    "Overhang wall": {
+      "segments": 32,
+      "max_segment_mm": 17.590000000000003,
+      "total_xy_mm": 99.59199999999998,
+      "min_z_mm": 5.8,
+      "max_z_mm": 7.4
+    }
+  },
+  "P061": {
+    "Inner wall": {
+      "segments": 6620,
+      "max_segment_mm": 22.795999999999992,
+      "total_xy_mm": 12918.402940648155,
+      "min_z_mm": 0.2,
+      "max_z_mm": 7.8
+    },
+    "Outer wall": {
+      "segments": 3819,
+      "max_segment_mm": 23.58,
+      "total_xy_mm": 6637.453736646384,
+      "min_z_mm": 0.2,
+      "max_z_mm": 8.0
+    },
+    "Bottom surface": {
+      "segments": 117,
+      "max_segment_mm": 27.124616126315974,
+      "total_xy_mm": 857.0222981690018,
+      "min_z_mm": 0.2,
+      "max_z_mm": 0.2
+    },
+    "Internal solid infill": {
+      "segments": 1668,
+      "max_segment_mm": 28.292049430891346,
+      "total_xy_mm": 6576.430693526586,
+      "min_z_mm": 0.4,
+      "max_z_mm": 7.8
+    },
+    "Top surface": {
+      "segments": 246,
+      "max_segment_mm": 27.505039574594345,
+      "total_xy_mm": 2078.22996865932,
+      "min_z_mm": 0.8,
+      "max_z_mm": 8.0
+    },
+    "Gap infill": {
+      "segments": 37,
+      "max_segment_mm": 0.5726464878090282,
+      "total_xy_mm": 8.036331494648369,
+      "min_z_mm": 0.8,
+      "max_z_mm": 8.0
+    },
+    "Sparse infill": {
+      "segments": 2271,
+      "max_segment_mm": 4.585000000000008,
+      "total_xy_mm": 2404.4264597087126,
+      "min_z_mm": 1.2,
+      "max_z_mm": 7.0
+    },
+    "Floating vertical shell": {
+      "segments": 613,
+      "max_segment_mm": 20.12899999999999,
+      "total_xy_mm": 804.0146999607013,
+      "min_z_mm": 1.4,
+      "max_z_mm": 7.2
+    },
+    "Bridge": {
+      "segments": 496,
+      "max_segment_mm": 9.639429858658655,
+      "total_xy_mm": 1246.0755627188446,
+      "min_z_mm": 1.6,
+      "max_z_mm": 7.4
+    },
+    "Overhang wall": {
+      "segments": 32,
+      "max_segment_mm": 17.590000000000003,
+      "total_xy_mm": 99.5919999999999,
+      "min_z_mm": 5.8,
+      "max_z_mm": 7.4
+    }
+  }
+}

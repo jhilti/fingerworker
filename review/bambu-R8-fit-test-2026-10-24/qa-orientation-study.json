@@ -1,0 +1,936 @@
+{
+  "status": "GEOMETRIC_ORIENTATION_REVIEW_NOT_SLICING_OR_STRENGTH_QUALIFICATION",
+  "source_revision": "R8",
+  "source_sha256": "6099df42e341ff9f5c3439709a23107325d10ef922f616bdcda6fa6ef64d41c1",
+  "method": "Native STLs read only; near-horizontal triangle area and planar bottom contact. Overhang area is not an unsupported-area or printability certificate.",
+  "parts": [
+    {
+      "ref": "P01",
+      "native_source": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-palm-cover-2026-10-23/print-mm/P01.stl",
+      "native_stl_sha256": "c9e7682d073f6a78b29d9d3294c77e50f389e375c49393ea84e45e2bdaea2860",
+      "closed_positive": true,
+      "bounds_mm": [
+        [
+          -23.0,
+          -66.0,
+          -2.0
+        ],
+        [
+          129.0,
+          66.0,
+          33.0
+        ]
+      ],
+      "volume_mm3": 137310.68264108684,
+      "proposed_face_down": "Zmin",
+      "six_face_orientation_metrics": [
+        {
+          "face_on_bed": "Xmin",
+          "flat_contact_area_mm2": 59.40000104904175,
+          "elevated_downward_near_horizontal_area_mm2": 3402.199587350617,
+          "print_height_mm": 152.0
+        },
+        {
+          "face_on_bed": "Xmax",
+          "flat_contact_area_mm2": 366.67999298095674,
+          "elevated_downward_near_horizontal_area_mm2": 3116.402909821256,
+          "print_height_mm": 152.0
+        },
+        {
+          "face_on_bed": "Ymin",
+          "flat_contact_area_mm2": 444.0,
+          "elevated_downward_near_horizontal_area_mm2": 2743.498797870121,
+          "print_height_mm": 132.0
+        },
+        {
+          "face_on_bed": "Ymax",
+          "flat_contact_area_mm2": 444.0,
+          "elevated_downward_near_horizontal_area_mm2": 2743.5455078926116,
+          "print_height_mm": 132.0
+        },
+        {
+          "face_on_bed": "Zmin",
+          "flat_contact_area_mm2": 17103.967189718314,
+          "elevated_downward_near_horizontal_area_mm2": 949.8220311884556,
+          "print_height_mm": 35.0
+        },
+        {
+          "face_on_bed": "Zmax",
+          "flat_contact_area_mm2": 490.51886574530977,
+          "elevated_downward_near_horizontal_area_mm2": 17897.1265605039,
+          "print_height_mm": 35.0
+        }
+      ]
+    },
+    {
+      "ref": "P02",
+      "native_source": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-palm-cover-2026-10-23/print-mm/P02.stl",
+      "native_stl_sha256": "5b3fe726b82d7576d691d36992bc4a6e0abc6dfb64660686135d90e6fafba7e7",
+      "closed_positive": true,
+      "bounds_mm": [
+        [
+          -46.10000228881836,
+          -64.0,
+          6.5
+        ],
+        [
+          -9.5,
+          64.0,
+          30.0
+        ]
+      ],
+      "volume_mm3": 26959.728745122266,
+      "proposed_face_down": "Xmax",
+      "six_face_orientation_metrics": [
+        {
+          "face_on_bed": "Xmin",
+          "flat_contact_area_mm2": 186.0,
+          "elevated_downward_near_horizontal_area_mm2": 1524.509208377934,
+          "print_height_mm": 36.60000228881836
+        },
+        {
+          "face_on_bed": "Xmax",
+          "flat_contact_area_mm2": 176.0,
+          "elevated_downward_near_horizontal_area_mm2": 2317.2383506639885,
+          "print_height_mm": 36.60000228881836
+        },
+        {
+          "face_on_bed": "Ymin",
+          "flat_contact_area_mm2": 63.27500343322754,
+          "elevated_downward_near_horizontal_area_mm2": 392.7638961115093,
+          "print_height_mm": 128.0
+        },
+        {
+          "face_on_bed": "Ymax",
+          "flat_contact_area_mm2": 63.27500343322754,
+          "elevated_downward_near_horizontal_area_mm2": 392.7660279671515,
+          "print_height_mm": 128.0
+        },
+        {
+          "face_on_bed": "Zmin",
+          "flat_contact_area_mm2": 234.09902927988514,
+          "elevated_downward_near_horizontal_area_mm2": 2959.362670108814,
+          "print_height_mm": 23.5
+        },
+        {
+          "face_on_bed": "Zmax",
+          "flat_contact_area_mm2": 0.0,
+          "elevated_downward_near_horizontal_area_mm2": 2697.431023685256,
+          "print_height_mm": 23.5
+        }
+      ]
+    },
+    {
+      "ref": "P04",
+      "native_source": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-palm-cover-2026-10-23/print-mm/P04.stl",
+      "native_stl_sha256": "fdb84301af40be4ca84b838ebc1847b18ac0b2854818e3bfe63c1085d6ff0b7c",
+      "closed_positive": true,
+      "bounds_mm": [
+        [
+          60.0,
+          -63.0,
+          5.0
+        ],
+        [
+          119.0,
+          63.0,
+          30.0
+        ]
+      ],
+      "volume_mm3": 76807.9095373969,
+      "proposed_face_down": "Xmax",
+      "six_face_orientation_metrics": [
+        {
+          "face_on_bed": "Xmin",
+          "flat_contact_area_mm2": 1464.9786457633973,
+          "elevated_downward_near_horizontal_area_mm2": 2355.985627481151,
+          "print_height_mm": 59.0
+        },
+        {
+          "face_on_bed": "Xmax",
+          "flat_contact_area_mm2": 2801.74092065264,
+          "elevated_downward_near_horizontal_area_mm2": 1141.8219563975072,
+          "print_height_mm": 59.0
+        },
+        {
+          "face_on_bed": "Ymin",
+          "flat_contact_area_mm2": 182.0,
+          "elevated_downward_near_horizontal_area_mm2": 1844.6349812040262,
+          "print_height_mm": 126.0
+        },
+        {
+          "face_on_bed": "Ymax",
+          "flat_contact_area_mm2": 182.0,
+          "elevated_downward_near_horizontal_area_mm2": 1844.6028325909656,
+          "print_height_mm": 126.0
+        },
+        {
+          "face_on_bed": "Zmin",
+          "flat_contact_area_mm2": 3356.0574577708758,
+          "elevated_downward_near_horizontal_area_mm2": 2205.3296969315393,
+          "print_height_mm": 25.0
+        },
+        {
+          "face_on_bed": "Zmax",
+          "flat_contact_area_mm2": 1645.0592536609652,
+          "elevated_downward_near_horizontal_area_mm2": 2697.248462353513,
+          "print_height_mm": 25.0
+        }
+      ]
+    },
+    {
+      "ref": "P05",
+      "native_source": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-palm-cover-2026-10-23/print-mm/P05.stl",
+      "native_stl_sha256": "708aa073c8b30dab19e3c7700ca2d05ff4264845293c3428a68df1c2ced52966",
+      "closed_positive": true,
+      "bounds_mm": [
+        [
+          -7.0,
+          -63.0,
+          7.0
+        ],
+        [
+          30.0,
+          63.0,
+          29.0
+        ]
+      ],
+      "volume_mm3": 50903.03981247484,
+      "proposed_face_down": "Zmin",
+      "six_face_orientation_metrics": [
+        {
+          "face_on_bed": "Xmin",
+          "flat_contact_area_mm2": 1496.457819929149,
+          "elevated_downward_near_horizontal_area_mm2": 1376.876561554724,
+          "print_height_mm": 37.0
+        },
+        {
+          "face_on_bed": "Xmax",
+          "flat_contact_area_mm2": 616.0,
+          "elevated_downward_near_horizontal_area_mm2": 2257.8455587666067,
+          "print_height_mm": 37.0
+        },
+        {
+          "face_on_bed": "Ymin",
+          "flat_contact_area_mm2": 252.0,
+          "elevated_downward_near_horizontal_area_mm2": 1184.357601386862,
+          "print_height_mm": 126.0
+        },
+        {
+          "face_on_bed": "Ymax",
+          "flat_contact_area_mm2": 252.0,
+          "elevated_downward_near_horizontal_area_mm2": 1184.3564184109632,
+          "print_height_mm": 126.0
+        },
+        {
+          "face_on_bed": "Zmin",
+          "flat_contact_area_mm2": 2214.680021164341,
+          "elevated_downward_near_horizontal_area_mm2": 609.0495563565585,
+          "print_height_mm": 22.0
+        },
+        {
+          "face_on_bed": "Zmax",
+          "flat_contact_area_mm2": 2353.0582262735684,
+          "elevated_downward_near_horizontal_area_mm2": 352.0230505603981,
+          "print_height_mm": 22.0
+        }
+      ]
+    },
+    {
+      "ref": "P060",
+      "native_source": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-palm-cover-2026-10-23/print-mm/P060.stl",
+      "native_stl_sha256": "fb1337d8882240a0e3c49fcdb6e88d8d0fef58940405575e20dc9dcfb7179a0e",
+      "closed_positive": true,
+      "bounds_mm": [
+        [
+          120.5,
+          -65.0,
+          4.5
+        ],
+        [
+          129.5,
+          -37.0,
+          30.5
+        ]
+      ],
+      "volume_mm3": 2995.570545213326,
+      "proposed_face_down": "Zmin",
+      "six_face_orientation_metrics": [
+        {
+          "face_on_bed": "Xmin",
+          "flat_contact_area_mm2": 365.14388133294415,
+          "elevated_downward_near_horizontal_area_mm2": 340.21921091245923,
+          "print_height_mm": 9.0
+        },
+        {
+          "face_on_bed": "Xmax",
+          "flat_contact_area_mm2": 25.33999954223691,
+          "elevated_downward_near_horizontal_area_mm2": 688.3733476434033,
+          "print_height_mm": 9.0
+        },
+        {
+          "face_on_bed": "Ymin",
+          "flat_contact_area_mm2": 188.0,
+          "elevated_downward_near_horizontal_area_mm2": 262.16199453935116,
+          "print_height_mm": 28.0
+        },
+        {
+          "face_on_bed": "Ymax",
+          "flat_contact_area_mm2": 188.0,
+          "elevated_downward_near_horizontal_area_mm2": 262.16193648438025,
+          "print_height_mm": 28.0
+        },
+        {
+          "face_on_bed": "Zmin",
+          "flat_contact_area_mm2": 129.1546911319747,
+          "elevated_downward_near_horizontal_area_mm2": 169.13471828785353,
+          "print_height_mm": 26.0
+        },
+        {
+          "face_on_bed": "Zmax",
+          "flat_contact_area_mm2": 76.84656268723484,
+          "elevated_downward_near_horizontal_area_mm2": 239.50637680165272,
+          "print_height_mm": 26.0
+        }
+      ]
+    },
+    {
+      "ref": "P061",
+      "native_source": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-palm-cover-2026-10-23/print-mm/P061.stl",
+      "native_stl_sha256": "b4517d1c0e1b163d4f0c6e9a42427e5075d584665d532118db72d9408874befa",
+      "closed_positive": true,
+      "bounds_mm": [
+        [
+          120.5,
+          37.0,
+          4.5
+        ],
+        [
+          129.5,
+          65.0,
+          30.5
+        ]
+      ],
+      "volume_mm3": 2995.5705450950577,
+      "proposed_face_down": "Zmin",
+      "six_face_orientation_metrics": [
+        {
+          "face_on_bed": "Xmin",
+          "flat_contact_area_mm2": 365.14388133294415,
+          "elevated_downward_near_horizontal_area_mm2": 340.2192109124592,
+          "print_height_mm": 9.0
+        },
+        {
+          "face_on_bed": "Xmax",
+          "flat_contact_area_mm2": 25.33999954223691,
+          "elevated_downward_near_horizontal_area_mm2": 688.3733476434035,
+          "print_height_mm": 9.0
+        },
+        {
+          "face_on_bed": "Ymin",
+          "flat_contact_area_mm2": 188.0,
+          "elevated_downward_near_horizontal_area_mm2": 262.16193648438025,
+          "print_height_mm": 28.0
+        },
+        {
+          "face_on_bed": "Ymax",
+          "flat_contact_area_mm2": 188.0,
+          "elevated_downward_near_horizontal_area_mm2": 262.16199453935116,
+          "print_height_mm": 28.0
+        },
+        {
+          "face_on_bed": "Zmin",
+          "flat_contact_area_mm2": 129.1546911319747,
+          "elevated_downward_near_horizontal_area_mm2": 169.13471828785353,
+          "print_height_mm": 26.0
+        },
+        {
+          "face_on_bed": "Zmax",
+          "flat_contact_area_mm2": 76.84656268723484,
+          "elevated_downward_near_horizontal_area_mm2": 239.50637680165272,
+          "print_height_mm": 26.0
+        }
+      ]
+    },
+    {
+      "ref": "P070a",
+      "native_source": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-palm-cover-2026-10-23/print-mm/P070a.stl",
+      "native_stl_sha256": "b2043cb95741498d64262f3011a79d3a14eb64934d9a558602a9f71abf42bf74",
+      "closed_positive": true,
+      "bounds_mm": [
+        [
+          119.0,
+          -60.75,
+          14.0
+        ],
+        [
+          120.5,
+          -56.25,
+          20.0
+        ]
+      ],
+      "volume_mm3": 40.5,
+      "proposed_face_down": "Xmin",
+      "six_face_orientation_metrics": [
+        {
+          "face_on_bed": "Xmin",
+          "flat_contact_area_mm2": 27.0,
+          "elevated_downward_near_horizontal_area_mm2": 0.0,
+          "print_height_mm": 1.5
+        },
+        {
+          "face_on_bed": "Xmax",
+          "flat_contact_area_mm2": 27.0,
+          "elevated_downward_near_horizontal_area_mm2": 0.0,
+          "print_height_mm": 1.5
+        },
+        {
+          "face_on_bed": "Ymin",
+          "flat_contact_area_mm2": 9.0,
+          "elevated_downward_near_horizontal_area_mm2": 0.0,
+          "print_height_mm": 4.5
+        },
+        {
+          "face_on_bed": "Ymax",
+          "flat_contact_area_mm2": 9.0,
+          "elevated_downward_near_horizontal_area_mm2": 0.0,
+          "print_height_mm": 4.5
+        },
+        {
+          "face_on_bed": "Zmin",
+          "flat_contact_area_mm2": 6.75,
+          "elevated_downward_near_horizontal_area_mm2": 0.0,
+          "print_height_mm": 6.0
+        },
+        {
+          "face_on_bed": "Zmax",
+          "flat_contact_area_mm2": 6.75,
+          "elevated_downward_near_horizontal_area_mm2": 0.0,
+          "print_height_mm": 6.0
+        }
+      ]
+    },
+    {
+      "ref": "P070b",
+      "native_source": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-palm-cover-2026-10-23/print-mm/P070b.stl",
+      "native_stl_sha256": "c2e968a11b33abb1d58fb03ba6f4ba6ca14a53ecfafa3ef001bf03d2d10b881a",
+      "closed_positive": true,
+      "bounds_mm": [
+        [
+          119.0,
+          -45.75,
+          14.0
+        ],
+        [
+          120.5,
+          -41.25,
+          20.0
+        ]
+      ],
+      "volume_mm3": 40.5,
+      "proposed_face_down": "Xmin",
+      "six_face_orientation_metrics": [
+        {
+          "face_on_bed": "Xmin",
+          "flat_contact_area_mm2": 27.0,
+          "elevated_downward_near_horizontal_area_mm2": 0.0,
+          "print_height_mm": 1.5
+        },
+        {
+          "face_on_bed": "Xmax",
+          "flat_contact_area_mm2": 27.0,
+          "elevated_downward_near_horizontal_area_mm2": 0.0,
+          "print_height_mm": 1.5
+        },
+        {
+          "face_on_bed": "Ymin",
+          "flat_contact_area_mm2": 9.0,
+          "elevated_downward_near_horizontal_area_mm2": 0.0,
+          "print_height_mm": 4.5
+        },
+        {
+          "face_on_bed": "Ymax",
+          "flat_contact_area_mm2": 9.0,
+          "elevated_downward_near_horizontal_area_mm2": 0.0,
+          "print_height_mm": 4.5
+        },
+        {
+          "face_on_bed": "Zmin",
+          "flat_contact_area_mm2": 6.75,
+          "elevated_downward_near_horizontal_area_mm2": 0.0,
+          "print_height_mm": 6.0
+        },
+        {
+          "face_on_bed": "Zmax",
+          "flat_contact_area_mm2": 6.75,
+          "elevated_downward_near_horizontal_area_mm2": 0.0,
+          "print_height_mm": 6.0
+        }
+      ]
+    },
+    {
+      "ref": "P071a",
+      "native_source": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-palm-cover-2026-10-23/print-mm/P071a.stl",
+      "native_stl_sha256": "4cacdcfcc514e130026a3c5b37d03bb89e0f53cb780d221184c31b71bb5757f7",
+      "closed_positive": true,
+      "bounds_mm": [
+        [
+          119.0,
+          41.25,
+          14.0
+        ],
+        [
+          120.5,
+          45.75,
+          20.0
+        ]
+      ],
+      "volume_mm3": 40.5,
+      "proposed_face_down": "Xmin",
+      "six_face_orientation_metrics": [
+        {
+          "face_on_bed": "Xmin",
+          "flat_contact_area_mm2": 27.0,
+          "elevated_downward_near_horizontal_area_mm2": 0.0,
+          "print_height_mm": 1.5
+        },
+        {
+          "face_on_bed": "Xmax",
+          "flat_contact_area_mm2": 27.0,
+          "elevated_downward_near_horizontal_area_mm2": 0.0,
+          "print_height_mm": 1.5
+        },
+        {
+          "face_on_bed": "Ymin",
+          "flat_contact_area_mm2": 9.0,
+          "elevated_downward_near_horizontal_area_mm2": 0.0,
+          "print_height_mm": 4.5
+        },
+        {
+          "face_on_bed": "Ymax",
+          "flat_contact_area_mm2": 9.0,
+          "elevated_downward_near_horizontal_area_mm2": 0.0,
+          "print_height_mm": 4.5
+        },
+        {
+          "face_on_bed": "Zmin",
+          "flat_contact_area_mm2": 6.75,
+          "elevated_downward_near_horizontal_area_mm2": 0.0,
+          "print_height_mm": 6.0
+        },
+        {
+          "face_on_bed": "Zmax",
+          "flat_contact_area_mm2": 6.75,
+          "elevated_downward_near_horizontal_area_mm2": 0.0,
+          "print_height_mm": 6.0
+        }
+      ]
+    },
+    {
+      "ref": "P071b",
+      "native_source": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-palm-cover-2026-10-23/print-mm/P071b.stl",
+      "native_stl_sha256": "50aa9ad8ee8fb500dc0e13b1ab8dd333ccaeab6f0fa7fe7625ba79d21ae3c29d",
+      "closed_positive": true,
+      "bounds_mm": [
+        [
+          119.0,
+          56.25,
+          14.0
+        ],
+        [
+          120.5,
+          60.75,
+          20.0
+        ]
+      ],
+      "volume_mm3": 40.5,
+      "proposed_face_down": "Xmin",
+      "six_face_orientation_metrics": [
+        {
+          "face_on_bed": "Xmin",
+          "flat_contact_area_mm2": 27.0,
+          "elevated_downward_near_horizontal_area_mm2": 0.0,
+          "print_height_mm": 1.5
+        },
+        {
+          "face_on_bed": "Xmax",
+          "flat_contact_area_mm2": 27.0,
+          "elevated_downward_near_horizontal_area_mm2": 0.0,
+          "print_height_mm": 1.5
+        },
+        {
+          "face_on_bed": "Ymin",
+          "flat_contact_area_mm2": 9.0,
+          "elevated_downward_near_horizontal_area_mm2": 0.0,
+          "print_height_mm": 4.5
+        },
+        {
+          "face_on_bed": "Ymax",
+          "flat_contact_area_mm2": 9.0,
+          "elevated_downward_near_horizontal_area_mm2": 0.0,
+          "print_height_mm": 4.5
+        },
+        {
+          "face_on_bed": "Zmin",
+          "flat_contact_area_mm2": 6.75,
+          "elevated_downward_near_horizontal_area_mm2": 0.0,
+          "print_height_mm": 6.0
+        },
+        {
+          "face_on_bed": "Zmax",
+          "flat_contact_area_mm2": 6.75,
+          "elevated_downward_near_horizontal_area_mm2": 0.0,
+          "print_height_mm": 6.0
+        }
+      ]
+    },
+    {
+      "ref": "P08",
+      "native_source": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-palm-cover-2026-10-23/print-mm/P08.stl",
+      "native_stl_sha256": "11f47952a86814ce1c6a80ad25edde546f99b8664a610e397851ec8ae9fe8b2a",
+      "closed_positive": true,
+      "bounds_mm": [
+        [
+          -46.10000228881836,
+          -62.0,
+          0.0
+        ],
+        [
+          -23.600000381469727,
+          62.0,
+          9.5
+        ]
+      ],
+      "volume_mm3": 4753.499367571644,
+      "proposed_face_down": "Zmin",
+      "six_face_orientation_metrics": [
+        {
+          "face_on_bed": "Xmin",
+          "flat_contact_area_mm2": 867.8000398159027,
+          "elevated_downward_near_horizontal_area_mm2": 934.0114750330392,
+          "print_height_mm": 22.500001907348633
+        },
+        {
+          "face_on_bed": "Xmax",
+          "flat_contact_area_mm2": 862.4000444412231,
+          "elevated_downward_near_horizontal_area_mm2": 941.4428241797297,
+          "print_height_mm": 22.500001907348633
+        },
+        {
+          "face_on_bed": "Ymin",
+          "flat_contact_area_mm2": 9.499998092651367,
+          "elevated_downward_near_horizontal_area_mm2": 356.63035753578333,
+          "print_height_mm": 124.0
+        },
+        {
+          "face_on_bed": "Ymax",
+          "flat_contact_area_mm2": 9.499998092651367,
+          "elevated_downward_near_horizontal_area_mm2": 356.63035794427714,
+          "print_height_mm": 124.0
+        },
+        {
+          "face_on_bed": "Zmin",
+          "flat_contact_area_mm2": 2475.0002098083496,
+          "elevated_downward_near_horizontal_area_mm2": 96.39976277650021,
+          "print_height_mm": 9.5
+        },
+        {
+          "face_on_bed": "Zmax",
+          "flat_contact_area_mm2": 20.09981002155837,
+          "elevated_downward_near_horizontal_area_mm2": 2551.300136627726,
+          "print_height_mm": 9.5
+        }
+      ]
+    },
+    {
+      "ref": "P09",
+      "native_source": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-palm-cover-2026-10-23/print-mm/P09.stl",
+      "native_stl_sha256": "2b809ab1f7cc350b96862cfd7d4878ac1907bda7cf793f78aa0e445e7264084a",
+      "closed_positive": true,
+      "bounds_mm": [
+        [
+          -46.10000228881836,
+          -55.0,
+          2.1500000953674316
+        ],
+        [
+          -23.600000381469727,
+          55.0,
+          8.899999618530273
+        ]
+      ],
+      "volume_mm3": 2247.059968094918,
+      "proposed_face_down": "Zmax",
+      "six_face_orientation_metrics": [
+        {
+          "face_on_bed": "Xmin",
+          "flat_contact_area_mm2": 87.99991607666016,
+          "elevated_downward_near_horizontal_area_mm2": 18.631198770711848,
+          "print_height_mm": 22.500001907348633
+        },
+        {
+          "face_on_bed": "Xmax",
+          "flat_contact_area_mm2": 87.99991607666016,
+          "elevated_downward_near_horizontal_area_mm2": 18.63119970497628,
+          "print_height_mm": 22.500001907348633
+        },
+        {
+          "face_on_bed": "Ymin",
+          "flat_contact_area_mm2": 13.839987716673932,
+          "elevated_downward_near_horizontal_area_mm2": 138.65619785210106,
+          "print_height_mm": 110.0
+        },
+        {
+          "face_on_bed": "Ymax",
+          "flat_contact_area_mm2": 13.839987716673932,
+          "elevated_downward_near_horizontal_area_mm2": 138.6561968521065,
+          "print_height_mm": 110.0
+        },
+        {
+          "face_on_bed": "Zmin",
+          "flat_contact_area_mm2": 38.999996185302734,
+          "elevated_downward_near_horizontal_area_mm2": 2416.9285797400407,
+          "print_height_mm": 6.749999523162842
+        },
+        {
+          "face_on_bed": "Zmax",
+          "flat_contact_area_mm2": 2442.3612009633507,
+          "elevated_downward_near_horizontal_area_mm2": 0.0,
+          "print_height_mm": 6.749999523162842
+        }
+      ]
+    },
+    {
+      "ref": "P10",
+      "native_source": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-palm-cover-2026-10-23/print-mm/P10.stl",
+      "native_stl_sha256": "8ee66bba498b46d593a8d9c00581582cd76b35677312eb81d427f808df8b08d8",
+      "closed_positive": true,
+      "bounds_mm": [
+        [
+          -28.100000381469727,
+          22.399999618530273,
+          3.4000000953674316
+        ],
+        [
+          -24.899999618530273,
+          32.60000228881836,
+          4.400000095367432
+        ]
+      ],
+      "volume_mm3": 27.552252488570957,
+      "proposed_face_down": "Zmin",
+      "six_face_orientation_metrics": [
+        {
+          "face_on_bed": "Xmin",
+          "flat_contact_area_mm2": 10.200002670288086,
+          "elevated_downward_near_horizontal_area_mm2": 1.5706686353199513,
+          "print_height_mm": 3.200000762939453
+        },
+        {
+          "face_on_bed": "Xmax",
+          "flat_contact_area_mm2": 10.200002670288086,
+          "elevated_downward_near_horizontal_area_mm2": 1.5706708944907375,
+          "print_height_mm": 3.200000762939453
+        },
+        {
+          "face_on_bed": "Ymin",
+          "flat_contact_area_mm2": 3.200000762939453,
+          "elevated_downward_near_horizontal_area_mm2": 1.5706681759372023,
+          "print_height_mm": 10.200002670288086
+        },
+        {
+          "face_on_bed": "Ymax",
+          "flat_contact_area_mm2": 3.200000762939453,
+          "elevated_downward_near_horizontal_area_mm2": 1.5706699544855383,
+          "print_height_mm": 10.200002670288086
+        },
+        {
+          "face_on_bed": "Zmin",
+          "flat_contact_area_mm2": 27.552252488570957,
+          "elevated_downward_near_horizontal_area_mm2": 0.0,
+          "print_height_mm": 1.0
+        },
+        {
+          "face_on_bed": "Zmax",
+          "flat_contact_area_mm2": 27.552252488570957,
+          "elevated_downward_near_horizontal_area_mm2": 0.0,
+          "print_height_mm": 1.0
+        }
+      ]
+    },
+    {
+      "ref": "P11",
+      "native_source": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-palm-cover-2026-10-23/print-mm/P11.stl",
+      "native_stl_sha256": "ee81507b31f348ae644d268f5525a825d5eecbd44f580824105b74e3a191d49b",
+      "closed_positive": true,
+      "bounds_mm": [
+        [
+          62.5,
+          -0.699999988079071,
+          9.0
+        ],
+        [
+          68.5,
+          7.699999809265137,
+          19.0
+        ]
+      ],
+      "volume_mm3": 388.75488460182737,
+      "proposed_face_down": "Zmax",
+      "six_face_orientation_metrics": [
+        {
+          "face_on_bed": "Xmin",
+          "flat_contact_area_mm2": 48.72000042676922,
+          "elevated_downward_near_horizontal_area_mm2": 43.525998956177645,
+          "print_height_mm": 6.0
+        },
+        {
+          "face_on_bed": "Xmax",
+          "flat_contact_area_mm2": 83.99999797344208,
+          "elevated_downward_near_horizontal_area_mm2": 8.246034895591764,
+          "print_height_mm": 6.0
+        },
+        {
+          "face_on_bed": "Ymin",
+          "flat_contact_area_mm2": 53.700000286102295,
+          "elevated_downward_near_horizontal_area_mm2": 8.246014489028672,
+          "print_height_mm": 8.399999797344208
+        },
+        {
+          "face_on_bed": "Ymax",
+          "flat_contact_area_mm2": 53.700000286102295,
+          "elevated_downward_near_horizontal_area_mm2": 8.246014510651307,
+          "print_height_mm": 8.399999797344208
+        },
+        {
+          "face_on_bed": "Zmin",
+          "flat_contact_area_mm2": 37.799999088048935,
+          "elevated_downward_near_horizontal_area_mm2": 12.599999696016312,
+          "print_height_mm": 10.0
+        },
+        {
+          "face_on_bed": "Zmax",
+          "flat_contact_area_mm2": 36.54997502432843,
+          "elevated_downward_near_horizontal_area_mm2": 13.850023759736814,
+          "print_height_mm": 10.0
+        }
+      ]
+    },
+    {
+      "ref": "P120",
+      "native_source": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-palm-cover-2026-10-23/print-mm/P120.stl",
+      "native_stl_sha256": "4e96f14152f1d40821836566e3dca17ccba1471c34db20bb69ac68acd27a7e48",
+      "closed_positive": true,
+      "bounds_mm": [
+        [
+          119.19999694824219,
+          -60.75,
+          3.299999952316284
+        ],
+        [
+          128.60000610351562,
+          -41.25,
+          26.5
+        ]
+      ],
+      "volume_mm3": 483.56569818385714,
+      "proposed_face_down": "Xmin",
+      "six_face_orientation_metrics": [
+        {
+          "face_on_bed": "Xmin",
+          "flat_contact_area_mm2": 93.59999871253967,
+          "elevated_downward_near_horizontal_area_mm2": 173.92342400829534,
+          "print_height_mm": 9.400009155273438
+        },
+        {
+          "face_on_bed": "Xmax",
+          "flat_contact_area_mm2": 18.0,
+          "elevated_downward_near_horizontal_area_mm2": 249.5238648752802,
+          "print_height_mm": 9.400009155273438
+        },
+        {
+          "face_on_bed": "Ymin",
+          "flat_contact_area_mm2": 12.5,
+          "elevated_downward_near_horizontal_area_mm2": 64.55025959198032,
+          "print_height_mm": 19.5
+        },
+        {
+          "face_on_bed": "Ymax",
+          "flat_contact_area_mm2": 12.5,
+          "elevated_downward_near_horizontal_area_mm2": 64.5502478023809,
+          "print_height_mm": 19.5
+        },
+        {
+          "face_on_bed": "Zmin",
+          "flat_contact_area_mm2": 20.700027465820312,
+          "elevated_downward_near_horizontal_area_mm2": 58.57005207077352,
+          "print_height_mm": 23.200000047683716
+        },
+        {
+          "face_on_bed": "Zmax",
+          "flat_contact_area_mm2": 61.699933142765076,
+          "elevated_downward_near_horizontal_area_mm2": 17.570146627674376,
+          "print_height_mm": 23.200000047683716
+        }
+      ]
+    },
+    {
+      "ref": "P121",
+      "native_source": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-palm-cover-2026-10-23/print-mm/P121.stl",
+      "native_stl_sha256": "55e9ffd7d0a4a0ceceb5ddf663837882afb022c3a607406b8697d4972ff65905",
+      "closed_positive": true,
+      "bounds_mm": [
+        [
+          119.19999694824219,
+          41.25,
+          3.299999952316284
+        ],
+        [
+          128.60000610351562,
+          60.75,
+          26.5
+        ]
+      ],
+      "volume_mm3": 483.56569818385714,
+      "proposed_face_down": "Xmin",
+      "six_face_orientation_metrics": [
+        {
+          "face_on_bed": "Xmin",
+          "flat_contact_area_mm2": 93.59999871253967,
+          "elevated_downward_near_horizontal_area_mm2": 173.9234240082953,
+          "print_height_mm": 9.400009155273438
+        },
+        {
+          "face_on_bed": "Xmax",
+          "flat_contact_area_mm2": 18.0,
+          "elevated_downward_near_horizontal_area_mm2": 249.5238648752802,
+          "print_height_mm": 9.400009155273438
+        },
+        {
+          "face_on_bed": "Ymin",
+          "flat_contact_area_mm2": 12.5,
+          "elevated_downward_near_horizontal_area_mm2": 64.5502478024081,
+          "print_height_mm": 19.5
+        },
+        {
+          "face_on_bed": "Ymax",
+          "flat_contact_area_mm2": 12.5,
+          "elevated_downward_near_horizontal_area_mm2": 64.55025959195316,
+          "print_height_mm": 19.5
+        },
+        {
+          "face_on_bed": "Zmin",
+          "flat_contact_area_mm2": 20.700027465820312,
+          "elevated_downward_near_horizontal_area_mm2": 58.57005207077352,
+          "print_height_mm": 23.200000047683716
+        },
+        {
+          "face_on_bed": "Zmax",
+          "flat_contact_area_mm2": 61.699933142765076,
+          "elevated_downward_near_horizontal_area_mm2": 17.570146627674376,
+          "print_height_mm": 23.200000047683716
+        }
+      ]
+    }
+  ]
+}

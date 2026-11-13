@@ -1,0 +1,18 @@
+{
+  "status": "STAGED_R19_SOURCE_PENDING_NATIVE_FINAL",
+  "source_sha256": "0e88e273e2e9bc436b2844a44f04b28fb094593c0af87a2127d792bbb56f016d",
+  "rim_probe_source_sha256": "b5dd5d89f56a76fbb0dd57891c3835278440a3747937f94eab8598030d076448",
+  "rigid_generator_sha256": "7b8224a69351d31e42621610e363e2ec4d4d7e20f3832e99799a98bc8a88f5db",
+  "native_body_count_expected": 94,
+  "unchanged_prior_geometry": 90,
+  "changed_prior_refs": [
+    "P01",
+    "P06",
+    "P08"
+  ],
+  "new_refs": [
+    "P06L",
+    "P06R"
+  ],
+  "source_generator_sha256": "315a850cf04e51ab78ce5eeaaefdff717033296eaf281750d790ee7f72eb4c00"
+}

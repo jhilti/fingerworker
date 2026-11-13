@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "viewer_url": "http://127.0.0.1:8771/viewer/viewer.html",
+  "frozen_onshape_version": "9bf146edbc2e61a5c4144a35",
+  "reviewed_views": [
+    "Full neutral assembly",
+    "Palm round face",
+    "Palm flat back and two TPU return bands",
+    "Native MAX28/preload2 heavy",
+    "Native ISO13/preload2 sleeves"
+  ],
+  "source_download_link": "fingerworker_flat132_palm_fit.fs",
+  "source_link_corrected_and_verified": true,
+  "default_pose_after_review": "Neutral0/preload0/light",
+  "proof_images": [
+    "Onshape_R3_immutable.png",
+    "R3_full_assembly.png",
+    "R3_isometric_13_p2.png",
+    "R3_maximum_28_p2.png",
+    "R3_palm_flat_back.png",
+    "R3_palm_round_face.png"
+  ],
+  "scope": "Visual CAD review, not physical strength or comfort qualification"
+}

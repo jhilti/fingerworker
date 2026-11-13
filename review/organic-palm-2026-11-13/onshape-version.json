@@ -1,0 +1,22 @@
+{
+  "version_id": "13e353d6762b6cc58530122b",
+  "name": "Flat132 R18 - organic palm and side thumb seats - 2026-11-13",
+  "url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/v/13e353d6762b6cc58530122b/e/d253eb87b70818ebde8215f0",
+  "workspace_id": "b4cdb9c00f1866c89fa345c0",
+  "source_sha256": "345b90327031276f8085e2c225c795946036d7faa4f2ac01b764101b9f4b3dd1",
+  "source_readback_exact": true,
+  "native_parts": 93,
+  "status": "PASS_NATIVE_REGENERATION_AND_EXPORT_AUDITS",
+  "pose": {
+    "user_travel_mm": 0,
+    "cam_trim_mm": 0,
+    "light_springs": true,
+    "isometric": false,
+    "show_hand": false,
+    "show_electronics": true
+  },
+  "source_commit_method": "Chrome FeatureScript editor paste and Commit; exact clipboard source readback before immutable version creation",
+  "supersedes_version": "d4421f391a091e249b08aeb1",
+  "stl_zip_sha256": "77c15eed14f8015c5bd67fdb9c2d4e89f479d84c4535468ce027f62f0e0ec0c9",
+  "step_sha256": "0d9ebb0777c35ebf687c59578362a1323a9cab3a00922be858c1d03695f023ee"
+}

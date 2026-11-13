@@ -1,0 +1,33 @@
+{
+  "status": "PASS: dimensional ledger and source wiring only",
+  "dynamic_force_cases": 2562,
+  "isometric_preload_positions": 21,
+  "light_pair_force_N": {
+    "p0": [
+      4,
+      124
+    ],
+    "p2": [
+      12,
+      132
+    ]
+  },
+  "existing_pair_force_N": {
+    "p0": [
+      15.6,
+      483.6
+    ],
+    "p2": [
+      46.8,
+      514.8
+    ]
+  },
+  "spring_installed_length_mm": [
+    69,
+    101
+  ],
+  "isometric_sleeve_length_mm": 86,
+  "cad_source_sha256": "803b4f6a68755383c70ab66e83a7e49a15278024cb0fc950463ef48cfd403225",
+  "scope": "Dimensional checks only; see onshape-upgrades-validation.json for observed Onshape results",
+  "manufacturing_release": false
+}

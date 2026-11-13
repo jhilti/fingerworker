@@ -1,0 +1,576 @@
+{
+  "status": "PASS_R18_PALM_CONTACT_SUPPORTS",
+  "candidate": false,
+  "checks": [
+    {
+      "name": "No support bead in wrist curve and retained back thumb returns",
+      "status": "PASS",
+      "region_mm": [
+        [
+          -35,
+          -63,
+          14.4
+        ],
+        [
+          -22.45,
+          63,
+          35
+        ]
+      ],
+      "support_intrusions": []
+    },
+    {
+      "name": "No support bead in organic crown and upper shoulder contact",
+      "status": "PASS",
+      "region_mm": [
+        [
+          -32,
+          -65.5,
+          27.5
+        ],
+        [
+          -7.5,
+          65.5,
+          35
+        ]
+      ],
+      "support_intrusions": []
+    },
+    {
+      "name": "No support bead in upper loft shoulder transitions",
+      "status": "PASS",
+      "region_mm": [
+        [
+          -32,
+          -58.1,
+          25.8
+        ],
+        [
+          -7.5,
+          58.1,
+          35
+        ]
+      ],
+      "support_intrusions": []
+    },
+    {
+      "name": "No support bead in central sensor-side sloping underside",
+      "status": "PASS",
+      "region_mm": [
+        [
+          -22.45,
+          -36,
+          19.1
+        ],
+        [
+          -15.5,
+          36,
+          27.4
+        ]
+      ],
+      "support_intrusions": []
+    },
+    {
+      "name": "Organic palm face emitted over multiple layers",
+      "status": "PASS",
+      "region_mm": [
+        [
+          -32.5,
+          -35.0,
+          15.0
+        ],
+        [
+          -27.5,
+          35.0,
+          32.5
+        ]
+      ],
+      "outer_wall_segments": 1978,
+      "layer_count": 59,
+      "z_min": 20.8,
+      "z_max": 32.4
+    },
+    {
+      "name": "Short printed rod-bore roof spans -51",
+      "status": "PASS",
+      "longest_unbacked_centerline_mm": 2.1880103652166665,
+      "bridge_segments": 18
+    },
+    {
+      "name": "Short printed rod-bore roof spans 51",
+      "status": "PASS",
+      "longest_unbacked_centerline_mm": 2.188010365111188,
+      "bridge_segments": 18
+    },
+    {
+      "name": "Anchored lower organic transition negative hidden shoulder transition",
+      "status": "PASS",
+      "roi": {
+        "name": "negative hidden shoulder transition",
+        "xy_bounds_mm": [
+          -20,
+          -40,
+          -13,
+          -35
+        ],
+        "z_bounds_mm": [
+          23.2,
+          25.2
+        ],
+        "maximum_unbacked_perimeter_span_mm": 3
+      },
+      "measured_maximum_unbacked_single_segment_centerline_mm": 5.100007288818361,
+      "maximum_gap_from_prior_bead_edge_mm": 1.580010000000001,
+      "maximum_extension_including_full_bead_width_mm": 2.000000000000001,
+      "unanchored_islands": [],
+      "perimeter_segments": 430,
+      "local_support_segments": 0,
+      "layer_measurements": [
+        {
+          "native_top_z_mm": 23.2,
+          "perimeter_segments": 7,
+          "prior_layer_segments": 1992,
+          "longest_unbacked_single_segment_centerline_mm": 0.0,
+          "maximum_gap_from_prior_bead_edge_mm": 0,
+          "maximum_extension_including_full_bead_width_mm": 0.224995,
+          "current_components_with_prior_layer_anchor": [
+            {
+              "component_area_mm2": 1145.8874428395327,
+              "previous_layer_overlap_mm2": 1052.9636226108044
+            }
+          ],
+          "features": {
+            "Inner wall": 4,
+            "Outer wall": 3
+          }
+        },
+        {
+          "native_top_z_mm": 23.4,
+          "perimeter_segments": 7,
+          "prior_layer_segments": 2188,
+          "longest_unbacked_single_segment_centerline_mm": 0.0,
+          "maximum_gap_from_prior_bead_edge_mm": 0,
+          "maximum_extension_including_full_bead_width_mm": 0.224995,
+          "current_components_with_prior_layer_anchor": [
+            {
+              "component_area_mm2": 1163.4095118061632,
+              "previous_layer_overlap_mm2": 1049.8116461971938
+            }
+          ],
+          "features": {
+            "Inner wall": 4,
+            "Outer wall": 3
+          }
+        },
+        {
+          "native_top_z_mm": 23.6,
+          "perimeter_segments": 38,
+          "prior_layer_segments": 2253,
+          "longest_unbacked_single_segment_centerline_mm": 1.7700002824858563,
+          "maximum_gap_from_prior_bead_edge_mm": 0.37638414083483634,
+          "maximum_extension_including_full_bead_width_mm": 0.7963741408348364,
+          "current_components_with_prior_layer_anchor": [
+            {
+              "component_area_mm2": 1188.7918635192416,
+              "previous_layer_overlap_mm2": 1020.4636376400423
+            }
+          ],
+          "features": {
+            "Inner wall": 19,
+            "Outer wall": 17,
+            "Overhang wall": 2
+          }
+        },
+        {
+          "native_top_z_mm": 23.8,
+          "perimeter_segments": 57,
+          "prior_layer_segments": 2241,
+          "longest_unbacked_single_segment_centerline_mm": 2.1980002274795227,
+          "maximum_gap_from_prior_bead_edge_mm": 0.3802901474232819,
+          "maximum_extension_including_full_bead_width_mm": 0.8002801474232819,
+          "current_components_with_prior_layer_anchor": [
+            {
+              "component_area_mm2": 1158.6092102935568,
+              "previous_layer_overlap_mm2": 1044.8334994275858
+            }
+          ],
+          "features": {
+            "Inner wall": 34,
+            "Outer wall": 21,
+            "Overhang wall": 2
+          }
+        },
+        {
+          "native_top_z_mm": 24.0,
+          "perimeter_segments": 73,
+          "prior_layer_segments": 2255,
+          "longest_unbacked_single_segment_centerline_mm": 2.6260001904036536,
+          "maximum_gap_from_prior_bead_edge_mm": 0.38028969307392074,
+          "maximum_extension_including_full_bead_width_mm": 0.8002796930739207,
+          "current_components_with_prior_layer_anchor": [
+            {
+              "component_area_mm2": 1146.3641783799847,
+              "previous_layer_overlap_mm2": 1050.7223554206453
+            }
+          ],
+          "features": {
+            "Inner wall": 39,
+            "Outer wall": 32,
+            "Overhang wall": 2
+          }
+        },
+        {
+          "native_top_z_mm": 24.2,
+          "perimeter_segments": 123,
+          "prior_layer_segments": 2281,
+          "longest_unbacked_single_segment_centerline_mm": 5.100007288818361,
+          "maximum_gap_from_prior_bead_edge_mm": 1.580010000000001,
+          "maximum_extension_including_full_bead_width_mm": 2.000000000000001,
+          "current_components_with_prior_layer_anchor": [
+            {
+              "component_area_mm2": 1188.5820137049166,
+              "previous_layer_overlap_mm2": 1044.7406894074024
+            }
+          ],
+          "features": {
+            "Overhang wall": 17,
+            "Inner wall": 69,
+            "Outer wall": 16,
+            "Bridge": 21
+          }
+        },
+        {
+          "native_top_z_mm": 24.4,
+          "perimeter_segments": 25,
+          "prior_layer_segments": 2583,
+          "longest_unbacked_single_segment_centerline_mm": 0.0,
+          "maximum_gap_from_prior_bead_edge_mm": 0,
+          "maximum_extension_including_full_bead_width_mm": 0.224995,
+          "current_components_with_prior_layer_anchor": [
+            {
+              "component_area_mm2": 1179.6175404589676,
+              "previous_layer_overlap_mm2": 1091.5422955423276
+            }
+          ],
+          "features": {
+            "Inner wall": 17,
+            "Outer wall": 8
+          }
+        },
+        {
+          "native_top_z_mm": 24.6,
+          "perimeter_segments": 25,
+          "prior_layer_segments": 2070,
+          "longest_unbacked_single_segment_centerline_mm": 0.0,
+          "maximum_gap_from_prior_bead_edge_mm": 0,
+          "maximum_extension_including_full_bead_width_mm": 0.224995,
+          "current_components_with_prior_layer_anchor": [
+            {
+              "component_area_mm2": 1178.037586457436,
+              "previous_layer_overlap_mm2": 1077.5817780657173
+            }
+          ],
+          "features": {
+            "Inner wall": 17,
+            "Outer wall": 8
+          }
+        },
+        {
+          "native_top_z_mm": 24.8,
+          "perimeter_segments": 25,
+          "prior_layer_segments": 2267,
+          "longest_unbacked_single_segment_centerline_mm": 0.0,
+          "maximum_gap_from_prior_bead_edge_mm": 0,
+          "maximum_extension_including_full_bead_width_mm": 0.224995,
+          "current_components_with_prior_layer_anchor": [
+            {
+              "component_area_mm2": 1106.6184755042605,
+              "previous_layer_overlap_mm2": 967.1424596103235
+            }
+          ],
+          "features": {
+            "Inner wall": 17,
+            "Outer wall": 8
+          }
+        },
+        {
+          "native_top_z_mm": 25.0,
+          "perimeter_segments": 25,
+          "prior_layer_segments": 2294,
+          "longest_unbacked_single_segment_centerline_mm": 0.0,
+          "maximum_gap_from_prior_bead_edge_mm": 0,
+          "maximum_extension_including_full_bead_width_mm": 0.224995,
+          "current_components_with_prior_layer_anchor": [
+            {
+              "component_area_mm2": 1041.379930172547,
+              "previous_layer_overlap_mm2": 883.7984146668387
+            }
+          ],
+          "features": {
+            "Inner wall": 17,
+            "Outer wall": 8
+          }
+        },
+        {
+          "native_top_z_mm": 25.2,
+          "perimeter_segments": 25,
+          "prior_layer_segments": 2234,
+          "longest_unbacked_single_segment_centerline_mm": 0.0,
+          "maximum_gap_from_prior_bead_edge_mm": 0,
+          "maximum_extension_including_full_bead_width_mm": 0.224995,
+          "current_components_with_prior_layer_anchor": [
+            {
+              "component_area_mm2": 1030.3589070714538,
+              "previous_layer_overlap_mm2": 892.6476844594429
+            }
+          ],
+          "features": {
+            "Inner wall": 17,
+            "Outer wall": 8
+          }
+        }
+      ],
+      "assessment": "Small connected underside overhang/bridge network at the retained shoulder cap and new loft transition. The 3mm initial segment screen is informational, not a release limit; no unanchored extrusion island is permitted. Contact crowns and thumb surfaces have separate strict support exclusions. Hidden underside finish still needs physical print assessment."
+    },
+    {
+      "name": "Anchored lower organic transition positive hidden shoulder transition",
+      "status": "PASS",
+      "roi": {
+        "name": "positive hidden shoulder transition",
+        "xy_bounds_mm": [
+          -20,
+          35,
+          -13,
+          40
+        ],
+        "z_bounds_mm": [
+          23.2,
+          25.2
+        ],
+        "maximum_unbacked_perimeter_span_mm": 3
+      },
+      "measured_maximum_unbacked_single_segment_centerline_mm": 5.100007288818361,
+      "maximum_gap_from_prior_bead_edge_mm": 1.580010000000001,
+      "maximum_extension_including_full_bead_width_mm": 2.000000000000001,
+      "unanchored_islands": [],
+      "perimeter_segments": 445,
+      "local_support_segments": 0,
+      "layer_measurements": [
+        {
+          "native_top_z_mm": 23.2,
+          "perimeter_segments": 7,
+          "prior_layer_segments": 1992,
+          "longest_unbacked_single_segment_centerline_mm": 0.0,
+          "maximum_gap_from_prior_bead_edge_mm": 0,
+          "maximum_extension_including_full_bead_width_mm": 0.224995,
+          "current_components_with_prior_layer_anchor": [
+            {
+              "component_area_mm2": 1145.8874428395327,
+              "previous_layer_overlap_mm2": 1052.9636226108044
+            }
+          ],
+          "features": {
+            "Inner wall": 4,
+            "Outer wall": 3
+          }
+        },
+        {
+          "native_top_z_mm": 23.4,
+          "perimeter_segments": 11,
+          "prior_layer_segments": 2188,
+          "longest_unbacked_single_segment_centerline_mm": 0.0,
+          "maximum_gap_from_prior_bead_edge_mm": 0,
+          "maximum_extension_including_full_bead_width_mm": 0.224995,
+          "current_components_with_prior_layer_anchor": [
+            {
+              "component_area_mm2": 1163.4095118061632,
+              "previous_layer_overlap_mm2": 1049.8116461971938
+            }
+          ],
+          "features": {
+            "Inner wall": 8,
+            "Outer wall": 3
+          }
+        },
+        {
+          "native_top_z_mm": 23.6,
+          "perimeter_segments": 36,
+          "prior_layer_segments": 2253,
+          "longest_unbacked_single_segment_centerline_mm": 1.7700002824858563,
+          "maximum_gap_from_prior_bead_edge_mm": 0.37949783475829263,
+          "maximum_extension_including_full_bead_width_mm": 0.7994878347582925,
+          "current_components_with_prior_layer_anchor": [
+            {
+              "component_area_mm2": 1188.7918635192416,
+              "previous_layer_overlap_mm2": 1020.4636376400423
+            }
+          ],
+          "features": {
+            "Inner wall": 19,
+            "Outer wall": 15,
+            "Overhang wall": 2
+          }
+        },
+        {
+          "native_top_z_mm": 23.8,
+          "perimeter_segments": 60,
+          "prior_layer_segments": 2241,
+          "longest_unbacked_single_segment_centerline_mm": 2.1899999999999977,
+          "maximum_gap_from_prior_bead_edge_mm": 0.37405267559843774,
+          "maximum_extension_including_full_bead_width_mm": 0.7940426755984378,
+          "current_components_with_prior_layer_anchor": [
+            {
+              "component_area_mm2": 1158.6092102935568,
+              "previous_layer_overlap_mm2": 1044.8334994275858
+            }
+          ],
+          "features": {
+            "Inner wall": 33,
+            "Outer wall": 25,
+            "Overhang wall": 2
+          }
+        },
+        {
+          "native_top_z_mm": 24.0,
+          "perimeter_segments": 77,
+          "prior_layer_segments": 2255,
+          "longest_unbacked_single_segment_centerline_mm": 2.620000190839692,
+          "maximum_gap_from_prior_bead_edge_mm": 0.38185248278215894,
+          "maximum_extension_including_full_bead_width_mm": 0.8018424827821589,
+          "current_components_with_prior_layer_anchor": [
+            {
+              "component_area_mm2": 1146.3641783799847,
+              "previous_layer_overlap_mm2": 1050.7223554206453
+            }
+          ],
+          "features": {
+            "Inner wall": 41,
+            "Outer wall": 34,
+            "Overhang wall": 2
+          }
+        },
+        {
+          "native_top_z_mm": 24.2,
+          "perimeter_segments": 122,
+          "prior_layer_segments": 2281,
+          "longest_unbacked_single_segment_centerline_mm": 5.100007288818361,
+          "maximum_gap_from_prior_bead_edge_mm": 1.580010000000001,
+          "maximum_extension_including_full_bead_width_mm": 2.000000000000001,
+          "current_components_with_prior_layer_anchor": [
+            {
+              "component_area_mm2": 1188.5820137049166,
+              "previous_layer_overlap_mm2": 1044.7406894074024
+            }
+          ],
+          "features": {
+            "Inner wall": 68,
+            "Overhang wall": 16,
+            "Outer wall": 17,
+            "Bridge": 21
+          }
+        },
+        {
+          "native_top_z_mm": 24.4,
+          "perimeter_segments": 28,
+          "prior_layer_segments": 2583,
+          "longest_unbacked_single_segment_centerline_mm": 0.0,
+          "maximum_gap_from_prior_bead_edge_mm": 0,
+          "maximum_extension_including_full_bead_width_mm": 0.224995,
+          "current_components_with_prior_layer_anchor": [
+            {
+              "component_area_mm2": 1179.6175404589676,
+              "previous_layer_overlap_mm2": 1091.5422955423276
+            }
+          ],
+          "features": {
+            "Inner wall": 19,
+            "Outer wall": 9
+          }
+        },
+        {
+          "native_top_z_mm": 24.6,
+          "perimeter_segments": 27,
+          "prior_layer_segments": 2070,
+          "longest_unbacked_single_segment_centerline_mm": 0.0,
+          "maximum_gap_from_prior_bead_edge_mm": 0,
+          "maximum_extension_including_full_bead_width_mm": 0.224995,
+          "current_components_with_prior_layer_anchor": [
+            {
+              "component_area_mm2": 1178.037586457436,
+              "previous_layer_overlap_mm2": 1077.5817780657173
+            }
+          ],
+          "features": {
+            "Inner wall": 19,
+            "Outer wall": 8
+          }
+        },
+        {
+          "native_top_z_mm": 24.8,
+          "perimeter_segments": 26,
+          "prior_layer_segments": 2267,
+          "longest_unbacked_single_segment_centerline_mm": 0.0,
+          "maximum_gap_from_prior_bead_edge_mm": 0,
+          "maximum_extension_including_full_bead_width_mm": 0.224995,
+          "current_components_with_prior_layer_anchor": [
+            {
+              "component_area_mm2": 1106.6184755042605,
+              "previous_layer_overlap_mm2": 967.1424596103235
+            }
+          ],
+          "features": {
+            "Inner wall": 19,
+            "Outer wall": 7
+          }
+        },
+        {
+          "native_top_z_mm": 25.0,
+          "perimeter_segments": 25,
+          "prior_layer_segments": 2294,
+          "longest_unbacked_single_segment_centerline_mm": 0.0,
+          "maximum_gap_from_prior_bead_edge_mm": 0,
+          "maximum_extension_including_full_bead_width_mm": 0.224995,
+          "current_components_with_prior_layer_anchor": [
+            {
+              "component_area_mm2": 1041.379930172547,
+              "previous_layer_overlap_mm2": 883.7984146668387
+            }
+          ],
+          "features": {
+            "Inner wall": 17,
+            "Outer wall": 8
+          }
+        },
+        {
+          "native_top_z_mm": 25.2,
+          "perimeter_segments": 26,
+          "prior_layer_segments": 2234,
+          "longest_unbacked_single_segment_centerline_mm": 0.0,
+          "maximum_gap_from_prior_bead_edge_mm": 0,
+          "maximum_extension_including_full_bead_width_mm": 0.224995,
+          "current_components_with_prior_layer_anchor": [
+            {
+              "component_area_mm2": 1030.3589070714538,
+              "previous_layer_overlap_mm2": 892.6476844594429
+            }
+          ],
+          "features": {
+            "Inner wall": 17,
+            "Outer wall": 9
+          }
+        }
+      ],
+      "assessment": "Small connected underside overhang/bridge network at the retained shoulder cap and new loft transition. The 3mm initial segment screen is informational, not a release limit; no unanchored extrusion island is permitted. Contact crowns and thumb surfaces have separate strict support exclusions. Hidden underside finish still needs physical print assessment."
+    }
+  ],
+  "failures": [],
+  "source_sha256": "345b90327031276f8085e2c225c795946036d7faa4f2ac01b764101b9f4b3dd1",
+  "contact_regions_sha256": "848c6d3564a88c64cfe4c65eefcf78e50bb14edf4673596b74be7cc5f030b7b1",
+  "outer_wall_restart_observations": [],
+  "layout_sha256": "d209c4aa3b5bd6573afcccb77f6073b2614eaa2961fdb92e62d69c1ce47b914c",
+  "project_sha256": "85ad44bc0bc4b43c3e9ccd1258399cc5df1cf3a4b9b07cffae06cc02a027e85e",
+  "sliced_archive_sha256": "0f6db25d4bdccf595f4905bc82ea2f052c892c449cbe7863cdb034f092d620e0",
+  "validator_sha256": "cc03e2815dfbbe416f7f37880b26e11309faebfe6e7857fcb150c8bc23f79941",
+  "scope": "Whole support bead axis-aligned bounds include full line width, complete native path extrema and layer height. No support overlap permitted in conservative R18 hand-contact zones; actual organic palm model wall layers and rod-bore roof bridge spans checked.",
+  "limitations": "Nominal sliced geometry only, not measured surface finish, physical adhesion or hand comfort."
+}

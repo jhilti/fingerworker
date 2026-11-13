@@ -1,0 +1,401 @@
+{
+  "status": "NATIVE_PROJECT_AND_BOTH_SLICES_PASS",
+  "native_project": "Fingerworker_R10_H2D_04mm_PLA_Fit_Test.3mf",
+  "native_sha256": "d83f72df3534eea46d95334c09f9ac1a54ff6585ab94fb580e616b86fba30f9c",
+  "sliced_internal_evidence_sha256": "8cfe8ffeae4558adce79f26fdf765496b70239aa525c841e1402871679549a64",
+  "CAD_source_sha256": "5ce830ff2b06cd8d318d3c44dbc1f3385697526a9a679d2a2078f64f81854237",
+  "native_R10_version": "1d91807cca19866934a439eb",
+  "plate_count": 2,
+  "object_count": 18,
+  "estimates": [
+    {
+      "plate": 1,
+      "seconds": 29783,
+      "grams": 131.35,
+      "objects": 1
+    },
+    {
+      "plate": 2,
+      "seconds": 34749,
+      "grams": 134.64,
+      "objects": 17
+    }
+  ],
+  "estimated_seconds": 64532,
+  "estimated_grams": 265.99,
+  "mesh_roundtrip": [
+    {
+      "ref": "P01",
+      "plate": 1,
+      "source_sha256": "88d5dc94bd70ad20b651ca7cdeed494058dd540d7e75447e38b5db70377c09d6",
+      "mesh_roundtrip_max_error_mm": 8.66729483308073e-06,
+      "bbox_plate_mm": [
+        [
+          69.9999999,
+          80.0,
+          0.0
+        ],
+        [
+          245.1000061,
+          212.0,
+          35.0
+        ]
+      ],
+      "faces": 63976,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "P04",
+      "plate": 2,
+      "source_sha256": "fdb84301af40be4ca84b838ebc1847b18ac0b2854818e3bfe63c1085d6ff0b7c",
+      "mesh_roundtrip_max_error_mm": 3.865038450770573e-06,
+      "bbox_plate_mm": [
+        [
+          236.5,
+          9.0,
+          0.0
+        ],
+        [
+          261.5,
+          135.0,
+          59.0
+        ]
+      ],
+      "faces": 51838,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "P05",
+      "plate": 2,
+      "source_sha256": "708aa073c8b30dab19e3c7700ca2d05ff4264845293c3428a68df1c2ced52966",
+      "mesh_roundtrip_max_error_mm": 3.991207111411451e-06,
+      "bbox_plate_mm": [
+        [
+          275.5,
+          9.0,
+          0.0
+        ],
+        [
+          312.5,
+          135.0,
+          22.0
+        ]
+      ],
+      "faces": 15564,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "P08",
+      "plate": 2,
+      "source_sha256": "11f47952a86814ce1c6a80ad25edde546f99b8664a610e397851ec8ae9fe8b2a",
+      "mesh_roundtrip_max_error_mm": 3.865010195730261e-06,
+      "bbox_plate_mm": [
+        [
+          32.0,
+          154.0,
+          0.0
+        ],
+        [
+          156.0,
+          176.500002,
+          9.5
+        ]
+      ],
+      "faces": 8442,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "P09",
+      "plate": 2,
+      "source_sha256": "2b809ab1f7cc350b96862cfd7d4878ac1907bda7cf793f78aa0e445e7264084a",
+      "mesh_roundtrip_max_error_mm": 3.864128984806795e-06,
+      "bbox_plate_mm": [
+        [
+          166.0,
+          152.0,
+          0.0
+        ],
+        [
+          276.0,
+          174.500002,
+          6.74999952
+        ]
+      ],
+      "faces": 2694,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "H040",
+      "plate": 2,
+      "source_sha256": "ed73c2217009079342531d1dd16e68c206790ab2f2ca3b5e85f41e866079d427",
+      "mesh_roundtrip_max_error_mm": 5.995528696345619e-09,
+      "bbox_plate_mm": [
+        [
+          30.0,
+          186.5,
+          0.0
+        ],
+        [
+          171.0,
+          192.5,
+          6.0
+        ]
+      ],
+      "faces": 576,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "H041",
+      "plate": 2,
+      "source_sha256": "c3b51c917e3598d19a26ff32510401be6405293cc25d02f78f5a0891912a6a19",
+      "mesh_roundtrip_max_error_mm": 5.995528696345619e-09,
+      "bbox_plate_mm": [
+        [
+          179.0,
+          186.5,
+          0.0
+        ],
+        [
+          320.0,
+          192.5,
+          6.0
+        ]
+      ],
+      "faces": 576,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "P060",
+      "plate": 2,
+      "source_sha256": "fb1337d8882240a0e3c49fcdb6e88d8d0fef58940405575e20dc9dcfb7179a0e",
+      "mesh_roundtrip_max_error_mm": 5.245207037533761e-07,
+      "bbox_plate_mm": [
+        [
+          175.0,
+          203.0,
+          0.0
+        ],
+        [
+          184.0,
+          231.0,
+          26.0
+        ]
+      ],
+      "faces": 5864,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "P061",
+      "plate": 2,
+      "source_sha256": "b4517d1c0e1b163d4f0c6e9a42427e5075d584665d532118db72d9408874befa",
+      "mesh_roundtrip_max_error_mm": 5.245207037533761e-07,
+      "bbox_plate_mm": [
+        [
+          194.0,
+          203.0,
+          0.0
+        ],
+        [
+          203.0,
+          231.0,
+          26.0
+        ]
+      ],
+      "faces": 5864,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "P120",
+      "plate": 2,
+      "source_sha256": "4e96f14152f1d40821836566e3dca17ccba1471c34db20bb69ac68acd27a7e48",
+      "mesh_roundtrip_max_error_mm": 9.761300102472306e-07,
+      "bbox_plate_mm": [
+        [
+          212.99999960000002,
+          203.0,
+          0.0
+        ],
+        [
+          236.20000040000002,
+          222.5,
+          9.40000916
+        ]
+      ],
+      "faces": 1846,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "P121",
+      "plate": 2,
+      "source_sha256": "55e9ffd7d0a4a0ceceb5ddf663837882afb022c3a607406b8697d4972ff65905",
+      "mesh_roundtrip_max_error_mm": 9.761300102472306e-07,
+      "bbox_plate_mm": [
+        [
+          246.19999959999996,
+          203.0,
+          0.0
+        ],
+        [
+          269.40000039999995,
+          222.5,
+          9.40000916
+        ]
+      ],
+      "faces": 1846,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "P11",
+      "plate": 2,
+      "source_sha256": "ee81507b31f348ae644d268f5525a825d5eecbd44f580824105b74e3a191d49b",
+      "mesh_roundtrip_max_error_mm": 2.4349086913418325e-07,
+      "bbox_plate_mm": [
+        [
+          280.0,
+          201.00000018999998,
+          0.0
+        ],
+        [
+          286.0,
+          209.39999981,
+          10.0
+        ]
+      ],
+      "faces": 598,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "P10",
+      "plate": 2,
+      "source_sha256": "8ee66bba498b46d593a8d9c00581582cd76b35677312eb81d427f808df8b08d8",
+      "mesh_roundtrip_max_error_mm": 1.0147003217727972e-08,
+      "bbox_plate_mm": [
+        [
+          291.99999962000004,
+          200.99999966,
+          0.0
+        ],
+        [
+          295.20000038,
+          211.20000234,
+          1.0
+        ]
+      ],
+      "faces": 1172,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "P070a",
+      "plate": 2,
+      "source_sha256": "b2043cb95741498d64262f3011a79d3a14eb64934d9a558602a9f71abf42bf74",
+      "mesh_roundtrip_max_error_mm": 0.0,
+      "bbox_plate_mm": [
+        [
+          280.0,
+          217.5,
+          0.0
+        ],
+        [
+          286.0,
+          222.0,
+          1.5
+        ]
+      ],
+      "faces": 12,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "P070b",
+      "plate": 2,
+      "source_sha256": "c2e968a11b33abb1d58fb03ba6f4ba6ca14a53ecfafa3ef001bf03d2d10b881a",
+      "mesh_roundtrip_max_error_mm": 0.0,
+      "bbox_plate_mm": [
+        [
+          292.0,
+          217.5,
+          0.0
+        ],
+        [
+          298.0,
+          222.0,
+          1.5
+        ]
+      ],
+      "faces": 12,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "P071a",
+      "plate": 2,
+      "source_sha256": "4cacdcfcc514e130026a3c5b37d03bb89e0f53cb780d221184c31b71bb5757f7",
+      "mesh_roundtrip_max_error_mm": 0.0,
+      "bbox_plate_mm": [
+        [
+          280.0,
+          228.0,
+          0.0
+        ],
+        [
+          286.0,
+          232.5,
+          1.5
+        ]
+      ],
+      "faces": 12,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "P071b",
+      "plate": 2,
+      "source_sha256": "50aa9ad8ee8fb500dc0e13b1ab8dd333ccaeab6f0fa7fe7625ba79d21ae3c29d",
+      "mesh_roundtrip_max_error_mm": 0.0,
+      "bbox_plate_mm": [
+        [
+          292.0,
+          228.0,
+          0.0
+        ],
+        [
+          298.0,
+          232.5,
+          1.5
+        ]
+      ],
+      "faces": 12,
+      "automatic_repairs": 0
+    },
+    {
+      "ref": "Q01",
+      "plate": 2,
+      "source_sha256": "4a814328544c999013ab754d2d1c3f9a99e287e034066df127525cfe912a394b",
+      "mesh_roundtrip_max_error_mm": 9.610743742997772e-07,
+      "bbox_plate_mm": [
+        [
+          297.9999995999999,
+          240.0,
+          0.0
+        ],
+        [
+          315.9964424,
+          258.0,
+          28.0
+        ]
+      ],
+      "faces": 2540,
+      "automatic_repairs": 0
+    }
+  ],
+  "stock_macros_modified": false,
+  "machine_macro_hashes": {
+    "gcode_flavor": "0327681c6d43af1719a752a088e93f5192c8740abee2bc63353fe4eff7749287",
+    "machine_start_gcode": "4ec8b2713943115211e1609afa26387ddf8879a1734f2b394d0d69d419539ef5",
+    "machine_end_gcode": "ff2fab8336b6ad542da23462dfd10a184393e5b24c08b2fa3d9b7958b6f5da61",
+    "time_lapse_gcode": "2b9c04541ef0dadc85a85aa2dd5da4af0b7af97cbd0a044ec4bb10f37bba0987",
+    "wrapping_detection_gcode": "9fd5b89fad81b7e0630add42bb742c6974e2d757cbdfd2a69492e3e4a0842847",
+    "change_filament_gcode": "2153741c80f920455d8a9023fcff2f52aa1f2a17436785bde511702f5245d092",
+    "layer_change_gcode": "a99517bc5a923d244b820f64c6d67effd0dd71c5863301bbf7578463805a4641",
+    "machine_pause_gcode": "421d0316bd5e4954c4425af1b89603412254dde55fe6eaf70c90b5b4e620fb66"
+  },
+  "no_printer_transmission": true,
+  "scope": "Mesh identity/rigid placements and two complete slices. Physical fit, support removal and strength require the unloaded print trial."
+}

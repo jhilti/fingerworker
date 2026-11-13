@@ -1,0 +1,23 @@
+{
+  "status": "QUANTIFIED_MESH_COMPARISON_INFORMATIONAL",
+  "source_sha256": "345b90327031276f8085e2c225c795946036d7faa4f2ac01b764101b9f4b3dd1",
+  "local_mesh_sha256": "4504696f366a82b7edefda6279669fafd42ffad97e5d157df426f7626b575628",
+  "native_mesh_sha256": "be42108fa89941a0f7dbae4df4cec33a9402b8316e8c42922475309060faf554",
+  "local_mesh_volume_mm3": 170192.76898573354,
+  "native_mesh_volume_mm3": 170192.98640847803,
+  "checks": [
+    {
+      "direction": "local_to_native",
+      "samples": 7596,
+      "maximum_sampled_vertex_to_triangle_mm": 1.1415266189054851,
+      "p95_mm": 0.6230224716466621
+    },
+    {
+      "direction": "native_to_local",
+      "samples": 6844,
+      "maximum_sampled_vertex_to_triangle_mm": 1.2001197338686516,
+      "p95_mm": 0.7933942365219835
+    }
+  ],
+  "scope": "Sampled upper-palm mesh comparison includes tessellation differences and is not continuous Hausdorff equality. Actual CAD station and mechanical gates remain separate."
+}

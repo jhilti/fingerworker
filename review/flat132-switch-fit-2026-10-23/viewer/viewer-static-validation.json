@@ -1,0 +1,55 @@
+{
+  "status": "STATIC_SYNTAX_AND_SOURCE_BINDING_PASS",
+  "viewer_sha256": "16e466666d78b4402970d309a8ded779c4941d4579952b4654a68bf2086ea1c0",
+  "source_sha256": "b150ff3a76cfaaaaa65ee1ea09e144b7c7d64e45459a925163e56918f48bb3c5",
+  "geometry_origin": "NATIVE_ONSHAPE_REGEN",
+  "poses": [
+    {
+      "id": "neutral",
+      "archive_sha256": "4278ba5000a141daa466628d03a2cc08e10267368d6a95dbcdb9546f9ccc63cc",
+      "device_parts": 52
+    },
+    {
+      "id": "max",
+      "archive_sha256": "425e6ce1e7fb3ee712afc0787e9274e73a554df963a1ef1bffe67e798cd4ebc1",
+      "device_parts": 52
+    },
+    {
+      "id": "iso",
+      "archive_sha256": "677debdb1fa5268859ec048491b45c5b21ed764e89226e68e4af2678c1958581",
+      "device_parts": 52
+    }
+  ],
+  "cad_qa": {
+    "nominal_status": "NOMINAL_GEOMETRY_CHECKS_PASS",
+    "message": "Native clearance, legal motion/service paths and STEP checks pass. Omron remains a drawing reference with conservative tab/lug envelopes and approximate lever motion; real actuation/travel, cam reset/lock and wiring remain unqualified. 500 N is a target only."
+  },
+  "browser_qa": "PENDING_PARENT_UI_QA",
+  "switch_geometry": {
+    "source": "Omron SS series manufacturer dimensioned drawing; not factory STEP",
+    "part_number": "SS-01GL2",
+    "relocation_from_R3_mm": [
+      4,
+      1,
+      1.5
+    ],
+    "drawing_source_path": "vendor/omron_ss5gl2/SS_datasheet.pdf",
+    "drawing_sha256": "b7c3cc9e838c1049d58772242b56cd06af3526ac422907769acd892668ba1a09",
+    "drawing_url": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-ss.pdf",
+    "terminal_and_lug_shape": "Conservative nominal dimensioned envelopes; exact profiles unresolved",
+    "actuator": "Illustrative hinge/roller proxy, not factory CAD or qualified mechanism",
+    "actual_TE_force_sensor_retained": true,
+    "mount_and_cam_relocated_in_native_source": true,
+    "physical_actuation_and_wiring_qualified": false,
+    "nominal_drawing_envelope_checks_passed": true,
+    "actual_operation_total_travel_cam_lock_wiring_qualified": false
+  },
+  "step": {
+    "path": "native/Flat132_R4_final_AP214.step",
+    "sha256": "9ae3f82a0539de9acd6eb8fc371589962c0a65632afe98e7b7a4e3602ac8f255",
+    "geometry_origin": "NATIVE_ONSHAPE_REGEN",
+    "geometry_source_sha256": "b150ff3a76cfaaaaa65ee1ea09e144b7c7d64e45459a925163e56918f48bb3c5"
+  },
+  "package_ready": true,
+  "javascript_syntax": "NODE_CHECK_PASS"
+}

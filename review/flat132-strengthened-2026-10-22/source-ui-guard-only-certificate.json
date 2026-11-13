@@ -1,0 +1,9 @@
+{
+  "prior_source_sha256": "6c877ec401051cdf840a93bb28dfeb9c3fb5a13f5324c93b567c8f87e0dfa2ad",
+  "final_source_sha256": "d5eca2f3d87bf4b9a47c1987ee91ba1d56e8c87003eca101677a148a2e605654",
+  "exact_single_replacement_old": "definition.previewTravel > maxDynamicTravel",
+  "exact_single_replacement_new": "definition.previewTravel > maxDynamicTravel + 1e-6*mm",
+  "ui_guard_tolerance_mm": 1e-06,
+  "coordinate_or_geometry_expression_changes": false,
+  "validation_domain_extension": false
+}

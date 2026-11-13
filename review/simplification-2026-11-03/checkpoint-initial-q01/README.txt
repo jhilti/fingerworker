@@ -1,0 +1,1 @@
+Superseded initial Q01 check. The first grounded block assumed nominal base Z4 and used tangent-solid common for face areas. Final Q01 instead seats on the actual sensor-pocket floor Z2.7, and contacts are verified using signed1µm penetration witnesses. See ../fixture/validation.json for the current hash-bound native check. This checkpoint is not included in the print package.

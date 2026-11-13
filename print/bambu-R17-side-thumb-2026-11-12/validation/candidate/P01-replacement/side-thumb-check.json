@@ -1,0 +1,100 @@
+{
+  "status": "PASS_R17_SIDE_THUMB_PRINT_SURFACES",
+  "candidate": true,
+  "replacement": true,
+  "checks": [
+    {
+      "name": "Open side-thumb contact cavity has no support bead negative",
+      "status": "PASS",
+      "center_xy_mm": [
+        -24,
+        -75
+      ],
+      "radius_mm": 14,
+      "radial_round_allowance_mm": 0.4,
+      "z_mm": [
+        20.05,
+        33.1
+      ],
+      "intrusions": []
+    },
+    {
+      "name": "Side-thumb curved wall printed across layers negative",
+      "status": "PASS",
+      "outer_wall_segments": 978,
+      "layers": 49
+    },
+    {
+      "name": "Side-thumb floor and lower round emitted negative",
+      "status": "PASS",
+      "model_segments": 226
+    },
+    {
+      "name": "No outer-wall restart in deepest thumb-seat center negative",
+      "status": "PASS",
+      "central_restart_points_mm": [],
+      "all_cavity_restart_points_mm": [],
+      "method": "Observed extrusion starts after travel/retraction or feature change; seam candidates, not explicit slicer seam markers. Central means X within 3 mm of the cutter center and within 1.2 mm of deepest radial contact, above the floor round and below the crown."
+    },
+    {
+      "name": "Open side-thumb contact cavity has no support bead positive",
+      "status": "PASS",
+      "center_xy_mm": [
+        -24,
+        75
+      ],
+      "radius_mm": 14,
+      "radial_round_allowance_mm": 0.4,
+      "z_mm": [
+        20.05,
+        33.1
+      ],
+      "intrusions": []
+    },
+    {
+      "name": "Side-thumb curved wall printed across layers positive",
+      "status": "PASS",
+      "outer_wall_segments": 957,
+      "layers": 49
+    },
+    {
+      "name": "Side-thumb floor and lower round emitted positive",
+      "status": "PASS",
+      "model_segments": 230
+    },
+    {
+      "name": "No outer-wall restart in deepest thumb-seat center positive",
+      "status": "PASS",
+      "central_restart_points_mm": [],
+      "all_cavity_restart_points_mm": [],
+      "method": "Observed extrusion starts after travel/retraction or feature change; seam candidates, not explicit slicer seam markers. Central means X within 3 mm of the cutter center and within 1.2 mm of deepest radial contact, above the floor round and below the crown."
+    }
+  ],
+  "failures": [],
+  "metrics": [
+    {
+      "name": "negative",
+      "wall_layers": 49,
+      "floor_model_segments": 226,
+      "support_intrusions": 0,
+      "outer_wall_restarts": 0,
+      "central_restarts": 0
+    },
+    {
+      "name": "positive",
+      "wall_layers": 49,
+      "floor_model_segments": 230,
+      "support_intrusions": 0,
+      "outer_wall_restarts": 0,
+      "central_restarts": 0
+    }
+  ],
+  "CAD_source_sha256": "780dfdbaf9c6ab4bf4bbf3ab3de0dab3f9ac7dc5f8de49cf015c51ee95cc16e4",
+  "layout_sha256": "57d2d1cb26733c6e7ad617facd09e1021c6b582682a0e25de3e4d0da9d52f67b",
+  "project_sha256": "197ee1b88a45c6d3b0daf596d285a607da25eab8247a3dabe76b0083d25d81d3",
+  "sliced_archive_sha256": "b688618de8095e6415c4a86580bfed92e359f0b646a4bcee77f34af6fb530dd0",
+  "regions_sha256": "6ca901f2b29479d1f41ae7a17c363698c237db9e9bca333539f7527e7916ce52",
+  "validator_sha256": "acd7a601bb54ec0c07dd1083a7f14db338f82ece8d303c2ffd943ecf36ef7401",
+  "scope": "Whole support bead XY sweep and layer height tested against each open cutter disk plus the explicitly declared round allowance above its hand-facing floor. Floor underside supports below the contact plane are outside this check. Curved outer wall layers and floor/round model paths must exist.",
+  "limitations": "Nominal sliced paths only; actual hand fit, surface texture and support removal remain physical checks."
+}

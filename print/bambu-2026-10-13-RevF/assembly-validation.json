@@ -1,0 +1,1239 @@
+{
+  "status": "PASS",
+  "source_sha256": "3ce2ccb3a6c37c69c63360babe13875d888fffc027db59ded19bce5df076d1ac",
+  "stages": [
+    {
+      "stage": "Griff von hinten einschieben",
+      "moving_part": "P04",
+      "installed_parts": [
+        "P01",
+        "P02",
+        "P03a",
+        "P03b",
+        "H11",
+        "H15"
+      ],
+      "axis": "X",
+      "checks": [
+        {
+          "offset_mm": 0.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 2.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 4.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 6.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 8.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 10.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 12.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 14.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 16.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 18.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 20.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 22.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 24.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 26.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 28.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 30.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 32.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 34.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 36.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 38.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 40.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 42.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 44.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 46.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 48.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 50.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 52.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 54.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 56.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 58.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 60.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 62.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 64.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 66.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 68.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 70.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 72.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 74.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 76.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 78.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 80.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 82.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 84.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 86.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 88.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 90.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 92.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 94.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 96.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 98.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 100.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 102.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 104.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 106.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 108.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 110.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 112.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 114.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 116.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 118.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 120.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 122.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 124.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 126.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 128.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 130.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 132.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 134.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 136.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 138.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 140.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 142.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 144.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 146.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 148.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 150.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 152.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 154.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 156.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 158.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 160.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 162.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 164.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 166.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 168.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 170.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 172.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 174.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 176.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 178.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 180.0,
+          "intersection_mm3": 0.0
+        }
+      ],
+      "continuous_sweep_intersection_mm3": 0.0
+    },
+    {
+      "stage": "Handballenauflage von oben aufsetzen",
+      "moving_part": "P02",
+      "installed_parts": [
+        "P01",
+        "P04",
+        "P05"
+      ],
+      "axis": "Z",
+      "checks": [
+        {
+          "offset_mm": 0.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 0.5,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 1.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 2.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 5.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 10.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 20.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 40.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 80.0,
+          "intersection_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "stage": "Linke starre Halbschale seitlich an die noch unmontierte Auflage setzen",
+      "moving_part": "P03a",
+      "installed_parts": [
+        "P02"
+      ],
+      "axis": "X",
+      "checks": [
+        {
+          "offset_mm": 0.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": -0.5,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": -1.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": -2.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": -5.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": -10.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": -20.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": -40.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": -80.0,
+          "intersection_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "stage": "Rechte starre Halbschale seitlich an die noch unmontierte Auflage setzen",
+      "moving_part": "P03b",
+      "installed_parts": [
+        "P02",
+        "P03a"
+      ],
+      "axis": "X",
+      "checks": [
+        {
+          "offset_mm": 0.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 0.5,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 1.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 2.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 5.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 10.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 20.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 40.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 80.0,
+          "intersection_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "stage": "Vormontierte Handballenauflage mit Halbschalen von oben aufsetzen",
+      "moving_part": "P02_with_shells",
+      "installed_parts": [
+        "P01",
+        "P04",
+        "P05"
+      ],
+      "axis": "Z",
+      "checks": [
+        {
+          "offset_mm": 0.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 0.5,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 1.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 2.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 5.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 10.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 20.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 40.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 80.0,
+          "intersection_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "stage": "Vorspannungsmutter vor der Kassette von vorne einsetzen",
+      "moving_part": "H11",
+      "installed_parts": [
+        "P01"
+      ],
+      "axis": "X",
+      "checks": [
+        {
+          "offset_mm": 0.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 0.5,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 1.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 2.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 5.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 10.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 20.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 40.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 80.0,
+          "intersection_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "stage": "Halteplatte von hinten in die Vertiefung setzen",
+      "moving_part": "H15",
+      "installed_parts": [
+        "P01",
+        "H11"
+      ],
+      "axis": "X",
+      "checks": [
+        {
+          "offset_mm": 0.0,
+          "intersection_mm3": 5.50010341091034e-15
+        },
+        {
+          "offset_mm": -0.5,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": -1.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": -2.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": -5.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": -10.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": -20.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": -40.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": -80.0,
+          "intersection_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "stage": "Sensorkassette von oben einsetzen, seitliche Schrauben danach",
+      "moving_part": "H12",
+      "installed_parts": [
+        "P01",
+        "H11",
+        "H15"
+      ],
+      "axis": "Z",
+      "checks": [
+        {
+          "offset_mm": 0.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 0.5,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 1.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 2.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 5.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 10.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 20.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 40.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 80.0,
+          "intersection_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "stage": "Federjoch mit vormontiertem Druckstift um 6 mm nach vorne versetzt absenken",
+      "moving_part": "P05_offset_6",
+      "installed_parts": [
+        "P01",
+        "P04",
+        "H12",
+        "H01",
+        "H01a",
+        "H01b",
+        "H01c",
+        "H01d"
+      ],
+      "axis": "Z",
+      "checks": [
+        {
+          "offset_mm": 0.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 0.5,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 1.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 2.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 5.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 10.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 20.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 40.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 80.0,
+          "intersection_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "stage": "Abgesenktes Federjoch waagrecht 6 mm nach hinten an den Sensor schieben",
+      "moving_part": "P05_with_pusher",
+      "installed_parts": [
+        "P01",
+        "P04",
+        "H12",
+        "H01",
+        "H01a",
+        "H01b",
+        "H01c",
+        "H01d"
+      ],
+      "axis": "X",
+      "checks": [
+        {
+          "offset_mm": 0.0,
+          "intersection_mm3": -2.6203811256259035e-17
+        },
+        {
+          "offset_mm": 0.25,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 0.5,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 0.75,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 1.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 1.25,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 1.5,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 1.75,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 2.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 2.25,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 2.5,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 2.75,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 3.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 3.25,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 3.5,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 3.75,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 4.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 4.25,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 4.5,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 4.75,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 5.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 5.25,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 5.5,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 5.75,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 6.0,
+          "intersection_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "stage": "Stab von hinten durch Griff und Joch in vorderen Sackloch-Sockel schieben",
+      "moving_part": "H040",
+      "installed_parts": [
+        "P01",
+        "P04",
+        "P05"
+      ],
+      "axis": "X",
+      "checks": [
+        {
+          "offset_mm": 0.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 0.5,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 1.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 2.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 5.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 10.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 20.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 40.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 80.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 160.0,
+          "intersection_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "stage": "Stab von hinten durch Griff und Joch in vorderen Sackloch-Sockel schieben",
+      "moving_part": "H041",
+      "installed_parts": [
+        "P01",
+        "P04",
+        "P05"
+      ],
+      "axis": "X",
+      "checks": [
+        {
+          "offset_mm": 0.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 0.5,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 1.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 2.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 5.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 10.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 20.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 40.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 80.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 160.0,
+          "intersection_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "stage": "Hinteren Halter von hinten auf Stabende schieben und danach verschrauben",
+      "moving_part": "P060",
+      "installed_parts": [
+        "P01",
+        "P04",
+        "H040"
+      ],
+      "axis": "X",
+      "checks": [
+        {
+          "offset_mm": 0.0,
+          "intersection_mm3": -1.3322676295501878e-15
+        },
+        {
+          "offset_mm": 0.5,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 1.0,
+          "intersection_mm3": 1.1308364184295372e-15
+        },
+        {
+          "offset_mm": 2.0,
+          "intersection_mm3": 1.982717782273921e-15
+        },
+        {
+          "offset_mm": 5.0,
+          "intersection_mm3": 9.122910760162029e-15
+        },
+        {
+          "offset_mm": 10.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 20.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 40.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 80.0,
+          "intersection_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "stage": "Hinteren Halter von hinten auf Stabende schieben und danach verschrauben",
+      "moving_part": "P061",
+      "installed_parts": [
+        "P01",
+        "P04",
+        "H041"
+      ],
+      "axis": "X",
+      "checks": [
+        {
+          "offset_mm": 0.0,
+          "intersection_mm3": -1.0547118733938987e-15
+        },
+        {
+          "offset_mm": 0.5,
+          "intersection_mm3": 1.734723475976807e-18
+        },
+        {
+          "offset_mm": 1.0,
+          "intersection_mm3": 3.830323645065414e-15
+        },
+        {
+          "offset_mm": 2.0,
+          "intersection_mm3": 2.844401011383932e-15
+        },
+        {
+          "offset_mm": 5.0,
+          "intersection_mm3": 5.408000436357696e-15
+        },
+        {
+          "offset_mm": 10.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 20.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 40.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": 80.0,
+          "intersection_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "stage": "Geschlossene Elektronikwanne von unten montieren",
+      "moving_part": "P08",
+      "installed_parts": [
+        "P01",
+        "P02",
+        "P03a",
+        "P03b"
+      ],
+      "axis": "Z",
+      "checks": [
+        {
+          "offset_mm": 0.0,
+          "intersection_mm3": 3.0608963152480643e-16
+        },
+        {
+          "offset_mm": -0.5,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": -1.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": -2.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": -5.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": -10.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": -20.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": -40.0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "offset_mm": -80.0,
+          "intersection_mm3": 0.0
+        }
+      ]
+    }
+  ],
+  "fasteners": [
+    {
+      "type": "rear M3x8, head Ø5.5x3",
+      "axis_mm": [
+        129.5,
+        -83
+      ],
+      "cap_intersection_mm3": 1.451632359510211e-16,
+      "nominal_insert_engagement_mm": 2.5
+    },
+    {
+      "type": "rear M3x8, head Ø5.5x3",
+      "axis_mm": [
+        129.5,
+        -67
+      ],
+      "cap_intersection_mm3": -2.8970305565286306e-16,
+      "nominal_insert_engagement_mm": 2.5
+    },
+    {
+      "type": "rear M3x8, head Ø5.5x3",
+      "axis_mm": [
+        129.5,
+        67
+      ],
+      "cap_intersection_mm3": -1.8024978908090739e-16,
+      "nominal_insert_engagement_mm": 2.5
+    },
+    {
+      "type": "rear M3x8, head Ø5.5x3",
+      "axis_mm": [
+        129.5,
+        83
+      ],
+      "cap_intersection_mm3": -1.4780513171350727e-16,
+      "nominal_insert_engagement_mm": 2.5
+    },
+    {
+      "type": "palm M4x10, head Ø7x4",
+      "axis_mm": [
+        -15,
+        -56
+      ],
+      "palm_intersection_mm3": 7.923349476524066e-16,
+      "nominal_insert_engagement_mm": 6
+    },
+    {
+      "type": "palm M4x10, head Ø7x4",
+      "axis_mm": [
+        -15,
+        -45
+      ],
+      "palm_intersection_mm3": 7.923349476524066e-16,
+      "nominal_insert_engagement_mm": 6
+    },
+    {
+      "type": "palm M4x10, head Ø7x4",
+      "axis_mm": [
+        -15,
+        45
+      ],
+      "palm_intersection_mm3": 8.495808223596413e-16,
+      "nominal_insert_engagement_mm": 6
+    },
+    {
+      "type": "palm M4x10, head Ø7x4",
+      "axis_mm": [
+        -15,
+        56
+      ],
+      "palm_intersection_mm3": 7.923349476524066e-16,
+      "nominal_insert_engagement_mm": 6
+    }
+  ],
+  "rigid_palm_source_sha256": "d7642f53aefd3ab03dafa2f2f96605f2309f2de41ae693714aea46c08e109a38",
+  "rigid_palm_validation": {
+    "status": "PASS",
+    "material": "PETG or PLA, rigid assessment only",
+    "inner_diameter_mm": 16.1,
+    "palm_core_diameter_mm": 15.5,
+    "radial_clearance_mm": 0.3,
+    "split_gap_mm": 0.3,
+    "parts": [
+      {
+        "file": "P03a_Palm_shell_left_PETG_MOCKUP.stl",
+        "sha256": "1887849c7029943fc487221f181153fcd5de5a5fb557b166d2c8431aff04c504",
+        "volume_mm3": 3714.295184875151,
+        "valid_single_solid": true
+      },
+      {
+        "file": "P03b_Palm_shell_right_PETG_MOCKUP.stl",
+        "sha256": "bd3d2855b433693b5e28251d524b4c2522813fa8c2e05c47b84c1146e7509622",
+        "volume_mm3": 3714.2950110758948,
+        "valid_single_solid": true
+      }
+    ]
+  },
+  "exclusions": [
+    "Rigid PETG/PLA shells are retained temporarily with tape; hard return-pad mockups provide no TPU damping",
+    "No compressed-spring installation/load test; assessment build remains spring-free",
+    "Printed metal mockups have plain envelopes/core holes, requiring purchased fasteners and thread finishing or metal parts for a functional build",
+    "Real PCB, cell, cable bundle and insert-manufacturer dimensions still require fitting"
+  ],
+  "conclusion": "Rear insertion, top-loaded rigid subassemblies, rod threading, rear caps and electronics approach are nominally assemblable in the documented sequence."
+}

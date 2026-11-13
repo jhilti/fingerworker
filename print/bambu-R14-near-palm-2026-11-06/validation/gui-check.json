@@ -1,0 +1,13 @@
+{
+  "status": "NOT_COMPLETED_EXISTING_UNSAVED_USER_PROJECT",
+  "project_file": "print/bambu-R14-near-palm-2026-11-06/Fingerworker_R14_H2D_04mm_PLA_Near_Palm.3mf",
+  "project_sha256": "62504e043e33255dd9de14eb83e0b5781f304bf02dd1950de56c2f67519e287c",
+  "observations": [
+    "Connected Bambu Studio contains an unrelated unsaved project named * drag_4.",
+    "Device view shows an unrelated active Bubbler3DPrint_5_watersealed job.",
+    "Two File > New Window actions did not expose a separate empty window through the native UI. Existing unsaved project was preserved; R14 project was not substituted."
+  ],
+  "scope": "Native GUI reopen/slice only. Official Bambu CLI import, slicing and actual-toolpath audits are recorded separately.",
+  "print_started": false,
+  "existing_printer_job_modified": false
+}

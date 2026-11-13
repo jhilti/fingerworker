@@ -1,0 +1,4 @@
+{
+  "nominal_status": "NOMINAL_GEOMETRY_CHECKS_PASS",
+  "message": "ISO81, legal stroke/preload/calibration motion and STEP checks passed. Omron remains drawing-derived; real switch calibration, clamp locking, printed strength, fit and the 500 N target require physical qualification."
+}

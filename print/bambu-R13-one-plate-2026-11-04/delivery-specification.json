@@ -1,0 +1,96 @@
+{
+  "status": "PASS_R13_ONE_PLATE_DELIVERY",
+  "date": "2026-11-04",
+  "cad_revision": "R13",
+  "CAD_source_sha256": "82b7d65708c46cd9d4b6ac271047eac2f638f0222451df99eae0780525edd851",
+  "onshape_version": "18d76d07da0c354cee82580a",
+  "plate_count": 1,
+  "object_count": 10,
+  "device_parts": 7,
+  "unloaded_fixtures": 3,
+  "estimates": [
+    {
+      "plate": 1,
+      "seconds": 65754,
+      "grams": 273.1,
+      "objects": 10
+    }
+  ],
+  "estimated_seconds": 65754,
+  "estimated_grams": 273.1,
+  "verification": {
+    "print/bambu-R13-one-plate-2026-11-04/validation/native-project-check.json": {
+      "status": "NATIVE_PROJECT_AND_SINGLE_PLATE_SLICE_PASS",
+      "sha256": "86c73387518ab61d936ee39a136bcc730c5e9b34d5d915a700e659d44b4fbe63"
+    },
+    "print/bambu-R13-one-plate-2026-11-04/validation/toolpath-check.json": {
+      "status": "PASS_ACTUAL_R13_ONE_PLATE_TOOLPATHS",
+      "sha256": "7e5b96a1a702efd10eac21e70ada41433d5365f3f2bcc5dae60dbc58f2f6bf0e"
+    },
+    "print/bambu-R13-one-plate-2026-11-04/validation/print-feature-check.json": {
+      "status": "PASS_ONE_PLATE_R13_PRINT_FEATURES",
+      "sha256": "e4637a006316da1c9045701e587f7974c1e4690691a7a7348b3a142239c0cfb2"
+    },
+    "print/bambu-R13-one-plate-2026-11-04/validation/palm-support-check.json": {
+      "status": "PASS_ONE_PLATE_R13_PALM_SUPPORTS",
+      "sha256": "bcbf7250a47715d7a6ec82189a46ffc746b307f26f91a0ab7ac3755486f778e8"
+    },
+    "print/bambu-R13-one-plate-2026-11-04/validation/p04-surface-check.json": {
+      "status": "PASS",
+      "sha256": "914dd95d2a32bfb8882497f52d5c659221bf6829621ffe9d1f080637cae81daa"
+    },
+    "print/bambu-R13-one-plate-2026-11-04/validation/cli-diagnostics.json": {
+      "status": "PASS_ONE_PLATE_OFFICIAL_H2D_DIAGNOSTICS",
+      "sha256": "a16c53754fb469a972377350b66e753f06b190ebccb3b6cff739a4bb57181564"
+    },
+    "print/bambu-R13-one-plate-2026-11-04/validation/model-coverage-check.json": {
+      "status": "PASS_NORMALIZED_MODEL_TOOLPATH_COVERAGE",
+      "sha256": "f1a1e44fc3dd3e9ef8dd06c397835b9f5855c82bd598ba852cb7c2a95d10eba2"
+    },
+    "print/bambu-R13-one-plate-2026-11-04/validation/model-coverage-independent-review.json": {
+      "status": "PASS_INDEPENDENT_BOUNDED_SEAM_REVIEW",
+      "sha256": "b56cfafb2708d722a20eed0e6b9057fb830a3ef3b9d20250954a80589ecd8a4e"
+    },
+    "print/bambu-R13-one-plate-2026-11-04/validation/connected-gui-check.json": {
+      "status": "PASS_CONNECTED_BAMBU_STUDIO_SLICE",
+      "sha256": "13d80552ccfc11c5c6f8a21be6a9e55b9e45ea2380416a8442b4943cea4f0702"
+    }
+  },
+  "frozen_cad_specification_sha256": "204d9a9c321c00a0fe818b6b14307f36b5a0d6a4be19912739c68df55c0e3059",
+  "files_sha256": {
+    "print/bambu-R13-one-plate-2026-11-04/Fingerworker_R13_H2D_04mm_PLA_One_Plate.3mf": "66f59b312d726439725f279a1fc68cb35d09b219f85b8be1b8f500277dc97dd3",
+    "print/bambu-R13-one-plate-2026-11-04/Fingerworker_R13_H2D_04mm_PLA_One_Plate_Package.zip": "41892ec7368c029c06cca37f509d62af798b46c31962d8ffaa912d13870ad676",
+    "print/bambu-R13-one-plate-2026-11-04/plate-layout.json": "44f0a185c5e1af6e83725e6399bbfb087733e67b517a40925fae97d03e2bf4ce",
+    "print/bambu-R13-one-plate-2026-11-04/SHA256.json": "28378139617bacade19b4c0de9377f41131f079d572eb61f067b21a81407446c"
+  },
+  "geometry_changes": false,
+  "connected_device_preview": {
+    "date": "2026-11-04",
+    "status": "PASS_CONNECTED_BAMBU_STUDIO_SLICE",
+    "application": "Bambu Studio",
+    "printer": "Bambu Lab H2D",
+    "nozzles_mm": [
+      0.4,
+      0.4
+    ],
+    "nozzle_flow": [
+      "Standard",
+      "Standard"
+    ],
+    "plates": 1,
+    "pieces": 10,
+    "material": "Generic PLA",
+    "filament_changes": 0,
+    "displayed_estimate": "19 h 15 min",
+    "displayed_filament_g": 273.14,
+    "printer_job_started": false,
+    "opened_generic_project": "Fingerworker_R13_H2D_04mm_PLA_One_Plate.3mf",
+    "opened_generic_project_sha256": "66f59b312d726439725f279a1fc68cb35d09b219f85b8be1b8f500277dc97dd3",
+    "synchronization": "Nozzle/AMS configuration synchronized from connected printer. Bambu Studio automatically disabled arc fitting after detecting advanced curve planning. GUI project changes remain unsaved; packaged generic project is unchanged.",
+    "evidence": {
+      "BambuStudio-connected-slice.png": "7bf4412e55ea218cc6130c6359e4737f6f9039b66cc97ae7c26964d0e1c1266d",
+      "BambuStudio-one-plate-ready.png": "ff847ea90ffb3515754b01fa42c46842df9cc253f4b2d0b905fdb1a9adf01f1b"
+    },
+    "scope": "Successful local GUI slice and visible one-plate layout; no print transmitted. PLA spool mapping and print start remain with user."
+  }
+}

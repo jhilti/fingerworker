@@ -1,0 +1,911 @@
+{
+  "status": "EDITABLE_SEED_AUTHORED_PENDING_NATIVE_IMPORT_AND_SLICE",
+  "CAD_source_path": "review/flat132-click-assembly-2026-11-03/fingerworker_flat132_PLA_click.fs",
+  "CAD_source_sha256": "c8ec18f08149553001ccf8173f35fe57eee6a16be0294be2d7f88577f658cf5e",
+  "native_R11_version": "a6ea6390a313176b40101f6b",
+  "slicer_version": "02.08.02.61",
+  "printer": "H2D",
+  "nozzle_mm": 0.4,
+  "material": "PLA",
+  "bed": "Textured PEI Plate",
+  "plate_count": 3,
+  "object_count": 13,
+  "safe_shared_XY_mm": [
+    [
+      27,
+      3
+    ],
+    [
+      323,
+      317
+    ]
+  ],
+  "native_machine_macros_modified": false,
+  "no_printer_transmission": true,
+  "placements": [
+    {
+      "ref": "P01",
+      "source_path": "review/flat132-click-assembly-2026-11-03/print-mm/P01.stl",
+      "source_sha256": "4e28906af6d80ebc87aa64fc7d022fdb659e7c2294ffd172016f16ea2236d545",
+      "source_geometry": "NATIVE_R11_ONSHAPE_STL",
+      "CAD_source_sha256": "c8ec18f08149553001ccf8173f35fe57eee6a16be0294be2d7f88577f658cf5e",
+      "material": "PLA",
+      "intent": "INTEGRATED BASE AND SOLID PALM - UNLOADED FIT STUDY",
+      "orientation": "Base floor down; palm supports open toward outer wrist edge",
+      "rotation_3x3": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "plate": 1,
+      "plate_xy_mm": [
+        70,
+        80
+      ],
+      "brim_mm": 5,
+      "reserved_margin_mm": 6,
+      "normalization_translation_mm": [
+        46.10000228881836,
+        66.0,
+        2.0
+      ],
+      "size_oriented_mm": [
+        175.10000228881836,
+        132.0,
+        35.0
+      ],
+      "volume_mm3": 162200.99201992046,
+      "faces": 63976,
+      "units": "mm",
+      "scale": 1.0,
+      "reserved_bounds_xy_mm": [
+        64,
+        74,
+        251.10000228881836,
+        218.0
+      ]
+    },
+    {
+      "ref": "P04",
+      "source_path": "review/flat132-click-assembly-2026-11-03/print-mm/P04.stl",
+      "source_sha256": "fdb84301af40be4ca84b838ebc1847b18ac0b2854818e3bfe63c1085d6ff0b7c",
+      "source_geometry": "NATIVE_R11_ONSHAPE_STL",
+      "CAD_source_sha256": "c8ec18f08149553001ccf8173f35fe57eee6a16be0294be2d7f88577f658cf5e",
+      "material": "PLA",
+      "intent": "R11 PLA assembly study",
+      "orientation": "Original Xmin front end down; contact wall upward, bed-only slim tree supports",
+      "rotation_3x3": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "normalization_translation_mm": [
+        30.0,
+        63.0,
+        -60.0
+      ],
+      "plate_xy_mm": [
+        100,
+        80
+      ],
+      "size_oriented_mm": [
+        25.0,
+        126.0,
+        59.0
+      ],
+      "brim_mm": 5,
+      "reserved_margin_mm": 6,
+      "reserved_bounds_xy_mm": [
+        94,
+        74,
+        131.0,
+        212.0
+      ],
+      "volume_mm3": 76807.90953739692,
+      "faces": 51838,
+      "units": "mm",
+      "scale": 1.0,
+      "plate": 3
+    },
+    {
+      "ref": "P05",
+      "source_path": "review/flat132-click-assembly-2026-11-03/print-mm/P05.stl",
+      "source_sha256": "6083038072852dafc4bf786e39c2e6d9926e0092d3037399cb4943430b41310b",
+      "source_geometry": "NATIVE_R11_ONSHAPE_STL",
+      "CAD_source_sha256": "c8ec18f08149553001ccf8173f35fe57eee6a16be0294be2d7f88577f658cf5e",
+      "material": "PLA",
+      "intent": "R11 PLA assembly study",
+      "orientation": "Native Z up; integral stop undersides on bed",
+      "rotation_3x3": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "normalization_translation_mm": [
+        7.0,
+        63.0,
+        -7.0
+      ],
+      "plate_xy_mm": [
+        210,
+        20
+      ],
+      "size_oriented_mm": [
+        37.0,
+        126.0,
+        22.0
+      ],
+      "brim_mm": 5,
+      "reserved_margin_mm": 6,
+      "reserved_bounds_xy_mm": [
+        204,
+        14,
+        253.0,
+        152.0
+      ],
+      "volume_mm3": 50903.03981247483,
+      "faces": 15564,
+      "units": "mm",
+      "scale": 1.0,
+      "plate": 2
+    },
+    {
+      "ref": "P08",
+      "source_path": "review/flat132-click-assembly-2026-11-03/print-mm/P08.stl",
+      "source_sha256": "29a034f53760f6cfaa3be2947f484f25bcba5884466165ec51f9fc0682762a3d",
+      "source_geometry": "NATIVE_R11_ONSHAPE_STL",
+      "CAD_source_sha256": "c8ec18f08149553001ccf8173f35fe57eee6a16be0294be2d7f88577f658cf5e",
+      "material": "PLA",
+      "intent": "R11 PLA assembly study",
+      "orientation": "Native Z up; rotated on bed",
+      "rotation_3x3": [
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "normalization_translation_mm": [
+        65.5,
+        47.099998474121094,
+        -0.0
+      ],
+      "plate_xy_mm": [
+        40,
+        20
+      ],
+      "size_oriented_mm": [
+        131.0,
+        23.499998092651367,
+        16.200000762939453
+      ],
+      "brim_mm": 3,
+      "reserved_margin_mm": 5,
+      "reserved_bounds_xy_mm": [
+        35,
+        15,
+        176.0,
+        48.49999809265137
+      ],
+      "volume_mm3": 5041.4723068585745,
+      "faces": 8842,
+      "units": "mm",
+      "scale": 1.0,
+      "plate": 2
+    },
+    {
+      "ref": "P09",
+      "source_path": "review/flat132-click-assembly-2026-11-03/print-mm/P09.stl",
+      "source_sha256": "296eb851b02ae7f12a7f7f4f5218e5e7571881974583dbf5648ab356c11e0a05",
+      "source_geometry": "NATIVE_R11_ONSHAPE_STL",
+      "CAD_source_sha256": "c8ec18f08149553001ccf8173f35fe57eee6a16be0294be2d7f88577f658cf5e",
+      "material": "PLA",
+      "intent": "R11 PLA assembly study",
+      "orientation": "Outer lid face down",
+      "rotation_3x3": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "normalization_translation_mm": [
+        55.0,
+        48.599998474121094,
+        8.899999618530273
+      ],
+      "plate_xy_mm": [
+        40,
+        65
+      ],
+      "size_oriented_mm": [
+        110.0,
+        24.999998092651367,
+        6.749999523162842
+      ],
+      "brim_mm": 2,
+      "reserved_margin_mm": 3,
+      "reserved_bounds_xy_mm": [
+        37,
+        62,
+        153.0,
+        92.99999809265137
+      ],
+      "volume_mm3": 2658.907364453537,
+      "faces": 2900,
+      "units": "mm",
+      "scale": 1.0,
+      "plate": 2
+    },
+    {
+      "ref": "H040",
+      "source_path": "review/flat132-palm-bracing-2026-10-25/assembly-mm/H040.stl",
+      "source_sha256": "ed73c2217009079342531d1dd16e68c206790ab2f2ca3b5e85f41e866079d427",
+      "source_geometry": "FROZEN_R9_NATIVE_STL",
+      "CAD_source_sha256": "16972ba9341f4cdf763a5570dad82a4fbd601f0935d0a7657be85813f97ff2b1",
+      "material": "PLA",
+      "intent": "RIGID PLA SHAPE PROXY - NO LOAD",
+      "orientation": "Horizontal native rod axis; rigid shape proxy only",
+      "rotation_3x3": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "normalization_translation_mm": [
+        16.0,
+        54.0,
+        -15.0
+      ],
+      "plate_xy_mm": [
+        40,
+        110
+      ],
+      "size_oriented_mm": [
+        141.0,
+        6.0,
+        6.0
+      ],
+      "brim_mm": 3,
+      "reserved_margin_mm": 3,
+      "reserved_bounds_xy_mm": [
+        37,
+        107,
+        184.0,
+        119.0
+      ],
+      "volume_mm3": 3985.4164653540956,
+      "faces": 576,
+      "units": "mm",
+      "scale": 1.0,
+      "plate": 2
+    },
+    {
+      "ref": "H041",
+      "source_path": "review/flat132-palm-bracing-2026-10-25/assembly-mm/H041.stl",
+      "source_sha256": "c3b51c917e3598d19a26ff32510401be6405293cc25d02f78f5a0891912a6a19",
+      "source_geometry": "FROZEN_R9_NATIVE_STL",
+      "CAD_source_sha256": "16972ba9341f4cdf763a5570dad82a4fbd601f0935d0a7657be85813f97ff2b1",
+      "material": "PLA",
+      "intent": "RIGID PLA SHAPE PROXY - NO LOAD",
+      "orientation": "Horizontal native rod axis; rigid shape proxy only",
+      "rotation_3x3": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "normalization_translation_mm": [
+        16.0,
+        -48.0,
+        -15.0
+      ],
+      "plate_xy_mm": [
+        40,
+        130
+      ],
+      "size_oriented_mm": [
+        141.0,
+        6.0,
+        6.0
+      ],
+      "brim_mm": 3,
+      "reserved_margin_mm": 3,
+      "reserved_bounds_xy_mm": [
+        37,
+        127,
+        184.0,
+        139.0
+      ],
+      "volume_mm3": 3985.4164653540956,
+      "faces": 576,
+      "units": "mm",
+      "scale": 1.0,
+      "plate": 2
+    },
+    {
+      "ref": "P060",
+      "source_path": "review/flat132-click-assembly-2026-11-03/print-mm/P060.stl",
+      "source_sha256": "a70fd69acfbbd9147e33debced9e0e9e9ccff51b61bcb932e3557b26bf1e1d9d",
+      "source_geometry": "NATIVE_R11_ONSHAPE_STL",
+      "CAD_source_sha256": "c8ec18f08149553001ccf8173f35fe57eee6a16be0294be2d7f88577f658cf5e",
+      "material": "PLA",
+      "intent": "R11 PLA assembly study",
+      "orientation": "Native Z up; no internal supports",
+      "rotation_3x3": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "normalization_translation_mm": [
+        -120.5,
+        65.0,
+        -4.5
+      ],
+      "plate_xy_mm": [
+        40,
+        160
+      ],
+      "size_oriented_mm": [
+        9.0,
+        28.0,
+        26.0
+      ],
+      "brim_mm": 3,
+      "reserved_margin_mm": 4,
+      "reserved_bounds_xy_mm": [
+        36,
+        156,
+        53.0,
+        192.0
+      ],
+      "volume_mm3": 2995.5705452133266,
+      "faces": 5864,
+      "units": "mm",
+      "scale": 1.0,
+      "plate": 2
+    },
+    {
+      "ref": "P061",
+      "source_path": "review/flat132-click-assembly-2026-11-03/print-mm/P061.stl",
+      "source_sha256": "ec10843f85cd2df5163e8cf8e75bab815baf713ae1f4d571f4c81d42f20bbced",
+      "source_geometry": "NATIVE_R11_ONSHAPE_STL",
+      "CAD_source_sha256": "c8ec18f08149553001ccf8173f35fe57eee6a16be0294be2d7f88577f658cf5e",
+      "material": "PLA",
+      "intent": "R11 PLA assembly study",
+      "orientation": "Native Z up; no internal supports",
+      "rotation_3x3": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "normalization_translation_mm": [
+        -120.5,
+        -37.0,
+        -4.5
+      ],
+      "plate_xy_mm": [
+        80,
+        160
+      ],
+      "size_oriented_mm": [
+        9.0,
+        28.0,
+        26.0
+      ],
+      "brim_mm": 3,
+      "reserved_margin_mm": 4,
+      "reserved_bounds_xy_mm": [
+        76,
+        156,
+        93.0,
+        192.0
+      ],
+      "volume_mm3": 2995.570545095056,
+      "faces": 5864,
+      "units": "mm",
+      "scale": 1.0,
+      "plate": 2
+    },
+    {
+      "ref": "P120",
+      "source_path": "review/flat132-click-assembly-2026-11-03/print-mm/P120.stl",
+      "source_sha256": "d7d3f82932b6e2a04374b7f776c75559d2cf56402dd803f887ff8ffcd68165bb",
+      "source_geometry": "NATIVE_R11_ONSHAPE_STL",
+      "CAD_source_sha256": "c8ec18f08149553001ccf8173f35fe57eee6a16be0294be2d7f88577f658cf5e",
+      "material": "PLA",
+      "intent": "R11 PLA assembly study",
+      "orientation": "Native Zmax tongue roof down; open fork upward, retention slot vertical",
+      "rotation_3x3": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "normalization_translation_mm": [
+        -119.0,
+        -41.25,
+        26.5
+      ],
+      "plate_xy_mm": [
+        120,
+        160
+      ],
+      "size_oriented_mm": [
+        9.600006103515625,
+        19.5,
+        23.200000047683716
+      ],
+      "brim_mm": 3,
+      "reserved_margin_mm": 4,
+      "reserved_bounds_xy_mm": [
+        116,
+        156,
+        133.60000610351562,
+        183.5
+      ],
+      "volume_mm3": 564.5656981838622,
+      "faces": 1870,
+      "units": "mm",
+      "scale": 1.0,
+      "plate": 2
+    },
+    {
+      "ref": "P121",
+      "source_path": "review/flat132-click-assembly-2026-11-03/print-mm/P121.stl",
+      "source_sha256": "10bd81cfa709e1d3ae60319b03f65c369fb6f202aa63739e600f547eeca86a32",
+      "source_geometry": "NATIVE_R11_ONSHAPE_STL",
+      "CAD_source_sha256": "c8ec18f08149553001ccf8173f35fe57eee6a16be0294be2d7f88577f658cf5e",
+      "material": "PLA",
+      "intent": "R11 PLA assembly study",
+      "orientation": "Native Zmax tongue roof down; open fork upward, retention slot vertical",
+      "rotation_3x3": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "normalization_translation_mm": [
+        -119.0,
+        60.75,
+        26.5
+      ],
+      "plate_xy_mm": [
+        165,
+        160
+      ],
+      "size_oriented_mm": [
+        9.600006103515625,
+        19.5,
+        23.200000047683716
+      ],
+      "brim_mm": 3,
+      "reserved_margin_mm": 4,
+      "reserved_bounds_xy_mm": [
+        161,
+        156,
+        178.60000610351562,
+        183.5
+      ],
+      "volume_mm3": 564.5656981838616,
+      "faces": 1870,
+      "units": "mm",
+      "scale": 1.0,
+      "plate": 2
+    },
+    {
+      "ref": "P11",
+      "source_path": "review/flat132-click-assembly-2026-11-03/print-mm/P11.stl",
+      "source_sha256": "ee81507b31f348ae644d268f5525a825d5eecbd44f580824105b74e3a191d49b",
+      "source_geometry": "NATIVE_R11_ONSHAPE_STL",
+      "CAD_source_sha256": "c8ec18f08149553001ccf8173f35fe57eee6a16be0294be2d7f88577f658cf5e",
+      "material": "PLA",
+      "intent": "R11 PLA assembly study",
+      "orientation": "Native Zmax cam-shoe top down; blind pilot bridges without support",
+      "rotation_3x3": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "normalization_translation_mm": [
+        -62.5,
+        7.699999809265137,
+        19.0
+      ],
+      "plate_xy_mm": [
+        220,
+        180
+      ],
+      "size_oriented_mm": [
+        6.0,
+        8.399999797344208,
+        10.0
+      ],
+      "brim_mm": 2,
+      "reserved_margin_mm": 2,
+      "reserved_bounds_xy_mm": [
+        218,
+        178,
+        228.0,
+        190.3999997973442
+      ],
+      "volume_mm3": 388.75488460182754,
+      "faces": 598,
+      "units": "mm",
+      "scale": 1.0,
+      "plate": 2
+    },
+    {
+      "ref": "Q01",
+      "source_path": "print/bambu-R9-palm-bracing-2026-10-25/fixture/Q01_UNLOADED_TEST_FIXTURE_print-mm.stl",
+      "source_sha256": "4a814328544c999013ab754d2d1c3f9a99e287e034066df127525cfe912a394b",
+      "source_geometry": "SEPARATE_Q01_FIXTURE_PRINT_STL",
+      "CAD_source_sha256": null,
+      "material": "PLA",
+      "intent": "UNLOADED TEST FIXTURE - NOT A PRODUCTION PART",
+      "orientation": "UNLOADED fixture square locator down; supplier print orientation",
+      "rotation_3x3": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "normalization_translation_mm": [
+        8.998221397399902,
+        9.0,
+        -0.0
+      ],
+      "plate_xy_mm": [
+        255,
+        180
+      ],
+      "size_oriented_mm": [
+        17.996442794799805,
+        18.0,
+        28.0
+      ],
+      "brim_mm": 3,
+      "reserved_margin_mm": 3,
+      "reserved_bounds_xy_mm": [
+        252,
+        177,
+        275.9964427947998,
+        201.0
+      ],
+      "volume_mm3": 1597.7201487952952,
+      "faces": 2540,
+      "units": "mm",
+      "scale": 1.0,
+      "plate": 2
+    }
+  ],
+  "object_settings": {
+    "P01": {
+      "brim_type": "outer_only",
+      "brim_width": "5",
+      "brim_object_gap": "0.1",
+      "enable_support": "1",
+      "support_type": "normal(auto)",
+      "support_on_build_plate_only": "1",
+      "support_top_z_distance": "0.25",
+      "support_threshold_angle": "30"
+    },
+    "P04": {
+      "brim_type": "outer_only",
+      "brim_width": "5",
+      "brim_object_gap": "0.1",
+      "enable_support": "1",
+      "support_type": "tree(auto)",
+      "support_on_build_plate_only": "1",
+      "support_top_z_distance": "0.25",
+      "support_threshold_angle": "30",
+      "support_style": "tree_slim"
+    },
+    "P05": {
+      "brim_type": "outer_only",
+      "brim_width": "5",
+      "brim_object_gap": "0.1",
+      "enable_support": "1",
+      "support_type": "normal(auto)",
+      "support_on_build_plate_only": "1",
+      "support_top_z_distance": "0.25",
+      "support_threshold_angle": "30"
+    },
+    "P08": {
+      "brim_type": "outer_only",
+      "brim_width": "3",
+      "brim_object_gap": "0.1",
+      "enable_support": "1",
+      "support_type": "normal(auto)",
+      "support_on_build_plate_only": "0",
+      "support_top_z_distance": "0.25",
+      "support_threshold_angle": "30"
+    },
+    "P09": {
+      "brim_type": "outer_only",
+      "brim_width": "3",
+      "brim_object_gap": "0.1",
+      "enable_support": "0"
+    },
+    "H040": {
+      "brim_type": "outer_only",
+      "brim_width": "3",
+      "brim_object_gap": "0.1",
+      "enable_support": "1",
+      "support_type": "normal(auto)",
+      "support_on_build_plate_only": "1",
+      "support_top_z_distance": "0.25",
+      "support_threshold_angle": "30",
+      "sparse_infill_density": "100%",
+      "outer_wall_speed": "60",
+      "inner_wall_speed": "60",
+      "top_surface_speed": "60",
+      "internal_solid_infill_speed": "60",
+      "gap_infill_speed": "60",
+      "sparse_infill_speed": "60"
+    },
+    "H041": {
+      "brim_type": "outer_only",
+      "brim_width": "3",
+      "brim_object_gap": "0.1",
+      "enable_support": "1",
+      "support_type": "normal(auto)",
+      "support_on_build_plate_only": "1",
+      "support_top_z_distance": "0.25",
+      "support_threshold_angle": "30",
+      "sparse_infill_density": "100%",
+      "outer_wall_speed": "60",
+      "inner_wall_speed": "60",
+      "top_surface_speed": "60",
+      "internal_solid_infill_speed": "60",
+      "gap_infill_speed": "60",
+      "sparse_infill_speed": "60"
+    },
+    "P060": {
+      "brim_type": "outer_only",
+      "brim_width": "3",
+      "brim_object_gap": "0.1",
+      "enable_support": "1",
+      "support_type": "normal(auto)",
+      "support_on_build_plate_only": "1",
+      "support_top_z_distance": "0.25",
+      "support_threshold_angle": "30",
+      "outer_wall_speed": "40",
+      "inner_wall_speed": "40",
+      "top_surface_speed": "40",
+      "internal_solid_infill_speed": "40",
+      "gap_infill_speed": "40",
+      "sparse_infill_speed": "40"
+    },
+    "P061": {
+      "brim_type": "outer_only",
+      "brim_width": "3",
+      "brim_object_gap": "0.1",
+      "enable_support": "1",
+      "support_type": "normal(auto)",
+      "support_on_build_plate_only": "1",
+      "support_top_z_distance": "0.25",
+      "support_threshold_angle": "30",
+      "outer_wall_speed": "40",
+      "inner_wall_speed": "40",
+      "top_surface_speed": "40",
+      "internal_solid_infill_speed": "40",
+      "gap_infill_speed": "40",
+      "sparse_infill_speed": "40"
+    },
+    "P120": {
+      "brim_type": "outer_only",
+      "brim_width": "4",
+      "brim_object_gap": "0.1",
+      "enable_support": "1",
+      "support_type": "normal(auto)",
+      "support_on_build_plate_only": "1",
+      "support_top_z_distance": "0.25",
+      "support_threshold_angle": "30",
+      "outer_wall_speed": "40",
+      "inner_wall_speed": "40",
+      "top_surface_speed": "40",
+      "internal_solid_infill_speed": "40",
+      "gap_infill_speed": "40",
+      "sparse_infill_speed": "40"
+    },
+    "P121": {
+      "brim_type": "outer_only",
+      "brim_width": "4",
+      "brim_object_gap": "0.1",
+      "enable_support": "1",
+      "support_type": "normal(auto)",
+      "support_on_build_plate_only": "1",
+      "support_top_z_distance": "0.25",
+      "support_threshold_angle": "30",
+      "outer_wall_speed": "40",
+      "inner_wall_speed": "40",
+      "top_surface_speed": "40",
+      "internal_solid_infill_speed": "40",
+      "gap_infill_speed": "40",
+      "sparse_infill_speed": "40"
+    },
+    "P11": {
+      "brim_type": "outer_only",
+      "brim_width": "2",
+      "brim_object_gap": "0.1",
+      "enable_support": "0",
+      "sparse_infill_density": "100%",
+      "layer_height": "0.1",
+      "outer_wall_speed": "40",
+      "inner_wall_speed": "40",
+      "top_surface_speed": "40",
+      "internal_solid_infill_speed": "40",
+      "gap_infill_speed": "40",
+      "sparse_infill_speed": "40"
+    },
+    "Q01": {
+      "brim_type": "outer_only",
+      "brim_width": "3",
+      "brim_object_gap": "0.1",
+      "enable_support": "1",
+      "support_type": "normal(auto)",
+      "support_on_build_plate_only": "0",
+      "support_top_z_distance": "0.25",
+      "support_threshold_angle": "30",
+      "sparse_infill_density": "100%",
+      "outer_wall_speed": "40",
+      "inner_wall_speed": "40",
+      "top_surface_speed": "40",
+      "internal_solid_infill_speed": "40",
+      "gap_infill_speed": "40",
+      "sparse_infill_speed": "40"
+    }
+  },
+  "seed_path": "Fingerworker_R11_H2D_04mm_PLA_Fit_Test_seed.3mf",
+  "seed_sha256": "cd0bca2480198d8f2267d2daf4cdb9cb9a3b536b2d697a371e2be7d420fde504",
+  "native_project": "Fingerworker_R11_H2D_04mm_PLA_Fit_Test.3mf",
+  "candidate_orientation": null
+}

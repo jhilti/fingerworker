@@ -1,0 +1,333 @@
+{
+  "files": {
+    "ASSEMBLY_DETAILS.md": {
+      "bytes": 4773,
+      "sha256": "b216af5d4a337adf08bb24f73b415fd439ddc0083123977d131b438afc9ce565"
+    },
+    "Druckliste.json": {
+      "bytes": 20931,
+      "sha256": "0c95b65a583194c8f91fbefd39b6e32520efcd2b5f9d595aaf062d7248192806"
+    },
+    "FIT_TEST_README.md": {
+      "bytes": 3406,
+      "sha256": "d2ff82fbd78ff15087036cb997ca5d49338a5b2128d1951e87be1d6d035d923a"
+    },
+    "Fingerworker_R9_H2D_04mm_PLA_Fit_Test.3mf": {
+      "bytes": 1786969,
+      "sha256": "f6a5709a4446d1715a9850a2ef89fa467d6b5025f92f4fba790a3beb116744c4"
+    },
+    "Fingerworker_R9_P02_wrist_down_H2D_04mm_PLA.3mf": {
+      "bytes": 361546,
+      "sha256": "56cc572c803fa43d9c3e7d94e6e269fe2b0a6740837d5e4b87671338e80f311a"
+    },
+    "PRINT_QA_NOTES.md": {
+      "bytes": 4656,
+      "sha256": "733a3560b4d9ec5d5b56e91d789b8a88d575c514e87ddfd95e705bfa002f3244"
+    },
+    "README.md": {
+      "bytes": 2499,
+      "sha256": "1601798df3547c7e89504b0cddb5866aa740673a2ddd3d882096709ed743e79e"
+    },
+    "STL-print-oriented/H040_HARD_PLA_PROXY_NO_LOAD.stl": {
+      "bytes": 28884,
+      "sha256": "10332508645dadbeaa8dfc897062fefbaca9472e17559c5ed8f5e61a499d3c2d"
+    },
+    "STL-print-oriented/H041_HARD_PLA_PROXY_NO_LOAD.stl": {
+      "bytes": 28884,
+      "sha256": "132a4dd8d69e29fe8687b059202d6d57ca4ce5eebd07c519864749a5ed460726"
+    },
+    "STL-print-oriented/P01.stl": {
+      "bytes": 1841884,
+      "sha256": "0c1858fedafca3d97a5e1b9d2f69d980b8a42082c4d7aa156a700c2ce456d9d8"
+    },
+    "STL-print-oriented/P02.stl": {
+      "bytes": 1390884,
+      "sha256": "fd99ec4a0c4a73a7c2121f45f3d0d7ffe42eb460296779b2752ee18f26cf2dcc"
+    },
+    "STL-print-oriented/P04.stl": {
+      "bytes": 2591984,
+      "sha256": "65c8db00b6ae2cbd970c2b87fdb0d2bb8ca6727fda20b283ab985ebd34996a34"
+    },
+    "STL-print-oriented/P05.stl": {
+      "bytes": 778284,
+      "sha256": "a3fc7fc4d20c5ea1cfb0c8d21c3ac35c65bad7e2d1f6164df157d34d448d8232"
+    },
+    "STL-print-oriented/P060.stl": {
+      "bytes": 293284,
+      "sha256": "df34babeaf4615b6acd2ae90a402f2dbedc80718710d7ac7e5db488a8c86f307"
+    },
+    "STL-print-oriented/P061.stl": {
+      "bytes": 293284,
+      "sha256": "a9033d44795fefd274ec28b7b6d9542c3cc5b25b857d815ec61136708ab082e4"
+    },
+    "STL-print-oriented/P070a_HARD_PLA_PROXY_NO_LOAD.stl": {
+      "bytes": 684,
+      "sha256": "b6b414f4180984f9a42ca2f230e3edaee2b3c99e54e84a6b8c334d57b8261b87"
+    },
+    "STL-print-oriented/P070b_HARD_PLA_PROXY_NO_LOAD.stl": {
+      "bytes": 684,
+      "sha256": "b6b414f4180984f9a42ca2f230e3edaee2b3c99e54e84a6b8c334d57b8261b87"
+    },
+    "STL-print-oriented/P071a_HARD_PLA_PROXY_NO_LOAD.stl": {
+      "bytes": 684,
+      "sha256": "b6b414f4180984f9a42ca2f230e3edaee2b3c99e54e84a6b8c334d57b8261b87"
+    },
+    "STL-print-oriented/P071b_HARD_PLA_PROXY_NO_LOAD.stl": {
+      "bytes": 684,
+      "sha256": "b6b414f4180984f9a42ca2f230e3edaee2b3c99e54e84a6b8c334d57b8261b87"
+    },
+    "STL-print-oriented/P08.stl": {
+      "bytes": 422184,
+      "sha256": "e394a824f9d6583686f8303f5c6f9263c1700d127c3a8d91204fb117db6ca06b"
+    },
+    "STL-print-oriented/P09.stl": {
+      "bytes": 134784,
+      "sha256": "c6dc21a35b143b5a1791d84f69c498d725327da90c85fcd25c646c8802ce475c"
+    },
+    "STL-print-oriented/P10.stl": {
+      "bytes": 58684,
+      "sha256": "d86d0ab3e6c274e7afde2d76a6156df849d40ad3cd0b9c2c2208463cb372fc99"
+    },
+    "STL-print-oriented/P11.stl": {
+      "bytes": 29984,
+      "sha256": "0bed6889942d67e7bbad3634e4b5d817f7c78e0d4271af751420248f1f420f2b"
+    },
+    "STL-print-oriented/P120.stl": {
+      "bytes": 92384,
+      "sha256": "9ba0e8c5ee00068384e6c29aa195d2ab266290ea851aed5523a92ffbf914f52e"
+    },
+    "STL-print-oriented/P121.stl": {
+      "bytes": 92384,
+      "sha256": "82d95324dfb43de9e8c3a2870362ec8c640b79062fb4f5d0dcc770c39a5b6b21"
+    },
+    "STL-print-oriented/Q01_UNLOADED_TEST_FIXTURE.stl": {
+      "bytes": 127084,
+      "sha256": "dae527b85607d5c44d4380f605d9bcafeca42f140b0a00425e9a0a5ae5fdafea"
+    },
+    "STL-print-oriented/manifest.json": {
+      "bytes": 15502,
+      "sha256": "ae4a511c62e5593a00a581267f6195e671a557bfe9c9f7502ba995a56d50b04d"
+    },
+    "fixture/ASSEMBLY.txt": {
+      "bytes": 3351,
+      "sha256": "cd13888e2a1c1334b23d1c350bb22ed6a85637cc7b92358605644918fe415f5c"
+    },
+    "fixture/Q01_UNLOADED_TEST_FIXTURE_assembly-mm.step": {
+      "bytes": 31038,
+      "sha256": "4af00107b7da8ea0b44783d8082fa27ed03a1b804833fc9e56ec640d14ff2622"
+    },
+    "fixture/Q01_UNLOADED_TEST_FIXTURE_assembly-mm.stl": {
+      "bytes": 127084,
+      "sha256": "f6c84b6d6972d525f58255f916a0a9874ac20e9f246aa66f10f19da3f40368c8"
+    },
+    "fixture/Q01_UNLOADED_TEST_FIXTURE_print-mm.stl": {
+      "bytes": 127084,
+      "sha256": "4a814328544c999013ab754d2d1c3f9a99e287e034066df127525cfe912a394b"
+    },
+    "fixture/build_q01.py": {
+      "bytes": 7988,
+      "sha256": "f7749b4a4b7c082a2ce6780ef5b3a512be81a92741e74838578b667098f5c18e"
+    },
+    "fixture/manifest.json": {
+      "bytes": 5034,
+      "sha256": "e8750e5e298260865f27c9400be91d2fe561a503600fa5d4630f9f48ebf9c099"
+    },
+    "plate-layout.json": {
+      "bytes": 31638,
+      "sha256": "6dfa518e2c714d3a55fb55f6de2e79163dfefb8ff2ffa9655c9524acc1427a16"
+    },
+    "preview/P02-wrist-down.png": {
+      "bytes": 11969,
+      "sha256": "046b65f00d76c599408c810a4febe91b1a4e777ecba8cd705473ecd6bfd7497e"
+    },
+    "preview/plate_1.png": {
+      "bytes": 21809,
+      "sha256": "1ae84d99765ae8316cfcd152a5781b9b873f26bc31bf9026a53d5274a7e5149b"
+    },
+    "preview/top_1.png": {
+      "bytes": 8159,
+      "sha256": "dda5bdc254a7c2359a8a14dac140dd388bbbd7917b8cd2c4709f70dfbc991a0e"
+    },
+    "profiles/H2D_PLA.json": {
+      "bytes": 7907,
+      "sha256": "ffed8b58c038a05344bb833158d7ebf1077331c8eb402def63b279545ffc54a0"
+    },
+    "profiles/H2D_machine.json": {
+      "bytes": 41749,
+      "sha256": "3fd6a5f1eba145ba5a1fefe918a188e3540ab8ee4d91a594d45129086981db84"
+    },
+    "profiles/H2D_process.json": {
+      "bytes": 9993,
+      "sha256": "c44e109f8081b8c670867c6d456c24cc59c94a89a6b53b15c8ab9bebf44c0e41"
+    },
+    "profiles/profile-manifest.json": {
+      "bytes": 5256,
+      "sha256": "1f7f60249c8c8a8fbc63914a0fa0695a488e4999f66d982601fe904f84f4f7aa"
+    },
+    "profiles/project_settings_H2D.json": {
+      "bytes": 65110,
+      "sha256": "543e70f50e52d86c2b615cf318ea420eb84c109eeb827d4c9e079e76d46576aa"
+    },
+    "provenance.json": {
+      "bytes": 2298,
+      "sha256": "dfa9b3d2f6628501eb198917d8a9a3a80840745eeee1b4e21b85037577fa3845"
+    },
+    "source/build_palm_only.py": {
+      "bytes": 2595,
+      "sha256": "5385ca4b04759c6bf3c4ad0b21c9fdcb8c8d5d9729128c4060ce709f44fd8f1a"
+    },
+    "source/build_project.py": {
+      "bytes": 9940,
+      "sha256": "4b5021f1efe42763f1341fabe8e26a790f1b7f4476d6e7eab4b3202b99417031"
+    },
+    "source/export_print_stls.py": {
+      "bytes": 1655,
+      "sha256": "538a50877e965b7daa682013a1f6d90069a74c50c132505333a7d1d0e0691486"
+    },
+    "source/independent-QA/audit_bambu_project.py": {
+      "bytes": 8103,
+      "sha256": "6a49d04bfc977562efbb4bf6695d5cba263c92b8ac9544a1a39a8262d64b4ac1"
+    },
+    "source/independent-QA/audit_bambu_toolpaths.py": {
+      "bytes": 12673,
+      "sha256": "6eedbc734fc6b937a82ad687da37a538a729d5f889cc68a33a5433edd978b1ba"
+    },
+    "source/independent-QA/audit_palm_prints.py": {
+      "bytes": 6720,
+      "sha256": "6e548e0f18a6602be51096402a1c87a3b4461a9357362298bda314861a3a1b3b"
+    },
+    "source/independent-QA/freeze_print_qa.py": {
+      "bytes": 5550,
+      "sha256": "ec9d66dbdddcbbc9bdb2f27e1dce0531cf394a26a0281845822dc356de4e81d0"
+    },
+    "source/package_delivery.py": {
+      "bytes": 5142,
+      "sha256": "63abcd10cb27f671fd516d73872028518370d8c3c4c5edc8061844f1f3abc000"
+    },
+    "source/profiles.py": {
+      "bytes": 3732,
+      "sha256": "f6d158a6cc1c5dc12145c8b88bb774bba353186862c6653a8ba1bc36bfda37ae"
+    },
+    "source/run_slicer.py": {
+      "bytes": 1826,
+      "sha256": "09ee986850e5f4e5c44c87826a0d0c487cac0cf62e792ce91f65d1263bd01039"
+    },
+    "source/validate_palm_only.py": {
+      "bytes": 3810,
+      "sha256": "7684ca390a45af59caca52a39536c24305067c1d7c0b7e26f8ef3a0f3eee976c"
+    },
+    "source/validate_project.py": {
+      "bytes": 6123,
+      "sha256": "263d3297e877ea48f995b30f3afd738a5e273049e4c78f3a1423b893a671cdf9"
+    },
+    "source-mm/H040.stl": {
+      "bytes": 28884,
+      "sha256": "ed73c2217009079342531d1dd16e68c206790ab2f2ca3b5e85f41e866079d427"
+    },
+    "source-mm/H041.stl": {
+      "bytes": 28884,
+      "sha256": "c3b51c917e3598d19a26ff32510401be6405293cc25d02f78f5a0891912a6a19"
+    },
+    "source-mm/P01.stl": {
+      "bytes": 1841884,
+      "sha256": "ba3e84042526aa6b4443a4aa7eda55991788fd81d2663abab948286b22cd0f48"
+    },
+    "source-mm/P02.stl": {
+      "bytes": 1390884,
+      "sha256": "8154e49606a63ce4e08fe1a6d15bac2961a0e2d48b57f76758ab73f40d1aeb02"
+    },
+    "source-mm/P04.stl": {
+      "bytes": 2591984,
+      "sha256": "fdb84301af40be4ca84b838ebc1847b18ac0b2854818e3bfe63c1085d6ff0b7c"
+    },
+    "source-mm/P05.stl": {
+      "bytes": 778284,
+      "sha256": "708aa073c8b30dab19e3c7700ca2d05ff4264845293c3428a68df1c2ced52966"
+    },
+    "source-mm/P060.stl": {
+      "bytes": 293284,
+      "sha256": "fb1337d8882240a0e3c49fcdb6e88d8d0fef58940405575e20dc9dcfb7179a0e"
+    },
+    "source-mm/P061.stl": {
+      "bytes": 293284,
+      "sha256": "b4517d1c0e1b163d4f0c6e9a42427e5075d584665d532118db72d9408874befa"
+    },
+    "source-mm/P070a.stl": {
+      "bytes": 684,
+      "sha256": "b2043cb95741498d64262f3011a79d3a14eb64934d9a558602a9f71abf42bf74"
+    },
+    "source-mm/P070b.stl": {
+      "bytes": 684,
+      "sha256": "c2e968a11b33abb1d58fb03ba6f4ba6ca14a53ecfafa3ef001bf03d2d10b881a"
+    },
+    "source-mm/P071a.stl": {
+      "bytes": 684,
+      "sha256": "4cacdcfcc514e130026a3c5b37d03bb89e0f53cb780d221184c31b71bb5757f7"
+    },
+    "source-mm/P071b.stl": {
+      "bytes": 684,
+      "sha256": "50aa9ad8ee8fb500dc0e13b1ab8dd333ccaeab6f0fa7fe7625ba79d21ae3c29d"
+    },
+    "source-mm/P08.stl": {
+      "bytes": 422184,
+      "sha256": "11f47952a86814ce1c6a80ad25edde546f99b8664a610e397851ec8ae9fe8b2a"
+    },
+    "source-mm/P09.stl": {
+      "bytes": 134784,
+      "sha256": "2b809ab1f7cc350b96862cfd7d4878ac1907bda7cf793f78aa0e445e7264084a"
+    },
+    "source-mm/P10.stl": {
+      "bytes": 58684,
+      "sha256": "8ee66bba498b46d593a8d9c00581582cd76b35677312eb81d427f808df8b08d8"
+    },
+    "source-mm/P11.stl": {
+      "bytes": 29984,
+      "sha256": "ee81507b31f348ae644d268f5525a825d5eecbd44f580824105b74e3a191d49b"
+    },
+    "source-mm/P120.stl": {
+      "bytes": 92384,
+      "sha256": "4e96f14152f1d40821836566e3dca17ccba1471c34db20bb69ac68acd27a7e48"
+    },
+    "source-mm/P121.stl": {
+      "bytes": 92384,
+      "sha256": "55e9ffd7d0a4a0ceceb5ddf663837882afb022c3a607406b8697d4972ff65905"
+    },
+    "source-mm/Q01.stl": {
+      "bytes": 127084,
+      "sha256": "4a814328544c999013ab754d2d1c3f9a99e287e034066df127525cfe912a394b"
+    },
+    "validation/native-project-check.json": {
+      "bytes": 10150,
+      "sha256": "861cab73a353022935ec4e5992088e1b3dbbe2a7255c8b77792fb9d07b2c4a2b"
+    },
+    "validation/palm-only-check.json": {
+      "bytes": 662,
+      "sha256": "3ace35f32f69856daff7f092333787bb712667de0248fa4867ac33dca4bce5cf"
+    },
+    "validation/qa-palm-only-comparison.json": {
+      "bytes": 8100,
+      "sha256": "0bdbc08fcf15dd40bc5ca64a5d1f134fbe07e7b786f56615646e9d95c8eded04"
+    },
+    "validation/qa-project.json": {
+      "bytes": 89948,
+      "sha256": "fdfa099234a741dbbc0e88b703c3066946e46c84ce39f8766ac8d25a4a7a4008"
+    },
+    "validation/qa-summary.json": {
+      "bytes": 5571,
+      "sha256": "b16ba3d9df5a52372a30b516d769017c364d49dca7a090e2f6a73685e57ff7bf"
+    },
+    "validation/qa-summary.md": {
+      "bytes": 823,
+      "sha256": "15ee29145768bc1e40147fdcc259a247dbee9fff9e77f2fc58d88172c28f06f3"
+    },
+    "validation/qa-toolpaths.json": {
+      "bytes": 94005,
+      "sha256": "d5d91c9ed66f68a99f40e84ba8dc18e92766177474528110cd29768a9f662231"
+    },
+    "validation/result.json": {
+      "bytes": 10958,
+      "sha256": "ae266ed4854cde1dd5b0c967c0ac5df6ad992905dc725637b858f8479b9b1a0e"
+    }
+  },
+  "scope": "Final wrist-down PLA one-plate and P02-only deliverables; comparison Gcode and runtime are excluded"
+}

@@ -1,0 +1,4 @@
+{
+  "nominal_status": "NOMINAL_GEOMETRY_CHECKS_PASS",
+  "message": "Geometric clearance, legal motion/service paths and exact STEP checks passed. The 500 N value remains an unqualified design target; physical prototype qualification is pending."
+}

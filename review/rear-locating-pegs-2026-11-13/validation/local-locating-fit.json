@@ -1,0 +1,347 @@
+{
+  "status": "PASS_LOCAL_R20_LOCATING_FIT",
+  "source_sha256": "e547fac0af50cc7ea69f96f3ca2a0a7d6cefa1b63ae7e29d7f18e0f7815f3626",
+  "generator_sha256": "51cfe0d3f7b16f08980c9a383848939c43e9a5dc667078bae42065131bb6ef64",
+  "baseline_release_binding_sha256": "a6c74eb45f10d05f749df06dc2c7a69020f89eea2ba8d6e152f35fe54afff56d",
+  "baseline_native_step_sha256": "41e4eb637ab9e78ca54be588712bfb05ad9d8f5ae5f34467a685cc422142819f",
+  "validator_sha256": "8280895974070a04d54c15fb58078dbbb3c1898680b0c8deb4af4fa47182681b",
+  "checks": [
+    {
+      "name": "One valid solid and shell P01",
+      "status": "PASS"
+    },
+    {
+      "name": "One valid solid and shell P06L",
+      "status": "PASS"
+    },
+    {
+      "name": "One valid solid and shell P06R",
+      "status": "PASS"
+    },
+    {
+      "name": "Complete front frame and R19 ergonomics unchanged",
+      "status": "PASS",
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    },
+    {
+      "name": "Frame receives no added obstruction",
+      "status": "PASS",
+      "added_mm3": 0.0
+    },
+    {
+      "name": "Frame removal limited to the two blind-bottom rear slots",
+      "status": "PASS",
+      "unexpected_removed_mm3": 0.0
+    },
+    {
+      "name": "Original block rod socket and screw stock retained P06L",
+      "status": "PASS",
+      "removed_original_mm3": 0.0
+    },
+    {
+      "name": "New stock confined to short integral peg and root P06L",
+      "status": "PASS",
+      "unexpected_added_mm3": 0.0
+    },
+    {
+      "name": "Peg has positive nominal mating clearance P06L",
+      "status": "PASS",
+      "minimum_clearance_mm": 0.20000000000000284,
+      "nominal_shaft_side_clearance_mm": 0.2,
+      "nominal_bottom_clearance_mm": 0.3,
+      "fit": "Clearance fit; physical printing tolerances unqualified"
+    },
+    {
+      "name": "Complete12mm axial peg insertion/extraction clears frame P06L",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "clearance_lower_bound_mm": 0.07071067811864545,
+      "travel_mm": [
+        0,
+        12
+      ],
+      "method": "Whole continuous swept conservative three-band peg/root envelope"
+    },
+    {
+      "name": "Slot keeps M3 insert wall P06L -9.5",
+      "status": "PASS",
+      "minimum_remaining_mm": 4.199999999999996
+    },
+    {
+      "name": "Slot keeps M3 insert wall P06L 9.5",
+      "status": "PASS",
+      "minimum_remaining_mm": 4.199999999999996
+    },
+    {
+      "name": "Peg clear of existing rod P06L",
+      "status": "PASS",
+      "clearance_mm": 10.5
+    },
+    {
+      "name": "New peg clear of complete travel P06L P04",
+      "status": "PASS",
+      "clearance_lower_bound_mm": 1.9646881737313937
+    },
+    {
+      "name": "New peg clear of complete travel P06L H060",
+      "status": "PASS",
+      "clearance_lower_bound_mm": 10.21077849725475
+    },
+    {
+      "name": "New peg clear of complete travel P06L H061",
+      "status": "PASS",
+      "clearance_lower_bound_mm": 89.03091754047662
+    },
+    {
+      "name": "New peg clear of complete travel P06L P11",
+      "status": "PASS",
+      "clearance_lower_bound_mm": 71.40621256398234
+    },
+    {
+      "name": "New peg clear of complete travel P06L H10",
+      "status": "PASS",
+      "clearance_lower_bound_mm": 73.19379660931669
+    },
+    {
+      "name": "Original block rod socket and screw stock retained P06R",
+      "status": "PASS",
+      "removed_original_mm3": 0.0
+    },
+    {
+      "name": "New stock confined to short integral peg and root P06R",
+      "status": "PASS",
+      "unexpected_added_mm3": 0.0
+    },
+    {
+      "name": "Peg has positive nominal mating clearance P06R",
+      "status": "PASS",
+      "minimum_clearance_mm": 0.20000000000000284,
+      "nominal_shaft_side_clearance_mm": 0.2,
+      "nominal_bottom_clearance_mm": 0.3,
+      "fit": "Clearance fit; physical printing tolerances unqualified"
+    },
+    {
+      "name": "Complete12mm axial peg insertion/extraction clears frame P06R",
+      "status": "PASS",
+      "overlap_mm3": 0.0,
+      "clearance_lower_bound_mm": 0.07071067811864545,
+      "travel_mm": [
+        0,
+        12
+      ],
+      "method": "Whole continuous swept conservative three-band peg/root envelope"
+    },
+    {
+      "name": "Slot keeps M3 insert wall P06R -9.5",
+      "status": "PASS",
+      "minimum_remaining_mm": 4.199999999999996
+    },
+    {
+      "name": "Slot keeps M3 insert wall P06R 9.5",
+      "status": "PASS",
+      "minimum_remaining_mm": 4.199999999999996
+    },
+    {
+      "name": "Peg clear of existing rod P06R",
+      "status": "PASS",
+      "clearance_mm": 10.5
+    },
+    {
+      "name": "New peg clear of complete travel P06R P04",
+      "status": "PASS",
+      "clearance_lower_bound_mm": 1.9646881737313937
+    },
+    {
+      "name": "New peg clear of complete travel P06R H060",
+      "status": "PASS",
+      "clearance_lower_bound_mm": 89.03091754047662
+    },
+    {
+      "name": "New peg clear of complete travel P06R H061",
+      "status": "PASS",
+      "clearance_lower_bound_mm": 10.21077849725475
+    },
+    {
+      "name": "New peg clear of complete travel P06R P11",
+      "status": "PASS",
+      "clearance_lower_bound_mm": 66.85865066490393
+    },
+    {
+      "name": "New peg clear of complete travel P06R H10",
+      "status": "PASS",
+      "clearance_lower_bound_mm": 68.61966131682532
+    },
+    {
+      "name": "Blind slot retains base floor",
+      "status": "PASS",
+      "interior_minimum_sampled_thickness_mm": 4.2,
+      "rear_rounded_edge_minimum_sampled_thickness_mm": 2.872916164661844,
+      "sections": [
+        {
+          "x_mm": 121.5,
+          "y_mm": -51,
+          "z_interval_mm": [
+            -2.0,
+            2.2
+          ],
+          "thickness_mm": 4.2
+        },
+        {
+          "x_mm": 123.8,
+          "y_mm": -51,
+          "z_interval_mm": [
+            -2.0,
+            2.2
+          ],
+          "thickness_mm": 4.2
+        },
+        {
+          "x_mm": 126,
+          "y_mm": -51,
+          "z_interval_mm": [
+            -2.0,
+            2.2
+          ],
+          "thickness_mm": 4.2
+        },
+        {
+          "x_mm": 127.5,
+          "y_mm": -51,
+          "z_interval_mm": [
+            -2.0,
+            2.2
+          ],
+          "thickness_mm": 4.2
+        },
+        {
+          "x_mm": 128,
+          "y_mm": -51,
+          "z_interval_mm": [
+            -1.914213562373095,
+            2.2
+          ],
+          "thickness_mm": 4.114213562373095
+        },
+        {
+          "x_mm": 128.5,
+          "y_mm": -51,
+          "z_interval_mm": [
+            -1.618033988749895,
+            2.2
+          ],
+          "thickness_mm": 3.818033988749895
+        },
+        {
+          "x_mm": 128.9,
+          "y_mm": -51,
+          "z_interval_mm": [
+            -1.0385164807142608,
+            2.2
+          ],
+          "thickness_mm": 3.238516480714261
+        },
+        {
+          "x_mm": 128.99,
+          "y_mm": -51,
+          "z_interval_mm": [
+            -0.672916164661844,
+            2.2
+          ],
+          "thickness_mm": 2.872916164661844
+        },
+        {
+          "x_mm": 121.5,
+          "y_mm": 51,
+          "z_interval_mm": [
+            -2.0,
+            2.2
+          ],
+          "thickness_mm": 4.2
+        },
+        {
+          "x_mm": 123.8,
+          "y_mm": 51,
+          "z_interval_mm": [
+            -2.0,
+            2.2
+          ],
+          "thickness_mm": 4.2
+        },
+        {
+          "x_mm": 126,
+          "y_mm": 51,
+          "z_interval_mm": [
+            -2.0,
+            2.2
+          ],
+          "thickness_mm": 4.2
+        },
+        {
+          "x_mm": 127.5,
+          "y_mm": 51,
+          "z_interval_mm": [
+            -2.0,
+            2.2
+          ],
+          "thickness_mm": 4.2
+        },
+        {
+          "x_mm": 128,
+          "y_mm": 51,
+          "z_interval_mm": [
+            -1.914213562373095,
+            2.2
+          ],
+          "thickness_mm": 4.114213562373095
+        },
+        {
+          "x_mm": 128.5,
+          "y_mm": 51,
+          "z_interval_mm": [
+            -1.618033988749895,
+            2.2
+          ],
+          "thickness_mm": 3.818033988749895
+        },
+        {
+          "x_mm": 128.9,
+          "y_mm": 51,
+          "z_interval_mm": [
+            -1.0385164807142608,
+            2.2
+          ],
+          "thickness_mm": 3.238516480714261
+        },
+        {
+          "x_mm": 128.99,
+          "y_mm": 51,
+          "z_interval_mm": [
+            -0.672916164661844,
+            2.2
+          ],
+          "thickness_mm": 2.872916164661844
+        }
+      ],
+      "scope": "Exact vertical sections; edge thickness follows the pre-existing rear base fillet"
+    },
+    {
+      "name": "Pegged blocks remain identical after102mm translation",
+      "status": "PASS",
+      "valid": true,
+      "left_only_solids": 0,
+      "right_only_solids": 0,
+      "left_only_faces": 0,
+      "right_only_faces": 0,
+      "symmetric_difference_mm3": 0.0,
+      "empty": true
+    }
+  ],
+  "failures": [],
+  "scope": "Local candidate nominal fit and complete axial peg path; fresh native regeneration/export validation remains required. No print projects changed, no physical interference-fit claim, screwless dry fit requires springs removed/unloaded because existing fixed spring compression already loads the rear blocks at rest; no substitute for required rear screws."
+}

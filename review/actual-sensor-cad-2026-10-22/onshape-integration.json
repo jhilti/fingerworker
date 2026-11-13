@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-22",
+  "purpose": "Actual manufacturer sensor reference integration; mount conflicts remain open.",
+  "document_id": "15316cc6370631845af136b2",
+  "preserved_original_rev_d_workspace": "664d0779b5d992870442f997",
+  "preserved_flat132_v6_workspace": "2aac8d39cfa101ed4326a108",
+  "checkpoint_version": {
+    "id": "51dd3a07579c8a7ed97141a1",
+    "name": "Flat132 V6 before real sensor 2026-10-22"
+  },
+  "new_workspace": {
+    "id": "3ee26cf6386f889ca7ae9519",
+    "name": "Study 132mm - real FX1901 sensor"
+  },
+  "mechanism_part_studio": "d253eb87b70818ebde8215f0",
+  "aligned_sensor_import_part_studio": "53a085e209333d92a5ee0a5d",
+  "branch_url": "https://cad.onshape.com/documents/15316cc6370631845af136b2/w/3ee26cf6386f889ca7ae9519/e/d253eb87b70818ebde8215f0",
+  "upload": {
+    "file": "sensor/TE_FX1901_actual_apex_aligned_132_mm.step",
+    "sha256": "241c8b522707e9ce3b611db3c783d6c9e3bd6e492175c530d5e9795d9dc98097",
+    "y_axis_up": false,
+    "rescale": false,
+    "reshape": false
+  },
+  "native_integration": {
+    "import_verified_parts": 1,
+    "import_part_name": "H01 ACTUAL TE FX1901-0001-0200-L manufacturer STEP",
+    "derived_feature": "ACTUAL TE FX1901 rev F STEP - apex datum preserved",
+    "placement": "Base origin; STEP already rigidly aligned to H02 spherical contact datum",
+    "include_properties": true,
+    "superseded_proxy_bodies_removed_by_reversible_delete_part_feature": [
+      "H01",
+      "H01a",
+      "H01b",
+      "H01c",
+      "H01d"
+    ],
+    "mechanism_parts_before": 104,
+    "mechanism_parts_after_derive": 105,
+    "mechanism_parts_after_replacing_proxies": 100,
+    "features_after": 7,
+    "mounts_redesigned": false,
+    "native_preview": "onshape-actual-sensor.png",
+    "native_detail_preview": "onshape-actual-sensor-detail.png"
+  },
+  "fit_status": "FAIL: nominal interference with H12 backing cassette, P01 frame and P05 yoke; see sensor/sensor-geometry-audit.json",
+  "local_source_guards": {
+    "fingerworker_mvp.fs": {
+      "expected_sha256": "43a2dc70e3eed4308534da7772f4b82bf845c97d6f6a53456d0d63aa9552fb33",
+      "actual_sha256": "43a2dc70e3eed4308534da7772f4b82bf845c97d6f6a53456d0d63aa9552fb33",
+      "unchanged": true
+    },
+    "review/onshape-flat132-2026-10-19/fingerworker_flat132.fs": {
+      "expected_sha256": "3e5de8f56211cf2ed063b6b4294da5f77fea4c3fb881fa0c13b1288eca7932cc",
+      "actual_sha256": "3e5de8f56211cf2ed063b6b4294da5f77fea4c3fb881fa0c13b1288eca7932cc",
+      "unchanged": true
+    },
+    "review/onshape-flat132-2026-10-19/Onshape_Flat132_v6_open_0stroke_0preload.zip": {
+      "expected_sha256": "46896c13ec52da11075d66d05fff657791b04b5f1f445c3e9f822906f8bafa7e",
+      "actual_sha256": "46896c13ec52da11075d66d05fff657791b04b5f1f445c3e9f822906f8bafa7e",
+      "unchanged": true
+    },
+    "vendor/te_fx1901/c-fx1901-0001-0200-l-f-3d.stp": {
+      "expected_sha256": "fe4aee5f64f19f4859d2cfdbf73cb24d3cd91b0987949a6fcf28ada22e46cac3",
+      "actual_sha256": "fe4aee5f64f19f4859d2cfdbf73cb24d3cd91b0987949a6fcf28ada22e46cac3",
+      "unchanged": true
+    }
+  }
+}

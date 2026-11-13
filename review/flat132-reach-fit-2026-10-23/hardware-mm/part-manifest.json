@@ -1,0 +1,38 @@
+{
+  "source_sha256": "d7f476fa34e862e2b0e1b5a5e91fff0f852b9308a589fafd11ce59e01269915a",
+  "native_zip": "native/Flat132_R5_isometric13_p2_81_final.zip",
+  "native_zip_sha256": "e47a1d0dd271184670537dd6d1cc893164ea4e7f4046064a5fd685bc002ffa4d",
+  "count": 2,
+  "units": "mm",
+  "material_intent": "Steel; two matching sleeves; not print parts",
+  "nominal_dimensions_mm": {
+    "outer_diameter": 16,
+    "inner_diameter": 8,
+    "length": 81
+  },
+  "native_pose": {
+    "user_travel_mm": 13,
+    "absolute_carriage_shift_mm": 18,
+    "preload_mm": 2,
+    "cam_trim_mm": 0,
+    "mode": "ISO81"
+  },
+  "orientation": "Original native ISO81 assembly coordinates; no scaling, recentering, repair or remesh",
+  "identity": "Every output STL byte-for-byte equals its named native ISO81 ZIP member",
+  "parts": {
+    "H140": {
+      "native_member": "Fingerworker MVP - H140 ISOMETRIC steel compression lock sleeve 16 x 8 x 81 mm.stl",
+      "native_member_sha256": "114a273f308d6c8a259f3e8d4339ee19daa4e99af3f8fc5ef9a269b3089edeb7",
+      "output": "hardware-mm/H140.stl",
+      "output_sha256": "114a273f308d6c8a259f3e8d4339ee19daa4e99af3f8fc5ef9a269b3089edeb7",
+      "bytes": 57684
+    },
+    "H141": {
+      "native_member": "Fingerworker MVP - H141 ISOMETRIC steel compression lock sleeve 16 x 8 x 81 mm.stl",
+      "native_member_sha256": "93f4638cd759f9e84ced314f2206a2abdd8b16adb4a62b4496b8e2a4672793f4",
+      "output": "hardware-mm/H141.stl",
+      "output_sha256": "93f4638cd759f9e84ced314f2206a2abdd8b16adb4a62b4496b8e2a4672793f4",
+      "bytes": 57684
+    }
+  }
+}

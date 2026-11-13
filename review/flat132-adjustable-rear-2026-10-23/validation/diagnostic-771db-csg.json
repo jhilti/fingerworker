@@ -1,0 +1,206 @@
+{
+  "checks": [
+    {
+      "name": "Unchanged P01 front through X116.7 exact STEP",
+      "symmetric_difference_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Independent complete P01 rear stock/fillets/feet/track/pockets/inserts/bench-hole CSG",
+      "symmetric_difference_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exactly shortened unchanged 6mm mandrel H040",
+      "symmetric_difference_mm3": 0.0,
+      "added_material_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Exactly shortened unchanged 6mm mandrel H041",
+      "symmetric_difference_mm3": 0.0,
+      "added_material_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Independent rear construction CSG P060",
+      "symmetric_difference_mm3": 0.0,
+      "solid_count": 1,
+      "shell_count": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "Independent rear construction CSG P120",
+      "symmetric_difference_mm3": 0.0,
+      "solid_count": 1,
+      "shell_count": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "Independent actual steel envelope H270",
+      "symmetric_difference_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Independent actual steel envelope H310",
+      "symmetric_difference_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Independent actual steel envelope H320",
+      "symmetric_difference_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Independent actual steel envelope H280",
+      "symmetric_difference_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Independent actual steel envelope H290",
+      "symmetric_difference_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Independent actual steel envelope H300a",
+      "symmetric_difference_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Independent actual steel envelope H300b",
+      "symmetric_difference_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Actual M4x10 adjuster flat tip and hex socket 0",
+      "symmetric_difference_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "M4 main-nut full axial engagement 0",
+      "minimum_nominal_overlap_mm": 2.2,
+      "status": "PASS"
+    },
+    {
+      "name": "M4 jam-nut full axial engagement 0",
+      "minimum_nominal_overlap_mm": 2.2,
+      "minimum_rear_thread_projection_mm": 1.3,
+      "status": "PASS"
+    },
+    {
+      "name": "Tongue retained in guide over all a0..2 0",
+      "minimum_axial_guide_overlap_mm": 6.1,
+      "nominal_side_gap_mm": 0.3,
+      "nominal_top_bottom_gap_mm": 0.3,
+      "status": "PASS"
+    },
+    {
+      "name": "M2 positive capture slot/pin 0",
+      "pin_diameter_mm": 2,
+      "slot_width_mm": 2.2,
+      "slot_center_distance_mm": 2,
+      "tongue_wall_each_side_mm": 1.9,
+      "nominal_setting_mm": [
+        0,
+        2
+      ],
+      "geometric_clearance_limited_range_mm": [
+        -0.1,
+        2.1
+      ],
+      "minimum_pin_projection_below_tongue_mm": 1,
+      "meaning": "Settings0..2 remain within capture clearance. Slot clearance is not an exact mechanical calibration stop; do not overdrive the adjuster.",
+      "status": "PASS"
+    },
+    {
+      "name": "Independent rear construction CSG P061",
+      "symmetric_difference_mm3": 0.0,
+      "solid_count": 1,
+      "shell_count": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "Independent rear construction CSG P121",
+      "symmetric_difference_mm3": 0.0,
+      "solid_count": 1,
+      "shell_count": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "Independent actual steel envelope H271",
+      "symmetric_difference_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Independent actual steel envelope H311",
+      "symmetric_difference_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Independent actual steel envelope H321",
+      "symmetric_difference_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Independent actual steel envelope H281",
+      "symmetric_difference_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Independent actual steel envelope H291",
+      "symmetric_difference_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Independent actual steel envelope H301a",
+      "symmetric_difference_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Independent actual steel envelope H301b",
+      "symmetric_difference_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "Actual M4x10 adjuster flat tip and hex socket 1",
+      "symmetric_difference_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "M4 main-nut full axial engagement 1",
+      "minimum_nominal_overlap_mm": 2.2,
+      "status": "PASS"
+    },
+    {
+      "name": "M4 jam-nut full axial engagement 1",
+      "minimum_nominal_overlap_mm": 2.2,
+      "minimum_rear_thread_projection_mm": 1.3,
+      "status": "PASS"
+    },
+    {
+      "name": "Tongue retained in guide over all a0..2 1",
+      "minimum_axial_guide_overlap_mm": 6.1,
+      "nominal_side_gap_mm": 0.3,
+      "nominal_top_bottom_gap_mm": 0.3,
+      "status": "PASS"
+    },
+    {
+      "name": "M2 positive capture slot/pin 1",
+      "pin_diameter_mm": 2,
+      "slot_width_mm": 2.2,
+      "slot_center_distance_mm": 2,
+      "tongue_wall_each_side_mm": 1.9,
+      "nominal_setting_mm": [
+        0,
+        2
+      ],
+      "geometric_clearance_limited_range_mm": [
+        -0.1,
+        2.1
+      ],
+      "minimum_pin_projection_below_tongue_mm": 1,
+      "meaning": "Settings0..2 remain within capture clearance. Slot clearance is not an exact mechanical calibration stop; do not overdrive the adjuster.",
+      "status": "PASS"
+    }
+  ]
+}

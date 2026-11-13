@@ -1,0 +1,85 @@
+{
+  "status": "SUCCESSFULLY_SLICED_LOCAL_CANDIDATES",
+  "rows": [
+    {
+      "name": "Xmin",
+      "rotation_3x3": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "bed_contact_area_mm2": 54.0,
+      "object_id": 2,
+      "xy": [
+        50,
+        50
+      ]
+    },
+    {
+      "name": "Zmax",
+      "rotation_3x3": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "bed_contact_area_mm2": 61.70227987525868,
+      "object_id": 4,
+      "xy": [
+        120,
+        50
+      ]
+    },
+    {
+      "name": "Ymin",
+      "rotation_3x3": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "bed_contact_area_mm2": 21.5,
+      "object_id": 6,
+      "xy": [
+        190,
+        50
+      ]
+    }
+  ],
+  "sliced": "/Users/jonashilti/Documents/ChatGPT/fingerworker/review/flat132-click-assembly-2026-11-03/rear-shoe-print-study/candidates_verification.gcode.3mf",
+  "scope": "Local BRep preflight meshes, not native R11 exports; all supports plate-only normal,0.25mm top gap,4mm outer brim."
+}

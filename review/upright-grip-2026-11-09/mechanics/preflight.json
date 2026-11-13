@@ -1,0 +1,690 @@
+{
+  "status": "PASS_LOCAL_UPRIGHT_GRIP",
+  "checks": [
+    {
+      "name": "One valid solid and shell",
+      "status": "PASS"
+    },
+    {
+      "name": "Seated separation / E01",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / E05",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / E06",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / E07",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / E08",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H01",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H02",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H030",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H031",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H040",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H041",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H050",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H051",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H060",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H061",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H09",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H09a",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H09b",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H10",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H12",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H180",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H181",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H190",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H191",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H20",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H23",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H240",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H241",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H242",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H243",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H250",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H251",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H252",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H253",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H300a",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H300b",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H301a",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / H301b",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / P04",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / P05",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / P06",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / P08",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / P09",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / P11",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_C1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_C10",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_C11",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_C12",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_C13",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_C14",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_C15",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_C16",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_C2",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_C3",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_C4",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_C5",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_C6",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_C7",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_C8",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_C9",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_D1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_J1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_J2",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_J3",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_L1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_Q1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R10",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R11",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R12",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R13",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R14",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R15",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R16",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R17",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R18",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R19",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R2",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R20",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R21",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R3",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R4",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R5",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R6",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R7",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R8",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_R9",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_SW2",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_U1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_U2",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_U3",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Seated separation / PCB_U4",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Original fixed reaction/guide belowZ30 retained outside declared obsolete step",
+      "status": "PASS",
+      "removed_mm3": 0.0
+    },
+    {
+      "name": "Original lower roof/floor retained outside declared obsolete step",
+      "status": "PASS",
+      "removed_mm3": 0.0
+    },
+    {
+      "name": "Original left rod socket retained outside declared obsolete step",
+      "status": "PASS",
+      "removed_mm3": 0.0
+    },
+    {
+      "name": "Original right rod socket retained outside declared obsolete step",
+      "status": "PASS",
+      "removed_mm3": 0.0
+    },
+    {
+      "name": "Continuous2mm roof retained below removed step",
+      "status": "PASS",
+      "missing_mm3": 0.0
+    },
+    {
+      "name": "Rod bore open -51",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Rod bore open 51",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "No addition in H18 tool route -1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "No addition in H18 tool route 1",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Optional enclosure pilot open -59",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Optional enclosure pilot open 59",
+      "status": "PASS",
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "Frame footprint unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "Full motion added stock / P04",
+      "status": "PASS",
+      "gap_lower_bound_mm": 37.9999999
+    },
+    {
+      "name": "Full motion added stock / H060",
+      "status": "PASS",
+      "gap_lower_bound_mm": 85.9999999
+    },
+    {
+      "name": "Full motion added stock / H061",
+      "status": "PASS",
+      "gap_lower_bound_mm": 85.9999999
+    },
+    {
+      "name": "Full motion added stock / P11",
+      "status": "PASS",
+      "gap_lower_bound_mm": 50.388689044831224
+    },
+    {
+      "name": "Full motion added stock / H10",
+      "status": "PASS",
+      "gap_lower_bound_mm": 51.21996791675094
+    }
+  ],
+  "metrics": {
+    "revision": "R16",
+    "source_sha256": "1f492dd841c35a14f488be418e4f4dd8dea8edb63f3d321a492dc2ec3c907ab4",
+    "baseline_source_sha256": "97e2010cc17d06eb8648cf278b9aae2fd85b6e909bd657b9b216f3b37748665f",
+    "baseline_native_step_sha256": "5964654c121d6d375011bfb24144b2e00678a7ccac430490e83349c44de5842e",
+    "changed": [
+      "P01"
+    ],
+    "new_parts": [],
+    "other_native_bodies_unchanged": 92,
+    "contact_width_mm": 126,
+    "contact_depth_mm": 13,
+    "shoulder_width_mm": 130,
+    "central_wrist_face_x_mm": -29,
+    "crown_z_mm": 33,
+    "central_top_radius_mm": 5,
+    "sensor_side_top_radius_mm": 3,
+    "rail_end_radius_mm": 3,
+    "shoulder_top_radius_mm": 4,
+    "shoulder_end_radius_mm": 2,
+    "thumb_return_centers_y_mm": [
+      -51,
+      51
+    ],
+    "thumb_return_depth_mm": 4,
+    "thumb_return_plan_radius_mm": 8,
+    "thumb_return_ceiling_degrees": 45,
+    "thumb_mouth_radius_mm": 0.8,
+    "contact_envelope_mm": [
+      [
+        -29.0,
+        -63.0,
+        14.4
+      ],
+      [
+        -15.999999999999993,
+        63.00000000000001,
+        33.0
+      ]
+    ],
+    "shoulder_envelopes_mm": [
+      [
+        [
+          -24.0,
+          -65.00000000000001,
+          24.0
+        ],
+        [
+          -7.999999999999998,
+          -37.0,
+          33.0
+        ]
+      ],
+      [
+        [
+          -24.0,
+          37.0,
+          24.0
+        ],
+        [
+          -7.999999999999998,
+          65.0,
+          33.0
+        ]
+      ]
+    ],
+    "added_mm3": 10945.019296099812,
+    "removed_mm3": 7693.914151294866,
+    "P01_volume_mm3": 167947.94183153423,
+    "baseline_P01_volume_mm3": 164696.8338207341,
+    "obsolete_step_removed_bounds_mm": [
+      [
+        -40,
+        -70,
+        11.5
+      ],
+      [
+        -29,
+        70,
+        14.5
+      ]
+    ],
+    "wristward_roof_thickness_mm": 2,
+    "preserved": "Original rod sockets, reaction/guide stock belowZ30, lower roof/floor outside declared obsolete step, continuous2mm wristward electronics roof, clips, strap slots and all non-P01 bodies.",
+    "limitations": "Local nominal geometry only; native regeneration, full service audits, sliced toolpaths and physical fit/load tests are separate.",
+    "strap_mount": {
+      "slot_count": 4,
+      "position_count": 2,
+      "position_x_mm": [
+        28,
+        65
+      ],
+      "position_spacing_mm": 37,
+      "slot_center_y_mm": [
+        -57.5,
+        57.5
+      ],
+      "slot_size_mm": [
+        27,
+        4
+      ],
+      "slot_plan_end_radius_mm": 2,
+      "slot_top_radius_mm": 0.8,
+      "slot_bottom_chamfer_mm": 0.8,
+      "slot_bottom_chamfer_degrees": 45,
+      "strap_width_mm": 25,
+      "strap_thickness_envelope_mm": 2,
+      "external_doubled_thickness_envelope_mm": 4,
+      "minimum_throat_chord_at_2mm_band_mm": 26.464101615137753,
+      "overall_width_mm": 132.4,
+      "main_floor_width_mm": 132,
+      "existing_latch_boss_width_mm": 132.4,
+      "eye_z_mm": [
+        -2,
+        4
+      ],
+      "original_floor_thickness_mm": 6,
+      "floor_recess_mm": 0,
+      "nominal_outer_bar_mm": 6.5,
+      "minimum_outer_bar_at_top_surface_mm": 4.2,
+      "nominal_inner_rail_mm": 17.5,
+      "slot_end_spacing_mm": 10,
+      "strap_quantity": 2,
+      "straps_printed": false,
+      "extra_printed_parts": 0,
+      "routing": "Each end rises through its inboard slot, turns over the outer bearing strip, descends outside and fastens back to itself. The free strap wraps under the chosen object; no across-top ribbon. Folded ends remain outside.",
+      "route_audit_extent_z_mm": [
+        -20,
+        8
+      ],
+      "route_audit_outer_y_mm": 70,
+      "intended_bearing_contacts": "Top of outer strip atZ4 and outside edge atY+/-66. Positive volume overlap prohibited; face contact intended.",
+      "station_selection": "X28/65 keeps the rear25mm ribbon span3.5mm before the exact native full-stroke rear-bridge startX81; front band beginsX15.5 after the fixedseat endX12. Source carriage is already advanced5mm in the native rest configuration; audit adds the full30mm stroke to that native pose. OriginalX80 rearstation would interfere with the moving bridge.",
+      "limitations": "Nominal25x2mm ribbon allowance. Physical strap fit, force capacity and creep require printed validation; smaller37mm station spacing gives less rotational restraint than R14."
+    }
+  },
+  "generator_sha256": "6e8137f128a4b742f1876319cd9a92767d6bb380725f321a7e4d1372250c6d9e"
+}

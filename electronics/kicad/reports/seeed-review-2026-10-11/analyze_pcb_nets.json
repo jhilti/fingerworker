@@ -1,0 +1,25 @@
+{
+  "tool": "analyze_pcb_nets",
+  "arguments": {
+    "file_path": "/Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_pcb"
+  },
+  "result": {
+    "meta": {
+      "fastmcp": {
+        "wrap_result": true
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "# PCB Routing Analysis: /Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_pcb\n\n\u26a0\ufe0f pcbnew not available \u2014 text-based analysis (limited precision)\n\n## Overview\n**Track Segments:** 309\n**Vias:** 75\n**Copper Zones:** 4\n\n## Track Width Distribution\n| Width | Count |\n|-------|-------|\n| 0.200mm | 222x |\n| 0.400mm | 87x |\n\n## Via Drill Distribution\n**Total vias:** 75\n\n| Drill Size | Count |\n|------------|-------|\n| 0.300mm | 75x |\n\n## Top 20 Nets by Track Length\n| Net | Length (mm) | Segments | Widths | Layers |\n|-----|-------------|----------|--------|--------|\n| V3V3 | 82.94 | 36 | 0.400 | B.Cu, F.Cu, In2.Cu |\n| VBAT | 64.61 | 11 | 0.400 | F.Cu, In2.Cu |\n| VBUS_USB | 64.57 | 7 | 0.200 | B.Cu, F.Cu |\n| ADC_CS_MCU | 63.40 | 9 | 0.200 | F.Cu, In2.Cu |\n| USB_PRESENT | 60.26 | 13 | 0.200 | F.Cu, In2.Cu |\n| BUTTON_N | 60.03 | 15 | 0.200 | F.Cu, In2.Cu |\n| ENDSTOP_N | 57.35 | 19 | 0.200 | F.Cu, In2.Cu |\n| BOOST_EN | 51.65 | 12 | 0.200 | F.Cu, In2.Cu |\n| ADC_DRDY_N | 46.73 | 14 | 0.200 | F.Cu, In2.Cu |\n| ANALOG_EN | 44.73 | 14 | 0.200 | F.Cu, In2.Cu |\n| SPI_MISO | 40.68 | 14 | 0.200 | F.Cu, In2.Cu |\n| V5A | 39.76 | 22 | 0.400 | F.Cu, In2.Cu |\n| SPI_MOSI_MCU | 38.31 | 9 | 0.200 | F.Cu, In2.Cu |\n| SPI_SCK_MCU | 35.78 | 8 | 0.200 | F.Cu, In2.Cu |\n| ADC_CS_N | 30.12 | 15 | 0.200 | B.Cu, F.Cu, In2.Cu |\n| BUTTON_RAW | 24.43 | 12 | 0.200 | F.Cu, In2.Cu |\n| EXC_SENSE_N | 23.98 | 11 | 0.200 | F.Cu, In2.Cu |\n| VBOOST | 16.14 | 9 | 0.400 | F.Cu, In2.Cu |\n| SPI_SCK_ADC | 14.83 | 7 | 0.200 | F.Cu, In2.Cu |\n| END_GATE | 14.64 | 14 | 0.200 | F.Cu |",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": {
+      "result": "# PCB Routing Analysis: /Users/jonashilti/Documents/ChatGPT/fingerworker/electronics/kicad/Fingerworker_RevA.kicad_pcb\n\n\u26a0\ufe0f pcbnew not available \u2014 text-based analysis (limited precision)\n\n## Overview\n**Track Segments:** 309\n**Vias:** 75\n**Copper Zones:** 4\n\n## Track Width Distribution\n| Width | Count |\n|-------|-------|\n| 0.200mm | 222x |\n| 0.400mm | 87x |\n\n## Via Drill Distribution\n**Total vias:** 75\n\n| Drill Size | Count |\n|------------|-------|\n| 0.300mm | 75x |\n\n## Top 20 Nets by Track Length\n| Net | Length (mm) | Segments | Widths | Layers |\n|-----|-------------|----------|--------|--------|\n| V3V3 | 82.94 | 36 | 0.400 | B.Cu, F.Cu, In2.Cu |\n| VBAT | 64.61 | 11 | 0.400 | F.Cu, In2.Cu |\n| VBUS_USB | 64.57 | 7 | 0.200 | B.Cu, F.Cu |\n| ADC_CS_MCU | 63.40 | 9 | 0.200 | F.Cu, In2.Cu |\n| USB_PRESENT | 60.26 | 13 | 0.200 | F.Cu, In2.Cu |\n| BUTTON_N | 60.03 | 15 | 0.200 | F.Cu, In2.Cu |\n| ENDSTOP_N | 57.35 | 19 | 0.200 | F.Cu, In2.Cu |\n| BOOST_EN | 51.65 | 12 | 0.200 | F.Cu, In2.Cu |\n| ADC_DRDY_N | 46.73 | 14 | 0.200 | F.Cu, In2.Cu |\n| ANALOG_EN | 44.73 | 14 | 0.200 | F.Cu, In2.Cu |\n| SPI_MISO | 40.68 | 14 | 0.200 | F.Cu, In2.Cu |\n| V5A | 39.76 | 22 | 0.400 | F.Cu, In2.Cu |\n| SPI_MOSI_MCU | 38.31 | 9 | 0.200 | F.Cu, In2.Cu |\n| SPI_SCK_MCU | 35.78 | 8 | 0.200 | F.Cu, In2.Cu |\n| ADC_CS_N | 30.12 | 15 | 0.200 | B.Cu, F.Cu, In2.Cu |\n| BUTTON_RAW | 24.43 | 12 | 0.200 | F.Cu, In2.Cu |\n| EXC_SENSE_N | 23.98 | 11 | 0.200 | F.Cu, In2.Cu |\n| VBOOST | 16.14 | 9 | 0.400 | F.Cu, In2.Cu |\n| SPI_SCK_ADC | 14.83 | 7 | 0.200 | F.Cu, In2.Cu |\n| END_GATE | 14.64 | 14 | 0.200 | F.Cu |"
+    },
+    "isError": false
+  }
+}

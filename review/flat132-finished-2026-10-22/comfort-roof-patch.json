@@ -1,0 +1,24 @@
+{
+  "schema": "fingerworker.flat132.comfort-roof-patch.v1",
+  "date": "2026-10-22",
+  "baseline_source": "review/onshape-flat132-2026-10-19/fingerworker_flat132.fs",
+  "baseline_sha256": "3e5de8f56211cf2ed063b6b4294da5f77fea4c3fb881fa0c13b1288eca7932cc",
+  "patch_scope": "Apply only these two exact replacements to a separate finalstudy source. Do not change the preserved V6source.",
+  "replacements": [
+    {
+      "id": "P03_adjuster_sweep_relief",
+      "old": "        cut(context,id + \"openSleeve\",body(id + \"palmCushion\"),qUnion([body(id + \"sleeveCoreTool\"),body(id + \"sleeveBottomTool\")]));",
+      "new": "        cut(context,id + \"openSleeve\",body(id + \"palmCushion\"),qUnion([body(id + \"sleeveCoreTool\"),body(id + \"sleeveBottomTool\")]));\n        // Clear the M6 adjuster rear shaft over the full0..2 mm preload range.\n        // This is a local opening in the soft sleeve only; preserve the core,\n        // primary wrist contact surface, screw length and thread engagement.\n        makeCylinder(context,id + \"sleeveAdjusterRelief\",\n            vector(-24.5,0,18)*mm,vector(-21.3,0,18)*mm,3.5*mm);\n        cut(context,id + \"sleeveAdjusterClearance\",body(id + \"palmCushion\"),\n            body(id + \"sleeveAdjusterRelief\"));",
+      "expected_count": 1
+    },
+    {
+      "id": "P04_restore_rear_roof",
+      "old": "        // R12 clearance lies entirely behind pocket X111. Steel seat OD22\n        // occupies X113..116; retain its X116 planar reaction datum.",
+      "new": "        // Restore the local upper roof after deckTopRound's tangent R1 blend.\n        // Two shallow caps stay within the existing84 mm deck width andZ30.\n        // R0.35 plan corners blend each short cap; no spring-facing projection.\n        // Join before cutting R12 so the steel-seat clearance stays unchanged.\n        for (var side in [-1,1])\n        {\n            const t=side == -1 ? \"0\" : \"1\";\n            const lowY=side == -1 ? -42 : 40.5;\n            const highY=side == -1 ? -40.5 : 42;\n            makeBox(context,id + (\"rearRoofCap\"~t),\n                vector(111.5,lowY,28.5)*mm,vector(116.5,highY,30)*mm);\n            opFillet(context,id + (\"rearRoofCapPlanRound\"~t),{\n                \"entities\":qParallelEdges(qCreatedBy(id + (\"rearRoofCap\"~t),EntityType.EDGE),vector(0,0,1)),\n                \"radius\":0.35*mm,\"tangentPropagation\":true });\n            join(context,id + (\"rearRoofCapJoin\"~t),\n                [body(id + \"carriageBridge\"),body(id + (\"rearRoofCap\"~t))]);\n        }\n        // R12 clearance lies entirely behind pocket X111. Steel seat OD22\n        // occupies X113..116; retain its X116 planar reaction datum.",
+      "expected_count": 1
+    }
+  ],
+  "resulting_v6_plus_only_these_patches_sha256": "bd28fac8cb4f4644b35d99d4594325cd8c0f90ed4dc254a4bb76290a28fec8f9",
+  "native_status": "NOT_COMPILED: exact FS uses existing helper/API patterns; root must regenerate and export native geometry.",
+  "mock_validation": "comfort-roof-mock.json"
+}
