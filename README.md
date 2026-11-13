@@ -1,8 +1,21 @@
 # Fingerworker
 
+[![Fingerworker R20 – interaktive 3D-Ansicht öffnen](docs/images/fingerworker-r20.png)](https://jhilti.github.io/fingerworker/)
+
+**[Modell in 3D ansehen →](https://jhilti.github.io/fingerworker/)** · Drehen, zoomen und Bauteilgruppen einblenden.
+
 Ein 3D-gedruckter Prototyp für Fingerkrafttraining mit federgeführtem Griff, organischer Handballenauflage und optionaler Kraftmessung. Dieses Repository enthält CAD-Quellen, Firmware, eine iPhone-App, Elektronikentwurf und die Entwicklungshistorie.
 
 *A 3D-printed finger-training prototype with a spring-loaded grip and optional force sensing. Current mechanical revision: **Flat132 R20**. CAD, firmware, iOS app and electronics are development prototypes; physical load capacity and clinical suitability have not been validated.*
+
+## Die App
+
+Screenshots aus dem iOS-Simulator mit simulierten Testdaten.
+
+| Training | Messung | Einstellungen |
+| --- | --- | --- |
+| [<img src="docs/images/app-training.png" width="230" alt="Fingerworker-App: geführtes Training">](docs/images/app-training.png) | [<img src="docs/images/app-measurement.png" width="230" alt="Fingerworker-App: Kraftmessung mit simulierten Testdaten">](docs/images/app-measurement.png) | [<img src="docs/images/app-settings.png" width="230" alt="Fingerworker-App: Trainingseinstellungen">](docs/images/app-settings.png) |
+| Geführte Sätze und Handwechsel. | Kraftverlauf und Messwerte. | Trainingsart, Umfang und Pausen. |
 
 ## Modell ansehen
 
