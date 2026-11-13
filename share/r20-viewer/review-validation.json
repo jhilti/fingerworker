@@ -1,11 +1,10 @@
 {
   "status": "PASS_R20_SHARE_STATIC_AND_SOURCE_BINDING",
-  "html_sha256": "2362635e1bf85c2c536d24a2df35be29fcc17db0b073d4d8eb2344a11de2d74a",
-  "zip_sha256": "806871ba89a0a312c060a7a23cf2fd2cc98bf46877d29acac8e36c94b76a958c",
+  "html_sha256": "545f5bc0397eebe2c536b5f3ce24eabc8fe28c44f0e0ccef62c14a8820e7c31e",
+  "zip_sha256": "a21b9d032aa0817b1a0bdaacdf90b682c962d2527eb8f62e9d46783b12f6af84",
   "native_release_binding_sha256": "f133bcfad204d4f5e6afea79212f7057538faa7d003912fed702e3b94d383e28",
   "exact_embedded_payload": true,
   "zip_integrity": true,
-  "r19_artifacts_unchanged": true,
   "visibility_counts": {
     "all": 94,
     "mechanics": 39,
@@ -22,12 +21,13 @@
     "embedded_fallback": true,
     "touch_controls_present": true
   },
-  "browser_validation": "PENDING_ROOT_CHECK_R20; controls previously passed in R19",
+  "browser_validation": "PASS_R20_PURPOSE_FEATURES_BROWSER_REVIEW",
   "printing_setup_changed": false,
   "build_sources_sha256": {
-    "share/r19-viewer/build.py": "4c25031adc459367bb1fcab8960fc0dcd3e51c7a02fe72063dc77c1042f3460f",
-    "share/r19-viewer/template.html": "0a7a618cf656dac822a0bf1c936f4a6f8a85f61b87b6ff9a09e4d90bc33cd288",
+    "share/r19-viewer/build.py": "d0b7036e5957546e36aaf4a1bc4604830c6898230e23d7271ebd1106e48990c8",
+    "share/r19-viewer/template.html": "b7895b54ee10b907dc555328bdfa769ab5aa189cc19e42bcdf93cacacc0f31f7",
     "share/r19-viewer/viewer.js": "2736389e8fea103c1d01ef1f44f45c45d97fdc7734c4b4c06d64391557c33674",
-    "share/r20-viewer/highlights.json": "aabd987027a476553b19dc0a2a5f619bcc9fc6cf20118a4666bcb36b8d5235ef"
-  }
+    "share/r20-viewer/highlights.json": "a3ddbad525bae1e596afb0eb73825e8fef284848ff0e455c53618b6a8e4e9017"
+  },
+  "pages_html_identical": true
 }

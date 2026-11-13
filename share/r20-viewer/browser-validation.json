@@ -1,14 +1,34 @@
 {
-  "status": "PASS_BROWSER_R20_SMOKE",
+  "status": "PASS_R20_PURPOSE_FEATURES_BROWSER_REVIEW",
   "revision": "R20",
+  "date": "2026-11-13",
+  "html_sha256": "545f5bc0397eebe2c536b5f3ce24eabc8fe28c44f0e0ccef62c14a8820e7c31e",
   "ready": true,
   "visible_parts": 94,
   "inside_visible_parts": 92,
-  "inside_underside_visually_verified": true,
-  "desktop_horizontal_overflow": false,
-  "browser_errors": [],
   "reset_verified": true,
-  "controls_mobile_layout": "Same viewer code checked at390x844 inR19; no horizontal overflow, rotate/zoom/reset passed. R20changes geometry/copy only.",
-  "screenshot": "share/r20-viewer/preview-desktop.png",
-  "print_setup_changed": false
+  "desktop": {
+    "viewport": [
+      1280,
+      720
+    ],
+    "horizontal_overflow": false,
+    "goal_visible": true,
+    "feature_columns": 4
+  },
+  "mobile": {
+    "viewport": [
+      390,
+      844
+    ],
+    "horizontal_overflow": false,
+    "goal_visible": true,
+    "feature_columns": 1
+  },
+  "browser_errors": [],
+  "screenshots": [
+    "share/r20-viewer/purpose-desktop.png",
+    "share/r20-viewer/purpose-mobile.jpg"
+  ],
+  "printing_setup_changed": false
 }

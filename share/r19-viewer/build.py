@@ -66,7 +66,7 @@ def main():
     parser.add_argument("--manifest", type=Path, help="Display geometry manifest.json")
     parser.add_argument("--model", type=Path, help="Gzip/base64 display model payload")
     parser.add_argument("--fallback", type=Path, help="Native assembly PNG preview")
-    parser.add_argument("--highlights", type=Path, help='JSON array of three {"title": "…", "text": "…"} objects; text is HTML-escaped')
+    parser.add_argument("--highlights", type=Path, help='JSON array of three or four {"title": "…", "text": "…"} objects; text is HTML-escaped')
     parser.add_argument("--date", dest="display_date", help="Display date YYYY-MM-DD; defaults to manifest date")
     parser.add_argument("--output", type=Path, help="HTML destination; default share/Fingerworker_<revision>_3D.html")
     parser.add_argument("--report", type=Path, help="Build/static-check manifest destination")
@@ -110,8 +110,8 @@ def main():
     if not preview.startswith(b"\x89PNG\r\n\x1a\n"):
         raise ValueError("--fallback must be a PNG image")
     highlights = json.loads(args.highlights.read_text()) if args.highlights else DEFAULT_HIGHLIGHTS
-    if not isinstance(highlights, list) or len(highlights) != 3 or any(not isinstance(p, dict) or not all(isinstance(p.get(k), str) and p[k].strip() for k in ("title", "text")) for p in highlights):
-        raise ValueError("--highlights must contain three title/text objects")
+    if not isinstance(highlights, list) or len(highlights) not in (3, 4) or any(not isinstance(p, dict) or not all(isinstance(p.get(k), str) and p[k].strip() for k in ("title", "text")) for p in highlights):
+        raise ValueError("--highlights must contain three or four title/text objects")
     day = date.fromisoformat(args.display_date or manifest["date"])
     month = ("JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC")[day.month - 1]
     display_date = f"{day.day:02d} {month} {day.year}"

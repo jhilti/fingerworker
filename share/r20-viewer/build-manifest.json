@@ -12,8 +12,8 @@
   "native_zip_sha256": "702d1e2194bd5fc3d1d3d6e260b4ac289ffd66ea0702c957cdb15a33745908c5",
   "onshape_version": "0e06e3d98b9ecb574ee41402",
   "fallback_sha256": "5507ee1fafe79d80f047b557690202ad813694405b8a58416d5eaa74291843e5",
-  "html_bytes": 1832323,
-  "html_sha256": "2362635e1bf85c2c536d24a2df35be29fcc17db0b073d4d8eb2344a11de2d74a",
+  "html_bytes": 1835005,
+  "html_sha256": "545f5bc0397eebe2c536b5f3ce24eabc8fe28c44f0e0ccef62c14a8820e7c31e",
   "self_contained": true,
   "printing_setup_changed": false,
   "static_checks": {
@@ -27,6 +27,6 @@
     "touch_controls_present": true
   },
   "check_only": false,
-  "zip_bytes": 1367674,
-  "zip_sha256": "806871ba89a0a312c060a7a23cf2fd2cc98bf46877d29acac8e36c94b76a958c"
+  "zip_bytes": 1368551,
+  "zip_sha256": "a21b9d032aa0817b1a0bdaacdf90b682c962d2527eb8f62e9d46783b12f6af84"
 }
