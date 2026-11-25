@@ -4,6 +4,10 @@
 
 Die Veröffentlichung stellt Entwicklungsquellen und nachvollziehbare CAD-Prüfungen bereit. Sie ist keine Freigabe für Druck, Lastbetrieb oder klinische Anwendung.
 
+## Entwicklungsstand R31 mit Rev‑E‑Elektronik
+
+Die montierte R31-Federvariante mit Rev‑E‑Platine und den beiden Daumentastern ist im Entwicklungsnotizbuch und in Onshape dokumentiert. [Drehbare R31‑Rev‑E‑Ansicht](https://fingerworker-development-notebook.jonashilti.chatgpt.site/#cad-r31-rev-e) · [Vollständige Baugruppe in Onshape](https://cad.onshape.com/documents/15316cc6370631845af136b2/w/8b79384f95b34ba58197ab08/e/061a7997871e238371c40026)
+
 ## Inhalt und Ausnahmen
 
 Im Repository stehen die eigenen CAD-Quellen, Firmware, iOS-App, Elektronikquellen, technische Dokumentation, kompakte Prüfergebnisse und die eigenständige 3D-Ansicht. Technische Quellen und historische Revisionsberichte bleiben erhalten, soweit sie nicht zu Studien mit persönlichen Referenzdaten gehören.
@@ -49,7 +53,7 @@ Diese zusätzlichen Archive werden separat heruntergeladen. Der Download-Helfer 
 
 ## 3D-Ansicht teilen
 
-Die öffentliche interaktive Ansicht ist unter **[jhilti.github.io/fingerworker](https://jhilti.github.io/fingerworker/)** erreichbar. Diesen Link zum direkten Betrachten teilen.
+Die öffentliche interaktive **R20-Ansicht** ist unter **[jhilti.github.io/fingerworker](https://jhilti.github.io/fingerworker/)** erreichbar. Diesen Link zum direkten Betrachten teilen.
 
 [share/Fingerworker_R20_3D.html](share/Fingerworker_R20_3D.html) ist eine eigenständige Datei mit eingebettetem Modell. Herunterladen und in einem Browser öffnen; ein Webserver und eine Onshape-Anmeldung sind dafür nicht erforderlich. GitHub rendert die Datei auf der normalen Repository-Seite nicht als interaktive Website.
 

@@ -2,11 +2,20 @@
 
 [![Fingerworker R20 – interaktive 3D-Ansicht öffnen](docs/images/fingerworker-r20.png)](https://jhilti.github.io/fingerworker/)
 
-**[Modell in 3D ansehen →](https://jhilti.github.io/fingerworker/)** · Drehen, zoomen und Bauteilgruppen einblenden.
+**[R31 mit Rev E in 3D ansehen →](https://fingerworker-development-notebook.jonashilti.chatgpt.site/#cad-r31-rev-e)** · [R20-3D-Archiv](https://jhilti.github.io/fingerworker/)
 
 Ein 3D-gedruckter Prototyp für Fingerkrafttraining mit federgeführtem Griff, organischer Handballenauflage und optionaler Kraftmessung. Dieses Repository enthält CAD-Quellen, Firmware, eine iPhone-App, Elektronikentwurf und die Entwicklungshistorie.
 
-*A 3D-printed finger-training prototype with a spring-loaded grip and optional force sensing. Current mechanical revision: **Flat132 R20**. CAD, firmware, iOS app and electronics are development prototypes; physical load capacity and clinical suitability have not been validated.*
+*A 3D-printed finger-training prototype with a spring-loaded grip and optional force sensing. The latest documented assembly is Flat132 R31 with Rev E electronics.*
+
+## R31 mit Rev‑E‑Elektronik
+
+**Stand 25.11.2026.** Das vollständige R31-Modell zeigt den Federbetrieb in Ruhestellung mit flacher Handauflage, fester Sensorhaltnase, FX1901-Kraftsensor, Fingerschlitten, Akku und USB-C-Zugang von oben. Je ein verdrahteter Daumentaster sitzt links und rechts am Querbalken. Beide teilen sich den Eingang D7 über J4. Im iOS-Basistraining löst ein kurzer Druck einen Handwechsel aus.
+
+Schaltplan- und Layoutprüfung in KiCad sowie Firmware- und iOS-Build sind abgeschlossen. Passung, Bediengefühl und Handwechsel per Bluetooth stehen am verdrahteten Muster noch zur Prüfung aus.
+
+[Vollständige Baugruppe in Onshape](https://cad.onshape.com/documents/15316cc6370631845af136b2/w/8b79384f95b34ba58197ab08/e/061a7997871e238371c40026) · [Entwicklungsnotizbuch mit drehbarem 3D-Modell](https://fingerworker-development-notebook.jonashilti.chatgpt.site/#cad-r31-rev-e)
+
 
 ## Die App
 
@@ -22,10 +31,10 @@ Screenshots aus dem iOS-Simulator mit simulierten Testdaten.
 - **[R20-3D-Ansicht direkt öffnen](https://jhilti.github.io/fingerworker/)** – öffentliche interaktive Ansicht zum Teilen.
 - [R20-3D-Ansicht als HTML](share/Fingerworker_R20_3D.html) – herunterladen und offline im Browser öffnen. GitHub zeigt die HTML-Datei auf der Repository-Seite als Quelltext an.
 - [Projektübersicht](Uebersicht.html) – lokale Übersicht mit Modell und Dokumentation. Für ihre relativen Verweise das Repository herunterladen.
-- [Onshape R20, unveränderliche Version](https://cad.onshape.com/documents/15316cc6370631845af136b2/v/0e06e3d98b9ecb574ee41402/e/d253eb87b70818ebde8215f0) – maßgeblicher nativer CAD-Stand.
+- [Onshape R20, unveränderliche Version](https://cad.onshape.com/documents/15316cc6370631845af136b2/v/0e06e3d98b9ecb574ee41402/e/d253eb87b70818ebde8215f0) – nativer CAD-Stand des R20-Releases.
 - [Release v0.20.0-prototype](https://github.com/jhilti/fingerworker/releases/tag/v0.20.0-prototype) – native CAD-Downloads und Veröffentlichungsstand.
 
-## Aktueller Stand: R20
+## Veröffentlichter Prototypstand R20
 
 <!-- CURRENT_FLAT132_R20_START -->
 
@@ -72,7 +81,7 @@ Weitere Downloads im selben Release:
 | [Spezifikation](SPECIFICATION.md) / [offene Arbeiten](GAP_ANALYSIS.md) | Anforderungen und noch ausstehende Hardware-Nachweise |
 | [Druckstatus](print/REVISION_STATUS.md) | Zuordnung früherer Druckstände; R20-Druckvorbereitung pausiert |
 
-Firmware, App und Elektronik sind Teil des Prototyps. Eine dokumentierte Softwareprüfung ersetzt keine elektrische oder mechanische Qualifikation des aufgebauten Geräts. Bei historischen Dokumenten gilt die jeweils genannte Revision; für den aktuellen mechanischen Stand sind R20-Bericht und R20-Montage maßgeblich.
+Firmware, App und Elektronik sind Teil des Prototyps. Eine dokumentierte Softwareprüfung ersetzt keine elektrische oder mechanische Qualifikation des aufgebauten Geräts. Bei historischen Dokumenten gilt die jeweils genannte Revision.
 
 ## Umfang der Veröffentlichung
 
